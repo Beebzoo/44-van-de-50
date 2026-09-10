@@ -18,7 +18,7 @@ const app = document.getElementById("app");
 const S = {
   route: { name: "route" }, index: null, units: [], unitById: {}, bank: {}, qById: {}, pools: {}, scenes: {},
   attempts: [], history: new Map(), states: {}, settings: {}, boxes: new Map(),
-  run: null, sheet: null, viewer: null, toast: null, familie: null, lezenStart: null, zojuistGehaald: null,
+  run: null, sheet: null, viewer: null, toast: null, gemeld: new Set(), familie: null, lezenStart: null, zojuistGehaald: null,
 };
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const DAGEN = ["zo", "ma", "di", "wo", "do", "vr", "za"];
@@ -77,6 +77,7 @@ async function refresh() {
   S.history = V.questionHistory(S.attempts);
   S.states = V.unitStates(S.attempts, S.units, S.pools, S.history);
   S.boxes = SRS.boxes(S.attempts, S.qById, S.states);
+  S.gemeld = new Set(S.attempts.filter(a => a.kind === "flag").map(a => a.ref));
 }
 async function log(a) { await store.addAttempt(a); await refresh(); sync.flush().then(n => { if (n) refresh().then(render); }); }
 
@@ -322,7 +323,8 @@ const SCREENS = {
         <div class="blokje lees"><span class="label">Valkuil</span>${esc(u2.valkuil)}</div>
         ${u2.onthoud ? `<div class="onthoud"><span class="label">Onthoud</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
-        <p class="meta-3" style="margin:8px 0 0">${esc(bron)}${pagina ? ` · <a href="#/blok/${u.id}/lezen/${pagina.id}">Lees ${esc(kortePaginanaam(pagina))} opnieuw</a>` : ""}</p></section>`;
+        <p class="meta-3" style="margin:8px 0 0">${esc(bron)}${pagina ? ` · <a href="#/blok/${u.id}/lezen/${pagina.id}">Lees ${esc(kortePaginanaam(pagina))} opnieuw</a>` : ""}</p>
+        <button class="knop tekstknop" style="min-height:36px;padding:0" data-actie="meld-fout" data-q="${esc(q.id)}">${S.gemeld.has(q.id) ? "Gemeld" : "Klopt deze vraag niet?"}</button></section>`;
     }
     const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${uitleg}`;
     const onder = toon
@@ -396,6 +398,7 @@ const SCREENS = {
       <button class="knop tekstknop" data-actie="sync-nu">Nu synchroniseren</button>` : `<p class="lees">Koppelen met je computer staat klaar in de code, maar het Supabase-project is nog niet ingevuld. Tot die tijd blijft alles op dit apparaat.</p>`}
       <h2 class="kop2">Gegevens</h2>
       <p class="lees">${S.attempts.length} pogingen op dit apparaat.</p>
+      ${S.gemeld.size ? `<p class="lees">Je meldde ${S.gemeld.size} ${S.gemeld.size === 1 ? "vraag" : "vragen"} als fout: ${esc([...S.gemeld].join(", "))}. Die staan in je export.</p>` : ""}
       <div class="knopnaast"><button class="knop omlijnd" data-actie="exporteer">Exporteer</button><button class="knop omlijnd" data-actie="wis">Wis alles</button></div>
       <h2 class="kop2">Over</h2>
       <p class="meta">Inhoud versie ${esc(S.index.versie)} · ${Object.keys(S.qById).length} vragen · ${S.units.length} blokken</p>
@@ -490,6 +493,14 @@ async function onClick(e) {
   if (a === "oefen-fouten") { S.run = null; go("quiz/fouten/fouten"); return; }
   if (a === "klaar-lezen") { const u = S.unitById[el.dataset.unit]; S.lezenStart = null; await log({ kind: "lezen", ref: u.id, unit: u.id, klaar: true, duration_ms: 0, content_version: S.index.versie, answers: [] }); go("gehaald/" + u.id); return; }
   if (a === "instelling") { await setSetting(el.dataset.naam, el.dataset.waarde); render(); return; }
+  if (a === "meld-fout") {
+    const qid = el.dataset.q;
+    if (S.gemeld.has(qid)) { toast("Deze had je al gemeld"); return; }
+    S.gemeld.add(qid);
+    await log({ kind: "flag", ref: qid, unit: (S.qById[qid] || {}).unit, content_version: S.index.versie, answers: [] });
+    toast("Gemeld. Ik kijk ernaar bij de volgende ronde");
+    return;
+  }
   if (a === "kopieer-code") { try { await navigator.clipboard.writeText(S.koppelcode); toast("Gekopieerd"); } catch (e) { toast("Kopieren lukt niet, typ de code over"); } return; }
   if (a === "koppel") { const inp = document.getElementById("koppelcode"); try { S.koppelcode = await sync.setLearnerCode(inp.value); toast("Gekoppeld, gegevens worden opgehaald"); const n = await sync.flush(); await refresh(); toast(n ? n + " pogingen opgehaald" : "Gekoppeld"); render(); } catch (e) { toast(e.message); } return; }
   if (a === "sync-nu") { toast("Synchroniseren"); const n = await sync.flush(); await refresh(); toast(sync.state().fout ? "Mislukt: " + sync.state().fout : n ? n + " nieuwe pogingen" : "Alles is gelijk"); render(); return; }
