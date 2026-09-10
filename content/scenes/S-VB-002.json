@@ -1,0 +1,51 @@
+{
+  "id": "S-VB-002",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "west"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Je nadert een voorrangsweg. Voor je liggen haaientanden en rechts staat bord B6. Van links komt een grijze auto over de voorrangsweg. Je wilt linksaf."
+}

@@ -197,10 +197,12 @@ function gateDashes() {
     if (!exists(f) || fs.statSync(f).isDirectory()) continue;
     const text = fs.readFileSync(f, "utf8");
     const lines = text.split("\n");
+    /* SQL comments are double hyphens by syntax; only the typographic dashes count there */
+    const test = /\.sql$/i.test(rel) ? /[\u2012\u2013\u2014\u2015]/ : DASHES;
     lines.forEach((l, i) => {
       /* markdown table separator rows are hyphens by syntax, not by prose */
       if (/^[\s|:\u002d]+$/.test(l)) return;
-      if (DASHES.test(l)) fail("streepjes", rel + ":" + (i + 1) + " bevat een em dash, en dash of dubbel streepje");
+      if (test.test(l)) fail("streepjes", rel + ":" + (i + 1) + " bevat een em dash, en dash of dubbel streepje");
     });
   }
 }
@@ -478,8 +480,17 @@ function main() {
     if (s.id !== id) fail("scene " + id, "id in bestand is " + s.id);
     const ego = (s.actoren || []).filter(a => a.id === "ego").length;
     if (ego !== 1) fail("scene " + id, "precies een actor met id ego");
-    for (const a of s.actoren || []) if (a.arm !== "rotonde" && !s.armen.includes(a.arm)) fail("scene " + id, "actor " + a.id + " op arm " + a.arm + " die niet bestaat");
-    for (const b of s.borden || []) { checkSign(b.code, "scene " + id); if (!s.armen.includes(b.arm)) fail("scene " + id, "bord op arm " + b.arm + " die niet bestaat"); }
+    const SPECIAL = new Set(["rotonde", "uitrit", "fietspad"]);
+    for (const a of s.actoren || []) {
+      if (!SPECIAL.has(a.arm) && !s.armen.includes(a.arm)) fail("scene " + id, "actor " + a.id + " op arm " + a.arm + " die niet bestaat");
+      if (a.arm === "rotonde" && s.vorm !== "rotonde") fail("scene " + id, "actor " + a.id + " op de rotonde terwijl de vorm " + s.vorm + " is");
+      if (a.arm === "uitrit" && s.vorm !== "uitrit") fail("scene " + id, "actor " + a.id + " op de uitrit terwijl de vorm " + s.vorm + " is");
+      if (a.uitgang && !s.armen.includes(a.uitgang)) fail("scene " + id, "actor " + a.id + " heeft uitgang " + a.uitgang + " die niet bestaat");
+    }
+    for (const b of s.borden || []) { checkSign(b.code, "scene " + id); if (b.arm !== "rotonde" && !s.armen.includes(b.arm)) fail("scene " + id, "bord op arm " + b.arm + " die niet bestaat"); }
+    for (const m of s.markering || []) if (!s.armen.includes(m.arm)) fail("scene " + id, "markering op arm " + m.arm + " die niet bestaat");
+    for (const v of s.volgorde || []) if (!(s.actoren || []).some(a => a.id === v)) fail("scene " + id, "volgorde noemt onbekende actor " + v);
+    if (s.hoofdweg) for (const h of s.hoofdweg) if (!s.armen.includes(h)) fail("scene " + id, "hoofdweg-arm " + h + " bestaat niet");
   }
 
   const all = [];

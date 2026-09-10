@@ -5,6 +5,10 @@
    regel in a box, waarom, voorbeeld, valkuil, onthoud, zelftest. Sign
    codes in [B6] brackets become inline chips. */
 import { inlineSigns, bordRij } from "./signs.js";
+import { scenePlate } from "./scene.js";
+
+let SCENES = {};
+export const setScenes = map => { SCENES = map; };
 
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const tekst = s => inlineSigns(esc(s));
@@ -24,7 +28,7 @@ export function blockHtml(b, i) {
     case "lijst": return `<ul class="lijst lees">${b.items.map(x => `<li>${tekst(x)}</li>`).join("")}</ul>`;
     case "tabel": return `<div class="tabelwrap"><table class="tabel"><thead><tr>${b.kop.map(k => `<th>${tekst(k)}</th>`).join("")}</tr></thead><tbody>${b.rijen.map(r => `<tr>${r.map(c => `<td>${tekst(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
     case "borden": return (b.tekst ? `<p class="lees">${tekst(b.tekst)}</p>` : "") + bordRij(b.codes);
-    case "scene": return `<div class="plaat scene-placeholder">${esc(b.tekst || "Tekening volgt in fase 1.")}</div>`;
+    case "scene": return (SCENES[b.ref] ? scenePlate(SCENES[b.ref]) : `<div class="plaat scene-placeholder">${esc(b.ref)} ontbreekt</div>`) + (b.tekst ? `<p class="meta" style="margin:-4px 0 12px">${tekst(b.tekst)}</p>` : "");
     case "zelftest": return `<div class="zelftest lees" data-zelftest="${i}"><span class="meta">Zelftest</span><p style="margin:4px 0 8px">${tekst(b.vraag)}</p><button class="knop omlijnd" type="button" data-actie="toon-antwoord">Toon antwoord</button><div class="antwoord verborgen"><strong>${tekst(b.antwoord)}</strong>${b.uitleg ? `<p style="margin:6px 0 0">${tekst(b.uitleg)}</p>` : ""}</div></div>`;
     default: return "";
   }

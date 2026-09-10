@@ -1,31 +1,39 @@
 {
-  "$comment": "A top-down road scene, content/scenes/S-*.json, rendered to SVG on the device (Phase 1). Phase 0 only validates the shape.",
+  "$comment": "A top-down road scene, content/scenes/S-*.json, rendered to SVG on the device by js/scene.js. See content/schema/SCENES.md for the authoring guide. Metres are not used: positions are arm plus afstand (1 near the junction, 2 middle, 3 far), which is all a voorrang question needs.",
   "type": "object",
   "required": ["id", "vorm", "armen", "actoren", "alt"],
   "additionalProperties": false,
   "properties": {
     "id": {"type": "string", "pattern": "^S-[A-Za-z0-9-]+$"},
-    "vorm": {"enum": ["plus", "T", "Y", "rotonde", "recht"]},
-    "voorrang": {"enum": ["gelijkwaardig", "voorrangsweg", "voorrangskruispunt", "afbuigend", "verkeerslichten"]},
+    "vorm": {"enum": ["plus", "T", "rotonde", "uitrit", "recht"]},
+    "voorrang": {"enum": ["gelijkwaardig", "voorrangsweg", "voorrangskruispunt", "afbuigend", "verkeerslichten", "uitrit"]},
+    "hoofdweg": {"type": "array", "items": {"enum": ["noord", "oost", "zuid", "west"]}, "$comment": "arms that form the priority road or the bending priority; drawn wider with a continuous edge"},
     "wegdek": {"enum": ["verhard", "onverhard"]},
+    "onverhard": {"type": "array", "items": {"enum": ["noord", "oost", "zuid", "west"]}, "$comment": "arms that are unpaved"},
     "armen": {"type": "array", "minItems": 1, "items": {"enum": ["noord", "oost", "zuid", "west"]}},
+    "fietspad": {"type": "array", "items": {"enum": ["noord", "oost", "zuid", "west"]}, "$comment": "arms with a separate cycle path alongside"},
     "actoren": {"type": "array", "minItems": 1, "items": {
       "type": "object", "required": ["id", "soort", "arm", "richting"], "additionalProperties": false,
       "properties": {
-        "id": {"type": "string"},
-        "soort": {"enum": ["auto", "bestelauto", "vrachtauto", "bus", "tram", "motorfiets", "bromfiets", "fiets", "voetganger", "ruiter", "hulpdienst"]},
-        "arm": {"enum": ["noord", "oost", "zuid", "west", "rotonde"]},
+        "id": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+        "soort": {"enum": ["auto", "bestelauto", "vrachtauto", "bus", "tram", "motorfiets", "bromfiets", "fiets", "voetganger", "ruiter", "hulpdienst", "colonne"]},
+        "arm": {"enum": ["noord", "oost", "zuid", "west", "rotonde", "uitrit", "fietspad"]},
         "richting": {"enum": ["rechtdoor", "links", "rechts", "keren", "stil"]},
-        "afstand": {"type": "number"},
-        "signaal": {"enum": ["links", "rechts", "geen"]}
+        "afstand": {"type": "integer", "minimum": 1, "maximum": 3},
+        "hoek": {"type": "number", "minimum": 0, "maximum": 359, "$comment": "for arm rotonde: position on the ring in degrees, 0 is north, clockwise"},
+        "uitgang": {"enum": ["noord", "oost", "zuid", "west"]},
+        "zijde": {"enum": ["links", "rechts"], "$comment": "for voetganger and fiets on a fietspad or stoep: which side of the arm, seen in the driving direction"},
+        "signaal": {"enum": ["links", "rechts", "geen"]},
+        "label": {"type": "string", "$comment": "short name shown in volgorde questions, for example 'de tram'"}
       }}},
     "borden": {"type": "array", "items": {"type": "object", "required": ["code", "arm"], "additionalProperties": false, "properties": {
-      "code": {"type": "string"}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}, "onderbord": {"type": "string"}}}},
+      "code": {"type": "string"}, "arm": {"enum": ["noord", "oost", "zuid", "west", "rotonde"]}, "onderbord": {"type": "string"}}}},
     "markering": {"type": "array", "items": {"type": "object", "required": ["soort", "arm"], "additionalProperties": false, "properties": {
-      "soort": {"enum": ["haaientanden", "stopstreep", "zebrapad", "drempel", "blokmarkering", "fietsstrook", "rails"]}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}}}},
+      "soort": {"enum": ["haaientanden", "stopstreep", "zebrapad", "fietsoversteek", "drempel", "blokmarkering", "fietsstrook", "rails", "verdrijvingsvlak"]}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}}}},
     "gebieden": {"type": "array", "items": {"type": "object", "required": ["id", "vorm"], "additionalProperties": false, "properties": {
       "id": {"type": "string"}, "vorm": {"enum": ["cirkel", "rechthoek"]}, "x": {"type": "number"}, "y": {"type": "number"}, "r": {"type": "number"}, "w": {"type": "number"}, "h": {"type": "number"}}}},
-    "volgorde": {"type": "array", "items": {"type": "string"}},
+    "volgorde": {"type": "array", "items": {"type": "string"}, "$comment": "actor ids in the order they may go; the renderer draws numbered badges"},
+    "toonVolgorde": {"type": "boolean", "$comment": "false hides the badges even when volgorde is set (the question asks for the order)"},
     "alt": {"type": "string", "minLength": 20},
     "inspiratie": {"type": "object"}
   }

@@ -235,6 +235,20 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .beeldplaat.klein { max-height: 28vh; }
 .beeldplaat .bord { border: 0; background: none; }
 .scene-placeholder { background: var(--asfalt); color: var(--markering); border-radius: var(--r); padding: 16px; font-size: 14px; min-height: 120px; display: flex; align-items: center; }
+.scene { display: block; width: 100%; height: auto; border-radius: 4px; }
+.scene-plaat { padding: 6px; }
+.scene-plaat.klein .scene { max-height: 28vh; width: auto; margin: 0 auto; }
+.scene-knop { display: block; width: 100%; }
+.viewer .scene { width: min(92vw, 720px); height: auto; }
+.reeks { margin: 0 0 12px; }
+.reeks .stapper { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 6px 0 0; }
+.reeks .stapper .stipjes { padding: 0; }
+.reeks .stapper button { min-height: 40px; min-width: 44px; padding: 0 10px; border-radius: var(--r-klein); border: 1px solid var(--lijn-2); font-size: 14px; font-weight: 500; }
+.optie .stempel { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--lijn-2); font-family: var(--kop); font-weight: 700; font-size: 15px; color: var(--inkt-2); }
+.optie.gekozen .stempel { border-color: var(--bord-blauw); background: var(--bord-blauw); color: #fff; }
+.optie .stempel.goedcijfer { border-color: var(--goed); background: var(--goed); color: #fff; }
+.optie .stempel.foutcijfer { border-color: var(--fout); background: var(--fout); color: #fff; }
+.optie .stempel.leeg { border-style: dashed; }
 
 /* ==== quiz options ==== */
 .opties { display: flex; flex-direction: column; gap: 12px; margin: 0 0 16px; }

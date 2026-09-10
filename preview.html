@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scenes · 44 van de 50</title>
+<link rel="stylesheet" href="app.css">
+<style>
+  .lijst { max-width: 720px; margin: 0 auto; padding: 16px; display: grid; gap: 16px; }
+  .item .plaat { padding: 0; overflow: hidden; }
+  .item svg { display: block; width: 100%; height: auto; }
+  .item .meta { margin-top: 6px; }
+  @media (min-width: 1024px) { .lijst { max-width: 1200px; grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<main class="lijst" id="lijst"><p class="meta">Scenes laden</p></main>
+<script type="module">
+  /* every scene in content/scenes, drawn by js/scene.js: the review page
+     for scene authoring and the renderer's own test sheet */
+  import { loadSigns } from "./js/signs.js";
+  import { sceneSvg } from "./js/scene.js";
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  await loadSigns();
+  const idx = await fetch("content/index.json").then(r => r.json());
+  const wanted = new URLSearchParams(location.search).get("s");
+  const ids = (idx.scenes || []).filter(id => !wanted || id.startsWith(wanted));
+  const scenes = await Promise.all(ids.map(id => fetch("content/scenes/" + id + ".json").then(r => r.json())));
+  const el = document.getElementById("lijst");
+  el.innerHTML = scenes.map(s => `<article class="item"><div class="plaat">${sceneSvg(s)}</div><p class="meta"><strong>${esc(s.id)}</strong> · ${esc(s.vorm)}${s.voorrang ? " · " + esc(s.voorrang) : ""}<br>${esc(s.alt)}</p></article>`).join("") || `<p class="meta">Geen scenes gevonden.</p>`;
+  el.classList.add("klaar");
+</script>
+</body>
+</html>

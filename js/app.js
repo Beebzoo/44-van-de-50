@@ -9,12 +9,15 @@ import { listen, go } from "./router.js";
 import { loadSigns, sign, bordHtml, hasSymbol, families, allSigns, familyName } from "./signs.js";
 import * as V from "./voortgang.js";
 import * as Q from "./quiz.js";
-import { pageHtml } from "./lezen.js";
+import { pageHtml, setScenes } from "./lezen.js";
+import { sceneSvg, scenePlate } from "./scene.js";
+import * as SRS from "./srs.js";
+import * as sync from "./sync.js";
 
 const app = document.getElementById("app");
 const S = {
-  route: { name: "route" }, index: null, units: [], unitById: {}, bank: {}, qById: {}, pools: {},
-  attempts: [], history: new Map(), states: {}, settings: {},
+  route: { name: "route" }, index: null, units: [], unitById: {}, bank: {}, qById: {}, pools: {}, scenes: {},
+  attempts: [], history: new Map(), states: {}, settings: {}, boxes: new Map(),
   run: null, sheet: null, viewer: null, toast: null, familie: null, lezenStart: null, zojuistGehaald: null,
 };
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -44,6 +47,7 @@ const I = {
 async function boot() {
   store.persist(); /* not awaited: a permission prompt must never block the start */
   S.settings = { thema: "auto", tekst: "normaal", examenDatum: null, ...(await store.allSettings()) };
+  S.koppelcode = await sync.learnerCode();
   S.index = await fetch("content/index.json").then(r => r.json());
   if (!S.settings.examenDatum) S.settings.examenDatum = S.index.examenDatum;
   await loadSigns();
@@ -55,9 +59,14 @@ async function boot() {
     for (const f of u.bank) { const b = await fetch(f).then(r => r.json()); S.bank[u.id].push(...b.vragen); }
   }));
   for (const qs of Object.values(S.bank)) for (const q of qs) S.qById[q.id] = q;
+  await Promise.all((S.index.scenes || []).map(async id => { S.scenes[id] = await fetch("content/scenes/" + id + ".json").then(r => r.json()); }));
+  setScenes(S.scenes);
   for (const u of S.units) S.pools[u.id] = (S.bank[u.id] || []).filter(q => !q.reserve && Q.SUPPORTED.has(q.type)).map(q => q.id);
   await refresh();
   registerSw();
+  /* the sync never blocks: it runs after the first paint, on reconnect, and after every attempt */
+  setTimeout(() => sync.flush().then(n => { if (n) refresh().then(render); }), 800);
+  addEventListener("online", () => sync.flush().then(n => { if (n) refresh().then(render); }));
   app.addEventListener("click", onClick);
   app.addEventListener("change", onChange);
   addEventListener("keydown", onKey);
@@ -67,8 +76,9 @@ async function refresh() {
   S.attempts = await store.allAttempts();
   S.history = V.questionHistory(S.attempts);
   S.states = V.unitStates(S.attempts, S.units, S.pools, S.history);
+  S.boxes = SRS.boxes(S.attempts, S.qById, S.states);
 }
-async function log(a) { await store.addAttempt(a); await refresh(); }
+async function log(a) { await store.addAttempt(a); await refresh(); sync.flush().then(n => { if (n) refresh().then(render); }); }
 
 function onRoute() {
   S.sheet = null; S.viewer = null;
@@ -110,9 +120,12 @@ function actionbar(html) { return `<div class="onderbalk"><div class="actiebalk"
 function overlays() {
   let h = "";
   if (S.sheet === "route") h += `<div class="scrim" data-actie="sluit-sheet"></div><div class="sheet" role="dialog" aria-label="Route"><div class="handvat"></div>${countdownBlock()}${timeline()}</div>`;
-  if (S.viewer) {
-    const b = sign(S.viewer);
-    h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(S.viewer)}">${bordHtml(S.viewer, 176)}<div class="naam"><span class="bordcode">${esc(S.viewer)}</span><br>${b ? esc(b.betekenis) : ""}</div><a class="knop tekstknop" href="#/borden/${encodeURIComponent(S.viewer)}">Bekijk in Borden</a></div>`;
+  if (S.viewer && S.viewer.bord) {
+    const code = S.viewer.bord, b = sign(code);
+    h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(code)}">${bordHtml(code, 176)}<div class="naam"><span class="bordcode">${esc(code)}</span><br>${b ? esc(b.betekenis) : ""}</div><a class="knop tekstknop" href="#/borden/${encodeURIComponent(code)}">Bekijk in Borden</a></div>`;
+  } else if (S.viewer && S.viewer.scene && S.scenes[S.viewer.scene]) {
+    const sc = S.scenes[S.viewer.scene];
+    h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="Tekening">${sceneSvg(sc)}<div class="naam">${esc(sc.alt)}</div></div>`;
   }
   if (S.toast) h += `<div class="toast" role="status">${esc(S.toast.tekst)}${S.toast.actie ? `<button data-actie="${esc(S.toast.actie)}">${esc(S.toast.knop)}</button>` : ""}</div>`;
   return h;
@@ -149,6 +162,15 @@ function timeline(compact) {
     <li><span class="paaltje doel"></span><span class="nr"></span><span class="titel">Theorie-examen</span><span class="staat">${datum(dt)}</span></li>
     <li><span class="paaltje later"></span><span class="nr"></span><span class="titel">Praktijklessen</span><span class="staat">daarna</span></li></ul>`;
 }
+/* the daily Leitner set: only once a block is beheerst does it start */
+function herhalingKaart() {
+  if (!S.boxes.size) return "";
+  const set = SRS.dailySet(S.boxes, S.qById);
+  const vandaagGedaan = S.attempts.some(a => a.kind === "herhaling" && a.ts >= new Date().setHours(0, 0, 0, 0));
+  if (!set.vragen.length) return "";
+  const min = Math.max(1, Math.round(set.vragen.length * 0.5));
+  return `<div class="kaart"><div class="rij"><div class="groei"><strong>Herhaling vandaag</strong><br><span class="meta">${set.vragen.length} vragen, ongeveer ${min} minuten${set.aantalDue ? `, ${set.aantalDue} aan de beurt` : ""}${vandaagGedaan ? " · vandaag al gedaan" : ""}</span></div><a class="knop ${vandaagGedaan ? "omlijnd" : "primair"}" href="#/quiz/herhaling/herhaling">Start</a></div></div>`;
+}
 function volgendeActie(u) {
   const st = S.states[u.id];
   const pool = S.pools[u.id] || [];
@@ -177,6 +199,7 @@ const SCREENS = {
       <div class="kaart"><div class="rij"><div class="groei"><strong>Blok ${u.volgorde}</strong> ${esc(u.titel)}<br><span class="meta">${esc(act.tekst)}</span></div></div>
         <a class="knop primair groot" style="margin-top:12px" href="${act.href}">${esc(act.knop)}<span class="pijl">${I.pijl}</span></a></div>
       <p class="meta-3">Vandaag ${vd.vragen} vragen, ${vd.minuten} min${streak > 1 ? ` · ${streak} dagen op rij` : ""}</p>
+      ${herhalingKaart()}
       ${timeline()}
       <a class="kaart klik" href="#/fouten"><div class="rij"><span class="groei">Fouten om te herhalen</span><span class="cijfer cijfer-klein">${fouten.length}</span>${I.pijl}</div></a>`;
     return { titel: "Route", body, onder: "tab" };
@@ -244,7 +267,12 @@ const SCREENS = {
     const r = toon ? run.resultaten[run.resultaten.length - 1] : null;
     let media = "";
     if (q.media && q.media.bord) media = `<div class="plaat beeldplaat ${toon ? "klein" : ""}"><button type="button" data-actie="bekijk-bord" data-code="${esc(q.media.bord)}" aria-label="Bord vergroten">${bordHtml(q.media.bord, toon ? 112 : 176)}</button></div>`;
-    else if (q.media && q.media.scene) media = `<div class="plaat scene-placeholder">Tekening volgt in fase 1. ${esc(q.stam.length < 40 ? "" : "")}</div>`;
+    else if (q.media && q.media.scene) { const sc = S.scenes[q.media.scene]; media = sc ? scenePlate(sc, toon) : `<div class="plaat scene-placeholder">Tekening ${esc(q.media.scene)} ontbreekt</div>`; }
+    else if (q.media && q.media.reeks) {
+      const frames = q.media.reeks.map(id => S.scenes[id]).filter(Boolean);
+      const f = Math.min(item.frame, frames.length - 1);
+      media = frames.length ? `<div class="reeks">${scenePlate(frames[f], toon)}<div class="stapper"><button type="button" data-actie="frame" data-n="-1" ${f === 0 ? "disabled" : ""} aria-label="Vorig beeld">${I.terug}</button><span class="stipjes" aria-hidden="true">${frames.map((x, i) => `<span class="${i === f ? "nu" : ""}"></span>`).join("")}</span><button type="button" data-actie="frame" data-n="1" ${f >= frames.length - 1 ? "disabled" : ""} aria-label="Volgend beeld">${I.pijl}</button><button type="button" data-actie="speel">Speel af</button></div></div>` : "";
+    }
     let opties;
     if (q.type === "hotspot") {
       opties = `<div class="bordraster" role="radiogroup" aria-label="Kies een bord">${item.grid.map(code => {
@@ -252,6 +280,14 @@ const SCREENS = {
         let cls = gekozen ? "gekozen" : "";
         if (toon) cls = q.correct.includes(code) ? "goed" : gekozen ? "fout" : "dim";
         return `<button type="button" class="bordtegel ${cls}" role="radio" aria-checked="${gekozen}" data-actie="kies" data-id="${esc(code)}" ${toon ? "disabled" : ""}>${bordHtml(code, 112)}<span class="bordcode">${esc(code)}</span></button>`;
+      }).join("")}</div>`;
+    } else if (q.type === "volgorde") {
+      opties = `<div class="opties" role="group" aria-label="Zet in volgorde">${item.opties.map(o => {
+        const pos = run.gekozen.indexOf(o.id);
+        const juist = q.correct.indexOf(o.id);
+        let cls = pos >= 0 ? "gekozen" : "", extra = "";
+        if (toon) { if (pos === juist) cls = "goed"; else { cls = "fout"; extra = `<span class="stempel goedcijfer" aria-label="goede plaats ${juist + 1}">${juist + 1}</span>`; } }
+        return `<button type="button" class="optie ${cls}" data-actie="kies" data-id="${esc(o.id)}" ${toon ? "disabled" : ""}><span class="stempel ${pos < 0 ? "leeg" : ""} ${toon ? (pos === juist ? "goedcijfer" : "foutcijfer") : ""}">${pos >= 0 ? pos + 1 : ""}</span><span class="tekst">${esc(o.tekst)}</span>${extra}</button>`;
       }).join("")}</div>`;
     } else {
       const role = q.type === "meervoudig" ? "checkbox" : "radio";
@@ -271,7 +307,7 @@ const SCREENS = {
         return `<button type="button" class="optie ${cls}" role="${role}" aria-checked="${gekozen}" data-actie="kies" data-id="${esc(o.id)}" ${toon ? "disabled" : ""}><span class="letter" aria-hidden="true">${toon && cls === "goed" ? I.vink : toon && cls === "fout" ? I.kruis : letters[i]}</span><span class="tekst">${esc(o.tekst)}${noot ? `<span class="noot">${esc(noot)}</span>` : ""}</span></button>`;
       }).join("")}</div>`;
     }
-    const hint = q.type === "meervoudig" ? `<p class="meta">Kies er ${q.correct.length}.</p>` : q.type === "hotspot" ? `<p class="meta">Tik op het bord.</p>` : "";
+    const hint = q.type === "meervoudig" ? `<p class="meta">Kies er ${q.correct.length}.</p>` : q.type === "hotspot" ? `<p class="meta">Tik op het bord.</p>` : q.type === "volgorde" ? `<p class="meta">Tik in de volgorde waarin ze mogen gaan. Nog een keer tikken wist het nummer.</p>` : "";
     let uitleg = "";
     if (toon) {
       const goedOptie = q.opties.find(o => q.correct.includes(o.id));
@@ -282,7 +318,7 @@ const SCREENS = {
       uitleg = `<section class="uitleg" aria-live="polite"><span class="staat ${r.goed && !r.twijfel ? "goed" : ""}">${r.goed ? (r.twijfel ? "Goed, maar getwijfeld" : "Goed") : "Nog niet"}</span>
         <h2 class="kop2">Waarom</h2><p class="lees">${esc(u2.waarom)}</p>
         <div class="blokje lees"><span class="label">Regel</span>${esc(u2.regel)}</div>
-        ${q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">Het goede antwoord</span>${esc(goedOptie.feedback.replace(/^Goed[.,:]?\s*/i, ""))}</div>` : ""}
+        ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">De juiste volgorde</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(/^(Goed|Fout)[.,:]?\s*/i, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">Het goede antwoord</span>${esc(goedOptie.feedback.replace(/^Goed[.,:]?\s*/i, ""))}</div>` : ""}
         <div class="blokje lees"><span class="label">Valkuil</span>${esc(u2.valkuil)}</div>
         ${u2.onthoud ? `<div class="onthoud"><span class="label">Onthoud</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
@@ -291,9 +327,9 @@ const SCREENS = {
     const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${uitleg}`;
     const onder = toon
       ? `<button class="knop primair groot" data-actie="volgende">${run.i + 1 >= n ? "Naar de uitslag" : "Volgende"}<span class="pijl">${I.pijl}</span></button>`
-      : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> Twijfel</label><button class="knop primair groot" data-actie="controleer" ${run.gekozen.length ? "" : "disabled"}>Controleer</button></div>`;
-    const naam = run.soort === "quiz" ? "Quiz" : run.ref === "fouten" ? "Fouten oefenen" : "Herstelronde";
-    return { titel: naam, terug: "#/blok/" + u.id, sluit: true, midden: `${naam} · vraag ${run.i + 1} van ${n}`, body, onder, baan: true };
+      : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> Twijfel</label><button class="knop primair groot" data-actie="controleer" ${Q.ready(run) ? "" : "disabled"}>Controleer</button></div>`;
+    const naam = run.soort === "quiz" ? "Quiz" : run.soort === "herhaling" ? "Herhaling" : run.ref === "fouten" ? "Fouten oefenen" : "Herstelronde";
+    return { titel: naam, terug: u ? "#/blok/" + u.id : "#/route", sluit: true, midden: `${naam} · vraag ${run.i + 1} van ${n}`, body, onder, baan: true };
   },
   gehaald() {
     const u = S.unitById[S.route.unit];
@@ -336,7 +372,11 @@ const SCREENS = {
     const byUnit = {};
     for (const r of rows) (byUnit[r.unit] = byUnit[r.unit] || []).push(r);
     const groups = S.units.filter(u => byUnit[u.id]).map(u => `<h2 class="kop2">Blok ${u.volgorde} ${esc(u.titel)} <span class="meta-3" style="float:right">${byUnit[u.id].length}</span></h2>` + byUnit[u.id].map(r => { const p = u.paginas.find(x => x.id === r.pagina); return `<a class="kaart klik" href="#/blok/${u.id}/lezen/${r.pagina}"><div class="rij"><div class="groei">${esc(r.stam.length > 90 ? r.stam.slice(0, 87) + "..." : r.stam)}<br><span class="meta-3">${esc(p ? p.titel : "")}</span></div><span class="meta">${r.fout}x</span></div></a>`; }).join("")).join("");
-    const body = `<h1 class="kop1">Fouten <span class="cijfer cijfer-klein" style="float:right">${rows.length}</span></h1>
+    const types = { niet_geweten: 0, verkeerd_gelezen: 0, verkeerd_toegepast: 0, gegokt: 0 };
+    for (const a of S.attempts) for (const x of a.answers || []) if ((!x.goed || x.twijfel) && x.fouttype && types[x.fouttype] !== undefined) types[x.fouttype] += 1;
+    const totaal = Object.values(types).reduce((a, b) => a + b, 0);
+    const taxonomie = totaal ? `<div class="feiten" style="margin:8px 0 16px">${[["niet_geweten", "niet geweten"], ["verkeerd_gelezen", "verkeerd gelezen"], ["verkeerd_toegepast", "verkeerd toegepast"], ["gegokt", "gegokt"]].map(([k, l]) => `<div><span class="cijfer cijfer-klein">${types[k]}</span><span class="meta">${l}</span></div>`).join("")}</div>` : "";
+    const body = `<h1 class="kop1">Fouten <span class="cijfer cijfer-klein" style="float:right">${rows.length}</span></h1>${taxonomie}
       ${rows.length ? `<button class="knop primair groot" data-actie="oefen-fouten" style="margin-bottom:16px">Oefen deze ${Math.min(rows.length, 20)}<span class="pijl">${I.pijl}</span></button>${groups}<p class="meta-3">Een vraag verdwijnt hier na twee keer achter elkaar goed.</p>` : `<p class="lees">Nog geen fouten om te herhalen. Alles wat je fout doet komt hier terecht, met de uitleg erbij.</p>`}`;
     return { titel: "Fouten", body, onder: "tab" };
   },
@@ -347,8 +387,15 @@ const SCREENS = {
       <div class="veld"><label>Thema</label>${keuze("thema", [["auto", "Automatisch"], ["licht", "Licht"], ["donker", "Donker"]])}</div>
       <div class="veld"><label>Tekstgrootte</label>${keuze("tekst", [["normaal", "Normaal"], ["groot", "Groot"]])}</div>
       <div class="veld"><label for="examendatum">Examendatum</label><input type="date" id="examendatum" data-actie="examendatum" value="${esc(s.examenDatum)}"></div>
+      <h2 class="kop2">Koppelen</h2>
+      ${sync.configured() ? `<p class="lees">Dit is je koppelcode. Typ hem een keer in op je andere apparaat, dan lopen telefoon en computer gelijk.</p>
+      <p class="cijfer cijfer-klein" style="font-size:22px;letter-spacing:.04em;user-select:all">${esc(sync.formatCode(S.koppelcode))}</p>
+      <div class="knopnaast"><button class="knop omlijnd" data-actie="kopieer-code">Kopieer</button></div>
+      <div class="veld" style="margin-top:16px"><label for="koppelcode">Code van je andere apparaat</label><input id="koppelcode" inputmode="latin" autocapitalize="characters" autocomplete="off" spellcheck="false" placeholder="ABCDE FGHJK ..."><div class="knopnaast"><button class="knop omlijnd" data-actie="koppel">Koppel dit apparaat</button></div></div>
+      <p class="meta-3">${sync.state().fout ? "Laatste poging mislukt: " + esc(sync.state().fout) : S.settings.laatsteSync ? "Laatst gesynchroniseerd " + esc(datum(new Date(S.settings.laatsteSync))) + " " + new Date(S.settings.laatsteSync).toTimeString().slice(0, 5) : "Nog niet gesynchroniseerd"} · ${S.attempts.filter(a => !a.synced).length} wachten</p>
+      <button class="knop tekstknop" data-actie="sync-nu">Nu synchroniseren</button>` : `<p class="lees">Koppelen met je computer staat klaar in de code, maar het Supabase-project is nog niet ingevuld. Tot die tijd blijft alles op dit apparaat.</p>`}
       <h2 class="kop2">Gegevens</h2>
-      <p class="lees">${S.attempts.length} pogingen op dit apparaat. Koppelen met je computer komt in fase 1.</p>
+      <p class="lees">${S.attempts.length} pogingen op dit apparaat.</p>
       <div class="knopnaast"><button class="knop omlijnd" data-actie="exporteer">Exporteer</button><button class="knop omlijnd" data-actie="wis">Wis alles</button></div>
       <h2 class="kop2">Over</h2>
       <p class="meta">Inhoud versie ${esc(S.index.versie)} · ${Object.keys(S.qById).length} vragen · ${S.units.length} blokken</p>
@@ -363,6 +410,12 @@ function startRunIfNeeded() {
   const u = S.unitById[uid];
   if (S.run && S.run.unit === uid && !S.run.klaar) return;
   S.run = null;
+  if (S.route.soort === "herhaling") {
+    const set = SRS.dailySet(S.boxes, S.qById);
+    const qs = set.vragen.map(id => S.qById[id]).filter(q => q && Q.SUPPORTED.has(q.type));
+    if (qs.length) S.run = Q.newRun({ unit: uid, soort: "herhaling", ref: "herhaling", questions: qs });
+    return;
+  }
   if (S.route.soort === "fouten") {
     const rows = V.foutenlog(S.attempts, S.history, S.qById).slice(0, 20);
     const qs = rows.map(r => S.qById[r.id]).filter(q => Q.SUPPORTED.has(q.type));
@@ -378,23 +431,21 @@ function startRunIfNeeded() {
   S.run = Q.newRun({ unit: u.id, soort: "quiz", questions: qs });
 }
 function herstelronde(run) {
-  const u = S.unitById[run.unit];
   const s = Q.score(run);
-  const pool = S.bank[u.id] || [];
   const inRun = run.items.map(it => it.q.id);
   const qs = [];
   for (const f of s.fouten) {
     const q = S.qById[f.q];
     qs.push(q);
-    const sib = Q.sibling(q, pool, inRun.concat(qs.map(x => x.id)), S.history);
+    const sib = Q.sibling(q, S.bank[q.unit] || [], inRun.concat(qs.map(x => x.id)), S.history);
     if (sib) qs.push(sib);
   }
-  S.run = Q.newRun({ unit: u.id, soort: "herstel", questions: qs });
+  S.run = Q.newRun({ unit: run.unit, soort: "herstel", questions: qs });
 }
 function quizEinde(run, u) {
   const s = Q.score(run);
-  const st = S.states[u.id];
-  const fouten = s.fouten.map(f => { const q = S.qById[f.q]; const p = u.paginas.find(x => x.id === q.pagina); return `<div class="kaart"><p style="margin:0 0 6px"><strong>${esc(q.stam)}</strong></p><p class="lees" style="margin:0">${esc(q.uitleg.regel)}</p>${p ? `<p class="meta-3" style="margin:6px 0 0"><a href="#/blok/${u.id}/lezen/${p.id}">Lees ${esc(kortePaginanaam(p))} opnieuw</a></p>` : ""}</div>`; }).join("");
+  const st = u ? S.states[u.id] : { staat: "" };
+  const fouten = s.fouten.map(f => { const q = S.qById[f.q]; const uq = S.unitById[q.unit] || u; const p = uq ? uq.paginas.find(x => x.id === q.pagina) : null; return `<div class="kaart"><p style="margin:0 0 6px"><strong>${esc(q.stam)}</strong></p><p class="lees" style="margin:0">${esc(q.uitleg.regel)}</p>${p ? `<p class="meta-3" style="margin:6px 0 0"><a href="#/blok/${uq.id}/lezen/${p.id}">Lees ${esc(kortePaginanaam(p))} opnieuw</a></p>` : ""}</div>`; }).join("");
   let staatTekst = "";
   if (run.soort === "quiz" && s.gehaald) staatTekst = st.staat === "beheerst" ? "Blok gehaald." : st.staat === "voorlopig" ? (st.bevestigd === false && st.runs >= 2 ? "Nog niet alle vragen uit de pool goed gehad. Nog een quiz, dan is het rond." : "Voorlopig gehaald. Doe over minstens 12 uur nog een foutloze quiz, dan is het blok rond.") : "";
   const body = `<div style="text-align:center;margin:24px 0"><span class="cijfer cijfer-groot">${s.score} <span class="meta-3">van ${s.total}</span></span><h1 class="kop1" style="margin-top:8px">${s.gehaald ? "Gehaald" : "Nog niet"}</h1><p class="meta">${esc(staatTekst)}</p></div>
@@ -403,16 +454,16 @@ function quizEinde(run, u) {
     ? `<button class="knop primair groot" data-actie="herstel">Alleen de fouten opnieuw<span class="pijl">${I.pijl}</span></button><div class="knopnaast"><button class="knop omlijnd" data-actie="opnieuw">Hele quiz opnieuw</button><a class="knop omlijnd" href="#/blok/${u.id}">Terug naar blok</a></div>`
     : run.soort === "quiz"
       ? `<a class="knop primair groot" href="${st.staat === "beheerst" ? "#/gehaald/" + u.id : "#/blok/" + u.id}">${st.staat === "beheerst" ? "Blok gehaald" : "Terug naar blok"}<span class="pijl">${I.pijl}</span></a>`
-      : `<a class="knop primair groot" href="${run.ref === "fouten" ? "#/fouten" : "#/blok/" + u.id}">Klaar<span class="pijl">${I.pijl}</span></a>${s.fouten.length ? `<button class="knop tekstknop" data-actie="herstel">Nog een herstelronde</button>` : ""}`;
-  return { titel: "Uitslag", terug: "#/blok/" + u.id, sluit: true, midden: run.soort === "quiz" ? "Quiz-einde" : "Herstelronde", body, onder };
+      : `<a class="knop primair groot" href="${run.ref === "fouten" ? "#/fouten" : run.soort === "herhaling" ? "#/route" : "#/blok/" + u.id}">Klaar<span class="pijl">${I.pijl}</span></a>${s.fouten.length && u ? `<button class="knop tekstknop" data-actie="herstel">Nog een herstelronde</button>` : ""}`;
+  return { titel: "Uitslag", terug: u ? "#/blok/" + u.id : "#/route", sluit: true, midden: run.soort === "quiz" ? "Quiz-einde" : run.soort === "herhaling" ? "Herhaling" : "Herstelronde", body, onder };
 }
 async function afronden() {
   const run = S.run;
   const u = S.unitById[run.unit];
-  const voor = S.states[u.id] ? S.states[u.id].staat : null;
+  const voor = u && S.states[u.id] ? S.states[u.id].staat : null;
   await log(Q.toAttempt(run, S.index.versie));
-  const na = S.states[u.id] ? S.states[u.id].staat : null;
-  if (run.soort === "quiz" && voor !== "beheerst" && na === "beheerst") { S.run = null; go("gehaald/" + u.id); return; }
+  const na = u && S.states[u.id] ? S.states[u.id].staat : null;
+  if (u && run.soort === "quiz" && voor !== "beheerst" && na === "beheerst") { S.run = null; go("gehaald/" + u.id); return; }
   render();
 }
 
@@ -424,10 +475,13 @@ async function onClick(e) {
   const run = S.run;
   if (a === "open-route") { if (innerWidth >= 1024) go("route"); else { S.sheet = "route"; render(); } return; }
   if (a === "sluit-sheet") { S.sheet = null; render(); return; }
-  if (a === "bekijk-bord") { e.preventDefault(); S.viewer = el.dataset.code; render(); return; }
+  if (a === "bekijk-bord") { e.preventDefault(); S.viewer = { bord: el.dataset.code }; render(); return; }
+  if (a === "bekijk-scene") { e.preventDefault(); S.viewer = { scene: el.dataset.scene }; render(); return; }
+  if (a === "frame" && run) { const it = Q.current(run); it.frame = Math.max(0, it.frame + parseInt(el.dataset.n, 10)); render(); return; }
+  if (a === "speel" && run) { speelReeks(run); return; }
   if (a === "sluit-viewer") { if (e.target.closest("a")) return; S.viewer = null; render(); return; }
   if (a === "toon-antwoord") { const z = el.closest(".zelftest"); z.querySelector(".antwoord").classList.remove("verborgen"); el.classList.add("verborgen"); return; }
-  if (a === "kies" && run) { Q.choose(run, el.dataset.id); if (run.gekozen.length && run.gekozen[0] === el.dataset.id && run.gekozen.length === 1 && el.classList.contains("gekozen") && Q.current(run).q.type !== "meervoudig") { /* second tap on the selected option confirms */ Q.check(run, S.history); } render(); return; }
+  if (a === "kies" && run) { const t = Q.current(run).q.type; Q.choose(run, el.dataset.id); if (t !== "meervoudig" && t !== "volgorde" && run.gekozen.length === 1 && run.gekozen[0] === el.dataset.id && el.classList.contains("gekozen")) { /* second tap on the selected option confirms */ Q.check(run, S.history); } render(); return; }
   if (a === "controleer" && run) { Q.check(run, S.history); render(); return; }
   if (a === "fouttype" && run) { Q.setFouttype(run, el.dataset.type); render(); return; }
   if (a === "volgende" && run) { if (Q.next(run)) await afronden(); else render(); return; }
@@ -436,6 +490,9 @@ async function onClick(e) {
   if (a === "oefen-fouten") { S.run = null; go("quiz/fouten/fouten"); return; }
   if (a === "klaar-lezen") { const u = S.unitById[el.dataset.unit]; S.lezenStart = null; await log({ kind: "lezen", ref: u.id, unit: u.id, klaar: true, duration_ms: 0, content_version: S.index.versie, answers: [] }); go("gehaald/" + u.id); return; }
   if (a === "instelling") { await setSetting(el.dataset.naam, el.dataset.waarde); render(); return; }
+  if (a === "kopieer-code") { try { await navigator.clipboard.writeText(S.koppelcode); toast("Gekopieerd"); } catch (e) { toast("Kopieren lukt niet, typ de code over"); } return; }
+  if (a === "koppel") { const inp = document.getElementById("koppelcode"); try { S.koppelcode = await sync.setLearnerCode(inp.value); toast("Gekoppeld, gegevens worden opgehaald"); const n = await sync.flush(); await refresh(); toast(n ? n + " pogingen opgehaald" : "Gekoppeld"); render(); } catch (e) { toast(e.message); } return; }
+  if (a === "sync-nu") { toast("Synchroniseren"); const n = await sync.flush(); await refresh(); toast(sync.state().fout ? "Mislukt: " + sync.state().fout : n ? n + " nieuwe pogingen" : "Alles is gelijk"); render(); return; }
   if (a === "wis") { if (confirm("Alle pogingen en instellingen op dit apparaat wissen?")) { await store.wipe(); await refresh(); toast("Gewist"); render(); } return; }
   if (a === "exporteer") { const blob = new Blob([JSON.stringify({ attempts: S.attempts, settings: S.settings }, null, 1)], { type: "application/json" }); const url = URL.createObjectURL(blob); const link = document.createElement("a"); link.href = url; link.download = "44-van-de-50-" + new Date().toISOString().slice(0, 10) + ".json"; link.click(); setTimeout(() => URL.revokeObjectURL(url), 5000); return; }
   if (a === "update") { const reg = await navigator.serviceWorker?.getRegistration(); if (reg) { await reg.update(); toast("Gecontroleerd. Een nieuwe versie laadt bij de volgende start."); } render(); return; }
@@ -463,8 +520,19 @@ function onKey(e) {
 async function setSetting(naam, waarde) {
   S.settings[naam] = waarde;
   await store.setSetting(naam, waarde);
+  await store.setSetting("instellingenAt", Date.now());
+  sync.flush();
   if (naam === "thema") { try { localStorage.setItem("thema", waarde); } catch (e) { /* private mode */ } document.documentElement.dataset.theme = waarde === "donker" ? "dark" : waarde === "licht" ? "light" : ""; if (waarde === "auto") delete document.documentElement.dataset.theme; }
   if (naam === "tekst") { try { localStorage.setItem("tekst", waarde); } catch (e) { /* private mode */ } if (waarde === "groot") document.documentElement.dataset.tekst = "groot"; else delete document.documentElement.dataset.tekst; }
+}
+/* a reeks plays its frames once, 1500 ms apart, like the CBR clip; the stepper stays for replays */
+function speelReeks(run) {
+  const it = Q.current(run);
+  const n = (it.q.media.reeks || []).length;
+  it.frame = 0; render();
+  let i = 0;
+  const tick = () => { if (S.run !== run || Q.current(run) !== it) return; i += 1; if (i < n) { it.frame = i; render(); setTimeout(tick, 1500); } };
+  setTimeout(tick, 1500);
 }
 function toast(tekst, knop, actie) { S.toast = { tekst, knop, actie }; render(); setTimeout(() => { if (S.toast && S.toast.tekst === tekst) { S.toast = null; render(); } }, actie ? 15000 : 3000); }
 

@@ -1,0 +1,51 @@
+{
+  "id": "S-VB-001",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "rails",
+      "arm": "west"
+    },
+    {
+      "soort": "rails",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de tram"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "label": "de grijze auto"
+    }
+  ],
+  "volgorde": [
+    "tram",
+    "grijs",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Van links nadert een tram, van rechts een grijze auto."
+}

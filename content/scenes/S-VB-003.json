@@ -1,0 +1,56 @@
+{
+  "id": "S-VB-003",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "fietspad": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "fietsoversteek",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 150,
+      "richting": "rechts",
+      "uitgang": "oost"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je rijdt op een rotonde en wilt er bij de oostelijke arm af. Op het fietspad rond de rotonde nadert een fietser de oversteek van die arm. Voor jou liggen haaientanden bij het verlaten."
+}

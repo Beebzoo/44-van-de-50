@@ -118,6 +118,7 @@ const index = {
   versie: "0000000000",
   gegenereerd: new Date().toISOString().slice(0, 10),
   examenDatum: EXAMEN,
+  scenes: listJson(path.join(CONTENT, "scenes")).map(f => f.replace(/\.json$/, "")),
   units: units.sort((a, b) => a.volgorde - b.volgorde).map(u => {
     const bank = [bankFiles[u.id], generatedFiles[u.id]].filter(Boolean);
     const n = bank.reduce((a, f) => a + readJson(path.join(REPO, f)).vragen.length, 0);
@@ -152,10 +153,11 @@ const precache = [
   ...Object.values(bankFiles), ...Object.values(generatedFiles),
   ...(fs.existsSync(path.join(CONTENT, "scenes")) ? walk(path.join(CONTENT, "scenes")).map(rel) : []),
   "icons/icon-192.png", "icons/icon-512.png", "icons/icon-180.png", "icons/icon-maskable-512.png",
+  "preview.html",
 ].filter((f, i, a) => a.indexOf(f) === i);
 const hash = crypto.createHash("sha256");
 for (const f of precache) { if (f === "content/index.json") continue; hash.update(f); hash.update(fs.readFileSync(path.join(REPO, f))); }
-hash.update(JSON.stringify(index.units));
+hash.update(JSON.stringify(index.units) + JSON.stringify(index.scenes));
 const version = hash.digest("hex").slice(0, 10);
 index.versie = version;
 

@@ -10,7 +10,7 @@
    previous perfect run so the confirmation quiz cannot be memorised.
    Questions flagged reserve never appear here; they are held back for
    the exam simulations. */
-export const SUPPORTED = new Set(["ja_nee", "meerkeuze", "meervoudig", "hotspot"]);
+export const SUPPORTED = new Set(["ja_nee", "meerkeuze", "meervoudig", "hotspot", "volgorde", "reeks"]);
 
 const shuffle = arr => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const weightOf = (q, history) => {
@@ -62,18 +62,27 @@ export function sibling(q, pool, exclude, history) {
 
 export function prepare(q) {
   const opties = q.type === "ja_nee" ? q.opties.slice() : shuffle(q.opties);
-  return { q, opties, grid: q.type === "hotspot" ? shuffle(q.media.borden) : null };
+  return { q, opties, grid: q.type === "hotspot" ? shuffle(q.media.borden) : null, frame: 0 };
 }
 
 export function isCorrect(q, gekozen) {
+  if (q.type === "volgorde") return gekozen.length === q.correct.length && gekozen.every((g, i) => g === q.correct[i]);
   const c = new Set(q.correct);
   if (gekozen.length !== c.size) return false;
   return gekozen.every(g => c.has(g));
 }
 
+/* can the run be checked with what is chosen so far */
+export function ready(run) {
+  const q = current(run).q;
+  if (q.type === "volgorde") return run.gekozen.length === q.correct.length;
+  return run.gekozen.length > 0;
+}
+
 /* the default answer to "Wat ging er mis?": the distractor's own type,
    else a heuristic on the stem */
 export function defaultFouttype(q, gekozen, history) {
+  if (q.type === "volgorde") return history.get(q.id) ? "verkeerd_toegepast" : "niet_geweten";
   const wrong = q.opties.find(o => gekozen.includes(o.id) && !q.correct.includes(o.id));
   if (wrong && wrong.fouttype) return wrong.fouttype;
   if (/\b(niet|geen|mag|moet)\b/i.test(q.stam)) return "verkeerd_gelezen";
@@ -97,11 +106,14 @@ export function choose(run, id) {
   if (run.fase !== "kies") return;
   if (q.type === "meervoudig") {
     run.gekozen = run.gekozen.includes(id) ? run.gekozen.filter(x => x !== id) : run.gekozen.concat(id);
+  } else if (q.type === "volgorde") {
+    /* tap to stamp the next number; tap a stamped item to remove its stamp and renumber */
+    run.gekozen = run.gekozen.includes(id) ? run.gekozen.filter(x => x !== id) : run.gekozen.concat(id);
   } else run.gekozen = [id];
 }
 
 export function check(run, history) {
-  if (run.fase !== "kies" || !run.gekozen.length) return null;
+  if (run.fase !== "kies" || !ready(run)) return null;
   const q = current(run).q;
   const goed = isCorrect(q, run.gekozen);
   run.fase = "toon";
@@ -132,7 +144,7 @@ export function score(run) {
 export function toAttempt(run, contentVersion) {
   const s = score(run);
   return {
-    kind: run.soort === "quiz" ? "quiz" : "herstel", ref: run.ref,
+    kind: run.soort === "quiz" ? "quiz" : run.soort === "herhaling" ? "herhaling" : "herstel", ref: run.ref,
     score: s.score, total: s.total, duration_ms: Date.now() - run.start,
     content_version: contentVersion,
     answers: run.resultaten.map(r => ({ q: r.q, unit: r.unit, goed: r.goed, gekozen: r.gekozen, fouttype: r.fouttype, twijfel: r.twijfel, ms: r.ms })),

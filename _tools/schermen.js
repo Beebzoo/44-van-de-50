@@ -19,6 +19,8 @@ fs.mkdirSync(outDir, { recursive: true });
 const PORT = 9333;
 const DARK = flags.includes("donker");
 const WIDE = flags.includes("breed");
+/* enkel: screenshot the base url as one page once a .scene or main.inhoud exists */
+const SINGLE = flags.includes("enkel");
 
 const ROUTES = [
   { naam: "route", hash: "route" },
@@ -26,7 +28,8 @@ const ROUTES = [
   { naam: "blok", hash: "blok/{U}" },
   { naam: "lezen", hash: "blok/{U}/lezen/{P}" },
   { naam: "quiz-vraag", hash: "quiz/{U}" },
-  { naam: "quiz-antwoord", hash: "quiz/{U}", script: `(() => { const o = document.querySelector('.optie, .bordtegel'); if (o) o.click(); return new Promise(r => setTimeout(() => { const c = document.querySelector('[data-actie="controleer"]'); if (c) c.click(); r(1); }, 200)); })()` },
+  { naam: "quiz-antwoord", hash: "quiz/{U}", script: `(() => { const all = [...document.querySelectorAll('.optie, .bordtegel')]; if (document.querySelector('.stempel')) all.forEach(o => o.click()); else if (all[0]) all[0].click(); return new Promise(r => setTimeout(() => { const c = document.querySelector('[data-actie="controleer"]'); if (c) c.click(); r(1); }, 200)); })()` },
+  { naam: "quiz-volgorde", hash: "quiz/{U}", herlaadTot: ".stempel", script: `(() => { [...document.querySelectorAll('.optie')].forEach(o => o.click()); return new Promise(r => setTimeout(() => { const c = document.querySelector('[data-actie="controleer"]'); if (c) c.click(); r(1); }, 200)); })()` },
   { naam: "borden", hash: "borden" },
   { naam: "fouten", hash: "fouten" },
   { naam: "instellingen", hash: "instellingen" },
@@ -66,13 +69,27 @@ async function cdp() {
   if (DARK) await c.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: "dark" }] });
   const evalJs = async expr => { const r = await c.send("Runtime.evaluate", { expression: expr, awaitPromise: true, returnByValue: true }); return r.result && r.result.result ? r.result.result.value : undefined; };
 
+  if (SINGLE) {
+    await c.send("Page.navigate", { url: base });
+    let ok = false;
+    for (let i = 0; i < 60 && !ok; i++) { await sleep(250); ok = await evalJs("!!document.querySelector('main.inhoud, .scene, .klaar')"); }
+    await sleep(800);
+    const full = await evalJs("Math.min(document.documentElement.scrollHeight, 6000)");
+    await c.send("Emulation.setDeviceMetricsOverride", WIDE ? { width: 1280, height: full, deviceScaleFactor: 1, mobile: false } : { width: 390, height: full, deviceScaleFactor: 2, mobile: true });
+    await sleep(300);
+    const shot = await c.send("Page.captureScreenshot", { format: "png" });
+    fs.writeFileSync(path.join(outDir, "enkel" + (WIDE ? "-breed" : "") + ".png"), Buffer.from(shot.result.data, "base64"));
+    console.log((ok ? "ok  " : "LEEG") + " enkel " + base);
+    c.close(); chrome.kill(); fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 300 });
+    return;
+  }
   /* find a unit and page to use for the unit routes */
   await c.send("Page.navigate", { url: base + "content/index.json" });
   await sleep(800);
   const idxText = await evalJs("document.body.innerText");
   const idx = JSON.parse(idxText);
   const U = idx.units[0].id, P = idx.units[0].paginas[0].id;
-  const withQuiz = idx.units.find(u => u.aantalVragen > 0) || idx.units[0];
+  const withQuiz = idx.units.slice().reverse().find(u => u.aantalVragen > 0) || idx.units[0];
 
   for (const r of ROUTES) {
     const hash = r.hash.replace("{U}", r.naam.startsWith("quiz") ? withQuiz.id : U).replace("{P}", P);
@@ -81,6 +98,15 @@ async function cdp() {
     await c.send("Page.navigate", { url: base + "#/" + hash });
     let ok = false;
     for (let i = 0; i < 40 && !ok; i++) { await sleep(250); ok = await evalJs("!!document.querySelector('main.inhoud')"); }
+    /* some routes want a particular sampled question: reload until the selector appears */
+    if (r.herlaadTot) {
+      let found = false;
+      for (let tries = 0; tries < 12 && !found; tries++) {
+        found = await evalJs("!!document.querySelector('" + r.herlaadTot + "')");
+        if (!found) { await c.send("Page.navigate", { url: "about:blank" }); await sleep(120); await c.send("Page.navigate", { url: base + "#/" + hash }); let ok2 = false; for (let i = 0; i < 40 && !ok2; i++) { await sleep(250); ok2 = await evalJs("!!document.querySelector('main.inhoud')"); } }
+      }
+      if (!found) { console.log("geen " + r.herlaadTot + " gevonden voor " + r.naam); continue; }
+    }
     if (r.script) { await evalJs(r.script); await sleep(600); }
     await sleep(400);
     const shot = await c.send("Page.captureScreenshot", { format: "png" });
@@ -98,5 +124,5 @@ async function cdp() {
   console.log(problems.length + " fouten in de console");
   c.close();
   chrome.kill();
-  fs.rmSync(profile, { recursive: true, force: true });
+  fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 300 });
 })().catch(e => { console.error(e); chrome.kill(); process.exit(1); });

@@ -64,6 +64,28 @@ export async function addAttempt(a) {
   return row;
 }
 
+/* the outbox for the sync, and the merge of rows from the other device */
+export async function unsyncedAttempts() {
+  const rows = await allAttempts();
+  return rows.filter(r => !r.synced);
+}
+export async function markSynced(ids) {
+  const db = await open();
+  await tx(db, "attempts", "readwrite", s => { for (const id of ids) { const req = s.get(id); req.onsuccess = () => { const r = req.result; if (r) { r.synced = true; s.put(r); } }; } });
+}
+export async function hasAttempt(id) {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const req = db.transaction("attempts").objectStore("attempts").getKey(id);
+    req.onsuccess = () => resolve(req.result !== undefined);
+    req.onerror = () => reject(req.error);
+  });
+}
+export async function putAttempt(row) {
+  const db = await open();
+  await tx(db, "attempts", "readwrite", s => s.put({ ...row, synced: true }));
+}
+
 export async function getSetting(key, fallback) {
   const db = await open();
   const row = await new Promise((resolve, reject) => {
