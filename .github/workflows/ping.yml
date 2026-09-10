@@ -1,0 +1,26 @@
+name: Keep the Supabase project awake
+
+# Why this exists: a free Supabase project pauses after seven idle days,
+# and a paused project silently delays the sync until someone clicks
+# unpause. One tiny request a week keeps it awake for the six weeks to
+# the exam. The anon key is public by design and the request returns an
+# empty list because it carries no koppelcode.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1,4"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: One request to the REST endpoint
+        run: |
+          URL=$(grep -o 'https://[a-z0-9]*\.supabase\.co' js/config.js | head -1)
+          KEY=$(grep -o 'eyJ[A-Za-z0-9_.-]*' js/config.js | head -1)
+          test -n "$URL" && test -n "$KEY"
+          code=$(curl -s -o /dev/null -w "%{http_code}" "$URL/rest/v1/attempts?select=id&limit=1" -H "apikey: $KEY" -H "Authorization: Bearer $KEY")
+          echo "Supabase answered $code"
+          test "$code" = "200"
