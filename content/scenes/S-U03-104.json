@@ -1,0 +1,67 @@
+{
+  "id": "S-U03-104",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "rails",
+      "arm": "west"
+    },
+    {
+      "soort": "rails",
+      "arm": "oost"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "west",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en gaat rechtdoor. Van links nadert een tram over de kruisende weg, waar bord B6 en haaientanden staan. De tram houdt zich aan het bord; jij mag eerst.",
+  "inspiratie": {
+    "boek": 113,
+    "beeld": "3D-afbeelding links",
+    "slide": 117
+  }
+}

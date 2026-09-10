@@ -1,0 +1,33 @@
+{
+  "id": "S-U04-102",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "fietsstrook",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "label": "jij",
+      "signaal": "rechts",
+      "afstand": 2
+    }
+  ],
+  "alt": "Jij nadert een kruispunt en wilt rechtsaf. Rechts van je rijstrook ligt een rode fietsstrook. Of je daarop mag voorsorteren hangt af van de streep langs de strook: onderbroken mag, doorgetrokken niet.",
+  "inspiratie": {
+    "boek": 136,
+    "beeld": "twee foto's, fietsstrook met doorgetrokken en met onderbroken streep"
+  }
+}

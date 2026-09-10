@@ -1,0 +1,430 @@
+{
+  "id": "U05",
+  "slug": "rotondes-uitritten-erf-30-zone",
+  "titel": "Rotondes, uitritten, erf en 30-zone",
+  "volgorde": 5,
+  "week": 2,
+  "tier": "must",
+  "vereist": ["U04"],
+  "borden": ["D1", "G5", "G6"],
+  "quiz": {"gate": true, "lengte": 12, "minimaalPool": 36, "inzichtMinimum": 0.5, "soort": "regels"},
+  "bronnen": {
+    "boek": {"secties": ["5.1", "5.2", "5.3", "5.4"], "paginas": [82, 83, 84, 85, 86, 87, 88, 89, 90]},
+    "cursus": {"slides": [84, 85, 86, 87, 88, 89, 90]}
+  },
+  "cbr_onderwerpen": ["bijzondere_wegen_weggebruikers_manoeuvres", "voorrang_en_voor_laten_gaan"],
+  "intro": "Op een gewoon kruispunt weet je uit blok 4 wie voorgaat. Dit blok gaat over vier plekken waar dat net anders werkt: de rotonde, de in- en uitrit, het erf en de 30 km-zone. Op de rotonde draait alles om wachten bij het oprijden, richting aangeven op het juiste moment en de fietser bij het verlaten. Bij een uitrit, een erf en een 30 km-zone geldt vaak dezelfde regel: wie er in of uit rijdt, laat alle weggebruikers voor, ook voetgangers. De meeste vragen zijn tekeningen van bovenaf, en jij bent altijd de witte auto.",
+  "paginas": [
+    {
+      "id": "U05-P01",
+      "anker": "p-5.1-rotondes",
+      "titel": "Rotondes: oprijden, richting aangeven en verlaten",
+      "bronnen": {"boek": {"secties": ["5.1"], "paginas": [82, 83, 84, 85, 86, 87]}, "cursus": {"slides": [84, 85, 86, 87]}},
+      "body": [
+        {
+          "type": "regel",
+          "id": "U05-r01",
+          "tekst": "Op een rotonde moet je altijd 'rechtsom' rijden. Op het middeneiland staat bord 'rotonde' (D1), vaak op een bochtschild met pijlen naar rechts. Op de toeleidende weg staat vaak het waarschuwingsbord 'rotonde' (J9).",
+          "bron": {"boek": 82, "sectie": "5.1", "anker": "Op een rotonde moet je altijd 'rechtsom' rijden"}
+        },
+        {
+          "type": "regel",
+          "id": "U05-r02",
+          "tekst": "Op bijna alle rotondes wordt met borden geregeld dat bestuurders op de rotonde voorrang hebben. Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen. Alleen als er geen borden staan, hebben bestuurders die de rotonde oprijden voorrang.",
+          "bron": [
+            {"boek": 84, "sectie": "5.1", "anker": "met borden geregeld dat bestuurders op de rotonde voorrang hebben"},
+            {"boek": 84, "sectie": "5.1", "anker": "Als er geen borden bij een rotonde staan, hebben bestuurders die de rotonde oprijden voorrang"},
+            {"slide": 84, "anker": "kies de juiste rijstrook, normaal gesproken verleen je voorrang"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r03",
+          "tekst": "Vlak voor en op een rotonde mag je zowel links als rechts rijden en zowel links als rechts inhalen, als het veilig kan. Verkeerslichten op een rotonde gaan boven de voorrangsborden en tekens op het wegdek.",
+          "bron": [
+            {"boek": 83, "sectie": "5.1", "anker": "zowel links als rechts rijden, zowel links als rechts inhalen"},
+            {"boek": 84, "sectie": "5.1", "anker": "Deze gaan boven de voorrangsborden en tekens op het wegdek"},
+            {"slide": 84, "anker": "mag je links en rechts rijden, mag je links en rechts inhalen"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r04",
+          "tekst": "Als je de rotonde wilt verlaten, moet je het verkeer dat de rotonde blijft volgen voor laten gaan. Dat geldt ook voor (snor)fietsers, bromfietsers en voetgangers die op een fietspad of voetpad de rotonde blijven volgen, behalve als borden of tekens iets anders voorschrijven.",
+          "bron": [
+            {"boek": 85, "sectie": "5.1", "anker": "moet je het verkeer dat de rotonde blijft volgen voor laten gaan"},
+            {"boek": 87, "sectie": "5.1", "anker": "Behalve als verkeersborden of -tekens iets anders voorschrijven"},
+            {"slide": 84, "anker": "verkeer dat de rotonde volgt (ook fietsers en voetgangers) moet je voor laten gaan"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r05",
+          "tekst": "Ligt het fiets-/bromfietspad wat verder van de rotonde af, vooral buiten de bebouwde kom, dan hoef je bij het verlaten de (brom)fietsers geen voorrang te geven. Zij zien haaientanden op hun pad.",
+          "bron": [
+            {"boek": 86, "sectie": "5.1", "anker": "Bij het verlaten van de rotonde hoef je de (brom)fietsers geen voorrang te geven"},
+            {"boek": 87, "sectie": "5.1", "anker": "haaientanden op het fiets/bromfietspad en moet daarom aan jou voorrang verlenen"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een rotonde werkt alleen als de ring blijft stromen. Daarom wacht wie oprijdt, en daarom gaat de fietser die de ring blijft volgen voor: hij hoort bij de rotonde. Ligt het fietspad verderop, dan is het een gewone oversteek en draaien de haaientanden het om.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "scene",
+          "ref": "S-U05-101",
+          "tekst": "Je staat voor de haaientanden bij [B6]. De bestelauto rijdt al op de rotonde en komt van links: je verleent voorrang.",
+          "bron": {"boek": 84, "sectie": "5.1", "anker": "Nu moet je voorrang verlenen aan de rode bestelauto"}
+        },
+        {
+          "type": "tabel",
+          "kop": ["Je wilt", "Op de toeleidende weg", "Op de rotonde"],
+          "rijen": [
+            ["Rechtsaf, eerste zijweg", "Rechts rijden, richting naar rechts", "Richting aan laten tot je eraf bent"],
+            ["Rechtdoor, tweede zijweg", "Rechterstrook (middelste bij drie stroken), geen richting", "Bij de eerste zijweg richting naar rechts en rechts gaan rijden"],
+            ["Linksaf, derde zijweg", "Linkerstrook, richting naar links", "Grote rotonde: richtingaanwijzer uit; minirotonde: links laten aanstaan. Bij de tweede zijweg richting naar rechts en rechts gaan rijden"],
+            ["Turborotonde", "Voorwegwijzer en pijlen bepalen je strook: tijdig voorsorteren", "Betonnen rand: wisselen kan niet meer, toch richting aangeven bij het afslaan"]
+          ],
+          "bron": [
+            {"boek": 84, "sectie": "5.1", "anker": "blijf je op de toeleidende weg rechts rijden en geef je richting aan naar rechts"},
+            {"boek": 84, "sectie": "5.1", "anker": "Ter hoogte van de eerste zijweg geef je richting aan naar rechts"},
+            {"boek": 84, "sectie": "5.1", "anker": "volg je op de toeleidende weg de linkerstrook en geef je richting aan naar links"},
+            {"boek": 85, "sectie": "5.1", "anker": "op een minirotonde laat je je richtingaanwijzer naar links aanstaan"},
+            {"boek": 83, "sectie": "5.1", "anker": "Door de betonnen rand kun je op de turborotonde niet meer van rijstrook wisselen"},
+            {"slide": 87, "anker": "geef richting aan naar rechts ter hoogte van de tweede zijweg"}
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U05-102",
+          "tekst": "Je verlaat de rotonde bij de noordelijke arm. Het fietspad ligt direct om de rotonde en de fietser blijft de rotonde volgen. Voor jou liggen haaientanden: je laat de fietser voor.",
+          "bron": {"boek": 86, "sectie": "5.1", "anker": "Hier moet je de fietser die de rotonde blijft volgen voor laten gaan"}
+        },
+        {
+          "type": "scene",
+          "ref": "S-U05-103",
+          "tekst": "Hier ligt het fiets-/bromfietspad een stuk van de rotonde af. De bromfietser ziet haaientanden op zijn pad en verleent jou voorrang. Maak oogcontact om dat zeker te weten.",
+          "bron": {"boek": 87, "sectie": "5.1", "anker": "Maak oogcontact om zeker te weten dat de bromfietser voorrang zal verlenen"}
+        },
+        {
+          "type": "borden",
+          "codes": ["D1"],
+          "tekst": "[D1] staat op het middeneiland en verplicht de rijrichting; [J9] op de toeleidende weg waarschuwt voor de rotonde."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Ga je rechtdoor, dan geef je op de toeleidende weg geen richting aan; rechts gaat pas aan bij de zijweg vóór je afrit. En de haaientanden bij het verlaten liggen er voor jou, niet voor de fietser."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Oprijden: wachten voor de ring. Afrijden: de fietser die de ring volgt gaat voor, tenzij de haaientanden op zijn pad liggen. Richting naar rechts bij de zijweg vóór je afrit."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je gaat rechtdoor over een rotonde met vier zijwegen. Wanneer zet je je richtingaanwijzer naar rechts aan?",
+          "antwoord": "Ter hoogte van de eerste zijweg.",
+          "uitleg": "Zo weet wie bij de tweede zijweg wacht dat je eraf gaat.",
+          "bron": {"boek": 84, "sectie": "5.1", "anker": "Ter hoogte van de eerste zijweg geef je richting aan naar rechts"}
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Buiten de bebouwde kom ligt het fietspad ver van de rotonde, met haaientanden op het fietspad. Moet je bij het verlaten de fietser voor laten gaan?",
+          "antwoord": "Nee.",
+          "uitleg": "Het pad hoort niet bij de rotonde; de haaientanden laten de fietser op jou wachten.",
+          "bron": {"boek": 86, "sectie": "5.1", "anker": "Je hoeft bij het verlaten van de rotonde geen voorrang te verlenen"}
+        }
+      ]
+    },
+    {
+      "id": "U05-P02",
+      "anker": "p-5.2-uitrit",
+      "titel": "Inrit en uitrit: iedereen gaat voor",
+      "bronnen": {"boek": {"secties": ["5.2"], "paginas": [88, 89]}, "cursus": {"slides": [88]}},
+      "body": [
+        {
+          "type": "regel",
+          "id": "U05-r06",
+          "tekst": "Je moet bij het inrijden van een inrit en bij het verlaten van een uitrit alle weggebruikers (dus ook voetgangers) voor laten gaan.",
+          "bron": [
+            {"boek": 88, "sectie": "5.2", "anker": "Je moet bij het inrijden van een inrit en bij het verlaten van een uitrit"},
+            {"slide": 88, "anker": "moet je al het overige verkeer voor laten gaan, dus ook voetgangers"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r07",
+          "tekst": "Meestal herken je in- en uitritten aan hun constructie, zoals de verlaagde stoepranden of de inritblokken. Maar ook wegen met een beperkte bestemming zijn in- en uitritten, bijvoorbeeld de weg naar een parkeerplaats van een winkelcentrum.",
+          "bron": [
+            {"boek": 88, "sectie": "5.2", "anker": "zoals de verlaagde stoepranden of de inritblokken"},
+            {"boek": 88, "sectie": "5.2", "anker": "Dit is bijvoorbeeld het geval bij wegen naar een parkeerplaats van een winkelcentrum"},
+            {"slide": 88, "anker": "Ook wegen met een beperkte bestemming zijn in- en uitritten"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r08",
+          "tekst": "Wil je linksaf een inrit in, sorteer dan binnen de bebouwde kom gewoon tegen de wegas voor. Buiten de bebouwde kom mag dat ook, maar op drukke doorgaande wegen kun je beter niet stil gaan staan om tegenliggers voor te laten gaan, zeker niet vlak na een bocht. Stop eventueel rechts in de berm of rij door en nader de inrit van de andere zijde.",
+          "bron": [
+            {"boek": 88, "sectie": "5.2", "anker": "sorteer dan binnen de bebouwde kom gewoon tegen de wegas voor"},
+            {"boek": 89, "sectie": "5.2", "anker": "beter niet stil gaan staan om tegenliggers voor te laten gaan"},
+            {"slide": 88, "anker": "Besef dat stilstaan / voorsorteren gevaarlijk kan zijn"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r09",
+          "tekst": "Wil je rechtsaf een inrit in, dan moet je eerder dan bij gewoon rechts afslaan het achteropkomende verkeer attenderen. Geef tijdig richting aan en verlaag je snelheid; soms is het verstandig om eerst met je rempedaal een remsignaal te geven.",
+          "bron": [
+            {"boek": 89, "sectie": "5.2", "anker": "eerder dan bij gewoon rechts afslaan het achteropkomende verkeer attenderen"},
+            {"boek": 89, "sectie": "5.2", "anker": "Soms is het verstandig om eerst met je rempedaal een remsignaal te geven"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Wie een uitrit verlaat of een inrit inrijdt, doet iets wat de andere weggebruikers niet verwachten op een plek die geen kruispunt is. Daarom ligt de hele wachtplicht bij jou, ook tegenover een voetganger op de stoep.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een zilvergrijze auto komt van rechts uit een zijstraat met een verlaagde stoeprand. Hij komt weliswaar van rechts, maar hij verlaat een uitrit: jij mag dus eerst.",
+          "bron": {"boek": 88, "sectie": "5.2", "anker": "De andere auto komt weliswaar van rechts, maar hij verlaat een uitrit"}
+        },
+        {
+          "type": "scene",
+          "ref": "S-U05-104",
+          "tekst": "De bromfietser komt van het parkeerterrein van een winkelcentrum: een weg met een beperkte bestemming, dus een uitrit. Jij mag eerst.",
+          "bron": {"slide": 88, "anker": "Hier komt de bromfiets dus uit een uitrit en mag jij eerst"}
+        },
+        {
+          "type": "tabel",
+          "kop": ["Inrit inrijden", "Wat je doet"],
+          "rijen": [
+            ["Links, binnen de bebouwde kom", "Tegen de wegas voorsorteren en de tegenliggers voor laten gaan"],
+            ["Links, buiten de bebouwde kom", "Liever niet stilstaan op een drukke weg: rechts in de berm, of doorrijden en van de andere kant komen"],
+            ["Rechts", "Vroeg richting aangeven, snelheid omlaag, eventueel eerst een remsignaal"]
+          ],
+          "bron": [
+            {"boek": 88, "sectie": "5.2", "anker": "sorteer dan binnen de bebouwde kom gewoon tegen de wegas voor"},
+            {"boek": 89, "sectie": "5.2", "anker": "Stop eventueel rechts in de berm of rij door"},
+            {"boek": 89, "sectie": "5.2", "anker": "Geef tijdig richting aan en verlaag je snelheid"}
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Van rechts betekent hier niets: een uitrit is geen zijweg. Kijk naar de verlaagde stoeprand of de inritblokken, en bedenk dat ook een weg naar een parkeerterrein een uitrit is, zelfs zonder blokken."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "In of uit een inrit of uitrit: iedereen gaat voor, ook de voetganger. Zelf op de weg: de auto uit de uitrit wacht op jou, ook als hij van rechts komt."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op een straat. Van rechts komt een auto uit een uitrit met inritblokken. Wie gaat eerst?",
+          "antwoord": "Jij.",
+          "uitleg": "Wie een uitrit verlaat, laat alle weggebruikers voor; van rechts komen telt hier niet.",
+          "bron": {"boek": 88, "sectie": "5.2", "anker": "De andere auto komt weliswaar van rechts, maar hij verlaat een uitrit"}
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je wilt rechtsaf een inrit in en er rijdt een auto achter je. Wat doe je anders dan bij gewoon rechts afslaan?",
+          "antwoord": "Eerder richting aangeven, snelheid omlaag en eventueel een remsignaal geven.",
+          "uitleg": "Je achterligger verwacht niet dat je plotseling een inrit inrijdt.",
+          "bron": {"boek": 89, "sectie": "5.2", "anker": "Je achterligger verwacht waarschijnlijk niet dat je plotseling een inrit wilt inrijden"}
+        }
+      ]
+    },
+    {
+      "id": "U05-P03",
+      "anker": "p-5.3-erf",
+      "titel": "Het erf: stapvoets, voetgangers overal",
+      "bronnen": {"boek": {"secties": ["5.3"], "paginas": [89, 90]}, "cursus": {"slides": [89]}},
+      "body": [
+        {
+          "type": "regel",
+          "id": "U05-r10",
+          "tekst": "Een erf herken je aan de borden. Het is gewoon een openbare weg, maar er gelden bijzondere regels: de maximumsnelheid is 15 km/u, voetgangers mogen op de weg lopen, en je mag alleen parkeren op plaatsen die met een P zijn aangeduid of op eigen terrein.",
+          "bron": [
+            {"boek": 89, "sectie": "5.3", "anker": "Het is gewoon een openbare weg, maar er gelden bijzondere regels"},
+            {"boek": 89, "sectie": "5.3", "anker": "je mag alleen parkeren: op plaatsen die met een P zijn aangeduid, op eigen terrein"},
+            {"slide": 89, "anker": "de maximumsnelheid is 15 km/u (stapvoets)"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r11",
+          "tekst": "Het laten in- of uitstappen van passagiers is in een erf wel toegestaan. Rijd extra alert, niet alleen vanwege voetgangers en spelende kinderen, maar ook omdat er allerlei obstakels op de weg kunnen staan.",
+          "bron": [
+            {"slide": 89, "anker": "Het laten in- of uitstappen van passagiers is wél toegestaan"},
+            {"boek": 89, "sectie": "5.3", "anker": "maar ook omdat er allerlei obstakels op de weg kunnen staan"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r12",
+          "tekst": "De toegang tot of uitgang van een erf is meestal een inrit of uitrit. Je moet dan alle weggebruikers voor laten gaan, dus ook de voetganger op de stoep.",
+          "bron": [
+            {"boek": 89, "sectie": "5.3", "anker": "De toegang tot / uitgang van een erf is meestal een inrit / uitrit"},
+            {"boek": 90, "sectie": "5.3", "anker": "Je moet dus ook de voetganger voor laten gaan"},
+            {"slide": 89, "anker": "de toegang tot een erf is meestal een inrit / uitrit"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "In een erf delen spelende kinderen, wandelaars en auto's dezelfde klinkers, vaak zonder stoep. Stapvoets rijden geeft je de tijd om te stoppen voor wie tussen de geparkeerde auto's vandaan komt, en het parkeerverbod houdt die ruimte vrij.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt een klinkerstraat in met rechts het erfbord. Er staat geen P-bord en het is niet je eigen terrein: hier mag je niet parkeren. Verderop staat een auto wel netjes op eigen terrein.",
+          "bron": {"boek": 89, "sectie": "5.3", "anker": "op plaatsen die met een P zijn aangeduid, op eigen terrein"}
+        },
+        {
+          "type": "scene",
+          "ref": "S-U05-105",
+          "tekst": "Je verlaat het erf via een uitrit met verlaagde stoeprand. Over de stoep loopt een voetganger vlak voor je langs: hij gaat voor.",
+          "bron": {"boek": 90, "sectie": "5.3", "anker": "Hier verlaat je het erf via een uitrit"}
+        },
+        {
+          "type": "borden",
+          "codes": ["G5", "G6"],
+          "tekst": "[G5] begint het erf, [G6] eindigt het. Tussen die twee borden gelden de erfregels."
+        },
+        {
+          "type": "tabel",
+          "kop": ["Regel", "In een erf"],
+          "rijen": [
+            ["Snelheid", "Maximaal 15 km/u, stapvoets"],
+            ["Voetgangers", "Mogen de weg over de volle breedte gebruiken"],
+            ["Parkeren", "Alleen op plaatsen met een P of op eigen terrein; in- en uitstappen mag overal"],
+            ["In- en uitgang", "Meestal een inrit of uitrit: iedereen gaat voor"]
+          ],
+          "bron": [
+            {"slide": 89, "anker": "de maximumsnelheid is 15 km/u (stapvoets)"},
+            {"slide": 89, "anker": "voetgangers mogen de weg over de volle breedte gebruiken in een erf"},
+            {"slide": 89, "anker": "parkeren mag alleen op eigen terrein en op daartoe aangewezen plaatsen"},
+            {"slide": 89, "anker": "de toegang tot een erf is meestal een inrit / uitrit"}
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Stapvoets is 15 km/u, geen 30. En parkeren langs de kant, zoals in een gewone woonstraat, mag hier niet zonder P; even stoppen om iemand uit te laten stappen mag wel."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Erf: 15 km/u, voetgangers overal, parkeren alleen op P of eigen terrein, en bij de uitgang laat je iedereen voor."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "In een erf loopt een voetganger midden op de weg. Mag dat?",
+          "antwoord": "Ja.",
+          "uitleg": "Voetgangers mogen in een erf de weg over de volle breedte gebruiken.",
+          "bron": {"slide": 89, "anker": "voetgangers mogen de weg over de volle breedte gebruiken in een erf"}
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je verlaat een erf via een uitrit. Een fietser komt van links over de straat. Moet je hem voor laten gaan?",
+          "antwoord": "Ja.",
+          "uitleg": "Bij het verlaten van een uitrit laat je alle weggebruikers voor, van links en van rechts.",
+          "bron": {"boek": 90, "sectie": "5.3", "anker": "Je moet alle weggebruikers voor laten gaan"}
+        }
+      ]
+    },
+    {
+      "id": "U05-P04",
+      "anker": "p-5.4-30-zone",
+      "titel": "De 30 km-zone: in en uit via een inrit",
+      "bronnen": {"boek": {"secties": ["5.4"], "paginas": [90]}, "cursus": {"slides": [90]}},
+      "body": [
+        {
+          "type": "regel",
+          "id": "U05-r13",
+          "tekst": "30 km-zones worden vooral aangelegd op plaatsen met veel gemengd verkeer (snel en langzaam) en in de buurt van scholen. Houd rekening met voetgangers en fietsers en rijd extra defensief.",
+          "bron": [
+            {"boek": 90, "sectie": "5.4", "anker": "op plaatsen met veel gemengd verkeer (snel en langzaam), in de buurt van scholen"},
+            {"slide": 90, "anker": "in woonwijken en in de buurt van scholen"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r14",
+          "tekst": "Een 30 km-zone herken je aan de borden. De maximumsnelheid is 30 km/u en dat geldt in de hele zone.",
+          "bron": {"slide": 90, "anker": "de maximumsnelheid is 30 km/u. Dit geldt in de hele zone"}
+        },
+        {
+          "type": "regel",
+          "id": "U05-r15",
+          "tekst": "De toegang tot een 30 km-zone is vaak een inrit/uitrit. Je moet dan alle weggebruikers voor laten gaan als je een zone in of uit rijdt.",
+          "bron": [
+            {"boek": 90, "sectie": "5.4", "anker": "De toegang tot een 30 km-zone is vaak een inrit/uitrit"},
+            {"slide": 90, "anker": "vaak rijd je de zone in of uit via een inrit / uitrit"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U05-r16",
+          "tekst": "Het einde van een 30 km-zone is niet altijd een uitrit. Is het een gewone gelijkwaardige kruising, dan gelden de gewone voorrangsregels: kom je van rechts, dan mag je eerst.",
+          "bron": [
+            {"boek": 90, "sectie": "5.4", "anker": "Het einde van een 30 km-zone is niet altijd een uitrit"},
+            {"boek": 90, "sectie": "5.4", "anker": "Hier is het een gewone gelijkwaardige kruising. Jij komt van rechts en mag dus eerst"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Rond scholen en in woonwijken steken kinderen en fietsers zomaar over. Bij 30 km/u is je stopafstand een fractie van die bij 50, en de inrit bij de ingang dwingt je om al bij het binnenrijden te vertragen en te kijken.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "tekst",
+          "tekst": "Het zonebord is een wit rechthoekig bord met bovenaan het woord ZONE en daaronder een rond bord met rode rand en het getal 30. Het einde van de zone is hetzelfde bord in grijs, met zwarte schuine strepen erdoor.",
+          "bron": {"slide": 90, "anker": "een bord met bovenaan ZONE en daaronder een rond bord met rode rand en 30"}
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je nadert het einde van een zone. Rechts staat het bord einde 30 km-zone en midden op de kruising ligt een witte verhoogde cirkel. Van links komt een terreinwagen. Er is geen inritconstructie, dus het is een gewone gelijkwaardige kruising: jij komt van rechts en mag eerst.",
+          "bron": {"boek": 90, "sectie": "5.4", "anker": "Hier is het een gewone gelijkwaardige kruising. Jij komt van rechts en mag dus eerst"}
+        },
+        {
+          "type": "scene",
+          "ref": "S-U05-106",
+          "tekst": "Het einde van de zone is hier een gelijkwaardige kruising zonder verlaagde stoeprand. Jij komt voor de grijze auto van rechts: jij mag eerst.",
+          "bron": {"boek": 90, "sectie": "5.4", "anker": "Het einde van een 30 km-zone is niet altijd een uitrit"}
+        },
+        {
+          "type": "tabel",
+          "kop": ["Zonegrens", "Wie gaat voor"],
+          "rijen": [
+            ["Inrit of uitrit (verlaagde stoeprand, inritblokken)", "Alle weggebruikers, ook voetgangers; jij wacht"],
+            ["Gewone gelijkwaardige kruising", "De gewone regels: bestuurders van rechts gaan voor"]
+          ],
+          "bron": [
+            {"boek": 90, "sectie": "5.4", "anker": "alle weggebruikers voor laten gaan als je een zone in of uit rijdt"},
+            {"boek": 90, "sectie": "5.4", "anker": "Het einde van een 30 km-zone is niet altijd een uitrit"}
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een zone-ingang met verlaagde stoeprand is een inrit: dan laat je iedereen voor, ook wie van links komt. Zonder inritconstructie is de zonegrens een gewoon kruispunt en geldt rechts gaat voor. Kijk dus naar de weg, niet alleen naar het bord."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "30 in de hele zone. Zone in of uit via een inrit: iedereen gaat voor. Zone-einde zonder inrit: gewoon kruispunt."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt een 30 km-zone in via een ingang met verlaagde stoeprand. Op de stoep loopt een voetganger langs de ingang. Moet je wachten?",
+          "antwoord": "Ja.",
+          "uitleg": "De ingang is een inrit; bij het inrijden laat je alle weggebruikers voor, ook voetgangers.",
+          "bron": {"slide": 90, "anker": "Je moet dan dus alle andere weggebruikers voor laten gaan"}
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Waar vind je 30 km-zones vooral?",
+          "antwoord": "Bij veel gemengd verkeer, in woonwijken en in de buurt van scholen.",
+          "uitleg": "Daar lopen en fietsen veel kwetsbare weggebruikers tussen de auto's.",
+          "bron": {"boek": 90, "sectie": "5.4", "anker": "op plaatsen met veel gemengd verkeer (snel en langzaam), in de buurt van scholen"}
+        }
+      ]
+    }
+  ]
+}

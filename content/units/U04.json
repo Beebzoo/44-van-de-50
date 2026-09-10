@@ -1,0 +1,1223 @@
+{
+  "id": "U04",
+  "slug": "voor-laten-gaan-en-afslaan",
+  "titel": "Voor laten gaan en afslaan",
+  "volgorde": 4,
+  "week": 2,
+  "tier": "must",
+  "vereist": [
+    "U03"
+  ],
+  "borden": [
+    "L2"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "5.5",
+        "6.3",
+        "6.5",
+        "8.1",
+        "9.3",
+        "9.4",
+        "9.5"
+      ],
+      "paginas": [
+        91,
+        92,
+        110,
+        111,
+        112,
+        114,
+        115,
+        116,
+        127,
+        128,
+        129,
+        130,
+        131,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ]
+    },
+    "cursus": {
+      "slides": [
+        91,
+        108,
+        119,
+        120,
+        121,
+        123,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "voorrang_en_voor_laten_gaan",
+    "bijzondere_wegen_weggebruikers_manoeuvres"
+  ],
+  "intro": "Voorrang gaat over wie er eerst mag op een kruispunt. Voor laten gaan is iets anders: dat gaat over jouw manoeuvre. Wie afslaat, laat het verkeer voor dat rechtdoor gaat op dezelfde weg, en wie linksaf slaat laat de tegenligger voor die rechtsaf slaat. In dit blok leer je die regel, hoe je netjes voorsorteert en afslaat, waarom je bij kwetsbare weggebruikers extra ruimte en tijd geeft, wat je doet bij een zebrapad en hoe je omgaat met een militaire colonne en een uitvaartstoet. Bijna elke vraag is een tekening van bovenaf: kijk eerst wie rechtdoor gaat en wie afslaat, dan weet je meestal al het antwoord.",
+  "paginas": [
+    {
+      "id": "U04-P01",
+      "anker": "p-6.3-afslaan",
+      "titel": "Afslaan: rechtdoor gaat voor",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "6.3"
+          ],
+          "paginas": [
+            110,
+            111,
+            112
+          ]
+        },
+        "cursus": {
+          "slides": [
+            108,
+            123
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U04-r01",
+          "tekst": "Bestuurders die afslaan, moeten het rechtdoorgaande verkeer (dus ook voetgangers) op dezelfde weg voor laten gaan. Dat geldt zowel voor tegemoetkomend verkeer als voor verkeer dat zich dicht achter je bevindt.",
+          "bron": [
+            {
+              "boek": 110,
+              "sectie": "6.3",
+              "anker": "moeten het rechtdoorgaande verkeer dus ook voetgangers op dezelfde weg voor laten gaan"
+            },
+            {
+              "slide": 108,
+              "anker": "die op dezelfde weg rechtdoor gaan voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r02",
+          "tekst": "Als je verkeer voor moet laten gaan, moet je zo gaan stilstaan dat je het kruisende verkeer niet hindert. Meestal moet je dus voor het kruispunt wachten.",
+          "bron": {
+            "boek": 110,
+            "sectie": "6.3",
+            "anker": "zo gaan stilstaan dat je het kruisende verkeer niet hindert"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r03",
+          "tekst": "De regel geldt ook voor verkeer op een naastgelegen pad. Een fietser die op het fietspad naast je rechtdoor gaat, laat je dus voor als je rechtsaf slaat.",
+          "bron": {
+            "boek": 111,
+            "sectie": "6.3",
+            "anker": "De regel geldt ook voor verkeer op een naastgelegen pad"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r04",
+          "tekst": "Bestuurders die naar links afslaan, moeten tegemoetkomende bestuurders die op hetzelfde kruispunt naar rechts afslaan voor laten gaan. Rechtsaf gaat dus voor linksaf.",
+          "bron": [
+            {
+              "boek": 111,
+              "sectie": "6.3",
+              "anker": "moeten tegemoetkomende bestuurders die op hetzelfde kruispunt naar rechts afslaan voor laten gaan"
+            },
+            {
+              "slide": 108,
+              "anker": "die rechts afslaan dezelfde weg in voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Wie rechtdoor gaat, blijft in zijn eigen baan en hoeft niets te kruisen. Wie afslaat, kruist wel een baan: die van de tegenligger, van de fietser naast je of van de voetganger op de hoek. Daarom ligt de plicht om te wachten bij de afslaande bestuurder. Bij linksaf tegenover rechtsaf kruis jij de baan van de ander, terwijl hij die van jou niet raakt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U04-101",
+          "tekst": "Jij slaat rechtsaf, de fietser op het fietspad naast je gaat rechtdoor. Het fietspad is een naastgelegen pad op dezelfde weg, dus de fietser gaat eerst.",
+          "bron": {
+            "boek": 111,
+            "sectie": "6.3",
+            "anker": "Hier moet je de fietser dus voor laten gaan"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Jij wilt linksaf, een tegemoetkomende vrachtauto wil rechtsaf dezelfde straat in, en op de hoek steekt een voetganger die straat over. De voetganger gaat voor jullie allebei rechtdoor op dezelfde weg en mag eerst. Daarna mag de vrachtauto, want rechtsaf gaat voor linksaf. Jij bent als laatste.",
+          "bron": [
+            {
+              "slide": 108,
+              "anker": "rechtdoor op dezelfde weg en mag eerst"
+            },
+            {
+              "slide": 123,
+              "anker": "een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op een afbuigende voorrangsweg telt het volgen van de bocht als rechtdoor. Een snorfietser die de afbuigende voorrangsweg volgt, gaat dus voor jou als jij de voorrangsweg verlaat.",
+          "bron": {
+            "boek": 112,
+            "sectie": "6.3",
+            "anker": "De snorfietser gaat rechtdoor op de afbuigende voorrangsweg en mag eerst"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De regel zegt: op dezelfde weg. Een voetganger die de kruisende weg oversteekt, hoef je als bestuurder uit de zijweg niet voor te laten gaan; een voetganger die jouw eigen weg volgt en de zijstraat oversteekt wel. En wachten doe je voor het kruispunt, niet erop.",
+          "bron": {
+            "slide": 123,
+            "anker": "hoeft voetgangers op de kruisende weg niet voor te laten gaan"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Afslaan is wachten: rechtdoor gaat voor, ook fietsers en voetgangers, ook achter je. Rechtsaf gaat voor linksaf."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je slaat rechtsaf. Op het fietspad rechts naast je rijdt een fietser rechtdoor. Wie gaat eerst?",
+          "antwoord": "De fietser.",
+          "uitleg": "Het fietspad is een naastgelegen pad op dezelfde weg; de fietser gaat rechtdoor en jij slaat af.",
+          "bron": {
+            "boek": 111,
+            "sectie": "6.3",
+            "anker": "De regel geldt ook voor verkeer op een naastgelegen pad"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Jij wilt linksaf, een tegenligger wil rechtsaf dezelfde straat in. Wie mag eerst?",
+          "antwoord": "De tegenligger die rechtsaf slaat.",
+          "uitleg": "Wie linksaf slaat, laat de tegemoetkomende bestuurder die op hetzelfde kruispunt rechtsaf slaat voor gaan.",
+          "bron": {
+            "boek": 111,
+            "sectie": "6.3",
+            "anker": "moeten tegemoetkomende bestuurders die op hetzelfde kruispunt naar rechts afslaan voor laten gaan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U04-P02",
+      "anker": "p-9.3-voorsorteren",
+      "titel": "Voorsorteren",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "9.3"
+          ],
+          "paginas": [
+            135,
+            136,
+            137
+          ]
+        },
+        "cursus": {
+          "slides": [
+            160,
+            161,
+            162
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U04-r05",
+          "tekst": "Om links af te slaan sorteer je voor tegen de as van de weg op wegen waar je tegemoetkomende bestuurders kunt verwachten, en geheel links van de rijbaan op volledige eenrichtingswegen en op wegen met gescheiden rijbanen.",
+          "bron": [
+            {
+              "boek": 135,
+              "sectie": "9.3",
+              "anker": "op wegen waar je tegemoetkomende bestuurders kunt verwachten"
+            },
+            {
+              "slide": 160,
+              "anker": "als er geen tegemoetkomende bestuurders kunnen zijn dus op een volledige eenrichtingsweg"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r06",
+          "tekst": "Op eenrichtingswegen waar je tegemoetkomende (brom)fietsers kunt verwachten, sorteer je dus tegen de as van de weg voor.",
+          "bron": {
+            "boek": 135,
+            "sectie": "9.3",
+            "anker": "sorteer je dus tegen de as van de weg voor"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r07",
+          "tekst": "Om rechts af te slaan sorteer je voor tegen de stoeprand of de witte kantstreep van de rijbaan, of tegen de streep als er rechts een busstrook of een fietsstrook met een doorgetrokken streep ligt.",
+          "bron": [
+            {
+              "boek": 136,
+              "sectie": "9.3",
+              "anker": "tegen de stoeprand of de witte kantstreep van de rijbaan"
+            },
+            {
+              "slide": 161,
+              "anker": "Het is niet toegestaan om voor te sorteren op een fietsstrook met een doorgetrokken streep"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r08",
+          "tekst": "Als de fietsstrook met een onderbroken streep gemarkeerd is, mag je daarop voorsorteren, maar alleen als je daarbij geen (snor)fietsers hindert.",
+          "bron": {
+            "boek": 136,
+            "sectie": "9.3",
+            "anker": "mag je daarop voorsorteren maar alleen als je daarbij geen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r09",
+          "tekst": "Pijlen in voorsorteerstroken geven aan in welke strook je moet gaan rijden. Heb je eenmaal voor een strook gekozen, dan ben je verplicht om op het kruispunt de aangegeven richting te volgen. Van strook wisselen mag alleen nog als er geen doorgetrokken streep is en je geen ander verkeer hindert.",
+          "bron": [
+            {
+              "boek": 137,
+              "sectie": "9.3",
+              "anker": "ben je verplicht om op het kruispunt de aangegeven richting te volgen"
+            },
+            {
+              "slide": 162,
+              "anker": "alleen nog van strook wisselen als er geen doorgetrokken streep is"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Voorsorteren is communiceren. Wie tegen de as van de weg rijdt met de richtingaanwijzer aan, laat het verkeer achter zich er rechts langs en zegt de tegenligger wat hij van plan is. Op een volledige eenrichtingsweg is er geen tegenligger, dus gebruik je de hele linkerkant. Een doorgetrokken streep langs een fietsstrook beschermt de fietser: daar blijf je vanaf.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Je wilt",
+            "Waar je voorsorteert"
+          ],
+          "rijen": [
+            [
+              "linksaf, gewone weg met tegenliggers",
+              "tegen de as van de weg"
+            ],
+            [
+              "linksaf, beperkte eenrichtingsweg (fietsers tegemoet)",
+              "tegen de as van de weg"
+            ],
+            [
+              "linksaf, volledige eenrichtingsweg",
+              "geheel links van de rijbaan"
+            ],
+            [
+              "linksaf, gescheiden rijbanen",
+              "geheel links van de rijbaan"
+            ],
+            [
+              "rechtsaf, gewone weg",
+              "tegen de stoeprand of de kantstreep"
+            ],
+            [
+              "rechtsaf, busstrook of fietsstrook met doorgetrokken streep rechts",
+              "tegen de streep, niet erop"
+            ],
+            [
+              "rechtsaf, fietsstrook met onderbroken streep rechts",
+              "op de strook mag, als je geen fietser hindert"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 135,
+              "sectie": "9.3",
+              "anker": "geheel links van de rijbaan op volledige eenrichtingswegen"
+            },
+            {
+              "boek": 136,
+              "sectie": "9.3",
+              "anker": "Op een fietsstrook met een doorgetrokken streep mag je niet voorsorteren"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U04-102",
+          "tekst": "Rechts van je ligt een fietsstrook. Kijk naar de streep: onderbroken betekent dat je erop mag voorsorteren zolang je niemand hindert, doorgetrokken betekent ernaast blijven.",
+          "bron": {
+            "boek": 136,
+            "sectie": "9.3",
+            "anker": "Op deze strook mag het wel mits je geen hinder veroorzaakt"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt een straat in met bord C2 aan het begin en fietsers die je tegemoet komen. Dit is een beperkte eenrichtingsweg: je sorteert voor linksaf tegen de as van de weg, niet helemaal links.",
+          "bron": {
+            "boek": 136,
+            "sectie": "9.3",
+            "anker": "Op een beperkte eenrichtingsweg sorteer je voor tegen de as van de weg"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Eenrichtingsweg betekent niet automatisch helemaal links. Kunnen er (brom)fietsers tegemoet komen, dan is het een beperkte eenrichtingsweg en sorteer je tegen de as voor. En een gekozen voorsorteerstrook met doorgetrokken strepen is een belofte: die richting moet je volgen, ook als je verkeerd zit.",
+          "bron": {
+            "slide": 162,
+            "anker": "Je moet nu de aangegeven richting volgen"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Laat je voorwiel altijd recht staan terwijl je wacht. Zo kom je niet ongewild op de andere weghelft als je van achteren wordt aangereden.",
+          "bron": {
+            "slide": 160,
+            "anker": "Laat je voorwiel altijd recht staan"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Linksaf: tegen de as, tenzij niemand tegemoet kan komen. Rechtsaf: tegen de kant. Onderbroken streep mag, doorgetrokken niet. Gekozen strook is gekozen richting."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je wilt linksaf op een weg met gescheiden rijbanen. Waar sorteer je voor?",
+          "antwoord": "Geheel links van de rijbaan.",
+          "uitleg": "Op een weg met gescheiden rijbanen kan er geen tegenligger op jouw rijbaan zijn, dus gebruik je de linkerkant.",
+          "bron": {
+            "boek": 135,
+            "sectie": "9.3",
+            "anker": "geheel links van de rijbaan als de weg gescheiden rijbanen heeft"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Rechts ligt een fietsstrook met een onderbroken streep. Mag je erop voorsorteren om rechtsaf te slaan?",
+          "antwoord": "Ja, mits je geen (snor)fietsers hindert.",
+          "uitleg": "Bij een onderbroken streep mag het, bij een doorgetrokken streep niet.",
+          "bron": {
+            "boek": 136,
+            "sectie": "9.3",
+            "anker": "mag je daarop voorsorteren maar alleen als je daarbij geen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U04-P03",
+      "anker": "p-9.4-9.5-afslaan",
+      "titel": "Rechts en links afslaan",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "9.4",
+            "9.5"
+          ],
+          "paginas": [
+            110,
+            137,
+            138,
+            139,
+            140
+          ]
+        },
+        "cursus": {
+          "slides": [
+            163,
+            164
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U04-r10",
+          "tekst": "Veilig rechts afslaan doe je in deze volgorde: kijk in je binnenspiegel, kijk in je rechterbuitenspiegel, kijk over je rechterschouder, geef richting aan als je weet dat je veilig kunt gaan afslaan, sorteer voor in een vloeiende lijn zonder fietsers of snorfietsers te hinderen, laat het rechtdoorgaande verkeer op dezelfde weg voor gaan en neem de bocht naar rechts zo kort dat je uitkomt op de rechterweghelft van de weg die je inrijdt.",
+          "bron": [
+            {
+              "boek": 137,
+              "sectie": "9.4",
+              "anker": "neem de bocht naar rechts zo kort dat je uitkomt op de rechterweghelft"
+            },
+            {
+              "slide": 163,
+              "anker": "richting aangeven voorsorteren rechtdoorgaand verkeer voor laten de bocht kort nemen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r11",
+          "tekst": "Bij links afslaan kijk je in je binnenspiegel, je linkerbuitenspiegel en links opzij, je geeft richting aan, sorteert in een vloeiende lijn voor naar links, laat het rechtdoorgaande verkeer en tegemoetkomende naar rechts afslaande bestuurders voor gaan en neemt de bocht naar links zo ruim dat je uitkomt op de rechterweghelft. Snijd de bocht naar links niet af.",
+          "bron": [
+            {
+              "boek": 138,
+              "sectie": "9.5",
+              "anker": "laat ook hier het rechtdoorgaande verkeer en tegemoetkomende naar rechts afslaande bestuurders voor gaan"
+            },
+            {
+              "slide": 164,
+              "anker": "rechtdoorgaand verkeer en naar rechts afslaande bestuurders voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r12",
+          "tekst": "Let op achteropkomend verkeer voordat je voorsorteert en nogmaals voordat je daadwerkelijk afslaat. Laat je niet verrassen door een gehaaste inhaler.",
+          "bron": {
+            "boek": 138,
+            "sectie": "9.5",
+            "anker": "Laat je niet verrassen door een gehaaste inhaler"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r13",
+          "tekst": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij de tegenligger al duidelijk positie heeft gekozen voor afslaan, er tekens op het wegdek staan die anders aanduiden, of er een brede middenberm ligt.",
+          "bron": [
+            {
+              "boek": 140,
+              "sectie": "9.5",
+              "anker": "allebei linksaf willen ga je voor elkaar langs"
+            },
+            {
+              "slide": 164,
+              "anker": "ga voor elkaar langs behalve als er een brede middenberm ligt"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Stap",
+            "Rechtsaf",
+            "Linksaf"
+          ],
+          "rijen": [
+            [
+              "1 kijken",
+              "binnenspiegel, rechterbuitenspiegel, over je rechterschouder",
+              "binnenspiegel, linkerbuitenspiegel, links opzij"
+            ],
+            [
+              "2 richting aangeven",
+              "als je weet dat je veilig kunt afslaan",
+              "als je weet dat je veilig kunt afslaan"
+            ],
+            [
+              "3 voorsorteren",
+              "vloeiend naar rechts, geen fietsers hinderen",
+              "vloeiend naar links, tegen de as"
+            ],
+            [
+              "4 voor laten gaan",
+              "rechtdoorgaand verkeer op dezelfde weg, ook fietsers en voetgangers",
+              "rechtdoorgaand verkeer en tegenliggers die rechtsaf slaan"
+            ],
+            [
+              "5 de bocht",
+              "kort, op de rechterweghelft uitkomen",
+              "ruim, op de rechterweghelft uitkomen, niet afsnijden"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 137,
+              "sectie": "9.4",
+              "anker": "geef richting aan als je weet dat je veilig kunt gaan afslaan"
+            },
+            {
+              "boek": 138,
+              "sectie": "9.5",
+              "anker": "neem de bocht naar links zo ruim dat je uitkomt op de rechterweghelft"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Bij rechtsaf zit het gevaar rechts en achter je: een fietser in je dode hoek. Daarom kijk je over je rechterschouder en neem je de bocht kort, zodat je niet over de scheidingslijn van de zijstraat komt. Bij linksaf zit het gevaar voor je en achter je: de tegenligger en een inhaler. Een ruime bocht naar links houdt je op je eigen weghelft in de straat die je inrijdt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U04-103",
+          "tekst": "Jij en de tegenligger willen allebei linksaf. Zonder pijlen op het wegdek en zonder brede middenberm ga je voor elkaar langs. Laat duidelijk zien wat je doet.",
+          "bron": {
+            "boek": 140,
+            "sectie": "9.5",
+            "anker": "laat duidelijk zien of je voor of achter de tegenligger langs gaat"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op een kruispunt met verkeerslichten staan witte pijlen op het wegdek die om elkaar heen buigen. Dan slaan beide bestuurders achter elkaar langs linksaf, om elkaar heen. Ook bij een brede middenberm is om elkaar heen gaan logischer.",
+          "bron": {
+            "boek": 140,
+            "sectie": "9.5",
+            "anker": "De pijlen op het wegdek geven aan dat beide bestuurders om elkaar heen moeten"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Buiten de bebouwde kom sla je rechtsaf een enkelbaansweg op. Bestuurders van links en rechts naderen snel, bomen kunnen het zicht sterk belemmeren, en van rechts kan een inhaler op jouw weghelft komen. Kijk dus altijd ook naar rechts.",
+          "bron": [
+            {
+              "boek": 138,
+              "sectie": "9.4",
+              "anker": "je frontaal op een inhaler kunt botsen"
+            },
+            {
+              "boek": 110,
+              "sectie": "6.2",
+              "anker": "Kijk daarom ook altijd naar rechts als je rechtsaf een weg opdraait"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een tegenligger die voor je langs linksaf slaat, ontneemt je het zicht op het tegemoetkomende rechtdoorgaande verkeer daarachter. Rij dus niet blind achter hem aan de bocht in.",
+          "bron": {
+            "boek": 140,
+            "sectie": "9.5",
+            "anker": "ontneemt je zicht op het tegemoetkomende rechtdoorgaande verkeer"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Kijken, richting, voorsorteren, voor laten gaan, bocht. Rechts kort, links ruim. Twee keer achterom kijken bij linksaf."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je slaat linksaf en komt uit op de linkerweghelft van de zijstraat. Wat ging er mis?",
+          "antwoord": "Je hebt de bocht afgesneden.",
+          "uitleg": "De bocht naar links neem je zo ruim dat je op de rechterweghelft van de weg die je inrijdt uitkomt.",
+          "bron": {
+            "boek": 138,
+            "sectie": "9.5",
+            "anker": "Snijd de bocht naar links niet af"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Jij en een tegenligger willen allebei linksaf; er ligt een brede middenberm. Hoe passeer je elkaar?",
+          "antwoord": "Om elkaar heen.",
+          "uitleg": "Voor elkaar langs is de hoofdregel, maar bij een brede middenberm ga je om elkaar heen.",
+          "bron": {
+            "boek": 140,
+            "sectie": "9.5",
+            "anker": "Door de brede middenberm is het hier logischer om om elkaar heen te gaan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U04-P04",
+      "anker": "p-8.1-kwetsbaar",
+      "titel": "Kwetsbare weggebruikers",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "8.1"
+          ],
+          "paginas": [
+            127,
+            128,
+            129,
+            130,
+            131
+          ]
+        },
+        "cursus": {
+          "slides": [
+            151,
+            152
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U04-r14",
+          "tekst": "Voetgangers nemen vaak onbewust deel aan het verkeer en houden zich daardoor lang niet altijd aan de regels. Let extra goed op bij plaatsen waar kleine kinderen zomaar de weg op kunnen lopen, zoals bij scholen en speelterreinen. Als er geparkeerde auto's staan, is het helemaal uitkijken geblazen.",
+          "bron": [
+            {
+              "boek": 127,
+              "sectie": "8.1",
+              "anker": "houden zich daardoor lang niet altijd aan de regels"
+            },
+            {
+              "boek": 128,
+              "sectie": "8.1",
+              "anker": "waar kleine kinderen zomaar de weg op kunnen lopen zoals bij scholen en speelterreinen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r15",
+          "tekst": "Ouderen en mensen met een beperking hebben vaak een beperkt waarnemings- en reactievermogen. Ze merken je pas laat op, kunnen niet snel reageren en hebben voor oversteken meer tijd nodig. Blinden, slechtzienden en personen die zich moeilijk voortbewegen genieten extra bescherming; bestuurders van gehandicaptenvoertuigen hebben geen bijzondere rechten.",
+          "bron": [
+            {
+              "boek": 128,
+              "sectie": "8.1",
+              "anker": "deze groep weggebruikers heeft vaak een beperkt waarnemings en reactievermogen"
+            },
+            {
+              "slide": 152,
+              "anker": "Bestuurders van gehandicaptenvoertuigen hebben geen bijzondere rechten"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r16",
+          "tekst": "Fietsers passen de regels regelmatig niet goed toe: ze geven bij het afslaan niet altijd richting aan, schoolkinderen fietsen soms met zijn drieën naast elkaar, een kwart rijdt wel eens door rood en wielrenners gebruiken liever de rijbaan. Elektrische fietsers rijden vaak een stuk sneller dan gewone fietsers.",
+          "bron": {
+            "boek": 129,
+            "sectie": "8.1",
+            "anker": "elektrische fietsers rijden vaak een stuk sneller dan gewone fietsers"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r17",
+          "tekst": "Houd bij het inhalen van fietsers, snorfietsers en bromfietsers een ruime zijdelingse afstand van 1,5 meter en ga na de inhaalmanoeuvre niet te vroeg weer naar rechts. Fietsers met zware boodschappentassen of kinderen in een zitje zijn minder stabiel.",
+          "bron": [
+            {
+              "boek": 130,
+              "sectie": "8.1",
+              "anker": "en ga na de inhaalmanoeuvre niet te vroeg weer naar rechts"
+            },
+            {
+              "boek": 129,
+              "sectie": "8.1",
+              "anker": "Fietsers met zware boodschappentassen aan het stuur of kleine kinderen in kinderzitjes zijn minder stabiel"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een auto beschermt jou, een fietser of voetganger heeft alleen zijn lichaam. Bij een aanrijding met een voetganger ben je bovendien in principe altijd aansprakelijk. Wie niet oplet of niet snel kan reageren, moet je die tijd geven: langzamer rijden, meer ruimte houden en niets onverwachts doen. Kinderen kijken niet uit, dus kijk jij voor hen.",
+          "bron": {
+            "slide": 151,
+            "anker": "ben je in principe altijd aansprakelijk"
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U04-104",
+          "tekst": "Bij een speelterrein loopt een kind zomaar de weg op. Het kind gaat op in zijn spel en let niet op het verkeer. Jij rijdt hier langzaam en bent klaar om te stoppen.",
+          "bron": {
+            "boek": 128,
+            "sectie": "8.1",
+            "anker": "Kinderen gaan op in hun spel en letten niet op het verkeer"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "In een straat met geparkeerde auto's steekt een kind tussen de auto's door over. De kinderen kunnen jou niet zien aankomen, en jij ziet hen niet. Matig hier je snelheid al voordat je iets ziet.",
+          "bron": {
+            "boek": 128,
+            "sectie": "8.1",
+            "anker": "de kinderen kunnen jou niet zien aankomen en jij ziet hen niet"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een fietser met een bordje achterop de fiets kan slechthorend zijn. Rijd voorspelbaar en duik niet onverwacht naast hem op, zo voorkom je een schrikreactie.",
+          "bron": {
+            "boek": 129,
+            "sectie": "8.1",
+            "anker": "zorg er extra voor dat je niet onverwacht in de buurt van de slechthorende persoon opduikt"
+          }
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "Kinderen: bij scholen, speelterreinen en geparkeerde auto's.",
+            "Ouderen en mensen met een beperking: meer tijd, late reactie.",
+            "Fietsers: geen richting, naast elkaar, door rood, e-bikes sneller.",
+            "Groepen voetgangers, zoals bij wandeltochten, mogen de rijbaan gebruiken.",
+            "Ruiters en geleiders van dieren: passeer met 1,5 meter afstand en laat de dieren niet schrikken."
+          ],
+          "bron": [
+            {
+              "boek": 129,
+              "sectie": "8.1",
+              "anker": "Grote groepen voetgangers zoals bij wandeltochten mogen de rijbaan gebruiken"
+            },
+            {
+              "boek": 131,
+              "sectie": "8.1",
+              "anker": "Probeer te voorkomen dat je de dieren aan het schrikken maakt"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een gehandicaptenvoertuig ziet er kwetsbaar uit, maar de bestuurder heeft geen bijzondere rechten in de voorrang. En een fietser die rechtdoor gaat, gaat altijd voor jou als jij afslaat, ook al geeft hij zelf nooit richting aan.",
+          "bron": {
+            "slide": 152,
+            "anker": "Bestuurders van gehandicaptenvoertuigen hebben geen bijzondere rechten"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Kwetsbaar betekent: jij past je aan. Langzamer bij kinderen, tijd voor ouderen, 1,5 meter bij inhalen, altijd voorspelbaar."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je haalt een bromfietser in op een smalle weg. Hoeveel zijdelingse afstand houd je en wanneer ga je weer naar rechts?",
+          "antwoord": "Ongeveer 1,5 meter, en pas naar rechts als hij in je binnenspiegel zichtbaar is.",
+          "uitleg": "Je auto beïnvloedt de stuurvastheid van tweewielers; te vroeg naar rechts gaan brengt ze in gevaar.",
+          "bron": {
+            "boek": 130,
+            "sectie": "8.1",
+            "anker": "Ga pas weer naar rechts als de bromfietser in de binnenspiegel zichtbaar is"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Heeft de bestuurder van een gehandicaptenvoertuig bijzondere rechten in de voorrang?",
+          "antwoord": "Nee.",
+          "uitleg": "Extra bescherming geldt voor blinden, slechtzienden en mensen die zich moeilijk voortbewegen, niet voor gehandicaptenvoertuigen.",
+          "bron": {
+            "slide": 152,
+            "anker": "Bestuurders van gehandicaptenvoertuigen hebben geen bijzondere rechten"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U04-P05",
+      "anker": "p-5.5-zebrapad",
+      "titel": "Het zebrapad",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.5"
+          ],
+          "paginas": [
+            26,
+            91,
+            92
+          ]
+        },
+        "cursus": {
+          "slides": [
+            91
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U04-r18",
+          "tekst": "Je moet voetgangers en bestuurders van een gehandicaptenvoertuig op een voetgangersoversteekplaats voor laten gaan als ze oversteken of op het punt staan om over te steken. Uit hun gedrag kun je vaak afleiden of ze van plan zijn over te steken.",
+          "bron": [
+            {
+              "boek": 91,
+              "sectie": "5.5",
+              "anker": "Je moet voetgangers en bestuurders van een gehandicaptenvoertuig op een voetgangersoversteekplaats voor laten gaan"
+            },
+            {
+              "slide": 91,
+              "anker": "op het punt staan om over te steken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r19",
+          "tekst": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats. Als er meerdere rijstroken in een richting liggen, mag je wel stoppen naast een ander voertuig dat ook voor de oversteekplaats stilstaat.",
+          "bron": [
+            {
+              "boek": 91,
+              "sectie": "5.5",
+              "anker": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats"
+            },
+            {
+              "slide": 91,
+              "anker": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r20",
+          "tekst": "Rem tijdig en rustig af als je moet stoppen voor voetgangers. Daardoor waarschuw je de bestuurders achter je, voorkom je dat de voetgangers schrikken en motiveer je tegenliggers om ook te stoppen.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.5",
+            "anker": "Rem tijdig en rustig af als je moet stoppen voor voetgangers"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U04-r21",
+          "tekst": "Let op als je in een file rijdt. Zorg dat je niet op een oversteekplaats tot stilstand komt. Stop op tijd en rijd pas verder als er voldoende vrije ruimte na de oversteekplaats is.",
+          "bron": [
+            {
+              "boek": 92,
+              "sectie": "5.5",
+              "anker": "Zorg dat je niet op een oversteekplaats tot stilstand komt"
+            },
+            {
+              "slide": 91,
+              "anker": "Houd een oversteekplaats altijd vrij ook wanneer je in een file moet stoppen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r22",
+          "tekst": "Wie te voet een fiets, bromfiets, snorfiets of motor aan de hand meevoert, is een voetganger. Ook zo iemand laat je op het zebrapad dus voor gaan.",
+          "bron": {
+            "boek": 26,
+            "sectie": "2.2",
+            "anker": "personen die te voet een motor bromfiets snorfiets of fiets aan de hand meevoeren"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een zebrapad is de plek waar de voetganger de zwakste is en toch de weg op moet. Daarom ligt de plicht bij jou, al voordat hij een voet op de strepen zet. Inhalen is er verboden omdat de auto die stilstaat jouw zicht op de voetganger wegneemt, en zijn zicht op jou.",
+          "bron": {
+            "boek": 91,
+            "sectie": "5.5",
+            "anker": "je ziet de voetganger van rechts niet en hij ziet jou ook niet"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "L2",
+            "J22"
+          ],
+          "tekst": "[L2] staat bij de voetgangersoversteekplaats zelf. [J22] waarschuwt je er vooraf voor. Verkeersborden attenderen je op een voetgangersoversteekplaats; de plicht om voor te laten gaan zit in de strepen."
+        },
+        {
+          "type": "scene",
+          "ref": "S-U04-105",
+          "tekst": "De voetganger staat nog op de stoep, maar hij staat op het punt over te steken. Ook dan laat je hem voor gaan, dus je remt nu al rustig af.",
+          "bron": {
+            "boek": 91,
+            "sectie": "5.5",
+            "anker": "maar ook als ze nog staan te wachten moet je ze voor laten gaan"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Voor je staat een auto stil bij een zebrapad en je ziet zelf geen voetganger. Toch mag je hem niet inhalen: de voetganger van rechts is voor jou verborgen achter die auto, en hij ziet jou ook niet.",
+          "bron": {
+            "boek": 91,
+            "sectie": "5.5",
+            "anker": "Mede daarom is inhalen verboden bij een voetgangersoversteekplaats"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een fietser die over het zebrapad rijdt, is een bestuurder en geen voetganger; de regel van het zebrapad geldt voor voetgangers en gehandicaptenvoertuigen. Stapt hij af en loopt hij met de fiets aan de hand, dan is hij wel voetganger.",
+          "bron": {
+            "boek": 26,
+            "sectie": "2.2",
+            "anker": "personen die te voet een motor bromfiets snorfiets of fiets aan de hand meevoeren"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Zebrapad: voor laten gaan, ook wie nog staat te wachten. Niet inhalen, niet op de strepen stoppen, tijdig en rustig remmen."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een voetganger staat bij een zebrapad te wachten en kijkt jouw kant op. Moet je stoppen?",
+          "antwoord": "Ja.",
+          "uitleg": "Ook wie op het punt staat over te steken laat je voor gaan.",
+          "bron": {
+            "boek": 91,
+            "sectie": "5.5",
+            "anker": "maar ook als ze nog staan te wachten moet je ze voor laten gaan"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt in een file en na het zebrapad is geen ruimte voor je auto. Wat doe je?",
+          "antwoord": "Je stopt voor het zebrapad en rijdt pas verder als er na de oversteekplaats voldoende ruimte is.",
+          "uitleg": "Een oversteekplaats houd je altijd vrij, ook in een file.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.5",
+            "anker": "rijd pas verder als er voldoende vrije ruimte na de oversteekplaats is"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U04-P06",
+      "anker": "p-6.5-colonne",
+      "titel": "Militaire colonne en uitvaartstoet",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "6.5"
+          ],
+          "paginas": [
+            114,
+            115,
+            116
+          ]
+        },
+        "cursus": {
+          "slides": [
+            119,
+            120,
+            121
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U04-r23",
+          "tekst": "Een militaire colonne en een uitvaartstoet herken je aan de speciale herkenningstekens. Bij een militaire colonne voert het eerste voertuig een blauwe vlag en het laatste voertuig een groene vlag; de volgvoertuigen rijden met of zonder blauwe vlag. Een uitvaartstoet voert een driepuntige zwarte vlag met drie horizontale witte strepen.",
+          "bron": [
+            {
+              "boek": 114,
+              "sectie": "6.5",
+              "anker": "Een militaire colonne en een uitvaartstoet herken je aan de speciale herkenningstekens"
+            },
+            {
+              "boek": 114,
+              "sectie": "6.5",
+              "anker": "een driepuntige zwarte vlag met drie horizontale witte strepen vlag behorend bij een uitvaartstoet"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r24",
+          "tekst": "Zolang het eerste voertuig nog niet gepasseerd is, gelden de normale regels voor voorrang en afslaan. Kom jij op een gelijkwaardig kruispunt van rechts, dan ga jij dus eerst.",
+          "bron": [
+            {
+              "slide": 120,
+              "anker": "zolang het eerste voertuig nog niet gepasseerd is gelden de normale regels"
+            },
+            {
+              "boek": 114,
+              "sectie": "6.5",
+              "anker": "geen bijzondere regeling de bestuurder van rechts jij gaat eerst"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r25",
+          "tekst": "Zodra het eerste voertuig gepasseerd is, mag je de colonne of de stoet niet doorsnijden: niet op een gelijkwaardig kruispunt, niet als de colonne uit een uitrit komt en niet als een tegemoetkomende colonne voor jou langs linksaf slaat. Je wacht tot de hele colonne gepasseerd is.",
+          "bron": [
+            {
+              "boek": 114,
+              "sectie": "6.5",
+              "anker": "komt van links of rechts 1e voertuig is al gepasseerd"
+            },
+            {
+              "slide": 120,
+              "anker": "Jij moet wachten tot de hele stoet gepasseerd is"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r26",
+          "tekst": "Uitzondering 1: rijd je op een voorrangsweg en nader je een kruispunt zonder verkeerslichten, dan mag je de colonne of stoet wel doorsnijden. Ook invoegen tussen de voertuigen van een colonne of stoet mag.",
+          "bron": [
+            {
+              "boek": 115,
+              "sectie": "6.5",
+              "anker": "je rijdt op een voorrangsweg en nadert een kruispunt zonder verkeerslichten"
+            },
+            {
+              "slide": 121,
+              "anker": "dan mag dat tussen de voertuigen van een colonne of stoet"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U04-r27",
+          "tekst": "Uitzondering 2: bij een kruispunt met verkeerslichten mag een militaire colonne doorrijden als het licht tijdens het oversteken op rood springt; wordt jouw licht groen, dan mag je de colonne toch niet doorsnijden. Een uitvaartstoet moet wel stoppen voor rood; die mag je dan wel doorsnijden.",
+          "bron": [
+            {
+              "boek": 116,
+              "sectie": "6.5",
+              "anker": "De colonne mag doorrijden Je mag de colonne niet doorsnijden"
+            },
+            {
+              "boek": 116,
+              "sectie": "6.5",
+              "anker": "De stoet moet stoppen voor rood Je mag de stoet wel doorsnijden"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een colonne of stoet hoort bij elkaar. Wie er doorheen rijdt, breekt de groep en dwingt de achterste voertuigen tot een inhaalrace. Daarom gelden na het eerste voertuig dezelfde regels als bij trams: je laat de hele groep passeren. Op een voorrangsweg zonder lichten heeft de colonne zelf al de plicht om te wachten, dus daar mag je door.",
+          "bron": {
+            "slide": 120,
+            "anker": "zodra het eerste voertuig gepasseerd is gelden dezelfde regels als bij trams"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Situatie",
+            "Militaire colonne",
+            "Uitvaartstoet"
+          ],
+          "rijen": [
+            [
+              "Eerste voertuig nog niet gepasseerd",
+              "normale regels",
+              "normale regels"
+            ],
+            [
+              "Gelijkwaardig kruispunt, eerste voertuig gepasseerd",
+              "niet doorsnijden",
+              "niet doorsnijden"
+            ],
+            [
+              "Colonne of stoet komt uit een uitrit",
+              "niet doorsnijden",
+              "niet doorsnijden"
+            ],
+            [
+              "Tegemoetkomende colonne of stoet slaat voor je langs linksaf",
+              "niet doorsnijden",
+              "niet doorsnijden"
+            ],
+            [
+              "Jij op een voorrangsweg, kruispunt zonder verkeerslichten",
+              "wel doorsnijden",
+              "wel doorsnijden"
+            ],
+            [
+              "Jij moet invoegen",
+              "tussen de voertuigen mag",
+              "tussen de voertuigen mag"
+            ],
+            [
+              "Verkeerslichten, jouw licht wordt groen tijdens het oversteken",
+              "niet doorsnijden, colonne rijdt door",
+              "wel doorsnijden, stoet stopt voor rood"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 115,
+              "sectie": "6.5",
+              "anker": "Je mag de colonne wel doorsnijden"
+            },
+            {
+              "boek": 116,
+              "sectie": "6.5",
+              "anker": "geldt er dus een andere regel bij de militaire colonne dan bij de uitvaartstoet"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U04-106",
+          "tekst": "Het eerste voertuig van de colonne is al voorbij. Ook al kom jij van rechts, je wacht tot de hele colonne gepasseerd is.",
+          "bron": {
+            "slide": 120,
+            "anker": "Jij moet wachten tot de hele stoet gepasseerd is"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je staat voor rood. Nadat het eerste voertuig van een militaire colonne gepasseerd is, wordt jouw licht groen. Je moet toch wachten tot de hele colonne gepasseerd is. Bij een uitvaartstoet geldt dit niet: die stopt voor rood.",
+          "bron": [
+            {
+              "slide": 121,
+              "anker": "je moet toch wachten tot de hele colonne gepasseerd is"
+            },
+            {
+              "slide": 121,
+              "anker": "Deze regel geldt niet bij uitvaartstoeten"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Het verschil zit alleen bij de verkeerslichten: de colonne rijdt door rood, de stoet niet. In alle andere situaties gelden voor colonne en stoet precies dezelfde regels. En de voorrang van rechts telt alleen zolang het eerste voertuig er nog niet is.",
+          "bron": {
+            "boek": 116,
+            "sectie": "6.5",
+            "anker": "geldt er dus een andere regel bij de militaire colonne dan bij de uitvaartstoet"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Voor het eerste voertuig: gewone regels. Erna: niet doorsnijden, behalve op een voorrangsweg zonder lichten of bij invoegen. Bij rood rijdt de colonne door, de stoet stopt."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op een voorrangsweg zonder verkeerslichten. Uit een zijweg steekt een uitvaartstoet over; de eerste auto is al voorbij. Mag je de stoet doorsnijden?",
+          "antwoord": "Ja.",
+          "uitleg": "Op een voorrangsweg bij een kruispunt zonder verkeerslichten mag je colonne en stoet wel doorsnijden.",
+          "bron": {
+            "boek": 115,
+            "sectie": "6.5",
+            "anker": "Je mag de stoet wel doorsnijden"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het eerste voertuig van een militaire colonne is nog niet bij het gelijkwaardige kruispunt. Jij komt van rechts. Wie gaat eerst?",
+          "antwoord": "Jij.",
+          "uitleg": "Voor het eerste voertuig gelden de normale regels, en je komt van rechts.",
+          "bron": {
+            "slide": 120,
+            "anker": "De normale regels voor voorrang zijn van toepassing Jij mag eerst"
+          }
+        }
+      ]
+    }
+  ]
+}

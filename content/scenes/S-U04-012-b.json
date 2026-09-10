@@ -1,0 +1,31 @@
+{
+  "id": "S-U04-012-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "kind",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "het kind"
+    }
+  ],
+  "alt": "Dezelfde woonstraat een moment later. Het kind rent zonder te kijken de weg op, vlak voor je.",
+  "inspiratie": {
+    "boek": 128
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "S-U03-103",
+  "vorm": "plus",
+  "voorrang": "afbuigend",
+  "hoofdweg": [
+    "west",
+    "noord"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "oost",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "west",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "noord",
+      "onderbord": "verloop voorrangsweg"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "links",
+      "signaal": "links"
+    }
+  ],
+  "alt": "De voorrangsweg komt van links en buigt voor je naar boven af. Jij nadert van onderen bord B6 met een onderbord en haaientanden, en gaat rechtdoor. Van links komt een grijze auto die de afbuigende voorrangsweg volgt en naar boven afbuigt.",
+  "inspiratie": {
+    "boek": 108,
+    "beeld": "foto afbuigende voorrangsweg"
+  }
+}

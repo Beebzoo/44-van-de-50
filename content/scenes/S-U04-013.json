@@ -1,0 +1,33 @@
+{
+  "id": "S-U04-013",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "label": "jij",
+      "signaal": "links"
+    },
+    {
+      "id": "motor",
+      "soort": "motorfiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de motorrijder"
+    }
+  ],
+  "alt": "Gelijkwaardig kruispunt. Jij komt van onderen en wilt linksaf, je richtingaanwijzer staat aan. Dicht achter je rijdt een motorrijder die rechtdoor gaat.",
+  "inspiratie": {
+    "boek": 110
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S-U04-017",
+  "vorm": "T",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "west",
+    "oost",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "label": "jij",
+      "signaal": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Buiten de bebouwde kom kom je van onderen uit een zijweg met haaientanden bij een T-kruising met een enkelbaansweg. Je wilt rechtsaf. Bomen langs de weg beperken je zicht. Van rechts nadert op afstand een grijze auto.",
+  "inspiratie": {
+    "boek": 138,
+    "beeld": "twee foto's, bomen langs de weg en een inhaler van rechts"
+  }
+}

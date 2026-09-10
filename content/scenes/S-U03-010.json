@@ -1,0 +1,67 @@
+{
+  "id": "S-U03-010",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B7",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "noord"
+    },
+    {
+      "code": "B1",
+      "arm": "west"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 2,
+      "signaal": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 1,
+      "signaal": "rechts"
+    }
+  ],
+  "alt": "Je nadert van onderen een voorrangsweg. Op jouw weg staat bord B7 met een stopstreep. De grijze auto voor je rijdt zonder te stoppen de kruising op en slaat rechtsaf. Jij wilt ook rechtsaf. Op de voorrangsweg is niemand te zien.",
+  "inspiratie": {
+    "boek": 107,
+    "beeld": "tekst over B7",
+    "slide": 106
+  }
+}

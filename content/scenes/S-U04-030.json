@@ -1,0 +1,41 @@
+{
+  "id": "S-U04-030",
+  "vorm": "plus",
+  "voorrang": "verkeerslichten",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    }
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    }
+  ],
+  "alt": "Jij rijdt in een file naar een kruispunt met verkeerslichten. Vlak voor het kruispunt ligt een zebrapad op jouw weg. De auto's voor je staan stil; tussen het zebrapad en de stopstreep is geen ruimte meer voor jouw auto.",
+  "inspiratie": {
+    "boek": 92
+  }
+}

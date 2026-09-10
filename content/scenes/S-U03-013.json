@@ -1,0 +1,30 @@
+{
+  "id": "S-U03-013",
+  "vorm": "T",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "west",
+    "oost",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Een gelijkwaardige T-kruising zonder borden. Jij komt van onderen uit de zijweg en wilt linksaf de doorgaande weg op. Van links komt over de doorgaande weg een grijze auto die rechtdoor gaat.",
+  "inspiratie": {
+    "boek": 106,
+    "beeld": "gelijkwaardige T-kruising"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "S-U03-014",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2
+    },
+    {
+      "id": "ambulance",
+      "soort": "hulpdienst",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3
+    }
+  ],
+  "alt": "Een rechte autosnelweg zonder kruispunt. Jij rijdt rechtdoor. Achter je nadert een ambulance met blauw zwaailicht en sirene.",
+  "inspiratie": {
+    "boek": 116,
+    "beeld": "3D-weergave links"
+  }
+}

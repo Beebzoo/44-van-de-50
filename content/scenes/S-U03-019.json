@@ -1,0 +1,51 @@
+{
+  "id": "S-U03-019",
+  "vorm": "T",
+  "voorrang": "voorrangskruispunt",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "zuid",
+    "oost"
+  ],
+  "borden": [
+    {
+      "code": "B5",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "links",
+      "signaal": "links"
+    }
+  ],
+  "alt": "Jij komt van onderen en gaat rechtdoor. Voor het kruispunt staat aan jouw kant bord B5: voorrangskruispunt met een zijweg rechts. Van rechts komt uit die zijweg een grijze auto die linksaf wil; in de zijweg staan bord B6 en haaientanden.",
+  "inspiratie": {
+    "boek": 108,
+    "beeld": "borden B3, B4, B5",
+    "slide": 113
+  }
+}

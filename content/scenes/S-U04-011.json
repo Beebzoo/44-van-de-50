@@ -1,0 +1,60 @@
+{
+  "id": "S-U04-011",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "ego",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Gelijkwaardig kruispunt met een zebrapad op jouw weg, vlak voor het kruispunt. Jij komt van onderen en gaat rechtdoor. Een voetganger steekt over op het zebrapad. De tegemoetkomende grijze auto wil linksaf, voor jou langs.",
+  "inspiratie": {
+    "slide": 127
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "S-U03-020",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "ambulance",
+      "soort": "hulpdienst",
+      "arm": "oost",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en gaat rechtdoor. Van rechts nadert uit de zijweg met bord B6 een ambulance met blauw zwaailicht en sirene, die rechtdoor gaat.",
+  "inspiratie": {
+    "slide": 122
+  }
+}

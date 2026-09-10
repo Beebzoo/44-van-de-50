@@ -1,0 +1,63 @@
+{
+  "id": "S-U03-101",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Je rijdt op een voorrangsweg met bord B1 en wilt linksaf. Van voren komt een grijze auto rechtdoor. Je wacht midden op het kruispunt tot de tegenligger voorbij is.",
+  "inspiratie": {
+    "boek": 104,
+    "beeld": "tekening linksboven"
+  }
+}

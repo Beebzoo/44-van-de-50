@@ -1,0 +1,49 @@
+{
+  "id": "S-U03-007",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "wegdek": "verhard",
+  "onverhard": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "bestel",
+      "soort": "bestelauto",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de bestelauto"
+    },
+    {
+      "id": "ruiter",
+      "soort": "ruiter",
+      "arm": "oost",
+      "richting": "links",
+      "label": "de ruiter"
+    }
+  ],
+  "volgorde": [
+    "ego",
+    "bestel",
+    "ruiter"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een verharde weg van onder naar boven kruist een onverharde zandweg van links naar rechts; er staan geen borden. Jij komt van onderen over de verharde weg en gaat rechtdoor. Van links komt een bestelauto over de zandweg, rechtdoor. Van rechts komt een ruiter over de zandweg, die linksaf wil.",
+  "inspiratie": {
+    "slide": 124
+  }
+}

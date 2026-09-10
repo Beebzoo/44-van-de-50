@@ -1,0 +1,32 @@
+{
+  "id": "S-U04-028",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Gelijkwaardig kruispunt. Jij komt van onderen en gaat rechtdoor. De tegemoetkomende grijze auto wil linksaf, voor jou langs, en heeft zijn richtingaanwijzer aan.",
+  "inspiratie": {
+    "boek": 110
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "S-U04-104",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "kind",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "het kind"
+    }
+  ],
+  "alt": "Een woonstraat bij een speelterrein. Jij rijdt van onderen naar boven. Rechts loopt een kind zomaar de weg op zonder te kijken.",
+  "inspiratie": {
+    "boek": 128,
+    "beeld": "foto rechts, kind steekt tussen geparkeerde auto's door over"
+  }
+}

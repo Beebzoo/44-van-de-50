@@ -1,0 +1,43 @@
+{
+  "id": "S-U04-036-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Dezelfde straat een moment later. De voetganger stapt het zebrapad op en steekt over.",
+  "inspiratie": {
+    "boek": 91
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "S-U04-027",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "colonne",
+      "soort": "colonne",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de militaire colonne"
+    }
+  ],
+  "alt": "Jij rijdt op een voorrangsweg, komt van onderen en gaat rechtdoor. Er zijn geen verkeerslichten. Uit de zijweg rechts, met haaientanden, steekt een militaire colonne over; het eerste voertuig is al gepasseerd.",
+  "inspiratie": {
+    "boek": 115,
+    "beeld": "kader uitzondering 1, voorrangsweg"
+  }
+}

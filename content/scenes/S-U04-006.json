@@ -1,0 +1,33 @@
+{
+  "id": "S-U04-006",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "label": "jij",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Gelijkwaardig kruispunt zonder pijlen op het wegdek en zonder middenberm. Jij komt van onderen en wilt linksaf. De tegemoetkomende grijze auto wil ook linksaf; jullie richtingaanwijzers staan allebei aan.",
+  "inspiratie": {
+    "boek": 140
+  }
+}

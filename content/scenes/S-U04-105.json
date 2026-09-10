@@ -1,0 +1,47 @@
+{
+  "id": "S-U04-105",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Jij nadert een zebrapad vlak voor een kruispunt, rechts staat bord L2. Op de stoep rechts staat een voetganger bij het zebrapad te wachten. Hij staat op het punt over te steken, dus je laat hem voor gaan.",
+  "inspiratie": {
+    "boek": 91,
+    "beeld": "foto, voetganger steekt over bij L2"
+  }
+}

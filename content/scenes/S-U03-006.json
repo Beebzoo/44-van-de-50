@@ -1,0 +1,68 @@
+{
+  "id": "S-U03-006",
+  "vorm": "plus",
+  "voorrang": "afbuigend",
+  "hoofdweg": [
+    "west",
+    "noord"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "oost",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "west",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "noord",
+      "onderbord": "verloop voorrangsweg"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "De voorrangsweg komt van links en buigt naar boven af. Jij nadert van onderen bord B6 met onderbord en haaientanden en wilt linksaf. Van voren komt een grijze auto rechtdoor naar beneden: hij verlaat de afbuigende voorrangsweg.",
+  "inspiratie": {
+    "boek": 108,
+    "beeld": "regel over volgen en verlaten",
+    "slide": 114
+  }
+}

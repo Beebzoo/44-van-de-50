@@ -1,0 +1,83 @@
+{
+  "id": "S-U03-016",
+  "vorm": "plus",
+  "voorrang": "afbuigend",
+  "hoofdweg": [
+    "zuid",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "oost",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "noord",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "west",
+      "onderbord": "verloop voorrangsweg"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "bromfiets",
+      "soort": "bromfiets",
+      "arm": "oost",
+      "richting": "links",
+      "label": "de bromfietser"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    }
+  ],
+  "volgorde": [
+    "bromfiets",
+    "ego",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1; een onderbord laat zien dat de voorrangsweg naar rechts afbuigt. Jij gaat rechtdoor en verlaat de voorrangsweg. Van rechts komt een bromfietser die de afbuigende voorrangsweg volgt en naar beneden afbuigt. Van voren komt een grijze auto uit de zijweg met bord B6 en haaientanden; hij wil linksaf.",
+  "inspiratie": {
+    "boek": 112,
+    "beeld": "3D-weergave rechtsboven",
+    "slide": 132
+  }
+}

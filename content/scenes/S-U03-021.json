@@ -1,0 +1,62 @@
+{
+  "id": "S-U03-021",
+  "vorm": "T",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "west",
+    "oost",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "west"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "signaal": "rechts"
+    },
+    {
+      "id": "bestel",
+      "soort": "bestelauto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 1
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Jij komt van onderen bij bord B6 met haaientanden en wilt rechtsaf de voorrangsweg op. Van links komt niemand. Van rechts komt een bestelauto, en daarachter een grijze auto die de bestelauto aan het inhalen is en daarbij op de weghelft rijdt waar jij naartoe wilt.",
+  "inspiratie": {
+    "boek": 110,
+    "beeld": "foto ook naar rechts kijken"
+  }
+}

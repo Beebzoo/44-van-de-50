@@ -1,0 +1,86 @@
+{
+  "id": "S-U03-023",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "west"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    },
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "noord"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    },
+    {
+      "soort": "rails",
+      "arm": "zuid"
+    },
+    {
+      "soort": "rails",
+      "arm": "west"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "zuid",
+      "richting": "links",
+      "afstand": 1,
+      "label": "de tram"
+    },
+    {
+      "id": "bromfiets",
+      "soort": "bromfiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de bromfietser"
+    }
+  ],
+  "volgorde": [
+    "ego",
+    "tram",
+    "bromfiets"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt van links over een voorrangsweg met bord B1 en gaat rechtdoor. Van onderen naderen over de zijweg met bord B6 en haaientanden een tram, die linksaf wil, en daarachter een bromfietser die rechtdoor wil.",
+  "inspiratie": {
+    "slide": 129
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "S-U04-024-b",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "label": "jij",
+      "signaal": "links"
+    },
+    {
+      "id": "tegenligger",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Hetzelfde kruispunt een moment later. De tegemoetkomende auto is nu vlak bij het kruispunt en gaat rechtdoor.",
+  "inspiratie": {
+    "boek": 139,
+    "beeld": "foto, tegemoetkomend verkeer bij links afslaan"
+  }
+}

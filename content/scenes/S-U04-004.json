@@ -1,0 +1,33 @@
+{
+  "id": "S-U04-004",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "colonne",
+      "soort": "colonne",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de militaire colonne"
+    }
+  ],
+  "alt": "Gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Van links nadert nog op afstand een militaire colonne; het eerste voertuig met de blauwe vlag is nog niet bij het kruispunt.",
+  "inspiratie": {
+    "boek": 114,
+    "beeld": "kader voor het 1e voertuig"
+  }
+}

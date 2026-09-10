@@ -1,0 +1,89 @@
+{
+  "id": "S-U04-022",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "label": "jij",
+      "signaal": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "oost",
+      "zijde": "links",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de fietser"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "ego",
+    "grijs",
+    "fietser"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt op een voorrangsweg, komt van onderen en wilt rechtsaf. Een tegemoetkomende grijze auto op de voorrangsweg wil linksaf, dezelfde zijstraat in. Op de hoek rechts steekt een voetganger die zijstraat over, rechtdoor langs de voorrangsweg. Uit de zijweg links komt een fietser die rechtdoor wil, met haaientanden voor zich.",
+  "inspiratie": {
+    "slide": 131
+  }
+}

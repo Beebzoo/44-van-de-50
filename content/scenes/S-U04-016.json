@@ -1,0 +1,50 @@
+{
+  "id": "S-U04-016",
+  "vorm": "plus",
+  "voorrang": "verkeerslichten",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "stopstreep",
+      "arm": "noord"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "oost"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "west"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "stoet",
+      "soort": "colonne",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de uitvaartstoet"
+    }
+  ],
+  "alt": "Kruispunt met verkeerslichten en stopstrepen. Jij staat van onderen voor de stopstreep en gaat rechtdoor. Van links steekt een uitvaartstoet over; de eerste auto is al gepasseerd en de volgauto's komen nog.",
+  "inspiratie": {
+    "boek": 116
+  }
+}

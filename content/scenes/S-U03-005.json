@@ -1,0 +1,41 @@
+{
+  "id": "S-U03-005",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "rails",
+      "arm": "zuid"
+    },
+    {
+      "soort": "rails",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 2
+    }
+  ],
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Achter je nadert over de rails een tram die rechtsaf wil en daarvoor voor je langs moet afbuigen.",
+  "inspiratie": {
+    "boek": 113,
+    "beeld": "uitzondering 2, NB over de tram van achteren"
+  }
+}

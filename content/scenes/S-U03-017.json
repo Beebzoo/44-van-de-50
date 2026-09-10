@@ -1,0 +1,34 @@
+{
+  "id": "S-U03-017",
+  "vorm": "T",
+  "voorrang": "gelijkwaardig",
+  "wegdek": "verhard",
+  "onverhard": [
+    "zuid"
+  ],
+  "armen": [
+    "west",
+    "oost",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "signaal": "rechts"
+    },
+    {
+      "id": "ruiter",
+      "soort": "ruiter",
+      "arm": "west",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Jij rijdt van onderen over een onverharde zandweg en nadert een verharde weg; er staan geen borden. Je wilt rechtsaf. Van links komt over de verharde weg een ruiter die naast zijn paard loopt, met het paard aan de hand.",
+  "inspiratie": {
+    "boek": 109,
+    "beeld": "foto rechts met ruiters"
+  }
+}

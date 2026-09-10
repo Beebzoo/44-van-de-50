@@ -1,0 +1,80 @@
+{
+  "id": "S-U04-010",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "label": "jij",
+      "signaal": "links"
+    },
+    {
+      "id": "vracht",
+      "soort": "vrachtauto",
+      "arm": "noord",
+      "richting": "rechts",
+      "signaal": "rechts",
+      "label": "de vrachtauto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "west",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "vracht",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt op een voorrangsweg, komt van onderen en wilt linksaf de zijstraat links in. Een tegemoetkomende vrachtauto wil rechtsaf diezelfde zijstraat in. Op de hoek steekt een voetganger die zijstraat over; hij loopt rechtdoor langs de voorrangsweg.",
+  "inspiratie": {
+    "slide": 108
+  }
+}

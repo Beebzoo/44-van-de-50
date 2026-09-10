@@ -1,0 +1,36 @@
+{
+  "id": "S-U03-011",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "J8",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Een smalle weg buiten de bebouwde kom. Vlak voor het kruispunt staat aan jouw kant bord J8. Jij komt van onderen en gaat rechtdoor. Van links nadert een grijze auto die rechtdoor gaat. Er staan geen andere borden.",
+  "inspiratie": {
+    "boek": 106,
+    "beeld": "foto rechts met J8"
+  }
+}

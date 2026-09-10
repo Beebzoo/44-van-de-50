@@ -1,0 +1,1069 @@
+{
+  "id": "U03",
+  "slug": "voorrang-op-kruispunten",
+  "titel": "Voorrang op kruispunten",
+  "volgorde": 3,
+  "week": 2,
+  "tier": "must",
+  "vereist": [
+    "U02"
+  ],
+  "borden": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "J8"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 15,
+    "minimaalPool": 60,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "cbr_onderwerpen": [
+    "voorrang_en_voor_laten_gaan",
+    "verkeerstekens_en_aanwijzingen"
+  ],
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "6.1",
+        "6.2",
+        "6.4",
+        "6.6"
+      ],
+      "paginas": [
+        30,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        112,
+        113,
+        116
+      ]
+    },
+    "cursus": {
+      "slides": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ]
+    }
+  },
+  "intro": "Op een kruispunt komen wegen en weggebruikers samen, en juist daar gebeuren de meeste fouten op het examen. Dit blok begint met hoe je een kruispunt nadert en wanneer je het mag oprijden. Daarna leer je de voorrang: het gelijkwaardige kruispunt waar rechts voorgaat, de borden B1 tot en met B7 die de voorrang regelen, het verschil tussen een verharde en een onverharde weg, de drie uitzonderingen voor de tram en het voorrangsvoertuig dat boven alles gaat. De meeste vragen zijn getekende situaties: kijk wie van waar komt en wat iedereen wil, en pas dan de regel toe.",
+  "paginas": [
+    {
+      "id": "U03-P01",
+      "anker": "p-6.1-kruispunten",
+      "titel": "Een kruispunt naderen en oprijden",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "6.1",
+            "6.2"
+          ],
+          "paginas": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "cursus": {
+          "slides": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U03-r01",
+          "tekst": "Nader een kruispunt met aangepaste snelheid, zodat je op tijd op de situatie kunt reageren. Stel vast met welk type kruispunt je te maken hebt: gelijkwaardig, met een voorrangsweg, met verkeerslichten of met een onverharde weg.",
+          "bron": [
+            {
+              "boek": 102,
+              "sectie": "6.1",
+              "anker": "Stel vast met welk type kruispunt je te maken hebt"
+            },
+            {
+              "slide": 101,
+              "anker": "Nader een kruispunt voorzichtig en stel vast welk soort kruispunt het is"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U03-r02",
+          "tekst": "Houd de doorgang voor het kruisende verkeer zoveel mogelijk vrij. Je rijdt een kruispunt alleen op als je meteen kunt doorrijden of het snel weer vrij kunt maken, als je je tussen de kruisende verkeersstromen kunt opstellen, of als de bestuurder aan wie je voorrang moet verlenen zelf niet kan doorrijden omdat hij op zijn beurt voorrang moet verlenen. Dat laatste heet gelegenheidsvoorrang: alleen als je zeker weet dat het veilig kan.",
+          "bron": [
+            {
+              "boek": 103,
+              "sectie": "6.1",
+              "anker": "als je meteen kunt doorrijden of weer snel het kruispunt vrij kunt maken"
+            },
+            {
+              "boek": 103,
+              "sectie": "6.1",
+              "anker": "Dat laatste noemen we ook wel gelegenheidsvoorrang"
+            },
+            {
+              "slide": 105,
+              "anker": "als je je tussen de verkeersstromen kunt opstellen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U03-r03",
+          "tekst": "Op een kruispunt stoppen mag alleen als je op een voorrangsweg rijdt en links wilt afslaan, of als je een voorrangsvoertuig voor moet laten gaan.",
+          "bron": [
+            {
+              "boek": 104,
+              "sectie": "6.1",
+              "anker": "als je op een voorrangsweg rijdt en links wilt afslaan"
+            },
+            {
+              "slide": 105,
+              "anker": "Ook als je moet stoppen voor een voorrangsvoertuig mag je op een kruispunt stoppen"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Wie op een voorrangsweg linksaf wacht, hindert niemand die mag doorrijden: het kruisende verkeer moet toch voorrang verlenen en het verkeer achter je kan rechts langs je door.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U03-101",
+          "tekst": "Je rijdt op een voorrangsweg en wilt linksaf, een tegenligger komt rechtdoor. Je wacht midden op het kruispunt; hier mag dat.",
+          "bron": {
+            "boek": 104,
+            "sectie": "6.1",
+            "anker": "Je wilt linksaf de voorrangsweg af en moet wachten voor een tegenligger"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een lijnbus van rechts wil linksaf de straat in waar jij uit komt. Stop verder naar achteren en meer naar rechts, dan kan de bus ongehinderd zijn bocht maken.",
+          "bron": {
+            "boek": 104,
+            "sectie": "6.1",
+            "anker": "Hier sta je te ver naar voren en te veel naar links"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r04",
+          "tekst": "Je moet zeker weten dat een fietspad of zebrapad achter het kruispunt vrij is voordat je het kruispunt oprijdt. Anders moet je misschien op het kruispunt stoppen en blokkeer je het kruisende verkeer.",
+          "bron": {
+            "boek": 105,
+            "sectie": "6.1",
+            "anker": "die achter het kruispunt liggen, vrij zijn voordat je het kruispunt oprijdt"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r05",
+          "tekst": "Gedraag je beslist en duidelijk. Weet je niet hoe de voorrang is geregeld, stop dan voor alle zekerheid, zoek oogcontact met de andere bestuurders en communiceer met vriendelijke handgebaren.",
+          "bron": {
+            "boek": 105,
+            "sectie": "6.2",
+            "anker": "zoek oogcontact met de andere bestuurders"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Even op een fietspad of zebrapad stoppen om zicht te krijgen mag alleen als je vanaf een plek vóór het pad onvoldoende zicht hebt. Kijk bij een kruisend fietspad naar beide kanten: fietsers en snorfietsers komen van links én van rechts.",
+          "bron": {
+            "boek": 103,
+            "sectie": "6.1",
+            "anker": "Fietsers en snorfietsers kunnen zowel van links als van rechts naderen"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Kruispunt vrij houden. Op het kruispunt wachten mag alleen op een voorrangsweg bij linksaf, of voor een voorrangsvoertuig."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op een voorrangsweg en wilt linksaf, maar een tegenligger komt rechtdoor. Mag je op het kruispunt wachten?",
+          "antwoord": "Ja.",
+          "uitleg": "Op een voorrangsweg mag je bij linksaf op het kruispunt stoppen.",
+          "bron": {
+            "boek": 104,
+            "sectie": "6.1",
+            "anker": "als je op een voorrangsweg rijdt en links wilt afslaan"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je weet niet hoe de voorrang op een kruispunt is geregeld. Wat doe je?",
+          "antwoord": "Stoppen, oogcontact zoeken en met vriendelijke handgebaren afstemmen.",
+          "bron": {
+            "boek": 105,
+            "sectie": "6.2",
+            "anker": "zoek oogcontact met de andere bestuurders"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U03-P02",
+      "anker": "p-6.2-gelijkwaardig",
+      "titel": "Het gelijkwaardige kruispunt",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "6.2"
+          ],
+          "paginas": [
+            105,
+            106,
+            108,
+            109
+          ]
+        },
+        "cursus": {
+          "slides": [
+            109,
+            110,
+            112,
+            123,
+            124,
+            133
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U03-r06",
+          "tekst": "Bij gelijkwaardige kruispunten staan geen borden of tekens die de voorrang regelen. Het zijn altijd kruispunten waar alleen verharde of alleen onverharde wegen elkaar kruisen. Bestuurders verlenen voorrang aan alle bestuurders die van rechts komen, en aan trams, ongeacht uit welke richting de tram komt.",
+          "bron": [
+            {
+              "boek": 105,
+              "sectie": "6.2",
+              "anker": "Bij gelijkwaardige kruispunten staan geen borden of tekens die de voorrang regelen"
+            },
+            {
+              "boek": 105,
+              "sectie": "6.2",
+              "anker": "bestuurders moeten voorrang verlenen aan alle bestuurders die van rechts komen"
+            },
+            {
+              "slide": 109,
+              "anker": "alle bestuurders die van rechts komen, hebben voorrang"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een vaste afspraak maakt een kruispunt zonder borden voorspelbaar: iedereen kijkt naar rechts. Voetgangers vallen erbuiten, want zij zijn geen bestuurder.",
+          "bron": {
+            "slide": 109,
+            "anker": "maar die hoef je geen voorrang te verlenen (want het is geen bestuurder)"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r07",
+          "tekst": "Voor het kruispunt kunnen drempels liggen, of het hele kruisingsvlak is als drempel uitgevoerd. Dit heeft geen invloed op de voorrangsregeling; het blijft een gelijkwaardig kruispunt.",
+          "bron": {
+            "boek": 105,
+            "sectie": "6.2",
+            "anker": "Dit heeft geen invloed op de voorrangsregeling; het blijft een gelijkwaardig kruispunt"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r08",
+          "tekst": "Is een gelijkwaardig kruispunt extra gevaarlijk, dan word je daar vaak voor gewaarschuwd door bord J8. Nader het kruispunt dan extra voorzichtig.",
+          "bron": {
+            "boek": 106,
+            "sectie": "6.2",
+            "anker": "word je daar vaak voor gewaarschuwd door bord J8"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "J8"
+          ],
+          "tekst": "[J8] waarschuwt; het regelt geen voorrang. Het kruispunt blijft gelijkwaardig, dus rechts gaat voor."
+        },
+        {
+          "type": "regel",
+          "id": "U03-r09",
+          "tekst": "Bij een gelijkwaardige T-kruising denkt het verkeer op de doorgaande weg vaak dat het voorrang heeft. Dwing geen voorrang af vanuit de zijweg, en verleen op de doorgaande weg gewoon voorrang aan bestuurders van rechts.",
+          "bron": [
+            {
+              "boek": 106,
+              "sectie": "6.2",
+              "anker": "dwing geen voorrang af als je uit de zijweg komt"
+            },
+            {
+              "boek": 106,
+              "sectie": "6.2",
+              "anker": "ook niet vergeten om bestuurders van rechts voorrang te verlenen"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U03-102",
+          "tekst": "Gelijkwaardige T-kruising met een drempel. Van rechts komt een motor uit de zijweg. Je verleent voorrang, ook al rijd jij op de doorgaande weg.",
+          "bron": {
+            "boek": 106,
+            "sectie": "6.2",
+            "anker": "Je moet voorrang verlenen aan de motor van rechts"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r10",
+          "tekst": "Kruist een verharde weg een onverharde weg, dan staan er geen borden of tekens, maar toch geldt: bestuurders op een onverharde weg verlenen voorrang aan bestuurders op een kruisende verharde weg.",
+          "bron": [
+            {
+              "boek": 108,
+              "sectie": "6.2",
+              "anker": "Bij dit type kruispunt staan geen borden en ook geen tekens op het wegdek"
+            },
+            {
+              "boek": 109,
+              "sectie": "6.2",
+              "anker": "bestuurders op een onverharde weg verlenen voorrang aan bestuurders op een kruisende verharde weg"
+            },
+            {
+              "slide": 112,
+              "anker": "moet je voorrang verlenen aan alle bestuurders op de kruisende verharde weg"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt over een zandweg en nadert een verharde weg waarover twee ruiters komen. Je laat ze voor: ruiters zijn ook bestuurders, ook met een paard aan de hand.",
+          "bron": {
+            "boek": 109,
+            "sectie": "6.2",
+            "anker": "Ruiters zijn ook bestuurders. Ook wanneer deze met een paard aan de hand lopen"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Van rechts komen is niet genoeg als je zelf op de onverharde weg rijdt: dan verleen je toch voorrang. Een uitrit is geen kruispunt: wie eruit rijdt, laat alle weggebruikers voor, ook voetgangers.",
+          "bron": {
+            "boek": 109,
+            "sectie": "6.2",
+            "anker": "je moet hier wel alle weggebruikers (ook voetgangers) voor laten gaan"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Kruispunt zonder borden",
+            "Wie gaat voor"
+          ],
+          "rijen": [
+            [
+              "Verhard kruist verhard",
+              "Rechts gaat voor; de tram altijd"
+            ],
+            [
+              "Onverhard kruist onverhard",
+              "Rechts gaat voor; de tram altijd"
+            ],
+            [
+              "Onverhard kruist verhard",
+              "De verharde weg"
+            ],
+            [
+              "Drempel of verhoogd kruisingsvlak",
+              "Verandert niets"
+            ],
+            [
+              "Bord J8",
+              "Verandert niets, wel extra voorzichtig"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 105,
+              "sectie": "6.2",
+              "anker": "Het zijn altijd kruispunten waar alleen verharde of alleen onverharde wegen elkaar kruisen"
+            },
+            {
+              "boek": 109,
+              "sectie": "6.2",
+              "anker": "bestuurders op een onverharde weg verlenen voorrang aan bestuurders op een kruisende verharde weg"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Geen borden: rechts gaat voor, de tram altijd. Onverhard wijkt voor verhard. Drempel en J8 veranderen niets."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een gelijkwaardig kruispunt is helemaal als drempel uitgevoerd. Van rechts komt een auto. Wie mag eerst?",
+          "antwoord": "De auto van rechts.",
+          "bron": {
+            "boek": 105,
+            "sectie": "6.2",
+            "anker": "Dit heeft geen invloed op de voorrangsregeling; het blijft een gelijkwaardig kruispunt"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op een onverharde weg; van links nadert een auto over de verharde weg. Moet je voorrang verlenen?",
+          "antwoord": "Ja.",
+          "uitleg": "Onverhard verleent voorrang aan de kruisende verharde weg, ook aan verkeer van links.",
+          "bron": {
+            "boek": 109,
+            "sectie": "6.2",
+            "anker": "bestuurders op een onverharde weg verlenen voorrang aan bestuurders op een kruisende verharde weg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U03-P03",
+      "anker": "p-6.2-voorrangsborden",
+      "titel": "Borden regelen de voorrang",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "6.2"
+          ],
+          "paginas": [
+            107,
+            108,
+            110,
+            112
+          ]
+        },
+        "cursus": {
+          "slides": [
+            106,
+            111,
+            113,
+            114,
+            125,
+            126,
+            127,
+            128,
+            131,
+            132
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U03-r11",
+          "tekst": "Moet je voorrang verlenen aan alle bestuurders op de kruisende weg, dan staat er bord B6, vaak met haaientanden. Moet je stoppen, dan staat er bord B7, meestal met een stopstreep: altijd stoppen om te kijken, ook als de auto voor je doorrijdt.",
+          "bron": [
+            {
+              "boek": 107,
+              "sectie": "6.2",
+              "anker": "staat er bord B6 voor het kruispunt"
+            },
+            {
+              "boek": 107,
+              "sectie": "6.2",
+              "anker": "ook als de auto voor je doorrijdt"
+            },
+            {
+              "slide": 106,
+              "anker": "Op het wegdek staat een stopstreep, je moet dan altijd stoppen"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "B6",
+            "B7"
+          ],
+          "tekst": "[B6] verleen voorrang, [B7] stop altijd. Voetgangers hoef je hier niet voor te laten gaan."
+        },
+        {
+          "type": "regel",
+          "id": "U03-r12",
+          "tekst": "Bord B1 betekent dat je op een voorrangsweg rijdt: je krijgt voorrang op dit kruispunt en op alle volgende, totdat bord B2 het eind aangeeft. Het kruispunt daarna is gelijkwaardig, tenzij borden iets anders aangeven.",
+          "bron": [
+            {
+              "boek": 107,
+              "sectie": "6.2",
+              "anker": "Bord B1 betekent dat je op een voorrangsweg rijdt"
+            },
+            {
+              "slide": 113,
+              "anker": "Het volgende kruispunt is een gelijkwaardig kruispunt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U03-r13",
+          "tekst": "Rijd je niet op een voorrangsweg maar krijg je toch voorrang van bestuurders uit zijwegen, dan staat er B3, B4 of B5. Op het volgende kruispunt kan de voorrang weer anders zijn.",
+          "bron": [
+            {
+              "boek": 108,
+              "sectie": "6.2",
+              "anker": "maar tóch voorrang moet krijgen van bestuurders uit zijwegen"
+            },
+            {
+              "slide": 113,
+              "anker": "want bij het volgende kruispunt kan de voorrang weer anders geregeld zijn"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5"
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Bord",
+            "Betekenis",
+            "Geldt"
+          ],
+          "rijen": [
+            [
+              "B1",
+              "Voorrangsweg",
+              "Tot B2, op alle kruispunten"
+            ],
+            [
+              "B2",
+              "Einde voorrangsweg",
+              "Daarna gelijkwaardig"
+            ],
+            [
+              "B3",
+              "Voorrangskruispunt",
+              "Alleen dit kruispunt"
+            ],
+            [
+              "B4",
+              "Voorrangskruispunt, zijweg links",
+              "Alleen dit kruispunt"
+            ],
+            [
+              "B5",
+              "Voorrangskruispunt, zijweg rechts",
+              "Alleen dit kruispunt"
+            ],
+            [
+              "B6",
+              "Verleen voorrang",
+              "Aan alle bestuurders op de kruisende weg"
+            ],
+            [
+              "B7",
+              "Stop",
+              "Altijd stoppen, dan voorrang verlenen"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 107,
+              "sectie": "6.2",
+              "anker": "maar ook op alle volgende kruispunten, totdat bord B2 het eind van de voorrangsweg aangeeft"
+            },
+            {
+              "boek": 108,
+              "sectie": "6.2",
+              "anker": "de voorrang op het volgende kruispunt weer anders geregeld kan zijn"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Binnen de bebouwde kom staat B1 vóór het kruispunt, erbuiten erna. B2 staat altijd vóór het kruispunt.",
+          "bron": {
+            "boek": 107,
+            "sectie": "6.2",
+            "anker": "binnen de bebouwde kom staat het voorrangsbord B1 vóór het kruispunt"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r14",
+          "tekst": "Bij een afbuigende voorrangsweg toont een onderbord het verloop. Nader je bord B6, dan verleen je voorrang aan kruisende bestuurders die de afbuigende voorrangsweg volgen én aan wie hem verlaat. Dik gaat voor dun.",
+          "bron": [
+            {
+              "boek": 108,
+              "sectie": "6.2",
+              "anker": "kruisende bestuurders die de afbuigende voorrangsweg verlaten"
+            },
+            {
+              "slide": 114,
+              "anker": "Handig om te onthouden: dik gaat voor dun"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U03-103",
+          "tekst": "De voorrangsweg buigt van links naar voren af. De grijze auto van links volgt hem; jij nadert B6 en verleent voorrang.",
+          "bron": {
+            "boek": 108,
+            "sectie": "6.2",
+            "anker": "De auto van links volgt de afbuigende voorrangsweg. Jij moet voorrang verlenen"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "De borden nemen de rechtsregel over zodat de drukke weg doorstroomt. Vraag je bij elk bord af: krijg ik hier voorrang, en alleen hier of ook verderop?",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een bromfietser nadert B6 en jij rijdt op de kruisende weg: hij verleent voorrang aan jou. Een voetganger op de kruisende weg hoeft hij niet voor te laten gaan.",
+          "bron": {
+            "slide": 123,
+            "anker": "de bromfietser hoeft voetgangers op de kruisende weg niet voor te laten gaan"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "B3, B4 en B5 maken geen voorrangsweg: verderop kan alles anders zijn. En kijk bij rechtsaf ook naar rechts: een inhalende bestuurder van rechts rijdt op jouw weghelft en krijgt ook voorrang.",
+          "bron": {
+            "boek": 110,
+            "sectie": "6.2",
+            "anker": "Kijk daarom ook altijd naar rechts als je rechtsaf een weg opdraait"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "B6 verlenen, B7 stoppen. B1 tot B2 een hele weg, B3 tot B5 één kruispunt. Afbuigend: dik gaat voor dun."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je passeert bord B2. Hoe is de voorrang op het eerstvolgende kruispunt geregeld?",
+          "antwoord": "Gelijkwaardig, tenzij borden iets anders aangeven.",
+          "bron": {
+            "boek": 107,
+            "sectie": "6.2",
+            "anker": "Het kruispunt dat je daarna nadert, is dan een gelijkwaardig kruispunt"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Bij bord B7 rijdt de auto voor je zonder te stoppen door. Mag jij dat ook?",
+          "antwoord": "Nee, je stopt altijd.",
+          "bron": {
+            "boek": 107,
+            "sectie": "6.2",
+            "anker": "ook als de auto voor je doorrijdt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U03-P04",
+      "anker": "p-6.4-tram",
+      "titel": "De tram: drie uitzonderingen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "6.4"
+          ],
+          "paginas": [
+            112,
+            113
+          ]
+        },
+        "cursus": {
+          "slides": [
+            115,
+            116,
+            117,
+            118,
+            129,
+            130
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U03-r16",
+          "tekst": "Trams hoeven zich niet aan de regels voor afslaan en voorrang te houden, maar ze moeten zich wel aan de tekens voor afslaan en voorrang houden.",
+          "bron": {
+            "slide": 115,
+            "anker": "trams moeten zich wel aan de tekens voor afslaan en voorrang te houden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r17",
+          "tekst": "Voor trams gelden drie uitzonderingen. Eén: de tram gaat voor als hij op een gelijkwaardig kruispunt van links komt; van rechts natuurlijk ook. Twee: de tram gaat voor als hij afbuigt terwijl jij rechtdoor gaat op dezelfde weg, ook als hij van achteren nadert en voor je langs wil afbuigen. Drie: de tram gaat voor als hij linksaf een weg wil inrijden terwijl jij rechtsaf dezelfde weg wilt inrijden.",
+          "bron": [
+            {
+              "boek": 112,
+              "sectie": "6.4",
+              "anker": "De tram gaat voor als hij op een gelijkwaardig kruispunt van links komt"
+            },
+            {
+              "boek": 113,
+              "sectie": "6.4",
+              "anker": "De tram gaat voor als hij afbuigt, terwijl jij rechtdoor gaat op dezelfde weg"
+            },
+            {
+              "boek": 113,
+              "sectie": "6.4",
+              "anker": "De tram gaat voor als hij linksaf een weg wil inrijden terwijl jij rechtsaf"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Uitzondering",
+            "Situatie",
+            "Wie gaat voor"
+          ],
+          "rijen": [
+            [
+              "1",
+              "Gelijkwaardig kruispunt, tram van links (van rechts natuurlijk ook)",
+              "De tram"
+            ],
+            [
+              "2",
+              "De tram buigt af, jij gaat rechtdoor op dezelfde weg; ook als hij van achteren komt",
+              "De tram"
+            ],
+            [
+              "3",
+              "De tram slaat linksaf een weg in, jij wilt rechtsaf dezelfde weg in",
+              "De tram"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 112,
+              "sectie": "6.4",
+              "anker": "Voor trams gelden drie uitzonderingen, dat zijn"
+            },
+            {
+              "boek": 113,
+              "sectie": "6.4",
+              "anker": "dat geldt ook als de tram van achteren nadert en voor je langs wil afbuigen"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een tram zit vast aan zijn rails, is zwaar en remt lang; de regels laten hem door waar een auto zou wachten. Een bord of zebrapad geldt wel voor de tram.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r18",
+          "tekst": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten ten opzichte van bestuurders die op de voorrangsweg rijden. Een afbuigende tram gaat weliswaar voor op rechtdoorgaand verkeer, maar dat geldt niet ten opzichte van voetgangers op een voetgangersoversteekplaats.",
+          "bron": [
+            {
+              "boek": 113,
+              "sectie": "6.4",
+              "anker": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten"
+            },
+            {
+              "boek": 113,
+              "sectie": "6.4",
+              "anker": "dat geldt niet ten opzichte van voetgangers op een voetgangersoversteekplaats"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U03-104",
+          "tekst": "Jij rijdt op de voorrangsweg, de tram nadert die weg van links bij bord B6. De tram moet zich aan het bord houden: jij mag eerst.",
+          "bron": [
+            {
+              "boek": 113,
+              "sectie": "6.4",
+              "anker": "moet je voorrang krijgen van de trambestuurder"
+            },
+            {
+              "slide": 117,
+              "anker": "Jij rijdt op de voorrangsweg. De tram nadert de voorrangsweg"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een tram buigt af en kruist een zebrapad waar een voetganger oversteekt; jij wilt dezelfde weg in. De voetganger mag eerst, dan de tram en dan jij.",
+          "bron": {
+            "boek": 113,
+            "sectie": "6.4",
+            "anker": "De voetganger mag hier eerst, dan de tram en dan jij"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Bij een gelijkwaardig kruispunt is een tram van links de klassieke instinker: de tram gaat altijd voor. Andersom is een tram bij haaientanden geen uitzondering: het bord geldt ook voor de trambestuurder."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Tram van links, afbuigende tram, tram linksaf tegen jou rechtsaf: de tram gaat voor. Bord en zebrapad gelden ook voor de tram."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Op een gelijkwaardig kruispunt komt een tram van links, jij komt dus van rechts. Wie mag eerst?",
+          "antwoord": "De tram.",
+          "uitleg": "Aan trams verleen je voorrang, uit welke richting ze ook komen.",
+          "bron": {
+            "boek": 112,
+            "sectie": "6.4",
+            "anker": "De tram gaat voor als hij op een gelijkwaardig kruispunt van links komt"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Jij rijdt op een voorrangsweg. Een tram nadert van rechts uit een zijweg met bord B6. Moet je de tram voor laten gaan?",
+          "antwoord": "Nee.",
+          "uitleg": "Bij een voorrangsweg heeft de tram geen bijzondere rechten; hij houdt zich aan het bord.",
+          "bron": {
+            "boek": 113,
+            "sectie": "6.4",
+            "anker": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U03-P05",
+      "anker": "p-6.6-voorrangsvoertuig",
+      "titel": "Voorrangsvoertuigen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "2.3",
+            "6.1",
+            "6.6"
+          ],
+          "paginas": [
+            30,
+            104,
+            116
+          ]
+        },
+        "cursus": {
+          "slides": [
+            105,
+            122
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U03-r19",
+          "tekst": "Motorvoertuigen die blauwe zwaai-, flits- of knipperlichten en een tweetonige sirene voeren, zijn voorrangsvoertuigen en moet je voor laten gaan. Kijk hoe je het voertuig met de minste hinder voor kunt laten gaan, soms uiterst rechts of zelfs gedeeltelijk op de stoep.",
+          "bron": [
+            {
+              "boek": 116,
+              "sectie": "6.6",
+              "anker": "zijn voorrangsvoertuigen en moet je voor laten gaan"
+            },
+            {
+              "boek": 30,
+              "sectie": "2.3",
+              "anker": "Motorvoertuig dat optische signalen (blauw zwaailicht, flitslicht of knipperlicht) en geluidssignalen (tweetonige hoorn) voert"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U03-r20",
+          "tekst": "Een voorrangsvoertuig laat je voor, ook als de regels of tekens voor afslaan en voorrang iets anders voorschrijven. Gevaar veroorzaken, bijvoorbeeld door rood rijden, om een voorrangsvoertuig voor te laten gaan, is niet toegestaan.",
+          "bron": [
+            {
+              "slide": 122,
+              "anker": "óók als de regels of tekens voor afslaan en voorrang iets anders voorschrijven"
+            },
+            {
+              "boek": 116,
+              "sectie": "6.6",
+              "anker": "om een voorrangsvoertuig voor te laten gaan, is niet toegestaan"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een ambulance of brandweerwagen is onderweg naar iemand die niet kan wachten. Daarom wint hij van elke regel en elk bord, maar niet van de veiligheid: een aanrijding houdt de hulp juist tegen.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U03-105",
+          "tekst": "Een gelijkwaardig kruispunt. Jij komt van rechts, van links nadert een politieauto met zwaailicht en sirene. Toch laat je het voorrangsvoertuig voor.",
+          "bron": {
+            "slide": 122,
+            "anker": "Toch moet je voorrang verlenen aan het voorrangsvoertuig"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op de autosnelweg rijdt een ambulance met zwaailichten tussen de rijstroken door. Blijf rustig, rijd met dezelfde snelheid door en houd zoveel mogelijk rechts; de ambulancechauffeur kiest zelf het moment om je te passeren.",
+          "bron": {
+            "boek": 116,
+            "sectie": "6.6",
+            "anker": "Blijf met dezelfde snelheid doorrijden en houd zoveel mogelijk rechts"
+          }
+        },
+        {
+          "type": "tekst",
+          "tekst": "De bekendste voorrangsvoertuigen zijn die van politie, brandweer en ambulance, maar ook andere hulpdiensten en weginspecteurs van Rijkswaterstaat mogen met blauw zwaailicht en sirene rijden.",
+          "bron": {
+            "boek": 116,
+            "sectie": "6.6",
+            "anker": "Weginspecteurs van Rijkswaterstaat mogen met een blauw zwaailicht en een sirene rijden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U03-r21",
+          "tekst": "Om een voorrangsvoertuig voor te laten gaan mag je op een kruispunt stoppen; dat is naast linksaf op een voorrangsweg de enige toegestane reden.",
+          "bron": [
+            {
+              "boek": 104,
+              "sectie": "6.1",
+              "anker": "als je een voorrangsvoertuig voor moet laten gaan"
+            },
+            {
+              "slide": 105,
+              "anker": "Ook als je moet stoppen voor een voorrangsvoertuig mag je op een kruispunt stoppen"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Signalen",
+            "Voorrangsvoertuig?"
+          ],
+          "rijen": [
+            [
+              "Blauw zwaai-, flits- of knipperlicht én een tweetonige sirene",
+              "Ja: voor laten gaan, ook tegen regels en borden in"
+            ],
+            [
+              "Alleen een blauw licht, zonder sirene",
+              "Nee: de definitie vraagt beide signalen"
+            ],
+            [
+              "Politieauto zonder signalen",
+              "Nee: een gewone bestuurder met de gewone regels"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 30,
+              "sectie": "2.3",
+              "anker": "Motorvoertuig dat optische signalen (blauw zwaailicht, flitslicht of knipperlicht) en geluidssignalen (tweetonige hoorn) voert"
+            },
+            {
+              "boek": 116,
+              "sectie": "6.6",
+              "anker": "blauwe zwaai-, flits- of knipperlichten en een tweetonige sirene voeren"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Op een voorrangsweg of bij groen licht denk je dat je mag doorrijden, maar een voorrangsvoertuig gaat ook dan voor. Andersom is door rood rijden om ruimte te maken verboden: zoek ruimte waar dat zonder gevaar kan."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Blauw licht én sirene: voor laten gaan, boven elke regel en elk bord, zonder zelf gevaar te veroorzaken."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat voor een rood verkeerslicht. Achter je nadert een ambulance met zwaailicht en sirene. Mag je door rood rijden om ruimte te maken?",
+          "antwoord": "Nee.",
+          "uitleg": "Gevaar veroorzaken om een voorrangsvoertuig voor te laten gaan is niet toegestaan.",
+          "bron": {
+            "boek": 116,
+            "sectie": "6.6",
+            "anker": "om een voorrangsvoertuig voor te laten gaan, is niet toegestaan"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Jij komt op een gelijkwaardig kruispunt van rechts, een brandweerauto met zwaailicht en sirene komt van links. Wie mag eerst?",
+          "antwoord": "De brandweerauto.",
+          "uitleg": "Een voorrangsvoertuig laat je voor, ook als de voorrangsregel jou eerst zou laten gaan.",
+          "bron": {
+            "slide": 122,
+            "anker": "Toch moet je voorrang verlenen aan het voorrangsvoertuig"
+          }
+        }
+      ]
+    }
+  ]
+}

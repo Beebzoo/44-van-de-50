@@ -1,0 +1,39 @@
+{
+  "id": "S-U03-102",
+  "vorm": "T",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "west",
+    "oost",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "drempel",
+      "arm": "west"
+    },
+    {
+      "soort": "drempel",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "motor",
+      "soort": "motorfiets",
+      "arm": "zuid",
+      "richting": "links"
+    }
+  ],
+  "alt": "Een gelijkwaardige T-kruising zonder borden, met een drempel op de doorgaande weg. Jij rijdt van links over de doorgaande weg en gaat rechtdoor. Van rechts komt een motorrijder uit de zijweg, die linksaf wil.",
+  "inspiratie": {
+    "boek": 106,
+    "beeld": "foto rechtsonder"
+  }
+}

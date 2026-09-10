@@ -1,0 +1,31 @@
+{
+  "id": "S-U03-004",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "brandweer",
+      "soort": "hulpdienst",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links"
+    }
+  ],
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Van voren nadert een brandweerauto met blauw zwaailicht en sirene, die linksaf wil en daarbij jouw pad kruist.",
+  "inspiratie": {
+    "slide": 122,
+    "beeld": "links"
+  }
+}

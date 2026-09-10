@@ -1,0 +1,288 @@
+{
+  "unit": "U03",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U03-Q900",
+      "unit": "U03",
+      "pagina": "U03-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verleen voorrang aan bestuurders op de kruisende weg.",
+      "media": {
+        "borden": [
+          "B3",
+          "B4",
+          "B7",
+          "B6",
+          "B5",
+          "J8"
+        ]
+      },
+      "opties": [
+        {
+          "id": "B3",
+          "tekst": "B3",
+          "feedback": "Fout. Dit is B3: Voorrangskruispunt. Het gevraagde bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B4",
+          "tekst": "B4",
+          "feedback": "Fout. Dit is B4: Voorrangskruispunt zijweg links. Het gevraagde bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B7",
+          "tekst": "B7",
+          "feedback": "Fout. Dit is B7: Stop; verleen voorrang aan bestuurders op de kruisende weg. Het gevraagde bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B6",
+          "tekst": "B6",
+          "feedback": "Goed. B6 betekent: Verleen voorrang aan bestuurders op de kruisende weg.",
+          "fouttype": null
+        },
+        {
+          "id": "B5",
+          "tekst": "B5",
+          "feedback": "Fout. Dit is B5: Voorrangskruispunt zijweg rechts. Het gevraagde bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J8",
+          "tekst": "J8",
+          "feedback": "Fout. Dit is J8: Gevaarlijk kruispunt. Het gevraagde bord is B6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "B6"
+      ],
+      "uitleg": {
+        "regel": "B6 betekent: Verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode driehoek met de punt omlaag, wit binnenvlak.",
+        "valkuil": "Verwar het niet met J8, B7, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Verleen voorrang aan bestuurders op de kruisende weg."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-b6",
+        "borden-b"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U03-Q901",
+      "unit": "U03",
+      "pagina": "U03-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "B6"
+      },
+      "opties": [
+        {
+          "id": "B7",
+          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Fout. Dat is de betekenis van B7, rode achthoek met het witte woord stop. Dit bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B5",
+          "tekst": "Voorrangskruispunt zijweg rechts.",
+          "feedback": "Fout. Dat is de betekenis van B5, rode driehoek met een zwarte verticale pijl en een zijtak naar rechts. Dit bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B6",
+          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Goed. Dit is B6, rode driehoek met de punt omlaag, wit binnenvlak.",
+          "fouttype": null
+        },
+        {
+          "id": "B1",
+          "tekst": "Voorrangsweg.",
+          "feedback": "Fout. Dat is de betekenis van B1, gele ruit met witte rand. Dit bord is B6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "B6"
+      ],
+      "uitleg": {
+        "regel": "B6 betekent: Verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Kijk naar de vorm en de kleur: rode driehoek met de punt omlaag, wit binnenvlak.",
+        "valkuil": "De lijkers zijn J8, B7. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Verleen voorrang aan bestuurders op de kruisende weg."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-b6",
+        "borden-b"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U03-Q902",
+      "unit": "U03",
+      "pagina": "U03-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+      "media": {
+        "borden": [
+          "B7",
+          "B6",
+          "B5",
+          "B2",
+          "B1",
+          "B4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "B7",
+          "tekst": "B7",
+          "feedback": "Goed. B7 betekent: Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+          "fouttype": null
+        },
+        {
+          "id": "B6",
+          "tekst": "B6",
+          "feedback": "Fout. Dit is B6: Verleen voorrang aan bestuurders op de kruisende weg. Het gevraagde bord is B7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B5",
+          "tekst": "B5",
+          "feedback": "Fout. Dit is B5: Voorrangskruispunt zijweg rechts. Het gevraagde bord is B7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B2",
+          "tekst": "B2",
+          "feedback": "Fout. Dit is B2: Einde voorrangsweg. Het gevraagde bord is B7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B1",
+          "tekst": "B1",
+          "feedback": "Fout. Dit is B1: Voorrangsweg. Het gevraagde bord is B7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B4",
+          "tekst": "B4",
+          "feedback": "Fout. Dit is B4: Voorrangskruispunt zijweg links. Het gevraagde bord is B7.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "B7"
+      ],
+      "uitleg": {
+        "regel": "B7 betekent: Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode achthoek met het witte woord stop.",
+        "valkuil": "Verwar het niet met B6, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Stop; verleen voorrang aan bestuurders op de kruisende weg."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-b7",
+        "borden-b"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U03-Q903",
+      "unit": "U03",
+      "pagina": "U03-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "B7"
+      },
+      "opties": [
+        {
+          "id": "B7",
+          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Goed. Dit is B7, rode achthoek met het witte woord stop.",
+          "fouttype": null
+        },
+        {
+          "id": "B6",
+          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Fout. Dat is de betekenis van B6, rode driehoek met de punt omlaag, wit binnenvlak. Dit bord is B7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B3",
+          "tekst": "Voorrangskruispunt.",
+          "feedback": "Fout. Dat is de betekenis van B3, rode driehoek, punt omhoog, met een zwarte verticale pijl gekruist door een dikke zwarte dwarsbalk. Dit bord is B7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B1",
+          "tekst": "Voorrangsweg.",
+          "feedback": "Fout. Dat is de betekenis van B1, gele ruit met witte rand. Dit bord is B7.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "B7"
+      ],
+      "uitleg": {
+        "regel": "B7 betekent: Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Kijk naar de vorm en de kleur: rode achthoek met het witte woord stop.",
+        "valkuil": "De lijkers zijn B6. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Stop; verleen voorrang aan bestuurders op de kruisende weg."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-b7",
+        "borden-b"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "S-U04-106",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "colonne",
+      "soort": "colonne",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de militaire colonne"
+    }
+  ],
+  "volgorde": [
+    "colonne",
+    "ego"
+  ],
+  "toonVolgorde": true,
+  "alt": "Gelijkwaardig kruispunt. Jij komt van onderen en gaat rechtdoor. Van links komt een militaire colonne; het eerste voertuig met de blauwe vlag is het kruispunt al gepasseerd. Je wacht tot de hele colonne voorbij is, ook al kom je van rechts.",
+  "inspiratie": {
+    "slide": 120
+  }
+}

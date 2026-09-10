@@ -1,0 +1,43 @@
+{
+  "id": "S-U04-005",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "label": "jij",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de grijze auto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "west",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Gelijkwaardig kruispunt. Jij komt van onderen en wilt linksaf. Een tegemoetkomende grijze auto gaat rechtdoor. Op de hoek links steekt een voetganger de zijstraat over die jij in wilt rijden; hij loopt rechtdoor langs jouw weg.",
+  "inspiratie": {
+    "boek": 111,
+    "beeld": "foto boven, rechtdoorgaande voetganger"
+  }
+}

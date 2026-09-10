@@ -1,0 +1,64 @@
+{
+  "id": "S-U03-002",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "noord"
+    },
+    {
+      "code": "B1",
+      "arm": "west"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "zijde": "rechts"
+    }
+  ],
+  "alt": "Je nadert van onderen een voorrangsweg: bord B6 en haaientanden. Je wilt rechtdoor. Langs de kruisende weg loopt op de stoep aan jouw kant een voetganger, die vlak voor je de zijweg oversteekt waarop jij rijdt. Ander verkeer is er niet.",
+  "inspiratie": {
+    "boek": 107,
+    "beeld": "foto met B6 en voetganger",
+    "slide": 125
+  }
+}

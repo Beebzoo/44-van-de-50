@@ -1,0 +1,398 @@
+{
+  "unit": "U05",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U05-Q001",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een rotonde. Rechts staat [B6] en voor je liggen haaientanden. Van links komt een bestelauto over de rotonde aanrijden. Moet je de bestelauto voor laten gaan?",
+      "media": {"scene": "S-U05-001"},
+      "opties": [
+        {"id": "ja", "tekst": "Ja", "feedback": "Goed. Bord [B6] en de haaientanden zeggen dat de bestuurders op de rotonde voorrang hebben, dus je wacht op de bestelauto.", "fouttype": null},
+        {"id": "nee", "tekst": "Nee", "feedback": "Fout. Van links komen telt hier niet: [B6] en de haaientanden geven de rotonde voorrang, dus de bestelauto gaat voor.", "fouttype": "verkeerd_toegepast"}
+      ],
+      "correct": ["ja"],
+      "uitleg": {
+        "regel": "Op bijna alle rotondes wordt met borden geregeld dat bestuurders op de rotonde voorrang hebben. Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen.",
+        "waarom": "De ring moet blijven stromen; als oprijdend verkeer zich ertussen zou wringen, loopt de hele rotonde vast.",
+        "valkuil": "Denk niet aan rechts gaat voor: het bord en de haaientanden bepalen het hier.",
+        "onthoud": "Voor de haaientanden wacht je op alles wat al op de rotonde rijdt."
+      },
+      "bronnen": [
+        {"boek": 84, "sectie": "5.1", "anker": "met borden geregeld dat bestuurders op de rotonde voorrang hebben"},
+        {"boek": 84, "sectie": "5.1", "anker": "Nu moet je voorrang verlenen aan de rode bestelauto"},
+        {"slide": 84, "anker": "kies de juiste rijstrook, normaal gesproken verleen je voorrang"}
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": ["rotonde", "voorrang", "haaientanden"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q002",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een rotonde en wilt er bij de volgende arm af. Het fietspad loopt direct om de rotonde heen en een fietser blijft de rotonde volgen. Bij de afrit liggen haaientanden voor jou. Kun je de rotonde verlaten zonder op de fietser te wachten?",
+      "media": {"scene": "S-U05-002"},
+      "opties": [
+        {"id": "ja", "tekst": "Ja", "feedback": "Fout. Het fietspad hoort hier bij de rotonde en de fietser blijft die volgen; de haaientanden liggen er voor jou, dus je wacht.", "fouttype": "verkeerd_toegepast"},
+        {"id": "nee", "tekst": "Nee", "feedback": "Goed. Bij het verlaten van de rotonde laat je verkeer dat de rotonde blijft volgen voor, ook fietsers op het fietspad eromheen.", "fouttype": null}
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "Als je de rotonde wilt verlaten, moet je het verkeer dat de rotonde blijft volgen voor laten gaan. Die verplichting geldt ook ten opzichte van (snor)fietsers, bromfietsers en voetgangers die op een fietspad de rotonde blijven volgen.",
+        "waarom": "De fietser rijdt nog op de rotonde en jij verlaat die; wie de ring verlaat, snijdt de ring en moet dus wachten.",
+        "valkuil": "Je denkt dat de fietser oversteekt en dus moet wachten, maar hij volgt de rotonde en hoort bij de ring.",
+        "onthoud": "Fietspad direct om de rotonde: de fietser die de ring volgt gaat voor."
+      },
+      "bronnen": [
+        {"boek": 85, "sectie": "5.1", "anker": "moet je het verkeer dat de rotonde blijft volgen voor laten gaan"},
+        {"boek": 86, "sectie": "5.1", "anker": "Hier moet je de fietser die de rotonde blijft volgen voor laten gaan"},
+        {"slide": 85, "anker": "moet je fietsers en voetgangers voor laten gaan, tenzij tekens iets anders aangeven"}
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["rotonde", "fietser", "verlaten", "voorrang"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q003",
+      "unit": "U05",
+      "pagina": "U05-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat in een uitrit met een verlaagde stoeprand en wilt linksaf de straat op. Over de straat nadert van links een fietser. Mag jij als eerste de straat op rijden?",
+      "media": {"scene": "S-U05-003"},
+      "opties": [
+        {"id": "ja", "tekst": "Ja", "feedback": "Fout. Wie een uitrit verlaat, laat alle weggebruikers voor; dat de fietser van links komt maakt geen verschil.", "fouttype": "verkeerd_toegepast"},
+        {"id": "nee", "tekst": "Nee", "feedback": "Goed. Bij het verlaten van een uitrit laat je alle weggebruikers voor, dus je wacht tot de fietser voorbij is.", "fouttype": null}
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "Je moet bij het inrijden van een inrit en bij het verlaten van een uitrit alle weggebruikers (dus ook voetgangers) voor laten gaan.",
+        "waarom": "De straat verwacht geen verkeer uit een uitrit; wie er toch uit komt, zorgt zelf dat hij niemand hindert.",
+        "valkuil": "Links of rechts speelt bij een uitrit geen rol; jij bent altijd de laatste.",
+        "onthoud": "Uit een uitrit: iedereen gaat voor."
+      },
+      "bronnen": [
+        {"boek": 88, "sectie": "5.2", "anker": "Je moet bij het inrijden van een inrit en bij het verlaten van een uitrit"},
+        {"slide": 88, "anker": "moet je al het overige verkeer voor laten gaan, dus ook voetgangers"}
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": ["uitrit", "fietser", "voor-laten-gaan"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q004",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt een erf in. Verderop loopt een voetganger midden op de rijbaan naar je toe. Loopt hij op een plek waar dat is toegestaan?",
+      "media": {"scene": "S-U05-004"},
+      "opties": [
+        {"id": "ja", "tekst": "Ja", "feedback": "Goed. In een erf mogen voetgangers op de weg lopen, over de volle breedte, dus jij past je snelheid aan.", "fouttype": null},
+        {"id": "nee", "tekst": "Nee", "feedback": "Fout. Buiten een erf zou dit vreemd zijn, maar in een erf mogen voetgangers gewoon op de weg lopen.", "fouttype": "niet_geweten"}
+      ],
+      "correct": ["ja"],
+      "uitleg": {
+        "regel": "In een erf gelden bijzondere regels: de maximumsnelheid is 15 km/u en voetgangers mogen op de weg lopen.",
+        "waarom": "Een erf is ingericht als woon- en speelplek waar de auto te gast is; daarom hoeft niemand naar de stoep.",
+        "valkuil": "Verwacht in een erf overal voetgangers en obstakels, ook midden op de weg en achter geparkeerde auto's.",
+        "onthoud": "Erf: voetgangers overal, jij stapvoets."
+      },
+      "bronnen": [
+        {"boek": 89, "sectie": "5.3", "anker": "voetgangers mogen op de weg lopen"},
+        {"slide": 89, "anker": "voetgangers mogen de weg over de volle breedte gebruiken in een erf"}
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": ["erf", "voetganger"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q005",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je nadert een rotonde met vier armen en wilt bij de tweede arm eraf, dus eigenlijk rechtdoor. Op welk moment zet je je richtingaanwijzer naar rechts aan?",
+      "media": {"scene": "S-U05-005"},
+      "opties": [
+        {"id": "a", "tekst": "Al op de toeleidende weg, voor je de rotonde oprijdt.", "feedback": "Fout. Dan lijkt het alsof je bij de eerste arm eraf gaat; bij rechtdoor geef je op de toeleidende weg geen richting aan.", "fouttype": "verkeerd_toegepast"},
+        {"id": "b", "tekst": "Ter hoogte van de eerste arm, terwijl je op de rotonde rijdt.", "feedback": "Goed. Ter hoogte van de eerste zijweg geef je richting aan naar rechts en ga je rechts rijden, zodat iedereen weet dat je bij de volgende arm eraf gaat.", "fouttype": null},
+        {"id": "c", "tekst": "Pas als je de rotonde al hebt verlaten.", "feedback": "Fout. Dan is het te laat: het verkeer op en rond de rotonde moest al weten dat je eraf ging.", "fouttype": "niet_geweten"},
+        {"id": "d", "tekst": "Helemaal niet, bij rechtdoor hoef je geen richting aan te geven.", "feedback": "Fout. Je moet altijd richting aangeven als je de rotonde verlaat, ook als je rechtdoor gaat.", "fouttype": "niet_geweten"}
+      ],
+      "correct": ["b"],
+      "uitleg": {
+        "regel": "Als je bij de tweede zijweg de rotonde wilt verlaten, geef je ter hoogte van de eerste zijweg richting aan naar rechts en ga je rechts rijden.",
+        "waarom": "Wie bij de eerste arm wacht om op te rijden, ziet aan je knipperlicht of je eraf gaat of doorrijdt; te vroeg of te laat knipperen zet hem op het verkeerde been.",
+        "valkuil": "Op de toeleidende weg blijft de richtingaanwijzer uit als je rechtdoor gaat.",
+        "onthoud": "Rechtdoor: rechts aan bij de eerste arm."
+      },
+      "bronnen": [
+        {"boek": 84, "sectie": "5.1", "anker": "Ter hoogte van de eerste zijweg geef je richting aan naar rechts"},
+        {"boek": 85, "sectie": "5.1", "anker": "je moet altijd richting aangeven als je de rotonde verlaat"},
+        {"slide": 86, "anker": "geef richting aan naar rechts ter hoogte van de eerste zijweg"}
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["rotonde", "richting-aangeven", "rechtdoor"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q006",
+      "unit": "U05",
+      "pagina": "U05-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt door een klinkerstraat. Rechts voor je komt een grijze auto uit een zijstraat die met inritblokken op de straat aansluit. Er staan geen borden. Wie mag als eerste doorrijden?",
+      "media": {"scene": "S-U05-006"},
+      "opties": [
+        {"id": "a", "tekst": "De grijze auto, want hij komt van rechts.", "feedback": "Fout. Van rechts komen geldt op een gelijkwaardig kruispunt, maar dit is geen kruispunt: de inritblokken maken de zijstraat een uitrit.", "fouttype": "verkeerd_toegepast"},
+        {"id": "b", "tekst": "Jij, want de grijze auto verlaat een uitrit.", "feedback": "Goed. De inritblokken laten zien dat de zijstraat een uitrit is, en wie een uitrit verlaat laat alle weggebruikers voor.", "fouttype": null},
+        {"id": "c", "tekst": "De grijze auto, want zonder borden gaat verkeer uit een zijstraat altijd voor.", "feedback": "Fout. Zonder borden gaat verkeer van rechts voor, maar alleen op een echt kruispunt; een uitrit is geen zijweg.", "fouttype": "niet_geweten"}
+      ],
+      "correct": ["b"],
+      "uitleg": {
+        "regel": "De andere auto komt weliswaar van rechts, maar hij verlaat een uitrit. Jij mag dus eerst.",
+        "waarom": "De inritblokken vertellen je dat de zijstraat ondergeschikt is; wie eruit komt voert een bijzondere manoeuvre uit en wacht daarom op de straat.",
+        "valkuil": "Kijk bij een zijstraat van rechts altijd eerst naar de aansluiting: verlaagde stoeprand of inritblokken betekent uitrit.",
+        "onthoud": "Inritblokken: van rechts telt niet."
+      },
+      "bronnen": [
+        {"boek": 88, "sectie": "5.2", "anker": "De andere auto komt weliswaar van rechts, maar hij verlaat een uitrit"},
+        {"slide": 88, "anker": "Een in- en uitrit herken je aan de verlaagde stoeprand of de inritblokken"}
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["uitrit", "inritblokken", "voorrang"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q007",
+      "unit": "U05",
+      "pagina": "U05-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Gemeenten leggen 30 km-zones niet overal aan. Op welke plaatsen worden ze vooral aangelegd?",
+      "media": null,
+      "opties": [
+        {"id": "a", "tekst": "Op plaatsen met veel gemengd verkeer en in de buurt van scholen.", "feedback": "Goed. Waar snel en langzaam verkeer door elkaar rijden, en bij scholen, hoort de snelheid omlaag naar 30 km/u.", "fouttype": null},
+        {"id": "b", "tekst": "Op doorgaande wegen waar veel vrachtverkeer rijdt.", "feedback": "Fout. Doorgaand vrachtverkeer hoort juist op wegen die zijn ingericht om te laten doorstromen, niet in een 30 km-zone.", "fouttype": "niet_geweten"},
+        {"id": "c", "tekst": "Buiten de bebouwde kom langs fietsroutes.", "feedback": "Fout. Een 30 km-zone ligt binnen de bebouwde kom, in woonwijken en bij scholen; buiten de kom ken je de 60 km-zone.", "fouttype": "niet_geweten"},
+        {"id": "d", "tekst": "Alleen bij ziekenhuizen en verzorgingshuizen.", "feedback": "Fout. Het boek noemt gemengd verkeer en scholen; ziekenhuizen komen in de regel niet voor.", "fouttype": "verkeerd_gelezen"}
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "30 km-zones worden vooral aangelegd op plaatsen met veel gemengd verkeer (snel en langzaam) en in de buurt van scholen.",
+        "waarom": "Waar kinderen en fietsers tussen de auto's bewegen, is een lage snelheid de enige manier om een aanrijding onschuldig te houden.",
+        "valkuil": "Verwar de 30 km-zone niet met de 60 km-zone buiten de bebouwde kom.",
+        "onthoud": "Gemengd verkeer en scholen: 30 km-zone."
+      },
+      "bronnen": [
+        {"boek": 90, "sectie": "5.4", "anker": "op plaatsen met veel gemengd verkeer (snel en langzaam), in de buurt van scholen"},
+        {"slide": 90, "anker": "in woonwijken en in de buurt van scholen"}
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": ["zone", "30-km-zone", "bebouwde-kom"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q008",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Je rijdt een erf binnen. Welke regels gelden hier volgens het boek?",
+      "media": null,
+      "opties": [
+        {"id": "a", "tekst": "De maximumsnelheid is 15 km/u.", "feedback": "Goed. In een erf rijd je stapvoets, en dat is maximaal 15 km/u.", "fouttype": null},
+        {"id": "b", "tekst": "Voetgangers mogen op de weg lopen.", "feedback": "Goed. In een erf hoeft een voetganger niet op de stoep; hij mag de hele weg gebruiken.", "fouttype": null},
+        {"id": "c", "tekst": "Parkeren mag alleen op plaatsen met een P of op eigen terrein.", "feedback": "Goed. Buiten die plekken is parkeren in een erf verboden, ook al lijkt er ruimte langs de kant.", "fouttype": null},
+        {"id": "d", "tekst": "Fietsers moeten afstappen en lopen.", "feedback": "Fout. Het erf kent geen regel voor fietsers; zij rijden gewoon, net als jij, met aandacht voor de voetgangers.", "fouttype": "niet_geweten"},
+        {"id": "e", "tekst": "De maximumsnelheid is 30 km/u.", "feedback": "Fout. Dat is de snelheid van een 30 km-zone; in een erf is het maximum 15 km/u.", "fouttype": "verkeerd_toegepast"}
+      ],
+      "correct": ["a", "b", "c"],
+      "uitleg": {
+        "regel": "Een erf is gewoon een openbare weg, maar er gelden bijzondere regels: de maximumsnelheid is 15 km/u, voetgangers mogen op de weg lopen en je mag alleen parkeren op plaatsen die met een P zijn aangeduid of op eigen terrein.",
+        "waarom": "Het erf is ontworpen als verblijfsgebied: kinderen spelen er, dus de auto rijdt stapvoets en neemt geen ruimte in waar dat niet is bedoeld.",
+        "valkuil": "Twee getallen liggen dicht bij elkaar: 15 in het erf, 30 in de zone.",
+        "onthoud": "Erf: 15, voetgangers overal, parkeren alleen op P of eigen terrein."
+      },
+      "bronnen": [
+        {"boek": 89, "sectie": "5.3", "anker": "je mag alleen parkeren: op plaatsen die met een P zijn aangeduid, op eigen terrein"},
+        {"boek": 89, "sectie": "5.3", "anker": "de maximumsnelheid is 15 km/u"},
+        {"slide": 89, "anker": "parkeren mag alleen op eigen terrein en op daartoe aangewezen plaatsen"}
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["erf", "snelheid", "parkeren", "voetganger"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q009",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je nadert een drukke rotonde met twee rijstroken op de toeleidende weg. Wat mag je vlak voor en op de rotonde doen, als het veilig kan?",
+      "media": null,
+      "opties": [
+        {"id": "a", "tekst": "Rechts inhalen.", "feedback": "Goed. Vlak voor en op een rotonde mag je zowel links als rechts inhalen, mits het veilig is.", "fouttype": null},
+        {"id": "b", "tekst": "Links inhalen.", "feedback": "Goed. Links inhalen mag hier, net als op een gewone weg, zolang het veilig kan.", "fouttype": null},
+        {"id": "c", "tekst": "Op de linkerrijstrook rijden.", "feedback": "Goed. Vlak voor en op een rotonde mag je zowel links als rechts rijden.", "fouttype": null},
+        {"id": "d", "tekst": "Op een turborotonde tussen de rijstroken wisselen.", "feedback": "Fout. Op een turborotonde zit een betonnen rand tussen de rijstroken, juist om wisselen onmogelijk te maken.", "fouttype": "niet_geweten"},
+        {"id": "e", "tekst": "De rotonde linksom rijden als de rechterrijstrook vol staat.", "feedback": "Fout. Op een rotonde rijd je altijd rechtsom, hoe druk het ook is; bord [D1] verplicht de rijrichting.", "fouttype": "niet_geweten"}
+      ],
+      "correct": ["a", "b", "c"],
+      "uitleg": {
+        "regel": "Vlak voor en op een rotonde mag je zowel links als rechts rijden en zowel links als rechts inhalen, maar natuurlijk alleen als het veilig mogelijk is.",
+        "waarom": "Rijstroken op een rotonde leiden naar verschillende uitgangen, dus naast elkaar rijden en passeren hoort erbij; andere bestuurders letten meer op de rotonde dan op jou.",
+        "valkuil": "Denk aan de dode hoek: jij mag rechts inhalen, maar de ander verwacht je daar niet. En jij kunt zelf ook rechts worden ingehaald.",
+        "onthoud": "Voor en op een rotonde: links en rechts rijden en inhalen mag."
+      },
+      "bronnen": [
+        {"boek": 83, "sectie": "5.1", "anker": "zowel links als rechts rijden, zowel links als rechts inhalen"},
+        {"boek": 83, "sectie": "5.1", "anker": "Door de betonnen rand kun je op de turborotonde niet meer van rijstrook wisselen"},
+        {"slide": 84, "anker": "mag je links en rechts rijden, mag je links en rechts inhalen"}
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["rotonde", "inhalen", "turborotonde"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q010",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "Je staat voor de haaientanden en wilt rechtdoor over de rotonde. Een grijze auto rijdt al op de rotonde en komt van links. Bij de arm rechts wacht een rode auto die ook de rotonde op wil. In welke volgorde rijden jullie?",
+      "media": {"scene": "S-U05-007"},
+      "opties": [
+        {"id": "grijs", "tekst": "de grijze auto", "feedback": "De grijze auto rijdt al op de rotonde en heeft door bord [B6] voorrang op iedereen die nog wil oprijden.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Zodra de grijze auto voorbij is, rijd jij op; daarna ben jij het verkeer op de rotonde waar de rode auto op wacht.", "fouttype": null},
+        {"id": "rood", "tekst": "de rode auto", "feedback": "De rode auto staat ook voor haaientanden en moet zowel de grijze auto als jou op de rotonde voor laten gaan.", "fouttype": null}
+      ],
+      "correct": ["grijs", "ego", "rood"],
+      "uitleg": {
+        "regel": "Op bijna alle rotondes wordt met borden geregeld dat bestuurders op de rotonde voorrang hebben. Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen.",
+        "waarom": "Wie eenmaal op de ring rijdt, wordt door alle oprijders voor gelaten; daardoor schuift de volgorde als een ketting: eerst wie al rijdt, dan wie als eerste kan invoegen.",
+        "valkuil": "Zodra jij oprijdt, verandert je rol: bij de volgende arm ben jij het verkeer op de rotonde.",
+        "onthoud": "Op de ring gaat voor; wie oprijdt wacht."
+      },
+      "bronnen": [
+        {"boek": 84, "sectie": "5.1", "anker": "Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen"},
+        {"slide": 84, "anker": "kies de juiste rijstrook, normaal gesproken verleen je voorrang"}
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["rotonde", "voorrang", "volgorde"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q011",
+      "unit": "U05",
+      "pagina": "U05-P02",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "Je rijdt rechtdoor over een straat. Rechts wil een grijze auto uit een uitrit met verlaagde stoeprand de straat op. Over de stoep loopt een voetganger vlak langs die uitrit. Wie gaat wanneer?",
+      "media": {"scene": "S-U05-008"},
+      "opties": [
+        {"id": "voetganger", "tekst": "de voetganger", "feedback": "De voetganger loopt gewoon over de stoep en hoeft voor niemand te wachten; hij is al bij de uitrit.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Jij rijdt op de straat en hoeft niet te wachten op verkeer dat uit een uitrit komt.", "fouttype": null},
+        {"id": "grijs", "tekst": "de grijze auto", "feedback": "De grijze auto verlaat een uitrit en laat daarom alle weggebruikers voor: eerst de voetganger op de stoep, dan jou.", "fouttype": null}
+      ],
+      "correct": ["voetganger", "ego", "grijs"],
+      "uitleg": {
+        "regel": "Je moet bij het inrijden van een inrit en bij het verlaten van een uitrit alle weggebruikers (dus ook voetgangers) voor laten gaan.",
+        "waarom": "De stoep loopt door over de uitrit; de voetganger is daar thuis en de auto is er te gast, net als op de rijbaan.",
+        "valkuil": "Een voetganger die over een uitrit loopt, lijkt voor de auto te moeten wachten; het is precies andersom.",
+        "onthoud": "Uitrit: eerst de stoep, dan de straat, dan pas de auto uit de uitrit."
+      },
+      "bronnen": [
+        {"boek": 88, "sectie": "5.2", "anker": "bij het verlaten van een uitrit alle weggebruikers (dus ook voetgangers) voor laten gaan"},
+        {"slide": 88, "anker": "moet je al het overige verkeer voor laten gaan, dus ook voetgangers"}
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["uitrit", "voetganger", "volgorde"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U05-Q012",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Je rijdt een klinkerstraat in waar kinderen op straat spelen en voetgangers op de weg lopen. Aan het begin van de straat staat het bord dat deze regels invoert. Tik op dat bord.",
+      "media": {"borden": ["G5", "G6", "D1", "B6"]},
+      "opties": [
+        {"id": "G5", "tekst": "G5", "feedback": "Goed. [G5] is het bord erf: vanaf hier rijd je stapvoets en mogen voetgangers op de weg lopen.", "fouttype": null},
+        {"id": "G6", "tekst": "G6", "feedback": "Fout. [G6] is het einde van het erf; daarna gelden de gewone regels weer.", "fouttype": "verkeerd_gelezen"},
+        {"id": "D1", "tekst": "D1", "feedback": "Fout. [D1] verplicht de rijrichting op een rotonde en zegt niets over spelende kinderen.", "fouttype": "niet_geweten"},
+        {"id": "B6", "tekst": "B6", "feedback": "Fout. [B6] regelt de voorrang op een kruispunt; het heeft niets met een erf te maken.", "fouttype": "niet_geweten"}
+      ],
+      "correct": ["G5"],
+      "uitleg": {
+        "regel": "Een erf herken je aan de borden. Het is gewoon een openbare weg, maar er gelden bijzondere regels.",
+        "waarom": "Het bord tekent letterlijk wat je gaat tegenkomen: een huis, een auto, een spelend kind en een voetganger op dezelfde plek.",
+        "valkuil": "Het einde-bord [G6] is hetzelfde plaatje met een rode streep erdoor; kijk goed of die streep er wel of niet op staat.",
+        "onthoud": "Huis, kind, bal: erf."
+      },
+      "bronnen": [
+        {"boek": 89, "sectie": "5.3", "anker": "Een erf herken je aan de borden"},
+        {"slide": 89, "anker": "een erf herken je aan de borden"}
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": ["erf", "borden-g", "hotspot"],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    }
+  ]
+}

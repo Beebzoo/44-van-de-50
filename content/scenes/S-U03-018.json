@@ -1,0 +1,37 @@
+{
+  "id": "S-U03-018",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Jij komt van onderen. Vlak voor het kruispunt staat bord B2, einde voorrangsweg. Er staan geen andere borden. Van rechts nadert een grijze auto die rechtdoor gaat.",
+  "inspiratie": {
+    "boek": 107,
+    "beeld": "tekst over B2",
+    "slide": 113
+  }
+}

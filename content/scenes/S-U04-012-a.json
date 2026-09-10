@@ -1,0 +1,31 @@
+{
+  "id": "S-U04-012-a",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "kind",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "het kind"
+    }
+  ],
+  "alt": "Een woonstraat bij een speelterrein. Jij rijdt van onderen naar boven. Rechts op de stoep staat een kind, met zijn rug naar de weg, druk met zijn spel.",
+  "inspiratie": {
+    "boek": 128
+  }
+}

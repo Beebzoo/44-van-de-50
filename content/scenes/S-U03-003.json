@@ -1,0 +1,61 @@
+{
+  "id": "S-U03-003",
+  "vorm": "T",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "achter",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Je rijdt van onderen over een voorrangsweg met bord B1 en wilt bij een T-kruising linksaf de zijweg in. Van voren komt een grijze auto rechtdoor. Achter je rijdt een tweede auto die rechtdoor wil.",
+  "inspiratie": {
+    "boek": 104,
+    "beeld": "tekening linksboven en rechtsboven"
+  }
+}

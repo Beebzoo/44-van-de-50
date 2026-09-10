@@ -1,0 +1,45 @@
+{
+  "id": "S-U03-024",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "politie",
+      "soort": "hulpdienst",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de politieauto"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "label": "de grijze auto"
+    }
+  ],
+  "volgorde": [
+    "politie",
+    "grijs",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Van links nadert een politieauto met blauw zwaailicht en sirene, rechtdoor. Van rechts nadert een grijze auto, ook rechtdoor.",
+  "inspiratie": {
+    "slide": 122,
+    "beeld": "rechts, uitgebreid met een auto van rechts"
+  }
+}

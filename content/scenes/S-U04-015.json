@@ -1,0 +1,43 @@
+{
+  "id": "S-U04-015",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Een rechte straat met een zebrapad en bord L2. Jij rijdt van onderen naar boven. Vlak voor je staat een grijze auto stil voor het zebrapad. Je ziet zelf geen voetganger.",
+  "inspiratie": {
+    "boek": 91,
+    "beeld": "foto linksonder, zwarte auto stil voor zebrapad"
+  }
+}

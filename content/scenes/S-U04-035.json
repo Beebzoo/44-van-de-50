@@ -1,0 +1,46 @@
+{
+  "id": "S-U04-035",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "stoet",
+      "soort": "colonne",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de uitvaartstoet"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    }
+  ],
+  "volgorde": [
+    "stoet",
+    "ego",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Gelijkwaardig kruispunt. Jij komt van onderen en gaat rechtdoor. Van links steekt een uitvaartstoet over; de eerste auto met de vlaggen is al gepasseerd, de volgauto's komen nog. De tegemoetkomende grijze auto wil linksaf, de straat in waar de stoet heen rijdt.",
+  "inspiratie": {
+    "slide": 120
+  }
+}

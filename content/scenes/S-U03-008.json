@@ -1,0 +1,62 @@
+{
+  "id": "S-U03-008",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "rails",
+      "arm": "noord"
+    },
+    {
+      "soort": "rails",
+      "arm": "oost"
+    },
+    {
+      "soort": "zebrapad",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "signaal": "rechts",
+      "label": "jij"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "noord",
+      "richting": "links",
+      "label": "de tram"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "tram",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een gelijkwaardig kruispunt met tramrails. Jij komt van onderen en wilt rechtsaf de zijweg rechts in. Van voren komt een tram die linksaf diezelfde zijweg in wil. Over die zijweg ligt vlak na het kruispunt een zebrapad, waar een voetganger oversteekt.",
+  "inspiratie": {
+    "boek": 113,
+    "beeld": "3D-afbeelding rechts",
+    "slide": 130
+  }
+}

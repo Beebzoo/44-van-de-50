@@ -1,0 +1,30 @@
+{
+  "id": "S-U03-105",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "politie",
+      "soort": "hulpdienst",
+      "arm": "west",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Van links nadert een politieauto met blauw zwaailicht en sirene. Jij komt van rechts, maar het voorrangsvoertuig gaat voor.",
+  "inspiratie": {
+    "slide": 122,
+    "beeld": "rechts"
+  }
+}

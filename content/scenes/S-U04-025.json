@@ -1,0 +1,44 @@
+{
+  "id": "S-U04-025",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "fietser",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de fietser met de fiets aan de hand"
+    }
+  ],
+  "alt": "Een rechte straat met een zebrapad en bord L2. Jij nadert van onderen. Van rechts steekt iemand het zebrapad over die naast zijn fiets loopt en de fiets aan de hand meevoert.",
+  "inspiratie": {
+    "boek": 26,
+    "beeld": "definitie voetganger"
+  }
+}

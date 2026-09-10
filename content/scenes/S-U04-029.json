@@ -1,0 +1,40 @@
+{
+  "id": "S-U04-029",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij",
+      "afstand": 2
+    },
+    {
+      "id": "kind",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "het kind"
+    },
+    {
+      "id": "kind2",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "links",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "het tweede kind"
+    }
+  ],
+  "alt": "Een straat bij een school, met aan beide kanten geparkeerde auto's. Jij rijdt van onderen naar boven. Rechts steekt een kind tussen de geparkeerde auto's door over; links staat een tweede kind op de stoep.",
+  "inspiratie": {
+    "boek": 128
+  }
+}

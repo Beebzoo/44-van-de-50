@@ -1,7 +1,12 @@
 {
-  "versie": "9d34650716",
+  "versie": "8c41cba9a6",
   "gegenereerd": "2026-09-10",
   "examenDatum": "2026-10-28",
+  "scenes": [
+    "S-VB-001",
+    "S-VB-002",
+    "S-VB-003"
+  ],
   "units": [
     {
       "id": "U00",

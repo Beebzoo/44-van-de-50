@@ -1,0 +1,33 @@
+{
+  "id": "S-U04-014",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "fietsstrook",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "label": "jij",
+      "signaal": "rechts",
+      "afstand": 2
+    }
+  ],
+  "alt": "Jij nadert een kruispunt van onderen en wilt rechtsaf. Rechts van je rijstrook ligt een rode fietsstrook met een doorgetrokken witte streep.",
+  "inspiratie": {
+    "boek": 136,
+    "beeld": "foto links, fietsstrook met doorgetrokken streep"
+  }
+}

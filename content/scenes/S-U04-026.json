@@ -1,0 +1,31 @@
+{
+  "id": "S-U04-026",
+  "vorm": "plus",
+  "voorrang": "verkeerslichten",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    }
+  ],
+  "alt": "Kruispunt met verkeerslichten. Jij staat van onderen in de voorsorteerstrook met een pijl rechtdoor, met links en rechts van je een doorgetrokken streep. Je merkt nu pas dat je linksaf moet.",
+  "inspiratie": {
+    "slide": 162,
+    "beeld": "afbeelding rechtsonder, doorgetrokken strepen naast de strook"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "S-U03-015",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "signaal": "rechts",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de voetganger"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de fietser"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "ego",
+    "grijs",
+    "fietser"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en wilt rechtsaf. Van voren komt over dezelfde voorrangsweg een grijze auto die linksaf wil, dezelfde zijweg in. Op de stoep rechts van jou loopt een voetganger rechtdoor, die de zijweg oversteekt. Van links komt een fietser over de zijweg, waar bord B6 en haaientanden staan; hij gaat rechtdoor.",
+  "inspiratie": {
+    "slide": 131
+  }
+}

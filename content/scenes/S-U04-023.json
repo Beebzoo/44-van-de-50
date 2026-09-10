@@ -1,0 +1,77 @@
+{
+  "id": "S-U04-023",
+  "vorm": "plus",
+  "voorrang": "afbuigend",
+  "hoofdweg": [
+    "zuid",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "noord"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "brom",
+      "soort": "bromfiets",
+      "arm": "oost",
+      "richting": "links",
+      "label": "de bromfietser"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de grijze auto"
+    }
+  ],
+  "volgorde": [
+    "brom",
+    "ego",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een afbuigende voorrangsweg: de voorrangsweg loopt van onderen naar rechts. Jij komt van onderen en gaat rechtdoor, dus je verlaat de voorrangsweg. Van rechts komt een bromfietser die de voorrangsweg volgt en naar onderen afbuigt. Uit de zijweg links komt een grijze auto die rechtdoor wil, met haaientanden voor zich.",
+  "inspiratie": {
+    "boek": 112,
+    "beeld": "afbeelding rechtsboven, snorfietser op de afbuigende voorrangsweg"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "S-U03-012",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "zijde": "links"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 3
+    }
+  ],
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Direct achter het kruispunt ligt over jouw weg een zebrapad, waar een voetganger oversteekt. Van links nadert in de verte een fietser die rechtdoor gaat.",
+  "inspiratie": {
+    "boek": 105,
+    "beeld": "kijk ook naar de overkant"
+  }
+}

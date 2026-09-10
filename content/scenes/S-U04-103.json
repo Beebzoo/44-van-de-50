@@ -1,0 +1,33 @@
+{
+  "id": "S-U04-103",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "label": "jij",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Kruispunt zonder pijlen op het wegdek en zonder middenberm. Jij komt van onderen en slaat linksaf. De tegemoetkomende grijze auto slaat ook linksaf. Jullie gaan voor elkaar langs.",
+  "inspiratie": {
+    "slide": 164
+  }
+}

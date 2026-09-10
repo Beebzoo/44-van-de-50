@@ -1,0 +1,44 @@
+{
+  "id": "S-U04-101",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "fietspad": [
+    "zuid",
+    "noord"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "label": "jij",
+      "signaal": "rechts"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "zijde": "links",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de fietser"
+    }
+  ],
+  "volgorde": [
+    "fietser",
+    "ego"
+  ],
+  "toonVolgorde": true,
+  "alt": "Gelijkwaardig kruispunt met een fietspad langs jouw weg. Jij komt van onderen en wilt rechtsaf. Rechts naast je gaat een fietser op het fietspad rechtdoor en steekt de zijstraat over die jij in wilt rijden. De fietser gaat eerst, jij daarna.",
+  "inspiratie": {
+    "boek": 111,
+    "beeld": "foto midden, fietser op het naastgelegen fietspad"
+  }
+}

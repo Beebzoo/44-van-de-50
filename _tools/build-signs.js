@@ -55,6 +55,16 @@ function normaliseSvg(raw, code) {
   s = s.replace(open[0], tag);
   /* colours: lowercase every hex, then map the strays onto the palette */
   s = s.replace(/#[0-9A-Fa-f]{3,6}\b/g, m => { const l = m.toLowerCase(); return COLOURS[l] || l; });
+  /* repair style attributes: Commons files contain typos like "stroke;none"
+     which crash the css parser inside svgo. A declaration without a colon
+     is not a declaration, so drop it. */
+  s = s.replace(/style="([^"]*)"/g, (m, decls) => {
+    const kept = decls.split(";").map(d => d.trim()).filter(d => d.includes(":"));
+    return kept.length ? 'style="' + kept.join(";") + '"' : "";
+  });
+  /* ids inside a sign are never referenced (checked across the whole set)
+     and would collide once every sign shares the sprite document */
+  s = s.replace(/\s+id="[^"]*"/g, (m, off) => (off < s.indexOf(">") ? m : ""));
   return s.replace(/\n\s*\n/g, "\n").trim() + "\n";
 }
 
@@ -94,7 +104,16 @@ function importAll() {
   ],
 };
 `);
-  execFileSync("npx", ["--yes", "svgo@3.3.2", "--config", cfg, "-f", BORDEN, "-o", BORDEN, "--quiet"], { stdio: "inherit", cwd: REPO });
+  /* one file at a time: a single malformed source must not stop the build,
+     it just ships unminified */
+  let mislukt = [];
+  for (const f of fs.readdirSync(BORDEN).filter(x => x.endsWith(".svg"))) {
+    const full = path.join(BORDEN, f);
+    try {
+      execFileSync("npx", ["--yes", "svgo@3.3.2", "--config", cfg, "-i", full, "-o", full, "--quiet"], { stdio: ["ignore", "ignore", "pipe"], cwd: REPO });
+    } catch (e) { mislukt.push(f); }
+  }
+  if (mislukt.length) console.log("  svgo overgeslagen voor: " + mislukt.join(", "));
   const bytes = fs.readdirSync(BORDEN).filter(f => f.endsWith(".svg")).reduce((a, f) => a + fs.statSync(path.join(BORDEN, f)).size, 0);
   console.log("svgo klaar, " + (bytes / 1024).toFixed(0) + " KB in " + Object.keys(sources).length + " bestanden");
 

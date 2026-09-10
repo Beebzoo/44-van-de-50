@@ -1,0 +1,86 @@
+{
+  "id": "S-U03-022",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "noord"
+    },
+    {
+      "code": "B1",
+      "arm": "west"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "signaal": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "links",
+      "signaal": "links",
+      "afstand": 1
+    },
+    {
+      "id": "rij1",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 1
+    },
+    {
+      "id": "rij2",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 2
+    },
+    {
+      "id": "rij3",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "afstand": 3
+    }
+  ],
+  "alt": "Jij komt van onderen bij bord B6 met haaientanden en wilt rechtsaf de voorrangsweg op. Van links staat een grijze auto op de voorrangsweg te wachten: hij wil linksaf, maar van rechts komt een rij tegenliggers waar hij voorrang aan moet verlenen. Die tegenliggers rijden op de andere weghelft en kruisen jouw pad niet.",
+  "inspiratie": {
+    "boek": 103,
+    "beeld": "tekst over gelegenheidsvoorrang"
+  }
+}

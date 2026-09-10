@@ -219,7 +219,7 @@ function actorPlace(s, a) {
     return [CX + R * Math.cos(rad), CY + R * Math.sin(rad), ang - 90];
   }
   const dist = a.afstand || 1;
-  const gap = edge + 8 + h / 2 + (dist - 1) * (h + 22);
+  const gap = edge + 13 + h / 2 + (dist - 1) * (h + 22);
   let side = LANE / 2;
   if (a.soort === "voetganger" || (a.zijde && (a.soort === "fiets" || a.soort === "bromfiets"))) {
     const fp = (s.fietspad || []).includes(a.arm);
@@ -300,7 +300,11 @@ function drawActors(s) {
     const [x, y, heading] = actorPlace(s, a);
     paths += pathArrow(s, a, x, y, heading);
     bodies += `<g transform="translate(${x.toFixed(1)},${y.toFixed(1)}) rotate(${heading})">${actorSymbol(a)}</g>`;
-    if (a.id === "ego") bodies += `<text x="${(x + 14).toFixed(1)}" y="${(y + 4).toFixed(1)}" font-family="Barlow Semi Condensed, Arial Narrow, sans-serif" font-weight="600" font-size="11" fill="${BLAUW}">jij</text>`;
+    if (a.id === "ego") {
+      const [w] = SIZE[a.soort] || SIZE.auto;
+      const lx = x + w / 2 + 6, anchor = lx > W - 30 ? "end" : "start";
+      bodies += `<text x="${(anchor === "end" ? x - w / 2 - 6 : lx).toFixed(1)}" y="${(y + 4).toFixed(1)}" text-anchor="${anchor}" font-family="Barlow Semi Condensed, Arial Narrow, sans-serif" font-weight="700" font-size="12" fill="${BLAUW}">jij</text>`;
+    }
     const n = order.indexOf(a.id);
     if (n >= 0) badges += `<g transform="translate(${(x - 16).toFixed(1)},${(y - 14).toFixed(1)})"><circle r="8" fill="${BLAUW}"/><text y="3.5" text-anchor="middle" font-family="Barlow Semi Condensed, Arial Narrow, sans-serif" font-weight="700" font-size="11" fill="#fff">${n + 1}</text></g>`;
   }
