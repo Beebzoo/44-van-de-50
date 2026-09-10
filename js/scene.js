@@ -262,7 +262,7 @@ function pathArrow(s, a, x, y, heading) {
   } else if (a.arm === "uitrit") {
     pts = [[x - 14, y], [CX + ROAD / 2 - 6, y], a.richting === "rechts" ? pt("noord", 30, -LANE / 2) : pt("zuid", 30, LANE / 2)];
     if (a.richting === "rechts") pts = [[x - 14, y], [CX + LANE / 2, y], pt("noord", 40, -LANE / 2)];
-    else pts = [[x - 14, y], [CX - LANE / 2, y], pt("zuid", 40, LANE / 2)];
+    else pts = [[x - 14, y], [CX - LANE / 2, y], pt("zuid", 40, -LANE / 2)];
   } else {
     const arm = a.arm;
     const lane = LANE / 2;

@@ -23,12 +23,12 @@
       "id": "voetganger",
       "soort": "voetganger",
       "arm": "zuid",
-      "zijde": "rechts",
+      "zijde": "links",
       "richting": "rechtdoor",
-      "afstand": 1
+      "afstand": 2
     }
   ],
-  "alt": "Je rijdt een erf binnen; rechts staat bord G5. Verderop loopt een voetganger over de rijbaan van de ene kant naar de andere.",
+  "alt": "Je rijdt een erf binnen; rechts staat bord G5. Vlak voor je loopt een voetganger over de rijbaan van de ene kant naar de andere.",
   "inspiratie": {
     "boek": 89,
     "slide": 89
