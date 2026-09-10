@@ -222,7 +222,7 @@ const UNIT_MAP = {
   kg: "kg", kilo: "kg", ton: "ton", jaar: "jaar", seconde: "s", seconden: "s", sec: "s", s: "s", promille: "promille",
   "µg/l": "µg/l", "ug/l": "µg/l", "%": "%", procent: "%", uur: "uur", minuten: "min", min: "min", passagiers: "passagiers",
 };
-const NUM_RE = /(\d{1,3}(?:\.\d{3})+|\d+(?:,\d+)?)\s?(km\/u|km\/h|m\/s|meter|meters|cm|mm|km|kg|kilo|ton|jaar|seconden|seconde|sec|promille|µg\/l|ug\/l|%|procent|uur|minuten|passagiers)(?![a-z])/gi;
+const NUM_RE = /(\d{1,3}(?:\.\d{3})+|\d+(?:,\d+)?)\s?(km\/u|km\/h|m\/s|meter|meters|cm|mm|km|kg|kilo|ton|jaar|seconden|seconde|sec|promille|µg\/l|ug\/l|%|procent|uur|minuten|passagiers|m)(?![a-z\/])/gi;
 function numbersIn(text) {
   const out = [];
   let m;

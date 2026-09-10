@@ -1,0 +1,1734 @@
+{
+  "unit": "U02",
+  "vragen": [
+    {
+      "id": "U02-Q001",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt een straat in. Aan de linkerkant staat een bord met een parkeerverbod, aan de rechterkant staat geen bord. Je wilt rechts parkeren. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een bord met een verbod tot stilstaan of parkeren geldt alleen voor de kant van de rijbaan waar het staat, dus rechts mag je parkeren.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het lijkt logisch dat een verbod voor de hele straat geldt, maar juist parkeer- en stilstaanverboden zijn de uitzondering: ze gelden alleen aan de kant waar het bord staat.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Meestal gelden verkeersborden voor de hele breedte van de weg. Een uitzondering zijn de borden met een verbod tot stilstaan of parkeren; die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst.",
+        "waarom": "Parkeren doe je aan een kant van de weg, dus een verbod kan per kant verschillen zonder dat het verwarrend wordt.",
+        "valkuil": "Staat er 'zone' boven het bord, dan geldt het verbod wel aan beide kanten van de weg.",
+        "onthoud": "Parkeerverbod: alleen de kant waar het bord staat."
+      },
+      "bronnen": [
+        {
+          "boek": 46,
+          "sectie": "3.1",
+          "anker": "die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst"
+        },
+        {
+          "slide": 45,
+          "anker": "gelden alleen voor de kant van de weg waar ze staan"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "werkingsgebied",
+        "parkeerverbod",
+        "verkeersborden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een uitzondering zijn de borden met een verbod tot stilstaan of parkeren; die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst.",
+        "bron": "boek p. 46",
+        "gewijzigd": "moeilijkheid 1 naar 2: de regel wordt op een situatie toegepast, en 'nee' is het intuïtieve antwoord uit de hoofdregel"
+      }
+    },
+    {
+      "id": "U02-Q002",
+      "unit": "U02",
+      "pagina": "U02-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een personenauto en wilt een straat inrijden. Bij de ingang staat [C12] met daaronder het onderbord 'uitgezonderd lijnbussen'. Mag je de straat inrijden?",
+      "media": {
+        "bord": "C12"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het onderbord lijkt een uitzondering te maken, maar die uitzondering geldt alleen voor lijnbussen; voor jouw personenauto blijft de geslotenverklaring gewoon gelden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Het hoofdbord sluit de weg voor alle motorvoertuigen en het onderbord zondert alleen lijnbussen uit, dus met een auto rijd je je hier vast.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Met onderborden kan worden aangegeven voor wie het verkeersbord geldt en voor wie het verkeersbord niet geldt.",
+        "waarom": "Een uitzondering op een onderbord verruimt het bord alleen voor de groep die erop staat; alle anderen houden het verbod.",
+        "valkuil": "Lees 'uitgezonderd' altijd samen met de groep erachter; het woord alleen zegt nog niets over jou.",
+        "onthoud": "Uitgezonderd lijnbussen: alleen lijnbussen mogen erin."
+      },
+      "bronnen": [
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "voor wie het verkeersbord niét geldt, waar het verkeersbord geldt"
+        },
+        {
+          "slide": 47,
+          "anker": "Alleen voor lijnbussen; auto's rijden zich vast"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "onderborden",
+        "geslotenverklaring",
+        "uitgezonderd"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alleen voor lijnbussen; auto's rijden zich vast.",
+        "bron": "slide 47",
+        "opmerking": "Slide 47 toont precies dit bord (auto en motor in rode cirkel) met onderbord 'uitgezonderd lijnbussen'; p. 47 noemt 'voor wie het verkeersbord niét geldt' als functie van een onderbord."
+      }
+    },
+    {
+      "id": "U02-Q003",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In een dorp staat een auto verkeerd geparkeerd op jouw rijstrook, zodat je er niet langs kunt. De middenstreep is doorgetrokken. Er komt geen tegenligger aan en je hebt goed zicht. Mag je over de doorgetrokken streep om de auto voorbij te gaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een verkeerd geparkeerd voertuig dat de doorgang verspert is volgens het boek een geval waarin je de doorgetrokken streep toch overschrijdt, mits het veilig kan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Een doorgetrokken streep is streng, maar wachten tot de eigenaar terugkomt houdt de doorstroming tegen; het boek noemt dit juist als uitzondering, zolang het veilig kan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Soms staan voertuigen verkeerd geparkeerd en versperren ze de doorgang. In zo'n geval is de beste oplossing de doorgetrokken streep toch te overschrijden. Natuurlijk alleen als het veilig kan.",
+        "waarom": "De streep beschermt tegen inhalen zonder zicht, niet tegen een obstakel dat de weg blokkeert; de veiligheid beoordeel je zelf.",
+        "valkuil": "Het woord 'veilig' is de voorwaarde: met een tegenligger in aantocht wacht je gewoon."
+      },
+      "bronnen": [
+        {
+          "boek": 51,
+          "sectie": "3.2",
+          "anker": "de beste oplossing de doorgetrokken streep toch te overschrijden"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "doorgetrokken-streep",
+        "wegdek",
+        "doorstroming"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "In zo'n geval is de beste oplossing de doorgetrokken streep toch te overschrijden. Natuurlijk alleen als het veilig kan.",
+        "bron": "boek p. 51"
+      }
+    },
+    {
+      "id": "U02-Q004",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een kruispunt met verkeerslichten. Vlak voordat je bij de stopstreep bent, springt het licht op geel. Achter je rijdt een auto dicht op je. Hard remmen zou nu niet meer veilig zijn. Mag je doorrijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Bij geel moet je in principe stoppen, maar als je het licht zo dicht genaderd bent dat stoppen niet meer veilig en verantwoord kan, mag je doorrijden.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Geel betekent stoppen, dat klopt, maar een noodstop met een auto vlak achter je is niet veilig en verantwoord; dan mag je juist doorrijden.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Ook bij geel licht moet je stoppen, maar als je het gele licht zo dicht genaderd bent dat stoppen niet meer veilig en verantwoord kan, mag je doorrijden.",
+        "waarom": "Geel waarschuwt dat rood eraan komt; een noodstop vlak voor de streep levert een kop-staartbotsing op in plaats van veiligheid.",
+        "valkuil": "Geel is geen vrijbrief om gas te geven; alleen als stoppen echt niet meer veilig kan, rijd je door.",
+        "onthoud": "Geel: stoppen als het nog veilig kan."
+      },
+      "bronnen": [
+        {
+          "boek": 54,
+          "sectie": "3.3",
+          "anker": "dat stoppen niet meer veilig en verantwoord kan, mag je doorrijden"
+        },
+        {
+          "slide": 54,
+          "anker": "geel licht = stoppen indien dit nog veilig lukt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "geel-licht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als je het gele licht zo dicht genaderd bent dat stoppen niet meer veilig en verantwoord kan, mag je doorrijden",
+        "bron": "boek p. 54",
+        "gewijzigd": "fouttype van 'nee' van verkeerd_toegepast naar niet_geweten: wie hier 'nee' kiest kent de uitzondering op 'geel is stoppen' niet, de stam zegt al dat stoppen niet veilig is"
+      }
+    },
+    {
+      "id": "U02-Q005",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een autosnelweg. Langs de weg staat een vast bord met 100. Boven de weg toont een matrixbord 70, zonder rode rand eromheen. Hoe hard mag je hier maximaal rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "70",
+          "feedback": "Goed. Als een gewoon bord en een matrixbord allebei een maximumsnelheid aangeven, geldt de laagste, en de snelheid op een matrixbord is altijd een maximum, ook zonder rode rand.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "100",
+          "feedback": "Fout. Het vaste bord lijkt de officiële snelheid, maar als beide een maximumsnelheid aangeven, geldt het bord met de laagste snelheid, en dat is hier het matrixbord.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "100, want zonder rode rand is 70 alleen een advies",
+          "feedback": "Fout. Precies deze gedachte is de valkuil: de snelheid op een matrixbord is altijd een maximumsnelheid, ook als er geen rode rand omheen staat.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als op een weg zowel door een gewoon verkeersbord als door een matrixbord een maximumsnelheid wordt aangegeven, dan geldt het bord met de laagste snelheid. De snelheid op matrixborden is altijd een maximumsnelheid, ook zonder rode rand.",
+        "waarom": "Het matrixbord reageert op de situatie van dit moment, zoals een file of werkzaamheden verderop, en die kent het vaste bord niet.",
+        "valkuil": "Een matrixbord zonder rode rand ziet eruit als informatie, maar het is een echt maximum.",
+        "onthoud": "Laagste snelheid wint; een matrixbord is altijd een maximum."
+      },
+      "bronnen": [
+        {
+          "boek": 50,
+          "sectie": "3.1",
+          "anker": "dan geldt het bord met de laagste snelheid"
+        },
+        {
+          "slide": 44,
+          "anker": "De snelheid die getoond wordt op matrixborden is de maximumsnelheid"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "matrixbord",
+        "maximumsnelheid",
+        "verkeersborden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "dan geldt het bord met de laagste snelheid. Vaak is dat het matrixbord. Let op: de snelheid die op matrixborden wordt getoond is altijd een maximumsnelheid",
+        "bron": "boek p. 50",
+        "gewijzigd": "moeilijkheid 2 naar 3: combineert 'laagste snelheid wint' met 'matrixbord zonder rode rand is toch een maximum', en optie c is een sterke afleider"
+      }
+    },
+    {
+      "id": "U02-Q006",
+      "unit": "U02",
+      "pagina": "U02-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op een autosnelweg staat een bord met de maximumsnelheid 90. Daaronder hangt het onderbord 'bij nat wegdek'. Het is al dagen droog en het wegdek is droog. Wat betekent dit bord nu voor jou?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het bord geldt nu niet; het onderbord zegt wanneer het bord geldt, en dat is alleen bij een nat wegdek.",
+          "feedback": "Goed. Een onderbord kan aangeven wanneer het verkeersbord geldt; op een droog wegdek geldt deze maximumsnelheid dus niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het bord geldt altijd; het onderbord waarschuwt alleen dat het bij regen glad kan zijn.",
+          "feedback": "Fout. Het onderbord lijkt een waarschuwing, maar een onderbord beperkt de werking van het hoofdbord: het zegt wanneer het geldt, hier alleen bij een nat wegdek.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Het bord geldt nu als adviessnelheid in plaats van als maximumsnelheid.",
+          "feedback": "Fout. Een onderbord verandert een maximum niet in een advies; het bepaalt alleen wanneer, voor wie of waar het hoofdbord geldt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Met onderborden kan worden aangegeven wanneer het verkeersbord geldt.",
+        "waarom": "Op een droog wegdek is de lagere snelheid niet nodig, dus de wegbeheerder koppelt het maximum aan de omstandigheid waarin het gevaar bestaat.",
+        "valkuil": "Bij regen geldt het bord wel; kijk dus naar het wegdek, niet naar de lucht."
+      },
+      "bronnen": [
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "wanneer het verkeersbord geldt, voor wie het verkeersbord geldt"
+        },
+        {
+          "slide": 46,
+          "anker": "wit onderbord met de tekst bij nat wegdek"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "onderborden",
+        "nat-wegdek",
+        "maximumsnelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Met onderborden kan worden aangegeven: wanneer het verkeersbord geldt",
+        "bron": "boek p. 47",
+        "opmerking": "Slide 46 toont A1 90 met het onderbord 'bij nat wegdek'. Dat het bord op een droog wegdek niet geldt is de directe toepassing van 'wanneer het verkeersbord geldt'; geen bron zegt het letterlijk."
+      }
+    },
+    {
+      "id": "U02-Q007",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je staat voorgesorteerd om linksaf te slaan. Het verkeerslicht voor jou springt op groen: een gewoon rond groen licht zonder pijl. Van de andere kant nadert een tegenligger die rechtdoor wil. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je laat de tegenligger voorgaan en slaat daarna linksaf.",
+          "feedback": "Goed. Bij groen zonder pijl heeft de tegenligger meestal ook groen; bij linksaf slaan moet je rechtdoorgaand tegemoetkomend verkeer voor laten gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je slaat direct linksaf, want jouw licht is groen.",
+          "feedback": "Fout. Groen voelt als vrij baan, maar een rond groen licht zonder pijl zegt niets over de tegenligger, die meestal ook groen heeft en rechtdoor voorgaat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je wacht tot het licht op groen met een pijl springt.",
+          "feedback": "Fout. Je hoeft niet op een pijl te wachten; je mag afslaan zodra je de tegenligger hebt laten passeren en het verder vrij is.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je stopt midden op het kruispunt en geeft de tegenligger een teken dat hij mag doorrijden.",
+          "feedback": "Fout. Tekens geven aan andere bestuurders schept onduidelijkheid en je blokkeert het kruispunt; laat de tegenligger gewoon voorgaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als je links afslaat bij een groen verkeerslicht zonder pijl, dan kun je tegemoetkomend verkeer verwachten. Je moet dat voor laten gaan.",
+        "waarom": "Zonder pijl regelt het licht alleen jouw richting en niet die van de tegenligger, die tegelijk groen kan hebben.",
+        "valkuil": "Alleen een groene pijl garandeert dat het conflicterende verkeer rood heeft.",
+        "onthoud": "Groen zonder pijl: tegenligger gaat voor."
+      },
+      "bronnen": [
+        {
+          "boek": 55,
+          "sectie": "3.3",
+          "anker": "dan kun je tegemoetkomend verkeer verwachten. Je moet dat voor laten gaan"
+        },
+        {
+          "slide": 55,
+          "anker": "heeft kruisend verkeer meestal ook groen licht"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "groen-licht",
+        "linksaf",
+        "voor-laten-gaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je links afslaat bij een groen verkeerslicht zonder pijl, dan kun je tegemoetkomend verkeer verwachten. Je moet dat voor laten gaan.",
+        "bron": "boek p. 55"
+      }
+    },
+    {
+      "id": "U02-Q008",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een voorrangsweg en nadert een kruispunt met verkeerslichten. Het licht voor jou is rood. Midden op het kruispunt staat een politieagent die je met een armgebaar duidelijk maakt dat je moet doorrijden. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je rijdt door, want de aanwijzing van de agent gaat boven het rode licht.",
+          "feedback": "Goed. Een aanwijzing van een bevoegde agent staat bovenaan in de rangorde en gaat boven het rode verkeerslicht.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je blijft staan tot het licht groen is, want een rood licht gaat boven alles.",
+          "feedback": "Fout. Rood licht gaat boven borden en regels, maar niet boven een aanwijzing van een bevoegde agent; die staat bovenaan in de rangorde.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je blijft staan; een aanwijzing van een agent geldt alleen als de verkeerslichten buiten werking zijn.",
+          "feedback": "Fout. De rangorde kent die voorwaarde niet: een aanwijzing van een bevoegde agent gaat ook boven een verkeerslicht dat gewoon werkt en rood toont.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je stopt en wacht tot de agent naar je toe komt.",
+          "feedback": "Fout. Een duidelijke aanwijzing volg je direct op; stilstaan terwijl de agent je laat doorrijden verstoort juist wat hij regelt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als een politieagent je de aanwijzing geeft om door rood te rijden, dan moet je die aanwijzing opvolgen. Aanwijzingen gaan voor verkeerstekens en verkeersregels.",
+        "waarom": "De agent staat ter plekke en regelt iets wat het licht niet kan zien, bijvoorbeeld een ongeval of een afzetting verderop.",
+        "valkuil": "Het rode licht wint van je voorrangsweg, maar de agent wint van het rode licht.",
+        "onthoud": "Aanwijzing boven licht, licht boven bord, bord boven regel."
+      },
+      "bronnen": [
+        {
+          "boek": 57,
+          "sectie": "3.4",
+          "anker": "dan moet je die aanwijzing opvolgen"
+        },
+        {
+          "slide": 57,
+          "anker": "Aanwijzingen hebben de hoogste prioriteit in het verkeer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rangorde",
+        "aanwijzingen",
+        "politie",
+        "verkeerslichten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "een politieagent je de aanwijzing geeft om door rood te rijden, dan moet je die aanwijzing opvolgen. Aanwijzingen gaan weer voor verkeerstekens en verkeersregels.",
+        "bron": "boek p. 57",
+        "gewijzigd": "optie c vervangen: de oude c ('je rijdt door omdat je op een voorrangsweg rijdt') had dezelfde handeling als het goede antwoord en was dus onder een lezing ook goed; nu een duidelijk foute handeling met de verwarring met 'lichten buiten werking'"
+      }
+    },
+    {
+      "id": "U02-Q009",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Een doorgetrokken streep mag je meestal niet overschrijden. In welke situaties mag het volgens het boek en de cursus wel? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als de doorgetrokken streep de kant van de rijbaan markeert, bijvoorbeeld om bij pech te stoppen.",
+          "feedback": "Goed. Een doorgetrokken streep die de rijbaankant markeert mag je overschrijden, bijvoorbeeld om te stoppen bij pech.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als de streep tussen jouw rijstrook en een geopende spitsstrook ligt.",
+          "feedback": "Goed. De streep tussen een normale rijstrook en een spitsstrook mag je overschrijden, maar alleen als de spitsstrook open is.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je wilt inhalen en er geen tegenligger aankomt.",
+          "feedback": "Fout. Vrij zicht voelt als reden genoeg, maar een doorgetrokken middenstreep betekent juist dat je hier niet mag inhalen, ook zonder tegenligger.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Als er aan jouw kant naast de doorgetrokken streep een onderbroken streep ligt.",
+          "feedback": "Goed. Liggen beide strepen naast elkaar, dan mag je ze overschrijden als de onderbroken streep aan jouw kant ligt.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Als je de spitsstrook wilt bereiken terwijl die gesloten is.",
+          "feedback": "Fout. De uitzondering voor de spitsstrook geldt alleen als de spitsstrook open is; bij een gesloten spitsstrook blijft de streep dicht.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet over een doorgetrokken streep heen, behalve: een doorgetrokken streep die de rijbaankant markeert mag je overschrijden, en een doorgetrokken streep tussen een normale rijstrook en een spitsstrook mag je overschrijden als de spitsstrook open is.",
+        "waarom": "De uitzonderingen zijn allemaal situaties waarin je de rijbaan verlaat of een strook opgaat die daarvoor bedoeld is, niet situaties waarin je tegen tegenliggers in rijdt.",
+        "valkuil": "De spitsstrook telt alleen als hij open is."
+      },
+      "bronnen": [
+        {
+          "boek": 51,
+          "sectie": "3.2",
+          "anker": "Je mag niet over een doorgetrokken streep heen"
+        },
+        {
+          "slide": 50,
+          "anker": "als je een vluchthaven, vluchtstrook of spitsstrook wilt bereiken"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "doorgetrokken-streep",
+        "spitsstrook",
+        "wegdek"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "een doorgetrokken streep die de rijbaankant markeert, mag je overschrijden, bijvoorbeeld om te stoppen bij pech",
+        "bron": "boek p. 51",
+        "opmerking": "b: p. 51 'Dit geldt natuurlijk alleen als de spitsstrook open is'; d: p. 52 'alleen overschrijden als de onderbroken streep aan jouw kant ligt'; c fout via p. 51 onderschrift 'betekent dat je niet mag inhalen'."
+      }
+    },
+    {
+      "id": "U02-Q010",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Verschillende mensen kunnen je in het verkeer een aanwijzing geven. Van wie moet je de aanwijzingen opvolgen? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een politieagent.",
+          "feedback": "Goed. Aanwijzingen van bevoegde en als zodanig herkenbare ambtenaren, zoals politieagenten, moet je opvolgen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een bevoegde en herkenbare verkeersregelaar bij wegwerkzaamheden.",
+          "feedback": "Goed. Bevoegde en herkenbare verkeersregelaars, vaak bij evenementen en wegwerkzaamheden, mogen aanwijzingen geven.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een verkeersbrigadier die kinderen helpt oversteken.",
+          "feedback": "Goed. Verkeersbrigadiers hebben de bevoegdheid om bestuurders te laten stoppen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een begeleider van een tram die een stopteken geeft.",
+          "feedback": "Goed. Je moet stoppen als een begeleider van een railvoertuig een stopteken geeft, ook met een rode vlag of een rode lamp.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Een bestuurder van een bergingsvoertuig die je wegwuift.",
+          "feedback": "Fout. Een berger lijkt gezag te hebben op de plek van een ongeval, maar hij hoort niet bij de bevoegde personen; zijn gebaar is hooguit een tip, geen aanwijzing.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "f",
+          "tekst": "Een omstander die na een ongeval het verkeer wil regelen.",
+          "feedback": "Fout. Een behulpzame omstander is niet bevoegd en niet als zodanig herkenbaar; zijn gebaren zijn geen aanwijzing die je moet opvolgen. Blijf zelf opletten.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Aanwijzingen van bevoegde en als zodanig herkenbare ambtenaren moet je opvolgen. Aanwijzingen kunnen ook worden gegeven door bevoegde en herkenbare verkeersregelaars, verkeersbrigadiers en een begeleider van een railvoertuig.",
+        "waarom": "Alleen wie bevoegd en herkenbaar is, kan verantwoordelijk worden gehouden voor wat hij het verkeer laat doen.",
+        "valkuil": "Bevoegd en herkenbaar zijn de twee voorwaarden; een hesje alleen maakt iemand nog geen verkeersregelaar."
+      },
+      "bronnen": [
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Aanwijzingen kunnen ook worden gegeven door bevoegde en herkenbare verkeersregelaars"
+        },
+        {
+          "boek": 59,
+          "sectie": "3.4",
+          "anker": "hebben de bevoegdheid om bestuurders te laten stoppen"
+        },
+        {
+          "slide": 56,
+          "anker": "begeleiders van railvoertuigen (bij onbeveiligde spoorovergangen) moet je opvolgen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "aanwijzingen",
+        "verkeersregelaar",
+        "verkeersbrigadier",
+        "politie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aanwijzingen van 'bevoegde en als zodanig herkenbare ambtenaren' moet je opvolgen.",
+        "bron": "boek p. 58",
+        "opmerking": "b p. 58 verkeersregelaars; c en d p. 59 verkeersbrigadiers en begeleider railvoertuig; slide 56 noemt dezelfde vier groepen en niemand anders."
+      }
+    },
+    {
+      "id": "U02-Q011",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "hotspot",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een personenauto en wilt een smalle straat inrijden. Bij de ingang staat een bord waardoor jij met je personenauto wel naar binnen mag, maar een vrachtauto niet. Tik op dat bord.",
+      "media": {
+        "borden": [
+          "C7",
+          "C6",
+          "C12",
+          "C1",
+          "C11",
+          "C7a"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Goed. [C7] sluit de weg alleen voor vrachtauto's; met een personenauto mag je er gewoon in.",
+          "fouttype": null
+        },
+        {
+          "id": "C6",
+          "tekst": "C6",
+          "feedback": "Fout. [C6] sluit de weg voor motorvoertuigen op meer dan twee wielen, dus juist ook voor jouw personenauto.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C12",
+          "tekst": "C12",
+          "feedback": "Fout. [C12] sluit de weg voor alle motorvoertuigen, dus voor de vrachtauto en ook voor jou.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C1",
+          "tekst": "C1",
+          "feedback": "Fout. [C1] sluit de weg in beide richtingen voor alle voertuigen, dus ook voor jou.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C11",
+          "tekst": "C11",
+          "feedback": "Fout. [C11] sluit de weg alleen voor motoren; een vrachtauto en een personenauto mogen er allebei in.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "C7a",
+          "tekst": "C7a",
+          "feedback": "Fout. [C7a] sluit de weg voor autobussen; een vrachtauto mag hier wel in, en dat is precies wat de vraag uitsluit.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "C7"
+      ],
+      "uitleg": {
+        "regel": "Deze borden bepalen wie een weg niet in mag. Op de borden kun je aan de symbolen zien voor wie ze bedoeld zijn.",
+        "waarom": "Het symbool in de rode cirkel benoemt precies de groep die buiten moet blijven; wie er niet op staat, mag erin.",
+        "valkuil": "Een auto in de cirkel ([C6]) sluit ook jouw personenauto uit; kijk dus goed welk voertuig er getekend is."
+      },
+      "bronnen": [
+        {
+          "boek": 48,
+          "sectie": "3.1",
+          "anker": "Op de borden kun je aan de symbolen zien voor wie ze bedoeld zijn"
+        },
+        {
+          "boek": 239,
+          "sectie": "14",
+          "anker": "Rode cirkel met een zwarte vrachtauto Gesloten voor vrachtauto's"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "geslotenverklaring",
+        "borden-c",
+        "hotspot"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "C7: Rode cirkel met een zwarte vrachtauto. Gesloten voor vrachtauto's.",
+        "bron": "boek p. 239",
+        "gewijzigd": "bron naar hoofdstuk 14 (p. 239) toegevoegd zodat de betekenis van C7 traceerbaar is; alle zes rasterbetekenissen kloppen met p. 239, alleen C7 laat een personenauto wel en een vrachtauto niet toe"
+      }
+    },
+    {
+      "id": "U02-Q012",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "hotspot",
+      "soort": "inzicht",
+      "stam": "Midden op de weg ligt een vluchtheuvel met daarop een bord. Het bord verplicht je om de vluchtheuvel aan de rechterkant voorbij te gaan. Tik op dat bord.",
+      "media": {
+        "borden": [
+          "D2",
+          "D3",
+          "D1",
+          "D4",
+          "D5",
+          "C3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "D2",
+          "tekst": "D2",
+          "feedback": "Goed. [D2] is het gebod om het bord voorbij te gaan aan de zijde die de pijl aangeeft, hier rechts.",
+          "fouttype": null
+        },
+        {
+          "id": "D3",
+          "tekst": "D3",
+          "feedback": "Fout. [D3] lijkt erop, maar dit bord mag je aan beide zijden voorbijgaan; het dwingt je niet naar rechts.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D1",
+          "tekst": "D1",
+          "feedback": "Fout. [D1] geeft de verplichte rijrichting op een rotonde aan, niet hoe je een vluchtheuvel passeert.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D4",
+          "tekst": "D4",
+          "feedback": "Fout. [D4] verplicht je rechtdoor te rijden; het zegt niets over de kant waaraan je een obstakel voorbijgaat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "D5",
+          "tekst": "D5",
+          "feedback": "Fout. [D5] verplicht je rechtsaf te slaan, en dat is iets anders dan rechts langs een vluchtheuvel rijden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "C3",
+          "tekst": "C3",
+          "feedback": "Fout. [C3] is een eenrichtingsweg; het is ook blauw met een pijl, maar het regelt de rijrichting van de hele weg, niet het passeren van het bord.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D2"
+      ],
+      "uitleg": {
+        "regel": "Bij deze borden moet je verplicht de aangegeven richting volgen.",
+        "waarom": "De schuine pijl wijst langs het bord heen, zodat je in een oogopslag ziet aan welke kant de vrije doorgang ligt.",
+        "valkuil": "Bij [D3] wijzen twee pijlen schuin naar links en schuin naar rechts: dan mag je zelf kiezen aan welke zijde je het bord voorbijgaat, bij [D2] niet."
+      },
+      "bronnen": [
+        {
+          "boek": 48,
+          "sectie": "3.1",
+          "anker": "Bij deze borden moet je verplicht de aangegeven richting volgen"
+        },
+        {
+          "boek": 241,
+          "sectie": "14",
+          "anker": "het bord voorbij te gaan aan de zijde die de pijl aangeeft"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijrichting",
+        "borden-d",
+        "hotspot"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+        "bron": "boek p. 241",
+        "gewijzigd": "bron naar hoofdstuk 14 (p. 241) toegevoegd; valkuil beschrijft D3 nu met de woorden van p. 241 ('schuin naar links en schuin naar rechts') in plaats van 'schuin omlaag'. Het raster gebruikt D6 en D7 niet, dus het verschil tussen p. 48 en hoofdstuk 14 raakt deze vraag niet."
+      }
+    },
+    {
+      "id": "U02-Q013",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Aan het begin van een woonwijk staat een bord met een parkeerverbod en daarboven het woord 'zone'. Je bent inmiddels drie straten verder en ziet nergens meer een bord. Geldt het parkeerverbod hier nog steeds?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Staat 'zone' boven een bord, dan geldt het voor een heel gebied; het verbod eindigt pas bij het bord 'einde zone', niet bij het volgende kruispunt.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Een gewoon bord geldt tot het volgende kruispunt, maar een zonebord is de uitzondering: het geldt in de hele zone, tot het bord 'einde zone'.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als er boven een verkeersbord het woord 'zone' staat, geldt het bord voor een heel gebied. Als niet direct duidelijk is waar de zone eindigt, wordt aan het einde het bord 'einde zone' geplaatst.",
+        "waarom": "In een woonwijk zou je anders op elke hoek een nieuw bord nodig hebben; de zone vervangt al die herhalingen.",
+        "valkuil": "Een zonebord met een parkeerverbod geldt bovendien aan beide kanten van de weg.",
+        "onthoud": "Zone: heel gebied, beide kanten, tot einde zone."
+      },
+      "bronnen": [
+        {
+          "boek": 46,
+          "sectie": "3.1",
+          "anker": "geldt het bord voor een heel gebied"
+        },
+        {
+          "slide": 45,
+          "anker": "zoneborden en bebouwde kom borden gelden tot het einde van de zone"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zone",
+        "werkingsgebied",
+        "parkeerverbod"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als er boven een verkeersbord het woord 'zone' staat, geldt het bord voor een heel gebied.",
+        "bron": "boek p. 46",
+        "opmerking": "Slide 45: 'zoneborden en bebouwde kom borden gelden tot het einde van de zone', als uitzondering op 'tot het volgende kruispunt'."
+      }
+    },
+    {
+      "id": "U02-Q014",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat met je auto voor een rood verkeerslicht en wilt rechtsaf. Onder het verkeerslicht hangt een bord met de tekst 'rechtsaf voor fietsers vrij'. Mag jij nu rechtsaf slaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het bord hangt wel onder jouw verkeerslicht, maar het geldt alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen; voor jou blijft rood gewoon rood.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. 'Rechtsaf voor fietsers vrij' geldt alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen; als automobilist wacht je op groen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als er staat 'rechtsaf voor fietsers vrij' geldt dit alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen.",
+        "waarom": "Een fietser die rechtsaf gaat kruist geen andere richting; een auto met zijn snelheid en massa wel.",
+        "valkuil": "Sla je van de andere kant linksaf, houd er dan rekening mee dat fietsers met zo'n bord jouw weg op kunnen draaien."
+      },
+      "bronnen": [
+        {
+          "boek": 56,
+          "sectie": "3.3",
+          "anker": "geldt dit alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "rechtsaf-door-rood",
+        "onderborden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als er staat 'rechtsaf voor fietsers vrij' geldt dit alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen.",
+        "bron": "boek p. 56"
+      }
+    },
+    {
+      "id": "U02-Q015",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij wegwerkzaamheden staat een herkenbare, bevoegde verkeersregelaar. Het verkeerslicht voor jou toont groen, maar de verkeersregelaar geeft jou een stopteken. Moet je stoppen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een aanwijzing van een bevoegde verkeersregelaar gaat boven het verkeerslicht, dus je stopt ondanks het groene licht.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Groen licht lijkt beslissend, maar aanwijzingen staan bovenaan in de rangorde; de verkeersregelaar wint van het verkeerslicht.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Aanwijzingen kunnen ook worden gegeven door bevoegde en herkenbare verkeersregelaars. Je ziet deze vaak bij evenementen en bij wegwerkzaamheden. Aanwijzingen gaan voor verkeerstekens en verkeersregels.",
+        "waarom": "Bij werkzaamheden verandert de situatie per minuut, en alleen iemand ter plekke kan daarop reageren.",
+        "valkuil": "Kijk of de verkeersregelaar bevoegd en herkenbaar is; dan volg je zijn teken op, ook bij groen."
+      },
+      "bronnen": [
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Je ziet deze vaak bij evenementen en bij wegwerkzaamheden"
+        },
+        {
+          "slide": 57,
+          "anker": "Aanwijzingen hebben de hoogste prioriteit in het verkeer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aanwijzingen",
+        "verkeersregelaar",
+        "rangorde"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aanwijzingen kunnen ook worden gegeven door bevoegde en herkenbare verkeersregelaars. Je ziet deze vaak bij evenementen en bij wegwerkzaamheden.",
+        "bron": "boek p. 58",
+        "gewijzigd": "moeilijkheid 1 naar 2: de rangorde wordt op een situatie met een groen licht toegepast"
+      }
+    },
+    {
+      "id": "U02-Q016",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt buiten de bebouwde kom achter een langzame tractor. De onderbroken middenstreep verandert: de strepen worden langer en de tussenruimten korter. Je hebt goed zicht en er komt niets aan. Is inhalen hier door deze streep verboden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De langere strepen lijken strenger, maar een waarschuwingsstreep is nog steeds een onderbroken streep; hij verbiedt niets, hij waarschuwt voor gevaar zoals een bocht of een helling.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een waarschuwingsstreep is een onderbroken streep met korte tussenruimten; je mag hem overschrijden, maar je moet extra alert zijn op een gevaarlijke situatie.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Onderbroken strepen waarbij de ruimten tussen de strepen korter zijn dan normaal, zijn zogenaamde waarschuwingsstrepen. Je moet dan alert zijn op een gevaarlijke situatie, zoals een bocht of een helling.",
+        "waarom": "De streep kondigt aan dat verderop een bocht, helling of uitrit komt; dat is een reden om goed te kijken, niet een verbod.",
+        "valkuil": "Een waarschuwingsstreep is geen doorgetrokken streep: hij verbiedt het inhalen niet, maar vraagt om extra oplettendheid en je eigen oordeel.",
+        "onthoud": "Waarschuwingsstreep: mag, maar let op."
+      },
+      "bronnen": [
+        {
+          "boek": 52,
+          "sectie": "3.2",
+          "anker": "Je moet dan alert zijn op een gevaarlijke situatie"
+        },
+        {
+          "slide": 51,
+          "anker": "Een onderbroken streep mag je overschrijden (bijv. om in te halen)"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "waarschuwingsstreep",
+        "onderbroken-streep",
+        "inhalen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Onderbroken strepen waarbij de ruimten tussen de strepen korter zijn dan normaal, zijn zogenaamde 'waarschuwingsstrepen'. Je moet dan alert zijn op een gevaarlijke situatie",
+        "bron": "boek p. 52",
+        "gewijzigd": "valkuil: 'Alleen een doorgetrokken streep verbiedt inhalen' was te sterk (ook een bord kan dat), nu: een waarschuwingsstreep is geen doorgetrokken streep en verbiedt niets",
+        "opmerking": "De sleutel is een veilige afleiding: het boek noemt waarschuwingsstrepen uitdrukkelijk 'onderbroken strepen' en zegt op dezelfde pagina 'Een onderbroken streep mag je overschrijden'; slide 51 zegt 'Een onderbroken streep mag je overschrijden (bijv. om in te halen)' en definieert direct daarna de waarschuwingsstreep. Geen bron zegt dat de streep iets verbiedt; de stam vraagt alleen of de streep het verbiedt."
+      }
+    },
+    {
+      "id": "U02-Q017",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op een provinciale weg staat een vast bord met 80. Verderop zijn wegwerkzaamheden. Daar staat een tijdelijk bord met 50, terwijl het vaste bord met 80 er nog gewoon staat. Welke maximumsnelheid geldt bij de werkzaamheden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "50, want een tijdelijk bord gaat boven het vaste bord.",
+          "feedback": "Goed. Een tijdelijk bord bij wegwerkzaamheden geeft een lagere maximumsnelheid aan, en die geldt dan, ook al staat het vaste bord er nog.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "80, want het vaste bord is niet weggehaald.",
+          "feedback": "Fout. Het vaste bord staat er nog, maar een tijdelijk bord bij werkzaamheden geeft een lagere maximumsnelheid die dan geldt, ook al staat het vaste bord er nog.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "50, maar alleen als er op dat moment ook wegwerkers aan het werk zijn.",
+          "feedback": "Fout. Het tijdelijke bord geldt zolang het er staat; of er op dat moment iemand werkt, maakt voor de maximumsnelheid niet uit.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Tijdelijke verkeersborden (bijvoorbeeld bij wegwerkzaamheden) geven vaak een lagere maximumsnelheid aan. Die lagere maximumsnelheid is dan van toepassing, ook al staat op de vaste verkeersborden een hogere maximumsnelheid aangegeven.",
+        "waarom": "Bij werkzaamheden zijn de rijstroken smaller en staan er mensen langs de weg; het vaste bord is daar niet op berekend.",
+        "valkuil": "Kijk naar het meest recente, tijdelijke bord en niet naar wat je van deze weg gewend bent.",
+        "onthoud": "Tijdelijk gaat boven vast."
+      },
+      "bronnen": [
+        {
+          "boek": 50,
+          "sectie": "3.1",
+          "anker": "Die lagere maximumsnelheid is dan van toepassing"
+        },
+        {
+          "slide": 44,
+          "anker": "tijdelijke verkeersborden en tijdelijke verkeerstekens op het wegdek gaan boven de normale borden en tekens"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tijdelijke-borden",
+        "wegwerkzaamheden",
+        "maximumsnelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Die lagere maximumsnelheid is dan van toepassing, ook al staat op de 'vaste' verkeersborden een hogere maximumsnelheid aangegeven.",
+        "bron": "boek p. 50",
+        "gewijzigd": "'geel tijdelijk bord' naar 'tijdelijk bord': geen van beide bronnen noemt de kleur van tijdelijke borden; moeilijkheid 1 naar 2 (toepassen op een situatie)"
+      }
+    },
+    {
+      "id": "U02-Q018",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op de middelste rijstrook van een autosnelweg. Links van je rijdt een bestelauto. Tussen jouw rijstrook en die van de bestelauto liggen twee strepen naast elkaar: aan jouw kant een doorgetrokken streep, aan de kant van de bestelauto een onderbroken streep. Wie van jullie twee mag over deze strepen naar de rijstrook van de ander?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen de bestelauto, naar rechts.",
+          "feedback": "Goed. Je mag de dubbele streep alleen overschrijden als de onderbroken streep aan jouw kant ligt; dat is bij de bestelauto het geval, bij jou niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen jij, naar links.",
+          "feedback": "Fout. Je hebt de kanten omgedraaid: aan jouw kant ligt de doorgetrokken streep, en juist die kant mag niet naar de andere rijstrook.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Allebei, want er ligt een onderbroken streep.",
+          "feedback": "Fout. Een onderbroken streep ernaast maakt de doorgetrokken streep niet vrij voor beide kanten; alleen wie de onderbroken streep aan zijn kant heeft, mag overschrijden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Geen van beiden, want er ligt een doorgetrokken streep.",
+          "feedback": "Fout. De combinatie is niet voor iedereen dicht; de bestelauto heeft de onderbroken streep aan zijn kant en mag wel naar rechts.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als er een onderbroken streep en een doorgetrokken streep naast elkaar liggen, mag je ze alleen overschrijden als de onderbroken streep aan jouw kant ligt.",
+        "waarom": "Zo kan de wegbeheerder een wissel in de ene richting toestaan en in de andere richting verbieden, bijvoorbeeld waar invoegen wel veilig is en uitvoegen niet.",
+        "valkuil": "Kijk naar de streep die het dichtst bij jouw wielen ligt; die geldt voor jou.",
+        "onthoud": "Jouw kant van de dubbele streep telt."
+      },
+      "bronnen": [
+        {
+          "boek": 52,
+          "sectie": "3.2",
+          "anker": "alleen overschrijden als de onderbroken streep aan jouw kant ligt"
+        },
+        {
+          "boek": 53,
+          "sectie": "3.2",
+          "anker": "Jij mag nu niét naar links opschuiven"
+        },
+        {
+          "slide": 50,
+          "anker": "als er aan jouw kant naast de doorgetrokken streep een onderbroken streep ligt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "doorgetrokken-streep",
+        "onderbroken-streep",
+        "rijstrook-wisselen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Jij mag nu niét naar links opschuiven, de witte bestelauto mag wel naar rechts opschuiven.",
+        "bron": "boek p. 53",
+        "gewijzigd": "slotvraag van de stam: 'Wie mag hier van rijstrook wisselen?' liet open dat jij naar rechts zou mogen (die streep noemt de stam niet), waardoor 'alleen de bestelauto' aanvechtbaar was; nu gaat de vraag alleen over de dubbele streep tussen jullie",
+        "opmerking": "De foto op p. 53 beschrijft 'de streep links van jou is doorgetrokken, de streep rechts is onderbroken'; het onderschrift (jij niet naar links, de bestelauto links van jou wel naar rechts) kan alleen kloppen als dat een dubbele streep tussen jou en de bestelauto is, precies de situatie van de stam."
+      }
+    },
+    {
+      "id": "U02-Q019",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je nadert een kruispunt met verkeerslichten. De lichten knipperen geel. Onder het verkeerslicht staat een bord 'verleen voorrang' en op het wegdek liggen haaientanden. Van links nadert een auto. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je verleent voorrang aan de auto, want het bord en de haaientanden gelden nu.",
+          "feedback": "Goed. Bij verkeerslichten buiten werking geldt de voorrangsregeling die met borden is aangegeven; het bord en de haaientanden zeggen dat je voorrang verleent.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je rijdt door, want een geel knipperlicht betekent dat jij voorrang hebt.",
+          "feedback": "Fout. Geel knipperlicht is alleen een waarschuwing dat het licht buiten werking is; het geeft je geen voorrang.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je stopt en wacht tot de verkeerslichten weer normaal werken.",
+          "feedback": "Fout. Stilstaan tot de lichten weer werken is niet nodig en houdt het verkeer op; de borden regelen nu de voorrang.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je rijdt door, want de auto komt van links en de borden doen er nu niet toe.",
+          "feedback": "Fout. De basisregel dat rechts voorgaat geldt pas als er geen borden staan en geen tekens op het wegdek liggen; hier staan een bord en haaientanden, en die zeggen dat je voorrang verleent.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Verkeerslichten die buiten werking zijn, geven meestal geel knipperlicht, als waarschuwing. Er geldt daar dan de voorrangsregeling die met borden is aangegeven. Als er geen borden staan en er zijn geen tekens op het wegdek, dan geldt de basisvoorrangsregel.",
+        "waarom": "Zonder werkend licht valt de bovenste laag weg en zakt het kruispunt terug op de laag eronder: eerst borden en tekens, pas daarna de regels.",
+        "valkuil": "Een geel knipperlicht geeft nooit voorrang; het waarschuwt alleen."
+      },
+      "bronnen": [
+        {
+          "boek": 55,
+          "sectie": "3.3",
+          "anker": "Er geldt daar dan de voorrangsregeling die met borden is aangegeven"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "buiten-werking",
+        "geel-knipperlicht",
+        "voorrang"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Er geldt daar dan de voorrangsregeling die met borden is aangegeven. Als er geen borden staan en er zijn geen tekens op het wegdek, dan geldt de basisvoorrangsregel.",
+        "bron": "boek p. 55",
+        "gewijzigd": "de auto komt nu van links in plaats van rechts, en optie d is herschreven: de oude d ('je verleent voorrang omdat de auto van rechts komt') had dezelfde handeling als het goede antwoord; nu leidt de basisregel tot een andere, foute handeling. Moeilijkheid 2 naar 3: twee regels combineren (buiten werking en rangorde borden boven regels)"
+      }
+    },
+    {
+      "id": "U02-Q020",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Een agent, een verkeerslicht, een verkeersbord en een verkeersregel kunnen elkaar op een kruispunt tegenspreken. Wat is de juiste volgorde van belangrijkheid, van hoog naar laag?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Aanwijzingen, verkeerslichten, verkeersborden en tekens op het wegdek, verkeersregels.",
+          "feedback": "Goed. Aanwijzingen hebben de hoogste prioriteit, daarna komen de verkeerslichten, dan de borden en tekens op het wegdek, en als laatste de verkeersregels.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Verkeerslichten, aanwijzingen, verkeersborden en tekens op het wegdek, verkeersregels.",
+          "feedback": "Fout. Een rood licht voelt als het strengste teken, maar een aanwijzing van een agent gaat er nog boven; aanwijzingen staan bovenaan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Aanwijzingen, verkeersborden en tekens op het wegdek, verkeerslichten, verkeersregels.",
+          "feedback": "Fout. De top klopt, maar de verkeerslichten staan boven de borden en tekens, niet eronder; een rood licht wint van een voorrangsbord.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Verkeersregels, verkeersborden en tekens op het wegdek, verkeerslichten, aanwijzingen.",
+          "feedback": "Fout. Dit is precies de omgekeerde volgorde; de vraag vroeg van hoog naar laag, en aanwijzingen staan bovenaan.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Samengevat is de volgorde van belangrijkheid: aanwijzingen, verkeerslichten, verkeerstekens, verkeersregels.",
+        "waarom": "Hoe dichter iets bij de situatie van dit moment staat, hoe hoger het staat: een mens ter plekke wint van een licht, een licht van een vast bord, een bord van een algemene regel.",
+        "valkuil": "Verkeerslichten gaan voor borden en tekens die de voorrang regelen: ook op een voorrangsweg stop je voor rood.",
+        "onthoud": "Aanwijzing, licht, bord, regel."
+      },
+      "bronnen": [
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Samengevat is de volgorde van belangrijkheid dus"
+        },
+        {
+          "slide": 57,
+          "anker": "Daarna komen de verkeerslichten. Deze gaan boven de verkeersborden en de verkeerstekens op het wegdek"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "rangorde",
+        "aanwijzingen",
+        "verkeerslichten",
+        "verkeersregels"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aanwijzingen hebben de hoogste prioriteit in het verkeer. Daarna komen de verkeerslichten. Deze gaan boven de verkeersborden en de verkeerstekens op het wegdek.",
+        "bron": "slide 57",
+        "gewijzigd": "valkuil: de bewering dat een geslotenverklaring onder een verkeerslicht blijft gelden staat in geen van beide bronnen; p. 57 zegt alleen 'Verkeerslichten gaan namelijk voor borden en tekens die de voorrang regelen', en dat staat er nu",
+        "opmerking": "Volgorde p. 58 en slide 57: aanwijzingen, verkeerslichten, verkeerstekens (borden en tekens op het wegdek), verkeersregels. Optie a volgt die volgorde exact."
+      }
+    },
+    {
+      "id": "U02-Q021",
+      "unit": "U02",
+      "pagina": "U02-P02",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Onder een verkeersbord hangt vaak een klein wit onderbord. Wat kan zo'n onderbord volgens het boek aangeven? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Wanneer het verkeersbord geldt, bijvoorbeeld alleen op maandag.",
+          "feedback": "Goed. Een onderbord kan aangeven wanneer het bord geldt, zoals een dag of een tijdvak.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Voor wie het verkeersbord geldt of juist niet geldt.",
+          "feedback": "Goed. Een onderbord kan de groep noemen waarvoor het bord geldt, of met 'uitgezonderd' de groep waarvoor het niet geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Waar het verkeersbord geldt, bijvoorbeeld over 500 m.",
+          "feedback": "Goed. Een onderbord met een afstand geeft aan waar het bord geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Dat het verkeersbord is opgeheven en niet meer geldt.",
+          "feedback": "Fout. Het einde van een bord wordt met een apart einde-bord aangegeven, niet met een onderbord; een onderbord beperkt of verduidelijkt de werking.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Welke andere maximumsnelheid je vanaf hier moet aanhouden.",
+          "feedback": "Fout. Een maximumsnelheid staat op het hoofdbord zelf; het onderbord zegt alleen wanneer, voor wie of waar dat hoofdbord geldt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Met onderborden kan worden aangegeven: wanneer het verkeersbord geldt, voor wie het verkeersbord geldt, voor wie het verkeersbord niet geldt, waar het verkeersbord geldt, extra informatie.",
+        "waarom": "Een hoofdbord kan maar een boodschap dragen; het onderbord maakt die boodschap precies zonder dat er tientallen extra borden nodig zijn.",
+        "valkuil": "Een onderbord verandert nooit de betekenis van het hoofdbord, alleen het bereik ervan."
+      },
+      "bronnen": [
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "wanneer het verkeersbord geldt, voor wie het verkeersbord geldt"
+        },
+        {
+          "slide": 46,
+          "anker": "wanneer het verkeersbord geldt voor wie het verkeersbord geldt of voor wie niet"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "onderborden",
+        "verkeersborden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Met onderborden kan worden aangegeven: wanneer het verkeersbord geldt, voor wie het verkeersbord geldt, voor wie het verkeersbord niét geldt, waar het verkeersbord geldt, extra informatie.",
+        "bron": "boek p. 47"
+      }
+    },
+    {
+      "id": "U02-Q022",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Boven de rijstroken van een autosnelweg hangen matrixborden met rijstrooksignalering. Welke betekenissen zijn juist? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een groene pijl: je mag de rijstrook volgen.",
+          "feedback": "Goed. De groene pijl omlaag betekent dat je de rijstrook mag volgen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een witte pijl: voorwaarschuwing voor een rood kruis.",
+          "feedback": "Goed. De witte pijl, die schuin naar de strook ernaast afbuigt, is de voorwaarschuwing voor een rood kruis op deze rijstrook.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een rood kruis: je mag de rijstrook niet volgen.",
+          "feedback": "Goed. Onder een rood kruis mag je de rijstrook niet volgen; die strook is dicht.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "BUS: alleen lijnbussen mogen de rijstrook volgen.",
+          "feedback": "Fout. Bij BUS mogen autobussen en lijnbussen de rijstrook volgen; alleen bij LIJNBUS is het beperkt tot lijnbussen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "e",
+          "tekst": "Een getal in een rode ring: de rijstrook is gesloten voor voertuigen die zo hard rijden.",
+          "feedback": "Fout. Een getal in een rode ring is een maximumsnelheid: de rijstrook mag worden gevolgd met die aangegeven maximumsnelheid.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Rijstrooksignalering: groene pijl, je mag de rijstrook volgen; witte pijl, voorwaarschuwing rood kruis; rood kruis, je mag de rijstrook niet volgen; maximumsnelheid, de rijstrook mag worden gevolgd met de aangegeven maximumsnelheid; BUS, autobussen en lijnbussen; LIJNBUS, lijnbussen.",
+        "waarom": "De signalering sluit per rijstrook af, zodat een strook met een ongeval of werkzaamheden vrij blijft terwijl de andere stroken doorrijden.",
+        "valkuil": "De witte pijl is nog geen verbod, maar wachten tot het rode kruis brandt is te laat om rustig te wisselen.",
+        "onthoud": "Groen mag, wit alvast weg, rood kruis nooit."
+      },
+      "bronnen": [
+        {
+          "boek": 57,
+          "sectie": "3.3",
+          "anker": "rood kruis: je mag de rijstrook niet volgen"
+        },
+        {
+          "boek": 57,
+          "sectie": "3.3",
+          "anker": "BUS: autobussen en lijnbussen mogen de rijstrook volgen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijstrooksignalering",
+        "matrixbord",
+        "rood-kruis"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "groene pijl: je mag de rijstrook volgen, witte pijl: voorwaarschuwing rood kruis, rood kruis: je mag de rijstrook niet volgen",
+        "bron": "boek p. 57",
+        "gewijzigd": "feedback b: 'ga alvast naar de aangegeven strook' was een instructie die het boek niet geeft; nu alleen wat p. 57 zegt plus de vorm van de pijl uit de paneelbeschrijving",
+        "opmerking": "d fout via p. 57 'BUS: autobussen en lijnbussen mogen de rijstrook volgen'; e fout via 'maximumsnelheid: de rijstrook mag worden gevolgd met de aangegeven maximumsnelheid'."
+      }
+    },
+    {
+      "id": "U02-Q023",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "hotspot",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een personenauto door een woonwijk. Voor je staat een bord waardoor een motorrijder de straat wel in mag, maar jij met je auto niet. Tik op dat bord.",
+      "media": {
+        "borden": [
+          "C6",
+          "C11",
+          "C12",
+          "C1",
+          "C14",
+          "C7"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C6",
+          "tekst": "C6",
+          "feedback": "Goed. [C6] sluit de weg voor motorvoertuigen op meer dan twee wielen, dus voor auto's; een motor op twee wielen mag er wel in.",
+          "fouttype": null
+        },
+        {
+          "id": "C11",
+          "tekst": "C11",
+          "feedback": "Fout. [C11] is precies andersom: gesloten voor motoren, terwijl jij met je auto er wel in mag.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "C12",
+          "tekst": "C12",
+          "feedback": "Fout. [C12] sluit de weg voor alle motorvoertuigen, dus ook voor de motorrijder.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C1",
+          "tekst": "C1",
+          "feedback": "Fout. [C1] sluit de weg in beide richtingen voor alle voertuigen; ook de motorrijder moet buiten blijven.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C14",
+          "tekst": "C14",
+          "feedback": "Fout. [C14] sluit de weg voor fietsen en gehandicaptenvoertuigen zonder motor; auto's en motoren mogen er allebei in.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Fout. [C7] sluit de weg alleen voor vrachtauto's; met je personenauto mag je hier gewoon in.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "C6"
+      ],
+      "uitleg": {
+        "regel": "Verboden voor motorvoertuigen op meer dan twee wielen, dus ook voor auto's.",
+        "waarom": "Twee wielen is de grens die het bord trekt: een motor past er wel door, een auto met vier wielen niet.",
+        "valkuil": "Het autootje in de cirkel betekent niet 'alleen auto's verboden' maar 'alles op meer dan twee wielen'."
+      },
+      "bronnen": [
+        {
+          "slide": 47,
+          "anker": "Verboden voor motorvoertuigen op meer dan twee wielen, dus ook voor auto's"
+        },
+        {
+          "boek": 48,
+          "sectie": "3.1",
+          "anker": "Op de borden kun je aan de symbolen zien voor wie ze bedoeld zijn"
+        },
+        {
+          "boek": 239,
+          "sectie": "14",
+          "anker": "Rode cirkel met een zwarte auto Gesloten voor motorvoertuigen op meer dan twee wielen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "geslotenverklaring",
+        "borden-c",
+        "hotspot"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "C6: Rode cirkel met een zwarte auto. Gesloten voor motorvoertuigen op meer dan twee wielen.",
+        "bron": "boek p. 239",
+        "gewijzigd": "bron naar hoofdstuk 14 (p. 239) toegevoegd; alle zes rasterbetekenissen gecontroleerd tegen p. 239, alleen C6 laat een motor wel en een auto niet toe"
+      }
+    },
+    {
+      "id": "U02-Q024",
+      "unit": "U02",
+      "pagina": "U02-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "In een klinkerstraat staat een hoofdbord met daaronder het onderbord 'uitgezonderd lijnbussen'. Door deze combinatie mogen alleen lijnbussen de straat in en blijven alle andere motorvoertuigen buiten. Tik op het hoofdbord dat hierbij hoort.",
+      "media": {
+        "borden": [
+          "C12",
+          "C7",
+          "C6",
+          "C7a"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C12",
+          "tekst": "C12",
+          "feedback": "Goed. [C12] sluit de weg voor alle motorvoertuigen; het onderbord zondert daar alleen de lijnbussen van uit.",
+          "fouttype": null
+        },
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Fout. [C7] sluit alleen vrachtauto's uit; personenauto's en motoren zouden er dan gewoon in mogen, en dat is niet de bedoeling.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C6",
+          "tekst": "C6",
+          "feedback": "Fout. [C6] houdt motorvoertuigen op meer dan twee wielen tegen, maar een motorrijder mag er nog in; de combinatie sluit alle andere motorvoertuigen uit.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "C7a",
+          "tekst": "C7a",
+          "feedback": "Fout. [C7a] sluit alleen autobussen uit; met 'uitgezonderd lijnbussen' eronder mogen lijnbussen erin, maar personenauto's en motoren ook, en dat is niet wat de vraag beschrijft.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "C12"
+      ],
+      "uitleg": {
+        "regel": "Met onderborden kan worden aangegeven voor wie het verkeersbord niet geldt.",
+        "waarom": "De uitzondering op het onderbord heeft alleen zin bij een hoofdbord dat de lijnbus anders ook zou tegenhouden, en dat is het bord voor alle motorvoertuigen.",
+        "valkuil": "Kijk eerst naar het hoofdbord: het onderbord verruimt alleen voor de genoemde groep.",
+        "onthoud": "Hoofdbord sluit, onderbord opent voor een groep."
+      },
+      "bronnen": [
+        {
+          "slide": 47,
+          "anker": "Alleen voor lijnbussen; auto's rijden zich vast"
+        },
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "voor wie het verkeersbord niét geldt, waar het verkeersbord geldt"
+        },
+        {
+          "boek": 239,
+          "sectie": "14",
+          "anker": "Rode cirkel met een zwarte auto en motorfiets Gesloten voor alle motorvoertuigen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "onderborden",
+        "geslotenverklaring",
+        "hotspot"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "een rond bord met rode rand met daarin een zwarte auto en motor (geslotenverklaring) met een wit onderbord uitgezonderd lijnbussen",
+        "bron": "slide 47",
+        "gewijzigd": "feedback C7a: 'tegenstrijdig' klopte niet, C7a met 'uitgezonderd lijnbussen' is een gewone combinatie die alleen niet alle andere motorvoertuigen buitenhoudt; bron naar hoofdstuk 14 (p. 239) toegevoegd",
+        "opmerking": "C12 is per p. 239 'Gesloten voor alle motorvoertuigen'; slide 47 toont dat bord met het onderbord en zegt 'Alleen voor lijnbussen; auto's rijden zich vast'."
+      }
+    }
+  ]
+}
