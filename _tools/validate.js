@@ -118,8 +118,8 @@ function loadSources() {
 
   /* Book: a marker is "### Pagina N" or "## Pagina N en M". A page's text is
      the union of every marker block that names it, each running to the next
-     page marker or chapter header. Level-2 family headers inside chapter 14
-     ("## C Geslotenverklaring") are not boundaries. */
+     page marker. Nothing else is a boundary: a chapter heading and the
+     family headers inside chapter 14 sit inside a page, not between two. */
   const pages = {};
   const markers = [];
   book.forEach((line, i) => {
@@ -128,7 +128,10 @@ function loadSources() {
       const list = [parseInt(m[1], 10)];
       if (m[2]) for (let p = list[0] + 1; p <= parseInt(m[2], 10); p++) list.push(p);
       markers.push({ line: i, pages: list });
-    } else if (/^# /.test(line)) markers.push({ line: i, pages: [] });
+    }
+    /* only a page marker ends a page. A chapter heading printed halfway
+       down a page used to cut that page's text off, which orphaned the
+       opening paragraphs of every chapter. */
   });
   markers.forEach((mk, idx) => {
     if (!mk.pages.length) return;

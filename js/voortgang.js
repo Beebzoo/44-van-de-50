@@ -67,8 +67,10 @@ export function unitStates(attempts, units, pools, history) {
     const rank = s => ["vergrendeld", "lezen", "oefenen", "voorlopig", "beheerst"].indexOf(s);
     const minPre = prereqs.length ? Math.min(...prereqs.map(rank)) : 4;
     let staat;
-    if (minPre < rank("voorlopig")) staat = "vergrendeld";
-    else if (m.staat === "beheerst" || m.staat === "voorlopig") staat = m.staat;
+    /* what you have already earned is never taken away: a unit you passed
+       stays passed even if a prerequisite is somehow not marked done */
+    if (m.staat === "beheerst" || m.staat === "voorlopig") staat = m.staat;
+    else if (minPre < rank("voorlopig")) staat = "vergrendeld";
     else if (minPre < rank("beheerst")) staat = "lezen";
     else staat = "oefenen";
     const quizAttempts = attempts.filter(a => a.kind === "quiz" && a.ref === u.id);

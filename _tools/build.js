@@ -42,7 +42,15 @@ fs.mkdirSync(path.join(CONTENT, "generated"), { recursive: true });
 /* deterministic pseudo-random per code so the validator sees stable files */
 function seeded(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return () => { h = Math.imul(h ^ (h >>> 15), 2246822507); h = Math.imul(h ^ (h >>> 13), 3266489909); return ((h ^= h >>> 16) >>> 0) / 4294967296; }; }
 const pick = (arr, n, rnd) => { const a = arr.slice(); const out = []; while (a.length && out.length < n) out.splice(Math.floor(rnd() * (out.length + 1)), 0, a.splice(Math.floor(rnd() * a.length), 1)[0]); return out; };
-const anchorOf = text => { const w = text.replace(/[*_`]/g, "").split(/\s+/).filter(Boolean); return w.slice(0, Math.min(15, Math.max(6, w.length))).join(" "); };
+/* the validator counts words after normalising, where "personenauto's"
+   becomes two, so trim on that count and not on the raw one */
+const normWords = t => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().split(" ").filter(Boolean).length;
+const anchorOf = text => {
+  const w = text.replace(/[*_`]/g, "").split(/\s+/).filter(Boolean);
+  let n = Math.min(15, w.length);
+  while (n > 1 && normWords(w.slice(0, n).join(" ")) > 15) n -= 1;
+  return w.slice(0, n).join(" ");
+};
 const clean = s => s.replace(/[\u2012\u2013\u2014\u2015]/g, ",").replace(/!/g, ".");
 const shortMeaning = b => { const m = clean(b.betekenis).replace(/\s+/g, " ").trim(); return m.length > 110 ? m.slice(0, 107).replace(/[,;: ]+\S*$/, "") + "..." : m; };
 
