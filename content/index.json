@@ -1,5 +1,5 @@
 {
-  "versie": "593c108756",
+  "versie": "9d34650716",
   "gegenereerd": "2026-09-10",
   "examenDatum": "2026-10-28",
   "units": [
@@ -39,8 +39,10 @@
       "week": 1,
       "tier": "must",
       "bestand": "content/units/U01.json",
-      "bank": [],
-      "aantalVragen": 0,
+      "bank": [
+        "content/bank/U01.json"
+      ],
+      "aantalVragen": 24,
       "paginas": [
         {
           "id": "U01-P01",
@@ -73,9 +75,10 @@
       "tier": "must",
       "bestand": "content/units/U02.json",
       "bank": [
+        "content/bank/U02.json",
         "content/generated/U02-borden.json"
       ],
-      "aantalVragen": 40,
+      "aantalVragen": 64,
       "paginas": [
         {
           "id": "U02-P01",

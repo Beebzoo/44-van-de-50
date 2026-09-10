@@ -1,0 +1,1665 @@
+{
+  "unit": "U01",
+  "vragen": [
+    {
+      "id": "U01-Q001",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je stapt van je fiets en duwt hem aan de hand over het zebrapad naar de overkant. Ben je op dat moment een voetganger?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed, wie te voet een fiets aan de hand meevoert, valt onder de regels voor voetgangers en mag het zebrapad dus als voetganger gebruiken.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout, de fiets maakt je niet tot fietser: zodra je loopt en de fiets aan de hand meevoert, gelden voor jou de regels voor voetgangers.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "De regels voor voetgangers gelden ook voor personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren.",
+        "waarom": "De wet kijkt naar hoe je je voortbeweegt, lopend of rijdend, en niet naar wat je bij je hebt.",
+        "valkuil": "Je denkt: ik heb een fiets bij me, dus ik ben fietser. Lopend met de fiets aan de hand ben je voetganger.",
+        "onthoud": "Lopen met iets aan de hand: voetganger."
+      },
+      "bronnen": [
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "voetganger",
+        "fiets",
+        "zebrapad"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De regels voor voetgangers gelden ook voor: personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren",
+        "bron": "boek p. 26"
+      }
+    },
+    {
+      "id": "U01-Q002",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Een man loopt met zijn paard aan de teugel over een landweg. Is hij volgens de verkeerswetgeving een voetganger?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, het lijkt logisch omdat hij loopt, maar geleiders van rijdieren zijn volgens de wet bestuurders en geen voetgangers.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving geen voetgangers maar bestuurders, ook al lopen ze.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Ruiters en geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving geen voetgangers maar bestuurders.",
+        "waarom": "Een dier aan de hand neemt ruimte in en reageert als een voertuig op de weg, niet als een wandelaar, dus de wet behandelt de geleider als bestuurder.",
+        "valkuil": "Lopen met een fiets aan de hand maakt je voetganger, maar lopen met een paard aan de hand maakt je bestuurder.",
+        "onthoud": "Dier aan de hand: bestuurder."
+      },
+      "bronnen": [
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving géén voetgangers"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.2",
+          "anker": "ruiters, geleiders van rijdieren, trekdieren of vee en bestuurders van een bespannen of onbespannen wagen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bestuurder",
+        "voetganger",
+        "geleider",
+        "vee"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "ruiters en geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving géén voetgangers maar bestuurders",
+        "bron": "boek p. 26 (onderschrift bij de foto van de man met het paard)"
+      }
+    },
+    {
+      "id": "U01-Q003",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Tijdens je rijles zit jij achter het stuur van de lesauto en je instructeur zit naast je. Wie is volgens de wet bestuurder van een motorvoertuig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen jij, want jij bedient het stuur en de pedalen.",
+          "feedback": "Fout, dat lijkt logisch, maar de wet rekent ook wie rijles geeft tot de bestuurders van motorvoertuigen, dus je instructeur telt mee.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "Jij en je instructeur allebei.",
+          "feedback": "Goed, bestuurder van een motorvoertuig is iedereen die zelf een motorvoertuig bestuurt, rijles geeft of een rijexamen afneemt, dus jullie allebei.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen je instructeur, want hij is verantwoordelijk.",
+          "feedback": "Fout, je instructeur is inderdaad bestuurder, maar jij bestuurt het motorvoertuig zelf en bent dus ook bestuurder.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Bestuurders van motorvoertuigen zijn iedereen die zelf een motorvoertuig bestuurt, rijles geeft of een rijexamen afneemt.",
+        "waarom": "De instructeur en de examinator dragen in de lesauto mee de verantwoordelijkheid, daarom gelden de bestuurdersregels ook voor hen.",
+        "valkuil": "Je denkt dat alleen degene met de handen aan het stuur bestuurder is.",
+        "onthoud": "Sturen, les geven of examen afnemen: alle drie bestuurder."
+      },
+      "bronnen": [
+        {
+          "boek": 25,
+          "sectie": "2.2",
+          "anker": "Iedereen die zelf een motorvoertuig bestuurt, rijles geeft of een rijexamen afneemt"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bestuurder",
+        "motorvoertuig",
+        "rijles"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bestuurders van motorvoertuigen: Iedereen die zelf een motorvoertuig bestuurt, rijles geeft of een rijexamen afneemt",
+        "bron": "boek p. 25",
+        "opmerking": "Zelfde begrip als de eerste zelftest op U01-P01, maar de vraag vraagt naar allebei en dwingt de leerling verder dan de zelftest; laten staan."
+      }
+    },
+    {
+      "id": "U01-Q004",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Voor je rijdt een brommobiel: een klein voertuig met een gesloten carrosserie en een gele kentekenplaat. Is een brommobiel volgens de wet een motorvoertuig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, een brommobiel lijkt op een kleine personenauto en volgt de regels van motorvoertuigen, maar volgens de definitie is het een bromfiets op meer dan twee wielen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, een brommobiel is een bromfiets op meer dan twee wielen met een gesloten carrosserie, en bromfietsen zijn geen motorvoertuigen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een brommobiel is een bromfiets op meer dan twee wielen, die voorzien is van een gesloten carrosserie. Bromfietsen zijn uitgezonderd van de motorvoertuigen.",
+        "waarom": "De wet deelt in op bouw en snelheid van het voertuig, en een brommobiel is gebouwd als bromfiets met een dak eromheen.",
+        "valkuil": "Brommobielen volgen de regels van motorvoertuigen, dus je denkt dat ze motorvoertuigen zijn. Ze volgen de regels, maar horen bij de bromfietsen.",
+        "onthoud": "Brommobiel: bromfiets met een dak."
+      },
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "Bromfiets op meer dan twee wielen, die voorzien is van een gesloten carrosserie"
+        },
+        {
+          "boek": 29,
+          "sectie": "2.3",
+          "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "brommobiel",
+        "bromfiets",
+        "motorvoertuig"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bromfiets op meer dan twee wielen, die voorzien is van een gesloten carrosserie. Brommobielen zien eruit als kleine personenauto's en volgen de regels van motorvoertuigen",
+        "bron": "boek p. 27; de uitsluiting van bromfietsen staat bij Motorvoertuigen op boek p. 29"
+      }
+    },
+    {
+      "id": "U01-Q005",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Aan welke kentekenplaat aan de achterzijde herken je een snorfiets?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een gele kentekenplaat.",
+          "feedback": "Fout, een gele kentekenplaat hoort bij een bromfiets, een brommobiel of een snelle e-bike, niet bij een snorfiets.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "Een blauwe kentekenplaat.",
+          "feedback": "Goed, een snorfiets is een bromfiets die niet sneller kan dan 25 km/u en heeft aan de achterzijde een blauwe kentekenplaat.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een lichtblauwe kentekenplaat.",
+          "feedback": "Fout, lichtblauw lijkt op blauw, maar de lichtblauwe kentekenplaat hoort bij een bijzondere bromfiets zoals een Segway.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een snorfiets is een bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u, aan de achterzijde voorzien van een blauwe kentekenplaat.",
+        "waarom": "Aan de kleur van de plaat zie je in een oogopslag welke snelheid je van het voertuig voor je kunt verwachten.",
+        "valkuil": "Geel en blauw worden vaak omgedraaid: geel is de snelle bromfiets, blauw de langzame snorfiets.",
+        "onthoud": "Blauw is snor, geel is brom."
+      },
+      "bronnen": [
+        {
+          "boek": 30,
+          "sectie": "2.3",
+          "anker": "aan de achterzijde voorzien van een blauwe kentekenplaat"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "Je herkent bromfietsen aan de gele kentekenplaat aan de achterkant"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snorfiets",
+        "kentekenplaat",
+        "bromfiets"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u, aan de achterzijde voorzien van een blauwe kentekenplaat",
+        "bron": "boek p. 30; de kleuren geel en lichtblauw staan in de plaatjesrij op p. 30"
+      }
+    },
+    {
+      "id": "U01-Q006",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "De wet zondert een aantal voertuigen met een motor uit van het begrip motorvoertuig. Welke van deze voertuigen zijn volgens de wet geen motorvoertuig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een tram.",
+          "feedback": "Goed, de tram rijdt op rails en is uitdrukkelijk uitgezonderd van de motorvoertuigen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een fiets met trapondersteuning.",
+          "feedback": "Goed, een fiets met trapondersteuning is uitgezonderd, ook al zit er een motor in.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een bromfiets.",
+          "feedback": "Goed, bromfietsen zijn wel motorrijtuigen, maar geen motorvoertuigen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een gehandicaptenvoertuig.",
+          "feedback": "Goed, gehandicaptenvoertuigen zijn uitgezonderd van de motorvoertuigen, met of zonder motor.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Een motor met zijspan.",
+          "feedback": "Fout, een motor is een motorvoertuig op twee wielen, met of zonder zijspan, en dus wel een motorvoertuig.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "f",
+          "tekst": "Een vrachtauto.",
+          "feedback": "Fout, een vrachtauto is gewoon een motorvoertuig, alleen niet ingericht voor het vervoer van personen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Motorvoertuigen zijn alle voertuigen die door een motor worden aangedreven, behalve trams, fietsen met trapondersteuning, bromfietsen en gehandicaptenvoertuigen.",
+        "waarom": "Deze vier groepen hebben eigen regels en een eigen plek op de weg, daarom zet de wet ze buiten de motorvoertuigen.",
+        "valkuil": "Een motor erin betekent nog niet motorvoertuig; onthoud de vier uitzonderingen.",
+        "onthoud": "Vier uitzonderingen: tram, e-bike, bromfiets, gehandicaptenvoertuig."
+      },
+      "bronnen": [
+        {
+          "boek": 29,
+          "sectie": "2.3",
+          "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
+        },
+        {
+          "boek": 29,
+          "sectie": "2.3",
+          "anker": "Motorvoertuig op twee wielen, met of zonder zijspan of aanhangwagen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "motorvoertuig",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alle voertuigen die door een motor worden aangedreven, behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen",
+        "bron": "boek p. 29",
+        "opmerking": "Feedback bij c klopt: Motorrijtuigen op p. 29 zondert alleen trams en fietsen met trapondersteuning uit, dus een bromfiets is wel motorrijtuig en geen motorvoertuig."
+      }
+    },
+    {
+      "id": "U01-Q007",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt over de autosnelweg en rijdt een tankstation langs de weg op om te tanken. Hoort het terrein van het tankstation bij de autosnelweg?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, je bent er via de autosnelweg gekomen, maar parkeerplaatsen, tankstations en bushaltes langs autosnelwegen maken er geen deel van uit.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, de langs autosnelwegen gelegen parkeerplaatsen, tankstations en bushaltes maken geen deel uit van de autosnelweg.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een autosnelweg is een weg die is aangeduid met bord [G1]. De langs autosnelwegen gelegen parkeerplaatsen, tankstations en bushaltes maken geen deel uit van de autosnelweg.",
+        "waarom": "Op zo'n terrein wordt gestopt, geparkeerd en gelopen, en dat past niet bij de regels die op de autosnelweg zelf gelden.",
+        "valkuil": "Je denkt dat alles na bord [G1] autosnelweg is tot je bord [G2] ziet. De terreinen ernaast horen er niet bij.",
+        "onthoud": "Tankstation en parkeerplaats: naast de autosnelweg, niet erop."
+      },
+      "bronnen": [
+        {
+          "boek": 30,
+          "sectie": "2.4",
+          "anker": "De langs autosnelwegen gelegen parkeerplaatsen, tankstations en bushaltes maken geen deel uit van de autosnelweg"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "tankstation"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De langs autosnelwegen gelegen parkeerplaatsen, tankstations en bushaltes maken geen deel uit van de autosnelweg",
+        "bron": "boek p. 30"
+      }
+    },
+    {
+      "id": "U01-Q008",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Rechts naast je rijstrook ligt een rood vak op de rijbaan met in witte letters het woord BUS. Wie mogen dit gedeelte van de rijbaan gebruiken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen lijnbussen.",
+          "feedback": "Fout, alleen lijnbussen zou kloppen als er LIJNBUS stond; bij het woord BUS mogen ook andere autobussen erop.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Autobussen en lijnbussen.",
+          "feedback": "Goed, het woord BUS betekent dat auto- en lijnbussen er gebruik van mogen maken.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Alle bestuurders die rechts af willen slaan.",
+          "feedback": "Fout, een busstrook is geen gewone rijstrook; alleen bussen mogen erop, en soms taxi's met een speciale ontheffing.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Het woord BUS betekent dat auto- en lijnbussen er gebruik van mogen maken. Het woord LIJNBUS betekent dat alleen lijnbussen dit mogen.",
+        "waarom": "Het opschrift op het wegdek vertelt je precies welke groep de strook mag gebruiken, zodat je niet hoeft te gokken.",
+        "valkuil": "BUS en LIJNBUS lijken hetzelfde, maar LIJNBUS sluit touringcars en andere autobussen uit.",
+        "onthoud": "BUS: alle bussen. LIJNBUS: alleen de lijn."
+      },
+      "bronnen": [
+        {
+          "boek": 31,
+          "sectie": "2.4",
+          "anker": "Het woord BUS betekent dat auto- en lijnbussen er gebruik van mogen maken"
+        },
+        {
+          "slide": 29,
+          "anker": "uitleg busstrook, busbaan en bord F11"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "busstrook",
+        "busbaan",
+        "lijnbus"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het woord BUS betekent dat auto- en lijnbussen er gebruik van mogen maken. Het woord LIJNBUS betekent dat alleen lijnbussen dit mogen",
+        "bron": "boek p. 31"
+      }
+    },
+    {
+      "id": "U01-Q009",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Een weg heeft naast de gewone rijstroken nog meer weggedeelten. Welke van deze weggedeelten horen volgens de wet bij de rijbaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een rijstrook.",
+          "feedback": "Goed, een rijstrook is een gedeelte van de rijbaan dat door strepen is gemarkeerd.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een fietsstrook.",
+          "feedback": "Goed, een fietsstrook is een deel van de rijbaan, gemarkeerd met strepen en fietsafbeeldingen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een fietspad.",
+          "feedback": "Fout, een fietspad ligt los van de rijbaan; de rijbaan is elk weggedeelte voor rijdende voertuigen met uitzondering van fietspaden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een busstrook.",
+          "feedback": "Goed, een busstrook is een gemarkeerd gedeelte van de rijbaan, anders dan een busbaan die los ligt.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Een fiets-/bromfietspad.",
+          "feedback": "Fout, het fiets-/bromfietspad wordt net als het fietspad uitdrukkelijk van de rijbaan uitgezonderd.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "De rijbaan is elk voor rijdende voertuigen bestemd weggedeelte, met uitzondering van fietspaden en fiets-/bromfietspaden.",
+        "waarom": "Fietspaden liggen apart van het overige verkeer, terwijl een fietsstrook en een busstrook alleen met strepen op dezelfde rijbaan zijn afgetekend.",
+        "valkuil": "Strook en pad klinken hetzelfde: een fietsstrook of busstrook ligt op de rijbaan, een fietspad ligt ernaast.",
+        "onthoud": "Strook op de rijbaan, pad ernaast."
+      },
+      "bronnen": [
+        {
+          "boek": 33,
+          "sectie": "2.4",
+          "anker": "Elk voor rijdende voertuigen bestemd weggedeelte, met uitzondering van fietspaden en fiets-/bromfietspaden"
+        },
+        {
+          "boek": 31,
+          "sectie": "2.4",
+          "anker": "Een busstrook is een door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan"
+        },
+        {
+          "slide": 28,
+          "anker": "rijbaan = elk weggedeelte voor rijdende voertuigen, m.u.v. fiets-/bromfietspaden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijbaan",
+        "fietsstrook",
+        "busstrook",
+        "fietspad"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Rijbaan: Elk voor rijdende voertuigen bestemd weggedeelte, met uitzondering van fietspaden en fiets-/bromfietspaden",
+        "bron": "boek p. 33; fietsstrook en busstrook als deel van de rijbaan op p. 31",
+        "gewijzigd": "valkuil: strook geconcretiseerd tot fietsstrook en busstrook, want een vluchtstrook is per definitie van de rijbaan afgescheiden"
+      }
+    },
+    {
+      "id": "U01-Q010",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je vriendin is nog in de winkel. Je zet je auto langs de stoep en blijft met draaiende motor achter het stuur wachten tot ze naar buiten komt. Is dit volgens de wet parkeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed, wachten tot iemand naar buiten komt is geen onmiddellijk instappen; je laat de auto langer stilstaan dan daarvoor nodig is, en dat is parkeren, ook met jou achter het stuur.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout, je zit weliswaar achter het stuur met draaiende motor, maar de uitzondering geldt alleen voor de tijd die nodig is voor het onmiddellijk in- of uitstappen; wachten valt daarbuiten en is dus parkeren.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd die nodig is en gebruikt wordt voor het onmiddellijk in- of uitstappen van passagiers of voor het onmiddellijk laden of lossen van goederen.",
+        "waarom": "De uitzondering bestaat alleen voor het moment van in- of uitstappen zelf; wie wacht, gebruikt de stilstand ergens anders voor en staat dus geparkeerd, of de motor nu draait of niet.",
+        "valkuil": "Je denkt: ik zit erin en de motor draait, dus ik sta niet geparkeerd. De definitie kijkt alleen naar waar de stilstand voor wordt gebruikt, niet naar of jij in de auto zit.",
+        "onthoud": "Wachten is geen onmiddellijk instappen: parkeren."
+      },
+      "bronnen": [
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "gedurende de tijd die nodig is en gebruikt wordt voor het onmiddellijk"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "stilstaan",
+        "wachten"
+      ],
+      "reserve": false,
+      "versie": 2,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd die nodig is en gebruikt wordt voor het onmiddellijk in- of uitstappen van passagiers",
+        "bron": "boek p. 38",
+        "gewijzigd": "Herschreven: de oude stam was letterlijk de eerste zelftest van U01-P04 (passagier stapt onmiddellijk uit, geen parkeren). Nu het omgekeerde geval: wachten op een passagier is niet onmiddellijk instappen en dus wel parkeren. Zelfde definitie, andere kant van de grens, sleutel ja in plaats van nee."
+      }
+    },
+    {
+      "id": "U01-Q011",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een rustige weg binnen de bebouwde kom, zonder fietsstrook. Hoe houd je volgens de wet op de juiste manier rechts?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zo dicht mogelijk langs de stoeprand, want je moet zoveel mogelijk rechts houden.",
+          "feedback": "Fout, je moet inderdaad zoveel mogelijk rechts houden, maar wel zo veilig mogelijk; strak langs de stoeprand rijden is niet veilig, dus houd je een redelijke afstand.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "Zoveel mogelijk rechts, maar op redelijke afstand van de stoep.",
+          "feedback": "Goed, je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk, en daarom rijd je op redelijke afstand van stoep of berm.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "In het midden van de rijbaan, zodat je aan beide kanten ruimte overhoudt.",
+          "feedback": "Fout, je bent verplicht om zoveel mogelijk rechts te houden, en het midden van de rijbaan is dat niet; alleen de afstand tot de stoep mag je voor de veiligheid iets ruimer nemen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk. Rijd daarom op redelijke afstand van stoep of berm.",
+        "waarom": "Rechts houden laat ruimte voor tegenliggers en inhalers, maar wie strak langs de stoep of berm rijdt heeft zelf geen ruimte meer om uit te wijken; daarom hoort een redelijke afstand bij de regel.",
+        "valkuil": "Je leest zoveel mogelijk rechts als zo ver mogelijk naar rechts. De wet voegt eraan toe: zo veilig mogelijk.",
+        "onthoud": "Rechts houden, met een redelijke afstand tot stoep of berm."
+      },
+      "bronnen": [
+        {
+          "boek": 35,
+          "sectie": "2.5",
+          "anker": "Je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk"
+        },
+        {
+          "boek": 35,
+          "sectie": "2.5",
+          "anker": "Rijd daarom op redelijke afstand van stoep of berm"
+        },
+        {
+          "slide": 33,
+          "anker": "je moet altijd zoveel mogelijk rechts houden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rechts-houden",
+        "plaats-op-de-weg",
+        "stoep"
+      ],
+      "reserve": false,
+      "versie": 2,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk. Rijd daarom op redelijke afstand van stoep of berm",
+        "bron": "boek p. 35; slide 33",
+        "gewijzigd": "Herschreven naar een ander begrip van U01-P04: rechts houden (regel U01-r20), dat nog geen vraag had. De oude vraag vroeg de definitie van voorrang verlenen, die Q022 al toepast en die U01-P04 in regel, tabel en waarom herhaalt. Soort van kennis naar inzicht."
+      }
+    },
+    {
+      "id": "U01-Q012",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Sommige personen moet je in het verkeer altijd voor laten gaan. Voor wie geldt dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Blinden met een blindenstok.",
+          "feedback": "Goed, blinden met een blindenstok moet je in het verkeer altijd voor laten gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Personen die zich moeilijk voortbewegen.",
+          "feedback": "Goed, personen die zich moeilijk voortbewegen moet je in het verkeer altijd voor laten gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Iedereen die in een rolstoel zit.",
+          "feedback": "Fout, iemand in een rolstoel is niet per definitie een persoon die zich moeilijk voortbeweegt, dus de regel geldt niet automatisch.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Kinderen die naar school lopen.",
+          "feedback": "Fout, kinderen verdienen je aandacht, maar de wet noemt alleen blinden met stok en personen die zich moeilijk voortbewegen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Deze personen moet je in het verkeer altijd voor laten gaan: blinden met blindenstok en personen die zich moeilijk voortbewegen.",
+        "waarom": "Deze personen kunnen niet snel reageren of uitwijken, daarom legt de wet de plicht om te wachten volledig bij jou.",
+        "valkuil": "Je denkt dat een rolstoel altijd betekent dat iemand zich moeilijk voortbeweegt. Kijk naar de persoon, niet naar het hulpmiddel.",
+        "onthoud": "Stok en moeilijk lopen: altijd laten voorgaan."
+      },
+      "bronnen": [
+        {
+          "boek": 37,
+          "sectie": "2.5",
+          "anker": "blinden met blindenstok, personen die zich moeilijk voortbewegen"
+        },
+        {
+          "slide": 33,
+          "anker": "een persoon in een rolstoel is niet per definitie 'een persoon die zich moeilijk voortbeweegt'"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voor-laten-gaan",
+        "blinden",
+        "voetganger"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Deze personen moet je in het verkeer altijd voor laten gaan: blinden met blindenstok, personen die zich moeilijk voortbewegen",
+        "bron": "boek p. 37; rolstoel op slide 33",
+        "opmerking": "Het fotobijschrift op p. 37 noemt ook slechtzienden; hoofdtekst en slide 33 niet. De vraag volgt de hoofdtekst."
+      }
+    },
+    {
+      "id": "U01-Q013",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt langzaam in een scootmobiel over de stoep, tussen de winkelende mensen. Gelden voor jou nu de regels voor voetgangers?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed, een bestuurder van een gehandicaptenvoertuig valt op het voetpad of de stoep onder de regels voor voetgangers, en mag daar niet sneller dan 6 km/u.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout, je zit weliswaar in een voertuig, maar op de stoep gelden voor een gehandicaptenvoertuig de regels voor voetgangers.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "De regels voor voetgangers gelden ook voor bestuurders van een gehandicaptenvoertuig op het voetpad of de stoep, en als zij van of naar een voetpad of stoep oversteken. Zij mogen dan niet sneller rijden dan 6 km/u.",
+        "waarom": "Op de stoep beweeg je je tussen voetgangers, en dan is het veiliger als voor iedereen daar dezelfde regels en hetzelfde tempo gelden.",
+        "valkuil": "Je denkt: een voertuig met een bestuurder, dus bestuurdersregels. Op de stoep kijkt de wet naar de plek, niet naar het voertuig.",
+        "onthoud": "Scootmobiel op de stoep: voetganger, hooguit 6 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "bestuurders van een gehandicaptenvoertuig: op het voetpad of de stoep"
+        },
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "Zij mogen dan niet sneller rijden dan 6 km/u"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "gehandicaptenvoertuig",
+        "voetganger",
+        "stoep"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "bestuurders van een gehandicaptenvoertuig: op het voetpad of de stoep, als zij van / naar een voetpad of stoep oversteken. (Zij mogen dan niet sneller rijden dan 6 km/u)",
+        "bron": "boek p. 26; scootmobiel is gehandicaptenvoertuig: onderschrift boek p. 29",
+        "gewijzigd": "onthoud: stapvoets vervangen door hooguit 6 km/u, het getal dat het boek noemt"
+      }
+    },
+    {
+      "id": "U01-Q014",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Een woonstraat is met een geslotenverklaring afgesloten voor motorvoertuigen, met daaronder het onderbord uitgezonderd bestemmingsverkeer. Wie mag de straat met een motorvoertuig inrijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen bewoners van deze straat.",
+          "feedback": "Fout, de wet spreekt niet over bewoners maar over bestuurders die hun reisdoel alleen via deze weg kunnen bereiken; dat geldt net zo goed voor wie er op bezoek gaat, en lijnbussen vallen er altijd onder.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "Bestuurders die hun reisdoel alleen via deze straat kunnen bereiken, en lijnbussen.",
+          "feedback": "Goed, bestemmingsverkeer zijn bestuurders die hun reisdoel alleen kunnen bereiken via de afgesloten weg, en ook lijnbussen vallen eronder.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Iedereen die de straat als kortere route naar zijn bestemming gebruikt.",
+          "feedback": "Fout, een kortere route is precies het sluipverkeer dat deze uitzondering wil voorkomen; je moet je reisdoel alleen via deze weg kunnen bereiken.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Bestemmingsverkeer zijn bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring is afgesloten voor bepaalde categorieën bestuurders. Ook lijnbussen vallen onder bestemmingsverkeer.",
+        "waarom": "Zo'n geslotenverklaring met uitzondering wordt vaak gebruikt om sluipverkeer te weren, terwijl wie er echt moet zijn gewoon kan komen.",
+        "valkuil": "Je leest bestemmingsverkeer als bewoners. Het gaat om iedereen die daar moet zijn, plus de lijnbus.",
+        "onthoud": "Bestemmingsverkeer: moet er zijn, kan er niet omheen."
+      },
+      "bronnen": [
+        {
+          "boek": 25,
+          "sectie": "2.2",
+          "anker": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring"
+        },
+        {
+          "boek": 25,
+          "sectie": "2.2",
+          "anker": "Een geslotenverklaring met uitzondering voor bestemmingsverkeer wordt vaak gebruikt om sluipverkeer te voorkomen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bestemmingsverkeer",
+        "geslotenverklaring",
+        "lijnbus"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring (verkeersbord) is afgesloten voor bepaalde categorieën bestuurders. Ook lijnbussen vallen onder bestemmingsverkeer",
+        "bron": "boek p. 25",
+        "gewijzigd": "Feedback bij a herschreven langs de definitie (bestuurders die hun reisdoel alleen via deze weg kunnen bereiken, plus lijnbussen) in plaats van het losse woord bezoekers; fouttype van verkeerd_toegepast naar niet_geweten, want wie bewoners kiest kent de definitie niet. Distractor a blijft fout: de definitie noemt geen bewoners en sluit andere bestuurders met een reisdoel in de straat niet uit."
+      }
+    },
+    {
+      "id": "U01-Q015",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Op een landweg kom je verschillende weggebruikers tegen. Welke van hen zijn volgens de wet bestuurders?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een ruiter te paard.",
+          "feedback": "Goed, ruiters zijn weggebruikers en geen voetgangers, en dus bestuurders.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Iemand die een kinderwagen duwt.",
+          "feedback": "Fout, wie te voet een klein voertuig zoals een kinderwagen meevoert, blijft gewoon een voetganger.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Een boer die zijn koeien over de weg leidt.",
+          "feedback": "Goed, geleiders van vee zijn in de verkeerswetgeving geen voetgangers maar bestuurders.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een skateboarder.",
+          "feedback": "Fout, voor rolschaatsers en skateboarders gelden de regels voor voetgangers, ook al gaan ze op wieltjes.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "De bestuurder van een bespannen wagen.",
+          "feedback": "Goed, bestuurders van een bespannen of onbespannen wagen staan in de wet bij de weggebruikers en zijn bestuurders.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "a",
+        "c",
+        "e"
+      ],
+      "uitleg": {
+        "regel": "Bestuurders zijn alle weggebruikers behalve voetgangers. Ruiters, geleiders van rijdieren, trekdieren of vee en bestuurders van een bespannen of onbespannen wagen zijn weggebruikers, en geen voetgangers.",
+        "waarom": "Wie een dier of wagen bestuurt, neemt ruimte in en beweegt zich als een voertuig, en hoort daarom bij de bestuurders.",
+        "valkuil": "Lopen betekent niet automatisch voetganger: met een kinderwagen wel, met een koe niet.",
+        "onthoud": "Voetganger: te voet, klein voertuig of fiets aan de hand. Alles met dier of wagen: bestuurder."
+      },
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.2",
+          "anker": "ruiters, geleiders van rijdieren, trekdieren of vee en bestuurders van een bespannen of onbespannen wagen"
+        },
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving géén voetgangers"
+        },
+        {
+          "boek": 25,
+          "sectie": "2.2",
+          "anker": "Alle weggebruikers behalve voetgangers. Bestuurders van motorvoertuigen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bestuurder",
+        "voetganger",
+        "ruiter",
+        "vee"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Verder: ruiters, geleiders van rijdieren, trekdieren of vee en bestuurders van een bespannen of onbespannen wagen",
+        "bron": "boek p. 27; bestuurders en geen voetgangers: onderschrift boek p. 26; kinderwagen en skateboarders als voetganger: boek p. 26"
+      }
+    },
+    {
+      "id": "U01-Q016",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Een collega komt elke dag op een snelle elektrische fiets naar het werk, die tot 45 km/u wordt ondersteund. Valt dit voertuig volgens de wet onder de bromfietsen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed, een snelle elektrische fiets wordt als bromfiets beschouwd, met een gele kentekenplaat, een helm en rijbewijs AM.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout, het is inderdaad een fiets met trappers, maar door de ondersteuning tot 45 km/u geldt hij als bromfiets en niet als fiets.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Ook een brombakfiets en een snelle elektrische fiets worden als bromfiets beschouwd. Voor deze snelle e-bike gelden dezelfde regels als voor een bromfiets.",
+        "waarom": "Met ondersteuning tot 45 km/u rijdt zo'n fiets even hard als een bromfiets, en dan horen daar ook de plichten van een bromfiets bij.",
+        "valkuil": "Trappers en een zadel maken het nog geen fiets; de snelheid bepaalt de categorie. Een gewone e-bike met trapondersteuning blijft wel een fiets.",
+        "onthoud": "Snelle e-bike: bromfiets met trappers."
+      },
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "een snelle elektrische fiets (high speed e-bike of speed-pedelec) worden als bromfiets beschouwd"
+        },
+        {
+          "slide": 27,
+          "anker": "Voor de speed-pedelec gelden dezelfde regels als voor een bromfiets"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "speed-pedelec",
+        "bromfiets",
+        "e-bike"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook een brombakfiets en een snelle elektrische fiets (high speed e-bike of speed-pedelec) worden als bromfiets beschouwd",
+        "bron": "boek p. 27; slide 27",
+        "opmerking": "Slide 27 bevestigt de feedback bij ja letterlijk: een bromfietsrijbewijs (AM), een bromfietskenteken (gele kentekenplaat) en een WA-verzekering zijn verplicht; een bromfietshelm of een speciale speed-pedelec-helm (norm NTA 8776) is verplicht."
+      }
+    },
+    {
+      "id": "U01-Q017",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Een oudere buurvrouw rijdt in een scootmobiel over de rijbaan naar de supermarkt. Onder welk begrip valt haar scootmobiel?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bromfiets.",
+          "feedback": "Fout, een scootmobiel heeft wel een motor, maar een gehandicaptenvoertuig wordt niet als bromfiets beschouwd.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "Gehandicaptenvoertuig.",
+          "feedback": "Goed, een scootmobiel is een gehandicaptenvoertuig: ingericht voor het vervoer van een gehandicapte en niet breder dan 1,10 meter.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Motorvoertuig.",
+          "feedback": "Fout, gehandicaptenvoertuigen zijn uitgezonderd van de motorvoertuigen, ook al rijden ze hier op de rijbaan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Bijzondere bromfiets.",
+          "feedback": "Fout, bijzondere bromfietsen zijn voertuigen met een typegoedkeuring van de RDW zoals de Segway; een scootmobiel hoort daar niet bij.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een gehandicaptenvoertuig is een voertuig met of zonder motor dat is ingericht voor het vervoer van een gehandicapte, niet breder is dan 1,10 meter en met motor maximaal 45 km/u mag kunnen rijden. Een scootmobiel is een gehandicaptenvoertuig.",
+        "waarom": "Een scootmobiel heeft een motor en lijkt daardoor op een bromfiets, maar de wet zet voertuigen voor gehandicapten apart, zodat er eigen regels voor kunnen gelden, zoals de voetgangersregels op de stoep.",
+        "valkuil": "Je ziet een motor en denkt bromfiets of motorvoertuig. Het gebruik voor een gehandicapte maakt het een eigen categorie.",
+        "onthoud": "Scootmobiel: gehandicaptenvoertuig, geen bromfiets."
+      },
+      "bronnen": [
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
+        },
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "niet breder is dan 1,10 meter"
+        },
+        {
+          "boek": 29,
+          "sectie": "2.3",
+          "anker": "Onderschrift (lichtblauw cursief): Een scootmobiel is een gehandicaptenvoertuig"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "gehandicaptenvoertuig",
+        "scootmobiel",
+        "bromfiets"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Een scootmobiel is een gehandicaptenvoertuig",
+        "bron": "boek p. 29 (onderschrift bij de foto van de scootmobiel); definitie en niet als bromfiets beschouwd: boek p. 28",
+        "gewijzigd": "waarom herschreven: de oude tekst gaf het gehandicaptenvoertuig een plek op stoep, fietspad en rijbaan, maar de bronnen van deze unit zeggen alleen iets over de stoep (p. 26). Derde bron vervangen: het onderschrift over geen kentekenplaat droeg de sleutel niet en wordt op p. 30 tegengesproken (gele plaat voor gehandicaptenvoertuig met motor); nu het onderschrift dat de scootmobiel een gehandicaptenvoertuig noemt.",
+        "opmerking": "Het bewijs is een onderschrift van vijf woorden, maar het is de enige plek waar het boek de scootmobiel bij naam indeelt, en de definitie op p. 28 past erbij. Voldoende onderbouwd."
+      }
+    },
+    {
+      "id": "U01-Q018",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Je leert de definitie van een bromfiets. Welke kenmerken horen volgens de wet bij een bromfiets?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Gemaakt voor een snelheid van ten hoogste 45 km/u.",
+          "feedback": "Goed, een bromfiets is gemaakt voor een snelheid van ten hoogste 45 km/u.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een verbrandingsmotor van maximaal 50 cm³ of een elektromotor van maximaal 4 kW.",
+          "feedback": "Goed, de aandrijving is een verbrandingsmotor van maximaal 50 cm³ of een elektromotor van maximaal 4 kW.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een gele kentekenplaat aan de achterkant.",
+          "feedback": "Goed, je herkent bromfietsen aan de gele kentekenplaat aan de achterkant.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een blauwe kentekenplaat aan de achterkant.",
+          "feedback": "Fout, blauw is de kleur van de snorfiets; de bromfiets heeft een gele plaat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Altijd precies twee wielen.",
+          "feedback": "Fout, een bromfiets kan twee, drie of vier wielen hebben; een brommobiel is bijvoorbeeld een bromfiets op meer dan twee wielen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Een bromfiets is een voertuig op twee, drie of vier wielen dat is gemaakt voor een snelheid van ten hoogste 45 km/u en wordt aangedreven door een verbrandingsmotor van maximaal 50 cm³ of een elektromotor van maximaal 4 kW.",
+        "waarom": "Snelheid, motorinhoud en vermogen zijn meetbaar, en daarmee kan de wet scherp bepalen wat wel en niet een bromfiets is.",
+        "valkuil": "Je denkt aan het klassieke brommertje op twee wielen, maar ook de brombakfiets, de snelle e-bike en de brommobiel zijn bromfietsen.",
+        "onthoud": "Bromfiets: 45, geel, twee tot vier wielen."
+      },
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "Je herkent bromfietsen aan de gele kentekenplaat aan de achterkant"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bromfiets",
+        "definitie",
+        "kentekenplaat"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Voertuig op twee, drie of vier wielen dat is gemaakt voor een snelheid van ten hoogste 45 km/u en wordt aangedreven door: een verbrandingsmotor van max. 50 cm³, of, een elektromotor van maximaal 4 kW",
+        "bron": "boek p. 27",
+        "gewijzigd": "Feedback bij e: brombakfiets als voorbeeld van meer dan twee wielen geschrapt, het boek zegt daar niets over het aantal wielen; de brommobiel is wel per definitie een bromfiets op meer dan twee wielen. Moeilijkheid van 2 naar 1: dit is het opzeggen van de definitie."
+      }
+    },
+    {
+      "id": "U01-Q019",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Op een weg binnen de bebouwde kom zie je voor je een gedeelte van de rijbaan met schuine witte strepen. Er komt een brede vrachtauto tegemoet. Mag je over die strepen rijden om hem meer ruimte te geven?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, ruimte geven klinkt veilig, maar dit is een verdrijvingsvlak en daar mag je niet op rijden; alleen op een spitsstrook of rechtmatig op een busbaan of busstrook geldt een uitzondering.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, een gedeelte van de rijbaan met schuine strepen is een verdrijvingsvlak, en daarop mag je niet rijden.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een verdrijvingsvlak is een gedeelte van de rijbaan waarop schuine strepen zijn aangebracht. Hierop mag je niet rijden, behalve als je op een spitsstrook rijdt of rechtmatig een busbaan of busstrook volgt.",
+        "waarom": "De strepen zijn juist aangebracht om verkeer van dat stuk weg te houden, bijvoorbeeld bij een versmalling of een splitsing, zodat iedereen dezelfde lijn volgt.",
+        "valkuil": "Je ziet gewoon asfalt met strepen en denkt dat je er in geval van nood overheen mag. Behalve op een spitsstrook of bij het rechtmatig volgen van een busbaan of busstrook zijn er geen uitzonderingen.",
+        "onthoud": "Schuine strepen: niet op rijden."
+      },
+      "bronnen": [
+        {
+          "boek": 34,
+          "sectie": "2.4",
+          "anker": "Een gedeelte van de rijbaan waarop schuine strepen zijn aangebracht"
+        },
+        {
+          "boek": 34,
+          "sectie": "2.4",
+          "anker": "Hierop mag je niet rijden, behalve als je op een spitsstrook rijdt"
+        },
+        {
+          "slide": 29,
+          "anker": "verboden op te rijden: verdrijvingsvlak puntstuk"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verdrijvingsvlak",
+        "rijbaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Een gedeelte van de rijbaan waarop schuine strepen zijn aangebracht. Hierop mag je niet rijden, behalve als je op een spitsstrook rijdt of rechtmatig een busbaan of busstrook volgt",
+        "bron": "boek p. 34; slide 29",
+        "gewijzigd": "valkuil: de uitzondering voor de busstrook toegevoegd, het boek noemt busbaan en busstrook"
+      }
+    },
+    {
+      "id": "U01-Q020",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op de doorgaande rijbaan van een autosnelweg. Rechts ligt een strook die met een blokmarkering is afgescheiden en waarop een auto naar de afrit rijdt. Hoe heet die strook?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een invoegstrook.",
+          "feedback": "Fout, een invoegstrook is ook met blokmarkering afgescheiden, maar is bestemd voor bestuurders die de doorgaande rijbaan willen oprijden, niet verlaten.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Een uitrijstrook.",
+          "feedback": "Goed, een uitrijstrook is met blokmarkering afgescheiden en bestemd voor bestuurders die de doorgaande rijbaan willen verlaten.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een vluchtstrook.",
+          "feedback": "Fout, een vluchtstrook is met een doorgetrokken streep afgescheiden en alleen bestemd voor noodgevallen, niet om de weg te verlaten.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een spitsstrook.",
+          "feedback": "Fout, een spitsstrook is de vluchtstrook die tijdens de spits als extra rijstrook wordt gebruikt; dat is geen strook naar een afrit.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een uitrijstrook is afgescheiden met blokmarkering en is bestemd voor bestuurders die de doorgaande rijbaan willen verlaten.",
+        "waarom": "De blokmarkering laat je van een afstand zien dat je hier de rijbaan af kunt zonder het doorgaande verkeer te storen.",
+        "valkuil": "Invoegstrook en uitrijstrook zien er hetzelfde uit; kijk naar de richting: erop is invoegen, eraf is uitrijden.",
+        "onthoud": "Blokmarkering: erop invoegen, eraf uitrijden."
+      },
+      "bronnen": [
+        {
+          "boek": 32,
+          "sectie": "2.4",
+          "anker": "bestemd voor bestuurders die de doorgaande rijbaan willen verlaten"
+        },
+        {
+          "boek": 34,
+          "sectie": "2.4",
+          "anker": "dat is bestemd voor gebruik in noodgevallen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "uitrijstrook",
+        "invoegstrook",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een uitrijstrook is ook afgescheiden met blokmarkering en is bestemd voor bestuurders die de doorgaande rijbaan willen verlaten",
+        "bron": "boek p. 32; vluchtstrook en spitsstrook op p. 34"
+      }
+    },
+    {
+      "id": "U01-Q021",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In de spits rijd je op een autosnelweg waar links een smalle extra rijstrook is geopend, een plusstrook. Blijft de vluchtstrook rechts nu beschikbaar voor noodgevallen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed, bij een plusstrook links blijft de vluchtstrook rechts beschikbaar voor pech- en noodgevallen; dat is precies het voordeel ervan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout, je verwart de plusstrook met de spitsstrook rechts: alleen bij een spitsstrook rechts is de vluchtstrook in gebruik als rijstrook.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als links een extra rijstrook is aangelegd voor een betere doorstroming op drukke tijden, wordt dat een plusstrook genoemd. Het nadeel is dat deze smaller is dan de normale rijstroken, het voordeel dat de vluchtstrook rechts beschikbaar blijft.",
+        "waarom": "Een spitsstrook rechts neemt de vluchtstrook in, een plusstrook links niet, en daarom heb je bij pech alleen bij een plusstrook nog een veilige plek.",
+        "valkuil": "Spitsstrook en plusstrook worden door elkaar gehaald. Rechts: vluchtstrook weg. Links: vluchtstrook blijft.",
+        "onthoud": "Plusstrook links, vluchtstrook blijft."
+      },
+      "bronnen": [
+        {
+          "boek": 34,
+          "sectie": "2.4",
+          "anker": "het voordeel is dat de vluchtstrook rechts beschikbaar blijft voor pech- en noodgevallen"
+        },
+        {
+          "slide": 30,
+          "anker": "Het voordeel is dat de vluchtstrook rechts gewoon beschikbaar blijft voor noodgevallen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "plusstrook",
+        "spitsstrook",
+        "vluchtstrook",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "het voordeel is dat de vluchtstrook rechts beschikbaar blijft voor pech- en noodgevallen",
+        "bron": "boek p. 34; slide 30",
+        "gewijzigd": "Moeilijkheid van 3 naar 2: de stam noemt links en plusstrook, dus er is een regel toe te passen, geen tweede regel of sterke afleider.",
+        "opmerking": "Slide 30 noemt de plusstrook zelf ook een spitsstrook (Deze spitsstrook wordt ook wel plusstrook genoemd); het boek houdt spitsstrook rechts en plusstrook links uit elkaar. De vraag en de feedback zeggen steeds spitsstrook rechts, dus dat botst niet."
+      }
+    },
+    {
+      "id": "U01-Q022",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij een T-kruising nadert van links een lijnbus over de voorrangsweg. Je remt zo laat dat de buschauffeur moet uitwijken, maar je komt wel voor de haaientanden tot stilstand. Heb je voorrang verleend?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, je bent inderdaad gestopt, maar voorrang verlenen betekent de ander ongehinderd zijn weg laten vervolgen; de bus moest uitwijken, dus je hebt hem gehinderd.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, voorrang verlenen houdt in dat de betrokken bestuurder ongehinderd zijn weg kan vervolgen, en dat is hier niet gelukt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Voorrang verlenen houdt in: de betrokken bestuurder ongehinderd zijn weg laten vervolgen. Zorg dus dat je op tijd afremt en op de juiste plek stopt.",
+        "waarom": "Een buschauffeur die moet uitwijken of schrikken is gehinderd, en of jij uiteindelijk stilstaat maakt daarvoor niets meer uit.",
+        "valkuil": "Je denkt dat stoppen voor de haaientanden genoeg is. Het gaat om wat de ander van jou merkt, en dat begint al bij het afremmen.",
+        "onthoud": "Te laat remmen is geen voorrang verlenen."
+      },
+      "bronnen": [
+        {
+          "boek": 36,
+          "sectie": "2.5",
+          "anker": "Voorrang verlenen houdt in: de betrokken bestuurder ongehinderd zijn weg laten vervolgen"
+        },
+        {
+          "boek": 36,
+          "sectie": "2.5",
+          "anker": "zorg je ervoor dat de bus voldoende ruimte heeft en niet gehinderd wordt"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "voorrang-verlenen",
+        "haaientanden",
+        "lijnbus"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Voorrang verlenen houdt in: de betrokken bestuurder ongehinderd zijn weg laten vervolgen. Zorg dus dat je op tijd afremt (zodat de ander niet schrikt)",
+        "bron": "boek p. 36",
+        "opmerking": "Q011 vroeg hetzelfde begrip als definitie; Q011 is omgebouwd naar rechts houden, deze toepassingsvraag blijft."
+      }
+    },
+    {
+      "id": "U01-Q023",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je auto start niet meer en een vriend sleept je met een sleepkabel naar de garage. Welke regel geldt bij het slepen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De afstand tussen de achterkant van de trekkende auto en de voorkant van jouw auto mag niet meer dan 5 meter zijn.",
+          "feedback": "Goed, het is verboden een ander motorvoertuig te slepen als de afstand tussen beide voertuigen meer is dan 5 meter.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er moet een rood vlaggetje aan de sleepkabel hangen.",
+          "feedback": "Fout, veel mensen hangen een vlaggetje aan de kabel, maar een rood vlaggetje is niet verplicht.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Jij hebt achter het stuur van de gesleepte auto geen rijbewijs nodig.",
+          "feedback": "Fout, een gesleept motorvoertuig geldt als aanhangwagen, maar de bestuurder ervan moet toch een geldig rijbewijs hebben.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Het is verboden een ander motorvoertuig te slepen als de afstand van de achterkant van het trekkende voertuig tot aan de voorkant van het gesleepte voertuig meer is dan 5 meter.",
+        "waarom": "Bij een langere kabel kan ander verkeer tussen beide auto's schieten en ziet niemand meer dat de twee bij elkaar horen.",
+        "valkuil": "Je denkt dat een vlaggetje verplicht is en de afstand vrij. Het is precies andersom.",
+        "onthoud": "Slepen: hooguit 5 meter, vlaggetje mag."
+      },
+      "bronnen": [
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "tot aan de voorkant van het gesleepte voertuig meer is dan 5 meter"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "Een rood vlaggetje is niet verplicht"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "De bestuurder van het gesleepte motorvoertuig moet een geldig rijbewijs hebben"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "slepen",
+        "aanhangwagen",
+        "pech"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het is verboden een ander motorvoertuig te slepen, als de afstand van de achterkant van het trekkende voertuig tot aan de voorkant van het gesleepte voertuig meer is dan 5 meter",
+        "bron": "boek p. 38; rood vlaggetje niet verplicht: onderschrift p. 38; rijbewijs gesleept voertuig: voetnoot 6 op p. 27"
+      }
+    },
+    {
+      "id": "U01-Q024",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Op een koude ochtend stap je in je auto om naar je werk te rijden. Welke van deze situaties zijn volgens de wet verboden tijdens het rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je houdt je mobieltje vast om een bericht te lezen.",
+          "feedback": "Goed, tijdens het rijden een mobiel elektronisch apparaat vasthouden is verboden voor bestuurders.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je belt handsfree.",
+          "feedback": "Fout, handsfree bellen mag wel, al leidt het je ook af en kun je het beter niet doen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je voorruit is nog beslagen.",
+          "feedback": "Goed, rijden met beslagen of bevroren ruiten, de voorruit en de voorste zijruiten, is verboden.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Dozen op de achterbank belemmeren je zicht via de spiegels.",
+          "feedback": "Goed, je moet een goed uitzicht hebben naar voren, opzij en via je spiegels; lading die dat belemmert is verboden.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Er zit een barst in het zichtveld van je voorruit.",
+          "feedback": "Goed, je mag niet gaan rijden als er een barst in het zichtveld van je voorruit of in je spiegels zit.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "a",
+        "c",
+        "d",
+        "e"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet aan het verkeer deelnemen als je tijdens het sturen wordt gehinderd door lading of een andere omstandigheid, en je moet een goed uitzicht hebben naar voren, opzij en via je spiegels. Een mobiel elektronisch apparaat vasthouden tijdens het rijden is verboden.",
+        "waarom": "Wat je niet ziet of niet op tijd kunt bedienen, kun je ook niet vermijden, en daarom stelt de wet eisen aan zicht en bediening voordat je wegrijdt.",
+        "valkuil": "Je denkt dat alleen bellen met de telefoon aan je oor verboden is, of dat een klein stukje beslagen ruit wel meevalt.",
+        "onthoud": "Zicht vrij, handen vrij, dan pas rijden."
+      },
+      "bronnen": [
+        {
+          "boek": 35,
+          "sectie": "2.5",
+          "anker": "Verder moet je een goed uitzicht hebben naar voren, opzij en via je spiegels"
+        },
+        {
+          "boek": 35,
+          "sectie": "2.5",
+          "anker": "met beslagen of bevroren ruiten (voorruit en voorste zijruiten) is verboden"
+        },
+        {
+          "boek": 36,
+          "sectie": "2.5",
+          "anker": "verboden om tijdens het rijden een mobiel elektronisch apparaat, zoals een mobieltje"
+        },
+        {
+          "boek": 36,
+          "sectie": "2.5",
+          "anker": "Handsfree bellen mág wel, maar kun je eigenlijk beter ook niet doen"
+        },
+        {
+          "slide": 31,
+          "anker": "een mobiel apparaat vasthouden is niet toegestaan tijdens het rijden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "uitzicht",
+        "mobiel",
+        "lading"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Rijden terwijl lading je zicht of handelingen belemmert, terwijl je niet in staat bent om je auto goed te bedienen, met beslagen of bevroren ruiten (voorruit en voorste zijruiten) is verboden",
+        "bron": "boek p. 35 (onderschrift); mobiel vasthouden en handsfree: boek p. 36 en slide 31"
+      }
+    }
+  ]
+}

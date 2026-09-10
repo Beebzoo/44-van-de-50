@@ -182,10 +182,14 @@ const asList = b => Array.isArray(b) ? b : [b];
 
 /* ==== gate 5: dashes, everywhere ==== */
 function gateDashes() {
-  let files;
+  let files = [];
   try {
     files = execFileSync("git", ["-C", REPO, "ls-files", "--cached", "--others", "--exclude-standard"], { encoding: "utf8" }).split("\n").filter(Boolean);
-  } catch (e) { files = []; }
+  } catch (e) { /* no git here: walk the tree instead */ }
+  if (!files.length) {
+    const walk = (dir, out) => { for (const f of fs.readdirSync(dir)) { if (f === ".git" || f === "node_modules") continue; const p = path.join(dir, f); if (fs.statSync(p).isDirectory()) walk(p, out); else out.push(path.relative(REPO, p)); } return out; };
+    files = walk(REPO, []);
+  }
   const SKIP = /\.(woff2|png|jpg|jpeg|webp|ico|pdf|ttf|otf)$|(^|\/)(OFL\.txt|LICENSE[^/]*)$/i;
   for (const rel of files) {
     if (SKIP.test(rel)) continue;

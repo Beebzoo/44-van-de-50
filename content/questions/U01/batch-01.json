@@ -18,7 +18,8 @@
         "onthoud": "Lopen met iets aan de hand: voetganger."
       },
       "bronnen": [{"boek": 26, "sectie": "2.2", "anker": "personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren"}],
-      "cbr_onderwerp": "wetgeving", "moeilijkheid": 1, "tier": "must", "tags": ["voetganger", "fiets", "zebrapad"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "wetgeving", "moeilijkheid": 1, "tier": "must", "tags": ["voetganger", "fiets", "zebrapad"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "De regels voor voetgangers gelden ook voor: personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren", "bron": "boek p. 26"}
     },
     {
       "id": "U01-Q002", "unit": "U01", "pagina": "U01-P01", "type": "ja_nee", "soort": "inzicht",
@@ -39,7 +40,8 @@
         {"boek": 26, "sectie": "2.2", "anker": "geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving géén voetgangers"},
         {"boek": 27, "sectie": "2.2", "anker": "ruiters, geleiders van rijdieren, trekdieren of vee en bestuurders van een bespannen of onbespannen wagen"}
       ],
-      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["bestuurder", "voetganger", "geleider", "vee"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["bestuurder", "voetganger", "geleider", "vee"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "ruiters en geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving géén voetgangers maar bestuurders", "bron": "boek p. 26 (onderschrift bij de foto van de man met het paard)"}
     },
     {
       "id": "U01-Q003", "unit": "U01", "pagina": "U01-P01", "type": "meerkeuze", "soort": "inzicht",
@@ -58,7 +60,8 @@
         "onthoud": "Sturen, les geven of examen afnemen: alle drie bestuurder."
       },
       "bronnen": [{"boek": 25, "sectie": "2.2", "anker": "Iedereen die zelf een motorvoertuig bestuurt, rijles geeft of een rijexamen afneemt"}],
-      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["bestuurder", "motorvoertuig", "rijles"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["bestuurder", "motorvoertuig", "rijles"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Bestuurders van motorvoertuigen: Iedereen die zelf een motorvoertuig bestuurt, rijles geeft of een rijexamen afneemt", "bron": "boek p. 25", "opmerking": "Zelfde begrip als de eerste zelftest op U01-P01, maar de vraag vraagt naar allebei en dwingt de leerling verder dan de zelftest; laten staan."}
     },
     {
       "id": "U01-Q004", "unit": "U01", "pagina": "U01-P02", "type": "ja_nee", "soort": "inzicht",
@@ -79,7 +82,8 @@
         {"boek": 27, "sectie": "2.3", "anker": "Bromfiets op meer dan twee wielen, die voorzien is van een gesloten carrosserie"},
         {"boek": 29, "sectie": "2.3", "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"}
       ],
-      "cbr_onderwerp": "wetgeving", "moeilijkheid": 3, "tier": "must", "tags": ["brommobiel", "bromfiets", "motorvoertuig"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "wetgeving", "moeilijkheid": 3, "tier": "must", "tags": ["brommobiel", "bromfiets", "motorvoertuig"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Bromfiets op meer dan twee wielen, die voorzien is van een gesloten carrosserie. Brommobielen zien eruit als kleine personenauto's en volgen de regels van motorvoertuigen", "bron": "boek p. 27; de uitsluiting van bromfietsen staat bij Motorvoertuigen op boek p. 29"}
     },
     {
       "id": "U01-Q005", "unit": "U01", "pagina": "U01-P02", "type": "meerkeuze", "soort": "kennis",
@@ -101,7 +105,8 @@
         {"boek": 30, "sectie": "2.3", "anker": "aan de achterzijde voorzien van een blauwe kentekenplaat"},
         {"boek": 27, "sectie": "2.3", "anker": "Je herkent bromfietsen aan de gele kentekenplaat aan de achterkant"}
       ],
-      "cbr_onderwerp": "voertuigkennis", "moeilijkheid": 1, "tier": "must", "tags": ["snorfiets", "kentekenplaat", "bromfiets"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "voertuigkennis", "moeilijkheid": 1, "tier": "must", "tags": ["snorfiets", "kentekenplaat", "bromfiets"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u, aan de achterzijde voorzien van een blauwe kentekenplaat", "bron": "boek p. 30; de kleuren geel en lichtblauw staan in de plaatjesrij op p. 30"}
     },
     {
       "id": "U01-Q006", "unit": "U01", "pagina": "U01-P02", "type": "meervoudig", "soort": "kennis",
@@ -126,7 +131,8 @@
         {"boek": 29, "sectie": "2.3", "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"},
         {"boek": 29, "sectie": "2.3", "anker": "Motorvoertuig op twee wielen, met of zonder zijspan of aanhangwagen"}
       ],
-      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["motorvoertuig", "definitie"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["motorvoertuig", "definitie"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Alle voertuigen die door een motor worden aangedreven, behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen", "bron": "boek p. 29", "opmerking": "Feedback bij c klopt: Motorrijtuigen op p. 29 zondert alleen trams en fietsen met trapondersteuning uit, dus een bromfiets is wel motorrijtuig en geen motorvoertuig."}
     },
     {
       "id": "U01-Q007", "unit": "U01", "pagina": "U01-P03", "type": "ja_nee", "soort": "inzicht",
@@ -144,7 +150,8 @@
         "onthoud": "Tankstation en parkeerplaats: naast de autosnelweg, niet erop."
       },
       "bronnen": [{"boek": 30, "sectie": "2.4", "anker": "De langs autosnelwegen gelegen parkeerplaatsen, tankstations en bushaltes maken geen deel uit van de autosnelweg"}],
-      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["autosnelweg", "tankstation"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["autosnelweg", "tankstation"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "De langs autosnelwegen gelegen parkeerplaatsen, tankstations en bushaltes maken geen deel uit van de autosnelweg", "bron": "boek p. 30"}
     },
     {
       "id": "U01-Q008", "unit": "U01", "pagina": "U01-P03", "type": "meerkeuze", "soort": "inzicht",
@@ -166,7 +173,8 @@
         {"boek": 31, "sectie": "2.4", "anker": "Het woord BUS betekent dat auto- en lijnbussen er gebruik van mogen maken"},
         {"slide": 29, "anker": "uitleg busstrook, busbaan en bord F11"}
       ],
-      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["busstrook", "busbaan", "lijnbus"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["busstrook", "busbaan", "lijnbus"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Het woord BUS betekent dat auto- en lijnbussen er gebruik van mogen maken. Het woord LIJNBUS betekent dat alleen lijnbussen dit mogen", "bron": "boek p. 31"}
     },
     {
       "id": "U01-Q009", "unit": "U01", "pagina": "U01-P03", "type": "meervoudig", "soort": "kennis",
@@ -183,7 +191,7 @@
       "uitleg": {
         "regel": "De rijbaan is elk voor rijdende voertuigen bestemd weggedeelte, met uitzondering van fietspaden en fiets-/bromfietspaden.",
         "waarom": "Fietspaden liggen apart van het overige verkeer, terwijl een fietsstrook en een busstrook alleen met strepen op dezelfde rijbaan zijn afgetekend.",
-        "valkuil": "Strook en pad klinken hetzelfde: een strook ligt op de rijbaan, een pad ligt ernaast.",
+        "valkuil": "Strook en pad klinken hetzelfde: een fietsstrook of busstrook ligt op de rijbaan, een fietspad ligt ernaast.",
         "onthoud": "Strook op de rijbaan, pad ernaast."
       },
       "bronnen": [
@@ -191,44 +199,54 @@
         {"boek": 31, "sectie": "2.4", "anker": "Een busstrook is een door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan"},
         {"slide": 28, "anker": "rijbaan = elk weggedeelte voor rijdende voertuigen, m.u.v. fiets-/bromfietspaden"}
       ],
-      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["rijbaan", "fietsstrook", "busstrook", "fietspad"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["rijbaan", "fietsstrook", "busstrook", "fietspad"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Rijbaan: Elk voor rijdende voertuigen bestemd weggedeelte, met uitzondering van fietspaden en fiets-/bromfietspaden", "bron": "boek p. 33; fietsstrook en busstrook als deel van de rijbaan op p. 31", "gewijzigd": "valkuil: strook geconcretiseerd tot fietsstrook en busstrook, want een vluchtstrook is per definitie van de rijbaan afgescheiden"}
     },
     {
       "id": "U01-Q010", "unit": "U01", "pagina": "U01-P04", "type": "ja_nee", "soort": "inzicht",
-      "stam": "Je stopt met je auto langs de stoep. Je passagier stapt onmiddellijk uit en je rijdt meteen weer weg. Is dit volgens de wet parkeren?",
+      "stam": "Je vriendin is nog in de winkel. Je zet je auto langs de stoep en blijft met draaiende motor achter het stuur wachten tot ze naar buiten komt. Is dit volgens de wet parkeren?",
       "media": null,
       "opties": [
-        {"id": "ja", "tekst": "Ja", "feedback": "Fout, de auto stond even stil, maar stilstaan voor het onmiddellijk in- of uitstappen van passagiers valt buiten de definitie van parkeren.", "fouttype": "verkeerd_toegepast"},
-        {"id": "nee", "tekst": "Nee", "feedback": "Goed, parkeren is het laten stilstaan van een voertuig anders dan voor het onmiddellijk in- of uitstappen van passagiers of het onmiddellijk laden of lossen.", "fouttype": null}
+        {"id": "ja", "tekst": "Ja", "feedback": "Goed, wachten tot iemand naar buiten komt is geen onmiddellijk instappen; je laat de auto langer stilstaan dan daarvoor nodig is, en dat is parkeren, ook met jou achter het stuur.", "fouttype": null},
+        {"id": "nee", "tekst": "Nee", "feedback": "Fout, je zit weliswaar achter het stuur met draaiende motor, maar de uitzondering geldt alleen voor de tijd die nodig is voor het onmiddellijk in- of uitstappen; wachten valt daarbuiten en is dus parkeren.", "fouttype": "verkeerd_toegepast"}
       ],
-      "correct": ["nee"],
+      "correct": ["ja"],
       "uitleg": {
         "regel": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd die nodig is en gebruikt wordt voor het onmiddellijk in- of uitstappen van passagiers of voor het onmiddellijk laden of lossen van goederen.",
-        "waarom": "Zonder deze uitzondering zou je nergens iemand kunnen afzetten waar een parkeerverbod geldt, terwijl het verkeer daar nauwelijks iets van merkt.",
-        "valkuil": "Je denkt dat elke stilstaande auto geparkeerd staat. Alleen het onmiddellijke in- en uitstappen en laden en lossen is geen parkeren.",
-        "onthoud": "Onmiddellijk in, uit, laden, lossen: geen parkeren."
+        "waarom": "De uitzondering bestaat alleen voor het moment van in- of uitstappen zelf; wie wacht, gebruikt de stilstand ergens anders voor en staat dus geparkeerd, of de motor nu draait of niet.",
+        "valkuil": "Je denkt: ik zit erin en de motor draait, dus ik sta niet geparkeerd. De definitie kijkt alleen naar waar de stilstand voor wordt gebruikt, niet naar of jij in de auto zit.",
+        "onthoud": "Wachten is geen onmiddellijk instappen: parkeren."
       },
-      "bronnen": [{"boek": 38, "sectie": "2.5", "anker": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd"}],
-      "cbr_onderwerp": "wetgeving", "moeilijkheid": 2, "tier": "must", "tags": ["parkeren", "stilstaan"], "reserve": false, "versie": 1, "status": "concept"
+      "bronnen": [
+        {"boek": 38, "sectie": "2.5", "anker": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd"},
+        {"boek": 38, "sectie": "2.5", "anker": "gedurende de tijd die nodig is en gebruikt wordt voor het onmiddellijk"}
+      ],
+      "cbr_onderwerp": "wetgeving", "moeilijkheid": 3, "tier": "must", "tags": ["parkeren", "stilstaan", "wachten"], "reserve": false, "versie": 2, "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd die nodig is en gebruikt wordt voor het onmiddellijk in- of uitstappen van passagiers", "bron": "boek p. 38", "gewijzigd": "Herschreven: de oude stam was letterlijk de eerste zelftest van U01-P04 (passagier stapt onmiddellijk uit, geen parkeren). Nu het omgekeerde geval: wachten op een passagier is niet onmiddellijk instappen en dus wel parkeren. Zelfde definitie, andere kant van de grens, sleutel ja in plaats van nee."}
     },
     {
-      "id": "U01-Q011", "unit": "U01", "pagina": "U01-P04", "type": "meerkeuze", "soort": "kennis",
-      "stam": "Je nadert een kruispunt waar je een andere bestuurder voorrang moet verlenen. Wat houdt voorrang verlenen volgens de wet in?",
+      "id": "U01-Q011", "unit": "U01", "pagina": "U01-P04", "type": "meerkeuze", "soort": "inzicht",
+      "stam": "Je rijdt op een rustige weg binnen de bebouwde kom, zonder fietsstrook. Hoe houd je volgens de wet op de juiste manier rechts?",
       "media": null,
       "opties": [
-        {"id": "a", "tekst": "Altijd stoppen voor het kruispunt tot de andere bestuurder voorbij is.", "feedback": "Fout, stoppen kan nodig zijn, maar het is geen verplichting op zich; het gaat erom dat de ander niet gehinderd wordt.", "fouttype": "verkeerd_toegepast"},
-        {"id": "b", "tekst": "De betrokken bestuurder ongehinderd zijn weg laten vervolgen.", "feedback": "Goed, voorrang verlenen houdt in dat je de betrokken bestuurder ongehinderd zijn weg laat vervolgen.", "fouttype": null},
-        {"id": "c", "tekst": "Je snelheid verminderen en de andere bestuurder een teken geven dat hij mag rijden.", "feedback": "Fout, een teken geven staat niet in de definitie en kan verwarring geven; de ander moet gewoon ongehinderd door kunnen rijden.", "fouttype": "niet_geweten"}
+        {"id": "a", "tekst": "Zo dicht mogelijk langs de stoeprand, want je moet zoveel mogelijk rechts houden.", "feedback": "Fout, je moet inderdaad zoveel mogelijk rechts houden, maar wel zo veilig mogelijk; strak langs de stoeprand rijden is niet veilig, dus houd je een redelijke afstand.", "fouttype": "verkeerd_toegepast"},
+        {"id": "b", "tekst": "Zoveel mogelijk rechts, maar op redelijke afstand van de stoep.", "feedback": "Goed, je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk, en daarom rijd je op redelijke afstand van stoep of berm.", "fouttype": null},
+        {"id": "c", "tekst": "In het midden van de rijbaan, zodat je aan beide kanten ruimte overhoudt.", "feedback": "Fout, je bent verplicht om zoveel mogelijk rechts te houden, en het midden van de rijbaan is dat niet; alleen de afstand tot de stoep mag je voor de veiligheid iets ruimer nemen.", "fouttype": "niet_geweten"}
       ],
       "correct": ["b"],
       "uitleg": {
-        "regel": "Voorrang verlenen houdt in: de betrokken bestuurder ongehinderd zijn weg laten vervolgen.",
-        "waarom": "Als de ander moet remmen of schrikt, heb je in de praktijk geen voorrang verleend, ook al ben je uiteindelijk gestopt.",
-        "valkuil": "Je denkt dat voorrang verlenen betekent: stoppen. Het betekent: de ander niet hinderen, en dat vraagt op tijd afremmen.",
-        "onthoud": "Voorrang verleend is: de ander merkt niets van jou."
+        "regel": "Je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk. Rijd daarom op redelijke afstand van stoep of berm.",
+        "waarom": "Rechts houden laat ruimte voor tegenliggers en inhalers, maar wie strak langs de stoep of berm rijdt heeft zelf geen ruimte meer om uit te wijken; daarom hoort een redelijke afstand bij de regel.",
+        "valkuil": "Je leest zoveel mogelijk rechts als zo ver mogelijk naar rechts. De wet voegt eraan toe: zo veilig mogelijk.",
+        "onthoud": "Rechts houden, met een redelijke afstand tot stoep of berm."
       },
-      "bronnen": [{"boek": 36, "sectie": "2.5", "anker": "Voorrang verlenen houdt in: de betrokken bestuurder ongehinderd zijn weg laten vervolgen"}],
-      "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 1, "tier": "must", "tags": ["voorrang", "voorrang-verlenen"], "reserve": false, "versie": 1, "status": "concept"
+      "bronnen": [
+        {"boek": 35, "sectie": "2.5", "anker": "Je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk"},
+        {"boek": 35, "sectie": "2.5", "anker": "Rijd daarom op redelijke afstand van stoep of berm"},
+        {"slide": 33, "anker": "je moet altijd zoveel mogelijk rechts houden"}
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg", "moeilijkheid": 2, "tier": "must", "tags": ["rechts-houden", "plaats-op-de-weg", "stoep"], "reserve": false, "versie": 2, "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Je bent verplicht om zoveel mogelijk rechts te houden, maar wel zo veilig mogelijk. Rijd daarom op redelijke afstand van stoep of berm", "bron": "boek p. 35; slide 33", "gewijzigd": "Herschreven naar een ander begrip van U01-P04: rechts houden (regel U01-r20), dat nog geen vraag had. De oude vraag vroeg de definitie van voorrang verlenen, die Q022 al toepast en die U01-P04 in regel, tabel en waarom herhaalt. Soort van kennis naar inzicht."}
     },
     {
       "id": "U01-Q012", "unit": "U01", "pagina": "U01-P04", "type": "meervoudig", "soort": "kennis",
@@ -251,7 +269,8 @@
         {"boek": 37, "sectie": "2.5", "anker": "blinden met blindenstok, personen die zich moeilijk voortbewegen"},
         {"slide": 33, "anker": "een persoon in een rolstoel is niet per definitie 'een persoon die zich moeilijk voortbeweegt'"}
       ],
-      "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must", "tags": ["voor-laten-gaan", "blinden", "voetganger"], "reserve": false, "versie": 1, "status": "concept"
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must", "tags": ["voor-laten-gaan", "blinden", "voetganger"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Deze personen moet je in het verkeer altijd voor laten gaan: blinden met blindenstok, personen die zich moeilijk voortbewegen", "bron": "boek p. 37; rolstoel op slide 33", "opmerking": "Het fotobijschrift op p. 37 noemt ook slechtzienden; hoofdtekst en slide 33 niet. De vraag volgt de hoofdtekst."}
     }
   ]
 }

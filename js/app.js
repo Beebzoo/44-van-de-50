@@ -185,7 +185,7 @@ const SCREENS = {
     const body = `<h1 class="kop1">Leren</h1><p class="meta" style="margin-bottom:16px">Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen.</p>` + S.units.map(u => {
       const st = S.states[u.id];
       const n = (S.bank[u.id] || []).length;
-      const label = st.staat === "beheerst" ? `<span class="staatlabel goed">Gehaald</span>` : st.staat === "voorlopig" ? `<span class="staatlabel geel">Voorlopig gehaald</span>` : st.staat === "vergrendeld" ? `<span class="staatlabel">Vergrendeld</span>` : st.staat === "lezen" ? `<span class="staatlabel blauw">Lezen</span>` : `<span class="staatlabel blauw">Oefenen</span>`;
+      const label = st.staat === "beheerst" ? `<span class="staatlabel goed">Gehaald</span>` : st.staat === "voorlopig" ? `<span class="staatlabel geel">Voorlopig gehaald</span>` : st.staat === "vergrendeld" ? `<span class="staatlabel">Vergrendeld</span>` : (st.staat === "lezen" || !u.quiz.gate) ? `<span class="staatlabel blauw">Lezen</span>` : `<span class="staatlabel blauw">Oefenen</span>`;
       return `<a class="kaart klik" href="#/blok/${u.id}"><div class="rij"><span class="paaltje ${st.staat === "beheerst" ? "groen" : st.staat === "voorlopig" ? "half" : ""}"></span><div class="groei"><strong>Blok ${u.volgorde}</strong> ${esc(u.titel)}<br><span class="meta">${n ? n + " vragen · " : ""}week ${u.week}</span></div>${label}</div></a>`;
     }).join("");
     return { titel: "Leren", body, onder: "tab" };
@@ -197,7 +197,7 @@ const SCREENS = {
     const pool = S.pools[u.id] || [];
     const gelezen = new Set(S.attempts.filter(a => a.kind === "lezen").map(a => a.ref));
     const stats = V.unitStats(S.attempts, u.id);
-    const staat = { vergrendeld: "Vergrendeld", lezen: "Lezen", oefenen: "Oefenen", voorlopig: "Voorlopig gehaald", beheerst: "Gehaald" }[st.staat];
+    const staat = { vergrendeld: "Vergrendeld", lezen: "Lezen", oefenen: u.quiz.gate ? "Oefenen" : "Lezen", voorlopig: "Voorlopig gehaald", beheerst: "Gehaald" }[st.staat];
     const paginas = u.paginas.map((p, i) => `<a class="kaart klik" href="#/blok/${u.id}/lezen/${p.id}"><div class="rij"><span class="nr meta-3">${i + 1}</span><span class="groei">${esc(p.titel)}</span>${gelezen.has(p.id) ? `<span class="staatlabel goed">${I.vink}</span>` : ""}</div></a>`).join("");
     const bordenRij = u.borden.length ? `<h2 class="kop2">Borden in dit blok</h2><div class="bordrij">${u.borden.filter(hasSymbol).slice(0, 24).map(c => `<figure><button type="button" data-actie="bekijk-bord" data-code="${esc(c)}">${bordHtml(c, 64)}</button><figcaption>${esc(c)}</figcaption></figure>`).join("")}</div>` : "";
     let quizTekst;
