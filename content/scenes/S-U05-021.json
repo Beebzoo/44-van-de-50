@@ -1,0 +1,41 @@
+{
+  "id": "S-U05-021",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2
+    }
+  ],
+  "alt": "Je nadert een rotonde met vier armen en rijdt nog op de toerit. Je wilt de rotonde pas bij de derde arm verlaten, dus driekwart rond.",
+  "inspiratie": {
+    "boek": 84,
+    "slide": 87
+  }
+}

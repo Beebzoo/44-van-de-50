@@ -1,0 +1,30 @@
+{
+  "id": "S-U05-006",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "rechts",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je rijdt rechtdoor over een klinkerstraat. Rechts komt een grijze auto uit een zijstraat waar de stoep doorloopt over de aansluiting, dus uit een uitrit.",
+  "inspiratie": {
+    "boek": 88,
+    "slide": 88
+  }
+}

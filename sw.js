@@ -6,7 +6,7 @@
    cache-first from the versioned cache. The cache name and the precache
    list live in sw-assets.js, written by _tools/build.js from a hash of the
    content; never bump BUILD by hand. */
-const BUILD = "9d34650716";
+const BUILD = "108234a9bb";
 importScripts("sw-assets.js?v=" + BUILD);
 
 self.addEventListener("install", event => {

@@ -1,0 +1,49 @@
+{
+  "id": "S-U05-024",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "links",
+      "afstand": 2,
+      "signaal": "links",
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "oost",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    },
+    {
+      "id": "rood",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de rode auto"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "rood",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Je verlaat een erf via een uitrit en wilt linksaf de straat op. Over de stoep loopt een voetganger vlak voor je langs en op de straat nadert van rechts een rode auto.",
+  "inspiratie": {
+    "boek": 90,
+    "slide": 89
+  }
+}

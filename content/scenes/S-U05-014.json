@@ -1,0 +1,31 @@
+{
+  "id": "S-U05-014",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "links",
+      "afstand": 1,
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Binnen de bebouwde kom wil je linksaf een inrit in en je richtingaanwijzer staat naar links. Op de andere weghelft nadert een tegenligger.",
+  "inspiratie": {
+    "boek": 88,
+    "slide": 88
+  }
+}

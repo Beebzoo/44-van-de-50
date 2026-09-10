@@ -1,0 +1,29 @@
+{
+  "id": "S-U05-104",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2
+    },
+    {
+      "id": "bromfiets",
+      "soort": "bromfiets",
+      "arm": "uitrit",
+      "richting": "rechts",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je rijdt rechtdoor over de straat. Rechts komt een bromfietser van het parkeerterrein van een winkelcentrum de straat op, dus uit een uitrit.",
+  "inspiratie": {
+    "slide": 88
+  }
+}

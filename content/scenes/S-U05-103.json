@@ -1,0 +1,35 @@
+{
+  "id": "S-U05-103",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "fietsoversteek",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1
+    },
+    {
+      "id": "bromfiets",
+      "soort": "bromfiets",
+      "arm": "noord",
+      "zijde": "links",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je rijdt over de afrit van een rotonde en nadert een oversteek van het fiets/bromfietspad, een stuk van de rotonde af. Van rechts nadert een bromfietser die oversteek.",
+  "inspiratie": {
+    "boek": 87
+  }
+}

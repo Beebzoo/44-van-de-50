@@ -1,0 +1,31 @@
+{
+  "id": "S-U05-022",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "rechts",
+      "afstand": 1,
+      "signaal": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je verlaat een 30 km-zone via een uitrit met verlaagde stoeprand en wilt rechtsaf de straat op. Van links nadert over die straat een grijze auto.",
+  "inspiratie": {
+    "boek": 90,
+    "slide": 90
+  }
+}

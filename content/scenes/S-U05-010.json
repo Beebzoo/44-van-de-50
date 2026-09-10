@@ -1,0 +1,31 @@
+{
+  "id": "S-U05-010",
+  "vorm": "rotonde",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 215,
+      "richting": "rechtdoor",
+      "uitgang": "oost"
+    }
+  ],
+  "alt": "Bij deze kleine rotonde staan geen borden en liggen geen haaientanden. Van links nadert een grijze auto die al op de rotonde rijdt.",
+  "inspiratie": {
+    "boek": 84
+  }
+}

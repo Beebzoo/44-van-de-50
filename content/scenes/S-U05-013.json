@@ -1,0 +1,38 @@
+{
+  "id": "S-U05-013",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 178,
+      "richting": "rechts",
+      "uitgang": "west"
+    }
+  ],
+  "alt": "Je rijdt op een kleine rotonde met vier armen en volgt de ring driekwart rond naar de derde arm.",
+  "inspiratie": {
+    "boek": 85,
+    "slide": 87
+  }
+}

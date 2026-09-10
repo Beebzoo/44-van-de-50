@@ -1,0 +1,70 @@
+{
+  "id": "S-U05-007",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    },
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 215,
+      "richting": "rechtdoor",
+      "uitgang": "noord",
+      "label": "de grijze auto"
+    },
+    {
+      "id": "rood",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "stil",
+      "label": "de rode auto"
+    }
+  ],
+  "volgorde": [
+    "grijs",
+    "ego",
+    "rood"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij staat voor de haaientanden op de onderste toerit en rechts van je staat een rode auto voor de haaientanden op de volgende toerit. Op de rotonde nadert van links een grijze auto.",
+  "inspiratie": {
+    "boek": 84
+  }
+}

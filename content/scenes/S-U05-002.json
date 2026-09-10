@@ -1,0 +1,55 @@
+{
+  "id": "S-U05-002",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "fietspad": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "fietsoversteek",
+      "arm": "oost"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 150,
+      "richting": "rechts",
+      "uitgang": "oost"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je rijdt op een rotonde en wilt er bij de volgende arm af. Op het fietspad dat direct om de rotonde ligt nadert een fietser dezelfde oversteek.",
+  "inspiratie": {
+    "boek": 86
+  }
+}

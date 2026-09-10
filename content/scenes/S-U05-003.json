@@ -1,0 +1,30 @@
+{
+  "id": "S-U05-003",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "links",
+      "afstand": 1,
+      "signaal": "links"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Je staat in een uitrit met een verlaagde stoeprand en wilt linksaf de straat op. Van links nadert over die straat een fietser.",
+  "inspiratie": {
+    "boek": 88
+  }
+}

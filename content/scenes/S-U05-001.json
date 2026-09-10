@@ -1,0 +1,48 @@
+{
+  "id": "S-U05-001",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "bestelauto",
+      "arm": "rotonde",
+      "hoek": 215,
+      "richting": "rechtdoor",
+      "uitgang": "noord"
+    }
+  ],
+  "alt": "Je nadert een rotonde en staat voor de haaientanden bij bord B6. Van links rijdt een bestelauto over de rotonde langs jouw toerit.",
+  "inspiratie": {
+    "boek": 84,
+    "slide": 84
+  }
+}

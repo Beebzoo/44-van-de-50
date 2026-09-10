@@ -1,0 +1,30 @@
+{
+  "id": "S-U05-019",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 1,
+      "signaal": "rechts"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Je rijdt over een straat en wilt rechtsaf een inrit in; je richtingaanwijzer staat naar rechts. Vlak achter je rijdt een grijze auto.",
+  "inspiratie": {
+    "boek": 89
+  }
+}

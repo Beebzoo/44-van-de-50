@@ -1,0 +1,48 @@
+{
+  "id": "S-U05-008",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "rechts",
+      "afstand": 2,
+      "label": "de grijze auto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "oost",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "ego",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Je rijdt rechtdoor over de straat. Rechts wil een grijze auto uit een uitrit de straat op, en over de stoep loopt een voetganger vlak voor die auto langs.",
+  "inspiratie": {
+    "boek": 88,
+    "slide": 88
+  }
+}

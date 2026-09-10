@@ -1,8 +1,103 @@
 {
-  "versie": "8c41cba9a6",
+  "versie": "108234a9bb",
   "gegenereerd": "2026-09-10",
   "examenDatum": "2026-10-28",
   "scenes": [
+    "S-U03-001",
+    "S-U03-002",
+    "S-U03-003",
+    "S-U03-004",
+    "S-U03-005",
+    "S-U03-006",
+    "S-U03-007",
+    "S-U03-008",
+    "S-U03-009",
+    "S-U03-010",
+    "S-U03-011",
+    "S-U03-012",
+    "S-U03-013",
+    "S-U03-014",
+    "S-U03-015",
+    "S-U03-016",
+    "S-U03-017",
+    "S-U03-018",
+    "S-U03-019",
+    "S-U03-020",
+    "S-U03-021",
+    "S-U03-022",
+    "S-U03-023",
+    "S-U03-024",
+    "S-U03-101",
+    "S-U03-102",
+    "S-U03-103",
+    "S-U03-104",
+    "S-U03-105",
+    "S-U04-001",
+    "S-U04-002",
+    "S-U04-003",
+    "S-U04-004",
+    "S-U04-005",
+    "S-U04-006",
+    "S-U04-010",
+    "S-U04-011",
+    "S-U04-012-a",
+    "S-U04-012-b",
+    "S-U04-013",
+    "S-U04-014",
+    "S-U04-015",
+    "S-U04-016",
+    "S-U04-017",
+    "S-U04-018",
+    "S-U04-022",
+    "S-U04-023",
+    "S-U04-024-a",
+    "S-U04-024-b",
+    "S-U04-025",
+    "S-U04-026",
+    "S-U04-027",
+    "S-U04-028",
+    "S-U04-029",
+    "S-U04-030",
+    "S-U04-034",
+    "S-U04-035",
+    "S-U04-036-a",
+    "S-U04-036-b",
+    "S-U04-101",
+    "S-U04-102",
+    "S-U04-103",
+    "S-U04-104",
+    "S-U04-105",
+    "S-U04-106",
+    "S-U05-001",
+    "S-U05-002",
+    "S-U05-003",
+    "S-U05-004",
+    "S-U05-005",
+    "S-U05-006",
+    "S-U05-007",
+    "S-U05-008",
+    "S-U05-009",
+    "S-U05-010",
+    "S-U05-011",
+    "S-U05-012",
+    "S-U05-013",
+    "S-U05-014",
+    "S-U05-015",
+    "S-U05-016",
+    "S-U05-017",
+    "S-U05-018",
+    "S-U05-019",
+    "S-U05-020",
+    "S-U05-021",
+    "S-U05-022",
+    "S-U05-023",
+    "S-U05-024",
+    "S-U05-101",
+    "S-U05-102",
+    "S-U05-103",
+    "S-U05-104",
+    "S-U05-105",
+    "S-U05-106",
     "S-VB-001",
     "S-VB-002",
     "S-VB-003"
@@ -83,7 +178,7 @@
         "content/bank/U02.json",
         "content/generated/U02-borden.json"
       ],
-      "aantalVragen": 64,
+      "aantalVragen": 72,
       "paginas": [
         {
           "id": "U02-P01",
@@ -109,6 +204,122 @@
           "id": "U02-P05",
           "anker": "p-3.4-aanwijzingen-rangorde",
           "titel": "Aanwijzingen en de rangorde"
+        }
+      ]
+    },
+    {
+      "id": "U03",
+      "slug": "voorrang-op-kruispunten",
+      "titel": "Voorrang op kruispunten",
+      "volgorde": 3,
+      "week": 2,
+      "tier": "must",
+      "bestand": "content/units/U03.json",
+      "bank": [
+        "content/generated/U03-borden.json"
+      ],
+      "aantalVragen": 4,
+      "paginas": [
+        {
+          "id": "U03-P01",
+          "anker": "p-6.1-kruispunten",
+          "titel": "Een kruispunt naderen en oprijden"
+        },
+        {
+          "id": "U03-P02",
+          "anker": "p-6.2-gelijkwaardig",
+          "titel": "Het gelijkwaardige kruispunt"
+        },
+        {
+          "id": "U03-P03",
+          "anker": "p-6.2-voorrangsborden",
+          "titel": "Borden regelen de voorrang"
+        },
+        {
+          "id": "U03-P04",
+          "anker": "p-6.4-tram",
+          "titel": "De tram: drie uitzonderingen"
+        },
+        {
+          "id": "U03-P05",
+          "anker": "p-6.6-voorrangsvoertuig",
+          "titel": "Voorrangsvoertuigen"
+        }
+      ]
+    },
+    {
+      "id": "U04",
+      "slug": "voor-laten-gaan-en-afslaan",
+      "titel": "Voor laten gaan en afslaan",
+      "volgorde": 4,
+      "week": 2,
+      "tier": "must",
+      "bestand": "content/units/U04.json",
+      "bank": [],
+      "aantalVragen": 0,
+      "paginas": [
+        {
+          "id": "U04-P01",
+          "anker": "p-6.3-afslaan",
+          "titel": "Afslaan: rechtdoor gaat voor"
+        },
+        {
+          "id": "U04-P02",
+          "anker": "p-9.3-voorsorteren",
+          "titel": "Voorsorteren"
+        },
+        {
+          "id": "U04-P03",
+          "anker": "p-9.4-9.5-afslaan",
+          "titel": "Rechts en links afslaan"
+        },
+        {
+          "id": "U04-P04",
+          "anker": "p-8.1-kwetsbaar",
+          "titel": "Kwetsbare weggebruikers"
+        },
+        {
+          "id": "U04-P05",
+          "anker": "p-5.5-zebrapad",
+          "titel": "Het zebrapad"
+        },
+        {
+          "id": "U04-P06",
+          "anker": "p-6.5-colonne",
+          "titel": "Militaire colonne en uitvaartstoet"
+        }
+      ]
+    },
+    {
+      "id": "U05",
+      "slug": "rotondes-uitritten-erf-30-zone",
+      "titel": "Rotondes, uitritten, erf en 30-zone",
+      "volgorde": 5,
+      "week": 2,
+      "tier": "must",
+      "bestand": "content/units/U05.json",
+      "bank": [],
+      "aantalVragen": 0,
+      "paginas": [
+        {
+          "id": "U05-P01",
+          "anker": "p-5.1-rotondes",
+          "titel": "Rotondes: oprijden, richting aangeven en verlaten"
+        },
+        {
+          "id": "U05-P02",
+          "anker": "p-5.2-uitrit",
+          "titel": "Inrit en uitrit: iedereen gaat voor"
+        },
+        {
+          "id": "U05-P03",
+          "anker": "p-5.3-erf",
+          "titel": "Het erf: stapvoets, voetgangers overal"
+        },
+        {
+          "id": "U05-P04",
+          "anker": "p-5.4-30-zone",
+          "titel": "De 30 km-zone: in en uit via een inrit"
         }
       ]
     }

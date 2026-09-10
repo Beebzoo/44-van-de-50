@@ -1,0 +1,32 @@
+{
+  "id": "S-U05-011",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "rechts",
+      "afstand": 2
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "oost",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je verlaat een erf via een uitrit met verlaagde stoeprand. Over de stoep loopt vlak voor je langs een voetganger die de uitrit oversteekt.",
+  "inspiratie": {
+    "boek": 90,
+    "slide": 89
+  }
+}

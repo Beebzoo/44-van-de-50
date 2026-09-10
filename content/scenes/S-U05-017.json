@@ -1,0 +1,41 @@
+{
+  "id": "S-U05-017",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 2
+    }
+  ],
+  "alt": "Je nadert een rotonde over de toerit en wilt er bij de eerste arm meteen weer af, dus rechtsaf.",
+  "inspiratie": {
+    "boek": 84,
+    "slide": 85
+  }
+}

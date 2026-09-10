@@ -1,0 +1,29 @@
+{
+  "id": "S-U05-106",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Het einde van de 30 km-zone is hier een gewone gelijkwaardige kruising zonder verlaagde stoeprand. Jij komt van onderen en van links nadert een grijze auto.",
+  "inspiratie": {
+    "boek": 90
+  }
+}

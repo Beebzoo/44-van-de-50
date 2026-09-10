@@ -1,0 +1,33 @@
+{
+  "id": "S-U05-012",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 1,
+      "signaal": "rechts"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "zijde": "links",
+      "richting": "rechtdoor",
+      "afstand": 1
+    }
+  ],
+  "alt": "Je rijdt op de straat en wilt rechtsaf een inrit met verlaagde stoeprand in. Rechts van je rijdt een fietser over het fietspad dat over die inrit doorloopt.",
+  "inspiratie": {
+    "boek": 90,
+    "slide": 90
+  }
+}

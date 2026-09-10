@@ -1,0 +1,44 @@
+{
+  "id": "S-U05-016",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de grijze auto"
+    },
+    {
+      "id": "rood",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "label": "de rode auto"
+    }
+  ],
+  "volgorde": [
+    "rood",
+    "ego",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Je verlaat een 30 km-zone bij een gelijkwaardige kruising zonder verlaagde stoeprand. Van links nadert een grijze auto en van rechts een rode auto, allebei rechtdoor.",
+  "inspiratie": {
+    "boek": 90
+  }
+}

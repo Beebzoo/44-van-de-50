@@ -1,0 +1,73 @@
+{
+  "id": "S-U05-015",
+  "vorm": "rotonde",
+  "voorrang": "voorrangsweg",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "fietspad": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "D1",
+      "arm": "rotonde"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "fietsoversteek",
+      "arm": "oost"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 150,
+      "richting": "rechts",
+      "uitgang": "oost",
+      "label": "jij"
+    },
+    {
+      "id": "rood",
+      "soort": "auto",
+      "arm": "rotonde",
+      "hoek": 210,
+      "richting": "rechts",
+      "uitgang": "oost",
+      "label": "de rode auto"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "zijde": "rechts",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de fietser"
+    }
+  ],
+  "volgorde": [
+    "fietser",
+    "ego",
+    "rood"
+  ],
+  "toonVolgorde": false,
+  "alt": "Je verlaat de rotonde bij de arm rechts van je en achter je volgt een rode auto dezelfde afrit. Op het fietspad direct om de rotonde nadert een fietser die oversteek.",
+  "inspiratie": {
+    "boek": 85,
+    "slide": 85
+  }
+}
