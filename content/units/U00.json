@@ -1,0 +1,307 @@
+{
+  "id": "U00",
+  "slug": "zo-denkt-het-examen",
+  "titel": "Zo denkt het examen",
+  "volgorde": 0,
+  "week": 1,
+  "tier": "must",
+  "vereist": [],
+  "borden": [],
+  "quiz": {"gate": false, "lengte": 5, "minimaalPool": 0, "soort": "regels"},
+  "cbr_onderwerpen": ["meta"],
+  "bronnen": {
+    "boek": {"secties": ["1.4"], "paginas": [5, 6, 7, 8, 9, 10, 18, 20]},
+    "cursus": {"slides": [3, 4, 14, 15, 16, 17]}
+  },
+  "intro": "Voordat je regels gaat leren, is het handig om te weten hoe het examen in elkaar zit en wat een vraag eigenlijk van je wil. Dit blok heeft geen quiz: lees de drie pagina's en test jezelf onderweg.",
+  "paginas": [
+    {
+      "id": "U00-P01",
+      "anker": "p-examen-in-cijfers",
+      "titel": "Het examen in cijfers",
+      "bronnen": {
+        "boek": {"secties": [], "paginas": [5, 6, 7, 8]},
+        "cursus": {"slides": [3]}
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Je legt het theorie-examen alleen af, achter een beeldscherm bij het CBR. Aan het begin krijg je een paar voorbeeldvragen die niet meetellen, om aan het systeem te wennen.",
+          "bron": {"boek": 5, "anker": "Het examen leg je individueel af, achter een beeldscherm"}
+        },
+        {
+          "type": "regel",
+          "id": "U00-r01",
+          "tekst": "Het theorie-examen bestaat uit 50 vragen. Je moet er minimaal 44 goed hebben om te slagen.",
+          "bron": [
+            {"boek": 5, "anker": "bestaat uit één onderdeel van 50 vragen"},
+            {"slide": 3, "anker": "Je moet er minimaal 44 goed hebben om te slagen"}
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": ["Onderdeel", "Cijfer"],
+          "rijen": [
+            ["Vragen", "50"],
+            ["Testvragen die niet meetellen", "2, en je weet niet welke"],
+            ["Minimaal goed om te slagen", "44"],
+            ["Tijd", "30 minuten voor alle vragen samen"],
+            ["Inzichtvragen", "ongeveer 2/3 van het examen"],
+            ["Uitslag", "direct na afloop, daarna 1,5 jaar geldig"]
+          ],
+          "bron": [
+            {"boek": 5, "anker": "Je moet minimaal 44 vragen goed beantwoorden om te slagen"},
+            {"boek": 7, "anker": "Voor het beantwoorden van de 50 vragen heb je 30 minuten de tijd"},
+            {"boek": 7, "anker": "Het grootste deel (2/3 deel) van de examenvragen bestaat uit inzichtvragen"},
+            {"boek": 8, "anker": "Je krijgt ook twee testvragen in het theorie-examen"},
+            {"boek": 8, "anker": "Als je geslaagd bent, is je examenresultaat 1,5 jaar geldig"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Zes fouten is je hele marge, en omdat je niet weet welke twee vragen de testvragen zijn, moet je elke vraag behandelen alsof hij telt.",
+          "bron": {"afgeleid": true}
+        },
+        {"type": "kop", "tekst": "Welke vraagtypen je tegenkomt"},
+        {
+          "type": "tekst",
+          "tekst": "Het CBR wisselt vraagtypen af. Het boek noemt onder andere:"
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "ja/nee-vragen",
+            "meerkeuzevragen",
+            "sleepvragen, bijvoorbeeld een volgorde van voor laten gaan",
+            "invulvragen, waarbij je een getal intypt",
+            "tekstvragen zonder afbeelding",
+            "hotspotvragen (aanwijsvragen): klik op de juiste afbeelding",
+            "vragen met meer dan een goed antwoord",
+            "dynamisch beeld-vragen, met ongeveer 5 seconden bewegend beeld"
+          ],
+          "bron": {"boek": 7, "anker": "Het CBR gebruikt verschillende vraagtypen in het theorie-examen"}
+        },
+        {"type": "kop", "tekst": "De acht onderwerpen"},
+        {
+          "type": "lijst",
+          "items": [
+            "Gebruik van de weg",
+            "Voorrang en voor laten gaan",
+            "Bijzondere wegen, weggedeelten, weggebruikers en manoeuvres",
+            "Veilig rijden met het voertuig en reageren in noodsituaties",
+            "Verkeerstekens en aanwijzingen",
+            "Verantwoorde verkeersdeelname en milieubewust rijden",
+            "Wetgeving",
+            "Voertuigkennis"
+          ],
+          "bron": {"boek": 6, "anker": "De vragen in het theorie-examen auto gaan over acht onderwerpen"}
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een kennisvraag klinkt als: wat betekent dit bord? Een inzichtvraag klinkt als: moet je verwachten dat je voorligger gaat remmen? Bij de eerste noem je een regel op. Bij de tweede kijk je naar de situatie en kies je gedrag.",
+          "bron": [
+            {"boek": 7, "anker": "kunt benoemen en kunt herkennen. Bijvoorbeeld: Wat betekent dit bord"},
+            {"boek": 7, "anker": "Moet je verwachten dat je voorligger gaat remmen"}
+          ]
+        },
+        {"type": "kop", "tekst": "Wat je meeneemt"},
+        {
+          "type": "tekst",
+          "tekst": "Wees ongeveer een kwartier van tevoren aanwezig, met een geldig identiteitsbewijs en je reserveringsnummer. Je meldt je aan bij de aanmeldzuil en bergt je spullen op in een locker.",
+          "bron": {"boek": 5, "anker": "Neem een geldig identiteitsbewijs en je reserveringsnummer mee"}
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Er is geen vaste tijd per vraag. Wie op een lastige vraag blijft hangen, komt aan het eind in tijdnood. Sla die vraag over, maak de rest en kom terug: je kunt vooruit en achteruit door het examen.",
+          "bron": {"boek": 7, "anker": "geen vaste antwoordtijd per vraag; je kunt dus over de ene vraag langer doen"}
+        },
+        {
+          "type": "onthoud",
+          "tekst": "50 vragen, 44 goed, 30 minuten. Twee testvragen tellen niet mee en je weet niet welke."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Hoeveel vragen mag je fout hebben en toch slagen?",
+          "antwoord": "Zes.",
+          "uitleg": "50 vragen, minimaal 44 goed. Bij de zevende fout ben je gezakt."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je zit vast op vraag 12 en de tijd loopt. Wat doe je?",
+          "antwoord": "Overslaan, de rest maken en terugkomen.",
+          "uitleg": "Je kunt vooruit en achteruit navigeren. Een open vraag kost je hooguit een van je zes fouten, tijdnood kost je er meer."
+        }
+      ]
+    },
+    {
+      "id": "U00-P02",
+      "anker": "p-zo-lees-je-een-vraag",
+      "titel": "Zo lees je een vraag",
+      "bronnen": {
+        "boek": {"secties": [], "paginas": [7, 8]},
+        "cursus": {"slides": [3, 14, 15, 16]}
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Ongeveer twee derde van het examen bestaat uit inzichtvragen. Die vragen niet wat de regel is, maar wat jij nu doet in deze situatie. Dat vraagt een andere manier van lezen.",
+          "bron": {"slide": 3, "anker": "het grootste deel van het examen (ongeveer 2/3) bestaat uit inzichtvragen"}
+        },
+        {
+          "type": "regel",
+          "id": "U00-r02",
+          "tekst": "Bij elke verkeerssituatie doorloop je steeds dezelfde vijf taakprocessen: waarnemen, voorspellen, evalueren, beslissen en handelen. Je moet alert zijn, vooruitdenken en op tijd reageren.",
+          "bron": [
+            {"slide": 14, "anker": "doorloop je steeds de 5 zogenaamde taakprocessen"},
+            {"slide": 14, "anker": "Je moet alert zijn, vooruitdenken en op tijd reageren"}
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U00-r03",
+          "tekst": "Bij het beantwoorden van een vraag stel je je telkens voor dat jij de bestuurder van de witte auto bent.",
+          "bron": {"boek": 8, "anker": "voorstellen dat je de bestuurder bent van de witte auto"}
+        },
+        {"type": "kop", "tekst": "De vijf stappen als leesstrategie"},
+        {
+          "type": "tabel",
+          "kop": ["Stap", "Wat je jezelf vraagt"],
+          "rijen": [
+            ["Waarnemen", "Wat zie je, wat hoor je en welke informatie is belangrijk?"],
+            ["Voorspellen", "Hoe gaat de ander zich gedragen en hoe ontwikkelt de situatie zich?"],
+            ["Evalueren", "Welke invloed heeft je keuze op de veiligheid, het milieu en de doorstroming?"],
+            ["Beslissen", "Remmen, uitwijken of gas los? Je afweging bepaalt je keuze."],
+            ["Handelen", "Voer je beslissing uit. Kom je er niet uit, begin dan opnieuw bij waarnemen."]
+          ],
+          "bron": [
+            {"slide": 15, "anker": "Welke invloed heeft de keuze die je gaat maken voor de veiligheid"},
+            {"slide": 15, "anker": "Kom je niet tot een besluit? Begin dan weer bij waarnemen"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een inzichtvraag toetst of je regels kunt toepassen en de juiste beslissing neemt, en die beslissing klopt alleen als je eerst goed hebt gekeken en voorspeld.",
+          "bron": {"slide": 3, "anker": "Hier laat je zien dat je de regels kunt toepassen"}
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je nadert een kruispunt (waarnemen). Van rechts komt een auto die voorrang heeft (voorspellen). Als je op het laatste moment hard afremt, heeft je achterligger daar last van (evalueren). Je laat het gas los en begint rustig te remmen (beslissen). Je remt en geeft de auto van rechts de tijd en ruimte om voor te gaan (handelen).",
+          "bron": [
+            {"slide": 16, "anker": "Van rechts komt een auto die voorrang heeft"},
+            {"slide": 16, "anker": "Ik laat mijn gas vast los en begin rustig met remmen"}
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Lees de vraag twee keer als er 'niet', 'mag' of 'moet' in staat. 'Mag je hier inhalen?' is een andere vraag dan 'Moet je hier inhalen?', en 'Wat mag hier niet?' draait het antwoord om. De fout zit vaak in de vraag, niet in de afbeelding.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Kijk eerst naar de afbeelding en beschrijf voor jezelf wat er gebeurt. Lees daarna pas de antwoorden. Andersom zoek je in het plaatje naar bevestiging van een antwoord, niet naar de situatie.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Waarnemen, voorspellen, evalueren, beslissen, handelen. Jij bent de witte auto. Let op 'niet', 'mag' en 'moet'."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Noem de vijf taakprocessen in de juiste volgorde.",
+          "antwoord": "Waarnemen, voorspellen, evalueren, beslissen, handelen.",
+          "uitleg": "De cirkel loopt van waarnemen naar handelen en dan weer terug naar waarnemen."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Op een examenafbeelding staan een witte auto, een rode auto en een fietser. Vanuit wie beantwoord je de vraag?",
+          "antwoord": "Vanuit de bestuurder van de witte auto.",
+          "uitleg": "Jij bent altijd de witte auto. Kijk dus eerst waar die staat en waar die heen gaat."
+        }
+      ]
+    },
+    {
+      "id": "U00-P03",
+      "anker": "p-defensief-en-besluitvaardig",
+      "titel": "Defensief en besluitvaardig",
+      "bronnen": {
+        "boek": {"secties": ["1.4"], "paginas": [18, 20]},
+        "cursus": {"slides": [17]}
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Het examen zoekt een bepaald soort bestuurder: iemand die rekening houdt met het overige verkeer en met de omstandigheden. Het boek noemt dat aangepast (defensief en sociaal) en besluitvaardig rijgedrag. Twijfel je bij een inzichtvraag tussen twee antwoorden, dan geeft dit vaak de doorslag.",
+          "bron": {"boek": 18, "sectie": "1.4", "anker": "Aangepast (defensief en sociaal) en besluitvaardig rijgedrag helpen je hierbij"}
+        },
+        {
+          "type": "regel",
+          "id": "U00-r04",
+          "tekst": "Je rijdt defensief als je actief probeert gevaar of hinder te voorkomen, vooruitloopt op mogelijke ontwikkelingen, juist reageert op fouten van anderen en juist kijkgedrag vertoont.",
+          "bron": {"boek": 18, "sectie": "1.4", "anker": "actief probeert om gevaar of hinder te voorkomen"}
+        },
+        {
+          "type": "regel",
+          "id": "U00-r05",
+          "tekst": "Je rijdt besluitvaardig als je zeker en doortastend rijdt. Verleen niet onnodig voorrang en wacht niet langer dan de situatie vraagt.",
+          "bron": {"boek": 20, "sectie": "1.4", "anker": "Je rijdt besluitvaardig als je zeker en doortastend rijdt"}
+        },
+        {"type": "kop", "tekst": "Waarom het examen hierop let"},
+        {
+          "type": "tabel",
+          "kop": ["Feit uit de cursus", "Cijfer"],
+          "rijen": [
+            ["Ongevallen door menselijke fouten", "90%"],
+            ["Ongevallen waarbij vermoeidheid een bepalende factor is", "15%"],
+            ["Grootste ongevalsoorzaken", "te hoge snelheid, alcohol en drugs, afleiding"]
+          ],
+          "bron": [
+            {"slide": 17, "anker": "90% van alle ongevallen wordt veroorzaakt door menselijke fouten"},
+            {"slide": 17, "anker": "bij 15% van de ongevallen is vermoeidheid een bepalende factor"}
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Als negen van de tien ongevallen door menselijke fouten ontstaan, toetst het examen vooral of jij die fouten ziet aankomen, bij anderen en bij jezelf.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op de snelweg gaat de bestuurder naast je plotseling naar links. Defensief is: dat zien aankomen en rustig reageren, zonder onnodig te toeteren of abrupt te remmen. Op een invoegstrook nadert links een vrachtauto op de doorgaande rijbaan. Besluitvaardig is: of duidelijk sneller optrekken om ervoor in te voegen, of juist rustiger om erachter te komen. Dezelfde snelheid aanhouden en afwachten is niet besluitvaardig.",
+          "bron": [
+            {"boek": 18, "sectie": "1.4", "anker": "juist reageert op de bestuurder die plotseling naar links gaat"},
+            {"boek": 20, "sectie": "1.4", "anker": "sneller moeten optrekken om voor de vrachtauto te kunnen invoegen"}
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Defensief betekent niet altijd wachten. Wie onnodig voorrang verleent of langer wacht dan nodig, rijdt twijfelend, en zodra je twijfelt weten andere weggebruikers niet meer wat je gaat doen. Het examen rekent dat als onveilig.",
+          "bron": {"boek": 20, "sectie": "1.4", "anker": "Zodra je twijfelt, weten andere weggebruikers niet meer hoe de situatie"}
+        },
+        {"type": "kop", "tekst": "Zo telt deze app"},
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "In deze app telt gokken als fout. Vink bij een oefenvraag 'Twijfel' aan als je het niet zeker weet. Een goed antwoord met twijfel telt niet als goed, en een quiz haal je pas als alles goed is zonder twijfel. Zo oefen je alleen wat je echt weet.",
+          "bron": {"afgeleid": true}
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Defensief: gevaar voorkomen, anticiperen, goed kijken. Besluitvaardig: zeker en doortastend, niet twijfelen. Gokken telt hier als fout."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op de invoegstrook en links nadert een vrachtauto. Je houdt dezelfde snelheid aan en kijkt wat de vrachtauto doet. Is dat besluitvaardig?",
+          "antwoord": "Nee.",
+          "uitleg": "Of sneller optrekken om ervoor in te voegen, of rustiger om erachter te komen. Afwachten maakt je onvoorspelbaar voor de vrachtauto en voor het verkeer achter je."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Welk deel van alle ongevallen ontstaat door menselijke fouten?",
+          "antwoord": "90%.",
+          "uitleg": "Daarom gaan zoveel examenvragen over kijken, voorspellen en op tijd reageren, niet alleen over regels opzeggen."
+        }
+      ]
+    }
+  ]
+}

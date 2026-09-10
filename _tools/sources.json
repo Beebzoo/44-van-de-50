@@ -1,0 +1,5 @@
+{
+  "$comment": "Where the two transcriptions live on this machine. They are the only content sources and are never committed. The validator skips the anchor gates when they are absent (for example in the Pages workflow).",
+  "boek": "/home/alardus/Admin/09 Voertuig/Rijbewijs/bronnen/VekaBest-theorieboek-VOLLEDIG.md",
+  "cursus": "/home/alardus/Admin/09 Voertuig/Rijbewijs/bronnen/VekaBest-SpeedTheorie-transcriptie.md"
+}

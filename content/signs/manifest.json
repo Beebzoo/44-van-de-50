@@ -1,0 +1,4547 @@
+{
+  "versie": 1,
+  "bron": "VekaBest theorieboek hoofdstuk 14, pagina 238 tot 255",
+  "families": [
+    {
+      "letter": "A",
+      "naam": "Snelheid"
+    },
+    {
+      "letter": "B",
+      "naam": "Voorrang"
+    },
+    {
+      "letter": "C",
+      "naam": "Geslotenverklaring"
+    },
+    {
+      "letter": "D",
+      "naam": "Rijrichting"
+    },
+    {
+      "letter": "E",
+      "naam": "Parkeren en stilstaan"
+    },
+    {
+      "letter": "F",
+      "naam": "Overige geboden en verboden"
+    },
+    {
+      "letter": "G",
+      "naam": "Verkeersregels"
+    },
+    {
+      "letter": "H",
+      "naam": "Bebouwde kom"
+    },
+    {
+      "letter": "J",
+      "naam": "Waarschuwing",
+      "opmerking": "Alle J-borden zijn rode driehoeken met de punt omhoog en een zwart symbool, tenzij anders vermeld."
+    },
+    {
+      "letter": "K",
+      "naam": "Bewegwijzering"
+    },
+    {
+      "letter": "L",
+      "naam": "Informatie"
+    }
+  ],
+  "groepen": [
+    {
+      "id": "zones",
+      "naam": "Zoneborden"
+    },
+    {
+      "id": "overige-aanduidingen",
+      "naam": "Overige aanduidingen"
+    },
+    {
+      "id": "hectometer",
+      "naam": "Hectometerborden"
+    },
+    {
+      "id": "onderborden",
+      "naam": "Onderborden",
+      "opmerking": "De volgende onderborden geven aan dat het verkeersbord alleen geldt voor de categorie die op het onderbord is weergegeven."
+    },
+    {
+      "id": "wegwerkzaamheden",
+      "naam": "Wegwerkzaamheden"
+    },
+    {
+      "id": "markeringsborden",
+      "naam": "Markeringsborden"
+    },
+    {
+      "id": "aanwijzingen",
+      "naam": "Aanwijzingen"
+    }
+  ],
+  "borden": [
+    {
+      "code": "A1",
+      "familie": "A",
+      "omschrijving": "Ronde witte plaat met rode rand en zwart 50",
+      "betekenis": "Maximumsnelheid.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A2",
+        "A4",
+        "A3"
+      ]
+    },
+    {
+      "code": "A2",
+      "familie": "A",
+      "omschrijving": "Ronde witte plaat met grijs 50 doorkruist door schuine strepen",
+      "betekenis": "Einde maximumsnelheid.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A1",
+        "A5"
+      ]
+    },
+    {
+      "code": "A3",
+      "familie": "A",
+      "omschrijving": "Zwart elektronisch paneel met 70 in een rode ring",
+      "betekenis": "Maximumsnelheid op een elektronisch signaleringsbord.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "code": "ZC-A-01",
+      "familie": "A",
+      "zonderCode": true,
+      "omschrijving": "Zwart elektronisch paneel met een witte cirkel met diagonale streep",
+      "betekenis": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "F9",
+        "A3"
+      ]
+    },
+    {
+      "code": "ZC-A-02",
+      "familie": "A",
+      "zonderCode": true,
+      "omschrijving": "Zwart elektronisch paneel met 80 in een rode ring",
+      "betekenis": "Maximumsnelheid 80 km/u op een elektronisch signaleringsbord.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A3",
+        "A1"
+      ]
+    },
+    {
+      "code": "ZC-A-03",
+      "familie": "A",
+      "zonderCode": true,
+      "omschrijving": "Zwart rond paneel met een witte cirkel met diagonale streep",
+      "betekenis": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "F9",
+        "ZC-A-01"
+      ]
+    },
+    {
+      "code": "ZC-A-04",
+      "familie": "A",
+      "zonderCode": true,
+      "omschrijving": "Zwart vierkant paneel met 130 in een rode ring",
+      "betekenis": "Startbord: de zwarte achtergrond geeft het begin aan van een nieuwe maximumsnelheid.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A3",
+        "A1"
+      ]
+    },
+    {
+      "code": "A4",
+      "familie": "A",
+      "omschrijving": "Blauw vierkant bord met wit 50 km/h",
+      "betekenis": "Adviessnelheid.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A5",
+        "A1"
+      ]
+    },
+    {
+      "code": "A5",
+      "familie": "A",
+      "omschrijving": "Hetzelfde blauwe bord met een rode diagonale streep",
+      "betekenis": "Einde adviessnelheid.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "A4",
+        "A2"
+      ]
+    },
+    {
+      "code": "B1",
+      "familie": "B",
+      "omschrijving": "Gele ruit met witte rand",
+      "betekenis": "Voorrangsweg.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "B2"
+      ]
+    },
+    {
+      "code": "B2",
+      "familie": "B",
+      "omschrijving": "Gele ruit met witte rand en schuine strepen erdoor",
+      "betekenis": "Einde voorrangsweg.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "B1"
+      ]
+    },
+    {
+      "code": "B3",
+      "familie": "B",
+      "omschrijving": "Rode driehoek, punt omhoog, met een zwarte verticale pijl gekruist door een dikke zwarte dwarsbalk",
+      "betekenis": "Voorrangskruispunt.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "code": "B4",
+      "familie": "B",
+      "omschrijving": "Rode driehoek met een zwarte verticale pijl en een zijtak naar links",
+      "betekenis": "Voorrangskruispunt zijweg links.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "B3",
+        "B5"
+      ]
+    },
+    {
+      "code": "B5",
+      "familie": "B",
+      "omschrijving": "Rode driehoek met een zwarte verticale pijl en een zijtak naar rechts",
+      "betekenis": "Voorrangskruispunt zijweg rechts.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "code": "B6",
+      "familie": "B",
+      "omschrijving": "Rode driehoek met de punt omlaag, wit binnenvlak",
+      "betekenis": "Verleen voorrang aan bestuurders op de kruisende weg.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "J8",
+        "B7"
+      ]
+    },
+    {
+      "code": "B7",
+      "familie": "B",
+      "omschrijving": "Rode achthoek met het witte woord STOP",
+      "betekenis": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+      "bron": {
+        "boek": 238
+      },
+      "nearMiss": [
+        "B6"
+      ]
+    },
+    {
+      "code": "C1",
+      "familie": "C",
+      "omschrijving": "Rode cirkel, wit binnenvlak",
+      "betekenis": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C2",
+        "C12"
+      ]
+    },
+    {
+      "code": "C2",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een brede witte horizontale balk",
+      "betekenis": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C1",
+        "F10"
+      ]
+    },
+    {
+      "code": "C3",
+      "familie": "C",
+      "omschrijving": "Blauw vierkant met een witte pijl omhoog",
+      "betekenis": "Eenrichtingsweg.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "code": "C4",
+      "familie": "C",
+      "omschrijving": "Blauw vierkant met een witte pijl naar rechts",
+      "betekenis": "Eenrichtingsweg.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C3",
+        "C5"
+      ]
+    },
+    {
+      "code": "C5",
+      "familie": "C",
+      "omschrijving": "Blauw vierkant met een witte pijl omlaag en een witte pijl omhoog",
+      "betekenis": "Inrijden toegestaan.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C3",
+        "C4",
+        "C2"
+      ]
+    },
+    {
+      "code": "C6",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte auto",
+      "betekenis": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C11",
+        "C12",
+        "C10"
+      ]
+    },
+    {
+      "code": "C7",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte vrachtauto",
+      "betekenis": "Gesloten voor vrachtauto's.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C7a",
+        "C7b",
+        "C6"
+      ]
+    },
+    {
+      "code": "C7a",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte autobus",
+      "betekenis": "Gesloten voor autobussen.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C7",
+        "C7b"
+      ]
+    },
+    {
+      "code": "C7b",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte autobus en vrachtauto",
+      "betekenis": "Gesloten voor autobussen en vrachtauto's.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C7",
+        "C7a"
+      ]
+    },
+    {
+      "code": "C8",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte tractor",
+      "betekenis": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C9",
+        "C7"
+      ]
+    },
+    {
+      "code": "C9",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met tractor, ruiter, fiets en bromfiets",
+      "betekenis": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid, mobiele machines, brommobielen, fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C8",
+        "C15"
+      ]
+    },
+    {
+      "code": "C10",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte auto met aanhangwagen",
+      "betekenis": "Gesloten voor motorvoertuigen met aanhangwagen.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C6",
+        "C12"
+      ]
+    },
+    {
+      "code": "C11",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte motorfiets",
+      "betekenis": "Gesloten voor motoren.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C6",
+        "C12"
+      ]
+    },
+    {
+      "code": "C12",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte auto en motorfiets",
+      "betekenis": "Gesloten voor alle motorvoertuigen.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C6",
+        "C11"
+      ]
+    },
+    {
+      "code": "C13",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte bromfiets",
+      "betekenis": "Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C14",
+        "C15"
+      ]
+    },
+    {
+      "code": "C14",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte fiets",
+      "betekenis": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C13",
+        "C15"
+      ]
+    },
+    {
+      "code": "C15",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte fiets en bromfiets",
+      "betekenis": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C13",
+        "C14"
+      ]
+    },
+    {
+      "code": "C16",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte voetganger",
+      "betekenis": "Gesloten voor voetgangers.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C14",
+        "C9"
+      ]
+    },
+    {
+      "code": "C17",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met 10 m tussen twee pijlpunten",
+      "betekenis": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan op het bord is aangegeven.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C18",
+        "C19"
+      ]
+    },
+    {
+      "code": "C18",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met 2,3 m tussen twee pijlpunten",
+      "betekenis": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+      "bron": {
+        "boek": 239
+      },
+      "nearMiss": [
+        "C17",
+        "C19"
+      ]
+    },
+    {
+      "code": "C19",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met 3,1 m tussen twee verticale pijlpunten",
+      "betekenis": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C18",
+        "C17",
+        "L1"
+      ]
+    },
+    {
+      "code": "C20",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met 4,8 t boven een assymbool",
+      "betekenis": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C21"
+      ]
+    },
+    {
+      "code": "C21",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met 5,4 t",
+      "betekenis": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten hoger is dan op het bord is aangegeven.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C20"
+      ]
+    },
+    {
+      "code": "C22",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte tankwagen met rood gevarenbord",
+      "betekenis": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e",
+        "C22a10"
+      ]
+    },
+    {
+      "code": "C22a10",
+      "familie": "C",
+      "omschrijving": "Wit rechthoekig bordje met een zwart camerapictogram",
+      "betekenis": "Automatische kentekenherkenning.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22",
+        "C22e"
+      ]
+    },
+    {
+      "code": "C22e",
+      "familie": "C",
+      "omschrijving": "Rode cirkel met een zwarte auto en bestelbus met uitlaatgassen",
+      "betekenis": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone of nul-emissiezone).",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22f",
+        "C22",
+        "C22e1"
+      ]
+    },
+    {
+      "code": "C22f",
+      "familie": "C",
+      "omschrijving": "Witte cirkel met schuine grijze/zwarte strepen",
+      "betekenis": "Einde geslotenverklaring vanwege emissie-eisen (milieuzone of nul-emissiezone).",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e",
+        "F8"
+      ]
+    },
+    {
+      "code": "C22e1",
+      "familie": "C",
+      "omschrijving": "Wit onderbord met pictogrammen van een bestelbus en een vrachtauto",
+      "betekenis": "Onderbord bij C22e: nul-emissiezone voor bedrijfsauto's en vrachtauto's, toegankelijk voor emissieloze voertuigen.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e4",
+        "C22e6",
+        "C22e"
+      ]
+    },
+    {
+      "code": "C22e4",
+      "familie": "C",
+      "omschrijving": "Wit onderbord met het woord diesel, een personenauto en een rij gekleurde emissieklasse-rondjes",
+      "betekenis": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e5",
+        "C22e6"
+      ]
+    },
+    {
+      "code": "C22e5",
+      "familie": "C",
+      "omschrijving": "Idem, andere klassen gemarkeerd",
+      "betekenis": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 5 en 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e4",
+        "C22e7"
+      ]
+    },
+    {
+      "code": "C22e6",
+      "familie": "C",
+      "omschrijving": "Wit onderbord diesel met een personenauto en een bestelbus, met emissieklasse-rondjes",
+      "betekenis": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's en bedrijfsauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e7",
+        "C22e4"
+      ]
+    },
+    {
+      "code": "C22e7",
+      "familie": "C",
+      "omschrijving": "Idem, andere klassen gemarkeerd",
+      "betekenis": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's en bedrijfsauto's, toegankelijk voor emissieklasse 5 en 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e6",
+        "C22e5"
+      ]
+    },
+    {
+      "code": "C22e8",
+      "familie": "C",
+      "omschrijving": "Wit onderbord diesel met een vrachtauto, met emissieklasse-rondjes",
+      "betekenis": "Onderbord bij C22e: milieuzone voor vrachtauto's, toegankelijk voor vrachtauto's emissieklasse 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e9",
+        "C22e10"
+      ]
+    },
+    {
+      "code": "C22e9",
+      "familie": "C",
+      "omschrijving": "Wit onderbord diesel met een autobus",
+      "betekenis": "Onderbord bij C22e: milieuzone voor autobussen, toegankelijk voor autobussen emissieklasse 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e8",
+        "C22e10"
+      ]
+    },
+    {
+      "code": "C22e10",
+      "familie": "C",
+      "omschrijving": "Wit onderbord diesel met een vrachtauto en een autobus",
+      "betekenis": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en autobussen emissieklasse 6.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C22e8",
+        "C22e9"
+      ]
+    },
+    {
+      "code": "C23-01",
+      "familie": "C",
+      "omschrijving": "Blauw vierkant met vier witte pijlen omhoog",
+      "betekenis": "Spitsstrook open.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C23-02",
+        "C23-03"
+      ]
+    },
+    {
+      "code": "C23-02",
+      "familie": "C",
+      "omschrijving": "Blauw vierkant waarvan de rechter pijl naar links afbuigt",
+      "betekenis": "Spitsstrook vrijmaken.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C23-01",
+        "C23-03"
+      ]
+    },
+    {
+      "code": "C23-03",
+      "familie": "C",
+      "omschrijving": "Blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts",
+      "betekenis": "Einde spitsstrook.",
+      "bron": {
+        "boek": 240
+      },
+      "nearMiss": [
+        "C23-01",
+        "C23-02"
+      ]
+    },
+    {
+      "code": "D1",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met drie witte pijlen in een kring",
+      "betekenis": "Rotonde; verplichte rijrichting.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D2",
+        "D3",
+        "J9"
+      ]
+    },
+    {
+      "code": "D2",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met een dikke witte pijl schuin naar rechtsonder",
+      "betekenis": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D3",
+        "D1"
+      ]
+    },
+    {
+      "code": "D3",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts",
+      "betekenis": "Bord mag aan beide zijden worden voorbij gegaan.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D2"
+      ]
+    },
+    {
+      "code": "D4",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met een witte pijl omhoog",
+      "betekenis": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D5",
+        "D6",
+        "D7"
+      ]
+    },
+    {
+      "code": "D5",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met een witte pijl die naar rechts buigt",
+      "betekenis": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D4",
+        "D6",
+        "D7"
+      ]
+    },
+    {
+      "code": "D6",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts",
+      "betekenis": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D7",
+        "D4",
+        "D5"
+      ]
+    },
+    {
+      "code": "D7",
+      "familie": "D",
+      "omschrijving": "Blauwe cirkel met een witte pijl die zich splitst naar links en rechts",
+      "betekenis": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "D6",
+        "D4",
+        "D5"
+      ]
+    },
+    {
+      "code": "E1",
+      "familie": "E",
+      "omschrijving": "Blauwe cirkel met rode rand en één rode diagonale streep",
+      "betekenis": "Parkeerverbod.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "code": "E2",
+      "familie": "E",
+      "omschrijving": "Blauwe cirkel met rode rand en een rood kruis",
+      "betekenis": "Verbod stil te staan.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E1"
+      ]
+    },
+    {
+      "code": "E3",
+      "familie": "E",
+      "omschrijving": "Blauwe cirkel met rode rand, rode streep en een fiets en bromfiets",
+      "betekenis": "Verbod fietsen en bromfietsen te plaatsen.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E1",
+        "E8g"
+      ]
+    },
+    {
+      "code": "E4",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met een witte P",
+      "betekenis": "Parkeergelegenheid.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8",
+        "E5"
+      ]
+    },
+    {
+      "code": "E5",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met een witte P en het woord taxi",
+      "betekenis": "Taxistandplaats.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E4",
+        "E13"
+      ]
+    },
+    {
+      "code": "E6",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een rolstoelsymbool",
+      "betekenis": "Gehandicaptenparkeerplaats.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E4",
+        "E8"
+      ]
+    },
+    {
+      "code": "E7",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een vrachtauto met laadklep",
+      "betekenis": "Gelegenheid bestemd voor het onmiddellijk laden en lossen van goederen.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8a",
+        "E4"
+      ]
+    },
+    {
+      "code": "E8",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een personenauto",
+      "betekenis": "Parkeergelegenheid alleen bestemd voor personenauto's.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E4",
+        "E8a"
+      ]
+    },
+    {
+      "code": "E8a",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een vrachtauto en autobus",
+      "betekenis": "Parkeergelegenheid alleen bestemd voor vrachtauto's en autobussen.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8",
+        "E7"
+      ]
+    },
+    {
+      "code": "E8b",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een auto met twee wielen op de stoep",
+      "betekenis": "Parkeergelegenheid alleen voor het parkeren met twee wielen op de stoep.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8",
+        "E4"
+      ]
+    },
+    {
+      "code": "E8c",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een laadpaalsymbool",
+      "betekenis": "Parkeergelegenheid alleen bestemd voor het opladen van elektrische voertuigen.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8",
+        "E4"
+      ]
+    },
+    {
+      "code": "E8g",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een fiets en bromfiets",
+      "betekenis": "Gelegenheid alleen bestemd voor het plaatsen van fietsen en bromfietsen.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E3",
+        "E8m"
+      ]
+    },
+    {
+      "code": "E8m",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een motorfiets",
+      "betekenis": "Parkeergelegenheid alleen bestemd voor motoren.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8g",
+        "E8"
+      ]
+    },
+    {
+      "code": "E8n",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en een kampeerauto",
+      "betekenis": "Parkeergelegenheid alleen bestemd voor kampeerwagens.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E8",
+        "E8a"
+      ]
+    },
+    {
+      "code": "E9",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en het woord vergunninghouders",
+      "betekenis": "Parkeergelegenheid alleen bestemd voor vergunninghouders.",
+      "bron": {
+        "boek": 241
+      },
+      "nearMiss": [
+        "E4",
+        "E10"
+      ]
+    },
+    {
+      "code": "E10",
+      "familie": "E",
+      "omschrijving": "Wit ZONE-kader met een blauw P-bord en max 2h",
+      "betekenis": "Parkeerschijfzone.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E11",
+        "E9"
+      ]
+    },
+    {
+      "code": "E11",
+      "familie": "E",
+      "omschrijving": "Hetzelfde kader met een diagonale streep erdoor",
+      "betekenis": "Einde parkeerschijfzone.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E10"
+      ]
+    },
+    {
+      "code": "E12",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P+R",
+      "betekenis": "Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E13",
+        "E4"
+      ]
+    },
+    {
+      "code": "E13",
+      "familie": "E",
+      "omschrijving": "Blauw vierkant met P en het woord carpool",
+      "betekenis": "Parkeergelegenheid ten behoeve van carpoolers.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E12",
+        "E5"
+      ]
+    },
+    {
+      "code": "ZC-E-01",
+      "familie": "E",
+      "zonderCode": true,
+      "omschrijving": "Blauw vierkant met P en een hand die een munt in een automaat werpt",
+      "betekenis": "Betaald parkeren, uitsluitend met muntgeld.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "ZC-E-02",
+        "E4"
+      ]
+    },
+    {
+      "code": "ZC-E-02",
+      "familie": "E",
+      "zonderCode": true,
+      "omschrijving": "Blauw vierkant met P en een hand die een pas invoert",
+      "betekenis": "Betaald parkeren, uitsluitend met chipknip, bankpas of creditcard.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "ZC-E-01",
+        "E4"
+      ]
+    },
+    {
+      "code": "ZC-E-03",
+      "familie": "E",
+      "zonderCode": true,
+      "omschrijving": "Blauw vierkant met P en een zonenummer 14515",
+      "betekenis": "Parkeerautomaat met zone-nummer voor parkeer-app.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E4",
+        "ZC-E-01"
+      ]
+    },
+    {
+      "code": "ZC-E-04",
+      "familie": "E",
+      "zonderCode": true,
+      "omschrijving": "Blauw vierkant met een P in een garagesymbool",
+      "betekenis": "Parkeergarage, overdekte parkeerplaats.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E4"
+      ]
+    },
+    {
+      "code": "L52",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met K+R en het onderschrift halen en brengen",
+      "betekenis": "Gelegenheid voor het kort stilstaan om passagiers te brengen of op te halen.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "E12",
+        "E4",
+        "L51"
+      ]
+    },
+    {
+      "code": "F1",
+      "familie": "F",
+      "omschrijving": "Rode cirkel met een rode en een zwarte auto naast elkaar",
+      "betekenis": "Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F3",
+        "F2"
+      ]
+    },
+    {
+      "code": "F2",
+      "familie": "F",
+      "omschrijving": "Witte cirkel met twee grijze auto's en schuine strepen",
+      "betekenis": "Einde verbod voor motorvoertuigen om elkaar onderling in te halen.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F1",
+        "F4"
+      ]
+    },
+    {
+      "code": "F3",
+      "familie": "F",
+      "omschrijving": "Rode cirkel met een rode vrachtauto en een zwarte auto",
+      "betekenis": "Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F1",
+        "F4"
+      ]
+    },
+    {
+      "code": "F4",
+      "familie": "F",
+      "omschrijving": "Witte cirkel met een grijze vrachtauto en auto, met schuine strepen",
+      "betekenis": "Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F3",
+        "F2"
+      ]
+    },
+    {
+      "code": "F5",
+      "familie": "F",
+      "omschrijving": "Rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog",
+      "betekenis": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F6",
+        "J29"
+      ]
+    },
+    {
+      "code": "F6",
+      "familie": "F",
+      "omschrijving": "Blauw vierkant met een rode pijl omlaag en een witte pijl omhoog",
+      "betekenis": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F5"
+      ]
+    },
+    {
+      "code": "F7",
+      "familie": "F",
+      "omschrijving": "Rode cirkel met een zwarte pijl die een U-bocht maakt",
+      "betekenis": "Keerverbod.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F5",
+        "F10"
+      ]
+    },
+    {
+      "code": "F8",
+      "familie": "F",
+      "omschrijving": "Witte cirkel met een enkele schuine grijze streep",
+      "betekenis": "Einde van alle door verkeersborden aangegeven verboden.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F9",
+        "F2"
+      ]
+    },
+    {
+      "code": "F9",
+      "familie": "F",
+      "omschrijving": "Zwart elektronisch paneel met een witte cirkel met diagonale streep",
+      "betekenis": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F8",
+        "A3"
+      ]
+    },
+    {
+      "code": "F10",
+      "familie": "F",
+      "omschrijving": "Rode cirkel met een witte horizontale balk",
+      "betekenis": "Stop. In het bord kan worden aangegeven door wie of waarom het bord wordt toegepast.",
+      "bron": {
+        "boek": 242
+      },
+      "nearMiss": [
+        "F5",
+        "C2"
+      ]
+    },
+    {
+      "code": "F11",
+      "familie": "F",
+      "omschrijving": "Blauwe cirkel met een witte tractor",
+      "betekenis": "Verplicht gebruik passeerbaan of passeerstrook (rijbaan of -strook om ingehaald te kunnen worden), uitsluitend bestemd voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F12",
+        "F13"
+      ]
+    },
+    {
+      "code": "F12",
+      "familie": "F",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde verplicht gebruik passeerbaan of passeerstrook (rijbaan of -strook om ingehaald te kunnen worden), uitsluitend bestemd voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F11",
+        "F14"
+      ]
+    },
+    {
+      "code": "F13",
+      "familie": "F",
+      "omschrijving": "Blauwe cirkel met een witte bus",
+      "betekenis": "Rijbaan of -strook uitsluitend ten behoeve van lijnbussen.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F14",
+        "F15",
+        "F17"
+      ]
+    },
+    {
+      "code": "F14",
+      "familie": "F",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde busbaan of -strook.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F13",
+        "F16"
+      ]
+    },
+    {
+      "code": "F15",
+      "familie": "F",
+      "omschrijving": "Blauwe cirkel met een witte tram",
+      "betekenis": "Rijbaan of -strook uitsluitend ten behoeve van trams.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F16",
+        "F13"
+      ]
+    },
+    {
+      "code": "F16",
+      "familie": "F",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde trambaan of -strook.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F15",
+        "F14"
+      ]
+    },
+    {
+      "code": "F17",
+      "familie": "F",
+      "omschrijving": "Blauwe cirkel met een witte bus en tram",
+      "betekenis": "Rijbaan of -strook uitsluitend ten behoeve van lijnbussen en trams.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F18",
+        "F13",
+        "F15"
+      ]
+    },
+    {
+      "code": "F18",
+      "familie": "F",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde bus- en trambaan of -strook.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F17",
+        "F14"
+      ]
+    },
+    {
+      "code": "F19",
+      "familie": "F",
+      "omschrijving": "Blauwe cirkel met een witte vrachtauto en bus",
+      "betekenis": "Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's en lijnbussen.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F20",
+        "F21",
+        "F17"
+      ]
+    },
+    {
+      "code": "F20",
+      "familie": "F",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde rijbaan of -strook voor vrachtauto's en lijnbussen.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F19",
+        "F22"
+      ]
+    },
+    {
+      "code": "F21",
+      "familie": "F",
+      "omschrijving": "Blauwe cirkel met een witte vrachtauto",
+      "betekenis": "Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F22",
+        "F19"
+      ]
+    },
+    {
+      "code": "F22",
+      "familie": "F",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde rijbaan of -strook voor vrachtauto's.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "F21",
+        "F20"
+      ]
+    },
+    {
+      "code": "G1",
+      "familie": "G",
+      "omschrijving": "Blauw vierkant met het witte autosnelwegsymbool",
+      "betekenis": "Autosnelweg.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "code": "G2",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde autosnelweg.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "G1",
+        "G4"
+      ]
+    },
+    {
+      "code": "G3",
+      "familie": "G",
+      "omschrijving": "Blauw vierkant met een witte auto van voren",
+      "betekenis": "Autoweg.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "G4",
+        "G1"
+      ]
+    },
+    {
+      "code": "G4",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde autoweg.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "G3",
+        "G2"
+      ]
+    },
+    {
+      "code": "G5",
+      "familie": "G",
+      "omschrijving": "Blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger",
+      "betekenis": "Erf.",
+      "bron": {
+        "boek": 243
+      },
+      "nearMiss": [
+        "G6"
+      ]
+    },
+    {
+      "code": "G6",
+      "familie": "G",
+      "omschrijving": "Het erfbord met een rode diagonale streep",
+      "betekenis": "Einde erf.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G5"
+      ]
+    },
+    {
+      "code": "G7",
+      "familie": "G",
+      "omschrijving": "Blauwe cirkel met een witte volwassene en kind",
+      "betekenis": "Voetpad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G8",
+        "G9"
+      ]
+    },
+    {
+      "code": "G8",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde voetpad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G7",
+        "G10"
+      ]
+    },
+    {
+      "code": "G9",
+      "familie": "G",
+      "omschrijving": "Blauwe cirkel met een witte ruiter te paard",
+      "betekenis": "Ruiterpad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G10",
+        "G7"
+      ]
+    },
+    {
+      "code": "G10",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde ruiterpad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G9",
+        "G8"
+      ]
+    },
+    {
+      "code": "G11",
+      "familie": "G",
+      "omschrijving": "Blauwe cirkel met een witte fiets",
+      "betekenis": "Verplicht fietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G12a",
+        "G13",
+        "G12"
+      ]
+    },
+    {
+      "code": "G12",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde verplicht fietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G11",
+        "G12b",
+        "G14"
+      ]
+    },
+    {
+      "code": "G12a",
+      "familie": "G",
+      "omschrijving": "Blauwe cirkel met een witte fiets en bromfiets",
+      "betekenis": "Fiets-/bromfietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G11",
+        "G12b"
+      ]
+    },
+    {
+      "code": "G12b",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde fiets-/bromfietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G12a",
+        "G12"
+      ]
+    },
+    {
+      "code": "G13",
+      "familie": "G",
+      "omschrijving": "Blauw rechthoekig bordje met het witte woord fietspad",
+      "betekenis": "Onverplicht fietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G14",
+        "G11"
+      ]
+    },
+    {
+      "code": "G14",
+      "familie": "G",
+      "omschrijving": "Hetzelfde bordje met een rode diagonale streep",
+      "betekenis": "Einde onverplicht fietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "G13",
+        "G12"
+      ]
+    },
+    {
+      "code": "ZC-G-01",
+      "familie": "G",
+      "zonderCode": true,
+      "omschrijving": "Wit rechthoekig bord met rode rand, een bromfiets en een rode pijl schuin naar linksonder",
+      "betekenis": "Bromfietsers worden verwezen naar de rijbaan.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "ZC-G-02",
+        "G12a"
+      ]
+    },
+    {
+      "code": "ZC-G-02",
+      "familie": "G",
+      "zonderCode": true,
+      "omschrijving": "Wit rechthoekig bord met rode rand, een bromfiets en een rode pijl schuin naar rechtsonder",
+      "betekenis": "Bromfietsers worden verwezen naar het fiets-/bromfietspad.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "ZC-G-01",
+        "G12a"
+      ]
+    },
+    {
+      "code": "ZC-G-03",
+      "familie": "G",
+      "zonderCode": true,
+      "omschrijving": "Wit rechthoekig bord met rode rand, een snorfiets en een rode pijl schuin naar rechtsonder",
+      "betekenis": "Snorfietsers worden verwezen naar de rijbaan.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "ZC-G-04",
+        "G11"
+      ]
+    },
+    {
+      "code": "ZC-G-04",
+      "familie": "G",
+      "zonderCode": true,
+      "omschrijving": "Wit rechthoekig bord met rode rand, een brom- en snorfiets en een rode pijl schuin naar rechtsonder",
+      "betekenis": "Bromfietsers en snorfietsers worden verwezen naar de rijbaan.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "ZC-G-03",
+        "ZC-G-01"
+      ]
+    },
+    {
+      "code": "H1",
+      "familie": "H",
+      "omschrijving": "Blauw rechthoekig bord met witte rand en de plaatsnaam Helmond",
+      "betekenis": "Bebouwde kom.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "H2"
+      ]
+    },
+    {
+      "code": "H2",
+      "familie": "H",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde bebouwde kom.",
+      "bron": {
+        "boek": 244
+      },
+      "nearMiss": [
+        "H1"
+      ]
+    },
+    {
+      "code": "H1-02",
+      "familie": "H",
+      "omschrijving": "Blauw bord met de plaatsnaam Stokkum en daaronder een silhouet van een dorpsgezicht",
+      "betekenis": "Bebouwde kom (toekomstig bord).",
+      "bron": {
+        "boek": 244
+      },
+      "variant": "toekomstig",
+      "nearMiss": [
+        "H2"
+      ],
+      "opmerking": "Toekomstig bord, in het boek naast het huidige afgebeeld."
+    },
+    {
+      "code": "H2-02",
+      "familie": "H",
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde bebouwde kom (toekomstig bord).",
+      "bron": {
+        "boek": 244
+      },
+      "variant": "toekomstig",
+      "nearMiss": [
+        "H1"
+      ],
+      "opmerking": "Toekomstig bord, in het boek naast het huidige afgebeeld."
+    },
+    {
+      "code": "J1",
+      "familie": "J",
+      "omschrijving": "Een bult in het wegdek",
+      "betekenis": "Slecht wegdek.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J38",
+        "J20"
+      ]
+    },
+    {
+      "code": "J2",
+      "familie": "J",
+      "omschrijving": "Een pijl die naar rechts buigt",
+      "betekenis": "Bocht naar rechts.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J3",
+        "J4"
+      ]
+    },
+    {
+      "code": "J3",
+      "familie": "J",
+      "omschrijving": "Een pijl die naar links buigt",
+      "betekenis": "Bocht naar links.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J2",
+        "J5"
+      ]
+    },
+    {
+      "code": "J4",
+      "familie": "J",
+      "omschrijving": "Een S-vormige lijn, eerst naar rechts",
+      "betekenis": "S-bocht(en), eerst naar rechts.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J5",
+        "J2"
+      ]
+    },
+    {
+      "code": "J5",
+      "familie": "J",
+      "omschrijving": "Een S-vormige lijn, eerst naar links",
+      "betekenis": "S-bocht(en), eerst naar links.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J4",
+        "J3"
+      ]
+    },
+    {
+      "code": "J6",
+      "familie": "J",
+      "omschrijving": "Een helling omhoog met 10%",
+      "betekenis": "Steile helling.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J7"
+      ]
+    },
+    {
+      "code": "J7",
+      "familie": "J",
+      "omschrijving": "Een helling omlaag met 10%",
+      "betekenis": "Gevaarlijke daling.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J6"
+      ]
+    },
+    {
+      "code": "J8",
+      "familie": "J",
+      "omschrijving": "Een schuin kruis",
+      "betekenis": "Gevaarlijk kruispunt.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "B6",
+        "J9"
+      ]
+    },
+    {
+      "code": "J9",
+      "familie": "J",
+      "omschrijving": "Drie pijlen in een kring",
+      "betekenis": "Rotonde.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J8",
+        "D1"
+      ]
+    },
+    {
+      "code": "J10",
+      "familie": "J",
+      "omschrijving": "Een hek met spijlen",
+      "betekenis": "Overweg met overwegbomen.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J11",
+        "J12"
+      ]
+    },
+    {
+      "code": "J11",
+      "familie": "J",
+      "omschrijving": "Een stoomlocomotief",
+      "betekenis": "Overweg zonder overwegbomen.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J10",
+        "J13"
+      ]
+    },
+    {
+      "code": "J12",
+      "familie": "J",
+      "omschrijving": "Een liggend rood-wit andreaskruis",
+      "betekenis": "Overweg met enkelspoor.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J13",
+        "J10"
+      ]
+    },
+    {
+      "code": "J13",
+      "familie": "J",
+      "omschrijving": "Een dubbel rood-wit andreaskruis",
+      "betekenis": "Overweg met twee of meer sporen.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J12",
+        "J11"
+      ]
+    },
+    {
+      "code": "ZC-J-01",
+      "familie": "J",
+      "zonderCode": true,
+      "omschrijving": "Drie rood-wit gestreepte bakens, met respectievelijk drie, twee en één streep, waarvan de laatste met een rode driehoek erboven",
+      "betekenis": "Bebakening bij nadering overweg of beweegbare brug, een streep geeft aan dat je nog 80 meter voor de overweg bent, twee strepen 160 meter en drie strepen 240 meter.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J10",
+        "J11",
+        "J15"
+      ]
+    },
+    {
+      "code": "J14",
+      "familie": "J",
+      "omschrijving": "Een tram",
+      "betekenis": "Tram(kruising).",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J15",
+        "J11"
+      ]
+    },
+    {
+      "code": "J15",
+      "familie": "J",
+      "omschrijving": "Een openstaande brug met een schip",
+      "betekenis": "Beweegbare brug.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J14",
+        "J26"
+      ]
+    },
+    {
+      "code": "J16",
+      "familie": "J",
+      "omschrijving": "Een werkman met een schep",
+      "betekenis": "Werk in uitvoering.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J38",
+        "J1"
+      ]
+    },
+    {
+      "code": "J17",
+      "familie": "J",
+      "omschrijving": "Twee lijnen die aan beide zijden naar binnen buigen",
+      "betekenis": "Rijbaanversmalling.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J18",
+        "J19"
+      ]
+    },
+    {
+      "code": "J18",
+      "familie": "J",
+      "omschrijving": "De rechter lijn buigt naar binnen",
+      "betekenis": "Rijbaanversmalling rechts.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J17",
+        "J19"
+      ]
+    },
+    {
+      "code": "J19",
+      "familie": "J",
+      "omschrijving": "De linker lijn buigt naar binnen",
+      "betekenis": "Rijbaanversmalling links.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J17",
+        "J18"
+      ]
+    },
+    {
+      "code": "J20",
+      "familie": "J",
+      "omschrijving": "Een auto met slipsporen",
+      "betekenis": "Slipgevaar.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J1",
+        "J35"
+      ]
+    },
+    {
+      "code": "J21",
+      "familie": "J",
+      "omschrijving": "Twee rennende kinderen",
+      "betekenis": "Kinderen.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J23",
+        "J22"
+      ]
+    },
+    {
+      "code": "J22",
+      "familie": "J",
+      "omschrijving": "Een voetganger op een zebrapad",
+      "betekenis": "Voetgangersoversteekplaats.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "L2",
+        "J23"
+      ]
+    },
+    {
+      "code": "J23",
+      "familie": "J",
+      "omschrijving": "Een lopende voetganger",
+      "betekenis": "Voetgangers.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J21",
+        "J22"
+      ]
+    },
+    {
+      "code": "J24",
+      "familie": "J",
+      "omschrijving": "Een fiets",
+      "betekenis": "Fietsers en bromfietsers.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J21",
+        "J23"
+      ]
+    },
+    {
+      "code": "J25",
+      "familie": "J",
+      "omschrijving": "Een auto met opspattende stenen op een helling",
+      "betekenis": "Losliggende stenen.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J20",
+        "J1"
+      ]
+    },
+    {
+      "code": "J26",
+      "familie": "J",
+      "omschrijving": "Een auto die van een kade in het water rijdt",
+      "betekenis": "Kade of rivieroever.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J15",
+        "J20"
+      ]
+    },
+    {
+      "code": "J27",
+      "familie": "J",
+      "omschrijving": "Een springend hert",
+      "betekenis": "Groot wild.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J28"
+      ]
+    },
+    {
+      "code": "J28",
+      "familie": "J",
+      "omschrijving": "Een koe",
+      "betekenis": "Vee.",
+      "bron": {
+        "boek": 245
+      },
+      "nearMiss": [
+        "J27"
+      ]
+    },
+    {
+      "code": "J29",
+      "familie": "J",
+      "omschrijving": "Een zwarte pijl omhoog en een rode pijl omlaag",
+      "betekenis": "Tegenliggers.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "F5",
+        "J32"
+      ]
+    },
+    {
+      "code": "J30",
+      "familie": "J",
+      "omschrijving": "Een vliegtuig",
+      "betekenis": "Laagvliegende vliegtuigen.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J31"
+      ]
+    },
+    {
+      "code": "J31",
+      "familie": "J",
+      "omschrijving": "Een windzak",
+      "betekenis": "Zijwind.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J30"
+      ]
+    },
+    {
+      "code": "J32",
+      "familie": "J",
+      "omschrijving": "Een verkeerslicht",
+      "betekenis": "Verkeerslichten.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J33",
+        "J37"
+      ]
+    },
+    {
+      "code": "J33",
+      "familie": "J",
+      "omschrijving": "Twee auto's achter elkaar",
+      "betekenis": "File.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J34",
+        "J32"
+      ]
+    },
+    {
+      "code": "J34",
+      "familie": "J",
+      "omschrijving": "Een gekantelde auto",
+      "betekenis": "Ongeval.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J33",
+        "J35"
+      ]
+    },
+    {
+      "code": "J35",
+      "familie": "J",
+      "omschrijving": "Een auto met slecht zicht",
+      "betekenis": "Slecht zicht door sneeuw, regen of mist.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J36",
+        "J34"
+      ]
+    },
+    {
+      "code": "J36",
+      "familie": "J",
+      "omschrijving": "Een sneeuwvlok / ijskristal",
+      "betekenis": "IJzel of sneeuw.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J35",
+        "J31"
+      ]
+    },
+    {
+      "code": "J37",
+      "familie": "J",
+      "omschrijving": "Een uitroepteken",
+      "betekenis": "Gevaar (de aard van het gevaar is aangegeven op het onderbord).",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J32",
+        "J38"
+      ]
+    },
+    {
+      "code": "J38",
+      "familie": "J",
+      "omschrijving": "Een verhoging in het wegdek",
+      "betekenis": "Verkeersdrempel.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J1",
+        "J16"
+      ]
+    },
+    {
+      "code": "J39",
+      "familie": "J",
+      "omschrijving": "Een auto met een paal ervoor",
+      "betekenis": "Waarschuwing voor elektrische in- en uitschuifbare paal in de rijbaan (poller) waarmee toegankelijkheid van straten en gebieden kan worden geregeld.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J38",
+        "J37"
+      ]
+    },
+    {
+      "code": "ZC-J-02",
+      "familie": "J",
+      "zonderCode": true,
+      "omschrijving": "Zwart elektronisch paneel met het rode file-symbool",
+      "betekenis": "Waarschuwing voor file op elektronisch signaleringsbord.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J33"
+      ]
+    },
+    {
+      "code": "ZC-J-03",
+      "familie": "J",
+      "zonderCode": true,
+      "omschrijving": "Zwart elektronisch paneel met het rode ongeval-symbool",
+      "betekenis": "Waarschuwing voor ongeval op elektronisch signaleringsbord.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J34"
+      ]
+    },
+    {
+      "code": "ZC-J-04",
+      "familie": "J",
+      "zonderCode": true,
+      "omschrijving": "Zwart elektronisch paneel met het rode zijwind-symbool",
+      "betekenis": "Waarschuwing voor zijwind op elektronisch signaleringsbord.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J31"
+      ]
+    },
+    {
+      "code": "ZC-J-05",
+      "familie": "J",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met LET OP en een pictogram van een snorfietser",
+      "betekenis": "Opvallende waarschuwing voor snorfietsers op de rijbaan.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "J24"
+      ]
+    },
+    {
+      "code": "K1",
+      "familie": "K",
+      "omschrijving": "Blauw bord met een witte pijl omhoog, A 44 in een rood vak, en de doelen Haarlem 23 en Amsterdam 34",
+      "betekenis": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale bestemmingen en routenummer autosnelweg en Europese hoofdroute.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "K2",
+        "K4"
+      ]
+    },
+    {
+      "code": "K2",
+      "familie": "K",
+      "omschrijving": "Blauw bord 1200 m met een pijl schuin omhoog, Arnhem, Apeldoorn, een vliegtuigsymbool met Terlet, en N 50 in een geel vak",
+      "betekenis": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen (bovenste doel=afritnaam), verwijzing naar vliegveld/luchthaven en routenummer niet-autosnelweg.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "K1",
+        "K5"
+      ]
+    },
+    {
+      "code": "ZC-K-01",
+      "familie": "K",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met A12 Westervoort, N 28 Duiven Zevenaar, 600 m en een schematische afrit",
+      "betekenis": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen (bovenste doel=afritnaam), verwijzing naar vliegveld/luchthaven en routenummer niet-autosnelweg.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "K2",
+        "K9"
+      ]
+    },
+    {
+      "code": "K3",
+      "familie": "K",
+      "omschrijving": "Blauw bord met P, een mes-en-vork symbool, een tanksymbool, de naam Boermark en een pijl schuin omhoog",
+      "betekenis": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam van de parkeerplaats en symbolen die de aard van de voorzieningen aangeven.",
+      "bron": {
+        "boek": 246
+      },
+      "nearMiss": [
+        "K1",
+        "K2"
+      ]
+    },
+    {
+      "code": "K4",
+      "familie": "K",
+      "omschrijving": "Groot blauw bord met links Arnhem, Utrecht en A12 (rood) E30 (groen), rechts Amsterdam, Rotterdam, Rijswijk met A4 (rood) E19 (groen) en een pijl schuin omhoog, plus 600 m",
+      "betekenis": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de afgaande richting, met interlokale doelen, routenummers autosnelwegen en Europese hoofdroutes.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K1",
+        "K2"
+      ]
+    },
+    {
+      "code": "K5",
+      "familie": "K",
+      "omschrijving": "Blauw bord met een schematische kruising: Breeven, Best, N620, links A58 en Tilburg, rechts A2 en Eindhoven; en een tweede paneel met Venlo, N275, Eindhoven, Amsterdam, A2, Roermond, Maastricht",
+      "betekenis": "Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en viaductsymbool (verticale gele haakjes: route gaat over het viaduct; horizontale gele haakjes: route gaat onder het viaduct door).",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K6",
+        "K11"
+      ]
+    },
+    {
+      "code": "K6",
+      "familie": "K",
+      "omschrijving": "Twee blauwe puntige wegwijzers boven elkaar: N 212 en Montfoort / Woerden 14",
+      "betekenis": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K5",
+        "K7"
+      ]
+    },
+    {
+      "code": "K7",
+      "familie": "K",
+      "omschrijving": "Twee rood-witte puntige wegwijzers: Centrum 1 / Brielle 32 en Delft 6 / Den Haag 16",
+      "betekenis": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk fietsroutenummer (boven), en met interlokale doelen en interlokaal fietsroutenummer (onder).",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K8",
+        "K6"
+      ]
+    },
+    {
+      "code": "K8",
+      "familie": "K",
+      "omschrijving": "Rood-witte wegwijzer met Esbeek 2, Reusel 12 en Esbeek 3, Middelbeers 8 met fietssymbolen",
+      "betekenis": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met interlokale doelen en een via een alternatieve route te bereiken doel (cursief).",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K7"
+      ]
+    },
+    {
+      "code": "ZC-K-02",
+      "familie": "K",
+      "zonderCode": true,
+      "omschrijving": "Rood bord met een witte pijl omhoog, F 344 en Deventer; en een groen-wit bord F35 FIETSNELWEG",
+      "betekenis": "Voorbeelden van bewegwijzering van een snelfietsroute/fietssnelweg. Dit is een extra breed fietspad dat met zo weinig mogelijk obstakels om grote afstanden af te kunnen leggen, bijvoorbeeld tussen twee steden.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K7",
+        "K8"
+      ]
+    },
+    {
+      "code": "K9",
+      "familie": "K",
+      "omschrijving": "Blauw bord met Montfoort en Woerden doorgestreept, N121, een pijl, N120, IJsselstein, Utrecht, 400 m en onderaan Woerden op geel",
+      "betekenis": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K5",
+        "K10"
+      ]
+    },
+    {
+      "code": "K10",
+      "familie": "K",
+      "omschrijving": "Blauw bord met Den Haag, Centrum, s101, Oude Maas, Dijkzicht en stadsroutenummers",
+      "betekenis": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten en stadsroutenummers.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K11",
+        "K12"
+      ]
+    },
+    {
+      "code": "K11",
+      "familie": "K",
+      "omschrijving": "Blauw bord met drie panelen: Den Haag (A12), Woerden met N 212 (geel) en witte pijlen omhoog, en Utrecht met A 12 en een pijl naar rechts",
+      "betekenis": "Voorsorteren op niet-autosnelweg. Bord met interlokale doelen, routenummers en verwijzing naar autosnelweg.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K10",
+        "K5"
+      ]
+    },
+    {
+      "code": "K12",
+      "familie": "K",
+      "omschrijving": "Blauw bord met Bomenwijk, Vogelwijk, Planetenwijk, Molenwijk en een pijl omhoog",
+      "betekenis": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K13",
+        "K10"
+      ]
+    },
+    {
+      "code": "K13",
+      "familie": "K",
+      "omschrijving": "Blauw bord met de getallen 10 12 14 25 en een pijl naar rechts",
+      "betekenis": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K12"
+      ]
+    },
+    {
+      "code": "K14",
+      "familie": "K",
+      "omschrijving": "Geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool",
+      "betekenis": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+      "bron": {
+        "boek": 247
+      },
+      "nearMiss": [
+        "K9",
+        "K12"
+      ]
+    },
+    {
+      "code": "L1",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met 4,2 m tussen twee pijlpunten",
+      "betekenis": "Hoogte onderdoorgang.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L13",
+        "C19"
+      ]
+    },
+    {
+      "code": "L2",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een voetganger op een zebrapad",
+      "betekenis": "Voetgangersoversteekplaats.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "J22",
+        "L3a"
+      ]
+    },
+    {
+      "code": "L3a",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een tram en een bus",
+      "betekenis": "Tram/bushalte.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L3b",
+        "L3c"
+      ]
+    },
+    {
+      "code": "L3b",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een bus",
+      "betekenis": "Bushalte.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L3a",
+        "L3c"
+      ]
+    },
+    {
+      "code": "L3c",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een tram",
+      "betekenis": "Tramhalte.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L3a",
+        "L3b"
+      ]
+    },
+    {
+      "code": "L4",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met drie pijlen: links afbuigend, rechtdoor, rechts afbuigend",
+      "betekenis": "Voorsorteren.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L6",
+        "L7"
+      ]
+    },
+    {
+      "code": "L5",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een pijl die van rechts naar links samenvoegt",
+      "betekenis": "Einde rijstrook.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L101",
+        "L7"
+      ]
+    },
+    {
+      "code": "L6",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met drie pijlen omhoog die uiteenlopen",
+      "betekenis": "Splitsing.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L4",
+        "L7"
+      ]
+    },
+    {
+      "code": "L7",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met vier pijlen omhoog",
+      "betekenis": "Aantal doorgaande rijstroken.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L6",
+        "L11"
+      ]
+    },
+    {
+      "code": "L8",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een witte weg die eindigt op een rode balk",
+      "betekenis": "Doodlopende weg.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L9"
+      ]
+    },
+    {
+      "code": "L9",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een zijweg die eindigt op een rode balk",
+      "betekenis": "Vooraanduiding doodlopende weg.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L8",
+        "L10"
+      ]
+    },
+    {
+      "code": "L10",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een pijl omhoog en een pijl naar rechts met een vrachtautoverbod",
+      "betekenis": "Vooraanduiding gesloten voor vrachtauto's voor de aangegeven richting.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L9",
+        "L11"
+      ]
+    },
+    {
+      "code": "L11",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met drie pijlen omhoog waarvan er twee een rond 2 m-verbodsbord dragen",
+      "betekenis": "Verkeersbord geldt alleen voor de aangegeven rijstrook/rijstroken.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L12",
+        "L7"
+      ]
+    },
+    {
+      "code": "L12",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een rond 2 m-verbodsbord boven een pijl omlaag",
+      "betekenis": "Verkeersbord geldt alleen voor de aangegeven rijstrook.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L11",
+        "L10"
+      ]
+    },
+    {
+      "code": "L13",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een tunnelsymbool en 17 km",
+      "betekenis": "Verkeerstunnel (lengte van tunnel is aangegeven).",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L14",
+        "L1"
+      ]
+    },
+    {
+      "code": "L14",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een uitstulping aan de rechterkant van de weg",
+      "betekenis": "Vluchthaven.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L20",
+        "L21"
+      ]
+    },
+    {
+      "code": "L15",
+      "familie": "L",
+      "omschrijving": "Blauw smal bord met S.O.S verticaal",
+      "betekenis": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L16",
+        "L18"
+      ]
+    },
+    {
+      "code": "L16",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een telefoonhoorn",
+      "betekenis": "(verkeerstunnel) Noodtelefoon.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L15",
+        "L17"
+      ]
+    },
+    {
+      "code": "L17",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een rode brandblusser",
+      "betekenis": "(verkeerstunnel) Brandblusapparaat.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L16",
+        "L18"
+      ]
+    },
+    {
+      "code": "L18",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een brandblusser en een telefoonhoorn en S.O.S.",
+      "betekenis": "(verkeerstunnel) Noodtelefoon en brandblusapparaat.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L15",
+        "L16",
+        "L17"
+      ]
+    },
+    {
+      "code": "L19",
+      "familie": "L",
+      "omschrijving": "Groen bord met twee vluchtende figuren en 50 m in beide richtingen",
+      "betekenis": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven richting en afstand.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L15",
+        "L18"
+      ]
+    },
+    {
+      "code": "L20",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een pijl omlaag die links uitbuigt en een pijl omhoog",
+      "betekenis": "Uitwijkplaats rechts van de weg.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L21",
+        "L14"
+      ]
+    },
+    {
+      "code": "L21",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met een pijl omhoog die naar rechts uitbuigt",
+      "betekenis": "Uitwijkplaats links van de weg.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L20",
+        "L14"
+      ]
+    },
+    {
+      "code": "L51",
+      "familie": "L",
+      "omschrijving": "Blauw bord met Fietsstraat, een fietser en een auto, en auto te gast",
+      "betekenis": "Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is toegelaten.",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L52"
+      ]
+    },
+    {
+      "code": "L101",
+      "familie": "L",
+      "omschrijving": "Blauw vierkant met twee pijlen die naar rechts samenvoegen",
+      "betekenis": "De linkerrijstrook eindigt en zal overgaan in de rechterrijstrook van de doorgaande rijbaan (taper).",
+      "bron": {
+        "boek": 248
+      },
+      "nearMiss": [
+        "L5",
+        "L6"
+      ]
+    },
+    {
+      "code": "L202",
+      "familie": "L",
+      "omschrijving": "Blauw bord met ontsteek uw lichten en een auto met lichtbundels",
+      "betekenis": "Ontsteek je verlichting, ook overdag.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "L205",
+        "L213"
+      ]
+    },
+    {
+      "code": "L205",
+      "familie": "L",
+      "omschrijving": "Blauw bord met let op bussluis en een auto die in een verzakking valt",
+      "betekenis": "Waarschuwing voor vastrijden in verband met een bussluis.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "L202",
+        "L213"
+      ]
+    },
+    {
+      "code": "L213",
+      "familie": "L",
+      "omschrijving": "Blauw bord met zwaailicht? maak ruimte en auto's die naar de zijkanten uitwijken met een hulpverleningsvoertuig ertussen",
+      "betekenis": "Maak ruimte zodat de hulpdiensten middendoor tussen de rijstroken kunnen rijden.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "L205",
+        "L202"
+      ]
+    },
+    {
+      "code": "L215-100",
+      "familie": "L",
+      "omschrijving": "Blauw bord met een rode waarschuwingsdriehoek, een snelheidscamera-symbool en het woord controle",
+      "betekenis": "Snelheidscontrole.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "L202",
+        "L213"
+      ]
+    },
+    {
+      "code": "L401",
+      "familie": "L",
+      "omschrijving": "Blauw bord met bovenaan NEDERLAND en daaronder een rij voertuigpictogrammen met bijbehorende maximumsnelheden",
+      "betekenis": "Bord bij grensovergangen met maximumsnelheden.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "L215-100",
+        "L202"
+      ]
+    },
+    {
+      "code": "ZC-zones-01",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met een rond bord 30",
+      "betekenis": "30 km-zone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-02",
+        "A1"
+      ]
+    },
+    {
+      "code": "ZC-zones-02",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde kader met een diagonale streep",
+      "betekenis": "Einde 30 km-zone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-01",
+        "A2"
+      ]
+    },
+    {
+      "code": "ZC-zones-03",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met een rond bord 60",
+      "betekenis": "60 km-zone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-04",
+        "ZC-zones-01"
+      ]
+    },
+    {
+      "code": "ZC-zones-04",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde kader met een diagonale streep",
+      "betekenis": "Einde 60 km-zone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-03",
+        "ZC-zones-02"
+      ]
+    },
+    {
+      "code": "ZC-zones-05",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met het bord E1 (parkeerverbod)",
+      "betekenis": "Begin parkeerverbodzone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-06",
+        "E1"
+      ]
+    },
+    {
+      "code": "ZC-zones-06",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde kader met een diagonale streep",
+      "betekenis": "Einde parkeerverbodzone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-05",
+        "E1"
+      ]
+    },
+    {
+      "code": "ZC-zones-07",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met een blauw P-bord met vergunninghouders",
+      "betekenis": "Begin parkeergelegenheidzone alleen bestemd voor vergunninghouders.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-08",
+        "E9"
+      ]
+    },
+    {
+      "code": "ZC-zones-08",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde kader met een diagonale streep",
+      "betekenis": "Einde parkeergelegenheidzone alleen bestemd voor vergunninghouders.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-07"
+      ]
+    },
+    {
+      "code": "ZC-zones-09",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met een doorgestreepte fiets en de tekst uitgezonderd fietsenstalling art. G.2.1 APV",
+      "betekenis": "Zone waarbinnen fietsen, snorfietsen en bromfietsen uitsluitend in een fietsenstalling geplaatst mogen worden.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "E3"
+      ]
+    },
+    {
+      "code": "ZC-zones-10",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met het bord G7 (voetpad)",
+      "betekenis": "Begin voetgangerszone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-11",
+        "G7"
+      ]
+    },
+    {
+      "code": "ZC-zones-11",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde kader met een diagonale streep",
+      "betekenis": "Einde voetgangerszone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-10",
+        "G8"
+      ]
+    },
+    {
+      "code": "ZC-zones-12",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met een rood doorkruist P en een vrachtauto",
+      "betekenis": "Op grond van de APV verboden voor grote voertuigen om binnen de zone te parkeren.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-05"
+      ]
+    },
+    {
+      "code": "ZC-zones-13",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Wit ZONE-kader met het bord C22e (auto met uitlaatgassen)",
+      "betekenis": "Begin milieuzone en/of begin nul-emissiezone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-14",
+        "C22e"
+      ]
+    },
+    {
+      "code": "ZC-zones-14",
+      "groep": "zones",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde kader met een diagonale streep",
+      "betekenis": "Einde milieuzone en/of einde nul-emissiezone.",
+      "bron": {
+        "boek": 249
+      },
+      "nearMiss": [
+        "ZC-zones-13",
+        "C22f"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-01",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Groen bord met witte chevrons (pijlpunten) naar boven",
+      "betekenis": "Splitsing auto(snel)wegen.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-02",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Wit bord met zwarte diagonale strepen",
+      "betekenis": "Einde of versmalling vluchtstrook.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-03",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met UIT en een witte pijl naar rechts",
+      "betekenis": "Uitgang autosnelweg (afrit).",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-04"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-04",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw puntig bord met UIT",
+      "betekenis": "Uitgang autoweg (afrit).",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-03"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-05",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw puntig bord met Doorgaand verkeer",
+      "betekenis": "Aanduiding doorgaand verkeer.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-06"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-06",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit bord met Doorgaand verkeer en een rode pijl omhoog",
+      "betekenis": "Doorgaand verkeer, aanduiding voor fietsers, snorfietsers en bromfietsers.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-05"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-07",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met korte invoegstrook",
+      "betekenis": "Korte invoegstrook (korter dan 200 meter; gaat niet over in vluchtstrook).",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-08",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met U23 en een pijl naar rechts",
+      "betekenis": "Uitwijkroute.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-09"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-09",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde bord met een rode diagonale streep",
+      "betekenis": "Einde uitwijkroute.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-08"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-10",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met een knooppuntsymbool, Valburg en 1400 m",
+      "betekenis": "Aankondigingsbord knooppunt. Een ongelijkvloers kruispunt waar twee of meer autosnelwegen elkaar kruisen.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-11",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met N 28, Duiven, Nijmegen en een afritsymbool",
+      "betekenis": "Begin afrit auto(snel)weg.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-12",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met een auto in een uitstulping",
+      "betekenis": "Vluchthaven, voor gebruik in noodsituaties.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "L14"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-13",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met het bord E1 (parkeerverbod) en een hand die het vasthoudt",
+      "betekenis": "Aanduiding dat verkeersbrigadiers aanwijzingen kunnen geven.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "E1"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-14",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met LET OP en een verkeerslicht met voetgangers",
+      "betekenis": "Aanduiding voor het voor laten gaan van voetgangers op de voetgangersoversteekplaats.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-15",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met rechtsaf voor (brom) fietsers vrij",
+      "betekenis": "Aanduiding dat het gele en het rode verkeerslicht niet gelden voor rechtsafslaande fietsers, snorfietsers, bromfietsers en bestuurders van een gehandicaptenvoertuig.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-16",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met een witte i en 400 m",
+      "betekenis": "Informatie en/of stadsplattegrond na 400 meter.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-overige-aanduidingen-17",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met een tankpistool en een groene stekker",
+      "betekenis": "Tankstation met elektrisch laadpunt.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-18",
+        "ZC-overige-aanduidingen-19"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-18",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met een tankpistool, een groene druppel en een pijl naar rechts",
+      "betekenis": "Tankstation met waterstoflaadpunt.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-17",
+        "ZC-overige-aanduidingen-19"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-19",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Blauw bord met een tankpistool met groene accenten en een pijl schuin omhoog",
+      "betekenis": "Tankstation met elektrisch- en waterstoflaadpunt.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-17",
+        "ZC-overige-aanduidingen-18"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-20",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Rood bord met een grote witte pijlpunt naar links",
+      "betekenis": "Bochtschild.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-21"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-21",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Wit bord met drie rode pijlpunten naar links",
+      "betekenis": "Bochtschild.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-20"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-22",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreepte hekwerken",
+      "betekenis": "Schrikhek.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-23"
+      ]
+    },
+    {
+      "code": "ZC-overige-aanduidingen-23",
+      "groep": "overige-aanduidingen",
+      "zonderCode": true,
+      "omschrijving": "Twee rood-wit gestreepte palen, een met de strepen naar links en een naar rechts",
+      "betekenis": "Geleidebaken, links en rechts.",
+      "bron": {
+        "boek": 250
+      },
+      "nearMiss": [
+        "ZC-overige-aanduidingen-22"
+      ]
+    },
+    {
+      "code": "ZC-hectometer-01",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Groen bordje met 20.4",
+      "betekenis": "Hectometerbordje met afstandaanduiding.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-hectometer-02",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Groen bordje met N 212 en 16,5",
+      "betekenis": "Hectometerbordje: hoofdweg (N-weg).",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-hectometer-03",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Groen bordje met A44, Li en 21,8",
+      "betekenis": "Hectometerbordje: autosnelweg. Li = linker rijbaanaanduiding.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-hectometer-05"
+      ]
+    },
+    {
+      "code": "ZC-hectometer-04",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Geel bordje met A4, 29,2 en een kleine a",
+      "betekenis": "Hectometerbordje: verbindingsweg of parallelrijbaan.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-hectometer-03"
+      ]
+    },
+    {
+      "code": "ZC-hectometer-05",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Zwart bordje met een rond 130-bord, A 16, Re en 52,0",
+      "betekenis": "Hectometerbordje: autosnelweg met maximumsnelheid. Re = rechter rijbaanaanduiding.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-hectometer-03"
+      ]
+    },
+    {
+      "code": "ZC-hectometer-06",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Twee smalle witte paaltjes, een met een rode reflector en een met een witte reflector",
+      "betekenis": "Bermpaaltjes met rode reflectoren staan aan de rechterkant van de rijbaan. Bermpaaltjes met witte reflectoren staan aan de linkerkant van de rijbaan.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-hectometer-07",
+      "groep": "hectometer",
+      "zonderCode": true,
+      "omschrijving": "Rood bord met CADO en daaronder A 16, Re, 52,0",
+      "betekenis": "Calamiteitendoorsteek; om bij blokkades door calamiteiten of wegwerkzaamheden van de ene rijbaan naar de andere te kunnen doorsteken.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-hectometer-05"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-01",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Vier witte bordjes met zwarte schematische kruisingen (een T-kruising met afbuigende hoofdrichting, in vier varianten)",
+      "betekenis": "Voorbeelden van onderborden m.b.t. de afbuigende voorrang, toegepast bij verkeersborden B1, B3, B4 en B5 (eerste twee) en toegepast bij de verkeersborden B6 en B7 (laatste twee).",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-02",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een motorfiets",
+      "betekenis": "Motoren.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-onderborden-05"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-03",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een personenauto",
+      "betekenis": "Personenauto's.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-onderborden-04"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-04",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een auto van voren",
+      "betekenis": "Motorvoertuigen op meer dan twee wielen.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-onderborden-05",
+        "ZC-onderborden-03"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-05",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een motorfiets en een auto",
+      "betekenis": "Alle motorvoertuigen.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": [
+        "ZC-onderborden-04",
+        "ZC-onderborden-02"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-06",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een aanhangwagen",
+      "betekenis": "Aanhangwagens achter motorvoertuigen.",
+      "bron": {
+        "boek": 251
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-07",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een vrachtauto met aanhanger",
+      "betekenis": "Vrachtauto's.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-08",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een autobus",
+      "betekenis": "Autobussen.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-09",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een bestelbus",
+      "betekenis": "Bedrijfsauto's (bestelauto's).",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-10",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een kampeerauto",
+      "betekenis": "Kampeerauto's (campers).",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-11",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een fiets",
+      "betekenis": "Fietsen en gehandicaptenvoertuigen zonder motor.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-13",
+        "ZC-onderborden-12"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-12",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een bromfiets",
+      "betekenis": "Bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-11",
+        "ZC-onderborden-13"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-13",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een fiets en een bromfiets",
+      "betekenis": "Fietsen, bromfietsen, snorfietsen en gehandicaptenvoertuigen.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-11",
+        "ZC-onderborden-12"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-14",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een tractor",
+      "betekenis": "Landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-15",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een pijl naar links",
+      "betekenis": "Geldt alleen in de richting van de pijl.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-16",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Twee pijlen die naar elkaar toe wijzen",
+      "betekenis": "Let op beide richtingen.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-17",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "500 m",
+      "betekenis": "Geldt over 500 meter.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-18",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "↑500 m↑",
+      "betekenis": "Geldt voor de komende 500 meter.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-19",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "uitgezonderd met een fiets",
+      "betekenis": "Geldt niet voor fietsen en gehandicaptenvoertuigen zonder motor.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-11"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-20",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "uitgezonderd met een motorfiets en auto",
+      "betekenis": "Geldt niet voor motoren en personenauto's.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-05"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-21",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "uitgezonderd met een ruiter",
+      "betekenis": "Geldt niet voor ruiters.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-22",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "06-19 h",
+      "betekenis": "Geldt van 6 tot 19 uur.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-23",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "ma t/m vr 08-18 h za/zo 06-24 h",
+      "betekenis": "Geldt van maandag t/m vrijdag van 8 tot 18 uur en zaterdag en zondag van 6 tot 24 uur.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-24",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "1e t/m 15e van de maand",
+      "betekenis": "Geldt voor de eerste helft van de maand.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-25"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-25",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "16e t/m 31e van de maand",
+      "betekenis": "Geldt voor de tweede helft van de maand.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-24"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-26",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "herhaling",
+      "betekenis": "Het bovenstaande verkeersbord is al eerder geplaatst en is al geldig.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-27",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "ritsen na 300 m",
+      "betekenis": "Onderborden bij einde rijstrook (L5).",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-28",
+        "ZC-onderborden-29"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-28",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "geef ritser ruimte",
+      "betekenis": "Onderborden bij einde rijstrook (L5).",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-27",
+        "ZC-onderborden-29"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-29",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "ritsen vanaf hier",
+      "betekenis": "Onderborden bij einde rijstrook (L5).",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-27",
+        "ZC-onderborden-28"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-30",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "bij nat wegdek",
+      "betekenis": "Geldt alleen bij een nat wegdek.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-31",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "uitgezonderd bestemmingsverkeer",
+      "betekenis": "Geldt niet voor bestuurders waarvan het reisdoel aan deze weg ligt en voor lijnbussen.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-32",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een takelwagen met een auto en wegsleepregeling van kracht",
+      "betekenis": "Het voertuig van een foutparkeerder kan worden weggesleept in het belang van de veiligheid of de doorstroming op de weg.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-33"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-33",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een auto met een wielklem en wielklemregeling van kracht",
+      "betekenis": "Aan het voertuig van een foutparkeerder kan in bepaalde gevallen een wielklem worden aangebracht.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": [
+        "ZC-onderborden-32"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-34",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een fiets met verhoogde rijbaan scheiding",
+      "betekenis": "Onderbord bij verkeersbord J37 als waarschuwing voor een verhoogde betonnen afscheiding tussen rijstroken.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-35",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "inhalen toegestaan",
+      "betekenis": "Onderbord bij verkeersbord F1 waarbij o.a. een landbouwtrekker wel mag worden ingehaald.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-36",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "uitgezonderd die sneller mogen rijden dan 25 km/h",
+      "betekenis": "Onderbord bij verkeersbord C8-C9 waarbij landbouwtrekkers die sneller mogen rijden dan 25 km/u de betreffende weg wel mogen inrijden.",
+      "bron": {
+        "boek": 252
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-37",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "speed-pedelecs toegestaan",
+      "betekenis": "(Onderbord bij G11) Speed-pedelecs mogen het fietspad gebruiken.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-onderborden-38"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-38",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Snorfietsen niet toegestaan",
+      "betekenis": "Snorfietsers mogen niet het fietspad volgen, maar moeten de rijbaan gebruiken.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-onderborden-37"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-39",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een auto die scheef in de berm zakt",
+      "betekenis": "Zachte berm rechts.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-40",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Een auto op een verhoogde overweg met OVERWEG 1127",
+      "betekenis": "Verhoogde overweg (met overwegnummer).",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-41",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "spoorvorming",
+      "betekenis": "Slecht wegdek door spoorvorming.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-42",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "ga terug",
+      "betekenis": "Onderbord bij verkeersbord C2 ter voorkoming van spookrijden.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-onderborden-43",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "strepen trekken met een symbool van een streepmachine",
+      "betekenis": "Het wegdek of een gedeelte ervan wordt van strepen voorzien.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-onderborden-44"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-44",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "strepen ontbreken",
+      "betekenis": "Een gedeelte van de rijbaan of rijstrook is niet van strepen voorzien.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-onderborden-43"
+      ]
+    },
+    {
+      "code": "ZC-onderborden-45",
+      "groep": "onderborden",
+      "zonderCode": true,
+      "omschrijving": "Witte bordjes met A en met E",
+      "betekenis": "Aanduiding van tunnelcategorie bij verkeersbord C22 ten behoeve van het vervoer van gevaarlijke stoffen: Categorie A (geen beperking) t/m E (volledige beperking).",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-01",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met Rotterdam volg 2",
+      "betekenis": "Begin omleiding.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-02",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met een zwarte pijl naar rechts en Omleiding",
+      "betekenis": "Aanduiding omleiding.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-03",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met een zwart cijfer 2 in een schildvorm",
+      "betekenis": "Omleidingsroute.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-01",
+        "ZC-wegwerkzaamheden-04"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-04",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde bord met een diagonale streep",
+      "betekenis": "Einde omleidingsroute.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-03"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-05",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met een vrachtauto en een pijl naar rechts",
+      "betekenis": "Aanduiding omleidingsroute voor vrachtauto's.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-02",
+        "ZC-wegwerkzaamheden-06"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-06",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Hetzelfde bord met een diagonale streep",
+      "betekenis": "Einde omleidingsroute voor vrachtauto's.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-05"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-07",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met een rood rondje, twee pijlpunten en 600m",
+      "betekenis": "Informatiebord wegomleiding.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-08"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-08",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met een slingerende pijl en 600m",
+      "betekenis": "Informatiebord wegomleiding.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-07"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-09",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met zwaailicht? maak ruimte en auto's die uitwijken",
+      "betekenis": "Maak ruimte zodat de hulpdiensten middendoor tussen de rijstroken kunnen rijden (tijdelijk bord).",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "L213"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-10",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met het bord L5 en F1",
+      "betekenis": "Frame + L5 + F1.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-11",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met een inhaalverbod en rijdende afzetting",
+      "betekenis": "Voorwaarschuwingswagen autosnelweg 600 meter.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-13"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-12",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met J16 en A1 70",
+      "betekenis": "Frame + J16 + A1 + 70.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-13",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met 70 en rijdende afzetting",
+      "betekenis": "Voorwaarschuwingswagen autosnelweg 300 meter.",
+      "bron": {
+        "boek": 253
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-11"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-14",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met een geel knipperpijl-patroon en een blauw D2-bord",
+      "betekenis": "Aktiewagen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-15"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-15",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met gele chevrons en een blauw D2-bord",
+      "betekenis": "Verdrijfwagen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-14",
+        "ZC-wegwerkzaamheden-16"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-16",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met gele chevrons naar het midden en een blauw D3-bord",
+      "betekenis": "Splitsingswagen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-wegwerkzaamheden-15"
+      ]
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-17",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met een blauw D2-bord",
+      "betekenis": "Frame + D2 + tussenwagen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-wegwerkzaamheden-18",
+      "groep": "wegwerkzaamheden",
+      "zonderCode": true,
+      "omschrijving": "Rood-wit gestreept frame met het bord F8",
+      "betekenis": "Frame + F8 + eindewagen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-markeringsborden-01",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Oranje-rode driehoek met de punt omhoog en een dikke rand",
+      "betekenis": "Markeringsbord voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid, mobiele machines en wagens.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-markeringsborden-02",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Witte cirkel met rode rand en 45",
+      "betekenis": "Markeringsbord voor brommobielen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-03"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-03",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Witte cirkel met rode rand en 25",
+      "betekenis": "Markeringsbord voor aanhangwagens ingericht voor het vervoer van personen.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-02"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-04",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Vierkant bord met rood-witte diagonale strepen",
+      "betekenis": "Markeringsbord voor uitstekende (lengte) lading.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-05"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-05",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Rechthoekig bord met rood-witte diagonale strepen",
+      "betekenis": "Markeringsbord voor uitstekende (breedte) lading.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-04"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-06",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met oranje rand en LET OP EXTRA LANG",
+      "betekenis": "Markeringsbord voor lange zware voertuigcombinaties (LZV's).",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-07"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-07",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met EXTRA LONG en een pictogram van een lange combinatie tussen twee pijlen",
+      "betekenis": "Markeringsbord voor lange zware voertuigcombinaties (LZV's).",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-06"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-08",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met een blauw oorsymbool met stippen",
+      "betekenis": "Markering op voertuigen voor personen met een gehoorbeperking.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-09"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-09",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Wit bord met een rode S en H gescheiden door een rode diagonale streep",
+      "betekenis": "Markering op voertuigen voor personen met een gehoorbeperking.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": [
+        "ZC-markeringsborden-08"
+      ]
+    },
+    {
+      "code": "ZC-markeringsborden-10",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Geel bord met werkverkeer",
+      "betekenis": "Markering op een voertuig dat ingezet wordt bij wegwerkzaamheden.",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-markeringsborden-11",
+      "groep": "markeringsborden",
+      "zonderCode": true,
+      "omschrijving": "Oranje bord met een zwarte rand, 33 boven en 1203 onder",
+      "betekenis": "Voorbeeld van een markeringsbord met gevaarnummer 33 (zeer brandbare vloeistof) en stofnummer 1203 (benzine).",
+      "bron": {
+        "boek": 254
+      },
+      "nearMiss": []
+    },
+    {
+      "code": "ZC-aanwijzingen-01",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Eén arm recht omhoog gestoken",
+      "betekenis": "Algemeen stopteken.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-06"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-02",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Eén arm horizontaal opzij gestrekt (naar de zijkant)",
+      "betekenis": "Stopteken voor het verkeer dat de verkeersregelaar van voren nadert.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-03",
+        "ZC-aanwijzingen-04"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-03",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Eén arm horizontaal opzij gestrekt, lichaam met de rug naar de kijker",
+      "betekenis": "Stopteken voor het verkeer dat de verkeersregelaar van achteren nadert.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-02",
+        "ZC-aanwijzingen-04"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-04",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Beide armen horizontaal opzij gestrekt",
+      "betekenis": "Stopteken zowel voor het verkeer dat de verkeersregelaar van voren nadert, als voor het verkeer dat hem van achteren nadert.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-02",
+        "ZC-aanwijzingen-03"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-05",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Zijwaarts staand, één arm naar voren gestrekt",
+      "betekenis": "Stopteken voor het verkeer dat de verkeersregelaar van rechts nadert.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-07"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-06",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Eén arm recht omhoog, zijwaarts staand",
+      "betekenis": "Stopteken voor het verkeer in de vrije richtingen, opletten voor het verkeer in de stopgezette richtingen, kruispunt vrij maken.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-01"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-07",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Zijwaarts staand met de arm naar voren en de handpalm omlaag, op en neer bewegend",
+      "betekenis": "Teken tot langzamer rijden.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-05"
+      ]
+    },
+    {
+      "code": "ZC-aanwijzingen-08",
+      "groep": "aanwijzingen",
+      "zonderCode": true,
+      "omschrijving": "Een verkeersbrigadier in een oranje hesje die een rond rood-wit stopbord op een steel omhoog houdt",
+      "betekenis": "Stopteken door verkeersbrigadier.",
+      "bron": {
+        "boek": 255
+      },
+      "nearMiss": [
+        "ZC-aanwijzingen-01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# the build-time font for the icons and any local scratch
+_tools/_fonts/
+_tools/svgo.config.js
+node_modules/
+.DS_Store
+# raw sign sources are fetched into the scratchpad, never committed;
+# assets/borden holds the normalised, committed versions

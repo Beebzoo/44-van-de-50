@@ -1,0 +1,35 @@
+{
+  "versie": "39dd900e9f",
+  "gegenereerd": "2026-09-10",
+  "examenDatum": "2026-10-28",
+  "units": [
+    {
+      "id": "U00",
+      "slug": "zo-denkt-het-examen",
+      "titel": "Zo denkt het examen",
+      "volgorde": 0,
+      "week": 1,
+      "tier": "must",
+      "bestand": "content/units/U00.json",
+      "bank": [],
+      "aantalVragen": 0,
+      "paginas": [
+        {
+          "id": "U00-P01",
+          "anker": "p-examen-in-cijfers",
+          "titel": "Het examen in cijfers"
+        },
+        {
+          "id": "U00-P02",
+          "anker": "p-zo-lees-je-een-vraag",
+          "titel": "Zo lees je een vraag"
+        },
+        {
+          "id": "U00-P03",
+          "anker": "p-defensief-en-besluitvaardig",
+          "titel": "Defensief en besluitvaardig"
+        }
+      ]
+    }
+  ]
+}

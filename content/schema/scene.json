@@ -1,0 +1,32 @@
+{
+  "$comment": "A top-down road scene, content/scenes/S-*.json, rendered to SVG on the device (Phase 1). Phase 0 only validates the shape.",
+  "type": "object",
+  "required": ["id", "vorm", "armen", "actoren", "alt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^S-[A-Za-z0-9-]+$"},
+    "vorm": {"enum": ["plus", "T", "Y", "rotonde", "recht"]},
+    "voorrang": {"enum": ["gelijkwaardig", "voorrangsweg", "voorrangskruispunt", "afbuigend", "verkeerslichten"]},
+    "wegdek": {"enum": ["verhard", "onverhard"]},
+    "armen": {"type": "array", "minItems": 1, "items": {"enum": ["noord", "oost", "zuid", "west"]}},
+    "actoren": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "soort", "arm", "richting"], "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "soort": {"enum": ["auto", "bestelauto", "vrachtauto", "bus", "tram", "motorfiets", "bromfiets", "fiets", "voetganger", "ruiter", "hulpdienst"]},
+        "arm": {"enum": ["noord", "oost", "zuid", "west", "rotonde"]},
+        "richting": {"enum": ["rechtdoor", "links", "rechts", "keren", "stil"]},
+        "afstand": {"type": "number"},
+        "signaal": {"enum": ["links", "rechts", "geen"]}
+      }}},
+    "borden": {"type": "array", "items": {"type": "object", "required": ["code", "arm"], "additionalProperties": false, "properties": {
+      "code": {"type": "string"}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}, "onderbord": {"type": "string"}}}},
+    "markering": {"type": "array", "items": {"type": "object", "required": ["soort", "arm"], "additionalProperties": false, "properties": {
+      "soort": {"enum": ["haaientanden", "stopstreep", "zebrapad", "drempel", "blokmarkering", "fietsstrook", "rails"]}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}}}},
+    "gebieden": {"type": "array", "items": {"type": "object", "required": ["id", "vorm"], "additionalProperties": false, "properties": {
+      "id": {"type": "string"}, "vorm": {"enum": ["cirkel", "rechthoek"]}, "x": {"type": "number"}, "y": {"type": "number"}, "r": {"type": "number"}, "w": {"type": "number"}, "h": {"type": "number"}}}},
+    "volgorde": {"type": "array", "items": {"type": "string"}},
+    "alt": {"type": "string", "minLength": 20},
+    "inspiratie": {"type": "object"}
+  }
+}

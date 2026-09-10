@@ -1,0 +1,5294 @@
+{
+  "versie": 1,
+  "gegenereerd": "2026-09-10",
+  "categorieen": [
+    {
+      "id": "examen",
+      "naam": "Het examen"
+    },
+    {
+      "id": "snelheid",
+      "naam": "Snelheden"
+    },
+    {
+      "id": "alcohol",
+      "naam": "Alcohol, drugs en medicijnen"
+    },
+    {
+      "id": "straf",
+      "naam": "Straffen en maatregelen"
+    },
+    {
+      "id": "afstand",
+      "naam": "Afstand en remmen"
+    },
+    {
+      "id": "manoeuvres",
+      "naam": "Rijmanoeuvres en communicatie"
+    },
+    {
+      "id": "verlichting",
+      "naam": "Verlichting"
+    },
+    {
+      "id": "parkeren",
+      "naam": "Stilstaan en parkeren"
+    },
+    {
+      "id": "pech",
+      "naam": "Pech en ongeval"
+    },
+    {
+      "id": "voertuig",
+      "naam": "Banden en voertuigeisen"
+    },
+    {
+      "id": "lading",
+      "naam": "Lading"
+    },
+    {
+      "id": "aanhanger",
+      "naam": "Aanhangwagens"
+    },
+    {
+      "id": "gordels",
+      "naam": "Gordels en kinderen"
+    },
+    {
+      "id": "definities",
+      "naam": "Definities"
+    },
+    {
+      "id": "rijbewijs",
+      "naam": "Rijbewijs en geldigheid"
+    },
+    {
+      "id": "overig",
+      "naam": "Overig"
+    },
+    {
+      "id": "voorrang",
+      "naam": "Voorrang: de tram"
+    }
+  ],
+  "feiten": [
+    {
+      "id": "F001",
+      "categorie": "examen",
+      "onderwerp": "Aantal vragen theorie-examen",
+      "waarde": 50,
+      "eenheid": "vragen",
+      "tekst": "Het theorie-examen bestaat uit 50 vragen.",
+      "bronnen": [
+        {
+          "boek": 5,
+          "sectie": "examen",
+          "anker": "bestaat uit één onderdeel van 50 vragen"
+        },
+        {
+          "slide": 3,
+          "anker": "Het examen bestaat uit 50 vragen"
+        }
+      ],
+      "tags": [
+        "examen",
+        "vragen"
+      ]
+    },
+    {
+      "id": "F002",
+      "categorie": "examen",
+      "onderwerp": "Aantal goede antwoorden om te slagen",
+      "waarde": 44,
+      "eenheid": "vragen",
+      "tekst": "Je moet minimaal 44 van de 50 vragen goed beantwoorden om te slagen.",
+      "bronnen": [
+        {
+          "boek": 5,
+          "sectie": "examen",
+          "anker": "Je moet minimaal 44 vragen goed beantwoorden om te slagen"
+        },
+        {
+          "slide": 3,
+          "anker": "Je moet er minimaal 44 goed hebben om te slagen"
+        }
+      ],
+      "tags": [
+        "examen",
+        "slagen"
+      ]
+    },
+    {
+      "id": "F003",
+      "categorie": "examen",
+      "onderwerp": "Tijdsduur theorie-examen",
+      "waarde": 30,
+      "eenheid": "minuten",
+      "tekst": "Voor de 50 vragen heb je 30 minuten de tijd.",
+      "bronnen": [
+        {
+          "boek": 7,
+          "sectie": "examen",
+          "anker": "Voor het beantwoorden van de 50 vragen heb je 30 minuten de tijd"
+        }
+      ],
+      "tags": [
+        "examen",
+        "tijd"
+      ]
+    },
+    {
+      "id": "F004",
+      "categorie": "examen",
+      "onderwerp": "Aantal testvragen",
+      "waarde": 2,
+      "eenheid": "vragen",
+      "tekst": "Je krijgt twee testvragen die niet meetellen voor de uitslag.",
+      "bronnen": [
+        {
+          "boek": 8,
+          "sectie": "examen",
+          "anker": "Je krijgt ook twee testvragen in het theorie-examen"
+        }
+      ],
+      "tags": [
+        "examen",
+        "testvragen"
+      ]
+    },
+    {
+      "id": "F005",
+      "categorie": "examen",
+      "onderwerp": "Aandeel inzichtvragen",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Ongeveer twee derde (2/3) van de examenvragen bestaat uit inzichtvragen, de rest uit kennisvragen.",
+      "bronnen": [
+        {
+          "boek": 7,
+          "sectie": "examen",
+          "anker": "Het grootste deel (2/3 deel) van de examenvragen bestaat uit inzichtvragen"
+        },
+        {
+          "slide": 3,
+          "anker": "het grootste deel van het examen (ongeveer 2/3) bestaat uit **inzichtvragen**"
+        }
+      ],
+      "tags": [
+        "examen",
+        "inzichtvragen"
+      ]
+    },
+    {
+      "id": "F006",
+      "categorie": "examen",
+      "onderwerp": "Aantal onderwerpen theorie-examen",
+      "waarde": 8,
+      "eenheid": "onderwerpen",
+      "tekst": "De vragen in het theorie-examen gaan over acht onderwerpen.",
+      "bronnen": [
+        {
+          "boek": 6,
+          "sectie": "examen",
+          "anker": "De vragen in het theorie-examen auto gaan over acht onderwerpen"
+        }
+      ],
+      "tags": [
+        "examen",
+        "onderwerpen"
+      ]
+    },
+    {
+      "id": "F007",
+      "categorie": "examen",
+      "onderwerp": "Duur dynamisch beeld-vraag",
+      "waarde": 5,
+      "eenheid": "seconden",
+      "tekst": "Een dynamisch beeld-vraag toont bewegend beeld van ongeveer 5 seconden.",
+      "bronnen": [
+        {
+          "boek": 7,
+          "sectie": "examen",
+          "anker": "vragen met bewegend beeld van ongeveer 5 seconden"
+        }
+      ],
+      "tags": [
+        "examen",
+        "vraagtypen"
+      ]
+    },
+    {
+      "id": "F008",
+      "categorie": "examen",
+      "onderwerp": "Aanwezig zijn voor het theorie-examen",
+      "waarde": 15,
+      "eenheid": "minuten",
+      "tekst": "Zorg dat je ongeveer een kwartier van tevoren aanwezig bent voor je theorie-examen.",
+      "bronnen": [
+        {
+          "boek": 5,
+          "sectie": "examen",
+          "anker": "Zorg dat je ongeveer een kwartier van tevoren aanwezig bent"
+        }
+      ],
+      "tags": [
+        "examen",
+        "praktisch"
+      ]
+    },
+    {
+      "id": "F009",
+      "categorie": "examen",
+      "onderwerp": "Geldigheid theorie-examen",
+      "waarde": 1.5,
+      "eenheid": "jaar",
+      "tekst": "Een geslaagd theorie-examen is 1,5 jaar geldig; binnen die tijd moet je slagen voor het praktijkexamen.",
+      "bronnen": [
+        {
+          "boek": 8,
+          "sectie": "examen",
+          "anker": "is je examenresultaat 1,5 jaar geldig"
+        }
+      ],
+      "tags": [
+        "examen",
+        "geldigheid"
+      ]
+    },
+    {
+      "id": "F010",
+      "categorie": "examen",
+      "onderwerp": "Duur praktijkexamen",
+      "waarde": 55,
+      "eenheid": "minuten",
+      "tekst": "Een gewoon praktijkexamen duurt 55 minuten.",
+      "bronnen": [
+        {
+          "boek": 9,
+          "sectie": "examen",
+          "anker": "Een gewoon praktijkexamen duurt 55 minuten"
+        }
+      ],
+      "tags": [
+        "praktijkexamen",
+        "tijd"
+      ]
+    },
+    {
+      "id": "F011",
+      "categorie": "examen",
+      "onderwerp": "Ogentest praktijkexamen",
+      "waarde": 25,
+      "eenheid": "meter",
+      "tekst": "Bij de ogentest moet je het kenteken van een stilstaande auto kunnen lezen op ongeveer 25 meter afstand.",
+      "bronnen": [
+        {
+          "boek": 9,
+          "sectie": "examen",
+          "anker": "kenteken van een stilstaande auto kunnen lezen op een afstand van ongeveer 25 meter"
+        }
+      ],
+      "tags": [
+        "praktijkexamen",
+        "ogentest"
+      ]
+    },
+    {
+      "id": "F012",
+      "categorie": "examen",
+      "onderwerp": "Zelfstandig rijden tijdens praktijkexamen",
+      "waarde": 10,
+      "eenheid": "minuten",
+      "tekst": "Tijdens het praktijkexamen rijd je ongeveer 10 tot 15 minuten zelfstandig naar een bestemming.",
+      "bronnen": [
+        {
+          "boek": 9,
+          "sectie": "examen",
+          "anker": "ongeveer 10 - 15 minuten) rij je zelfstandig naar een bepaalde bestemming"
+        }
+      ],
+      "tags": [
+        "praktijkexamen",
+        "zelfstandig"
+      ]
+    },
+    {
+      "id": "F013",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid binnen de bebouwde kom",
+      "waarde": 50,
+      "eenheid": "km/u",
+      "tekst": "Binnen de bebouwde kom is de maximumsnelheid 50 km/u, tenzij borden een ander maximum aangeven.",
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Binnen de bebouwde kom mag je als automobilist maximaal 50 km/u rijden"
+        },
+        {
+          "slide": 137,
+          "anker": "Standaard maxima:\n\n- binnen de bebouwde kom: 50 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "bebouwde-kom",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F014",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid buiten de bebouwde kom",
+      "waarde": 80,
+      "eenheid": "km/u",
+      "tekst": "Buiten de bebouwde kom is de maximumsnelheid op gewone wegen 80 km/u.",
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "op overige wegen 80 km/u"
+        },
+        {
+          "slide": 137,
+          "anker": "buiten de bebouwde kom: 80 km/u\n- op autowegen: 100 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "buiten-bebouwde-kom",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F015",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid autoweg",
+      "waarde": 100,
+      "eenheid": "km/u",
+      "tekst": "Op autowegen buiten de bebouwde kom is de maximumsnelheid standaard 100 km/u.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "buiten de bebouwde kom: standaard 100 km/u"
+        },
+        {
+          "slide": 69,
+          "anker": "standaard is de maximumsnelheid 100 km/u maar met borden kan een lagere snelheid"
+        },
+        {
+          "slide": 137,
+          "anker": "op autowegen: 100 km/u\n- op autosnelwegen: 130 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F016",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid autoweg binnen de bebouwde kom",
+      "waarde": 50,
+      "eenheid": "km/u",
+      "tekst": "Op een autoweg binnen de bebouwde kom geldt in principe 50 km/u, tenzij borden een hoger maximum aangeven.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "binnen de bebouwde kom: standaard 50 km/u"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid van 50 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F017",
+      "categorie": "snelheid",
+      "onderwerp": "Standaard maximumsnelheid autosnelweg",
+      "waarde": 130,
+      "eenheid": "km/u",
+      "tekst": "De standaard maximumsnelheid op autosnelwegen is 130 km/u.",
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "De standaard maximumsnelheid op autosnelwegen is 130 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "standaard is de maximumsnelheid 130 km/u, maar feitelijk mag je vaak niet zo hard"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F018",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid autosnelweg overdag",
+      "waarde": 100,
+      "eenheid": "km/u",
+      "tekst": "Op autosnelwegen geldt overdag tussen 6 uur en 19 uur standaard 100 km/u.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "overdag tussen 6.00 uur en 19.00 uur 100 km/u"
+        },
+        {
+          "slide": 137,
+          "anker": "overdag tussen 06:00u en 19:00u teruggebracht naar standaard 100 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "overdag"
+      ]
+    },
+    {
+      "id": "F019",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid autosnelweg avond en nacht",
+      "waarde": 130,
+      "eenheid": "km/u",
+      "tekst": "Tussen 19 uur en 6 uur geldt op autosnelwegen standaard 130 km/u, tenzij borden een lagere snelheid aangeven.",
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "6 uur 's ochtends geldt de standaard maximumsnelheid van 130 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "'s avonds en 's nachts: standaard 130 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht"
+      ]
+    },
+    {
+      "id": "F020",
+      "categorie": "snelheid",
+      "onderwerp": "Voorkomende maxima autosnelweg avond en nacht",
+      "waarde": 100,
+      "eenheid": "km/u",
+      "tekst": "In de avond en nacht geldt op autosnelwegen 100, 120 of 130 km/u, afhankelijk van de borden.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "'s avonds en 's nachts 100, 120 of 130 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "op veel autosnelwegen 100 km/u of 120 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht"
+      ]
+    },
+    {
+      "id": "F021",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid ringwegen bij steden",
+      "waarde": 80,
+      "eenheid": "km/u",
+      "tekst": "Op sommige ringwegen bij grote steden geldt permanent een lager maximum van 80 km/u.",
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Op sommige ringwegen bij steden geldt echter een permanent lager maximum van 80 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "op veel ringwegen bij grote steden: 80 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "ringweg"
+      ]
+    },
+    {
+      "id": "F022",
+      "categorie": "snelheid",
+      "onderwerp": "Snelheidsbord bij oprit autosnelweg",
+      "waarde": 130,
+      "eenheid": "km/u",
+      "tekst": "Bij de oprit van een autosnelweg staat de maximumsnelheid alleen aangegeven als die lager is dan 130 km/u.",
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "staat alléén de maximumsnelheid aangegeven als deze lager is dan 130 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "oprit"
+      ]
+    },
+    {
+      "id": "F023",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid 30 km-zone",
+      "waarde": 30,
+      "eenheid": "km/u",
+      "tekst": "In een 30 km-zone is de maximumsnelheid 30 km/u, in de hele zone.",
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "de 30 km-zone (max. 30 km/u) en het erf (max. 15 km/u)"
+        },
+        {
+          "slide": 90,
+          "anker": "de maximumsnelheid is 30 km/u.\n  Dit geldt in de hele zone"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "zone",
+        "bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F024",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid erf",
+      "waarde": 15,
+      "eenheid": "km/u",
+      "tekst": "In een erf is de maximumsnelheid 15 km/u (stapvoets).",
+      "bronnen": [
+        {
+          "boek": 89,
+          "sectie": "5.3",
+          "anker": "de maximumsnelheid is 15 km/u,\n- voetgangers mogen op de weg lopen"
+        },
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "de 30 km-zone (max. 30 km/u) en het erf (max. 15 km/u)"
+        },
+        {
+          "slide": 89,
+          "anker": "de maximumsnelheid is 15 km/u (stapvoets)"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "erf"
+      ]
+    },
+    {
+      "id": "F025",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid 60 km-zone",
+      "waarde": 60,
+      "eenheid": "km/u",
+      "tekst": "In een 60 km-zone buiten de bebouwde kom geldt een maximumsnelheid van 60 km/u.",
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "zones ingesteld, waar een lagere maximumsnelheid van 60 km/u geldt"
+        },
+        {
+          "slide": 79,
+          "anker": "60 km/u buiten de bebouwde kom"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "zone",
+        "buiten-bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F026",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid gebiedsontsluitingswegen",
+      "waarde": 50,
+      "eenheid": "km/u",
+      "tekst": "Op gebiedsontsluitingswegen geldt binnen de bebouwde kom 50 (of 70) km/u en buiten de bebouwde kom 80 km/u.",
+      "bronnen": [
+        {
+          "boek": 81,
+          "sectie": "4.10",
+          "anker": "is de snelheid 50 km/u of 70 km/u en buiten de bebouwde kom"
+        },
+        {
+          "slide": 78,
+          "anker": "50 km/u binnen de bebouwde kom\n  - 80 km/u buiten de bebouwde kom"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "duurzaam-veilig",
+        "gebiedsontsluitingsweg"
+      ]
+    },
+    {
+      "id": "F027",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid erftoegangswegen",
+      "waarde": 30,
+      "eenheid": "km/u",
+      "tekst": "Op erftoegangswegen geldt 30 km/u binnen de bebouwde kom en 60 km/u buiten de bebouwde kom.",
+      "bronnen": [
+        {
+          "slide": 79,
+          "anker": "30 km/u binnen de bebouwde kom\n  - 60 km/u buiten de bebouwde kom"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "duurzaam-veilig",
+        "erftoegangsweg"
+      ]
+    },
+    {
+      "id": "F028",
+      "categorie": "snelheid",
+      "onderwerp": "Snelheid op 60 km-weg zonder borden",
+      "waarde": 80,
+      "eenheid": "km/u",
+      "tekst": "Als bij een weg met 60 km-markering geen snelheidsbord of zonebord staat, mag je 80 km/u rijden.",
+      "bronnen": [
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "als deze borden er niet staan, mag je 80 km/u rijden"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "wegmarkering"
+      ]
+    },
+    {
+      "id": "F029",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid met aanhangwagen binnen de bebouwde kom",
+      "waarde": 50,
+      "eenheid": "km/u",
+      "tekst": "Met een aanhangwagen of caravan mag je binnen de bebouwde kom maximaal 50 km/u.",
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "binnen de bebouwde kom: 50 km/u,\n- buiten de bebouwde kom: 80 km/u"
+        },
+        {
+          "boek": 229,
+          "sectie": "13.8",
+          "anker": "binnen de bebouwde kom maximaal 50 km/u rijden"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "aanhangwagen",
+        "bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F030",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid met aanhangwagen buiten de bebouwde kom",
+      "waarde": 80,
+      "eenheid": "km/u",
+      "tekst": "Met een aanhangwagen of caravan mag je buiten de bebouwde kom maximaal 80 km/u.",
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "binnen de bebouwde kom: 50 km/u,\n- buiten de bebouwde kom: 80 km/u"
+        },
+        {
+          "slide": 138,
+          "anker": "Met aanhangwagen:\n\n- buiten de bebouwde kom: 80 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "aanhangwagen",
+        "buiten-bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F031",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid met aanhangwagen op autoweg en autosnelweg",
+      "waarde": 90,
+      "eenheid": "km/u",
+      "tekst": "Met een aanhangwagen of caravan mag je op autowegen en autosnelwegen maximaal 90 km/u, maar alleen als de toegestane maximummassa van de aanhangwagen niet meer is dan 3.500 kg.",
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "op autowegen en autosnelwegen: 90 km/u, maar alleen als de toegestane maximummassa"
+        },
+        {
+          "boek": 229,
+          "sectie": "13.8",
+          "anker": "op autowegen en autosnelwegen maximaal 90 km/u rijden"
+        },
+        {
+          "slide": 138,
+          "anker": "90 km/u mits TMM van de aanhangwagen niet meer is dan 3.500 kg"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "aanhangwagen",
+        "autosnelweg"
+      ]
+    },
+    {
+      "id": "F032",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid brommobiel",
+      "waarde": 45,
+      "eenheid": "km/u",
+      "tekst": "Een brommobiel rijdt op de rijbaan en mag zowel binnen als buiten de bebouwde kom maximaal 45 km/u.",
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "op de rijbaan met een maximumsnelheid van 45 km/u"
+        },
+        {
+          "slide": 138,
+          "anker": "Brommobielen:\n\n- rijden op rijbaan\n\n- mogen maximaal 45 km/u"
+        },
+        {
+          "slide": 150,
+          "anker": "brommobielen rijden op de rijbaan en mogen maximaal 45 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "brommobiel"
+      ]
+    },
+    {
+      "id": "F033",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid bromfiets op fiets/bromfietspad binnen de bebouwde kom",
+      "waarde": 30,
+      "eenheid": "km/u",
+      "tekst": "Een bromfietser mag op het fiets/bromfietspad binnen de bebouwde kom maximaal 30 km/u.",
+      "bronnen": [
+        {
+          "boek": 130,
+          "sectie": "8.1",
+          "anker": "binnen de bebouwde kom mogen ze maximaal 30 km/u"
+        },
+        {
+          "slide": 150,
+          "anker": "bromfietsers op een fiets-/bromfietspad mogen binnen de bebouwde kom maximaal 30 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "bromfiets",
+        "bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F034",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid bromfiets op fiets/bromfietspad buiten de bebouwde kom",
+      "waarde": 40,
+      "eenheid": "km/u",
+      "tekst": "Een bromfietser mag op het fiets/bromfietspad buiten de bebouwde kom maximaal 40 km/u.",
+      "bronnen": [
+        {
+          "boek": 130,
+          "sectie": "8.1",
+          "anker": "buiten de bebouwde kom mogen ze maximaal 40 km/u"
+        },
+        {
+          "slide": 150,
+          "anker": "en buiten de bebouwde kom maximaal 40 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "bromfiets",
+        "buiten-bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F035",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid bromfiets op de rijbaan",
+      "waarde": 45,
+      "eenheid": "km/u",
+      "tekst": "Als er geen fiets/bromfietspad is, rijdt de bromfietser op de rijbaan en mag hij binnen en buiten de bebouwde kom maximaal 45 km/u.",
+      "bronnen": [
+        {
+          "boek": 130,
+          "sectie": "8.1",
+          "anker": "binnen en buiten de bebouwde kom mogen ze dan max. 45 km/u"
+        },
+        {
+          "slide": 150,
+          "anker": "als bromfietsers op de rijbaan moeten rijden, mogen ze maximaal 45 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "bromfiets",
+        "rijbaan"
+      ]
+    },
+    {
+      "id": "F036",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid snorfiets",
+      "waarde": 25,
+      "eenheid": "km/u",
+      "tekst": "Een snorfietser mag binnen en buiten de bebouwde kom maximaal 25 km/u, waar hij ook rijdt.",
+      "bronnen": [
+        {
+          "boek": 130,
+          "sectie": "8.1",
+          "anker": "binnen en buiten de bebouwde kom mogen ze maximaal 25 km/u"
+        },
+        {
+          "slide": 150,
+          "anker": "snorfietsers mogen maximaal 25 km/u rijden, zowel binnen als buiten de bebouwde kom"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "snorfiets"
+      ]
+    },
+    {
+      "id": "F037",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid gehandicaptenvoertuig op stoep of voetpad",
+      "waarde": 6,
+      "eenheid": "km/u",
+      "tekst": "Een gehandicaptenvoertuig mag op het trottoir of voetpad maximaal 6 km/u en volgt daar de regels voor voetgangers.",
+      "bronnen": [
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "(Zij mogen dan niet sneller rijden dan 6 km/u)"
+        },
+        {
+          "slide": 150,
+          "anker": "gehandicaptenvoertuigen met motor mogen op het trottoir / voetpad (max. 6 km/u)"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "gehandicaptenvoertuig",
+        "voetpad"
+      ]
+    },
+    {
+      "id": "F038",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid gehandicaptenvoertuig op fietspad",
+      "waarde": 30,
+      "eenheid": "km/u",
+      "tekst": "Een gehandicaptenvoertuig met motor mag op het fietspad of fiets/bromfietspad maximaal 30 km/u binnen en 40 km/u buiten de bebouwde kom.",
+      "bronnen": [
+        {
+          "slide": 150,
+          "anker": "max. 30 km/u binnen de bebouwde kom en max. 40 km/u buiten"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "gehandicaptenvoertuig",
+        "fietspad"
+      ]
+    },
+    {
+      "id": "F039",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid gehandicaptenvoertuig op de rijbaan",
+      "waarde": 45,
+      "eenheid": "km/u",
+      "tekst": "Een gehandicaptenvoertuig met motor mag op de rijbaan maximaal 45 km/u, net als een brommobiel.",
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Dit geldt ook voor een gehandicaptenvoertuig met een motor"
+        },
+        {
+          "slide": 150,
+          "anker": "of op de rijbaan (max. 45 km/u)"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "gehandicaptenvoertuig",
+        "rijbaan"
+      ]
+    },
+    {
+      "id": "F040",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid bijzondere bromfiets",
+      "waarde": 25,
+      "eenheid": "km/u",
+      "tekst": "Een bijzondere bromfiets (zoals een Segway) mag op fietspad of rijbaan maximaal 25 km/u en op de stoep (alleen gehandicapten) maximaal 6 km/u.",
+      "bronnen": [
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "en als die er niet zijn, op de rijbaan. Je maximumsnelheid is 25 km/u"
+        },
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "De maximumsnelheid is dan 6 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "bijzondere-bromfiets"
+      ]
+    },
+    {
+      "id": "F041",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid tractoren",
+      "waarde": 25,
+      "eenheid": "km/u",
+      "tekst": "Bepaalde tractoren mogen maximaal 25 km/u rijden en andere maximaal 40 km/u.",
+      "bronnen": [
+        {
+          "boek": 131,
+          "sectie": "8.2",
+          "anker": "bepaalde tractoren maximaal 25 km/u mogen rijden en andere maximaal 40 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "landbouwverkeer"
+      ]
+    },
+    {
+      "id": "F042",
+      "categorie": "snelheid",
+      "onderwerp": "Onderbord bij C8 en C9 voor snelle tractoren",
+      "waarde": 25,
+      "eenheid": "km/u",
+      "tekst": "Bij C8 en C9 kan een onderbord staan dat landbouwtrekkers die sneller mogen rijden dan 25 km/u uitzondert: die mogen de weg wel inrijden.",
+      "bronnen": [
+        {
+          "boek": 252,
+          "sectie": "14",
+          "anker": "landbouwtrekkers die sneller mogen rijden dan 25 km/u de betreffende weg wel mogen inrijden"
+        },
+        {
+          "slide": 65,
+          "anker": "met een maximum constructiesnelheid van meer dan 25 km/u"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "landbouwverkeer",
+        "onderbord"
+      ]
+    },
+    {
+      "id": "F043",
+      "categorie": "snelheid",
+      "onderwerp": "Minimumsnelheid autoweg",
+      "waarde": 50,
+      "eenheid": "km/u",
+      "tekst": "Op een autoweg mogen alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden.",
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.7",
+          "anker": "alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden"
+        },
+        {
+          "slide": 69,
+          "anker": "alleen motorvoertuigen die harder kunnen en mogen dan 50 km/u mogen erop rijden"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "toegang"
+      ]
+    },
+    {
+      "id": "F044",
+      "categorie": "snelheid",
+      "onderwerp": "Minimumsnelheid autosnelweg",
+      "waarde": 60,
+      "eenheid": "km/u",
+      "tekst": "Op een autosnelweg mogen alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden"
+        },
+        {
+          "slide": 70,
+          "anker": "alleen motorvoertuigen die harder kunnen en mogen dan 60 km/u mogen erop rijden"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "toegang"
+      ]
+    },
+    {
+      "id": "F045",
+      "categorie": "snelheid",
+      "onderwerp": "Lange combinatie op autosnelweg met meer dan twee rijstroken",
+      "waarde": 7,
+      "eenheid": "meter",
+      "tekst": "Vrachtauto's en voertuigen met aanhangwagen die samen langer zijn dan 7 meter mogen op een autosnelweg met meer dan twee rijstroken alleen de twee rechter rijstroken gebruiken (behalve om voor te sorteren).",
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "voertuigen met aanhangwagen die samen langer zijn dan 7 meter"
+        },
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "met een combinatie die langer is dan 7 meter"
+        },
+        {
+          "slide": 71,
+          "anker": "Is je auto + aanhanger langer dan 7 meter?"
+        }
+      ],
+      "tags": [
+        "autosnelweg",
+        "aanhangwagen",
+        "rijstrook"
+      ]
+    },
+    {
+      "id": "F046",
+      "categorie": "snelheid",
+      "onderwerp": "Snelheidsaanduiding op hectometerbordjes",
+      "waarde": 1,
+      "eenheid": "km",
+      "tekst": "Om de kilometer staat de maximumsnelheid op het hectometerbordje; bij drie of meer rijstroken ook links van de weg.",
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "worden de hectometerbordjes op de hele kilometer voorzien van een snelheidsaanduiding"
+        },
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "met drie of meer rijstroken wordt deze aanduiding ook links van de weg geplaatst"
+        },
+        {
+          "boek": 251,
+          "sectie": "14",
+          "anker": "om de kilometer wordt de maximumsnelheid op het hectometerbordje weergegeven"
+        }
+      ],
+      "tags": [
+        "autosnelweg",
+        "hectometerbord"
+      ]
+    },
+    {
+      "id": "F047",
+      "categorie": "alcohol",
+      "onderwerp": "Alcohollimiet beginnende bestuurder (bloed)",
+      "waarde": 0.2,
+      "eenheid": "promille",
+      "tekst": "Voor een beginnende bestuurder is de alcohollimiet 0,2 promille in het bloed.",
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor beginnende bestuurders:\n  0,2 promille / 88 microgram"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder"
+      ]
+    },
+    {
+      "id": "F048",
+      "categorie": "alcohol",
+      "onderwerp": "Alcohollimiet beginnende bestuurder (adem)",
+      "waarde": 88,
+      "eenheid": "microgram per liter",
+      "tekst": "Voor een beginnende bestuurder is de alcohollimiet 88 microgram per liter uitgeademde lucht.",
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor beginnende bestuurders:\n  0,2 promille / 88 microgram"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder"
+      ]
+    },
+    {
+      "id": "F049",
+      "categorie": "alcohol",
+      "onderwerp": "Alcohollimiet ervaren bestuurder (bloed)",
+      "waarde": 0.5,
+      "eenheid": "promille",
+      "tekst": "Voor een ervaren bestuurder is de alcohollimiet 0,5 promille in het bloed.",
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor overige bestuurders:\n  0,5 promille / 220 microgram"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "ervaren-bestuurder"
+      ]
+    },
+    {
+      "id": "F050",
+      "categorie": "alcohol",
+      "onderwerp": "Alcohollimiet ervaren bestuurder (adem)",
+      "waarde": 220,
+      "eenheid": "microgram per liter",
+      "tekst": "Voor een ervaren bestuurder is de alcohollimiet 220 microgram per liter uitgeademde lucht.",
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor overige bestuurders:\n  0,5 promille / 220 microgram"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "ervaren-bestuurder"
+      ]
+    },
+    {
+      "id": "F051",
+      "categorie": "alcohol",
+      "onderwerp": "Duur beginnende bestuurder (rijbewijs vanaf 18 jaar)",
+      "waarde": 5,
+      "eenheid": "jaar",
+      "tekst": "Haal je je eerste rijbewijs op of na je 18e, dan ben je 5 jaar beginnende bestuurder.",
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "AM óf T | 7 jaar | 5 jaar |\n| B | 5 jaar | 5 jaar"
+        },
+        {
+          "slide": 9,
+          "anker": "op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder",
+        "rijbewijs"
+      ]
+    },
+    {
+      "id": "F052",
+      "categorie": "alcohol",
+      "onderwerp": "Duur beginnende bestuurder (AM of T vóór 18 jaar)",
+      "waarde": 7,
+      "eenheid": "jaar",
+      "tekst": "Haal je je eerste rijbewijs (AM of T) vóór je 18e, dan ben je 7 jaar beginnende bestuurder, gerekend vanaf dat AM- of T-rijbewijs.",
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "AM óf T | 7 jaar | 5 jaar"
+        },
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
+        },
+        {
+          "slide": 9,
+          "anker": "voor je 18e verjaardag hebt behaald en dat minder dan 7 jaar geleden is"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder",
+        "bromfiets"
+      ]
+    },
+    {
+      "id": "F053",
+      "categorie": "alcohol",
+      "onderwerp": "Alcohol in een standaardglas",
+      "waarde": 12,
+      "eenheid": "ml",
+      "tekst": "Elk standaardglas (bier, wijn of sterke drank) bevat ongeveer 12 milliliter pure alcohol.",
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "zo'n 12 milliliter pure alcohol en leidt gemiddeld tot een promillage"
+        },
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "**Alcoholpercentage:** Bier 5% - Wijn 12% - Whisky 35%"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "standaardglas"
+      ]
+    },
+    {
+      "id": "F054",
+      "categorie": "alcohol",
+      "onderwerp": "Promillage na één standaardglas",
+      "waarde": 0.2,
+      "eenheid": "promille",
+      "tekst": "Eén standaardglas alcohol leidt gemiddeld tot een promillage van 0,2 à 0,3; na één glas zit een beginnende bestuurder dus al over de grens.",
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "pure alcohol en leidt gemiddeld tot een promillage van 0,2 a 0,3"
+        },
+        {
+          "slide": 9,
+          "anker": "Al na één glas alcohol zit je over deze grens"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "standaardglas"
+      ]
+    },
+    {
+      "id": "F055",
+      "categorie": "alcohol",
+      "onderwerp": "Afbraaksnelheid alcohol",
+      "waarde": 0.1,
+      "eenheid": "promille per uur",
+      "tekst": "Je lichaam breekt alcohol af met 0,1 à 0,2 promille per uur; dat kun je niet versnellen.",
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Het lichaam breekt alcohol af met 0,1 a 0,2 promille per uur"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "afbraak"
+      ]
+    },
+    {
+      "id": "F056",
+      "categorie": "alcohol",
+      "onderwerp": "Afbraaktijd van één glas alcohol",
+      "waarde": 1.5,
+      "eenheid": "uur",
+      "tekst": "De afbraak van 1 glas alcohol duurt al snel 1,5 uur (de cursus zegt 1 tot 1,5 uur); frisse lucht, koffie of slapen helpt niet.",
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "De afbraak van 1 glas alcohol duurt dus al snel 1,5 uur"
+        },
+        {
+          "slide": 9,
+          "anker": "Je lichaam doet 1 tot 1,5 uur over het afbreken van 1 glas alcohol"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "afbraak"
+      ]
+    },
+    {
+      "id": "F057",
+      "categorie": "alcohol",
+      "onderwerp": "Nawerking medicijnen",
+      "waarde": 48,
+      "eenheid": "uur",
+      "tekst": "Sommige medicijnen werken wel 48 uur door in je lichaam, ook na eenmalig gebruik.",
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Sommige medicijnen werken wel 48 uur door in je lichaam"
+        }
+      ],
+      "tags": [
+        "medicijnen"
+      ]
+    },
+    {
+      "id": "F058",
+      "categorie": "alcohol",
+      "onderwerp": "Limiet bij combinatie van alcohol en drugs",
+      "waarde": 0,
+      "eenheid": "promille",
+      "tekst": "Bij gecombineerd gebruik van alcohol en drugs geldt een nullimiet.",
+      "bronnen": [
+        {
+          "boek": 17,
+          "sectie": "1.3",
+          "anker": "Als je beide stoffen gecombineerd hebt gebruikt, geldt een nul-limiet"
+        },
+        {
+          "slide": 10,
+          "anker": "voor de combinatie alcohol en drugs geldt een nullimiet"
+        }
+      ],
+      "tags": [
+        "alcohol",
+        "drugs",
+        "nullimiet"
+      ]
+    },
+    {
+      "id": "F059",
+      "categorie": "alcohol",
+      "onderwerp": "Aantoonbaarheid drugs in bloed en urine",
+      "waarde": 5,
+      "eenheid": "dagen",
+      "tekst": "Sporen van drugs zijn wel 5 dagen tot 3 weken in je bloed en urine aantoonbaar.",
+      "bronnen": [
+        {
+          "slide": 10,
+          "anker": "sporen zijn wel 5 dagen tot 3 weken in je bloed en urine aantoonbaar"
+        }
+      ],
+      "tags": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "F060",
+      "categorie": "straf",
+      "onderwerp": "Gevangenisstraf rijden onder invloed",
+      "waarde": 1,
+      "eenheid": "jaar",
+      "tekst": "Rijden onder invloed van alcohol of drugs kan je een gevangenisstraf van maximaal 1 jaar of een hoge geldboete opleveren.",
+      "bronnen": [
+        {
+          "boek": 17,
+          "sectie": "1.3",
+          "anker": "gevangenisstraf van maximaal 1 jaar. Verder kan je rijbevoegdheid voor maximaal 5 jaar worden ontzegd"
+        },
+        {
+          "slide": 10,
+          "anker": "gestraft met een gevangenisstraf van ten hoogste 1 jaar of een hoge geldboete"
+        }
+      ],
+      "tags": [
+        "straf",
+        "alcohol",
+        "drugs"
+      ]
+    },
+    {
+      "id": "F061",
+      "categorie": "straf",
+      "onderwerp": "Ontzegging rijbevoegdheid bij rijden onder invloed",
+      "waarde": 5,
+      "eenheid": "jaar",
+      "tekst": "Bij rijden onder invloed kan de rijbevoegdheid voor maximaal 5 jaar worden ontzegd.",
+      "bronnen": [
+        {
+          "boek": 17,
+          "sectie": "1.3",
+          "anker": "gevangenisstraf van maximaal 1 jaar. Verder kan je rijbevoegdheid voor maximaal 5 jaar worden ontzegd"
+        },
+        {
+          "boek": 42,
+          "sectie": "2.6",
+          "anker": "Ook kan de rijbevoegdheid voor maximaal 5 jaar worden ontzegd"
+        }
+      ],
+      "tags": [
+        "straf",
+        "alcohol",
+        "ontzegging"
+      ]
+    },
+    {
+      "id": "F062",
+      "categorie": "straf",
+      "onderwerp": "Duur rijverbod door de politie",
+      "waarde": 24,
+      "eenheid": "uur",
+      "tekst": "De politie kan je een rijverbod van maximaal 24 uur opleggen; dan mag je geen enkel voertuig besturen, ook geen fiets.",
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.7",
+          "anker": "een rijverbod op te leggen (maximaal 24 uur)"
+        },
+        {
+          "slide": 11,
+          "anker": "de politie kan je een rijverbod tot 24 uur opleggen"
+        },
+        {
+          "slide": 12,
+          "anker": "Rijverbod\n\n- wordt door de politie opgelegd na een controle"
+        }
+      ],
+      "tags": [
+        "straf",
+        "rijverbod"
+      ]
+    },
+    {
+      "id": "F063",
+      "categorie": "straf",
+      "onderwerp": "Melden na verlaten plaats ongeval",
+      "waarde": 12,
+      "eenheid": "uur",
+      "tekst": "Je kunt strafvervolging voorkomen door je binnen twaalf uur vrijwillig bij de politie te melden.",
+      "bronnen": [
+        {
+          "boek": 41,
+          "sectie": "2.6",
+          "anker": "Je kunt strafvervolging voorkomen door je binnen twaalf uur vrijwillig bij de politie te melden"
+        },
+        {
+          "slide": 18,
+          "anker": "door je binnen 12 uur vrijwillig bij de politie te melden"
+        }
+      ],
+      "tags": [
+        "straf",
+        "ongeval",
+        "doorrijden"
+      ]
+    },
+    {
+      "id": "F064",
+      "categorie": "straf",
+      "onderwerp": "Gevangenisstraf verlaten plaats ongeval",
+      "waarde": 1,
+      "eenheid": "jaar",
+      "tekst": "Voor het verlaten van de plaats van een verkeersongeval kan maximaal 1 jaar gevangenisstraf of een forse geldboete worden opgelegd.",
+      "bronnen": [
+        {
+          "boek": 42,
+          "sectie": "2.6",
+          "anker": "verlaten van de plaats van het verkeersongeval kan **maximaal 1 jaar** gevangenisstraf worden opgelegd"
+        }
+      ],
+      "tags": [
+        "straf",
+        "ongeval",
+        "doorrijden"
+      ]
+    },
+    {
+      "id": "F065",
+      "categorie": "straf",
+      "onderwerp": "Gevangenisstraf roekeloos rijden",
+      "waarde": 6,
+      "eenheid": "maanden",
+      "tekst": "Voor roekeloos rijgedrag (bumperkleven, spookrijden, rood kruis negeren) kun je maximaal 6 maanden gevangenisstraf krijgen.",
+      "bronnen": [
+        {
+          "boek": 42,
+          "sectie": "2.6",
+          "anker": "gevangenisstraf krijgen van **maximaal 6 maanden**; bij opzettelijk overtreden van meerdere verkeersregels"
+        }
+      ],
+      "tags": [
+        "straf",
+        "roekeloos"
+      ]
+    },
+    {
+      "id": "F066",
+      "categorie": "straf",
+      "onderwerp": "Gevangenisstraf opzettelijk overtreden meerdere verkeersregels",
+      "waarde": 2,
+      "eenheid": "jaar",
+      "tekst": "Bij het opzettelijk overtreden van meerdere verkeersregels kun je maximaal 2 jaar gevangenisstraf krijgen.",
+      "bronnen": [
+        {
+          "boek": 42,
+          "sectie": "2.6",
+          "anker": "bij opzettelijk overtreden van meerdere verkeersregels, **maximaal 2 jaar**"
+        }
+      ],
+      "tags": [
+        "straf",
+        "roekeloos"
+      ]
+    },
+    {
+      "id": "F067",
+      "categorie": "straf",
+      "onderwerp": "Gevangenisstraf veroorzaken ernstig ongeval",
+      "waarde": 6,
+      "eenheid": "jaar",
+      "tekst": "Bij het veroorzaken van een ernstig ongeval door roekeloos rijden kun je maximaal 6 jaar gevangenisstraf krijgen.",
+      "bronnen": [
+        {
+          "boek": 42,
+          "sectie": "2.6",
+          "anker": "bij het veroorzaken van een ernstig ongeval, **maximaal 6 jaar**"
+        }
+      ],
+      "tags": [
+        "straf",
+        "roekeloos",
+        "ongeval"
+      ]
+    },
+    {
+      "id": "F068",
+      "categorie": "straf",
+      "onderwerp": "Invordering rijbewijs bij snelheidsovertreding",
+      "waarde": 50,
+      "eenheid": "km/u",
+      "tekst": "De politie vordert je rijbewijs direct in als je meer dan 50 km/u te hard hebt gereden (de cursus zegt: 50 km/u of meer), bij zeer hoge alcoholwaardes of bij weigering van een alcoholonderzoek.",
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.7",
+          "anker": "als je meer dan 50 km/u te hard hebt gereden"
+        },
+        {
+          "slide": 36,
+          "anker": "als je met 50 km/u of meer te hard hebt gereden"
+        }
+      ],
+      "tags": [
+        "straf",
+        "invordering",
+        "snelheid"
+      ]
+    },
+    {
+      "id": "F069",
+      "categorie": "straf",
+      "onderwerp": "Beslistermijn officier van justitie na invordering",
+      "waarde": 10,
+      "eenheid": "dagen",
+      "tekst": "Na invordering bepaalt de officier van justitie binnen 10 dagen of je je rijbewijs terugkrijgt.",
+      "bronnen": [
+        {
+          "slide": 36,
+          "anker": "Die bepaalt binnen 10 dagen of je je rijbewijs terugkrijgt"
+        }
+      ],
+      "tags": [
+        "straf",
+        "invordering"
+      ]
+    },
+    {
+      "id": "F070",
+      "categorie": "straf",
+      "onderwerp": "LEMA-grens",
+      "waarde": 0.5,
+      "eenheid": "promille",
+      "tekst": "De lichte educatieve maatregel alcohol (LEMA) krijg je vanaf 0,5 promille als beginnende bestuurder of vanaf 0,8 promille als ervaren bestuurder.",
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "LEMA: ≥ 0,5 ‰ als beginnende bestuurder of ≥ 0,8 ‰ als ervaren bestuurder"
+        },
+        {
+          "slide": 38,
+          "anker": "≥ 0,5 ‰ als beginnende bestuurder of\n≥ 0,8 ‰ als ervaren bestuurder"
+        }
+      ],
+      "tags": [
+        "straf",
+        "alcohol",
+        "educatieve-maatregel"
+      ]
+    },
+    {
+      "id": "F071",
+      "categorie": "straf",
+      "onderwerp": "EMA-grens",
+      "waarde": 0.8,
+      "eenheid": "promille",
+      "tekst": "De educatieve maatregel alcohol (EMA) krijg je vanaf 0,8 promille als beginnende bestuurder of vanaf 1,0 promille als ervaren bestuurder.",
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "EMA: ≥ 0,8 ‰ als beginnende bestuurder of ≥ 1,0 ‰ als ervaren bestuurder"
+        },
+        {
+          "slide": 38,
+          "anker": "≥ 0,8 ‰ als beginnende bestuurder of\n≥ 1,0 ‰ als ervaren bestuurder"
+        }
+      ],
+      "tags": [
+        "straf",
+        "alcohol",
+        "educatieve-maatregel"
+      ]
+    },
+    {
+      "id": "F072",
+      "categorie": "straf",
+      "onderwerp": "LEMG-grens",
+      "waarde": 30,
+      "eenheid": "km/u",
+      "tekst": "De lichte educatieve maatregel gedrag (LEMG) krijg je als je tijdens een rit 30 tot 60 km/u te hard rijdt.",
+      "bronnen": [
+        {
+          "boek": 45,
+          "sectie": "2.8",
+          "anker": "als je tijdens een rit 30 km/u tot 60 km/u te hard rijdt"
+        },
+        {
+          "slide": 39,
+          "anker": "meer dan 30 km/u tot 60 km/u, zowel binnen als buiten"
+        }
+      ],
+      "tags": [
+        "straf",
+        "snelheid",
+        "educatieve-maatregel"
+      ]
+    },
+    {
+      "id": "F073",
+      "categorie": "straf",
+      "onderwerp": "EMG-grens",
+      "waarde": 60,
+      "eenheid": "km/u",
+      "tekst": "De educatieve maatregel gedrag (EMG) krijg je bij herhaald gevaarlijk rijgedrag tijdens een rit of als je 60 km/u of meer te hard rijdt.",
+      "bronnen": [
+        {
+          "boek": 45,
+          "sectie": "2.8",
+          "anker": "Of als je tijdens een rit 60 km/u of meer te hard rijdt"
+        },
+        {
+          "slide": 39,
+          "anker": "Of als je tijdens een rit meer dan 60 km/u te hard rijdt"
+        }
+      ],
+      "tags": [
+        "straf",
+        "snelheid",
+        "educatieve-maatregel"
+      ]
+    },
+    {
+      "id": "F074",
+      "categorie": "straf",
+      "onderwerp": "Kosten educatieve maatregel",
+      "waarde": 750,
+      "eenheid": "euro",
+      "tekst": "De kosten van een educatieve maatregel (tussen 750 en 1.500 euro) betaal je zelf; volg je de cursus niet, dan wordt je rijbewijs ongeldig verklaard.",
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "Je moet de kosten zelf betalen (tussen € 750 en € 1.500)"
+        },
+        {
+          "slide": 40,
+          "anker": "de kosten van de cursus betalen (tussen €750,- en €1.500,-)"
+        }
+      ],
+      "tags": [
+        "straf",
+        "educatieve-maatregel",
+        "kosten"
+      ]
+    },
+    {
+      "id": "F075",
+      "categorie": "straf",
+      "onderwerp": "Weigering tenaamstelling bij onbetaalde belasting en boetes",
+      "waarde": 5,
+      "eenheid": "keer",
+      "tekst": "Een nieuwe tenaamstelling van een voertuig wordt geweigerd als je ten minste vijf maal de motorrijtuigenbelasting en/of verkeersboetes niet hebt betaald.",
+      "bronnen": [
+        {
+          "boek": 25,
+          "sectie": "2.2",
+          "anker": "geweigerd indien je ten minste vijf maal de motorrijtuigenbelasting en/of verkeersboetes niet hebt betaald"
+        }
+      ],
+      "tags": [
+        "kenteken",
+        "tenaamstelling"
+      ]
+    },
+    {
+      "id": "F076",
+      "categorie": "afstand",
+      "onderwerp": "Tweesecondenregel",
+      "waarde": 2,
+      "eenheid": "seconden",
+      "tekst": "Houd onder normale omstandigheden minimaal 2 seconden afstand tot je voorligger.",
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "je moet (minimaal) 2 seconden afstand tot je voorligger aanhouden"
+        },
+        {
+          "slide": 139,
+          "anker": "een volgafstand van (minimaal) 2 seconden aan"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand"
+      ]
+    },
+    {
+      "id": "F077",
+      "categorie": "afstand",
+      "onderwerp": "Formule volgafstand bij 2 seconden",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Volgafstand bij 2 seconden: deel je snelheid in meters per uur door 3.600 en vermenigvuldig de uitkomst met 2.",
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "deel je snelheid in meters per uur door 3.600"
+        },
+        {
+          "slide": 139,
+          "anker": "`80.000 m` gedeeld door `3.600 sec` = `22,2 meter per seconde`"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "formule"
+      ]
+    },
+    {
+      "id": "F078",
+      "categorie": "afstand",
+      "onderwerp": "Volgafstand bij 80 km/u volgens de formule",
+      "waarde": 44.4,
+      "eenheid": "meter",
+      "tekst": "Bij 80 km/u leg je 22,2 meter per seconde af, dus in 2 seconden 44,4 meter.",
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "Per 2 seconde is dit 2 x 22,2 = 44,4 meter"
+        },
+        {
+          "slide": 139,
+          "anker": "Per 2 seconde is dit 2 x 22,2 = 44,4 meter"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F079",
+      "categorie": "afstand",
+      "onderwerp": "Vuistregel volgafstand",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Vuistregel voor de 2 seconden afstand: deel je snelheid in km/u door 2 en tel er 10% bij op.",
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "deel je snelheid in km/u door 2 en tel 10% op bij de uitkomst"
+        },
+        {
+          "slide": 140,
+          "anker": "`80 km/u gedeeld door 2 = 40 meter`\n`40 + 10% = 44 meter`"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "vuistregel"
+      ]
+    },
+    {
+      "id": "F080",
+      "categorie": "afstand",
+      "onderwerp": "Volgafstand bij 80 km/u volgens de vuistregel",
+      "waarde": 44,
+      "eenheid": "meter",
+      "tekst": "Bij 80 km/u is de volgafstand volgens de vuistregel 80 : 2 = 40 meter, plus 10% is 44 meter.",
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "80 km/u gedeeld door 2 = 40 meter. 40 + 10% = 44 meter"
+        },
+        {
+          "slide": 140,
+          "anker": "`80 km/u gedeeld door 2 = 40 meter`\n`40 + 10% = 44 meter`"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F081",
+      "categorie": "afstand",
+      "onderwerp": "Afstandstekens op de autosnelweg",
+      "waarde": 2,
+      "eenheid": "tekens",
+      "tekst": "Zorg dat er minimaal 2 afstandstekens (chevrons) zichtbaar zijn tussen jou en je voorligger.",
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger"
+        },
+        {
+          "slide": 140,
+          "anker": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "autosnelweg"
+      ]
+    },
+    {
+      "id": "F082",
+      "categorie": "afstand",
+      "onderwerp": "Volgafstand bij moeilijke omstandigheden",
+      "waarde": 3,
+      "eenheid": "seconden",
+      "tekst": "Houd 3 seconden afstand bij regen, sneeuw, mist, een zwaar beladen auto, een aanhangwagen of vermoeidheid.",
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
+        },
+        {
+          "slide": 139,
+          "anker": "Houd 3 seconden afstand aan tijdens lastige (weers)omstandigheden"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "slecht-weer"
+      ]
+    },
+    {
+      "id": "F083",
+      "categorie": "afstand",
+      "onderwerp": "Volgafstand bij zeer dichte mist",
+      "waarde": 3,
+      "eenheid": "seconden",
+      "tekst": "Bij zeer dichte mist houd je geen twee maar drie seconden afstand tot je voorligger.",
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "houd geen twee maar drie seconden afstand tot je voorligger"
+        },
+        {
+          "slide": 205,
+          "anker": "houd meer afstand (3 i.p.v. 2 secondsen)"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "mist"
+      ]
+    },
+    {
+      "id": "F084",
+      "categorie": "afstand",
+      "onderwerp": "Reactietijd",
+      "waarde": 1,
+      "eenheid": "seconde",
+      "tekst": "Tussen waarnemen en daadwerkelijk remmen verstrijkt gemiddeld één seconde: de reactieseconde.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "verstrijkt gemiddeld één seconde. Deze seconde noemen we de reactieseconde"
+        },
+        {
+          "slide": 144,
+          "anker": "Je reactietijd is ongeveer 1 seconde"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "reactietijd"
+      ]
+    },
+    {
+      "id": "F085",
+      "categorie": "afstand",
+      "onderwerp": "Vuistregel reactieafstand",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Reactieafstand in meters: ((snelheid in km/u : 2) + 10%) : 2.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "de volgende vuistregel gebruiken: **((snelheid km/u : 2) + 10%) : 2**"
+        },
+        {
+          "slide": 144,
+          "anker": "Bij 40 km/u is je **reactieafstand** (in geel):\n(40 : 2) + 10%) : 2 = 11 meter"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "formule"
+      ]
+    },
+    {
+      "id": "F086",
+      "categorie": "afstand",
+      "onderwerp": "Reactieafstand bij 130 km/u",
+      "waarde": 35.75,
+      "eenheid": "meter",
+      "tekst": "Bij 130 km/u is de reactieafstand ((130 : 2) + 10%) : 2 = 35,75 meter.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "bij 130 km/u ((130 km/u : 2) + 10%) : 2 = 35,75 m"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F087",
+      "categorie": "afstand",
+      "onderwerp": "Reactieafstand bij 80 km/u",
+      "waarde": 22,
+      "eenheid": "meter",
+      "tekst": "Bij 80 km/u is de reactieafstand ((80 : 2) + 10%) : 2 = 22,0 meter.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "bij 80 km/u ((80 km/u : 2) + 10%) : 2 = 22,0 m"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F088",
+      "categorie": "afstand",
+      "onderwerp": "Reactieafstand bij 50 km/u",
+      "waarde": 13.75,
+      "eenheid": "meter",
+      "tekst": "Bij 50 km/u is de reactieafstand ((50 : 2) + 10%) : 2 = 13,75 meter.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "bij 50 km/u ((50 km/u : 2) + 10%) : 2 = 13,75 m"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F089",
+      "categorie": "afstand",
+      "onderwerp": "Reactieafstand bij 40 km/u",
+      "waarde": 11,
+      "eenheid": "meter",
+      "tekst": "Bij 40 km/u is de reactieafstand ((40 : 2) + 10%) : 2 = 11 meter.",
+      "bronnen": [
+        {
+          "slide": 144,
+          "anker": "Bij 40 km/u is je **reactieafstand** (in geel):\n(40 : 2) + 10%) : 2 = 11 meter"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F090",
+      "categorie": "afstand",
+      "onderwerp": "Vuistregel remweg",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Remweg in meters: (snelheid in km/u : 10) x (snelheid in km/u : 10) : 2.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "**(snelheid(km/u):10) x (snelheid(km/u):10) : 2**"
+        },
+        {
+          "slide": 144,
+          "anker": "((snelheid : 10) x (snelheid : 10) : 2)"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "remweg",
+        "formule"
+      ]
+    },
+    {
+      "id": "F091",
+      "categorie": "afstand",
+      "onderwerp": "Remweg bij 130 km/u",
+      "waarde": 84.5,
+      "eenheid": "meter",
+      "tekst": "Bij 130 km/u is de remweg (130 : 10) x (130 : 10) : 2 = 84,50 meter.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "bij 130 km/u (130 : 10) x (130 : 10) : 2 = 84,50 m"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "remweg",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F092",
+      "categorie": "afstand",
+      "onderwerp": "Remweg bij 80 km/u",
+      "waarde": 32,
+      "eenheid": "meter",
+      "tekst": "Bij 80 km/u is de remweg (80 : 10) x (80 : 10) : 2 = 32,00 meter.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "bij 80 km/u (80 : 10) x (80 : 10) : 2 = 32,00 m"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "remweg",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F093",
+      "categorie": "afstand",
+      "onderwerp": "Remweg bij 50 km/u",
+      "waarde": 12.5,
+      "eenheid": "meter",
+      "tekst": "Bij 50 km/u is de remweg (50 : 10) x (50 : 10) : 2 = 12,50 meter.",
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "bij 50 km/u (50 : 10) x (50 : 10) : 2 = 12,50 m"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "remweg",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F094",
+      "categorie": "afstand",
+      "onderwerp": "Remweg bij 40 km/u",
+      "waarde": 8,
+      "eenheid": "meter",
+      "tekst": "Bij 40 km/u is de remweg (40 : 10) x (40 : 10) : 2 = 8 meter.",
+      "bronnen": [
+        {
+          "slide": 144,
+          "anker": "Bij 40 km/u is dit: ((40:10) x (40:10) : 2) = 8 meter"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "remweg",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F095",
+      "categorie": "afstand",
+      "onderwerp": "Remweg neemt kwadratisch toe",
+      "waarde": 4,
+      "eenheid": "keer",
+      "tekst": "Als je 2x zo hard rijdt, wordt je remweg 4x zo lang; bij 100 km/u is de remweg 4x zo lang als bij 50 km/u.",
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "als je 2x zo hard gaat rijden, wordt je remweg 4x zo lang"
+        },
+        {
+          "slide": 143,
+          "anker": "bij 100 km/u is deze 4x groter dan bij 50 km/u"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "remweg"
+      ]
+    },
+    {
+      "id": "F096",
+      "categorie": "afstand",
+      "onderwerp": "Stopafstand bij 130 km/u",
+      "waarde": 120.25,
+      "eenheid": "meter",
+      "tekst": "Bij 130 km/u is de stopafstand 35,75 (reactie) + 84,50 (remweg) = 120,25 meter.",
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Remafstand bij 130 km/u | = 84,50 meter, |\n| **De stopafstand is** | **= 120,25 meter.**"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F097",
+      "categorie": "afstand",
+      "onderwerp": "Stopafstand bij 80 km/u",
+      "waarde": 54,
+      "eenheid": "meter",
+      "tekst": "Bij 80 km/u is de stopafstand 22,00 (reactie) + 32,00 (remweg) = 54,00 meter.",
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Remafstand bij 80 km/u | = 32,00 meter, |\n| **De stopafstand is** | **= 54,00 meter.**"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F098",
+      "categorie": "afstand",
+      "onderwerp": "Stopafstand bij 50 km/u",
+      "waarde": 26.25,
+      "eenheid": "meter",
+      "tekst": "Bij 50 km/u is de stopafstand 13,75 (reactie) + 12,50 (remweg) = 26,25 meter.",
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Remafstand bij 50 km/u | = 12,50 meter, |\n| **De stopafstand is** | **= 26,25 meter.**"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F099",
+      "categorie": "afstand",
+      "onderwerp": "Stopafstand bij 40 km/u",
+      "waarde": 19,
+      "eenheid": "meter",
+      "tekst": "Bij 40 km/u is de stopafstand 11 (reactie) + 8 (remweg) = 19 meter.",
+      "bronnen": [
+        {
+          "slide": 144,
+          "anker": "is dan 11 + 8 = **19 meter**"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F100",
+      "categorie": "afstand",
+      "onderwerp": "Formule inhaalafstand",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Inhaalafstand in meters: 60 x je eigen snelheid gedeeld door het snelheidsverschil tussen de voertuigen.",
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "60 x je eigen snelheid : snelheidsverschil tussen de voertuigen"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "inhalen",
+        "formule"
+      ]
+    },
+    {
+      "id": "F101",
+      "categorie": "afstand",
+      "onderwerp": "Inhaalafstand bij 80 km/u en voorligger 25 km/u",
+      "waarde": 87,
+      "eenheid": "meter",
+      "tekst": "Rijd jij 80 km/u en je voorligger 25 km/u, dan is de inhaalafstand 60 x 80 : (80 - 25) = 87 meter.",
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "60 x 80 : (80 - 25) = 87 meter"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "inhalen",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F102",
+      "categorie": "afstand",
+      "onderwerp": "Inhaalafstand bij 80 km/u en voorligger 60 km/u",
+      "waarde": 240,
+      "eenheid": "meter",
+      "tekst": "Rijd jij 80 km/u en je voorligger 60 km/u, dan is de inhaalafstand 60 x 80 : (80 - 60) = 240 meter.",
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "60 x 80 : (80 - 60) = 240 meter"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "inhalen",
+        "rekenvoorbeeld"
+      ]
+    },
+    {
+      "id": "F103",
+      "categorie": "afstand",
+      "onderwerp": "Zijdelingse afstand bij inhalen van tweewielers en ruiters",
+      "waarde": 1.5,
+      "eenheid": "meter",
+      "tekst": "Houd bij het inhalen van fietsers, snorfietsers, bromfietsers, voetgangers en ruiters een zijdelingse afstand van minimaal 1,5 meter.",
+      "bronnen": [
+        {
+          "boek": 130,
+          "sectie": "8.1",
+          "anker": "een ruime zijdelingse afstand (1,5 meter)"
+        },
+        {
+          "boek": 145,
+          "sectie": "9.6",
+          "anker": "voldoende zijdelingse afstand (minimaal 1,5 meter)"
+        },
+        {
+          "boek": 131,
+          "sectie": "8.2",
+          "anker": "passeer deze bestuurders met ruime zijdelingse afstand (1,5 m)"
+        },
+        {
+          "slide": 168,
+          "anker": "houd bij kwetsbare verkeersdeelnemers minimaal 1,5 meter afstand"
+        }
+      ],
+      "tags": [
+        "afstand",
+        "inhalen",
+        "kwetsbare-weggebruikers"
+      ]
+    },
+    {
+      "id": "F104",
+      "categorie": "afstand",
+      "onderwerp": "Middelpuntvliedende kracht bij dubbele snelheid",
+      "waarde": 4,
+      "eenheid": "keer",
+      "tekst": "Neem je dezelfde bocht met 60 in plaats van 30 km/u, dan is de middelpuntvliedende kracht vier maal zo groot.",
+      "bronnen": [
+        {
+          "boek": 68,
+          "sectie": "4.4",
+          "anker": "dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot"
+        }
+      ],
+      "tags": [
+        "bochten",
+        "centrifugaalkracht"
+      ]
+    },
+    {
+      "id": "F105",
+      "categorie": "manoeuvres",
+      "onderwerp": "Gebruik van de invoegstrook",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Gebruik bij het invoegen altijd ongeveer 2/3 van de invoegstrook om snelheid te maken, ook als je eerder kunt invoegen.",
+      "bronnen": [
+        {
+          "boek": 148,
+          "sectie": "9.7",
+          "anker": "Gebruik altijd ongeveer 2/3 van de invoegstrook"
+        },
+        {
+          "slide": 172,
+          "anker": "gebruik ongeveer 2/3ᵉ van de invoegstrook"
+        }
+      ],
+      "tags": [
+        "invoegen",
+        "autosnelweg"
+      ]
+    },
+    {
+      "id": "F106",
+      "categorie": "manoeuvres",
+      "onderwerp": "Richting aangeven bij uitvoegen",
+      "waarde": 300,
+      "eenheid": "meter",
+      "tekst": "Geef bij het uitvoegen op ongeveer 300 meter voor het begin van de uitrijstrook richting aan.",
+      "bronnen": [
+        {
+          "boek": 151,
+          "sectie": "9.8",
+          "anker": "Geef richting aan op ongeveer 300 meter voor het begin van de uitrijstrook"
+        },
+        {
+          "slide": 173,
+          "anker": "zet je richtingaanwijzer aan op 300 meter voor de uitrijstrook"
+        }
+      ],
+      "tags": [
+        "uitvoegen",
+        "richting-aangeven",
+        "autosnelweg"
+      ]
+    },
+    {
+      "id": "F107",
+      "categorie": "manoeuvres",
+      "onderwerp": "Ritsen: snelheid aanpassen",
+      "waarde": 300,
+      "eenheid": "meter",
+      "tekst": "Bij ritsen pas je op ongeveer 300 meter voor de versmalling je snelheid aan aan de naastgelegen strook.",
+      "bronnen": [
+        {
+          "boek": 155,
+          "sectie": "9.11",
+          "anker": "op ongeveer 300 meter voor de versmalling pas je je snelheid aan"
+        },
+        {
+          "slide": 175,
+          "anker": "pas je tijdig je snelheid aan (op 300 meter voor de versmalling)"
+        }
+      ],
+      "tags": [
+        "ritsen"
+      ]
+    },
+    {
+      "id": "F108",
+      "categorie": "manoeuvres",
+      "onderwerp": "Ritsen: invoegen",
+      "waarde": 50,
+      "eenheid": "meter",
+      "tekst": "Bij ritsen voeg je op circa 50 meter voor de versmalling in, zonder afremmen.",
+      "bronnen": [
+        {
+          "boek": 155,
+          "sectie": "9.11",
+          "anker": "op circa 50 meter voor de versmalling voeg je in"
+        }
+      ],
+      "tags": [
+        "ritsen"
+      ]
+    },
+    {
+      "id": "F109",
+      "categorie": "manoeuvres",
+      "onderwerp": "Richting aangeven op de autosnelweg",
+      "waarde": 300,
+      "eenheid": "meter",
+      "tekst": "Op autosnelwegen zet je circa 300 meter voor de uitrijstrook je richtingaanwijzer aan.",
+      "bronnen": [
+        {
+          "boek": 181,
+          "sectie": "11.1",
+          "anker": "op autosnelwegen: circa 300 meter voor de uitrijstrook"
+        },
+        {
+          "slide": 198,
+          "anker": "auto(snel)weg: 300 meter voor de uitrijstrook"
+        }
+      ],
+      "tags": [
+        "richting-aangeven",
+        "autosnelweg"
+      ]
+    },
+    {
+      "id": "F110",
+      "categorie": "manoeuvres",
+      "onderwerp": "Richting aangeven buiten de bebouwde kom",
+      "waarde": 200,
+      "eenheid": "meter",
+      "tekst": "Op wegen buiten de bebouwde kom (80 km/u) geef je circa 200 meter voor het kruispunt richting aan.",
+      "bronnen": [
+        {
+          "boek": 181,
+          "sectie": "11.1",
+          "anker": "op wegen buiten de bebouwde kom: circa 200 meter voor het kruispunt"
+        },
+        {
+          "slide": 198,
+          "anker": "80 km/u weg: 200 meter voor het kruispunt"
+        }
+      ],
+      "tags": [
+        "richting-aangeven",
+        "buiten-bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F111",
+      "categorie": "manoeuvres",
+      "onderwerp": "Richting aangeven binnen de bebouwde kom",
+      "waarde": 100,
+      "eenheid": "meter",
+      "tekst": "Op wegen binnen de bebouwde kom (50 km/u) geef je circa 100 meter voor het kruispunt richting aan.",
+      "bronnen": [
+        {
+          "boek": 181,
+          "sectie": "11.1",
+          "anker": "op wegen binnen de bebouwde kom: circa 100 meter voor het kruispunt"
+        },
+        {
+          "slide": 198,
+          "anker": "50 km/u weg: 100 meter voor het kruispunt"
+        }
+      ],
+      "tags": [
+        "richting-aangeven",
+        "bebouwde-kom"
+      ]
+    },
+    {
+      "id": "F112",
+      "categorie": "manoeuvres",
+      "onderwerp": "Richting aangeven in een woonwijk",
+      "waarde": 50,
+      "eenheid": "meter",
+      "tekst": "In een woonwijk geef je 50 meter voor het kruispunt richting aan.",
+      "bronnen": [
+        {
+          "slide": 198,
+          "anker": "woonwijk: 50 meter voor het kruispunt"
+        }
+      ],
+      "tags": [
+        "richting-aangeven",
+        "woonwijk"
+      ]
+    },
+    {
+      "id": "F113",
+      "categorie": "manoeuvres",
+      "onderwerp": "Achteruitrijden in rechte lijn: afstand tot stoeprand",
+      "waarde": 30,
+      "eenheid": "cm",
+      "tekst": "Bij achteruitrijden in rechte lijn stop je 30 cm van de stoeprand en rijd je stapvoets ongeveer 20 meter achteruit.",
+      "bronnen": [
+        {
+          "boek": 156,
+          "sectie": "9.11",
+          "anker": "Stop op een veilige plaats, 30 cm van de stoeprand"
+        },
+        {
+          "boek": 156,
+          "sectie": "9.11",
+          "anker": "Rijd stapvoets met slippende koppeling ongeveer 20 meter achteruit"
+        }
+      ],
+      "tags": [
+        "bijzondere-verrichtingen",
+        "achteruitrijden"
+      ]
+    },
+    {
+      "id": "F114",
+      "categorie": "manoeuvres",
+      "onderwerp": "Bocht achteruitrijden: startpositie",
+      "waarde": 5,
+      "eenheid": "meter",
+      "tekst": "Bij de bocht achteruit stop je 5 meter voor de bocht op 30 cm van de stoeprand.",
+      "bronnen": [
+        {
+          "boek": 156,
+          "sectie": "9.11",
+          "anker": "Stop 5 meter van de bocht op 30 cm van stoeprand"
+        }
+      ],
+      "tags": [
+        "bijzondere-verrichtingen",
+        "achteruitrijden"
+      ]
+    },
+    {
+      "id": "F115",
+      "categorie": "verlichting",
+      "onderwerp": "Dimlicht overdag bij slecht zicht",
+      "waarde": 200,
+      "eenheid": "meter",
+      "tekst": "Je moet dimlicht voeren 's nachts en overdag bij slecht zicht (minder dan 200 meter).",
+      "bronnen": [
+        {
+          "boek": 184,
+          "sectie": "11.2",
+          "anker": "overdag als er sprake is van slecht zicht (minder dan 200 meter)"
+        },
+        {
+          "slide": 200,
+          "anker": "overdag bij slecht zicht (minder dan 200 m)"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "dimlicht"
+      ]
+    },
+    {
+      "id": "F116",
+      "categorie": "verlichting",
+      "onderwerp": "Mistlicht voor",
+      "waarde": 200,
+      "eenheid": "meter",
+      "tekst": "Mistlicht aan de voorzijde mag je inschakelen als het zicht ernstig belemmerd is (minder dan ongeveer 200 meter) door mist, sneeuwval of regen.",
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "(zicht minder dan +/- 200 m), dus ook bij regen, sneeuwval of mist"
+        },
+        {
+          "slide": 202,
+          "anker": "ernstig belemmerd zicht = zicht minder dan 200 meter"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "mistlicht"
+      ]
+    },
+    {
+      "id": "F117",
+      "categorie": "verlichting",
+      "onderwerp": "Mistachterlicht",
+      "waarde": 50,
+      "eenheid": "meter",
+      "tekst": "Het mistachterlicht mag alleen bij zeer dichte mist of zware sneeuwval met een zicht van minder dan 50 meter, en nooit bij regen.",
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "Als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval"
+        },
+        {
+          "boek": 188,
+          "sectie": "11.3",
+          "anker": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien"
+        },
+        {
+          "slide": 202,
+          "anker": "met een zicht van minder dan 50 meter\n\n- verboden tijdens regen"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "mistachterlicht",
+        "regen"
+      ]
+    },
+    {
+      "id": "F118",
+      "categorie": "verlichting",
+      "onderwerp": "Definitie zeer dichte mist",
+      "waarde": 50,
+      "eenheid": "meter",
+      "tekst": "Van zeer dichte mist is sprake bij een zicht van minder dan 50 meter.",
+      "bronnen": [
+        {
+          "boek": 190,
+          "sectie": "11.4",
+          "anker": "Tijdens zeer dichte mist (zicht minder dan 50 meter) zijn dit de belangrijkste maatregelen"
+        },
+        {
+          "slide": 205,
+          "anker": "eventueel je mistachterlicht (zicht < 50 m) in"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "mist"
+      ]
+    },
+    {
+      "id": "F119",
+      "categorie": "verlichting",
+      "onderwerp": "Verplichte verlichting voorzijde personenauto",
+      "waarde": 2,
+      "eenheid": "stuks",
+      "tekst": "Aan de voorkant moet een personenauto 2 stadslichten, 2 dimlichten en 2 grote lichten (wit of geel) en 2 richtingaanwijzers hebben.",
+      "bronnen": [
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "2 stadslichten (wit of geel) | 2 dimlichten (wit of geel)"
+        },
+        {
+          "slide": 228,
+          "anker": "2 of 4 grote lichten, 2 dimlichten, 2 stadslichten (wit of geel)"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "voertuigeisen"
+      ]
+    },
+    {
+      "id": "F120",
+      "categorie": "verlichting",
+      "onderwerp": "Verplichte verlichting achterzijde personenauto",
+      "waarde": 3,
+      "eenheid": "remlichten",
+      "tekst": "Aan de achterkant moet een personenauto onder meer 2 achterlichten, 3 remlichten, 1 mistachterlicht en 1 achteruitrijlicht hebben.",
+      "bronnen": [
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "2 achterlichten (rood) | 3 remlichten (rood)"
+        },
+        {
+          "slide": 229,
+          "anker": "drie remlichten (rood)\n\n- een of twee achteruitrijlichten (wit)"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "voertuigeisen"
+      ]
+    },
+    {
+      "id": "F121",
+      "categorie": "verlichting",
+      "onderwerp": "Retroreflectoren achterzijde personenauto",
+      "waarde": 2,
+      "eenheid": "stuks",
+      "tekst": "Een personenauto heeft achter twee niet-driehoekige rode retroreflectoren; een aanhangwagen of oplegger heeft achter twee driehoekige.",
+      "bronnen": [
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "kentekenplaatverlichting | 2 niet-driehoekige retroreflectoren (rood)"
+        },
+        {
+          "boek": 235,
+          "sectie": "13.9",
+          "anker": "Elke aanhangwagen en oplegger moet aan de achterzijde twee driehoekige retroreflectoren hebben"
+        },
+        {
+          "slide": 229,
+          "anker": "twee niet-driehoekige rode retroreflectoren aan de achterzijde"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "voertuigeisen",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F122",
+      "categorie": "verlichting",
+      "onderwerp": "Extra verlichtingseisen lange of brede auto",
+      "waarde": 6,
+      "eenheid": "meter",
+      "tekst": "Voor een auto langer dan 6,00 meter of breder dan 2,10 meter gelden extra eisen voor de verlichting.",
+      "bronnen": [
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "langer is dan 6,00 meter of breder dan 2,10 meter gelden extra eisen"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "voertuigeisen",
+        "afmetingen"
+      ]
+    },
+    {
+      "id": "F123",
+      "categorie": "verlichting",
+      "onderwerp": "Markeringslichten lange of brede aanhangwagen",
+      "waarde": 6,
+      "eenheid": "meter",
+      "tekst": "Extra markeringslichten zijn verplicht als een aanhangwagen langer is dan 6 meter en/of breder dan 2,10 meter.",
+      "bronnen": [
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "als een aanhangwagen langer is dan 6 meter en/of breder is dan 2,10"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "aanhangwagen",
+        "afmetingen"
+      ]
+    },
+    {
+      "id": "F124",
+      "categorie": "verlichting",
+      "onderwerp": "Stadslichten voor op brede aanhangwagen",
+      "waarde": 1.6,
+      "eenheid": "meter",
+      "tekst": "Een aanhangwagen breder dan 1,60 meter moet aan de voorkant 2 witte stadslichten hebben.",
+      "bronnen": [
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "2 witte stadslichten aan de voorkant als de ahw breder is dan 1,60 meter"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F125",
+      "categorie": "verlichting",
+      "onderwerp": "Achteruitrijlicht op aanhangwagen",
+      "waarde": 750,
+      "eenheid": "kg",
+      "tekst": "Een aanhangwagen met een toegestane maximummassa boven 750 kg moet een (wit of geel) achteruitrijlicht hebben.",
+      "bronnen": [
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "1 (wit of geel) achteruitrijlicht als tmm > 750 kilogram"
+        }
+      ],
+      "tags": [
+        "verlichting",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F126",
+      "categorie": "parkeren",
+      "onderwerp": "Stilstaan bij een oversteekplaats",
+      "waarde": 5,
+      "eenheid": "meter",
+      "tekst": "Je mag niet stilstaan op een oversteekplaats of binnen 5 meter daarvan.",
+      "bronnen": [
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "op een oversteekplaats of binnen een afstand van vijf meter daarvan"
+        },
+        {
+          "slide": 184,
+          "anker": "op / binnen 5 meter van een voetgangersoversteekplaats"
+        }
+      ],
+      "tags": [
+        "stilstaan",
+        "zebrapad"
+      ]
+    },
+    {
+      "id": "F127",
+      "categorie": "parkeren",
+      "onderwerp": "Stilstaan bij een bushalte zonder blokmarkering",
+      "waarde": 12,
+      "eenheid": "meter",
+      "tekst": "Bij een bord bushalte mag je niet stilstaan langs de blokmarkering, of binnen 12 meter van het bord als er geen blokmarkering is; passagiers laten in- of uitstappen mag wel als je de bus niet hindert.",
+      "bronnen": [
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "binnen 12 meter van het bord als er geen blokmarkering is"
+        },
+        {
+          "slide": 184,
+          "anker": "binnen 12 meter van het bord als er geen blokmarkering is"
+        }
+      ],
+      "tags": [
+        "stilstaan",
+        "bushalte"
+      ]
+    },
+    {
+      "id": "F128",
+      "categorie": "parkeren",
+      "onderwerp": "Parkeren bij een kruispunt",
+      "waarde": 5,
+      "eenheid": "meter",
+      "tekst": "Je mag niet parkeren op minder dan 5 meter van een kruispunt.",
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "op een afstand van minder dan vijf meter van een kruispunt"
+        },
+        {
+          "slide": 185,
+          "anker": "binnen 5 meter van een kruispunt"
+        }
+      ],
+      "tags": [
+        "parkeren",
+        "kruispunt"
+      ]
+    },
+    {
+      "id": "F129",
+      "categorie": "parkeren",
+      "onderwerp": "Parkeerschijf instellen",
+      "waarde": null,
+      "eenheid": null,
+      "tekst": "Je stelt de parkeerschijf in op het tijdstip van aankomst, naar boven afgerond op het eerstvolgende hele of halve uur (kom je om 12 uur 40 aan, dan stel je 13 uur in).",
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Je mag dit naar boven afronden op het eerstvolgende hele of halve uur"
+        },
+        {
+          "slide": 183,
+          "anker": "je mag je aankomsttijd naar boven afronden op een heel of half uur"
+        }
+      ],
+      "tags": [
+        "parkeren",
+        "parkeerschijf"
+      ]
+    },
+    {
+      "id": "F130",
+      "categorie": "parkeren",
+      "onderwerp": "Parkeerschijf verplicht voor motorvoertuigen op meer dan twee wielen",
+      "waarde": 2,
+      "eenheid": "wielen",
+      "tekst": "In een parkeerschijfzone is de parkeerschijf verplicht voor alle motorvoertuigen op meer dan twee wielen; tussentijds opnieuw instellen mag niet.",
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "verplicht voor alle motorvoertuigen op meer dan twee wielen"
+        },
+        {
+          "boek": 166,
+          "sectie": "10.4",
+          "anker": "Tussentijds de parkeerschijf opnieuw instellen mag dus niet"
+        }
+      ],
+      "tags": [
+        "parkeren",
+        "parkeerschijf"
+      ]
+    },
+    {
+      "id": "F131",
+      "categorie": "pech",
+      "onderwerp": "Afstand gevarendriehoek",
+      "waarde": 30,
+      "eenheid": "meter",
+      "tekst": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto.",
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto"
+        },
+        {
+          "slide": 187,
+          "anker": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto"
+        }
+      ],
+      "tags": [
+        "pech",
+        "gevarendriehoek"
+      ]
+    },
+    {
+      "id": "F132",
+      "categorie": "pech",
+      "onderwerp": "Maximale afstand bij slepen",
+      "waarde": 5,
+      "eenheid": "meter",
+      "tekst": "Bij slepen mag de afstand tussen beide voertuigen maximaal 5 meter zijn.",
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "de afstand tussen beide voertuigen mag maximaal 5 meter zijn"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "tot aan de voorkant van het gesleepte voertuig meer is dan 5 meter"
+        },
+        {
+          "slide": 188,
+          "anker": "De afstand tussen beide voertuigen mag maximaal 5 meter zijn en je mag"
+        }
+      ],
+      "tags": [
+        "pech",
+        "slepen"
+      ]
+    },
+    {
+      "id": "F133",
+      "categorie": "pech",
+      "onderwerp": "Aantal voertuigen bij slepen",
+      "waarde": 1,
+      "eenheid": "voertuig",
+      "tekst": "Je mag maar één voertuig tegelijk slepen; beide bestuurders moeten een geldig rijbewijs hebben.",
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "je mag maar één voertuig slepen"
+        },
+        {
+          "slide": 188,
+          "anker": "je mag maar één voertuig tegelijk slepen"
+        }
+      ],
+      "tags": [
+        "pech",
+        "slepen"
+      ]
+    },
+    {
+      "id": "F134",
+      "categorie": "pech",
+      "onderwerp": "Alarmnummer",
+      "waarde": 112,
+      "eenheid": null,
+      "tekst": "Bel bij ernstige ongevallen en calamiteiten via 112 de alarmcentrale.",
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Bel bij ernstige ongevallen en calamiteiten via 112 de alarmcentrale"
+        },
+        {
+          "slide": 189,
+          "anker": "Bel bij ernstige ongevallen en incidenten via 112 de alarmcentrale"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "alarmnummer"
+      ]
+    },
+    {
+      "id": "F135",
+      "categorie": "pech",
+      "onderwerp": "Reanimatie: ademhaling controleren",
+      "waarde": 10,
+      "eenheid": "seconden",
+      "tekst": "Bij reanimatie controleer je de ademhaling door maximaal 10 seconden te kijken, luisteren en voelen.",
+      "bronnen": [
+        {
+          "boek": 173,
+          "sectie": "10.7",
+          "anker": "kijk, luister en voel maximaal 10 seconden"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "reanimatie"
+      ]
+    },
+    {
+      "id": "F136",
+      "categorie": "pech",
+      "onderwerp": "Reanimatie: borstcompressies",
+      "waarde": 30,
+      "eenheid": "compressies",
+      "tekst": "Start direct met 30 borstcompressies en beadem daarna 2 keer.",
+      "bronnen": [
+        {
+          "boek": 173,
+          "sectie": "10.7",
+          "anker": "Start direct met 30 borstcompressies:\n\n- zet je handen midden op de borstkas"
+        },
+        {
+          "slide": 191,
+          "anker": "Start direct met 30 borstcompressies\n5. De vrouw geeft mond-op-mondbeademing"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "reanimatie"
+      ]
+    },
+    {
+      "id": "F137",
+      "categorie": "pech",
+      "onderwerp": "Reanimatie: diepte en tempo borstcompressies",
+      "waarde": 5,
+      "eenheid": "cm",
+      "tekst": "Duw het borstbeen 5 à 6 centimeter in, in een tempo van ten minste 100 en maximaal 120 keer per minuut.",
+      "bronnen": [
+        {
+          "boek": 173,
+          "sectie": "10.7",
+          "anker": "duw het borstbeen 5 à 6 centimeter in"
+        },
+        {
+          "boek": 173,
+          "sectie": "10.7",
+          "anker": "in een tempo van ten minste 100 keer per minuut (maximaal 120 per minuut)"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "reanimatie"
+      ]
+    },
+    {
+      "id": "F138",
+      "categorie": "pech",
+      "onderwerp": "Reanimatie: beademen",
+      "waarde": 2,
+      "eenheid": "keer",
+      "tekst": "Na 30 borstcompressies beadem je 2 keer, elke beademing ongeveer 1 seconde zodat de borstkas omhoog komt.",
+      "bronnen": [
+        {
+          "boek": 173,
+          "sectie": "10.7",
+          "anker": "Beadem 2 keer:\n\n- kantel het hoofd naar achteren"
+        },
+        {
+          "boek": 174,
+          "sectie": "10.7",
+          "anker": "beadem 1 seconde zó dat de borstkas omhoog komt"
+        },
+        {
+          "slide": 191,
+          "anker": "Beadem 2 keer\n6. De vrouw zit naast het slachtoffer"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "reanimatie"
+      ]
+    },
+    {
+      "id": "F139",
+      "categorie": "pech",
+      "onderwerp": "Reanimatie: aflossen",
+      "waarde": 2,
+      "eenheid": "minuten",
+      "tekst": "Ga door met reanimeren tot er hulp is en wissel eventueel elke 2 minuten met iemand anders af.",
+      "bronnen": [
+        {
+          "boek": 174,
+          "sectie": "10.7",
+          "anker": "wissel eventueel elke 2 minuten met iemand anders af"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "reanimatie"
+      ]
+    },
+    {
+      "id": "F140",
+      "categorie": "pech",
+      "onderwerp": "Bloedende wond dichtdrukken",
+      "waarde": 10,
+      "eenheid": "minuten",
+      "tekst": "Druk een bloedende wond onmiddellijk en minimaal tien minuten dicht.",
+      "bronnen": [
+        {
+          "boek": 175,
+          "sectie": "10.7",
+          "anker": "druk een bloedende wond onmiddellijk en minimaal tien minuten dicht"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "eerste-hulp"
+      ]
+    },
+    {
+      "id": "F141",
+      "categorie": "pech",
+      "onderwerp": "Brandwond koelen",
+      "waarde": 10,
+      "eenheid": "minuten",
+      "tekst": "Koel een brandwond ongeveer 10 minuten met bij voorkeur lauw, zacht stromend leidingwater.",
+      "bronnen": [
+        {
+          "boek": 176,
+          "sectie": "10.7",
+          "anker": "koel de wond ± 10 minuten met, bij voorkeur, lauw zachtstromend leidingwater"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "eerste-hulp",
+        "brandwonden"
+      ]
+    },
+    {
+      "id": "F142",
+      "categorie": "pech",
+      "onderwerp": "Auto te water per jaar",
+      "waarde": 800,
+      "eenheid": "keer",
+      "tekst": "In Nederland raakt bijna 800 keer per jaar een auto te water, waarbij ruim 30 personen verdrinken.",
+      "bronnen": [
+        {
+          "boek": 178,
+          "sectie": "10.8",
+          "anker": "In Nederland raakt bijna 800 keer per jaar een auto te water"
+        },
+        {
+          "boek": 178,
+          "sectie": "10.8",
+          "anker": "Daarbij komen ruim 30 personen door verdrinking om het leven"
+        }
+      ],
+      "tags": [
+        "ongeval",
+        "auto-te-water"
+      ]
+    },
+    {
+      "id": "F143",
+      "categorie": "voertuig",
+      "onderwerp": "Minimale profieldiepte banden",
+      "waarde": 1.6,
+      "eenheid": "mm",
+      "tekst": "Banden moeten minimaal 1,6 millimeter profiel hebben in de hoofdgroeven; dat geldt ook voor de banden van een aanhangwagen.",
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "luchtbanden met minimaal 1,6 millimeter profiel in de hoofdgroeven"
+        },
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "Luchtbanden met minimaal 1,6 mm profiel | Goedgekeurde en goed zichtbare kentekenplaat achter"
+        },
+        {
+          "slide": 226,
+          "anker": "luchtbanden met minimaal 1,6 mm profiel"
+        },
+        {
+          "slide": 207,
+          "anker": "wettelijk een profieldiepte van **minimaal 1,6 mm**"
+        }
+      ],
+      "tags": [
+        "banden",
+        "voertuigeisen"
+      ]
+    },
+    {
+      "id": "F144",
+      "categorie": "voertuig",
+      "onderwerp": "Geadviseerde profieldiepte winterbanden",
+      "waarde": 4,
+      "eenheid": "mm",
+      "tekst": "Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd.",
+      "bronnen": [
+        {
+          "boek": 195,
+          "sectie": "11.5",
+          "anker": "Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd"
+        },
+        {
+          "slide": 207,
+          "anker": "beter om **minimaal 4,0 mm**"
+        }
+      ],
+      "tags": [
+        "banden",
+        "winterbanden"
+      ]
+    },
+    {
+      "id": "F145",
+      "categorie": "voertuig",
+      "onderwerp": "Temperatuurgrens winterbanden",
+      "waarde": 7,
+      "eenheid": "graden Celsius",
+      "tekst": "Bij temperaturen onder de 7 graden en op een besneeuwd wegdek geven winterbanden meer grip dan zomerbanden; ze zijn in Nederland niet verplicht.",
+      "bronnen": [
+        {
+          "boek": 195,
+          "sectie": "11.5",
+          "anker": "Bij temperaturen onder de 7 graden en op een besneeuwd wegdek geven winterbanden meer grip"
+        },
+        {
+          "slide": 207,
+          "anker": "Bij temperaturen onder de 7 graden Celsius en op een besneeuwd wegdek"
+        }
+      ],
+      "tags": [
+        "banden",
+        "winterbanden"
+      ]
+    },
+    {
+      "id": "F146",
+      "categorie": "voertuig",
+      "onderwerp": "Bandenspanning controleren",
+      "waarde": 1,
+      "eenheid": "keer per maand",
+      "tekst": "Controleer de bandenspanning een keer per maand, bij voorkeur bij koude banden.",
+      "bronnen": [
+        {
+          "boek": 198,
+          "sectie": "11.5",
+          "anker": "Rijd met de juiste bandenspanning. Controleer deze 1x per maand"
+        },
+        {
+          "boek": 209,
+          "sectie": "13.3",
+          "anker": "Controleer een keer per maand de bandenspanning"
+        },
+        {
+          "slide": 235,
+          "anker": "Controleer de spanning elke maand, bij voorkeur aan het begin van de rit"
+        }
+      ],
+      "tags": [
+        "banden",
+        "onderhoud"
+      ]
+    },
+    {
+      "id": "F147",
+      "categorie": "voertuig",
+      "onderwerp": "Banden met stikstof",
+      "waarde": 4,
+      "eenheid": "keer",
+      "tekst": "Een band met stikstof houdt vier keer langer de juiste spanning en is te herkennen aan een groen ventieldopje.",
+      "bronnen": [
+        {
+          "boek": 225,
+          "sectie": "13.6",
+          "anker": "Een band met stikstof houdt vier keer langer de juiste spanning"
+        }
+      ],
+      "tags": [
+        "banden",
+        "stikstof"
+      ]
+    },
+    {
+      "id": "F148",
+      "categorie": "voertuig",
+      "onderwerp": "Lichtdoorlatendheid folie voorruit",
+      "waarde": 55,
+      "eenheid": "%",
+      "tekst": "Folie op de voorruit en de voorste zijruiten moet ten minste 55% licht doorlaten.",
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "folie op de voorruit en de voorste zijruiten ten minste 55% licht doorlaten"
+        }
+      ],
+      "tags": [
+        "voertuigeisen",
+        "ruiten"
+      ]
+    },
+    {
+      "id": "F149",
+      "categorie": "voertuig",
+      "onderwerp": "Geen scherpe delen beneden 2 meter",
+      "waarde": 2,
+      "eenheid": "meter",
+      "tekst": "Een personenauto (en een aanhangwagen) mag beneden een hoogte van 2 meter geen scherpe delen hebben.",
+      "bronnen": [
+        {
+          "boek": 203,
+          "sectie": "13.1",
+          "anker": "Personenauto's mogen (beneden een hoogte van 2 meter) geen scherpe delen hebben"
+        },
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "(beneden een hoogte van 2 meter) geen scherpe delen mag hebben"
+        },
+        {
+          "slide": 225,
+          "anker": "Personenauto's mogen (beneden een hoogte van 2 meter) geen scherpe delen hebben"
+        }
+      ],
+      "tags": [
+        "voertuigeisen"
+      ]
+    },
+    {
+      "id": "F150",
+      "categorie": "voertuig",
+      "onderwerp": "Werking bedrijfsrem",
+      "waarde": 4,
+      "eenheid": "wielen",
+      "tekst": "De bedrijfsrem (voetrem) moet op alle vier de wielen werken.",
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "de bedrijfsrem (voetrem) moet op alle vier de wielen werken"
+        }
+      ],
+      "tags": [
+        "voertuigeisen",
+        "remmen"
+      ]
+    },
+    {
+      "id": "F151",
+      "categorie": "voertuig",
+      "onderwerp": "Werking parkeerrem",
+      "waarde": 2,
+      "eenheid": "wielen",
+      "tekst": "De parkeerrem (handrem) moet op minimaal twee wielen werken.",
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "de parkeerrem (handrem) moet op minimaal twee wielen werken"
+        },
+        {
+          "slide": 226,
+          "anker": "parkeerrem die werkt op minimaal 2 wielen"
+        }
+      ],
+      "tags": [
+        "voertuigeisen",
+        "remmen"
+      ]
+    },
+    {
+      "id": "F152",
+      "categorie": "voertuig",
+      "onderwerp": "APK-herinnering",
+      "waarde": 6,
+      "eenheid": "weken",
+      "tekst": "Zes weken voor de APK-vervaldatum ontvang je van de RDW een herinneringsbrief; het keuringsbewijs hoef je onderweg niet te kunnen tonen.",
+      "bronnen": [
+        {
+          "boek": 206,
+          "sectie": "13.2",
+          "anker": "Zes weken voor de APK-vervaldatum ontvang je van de Rijksdienst voor het wegverkeer"
+        }
+      ],
+      "tags": [
+        "apk"
+      ]
+    },
+    {
+      "id": "F153",
+      "categorie": "voertuig",
+      "onderwerp": "Geldigheid APK-keuringsbewijs",
+      "waarde": 1,
+      "eenheid": "jaar",
+      "tekst": "Na goedkeuring is het APK-keuringsbewijs 1 of 2 jaar geldig.",
+      "bronnen": [
+        {
+          "slide": 231,
+          "anker": "Na goedkeuring is het APK-keuringsbewijs 1 of 2 jaar geldig"
+        }
+      ],
+      "tags": [
+        "apk"
+      ]
+    },
+    {
+      "id": "F154",
+      "categorie": "voertuig",
+      "onderwerp": "Actieradius na brandstoflampje",
+      "waarde": 50,
+      "eenheid": "km",
+      "tekst": "Als het brandstoflampje gaat branden, kun je nog ongeveer 50 tot 75 kilometer rijden.",
+      "bronnen": [
+        {
+          "boek": 212,
+          "sectie": "13.4",
+          "anker": "Je kunt dan nog ongeveer 50 tot 75 kilometer rijden"
+        }
+      ],
+      "tags": [
+        "dashboard",
+        "brandstof"
+      ]
+    },
+    {
+      "id": "F155",
+      "categorie": "voertuig",
+      "onderwerp": "Toerenteller aflezen",
+      "waarde": 1000,
+      "eenheid": "toeren",
+      "tekst": "Het getal op de toerenteller vermenigvuldig je met 1.000; staat er 2,4 dan maakt de motor 2.400 toeren per minuut.",
+      "bronnen": [
+        {
+          "boek": 212,
+          "sectie": "13.4",
+          "anker": "Je moet het afgelezen getal x 1.000 doen"
+        },
+        {
+          "slide": 237,
+          "anker": "Dit getal vermenigvuldig je x1.000 (op de afbeelding zie je dus 2.400 toeren)"
+        }
+      ],
+      "tags": [
+        "dashboard",
+        "toerenteller"
+      ]
+    },
+    {
+      "id": "F156",
+      "categorie": "voertuig",
+      "onderwerp": "Vorstwaarschuwing op het dashboard",
+      "waarde": 4,
+      "eenheid": "graden Celsius",
+      "tekst": "Het gele sneeuwvloklampje waarschuwt dat de buitentemperatuur onder de 4 graden Celsius is gedaald: houd rekening met een glad wegdek.",
+      "bronnen": [
+        {
+          "boek": 217,
+          "sectie": "13.4",
+          "anker": "De buitentemperatuur is onder de 4 °C gedaald, houd rekening met een glad wegdek"
+        }
+      ],
+      "tags": [
+        "dashboard",
+        "gladheid"
+      ]
+    },
+    {
+      "id": "F157",
+      "categorie": "voertuig",
+      "onderwerp": "Werking katalysator",
+      "waarde": 90,
+      "eenheid": "%",
+      "tekst": "De katalysator zet de schadelijke uitlaatgassen voor 90% om in niet-schadelijke stoffen en werkt pas goed na 10 tot 15 minuten rijden.",
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "worden de schadelijke uitlaatgassen voor 90% omgezet in niet-schadelijke stoffen"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "werkt pas goed als de automotor op temperatuur is, na 10 tot 15 minuten rijden"
+        }
+      ],
+      "tags": [
+        "milieu",
+        "katalysator"
+      ]
+    },
+    {
+      "id": "F158",
+      "categorie": "voertuig",
+      "onderwerp": "Motor uitschakelen bij wachten",
+      "waarde": 1,
+      "eenheid": "minuut",
+      "tekst": "Schakel de motor uit als je langer dan 1 minuut moet wachten of stilstaan.",
+      "bronnen": [
+        {
+          "boek": 198,
+          "sectie": "11.5",
+          "anker": "Schakel de motor uit als je langer dan 1 minuut moet wachten"
+        },
+        {
+          "slide": 215,
+          "anker": "schakel de motor uit als je langer dan 1 minuut moet stilstaan"
+        }
+      ],
+      "tags": [
+        "milieu",
+        "zuinig-rijden"
+      ]
+    },
+    {
+      "id": "F159",
+      "categorie": "voertuig",
+      "onderwerp": "Extra verbruik door airco",
+      "waarde": 15,
+      "eenheid": "%",
+      "tekst": "Met de airco aan kan het brandstofverbruik tot wel 15% hoger zijn.",
+      "bronnen": [
+        {
+          "slide": 216,
+          "anker": "met de airco aan kan het verbruik tot wel 15% hoger zijn"
+        }
+      ],
+      "tags": [
+        "milieu",
+        "zuinig-rijden"
+      ]
+    },
+    {
+      "id": "F160",
+      "categorie": "voertuig",
+      "onderwerp": "Standen adaptieve cruise control",
+      "waarde": 3,
+      "eenheid": "standen",
+      "tekst": "Bij adaptieve cruise control (ACC) kun je meestal kiezen uit 3 tot 5 standen voor de volgafstand.",
+      "bronnen": [
+        {
+          "boek": 222,
+          "sectie": "13.5",
+          "anker": "Meestal zijn er 3 tot 5 standen waaruit je kunt kiezen"
+        }
+      ],
+      "tags": [
+        "adas",
+        "cruise-control"
+      ]
+    },
+    {
+      "id": "F161",
+      "categorie": "lading",
+      "onderwerp": "Maximale lengte personenauto",
+      "waarde": 12,
+      "eenheid": "meter",
+      "tekst": "Een personenauto mag maximaal 12 meter lang zijn.",
+      "bronnen": [
+        {
+          "boek": 226,
+          "sectie": "13.7",
+          "anker": "maximaal 12 meter lang zijn,\n- maximaal 2,55 meter breed zijn"
+        },
+        {
+          "slide": 248,
+          "anker": "Maximale afmetingen van een auto en aanhangwagen:\n\n- lengte **(blauwe pijl)** 12 meter"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F162",
+      "categorie": "lading",
+      "onderwerp": "Maximale breedte personenauto",
+      "waarde": 2.55,
+      "eenheid": "meter",
+      "tekst": "Een personenauto mag inclusief lading maximaal 2,55 meter breed zijn.",
+      "bronnen": [
+        {
+          "boek": 226,
+          "sectie": "13.7",
+          "anker": "maximaal 2,55 meter breed zijn (inclusief lading)"
+        },
+        {
+          "slide": 248,
+          "anker": "breedte **(blauwe pijl)** 2,55 meter (inclusief lading)"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F163",
+      "categorie": "lading",
+      "onderwerp": "Maximale hoogte personenauto",
+      "waarde": 4,
+      "eenheid": "meter",
+      "tekst": "Een personenauto mag inclusief lading maximaal 4 meter hoog zijn.",
+      "bronnen": [
+        {
+          "boek": 226,
+          "sectie": "13.7",
+          "anker": "maximaal 4 meter hoog zijn (inclusief lading)"
+        },
+        {
+          "slide": 248,
+          "anker": "hoogte **(blauwe pijl)** 4 meter (inclusief lading)"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F164",
+      "categorie": "lading",
+      "onderwerp": "Maximale afmetingen aanhangwagen",
+      "waarde": 12,
+      "eenheid": "meter",
+      "tekst": "Ook een aanhangwagen mag inclusief lading maximaal 12 meter lang, 2,55 meter breed en 4 meter hoog zijn.",
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "Net als een personenauto mag een aanhangwagen, inclusief de lading:\n\n- maximaal 12 meter lang zijn"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F165",
+      "categorie": "lading",
+      "onderwerp": "Maximale lengte combinatie auto en aanhangwagen",
+      "waarde": 18,
+      "eenheid": "meter",
+      "tekst": "Een combinatie van personenauto en aanhangwagen mag maximaal 18 meter lang zijn.",
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "Zo'n combinatie mag:\n\n- maximaal 18 meter lang zijn"
+        },
+        {
+          "slide": 248,
+          "anker": "(auto + aanhangwagen **(blauwe pijl)** 18 meter)"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "aanhangwagen",
+        "combinatie"
+      ]
+    },
+    {
+      "id": "F166",
+      "categorie": "lading",
+      "onderwerp": "Lading zijdelings uitstekend op de auto",
+      "waarde": 20,
+      "eenheid": "cm",
+      "tekst": "Lading op een auto (bijvoorbeeld op een imperiaal of lastdrager) mag aan elke zijkant maximaal 20 cm uitsteken; een markeringsbord is dan niet verplicht.",
+      "bronnen": [
+        {
+          "boek": 226,
+          "sectie": "13.7",
+          "anker": "de lading mag aan de zijkanten maximaal 20 cm uitsteken buiten je auto"
+        },
+        {
+          "boek": 229,
+          "sectie": "13.8",
+          "anker": "Lading op een auto mag maximaal 20 cm aan elke kant uitsteken"
+        },
+        {
+          "slide": 249,
+          "anker": "de lading mag maximaal 20 centimeter aan elke zijkant uitsteken"
+        }
+      ],
+      "tags": [
+        "lading",
+        "breedte",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F167",
+      "categorie": "lading",
+      "onderwerp": "Deelbare lading aan de voorkant van de auto",
+      "waarde": 0,
+      "eenheid": "meter",
+      "tekst": "Deelbare lading mag aan de voorkant van een personenauto niet uitsteken.",
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "**Regels deelbare lading:**\n> - voorkant: uitsteken verboden"
+        },
+        {
+          "slide": 250,
+          "anker": "**Deelbare lading** (in lichtblauw) auto:\n\n- uitsteken aan voorzijde niet toegestaan"
+        }
+      ],
+      "tags": [
+        "lading",
+        "deelbaar",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F168",
+      "categorie": "lading",
+      "onderwerp": "Deelbare lading achter de auto",
+      "waarde": 1,
+      "eenheid": "meter",
+      "tekst": "Deelbare lading mag maximaal 1 meter achter de auto uitsteken.",
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "max. 1 m uitsteken achter de auto"
+        },
+        {
+          "slide": 250,
+          "anker": "max. 1 meter achter de auto\n  - max. 5 meter achter de achterste as"
+        }
+      ],
+      "tags": [
+        "lading",
+        "deelbaar",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F169",
+      "categorie": "lading",
+      "onderwerp": "Lading achter de achterste as van de auto",
+      "waarde": 5,
+      "eenheid": "meter",
+      "tekst": "Lading mag maximaal 5 meter achter de achterste as van de auto uitsteken.",
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "max. 5 m uitsteken achter de achterste as"
+        },
+        {
+          "slide": 250,
+          "anker": "max. 1 meter achter de auto\n  - max. 5 meter achter de achterste as"
+        }
+      ],
+      "tags": [
+        "lading",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F170",
+      "categorie": "lading",
+      "onderwerp": "Ondeelbare lading voor en achter de auto",
+      "waarde": 1,
+      "eenheid": "meter",
+      "tekst": "Ondeelbare lading (zoals ladders of palen) mag maximaal 1 meter voor en maximaal 1 meter achter de auto uitsteken.",
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "voorkant: max. 1 m uitsteken voor de auto"
+        },
+        {
+          "slide": 251,
+          "anker": "max. 1 meter voor de auto"
+        }
+      ],
+      "tags": [
+        "lading",
+        "ondeelbaar",
+        "personenauto"
+      ]
+    },
+    {
+      "id": "F171",
+      "categorie": "lading",
+      "onderwerp": "Deelbare lading achter de aanhangwagen",
+      "waarde": 1,
+      "eenheid": "meter",
+      "tekst": "Deelbare lading mag maximaal 1 meter achter de aanhangwagen en maximaal 5 meter achter de achterste as uitsteken; aan de voorkant mag deelbare lading niet uitsteken.",
+      "bronnen": [
+        {
+          "boek": 228,
+          "sectie": "13.7",
+          "anker": "max. 1 m uitsteken achter de aanhangwagen"
+        },
+        {
+          "slide": 252,
+          "anker": "max. 1 meter achter de aanhangwagen"
+        }
+      ],
+      "tags": [
+        "lading",
+        "deelbaar",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F172",
+      "categorie": "lading",
+      "onderwerp": "Ondeelbare lading achter de aanhangwagen",
+      "waarde": 5,
+      "eenheid": "meter",
+      "tekst": "Ondeelbare lading mag maximaal de helft van de lengte van de aanhangwagen achter de achterste as uitsteken, tot maximaal 5 meter.",
+      "bronnen": [
+        {
+          "boek": 228,
+          "sectie": "13.7",
+          "anker": "max. 1/2 x de lengte van de aanhangwagen uitsteken achter de achterste as"
+        },
+        {
+          "slide": 253,
+          "anker": "max. de helft van de lengte van de aanhangwagen"
+        }
+      ],
+      "tags": [
+        "lading",
+        "ondeelbaar",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F173",
+      "categorie": "lading",
+      "onderwerp": "Zijdelingse lading op de aanhangwagen",
+      "waarde": 3,
+      "eenheid": "meter",
+      "tekst": "Op een aanhangwagen mag deelbare lading aan de zijkanten uitsteken tot in totaal 2,55 meter breed en ondeelbare lading tot maximaal 3 meter breed.",
+      "bronnen": [
+        {
+          "boek": 228,
+          "sectie": "13.7",
+          "anker": "mag aan de zijkanten uitsteken tot een maximum van in totaal 2,55 meter"
+        },
+        {
+          "boek": 228,
+          "sectie": "13.7",
+          "anker": "ondeelbare lading mag maximaal 3 meter breed zijn"
+        },
+        {
+          "slide": 249,
+          "anker": "de lading mag maximaal 3 meter breed zijn"
+        }
+      ],
+      "tags": [
+        "lading",
+        "breedte",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F174",
+      "categorie": "lading",
+      "onderwerp": "Markeringsbord bij zijdelings uitstekende lading op aanhangwagen",
+      "waarde": 10,
+      "eenheid": "cm",
+      "tekst": "Op een aanhangwagen is een markeringsbord verplicht als de lading aan een zijkant meer dan 10 cm uitsteekt; op een auto is markering niet verplicht.",
+      "bronnen": [
+        {
+          "boek": 229,
+          "sectie": "13.8",
+          "anker": "als de lading aan een zijkant meer dan 10 cm uitsteekt"
+        },
+        {
+          "slide": 254,
+          "anker": "aan een zijkant > 10 centimeter uitsteekt"
+        }
+      ],
+      "tags": [
+        "lading",
+        "markeringsbord",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F175",
+      "categorie": "lading",
+      "onderwerp": "Markeringsbord bij achter uitstekende lading op aanhangwagen",
+      "waarde": 1,
+      "eenheid": "meter",
+      "tekst": "Op een aanhangwagen is een markeringsbord verplicht als de lading aan de achterkant meer dan 1 meter uitsteekt; 's nachts moet het bord verlicht zijn.",
+      "bronnen": [
+        {
+          "boek": 229,
+          "sectie": "13.8",
+          "anker": "als de lading aan de achterkant meer dan 1 m uitsteekt"
+        },
+        {
+          "slide": 254,
+          "anker": "aan de achterkant > 1 meter uitsteekt"
+        }
+      ],
+      "tags": [
+        "lading",
+        "markeringsbord",
+        "aanhangwagen"
+      ]
+    },
+    {
+      "id": "F176",
+      "categorie": "lading",
+      "onderwerp": "Maximale lengte vrachtauto",
+      "waarde": 12,
+      "eenheid": "meter",
+      "tekst": "Een vrachtauto mag maximaal 12 meter lang zijn (het boek zegt dat je deze lengtes niet hoeft te kennen voor het examen).",
+      "bronnen": [
+        {
+          "boek": 236,
+          "sectie": "13.9",
+          "anker": "Vrachtauto: max 12,00 m lang |\n| Een vrachtauto met bak plus"
+        },
+        {
+          "slide": 258,
+          "anker": "vrachtauto: 12 meter\n\n- vrachtauto met oplegger: 16,50 meter"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "vrachtauto",
+        "niet-examenstof-volgens-boek"
+      ]
+    },
+    {
+      "id": "F177",
+      "categorie": "lading",
+      "onderwerp": "Maximale lengte trekker met oplegger",
+      "waarde": 16.5,
+      "eenheid": "meter",
+      "tekst": "Een trekker met oplegger mag maximaal 16,50 meter lang zijn.",
+      "bronnen": [
+        {
+          "boek": 236,
+          "sectie": "13.9",
+          "anker": "Trekker + oplegger: max 16,50 m lang"
+        },
+        {
+          "slide": 258,
+          "anker": "vrachtauto: 12 meter\n\n- vrachtauto met oplegger: 16,50 meter"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "vrachtauto",
+        "niet-examenstof-volgens-boek"
+      ]
+    },
+    {
+      "id": "F178",
+      "categorie": "lading",
+      "onderwerp": "Maximale lengte vrachtauto met aanhangwagen",
+      "waarde": 18.75,
+      "eenheid": "meter",
+      "tekst": "Een vrachtauto met aanhangwagen mag maximaal 18,75 meter lang zijn.",
+      "bronnen": [
+        {
+          "boek": 236,
+          "sectie": "13.9",
+          "anker": "Vrachtauto + ahw: max 18,75 m lang"
+        },
+        {
+          "slide": 258,
+          "anker": "vrachtauto met aanhangwagen: 18,75 meter"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "vrachtauto",
+        "niet-examenstof-volgens-boek"
+      ]
+    },
+    {
+      "id": "F179",
+      "categorie": "lading",
+      "onderwerp": "Maximale lengte LZV",
+      "waarde": 25.25,
+      "eenheid": "meter",
+      "tekst": "Een lange en zware voertuigcombinatie (LZV) mag maximaal 25,25 meter lang zijn en draagt achterop de markering EXTRA LANG.",
+      "bronnen": [
+        {
+          "boek": 236,
+          "sectie": "13.9",
+          "anker": "Lange en zware voertuigcombinaties (lzv): max 25,25 m lang"
+        },
+        {
+          "slide": 258,
+          "anker": "lange zware voertuigen (LZV's): 25,25 meter"
+        }
+      ],
+      "tags": [
+        "afmetingen",
+        "vrachtauto",
+        "niet-examenstof-volgens-boek"
+      ]
+    },
+    {
+      "id": "F180",
+      "categorie": "aanhanger",
+      "onderwerp": "Aanhangwagen zonder kentekenbewijs",
+      "waarde": 750,
+      "eenheid": "kg",
+      "tekst": "Een aanhangwagen zonder eigen kentekenbewijs heeft een toegestane maximummassa van 750 kg.",
+      "bronnen": [
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "als een aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg"
+        },
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "aanhangwagens tot 750 kg en gehandicaptenvoertuigen hebben geen kentekenbewijs"
+        },
+        {
+          "slide": 256,
+          "anker": "als de aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "kentekenbewijs"
+      ]
+    },
+    {
+      "id": "F181",
+      "categorie": "aanhanger",
+      "onderwerp": "Kentekenplaat aanhangwagen tot en met 750 kg",
+      "waarde": 750,
+      "eenheid": "kg",
+      "tekst": "Een aanhangwagen met een toegestane maximummassa tot en met 750 kg heeft een witte kentekenplaat met het kenteken van de trekkende auto; dat geldt ook voor een fietsdrager op de trekhaak.",
+      "bronnen": [
+        {
+          "boek": 231,
+          "sectie": "13.8",
+          "anker": "toegestane maximummassa t/m 750 kilogram moeten voorzien zijn van een witte kentekenplaat"
+        },
+        {
+          "slide": 255,
+          "anker": "Aanhanger ≤ 750 kg:\n- witte kentekenplaat, zelfde kenteken"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "kentekenplaat"
+      ]
+    },
+    {
+      "id": "F182",
+      "categorie": "aanhanger",
+      "onderwerp": "Kentekenbewijs aanhangwagen boven 750 kg",
+      "waarde": 750,
+      "eenheid": "kg",
+      "tekst": "Een aanhangwagen met een toegestane maximummassa van meer dan 750 kg heeft een eigen kentekenbewijs en een gele kentekenplaat met eigen kenteken.",
+      "bronnen": [
+        {
+          "boek": 231,
+          "sectie": "13.8",
+          "anker": "aanhangwagens met een toegestane massa van meer dan 750 kilogram hebben een eigen kentekenbewijs"
+        },
+        {
+          "slide": 255,
+          "anker": "Aanhanger > 750 kg:\n- gele kentekenplaat, eigen kenteken"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "kentekenbewijs"
+      ]
+    },
+    {
+      "id": "F183",
+      "categorie": "aanhanger",
+      "onderwerp": "Losbreekrem of hulpkoppeling tot en met 1.500 kg",
+      "waarde": 1500,
+      "eenheid": "kg",
+      "tekst": "Een aanhangwagen met een toegestane maximummassa tot en met 1.500 kg moet een losbreekreminrichting of een hulpkoppeling hebben.",
+      "bronnen": [
+        {
+          "boek": 231,
+          "sectie": "13.8",
+          "anker": "met een toegestane maximummassa t/m 1.500 kilogram moeten een losbreekreminrichting of hulpkoppeling hebben"
+        },
+        {
+          "slide": 255,
+          "anker": "Toegestane maximummassa t/m 1.500 kg:\n- hulpkoppeling of losbreekrem verplicht"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "losbreekrem",
+        "hulpkoppeling"
+      ]
+    },
+    {
+      "id": "F184",
+      "categorie": "aanhanger",
+      "onderwerp": "Losbreekrem verplicht boven 1.500 kg",
+      "waarde": 1500,
+      "eenheid": "kg",
+      "tekst": "Een aanhangwagen met een toegestane maximummassa van meer dan 1.500 kg moet een losbreekreminrichting hebben.",
+      "bronnen": [
+        {
+          "boek": 231,
+          "sectie": "13.8",
+          "anker": "toegestane maximummassa van meer dan 1.500 kilogram moeten een losbreekreminrichting hebben"
+        },
+        {
+          "slide": 255,
+          "anker": "Toegestane maximummassa 1.500 - 3.500 kg:\n- losbreekrem verplicht"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "losbreekrem"
+      ]
+    },
+    {
+      "id": "F185",
+      "categorie": "aanhanger",
+      "onderwerp": "Reminrichting niet verplicht",
+      "waarde": 750,
+      "eenheid": "kg",
+      "tekst": "Een reminrichting is niet verplicht als de totale massa van de aanhangwagen minder is dan 750 kg én minder dan 50% van het rijklaargewicht van het trekkende voertuig; in alle andere gevallen wel.",
+      "bronnen": [
+        {
+          "boek": 233,
+          "sectie": "13.8",
+          "anker": "minder dan 50% van het rijklaargewicht van het trekkende voertuig"
+        },
+        {
+          "slide": 255,
+          "anker": "maximaal 750 kg is\n- maximaal 50% rijklaargewicht van auto"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "reminrichting"
+      ]
+    },
+    {
+      "id": "F186",
+      "categorie": "aanhanger",
+      "onderwerp": "Maximale kogeldruk aanhangwagen tot 750 kg",
+      "waarde": 50,
+      "eenheid": "kg",
+      "tekst": "De last onder de koppeling van een middenasaanhangwagen tot 750 kg moet neerwaarts gericht zijn en mag maximaal 50 kg zijn.",
+      "bronnen": [
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "moet neerwaarts gericht zijn en mag maximaal 50 kg zijn"
+        },
+        {
+          "slide": 256,
+          "anker": "massa ≤ 750 kg **(blauwe pijl)** maximaal 50 kg"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "kogeldruk"
+      ]
+    },
+    {
+      "id": "F187",
+      "categorie": "aanhanger",
+      "onderwerp": "Minimale kogeldruk aanhangwagen boven 750 kg",
+      "waarde": 1,
+      "eenheid": "%",
+      "tekst": "Bij een middenasaanhangwagen van meer dan 750 kg mag de kogeldruk niet minder zijn dan 1% van de toegestane maximummassa.",
+      "bronnen": [
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "mag niet minder dan 1% van de toegestane maximummassa van het voertuig zijn"
+        },
+        {
+          "slide": 256,
+          "anker": "niet minder dan 1 % van de toegestane maximummassa"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "kogeldruk"
+      ]
+    },
+    {
+      "id": "F188",
+      "categorie": "aanhanger",
+      "onderwerp": "Rijbewijs B: aanhangwagen tot en met 750 kg",
+      "waarde": 750,
+      "eenheid": "kg",
+      "tekst": "Met alleen rijbewijs B mag je een aanhangwagen trekken met een toegestane maximummassa van maximaal 750 kg.",
+      "bronnen": [
+        {
+          "boek": 22,
+          "sectie": "2.1",
+          "anker": "je mag een aanhangwagen trekken waarvan de toegestane maximummassa maximaal 750 kg is"
+        },
+        {
+          "boek": 233,
+          "sectie": "13.8",
+          "anker": "als de toegestane maximummassa van de aanhangwagen niet meer bedraagt dan 750 kilogram"
+        },
+        {
+          "slide": 257,
+          "anker": "een aanhanger waarvan de toegestane maximum massa niet meer is dan 750 kg"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "rijbewijs-b"
+      ]
+    },
+    {
+      "id": "F189",
+      "categorie": "aanhanger",
+      "onderwerp": "Rijbewijs B: zwaardere aanhangwagen bij combinatie tot 3.500 kg",
+      "waarde": 3500,
+      "eenheid": "kg",
+      "tekst": "Met rijbewijs B mag je ook een aanhangwagen van meer dan 750 kg trekken, als de toegestane maximummassa van de combinatie niet meer is dan 3.500 kg.",
+      "bronnen": [
+        {
+          "boek": 233,
+          "sectie": "13.8",
+          "anker": "van de combinatie van auto en aanhangwagen niet meer bedraagt dan 3.500 kilogram"
+        },
+        {
+          "slide": 257,
+          "anker": "toegestane maximum massa van de totale combinatie niet meer is dan 3.500 kg"
+        },
+        {
+          "slide": 22,
+          "anker": "aanhangwagen van maximaal 750 kg en zwaardere aanhangwagens als de totale massa"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "rijbewijs-b",
+        "combinatie"
+      ]
+    },
+    {
+      "id": "F190",
+      "categorie": "aanhanger",
+      "onderwerp": "Rijbewijs B met code 96 of BE",
+      "waarde": 4250,
+      "eenheid": "kg",
+      "tekst": "Is de aanhangwagen zwaarder dan 750 kg en ligt de toegestane maximummassa van de combinatie tussen 3.500 en 4.250 kg, dan heb je B met code 96 of BE nodig.",
+      "bronnen": [
+        {
+          "boek": 233,
+          "sectie": "13.8",
+          "anker": "de toegestane maximummassa van de combinatie tussen de 3.500 en 4.250 kilogram ligt"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "code-96",
+        "rijbewijs-be"
+      ]
+    },
+    {
+      "id": "F191",
+      "categorie": "aanhanger",
+      "onderwerp": "Rijbewijs BE verplicht",
+      "waarde": 4250,
+      "eenheid": "kg",
+      "tekst": "Is de aanhangwagen zwaarder dan 750 kg en de combinatie zwaarder dan 4.250 kg, dan moet je rijbewijs BE hebben; B met code 96 volstaat dan niet.",
+      "bronnen": [
+        {
+          "boek": 233,
+          "sectie": "13.8",
+          "anker": "meer dan 4.250 kilogram, dan moet je in het bezit zijn van rijbewijs BE"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "rijbewijs-be"
+      ]
+    },
+    {
+      "id": "F192",
+      "categorie": "aanhanger",
+      "onderwerp": "Maximale massa aanhangwagen en combinatie met BE",
+      "waarde": 3500,
+      "eenheid": "kg",
+      "tekst": "Met BE mag de aanhangwagen maximaal 3.500 kg wegen, zodat de combinatie maximaal 7.000 kg is; daarboven heb je C1E nodig.",
+      "bronnen": [
+        {
+          "boek": 234,
+          "sectie": "13.8",
+          "anker": "de toegestane maximummassa van je aanhangwagen mag maximaal 3.500 kilogram¹⁰ zijn"
+        },
+        {
+          "boek": 234,
+          "sectie": "13.8",
+          "anker": "De toegestane maximummassa van de combinatie is dus maximaal 7.000 kilogram"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "rijbewijs-be",
+        "combinatie"
+      ]
+    },
+    {
+      "id": "F193",
+      "categorie": "aanhanger",
+      "onderwerp": "Draaihoek aanhangwagen",
+      "waarde": 90,
+      "eenheid": "graden",
+      "tekst": "Controleer voor het wegrijden of de verlichtingskabel en de losbreekrem of hulpkoppeling zo zitten dat de aanhangwagen vrij tot een hoek van 90 graden kan draaien.",
+      "bronnen": [
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "de aanhangwagen vrijelijk (tot een hoek van 90 graden) kan draaien"
+        }
+      ],
+      "tags": [
+        "aanhangwagen",
+        "aankoppelen"
+      ]
+    },
+    {
+      "id": "F194",
+      "categorie": "gordels",
+      "onderwerp": "Kinderbeveiligingsmiddel",
+      "waarde": 1.35,
+      "eenheid": "meter",
+      "tekst": "Kinderen jonger dan 18 jaar en kleiner dan 1,35 meter moeten in een goedgekeurd kinderbeveiligingsmiddel, voorin en achterin.",
+      "bronnen": [
+        {
+          "boek": 39,
+          "sectie": "2.5",
+          "anker": "jonger zijn dan 18 jaar en kleiner dan 1,35 meter moeten gebruik maken"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "kinderen tot 18 jaar en korter dan 1,35 meter op een speciale vaste kinderzitplaats"
+        },
+        {
+          "slide": 32,
+          "anker": "kinderen kleiner dan 1,35 meter moeten gebruik maken van een goedgekeurd en geschikt kinderbeveiligingsmiddel"
+        }
+      ],
+      "tags": [
+        "kinderen",
+        "kinderzitje"
+      ]
+    },
+    {
+      "id": "F195",
+      "categorie": "gordels",
+      "onderwerp": "Gordelplicht vanaf 1,35 meter",
+      "waarde": 1.35,
+      "eenheid": "meter",
+      "tekst": "Bestuurder, volwassen passagiers en kinderen langer dan 1,35 meter moeten altijd de gordel dragen.",
+      "bronnen": [
+        {
+          "boek": 39,
+          "sectie": "2.5",
+          "anker": "Dit geldt ook voor kinderen die langer zijn dan 1,35 meter"
+        },
+        {
+          "slide": 32,
+          "anker": "volwassenen langer dan 1,35 meter moeten een gordel dragen"
+        }
+      ],
+      "tags": [
+        "gordel"
+      ]
+    },
+    {
+      "id": "F196",
+      "categorie": "gordels",
+      "onderwerp": "Derde kind op de achterbank",
+      "waarde": 3,
+      "eenheid": "jaar",
+      "tekst": "Als er op de achterbank geen plaats is voor een derde kinderzitje, mag een kind ouder dan drie jaar daar de gewone gordel gebruiken.",
+      "bronnen": [
+        {
+          "boek": 40,
+          "sectie": "2.6",
+          "anker": "Dan mag een kind ouder dan drie jaar op de overgebleven zitplaats de gordel gebruiken"
+        }
+      ],
+      "tags": [
+        "kinderen",
+        "gordel"
+      ]
+    },
+    {
+      "id": "F197",
+      "categorie": "definities",
+      "onderwerp": "Autobus",
+      "waarde": 8,
+      "eenheid": "personen",
+      "tekst": "Een autobus is een motorvoertuig ingericht voor het vervoer van meer dan acht personen, de bestuurder niet meegerekend.",
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "ingericht voor het vervoer van meer dan acht personen, de bestuurder niet meegerekend"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "autobus"
+      ]
+    },
+    {
+      "id": "F198",
+      "categorie": "definities",
+      "onderwerp": "Bromfiets: constructiesnelheid",
+      "waarde": 45,
+      "eenheid": "km/u",
+      "tekst": "Een bromfiets is gemaakt voor een snelheid van ten hoogste 45 km/u en heeft een gele kentekenplaat.",
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "bromfiets"
+      ]
+    },
+    {
+      "id": "F199",
+      "categorie": "definities",
+      "onderwerp": "Bromfiets: cilinderinhoud",
+      "waarde": 50,
+      "eenheid": "cm3",
+      "tekst": "Een bromfiets heeft een verbrandingsmotor van maximaal 50 cm3 of een elektromotor van maximaal 4 kW.",
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "een verbrandingsmotor van max. 50 cm³, of"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "een elektromotor van maximaal 4 kW"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "bromfiets"
+      ]
+    },
+    {
+      "id": "F200",
+      "categorie": "definities",
+      "onderwerp": "Brommobiel: markeringsbord",
+      "waarde": 45,
+      "eenheid": null,
+      "tekst": "Een brommobiel moet achterop een rond wit bord met rode rand en het getal 45 hebben, plus een gele kentekenplaat.",
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "rond bord (wit met rode rand) met het getal 45"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "brommobiel"
+      ]
+    },
+    {
+      "id": "F201",
+      "categorie": "definities",
+      "onderwerp": "Speed-pedelec",
+      "waarde": 45,
+      "eenheid": "km/u",
+      "tekst": "Een speed-pedelec wordt ondersteund tot maximaal 45 km/u en geldt als bromfiets.",
+      "bronnen": [
+        {
+          "slide": 27,
+          "anker": "Deze snelle e-bike wordt tot maximaal 45 km/u ondersteund"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "snelle elektrische fiets (high speed e-bike of speed-pedelec) worden als bromfiets beschouwd"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "speed-pedelec",
+        "bromfiets"
+      ]
+    },
+    {
+      "id": "F202",
+      "categorie": "definities",
+      "onderwerp": "Snorfiets: constructiesnelheid",
+      "waarde": 25,
+      "eenheid": "km/u",
+      "tekst": "Een snorfiets is een bromfiets die door zijn constructie niet sneller kan dan 25 km/u en heeft een blauwe kentekenplaat.",
+      "bronnen": [
+        {
+          "boek": 30,
+          "sectie": "2.4",
+          "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "snorfiets"
+      ]
+    },
+    {
+      "id": "F203",
+      "categorie": "definities",
+      "onderwerp": "Gehandicaptenvoertuig: breedte",
+      "waarde": 1.1,
+      "eenheid": "meter",
+      "tekst": "Een gehandicaptenvoertuig is niet breder dan 1,10 meter en mag met motor maximaal 45 km/u kunnen rijden.",
+      "bronnen": [
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "niet breder is dan 1,10 meter"
+        },
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "met motor maximaal 45 km/u mag kunnen rijden"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "gehandicaptenvoertuig"
+      ]
+    },
+    {
+      "id": "F204",
+      "categorie": "definities",
+      "onderwerp": "Vrachtauto",
+      "waarde": 3500,
+      "eenheid": "kg",
+      "tekst": "Een vrachtauto is een motorvoertuig dat niet is ingericht voor personenvervoer en een toegestane maximummassa heeft van meer dan 3.500 kg.",
+      "bronnen": [
+        {
+          "boek": 30,
+          "sectie": "2.4",
+          "anker": "waarvan de toegestane maximummassa meer bedraagt dan 3.500 kg"
+        }
+      ],
+      "tags": [
+        "definitie",
+        "vrachtauto"
+      ]
+    },
+    {
+      "id": "F205",
+      "categorie": "definities",
+      "onderwerp": "Bord tunnellengte",
+      "waarde": 250,
+      "eenheid": "meter",
+      "tekst": "Voor tunnels langer dan 250 meter staat bord L13, dat de lengte van de tunnel aangeeft.",
+      "bronnen": [
+        {
+          "boek": 98,
+          "sectie": "5.9",
+          "anker": "voor tunnels die langer zijn dan 250 meter staat bord L13"
+        }
+      ],
+      "tags": [
+        "tunnel",
+        "bord"
+      ]
+    },
+    {
+      "id": "F206",
+      "categorie": "definities",
+      "onderwerp": "Korte invoegstrook",
+      "waarde": 200,
+      "eenheid": "meter",
+      "tekst": "Een korte invoegstrook is korter dan 200 meter en gaat niet over in een vluchtstrook.",
+      "bronnen": [
+        {
+          "boek": 250,
+          "sectie": "14",
+          "anker": "Korte invoegstrook (korter dan 200 meter; gaat niet over in vluchtstrook)"
+        }
+      ],
+      "tags": [
+        "invoegstrook",
+        "bord"
+      ]
+    },
+    {
+      "id": "F207",
+      "categorie": "definities",
+      "onderwerp": "Bakens voor een overweg",
+      "waarde": 80,
+      "eenheid": "meter",
+      "tekst": "Elke schuine streep op een baken voor een overweg staat voor 80 meter: drie strepen is 240 meter, twee strepen 160 meter, één streep 80 meter voor de overweg.",
+      "bronnen": [
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "Elke schuine streep geeft een afstand van 80 meter aan"
+        },
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "het eerste baken heeft drie strepen (240 meter voor de overweg)"
+        },
+        {
+          "slide": 93,
+          "anker": "240 meter (3x 80m)\n- 160 meter (2x 80m)\n- 80 meter (1x 80m)"
+        }
+      ],
+      "tags": [
+        "overweg",
+        "bakens"
+      ]
+    },
+    {
+      "id": "F208",
+      "categorie": "definities",
+      "onderwerp": "Andreaskruis",
+      "waarde": 1,
+      "eenheid": "spoor",
+      "tekst": "Eén Andreaskruis betekent dat de overweg één spoor heeft, twee kruisen betekenen twee of meer sporen.",
+      "bronnen": [
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "Eén kruis wil zeggen dat de overweg maar één spoor heeft"
+        },
+        {
+          "slide": 93,
+          "anker": "één kruis: één spoor\n- twee kruisen: twee of meer sporen"
+        }
+      ],
+      "tags": [
+        "overweg",
+        "andreaskruis"
+      ]
+    },
+    {
+      "id": "F209",
+      "categorie": "definities",
+      "onderwerp": "Links een vluchtstrook op de autosnelweg",
+      "waarde": 3,
+      "eenheid": "rijstroken",
+      "tekst": "Als een autosnelweg meer dan drie rijstroken heeft, ligt er links vaak ook een vluchtstrook.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "Als er meer dan drie rijstroken zijn, is er links vaak ook een vluchtstrook"
+        }
+      ],
+      "tags": [
+        "autosnelweg",
+        "vluchtstrook"
+      ]
+    },
+    {
+      "id": "F210",
+      "categorie": "rijbewijs",
+      "onderwerp": "Leeftijd theorie-examen",
+      "waarde": 16,
+      "eenheid": "jaar",
+      "tekst": "Via begeleid rijden (2toDrive) mag je al op je 16e het theorie-examen doen en op je 17e het praktijkexamen.",
+      "bronnen": [
+        {
+          "boek": 10,
+          "sectie": "examen",
+          "anker": "op je 16e het theorie-examen af te leggen en op je 17e het praktijkexamen"
+        }
+      ],
+      "tags": [
+        "leeftijd",
+        "2todrive"
+      ]
+    },
+    {
+      "id": "F211",
+      "categorie": "rijbewijs",
+      "onderwerp": "Leeftijd praktijkexamen begeleid rijden",
+      "waarde": 17,
+      "eenheid": "jaar",
+      "tekst": "Bij begeleid rijden doe je op je 17e het praktijkexamen en rijd je tot je 18e verjaardag alleen onder begeleiding van een coach.",
+      "bronnen": [
+        {
+          "boek": 10,
+          "sectie": "examen",
+          "anker": "mag je tot je 18e verjaardag alleen onder begeleiding van een coach de weg op"
+        }
+      ],
+      "tags": [
+        "leeftijd",
+        "2todrive"
+      ]
+    },
+    {
+      "id": "F212",
+      "categorie": "rijbewijs",
+      "onderwerp": "Normale leeftijd theorie- en praktijkexamen",
+      "waarde": 18,
+      "eenheid": "jaar",
+      "tekst": "Normaal gesproken kun je pas op je 18e het theorie- en praktijkexamen voor de auto afleggen.",
+      "bronnen": [
+        {
+          "boek": 10,
+          "sectie": "examen",
+          "anker": "kun je pas op je 18e het theorie- en praktijkexamen voor de auto afleggen"
+        }
+      ],
+      "tags": [
+        "leeftijd"
+      ]
+    },
+    {
+      "id": "F213",
+      "categorie": "rijbewijs",
+      "onderwerp": "Rijbewijs B: toegestane maximummassa voertuig",
+      "waarde": 3500,
+      "eenheid": "kg",
+      "tekst": "Met rijbewijs B mag de toegestane maximummassa van je voertuig maximaal 3.500 kg zijn.",
+      "bronnen": [
+        {
+          "boek": 22,
+          "sectie": "2.1",
+          "anker": "de toegestane maximummassa² van je voertuig mag maximaal 3.500 kg zijn"
+        },
+        {
+          "slide": 22,
+          "anker": "toegestane maximum massa 3.500 kg\n- bestuurder + maximaal 8 passagiers"
+        }
+      ],
+      "tags": [
+        "rijbewijs-b",
+        "massa"
+      ]
+    },
+    {
+      "id": "F214",
+      "categorie": "rijbewijs",
+      "onderwerp": "Rijbewijs B: aantal passagiers",
+      "waarde": 8,
+      "eenheid": "passagiers",
+      "tekst": "Met rijbewijs B mag je voertuig zijn ingericht voor de bestuurder plus maximaal 8 passagiers.",
+      "bronnen": [
+        {
+          "boek": 22,
+          "sectie": "2.1",
+          "anker": "ingericht voor het vervoer van de bestuurder + maximaal 8 passagiers"
+        },
+        {
+          "slide": 22,
+          "anker": "toegestane maximum massa 3.500 kg\n- bestuurder + maximaal 8 passagiers"
+        }
+      ],
+      "tags": [
+        "rijbewijs-b",
+        "passagiers"
+      ]
+    },
+    {
+      "id": "F215",
+      "categorie": "rijbewijs",
+      "onderwerp": "Rijbewijs C1",
+      "waarde": 7500,
+      "eenheid": "kg",
+      "tekst": "Rijbewijs C1 is voor voertuigen met een toegestane maximummassa tussen 3.500 en 7.500 kg; C voor meer dan 3.500 kg.",
+      "bronnen": [
+        {
+          "boek": 22,
+          "sectie": "2.1",
+          "anker": "C1 voor voertuigen met een toegestane maximummassa tussen 3.500 kg en 7.500 kg"
+        }
+      ],
+      "tags": [
+        "rijbewijs-c",
+        "vrachtauto"
+      ]
+    },
+    {
+      "id": "F216",
+      "categorie": "rijbewijs",
+      "onderwerp": "Rijbewijs D1",
+      "waarde": 16,
+      "eenheid": "passagiers",
+      "tekst": "Rijbewijs D1 is voor kleine autobussen met meer dan 8 en maximaal 16 passagiers; D voor meer dan 8 passagiers.",
+      "bronnen": [
+        {
+          "boek": 23,
+          "sectie": "2.1",
+          "anker": "D1 voor voertuigen waarmee meer dan 8 passagiers en maximaal 16 passagiers kunnen worden vervoerd"
+        }
+      ],
+      "tags": [
+        "rijbewijs-d",
+        "autobus"
+      ]
+    },
+    {
+      "id": "F217",
+      "categorie": "rijbewijs",
+      "onderwerp": "Geldigheid rijbewijs tot 65 jaar",
+      "waarde": 10,
+      "eenheid": "jaar",
+      "tekst": "Tot je 65ste is een rijbewijs bij verlenging standaard 10 jaar geldig.",
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "tot je 65ste bij verlenging standaard 10 jaar geldig"
+        },
+        {
+          "slide": 23,
+          "anker": "een rijbewijs is 10 jaar geldig"
+        }
+      ],
+      "tags": [
+        "geldigheid"
+      ]
+    },
+    {
+      "id": "F218",
+      "categorie": "rijbewijs",
+      "onderwerp": "Geldigheid rijbewijs tussen 65 en 70 jaar",
+      "waarde": 10,
+      "eenheid": "jaar",
+      "tekst": "Vernieuw je je rijbewijs tussen je 65e en 70e, dan is het maximaal 10 jaar geldig (standaard tot je 75e).",
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "tussen je 65e en 70e bij verlenging maximaal 10 jaar geldig"
+        },
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "krijg je standaard een rijbewijs dat geldig is tot je 75e"
+        }
+      ],
+      "tags": [
+        "geldigheid",
+        "ouderen"
+      ]
+    },
+    {
+      "id": "F219",
+      "categorie": "rijbewijs",
+      "onderwerp": "Geldigheid rijbewijs vanaf 70 jaar",
+      "waarde": 5,
+      "eenheid": "jaar",
+      "tekst": "Vanaf je 70e is een rijbewijs bij verlenging maximaal 5 jaar geldig.",
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "vanaf je 70e bij verlenging maximaal 5 jaar geldig"
+        },
+        {
+          "slide": 23,
+          "anker": "Vanaf 70 jaar is het rijbewijs maximaal 5 jaar geldig"
+        }
+      ],
+      "tags": [
+        "geldigheid",
+        "ouderen"
+      ]
+    },
+    {
+      "id": "F220",
+      "categorie": "rijbewijs",
+      "onderwerp": "Medische keuring vanaf 75 jaar",
+      "waarde": 75,
+      "eenheid": "jaar",
+      "tekst": "Vanaf je 75e moet je medisch gekeurd worden als je je rijbewijs wilt vernieuwen.",
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "Vanaf je 75e moet je medisch gekeurd worden als je je rijbewijs wilt vernieuwen"
+        }
+      ],
+      "tags": [
+        "geldigheid",
+        "ouderen",
+        "keuring"
+      ]
+    },
+    {
+      "id": "F221",
+      "categorie": "rijbewijs",
+      "onderwerp": "Nieuw rijbewijs na verlies",
+      "waarde": 5,
+      "eenheid": "werkdagen",
+      "tekst": "Na aangifte van een verloren of gestolen rijbewijs kun je na 5 werkdagen een nieuw rijbewijs ophalen; tot die tijd mag je niet rijden.",
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "Na 5 werkdagen kun je dat ophalen. Tot die tijd mag je niet rijden"
+        }
+      ],
+      "tags": [
+        "rijbewijs-kwijt"
+      ]
+    },
+    {
+      "id": "F222",
+      "categorie": "rijbewijs",
+      "onderwerp": "Minimumleeftijd speed-pedelec",
+      "waarde": 16,
+      "eenheid": "jaar",
+      "tekst": "Voor een speed-pedelec gelden de bromfietsregels: minimaal 16 jaar, rijbewijs AM, gele kentekenplaat en helm.",
+      "bronnen": [
+        {
+          "slide": 27,
+          "anker": "dezelfde regels als voor een bromfiets:\n\n- de minimumleeftijd is 16 jaar"
+        }
+      ],
+      "tags": [
+        "leeftijd",
+        "speed-pedelec"
+      ]
+    },
+    {
+      "id": "F223",
+      "categorie": "rijbewijs",
+      "onderwerp": "Minimumleeftijd bijzondere bromfiets",
+      "waarde": 16,
+      "eenheid": "jaar",
+      "tekst": "Voor een bijzondere bromfiets moet je minimaal 16 jaar zijn (BSO-bus: 18 jaar); een rijbewijs heb je niet nodig.",
+      "bronnen": [
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "je moet minimaal 16 jaar zijn (BSO-bus: 18 jaar)"
+        }
+      ],
+      "tags": [
+        "leeftijd",
+        "bijzondere-bromfiets"
+      ]
+    },
+    {
+      "id": "F224",
+      "categorie": "overig",
+      "onderwerp": "Menselijke fouten bij ongevallen",
+      "waarde": 90,
+      "eenheid": "%",
+      "tekst": "Bij negen van de tien ongevallen (90%) is het rijgedrag van de bestuurder mede de oorzaak.",
+      "bronnen": [
+        {
+          "boek": 12,
+          "sectie": "1.2",
+          "anker": "bij negen van de tien ongevallen het rijgedrag van de bestuurder mede de oorzaak is"
+        },
+        {
+          "slide": 17,
+          "anker": "90% van alle ongevallen wordt veroorzaakt door menselijke fouten"
+        }
+      ],
+      "tags": [
+        "ongevallen",
+        "statistiek"
+      ]
+    },
+    {
+      "id": "F225",
+      "categorie": "overig",
+      "onderwerp": "Vermoeidheid als ongevalsoorzaak",
+      "waarde": 15,
+      "eenheid": "%",
+      "tekst": "Bij 15 procent van de ongevallen is vermoeidheid de hoofdoorzaak.",
+      "bronnen": [
+        {
+          "boek": 14,
+          "sectie": "1.3",
+          "anker": "Bij 15 procent van de ongevallen is vermoeidheid de hoofdoorzaak"
+        },
+        {
+          "slide": 17,
+          "anker": "bij 15% van de ongevallen is vermoeidheid een bepalende factor"
+        }
+      ],
+      "tags": [
+        "ongevallen",
+        "vermoeidheid",
+        "statistiek"
+      ]
+    },
+    {
+      "id": "F226",
+      "categorie": "overig",
+      "onderwerp": "Pauze tegen vermoeidheid",
+      "waarde": 15,
+      "eenheid": "minuten",
+      "tekst": "Neem na iedere twee uur rijden een pauze van minimaal 15 minuten (een kwartier).",
+      "bronnen": [
+        {
+          "boek": 14,
+          "sectie": "1.3",
+          "anker": "Neem na iedere twee uur rijden een pauze van minimaal 15 minuten"
+        },
+        {
+          "slide": 8,
+          "anker": "Neem na elke 2 uur een kwartier pauze"
+        }
+      ],
+      "tags": [
+        "vermoeidheid",
+        "pauze"
+      ]
+    },
+    {
+      "id": "F227",
+      "categorie": "overig",
+      "onderwerp": "Jonge bestuurders en ongevallen",
+      "waarde": 4,
+      "eenheid": "keer",
+      "tekst": "Jongere bestuurders zijn vier keer vaker betrokken bij verkeersongevallen dan oudere bestuurders.",
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Jongere bestuurders zijn vier keer vaker betrokken bij verkeersongevallen dan oudere bestuurders"
+        }
+      ],
+      "tags": [
+        "ongevallen",
+        "statistiek",
+        "jeugd"
+      ]
+    },
+    {
+      "id": "F228",
+      "categorie": "voorrang",
+      "onderwerp": "Tram en voorrang",
+      "waarde": null,
+      "eenheid": "",
+      "tekst": "Een tram gaat voor als hij op een gelijkwaardig kruispunt van links komt. Van rechts gaat hij natuurlijk ook voor.",
+      "bronnen": [
+        {
+          "boek": 112,
+          "sectie": "6.4",
+          "anker": "De tram gaat voor als hij op een gelijkwaardig kruispunt van links komt"
+        },
+        {
+          "boek": 105,
+          "sectie": "6.2",
+          "anker": "bestuurders moeten voorrang verlenen aan trams (ongeacht uit welke richting de tram komt)"
+        }
+      ],
+      "tags": [
+        "tram",
+        "voorrang"
+      ]
+    },
+    {
+      "id": "F229",
+      "categorie": "voorrang",
+      "onderwerp": "Tram en voorrang",
+      "waarde": null,
+      "eenheid": "",
+      "tekst": "Een tram gaat voor als hij afbuigt terwijl jij rechtdoor gaat op dezelfde weg, ook als hij van achteren nadert.",
+      "bronnen": [
+        {
+          "boek": 113,
+          "sectie": "6.4",
+          "anker": "De tram gaat voor als hij afbuigt, terwijl jij rechtdoor gaat op dezelfde weg"
+        }
+      ],
+      "tags": [
+        "tram",
+        "voorrang"
+      ]
+    },
+    {
+      "id": "F230",
+      "categorie": "voorrang",
+      "onderwerp": "Tram en voorrang",
+      "waarde": null,
+      "eenheid": "",
+      "tekst": "Een tram gaat voor als hij linksaf een weg inrijdt terwijl jij rechtsaf dezelfde weg inrijdt.",
+      "bronnen": [
+        {
+          "boek": 113,
+          "sectie": "6.4",
+          "anker": "De tram gaat voor als hij linksaf een weg wil inrijden terwijl jij rechtsaf"
+        }
+      ],
+      "tags": [
+        "tram",
+        "voorrang"
+      ]
+    },
+    {
+      "id": "F231",
+      "categorie": "voorrang",
+      "onderwerp": "Tram en voorrang",
+      "waarde": null,
+      "eenheid": "",
+      "tekst": "Nadert de tram een voorrangsweg, dan heeft hij geen bijzondere rechten: jij op de voorrangsweg gaat voor.",
+      "bronnen": [
+        {
+          "boek": 113,
+          "sectie": "6.4",
+          "anker": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten"
+        }
+      ],
+      "tags": [
+        "tram",
+        "voorrang"
+      ]
+    },
+    {
+      "id": "F232",
+      "categorie": "voorrang",
+      "onderwerp": "Tram en voorrang",
+      "waarde": null,
+      "eenheid": "",
+      "tekst": "Een afbuigende tram gaat wel voor op rechtdoorgaand verkeer, maar niet op voetgangers op een voetgangersoversteekplaats.",
+      "bronnen": [
+        {
+          "boek": 113,
+          "sectie": "6.4",
+          "anker": "dat geldt niet ten opzichte van voetgangers op een voetgangersoversteekplaats"
+        }
+      ],
+      "tags": [
+        "tram",
+        "voorrang"
+      ]
+    },
+    {
+      "id": "F233",
+      "categorie": "voorrang",
+      "onderwerp": "Tram en voorrang",
+      "waarde": null,
+      "eenheid": "",
+      "tekst": "Een tram hoeft zich niet aan de regels voor afslaan en voorrang te houden, maar wel aan de tekens voor afslaan en voorrang.",
+      "bronnen": [
+        {
+          "slide": 115,
+          "anker": "trams moeten zich wel aan de tekens voor afslaan en voorrang te houden"
+        }
+      ],
+      "tags": [
+        "tram",
+        "voorrang"
+      ]
+    }
+  ]
+}

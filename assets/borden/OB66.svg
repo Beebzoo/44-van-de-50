@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><g font-family="Verdana,Arial,Helvetica,Sans,Liberation Sans,sans-serif"><path fill="#f7fbf5" d="M0 0h300v150H0z"/><rect width="296" height="146" x="2" y="2" fill="none" stroke="gray" stroke-width="4" rx="10" ry="10"/><text font-size="36" font-weight="bold">
+		<tspan x="8%" y="28%" alignment-baseline="centre">uitgezonderd</tspan>
+		<tspan x="8%" y="58%" alignment-baseline="centre">gehandicapten-</tspan>
+		<tspan x="8%" y="88%" alignment-baseline="centre">voertuigen</tspan>
+	</text></g></svg>

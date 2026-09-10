@@ -1,0 +1,92 @@
+{
+  "$comment": "A learner-facing unit (blok): one file content/units/Uxx.json. It holds the reading pages; the questions live in content/bank/Uxx.json.",
+  "type": "object",
+  "required": ["id", "slug", "titel", "volgorde", "week", "tier", "vereist", "borden", "quiz", "bronnen", "cbr_onderwerpen", "intro", "paginas"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^U[0-9]{2}$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "titel": {"type": "string", "minLength": 3},
+    "ondertitel": {"type": "string"},
+    "volgorde": {"type": "integer", "minimum": 0, "maximum": 15},
+    "week": {"type": "integer", "minimum": 1, "maximum": 6},
+    "tier": {"enum": ["must", "should", "nice"]},
+    "vereist": {"type": "array", "items": {"type": "string", "pattern": "^U[0-9]{2}$"}},
+    "borden": {"type": "array", "items": {"type": "string"}},
+    "quiz": {
+      "type": "object",
+      "required": ["gate", "lengte", "minimaalPool"],
+      "additionalProperties": false,
+      "properties": {
+        "gate": {"type": "boolean", "$comment": "false for unit 0: reading plus self-test, no quiz to pass"},
+        "lengte": {"type": "integer", "minimum": 5, "maximum": 20},
+        "minimaalPool": {"type": "integer", "minimum": 0},
+        "inzichtMinimum": {"type": "number", "minimum": 0, "maximum": 1},
+        "soort": {"enum": ["regels", "borden", "gemengd"]}
+      }
+    },
+    "bronnen": {"$ref": "#/$defs/bronnenSet"},
+    "cbr_onderwerpen": {"type": "array", "minItems": 1, "items": {"enum": ["gebruik_van_de_weg", "voorrang_en_voor_laten_gaan", "bijzondere_wegen_weggebruikers_manoeuvres", "veilig_rijden_en_noodsituaties", "verkeerstekens_en_aanwijzingen", "verantwoorde_deelname_en_milieu", "wetgeving", "voertuigkennis", "meta"]}},
+    "intro": {"type": "string", "minLength": 20},
+    "paginas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "anker", "titel", "bronnen", "body"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^U[0-9]{2}-P[0-9]{2}$"},
+          "anker": {"type": "string", "pattern": "^p-[a-z0-9.-]+$"},
+          "titel": {"type": "string", "minLength": 3},
+          "bronnen": {"$ref": "#/$defs/bronnenSet"},
+          "body": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/blok"}}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "bronnenSet": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "boek": {"type": "object", "additionalProperties": false, "properties": {
+          "secties": {"type": "array", "items": {"type": "string"}},
+          "paginas": {"type": "array", "items": {"type": "integer", "minimum": 5, "maximum": 255}}}},
+        "cursus": {"type": "object", "additionalProperties": false, "properties": {
+          "slides": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 322}}}}
+      }
+    },
+    "bronOfLijst": {"anyOf": [{"$ref": "bron.json"}, {"type": "array", "minItems": 1, "items": {"$ref": "bron.json"}}]},
+    "blok": {
+      "oneOf": [
+        {"type": "object", "required": ["type", "tekst"], "additionalProperties": false, "properties": {
+          "type": {"const": "kop"}, "tekst": {"type": "string", "minLength": 2}}},
+        {"type": "object", "required": ["type", "tekst"], "additionalProperties": false, "properties": {
+          "type": {"const": "tekst"}, "tekst": {"type": "string", "minLength": 10}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "tekst", "bron"], "additionalProperties": false, "properties": {
+          "type": {"const": "regel"}, "id": {"type": "string", "pattern": "^U[0-9]{2}-r[0-9]{2}$"}, "tekst": {"type": "string", "minLength": 10}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "tekst", "bron"], "additionalProperties": false, "properties": {
+          "type": {"const": "waarom"}, "tekst": {"type": "string", "minLength": 10}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "tekst", "bron"], "additionalProperties": false, "properties": {
+          "type": {"const": "voorbeeld"}, "tekst": {"type": "string", "minLength": 10}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "tekst"], "additionalProperties": false, "properties": {
+          "type": {"const": "valkuil"}, "tekst": {"type": "string", "minLength": 10}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "items"], "additionalProperties": false, "properties": {
+          "type": {"const": "lijst"}, "items": {"type": "array", "minItems": 2, "items": {"type": "string", "minLength": 2}}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "kop", "rijen", "bron"], "additionalProperties": false, "properties": {
+          "type": {"const": "tabel"}, "kop": {"type": "array", "minItems": 2, "items": {"type": "string"}}, "rijen": {"type": "array", "minItems": 1, "items": {"type": "array", "items": {"type": "string"}}}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "codes"], "additionalProperties": false, "properties": {
+          "type": {"const": "borden"}, "codes": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "tekst": {"type": "string"}}},
+        {"type": "object", "required": ["type", "ref"], "additionalProperties": false, "properties": {
+          "type": {"const": "scene"}, "ref": {"type": "string", "pattern": "^S-"}, "tekst": {"type": "string"}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "stijl", "tekst"], "additionalProperties": false, "properties": {
+          "type": {"const": "callout"}, "stijl": {"enum": ["tip", "letop", "weetje", "ezelsbrug"]}, "tekst": {"type": "string", "minLength": 10}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "tekst"], "additionalProperties": false, "properties": {
+          "type": {"const": "onthoud"}, "tekst": {"type": "string", "minLength": 6}, "bron": {"$ref": "#/$defs/bronOfLijst"}}},
+        {"type": "object", "required": ["type", "vraag", "antwoord"], "additionalProperties": false, "properties": {
+          "type": {"const": "zelftest"}, "vraag": {"type": "string", "minLength": 10}, "antwoord": {"type": "string", "minLength": 2}, "uitleg": {"type": "string"}, "bron": {"$ref": "#/$defs/bronOfLijst"}}}
+      ]
+    }
+  }
+}
