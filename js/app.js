@@ -121,7 +121,7 @@ function render() {
   const screen = SCREENS[S.route.name] || SCREENS.route;
   const v = screen();
   const onder = v.onder === "tab" ? tabbar() : v.onder ? actionbar(v.onder) : "";
-  app.innerHTML = `${header(v)}${v.baan === false ? "" : lane()}<div class="romp"><main class="inhoud ${v.onder ? "" : "geen-balk"}">${v.body}</main><aside class="rail">${timeline(true)}</aside></div>${onder}${overlays()}`;
+  app.innerHTML = `${header(v)}${v.baan === false ? "" : lane()}<div class="romp"><main class="inhoud ${v.onder ? "" : "geen-balk"}">${v.body}</main>${S.route.name === "route" ? "" : `<aside class="rail">${timeline(true)}</aside>`}</div>${onder}${overlays()}`;
   document.title = (v.titel ? v.titel + " · " : "") + "44 van de 50";
 }
 function currentUnit() {

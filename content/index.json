@@ -1,5 +1,5 @@
 {
-  "versie": "39dd900e9f",
+  "versie": "593c108756",
   "gegenereerd": "2026-09-10",
   "examenDatum": "2026-10-28",
   "units": [
@@ -28,6 +28,79 @@
           "id": "U00-P03",
           "anker": "p-defensief-en-besluitvaardig",
           "titel": "Defensief en besluitvaardig"
+        }
+      ]
+    },
+    {
+      "id": "U01",
+      "slug": "begrippen-wie-en-wat",
+      "titel": "Begrippen: wie en wat",
+      "volgorde": 1,
+      "week": 1,
+      "tier": "must",
+      "bestand": "content/units/U01.json",
+      "bank": [],
+      "aantalVragen": 0,
+      "paginas": [
+        {
+          "id": "U01-P01",
+          "anker": "p-2.2-verkeersdeelnemers",
+          "titel": "Verkeersdeelnemers: voetganger of bestuurder"
+        },
+        {
+          "id": "U01-P02",
+          "anker": "p-2.3-voertuigen",
+          "titel": "Voertuigen: van fiets tot vrachtauto"
+        },
+        {
+          "id": "U01-P03",
+          "anker": "p-2.4-wegen",
+          "titel": "Wegen en weggedeelten"
+        },
+        {
+          "id": "U01-P04",
+          "anker": "p-2.5-overige",
+          "titel": "Overige begrippen en bepalingen"
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "slug": "verkeerstekens-en-rangorde",
+      "titel": "Verkeerstekens en rangorde",
+      "volgorde": 2,
+      "week": 1,
+      "tier": "must",
+      "bestand": "content/units/U02.json",
+      "bank": [
+        "content/generated/U02-borden.json"
+      ],
+      "aantalVragen": 40,
+      "paginas": [
+        {
+          "id": "U02-P01",
+          "anker": "p-3.1-borden",
+          "titel": "Verkeersborden: waar en voor wie ze gelden"
+        },
+        {
+          "id": "U02-P02",
+          "anker": "p-3.1-onderborden",
+          "titel": "Onderborden: wanneer, voor wie en waar"
+        },
+        {
+          "id": "U02-P03",
+          "anker": "p-3.2-wegdek",
+          "titel": "Tekens op het wegdek"
+        },
+        {
+          "id": "U02-P04",
+          "anker": "p-3.3-verkeerslichten",
+          "titel": "Verkeerslichten"
+        },
+        {
+          "id": "U02-P05",
+          "anker": "p-3.4-aanwijzingen-rangorde",
+          "titel": "Aanwijzingen en de rangorde"
         }
       ]
     }

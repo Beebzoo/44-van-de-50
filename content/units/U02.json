@@ -1,0 +1,1058 @@
+{
+  "id": "U02",
+  "slug": "verkeerstekens-en-rangorde",
+  "titel": "Verkeerstekens en rangorde",
+  "volgorde": 2,
+  "week": 1,
+  "tier": "must",
+  "vereist": [
+    "U01"
+  ],
+  "borden": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C20",
+    "C21",
+    "C22",
+    "C22a10",
+    "C22e",
+    "C22e1",
+    "C22e10",
+    "C22e4",
+    "C22e5",
+    "C22e6",
+    "C22e7",
+    "C22e8",
+    "C22e9",
+    "C22f",
+    "C23-01",
+    "C23-02",
+    "C23-03",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C7a",
+    "C7b",
+    "C8",
+    "C9",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "H1",
+    "H1-02",
+    "H2",
+    "H2-02"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.4,
+    "soort": "gemengd"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "paginas": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    "cursus": {
+      "slides": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "verkeerstekens_en_aanwijzingen"
+  ],
+  "intro": "Verkeersregels zijn de basisafspraken, maar op veel plekken zijn ze niet genoeg. Daar komen verkeerstekens bij: er zijn drie soorten, namelijk verkeersborden (met hun onderborden), verkeerstekens op het wegdek en verkeerslichten. In dit blok leer je wat die tekens van je vragen, voor wie en waar ze gelden, en wat er wint als een bord, een verkeerslicht, een verkeersregel en een agent elkaar tegenspreken. De borden van de families A, C, D en H oefen je daarnaast met de bordenkaarten.",
+  "paginas": [
+    {
+      "id": "U02-P01",
+      "anker": "p-3.1-borden",
+      "titel": "Verkeersborden: waar en voor wie ze gelden",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        "cursus": {
+          "slides": [
+            44,
+            45,
+            47
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U02-r01",
+          "tekst": "Meestal gelden verkeersborden voor de hele breedte van de weg. Een uitzondering zijn de borden met een verbod tot stilstaan of parkeren; die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst.",
+          "bron": [
+            {
+              "boek": 46,
+              "sectie": "3.1",
+              "anker": "Meestal gelden verkeersborden voor de hele breedte van de weg"
+            },
+            {
+              "slide": 45,
+              "anker": "gelden alleen voor de kant van de weg waar ze staan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r02",
+          "tekst": "Staat boven een verkeersbord het woord 'zone', dan geldt het bord voor een heel gebied. Is niet direct duidelijk waar de zone eindigt, dan staat aan het einde het bord 'einde zone'.",
+          "bron": {
+            "boek": 46,
+            "sectie": "3.1",
+            "anker": "geldt het bord voor een heel gebied"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U02-r03",
+          "tekst": "Verkeersborden gelden tot het volgende kruispunt, tenzij een einde-bord de werking eerder opheft. Zoneborden en bebouwde-komborden gelden tot het einde van de zone of de bebouwde kom.",
+          "bron": {
+            "slide": 45,
+            "anker": "Ze gelden tot het volgende kruispunt"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U02-r04",
+          "tekst": "Als zowel een gewoon verkeersbord als een matrixbord een maximumsnelheid aangeeft, geldt het bord met de laagste snelheid. De snelheid op een matrixbord is altijd een maximumsnelheid, ook zonder rode rand. Een tijdelijk bord gaat boven het vaste bord.",
+          "bron": [
+            {
+              "boek": 50,
+              "sectie": "3.1",
+              "anker": "dan geldt het bord met de laagste snelheid"
+            },
+            {
+              "slide": 44,
+              "anker": "De snelheid die getoond wordt op matrixborden is de maximumsnelheid"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een matrixbord en een tijdelijk bord reageren op wat er nu gebeurt: file, werkzaamheden, gladheid. Het vaste bord kent die situatie niet, dus wint de laagste snelheid.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Boven een autosnelweg tonen matrixborden 50 zonder rode rand. Ook dan is dit de maximumsnelheid: je mag nu niet harder dan 50.",
+          "bron": {
+            "boek": 50,
+            "sectie": "3.1",
+            "anker": "Ook zonder rode rand geven de matrixborden de maximumsnelheid aan"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5"
+          ],
+          "tekst": "Familie A: maximumsnelheid of adviessnelheid, en het einde daarvan. [A3] is een maximumsnelheid op een matrixbord."
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C1",
+            "C2",
+            "C3",
+            "C6",
+            "C7",
+            "C12"
+          ],
+          "tekst": "Familie C sluit een weg af; het symbool zegt voor wie."
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "D1",
+            "D2",
+            "D4",
+            "D6",
+            "D7"
+          ],
+          "tekst": "Familie D: verplichte rijrichting, of het bord aan een zijde voorbij gaan."
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "H1",
+            "H2"
+          ],
+          "tekst": "Familie H: je rijdt de bebouwde kom binnen of je verlaat die."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een matrixbord zonder rode rand lijkt informatie, maar het is een maximum. En een zonebord met een parkeerverbod geldt aan beide kanten van de weg."
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Familie",
+            "Vorm en kleur",
+            "Wat het bord doet"
+          ],
+          "rijen": [
+            [
+              "A snelheid",
+              "Rond, wit met rode rand; advies blauw vierkant",
+              "Maximum of advies, of het einde daarvan"
+            ],
+            [
+              "C geslotenverklaring",
+              "Meestal rond, rode rand, zwart symbool",
+              "Wie de weg niet in mag"
+            ],
+            [
+              "D rijrichting",
+              "Rond, blauw, witte pijlen",
+              "Verplichte richting"
+            ],
+            [
+              "H bebouwde kom",
+              "Rechthoekig, blauw, witte rand, plaatsnaam",
+              "Begin of einde bebouwde kom"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "Deze borden geven een maximumsnelheid of adviessnelheid aan"
+            },
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Deze borden bepalen wie een weg niet in mag"
+            },
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Bij deze borden moet je verplicht de aangegeven richting volgen"
+            },
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Borden die aanduiden dat je de bebouwde kom binnenrijdt of verlaat"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Hele breedte van de weg, behalve stilstaan en parkeren. Zone is een heel gebied. Laagste snelheid wint."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een vast bord geeft 100 aan, het matrixbord boven je toont 70 zonder rode rand. Hoe hard mag je?",
+          "antwoord": "Maximaal 70.",
+          "uitleg": "De laagste snelheid geldt, en een matrixbord is altijd een maximum, ook zonder rode rand.",
+          "bron": {
+            "boek": 50,
+            "sectie": "3.1",
+            "anker": "dan geldt het bord met de laagste snelheid"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Links in de straat staat een parkeerverbod, rechts niets. Mag je rechts parkeren?",
+          "antwoord": "Ja.",
+          "uitleg": "Zo'n verbod geldt alleen voor de kant van de rijbaan waar het bord staat.",
+          "bron": {
+            "boek": 46,
+            "sectie": "3.1",
+            "anker": "die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U02-P02",
+      "anker": "p-3.1-onderborden",
+      "titel": "Onderborden: wanneer, voor wie en waar",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            47
+          ]
+        },
+        "cursus": {
+          "slides": [
+            46,
+            47
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U02-r05",
+          "tekst": "Met onderborden kan worden aangegeven: wanneer het verkeersbord geldt, voor wie het verkeersbord geldt, voor wie het verkeersbord niet geldt, waar het verkeersbord geldt, en extra informatie.",
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "wanneer het verkeersbord geldt, voor wie het verkeersbord geldt"
+            },
+            {
+              "slide": 46,
+              "anker": "wanneer het verkeersbord geldt voor wie het verkeersbord geldt of voor wie niet"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r06",
+          "tekst": "Een onderbord met alleen een afstand, zoals 500 m, betekent dat het bord over 500 meter geldt. Een onderbord met pijlen omhoog naast de afstand betekent dat het bord de komende 500 meter geldt.",
+          "bron": {
+            "slide": 46,
+            "anker": "Bord geldt de komende 500 meter"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Het hoofdbord zegt wat er geldt; het onderbord zegt voor wie, wanneer en waar. Lees je het onderbord niet, dan pas je een verbod op jezelf toe dat je niet raakt, of je negeert een verbod dat juist wel voor jou geldt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een klinkerstraat heeft [C12] met het onderbord 'uitgezonderd lijnbussen'. Alleen lijnbussen mogen erin. Met een personenauto rijd je je hier vast.",
+          "bron": {
+            "slide": 47,
+            "anker": "Alleen voor lijnbussen; auto's rijden zich vast"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op een autosnelweg staat [A1] met 90 en daaronder 'bij nat wegdek'. Op een droog wegdek geldt dit bord niet; het onderbord zegt wanneer het bord geldt.",
+          "bron": {
+            "slide": 46,
+            "anker": "wit onderbord met de tekst bij nat wegdek"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C12",
+            "C7",
+            "A1",
+            "C6"
+          ],
+          "tekst": "Deze hoofdborden zie je vaak met een onderbord eronder dat de werking beperkt tot een groep, een tijd of een afstand."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "'Uitgezonderd' op een onderbord betekent: voor deze groep geldt het bord niet. Staat er alleen een symbool zonder 'uitgezonderd', dan geldt het bord juist alleen voor die groep. Lees dus het hele onderbord voordat je beslist."
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Onderbord",
+            "Betekenis"
+          ],
+          "rijen": [
+            [
+              "alleen op maandag",
+              "Het bord geldt alleen op maandag (wanneer)"
+            ],
+            [
+              "bij nat wegdek",
+              "Het bord geldt alleen bij een nat wegdek (wanneer)"
+            ],
+            [
+              "uitgezonderd lijnbussen",
+              "Het bord geldt niet voor lijnbussen (voor wie niet)"
+            ],
+            [
+              "pictogram van een personenauto",
+              "Het bord geldt alleen voor personenauto's (voor wie)"
+            ],
+            [
+              "500 m",
+              "Het bord geldt over 500 meter (waar)"
+            ],
+            [
+              "500 m tussen twee pijlen omhoog",
+              "Het bord geldt de komende 500 meter (waar)"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "voor wie het verkeersbord niét geldt, waar het verkeersbord geldt"
+            },
+            {
+              "slide": 46,
+              "anker": "Bord geldt de komende 500 meter"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Het hoofdbord zegt wat, het onderbord zegt voor wie, wanneer en waar."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Onder een bord staat 'uitgezonderd lijnbussen'. Jij rijdt in een personenauto. Geldt het bord voor jou?",
+          "antwoord": "Ja.",
+          "uitleg": "Het onderbord zondert alleen lijnbussen uit; voor alle andere weggebruikers geldt het hoofdbord gewoon.",
+          "bron": {
+            "slide": 47,
+            "anker": "Alleen voor lijnbussen; auto's rijden zich vast"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Onder een waarschuwingsbord staat alleen '500 m', zonder pijlen. Begint het gevaar nu, of pas verderop?",
+          "antwoord": "Pas verderop, over 500 meter.",
+          "uitleg": "Zonder pijlen betekent de afstand dat het bord over 500 meter geldt. Met pijlen omhoog geldt het bord de komende 500 meter.",
+          "bron": {
+            "slide": 46,
+            "anker": "Bord geldt de komende 500 meter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U02-P03",
+      "anker": "p-3.2-wegdek",
+      "titel": "Tekens op het wegdek",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.2"
+          ],
+          "paginas": [
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        "cursus": {
+          "slides": [
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U02-r07",
+          "tekst": "Je mag niet over een doorgetrokken streep heen, behalve: een doorgetrokken streep die de rijbaankant markeert mag je overschrijden, bijvoorbeeld om te stoppen bij pech, en de streep tussen een normale rijstrook en een spitsstrook mag je overschrijden als de spitsstrook open is.",
+          "bron": [
+            {
+              "boek": 51,
+              "sectie": "3.2",
+              "anker": "Je mag niet over een doorgetrokken streep heen"
+            },
+            {
+              "slide": 50,
+              "anker": "Een doorgetrokken streep mag je niet overschrijden, behalve"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r08",
+          "tekst": "Een onderbroken streep mag je overschrijden als je de veiligheid en doorstroming niet in gevaar brengt. Uitzonderingen zijn een onderbroken streep die een busstrook of een fietsstrook markeert.",
+          "bron": [
+            {
+              "boek": 52,
+              "sectie": "3.2",
+              "anker": "Een onderbroken streep mag je overschrijden"
+            },
+            {
+              "slide": 51,
+              "anker": "Een onderbroken streep mag je overschrijden (bijv. om in te halen)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r09",
+          "tekst": "Als er een onderbroken streep en een doorgetrokken streep naast elkaar liggen, mag je ze alleen overschrijden als de onderbroken streep aan jouw kant ligt.",
+          "bron": [
+            {
+              "boek": 52,
+              "sectie": "3.2",
+              "anker": "alleen overschrijden als de onderbroken streep aan jouw kant ligt"
+            },
+            {
+              "slide": 50,
+              "anker": "Als de doorgetrokken streep aan jouw kant ligt, mag je niet naar de andere rijstrook"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r10",
+          "tekst": "Bij werkzaamheden worden vaak tijdelijke, gele strepen aangebracht. De normale, permanente witte strepen gelden dan niet. Op een puntstuk en een verdrijvingsvlak mag je niet rijden, behalve in een geopende spitsstrook. Op een kruis mag je niet stoppen en stilstaan.",
+          "bron": [
+            {
+              "boek": 52,
+              "sectie": "3.2",
+              "anker": "De normale, permanente witte strepen gelden dan niet"
+            },
+            {
+              "boek": 53,
+              "sectie": "3.2",
+              "anker": "Op dit kruis mag je niet stoppen en stilstaan"
+            },
+            {
+              "slide": 53,
+              "anker": "Het mag wél als je op een spitsstrook rijdt"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een doorgetrokken streep ligt waar de wegbeheerder weet dat wisselen of inhalen gevaarlijk is, bijvoorbeeld door slecht zicht. De streep verbiedt precies daar waar je het zelf niet kunt inschatten.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "In een dorp verspert een verkeerd geparkeerde auto je rijstrook. De middenstreep is doorgetrokken. Om de doorstroming te bevorderen mag je er toch overheen, maar alleen als het veilig kan.",
+          "bron": {
+            "boek": 51,
+            "sectie": "3.2",
+            "anker": "de beste oplossing de doorgetrokken streep toch te overschrijden"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C23-01",
+            "C23-02",
+            "C23-03"
+          ],
+          "tekst": "Als de spitsstrook open is, aangegeven met [C23-01], mag je de doorgetrokken streep, het puntstuk of het verdrijvingsvlak ernaartoe overschrijden."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Waarschuwingsstrepen, onderbroken strepen met kortere tussenruimten, zijn geen verbod: ze waarschuwen voor een bocht of helling. Gele of oranje strepen over de witte heen zijn tijdelijk en gaan voor."
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Teken op het wegdek",
+            "Wat je moet doen"
+          ],
+          "rijen": [
+            [
+              "Doorgetrokken streep",
+              "Niet overschrijden, behalve rijbaankant, open spitsstrook of onderbroken streep aan jouw kant"
+            ],
+            [
+              "Onderbroken streep",
+              "Mag als het veilig kan; let op bus- en fietsstroken"
+            ],
+            [
+              "Waarschuwingsstreep",
+              "Onderbroken, korte tussenruimten: alert op gevaar"
+            ],
+            [
+              "Gele of oranje strepen",
+              "Tijdelijk, gaan boven wit"
+            ],
+            [
+              "Puntstuk en verdrijvingsvlak",
+              "Niet op rijden, behalve in een open spitsstrook"
+            ],
+            [
+              "Kruis",
+              "Niet stoppen en niet stilstaan"
+            ],
+            [
+              "Zigzaglijn",
+              "Waarschuwt voor een gevaarlijke oversteekplaats"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 52,
+              "sectie": "3.2",
+              "anker": "Je moet dan alert zijn op een gevaarlijke situatie"
+            },
+            {
+              "boek": 54,
+              "sectie": "3.2",
+              "anker": "Het zigzagteken op het wegdek waarschuwt voor een gevaarlijke oversteekplaats"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Doorgetrokken is dicht, onderbroken is open, geel gaat boven wit, en jouw kant van de streep telt."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Tussen jouw rijstrook en de strook links van je liggen twee strepen naast elkaar: aan jouw kant doorgetrokken, aan de andere kant onderbroken. Mag je naar links?",
+          "antwoord": "Nee.",
+          "uitleg": "De doorgetrokken streep ligt aan jouw kant. De bestuurder links van je heeft de onderbroken streep aan zijn kant en mag wel naar rechts opschuiven.",
+          "bron": {
+            "boek": 53,
+            "sectie": "3.2",
+            "anker": "Jij mag nu niét naar links opschuiven"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je hebt pech en wilt op de vluchtstrook stoppen. De kantstreep is doorgetrokken. Mag je eroverheen?",
+          "antwoord": "Ja.",
+          "uitleg": "Een streep die de rijbaankant markeert mag je overschrijden, bijvoorbeeld om te stoppen bij pech.",
+          "bron": {
+            "boek": 51,
+            "sectie": "3.2",
+            "anker": "mag je overschrijden, bijvoorbeeld om te stoppen bij pech"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U02-P04",
+      "anker": "p-3.3-verkeerslichten",
+      "titel": "Verkeerslichten",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.3"
+          ],
+          "paginas": [
+            54,
+            55,
+            56,
+            57
+          ]
+        },
+        "cursus": {
+          "slides": [
+            54,
+            55
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U02-r11",
+          "tekst": "Bij groen licht moet je doorrijden, bij rood licht moet je stoppen. Ook bij geel licht moet je stoppen, maar als je het gele licht zo dicht genaderd bent dat stoppen niet meer veilig en verantwoord kan, mag je doorrijden.",
+          "bron": [
+            {
+              "boek": 54,
+              "sectie": "3.3",
+              "anker": "Bij groen licht moet je doorrijden, bij rood licht moet je stoppen"
+            },
+            {
+              "slide": 54,
+              "anker": "geel licht = stoppen indien dit nog veilig lukt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r12",
+          "tekst": "Verkeerslichten die buiten werking zijn, geven meestal geel knipperlicht, als waarschuwing. Er geldt daar dan de voorrangsregeling die met borden is aangegeven. Zonder borden en zonder tekens op het wegdek geldt de basisvoorrangsregel.",
+          "bron": {
+            "boek": 55,
+            "sectie": "3.3",
+            "anker": "Er geldt daar dan de voorrangsregeling die met borden is aangegeven"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U02-r13",
+          "tekst": "Als je links afslaat bij een groen verkeerslicht zonder pijl, dan kun je tegemoetkomend verkeer verwachten. Je moet dat voor laten gaan. Als je door een verkeerslicht met een groene pijl rijdt, hoef je geen tegemoetkomend ander verkeer te verwachten.",
+          "bron": [
+            {
+              "boek": 55,
+              "sectie": "3.3",
+              "anker": "dan kun je tegemoetkomend verkeer verwachten. Je moet dat voor laten gaan"
+            },
+            {
+              "slide": 55,
+              "anker": "hoef je geen kruisend verkeer te verwachten"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r14",
+          "tekst": "Onder verkeerslichten kunnen onderborden staan waarop staat dat het rode licht niet geldt voor (brom/snor)fietsers die rechts willen afslaan. 'Rechtsaf voor fietsers vrij' geldt alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen.",
+          "bron": {
+            "boek": 56,
+            "sectie": "3.3",
+            "anker": "geldt dit alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U02-r15",
+          "tekst": "Rijstrooksignalering: groene pijl, je mag de rijstrook volgen; witte pijl, voorwaarschuwing rood kruis; rood kruis, je mag de rijstrook niet volgen; BUS, autobussen en lijnbussen; LIJNBUS, alleen lijnbussen. Tram- en buslichten gelden niet voor jou als autobestuurder.",
+          "bron": [
+            {
+              "boek": 57,
+              "sectie": "3.3",
+              "anker": "rood kruis: je mag de rijstrook niet volgen"
+            },
+            {
+              "boek": 57,
+              "sectie": "3.3",
+              "anker": "Die gelden niet voor jou als autobestuurder"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een rond groen licht regelt alleen jouw richting; de tegenligger kan tegelijk groen hebben. Bij een groene pijl staat het licht voor het conflicterende verkeer juist op rood.",
+          "bron": {
+            "boek": 55,
+            "sectie": "3.3",
+            "anker": "staat het licht dan namelijk op rood"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Bij een overweg brandt het witte knipperlicht: er komt geen trein aan en je kunt doorrijden. Bij rood knipperlicht moet je stoppen, net als bij een brug met rood licht.",
+          "bron": {
+            "boek": 56,
+            "sectie": "3.3",
+            "anker": "komt er geen trein aan en kun je dus doorrijden"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een geel knipperlicht geeft jou geen voorrang; het waarschuwt alleen. Knipperen de verkeerslichten zelf geel, dan zijn ze buiten werking: kijk naar de borden en de haaientanden, en zonder borden of tekens geldt de basisvoorrangsregel."
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Licht",
+            "Betekenis"
+          ],
+          "rijen": [
+            [
+              "Groen",
+              "Doorrijden"
+            ],
+            [
+              "Geel",
+              "Stoppen, tenzij dat niet meer veilig kan"
+            ],
+            [
+              "Rood",
+              "Stoppen"
+            ],
+            [
+              "Geel knipperlicht",
+              "Waarschuwing; knipperen de verkeerslichten zelf geel, dan zijn ze buiten werking en gelden borden en regels"
+            ],
+            [
+              "Groene pijl",
+              "Geen conflicterend verkeer te verwachten"
+            ],
+            [
+              "Wit knipperlicht bij een overweg",
+              "Geen trein, doorrijden"
+            ],
+            [
+              "Rood knipperlicht bij overweg of brug",
+              "Stoppen"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 54,
+              "sectie": "3.3",
+              "anker": "Bij geel licht moet je stoppen als dat nog veilig mogelijk is"
+            },
+            {
+              "slide": 54,
+              "anker": "verkeerslichten zorgen voor een vlotte en veilige doorstroming op drukke kruispunten"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Geel is stoppen als het nog kan. Groen zonder pijl: tegenligger voor laten gaan. Rood kruis: die strook niet."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het verkeerslicht knippert geel. Eronder staat 'verleen voorrang' met haaientanden op het wegdek. Wat doe je?",
+          "antwoord": "Je verleent voorrang aan het kruisende verkeer.",
+          "uitleg": "Het licht is buiten werking; dan geldt de voorrangsregeling die met borden is aangegeven.",
+          "bron": {
+            "boek": 55,
+            "sectie": "3.3",
+            "anker": "Er geldt daar dan de voorrangsregeling die met borden is aangegeven"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Naast jouw rode verkeerslicht toont het speciale buslicht dat de bus mag rijden. Mag jij ook rijden?",
+          "antwoord": "Nee.",
+          "uitleg": "Tram- en buslichten gelden niet voor jou als autobestuurder. Jouw licht is rood, dus je wacht.",
+          "bron": {
+            "boek": 57,
+            "sectie": "3.3",
+            "anker": "Die gelden niet voor jou als autobestuurder"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U02-P05",
+      "anker": "p-3.4-aanwijzingen-rangorde",
+      "titel": "Aanwijzingen en de rangorde",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.4"
+          ],
+          "paginas": [
+            57,
+            58,
+            59
+          ]
+        },
+        "cursus": {
+          "slides": [
+            56,
+            57
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U02-r16",
+          "tekst": "Borden en tekens gaan voor verkeersregels. Verkeerslichten gaan voor borden en tekens die de voorrang regelen. Aanwijzingen gaan weer voor verkeerstekens en verkeersregels.",
+          "bron": [
+            {
+              "boek": 57,
+              "sectie": "3.4",
+              "anker": "Borden en tekens gaan voor verkeersregels"
+            },
+            {
+              "slide": 57,
+              "anker": "Aanwijzingen hebben de hoogste prioriteit in het verkeer"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r17",
+          "tekst": "Aanwijzingen van bevoegde en als zodanig herkenbare ambtenaren moet je opvolgen. Dit zijn vooral politieagenten, marechaussees of douanebeambten. Zij kunnen aanwijzingen geven mondeling of met hand- of armgebaren, met een rode lamp, of met de tekst STOP, STOP POLITIE of DOUANE op een display.",
+          "bron": {
+            "boek": 58,
+            "sectie": "3.4",
+            "anker": "Dit zijn vooral politieagenten, marechaussees of douanebeambten"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U02-r18",
+          "tekst": "Voertuigen van deze beambten hebben een vrijstelling van veel verkeersregels en verkeerstekens. Deze vrijstelling geldt ook als ze niet met zwaailichten en sirene rijden.",
+          "bron": {
+            "boek": 58,
+            "sectie": "3.4",
+            "anker": "Deze vrijstelling geldt ook als ze niet met zwaailichten en sirene rijden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U02-r19",
+          "tekst": "Aanwijzingen kunnen ook worden gegeven door bevoegde en herkenbare verkeersregelaars, door verkeersbrigadiers die kinderen helpen met oversteken, en door een begeleider van een railvoertuig. Zo'n stopteken kan ook met een rode vlag of een rode lamp worden gegeven.",
+          "bron": [
+            {
+              "boek": 59,
+              "sectie": "3.4",
+              "anker": "hebben de bevoegdheid om bestuurders te laten stoppen"
+            },
+            {
+              "slide": 56,
+              "anker": "begeleiders van railvoertuigen (bij onbeveiligde spoorovergangen) moet je opvolgen"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een agent of verkeersregelaar staat ter plekke en ziet wat een bord of licht niet kan zien: een ongeval, een afzetting, een file. Zijn aanwijzing past bij de situatie van dat moment, daarom wint die van alles wat vast staat.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt op een voorrangsweg en nadert een rood verkeerslicht. Een politieagent geeft je de aanwijzing om door rood te rijden. Je volgt de aanwijzing op: die gaat boven het rode licht, en het rode licht ging al boven je voorrangsweg.",
+          "bron": {
+            "boek": 57,
+            "sectie": "3.4",
+            "anker": "dan moet je die aanwijzing opvolgen"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een douanebeambte mag je overal in het land aanwijzingen geven, niet alleen bij de grens. En een politieauto mag ook zonder zwaailicht en sirene sneller rijden of parkeren bij een parkeerverbod, als dat noodzakelijk is.",
+          "bron": {
+            "slide": 56,
+            "anker": "Aanwijzingen van douanebeambten moet je overal in het land opvolgen"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Rang",
+            "Wat",
+            "Voorbeeld"
+          ],
+          "rijen": [
+            [
+              "1",
+              "Aanwijzingen",
+              "Een agent laat je door rood rijden"
+            ],
+            [
+              "2",
+              "Verkeerslichten",
+              "Rood licht op een voorrangsweg: stoppen"
+            ],
+            [
+              "3",
+              "Verkeersborden en tekens op het wegdek",
+              "Voorrangsweg: verkeer uit de zijwegen verleent voorrang"
+            ],
+            [
+              "4",
+              "Verkeersregels",
+              "Op een gelijkwaardig kruispunt gaat rechts voor"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 57,
+              "anker": "Daarna komen de verkeerslichten. Deze gaan boven de verkeersborden en de verkeerstekens op het wegdek"
+            },
+            {
+              "boek": 58,
+              "sectie": "3.4",
+              "anker": "Samengevat is de volgorde van belangrijkheid dus"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Aanwijzing boven licht, licht boven bord, bord boven regel."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Bij wegwerkzaamheden geeft een verkeersregelaar je een stopteken, terwijl het verkeerslicht voor jou groen is. Wat doe je?",
+          "antwoord": "Je stopt.",
+          "uitleg": "Een aanwijzing van een bevoegde en herkenbare verkeersregelaar gaat boven het verkeerslicht.",
+          "bron": {
+            "boek": 58,
+            "sectie": "3.4",
+            "anker": "Aanwijzingen kunnen ook worden gegeven door bevoegde en herkenbare verkeersregelaars"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een begeleider van een tram zwaait met een rode vlag. Moet je stoppen?",
+          "antwoord": "Ja.",
+          "uitleg": "Een stopteken van een begeleider van een railvoertuig kan ook met een rode vlag of een rode lamp worden gegeven.",
+          "bron": {
+            "boek": 59,
+            "sectie": "3.4",
+            "anker": "kan ook met een rode vlag of een rode lamp worden gegeven"
+          }
+        }
+      ]
+    }
+  ]
+}

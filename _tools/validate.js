@@ -235,8 +235,9 @@ function numbersIn(text) {
 }
 const registryUnit = e => UNIT_MAP[(e || "").toLowerCase()] || (e || "").toLowerCase();
 
-const ENGLISH = /\b(the|and|with|your|correct|wrong|answer|question|because|should|must|road|sign|left|right|speed|driver|traffic)\b/i;
-const U_VORM = /\b(u|uw)\b/;
+/* speed-pedelec is the course's own term and stays allowed */
+const ENGLISH = /\b(the|and|with|your|correct|wrong|answer|question|because|should|must|road|sign|left|right|speed(?!-pedelec)|driver|traffic)\b/i;
+const U_VORM = /(^|[^\/\w])(u|uw)\b(?!-)/i; /* the u in km/u and U-bocht are not the u-vorm */
 let LEXICON = null;
 function lexicon() {
   if (LEXICON) return LEXICON;
@@ -255,7 +256,8 @@ function styleCheck(text, where) {
   if (typeof text !== "string") return;
   if (U_VORM.test(text)) fail(where, "u-vorm: " + JSON.stringify(text.slice(0, 60)));
   if (/km\/h/.test(text)) fail(where, "km/h, schrijf km/u");
-  if (/\d\.\d+\s?(m|meter|km|kg|ton|promille|%|sec|uur)\b/.test(text)) fail(where, "decimale punt, gebruik een komma");
+  /* a point followed by exactly three digits is the Dutch thousands separator (3.500 kg), not a decimal */
+  if (/\d\.\d{1,2}(?!\d)\s?(m|meter|km|kg|ton|promille|%|sec|uur)\b/.test(text)) fail(where, "decimale punt, gebruik een komma");
   if (/!/.test(text)) fail(where, "uitroepteken");
   const en = text.match(ENGLISH);
   if (en) fail(where, "Engels woord '" + en[1] + "'");

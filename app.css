@@ -364,6 +364,7 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
   .kopbalk .nav a.actief { color: var(--bord-blauw); background: var(--bord-blauw-zacht); }
   .kopbalk .nav a:hover { text-decoration: none; background: var(--vlak-2); }
   .romp { display: grid; grid-template-columns: minmax(0, 720px) 280px; gap: 32px; justify-content: center; padding: 0 32px; }
+  .romp:not(:has(.rail)) { grid-template-columns: minmax(0, 720px); }
   .inhoud { padding-bottom: 32px; margin: 0; }
   .rail { display: block; position: sticky; top: calc(var(--kop-h) + var(--baan-h) + 16px); align-self: start; padding: 16px 0; }
   .onderbalk { position: static; box-shadow: none; background: none; }

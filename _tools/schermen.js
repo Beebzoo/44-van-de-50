@@ -1,6 +1,6 @@
 /* Screenshots of the app for review, driven over the DevTools protocol.
 
-     node _tools/schermen.js <baseUrl> <outdir> [donker]
+     node _tools/schermen.js <baseUrl> <outdir> [donker] [breed]
 
    Starts a headless Chrome, opens every route in ROUTES at phone size,
    waits until the screen has rendered, runs the route's optional script
@@ -13,11 +13,12 @@ const fs = require("fs");
 const path = require("path");
 const { spawn } = require("child_process");
 
-const [base, outDir, mode] = process.argv.slice(2);
+const [base, outDir, ...flags] = process.argv.slice(2);
 if (!base || !outDir) { console.error("gebruik: node _tools/schermen.js http://127.0.0.1:8765/ schermen [donker]"); process.exit(1); }
 fs.mkdirSync(outDir, { recursive: true });
 const PORT = 9333;
-const DARK = mode === "donker";
+const DARK = flags.includes("donker");
+const WIDE = flags.includes("breed");
 
 const ROUTES = [
   { naam: "route", hash: "route" },
@@ -35,7 +36,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const chromeBin = ["google-chrome", "chromium-browser", "chromium"].find(b => { try { require("child_process").execFileSync("which", [b], { stdio: "ignore" }); return true; } catch (e) { return false; } });
 if (!chromeBin) { console.error("geen chrome gevonden"); process.exit(1); }
 const profile = fs.mkdtempSync(path.join(require("os").tmpdir(), "vvd50-chrome-"));
-const chrome = spawn(chromeBin, ["--headless=new", "--disable-gpu", "--no-first-run", "--user-data-dir=" + profile, "--remote-debugging-port=" + PORT, "--window-size=390,844", "--hide-scrollbars", "about:blank"], { stdio: "ignore" });
+const chrome = spawn(chromeBin, ["--headless=new", "--disable-gpu", "--no-first-run", "--user-data-dir=" + profile, "--remote-debugging-port=" + PORT, "--window-size=" + (WIDE ? "1280,900" : "390,844"), "--hide-scrollbars", "about:blank"], { stdio: "ignore" });
 
 async function cdp() {
   let list;
@@ -61,7 +62,7 @@ async function cdp() {
 (async () => {
   const c = await cdp();
   await c.send("Page.enable"); await c.send("Runtime.enable"); await c.send("Log.enable");
-  await c.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
+  await c.send("Emulation.setDeviceMetricsOverride", WIDE ? { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false } : { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
   if (DARK) await c.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: "dark" }] });
   const evalJs = async expr => { const r = await c.send("Runtime.evaluate", { expression: expr, awaitPromise: true, returnByValue: true }); return r.result && r.result.result ? r.result.result.value : undefined; };
 
@@ -83,7 +84,7 @@ async function cdp() {
     if (r.script) { await evalJs(r.script); await sleep(600); }
     await sleep(400);
     const shot = await c.send("Page.captureScreenshot", { format: "png" });
-    const file = path.join(outDir, r.naam + (DARK ? "-donker" : "") + ".png");
+    const file = path.join(outDir, r.naam + (DARK ? "-donker" : "") + (WIDE ? "-breed" : "") + ".png");
     fs.writeFileSync(file, Buffer.from(shot.result.data, "base64"));
     const title = await evalJs("document.title");
     console.log((ok ? "ok  " : "LEEG") + " " + r.naam.padEnd(14) + " " + title);
