@@ -515,6 +515,16 @@
           }
         },
         {
+          "type": "scene",
+          "ref": "S-U09-L01",
+          "tekst": "Jij staat stil voor de overweg terwijl aan de overkant van de sporen nog een auto stilstaat.",
+          "bron": {
+            "boek": 95,
+            "sectie": "5.7",
+            "anker": "Wacht dus altijd met doorrijden tot aan de andere kant van de overweg"
+          }
+        },
+        {
           "type": "regel",
           "id": "U09-r14",
           "tekst": "Vlak voor en op een overweg kun je beter niet inhalen. Het inhalen van fietsers is daarop soms een uitzondering: als er voldoende ruimte en zicht is, is het voor de doorstroming beter om hen wel in te halen.",

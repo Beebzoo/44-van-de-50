@@ -1,0 +1,74 @@
+{
+  "id": "S-U02-L02",
+  "vorm": "plus",
+  "voorrang": "verkeerslichten",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "fietspad": [
+    "zuid",
+    "noord"
+  ],
+  "lichten": [
+    {
+      "arm": "zuid",
+      "kleur": "groen"
+    },
+    {
+      "arm": "zuid",
+      "kleur": "groen",
+      "voor": "fiets"
+    },
+    {
+      "arm": "oost",
+      "kleur": "groen",
+      "voor": "voetganger"
+    },
+    {
+      "arm": "oost",
+      "kleur": "rood"
+    },
+    {
+      "arm": "west",
+      "kleur": "rood"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    },
+    {
+      "soort": "fietsoversteek",
+      "arm": "oost"
+    },
+    {
+      "soort": "zebrapad",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "signaal": "rechts"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "zijde": "links",
+      "richting": "rechtdoor"
+    }
+  ],
+  "alt": "Jouw licht is groen en je wilt rechtsaf, met je richtingaanwijzer aan. Rechts naast je loopt een fietspad met een eigen groen fietslicht, en een fietser steekt daar rechtdoor de arm over waar jij in draait. Naast die fietsoversteek ligt een zebrapad met een groen voetgangerslicht. De lichten voor het kruisende verkeer staan op rood.",
+  "inspiratie": {
+    "slide": 55,
+    "beeld": "rechtdoorgaande fietsers op het fietspad naast je als je rechtsaf slaat"
+  }
+}

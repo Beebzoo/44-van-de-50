@@ -1,0 +1,39 @@
+{
+  "id": "S-U08-L01",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de fietser"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Een rechte weg zonder apart fietspad. Jij rijdt van onderen en vlak voor je rijdt een fietser op dezelfde weghelft. Op de andere weghelft komt een grijze auto je tegemoet.",
+  "inspiratie": {
+    "boek": 81,
+    "slide": 79
+  }
+}

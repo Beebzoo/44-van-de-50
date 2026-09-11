@@ -105,6 +105,7 @@
         { "tekst": "Flow roads are meant to let traffic move on as fast as possible. Most expressways (autoweg) and motorways (autosnelweg) are designated as flow roads." },
         { "tekst": "District access roads are roads with level junctions meant to give access to rural or urban areas. Inside the built-up area (bebouwde kom) the speed is 50 km/h or 70 km/h, outside the built-up area 80 km/h." },
         { "tekst": "Residential access roads are roads where slow traffic and motorised traffic are mixed, with no separation of the directions and usually without separate cycle paths (fietspad). The speed is 30 km/h inside the built-up area and 60 km/h outside the built-up area." },
+        { "tekst": "A residential access road outside the built-up area: there is no separate cycle path, so the cyclist rides ahead of you on your own half of the road." },
         { "tekst": "The road marking tells you the speed limit on expressways, on 80 km/h roads and on 60 km/h roads. You also recognise a 60 km/h zone by the zone sign." },
         {
           "kop": ["Sort of road", "How you see it", "Speed"],

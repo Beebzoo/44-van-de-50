@@ -159,6 +159,11 @@
           }
         },
         {
+          "type": "scene",
+          "ref": "S-U01-L01",
+          "tekst": "Zes weggebruikers op dezelfde weg, van de voetganger in de berm tot de ruiter op de andere weghelft."
+        },
+        {
           "type": "regel",
           "id": "U01-r05",
           "tekst": "Bestemmingsverkeer zijn bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring is afgesloten voor bepaalde categorieën bestuurders. Ook lijnbussen vallen onder bestemmingsverkeer.",
@@ -653,6 +658,11 @@
               "anker": "rijbaan = elk weggedeelte voor rijdende voertuigen, m.u.v. fiets-/bromfietspaden"
             }
           ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U01-L02",
+          "tekst": "Wat je hier ziet is de indeling van de weg: de rijbaan met de rijstroken erin, het fietspad ernaast en de berm daarbuiten."
         },
         {
           "type": "regel",

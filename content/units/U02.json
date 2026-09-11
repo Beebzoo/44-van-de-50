@@ -785,6 +785,11 @@
           ]
         },
         {
+          "type": "scene",
+          "ref": "S-U02-L01",
+          "tekst": "Jij hebt groen en wilt linksaf, en de tegenligger heeft op hetzelfde moment ook groen."
+        },
+        {
           "type": "regel",
           "id": "U02-r14",
           "tekst": "Onder verkeerslichten kunnen onderborden staan waarop staat dat het rode licht niet geldt voor (brom/snor)fietsers die rechts willen afslaan. 'Rechtsaf voor fietsers vrij' geldt alleen voor fietsers, snorfietsers en gehandicaptenvoertuigen.",
@@ -842,6 +847,11 @@
               "anker": "Ook rechtdoorgaande voetgangers moet je voor laten"
             }
           ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U02-L02",
+          "tekst": "Jij slaat rechtsaf bij groen en de fietser naast je heeft zijn eigen groene licht."
         },
         {
           "type": "regel",

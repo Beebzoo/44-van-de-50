@@ -1,0 +1,42 @@
+{
+  "id": "S-U01-L02",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "fietspad": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "tegenligger",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 1
+    }
+  ],
+  "alt": "Een rechte weg van bovenaf: de rijbaan met een onderbroken streep in het midden, jouw witte auto op de rechter rijstrook en een grijze auto op de linker. Aan weerszijden ligt in de berm een rood fietspad, met rechts een fietser erop.",
+  "inspiratie": {
+    "boek": 33,
+    "slide": 28
+  }
+}

@@ -1198,6 +1198,16 @@
           ]
         },
         {
+          "type": "scene",
+          "ref": "S-U08-L01",
+          "tekst": "Een erftoegangsweg buiten de bebouwde kom: er is geen apart fietspad, dus de fietser rijdt voor je op jouw weghelft.",
+          "bron": {
+            "boek": 81,
+            "sectie": "4.10",
+            "anker": "zonder rijrichtingscheiding en meestal zonder gescheiden fietspaden"
+          }
+        },
+        {
           "type": "regel",
           "id": "U08-r33",
           "tekst": "Aan de wegmarkering kun je zien wat de maximumsnelheid is op autowegen, op 80 km/u wegen en op 60 km/u wegen. Een 60 km/u zone herken je ook aan het zonebord.",

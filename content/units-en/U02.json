@@ -252,6 +252,9 @@
           "tekst": "If you turn left at a green light without an arrow, you can expect oncoming traffic. You must let it go first (voor laten gaan). If you drive through a traffic light with a green arrow, you do not have to expect other oncoming traffic."
         },
         {
+          "tekst": "You have green and want to turn left, and the oncoming driver has green at the same moment."
+        },
+        {
           "tekst": "Traffic lights can have sub-plates (onderborden) underneath them saying that the red light does not apply to cyclists and (light) moped riders who want to turn right. 'Rechtsaf voor fietsers vrij' (right turn free for cyclists) applies only to cyclists, light moped riders (snorfietsers) and disability vehicles."
         },
         {
@@ -262,6 +265,9 @@
         },
         {
           "tekst": "A green light without an arrow counts when you turn right as well: the cyclists going straight on along the cycle path (fietspad) beside you usually have green too, and you let them go first. You must also let pedestrians going straight on go first."
+        },
+        {
+          "tekst": "You turn right at a green light and the cyclist beside you has a green light of his own."
         },
         {
           "tekst": "If you turn left, always allow for cyclists, light moped riders and moped riders (bromfietsers) from the oncoming direction who may turn into your road, even though their light is red. After all, you cannot read their sub-plates."

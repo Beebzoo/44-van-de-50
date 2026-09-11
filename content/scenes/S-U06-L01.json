@@ -1,0 +1,37 @@
+{
+  "id": "S-U06-L01",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "G5",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "zijde": "links",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Een rechte straat die je binnenrijdt. Rechts van de weg staat bord G5. Jij rijdt van onderen naar boven en vlak voor je loopt een voetganger van links over de rijbaan naar de overkant.",
+  "inspiratie": {
+    "boek": 118
+  }
+}

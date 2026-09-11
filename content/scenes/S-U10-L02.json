@@ -1,0 +1,31 @@
+{
+  "id": "S-U10-L02",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "signaal": "links",
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de fietser"
+    }
+  ],
+  "alt": "Een rechte weg zonder apart fietspad. Jij staat met je auto stil langs de rechterkant met je linkerrichtingaanwijzer aan, en achter je nadert een fietser op de rijbaan.",
+  "inspiratie": {
+    "boek": 134
+  }
+}

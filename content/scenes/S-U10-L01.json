@@ -1,0 +1,39 @@
+{
+  "id": "S-U10-L01",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de passagier"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Een rechte weg. Jij staat met je auto stil langs de rechterkant en naast je staat een voetganger in de berm. Achter je staat een grijze auto ook stil langs de kant, zonder iemand ernaast.",
+  "inspiratie": {
+    "boek": 159
+  }
+}

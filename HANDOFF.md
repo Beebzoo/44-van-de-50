@@ -56,12 +56,41 @@ waarin het de meeste waarde heeft:
 1. **De vier losse diagrammen** uit het bouwplan: remweg en stopafstand met een
    snelheidsschuif, de dode hoek, andreaskruisen en de handsignalen. Geen van
    vier bestaat, en het zijn precies de dingen die je niet uit tekst leert.
-2. **De renderer uitbreiden**: verkeerslichten, voorsorteerstroken en pijlen op
-   het wegdek, meer dan een rijstrook per richting, invoegstroken, turborotonde.
-   Daar hangt inhoud aan vast. Blok 8 heeft 38 vragen en nauwelijks een
-   tekening, blok 7 heeft er vier over invoegen en ritsen zonder beeld, en
-   U04-Q026 raakte zijn tekening kwijt omdat de renderer geen voorsorteerpijl
-   kan zetten.
+2. **De renderer uitbreiden.** Verkeerslichten zijn er sinds 11 september
+   (drie lampen voor verkeer en fietsers, twee voor voetgangers). Acht
+   tekenaars liepen daarna in een ronde langs de kale leespagina's, en dit is
+   wat hen tegenhield, op volgorde van hoe vaak het genoemd werd:
+
+   1. **De belijning is niet te sturen.** `drawStraight` tekent altijd een
+      onderbroken middenstreep en nooit een kantstreep. Daardoor is de hele
+      tabel "wat de belijning zegt" ontekenbaar: geen weg zonder middenstreep,
+      geen doorgetrokken of dubbele as, geen groene vulling, geen onderscheid
+      tussen de drie wegsoorten van Duurzaam veilig. Drie tekenaars noemden dit
+      als grootste gat. Een veld `middenstreep` en `kantstreep` op een rechte
+      weg lost blok 6, 7 en 8 in een klap op.
+   2. **Een fietser of voetganger kan alleen oversteken.** Wie een `zijde`
+      krijgt, krijgt van `pathArrow` altijd een pijl dwars over de rijbaan.
+      Meerijden of meelopen langs de weg bestaat niet, terwijl dat precies de
+      fietser naast je is waar blok 1, 2 en 10 over gaan.
+   3. **Een tweede rijstrook, en een actor in de andere strook van zijn eigen
+      arm.** Nu belandt elke actor in de aanrijstrook van zijn arm, dus verkeer
+      dat jou in jouw richting passeert rijdt door je heen. Ook de vluchtstrook
+      hangt hieraan, en daarmee het halve snelwegblok.
+   4. **Bij het licht: een groene pijl, een geel knipperlicht en een licht dat
+      uit is.** Het verschil tussen rond groen en een groene pijl is de kern
+      van U02-P04 en is nu niet te tekenen.
+   5. **Overwegbomen en het rode knipperlicht**, waarmee meteen het verschil
+      J10 en J11 in beeld komt.
+   6. **Klein spul dat vaak terugkomt**: gevarendriehoek, alarmlichten op een
+      actor, vangrail, hectometerpaaltje, parkeervak, een stoep op een rechte
+      weg (`drawUitrit` tekent er al een), en een suggestiestrook los van een
+      fietsstrook.
+   7. **Bochten en een dwarsdoorsnede.** Alleen dat laatste zou wegverkanting
+      en het niveauverschil met de berm tekenbaar maken.
+
+   Let ook op: de zoneborden staan wel in `content/signs/manifest.json` maar
+   niet in de sprite, dus `ZC-zones-03` (60 km-zone) tekent niets. Het enige
+   snelheidsbord in de sprite is A1 met 50 erop.
 3. **Zes samengestelde oefenexamens** met een vaste mix. De motor staat er, dus
    dit is nog het samenstellen van zes vaste sets in plaats van steeds opnieuw
    trekken.

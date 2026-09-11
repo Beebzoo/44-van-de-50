@@ -844,6 +844,16 @@
           }
         },
         {
+          "type": "scene",
+          "ref": "S-U07-L01",
+          "tekst": "Je rijdt op een smalle weg achter een ruiter op de rijbaan en er komt een auto tegemoet.",
+          "bron": {
+            "boek": 65,
+            "sectie": "4.3",
+            "anker": "Stem je rijgedrag af en haal ze alleen in als er voldoende ruimte is"
+          }
+        },
+        {
           "type": "regel",
           "id": "U07-r13",
           "tekst": "Veilig door een bocht rijden doe je zo: schat het verloop van de bocht tijdig in, kies de juiste versnelling en pas je snelheid aan voor de bocht, beoordeel de rijbaanbreedte, het wegdek en de wegverkanting, en wees alert op tegenliggers en op langzame voorliggers.",

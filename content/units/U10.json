@@ -129,6 +129,16 @@
           ]
         },
         {
+          "type": "scene",
+          "ref": "S-U10-L01",
+          "tekst": "Twee auto's staan stil langs dezelfde weg: bij jou stapt iemand uit, bij de grijze auto achter je staat niemand.",
+          "bron": {
+            "boek": 159,
+            "sectie": "10.1",
+            "anker": "stilstaan voor het onmiddellijk in- of uitstappen van passagiers"
+          }
+        },
+        {
           "type": "regel",
           "id": "U10-r03",
           "tekst": "Een noodzakelijke stop in het verkeer is geen stilstaan en geen parkeren. Stoppen voor een rood verkeerslicht, stoppen om voorrang te verlenen en stoppen in een file vallen er dus buiten.",
@@ -1126,6 +1136,16 @@
               "anker": "laat alle weggebruikers voorgaan - geef pas richting aan"
             }
           ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U10-L02",
+          "tekst": "Je staat klaar om weg te rijden, en achter je nadert een fietser over de rijbaan waar jij op wilt.",
+          "bron": {
+            "boek": 134,
+            "sectie": "9.2",
+            "anker": "Als je wilt wegrijden, moet je het overige verkeer voor laten gaan"
+          }
         },
         {
           "type": "tabel",

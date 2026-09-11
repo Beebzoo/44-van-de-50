@@ -327,6 +327,16 @@
           ]
         },
         {
+          "type": "scene",
+          "ref": "S-U06-L01",
+          "tekst": "Je rijdt hier een erf binnen, met het erfbord rechts van de weg en een voetganger die voor je de rijbaan oversteekt.",
+          "bron": {
+            "boek": 118,
+            "sectie": "7.1",
+            "anker": "In een erf is de maximumsnelheid 15 km/u"
+          }
+        },
+        {
           "type": "regel",
           "id": "U06-r07",
           "tekst": "Op wegen buiten de bebouwde kom rijden snel en langzaam verkeer vaak door elkaar. Daarom zijn in veel gebieden zones ingesteld waar een lagere maximumsnelheid van 60 km/u geldt. Zo'n zone herken je aan het zonebord.",

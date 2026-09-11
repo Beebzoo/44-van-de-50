@@ -1,0 +1,64 @@
+{
+  "id": "S-U01-L01",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "fietspad": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "bromfiets",
+      "soort": "bromfiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 1
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 1
+    },
+    {
+      "id": "vrachtauto",
+      "soort": "vrachtauto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1
+    },
+    {
+      "id": "ruiter",
+      "soort": "ruiter",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Een rechte weg met aan de rechterkant naast elkaar een bromfiets op de rijbaan, een fietser op het fietspad en een voetganger in de berm. Jouw witte auto rijdt achter de bromfiets, en op de andere weghelft komen een vrachtauto en een ruiter te paard je tegemoet.",
+  "inspiratie": {
+    "boek": 27,
+    "slide": 25
+  }
+}

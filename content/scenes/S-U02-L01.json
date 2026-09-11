@@ -1,0 +1,68 @@
+{
+  "id": "S-U02-L01",
+  "vorm": "plus",
+  "voorrang": "verkeerslichten",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "lichten": [
+    {
+      "arm": "zuid",
+      "kleur": "groen"
+    },
+    {
+      "arm": "noord",
+      "kleur": "groen"
+    },
+    {
+      "arm": "west",
+      "kleur": "rood"
+    },
+    {
+      "arm": "oost",
+      "kleur": "rood"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "noord"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "west"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2
+    }
+  ],
+  "alt": "Een kruispunt met verkeerslichten. Jij komt van onderen, jouw licht is groen en je wilt linksaf met je richtingaanwijzer aan. Recht tegenover je nadert een grijze auto die ook groen heeft en rechtdoor gaat. De lichten van de kruisende armen links en rechts staan op rood.",
+  "inspiratie": {
+    "boek": 55,
+    "beeld": "tekst over linksaf bij groen zonder pijl"
+  }
+}

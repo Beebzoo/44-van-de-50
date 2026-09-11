@@ -269,6 +269,11 @@
           ]
         },
         {
+          "type": "scene",
+          "ref": "S-U12-L01",
+          "tekst": "Je auto staat stil aan de rechterkant van de weg en jij staat in de berm erachter, terwijl het verkeer gewoon doorrijdt."
+        },
+        {
           "type": "regel",
           "id": "U12-r07",
           "tekst": "Geef aan de pechhulpdienst door waar je je bevindt. Die informatie staat op het hectometerpaaltje: het wegnummer, de hectometeraanduiding en of je links of rechts staat.",

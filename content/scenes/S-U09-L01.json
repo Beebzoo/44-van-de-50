@@ -1,0 +1,13 @@
+{
+  "id": "S-U09-L01",
+  "vorm": "recht",
+  "armen": ["noord", "oost", "zuid", "west"],
+  "markering": [{"soort": "rails", "arm": "west"}, {"soort": "rails", "arm": "oost"}, {"soort": "stopstreep", "arm": "zuid"}],
+  "borden": [{"code": "J13", "arm": "zuid"}],
+  "actoren": [
+    {"id": "ego", "soort": "auto", "arm": "zuid", "richting": "stil", "afstand": 2, "label": "jij"},
+    {"id": "grijs", "soort": "auto", "arm": "noord", "richting": "stil", "afstand": 1, "label": "de grijze auto"}
+  ],
+  "alt": "Een rechte weg met twee sporen die er dwars overheen lopen. Rechts van de weg staat bord J13 en op het wegdek ligt een stopstreep voor de sporen. Jij staat stil achter die streep. Aan de overkant van de sporen staat een grijze auto stil.",
+  "inspiratie": {"boek": 95, "beeld": "tekst over wachten tot aan de andere kant ruimte vrij is"}
+}

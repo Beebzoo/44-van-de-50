@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-L01",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "ruiter",
+      "soort": "ruiter",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de ruiter"
+    },
+    {
+      "id": "tegenligger",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Een smalle weg met een berm aan weerszijden en een onderbroken streep in het midden. Jij rijdt van onderen naar boven achter een ruiter die op jouw weghelft rijdt. Op de andere weghelft komt een grijze auto je tegemoet.",
+  "inspiratie": {
+    "boek": 65,
+    "beeld": "sectie 4.3 over fietsers en ruiters op de rijbaan"
+  }
+}

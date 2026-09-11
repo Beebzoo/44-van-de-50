@@ -1,0 +1,48 @@
+{
+  "id": "S-U12-L01",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "zijde": "rechts",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "jij naast de weg"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de grijze auto"
+    },
+    {
+      "id": "vracht",
+      "soort": "vrachtauto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de vrachtauto"
+    }
+  ],
+  "alt": "Een rechte weg waar jouw witte auto stil staat aan de rechterkant van de rijbaan. Schuin achter de auto staat een voetganger in de berm naast de weg, terwijl op de andere rijstrook een grijze auto en een vrachtauto voorbijrijden.",
+  "inspiratie": {
+    "boek": 168,
+    "beeld": "sectie 10.6, pech op de weg"
+  }
+}
