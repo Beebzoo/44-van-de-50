@@ -254,7 +254,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "voetgangers mogen de weg over de volle breedte gebruiken in een erf",
         "bron": "slide 89",
-        "gewijzigd": "stam zei dat de voetganger naar je toe loopt; de tekening laat hem de rijbaan oversteken, dus stam en feedback volgen nu de tekening"
+        "gewijzigd": "stam zei dat de voetganger naar je toe loopt; de tekening laat hem de rijbaan oversteken, dus stam en feedback volgen nu de tekening. Tweede ronde: de voetganger stond in S-U05-004 op dezelfde hoogte als jij, dus hij staat nu een stap verder de weg op en loopt echt vlak voor je langs"
       }
     },
     {
@@ -652,27 +652,27 @@
       "pagina": "U05-P01",
       "type": "volgorde",
       "soort": "inzicht",
-      "stam": "Je staat voor de haaientanden en wilt rechtdoor over de rotonde. Een grijze auto rijdt al op de rotonde en komt van links. Op de arm rechts van je wacht nog een auto voor de haaientanden. In welke volgorde rijden jullie?",
+      "stam": "Je staat voor de haaientanden en wilt rechtdoor over de rotonde. Van links komt een auto die al op de rotonde rijdt. Op de arm rechts van je wacht nog een auto voor de haaientanden. In welke volgorde rijden jullie?",
       "media": {
         "scene": "S-U05-007"
       },
       "opties": [
         {
           "id": "grijs",
-          "tekst": "de grijze auto",
-          "feedback": "De grijze auto rijdt al op de rotonde en heeft door bord [B6] voorrang op iedereen die nog wil oprijden.",
+          "tekst": "de auto op de rotonde",
+          "feedback": "Die auto rijdt al op de rotonde en heeft door bord [B6] voorrang op iedereen die nog wil oprijden.",
           "fouttype": null
         },
         {
           "id": "ego",
           "tekst": "jij",
-          "feedback": "Zodra de grijze auto voorbij is, rijd jij op; daarna ben jij het verkeer op de rotonde waar de auto rechts van je op wacht.",
+          "feedback": "Zodra die auto voorbij is, rijd jij op; daarna ben jij het verkeer op de rotonde waar de auto rechts van je op wacht.",
           "fouttype": null
         },
         {
           "id": "rood",
           "tekst": "de auto rechts van je",
-          "feedback": "Die auto staat ook voor haaientanden en moet zowel de grijze auto als jou op de rotonde voor laten gaan.",
+          "feedback": "Die auto staat ook voor haaientanden en moet zowel de auto op de rotonde als jou voor laten gaan.",
           "fouttype": null
         }
       ],
@@ -713,7 +713,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen",
         "bron": "boek p. 84",
-        "gewijzigd": "de rode auto heet nu de auto rechts van je, want de renderer tekent hem grijs en dan zijn twee auto's niet uit elkaar te houden"
+        "gewijzigd": "de rode auto heet nu de auto rechts van je, want de renderer tekent hem grijs en dan zijn twee auto's niet uit elkaar te houden. Tweede ronde: de renderer tekent allebei de andere auto's grijs, dus de naam de grijze auto wees naar twee auto's tegelijk; die heet nu de auto op de rotonde, in de vraag en in de tekening"
       }
     },
     {
@@ -1074,7 +1074,7 @@
         {
           "id": "nee",
           "tekst": "Nee",
-          "feedback": "Fout. Bij het inrijden van een inrit laat je iedereen voor; dat de fietser achter je zit, verandert daar niets aan.",
+          "feedback": "Fout. Bij het inrijden van een inrit laat je iedereen voor, ook de fietser die rechts naast je rechtdoor gaat.",
           "fouttype": "verkeerd_toegepast"
         }
       ],
@@ -1113,7 +1113,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "De toegang tot een 30 km-zone is vaak een inrit/uitrit. Je moet dan alle weggebruikers voor laten gaan",
         "bron": "boek p. 90",
-        "gewijzigd": "de fietser rijdt op de tekening naast je en er is geen apart fietspad getekend; stam, feedback en waarom bijgesteld"
+        "gewijzigd": "de fietser rijdt op de tekening naast je en er is geen apart fietspad getekend; stam, feedback en waarom bijgesteld. Tweede ronde: de feedback bij nee zei nog dat de fietser achter je zat, terwijl de stam en de tekening hem rechts naast je zetten; ook de alt van S-U05-012 beloofde een fietspad dat de renderer bij een uitrit niet tekent"
       }
     },
     {
@@ -1955,7 +1955,7 @@
         "regel": "In een erf mag je alleen parkeren op plaatsen die met een P zijn aangeduid of op eigen terrein. Het laten in- of uitstappen van passagiers is wel toegestaan.",
         "waarom": "Het parkeerverbod houdt de speel- en loopruimte vrij; een auto die even stopt en meteen doorrijdt, neemt die ruimte niet blijvend in.",
         "valkuil": "Stilstaan om iemand uit te laten stappen is geen parkeren; blijf je staan, dan wordt het dat wel.",
-        "onthoud": "Erf: parkeren alleen op P, uitstappen mag overal."
+        "onthoud": "Erf: parkeren alleen op P of eigen terrein, in- en uitstappen mag wel."
       },
       "bronnen": [
         {
@@ -1980,9 +1980,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Het laten in- of uitstappen van passagiers is wél toegestaan",
-        "bron": "slide 89"
+        "bron": "slide 89",
+        "gewijzigd": "Tweede ronde: onthoud zei uitstappen mag overal, terwijl de bron alleen zegt dat in- en uitstappen is toegestaan; dat overal is eruit"
       }
     },
     {

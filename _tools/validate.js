@@ -324,7 +324,11 @@ const stripPrivate = o => { const c = { ...o }; for (const k of Object.keys(c)) 
 /* ==== questions ==== */
 function validateQuestion(q, where, ctx) {
   if (!validateSchema("question.json", q, where)) return;
-  if (ctx.ids.has(q.id)) fail(where, "dubbele vraag-id " + q.id);
+  /* Checking one batch that is already merged means seeing every question twice,
+     once in the bank and once in the batch. That is not a duplicate id, it is
+     the same question, so only a second id inside the same run counts. */
+  const gemergedeBatch = batchArg && where.includes("questions") && ctx.bankIds.has(q.id);
+  if (ctx.ids.has(q.id) && !gemergedeBatch) fail(where, "dubbele vraag-id " + q.id);
   ctx.ids.add(q.id);
   if (!q.id.startsWith(q.unit + "-")) fail(where, "id " + q.id + " hoort niet bij unit " + q.unit);
   const unit = ctx.units[q.unit];
@@ -486,7 +490,9 @@ function crossChecks(all, units) {
 function main() {
   SRC = loadSources();
   const { units, bank, batches } = loadBank();
-  const ctx = { units, ids: new Set(), unknown: new Map() };
+  const bankIds = new Set();
+  for (const b of Object.values(bank)) for (const q of b.vragen) bankIds.add(q.id);
+  const ctx = { units, ids: new Set(), bankIds, unknown: new Map() };
 
   /* signs manifest and fact registry get the dash and shape checks too */
   if (MANIFEST) {
@@ -527,7 +533,13 @@ function main() {
     if (!b.unit || !Array.isArray(b.vragen)) fail(b._file, "batch heeft unit en vragen[]");
     else for (const q of b.vragen) { if (q.unit !== b.unit) fail(b._file + " " + q.id, "unit klopt niet met de batch"); validateQuestion(q, b._file + " " + q.id, ctx); all.push(q); }
   }
-  crossChecks(all, units);
+  /* A batch that has already been merged sits in the bank and in its batch file
+     at the same time, and the overlap gate then compares every question with
+     itself and reports a perfect match. Three checkers in a row lost time on
+     that, so the later copy wins and the earlier one drops out. */
+  const uniek = [], gezien = new Set();
+  for (let i = all.length - 1; i >= 0; i -= 1) if (!gezien.has(all[i].id)) { gezien.add(all[i].id); uniek.unshift(all[i]); }
+  crossChecks(uniek, units);
   gateDashes();
 
   if (ctx.unknown.size) {

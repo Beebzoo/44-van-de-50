@@ -265,11 +265,11 @@
     },
     {
       "id": "U03-Q012", "unit": "U03", "pagina": "U03-P03", "type": "hotspot", "soort": "inzicht",
-      "stam": "Je rijdt niet op een voorrangsweg, maar op dit ene kruispunt moet de zijweg rechts jou voorrang geven. Tik op het bord dat dat aangeeft.",
+      "stam": "Je rijdt niet op een voorrangsweg. Je nadert een kruispunt met maar één zijweg, aan je rechterkant, en daaruit moet je voorrang krijgen. Tik op het bord dat dat aangeeft.",
       "media": {"borden": ["B1", "B3", "B4", "B5"]},
       "opties": [
         {"id": "B1", "tekst": "B1", "feedback": "Fout. [B1] is de voorrangsweg: dan krijg je voorrang op alle volgende kruispunten, en de vraag zegt juist dat je niet op een voorrangsweg rijdt.", "fouttype": "verkeerd_gelezen"},
-        {"id": "B3", "tekst": "B3", "feedback": "Fout. [B3] is een voorrangskruispunt met zijwegen aan beide kanten; hier gaat het om één zijweg rechts.", "fouttype": "niet_geweten"},
+        {"id": "B3", "tekst": "B3", "feedback": "Fout. [B3] hoort bij een kruispunt met zijwegen aan beide kanten; hier is er maar één zijweg, en die ligt rechts.", "fouttype": "niet_geweten"},
         {"id": "B4", "tekst": "B4", "feedback": "Fout. [B4] geeft een voorrangskruispunt met een zijweg links aan; de zijtak op het bord wijst de verkeerde kant op.", "fouttype": "verkeerd_gelezen"},
         {"id": "B5", "tekst": "B5", "feedback": "Goed. [B5] is het voorrangskruispunt met een zijweg rechts: alleen hier krijg je voorrang uit die zijweg, op het volgende kruispunt kan het anders zijn.", "fouttype": null}
       ],
@@ -285,7 +285,7 @@
       ],
       "cbr_onderwerp": "verkeerstekens_en_aanwijzingen", "moeilijkheid": 2, "tier": "must",
       "tags": ["b5", "voorrangskruispunt", "hotspot"], "reserve": false, "versie": 1, "status": "gecheckt",
-      "checker": {"oordeel": "goed", "bewijs": "Als je niét op een voorrangsweg rijdt, maar tóch voorrang moet krijgen van bestuurders uit zijwegen, wordt dat aangegeven met één van deze borden", "bron": "boek p. 108", "gewijzigd": "fouttypes herzien: B1 mist de ontkenning in de stam, B3 is onbekendheid met het bord"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Als je niét op een voorrangsweg rijdt, maar tóch voorrang moet krijgen van bestuurders uit zijwegen, wordt dat aangegeven met één van deze borden", "bron": "boek p. 108", "gewijzigd": "fouttypes herzien: B1 mist de ontkenning in de stam, B3 is onbekendheid met het bord. Tweede ronde: de stam zei alleen dat de zijweg rechts voorrang moet geven, en dat is bij B3 ook waar; de stam zegt nu dat er maar één zijweg is"}
     }
   ]
 }

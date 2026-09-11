@@ -58,7 +58,7 @@
       "correct": ["nee"],
       "uitleg": {
         "regel": "Als een gelijkwaardig kruispunt extra gevaarlijk is, word je daar vaak voor gewaarschuwd door bord J8. Nader het kruispunt dan extra voorzichtig.",
-        "waarom": "Een rode driehoek waarschuwt alleen; hij neemt geen beslissing over voorrang, dus de rechtsregel blijft de enige regel.",
+        "waarom": "Een rode driehoek waarschuwt alleen; hij neemt geen beslissing over voorrang, dus op dit kruispunt blijft gewoon gelden dat bestuurders van rechts voorgaan.",
         "valkuil": "Verwar J8 niet met B6: bij B6 wijk jij, bij J8 kijk je alleen beter uit.",
         "onthoud": "J8: kijken, niet wijken."
       },
@@ -68,7 +68,7 @@
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
       "tags": ["j8", "gelijkwaardig-kruispunt", "waarschuwingsbord"], "reserve": false, "versie": 1, "status": "gecheckt",
-      "checker": {"oordeel": "goed", "bewijs": "Als een gelijkwaardig kruispunt extra gevaarlijk is, word je daar vaak voor gewaarschuwd door bord J8", "bron": "boek p. 106", "gewijzigd": "stam zegt niet meer dat J8 vlak voor het kruispunt staat, want dat geldt buiten de bebouwde kom niet; fouttype van ja naar niet_geweten"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Als een gelijkwaardig kruispunt extra gevaarlijk is, word je daar vaak voor gewaarschuwd door bord J8", "bron": "boek p. 106", "gewijzigd": "stam zegt niet meer dat J8 vlak voor het kruispunt staat, want dat geldt buiten de bebouwde kom niet; fouttype van ja naar niet_geweten. Tweede ronde: de waarom noemde de rechtsregel de enige regel, terwijl op een gelijkwaardig kruispunt ook de tram voorgaat; die overdrijving is eruit."}
     },
     {
       "id": "U03-Q016", "unit": "U03", "pagina": "U03-P01", "type": "ja_nee", "soort": "inzicht",
@@ -193,7 +193,7 @@
       "stam": "Je passeert bord B1. Wat is waar over de weg waar je nu op rijdt? Kies alle juiste antwoorden.",
       "media": null,
       "opties": [
-        {"id": "a", "tekst": "Je moet op dit kruispunt voorrang krijgen van het verkeer uit de zijwegen.", "feedback": "Goed. Bord B1 betekent dat je op een voorrangsweg rijdt: op dit kruispunt krijg je voorrang van bestuurders uit de zijwegen.", "fouttype": null},
+        {"id": "a", "tekst": "Je moet op dit kruispunt voorrang krijgen van de bestuurders uit de zijwegen.", "feedback": "Goed. Bord B1 betekent dat je op een voorrangsweg rijdt: op dit kruispunt krijg je voorrang van bestuurders uit de zijwegen.", "fouttype": null},
         {"id": "b", "tekst": "Je moet ook op alle volgende kruispunten voorrang krijgen, totdat bord B2 het einde aangeeft.", "feedback": "Goed. Een voorrangsweg geldt niet voor één kruispunt maar voor alle volgende, totdat bord B2 het eind van de voorrangsweg aangeeft.", "fouttype": null},
         {"id": "c", "tekst": "Na bord B2 is het eerstvolgende kruispunt een gelijkwaardig kruispunt, tenzij borden iets anders aangeven.", "feedback": "Goed. Na B2 is het kruispunt dat je daarna nadert een gelijkwaardig kruispunt, tenzij borden iets anders aangeven.", "fouttype": null},
         {"id": "d", "tekst": "Bord B1 geldt alleen voor dit ene kruispunt; op het volgende kunnen andere borden staan.", "feedback": "Fout. Dat is de werking van B3, B4 en B5, de voorrangskruispunten; B1 geldt tot bord B2 op alle kruispunten.", "fouttype": "verkeerd_toegepast"},
@@ -212,7 +212,7 @@
       ],
       "cbr_onderwerp": "verkeerstekens_en_aanwijzingen", "moeilijkheid": 2, "tier": "must",
       "tags": ["b1", "b2", "voorrangsweg"], "reserve": false, "versie": 1, "status": "gecheckt",
-      "checker": {"oordeel": "goed", "bewijs": "Je moet niet alleen op dít kruispunt voorrang krijgen, maar ook op alle volgende kruispunten, totdat bord B2 het eind van de voorrangsweg aangeeft", "bron": "boek p. 107", "gewijzigd": "fouttype van d naar verkeerd_toegepast: de werking van B3 wordt op B1 geplakt"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Je moet niet alleen op dít kruispunt voorrang krijgen, maar ook op alle volgende kruispunten, totdat bord B2 het eind van de voorrangsweg aangeeft", "bron": "boek p. 107", "gewijzigd": "fouttype van d naar verkeerd_toegepast: de werking van B3 wordt op B1 geplakt. Tweede ronde: optie a sprak van het verkeer uit de zijwegen, terwijl voorrang alleen tussen bestuurders geldt; dat is nu bestuurders, zoals het boek schrijft."}
     },
     {
       "id": "U03-Q022", "unit": "U03", "pagina": "U03-P03", "type": "volgorde", "soort": "inzicht",

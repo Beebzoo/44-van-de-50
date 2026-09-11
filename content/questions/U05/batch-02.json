@@ -109,7 +109,7 @@
       "media": {"scene": "S-U05-012"},
       "opties": [
         {"id": "ja", "tekst": "Ja", "feedback": "Goed. De ingang van de zone is een inrit; bij het inrijden laat je alle weggebruikers voor, en de fietser naast je hoort daarbij.", "fouttype": null},
-        {"id": "nee", "tekst": "Nee", "feedback": "Fout. Bij het inrijden van een inrit laat je iedereen voor; dat de fietser achter je zit, verandert daar niets aan.", "fouttype": "verkeerd_toegepast"}
+        {"id": "nee", "tekst": "Nee", "feedback": "Fout. Bij het inrijden van een inrit laat je iedereen voor, ook de fietser die rechts naast je rechtdoor gaat.", "fouttype": "verkeerd_toegepast"}
       ],
       "correct": ["ja"],
       "uitleg": {
@@ -129,7 +129,7 @@
       "reserve": false,
       "versie": 1,
       "status": "gecheckt",
-      "checker": {"oordeel": "gewijzigd", "bewijs": "De toegang tot een 30 km-zone is vaak een inrit/uitrit. Je moet dan alle weggebruikers voor laten gaan", "bron": "boek p. 90", "gewijzigd": "de fietser rijdt op de tekening naast je en er is geen apart fietspad getekend; stam, feedback en waarom bijgesteld"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "De toegang tot een 30 km-zone is vaak een inrit/uitrit. Je moet dan alle weggebruikers voor laten gaan", "bron": "boek p. 90", "gewijzigd": "de fietser rijdt op de tekening naast je en er is geen apart fietspad getekend; stam, feedback en waarom bijgesteld. Tweede ronde: de feedback bij nee zei nog dat de fietser achter je zat, terwijl de stam en de tekening hem rechts naast je zetten; ook de alt van S-U05-012 beloofde een fietspad dat de renderer bij een uitrit niet tekent"}
     },
     {
       "id": "U05-Q017",

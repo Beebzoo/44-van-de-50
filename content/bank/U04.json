@@ -325,7 +325,7 @@
       "pagina": "U04-P03",
       "type": "meerkeuze",
       "soort": "inzicht",
-      "stam": "Jij en een tegemoetkomende auto willen allebei linksaf. Er staan geen pijlen op het wegdek en er ligt geen brede middenberm. Hoe passeren jullie elkaar?",
+      "stam": "Jij en een tegemoetkomende auto naderen het kruispunt en willen allebei linksaf. Geen van jullie heeft al positie gekozen om af te slaan, er staan geen pijlen op het wegdek en er ligt geen brede middenberm. Hoe passeren jullie elkaar?",
       "media": {
         "scene": "S-U04-006"
       },
@@ -395,7 +395,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij:",
         "bron": "boek p. 140",
-        "gewijzigd": "valkuil herschreven: een tegenligger die al positie heeft gekozen is een uitzondering, dan ga je om elkaar heen"
+        "gewijzigd": "valkuil herschreven: een tegenligger die al positie heeft gekozen is een uitzondering, dan ga je om elkaar heen; tweede ronde: de stam sluit nu ook de derde uitzondering van het boek uit, een tegenligger die al duidelijk positie heeft gekozen, want zonder die zin was voor elkaar langs niet zeker het juiste antwoord"
       }
     },
     {
@@ -678,7 +678,7 @@
         }
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
-      "moeilijkheid": 3,
+      "moeilijkheid": 2,
       "tier": "must",
       "tags": [
         "volgorde",
@@ -692,7 +692,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "daarna mag de vrachtauto, want een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat",
         "bron": "slide 126",
-        "gewijzigd": "bron stond op slide 123, de zin staat op slide 126"
+        "gewijzigd": "bron stond op slide 123, de zin staat op slide 126; tweede ronde: moeilijkheid van 3 naar 2, dezelfde ketting van drie als Q011, dat op 2 staat: rechtdoor, dan rechtsaf, dan linksaf"
       }
     },
     {
@@ -826,7 +826,7 @@
         }
       ],
       "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "kinderen",
@@ -840,7 +840,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Ze gaan zo op in hun spel, dat ze er niet aan denken om uit te kijken.",
         "bron": "boek p. 128",
-        "gewijzigd": "stam en valkuil leunden op de rug van het kind naar de weg, en dat toont de tekening niet"
+        "gewijzigd": "stam en valkuil leunden op de rug van het kind naar de weg, en dat toont de tekening niet; tweede ronde: moeilijkheid van 2 naar 1, een spelend kind dat de weg op rent: het juiste antwoord is remmen en dat vraagt geen regelkennis"
       }
     },
     {
@@ -1024,7 +1024,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "zebrapad",
@@ -1035,9 +1035,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Je ziet de voetganger van rechts niet. En hij ziet jou ook niet. Mede daarom is inhalen verboden bij een voetgangersoversteekplaats.",
-        "bron": "boek p. 91"
+        "bron": "boek p. 91",
+        "gewijzigd": "tweede ronde: moeilijkheid van 2 naar 1, het inhaalverbod bij een zebrapad is een losse regel met een ja-neevraag eromheen"
       }
     },
     {
@@ -1159,7 +1160,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 3,
+      "moeilijkheid": 2,
       "tier": "must",
       "tags": [
         "rechts-afslaan",
@@ -1173,7 +1174,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Pas op dat je niet op een inhaler van rechts botst.",
         "bron": "boek p. 138",
-        "gewijzigd": "de stam noemde bomen die de tekening niet kan tonen; de bomen staan nu alleen in de regel, waar het boek ze noemt"
+        "gewijzigd": "de stam noemde bomen die de tekening niet kan tonen; de bomen staan nu alleen in de regel, waar het boek ze noemt; tweede ronde: moeilijkheid van 3 naar 2, de inhaler van rechts staat letterlijk in het boek en de andere drie antwoorden zijn snel weg te strepen"
       }
     },
     {
@@ -1431,7 +1432,7 @@
           "id": "d",
           "tekst": "Nooit, want een gekozen strook ligt vast.",
           "feedback": "Fout. De richting op het kruispunt ligt vast, maar voor het kruispunt mag je zonder doorgetrokken streep nog wisselen.",
-          "fouttype": "verkeerd_gelezen"
+          "fouttype": "verkeerd_toegepast"
         }
       ],
       "correct": [
@@ -1466,9 +1467,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "je mag voor het kruispunt alleen nog van strook wisselen als er geen doorgetrokken streep is en als je geen ander verkeer hindert",
-        "bron": "boek p. 137"
+        "bron": "boek p. 137",
+        "gewijzigd": "tweede ronde: fouttype van optie d van verkeerd_gelezen naar verkeerd_toegepast, want de stam valt niet verkeerd te lezen; wie d kiest verwart de plicht om op het kruispunt de pijl te volgen met een verbod om voor het kruispunt te wisselen"
       }
     },
     {
@@ -1753,9 +1755,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren",
-        "bron": "boek p. 26"
+        "bron": "boek p. 26",
+        "gewijzigd": "tweede ronde: de alt van S-U04-025 beloofde een fiets aan de hand, en die tekent de renderer niet; de alt beschrijft nu alleen de overstekende voetganger, de fiets staat in de stam"
       }
     },
     {
@@ -2011,7 +2014,7 @@
         }
       ],
       "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "kinderen",
@@ -2025,7 +2028,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Als er geparkeerde auto’s staan, is het helemaal uitkijken geblazen.",
         "bron": "boek p. 128",
-        "gewijzigd": "de stam noemde geparkeerde auto’s die de tekening niet kan tonen; ze staan nu in de regel en het waarom"
+        "gewijzigd": "de stam noemde geparkeerde auto’s die de tekening niet kan tonen; ze staan nu in de regel en het waarom; tweede ronde: moeilijkheid van 2 naar 1, ook hier is afremmen en blijven kijken het antwoord dat geen regelkennis vraagt"
       }
     },
     {
@@ -2073,7 +2076,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "zebrapad",
@@ -2087,7 +2090,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Zorg dat je niet op een oversteekplaats tot stilstand komt. Stop op tijd en rijd pas verder als er voldoende vrije ruimte na de oversteekplaats is.",
         "bron": "boek p. 92",
-        "gewijzigd": "de tekening beweerde een rij stilstaande auto’s die er niet stond; nu stopstrepen op alle vier de armen en een alt die beschrijft wat er wel te zien is"
+        "gewijzigd": "de tekening beweerde een rij stilstaande auto’s die er niet stond; nu stopstrepen op alle vier de armen en een alt die beschrijft wat er wel te zien is; tweede ronde: moeilijkheid van 2 naar 1, een oversteekplaats vrijhouden is een losse regel, rechtstreeks toegepast"
       }
     },
     {
@@ -2377,7 +2380,7 @@
         }
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
-      "moeilijkheid": 3,
+      "moeilijkheid": 2,
       "tier": "must",
       "tags": [
         "volgorde",
@@ -2391,7 +2394,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Hier moet je de fietser dus voor laten gaan.",
         "bron": "boek p. 111",
-        "gewijzigd": "de tekening noemde slide 123 als inspiratie, maar dat is de zandweg met de trekker; het is de foto op p. 111"
+        "gewijzigd": "de tekening noemde slide 123 als inspiratie, maar dat is de zandweg met de trekker; het is de foto op p. 111; tweede ronde: moeilijkheid van 3 naar 2, twee regels achter elkaar, net als Q011, en geen van beide is een uitzondering"
       }
     },
     {
@@ -2469,7 +2472,7 @@
       "pagina": "U04-P05",
       "type": "reeks",
       "soort": "inzicht",
-      "stam": "Je nadert een zebrapad. Rechts komt een voetganger bij de strepen aan en kijkt jouw kant op; even later stapt hij de oversteekplaats op. Wat doe je nu?",
+      "stam": "Je nadert een zebrapad. Rechts komt een voetganger bij de strepen aan en blijft daar staan; even later stapt hij de oversteekplaats op. Wat doe je nu?",
       "media": {
         "reeks": [
           "S-U04-036-a",
@@ -2524,7 +2527,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "zebrapad",
@@ -2535,9 +2538,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Rem tijdig en rustig af als je moet stoppen voor voetgangers of bestuurders van een gehandicaptenvoertuig.",
-        "bron": "boek p. 92"
+        "bron": "boek p. 92",
+        "gewijzigd": "tweede ronde: stam en alt vragen niet meer om de blik van de voetganger, want de renderer tekent hem kijkend langs de weg; het wachten en daarna oversteken staat wel in de twee beelden; tweede ronde: moeilijkheid van 2 naar 1, tijdig en rustig remmen voor een voetganger op de strepen is een losse regel"
       }
     }
   ]

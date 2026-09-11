@@ -183,7 +183,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "zebrapad",
@@ -194,9 +194,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Je ziet de voetganger van rechts niet. En hij ziet jou ook niet. Mede daarom is inhalen verboden bij een voetgangersoversteekplaats.",
-        "bron": "boek p. 91"
+        "bron": "boek p. 91",
+        "gewijzigd": "tweede ronde: moeilijkheid van 2 naar 1, het inhaalverbod bij een zebrapad is een losse regel met een ja-neevraag eromheen"
       }
     },
     {
@@ -318,7 +319,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 3,
+      "moeilijkheid": 2,
       "tier": "must",
       "tags": [
         "rechts-afslaan",
@@ -332,7 +333,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Pas op dat je niet op een inhaler van rechts botst.",
         "bron": "boek p. 138",
-        "gewijzigd": "de stam noemde bomen die de tekening niet kan tonen; de bomen staan nu alleen in de regel, waar het boek ze noemt"
+        "gewijzigd": "de stam noemde bomen die de tekening niet kan tonen; de bomen staan nu alleen in de regel, waar het boek ze noemt; tweede ronde: moeilijkheid van 3 naar 2, de inhaler van rechts staat letterlijk in het boek en de andere drie antwoorden zijn snel weg te strepen"
       }
     },
     {
@@ -590,7 +591,7 @@
           "id": "d",
           "tekst": "Nooit, want een gekozen strook ligt vast.",
           "feedback": "Fout. De richting op het kruispunt ligt vast, maar voor het kruispunt mag je zonder doorgetrokken streep nog wisselen.",
-          "fouttype": "verkeerd_gelezen"
+          "fouttype": "verkeerd_toegepast"
         }
       ],
       "correct": [
@@ -625,9 +626,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "je mag voor het kruispunt alleen nog van strook wisselen als er geen doorgetrokken streep is en als je geen ander verkeer hindert",
-        "bron": "boek p. 137"
+        "bron": "boek p. 137",
+        "gewijzigd": "tweede ronde: fouttype van optie d van verkeerd_gelezen naar verkeerd_toegepast, want de stam valt niet verkeerd te lezen; wie d kiest verwart de plicht om op het kruispunt de pijl te volgen met een verbod om voor het kruispunt te wisselen"
       }
     },
     {

@@ -116,7 +116,7 @@
         "regel": "In een erf mag je alleen parkeren op plaatsen die met een P zijn aangeduid of op eigen terrein. Het laten in- of uitstappen van passagiers is wel toegestaan.",
         "waarom": "Het parkeerverbod houdt de speel- en loopruimte vrij; een auto die even stopt en meteen doorrijdt, neemt die ruimte niet blijvend in.",
         "valkuil": "Stilstaan om iemand uit te laten stappen is geen parkeren; blijf je staan, dan wordt het dat wel.",
-        "onthoud": "Erf: parkeren alleen op P, uitstappen mag overal."
+        "onthoud": "Erf: parkeren alleen op P of eigen terrein, in- en uitstappen mag wel."
       },
       "bronnen": [
         {"slide": 89, "anker": "Het laten in- of uitstappen van passagiers is wél toegestaan"},
@@ -129,7 +129,7 @@
       "reserve": false,
       "versie": 1,
       "status": "gecheckt",
-      "checker": {"oordeel": "goed", "bewijs": "Het laten in- of uitstappen van passagiers is wél toegestaan", "bron": "slide 89"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Het laten in- of uitstappen van passagiers is wél toegestaan", "bron": "slide 89", "gewijzigd": "Tweede ronde: onthoud zei uitstappen mag overal, terwijl de bron alleen zegt dat in- en uitstappen is toegestaan; dat overal is eruit"}
     },
     {
       "id": "U05-Q029",

@@ -50,6 +50,11 @@
       "id": "S-U04-026",
       "soort": "alt",
       "reden": "Deze tekening wordt nergens meer gebruikt en blijft liggen voor fase 2, waarin de renderer voorsorteerstroken en verkeerslichten krijgt. Zolang dat niet zo is, beschrijft de alt terecht wat de tekening zou moeten tonen en niet wat hij toont."
+    },
+    {
+      "id": "U04-Q025",
+      "soort": "tekenbaar",
+      "reden": "De fiets die iemand aan de hand meevoert is het scharnier van de vraag en de renderer tekent alleen een voetgangerstip. Wat de leerling moet zien staat er wel: iemand te voet op het zebrapad. De fiets staat in de stam, waar een stam een situatie in woorden mag zetten."
     }
   ]
 }

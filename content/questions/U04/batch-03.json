@@ -59,9 +59,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren",
-        "bron": "boek p. 26"
+        "bron": "boek p. 26",
+        "gewijzigd": "tweede ronde: de alt van S-U04-025 beloofde een fiets aan de hand, en die tekent de renderer niet; de alt beschrijft nu alleen de overstekende voetganger, de fiets staat in de stam"
       }
     },
     {
@@ -317,7 +318,7 @@
         }
       ],
       "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "kinderen",
@@ -331,7 +332,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Als er geparkeerde auto’s staan, is het helemaal uitkijken geblazen.",
         "bron": "boek p. 128",
-        "gewijzigd": "de stam noemde geparkeerde auto’s die de tekening niet kan tonen; ze staan nu in de regel en het waarom"
+        "gewijzigd": "de stam noemde geparkeerde auto’s die de tekening niet kan tonen; ze staan nu in de regel en het waarom; tweede ronde: moeilijkheid van 2 naar 1, ook hier is afremmen en blijven kijken het antwoord dat geen regelkennis vraagt"
       }
     },
     {
@@ -379,7 +380,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "zebrapad",
@@ -393,7 +394,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Zorg dat je niet op een oversteekplaats tot stilstand komt. Stop op tijd en rijd pas verder als er voldoende vrije ruimte na de oversteekplaats is.",
         "bron": "boek p. 92",
-        "gewijzigd": "de tekening beweerde een rij stilstaande auto’s die er niet stond; nu stopstrepen op alle vier de armen en een alt die beschrijft wat er wel te zien is"
+        "gewijzigd": "de tekening beweerde een rij stilstaande auto’s die er niet stond; nu stopstrepen op alle vier de armen en een alt die beschrijft wat er wel te zien is; tweede ronde: moeilijkheid van 2 naar 1, een oversteekplaats vrijhouden is een losse regel, rechtstreeks toegepast"
       }
     },
     {
@@ -683,7 +684,7 @@
         }
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
-      "moeilijkheid": 3,
+      "moeilijkheid": 2,
       "tier": "must",
       "tags": [
         "volgorde",
@@ -697,7 +698,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Hier moet je de fietser dus voor laten gaan.",
         "bron": "boek p. 111",
-        "gewijzigd": "de tekening noemde slide 123 als inspiratie, maar dat is de zandweg met de trekker; het is de foto op p. 111"
+        "gewijzigd": "de tekening noemde slide 123 als inspiratie, maar dat is de zandweg met de trekker; het is de foto op p. 111; tweede ronde: moeilijkheid van 3 naar 2, twee regels achter elkaar, net als Q011, en geen van beide is een uitzondering"
       }
     },
     {
@@ -775,7 +776,7 @@
       "pagina": "U04-P05",
       "type": "reeks",
       "soort": "inzicht",
-      "stam": "Je nadert een zebrapad. Rechts komt een voetganger bij de strepen aan en kijkt jouw kant op; even later stapt hij de oversteekplaats op. Wat doe je nu?",
+      "stam": "Je nadert een zebrapad. Rechts komt een voetganger bij de strepen aan en blijft daar staan; even later stapt hij de oversteekplaats op. Wat doe je nu?",
       "media": {
         "reeks": [
           "S-U04-036-a",
@@ -830,7 +831,7 @@
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "zebrapad",
@@ -841,9 +842,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Rem tijdig en rustig af als je moet stoppen voor voetgangers of bestuurders van een gehandicaptenvoertuig.",
-        "bron": "boek p. 92"
+        "bron": "boek p. 92",
+        "gewijzigd": "tweede ronde: stam en alt vragen niet meer om de blik van de voetganger, want de renderer tekent hem kijkend langs de weg; het wachten en daarna oversteken staat wel in de twee beelden; tweede ronde: moeilijkheid van 2 naar 1, tijdig en rustig remmen voor een voetganger op de strepen is een losse regel"
       }
     }
   ]

@@ -42,3 +42,7 @@ Zie `content/facts/REGISTRY-NOTES.md`, deel (d), voor twaalf getallen waarop boe
 ## 2026-09-11, checker U07 aanvulling
 
 1. **Voetgangers: inhalen of voorbijgaan, boek p. 140 tegenover p. 145.** Op p. 140 definieert het boek voorbijgaan als "het passeren van (buiten het verkeer) stilstaande voertuigen, stilstaande obstakels en voetgangers", en inhalen als rijdende bestuurders onderling. Vijf pagina's later schrijft het "houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand". Voor het examen telt de definitie op p. 140, want dat is waar het boek het verschil uitlegt. De 1,5 meter geldt onder allebei de lezingen, dus voor het antwoord maakt het niets uit. U07-Q037 en Q038 citeren elk hun eigen pagina getrouw.
+
+## 2026-09-11, tweede ronde U05
+
+1. **Erfborden, boek p. 89 en 90 tegenover hoofdstuk 14 (p. 243 en 244).** De fotobijschriften bij sectie 5.3 noemen het erfbord G7 en het bord einde erf G8. Hoofdstuk 14, de cursus op slide 89 en het bordenmanifest geven G5 voor erf en G6 voor einde erf. Hoofdstuk 14 is leidend. Blok 5 gebruikt overal G5 en G6, ook in U05-Q012, U05-Q036 en op leespagina U05-P03. HANDOFF.md verwees al naar dit conflict terwijl het hier nog niet stond; vandaar deze regel.

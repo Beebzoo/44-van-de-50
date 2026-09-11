@@ -326,7 +326,7 @@
       "pagina": "U04-P03",
       "type": "meerkeuze",
       "soort": "inzicht",
-      "stam": "Jij en een tegemoetkomende auto willen allebei linksaf. Er staan geen pijlen op het wegdek en er ligt geen brede middenberm. Hoe passeren jullie elkaar?",
+      "stam": "Jij en een tegemoetkomende auto naderen het kruispunt en willen allebei linksaf. Geen van jullie heeft al positie gekozen om af te slaan, er staan geen pijlen op het wegdek en er ligt geen brede middenberm. Hoe passeren jullie elkaar?",
       "media": {
         "scene": "S-U04-006"
       },
@@ -396,7 +396,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij:",
         "bron": "boek p. 140",
-        "gewijzigd": "valkuil herschreven: een tegenligger die al positie heeft gekozen is een uitzondering, dan ga je om elkaar heen"
+        "gewijzigd": "valkuil herschreven: een tegenligger die al positie heeft gekozen is een uitzondering, dan ga je om elkaar heen; tweede ronde: de stam sluit nu ook de derde uitzondering van het boek uit, een tegenligger die al duidelijk positie heeft gekozen, want zonder die zin was voor elkaar langs niet zeker het juiste antwoord"
       }
     },
     {
@@ -679,7 +679,7 @@
         }
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
-      "moeilijkheid": 3,
+      "moeilijkheid": 2,
       "tier": "must",
       "tags": [
         "volgorde",
@@ -693,7 +693,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "daarna mag de vrachtauto, want een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat",
         "bron": "slide 126",
-        "gewijzigd": "bron stond op slide 123, de zin staat op slide 126"
+        "gewijzigd": "bron stond op slide 123, de zin staat op slide 126; tweede ronde: moeilijkheid van 3 naar 2, dezelfde ketting van drie als Q011, dat op 2 staat: rechtdoor, dan rechtsaf, dan linksaf"
       }
     },
     {
@@ -827,7 +827,7 @@
         }
       ],
       "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
-      "moeilijkheid": 2,
+      "moeilijkheid": 1,
       "tier": "must",
       "tags": [
         "kinderen",
@@ -841,7 +841,7 @@
         "oordeel": "gewijzigd",
         "bewijs": "Ze gaan zo op in hun spel, dat ze er niet aan denken om uit te kijken.",
         "bron": "boek p. 128",
-        "gewijzigd": "stam en valkuil leunden op de rug van het kind naar de weg, en dat toont de tekening niet"
+        "gewijzigd": "stam en valkuil leunden op de rug van het kind naar de weg, en dat toont de tekening niet; tweede ronde: moeilijkheid van 2 naar 1, een spelend kind dat de weg op rent: het juiste antwoord is remmen en dat vraagt geen regelkennis"
       }
     }
   ]

@@ -752,7 +752,7 @@
       "pagina": "U03-P03",
       "type": "hotspot",
       "soort": "inzicht",
-      "stam": "Je rijdt niet op een voorrangsweg, maar op dit ene kruispunt moet de zijweg rechts jou voorrang geven. Tik op het bord dat dat aangeeft.",
+      "stam": "Je rijdt niet op een voorrangsweg. Je nadert een kruispunt met maar één zijweg, aan je rechterkant, en daaruit moet je voorrang krijgen. Tik op het bord dat dat aangeeft.",
       "media": {
         "borden": [
           "B1",
@@ -771,7 +771,7 @@
         {
           "id": "B3",
           "tekst": "B3",
-          "feedback": "Fout. [B3] is een voorrangskruispunt met zijwegen aan beide kanten; hier gaat het om één zijweg rechts.",
+          "feedback": "Fout. [B3] hoort bij een kruispunt met zijwegen aan beide kanten; hier is er maar één zijweg, en die ligt rechts.",
           "fouttype": "niet_geweten"
         },
         {
@@ -818,10 +818,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Als je niét op een voorrangsweg rijdt, maar tóch voorrang moet krijgen van bestuurders uit zijwegen, wordt dat aangegeven met één van deze borden",
         "bron": "boek p. 108",
-        "gewijzigd": "fouttypes herzien: B1 mist de ontkenning in de stam, B3 is onbekendheid met het bord"
+        "gewijzigd": "fouttypes herzien: B1 mist de ontkenning in de stam, B3 is onbekendheid met het bord. Tweede ronde: de stam zei alleen dat de zijweg rechts voorrang moet geven, en dat is bij B3 ook waar; de stam zegt nu dat er maar één zijweg is"
       }
     },
     {
@@ -974,7 +974,7 @@
       ],
       "uitleg": {
         "regel": "Als een gelijkwaardig kruispunt extra gevaarlijk is, word je daar vaak voor gewaarschuwd door bord J8. Nader het kruispunt dan extra voorzichtig.",
-        "waarom": "Een rode driehoek waarschuwt alleen; hij neemt geen beslissing over voorrang, dus de rechtsregel blijft de enige regel.",
+        "waarom": "Een rode driehoek waarschuwt alleen; hij neemt geen beslissing over voorrang, dus op dit kruispunt blijft gewoon gelden dat bestuurders van rechts voorgaan.",
         "valkuil": "Verwar J8 niet met B6: bij B6 wijk jij, bij J8 kijk je alleen beter uit.",
         "onthoud": "J8: kijken, niet wijken."
       },
@@ -1002,10 +1002,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Als een gelijkwaardig kruispunt extra gevaarlijk is, word je daar vaak voor gewaarschuwd door bord J8",
         "bron": "boek p. 106",
-        "gewijzigd": "stam zegt niet meer dat J8 vlak voor het kruispunt staat, want dat geldt buiten de bebouwde kom niet; fouttype van ja naar niet_geweten"
+        "gewijzigd": "stam zegt niet meer dat J8 vlak voor het kruispunt staat, want dat geldt buiten de bebouwde kom niet; fouttype van ja naar niet_geweten. Tweede ronde: de waarom noemde de rechtsregel de enige regel, terwijl op een gelijkwaardig kruispunt ook de tram voorgaat; die overdrijving is eruit."
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "opties": [
         {
           "id": "a",
-          "tekst": "Je moet op dit kruispunt voorrang krijgen van het verkeer uit de zijwegen.",
+          "tekst": "Je moet op dit kruispunt voorrang krijgen van de bestuurders uit de zijwegen.",
           "feedback": "Goed. Bord B1 betekent dat je op een voorrangsweg rijdt: op dit kruispunt krijg je voorrang van bestuurders uit de zijwegen.",
           "fouttype": null
         },
@@ -1428,10 +1428,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "Je moet niet alleen op dít kruispunt voorrang krijgen, maar ook op alle volgende kruispunten, totdat bord B2 het eind van de voorrangsweg aangeeft",
         "bron": "boek p. 107",
-        "gewijzigd": "fouttype van d naar verkeerd_toegepast: de werking van B3 wordt op B1 geplakt"
+        "gewijzigd": "fouttype van d naar verkeerd_toegepast: de werking van B3 wordt op B1 geplakt. Tweede ronde: optie a sprak van het verkeer uit de zijwegen, terwijl voorrang alleen tussen bestuurders geldt; dat is nu bestuurders, zoals het boek schrijft."
       }
     },
     {
@@ -2176,8 +2176,8 @@
         },
         {
           "id": "d",
-          "tekst": "Er nadert een tram over de rails die het kruispunt kruisen.",
-          "feedback": "Fout. Op een gelijkwaardig kruispunt verleen je voorrang aan trams, ongeacht uit welke richting de tram komt; een tram van links gaat dus toch voor jou.",
+          "tekst": "De weg rechts van je is geen zijweg maar een uitrit, waar een auto uit komt rijden.",
+          "feedback": "Fout. Een uitrit is geen kruispunt: wie daaruit komt moet alle weggebruikers voor laten gaan. De rechtsregel geldt hier dus niet en jij mag eerst.",
           "fouttype": "niet_geweten"
         },
         {
@@ -2193,10 +2193,10 @@
         "e"
       ],
       "uitleg": {
-        "regel": "Bij gelijkwaardige kruispunten staan geen borden of tekens die de voorrang regelen; bestuurders verlenen voorrang aan alle bestuurders die van rechts komen en aan trams, ongeacht uit welke richting de tram komt. Een drempel heeft geen invloed op de voorrangsregeling.",
-        "waarom": "Wie voorrang heeft moet je van een afstand kunnen zien, en alleen een bord, een teken of het soort wegdek is van ver te herkennen; hoe breed of hoe druk een weg is, zegt niets.",
+        "regel": "Bij gelijkwaardige kruispunten staan geen borden of tekens die de voorrang regelen; bestuurders verlenen voorrang aan alle bestuurders die van rechts komen. Een drempel heeft geen invloed op de voorrangsregeling. Een wegaansluiting met een uitritconstructie wordt niet als kruispunt gezien: daar moet je alle weggebruikers voor laten gaan.",
+        "waarom": "Wie voorrang heeft moet je van een afstand kunnen zien: een bord, een teken, het soort wegdek of de stoeprand van een uitrit verraadt de regeling, terwijl een drempel en de vorm van het kruispunt daar niets over zeggen.",
         "valkuil": "Een drempel en bord J8 vragen om langzamer rijden, niet om een andere volgorde.",
-        "onthoud": "Alleen borden, tekens, het wegdek en de tram veranderen de voorrang."
+        "onthoud": "Wegdek, borden, tekens, uitrit en tram veranderen de voorrang; een drempel en de vorm niet."
       },
       "bronnen": [
         {
@@ -2218,6 +2218,11 @@
           "boek": 109,
           "sectie": "6.2",
           "anker": "bestuurders op een onverharde weg verlenen voorrang aan bestuurders op een kruisende verharde weg"
+        },
+        {
+          "boek": 109,
+          "sectie": "6.2",
+          "anker": "je moet hier wel alle weggebruikers (ook voetgangers) voor laten gaan"
         }
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
@@ -2232,10 +2237,10 @@
       "versie": 1,
       "status": "gecheckt",
       "checker": {
-        "oordeel": "goed",
+        "oordeel": "gewijzigd",
         "bewijs": "moet je natuurlijk ook niet vergeten om bestuurders van rechts voorrang te verlenen",
         "bron": "boek p. 106",
-        "gewijzigd": "stam sprak van een kruispunt zonder borden terwijl optie c juist bord J8 noemt; stam vraagt nu welke omstandigheden niets veranderen. Optie e nu onderbouwd met de zin op p. 106 dat je op de doorgaande weg bestuurders van rechts voorrang verleent, in plaats van met de zin over wat het verkeer denkt"
+        "gewijzigd": "stam sprak van een kruispunt zonder borden terwijl optie c juist bord J8 noemt; stam vraagt nu welke omstandigheden niets veranderen. Optie e nu onderbouwd met de zin op p. 106 dat je op de doorgaande weg bestuurders van rechts voorrang verleent, in plaats van met de zin over wat het verkeer denkt. Tweede ronde: optie d noemde een naderende tram, maar een tram verandert niets aan de regel dat je bestuurders van rechts voorrang verleent, dus die afleider was bij nader inzien ook waar; d gaat nu over een uitrit, die de rechtsregel wel opzij zet. Regel, waarom, onthoud en bronnen daarop aangepast."
       }
     },
     {

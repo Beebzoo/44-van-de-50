@@ -130,7 +130,7 @@
       "reserve": false,
       "versie": 1,
       "status": "gecheckt",
-      "checker": {"oordeel": "gewijzigd", "bewijs": "voetgangers mogen de weg over de volle breedte gebruiken in een erf", "bron": "slide 89", "gewijzigd": "stam zei dat de voetganger naar je toe loopt; de tekening laat hem de rijbaan oversteken, dus stam en feedback volgen nu de tekening"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "voetgangers mogen de weg over de volle breedte gebruiken in een erf", "bron": "slide 89", "gewijzigd": "stam zei dat de voetganger naar je toe loopt; de tekening laat hem de rijbaan oversteken, dus stam en feedback volgen nu de tekening. Tweede ronde: de voetganger stond in S-U05-004 op dezelfde hoogte als jij, dus hij staat nu een stap verder de weg op en loopt echt vlak voor je langs"}
     },
     {
       "id": "U05-Q005",
@@ -312,12 +312,12 @@
       "pagina": "U05-P01",
       "type": "volgorde",
       "soort": "inzicht",
-      "stam": "Je staat voor de haaientanden en wilt rechtdoor over de rotonde. Een grijze auto rijdt al op de rotonde en komt van links. Op de arm rechts van je wacht nog een auto voor de haaientanden. In welke volgorde rijden jullie?",
+      "stam": "Je staat voor de haaientanden en wilt rechtdoor over de rotonde. Van links komt een auto die al op de rotonde rijdt. Op de arm rechts van je wacht nog een auto voor de haaientanden. In welke volgorde rijden jullie?",
       "media": {"scene": "S-U05-007"},
       "opties": [
-        {"id": "grijs", "tekst": "de grijze auto", "feedback": "De grijze auto rijdt al op de rotonde en heeft door bord [B6] voorrang op iedereen die nog wil oprijden.", "fouttype": null},
-        {"id": "ego", "tekst": "jij", "feedback": "Zodra de grijze auto voorbij is, rijd jij op; daarna ben jij het verkeer op de rotonde waar de auto rechts van je op wacht.", "fouttype": null},
-        {"id": "rood", "tekst": "de auto rechts van je", "feedback": "Die auto staat ook voor haaientanden en moet zowel de grijze auto als jou op de rotonde voor laten gaan.", "fouttype": null}
+        {"id": "grijs", "tekst": "de auto op de rotonde", "feedback": "Die auto rijdt al op de rotonde en heeft door bord [B6] voorrang op iedereen die nog wil oprijden.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Zodra die auto voorbij is, rijd jij op; daarna ben jij het verkeer op de rotonde waar de auto rechts van je op wacht.", "fouttype": null},
+        {"id": "rood", "tekst": "de auto rechts van je", "feedback": "Die auto staat ook voor haaientanden en moet zowel de auto op de rotonde als jou voor laten gaan.", "fouttype": null}
       ],
       "correct": ["grijs", "ego", "rood"],
       "uitleg": {
@@ -337,7 +337,7 @@
       "reserve": false,
       "versie": 1,
       "status": "gecheckt",
-      "checker": {"oordeel": "gewijzigd", "bewijs": "Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen", "bron": "boek p. 84", "gewijzigd": "de rode auto heet nu de auto rechts van je, want de renderer tekent hem grijs en dan zijn twee auto's niet uit elkaar te houden"}
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen", "bron": "boek p. 84", "gewijzigd": "de rode auto heet nu de auto rechts van je, want de renderer tekent hem grijs en dan zijn twee auto's niet uit elkaar te houden. Tweede ronde: de renderer tekent allebei de andere auto's grijs, dus de naam de grijze auto wees naar twee auto's tegelijk; die heet nu de auto op de rotonde, in de vraag en in de tekening"}
     },
     {
       "id": "U05-Q011",
