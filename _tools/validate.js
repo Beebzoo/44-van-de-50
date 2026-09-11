@@ -24,6 +24,8 @@ const CONTENT = path.join(REPO, "content");
 const args = process.argv.slice(2);
 const NO_SOURCES = args.includes("geen-bronnen");
 const QUIET = args.includes("stil");
+const WOORDEN = args.includes("woorden");   /* schrijf elk onbekend woord uit, om woordenlijst.txt mee te vullen */
+const HERHAALD = 5;   /* vanaf hoe vaak een onbekend woord verdacht wordt in plaats van gewoon nieuw */
 const batchArg = args.find(a => a.endsWith(".json"));
 
 const fails = [], warns = [];
@@ -543,8 +545,12 @@ function main() {
   gateDashes();
 
   if (ctx.unknown.size) {
-    const top = [...ctx.unknown.entries()].sort((a, b) => b[1] - a[1]).slice(0, 40);
-    warn("spelling", top.length + " onbekende woorden, de vaakste: " + top.map(([w, n]) => w + (n > 1 ? " x" + n : "")).join(", "));
+    const alle = [...ctx.unknown.entries()].sort((a, b) => b[1] - a[1]);
+    const vaak = alle.filter(([, n]) => n >= HERHAALD);
+    if (vaak.length) warn("spelling", vaak.length + " onbekende woorden komen " + HERHAALD + " keer of vaker terug, en dat wijst meestal op een sjabloon: " + vaak.map(([w, n]) => w + " x" + n).join(", ") + ". Klopt het woord, zet het dan in _tools/woordenlijst.txt.");
+    const staart = alle.length - vaak.length;
+    if (staart) warn("spelling", staart + " woorden komen een paar keer voor en staan niet in de bronnen; dat is normaal voor eigen tekst (draai met de vlag woorden voor de lijst)");
+    if (WOORDEN) { console.log("Alle onbekende woorden, een per regel:"); for (const [w] of alle.slice().sort((a, b) => a[0].localeCompare(b[0]))) console.log(w); }
   }
   for (const w of warns) console.log("  waarschuwing " + w);
   for (const f of fails) console.log("  FOUT " + f);

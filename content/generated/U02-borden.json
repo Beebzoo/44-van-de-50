@@ -110,7 +110,7 @@
       "uitleg": {
         "regel": "A1 betekent: Maximumsnelheid.",
         "waarom": "Kijk naar de vorm en de kleur: ronde witte plaat met rode rand en zwart 50.",
-        "valkuil": "De lijkers zijn A2, A4, A3. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: A2, A4, A3. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -237,7 +237,7 @@
       "uitleg": {
         "regel": "A2 betekent: Einde maximumsnelheid.",
         "waarom": "Kijk naar de vorm en de kleur: ronde witte plaat met grijs 50 doorkruist door schuine strepen.",
-        "valkuil": "De lijkers zijn A1, A5. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: A1, A5. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -364,7 +364,7 @@
       "uitleg": {
         "regel": "A3 betekent: Maximumsnelheid op een elektronisch signaleringsbord.",
         "waarom": "Kijk naar de vorm en de kleur: zwart elektronisch paneel met 70 in een rode ring.",
-        "valkuil": "De lijkers zijn A1, A2. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: A1, A2. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -491,7 +491,7 @@
       "uitleg": {
         "regel": "A4 betekent: Adviessnelheid.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant bord met wit 50 km/u.",
-        "valkuil": "De lijkers zijn A5, A1. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: A5, A1. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -618,7 +618,7 @@
       "uitleg": {
         "regel": "A5 betekent: Einde adviessnelheid.",
         "waarom": "Kijk naar de vorm en de kleur: hetzelfde blauwe bord met een rode diagonale streep.",
-        "valkuil": "De lijkers zijn A4, A2. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: A4, A2. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -759,7 +759,7 @@
       "uitleg": {
         "regel": "C1 betekent: Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel, wit binnenvlak.",
-        "valkuil": "De lijkers zijn C2, C12. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C2, C12. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -900,7 +900,7 @@
       "uitleg": {
         "regel": "C10 betekent: Gesloten voor motorvoertuigen met aanhangwagen.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte auto met aanhangwagen.",
-        "valkuil": "De lijkers zijn C6, C12. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C6, C12. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1041,7 +1041,7 @@
       "uitleg": {
         "regel": "C11 betekent: Gesloten voor motoren.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte motorfiets.",
-        "valkuil": "De lijkers zijn C6, C12. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C6, C12. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1182,7 +1182,7 @@
       "uitleg": {
         "regel": "C12 betekent: Gesloten voor alle motorvoertuigen.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte auto en motorfiets.",
-        "valkuil": "De lijkers zijn C6, C11. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C6, C11. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1323,7 +1323,7 @@
       "uitleg": {
         "regel": "C13 betekent: Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte bromfiets.",
-        "valkuil": "De lijkers zijn C14, C15. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C14, C15. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1464,7 +1464,7 @@
       "uitleg": {
         "regel": "C14 betekent: Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte fiets.",
-        "valkuil": "De lijkers zijn C13, C15. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C13, C15. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1605,7 +1605,7 @@
       "uitleg": {
         "regel": "C15 betekent: Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte fiets en bromfiets.",
-        "valkuil": "De lijkers zijn C13, C14. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C13, C14. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1746,7 +1746,7 @@
       "uitleg": {
         "regel": "C16 betekent: Gesloten voor voetgangers.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte voetganger.",
-        "valkuil": "De lijkers zijn C14, C9. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C14, C9. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -1887,7 +1887,7 @@
       "uitleg": {
         "regel": "C17 betekent: Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met 10 m tussen twee pijlpunten.",
-        "valkuil": "De lijkers zijn C18, C19. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C18, C19. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2028,7 +2028,7 @@
       "uitleg": {
         "regel": "C18 betekent: Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met 2,3 m tussen twee pijlpunten.",
-        "valkuil": "De lijkers zijn C17, C19. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C17, C19. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2169,7 +2169,7 @@
       "uitleg": {
         "regel": "C19 betekent: Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met 3,1 m tussen twee verticale pijlpunten.",
-        "valkuil": "De lijkers zijn C18, C17, L1. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C18, C17, L1. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2310,7 +2310,7 @@
       "uitleg": {
         "regel": "C2 betekent: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een brede witte horizontale balk.",
-        "valkuil": "De lijkers zijn C1, F10. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C1, F10. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2451,7 +2451,7 @@
       "uitleg": {
         "regel": "C20 betekent: Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met 4,8 t boven een assymbool.",
-        "valkuil": "De lijkers zijn C21. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C21. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2592,7 +2592,7 @@
       "uitleg": {
         "regel": "C21 betekent: Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met 5,4 t.",
-        "valkuil": "De lijkers zijn C20. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C20. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2733,7 +2733,7 @@
       "uitleg": {
         "regel": "C22 betekent: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte tankwagen met rood gevarenbord.",
-        "valkuil": "De lijkers zijn C22e. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C22e. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -2874,7 +2874,7 @@
       "uitleg": {
         "regel": "C22e betekent: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte auto en bestelbus met uitlaatgassen.",
-        "valkuil": "De lijkers zijn C22. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C22. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3156,7 +3156,7 @@
       "uitleg": {
         "regel": "C22e4 betekent: Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
         "waarom": "Kijk naar de vorm en de kleur: wit onderbord met het woord diesel, een personenauto en een rij gekleurde emissieklasse-rondjes.",
-        "valkuil": "De lijkers zijn C22e6. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C22e6. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3297,7 +3297,7 @@
       "uitleg": {
         "regel": "C22e6 betekent: Onderbord bij C22e: milieuzone voor dieselpersonenauto's en bedrijfsauto's, toegankelijk voor...",
         "waarom": "Kijk naar de vorm en de kleur: wit onderbord diesel met een personenauto en een bestelbus, met emissieklasse-rondjes.",
-        "valkuil": "De lijkers zijn C22e4. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C22e4. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3438,7 +3438,7 @@
       "uitleg": {
         "regel": "C23-01 betekent: Spitsstrook open.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met vier witte pijlen omhoog.",
-        "valkuil": "De lijkers zijn C23-02, C23-03. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C23-02, C23-03. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3579,7 +3579,7 @@
       "uitleg": {
         "regel": "C23-02 betekent: Spitsstrook vrijmaken.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant waarvan de rechter pijl naar links afbuigt.",
-        "valkuil": "De lijkers zijn C23-01, C23-03. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C23-01, C23-03. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3720,7 +3720,7 @@
       "uitleg": {
         "regel": "C23-03 betekent: Einde spitsstrook.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts.",
-        "valkuil": "De lijkers zijn C23-01, C23-02. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C23-01, C23-02. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3847,7 +3847,7 @@
       "uitleg": {
         "regel": "C3 betekent: Eenrichtingsweg.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met een witte pijl omhoog.",
-        "valkuil": "De lijkers zijn C4, C5. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C4, C5. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -3988,7 +3988,7 @@
       "uitleg": {
         "regel": "C4 betekent: Eenrichtingsweg.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met een witte pijl naar rechts.",
-        "valkuil": "De lijkers zijn C3, C5. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C3, C5. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4129,7 +4129,7 @@
       "uitleg": {
         "regel": "C5 betekent: Inrijden toegestaan.",
         "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met een witte pijl omlaag en een witte pijl omhoog.",
-        "valkuil": "De lijkers zijn C3, C4, C2. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C3, C4, C2. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4270,7 +4270,7 @@
       "uitleg": {
         "regel": "C6 betekent: Gesloten voor motorvoertuigen op meer dan twee wielen.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte auto.",
-        "valkuil": "De lijkers zijn C11, C12, C10. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C11, C12, C10. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4411,7 +4411,7 @@
       "uitleg": {
         "regel": "C7 betekent: Gesloten voor vrachtauto's.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte vrachtauto.",
-        "valkuil": "De lijkers zijn C7a, C7b, C6. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C7a, C7b, C6. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4552,7 +4552,7 @@
       "uitleg": {
         "regel": "C7a betekent: Gesloten voor autobussen.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte autobus.",
-        "valkuil": "De lijkers zijn C7, C7b. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C7, C7b. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4693,7 +4693,7 @@
       "uitleg": {
         "regel": "C7b betekent: Gesloten voor autobussen en vrachtauto's.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte autobus en vrachtauto.",
-        "valkuil": "De lijkers zijn C7, C7a. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C7, C7a. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4834,7 +4834,7 @@
       "uitleg": {
         "regel": "C8 betekent: Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte tractor.",
-        "valkuil": "De lijkers zijn C9, C7. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C9, C7. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -4975,7 +4975,7 @@
       "uitleg": {
         "regel": "C9 betekent: Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
         "waarom": "Kijk naar de vorm en de kleur: rode cirkel met tractor, ruiter, fiets en bromfiets.",
-        "valkuil": "De lijkers zijn C8, C15. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: C8, C15. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5116,7 +5116,7 @@
       "uitleg": {
         "regel": "D1 betekent: Rotonde; verplichte rijrichting.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met drie witte pijlen in een kring.",
-        "valkuil": "De lijkers zijn D2, D3, J9. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D2, D3, J9. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5257,7 +5257,7 @@
       "uitleg": {
         "regel": "D2 betekent: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een dikke witte pijl schuin naar rechtsonder.",
-        "valkuil": "De lijkers zijn D3, D1. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D3, D1. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5398,7 +5398,7 @@
       "uitleg": {
         "regel": "D3 betekent: Bord mag aan beide zijden worden voorbij gegaan.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts.",
-        "valkuil": "De lijkers zijn D2. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D2. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5525,7 +5525,7 @@
       "uitleg": {
         "regel": "D4 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte pijl omhoog.",
-        "valkuil": "De lijkers zijn D5, D6, D7. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D5, D6, D7. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5652,7 +5652,7 @@
       "uitleg": {
         "regel": "D5 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte pijl die naar rechts buigt.",
-        "valkuil": "De lijkers zijn D4, D6, D7. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D4, D6, D7. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5779,7 +5779,7 @@
       "uitleg": {
         "regel": "D6 betekent: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts.",
-        "valkuil": "De lijkers zijn D7, D4, D5. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D7, D4, D5. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {
@@ -5906,7 +5906,7 @@
       "uitleg": {
         "regel": "D7 betekent: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
         "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte pijl die zich splitst naar links en rechts.",
-        "valkuil": "De lijkers zijn D6, D4, D5. Zoek het verschil in de tekening."
+        "valkuil": "Deze borden lijken erop: D6, D4, D5. Zoek het verschil in de tekening."
       },
       "bronnen": [
         {

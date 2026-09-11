@@ -136,7 +136,7 @@ function signItems(unit) {
           ? { id: c, tekst: shortMeaning(b), feedback: "Goed. Dit is " + code + ": " + clean(b.omschrijving).toLowerCase() + ", en dat betekent " + shortMeaning(b).replace(/[.]$/, "") + ".", fouttype: null }
           : { id: c, tekst: shortMeaning(byCode.get(c)), feedback: "Fout. Dat is de betekenis van " + c + ", " + clean(byCode.get(c).omschrijving).toLowerCase() + ". Dit bord is " + code + ".", fouttype: "niet_geweten" }),
         correct: [code],
-        uitleg: { regel: code + " betekent: " + shortMeaning(b), waarom: "Kijk naar de vorm en de kleur: " + clean(b.omschrijving).toLowerCase() + ".", valkuil: near.length ? "De lijkers zijn " + near.join(", ") + ". Zoek het verschil in de tekening." : "Meer borden in familie " + b.familie + " lijken hierop." },
+        uitleg: { regel: code + " betekent: " + shortMeaning(b), waarom: "Kijk naar de vorm en de kleur: " + clean(b.omschrijving).toLowerCase() + ".", valkuil: near.length ? "Deze borden lijken erop: " + near.join(", ") + ". Zoek het verschil in de tekening." : "Meer borden in familie " + b.familie + " lijken hierop." },
         bronnen: bron, cbr_onderwerp: "verkeerstekens_en_aanwijzingen", moeilijkheid: 1, tier: unit.tier, tags: ["bord-" + code.toLowerCase(), "borden-" + b.familie.toLowerCase()], gegenereerd: true, versie: 1, status: "gecheckt",
       });
     }
