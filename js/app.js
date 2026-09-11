@@ -6,7 +6,7 @@
    literals; clicks are delegated on data-actie attributes. */
 import * as store from "./store.js";
 import { listen, go } from "./router.js";
-import { loadSigns, sign, bordHtml, hasSymbol, families, allSigns, familyName } from "./signs.js";
+import { loadSigns, sign, bordHtml, hasSymbol, families, allSigns, familyName, lampHtml, LAMPEN } from "./signs.js";
 import * as V from "./voortgang.js";
 import * as Q from "./quiz.js";
 import { pageHtml, setScenes } from "./lezen.js";
@@ -394,7 +394,8 @@ const SCREENS = {
     const toon = run.fase === "toon";
     const r = toon ? run.resultaten[run.resultaten.length - 1] : null;
     let media = "";
-    if (q.media && q.media.bord) media = `<div class="plaat beeldplaat ${toon ? "klein" : ""}"><button type="button" data-actie="bekijk-bord" data-code="${esc(q.media.bord)}" aria-label="Bord vergroten">${bordHtml(q.media.bord, toon ? 112 : 176)}</button></div>`;
+    if (q.media && q.media.lamp) media = `<div class="plaat beeldplaat ${toon ? "klein" : ""}">${lampHtml(q.media.lamp, toon ? 112 : 176)}</div>`;
+    else if (q.media && q.media.bord) media = `<div class="plaat beeldplaat ${toon ? "klein" : ""}"><button type="button" data-actie="bekijk-bord" data-code="${esc(q.media.bord)}" aria-label="Bord vergroten">${bordHtml(q.media.bord, toon ? 112 : 176)}</button></div>`;
     else if (q.media && q.media.scene) { const sc = S.scenes[q.media.scene]; media = sc ? scenePlate(sc, toon) : `<div class="plaat scene-placeholder">Tekening ${esc(q.media.scene)} ontbreekt</div>`; }
     else if (q.media && q.media.reeks) {
       const frames = q.media.reeks.map(id => S.scenes[id]).filter(Boolean);
@@ -402,7 +403,14 @@ const SCREENS = {
       media = frames.length ? `<div class="reeks">${scenePlate(frames[f], toon)}<div class="stapper"><button type="button" data-actie="frame" data-n="-1" ${f === 0 ? "disabled" : ""} aria-label="Vorig beeld">${I.terug}</button><span class="stipjes" aria-hidden="true">${frames.map((x, i) => `<span class="${i === f ? "nu" : ""}"></span>`).join("")}</span><button type="button" data-actie="frame" data-n="1" ${f >= frames.length - 1 ? "disabled" : ""} aria-label="Volgend beeld">${I.pijl}</button><button type="button" data-actie="speel">Speel af</button></div></div>` : "";
     }
     let opties;
-    if (q.type === "hotspot") {
+    if (q.type === "hotspot" && q.media && q.media.lampen) {
+      opties = `<div class="bordraster lampraster" role="radiogroup" aria-label="Kies een lampje">${item.grid.map(id => {
+        const gekozen = run.gekozen.includes(id);
+        let cls = gekozen ? "gekozen" : "";
+        if (toon) cls = q.correct.includes(id) ? "goed" : gekozen ? "fout" : "dim";
+        return `<button type="button" class="bordtegel ${cls}" role="radio" aria-checked="${gekozen}" data-actie="kies" data-id="${esc(id)}" ${toon ? "disabled" : ""}>${lampHtml(id, 112)}</button>`;
+      }).join("")}</div>`;
+    } else if (q.type === "hotspot") {
       opties = `<div class="bordraster" role="radiogroup" aria-label="Kies een bord">${item.grid.map(code => {
         const gekozen = run.gekozen.includes(code);
         let cls = gekozen ? "gekozen" : "";

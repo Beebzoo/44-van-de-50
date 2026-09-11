@@ -630,6 +630,39 @@
           ]
         },
         {
+          "type": "lampen",
+          "tekst": "Dit zijn de zes lampjes waar het boek je op wijst. De kleur is de helft van het antwoord: rood betekent nu stoppen, geel betekent laten nakijken.",
+          "lampen": [
+            "olie",
+            "temperatuur",
+            "accu",
+            "rem",
+            "motor",
+            "brandstof"
+          ],
+          "bron": [
+            {
+              "boek": 215,
+              "sectie": "13.4",
+              "anker": "De oliedruk is te laag, zet direct de motor af en controleer het niveau"
+            },
+            {
+              "boek": 215,
+              "sectie": "13.4",
+              "anker": "De accu wordt niet bijgeladen, de dynamo of V-riem is kapot"
+            },
+            {
+              "boek": 216,
+              "sectie": "13.4",
+              "anker": "Er is een storing in het elektronisch managementsysteem van de motor"
+            },
+            {
+              "slide": 237,
+              "anker": "een benzinepomp. De brandstoftank is bijna leeg"
+            }
+          ]
+        },
+        {
           "type": "tabel",
           "kop": [
             "Lampje",

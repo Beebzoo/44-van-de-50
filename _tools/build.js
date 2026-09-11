@@ -186,7 +186,7 @@ const precache = [
   "index.html", "app.css", "manifest.webmanifest",
   ...fs.readdirSync(path.join(REPO, "js")).filter(f => f.endsWith(".js")).map(f => "js/" + f),
   ...fs.readdirSync(path.join(REPO, "assets", "fonts")).filter(f => f.endsWith(".woff2")).map(f => "assets/fonts/" + f),
-  "assets/signs.svg",
+  "assets/signs.svg", "assets/dashboard.svg",
   "content/index.json", "content/signs/manifest.json",
   ...units.map(u => "content/units/" + u.id + ".json"),
   ...Object.values(bankFiles), ...Object.values(generatedFiles),

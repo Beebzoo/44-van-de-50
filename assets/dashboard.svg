@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<!-- The six dashboard lamps the book teaches, drawn here rather than fetched:
+     they are pictograms, not artwork, and the exam asks you to recognise the
+     shape. Everything is one path in currentColor so the plate can tint it red
+     or yellow, which is the half of the answer that matters most. -->
+
+<symbol id="lamp-olie" viewBox="0 0 100 100">
+  <path fill="currentColor" d="M18 46h30l10-8h14v8h9l12-9v11l-9 7v10a8 8 0 0 1-8 8H30a8 8 0 0 1-8-8v-4h-8a6 6 0 0 1-6-6v-3a6 6 0 0 1 6-6zm12-14h18v6H30z"/>
+  <path fill="currentColor" d="M70 16c0 0-9 11-9 16a9 9 0 0 0 18 0c0-5-9-16-9-16z"/>
+</symbol>
+
+<symbol id="lamp-temperatuur" viewBox="0 0 100 100">
+  <path fill="currentColor" d="M44 14a10 10 0 0 1 20 0v40a17 17 0 1 1-20 0zm10 6a4 4 0 0 0-4 4v36l-3 2a11 11 0 1 0 14 0l-3-2V24a4 4 0 0 0-4-4z"/>
+  <path fill="currentColor" d="M50 30h8v30h-8z"/>
+  <path fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" d="M8 40c5-6 10-6 15 0s10 6 15 0M8 62c5-6 10-6 15 0s10 6 15 0M66 40c5-6 10-6 15 0s10 6 15 0M66 62c5-6 10-6 15 0s10 6 15 0"/>
+</symbol>
+
+<symbol id="lamp-accu" viewBox="0 0 100 100">
+  <path fill="currentColor" d="M22 30h56a8 8 0 0 1 8 8v32a8 8 0 0 1-8 8H22a8 8 0 0 1-8-8V38a8 8 0 0 1 8-8zm6 8a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V40a2 2 0 0 0-2-2z"/>
+  <path fill="currentColor" d="M28 20h14v8H28zm30 0h14v8H58z"/>
+  <path fill="currentColor" d="M31 50h16v6H31zm5-5h6v16h-6z" transform="translate(0 -4)"/>
+  <path fill="currentColor" d="M57 46h16v6H57z"/>
+</symbol>
+
+<symbol id="lamp-rem" viewBox="0 0 100 100">
+  <path fill="none" stroke="currentColor" stroke-width="7" d="M50 22a28 28 0 1 1 0 56 28 28 0 0 1 0-56z"/>
+  <path fill="currentColor" d="M46 34h8v22h-8zm0 28h8v8h-8z"/>
+  <path fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" d="M13 34c-4 5-4 27 0 32M87 34c4 5 4 27 0 32"/>
+</symbol>
+
+<symbol id="lamp-motor" viewBox="0 0 100 100">
+  <path fill="currentColor" d="M30 34h10v-8h20v8h10l8 8h10v10h6v14h-6v10H72l-8 8H34a8 8 0 0 1-8-8v-6h-8v-8h8v-8h-8v-8h8v-4a8 8 0 0 1 4-8zm8 12a2 2 0 0 0-2 2v22a2 2 0 0 0 2 2h22l8-8h6V56h-6l-8-10z"/>
+</symbol>
+
+<symbol id="lamp-brandstof" viewBox="0 0 100 100">
+  <path fill="currentColor" d="M22 16h34a8 8 0 0 1 8 8v60h6v8H16v-8h6V24a8 8 0 0 1 0 0zm8 8v18h26V24z"/>
+  <path fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M64 40h12a6 6 0 0 1 6 6v22a6 6 0 0 0 6 6"/>
+  <path fill="currentColor" d="M76 22l8 12H68z"/>
+</symbol>
+</svg>

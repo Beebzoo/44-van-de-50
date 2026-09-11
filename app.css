@@ -286,6 +286,21 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .twijfel { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 8px; font-size: 15px; color: var(--inkt-2); }
 .twijfel input { width: 20px; height: 20px; accent-color: var(--bord-blauw); }
 
+/* de waarschuwingslampjes van het dashboard: de kleur is de helft van het antwoord */
+.lamp-plaat { display: inline-flex; align-items: center; justify-content: center; border-radius: 10px; background: #15181C; }
+.lamp-plaat svg { width: 74%; height: 74%; display: block; }
+.lamp-plaat.rood { color: #E4443A; }
+.lamp-plaat.geel { color: #F2B705; }
+.lamp-plaat.l24 { width: 24px; height: 24px; border-radius: 5px; }
+.lamp-plaat.l40 { width: 40px; height: 40px; border-radius: 7px; }
+.lamp-plaat.l64 { width: 64px; height: 64px; }
+.lamp-plaat.l112 { width: 112px; height: 112px; border-radius: 14px; }
+.lamp-plaat.l176 { width: 176px; height: 176px; border-radius: 18px; }
+.lamp-plaat .geen { font-size: 11px; color: var(--inkt-2); }
+.lamprij { display: grid; grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); gap: 12px; margin: 12px 0 20px; }
+.lamprij figure { margin: 0; text-align: center; }
+.lamprij figcaption { margin-top: 6px; font-size: 13px; color: var(--inkt-2); }
+
 /* het oefenexamen: een klok die loopt en een raster om terug te springen */
 .examenbalk { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 12px; }
 .examenbalk.groot { margin-bottom: 20px; }

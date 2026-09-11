@@ -71,7 +71,7 @@ export function sibling(q, pool, exclude, history) {
 
 export function prepare(q) {
   const opties = q.type === "ja_nee" ? q.opties.slice() : shuffle(q.opties);
-  return { q, opties, grid: q.type === "hotspot" ? shuffle(q.media.borden) : null, frame: 0 };
+  return { q, opties, grid: q.type === "hotspot" ? shuffle(q.media.borden || q.media.lampen) : null, frame: 0 };
 }
 
 export function isCorrect(q, gekozen) {

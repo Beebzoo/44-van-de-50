@@ -1,0 +1,205 @@
+{
+  "unit": "U14",
+  "batch": 4,
+  "vragen": [
+    {
+      "id": "U14-Q037",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het lampje dat aangeeft dat de oliedruk te laag is.",
+      "media": {
+        "lampen": [
+          "olie",
+          "temperatuur",
+          "accu",
+          "brandstof"
+        ]
+      },
+      "opties": [
+        {
+          "id": "olie",
+          "tekst": "olie",
+          "feedback": "Goed. Het oliekannetje met een druppel betekent dat de oliedruk te laag is.",
+          "fouttype": null
+        },
+        {
+          "id": "temperatuur",
+          "tekst": "temperatuur",
+          "feedback": "Fout. Dat is de thermometer in golvend water, en die gaat over de koelvloeistof.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "accu",
+          "tekst": "accu",
+          "feedback": "Fout. Dat is de accu met plus en min, en die gaat over het bijladen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "brandstof",
+          "tekst": "brandstof",
+          "feedback": "Fout. Dat is de benzinepomp, en die zegt dat de tank bijna leeg is.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "olie"
+      ],
+      "uitleg": {
+        "regel": "Het rode oliekannetje met een druppel betekent dat de oliedruk te laag is: zet direct de motor af en controleer het niveau van de motorolie.",
+        "waarom": "Zonder oliedruk lopen de lagers in een paar seconden droog, dus dit is een van de weinige lampjes waarbij doorrijden de motor onherstelbaar kan beschadigen.",
+        "valkuil": "Het kannetje lijkt op de thermometer zodra je alleen op de kleur let. Rood zegt alleen dat je moet stoppen, niet waarom.",
+        "onthoud": "Kannetje met een druppel: olie."
+      },
+      "bronnen": [
+        {
+          "boek": 215,
+          "sectie": "13.4",
+          "anker": "De oliedruk is te laag, zet direct de motor af en controleer het niveau"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "oliedruk"
+      ],
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De oliedruk is te laag, zet direct de motor af en controleer het niveau van de motorolie.",
+        "bron": "boek p. 215"
+      }
+    },
+    {
+      "id": "U14-Q038",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Tijdens het rijden gaat dit lampje branden. Wat doe je?",
+      "media": {
+        "lamp": "accu"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zoek een veilige plek, zet de motor af en laat de auto nakijken.",
+          "feedback": "Goed. Het lampje is rood, dus er is een ernstige storing en doorrijden maakt het erger.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Doorrijden naar de dealer, want dit lampje is geel.",
+          "feedback": "Fout. Dit lampje is rood. Geel is het lampje dat je naar de dealer laat rijden.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Tanken bij de eerstvolgende gelegenheid.",
+          "feedback": "Fout. Dat hoort bij de benzinepomp, een geel lampje dat over de tank gaat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Niets doen, dit lampje brandt altijd als de motor draait.",
+          "feedback": "Fout. Een lampje dat blijft branden tijdens het rijden meldt juist een storing.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als er een rood waarschuwingslampje gaat branden, is er sprake van een ernstige storing. Stop op een veilige plaats en schakel de motor uit.",
+        "waarom": "Dit lampje zegt dat de accu niet meer bijgeladen wordt, en de oorzaak is vaak een gebroken V-riem. Die drijft ook de waterpomp aan, dus dan raakt de motor bovendien oververhit.",
+        "valkuil": "De kleur bepaalt wat je doet en het pictogram bepaalt waarom. Wie alleen naar het plaatje kijkt, mist de helft.",
+        "onthoud": "Rood is stoppen, geel is laten nakijken."
+      },
+      "bronnen": [
+        {
+          "boek": 215,
+          "sectie": "13.4",
+          "anker": "De accu wordt niet bijgeladen, de dynamo of V-riem is kapot"
+        },
+        {
+          "boek": 214,
+          "sectie": "13.4",
+          "anker": "Als er een rood waarschuwingslampje gaat branden, is er sprake van een ernstige storing"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "accu"
+      ],
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De accu wordt niet bijgeladen, de dynamo of V-riem is kapot",
+        "bron": "boek p. 215"
+      }
+    },
+    {
+      "id": "U14-Q039",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Dit lampje gaat branden terwijl je op de snelweg rijdt. Moet je meteen op de vluchtstrook stoppen?",
+      "media": {
+        "lamp": "motor"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Dit lampje is geel, en bij geel hoef je niet onmiddellijk te stoppen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Geel betekent laten nakijken, niet meteen stoppen. Je rijdt door naar je dealer.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen. Je kunt bijvoorbeeld doorrijden naar je dealer.",
+        "waarom": "Stilstaan op een vluchtstrook is zelf gevaarlijk, dus dat doe je alleen als doorrijden erger is. Bij een gele melding is dat niet zo.",
+        "valkuil": "Blijf er niet eindeloos mee doorrijden. Geel is uitstel, geen afstel.",
+        "onthoud": "Geel: doorrijden mag, laten nakijken moet."
+      },
+      "bronnen": [
+        {
+          "boek": 216,
+          "sectie": "13.4",
+          "anker": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "motorstoring"
+      ],
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen",
+        "bron": "boek p. 216"
+      }
+    }
+  ]
+}

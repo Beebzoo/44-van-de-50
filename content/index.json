@@ -1,5 +1,5 @@
 {
-  "versie": "da51bcca2c",
+  "versie": "7ce796930b",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -777,7 +777,7 @@
         "content/bank/U14.json",
         "content/generated/U14-borden.json"
       ],
-      "aantalVragen": 40,
+      "aantalVragen": 43,
       "paginas": [
         {
           "id": "U14-P01",

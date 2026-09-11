@@ -204,8 +204,9 @@ function gateDashes() {
     if (!exists(f) || fs.statSync(f).isDirectory()) continue;
     const text = fs.readFileSync(f, "utf8");
     const lines = text.split("\n");
-    /* SQL comments are double hyphens by syntax; only the typographic dashes count there */
-    const test = /\.sql$/i.test(rel) ? /[\u2012\u2013\u2014\u2015]/ : DASHES;
+    /* A SQL comment and an XML comment both open with two hyphens by syntax, so
+       there only the typographic dashes count as prose. */
+    const test = /\.(sql|svg)$/i.test(rel) ? /[\u2012\u2013\u2014\u2015]/ : DASHES;
     lines.forEach((l, i) => {
       /* markdown table separator rows are hyphens by syntax, not by prose */
       if (/^[\s|:\u002d]+$/.test(l)) return;
@@ -352,10 +353,15 @@ function validateQuestion(q, where, ctx) {
       if (correct) fail(where, "invul heeft een correct-object met getal en eenheid");
       if (q.opties.length) fail(where, "invul heeft geen opties");
       break;
-    case "hotspot":
-      if (!q.media || !q.media.borden) fail(where, "hotspot heeft media.borden als raster");
+    case "hotspot": {
+      /* a hotspot grid is signs or dashboard lamps; the rules are the same */
+      const raster = q.media && (q.media.borden || q.media.lampen);
+      if (!raster) fail(where, "hotspot heeft media.borden of media.lampen als raster");
       else {
-        if (![4, 6].includes(q.media.borden.length)) fail(where, "hotspot raster heeft 4 of 6 borden");
+        if (![4, 6].includes(raster.length)) fail(where, "hotspot raster heeft 4 of 6 tegels");
+        if (ids.length !== raster.length || !ids.every(i => raster.includes(i))) fail(where, "hotspot opties zijn precies de rastertegels");
+      }
+      if (q.media && q.media.borden) {
         /* two signs in one grid with the same meaning give the question two right
            answers, and the app marks one of them wrong */
         if (MANIFEST && correct && correct.length === 1) {
@@ -364,10 +370,10 @@ function validateQuestion(q, where, ctx) {
           const dubbel = q.media.borden.filter(c => c !== correct[0] && doel && bet(c) === doel);
           if (dubbel.length) fail(where, "raster bevat " + dubbel.join(", ") + " met dezelfde betekenis als " + correct[0] + ", dus de vraag heeft meer dan een goed antwoord");
         }
-        if (ids.length !== q.media.borden.length || !ids.every(i => q.media.borden.includes(i))) fail(where, "hotspot opties zijn precies de rasterborden");
       }
       if (!correct || correct.length !== 1) fail(where, "hotspot heeft precies een goed antwoord");
       break;
+    }
     case "volgorde":
       if (!correct || correct.length !== ids.length || ids.some(i => !correct.includes(i))) fail(where, "volgorde: correct is een permutatie van alle opties");
       break;
@@ -399,7 +405,8 @@ function validateQuestion(q, where, ctx) {
   for (const t of texts) for (const c of signRefs(t)) checkSign(c, where);
   if (q.media && q.media.bord) checkSign(q.media.bord, where);
   if (q.media && q.media.borden) for (const c of q.media.borden) checkSign(c, where);
-  if (q.type === "hotspot") for (const o of q.opties) checkSign(o.id, where);
+  /* a lamp hotspot has lamp names as option ids, not sign codes */
+  if (q.type === "hotspot" && !(q.media && q.media.lampen)) for (const o of q.opties) checkSign(o.id, where);
 
   /* gate 9: scenes referenced exist */
   if (q.media && q.media.scene && !SCENES[q.media.scene]) fail(where, "scene " + q.media.scene + " bestaat niet");
