@@ -1,0 +1,829 @@
+{
+  "unit": "U11",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U11-Q001",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt buiten de bebouwde kom op een weg waar je 80 km/u mag en je wilt bij het kruispunt afslaan. Op ongeveer welke afstand zet je je richtingaanwijzer aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Ongeveer 200 meter voor het kruispunt.",
+          "feedback": "Goed. Buiten de bebouwde kom is dat de vuistregel, zodat het snellere verkeer om je heen genoeg tijd heeft.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Ongeveer 100 meter voor het kruispunt.",
+          "feedback": "Fout. Die afstand hoort bij een weg binnen de bebouwde kom, waar iedereen veel langzamer rijdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Ongeveer 300 meter voor het kruispunt.",
+          "feedback": "Fout. Die afstand hoort bij de uitrijstrook van een autosnelweg, niet bij een kruispunt buiten de kom.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Ongeveer 50 meter voor het kruispunt.",
+          "feedback": "Fout. Die 50 meter is de vuistregel voor een woonwijk, waar veel langzamer gereden wordt dan hier.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Op wegen buiten de bebouwde kom geef je circa 200 meter voor het kruispunt richting aan.",
+        "waarom": "Hoe harder er gereden wordt, hoe vroeger de rest jouw plan moet kennen om er de eigen snelheid nog rustig op aan te passen.",
+        "valkuil": "De vier vuistregels lijken op elkaar: woonwijk, bebouwde kom, buiten de kom, autosnelweg. Kijk eerst waar je rijdt.",
+        "onthoud": "Hoe sneller de weg, hoe eerder je aangeeft."
+      },
+      "bronnen": [
+        {
+          "boek": 181,
+          "sectie": "11.1",
+          "anker": "op wegen buiten de bebouwde kom: circa 200 meter voor het kruispunt"
+        },
+        {
+          "slide": 198,
+          "anker": "80 km/u weg: 200 meter voor het kruispunt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "richting-aangeven",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "op wegen buiten de bebouwde kom: circa 200 meter voor het kruispunt",
+        "bron": "boek p. 181",
+        "gewijzigd": "de feedback bij de afleider van 50 meter suggereerde dat die afstand nooit deugt, terwijl het de vuistregel voor een woonwijk is; de feedback noemt de woonwijk nu."
+      }
+    },
+    {
+      "id": "U11-Q002",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Binnen de bebouwde kom wil je bij de tweede straat linksaf. De vuistregel zegt 100 meter, maar op die plek passeer je eerst nog een zijstraat. Geef je daar toch al richting aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De bestuurder in de eerste zijstraat denkt dan dat jij zijn straat in draait en kan wegrijden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je kiest een later moment, namelijk pas nadat je die eerste zijstraat voorbij bent.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De afstanden voor richting aangeven gelden alleen wanneer er geen verwarring kan ontstaan. Een zijweg passeren met een richtingaanwijzer die al aan staat is verwarrend, dus kies dan een later moment.",
+        "waarom": "Een knipperlicht wijst geen straat aan, het zegt alleen links of rechts. De eerste die hem kan gebruiken, past hem ook op zichzelf toe.",
+        "valkuil": "De vuistregels zijn geen maatlat die je blind afmeet; ze gelden zolang niemand jouw signaal verkeerd kan lezen.",
+        "onthoud": "Eerst de zijweg voorbij, dan pas aangeven."
+      },
+      "bronnen": [
+        {
+          "boek": 182,
+          "sectie": "11.1",
+          "anker": "Verwarrend is bijvoorbeeld een zijweg passeren met een richtingaanwijzer die al aan staat"
+        },
+        {
+          "slide": 198,
+          "anker": "50 km/u weg: 100 meter voor het kruispunt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "richting-aangeven",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Verwarrend is bijvoorbeeld een zijweg passeren met een richtingaanwijzer die al aan staat. Kies dan een later moment.",
+        "bron": "boek p. 182"
+      }
+    },
+    {
+      "id": "U11-Q003",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je gaat hier rechtdoor over de voorrangsweg, maar je rechter richtingaanwijzer staat al aan voor een afslag verderop. Rechts wacht een grijze auto om de voorrangsweg op te draaien. Wat is hier het grootste risico?",
+      "media": {
+        "scene": "S-U11-001"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De grijze auto denkt dat jij de zijweg in draait en rijdt weg.",
+          "feedback": "Goed. Hij leest jouw knipperlicht als de aankondiging dat je zijn weg in komt en gaat dan voor je neus de weg op.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je verliest je voorrang doordat je richting aangeeft.",
+          "feedback": "Fout. Richting aangeven verandert niets aan de voorrang; de haaientanden liggen nog steeds bij de zijweg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag met een richtingaanwijzer aan geen zijweg passeren.",
+          "feedback": "Fout. Het is niet verboden, het is verwarrend: daarom kies je een later moment om aan te geven.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "De grijze auto moet nu wachten tot jouw richtingaanwijzer uit is.",
+          "feedback": "Fout. Hij hoeft nergens op te wachten behalve op een veilig gat, en jouw signaal maakt dat gat juist onduidelijk.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Verwarrend is bijvoorbeeld een zijweg passeren met een richtingaanwijzer die al aan staat. Kies dan een later moment.",
+        "waarom": "Wie uit een zijweg komt, staat te wachten op een gat en pakt elk signaal aan dat er een komt. Jouw knipperlicht ziet er precies zo uit.",
+        "valkuil": "Dat je voorrang hebt, betekent niet dat je die ook krijgt als je zelf het verkeerde verhaal vertelt.",
+        "onthoud": "Een knipperlicht bij een zijweg belooft die zijweg."
+      },
+      "bronnen": [
+        {
+          "boek": 182,
+          "sectie": "11.1",
+          "anker": "Verwarrend is bijvoorbeeld een zijweg passeren met een richtingaanwijzer die al aan staat"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "richting-aangeven",
+        "zijweg",
+        "communicatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Deze afstanden gelden alleen wanneer er geen verwarring op kan treden.",
+        "bron": "boek p. 182"
+      }
+    },
+    {
+      "id": "U11-Q004",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "In welke van deze situaties moet je richting aangeven?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als je wegrijdt vanaf de kant van de weg.",
+          "feedback": "Goed. Wegrijden is een belangrijke zijdelingse verplaatsing, dus je geeft richting aan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als je invoegt op de autosnelweg.",
+          "feedback": "Goed. Invoegen is een zijdelingse verplaatsing en het verkeer op de rijbaan moet weten dat je komt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je gaat inhalen.",
+          "feedback": "Goed. Inhalen betekent uitwijken en terugkomen, dus tweemaal een zijdelingse verplaatsing.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je afslaat.",
+          "feedback": "Goed. Afslaan is het schoolvoorbeeld waar iedereen jouw richtingaanwijzer voor nodig heeft.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Als je vaart mindert voor een drempel.",
+          "feedback": "Fout. Je blijft dan gewoon in je eigen baan; daarvoor zijn je remlichten er.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Als je op een rechte weg rechtdoor blijft rijden.",
+          "feedback": "Fout. Er is geen verplaatsing opzij, dus er valt ook niets aan te kondigen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Je moet richting aangeven bij elke belangrijke zijdelingse verplaatsing, zoals wegrijden, invoegen, inhalen en afslaan.",
+        "waarom": "De vraag is steeds dezelfde: ga ik opzij. Zo ja, dan moet iemand anders daar ruimte voor maken en die heeft jouw signaal nodig.",
+        "valkuil": "Remmen is geen richting aangeven. Voor snelheid heb je je remlichten, voor richting je knipperlicht.",
+        "onthoud": "Ga je opzij, dan knippert er iets."
+      },
+      "bronnen": [
+        {
+          "boek": 181,
+          "sectie": "11.1",
+          "anker": "richting aangeven bij elke belangrijke zijdelingse verplaatsing"
+        },
+        {
+          "slide": 198,
+          "anker": "Richting aangeven is verplicht bij elke belangrijke zijdelingse verplaatsing"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "richting-aangeven",
+        "communicatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "je moet richting aangeven bij elke belangrijke zijdelingse verplaatsing, zoals: wegrijden, invoegen, inhalen en afslaan",
+        "bron": "boek p. 181"
+      }
+    },
+    {
+      "id": "U11-Q005",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je ziet langs de weg een bekende lopen en je wilt hem even gedag zeggen met een kort toetertje. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Toeteren om een bekende te begroeten staat in het boek als voorbeeld van een overbodig signaal.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een geluidssignaal is er om dreigend gevaar af te wenden en verder voor niets.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Alleen om een dreigend gevaar af te wenden mag je een geluidssignaal of een lichtsignaal geven. Overbodige signalen, zoals toeteren om een bekende te begroeten, zijn verboden.",
+        "waarom": "Een claxon werkt alleen als iedereen weet dat er iets aan de hand is. Wordt er ook getoeterd om te groeten, dan kijkt niemand meer op bij het toeteren dat er wel toe doet.",
+        "valkuil": "Ook lichten knipperen valt hieronder, dus ook niet om te bedanken of om te zeggen dat je wilt inhalen.",
+        "onthoud": "Toeteren en knipperen alleen tegen gevaar."
+      },
+      "bronnen": [
+        {
+          "boek": 183,
+          "sectie": "11.1",
+          "anker": "zoals toeteren om een bekende te begroeten, is verboden"
+        },
+        {
+          "slide": 199,
+          "anker": "dus niet bijv. om iemand te groeten"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "signalen",
+        "claxon",
+        "communicatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook het geven van overbodige signalen, zoals toeteren om een bekende te begroeten, is verboden.",
+        "bron": "boek p. 183"
+      }
+    },
+    {
+      "id": "U11-Q006",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je wilt vanaf een 80 km/u weg een inrit in draaien. Dat is voor je achterligger een onverwachte plek om af te remmen. Wat doe je naast richting aangeven?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je raakt het rempedaal eerst even heel licht aan, zodat je remlichten aangaan.",
+          "feedback": "Goed. Je achterligger ziet dan aan je remlichten dat je gaat afremmen, nog voordat je snelheid echt zakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je zet je alarmlichten aan tot je de inrit in bent.",
+          "feedback": "Fout. Alarmlichten horen bij stilstaan met pech of bij een file, niet bij een normale manoeuvre.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je geeft een kort geluidssignaal zodat de achterligger oplet.",
+          "feedback": "Fout. Een geluidssignaal mag alleen om dreigend gevaar af te wenden, en dat is hier niet aan de hand.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je remt juist extra kort en hard, dan is het snel voorbij.",
+          "feedback": "Fout. Hard remmen op een plek waar niemand het verwacht is precies waardoor er achterop gereden wordt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je kunt je remlichten gebruiken om aan achterliggers duidelijk te maken dat je gaat afremmen. Raak het rempedaal even heel licht aan voordat je daadwerkelijk remt.",
+        "waarom": "Je achterligger reageert op wat hij ziet, niet op wat jij van plan bent. Twee rode lampen komen eerder aan dan een snelheid die begint te zakken.",
+        "valkuil": "Een inrit telt voor jou als bestemming, maar voor de rest van de weg als niks. Daar moet jij het verschil maken.",
+        "onthoud": "Op een onverwachte plek eerst je remlichten, dan pas remmen."
+      },
+      "bronnen": [
+        {
+          "boek": 182,
+          "sectie": "11.1",
+          "anker": "Raak het rempedaal even heel licht aan voordat je daadwerkelijk remt"
+        },
+        {
+          "boek": 182,
+          "sectie": "11.1",
+          "anker": "je remlichten gebruiken om aan achterliggers duidelijk te maken dat je wilt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "remlichten",
+        "communicatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Raak het rempedaal even heel licht aan voordat je daadwerkelijk remt.",
+        "bron": "boek p. 182"
+      }
+    },
+    {
+      "id": "U11-Q007",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Wanneer gebruik je je alarmlichten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je staat stil met pech op een plaats waar je niet mag staan of op een gevaarlijke plaats.",
+          "feedback": "Goed. Dat is de kern: je staat waar niemand je verwacht en dat moet opvallen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je staat stil in het donker terwijl je verplichte verlichting het niet doet.",
+          "feedback": "Goed. Zonder werkende verlichting zijn je alarmlichten het enige wat je nog zichtbaar maakt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je staat stil op een plaats waar je slecht zichtbaar bent en je auto een obstakel vormt.",
+          "feedback": "Goed. Je bent dan een hindernis, en een hindernis moet je aankondigen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je stuit op een file.",
+          "feedback": "Goed. Zo waarschuw je het verkeer achter je dat het daar plotseling stilstaat.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Je zet je alarmlichten aan zodat je even dubbel mag parkeren.",
+          "feedback": "Fout. Alarmlichten maken fout parkeren niet toegestaan, ze maken het alleen zichtbaar.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Je wilt een andere bestuurder bedanken omdat hij je voor liet gaan.",
+          "feedback": "Fout. Bedanken is geen waarschuwing en hoort niet bij waar de alarmlichten voor zijn.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Gebruik je alarmlichten als je stilstaat met pech op een plaats waar je niet mag of niet veilig staat, als je stilstaat in het donker terwijl de verplichte verlichting het niet doet, als je slecht zichtbaar een obstakel vormt, en als je op een file stuit.",
+        "waarom": "Alle vier de gevallen komen op hetzelfde neer: er gebeurt iets wat het verkeer achter je niet verwacht en nog niet kan zien.",
+        "valkuil": "Alarmlichten zijn geen parkeervergunning en geen bedankje; ze zijn een waarschuwing.",
+        "onthoud": "Alarmlichten waarschuwen, ze geven geen rechten."
+      },
+      "bronnen": [
+        {
+          "boek": 182,
+          "sectie": "11.1",
+          "anker": "stilstaat in het donker terwijl de verplichte verlichting het niet doet"
+        },
+        {
+          "slide": 199,
+          "anker": "stilstaat met pech op een gevaarlijke plek"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alarmlichten",
+        "communicatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "stilstaat op een plaats waar je slecht zichtbaar bent en je voertuig een obstakel vormt",
+        "bron": "boek p. 182",
+        "gewijzigd": "afleider e was dubbel parkeren om iets af te geven, en dat valt te lezen als de derde regel uit het boek, dus die afleider zou ook waar kunnen zijn; hij gaat nu over het recht om dubbel te parkeren en is daarmee zonder meer fout."
+      }
+    },
+    {
+      "id": "U11-Q008",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Verderop op de rijbaan heeft een auto zijn alarmlichten aan. Mag je ervan uitgaan dat er verder niets aan de hand is en gewoon doorrijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Die lichten staan er niet voor niets; ze kondigen aan dat er iets is wat jij nog niet ziet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je ziet het als waarschuwing, mindert vaart en let extra goed op wat erachter zit.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als een ander voertuig zijn alarmlichten heeft ingeschakeld, moet je dat als waarschuwing zien en extra goed opletten.",
+        "waarom": "De reden voor die lichten staat meestal verderop en is vaak nog niet zichtbaar: een stilstaande rij, een pechgeval of iemand die naast zijn auto loopt.",
+        "valkuil": "Alarmlichten zie je van ver, de oorzaak ervan pas van dichtbij. Mind daarom vaart voordat je weet waarom.",
+        "onthoud": "Knipperende alarmlichten zijn een vraag om op te letten."
+      },
+      "bronnen": [
+        {
+          "boek": 182,
+          "sectie": "11.1",
+          "anker": "moet je dat als waarschuwing zien en extra goed opletten"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alarmlichten",
+        "communicatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als een ander voertuig zijn alarmlichten heeft ingeschakeld, moet je dat als waarschuwing zien en extra goed opletten",
+        "bron": "boek p. 182"
+      }
+    },
+    {
+      "id": "U11-Q009",
+      "unit": "U11",
+      "pagina": "U11-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Voor je uit rijdt een voertuig met een geel zwaailicht. Waar houd je rekening mee?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Met werk of bijzonder transport, dus met een lage snelheid en mogelijk mensen op of langs de weg.",
+          "feedback": "Goed. Geel waarschuwt voor iets langzaams, breeds of zwaars, of voor mensen die daar bezig zijn.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Met een voorrangsvoertuig dat je meteen voor moet laten gaan.",
+          "feedback": "Fout. Een voorrangsvoertuig voert blauw zwaailicht met een tweetonige hoorn; geel geeft geen voorrang.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Met niets bijzonders, geel is gewoon de kleur van dat bedrijf.",
+          "feedback": "Fout. Het geel zwaailicht is een waarschuwing die alleen bepaalde voertuigen mogen voeren.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Met een bestuurder die je vraagt om hem in te halen.",
+          "feedback": "Fout. Er bestaat geen signaal waarmee iemand je uitnodigt om in te halen; dat blijft jouw eigen beslissing.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Sommige voertuigen mogen als waarschuwing een geel zwaai-, flits- of knipperlicht gebruiken: bij exceptioneel transport, bergingswerkzaamheden of een verkeersongeval, wegwerkzaamheden en gladheidsbestrijding.",
+        "waarom": "Geel zegt: hier gebeurt iets wat niet in het normale verkeersbeeld past. Het vraagt om ruimte en om een lagere snelheid, en niet om voorrang.",
+        "valkuil": "Geel en blauw door elkaar halen. Blauw komt met een hoorn en wil erlangs, geel staat er vaak juist bij stil.",
+        "onthoud": "Geel waarschuwt, blauw heeft haast."
+      },
+      "bronnen": [
+        {
+          "boek": 183,
+          "sectie": "11.1",
+          "anker": "een geel zwaai-, flits- of knipperlicht gebruiken"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zwaailicht",
+        "signalen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook voertuigen van transportbegeleiding bij exceptioneel transport mogen met geel waarschuwingslicht rijden.",
+        "bron": "boek p. 183"
+      }
+    },
+    {
+      "id": "U11-Q010",
+      "unit": "U11",
+      "pagina": "U11-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wanneer ben je verplicht om je dimlicht te voeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij nacht, en overdag als het zicht minder is dan 200 meter.",
+          "feedback": "Goed. Dat zijn de twee momenten waarop het boek het dimlicht verplicht stelt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen bij nacht.",
+          "feedback": "Fout. Ook overdag is dimlicht verplicht zodra het zicht ernstig tekortschiet.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen als het regent of mist.",
+          "feedback": "Fout. Het gaat niet om het soort weer maar om hoe ver je kunt kijken, en bij nacht sowieso.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen buiten de bebouwde kom, want binnen de kom is er straatverlichting.",
+          "feedback": "Fout. Straatverlichting maakt jou niet zichtbaar; de verplichting geldt overal.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je moet het dimlicht inschakelen bij nacht en overdag als er sprake is van slecht zicht, dus minder dan 200 meter.",
+        "waarom": "Verlichting doet twee dingen tegelijk: jij ziet de weg en anderen zien jou. Dat tweede gaat al mis ver voordat jij zelf het gevoel hebt dat je licht nodig hebt.",
+        "valkuil": "Dagrijlicht telt hier niet mee. Dat maakt je alleen van voren beter zichtbaar en vervangt het dimlicht niet.",
+        "onthoud": "Kun je geen 200 meter ver kijken, dan moet het dimlicht aan."
+      },
+      "bronnen": [
+        {
+          "boek": 184,
+          "sectie": "11.2",
+          "anker": "overdag als er sprake is van slecht zicht (minder dan 200 meter)"
+        },
+        {
+          "slide": 200,
+          "anker": "overdag bij slecht zicht (minder dan 200 m)"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "dimlicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "overdag als er sprake is van slecht zicht (minder dan 200 meter)",
+        "bron": "boek p. 184"
+      }
+    },
+    {
+      "id": "U11-Q011",
+      "unit": "U11",
+      "pagina": "U11-P02",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Het is schemerig en je vindt je dimlicht nog te fel. Mag je een stukje rijden met alleen je stadslicht en achterlicht aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Stadslicht is bedoeld om zichtbaar te zijn terwijl je stilstaat, niet om mee te rijden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Met alleen stadslicht aan mag je niet gaan rijden; dan hoort het dimlicht aan.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Met alleen je stadslicht en achterlicht aan mag je niet gaan rijden.",
+        "waarom": "Die lampjes zijn zo zwak dat ze de weg niet verlichten en je pas van dichtbij opvallen. Voor een stilstaande auto is dat genoeg, voor een rijdende niet.",
+        "valkuil": "Stadslicht voelt als een nette tussenstand in de schemering, maar die tussenstand bestaat niet.",
+        "onthoud": "Stadslicht is om stil te staan."
+      },
+      "bronnen": [
+        {
+          "boek": 186,
+          "sectie": "11.2",
+          "anker": "met alleen je stadslicht (en achterlicht) aan mag je niet gaan rijden"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "stadslicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "met alleen je stadslicht (en achterlicht) aan mag je niet gaan rijden",
+        "bron": "boek p. 186"
+      }
+    },
+    {
+      "id": "U11-Q012",
+      "unit": "U11",
+      "pagina": "U11-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke uitspraken over dagrijlicht kloppen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het gaat automatisch branden zodra de motor wordt gestart.",
+          "feedback": "Goed. Dat is nu juist de bedoeling: je hoeft er zelf niets voor te doen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het moet uitgaan zodra je dimlicht, groot licht of mistlicht inschakelt.",
+          "feedback": "Goed. Zodra er echte verlichting aan gaat, hoort het dagrijlicht automatisch uit te gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Bij veel auto's branden je achterlichten niet als je met dagrijlicht rijdt.",
+          "feedback": "Goed. Van voren val je op, van achteren ben je dan juist een donkere vlek.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Het is geen vervanging van je dimlicht.",
+          "feedback": "Goed. Het maakt je overdag beter zichtbaar, meer niet.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Met dagrijlicht mag je ook rijden als het zicht minder is dan 200 meter.",
+          "feedback": "Fout. Bij zicht onder die grens is dimlicht verplicht, dagrijlicht is dan niet genoeg.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Dagrijlichten moeten automatisch gaan branden als de motor wordt gestart en moeten uitgeschakeld worden als je andere verlichting inschakelt. Dagrijlicht is geen vervanging van je dimlicht.",
+        "waarom": "Het lampje zit alleen aan de voorkant en is gemaakt voor helder daglicht. Precies daarom valt het op bij mooi weer en schiet het tekort zodra het slecht zicht wordt.",
+        "valkuil": "Je ziet zelf niet dat je achterlichten donker zijn. Wie op zijn dagrijlicht vertrouwt, rijdt zonder het te merken onzichtbaar rond voor zijn achterliggers.",
+        "onthoud": "Dagrijlicht is er om gezien te worden, dimlicht om te zien."
+      },
+      "bronnen": [
+        {
+          "boek": 184,
+          "sectie": "11.2",
+          "anker": "De dagrijlichten moeten automatisch gaan branden als de motor wordt gestart"
+        },
+        {
+          "slide": 200,
+          "anker": "Let op: je achterlichten branden (meestal) niet"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "dagrijlicht",
+        "dimlicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De dagrijlichten moeten automatisch gaan branden als de motor wordt gestart.",
+        "bron": "boek p. 184"
+      }
+    }
+  ]
+}

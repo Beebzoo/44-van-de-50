@@ -1,0 +1,1666 @@
+{
+  "id": "U13",
+  "slug": "de-bestuurder-en-de-wet",
+  "titel": "De bestuurder en de wet",
+  "ondertitel": "Fit achter het stuur, alcohol en drugs, je rijbewijs en wat de politie mag",
+  "volgorde": 13,
+  "week": 5,
+  "tier": "must",
+  "vereist": [
+    "U12"
+  ],
+  "borden": [],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "2.1",
+        "2.6",
+        "2.7",
+        "2.8"
+      ],
+      "paginas": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    "cursus": {
+      "slides": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        22,
+        23,
+        24,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "wetgeving",
+    "verantwoorde_deelname_en_milieu"
+  ],
+  "intro": "Dit blok gaat niet over een kruispunt maar over jou. Ben je fit genoeg om te rijden, wat heb je gedronken of geslikt, is je rijbewijs nog geldig, en wat gebeurt er als de politie je langs de kant zet. Het examen vraagt hier vooral getallen: de promillages voor een beginnende en een ervaren bestuurder, hoe lang een rijbewijs geldig is, hoeveel te hard rijden je je rijbewijs kost en vanaf welke waarde je een cursus krijgt opgelegd. Leer die getallen als paren, dan hoef je op het examen alleen nog te bepalen in welke rij van de tabel de bestuurder uit de vraag staat.",
+  "paginas": [
+    {
+      "id": "U13-P01",
+      "anker": "p-1.3-fit-achter-het-stuur",
+      "titel": "Fit achter het stuur",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4"
+          ],
+          "paginas": [
+            11,
+            12,
+            13,
+            14,
+            18,
+            19,
+            20
+          ]
+        },
+        "cursus": {
+          "slides": [
+            7,
+            8
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Het boek begint niet bij de regels maar bij de bestuurder. De een heeft meer rijervaring dan de ander, de een is relaxt en de ander zit vol stress, en al die bestuurders samen bepalen hoe veilig het op de weg is. Voordat je nadenkt over voorrang telt dus eerst of jij vandaag in staat bent om te rijden.",
+          "bron": [
+            {
+              "slide": 7,
+              "anker": "Elke bestuurder is anders, bijvoorbeeld: - iemand heeft meer of minder rijervaring"
+            },
+            {
+              "slide": 7,
+              "anker": "Alle bestuurders samen beïnvloeden het verloop en de veiligheid van het verkeer"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Je zintuigen"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r01",
+          "tekst": "Je gebruikt je zintuigen om situaties waar te nemen. Je ogen zijn het belangrijkst, je oren attenderen je op een sirene, een claxon of piepende remmen, met je neus ruik je gassen of lekkende brandstof, en met je gevoel merk je trillingen, de centrifugaalkracht in bochten en de aard van het wegdek. Werken je zintuigen niet goed, dan ben je een gevaar op de weg.",
+          "bron": [
+            {
+              "boek": 12,
+              "sectie": "1.2",
+              "anker": "je oren attenderen je op bijvoorbeeld een sirene, een claxon, piepende remmen"
+            },
+            {
+              "boek": 12,
+              "sectie": "1.2",
+              "anker": "Je zintuigen moeten goed functioneren, anders ben je een gevaar op de weg"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r02",
+          "tekst": "Kleurenblindheid en nachtblindheid hoeven geen belemmering te zijn om te rijden, zolang je je rijstijl erop aanpast. Twijfel je aan je zicht, laat dan je ogen controleren.",
+          "bron": {
+            "boek": 12,
+            "sectie": "1.2",
+            "anker": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U13-r03",
+          "tekst": "Zorg dat niets je zintuigen belemmert. Harde muziek tijdens het rijden is niet slim, omdat je belangrijke geluiden dan niet hoort. Bellen of naar muziek luisteren mag alleen handsfree en met zo min mogelijk invloed op je concentratie.",
+          "bron": [
+            {
+              "boek": 13,
+              "sectie": "1.2",
+              "anker": "niet slim om tijdens het rijden naar harde muziek te luisteren"
+            },
+            {
+              "slide": 8,
+              "anker": "Bellen of naar muziek luisteren tijdens het rijden mag alleen als je dit handsfree doet"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Concentratie, conditie en vermoeidheid"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r04",
+          "tekst": "Afleiding, vooral door sociale media, is een belangrijke oorzaak van ongevallen. Stel voor vertrek je spiegels en je navigatie in, dan hoef je dat onderweg niet meer te doen.",
+          "bron": [
+            {
+              "boek": 13,
+              "sectie": "1.3",
+              "anker": "Afleiding, vooral door sociale media, is een belangrijke oorzaak van ongevallen"
+            },
+            {
+              "boek": 13,
+              "sectie": "1.3",
+              "anker": "Stel vóór vertrek je spiegels en navigatie in"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Concentratie verliezen gebeurt ook zonder telefoon. Een vertrouwde route of een lange rechte weg door een eentonig polderlandschap laat je aandacht wegzakken. Dat heet polderblindheid.",
+          "bron": [
+            {
+              "boek": 13,
+              "sectie": "1.3",
+              "anker": "Ook een vertrouwde route kan ervoor zorgen dat je concentratie vermindert"
+            },
+            {
+              "boek": 13,
+              "sectie": "1.3",
+              "anker": "Dit wordt ook wel 'polderblindheid' genoemd"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r05",
+          "tekst": "Bij 15 procent van de ongevallen is vermoeidheid de hoofdoorzaak. Alleen rusten helpt tegen vermoeidheid. Neem na iedere twee uur rijden een pauze van minimaal 15 minuten.",
+          "bron": [
+            {
+              "boek": 14,
+              "sectie": "1.3",
+              "anker": "Bij 15 procent van de ongevallen is vermoeidheid de hoofdoorzaak"
+            },
+            {
+              "boek": 14,
+              "sectie": "1.3",
+              "anker": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze"
+            },
+            {
+              "slide": 8,
+              "anker": "Neem na elke 2 uur een kwartier pauze"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "zware oogleden",
+            "voortdurend gapen",
+            "plotseling opschrikken",
+            "dubbel zien",
+            "zelfs even wegdutten"
+          ],
+          "bron": {
+            "boek": 14,
+            "sectie": "1.3",
+            "anker": "Vermoeidheid merk je aan zware oogleden, voortdurend gapen, plotseling opschrikken"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U13-r06",
+          "tekst": "Ben je erg blij, boos of verdrietig, dan rijd je minder geconcentreerd, reageer je later en neem je eerder een verkeerde beslissing. Ga daarom niet rijden als je heftig geëmotioneerd bent, en laat je onderweg niet opjutten door een agressieve medeweggebruiker.",
+          "bron": {
+            "boek": 14,
+            "sectie": "1.3",
+            "anker": "Ga daarom niet rijden als je heftig geëmotioneerd bent"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Al deze punten raken hetzelfde: de tijd tussen zien en handelen. Moe, kwaad of afgeleid zie je de fietser een halve seconde later en beslis je een halve seconde trager, en precies die halve seconde is op een kruispunt het verschil. Daarom is er geen truc die vermoeidheid opheft: je kunt alleen de oorzaak wegnemen door te rusten.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "kop",
+          "tekst": "Rekening houden met anderen"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r07",
+          "tekst": "Het verkeer is geen wedstrijd. Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+          "bron": {
+            "boek": 18,
+            "sectie": "1.4",
+            "anker": "Het is verboden op de weg een wedstrijd met voertuigen te houden"
+          }
+        },
+        {
+          "type": "tekst",
+          "tekst": "Sociaal rijgedrag betekent dat je voorkomt dat andere weggebruikers in moeilijkheden raken, en dat je ze helpt als dat toch gebeurt. Het boek geeft vier voorbeelden.",
+          "bron": {
+            "boek": 19,
+            "sectie": "1.4",
+            "anker": "Voorkom dat andere weggebruikers in moeilijkheden raken"
+          }
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "laat bij een rijbaanversmalling ruimte vrij voor inhalende bestuurders",
+            "vermijd het rijden door plassen als anderen daar hinder van hebben",
+            "toon begrip voor vrachtauto's en bussen die trager optrekken en minder wendbaar zijn",
+            "laat bestuurders invoegen als je op de doorgaande rijbaan in file rijdt"
+          ],
+          "bron": [
+            {
+              "boek": 19,
+              "sectie": "1.4",
+              "anker": "laat bij een rijbaanversmalling ruimte vrij voor inhalende bestuurders"
+            },
+            {
+              "boek": 19,
+              "sectie": "1.4",
+              "anker": "laat bestuurders invoegen als je op de doorgaande rijbaan in file rijdt"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt op een natte weg langs een bushalte waar mensen staan te wachten. Sociaal rijden is hier: uitwijken of afremmen zodat je ze niet natspat. Dreigt er wel echt gevaar, dan rem je af, wijk je uit of stop je, en als het nodig is mag je daarbij een lichtsignaal of een geluidssignaal geven.",
+          "bron": [
+            {
+              "boek": 19,
+              "sectie": "1.4",
+              "anker": "vermijd het rijden door plassen, wanneer andere weggebruikers daar hinder van ondervinden"
+            },
+            {
+              "boek": 18,
+              "sectie": "1.4",
+              "anker": "Als het nodig is mag je een licht- en/of geluidssignaal geven"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Waak voor risicocompensatie. Auto's krijgen steeds meer systemen die de bestuurder ondersteunen. Laat je niet verleiden om door de aanwezigheid van deze systemen meer risico te nemen.",
+          "bron": {
+            "boek": 20,
+            "sectie": "1.4",
+            "anker": "Laat je niet verleiden om door de aanwezigheid van deze systemen"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Koffie, frisse lucht en het raam openzetten zijn geen rustpauze. Het boek noemt maar een middel tegen vermoeidheid en dat is rusten. En let op de formulering bij zintuigen: het boek zegt niet dat kleurenblindheid rijden verbiedt, maar dat je je rijstijl erop aanpast.",
+          "bron": {
+            "boek": 12,
+            "sectie": "1.2",
+            "anker": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Twee uur rijden, een kwartier pauze. Vermoeidheid is de hoofdoorzaak bij 15 procent van de ongevallen.",
+          "bron": {
+            "boek": 14,
+            "sectie": "1.3",
+            "anker": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt drie uur achter elkaar op de snelweg en begint te gapen. Je zet het raam open en neemt een blikje energiedrank. Is dat genoeg?",
+          "antwoord": "Nee, alleen rusten helpt.",
+          "uitleg": "Na iedere twee uur rijden hoort een pauze van minimaal 15 minuten. Frisse lucht en cafeïne nemen de vermoeidheid niet weg.",
+          "bron": {
+            "boek": 14,
+            "sectie": "1.3",
+            "anker": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je bent nachtblind. Mag je met een gewoon rijbewijs B de weg op?",
+          "antwoord": "Ja, zolang je je rijstijl erop aanpast.",
+          "uitleg": "Het boek noemt kleurenblindheid en nachtblindheid geen belemmering, mits je je rijstijl aanpast.",
+          "bron": {
+            "boek": 12,
+            "sectie": "1.2",
+            "anker": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U13-P02",
+      "anker": "p-1.3-alcohol",
+      "titel": "Alcohol: twee grenzen en twee klokken",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "1.3"
+          ],
+          "paginas": [
+            15,
+            16
+          ]
+        },
+        "cursus": {
+          "slides": [
+            9
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Rijden onder invloed van alcohol is verboden. Het verraderlijke eraan is dat je jezelf gaat overschatten: je denkt dat je beter rijdt, terwijl je je juist minder goed kunt concentreren en je waarnemings- en reactievermogen afnemen.",
+          "bron": [
+            {
+              "boek": 15,
+              "sectie": "1.3",
+              "anker": "Het verraderlijke van alcohol is, dat je jezelf gaat overschatten"
+            },
+            {
+              "slide": 9,
+              "anker": "Rijden onder invloed van alcohol is levensgevaarlijk en daarom verboden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r08",
+          "tekst": "Er zijn twee alcoholgrenzen: een strenge voor de beginnende bestuurder en een ruimere voor de ervaren bestuurder. Beide staan zowel in promille in het bloed als in microgram per liter uitgeademde lucht.",
+          "bron": [
+            {
+              "boek": 15,
+              "sectie": "1.3",
+              "anker": "De toegestane hoeveelheid alcohol voor autobestuurders is"
+            },
+            {
+              "slide": 9,
+              "anker": "voor beginnende bestuurders: 0,2 promille / 88 microgram"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Type bestuurder",
+            "In het bloed",
+            "In de adem"
+          ],
+          "rijen": [
+            [
+              "Beginnende bestuurder",
+              "0,2 promille",
+              "88 microgram per liter"
+            ],
+            [
+              "Ervaren bestuurder",
+              "0,5 promille",
+              "220 microgram per liter"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 15,
+              "sectie": "1.3",
+              "anker": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter"
+            },
+            {
+              "boek": 15,
+              "sectie": "1.3",
+              "anker": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r09",
+          "tekst": "Hoe lang je beginnende bestuurder blijft, hangt af van je eerste rijbewijs. Haal je dat op of na je 18e, dan ben je 5 jaar beginnende bestuurder. Had je al voor je 18e een AM-rijbewijs of T-rijbewijs, dan is het 7 jaar, gerekend vanaf dat rijbewijs.",
+          "bron": [
+            {
+              "boek": 15,
+              "sectie": "1.3",
+              "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
+            },
+            {
+              "slide": 9,
+              "anker": "op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is"
+            },
+            {
+              "slide": 9,
+              "anker": "voor je 18e verjaardag hebt behaald en dat minder dan 7 jaar geleden is"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Eerste rijbewijs",
+            "Hoe lang beginnende bestuurder"
+          ],
+          "rijen": [
+            [
+              "Behaald op of na je 18e",
+              "5 jaar"
+            ],
+            [
+              "AM of T behaald voor je 18e",
+              "7 jaar vanaf dat rijbewijs"
+            ]
+          ],
+          "bron": {
+            "boek": 15,
+            "sectie": "1.3",
+            "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
+          }
+        },
+        {
+          "type": "kop",
+          "tekst": "Het glas en de klok"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r10",
+          "tekst": "Elk standaardglas bevat dezelfde hoeveelheid alcohol: zo'n 12 milliliter pure alcohol. Een glas bier, een glas wijn en een glaasje sterke drank tellen dus even zwaar. Een standaardglas leidt gemiddeld tot een promillage van 0,2 tot 0,3.",
+          "bron": [
+            {
+              "boek": 15,
+              "sectie": "1.3",
+              "anker": "Elk standaard glas bevat dezelfde hoeveelheid alcohol"
+            },
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "pure alcohol en leidt gemiddeld tot een promillage van 0,2 a 0,3"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r11",
+          "tekst": "Je lichaam breekt alcohol af met 0,1 tot 0,2 promille per uur. De afbraak van 1 glas alcohol duurt daarmee al snel 1,5 uur. Dat kun je niet versnellen: frisse lucht, zwarte koffie of een dutje doen helpt allemaal niets.",
+          "bron": [
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Het lichaam breekt alcohol af met 0,1 a 0,2 promille per uur"
+            },
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "De afbraak van 1 glas alcohol duurt dus al snel 1,5 uur"
+            },
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Frisse lucht, zwarte koffie, een dutje doen: het helpt allemaal niets"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Hoe hoog je promillage precies wordt, valt vooraf niet te zeggen. Alcohol werkt extra sterk bij kleine, lichte mensen, bij mensen die geen alcohol gewend zijn en als je op een nuchtere maag drinkt.",
+          "bron": {
+            "boek": 16,
+            "sectie": "1.3",
+            "anker": "bij mensen die geen alcohol gewend zijn"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Zet de twee getallen naast elkaar en de strengheid spreekt vanzelf: een standaardglas levert gemiddeld 0,2 tot 0,3 promille op, en dat is voor een beginner de grens zelf al. De cursus zegt het onomwonden: na een glas zit je er als beginner overheen. Omdat je lichaam er anderhalf uur over doet om dat ene glas kwijt te raken, kun je de grens niet terugrekenen met een kop koffie of een blokje om.",
+          "bron": {
+            "slide": 9,
+            "anker": "Al na één glas alcohol zit je over deze grens"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je haalde je rijbewijs B op je 19e en dat is drie jaar geleden. Je bent dus nog beginnende bestuurder en voor jou geldt 0,2 promille. Je vriend van 30 heeft zijn rijbewijs al twaalf jaar en zit op 0,5 promille. Bij dezelfde twee biertjes zitten jullie allebei fout, maar jij zat al na het eerste glas over je grens.",
+          "bron": [
+            {
+              "slide": 9,
+              "anker": "op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is"
+            },
+            {
+              "slide": 9,
+              "anker": "Al na één glas alcohol zit je over deze grens"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Verwar de twee eenheden niet. Promille hoort bij het bloed, microgram per liter bij de adem. En let op wie er in de vraag rijdt: het examen zet er graag een bestuurder in die net vier jaar zijn rijbewijs heeft, en dat is nog steeds een beginnende bestuurder.",
+          "bron": {
+            "boek": 15,
+            "sectie": "1.3",
+            "anker": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Beginner 0,2 promille, ervaren 0,5 promille. Een glas is anderhalf uur.",
+          "bron": {
+            "boek": 16,
+            "sectie": "1.3",
+            "anker": "De afbraak van 1 glas alcohol duurt dus al snel 1,5 uur"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Welke alcoholgrens geldt voor een bestuurder die zijn rijbewijs B zes jaar geleden op zijn 20e haalde?",
+          "antwoord": "0,5 promille, want hij is geen beginnende bestuurder meer.",
+          "uitleg": "Wie zijn eerste rijbewijs op of na zijn 18e haalt, is 5 jaar beginnende bestuurder. Zes jaar is meer dan vijf, dus geldt de grens voor de ervaren bestuurder.",
+          "bron": {
+            "slide": 9,
+            "anker": "op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Hoeveel pure alcohol zit er in een glas wijn vergeleken met een glas bier?",
+          "antwoord": "Evenveel, ongeveer 12 milliliter.",
+          "uitleg": "Het glas is kleiner naarmate de drank sterker is. Elk standaardglas bevat daardoor dezelfde hoeveelheid alcohol.",
+          "bron": {
+            "boek": 15,
+            "sectie": "1.3",
+            "anker": "Elk standaard glas bevat dezelfde hoeveelheid alcohol"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U13-P03",
+      "anker": "p-1.3-drugs-en-medicijnen",
+      "titel": "Drugs en medicijnen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "1.3"
+          ],
+          "paginas": [
+            16,
+            17
+          ]
+        },
+        "cursus": {
+          "slides": [
+            10,
+            13
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U13-r12",
+          "tekst": "Rijden onder invloed van drugs is een misdrijf. Drugs werken in op het centrale zenuwstelsel en veranderen je gedrag, en het effect is vaak niet in te schatten: van de ene op de andere keer kan hetzelfde middel anders uitpakken.",
+          "bron": [
+            {
+              "boek": 17,
+              "sectie": "1.3",
+              "anker": "Drugs werken in op het centrale zenuwstelsel en veranderen het gedrag"
+            },
+            {
+              "slide": 10,
+              "anker": "Rijden onder invloed van drugs is een misdrijf"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Voor drugs gelden verschillende limieten, maar die zijn allemaal heel laag. Het boek vat het zo samen: je zit fout zodra de mate van beïnvloeding boven de grenzen komt die voor alcohol zijn vastgesteld. De cursus houdt het praktisch: gebruik gewoon geen drugs in het verkeer.",
+          "bron": {
+            "boek": 17,
+            "sectie": "1.3",
+            "anker": "boven de grenzen komt die voor alcohol zijn vastgesteld"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U13-r13",
+          "tekst": "Heb je alcohol en drugs gecombineerd, dan geldt een nullimiet. Er is dan dus geen toegestane hoeveelheid meer.",
+          "bron": [
+            {
+              "boek": 17,
+              "sectie": "1.3",
+              "anker": "Als je beide stoffen gecombineerd hebt gebruikt, geldt een nul-limiet"
+            },
+            {
+              "slide": 10,
+              "anker": "voor de combinatie alcohol en drugs geldt een nullimiet"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Drugs blijven lang aantoonbaar. Het boek geeft per middel de tijd in speeksel, van ongeveer zes tot acht uur voor hasj of wiet tot tientallen uren voor xtc. De cursus meet in bloed en urine en komt daar op 5 dagen tot 3 weken.",
+          "bron": {
+            "slide": 10,
+            "anker": "sporen zijn wel 5 dagen tot 3 weken in je bloed en urine aantoonbaar"
+          }
+        },
+        {
+          "type": "kop",
+          "tekst": "Medicijnen"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r14",
+          "tekst": "Met bepaalde medicijnen loop je een verhoogd risico in het verkeer. Het boek noemt vooral kalmeringsmiddelen, slaappillen, pijnstillers, eetlustremmers, peppillen, verdovingsinjecties van de tandarts en middelen tegen allergieën, reisziekte of verkoudheid.",
+          "bron": [
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Met bepaalde medicijnen loop je een verhoogd risico in het verkeer"
+            },
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Vooral kalmeringsmiddelen, slaappillen, pijnstillers, eetlustremmers, peppillen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r15",
+          "tekst": "Op de verpakking van een verkeersgevaarlijk medicijn staat een pictogram of een gele sticker. Twijfel je, vraag het dan aan je arts of apotheker. Sommige medicijnen werken wel 48 uur door in je lichaam, ook als je ze maar een keer hebt gebruikt.",
+          "bron": [
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Twijfel je, vraag het dan aan je arts of apotheker"
+            },
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Sommige medicijnen werken wel 48 uur door in je lichaam"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Symbool op de verpakking",
+            "Wat het betekent"
+          ],
+          "rijen": [
+            [
+              "Groen vinkje",
+              "Geen probleem: je mag gewoon rijden"
+            ],
+            [
+              "Gele driehoek met uitroepteken",
+              "Let op: rijd alleen als je geen last hebt van bijwerkingen"
+            ],
+            [
+              "Rode cirkel met wit kruis",
+              "Niet doen: dit medicijn en rijden gaan niet samen"
+            ]
+          ],
+          "bron": {
+            "slide": 13,
+            "anker": "een tekst en/of gele sticker op de verpakking waarschuwt je hiervoor"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Bij alcohol kun je nog terugrekenen met glazen en uren. Bij drugs en medicijnen kan dat niet, want dezelfde dosis pakt per keer anders uit en sommige middelen zitten er twee dagen later nog in. Daarom werkt de wet hier niet met een handige grens die je zelf kunt inschatten, maar met een verbod en een test.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je krijgt bij de tandarts een verdovingsinjectie en daarna een pijnstiller mee met een gele sticker op het doosje. Je hebt de auto bij je. De sticker waarschuwt dat het reactievermogen kan verminderen, dus vraag je de apotheker of je nog mag rijden. Wordt het middel afgeraden, dan laat je de auto staan.",
+          "bron": [
+            {
+              "boek": 16,
+              "sectie": "1.3",
+              "anker": "Twijfel je, vraag het dan aan je arts of apotheker"
+            },
+            {
+              "slide": 13,
+              "anker": "vraag je arts of apotheker om advies als je twijfelt"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Medicijnen en drank samen zijn erger dan elk apart: de effecten van alcohol en drugs kunnen versterkt worden als je tegelijkertijd medicijnen gebruikt. En de nullimiet geldt bij alcohol samen met drugs, niet bij alcohol alleen.",
+          "bron": {
+            "slide": 13,
+            "anker": "De effecten van alcohol en drugs kunnen versterkt worden als je tegelijkertijd ook medicijnen gebruikt"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Alcohol plus drugs is een nullimiet. Medicijnen kunnen 48 uur doorwerken.",
+          "bron": {
+            "boek": 16,
+            "sectie": "1.3",
+            "anker": "Sommige medicijnen werken wel 48 uur door in je lichaam"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je hebt gisteravond een pil geslikt en vanochtend een glas wijn gedronken. Welke limiet geldt er voor jou?",
+          "antwoord": "Een nullimiet.",
+          "uitleg": "Bij gecombineerd gebruik van alcohol en drugs geldt geen promillegrens meer, maar een nullimiet.",
+          "bron": {
+            "boek": 17,
+            "sectie": "1.3",
+            "anker": "Als je beide stoffen gecombineerd hebt gebruikt, geldt een nul-limiet"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Op je medicijndoosje staat een gele driehoek met een uitroepteken. Wat betekent dat?",
+          "antwoord": "Let op: rijden mag alleen als je geen last hebt van bijwerkingen.",
+          "uitleg": "De drie symbolen lopen van groen vinkje (geen probleem) via de gele driehoek (let op) naar de rode cirkel met kruis (niet doen).",
+          "bron": {
+            "slide": 13,
+            "anker": "Ook sommige medicijnen hebben een negatief effect op je rijgedrag"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U13-P04",
+      "anker": "p-2.7-controle-en-rijverbod",
+      "titel": "Langs de kant gezet",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "1.3",
+            "2.6",
+            "2.7"
+          ],
+          "paginas": [
+            17,
+            42,
+            43
+          ]
+        },
+        "cursus": {
+          "slides": [
+            11,
+            12,
+            23,
+            36
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U13-r16",
+          "tekst": "De politie controleert vooral op alcohol en drugs. Bij een alcoholcontrole wordt een ademtest gebruikt, bij een drugscontrole een speekseltest. Eventueel volgt daarna op het politiebureau een ademanalyse of een bloedonderzoek. Je bent verplicht om aan deze testen en onderzoeken mee te werken.",
+          "bron": [
+            {
+              "boek": 17,
+              "sectie": "1.3",
+              "anker": "bij een alcoholcontrole wordt een ademtest gebruikt"
+            },
+            {
+              "boek": 17,
+              "sectie": "1.3",
+              "anker": "Je bent verplicht om aan deze testen / onderzoeken mee te werken"
+            },
+            {
+              "slide": 11,
+              "anker": "alcoholcontrole door ademtest - drugscontrole door speekseltest"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Wat een opsporingsambtenaar mag"
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "een stopteken, aanwijzingen en bevelen geven",
+            "je rijbewijs en kentekenbewijs ter inzage vragen",
+            "een alcoholtest of drugstest laten uitvoeren",
+            "een rijverbod opleggen van maximaal 24 uur",
+            "je rijbewijs innemen",
+            "je kentekenbewijs innemen als het voertuig technisch niet in orde is of de belasting niet is betaald"
+          ],
+          "bron": [
+            {
+              "boek": 43,
+              "sectie": "2.7",
+              "anker": "een stopteken, aanwijzingen en bevelen te geven"
+            },
+            {
+              "boek": 43,
+              "sectie": "2.7",
+              "anker": "een rijverbod op te leggen (maximaal 24 uur)"
+            },
+            {
+              "boek": 43,
+              "sectie": "2.7",
+              "anker": "het kentekenbewijs in te nemen als het voertuig technisch niet in orde is"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Rijverbod tegenover rijontzegging"
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Vraag",
+            "Rijverbod",
+            "Rijontzegging"
+          ],
+          "rijen": [
+            [
+              "Wie legt het op",
+              "de politie, na een controle",
+              "de rechter"
+            ],
+            [
+              "Waarvoor",
+              "omdat je onder invloed van alcohol of drugs bent",
+              "te hard rijden, gevaarlijk gedrag of rijden onder invloed"
+            ],
+            [
+              "Hoe lang",
+              "maximaal 24 uur",
+              "de rechter bepaalt de duur"
+            ],
+            [
+              "Wat mag je niet",
+              "geen enkel voertuig besturen, ook geen fiets",
+              "geen motorrijtuigen besturen"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 12,
+              "anker": "wordt door de politie opgelegd na een controle"
+            },
+            {
+              "slide": 12,
+              "anker": "de rechter bepaalt hoe lang de rijontzegging duurt"
+            },
+            {
+              "slide": 12,
+              "anker": "je mag geen enkel voertuig besturen, ook geen fiets"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r17",
+          "tekst": "Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook geen fiets. Tijdens een rijontzegging mag je geen motorrijtuig besturen, dus ook geen snorfiets, bromfiets of tractor, maar wel een fiets. Je mag dan ook geen rijles nemen of rijexamen doen.",
+          "bron": [
+            {
+              "slide": 11,
+              "anker": "Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook geen fiets"
+            },
+            {
+              "boek": 42,
+              "sectie": "2.6",
+              "anker": "dus ook geen snorfiets, bromfiets of tractor, maar wel een (elektrische) fiets"
+            },
+            {
+              "slide": 23,
+              "anker": "Je mag ook geen rijles nemen of rijexamen doen"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Invordering ter plekke"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r18",
+          "tekst": "In ernstige gevallen neemt de politie je rijbewijs direct in. Dat gebeurt bij zeer hoge alcoholwaardes in je lichaam, bij weigering om mee te werken aan een alcoholonderzoek en als je meer dan 50 km/u te hard hebt gereden. De officier van justitie bepaalt daarna of je je rijbewijs terugkrijgt.",
+          "bron": [
+            {
+              "boek": 43,
+              "sectie": "2.6",
+              "anker": "bij zeer hoge alcoholwaardes in je lichaam"
+            },
+            {
+              "boek": 43,
+              "sectie": "2.6",
+              "anker": "als je meer dan 50 km/u te hard hebt gereden"
+            },
+            {
+              "boek": 43,
+              "sectie": "2.6",
+              "anker": "De officier van justitie bepaalt of je je rijbewijs terugkrijgt"
+            },
+            {
+              "slide": 36,
+              "anker": "Die bepaalt binnen 10 dagen of je je rijbewijs terugkrijgt"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Er zitten drie verschillende beslissers in dit verhaal, en het examen test vooral of jij ze uit elkaar houdt. De agent langs de weg kan je op dat moment van de weg halen, meer niet. De officier van justitie beslist wat er met het ingenomen rijbewijs gebeurt. De straf zelf komt van de rechter. Vraagt een vraag wie iets oplegt, zoek dan eerst de beslisser en pas daarna de duur.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je wordt midden in de nacht aan de kant gezet en blaast ruim boven de grens. De agent legt een rijverbod op van maximaal 24 uur. Je laat de auto staan en gaat ook niet op de fiets naar huis, want tijdens een rijverbod mag je geen enkel voertuig besturen. Of je daarnaast nog een boete of een rijontzegging krijgt, beslist later de rechter.",
+          "bron": [
+            {
+              "slide": 11,
+              "anker": "de politie kan je een rijverbod tot 24 uur opleggen"
+            },
+            {
+              "slide": 11,
+              "anker": "In een strafzaak kan de rechter aanvullende straffen opleggen"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Het rijverbod is breder dan de rijontzegging: bij een rijverbod mag je zelfs niet fietsen, bij een rijontzegging wel. Dat voelt omgekeerd, want de rijontzegging is de zwaardere maatregel, maar die gaat alleen over motorrijtuigen.",
+          "bron": {
+            "slide": 12,
+            "anker": "je mag geen enkel voertuig besturen, ook geen fiets"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rijverbod: politie, maximaal 24 uur, ook geen fiets. Rijontzegging: rechter, geen motorrijtuigen.",
+          "bron": {
+            "boek": 43,
+            "sectie": "2.7",
+            "anker": "een rijverbod op te leggen (maximaal 24 uur)"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je hebt op de snelweg 55 km/u te hard gereden. Wat doet de politie met je rijbewijs?",
+          "antwoord": "Die vordert het ter plekke in.",
+          "uitleg": "Directe invordering volgt onder meer als je meer dan 50 km/u te hard hebt gereden. De officier van justitie beslist daarna over teruggave.",
+          "bron": {
+            "boek": 43,
+            "sectie": "2.6",
+            "anker": "als je meer dan 50 km/u te hard hebt gereden"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je weigert bij een controle langs de weg te blazen. Mag dat?",
+          "antwoord": "Nee, meewerken is verplicht.",
+          "uitleg": "Je bent verplicht mee te werken aan de ademtest, de speekseltest en het vervolgonderzoek. Weigeren is bovendien een reden om je rijbewijs meteen in te vorderen.",
+          "bron": {
+            "boek": 43,
+            "sectie": "2.6",
+            "anker": "bij weigering mee te werken aan een alcoholonderzoek"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U13-P05",
+      "anker": "p-2.1-rijbewijs-en-kentekenbewijs",
+      "titel": "Rijbewijs en kentekenbewijs",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "2.1"
+          ],
+          "paginas": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ]
+        },
+        "cursus": {
+          "slides": [
+            22,
+            23,
+            24
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U13-r19",
+          "tekst": "Op je rijbewijs staan je naam, pasfoto, burgerservicenummer en woonplaats, voor welke voertuigcategorieën het geldig is en tot hoe lang het geldig is. Is de geldigheidsduur verstreken of is het rijbewijs slecht leesbaar, dan mag je niet rijden. Een kopie van je rijbewijs telt niet.",
+          "bron": [
+            {
+              "boek": 21,
+              "sectie": "2.1",
+              "anker": "je naam, pasfoto, BSN-nummer en woonplaats"
+            },
+            {
+              "boek": 21,
+              "sectie": "2.1",
+              "anker": "of als het rijbewijs slecht leesbaar is, mag je niet rijden"
+            },
+            {
+              "boek": 21,
+              "sectie": "2.1",
+              "anker": "Je mag ook niet rijden met een kopie van je rijbewijs"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r20",
+          "tekst": "Met rijbewijs B mag je personenauto's en lichte bestelauto's besturen. De toegestane maximummassa van je voertuig mag maximaal 3.500 kg zijn, het voertuig mag zijn ingericht voor de bestuurder plus maximaal 8 passagiers, en je mag een aanhangwagen trekken van maximaal 750 kg.",
+          "bron": [
+            {
+              "boek": 22,
+              "sectie": "2.1",
+              "anker": "Met rijbewijs B mag je personenauto's en lichte bestelauto's besturen"
+            },
+            {
+              "boek": 22,
+              "sectie": "2.1",
+              "anker": "ingericht voor het vervoer van de bestuurder + maximaal 8 passagiers"
+            },
+            {
+              "boek": 22,
+              "sectie": "2.1",
+              "anker": "je mag een aanhangwagen trekken waarvan de toegestane maximummassa maximaal 750 kg is"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Heb je al een A-rijbewijs of B-rijbewijs, dan hoef je geen bromfietsexamen te doen. Bij het aanvragen of verlengen krijg je de categorie AM er automatisch bij, dus met rijbewijs B mag je ook een bromfiets en een brommobiel besturen.",
+          "bron": [
+            {
+              "boek": 22,
+              "sectie": "2.1",
+              "anker": "Als je al een A of B rijbewijs hebt"
+            },
+            {
+              "slide": 22,
+              "anker": "Met dit rijbewijs mag je ook een bromfiets en brommobiel besturen"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Hoe lang is het geldig"
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Leeftijd bij verlenging",
+            "Geldigheid"
+          ],
+          "rijen": [
+            [
+              "tot je 65ste",
+              "standaard 10 jaar"
+            ],
+            [
+              "tussen je 65e en 70e",
+              "maximaal 10 jaar, standaard tot je 75e"
+            ],
+            [
+              "vanaf je 70e",
+              "maximaal 5 jaar"
+            ],
+            [
+              "vanaf je 75e",
+              "alleen na een medische keuring"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "tot je 65ste bij verlenging standaard 10 jaar geldig"
+            },
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "vanaf je 70e bij verlenging maximaal 5 jaar geldig"
+            },
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "Vanaf je 75e moet je medisch gekeurd worden als je je rijbewijs wilt vernieuwen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r21",
+          "tekst": "Je moet zelf op tijd bij de gemeente een nieuw rijbewijs aanvragen. Naast het verstrijken van de geldigheidsduur wordt een rijbewijs onder meer ook ongeldig als je geboortegegevens wijzigen, als je het inwisselt voor een buitenlands rijbewijs en als je fraudeert met de gegevens erop. Tijdens een ontzegging van de rijbevoegdheid is je rijbewijs tijdelijk ongeldig.",
+          "bron": [
+            {
+              "slide": 23,
+              "anker": "Je moet zélf op tijd bij het gemeentehuis een nieuw rijbewijs aanvragen"
+            },
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "als je het Nederlandse rijbewijs inwisselt voor een buitenlands rijbewijs"
+            },
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "Als je bevoegdheid tot het besturen van motorrijtuigen is ontzegd, is je rijbewijs tijdelijk ongeldig"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r22",
+          "tekst": "Ben je je rijbewijs kwijt of is het gestolen, dan vul je bij je gemeente een verklaring in en vraag je meteen een nieuw rijbewijs aan. Na 5 werkdagen kun je het ophalen en tot die tijd mag je niet rijden.",
+          "bron": {
+            "boek": 24,
+            "sectie": "2.1",
+            "anker": "Na 5 werkdagen kun je dat ophalen. Tot die tijd mag je niet rijden"
+          }
+        },
+        {
+          "type": "tekst",
+          "tekst": "Gelden er voor jou of voor je voertuig extra eisen, dan staat dat met een code op je rijbewijs. Code 01.06 betekent bijvoorbeeld dat je alleen mag rijden met een bril of contactlenzen.",
+          "bron": [
+            {
+              "boek": 23,
+              "sectie": "2.1",
+              "anker": "extra eisen of beperkingen gelden voor het gebruik van je rijbewijs"
+            },
+            {
+              "boek": 23,
+              "sectie": "2.1",
+              "anker": "Code 01.06 betekent bijvoorbeeld dat je alleen een voertuig mag besturen"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "De kentekencard"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r23",
+          "tekst": "Motorrijtuigen en aanhangwagens waarmee op de openbare weg wordt gereden, moeten een kentekencard hebben. De officiële naam daarvan is kentekenbewijs. Je moet die card altijd bij je hebben als je met een auto op de openbare weg rijdt, en net als bij je rijbewijs telt een kopie niet.",
+          "bron": [
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "Je moet die card altijd bij je hebben als je met een auto"
+            },
+            {
+              "slide": 24,
+              "anker": "Het kentekenbewijs moet je, net als je originele rijbewijs, bij je hebben"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r24",
+          "tekst": "De kentekencard is het identiteitsbewijs van je voertuig. Erop staan de gegevens van het voertuig, zoals de kleur, het vermogen en de toegestane maximummassa, en de gegevens van de eigenaar. De eigenaar krijgt daarnaast een tenaamstellingscode, die nodig is als het voertuig wordt verkocht, geschorst, gesloopt of geëxporteerd.",
+          "bron": [
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "De kentekencard is het identiteitsbewijs van je voertuig"
+            },
+            {
+              "boek": 24,
+              "sectie": "2.1",
+              "anker": "de gegevens van het voertuig, zoals de kleur, het vermogen en de toegestane maximummassa"
+            },
+            {
+              "boek": 25,
+              "sectie": "2.1",
+              "anker": "Deze code is nodig als het voertuig wordt verkocht, geschorst, gesloopt of geëxporteerd"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Niet elk voertuig heeft een kentekenbewijs. Aanhangwagens tot 750 kg en gehandicaptenvoertuigen hebben er geen.",
+          "bron": {
+            "boek": 24,
+            "sectie": "2.1",
+            "anker": "aanhangwagens tot 750 kg en gehandicaptenvoertuigen hebben geen kentekenbewijs"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Twee documenten, twee identiteiten: het ene zegt wie jij bent en wat jij mag besturen, het andere zegt wat dat voertuig is en van wie het is. Daarom moeten ze allebei mee de auto in, en daarom kun je ze ook allebei kwijtraken als er iets misgaat: de agent kan je rijbewijs innemen bij drank, en je kentekenbewijs als de auto technisch niet deugt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijbewijs verloopt over twee weken en je bent net verhuisd. Je vraagt bij je nieuwe gemeente een nieuw rijbewijs aan. Doe je dat niet op tijd, dan is het rijbewijs na de vervaldatum ongeldig en mag je niet meer rijden, ook al ben je nog net zo goed gaan rijden als de dag ervoor.",
+          "bron": [
+            {
+              "slide": 23,
+              "anker": "Je moet zélf op tijd bij het gemeentehuis een nieuw rijbewijs aanvragen"
+            },
+            {
+              "boek": 21,
+              "sectie": "2.1",
+              "anker": "of als het rijbewijs slecht leesbaar is, mag je niet rijden"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De grens voor de kortere geldigheid ligt bij 70 jaar, niet bij 65. Tussen je 65e en 70e is een rijbewijs nog maximaal 10 jaar geldig en krijg je er standaard een tot je 75e. De medische keuring hoort bij 75.",
+          "bron": {
+            "boek": 24,
+            "sectie": "2.1",
+            "anker": "tot je 65ste bij verlenging standaard 10 jaar geldig"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rijbewijs 10 jaar, vanaf je 70e maximaal 5 jaar, vanaf je 75e met keuring. Kwijt is 5 werkdagen wachten.",
+          "bron": {
+            "boek": 24,
+            "sectie": "2.1",
+            "anker": "vanaf je 70e bij verlenging maximaal 5 jaar geldig"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt met een foto van je rijbewijs op je telefoon en het origineel ligt thuis. Mag dat?",
+          "antwoord": "Nee.",
+          "uitleg": "Je mag niet rijden met een kopie van je rijbewijs. Hetzelfde geldt voor het kentekenbewijs.",
+          "bron": {
+            "boek": 21,
+            "sectie": "2.1",
+            "anker": "Je mag ook niet rijden met een kopie van je rijbewijs"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Waar heb je de tenaamstellingscode voor nodig?",
+          "antwoord": "Om het voertuig te verkopen, te schorsen, te slopen of te exporteren.",
+          "uitleg": "De eigenaar krijgt die code naast de kentekencard van de RDW.",
+          "bron": {
+            "boek": 25,
+            "sectie": "2.1",
+            "anker": "Deze code is nodig als het voertuig wordt verkocht, geschorst, gesloopt of geëxporteerd"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U13-P06",
+      "anker": "p-2.6-overtreding-misdrijf-maatregel",
+      "titel": "Overtreding, misdrijf en de educatieve maatregel",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "2.6",
+            "2.7",
+            "2.8"
+          ],
+          "paginas": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ]
+        },
+        "cursus": {
+          "slides": [
+            10,
+            34,
+            35,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U13-r25",
+          "tekst": "Wie de regels van een wet overtreedt, pleegt een strafbaar feit. Er zijn twee soorten: overtredingen, zoals door rood licht rijden, foutparkeren of te hard rijden, en misdrijven, zoals rijden onder invloed van alcohol, doorrijden na een ongeval of rijden tijdens een ontzegging van de rijbevoegdheid.",
+          "bron": [
+            {
+              "boek": 40,
+              "sectie": "2.6",
+              "anker": "Wie de regels van een wet overtreedt, pleegt een strafbaar feit"
+            },
+            {
+              "boek": 40,
+              "sectie": "2.6",
+              "anker": "overtredingen, bijvoorbeeld rijden door rood licht, foutparkeren of te hard rijden"
+            },
+            {
+              "boek": 40,
+              "sectie": "2.6",
+              "anker": "misdrijven, bijvoorbeeld rijden onder invloed van alcohol, doorrijden na een ongeval"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r26",
+          "tekst": "De meeste overtredingen zijn lichte strafbare feiten, zonder schade of gewonden. Je ontvangt een bekeuring via de post en als je die op tijd betaalt, is de zaak afgehandeld.",
+          "bron": [
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "De meeste overtredingen zijn lichte strafbare feiten, zonder schade of gewonden"
+            },
+            {
+              "slide": 35,
+              "anker": "Meestal krijg je hiervoor een boete thuisgestuurd"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r27",
+          "tekst": "Bij zwaardere overtredingen maakt de politie een proces-verbaal op en stuurt dat naar de officier van justitie. Die kan seponeren, een schikking voorstellen of dagvaarden. Word je gedagvaard en veroordeeld, dan krijg je naast een boete of een ontzegging van de rijbevoegdheid ook een strafblad.",
+          "bron": [
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "Bij zwaardere overtredingen maakt de politie een proces-verbaal op"
+            },
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "Dit betekent niet tot (verder) vervolgen overgaan"
+            },
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "het strafbare feit ernstig genoeg vindt, moet je voor de rechter verschijnen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U13-r28",
+          "tekst": "Misdrijven zijn ernstige strafbare feiten. Je krijgt van de rechter in ieder geval een hoge boete, en ook een gevangenisstraf of een ontzegging van de rijbevoegdheid is mogelijk. Bij rijden onder invloed gaat het om maximaal 1 jaar gevangenisstraf en een ontzegging van maximaal 5 jaar.",
+          "bron": [
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "Misdrijven zijn ernstige strafbare feiten. Je krijgt van de rechter"
+            },
+            {
+              "boek": 42,
+              "sectie": "2.6",
+              "anker": "Ook kan de rijbevoegdheid voor maximaal 5 jaar worden ontzegd"
+            },
+            {
+              "slide": 10,
+              "anker": "gestraft met een gevangenisstraf van ten hoogste 1 jaar of een hoge geldboete"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Heeft iemand anders met jouw auto een misdrijf begaan, dan ben je als eigenaar verplicht de identiteit van die bestuurder aan de politie bekend te maken. Verlaat je zelf de plaats van een ongeval, dan kun je strafvervolging nog voorkomen door je binnen twaalf uur vrijwillig bij de politie te melden.",
+          "bron": [
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "verplicht om de identiteit van die andere bestuurder aan de politie bekend te maken"
+            },
+            {
+              "boek": 41,
+              "sectie": "2.6",
+              "anker": "Je kunt strafvervolging voorkomen door je binnen twaalf uur vrijwillig bij de politie te melden"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Wie is aansprakelijk"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r29",
+          "tekst": "Voor veel feiten is alleen de bestuurder aansprakelijk, bijvoorbeeld voor te hard rijden of rijden onder invloed. Voor technische eisen is naast de bestuurder ook de eigenaar of houder van het voertuig aansprakelijk. Een houder is niet de eigenaar maar de duurzame bezitter, bijvoorbeeld een bedrijf dat auto's least.",
+          "bron": [
+            {
+              "boek": 43,
+              "sectie": "2.7",
+              "anker": "Voor veel feiten is alleen de bestuurder aansprakelijk, bijvoorbeeld voor te hard rijden"
+            },
+            {
+              "boek": 43,
+              "sectie": "2.7",
+              "anker": "naast de bestuurder, ook de eigenaar of houder van het voertuig aansprakelijk"
+            },
+            {
+              "slide": 34,
+              "anker": "voor technische eisen is, naast de bestuurder, ook de eigenaar van het voertuig aansprakelijk"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Wordt een overtreding geconstateerd en is niet direct bekend wie de eigenaar van het voertuig is, dan mag de opsporingsambtenaar het voertuig wegslepen en in bewaring stellen. In plaats daarvan mag ook een wielklem worden aangebracht.",
+          "bron": [
+            {
+              "boek": 44,
+              "sectie": "2.7",
+              "anker": "mag de opsporingsambtenaar het voertuig wegslepen en in bewaring stellen"
+            },
+            {
+              "boek": 44,
+              "sectie": "2.7",
+              "anker": "In plaats daarvan mag een wielklem worden aangebracht"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "De educatieve maatregel"
+        },
+        {
+          "type": "regel",
+          "id": "U13-r30",
+          "tekst": "Bij alcoholmisbruik, drugsmisbruik of asociaal verkeersgedrag kan naast een boete of straf ook een verplichte cursus worden opgelegd: de educatieve maatregel. Je betaalt de kosten zelf, tussen € 750 en € 1.500. Volg je de cursus niet, dan wordt je rijbewijs ongeldig verklaard.",
+          "bron": [
+            {
+              "boek": 44,
+              "sectie": "2.8",
+              "anker": "kan naast een boete of straf ook een cursus worden opgelegd"
+            },
+            {
+              "boek": 44,
+              "sectie": "2.8",
+              "anker": "Je moet de kosten zelf betalen (tussen € 750 en € 1.500)"
+            },
+            {
+              "boek": 44,
+              "sectie": "2.8",
+              "anker": "Als je de cursus niet volgt, wordt je rijbewijs ongeldig verklaard"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Maatregel",
+            "Waarvoor"
+          ],
+          "rijen": [
+            [
+              "LEMA (licht, alcohol)",
+              "vanaf 0,5 promille als beginnende bestuurder of vanaf 0,8 promille als ervaren bestuurder"
+            ],
+            [
+              "EMA (zwaar, alcohol)",
+              "vanaf 0,8 promille als beginnende bestuurder of vanaf 1,0 promille als ervaren bestuurder"
+            ],
+            [
+              "LEMG (licht, gedrag)",
+              "tijdens een rit 30 km/u tot 60 km/u te hard rijden"
+            ],
+            [
+              "EMG (zwaar, gedrag)",
+              "herhaald gevaarlijk rijgedrag tijdens een rit, of 60 km/u of meer te hard rijden"
+            ],
+            [
+              "EMD (drugs)",
+              "rijden onder invloed van drugs, een combinatie van middelen, of een bloedonderzoek weigeren"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 44,
+              "sectie": "2.8",
+              "anker": "LEMA: ≥ 0,5 ‰ als beginnende bestuurder of ≥ 0,8 ‰ als ervaren bestuurder"
+            },
+            {
+              "boek": 44,
+              "sectie": "2.8",
+              "anker": "EMA: ≥ 0,8 ‰ als beginnende bestuurder of ≥ 1,0 ‰ als ervaren bestuurder"
+            },
+            {
+              "boek": 45,
+              "sectie": "2.8",
+              "anker": "als je tijdens een rit 30 km/u tot 60 km/u te hard rijdt"
+            },
+            {
+              "boek": 45,
+              "sectie": "2.8",
+              "anker": "Of als je tijdens een rit 60 km/u of meer te hard rijdt"
+            },
+            {
+              "boek": 45,
+              "sectie": "2.8",
+              "anker": "bij verdenking van drugsgebruik een bloedonderzoek weigert"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Voor het examen hoef je de cursusinhoud niet te kennen. Onthoud de letters: A staat voor alcohol, G voor gedrag en D voor drugs, en een L ervoor betekent de lichte variant met de lagere drempel.",
+          "bron": {
+            "slide": 37,
+            "anker": "Naast een boete of straf kun je ook een verplichte 'educatieve maatregel' opgelegd krijgen"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een boete werkt op je portemonnee, een cursus op je gedrag. Daarom hangt de maatregel niet aan de schade die je hebt aangericht maar aan hoe ver je over de grens zat, en daarom komt hij bovenop de straf in plaats van ervoor in de plaats. Wie hem weigert, houdt geen rijbewijs over.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Een beginnende bestuurder blaast 0,6 promille. Dat is boven de LEMA-drempel van 0,5 promille voor een beginner, maar onder de 0,8 promille van de EMA. Hij krijgt dus de lichte cursus. Had een ervaren bestuurder hetzelfde geblazen, dan was hij onder de LEMA-drempel van 0,8 promille gebleven.",
+          "bron": {
+            "boek": 44,
+            "sectie": "2.8",
+            "anker": "LEMA: ≥ 0,5 ‰ als beginnende bestuurder of ≥ 0,8 ‰ als ervaren bestuurder"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De educatieve maatregel komt niet in plaats van de boete of de straf, maar erbovenop. En let op wie er rijdt: hetzelfde promillage geeft een beginner een zwaardere maatregel dan een ervaren bestuurder.",
+          "bron": {
+            "boek": 44,
+            "sectie": "2.8",
+            "anker": "kan naast een boete of straf ook een cursus worden opgelegd"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "A is alcohol, G is gedrag, D is drugs. Een L ervoor is de lichte variant.",
+          "bron": {
+            "slide": 37,
+            "anker": "Naast een boete of straf kun je ook een verplichte 'educatieve maatregel' opgelegd krijgen"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Is te hard rijden een overtreding of een misdrijf?",
+          "antwoord": "Een overtreding.",
+          "uitleg": "Het boek noemt te hard rijden, foutparkeren en door rood licht rijden als overtredingen. Rijden onder invloed en doorrijden na een ongeval zijn misdrijven.",
+          "bron": {
+            "boek": 40,
+            "sectie": "2.6",
+            "anker": "overtredingen, bijvoorbeeld rijden door rood licht, foutparkeren of te hard rijden"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je auto blijkt bij een controle technisch niet in orde. Wie is daarvoor aansprakelijk?",
+          "antwoord": "De bestuurder en de eigenaar of houder.",
+          "uitleg": "Voor technische eisen is naast de bestuurder ook de eigenaar of houder van het voertuig aansprakelijk.",
+          "bron": {
+            "boek": 43,
+            "sectie": "2.7",
+            "anker": "naast de bestuurder, ook de eigenaar of houder van het voertuig aansprakelijk"
+          }
+        }
+      ]
+    }
+  ]
+}

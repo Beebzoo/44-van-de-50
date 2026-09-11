@@ -1,0 +1,429 @@
+{
+  "unit": "U05",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U05-Q900",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Rotonde; verplichte rijrichting.",
+      "media": {
+        "borden": [
+          "D6",
+          "D1",
+          "J9",
+          "D2",
+          "D5",
+          "D4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "D6",
+          "tekst": "D6",
+          "feedback": "Fout. Dit is D6: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D1",
+          "tekst": "D1",
+          "feedback": "Goed. Dit is D1, en dat bord betekent: Rotonde; verplichte rijrichting.",
+          "fouttype": null
+        },
+        {
+          "id": "J9",
+          "tekst": "J9",
+          "feedback": "Fout. Dit is J9: Rotonde. Het gevraagde bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D2",
+          "tekst": "D2",
+          "feedback": "Fout. Dit is D2: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft. Het gevraagde bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D5",
+          "tekst": "D5",
+          "feedback": "Fout. Dit is D5: Gebod tot het volgen van de rijrichting die op het bord is aangegeven. Het gevraagde bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D4",
+          "tekst": "D4",
+          "feedback": "Fout. Dit is D4: Gebod tot het volgen van de rijrichting die op het bord is aangegeven. Het gevraagde bord is D1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D1"
+      ],
+      "uitleg": {
+        "regel": "D1 betekent: Rotonde; verplichte rijrichting.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met drie witte pijlen in een kring.",
+        "valkuil": "Verwar het niet met D2, D3, J9, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met drie witte pijlen in een kring"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d1",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U05-Q901",
+      "unit": "U05",
+      "pagina": "U05-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "D1"
+      },
+      "opties": [
+        {
+          "id": "D1",
+          "tekst": "Rotonde; verplichte rijrichting.",
+          "feedback": "Goed. Dit is D1: blauwe cirkel met drie witte pijlen in een kring, en dat betekent Rotonde; verplichte rijrichting.",
+          "fouttype": null
+        },
+        {
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D7",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D2",
+          "tekst": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+          "feedback": "Fout. Dat is de betekenis van D2, blauwe cirkel met een dikke witte pijl schuin naar rechtsonder. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D1"
+      ],
+      "uitleg": {
+        "regel": "D1 betekent: Rotonde; verplichte rijrichting.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met drie witte pijlen in een kring.",
+        "valkuil": "De lijkers zijn D2, D3, J9. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met drie witte pijlen in een kring"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d1",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U05-Q904",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Erf.",
+      "media": {
+        "borden": [
+          "G12a",
+          "G12",
+          "G8",
+          "G13",
+          "G5",
+          "G6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G12a",
+          "tekst": "G12a",
+          "feedback": "Fout. Dit is G12a: Fiets-/bromfietspad. Het gevraagde bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12",
+          "tekst": "G12",
+          "feedback": "Fout. Dit is G12: Einde verplicht fietspad. Het gevraagde bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G8",
+          "tekst": "G8",
+          "feedback": "Fout. Dit is G8: Einde voetpad. Het gevraagde bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G13",
+          "tekst": "G13",
+          "feedback": "Fout. Dit is G13: Onverplicht fietspad. Het gevraagde bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G5",
+          "tekst": "G5",
+          "feedback": "Goed. Dit is G5, en dat bord betekent: Erf.",
+          "fouttype": null
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G5"
+      ],
+      "uitleg": {
+        "regel": "G5 betekent: Erf.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger.",
+        "valkuil": "Verwar het niet met G6, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g5",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U05-Q905",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G5"
+      },
+      "opties": [
+        {
+          "id": "G13",
+          "tekst": "Onverplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G13, blauw rechthoekig bordje met het witte woord fietspad. Dit bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "Einde erf.",
+          "feedback": "Fout. Dat is de betekenis van G6, het erfbord met een rode diagonale streep. Dit bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G10",
+          "tekst": "Einde ruiterpad.",
+          "feedback": "Fout. Dat is de betekenis van G10, hetzelfde bord met een rode diagonale streep. Dit bord is G5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G5",
+          "tekst": "Erf.",
+          "feedback": "Goed. Dit is G5: blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger, en dat betekent Erf.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "G5"
+      ],
+      "uitleg": {
+        "regel": "G5 betekent: Erf.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger.",
+        "valkuil": "De lijkers zijn G6. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g5",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U05-Q906",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde erf.",
+      "media": {
+        "borden": [
+          "G2",
+          "G6",
+          "G11",
+          "G4",
+          "G7",
+          "G5"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Fout. Dit is G2: Einde autosnelweg. Het gevraagde bord is G6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Goed. Dit is G6, en dat bord betekent: Einde erf.",
+          "fouttype": null
+        },
+        {
+          "id": "G11",
+          "tekst": "G11",
+          "feedback": "Fout. Dit is G11: Verplicht fietspad. Het gevraagde bord is G6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Fout. Dit is G4: Einde autoweg. Het gevraagde bord is G6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G7",
+          "tekst": "G7",
+          "feedback": "Fout. Dit is G7: Voetpad. Het gevraagde bord is G6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G5",
+          "tekst": "G5",
+          "feedback": "Fout. Dit is G5: Erf. Het gevraagde bord is G6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G6"
+      ],
+      "uitleg": {
+        "regel": "G6 betekent: Einde erf.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: het erfbord met een rode diagonale streep.",
+        "valkuil": "Verwar het niet met G5, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Het erfbord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g6",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U05-Q907",
+      "unit": "U05",
+      "pagina": "U05-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G6"
+      },
+      "opties": [
+        {
+          "id": "G8",
+          "tekst": "Einde voetpad.",
+          "feedback": "Fout. Dat is de betekenis van G8, hetzelfde bord met een rode diagonale streep. Dit bord is G6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "Einde erf.",
+          "feedback": "Goed. Dit is G6: het erfbord met een rode diagonale streep, en dat betekent Einde erf.",
+          "fouttype": null
+        },
+        {
+          "id": "G5",
+          "tekst": "Erf.",
+          "feedback": "Fout. Dat is de betekenis van G5, blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger. Dit bord is G6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G13",
+          "tekst": "Onverplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G13, blauw rechthoekig bordje met het witte woord fietspad. Dit bord is G6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G6"
+      ],
+      "uitleg": {
+        "regel": "G6 betekent: Einde erf.",
+        "waarom": "Kijk naar de vorm en de kleur: het erfbord met een rode diagonale streep.",
+        "valkuil": "De lijkers zijn G5. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Het erfbord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g6",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "S-U10-102",
+  "vorm": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een doorgaande weg met rechts een uitrit die over de stoep de weg op komt. Jij staat met je auto stil op de rijbaan vlak voor die uitrit.",
+  "inspiratie": {
+    "boek": 163
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "S-U12-001-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de auto voor je"
+    },
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    }
+  ],
+  "alt": "Dezelfde weg een moment later. De auto voor je staat stil en jij bent er dichter bij gekomen.",
+  "inspiratie": {
+    "slide": 186
+  }
+}

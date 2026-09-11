@@ -1,0 +1,711 @@
+{
+  "unit": "U10",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U10-Q900",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Parkeerverbod.",
+      "media": {
+        "borden": [
+          "E5",
+          "E10",
+          "E2",
+          "E11",
+          "E1",
+          "E13"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E5",
+          "tekst": "E5",
+          "feedback": "Fout. Dit is E5: Taxistandplaats. Het gevraagde bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E10",
+          "tekst": "E10",
+          "feedback": "Fout. Dit is E10: Parkeerschijfzone. Het gevraagde bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E2",
+          "tekst": "E2",
+          "feedback": "Fout. Dit is E2: Verbod stil te staan. Het gevraagde bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E11",
+          "tekst": "E11",
+          "feedback": "Fout. Dit is E11: Einde parkeerschijfzone. Het gevraagde bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E1",
+          "tekst": "E1",
+          "feedback": "Goed. Dit is E1, en dat bord betekent: Parkeerverbod.",
+          "fouttype": null
+        },
+        {
+          "id": "E13",
+          "tekst": "E13",
+          "feedback": "Fout. Dit is E13: Parkeergelegenheid ten behoeve van carpoolers. Het gevraagde bord is E1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E1"
+      ],
+      "uitleg": {
+        "regel": "E1 betekent: Parkeerverbod.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met rode rand en één rode diagonale streep.",
+        "valkuil": "Verwar het niet met E2, E3, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met rode rand en één rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e1",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q901",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "E1"
+      },
+      "opties": [
+        {
+          "id": "E3",
+          "tekst": "Verbod fietsen en bromfietsen te plaatsen.",
+          "feedback": "Fout. Dat is de betekenis van E3, blauwe cirkel met rode rand, rode streep en een fiets en bromfiets. Dit bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E2",
+          "tekst": "Verbod stil te staan.",
+          "feedback": "Fout. Dat is de betekenis van E2, blauwe cirkel met rode rand en een rood kruis. Dit bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E4",
+          "tekst": "Parkeergelegenheid.",
+          "feedback": "Fout. Dat is de betekenis van E4, blauw vierkant met een witte p. Dit bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E1",
+          "tekst": "Parkeerverbod.",
+          "feedback": "Goed. Dit is E1: blauwe cirkel met rode rand en één rode diagonale streep, en dat betekent Parkeerverbod.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "E1"
+      ],
+      "uitleg": {
+        "regel": "E1 betekent: Parkeerverbod.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met rode rand en één rode diagonale streep.",
+        "valkuil": "De lijkers zijn E2, E3. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met rode rand en één rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e1",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q902",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verbod stil te staan.",
+      "media": {
+        "borden": [
+          "E12",
+          "E9",
+          "E1",
+          "E2",
+          "E8",
+          "E3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E12",
+          "tekst": "E12",
+          "feedback": "Fout. Dit is E12: Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer. Het gevraagde bord is E2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E9",
+          "tekst": "E9",
+          "feedback": "Fout. Dit is E9: Parkeergelegenheid alleen bestemd voor vergunninghouders. Het gevraagde bord is E2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E1",
+          "tekst": "E1",
+          "feedback": "Fout. Dit is E1: Parkeerverbod. Het gevraagde bord is E2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E2",
+          "tekst": "E2",
+          "feedback": "Goed. Dit is E2, en dat bord betekent: Verbod stil te staan.",
+          "fouttype": null
+        },
+        {
+          "id": "E8",
+          "tekst": "E8",
+          "feedback": "Fout. Dit is E8: Parkeergelegenheid alleen bestemd voor personenauto's. Het gevraagde bord is E2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E3",
+          "tekst": "E3",
+          "feedback": "Fout. Dit is E3: Verbod fietsen en bromfietsen te plaatsen. Het gevraagde bord is E2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E2"
+      ],
+      "uitleg": {
+        "regel": "E2 betekent: Verbod stil te staan.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met rode rand en een rood kruis.",
+        "valkuil": "Verwar het niet met E1, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met rode rand en een rood kruis"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e2",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q903",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "E2"
+      },
+      "opties": [
+        {
+          "id": "E8",
+          "tekst": "Parkeergelegenheid alleen bestemd voor personenauto's.",
+          "feedback": "Fout. Dat is de betekenis van E8, blauw vierkant met p en een personenauto. Dit bord is E2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E9",
+          "tekst": "Parkeergelegenheid alleen bestemd voor vergunninghouders.",
+          "feedback": "Fout. Dat is de betekenis van E9, blauw vierkant met p en het woord vergunninghouders. Dit bord is E2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E2",
+          "tekst": "Verbod stil te staan.",
+          "feedback": "Goed. Dit is E2: blauwe cirkel met rode rand en een rood kruis, en dat betekent Verbod stil te staan.",
+          "fouttype": null
+        },
+        {
+          "id": "E4",
+          "tekst": "Parkeergelegenheid.",
+          "feedback": "Fout. Dat is de betekenis van E4, blauw vierkant met een witte p. Dit bord is E2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E2"
+      ],
+      "uitleg": {
+        "regel": "E2 betekent: Verbod stil te staan.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met rode rand en een rood kruis.",
+        "valkuil": "De lijkers zijn E1. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met rode rand en een rood kruis"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e2",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q904",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gehandicaptenparkeerplaats.",
+      "media": {
+        "borden": [
+          "E8",
+          "E5",
+          "E10",
+          "E6",
+          "E4",
+          "E3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E8",
+          "tekst": "E8",
+          "feedback": "Fout. Dit is E8: Parkeergelegenheid alleen bestemd voor personenauto's. Het gevraagde bord is E6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E5",
+          "tekst": "E5",
+          "feedback": "Fout. Dit is E5: Taxistandplaats. Het gevraagde bord is E6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E10",
+          "tekst": "E10",
+          "feedback": "Fout. Dit is E10: Parkeerschijfzone. Het gevraagde bord is E6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E6",
+          "tekst": "E6",
+          "feedback": "Goed. Dit is E6, en dat bord betekent: Gehandicaptenparkeerplaats.",
+          "fouttype": null
+        },
+        {
+          "id": "E4",
+          "tekst": "E4",
+          "feedback": "Fout. Dit is E4: Parkeergelegenheid. Het gevraagde bord is E6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E3",
+          "tekst": "E3",
+          "feedback": "Fout. Dit is E3: Verbod fietsen en bromfietsen te plaatsen. Het gevraagde bord is E6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E6"
+      ],
+      "uitleg": {
+        "regel": "E6 betekent: Gehandicaptenparkeerplaats.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met p en een rolstoelsymbool.",
+        "valkuil": "Verwar het niet met E4, E8, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauw vierkant met P en een rolstoelsymbool"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e6",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q905",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "E6"
+      },
+      "opties": [
+        {
+          "id": "E6",
+          "tekst": "Gehandicaptenparkeerplaats.",
+          "feedback": "Goed. Dit is E6: blauw vierkant met p en een rolstoelsymbool, en dat betekent Gehandicaptenparkeerplaats.",
+          "fouttype": null
+        },
+        {
+          "id": "E4",
+          "tekst": "Parkeergelegenheid.",
+          "feedback": "Fout. Dat is de betekenis van E4, blauw vierkant met een witte p. Dit bord is E6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E13",
+          "tekst": "Parkeergelegenheid ten behoeve van carpoolers.",
+          "feedback": "Fout. Dat is de betekenis van E13, blauw vierkant met p en het woord carpool. Dit bord is E6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E7",
+          "tekst": "Gelegenheid bestemd voor het onmiddellijk laden en lossen van goederen.",
+          "feedback": "Fout. Dat is de betekenis van E7, blauw vierkant met p en een vrachtauto met laadklep. Dit bord is E6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E6"
+      ],
+      "uitleg": {
+        "regel": "E6 betekent: Gehandicaptenparkeerplaats.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met p en een rolstoelsymbool.",
+        "valkuil": "De lijkers zijn E4, E8. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauw vierkant met P en een rolstoelsymbool"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e6",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q906",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Parkeerschijfzone.",
+      "media": {
+        "borden": [
+          "E5",
+          "E2",
+          "E1",
+          "E11",
+          "E10",
+          "E13"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E5",
+          "tekst": "E5",
+          "feedback": "Fout. Dit is E5: Taxistandplaats. Het gevraagde bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E2",
+          "tekst": "E2",
+          "feedback": "Fout. Dit is E2: Verbod stil te staan. Het gevraagde bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E1",
+          "tekst": "E1",
+          "feedback": "Fout. Dit is E1: Parkeerverbod. Het gevraagde bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E11",
+          "tekst": "E11",
+          "feedback": "Fout. Dit is E11: Einde parkeerschijfzone. Het gevraagde bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E10",
+          "tekst": "E10",
+          "feedback": "Goed. Dit is E10, en dat bord betekent: Parkeerschijfzone.",
+          "fouttype": null
+        },
+        {
+          "id": "E13",
+          "tekst": "E13",
+          "feedback": "Fout. Dit is E13: Parkeergelegenheid ten behoeve van carpoolers. Het gevraagde bord is E10.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E10"
+      ],
+      "uitleg": {
+        "regel": "E10 betekent: Parkeerschijfzone.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: wit zone-kader met een blauw p-bord en max 2h.",
+        "valkuil": "Verwar het niet met E11, E9, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Wit ZONE-kader met een blauw P-bord en max 2h"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e10",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q907",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "E10"
+      },
+      "opties": [
+        {
+          "id": "E7",
+          "tekst": "Gelegenheid bestemd voor het onmiddellijk laden en lossen van goederen.",
+          "feedback": "Fout. Dat is de betekenis van E7, blauw vierkant met p en een vrachtauto met laadklep. Dit bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E10",
+          "tekst": "Parkeerschijfzone.",
+          "feedback": "Goed. Dit is E10: wit zone-kader met een blauw p-bord en max 2h, en dat betekent Parkeerschijfzone.",
+          "fouttype": null
+        },
+        {
+          "id": "E12",
+          "tekst": "Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer.",
+          "feedback": "Fout. Dat is de betekenis van E12, blauw vierkant met p+r. Dit bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E5",
+          "tekst": "Taxistandplaats.",
+          "feedback": "Fout. Dat is de betekenis van E5, blauw vierkant met een witte p en het woord taxi. Dit bord is E10.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E10"
+      ],
+      "uitleg": {
+        "regel": "E10 betekent: Parkeerschijfzone.",
+        "waarom": "Kijk naar de vorm en de kleur: wit zone-kader met een blauw p-bord en max 2h.",
+        "valkuil": "De lijkers zijn E11, E9. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Wit ZONE-kader met een blauw P-bord en max 2h"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e10",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q908",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde parkeerschijfzone.",
+      "media": {
+        "borden": [
+          "E8",
+          "E13",
+          "E4",
+          "E12",
+          "E6",
+          "E11"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E8",
+          "tekst": "E8",
+          "feedback": "Fout. Dit is E8: Parkeergelegenheid alleen bestemd voor personenauto's. Het gevraagde bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E13",
+          "tekst": "E13",
+          "feedback": "Fout. Dit is E13: Parkeergelegenheid ten behoeve van carpoolers. Het gevraagde bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E4",
+          "tekst": "E4",
+          "feedback": "Fout. Dit is E4: Parkeergelegenheid. Het gevraagde bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E12",
+          "tekst": "E12",
+          "feedback": "Fout. Dit is E12: Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer. Het gevraagde bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E6",
+          "tekst": "E6",
+          "feedback": "Fout. Dit is E6: Gehandicaptenparkeerplaats. Het gevraagde bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E11",
+          "tekst": "E11",
+          "feedback": "Goed. Dit is E11, en dat bord betekent: Einde parkeerschijfzone.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "E11"
+      ],
+      "uitleg": {
+        "regel": "E11 betekent: Einde parkeerschijfzone.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: hetzelfde kader met een diagonale streep erdoor.",
+        "valkuil": "Verwar het niet met E10, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Hetzelfde kader met een diagonale streep erdoor"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e11",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U10-Q909",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "E11"
+      },
+      "opties": [
+        {
+          "id": "E2",
+          "tekst": "Verbod stil te staan.",
+          "feedback": "Fout. Dat is de betekenis van E2, blauwe cirkel met rode rand en een rood kruis. Dit bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E11",
+          "tekst": "Einde parkeerschijfzone.",
+          "feedback": "Goed. Dit is E11: hetzelfde kader met een diagonale streep erdoor, en dat betekent Einde parkeerschijfzone.",
+          "fouttype": null
+        },
+        {
+          "id": "E13",
+          "tekst": "Parkeergelegenheid ten behoeve van carpoolers.",
+          "feedback": "Fout. Dat is de betekenis van E13, blauw vierkant met p en het woord carpool. Dit bord is E11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E12",
+          "tekst": "Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer.",
+          "feedback": "Fout. Dat is de betekenis van E12, blauw vierkant met p+r. Dit bord is E11.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E11"
+      ],
+      "uitleg": {
+        "regel": "E11 betekent: Einde parkeerschijfzone.",
+        "waarom": "Kijk naar de vorm en de kleur: hetzelfde kader met een diagonale streep erdoor.",
+        "valkuil": "De lijkers zijn E10. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Hetzelfde kader met een diagonale streep erdoor"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-e11",
+        "borden-e"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

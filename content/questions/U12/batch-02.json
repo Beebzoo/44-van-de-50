@@ -1,0 +1,777 @@
+{
+  "unit": "U12",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U12-Q013",
+      "unit": "U12",
+      "pagina": "U12-P03",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Je sleept een auto met pech. Hoeveel meter mag de afstand tussen beide voertuigen maximaal zijn? Vul het aantal meters in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 5,
+        "eenheid": "meter"
+      },
+      "uitleg": {
+        "regel": "De afstand tussen beide voertuigen mag bij slepen maximaal 5 meter zijn.",
+        "waarom": "Hoe langer de kabel, hoe meer de gesleepte auto gaat slingeren en hoe lastiger het voor andere bestuurders wordt om te zien dat die twee bij elkaar horen.",
+        "valkuil": "Een lange kabel voelt veiliger omdat je meer ruimte hebt, maar hij maakt de combinatie juist onvoorspelbaar.",
+        "onthoud": "Slepen: nooit meer dan vijf meter kabel."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "de afstand tussen beide voertuigen mag maximaal 5 meter zijn"
+        },
+        {
+          "slide": 188,
+          "anker": "De afstand tussen beide voertuigen mag maximaal 5 meter zijn"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "slepen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "de afstand tussen beide voertuigen mag maximaal 5 meter zijn",
+        "bron": "boek p. 169"
+      }
+    },
+    {
+      "id": "U12-Q014",
+      "unit": "U12",
+      "pagina": "U12-P03",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Twee vrienden staan met pech langs de kant. Mag jij ze allebei tegelijk achter je auto hangen en zo naar de garage slepen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je mag maar een voertuig slepen, hoe handig het ook zou zijn om het in een keer te doen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je mag maar een voertuig tegelijk slepen, dus je zult twee keer moeten rijden.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je mag maar een voertuig slepen, en beide bestuurders moeten een geldig rijbewijs hebben.",
+        "waarom": "Elke extra auto aan de kabel voegt gewicht en slingering toe die jouw remmen niet aankunnen, en achteraan zit dan iemand die van de voorste auto niets meer ziet.",
+        "valkuil": "Twee auto's slepen lijkt hetzelfde als een aanhanger met twee assen, maar een gesleept voertuig stuurt en remt zelf.",
+        "onthoud": "Een sleeptouw, een voertuig."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "je mag maar een voertuig slepen gebruik een deugdelijke sleepkabel"
+        },
+        {
+          "slide": 188,
+          "anker": "5 meter zijn en je mag maar een voertuig tegelijk slepen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "slepen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "en je mag maar een voertuig tegelijk slepen",
+        "bron": "slide 188",
+        "gewijzigd": "het slide-anker stopte bij de 5 meter en droeg de sleutel niet; het loopt nu door tot en met je mag maar een voertuig tegelijk slepen."
+      }
+    },
+    {
+      "id": "U12-Q015",
+      "unit": "U12",
+      "pagina": "U12-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je gaat een auto met pech slepen. Welke van deze dingen horen erbij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een deugdelijke sleepkabel gebruiken en die aan de daartoe bestemde bevestigingspunten vastmaken.",
+          "feedback": "Goed. Alleen die punten zijn berekend op de trekkracht; alles wat je verder aan de auto vastknoopt kan losscheuren.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De sleepkabel altijd gespannen houden.",
+          "feedback": "Goed. Een slappe kabel die weer strak trekt geeft een ruk die de bevestiging kan afbreken.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De autoweg of autosnelweg zo snel mogelijk verlaten.",
+          "feedback": "Goed. Een langzame combinatie hoort niet thuis tussen verkeer dat met volle snelheid rijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De alarmlichten van beide auto's standaard aanzetten.",
+          "feedback": "Fout. Het boek zegt dat je de alarmlichten van beide auto's in principe uit laat, want knipperlichten betekenen voor anderen dat je stilstaat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "De minst ervaren bestuurder achter het stuur van het gesleepte voertuig zetten.",
+          "feedback": "Fout. Juist daar hoort de meest ervaren bestuurder, want sturen en remmen kost daar veel meer kracht.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Gebruik een deugdelijke sleepkabel aan de daartoe bestemde bevestigingspunten, houd de kabel altijd gespannen, laat de alarmlichten van beide auto's in principe uit en verlaat autowegen en autosnelwegen zo snel mogelijk.",
+        "waarom": "Slepen is de meest instabiele combinatie die je kunt maken: twee besturingen, een koppeling die geen schokken verdraagt en een achterste auto zonder motorkracht. Alles in de regels gaat over die instabiliteit klein houden.",
+        "valkuil": "Alarmlichten voelen bij slepen logisch, maar ze horen er juist uit te blijven.",
+        "onthoud": "Kabel strak, lichten uit, en er zo snel mogelijk af."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "bevestig de kabel aan daartoe bestemde bevestigingspunten"
+        },
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "verlaat autowegen en autosnelwegen zo snel mogelijk"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "slepen",
+        "alarmlichten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "laat de alarmlichten van beide auto's in principe uit",
+        "bron": "boek p. 169",
+        "gewijzigd": "optie d luidde de alarmlichten laten knipperen, terwijl het boek in principe uit zegt en de cursus zonder voorbehoud uit; d is nu standaard aanzetten, wat onder allebei de lezingen fout is, en de feedback geeft het boek zijn in principe terug."
+      }
+    },
+    {
+      "id": "U12-Q016",
+      "unit": "U12",
+      "pagina": "U12-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Jij zit in de auto die gesleept wordt en de voorste bestuurder remt voor een kruising. Moet jij dan harder afremmen dan hij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Als achterste bestuurder rem je meer af dan de voorste, want alleen zo blijft de kabel gespannen.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Rem je even hard als hij, dan loop je op de kabel in en komt er een ruk zodra hij weer optrekt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Houd de sleepkabel altijd gespannen; rem als achterste bestuurder daarom meer af dan de voorste.",
+        "waarom": "Zonder motorkracht rolt jouw auto vanzelf naar de voorste toe zodra die vaart mindert, en een slappe kabel die weer strak schiet is precies de schok die de bevestiging sloopt.",
+        "valkuil": "Zonder bekrachtiging is je rempedaal veel zwaarder, dus je moet er echt op gaan staan om genoeg af te remmen.",
+        "onthoud": "Achteraan rem je altijd net iets meer."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "houd de sleepkabel altijd gespannen Rem als achterste bestuurder daarom meer af dan de voorste"
+        },
+        {
+          "slide": 188,
+          "anker": "houdt de kabel strak om schokken te voorkomen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "slepen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "houd de sleepkabel altijd gespannen. Rem als achterste bestuurder daarom meer af dan de voorste",
+        "bron": "boek p. 169"
+      }
+    },
+    {
+      "id": "U12-Q017",
+      "unit": "U12",
+      "pagina": "U12-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De motor van het gesleepte voertuig staat uit. Waar moet de bestuurder daarvan vooral rekening mee houden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Sturen en remmen gaat veel zwaarder, want de rem- en stuurbekrachtiging werken niet.",
+          "feedback": "Goed. Daarom hoort de meest ervaren bestuurder het gesleepte voertuig te besturen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De richtingaanwijzers en de remlichten doen het niet meer.",
+          "feedback": "Fout. Het boek waarschuwt voor de bekrachtiging van rem en stuur, niet voor de verlichting.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Hij hoeft zelf niet meer te sturen, want hij volgt de voorste auto vanzelf.",
+          "feedback": "Fout. Een gesleept voertuig stuurt en remt gewoon zelf; alleen de aandrijving komt van de ander.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rem- en stuurbekrachtiging van het gesleepte voertuig werken niet als de motor uit staat, dus laat de meest ervaren bestuurder dat voertuig besturen.",
+        "waarom": "Bekrachtiging draait op de motor. Valt die weg, dan moet de bestuurder alle kracht zelf leveren, en dat merk je pas op het moment dat je hard moet remmen of scherp moet sturen.",
+        "valkuil": "Wie dit niet weet, remt te zacht en schrikt precies op het verkeerde moment.",
+        "onthoud": "Motor uit: rem en stuur worden loodzwaar."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "rem- en stuurbekrachtiging van het gesleepte voertuig niet werken als de motor uit staat"
+        },
+        {
+          "slide": 188,
+          "anker": "sturen en remmen gaat moeilijker als stuur- en rembekrachtiging niet werken"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "slepen",
+        "bekrachtiging"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "rem- en stuurbekrachtiging van het gesleepte voertuig niet werken als de motor uit staat",
+        "bron": "boek p. 169"
+      }
+    },
+    {
+      "id": "U12-Q018",
+      "unit": "U12",
+      "pagina": "U12-P03",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je wilt een auto slepen en je buurjongen van zestien wil wel achter het stuur van die auto zitten, want hij hoeft alleen maar te sturen. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Ook wie gesleept wordt bestuurt een voertuig op de weg, en daar hoort een geldig rijbewijs bij.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Allebei de bestuurders moeten een geldig rijbewijs hebben, ook degene die gesleept wordt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Tijdens het slepen gelden de regels van een auto met aanhangwagen, en allebei de bestuurders moeten een geldig rijbewijs hebben.",
+        "waarom": "De gesleepte auto rijdt gewoon mee in het verkeer en moet daarbij sturen en remmen, dus die bestuurder neemt echte verkeersbeslissingen en is geen passagier.",
+        "valkuil": "Denken dat je zonder motor geen bestuurder bent; de wet kijkt naar wie er stuurt, niet naar wat er aandrijft.",
+        "onthoud": "Twee auto's aan een kabel, twee rijbewijzen."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "allebei de bestuurders moeten een geldig rijbewijs hebben"
+        },
+        {
+          "slide": 188,
+          "anker": "Beide bestuurders moeten een geldig rijbewijs hebben"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "slepen",
+        "rijbewijs"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "allebei de bestuurders moeten een geldig rijbewijs hebben",
+        "bron": "boek p. 169"
+      }
+    },
+    {
+      "id": "U12-Q019",
+      "unit": "U12",
+      "pagina": "U12-P04",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "Je raakt betrokken bij een verkeersongeval. Zet de vijf stappen van PAMAN in de volgorde waarin je ze uitvoert.",
+      "media": null,
+      "opties": [
+        {
+          "id": "p",
+          "tekst": "Denken aan je eigen veiligheid",
+          "feedback": "Dit is de eerste stap. Een helper die zelf gewond raakt helpt niemand meer, dus begin je bij jezelf."
+        },
+        {
+          "id": "av",
+          "tekst": "Zorgen voor de veiligheid van andere betrokkenen",
+          "feedback": "Dit is de tweede stap. Zodra jij veilig staat, haal je de anderen uit het gevaar dat er nog is."
+        },
+        {
+          "id": "m",
+          "tekst": "De plaats van het ongeval markeren",
+          "feedback": "Dit is de derde stap. Met handgebaren en alarmlichten waarschuw je het verkeer dat er nog aankomt."
+        },
+        {
+          "id": "al",
+          "tekst": "De hulpdiensten alarmeren",
+          "feedback": "Dit is de vierde stap. Pas als de plek veilig en gemarkeerd is, bel je via 112 de alarmcentrale."
+        },
+        {
+          "id": "n",
+          "tekst": "De noodzakelijke eerste hulp verlenen",
+          "feedback": "Dit is de laatste stap. Eerste hulp verlenen op een plek die niet veilig is levert alleen maar meer slachtoffers op."
+        }
+      ],
+      "correct": [
+        "p",
+        "av",
+        "m",
+        "al",
+        "n"
+      ],
+      "uitleg": {
+        "regel": "Bij een verkeersongeval handel je altijd in deze volgorde: Persoonlijke veiligheid, veiligheid van Andere betrokkenen, Markeren van de ongevalsplaats, Alarmeren van de hulpdiensten, en tenslotte de Noodzakelijke eerste hulp.",
+        "waarom": "De volgorde loopt van de grootste groep naar de kleinste: eerst voorkom je dat er nog meer mensen bij betrokken raken, en pas daarna ga je iemand helpen die al gewond is.",
+        "valkuil": "Meteen naar een slachtoffer rennen voelt als het meest menselijke, maar het is in PAMAN juist de laatste letter.",
+        "onthoud": "PAMAN: Persoonlijk, Anderen, Markeren, Alarmeren, Noodzakelijk."
+      },
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Als je bij een verkeersongeval betrokken raakt moet je altijd in deze volgorde handelen"
+        },
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Een handig ezelsbruggetje om de juiste volgorde te onthouden is"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "paman",
+        "eerste-hulp"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je bij een verkeersongeval betrokken raakt, moet je altijd in deze volgorde handelen",
+        "bron": "boek p. 170"
+      }
+    },
+    {
+      "id": "U12-Q020",
+      "unit": "U12",
+      "pagina": "U12-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Waar staat de M van PAMAN voor?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Markeren van de ongevalsplaats, dus met handgebaren en alarmlichten het overige verkeer waarschuwen.",
+          "feedback": "Goed. Markeren betekent dat de bestuurders die nog aankomen weten dat ze hier iets moeten doen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Melden bij je verzekering.",
+          "feedback": "Fout. De schade melden komt veel later en heeft niets te maken met de veiligheid op de plek zelf.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Meehelpen met het verplaatsen van de slachtoffers.",
+          "feedback": "Fout. Slachtoffers verplaats je juist niet, behalve in een levensbedreigende situatie.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Markeren houdt in dat je met handgebaren, alarmlichten en wat je verder hebt het overige verkeer waarschuwt.",
+        "waarom": "Het verkeer dat nog aan komt rijden weet van niets en kijkt naar de weg zoals die altijd is. Zonder waarschuwing rijdt de eerstvolgende bestuurder zo op de ongevalsplek in.",
+        "valkuil": "Markeren wordt vaak verward met het veiligstellen van de slachtoffers; het gaat juist om de mensen die er nog aankomen.",
+        "onthoud": "Markeren is waarschuwen wie er nog aankomt."
+      },
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Dit houdt in dat je met handgebaren alarmlichten et cetera het overige verkeer waarschuwt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "paman",
+        "markeren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dit houdt in dat je (met handgebaren, alarmlichten, et cetera) het overige verkeer waarschuwt",
+        "bron": "boek p. 170"
+      }
+    },
+    {
+      "id": "U12-Q021",
+      "unit": "U12",
+      "pagina": "U12-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je komt als eerste bij een ongeval waarbij iemand gewond op de rijbaan ligt. Loop je meteen naar het slachtoffer toe om te helpen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Zo stap je zelf de rijbaan op terwijl er nog verkeer aankomt, en dan zijn er twee slachtoffers in plaats van een.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je denkt eerst aan je eigen veiligheid, dan aan die van de anderen, en pas daarna komt de eerste hulp.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Bij een ongeval moet je altijd eerst aan je persoonlijke veiligheid denken, daarna aan de veiligheid van andere betrokkenen, dan markeren, dan alarmeren, en tenslotte eerste hulp verlenen.",
+        "waarom": "Alles wat je daarna doet hangt ervan af dat jij heel blijft. Ben je zelf aangereden, dan is er niemand meer die markeert, belt of helpt.",
+        "valkuil": "Het instinct om te rennen is precies wat de volgorde probeert af te remmen.",
+        "onthoud": "Eerst jezelf, dan de rest, dan pas helpen."
+      },
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "je moet altijd eerst aan je"
+        },
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "daarna zorg je voor de veiligheid van"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "paman",
+        "eerste-hulp"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je bij een verkeersongeval betrokken raakt, moet je altijd in deze volgorde handelen",
+        "bron": "boek p. 170"
+      }
+    },
+    {
+      "id": "U12-Q022",
+      "unit": "U12",
+      "pagina": "U12-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Je belt 112 na een ernstig ongeval. Wat vertel je de centralist?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zo exact mogelijk waar je je bevindt.",
+          "feedback": "Goed. Zonder een precieze plek kan de ambulance alle kanten op en verliest iedereen tijd.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Wat er is gebeurd en hoeveel voertuigen erbij betrokken zijn.",
+          "feedback": "Goed. Daarmee weet de centralist wat er moet komen, van een ambulance tot een bergingswagen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Hoeveel gewonden er zijn en hoe ernstig.",
+          "feedback": "Goed. Het aantal gewonden bepaalt hoeveel hulp er tegelijk op weg gaat.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Bij welke maatschappij de betrokkenen verzekerd zijn.",
+          "feedback": "Fout. De verzekering komt bij de schadeafhandeling ter sprake en niet bij de alarmcentrale.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Wie er volgens jou schuld heeft aan het ongeval.",
+          "feedback": "Fout. De schuldvraag hoort niet bij de melding; die wordt later door de politie of de verzekeraars bekeken.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Bel bij ernstige ongevallen en calamiteiten via 112 de alarmcentrale en beschrijf zo exact mogelijk waar je je bevindt, wat er is gebeurd en hoeveel voertuigen erbij betrokken zijn, en hoeveel gewonden er zijn.",
+        "waarom": "De centralist beslist op jouw woorden welke eenheden hij stuurt. Alles wat daar niet aan bijdraagt kost alleen maar seconden aan de telefoon.",
+        "valkuil": "Beginnen over schuld of verzekering houdt de lijn bezet terwijl er hulp onderweg moet.",
+        "onthoud": "Waar, wat, en hoeveel gewonden."
+      },
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Geef de juiste informatie dan zijn de juiste hulpdiensten het snelst ter plekke"
+        },
+        {
+          "slide": 189,
+          "anker": "Bel bij ernstige ongevallen en incidenten via 112 de alarmcentrale"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "alarmnummer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bel bij ernstige ongevallen en calamiteiten via 112 de alarmcentrale. Geef de juiste informatie; dan zijn de juiste hulpdiensten het snelst ter plekke.",
+        "bron": "boek p. 170"
+      }
+    },
+    {
+      "id": "U12-Q023",
+      "unit": "U12",
+      "pagina": "U12-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Na een aanrijding ligt een fietser gewond in de berm. Er is geen brand en geen water in de buurt. Sleep je hem naar de stoep zodat hij comfortabeler ligt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Verplaatsen mag alleen in een levensbedreigende situatie, en comfort is dat niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je laat hem liggen; verplaatsen doe je alleen als hij anders zou verbranden of verdrinken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Verplaats een slachtoffer niet, behalve in een levensbedreigende situatie, bijvoorbeeld gevaar voor verbranding of verdrinking.",
+        "waarom": "Je weet van buitenaf niet of er iets aan de rug of nek kapot is, en juist het optillen of draaien kan die schade blijvend maken.",
+        "valkuil": "Goed bedoelde hulp is hier het gevaar; de enige reden om te tillen is dat blijven liggen dodelijk zou zijn.",
+        "onthoud": "Laten liggen, tenzij hij anders verbrandt of verdrinkt."
+      },
+      "bronnen": [
+        {
+          "boek": 171,
+          "sectie": "10.7",
+          "anker": "Verplaats een slachtoffer niet behalve in een levensbedreigende situatie"
+        },
+        {
+          "slide": 189,
+          "anker": "Laat slachtoffers liggen Verplaats ze niet tenzij er acuut gevaar dreigt bijvoorbeeld brand"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "eerste-hulp",
+        "slachtoffer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Verplaats een slachtoffer niet, behalve in een levensbedreigende situatie (bijvoorbeeld gevaar voor verbranding of verdrinking).",
+        "bron": "boek p. 171"
+      }
+    },
+    {
+      "id": "U12-Q024",
+      "unit": "U12",
+      "pagina": "U12-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je nadert de plek op de tekening: voor je staat een hulpdienst met zwaailicht stil en daarvoor staat een auto stil. Waar let je hier vooral op?",
+      "media": {
+        "scene": "S-U12-102"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je blijft naar de weg kijken en houdt er rekening mee dat er mensen op de rijbaan kunnen lopen.",
+          "feedback": "Goed. Je laat je niet afleiden, en juist op zo'n plek lopen er mensen tussen de voertuigen door.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je kijkt goed opzij om te zien wat er precies gebeurd is, zodat je het later kunt navertellen.",
+          "feedback": "Fout. Laat je niet afleiden als je langs zo'n plek rijdt; dat is precies waar de tweede botsing vandaan komt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je gaat ervan uit dat de andere bestuurders net zo goed opletten als jij.",
+          "feedback": "Fout. Je moet er juist op rekenen dat andere weggebruikers wel afgeleid kunnen worden.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Stilstaande voertuigen met zwaailicht waarschuwen je voor een ongeval of een andere calamiteit. Laat je niet afleiden, reken erop dat andere weggebruikers wel afgeleid kunnen worden, en houd er rekening mee dat er voetgangers op de weg kunnen lopen.",
+        "waarom": "Iedereen kijkt op zo'n plek naar wat er aan de kant gebeurt in plaats van naar de weg, dus de kans dat de bestuurder naast of achter je iets stoms doet is hier groter dan waar ook.",
+        "valkuil": "Een blik van een seconde opzij is bij vijftig kilometer per uur al een flink stuk blind rijden.",
+        "onthoud": "Zwaailicht in zicht: ogen op de weg."
+      },
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Stilstaande voertuigen met zwaailicht van politie of Rijkswaterstaat waarschuwen je voor een ongeval"
+        },
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Houd er ook rekening mee dat er voetgangers op de weg kunnen lopen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "afleiding",
+        "hulpdienst"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Houd er ook rekening mee dat er voetgangers op de weg kunnen lopen.",
+        "bron": "boek p. 170"
+      }
+    }
+  ]
+}

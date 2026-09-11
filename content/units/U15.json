@@ -1,0 +1,1321 @@
+{
+  "id": "U15",
+  "slug": "alle-borden-op-een-rij",
+  "titel": "Alle borden op een rij",
+  "ondertitel": "Het hele bordenhoofdstuk nog een keer, vlak voor je examen",
+  "volgorde": 15,
+  "week": 5,
+  "tier": "must",
+  "vereist": [
+    "U14"
+  ],
+  "borden": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "H1",
+    "H2",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C7a",
+    "C7b",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22",
+    "C22e",
+    "C22e4",
+    "C22e6",
+    "C22e10",
+    "C23-01",
+    "C23-02",
+    "C23-03",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G11",
+    "G12",
+    "G12a",
+    "G12b",
+    "G13",
+    "G14",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J14",
+    "J15",
+    "J16",
+    "J17",
+    "J18",
+    "J19",
+    "J20",
+    "J21",
+    "J22",
+    "J23",
+    "J24",
+    "J25",
+    "J26",
+    "J27",
+    "J28",
+    "J29",
+    "J30",
+    "J31",
+    "J32",
+    "J33",
+    "J34",
+    "J35",
+    "J36",
+    "J37",
+    "J38",
+    "J39",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "K9",
+    "K10",
+    "K12",
+    "K13",
+    "K14",
+    "L1",
+    "L2",
+    "L3a",
+    "L3b",
+    "L3c",
+    "L4",
+    "L5",
+    "L7",
+    "L8",
+    "L9",
+    "L11",
+    "L13",
+    "L14",
+    "L15",
+    "L16",
+    "L17",
+    "L18",
+    "L19",
+    "L20",
+    "L21",
+    "L51"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.4,
+    "soort": "borden"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "3.1",
+        "3.2",
+        "3.4"
+      ],
+      "paginas": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        53,
+        57,
+        58,
+        91,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+      ]
+    },
+    "cursus": {
+      "slides": [
+        44,
+        45,
+        46,
+        47,
+        56,
+        57,
+        113
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "verkeerstekens_en_aanwijzingen"
+  ],
+  "intro": "Dit is het laatste blok en het werkt anders dan de rest. Hier komen alle borden uit het bordenhoofdstuk nog een keer langs, familie voor familie. Het loont om ze niet stuk voor stuk uit je hoofd te leren, maar per familie: elke familie heeft een eigen vorm en een eigen kleur, en die vertellen je al de helft van de betekenis voordat je het symbool hebt gelezen. Rond met een rode rand verbiedt, rond en blauw gebiedt, een driehoek waarschuwt, een ruit hoort bij de voorrangsweg en een blauw vierkant vertelt je iets. Werk de tien pagina's door en gebruik daarna de quiz net zo lang tot de lijkers je niet meer verrassen.",
+  "paginas": [
+    {
+      "id": "U15-P01",
+      "anker": "p-14-a-snelheid",
+      "titel": "Snelheid en bebouwde kom",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            47,
+            49,
+            238,
+            244
+          ]
+        },
+        "cursus": {
+          "slides": [
+            45
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Familie A en familie H horen bij elkaar: de een zet een snelheid neer, de ander zet een heel gebied neer waarin een standaardsnelheid geldt. Je herkent ze aan hun vorm, nog voordat je het getal kunt lezen."
+        },
+        {
+          "type": "regel",
+          "id": "U15-r01",
+          "tekst": "Deze borden geven een maximumsnelheid of adviessnelheid aan, of het einde daarvan. Er zijn ook snelheidsborden die voor een hele zone gelden.",
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "Deze borden geven een maximumsnelheid of adviessnelheid aan"
+            },
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "Er zijn ook snelheidsborden die voor een hele zone gelden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r02",
+          "tekst": "Een maximum staat op een ronde witte plaat met rode rand en een zwart getal. Een advies staat op een blauw vierkant bord. Dezelfde ronde plaat met het getal in grijs en schuine strepen erdoor is het einde van dat maximum.",
+          "bron": [
+            {
+              "boek": 238,
+              "anker": "**A1** | Ronde witte plaat met rode rand en zwart `50`"
+            },
+            {
+              "boek": 238,
+              "anker": "**A4** | Blauw vierkant bord met wit `50 km/h` | *Adviessnelheid.*"
+            },
+            {
+              "boek": 238,
+              "anker": "Ronde witte plaat met grijs 50 doorkruist door schuine strepen"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5"
+          ],
+          "tekst": "Familie A: de snelheidsborden. De rode rand maakt het getal bindend, het blauwe vierkant maakt het een advies."
+        },
+        {
+          "type": "regel",
+          "id": "U15-r03",
+          "tekst": "Familie H bestaat uit de borden die aanduiden dat je de bebouwde kom binnenrijdt of verlaat. Het is een blauw rechthoekig bord met witte rand en de plaatsnaam erop; met een rode diagonale streep erdoor is het einde bebouwde kom.",
+          "bron": [
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Borden die aanduiden dat je de bebouwde kom binnenrijdt of verlaat"
+            },
+            {
+              "boek": 244,
+              "anker": "Blauw rechthoekig bord met witte rand en de plaatsnaam Helmond"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "H1",
+            "H2"
+          ],
+          "tekst": "Familie H: je rijdt de bebouwde kom binnen, of je verlaat die weer."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De twee einde-borden lijken op elkaar maar horen bij verschillende dingen: [A2] maakt een eind aan een maximumsnelheid, [A5] aan een adviessnelheid. En een blauw bord met een getal blijft een advies, hoe groot het getal ook is."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rond met een rode rand is een maximum, blauw vierkant is een advies."
+        }
+      ]
+    },
+    {
+      "id": "U15-P02",
+      "anker": "p-14-b-voorrang",
+      "titel": "Voorrang: ruit, driehoek en achthoek",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            47,
+            238
+          ]
+        },
+        "cursus": {
+          "slides": [
+            113
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r04",
+          "tekst": "Deze borden regelen de voorrang op kruispunten en op sommige afbuigende wegen.",
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "Deze borden regelen de voorrang op kruispunten en op sommige afbuigende wegen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r05",
+          "tekst": "De gele ruit met witte rand is de voorrangsweg; dezelfde ruit met schuine strepen erdoor is het einde voorrangsweg. De rode driehoek met de punt omlaag en de rode achthoek met het woord STOP zeggen allebei: verleen voorrang aan bestuurders op de kruisende weg.",
+          "bron": [
+            {
+              "boek": 238,
+              "anker": "**B1** | Gele ruit met witte rand | *Voorrangsweg.*"
+            },
+            {
+              "boek": 238,
+              "anker": "**B2** | Gele ruit met witte rand en schuine strepen erdoor"
+            },
+            {
+              "boek": 238,
+              "anker": "**B6** | Rode driehoek met de punt omlaag, wit binnenvlak"
+            },
+            {
+              "boek": 238,
+              "anker": "**B7** | Rode achthoek met het witte woord `STOP`"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7"
+          ],
+          "tekst": "Familie B: vier vormen, drie boodschappen. De ruit hoort bij de weg, de driehoek en de achthoek horen bij het kruispunt dat je nadert."
+        },
+        {
+          "type": "waarom",
+          "tekst": "Geen ander bord heeft de vorm van een ruit, dus je herkent een voorrangsweg van ver en ook van opzij. En een driehoek met de punt omlaag staat op zijn kop tussen alle andere driehoeken, precies op de plek waar jij moet wachten.",
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "Deze borden regelen de voorrang op kruispunten en op sommige afbuigende wegen"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "[B3] heeft de punt omhoog en betekent voorrangskruispunt; [B4] en [B5] zijn dezelfde driehoek met de zijweg links of rechts erbij. Zie je er een, dan nader je een voorrangskruispunt waar je voorrang moet krijgen van bestuurders uit zijwegen. Van deze zeven borden zeggen alleen [B6] en [B7] dat jij zelf voorrang moet verlenen.",
+          "bron": [
+            {
+              "slide": 113,
+              "anker": "nader je een voorrangskruispunt waar je voorrang moet krijgen van bestuurders"
+            },
+            {
+              "boek": 238,
+              "anker": "**B6** | Rode driehoek met de punt omlaag, wit binnenvlak"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Punt omlaag of achthoek: jij wacht. Ruit: jij rijdt op de voorrangsweg."
+        }
+      ]
+    },
+    {
+      "id": "U15-P03",
+      "anker": "p-14-c-geslotenverklaring",
+      "titel": "Geslotenverklaring: wie mag er niet in",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            48,
+            239,
+            240
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r06",
+          "tekst": "Deze borden bepalen wie een weg niet in mag. Op de borden kun je aan de symbolen zien voor wie ze bedoeld zijn.",
+          "bron": [
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Deze borden bepalen wie een weg niet in mag"
+            },
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Op de borden kun je aan de symbolen zien voor wie ze bedoeld zijn"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r07",
+          "tekst": "Een rode cirkel met een wit binnenvlak sluit de weg in beide richtingen. Een rode cirkel met een brede witte horizontale balk hoort bij een eenrichtingsweg en betekent: in deze richting gesloten. Het blauwe vierkant met de witte pijl omhoog is diezelfde eenrichtingsweg, gezien vanaf de kant waar je er wel in mag.",
+          "bron": [
+            {
+              "boek": 239,
+              "anker": "**C1** | Rode cirkel, wit binnenvlak | *Gesloten in beide richtingen voor voertuigen"
+            },
+            {
+              "boek": 239,
+              "anker": "**C2** | Rode cirkel met een brede witte horizontale balk"
+            },
+            {
+              "boek": 239,
+              "anker": "**C3** | Blauw vierkant met een witte pijl omhoog | *Eenrichtingsweg.*"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C7a",
+            "C7b",
+            "C8",
+            "C9",
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20",
+            "C21",
+            "C22",
+            "C22e",
+            "C22e4",
+            "C22e6",
+            "C22e10",
+            "C23-01",
+            "C23-02",
+            "C23-03"
+          ],
+          "tekst": "Familie C: de weg gaat dicht. Zoek in de cirkel het symbool dat bij jouw voertuig hoort, en lees daarna pas het onderbord."
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Bij een milieuzone staat [C22e], een rode cirkel met een auto en een bestelbus met uitlaatgassen. Het onderbord eronder zegt welke voertuigen en welke emissieklassen er nog wel in mogen.",
+          "bron": [
+            {
+              "boek": 240,
+              "anker": "**C22e** | Rode cirkel met een zwarte auto en bestelbus met uitlaatgassen"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De symbolen lijken op elkaar: [C13] is de bromfiets, [C14] de fiets en [C15] allebei. En [C6] sluit de weg voor motorvoertuigen op meer dan twee wielen, terwijl [C12] alle motorvoertuigen buiten houdt, dus ook de motorfiets."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rode cirkel: zoek het symbool en vraag jezelf af of dat jij bent."
+        }
+      ]
+    },
+    {
+      "id": "U15-P04",
+      "anker": "p-14-df-gebod-verbod",
+      "titel": "Rijrichting, geboden en verboden",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            48,
+            241,
+            242,
+            243
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r08",
+          "tekst": "Bij de rijrichtingsborden moet je verplicht de aangegeven richting volgen. Het zijn blauwe cirkels met witte pijlen erin.",
+          "bron": [
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Bij deze borden moet je verplicht de aangegeven richting volgen"
+            },
+            {
+              "boek": 241,
+              "anker": "Blauwe cirkel met drie witte pijlen in een kring"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r09",
+          "tekst": "De overige geboden en verboden vertellen je waar en wie je mag inhalen, wanneer je tegenliggers voor moet laten gaan of wanneer andere verboden worden opgeheven.",
+          "bron": [
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Deze borden vertellen je waar en wie je mag inhalen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r10",
+          "tekst": "In deze twee families zie je de kleurtaal van het ronde bord het duidelijkst. Een blauwe cirkel met een wit symbool wijst een baan of een richting aan die je moet volgen, zoals de blauwe cirkel met een witte bus bij een busbaan. Een witte cirkel met een enkele schuine grijze streep betekent einde van alle door verkeersborden aangegeven verboden.",
+          "bron": [
+            {
+              "boek": 243,
+              "anker": "**F13** | Blauwe cirkel met een witte bus"
+            },
+            {
+              "boek": 242,
+              "anker": "**F8** | Witte cirkel met een enkele schuine grijze streep"
+            },
+            {
+              "boek": 242,
+              "anker": "Einde van alle door verkeersborden aangegeven verboden"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8",
+            "F9",
+            "F10",
+            "F11",
+            "F12",
+            "F13",
+            "F14",
+            "F15",
+            "F16",
+            "F17",
+            "F18",
+            "F19",
+            "F20",
+            "F21",
+            "F22"
+          ],
+          "tekst": "Familie D en familie F: blauw zegt wat je moet volgen, rood zegt wat niet mag, en een streep erdoor is het einde ervan."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "[F5] en [F6] tonen bijna dezelfde twee pijlen. De rode cirkel [F5] verbiedt jou door te gaan bij tegenliggers; het blauwe vierkant [F6] zegt juist dat de tegenligger jou voor laat gaan. Kijk naar de vorm en de kleur, niet naar de pijlen."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Blauwe cirkel: dit volgen. Rode cirkel: dit niet. Streep erdoor: einde."
+        }
+      ]
+    },
+    {
+      "id": "U15-P05",
+      "anker": "p-14-e-parkeren",
+      "titel": "Parkeren en stilstaan",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            46,
+            48,
+            241,
+            242
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r11",
+          "tekst": "Deze borden regelen waar je wel of niet mag stilstaan of parkeren.",
+          "bron": [
+            {
+              "boek": 48,
+              "sectie": "3.1",
+              "anker": "Deze borden regelen waar je wel of niet mag stilstaan of parkeren"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r12",
+          "tekst": "Een blauwe cirkel met rode rand en een rode diagonale streep is een parkeerverbod. Dezelfde cirkel met een rood kruis is een verbod stil te staan. Het blauwe vierkant met een witte P wijst juist een parkeergelegenheid aan, en het symbool ernaast zegt voor wie die bedoeld is.",
+          "bron": [
+            {
+              "boek": 241,
+              "anker": "**E1** | Blauwe cirkel met rode rand en één rode diagonale streep"
+            },
+            {
+              "boek": 241,
+              "anker": "**E2** | Blauwe cirkel met rode rand en een rood kruis"
+            },
+            {
+              "boek": 241,
+              "anker": "Blauw vierkant met een witte `P` | *Parkeergelegenheid.*"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r13",
+          "tekst": "Borden met een verbod tot stilstaan of parkeren gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst. Staat hetzelfde verbod in een zonekader, dan geldt het in de hele zone.",
+          "bron": [
+            {
+              "boek": 46,
+              "sectie": "3.1",
+              "anker": "die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst"
+            },
+            {
+              "boek": 242,
+              "anker": "Wit `ZONE`-kader met een blauw `P`-bord en `max 2h`"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "E7",
+            "E8",
+            "E9",
+            "E10",
+            "E11",
+            "E12",
+            "E13"
+          ],
+          "tekst": "Familie E: een streep is een parkeerverbod, een kruis verbiedt ook stilstaan, en de P wijst een plek aan."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "[E1] en [E2] zijn allebei blauwe cirkels met een rode rand. De enkele streep verbiedt parkeren, het kruis verbiedt ook stilstaan. En [E3] lijkt op een parkeerverbod voor auto's, maar gaat over het plaatsen van fietsen en bromfietsen."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Een streep verbiedt parkeren, een kruis verbiedt ook stilstaan."
+        }
+      ]
+    },
+    {
+      "id": "U15-P06",
+      "anker": "p-14-g-verkeersregels",
+      "titel": "Wat voor weg is dit",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            49,
+            243,
+            244
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r14",
+          "tekst": "Deze borden duiden een auto(snel)weg, erf, voetpad, fiets-/bromfietspad of ruiterpad aan. Ze vertellen je dus welk pakket regels vanaf hier geldt.",
+          "bron": [
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Deze borden duiden een auto(snel)weg, erf, voetpad, fiets-/bromfietspad of ruiterpad aan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r15",
+          "tekst": "Bijna elk bord in deze familie komt in een paar: hetzelfde bord met een rode diagonale streep erdoor betekent het einde van die wegsoort.",
+          "bron": [
+            {
+              "boek": 243,
+              "anker": "Hetzelfde bord met een rode diagonale streep | *Einde autosnelweg.*"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "G1",
+            "G2",
+            "G3",
+            "G4",
+            "G5",
+            "G6",
+            "G7",
+            "G8",
+            "G9",
+            "G10",
+            "G11",
+            "G12",
+            "G12a",
+            "G12b",
+            "G13",
+            "G14"
+          ],
+          "tekst": "Familie G: eerst het bord dat de wegsoort opent, dan hetzelfde bord met een streep dat hem sluit."
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "De blauwe cirkel met een witte fiets [G11] is een verplicht fietspad. Het blauwe rechthoekige bordje met het woord fietspad [G13] is een onverplicht fietspad: dezelfde boodschap in een andere vorm en met een ander gewicht.",
+          "bron": [
+            {
+              "boek": 244,
+              "anker": "**G11** | Blauwe cirkel met een witte fiets | *Verplicht fietspad.*"
+            },
+            {
+              "boek": 244,
+              "anker": "**G13** | Blauw rechthoekig bordje met het witte woord `fietspad`"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "[G11] en [G12a] verschillen maar in een symbool: bij [G12a] staat er ook een bromfiets op en dan is het een fiets-/bromfietspad. En [G13] is rechthoekig, niet rond, want een onverplicht pad is geen gebod."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rond blauw is een gebod, een rechthoekig blauw bordje is een aanduiding."
+        }
+      ]
+    },
+    {
+      "id": "U15-P07",
+      "anker": "p-14-j-waarschuwing",
+      "titel": "Waarschuwing: de rode driehoek",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            49,
+            245,
+            246
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r16",
+          "tekst": "Waarschuwingsborden wijzen je op dreigend gevaar, zodat je daar rekening mee kunt houden. Je ziet ze vaak op plaatsen waar ook ervaren en oplettende bestuurders de gevaren snel over het hoofd zien.",
+          "bron": [
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Waarschuwingsborden wijzen je op dreigend gevaar"
+            },
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Waarschuwingsborden zie je vaak op plaatsen waar ook ervaren en oplettende bestuurders"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r17",
+          "tekst": "Alle J-borden zijn rode driehoeken met de punt omhoog en een zwart symbool, tenzij anders vermeld. Je hoeft dus maar een ding te leren: het symbool.",
+          "bron": [
+            {
+              "boek": 245,
+              "anker": "Alle J-borden zijn rode driehoeken met de punt omhoog en een zwart symbool"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "J1",
+            "J2",
+            "J3",
+            "J4",
+            "J5",
+            "J6",
+            "J7",
+            "J8",
+            "J9",
+            "J10",
+            "J11",
+            "J12",
+            "J13",
+            "J14",
+            "J15",
+            "J16",
+            "J17",
+            "J18",
+            "J19",
+            "J20",
+            "J21",
+            "J22",
+            "J23",
+            "J24",
+            "J25",
+            "J26",
+            "J27",
+            "J28",
+            "J29",
+            "J30",
+            "J31",
+            "J32",
+            "J33",
+            "J34",
+            "J35",
+            "J36",
+            "J37",
+            "J38",
+            "J39"
+          ],
+          "tekst": "Familie J: steeds dezelfde driehoek, en telkens een ander symbool. Lees het symbool en bedenk wat je verderop kunt tegenkomen."
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "De driehoek met een uitroepteken [J37] betekent gevaar, waarbij de aard van het gevaar is aangegeven op het onderbord. Zonder dat onderbord weet je alleen dat er iets is.",
+          "bron": [
+            {
+              "boek": 246,
+              "anker": "Gevaar (de aard van het gevaar is aangegeven op het onderbord)"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De lijkers zitten in paren: [J10] is een overweg met overwegbomen en [J11] een overweg zonder, [J12] hoort bij een enkelspoor en [J13] bij twee of meer sporen, en [J2] tot en met [J5] verschillen alleen in de kant waar de bocht heen gaat."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Een driehoek met de punt omhoog waarschuwt; de voorrang regelen de B-borden."
+        }
+      ]
+    },
+    {
+      "id": "U15-P08",
+      "anker": "p-14-k-bewegwijzering",
+      "titel": "Bewegwijzering: waar ga je heen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            49,
+            246,
+            247,
+            253
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r18",
+          "tekst": "Deze borden geven je informatie over de richting die je moet nemen, het verloop van je route en de wegindeling.",
+          "bron": [
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Deze borden geven je informatie over de richting die je moet nemen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r19",
+          "tekst": "De kleur zegt voor wie het bord bedoeld is. Blauwe wegwijzers horen bij het gemotoriseerde verkeer; de rood-witte puntige wegwijzers zijn voor fietsers, snorfietsers en bromfietsers. Gele borden horen bij een omleiding.",
+          "bron": [
+            {
+              "boek": 247,
+              "anker": "**K6** | Twee blauwe puntige wegwijzers boven elkaar"
+            },
+            {
+              "boek": 247,
+              "anker": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel"
+            },
+            {
+              "boek": 253,
+              "anker": "Geel bord met een zwarte pijl naar rechts en `Omleiding` | *Aanduiding omleiding.*"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "K1",
+            "K2",
+            "K3",
+            "K4",
+            "K5",
+            "K6",
+            "K7",
+            "K9",
+            "K10",
+            "K12",
+            "K13",
+            "K14"
+          ],
+          "tekst": "Familie K: de wegwijzers. Blauw voor de auto, rood-wit voor de fiets, geel voor een tijdelijke route."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Op het examen gaat het zelden om de plaatsnamen op het bord, maar om de vraag voor wie het bord hangt en waar de pijl heen wijst."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Blauw voor de auto, rood-wit voor de fiets, geel is tijdelijk."
+        }
+      ]
+    },
+    {
+      "id": "U15-P09",
+      "anker": "p-14-l-informatie",
+      "titel": "Informatieborden",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1"
+          ],
+          "paginas": [
+            49,
+            91,
+            245,
+            248
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r20",
+          "tekst": "Ook de informatieborden geven je informatie over de richting die je moet nemen, het verloop van je route en de wegindeling. Het zijn bijna allemaal blauwe vierkante of rechthoekige borden met een wit symbool.",
+          "bron": [
+            {
+              "boek": 49,
+              "sectie": "3.1",
+              "anker": "Deze borden geven je informatie over de richting die je moet nemen"
+            },
+            {
+              "boek": 248,
+              "anker": "Blauw vierkant met een voetganger op een zebrapad | *Voetgangersoversteekplaats.*"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r21",
+          "tekst": "Een blauw vierkant met een witte weg die eindigt op een rode balk is een doodlopende weg; hetzelfde beeld met een zijweg is de vooraanduiding daarvan.",
+          "bron": [
+            {
+              "boek": 248,
+              "anker": "Blauw vierkant met een witte weg die eindigt op een rode balk"
+            },
+            {
+              "boek": 248,
+              "anker": "Blauw vierkant met een zijweg die eindigt op een rode balk"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "L1",
+            "L2",
+            "L3a",
+            "L3b",
+            "L3c",
+            "L4",
+            "L5",
+            "L7",
+            "L8",
+            "L9",
+            "L11",
+            "L13",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "L19",
+            "L20",
+            "L21",
+            "L51"
+          ],
+          "tekst": "Familie L: informatie over de weg voor je, van de hoogte van een viaduct tot de uitgang van een tunnel."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "[L2] en [J22] hebben in het boek precies dezelfde betekenis: voetgangersoversteekplaats. Allebei attenderen ze je op zo'n oversteekplaats. Het verschil zit in de familie: [J22] is een waarschuwingsbord en [L2] een informatiebord.",
+          "bron": [
+            {
+              "boek": 91,
+              "sectie": "5.5",
+              "anker": "Verkeersborden attenderen je op een voetgangersoversteekplaats"
+            },
+            {
+              "boek": 248,
+              "anker": "Blauw vierkant met een voetganger op een zebrapad | *Voetgangersoversteekplaats.*"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Blauw vierkant vertelt, rode driehoek waarschuwt."
+        }
+      ]
+    },
+    {
+      "id": "U15-P10",
+      "anker": "p-14-zones-onderborden-aanwijzingen",
+      "titel": "Zones, onderborden en de rangorde",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "3.1",
+            "3.4"
+          ],
+          "paginas": [
+            46,
+            47,
+            53,
+            57,
+            58,
+            249,
+            251,
+            252,
+            255
+          ]
+        },
+        "cursus": {
+          "slides": [
+            45,
+            46,
+            56,
+            57
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U15-r22",
+          "tekst": "Meestal gelden verkeersborden voor de hele breedte van de weg. Staat boven een verkeersbord het woord zone, dan geldt het bord voor een heel gebied, en als niet direct duidelijk is waar de zone eindigt, staat aan het einde het bord einde zone.",
+          "bron": [
+            {
+              "boek": 46,
+              "sectie": "3.1",
+              "anker": "Meestal gelden verkeersborden voor de hele breedte van de weg"
+            },
+            {
+              "boek": 46,
+              "sectie": "3.1",
+              "anker": "boven een verkeersbord het woord 'zone' staat, geldt het bord voor een heel gebied"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r23",
+          "tekst": "Een gewoon bord geldt tot het volgende kruispunt, tenzij een einde-bord de werking eerder opheft. Zoneborden en bebouwde-komborden gelden tot het einde van de zone of van de bebouwde kom.",
+          "bron": [
+            {
+              "slide": 45,
+              "anker": "Ze gelden tot het volgende kruispunt"
+            },
+            {
+              "slide": 45,
+              "anker": "zoneborden en bebouwde kom borden gelden tot het einde van de zone"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r24",
+          "tekst": "Met onderborden kan worden aangegeven wanneer het verkeersbord geldt, voor wie het verkeersbord geldt, voor wie het niet geldt, waar het geldt en extra informatie. De onderborden met een voertuigsymbool geven aan dat het verkeersbord alleen geldt voor de categorie die op het onderbord is weergegeven.",
+          "bron": [
+            {
+              "boek": 47,
+              "sectie": "3.1",
+              "anker": "wanneer het verkeersbord geldt, voor wie het verkeersbord geldt"
+            },
+            {
+              "boek": 251,
+              "anker": "De volgende onderborden geven aan dat het verkeersbord alleen geldt voor de categorie"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Onderbord",
+            "Wat het doet"
+          ],
+          "rijen": [
+            [
+              "Een pijl naar links",
+              "Geldt alleen in de richting van de pijl"
+            ],
+            [
+              "500 m",
+              "Geldt over 500 meter"
+            ],
+            [
+              "herhaling",
+              "Het bovenstaande verkeersbord is al eerder geplaatst en is al geldig"
+            ],
+            [
+              "uitgezonderd, met een fiets",
+              "Geldt niet voor fietsen en gehandicaptenvoertuigen zonder motor"
+            ],
+            [
+              "ma t/m vr 08-18 h",
+              "Geldt van maandag tot en met vrijdag van 8 tot 18 uur"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 252,
+              "anker": "Een pijl naar links | *Geldt alleen in de richting van de pijl.*"
+            },
+            {
+              "boek": 252,
+              "anker": "`500 m` | *Geldt over 500 meter.*"
+            },
+            {
+              "boek": 252,
+              "anker": "`herhaling` | *Het bovenstaande verkeersbord is al eerder geplaatst en is al geldig.*"
+            },
+            {
+              "boek": 252,
+              "anker": "Geldt niet voor fietsen en gehandicaptenvoertuigen zonder motor"
+            },
+            {
+              "boek": 252,
+              "anker": "Geldt van maandag t/m vrijdag van 8 tot 18 uur"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U15-r25",
+          "tekst": "Borden en tekens gaan voor verkeersregels. Verkeerslichten gaan voor borden en tekens die de voorrang regelen. Aanwijzingen gaan weer voor verkeerstekens en verkeersregels.",
+          "bron": [
+            {
+              "boek": 57,
+              "sectie": "3.4",
+              "anker": "Borden en tekens gaan voor verkeersregels"
+            },
+            {
+              "boek": 57,
+              "sectie": "3.4",
+              "anker": "Verkeerslichten gaan namelijk voor borden en tekens die de voorrang regelen"
+            },
+            {
+              "boek": 57,
+              "sectie": "3.4",
+              "anker": "Aanwijzingen gaan weer voor verkeerstekens en verkeersregels"
+            },
+            {
+              "slide": 57,
+              "anker": "Aanwijzingen hebben de hoogste prioriteit in het verkeer"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Bij een fietsoversteek staat [B6] op de paal en liggen er haaientanden op het wegdek. Dit verkeersbord en haaientanden op het wegdek geven aan dat je voorrang moet verlenen: het bord en de streep zeggen hetzelfde.",
+          "bron": [
+            {
+              "boek": 53,
+              "sectie": "3.2",
+              "anker": "Dit verkeersbord en haaientanden op het wegdek geven aan dat je voorrang moet verlenen"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een onderbord verandert nooit wat het hoofdbord betekent, het beperkt alleen voor wie, wanneer of waar het geldt. En staan er twee borden op een paal, lees ze dan allebei apart: ze gelden naast elkaar."
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Aanwijzing boven licht, licht boven bord en streep, bord en streep boven de gewone regel."
+        }
+      ]
+    }
+  ]
+}

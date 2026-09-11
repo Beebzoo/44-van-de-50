@@ -4,7 +4,7 @@
   "required": ["id", "unit", "pagina", "type", "soort", "stam", "media", "opties", "correct", "uitleg", "bronnen", "cbr_onderwerp", "moeilijkheid", "tier", "tags", "versie", "status"],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "pattern": "^U[0-9]{2}-Q[0-9]{3}$"},
+    "id": {"type": "string", "pattern": "^U[0-9]{2}-Q[0-9]{3,4}$"},
     "unit": {"type": "string", "pattern": "^U[0-9]{2}$"},
     "pagina": {"type": "string", "pattern": "^U[0-9]{2}-P[0-9]{2}$"},
     "type": {"enum": ["ja_nee", "meerkeuze", "meervoudig", "invul", "hotspot", "volgorde", "reeks"]},

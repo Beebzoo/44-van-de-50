@@ -8,6 +8,641 @@
       "pagina": "U06-P01",
       "type": "hotspot",
       "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Maximumsnelheid.",
+      "media": {
+        "borden": [
+          "A1",
+          "A5",
+          "A2",
+          "A3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "A1",
+          "tekst": "A1",
+          "feedback": "Goed. Dit is A1, en dat bord betekent: Maximumsnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "A5",
+          "tekst": "A5",
+          "feedback": "Fout. Dit is A5: Einde adviessnelheid. Het gevraagde bord is A1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A2",
+          "tekst": "A2",
+          "feedback": "Fout. Dit is A2: Einde maximumsnelheid. Het gevraagde bord is A1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "A3",
+          "feedback": "Fout. Dit is A3: Maximumsnelheid op een elektronisch signaleringsbord. Het gevraagde bord is A1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A1"
+      ],
+      "uitleg": {
+        "regel": "A1 betekent: Maximumsnelheid.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: ronde witte plaat met rode rand en zwart 50.",
+        "valkuil": "Verwar het niet met A2, A4, A3, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Ronde witte plaat met rode rand en zwart 50"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a1",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q901",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "A1"
+      },
+      "opties": [
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Goed. Dit is A1: ronde witte plaat met rode rand en zwart 50, en dat betekent Maximumsnelheid.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "A1"
+      ],
+      "uitleg": {
+        "regel": "A1 betekent: Maximumsnelheid.",
+        "waarom": "Kijk naar de vorm en de kleur: ronde witte plaat met rode rand en zwart 50.",
+        "valkuil": "De lijkers zijn A2, A4, A3. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Ronde witte plaat met rode rand en zwart 50"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a1",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q902",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde maximumsnelheid.",
+      "media": {
+        "borden": [
+          "A2",
+          "A1",
+          "A3",
+          "A5"
+        ]
+      },
+      "opties": [
+        {
+          "id": "A2",
+          "tekst": "A2",
+          "feedback": "Goed. Dit is A2, en dat bord betekent: Einde maximumsnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "A1",
+          "tekst": "A1",
+          "feedback": "Fout. Dit is A1: Maximumsnelheid. Het gevraagde bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "A3",
+          "feedback": "Fout. Dit is A3: Maximumsnelheid op een elektronisch signaleringsbord. Het gevraagde bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A5",
+          "tekst": "A5",
+          "feedback": "Fout. Dit is A5: Einde adviessnelheid. Het gevraagde bord is A2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A2"
+      ],
+      "uitleg": {
+        "regel": "A2 betekent: Einde maximumsnelheid.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: ronde witte plaat met grijs 50 doorkruist door schuine strepen.",
+        "valkuil": "Verwar het niet met A1, A5, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Ronde witte plaat met grijs 50 doorkruist door schuine strepen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a2",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q903",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "A2"
+      },
+      "opties": [
+        {
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Goed. Dit is A2: ronde witte plaat met grijs 50 doorkruist door schuine strepen, en dat betekent Einde maximumsnelheid.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "A2"
+      ],
+      "uitleg": {
+        "regel": "A2 betekent: Einde maximumsnelheid.",
+        "waarom": "Kijk naar de vorm en de kleur: ronde witte plaat met grijs 50 doorkruist door schuine strepen.",
+        "valkuil": "De lijkers zijn A1, A5. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Ronde witte plaat met grijs 50 doorkruist door schuine strepen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a2",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q904",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Maximumsnelheid op een elektronisch signaleringsbord.",
+      "media": {
+        "borden": [
+          "A1",
+          "A4",
+          "A5",
+          "A3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "A1",
+          "tekst": "A1",
+          "feedback": "Fout. Dit is A1: Maximumsnelheid. Het gevraagde bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "A4",
+          "feedback": "Fout. Dit is A4: Adviessnelheid. Het gevraagde bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A5",
+          "tekst": "A5",
+          "feedback": "Fout. Dit is A5: Einde adviessnelheid. Het gevraagde bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "A3",
+          "feedback": "Goed. Dit is A3, en dat bord betekent: Maximumsnelheid op een elektronisch signaleringsbord.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "A3"
+      ],
+      "uitleg": {
+        "regel": "A3 betekent: Maximumsnelheid op een elektronisch signaleringsbord.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: zwart elektronisch paneel met 70 in een rode ring.",
+        "valkuil": "Verwar het niet met A1, A2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Zwart elektronisch paneel met 70 in een rode ring"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a3",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q905",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "A3"
+      },
+      "opties": [
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Goed. Dit is A3: zwart elektronisch paneel met 70 in een rode ring, en dat betekent Maximumsnelheid op een elektronisch signaleringsbord.",
+          "fouttype": null
+        },
+        {
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A3"
+      ],
+      "uitleg": {
+        "regel": "A3 betekent: Maximumsnelheid op een elektronisch signaleringsbord.",
+        "waarom": "Kijk naar de vorm en de kleur: zwart elektronisch paneel met 70 in een rode ring.",
+        "valkuil": "De lijkers zijn A1, A2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Zwart elektronisch paneel met 70 in een rode ring"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a3",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q906",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Adviessnelheid.",
+      "media": {
+        "borden": [
+          "A3",
+          "A5",
+          "A4",
+          "A2"
+        ]
+      },
+      "opties": [
+        {
+          "id": "A3",
+          "tekst": "A3",
+          "feedback": "Fout. Dit is A3: Maximumsnelheid op een elektronisch signaleringsbord. Het gevraagde bord is A4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A5",
+          "tekst": "A5",
+          "feedback": "Fout. Dit is A5: Einde adviessnelheid. Het gevraagde bord is A4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "A4",
+          "feedback": "Goed. Dit is A4, en dat bord betekent: Adviessnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "A2",
+          "tekst": "A2",
+          "feedback": "Fout. Dit is A2: Einde maximumsnelheid. Het gevraagde bord is A4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A4"
+      ],
+      "uitleg": {
+        "regel": "A4 betekent: Adviessnelheid.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant bord met wit 50 km/u.",
+        "valkuil": "Verwar het niet met A5, A1, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Blauw vierkant bord met wit 50 km/h"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a4",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q907",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "A4"
+      },
+      "opties": [
+        {
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Goed. Dit is A4: blauw vierkant bord met wit 50 km/u, en dat betekent Adviessnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A4"
+      ],
+      "uitleg": {
+        "regel": "A4 betekent: Adviessnelheid.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant bord met wit 50 km/u.",
+        "valkuil": "De lijkers zijn A5, A1. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Blauw vierkant bord met wit 50 km/h"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a4",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q908",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde adviessnelheid.",
+      "media": {
+        "borden": [
+          "A3",
+          "A5",
+          "A1",
+          "A4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "A3",
+          "tekst": "A3",
+          "feedback": "Fout. Dit is A3: Maximumsnelheid op een elektronisch signaleringsbord. Het gevraagde bord is A5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A5",
+          "tekst": "A5",
+          "feedback": "Goed. Dit is A5, en dat bord betekent: Einde adviessnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "A1",
+          "tekst": "A1",
+          "feedback": "Fout. Dit is A1: Maximumsnelheid. Het gevraagde bord is A5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "A4",
+          "feedback": "Fout. Dit is A4: Adviessnelheid. Het gevraagde bord is A5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A5"
+      ],
+      "uitleg": {
+        "regel": "A5 betekent: Einde adviessnelheid.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: hetzelfde blauwe bord met een rode diagonale streep.",
+        "valkuil": "Verwar het niet met A4, A2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Hetzelfde blauwe bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a5",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q909",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "A5"
+      },
+      "opties": [
+        {
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Goed. Dit is A5: hetzelfde blauwe bord met een rode diagonale streep, en dat betekent Einde adviessnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "A5"
+      ],
+      "uitleg": {
+        "regel": "A5 betekent: Einde adviessnelheid.",
+        "waarom": "Kijk naar de vorm en de kleur: hetzelfde blauwe bord met een rode diagonale streep.",
+        "valkuil": "De lijkers zijn A4, A2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Hetzelfde blauwe bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-a5",
+        "borden-a"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q910",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "hotspot",
+      "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
       "media": {
         "borden": [
@@ -47,7 +682,7 @@
         {
           "id": "F9",
           "tekst": "F9",
-          "feedback": "Goed. F9 betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+          "feedback": "Goed. Dit is F9, en dat bord betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
           "fouttype": null
         },
         {
@@ -83,9 +718,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U06-Q901",
+      "id": "U06-Q911",
       "unit": "U06",
-      "pagina": "U06-P01",
+      "pagina": "U06-P03",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -102,7 +737,7 @@
         {
           "id": "F9",
           "tekst": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
-          "feedback": "Goed. Dit is F9, zwart elektronisch paneel met een witte cirkel met diagonale streep.",
+          "feedback": "Goed. Dit is F9: zwart elektronisch paneel met een witte cirkel met diagonale streep, en dat betekent Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
           "fouttype": null
         },
         {
@@ -138,6 +773,429 @@
       "tags": [
         "bord-f9",
         "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q912",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Spitsstrook open.",
+      "media": {
+        "borden": [
+          "C7",
+          "C2",
+          "C23-01",
+          "C17",
+          "C23-03",
+          "C21"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Fout. Dit is C7: Gesloten voor vrachtauto's. Het gevraagde bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C2",
+          "tekst": "C2",
+          "feedback": "Fout. Dit is C2: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of... Het gevraagde bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-01",
+          "tekst": "C23-01",
+          "feedback": "Goed. Dit is C23-01, en dat bord betekent: Spitsstrook open.",
+          "fouttype": null
+        },
+        {
+          "id": "C17",
+          "tekst": "C17",
+          "feedback": "Fout. Dit is C17: Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan... Het gevraagde bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-03",
+          "tekst": "C23-03",
+          "feedback": "Fout. Dit is C23-03: Einde spitsstrook. Het gevraagde bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "C21",
+          "feedback": "Fout. Dit is C21: Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten... Het gevraagde bord is C23-01.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C23-01"
+      ],
+      "uitleg": {
+        "regel": "C23-01 betekent: Spitsstrook open.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met vier witte pijlen omhoog.",
+        "valkuil": "Verwar het niet met C23-02, C23-03, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Blauw vierkant met vier witte pijlen omhoog"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c23-01",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q913",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C23-01"
+      },
+      "opties": [
+        {
+          "id": "C5",
+          "tekst": "Inrijden toegestaan.",
+          "feedback": "Fout. Dat is de betekenis van C5, blauw vierkant met een witte pijl omlaag en een witte pijl omhoog. Dit bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7b",
+          "tekst": "Gesloten voor autobussen en vrachtauto's.",
+          "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-01",
+          "tekst": "Spitsstrook open.",
+          "feedback": "Goed. Dit is C23-01: blauw vierkant met vier witte pijlen omhoog, en dat betekent Spitsstrook open.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "C23-01"
+      ],
+      "uitleg": {
+        "regel": "C23-01 betekent: Spitsstrook open.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met vier witte pijlen omhoog.",
+        "valkuil": "De lijkers zijn C23-02, C23-03. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Blauw vierkant met vier witte pijlen omhoog"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c23-01",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q914",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Spitsstrook vrijmaken.",
+      "media": {
+        "borden": [
+          "C7",
+          "C15",
+          "C23-02",
+          "C22e4",
+          "C7b",
+          "C21"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Fout. Dit is C7: Gesloten voor vrachtauto's. Het gevraagde bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C15",
+          "tekst": "C15",
+          "feedback": "Fout. Dit is C15: Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen. Het gevraagde bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-02",
+          "tekst": "C23-02",
+          "feedback": "Goed. Dit is C23-02, en dat bord betekent: Spitsstrook vrijmaken.",
+          "fouttype": null
+        },
+        {
+          "id": "C22e4",
+          "tekst": "C22e4",
+          "feedback": "Fout. Dit is C22e4: Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6. Het gevraagde bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7b",
+          "tekst": "C7b",
+          "feedback": "Fout. Dit is C7b: Gesloten voor autobussen en vrachtauto's. Het gevraagde bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "C21",
+          "feedback": "Fout. Dit is C21: Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten... Het gevraagde bord is C23-02.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C23-02"
+      ],
+      "uitleg": {
+        "regel": "C23-02 betekent: Spitsstrook vrijmaken.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant waarvan de rechter pijl naar links afbuigt.",
+        "valkuil": "Verwar het niet met C23-01, C23-03, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Blauw vierkant waarvan de rechter pijl naar links afbuigt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c23-02",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q915",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C23-02"
+      },
+      "opties": [
+        {
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Goed. Dit is C23-02: blauw vierkant waarvan de rechter pijl naar links afbuigt, en dat betekent Spitsstrook vrijmaken.",
+          "fouttype": null
+        },
+        {
+          "id": "C23-01",
+          "tekst": "Spitsstrook open.",
+          "feedback": "Fout. Dat is de betekenis van C23-01, blauw vierkant met vier witte pijlen omhoog. Dit bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7a",
+          "tekst": "Gesloten voor autobussen.",
+          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C23-02.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C23-02"
+      ],
+      "uitleg": {
+        "regel": "C23-02 betekent: Spitsstrook vrijmaken.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant waarvan de rechter pijl naar links afbuigt.",
+        "valkuil": "De lijkers zijn C23-01, C23-03. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Blauw vierkant waarvan de rechter pijl naar links afbuigt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c23-02",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q916",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde spitsstrook.",
+      "media": {
+        "borden": [
+          "C14",
+          "C22",
+          "C23-03",
+          "C22e",
+          "C17",
+          "C21"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C14",
+          "tekst": "C14",
+          "feedback": "Fout. Dit is C14: Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor. Het gevraagde bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22",
+          "tekst": "C22",
+          "feedback": "Fout. Dit is C22: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen. Het gevraagde bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-03",
+          "tekst": "C23-03",
+          "feedback": "Goed. Dit is C23-03, en dat bord betekent: Einde spitsstrook.",
+          "fouttype": null
+        },
+        {
+          "id": "C22e",
+          "tekst": "C22e",
+          "feedback": "Fout. Dit is C22e: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone... Het gevraagde bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C17",
+          "tekst": "C17",
+          "feedback": "Fout. Dit is C17: Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan... Het gevraagde bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "C21",
+          "feedback": "Fout. Dit is C21: Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten... Het gevraagde bord is C23-03.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C23-03"
+      ],
+      "uitleg": {
+        "regel": "C23-03 betekent: Einde spitsstrook.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts.",
+        "valkuil": "Verwar het niet met C23-01, C23-02, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c23-03",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q917",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C23-03"
+      },
+      "opties": [
+        {
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Goed. Dit is C23-03: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts, en dat betekent Einde spitsstrook.",
+          "fouttype": null
+        },
+        {
+          "id": "C19",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C19, rode cirkel met 3,1 m tussen twee verticale pijlpunten. Dit bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7a",
+          "tekst": "Gesloten voor autobussen.",
+          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C23-03.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C23-03"
+      ],
+      "uitleg": {
+        "regel": "C23-03 betekent: Einde spitsstrook.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts.",
+        "valkuil": "De lijkers zijn C23-01, C23-02. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c23-03",
+        "borden-c"
       ],
       "gegenereerd": true,
       "versie": 1,

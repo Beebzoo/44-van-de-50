@@ -1,0 +1,775 @@
+{
+  "unit": "U12",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U12-Q025",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Er is een aanrijding geweest waarbij jij betrokken was, maar het was duidelijk de fout van de ander. Mag jij dan wegrijden zonder je gegevens achter te laten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het verbod geldt voor iedereen die bij het ongeval betrokken is, dus ook als je geen schuld hebt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je mag de plaats van het ongeval niet verlaten zonder je eigen gegevens en die van je voertuig bekend te maken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het is voor iedereen die betrokken is bij een verkeersongeval met dood, letsel of schade verboden de plaats van het ongeval te verlaten zonder bekendmaking van de eigen gegevens en die van het motorrijtuig.",
+        "waarom": "Wie schuld heeft wordt later bepaald door verzekeraars of de rechter, niet door jou aan de kant van de weg. Daarom hangt de plicht aan betrokkenheid en niet aan schuld.",
+        "valkuil": "Zeker weten dat het niet jouw fout was is geen vrijbrief; zonder jouw gegevens kan de tegenpartij nergens heen.",
+        "onthoud": "Betrokken is betrokken, ook zonder schuld."
+      },
+      "bronnen": [
+        {
+          "boek": 171,
+          "sectie": "10.7",
+          "anker": "verboden de plaats van het ongeval te verlaten zonder bekendmaking van de eigen gegevens"
+        },
+        {
+          "slide": 18,
+          "anker": "Dit geldt voor iedereen die bij het ongeval betrokken is"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "doorrijden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Dit geldt voor iedereen die bij het ongeval betrokken is, dus ook als je geen schuld hebt.",
+        "bron": "slide 18",
+        "gewijzigd": "fouttype verkeerd_gelezen paste niet bij een ondubbelzinnige stam; wie ja kiest kent de regel maar past hem alleen op de schuldige toe, dus verkeerd_toegepast, en de moeilijkheid ging van 1 naar 2 omdat de val juist in geen schuld zit."
+      }
+    },
+    {
+      "id": "U12-Q026",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je bent na een ongeval in paniek doorgereden. Binnen welke tijd kun je nog aan strafvervolging ontkomen door je vrijwillig bij de politie te melden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Binnen 12 uur.",
+          "feedback": "Goed. Meld je je binnen die tijd vrijwillig bij de politie, dan kun je aan strafvervolging ontkomen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Binnen een week.",
+          "feedback": "Fout. De termijn is veel korter: vanaf het ongeval heb je 12 uur om je te melden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Dat kan helemaal niet meer zodra je bent weggereden.",
+          "feedback": "Fout. Er is wel degelijk een korte termijn waarin een vrijwillige melding je nog kan helpen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je kunt aan strafvervolging ontkomen door je binnen 12 uur vrijwillig bij de politie te melden.",
+        "waarom": "De wet wil vooral dat de tegenpartij weet wie je bent. Wie zich snel uit zichzelf meldt, repareert dat nog voordat er een onderzoek nodig is.",
+        "valkuil": "Vrijwillig is het sleutelwoord: word je eerst opgespoord, dan is de termijn nutteloos.",
+        "onthoud": "Doorgereden: binnen 12 uur vrijwillig melden."
+      },
+      "bronnen": [
+        {
+          "slide": 18,
+          "anker": "door je binnen 12 uur vrijwillig bij de politie te melden"
+        },
+        {
+          "slide": 18,
+          "anker": "kan de rechter een gevangenisstraf of geldboete en een ontzegging van de rijbevoegdheid opleggen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "doorrijden",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je kunt aan strafvervolging ontkomen door je binnen 12 uur vrijwillig bij de politie te melden.",
+        "bron": "slide 18",
+        "gewijzigd": "de onthoud zei nog diezelfde dag melden en de feedback bij b dezelfde dag of nacht, allebei strakker dan de bron; er staat nu 12 uur."
+      }
+    },
+    {
+      "id": "U12-Q027",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij het inparkeren beschadig je de bumper van een andere auto. De eigenaar is nergens te bekennen. Mag je wegrijden als je verder niets doet?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Ook dan geldt de plicht om je gegevens bekend te maken, alleen bereikt dat de eigenaar via een ander spoor.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je laat je contactgegevens achter bij het beschadigde voertuig en je informeert de politie. Dat is allebei verplicht.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Heb je schade veroorzaakt aan een geparkeerd voertuig, laat dan je contactgegevens achter bij het beschadigde voertuig en informeer de politie. Dat is verplicht.",
+        "waarom": "De gewone regel werkt hier niet, want er is niemand om je gegevens aan te geven. Het briefje en de melding samen zorgen dat de eigenaar je alsnog kan vinden, ook als het briefje wegwaait.",
+        "valkuil": "Alleen een briefje achterlaten is niet genoeg; de melding bij de politie hoort er ook bij.",
+        "onthoud": "Briefje onder de ruitenwisser en de politie bellen."
+      },
+      "bronnen": [
+        {
+          "boek": 171,
+          "sectie": "10.7",
+          "anker": "Laat dan je contactgegevens achter bij het beschadigde voertuig en informeer de politie"
+        },
+        {
+          "slide": 193,
+          "anker": "laat dan je contactgegevens achter en informeer gelijk de politie"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "doorrijden",
+        "parkeerschade"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Laat dan je contactgegevens achter bij het beschadigde voertuig en informeer de politie. Dat is verplicht.",
+        "bron": "boek p. 171"
+      }
+    },
+    {
+      "id": "U12-Q028",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je hebt een aanrijding gehad met alleen blikschade en beide auto's kunnen nog rijden. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Foto's maken van de situatie.",
+          "feedback": "Goed. Met foto's leg je vast hoe de auto's stonden voordat je ze wegrijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Samen met de tegenpartij naar een parkeerplaats rijden om de schade af te handelen.",
+          "feedback": "Goed. Zo wordt de doorstroming van het verkeer het minste gehinderd en sta je zelf ook veiliger.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De naam en het kenteken van de tegenpartij noteren.",
+          "feedback": "Goed. Die gegevens heb je nodig voor het schadeformulier en voor je verzekering.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Midden op de weg blijven staan tot de politie komt kijken.",
+          "feedback": "Fout. Bij kleine ongevallen komt de politie niet ter plekke, en jij blokkeert intussen de weg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Niets aanraken tot een agent heeft bepaald wie schuld heeft.",
+          "feedback": "Fout. De schuldvraag wordt overgelaten aan de betrokken verzekeringsmaatschappijen en niet ter plekke beslist.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Is er alleen blikschade en kunnen de voertuigen nog rijden, maak dan een foto en rijd samen met de tegenpartij naar een parkeerplaats om de schade af te handelen.",
+        "waarom": "De weg vrijmaken is hier het belangrijkste, want een blokkade veroorzaakt vaak meer schade dan de aanrijding zelf. De foto's zorgen dat je toch nog kunt laten zien hoe het stond.",
+        "valkuil": "Wachten op de politie is bij blikschade zinloos: die komt niet, of alleen om het verkeer weer op gang te brengen.",
+        "onthoud": "Foto's maken, dan pas van de weg af."
+      },
+      "bronnen": [
+        {
+          "boek": 170,
+          "sectie": "10.7",
+          "anker": "Is er alleen blikschade en kunnen de betrokken voertuigen nog rijden"
+        },
+        {
+          "slide": 193,
+          "anker": "rij samen met de tegenpartij naar een parkeerplaats om de schade af te handelen"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "blikschade",
+        "doorstroming"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Maak dan een foto en rijd samen met de tegenpartij(en) naar een parkeerplaats om de schade af te handelen.",
+        "bron": "boek p. 170"
+      }
+    },
+    {
+      "id": "U12-Q029",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat is waar over het papieren Europese schadeformulier?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je hoeft het niet te ondertekenen, maar je moet wel gegevens over jezelf en je voertuig aan de tegenpartij geven.",
+          "feedback": "Goed. Ondertekenen is niet verplicht, je gegevens afstaan wel.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je bent verplicht het formulier samen te ondertekenen, anders is het ongeldig.",
+          "feedback": "Fout. Je bent niet verplicht om het papieren formulier te ondertekenen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je bent wettelijk verplicht altijd een exemplaar in je auto te hebben.",
+          "feedback": "Fout. Het is wettelijk niet verplicht om er een bij je te hebben, al is het wel verstandig.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je bent niet verplicht om het papieren formulier te ondertekenen, maar wel om gegevens over jezelf en je voertuig aan de tegenpartij te geven.",
+        "waarom": "Een handtekening zou betekenen dat je het eens bent met wat er staat, en dat kun je vlak na een aanrijding nog helemaal niet overzien. Je identiteit staat daar los van.",
+        "valkuil": "Weigeren te tekenen mag; weigeren je naam en kenteken te geven mag niet.",
+        "onthoud": "Tekenen hoeft niet, gegevens geven wel."
+      },
+      "bronnen": [
+        {
+          "boek": 177,
+          "sectie": "10.7",
+          "anker": "Je bent niet verplicht om het papieren formulier te ondertekenen"
+        },
+        {
+          "slide": 192,
+          "anker": "Het is wettelijk niet verplicht het Europese schadeformulier bij je te hebben"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "schadeformulier"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je bent niet verplicht om het papieren formulier te ondertekenen. Wel ben je verplicht om gegevens over jezelf en je voertuig aan de tegenpartij te geven.",
+        "bron": "boek p. 177"
+      }
+    },
+    {
+      "id": "U12-Q030",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij een klein ongeval komt de politie niet, of alleen even om het verkeer weer op gang te helpen. Bepaalt de politie dan achteraf wie er schuld heeft?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Bij kleine ongevallen laat de politie de schuldvraag over aan de betrokken verzekeringsmaatschappijen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. De schuldvraag wordt overgelaten aan de verzekeringsmaatschappijen van de betrokkenen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Bij kleine ongevallen komt de politie niet ter plekke, of alleen om het verkeer weer op gang te brengen; de schuldvraag wordt verder overgelaten aan de betrokken verzekeringsmaatschappijen.",
+        "waarom": "Zolang er geen strafbaar feit en geen gewonden zijn, gaat het puur om geld tussen twee verzekeraars, en daar heeft de politie geen rol in.",
+        "valkuil": "Daarom is een goed ingevuld schadeformulier zo belangrijk: dat is het enige stuk waarop de verzekeraars zich baseren.",
+        "onthoud": "Blikschade regelen de verzekeraars, niet de politie."
+      },
+      "bronnen": [
+        {
+          "boek": 177,
+          "sectie": "10.7",
+          "anker": "De schuldvraag wordt verder overgelaten aan de betrokken verzekeringsmaatschappijen"
+        },
+        {
+          "slide": 193,
+          "anker": "de verzekering heeft genoeg aan een juist ingevuld schadeformulier"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "schadeformulier",
+        "politie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De schuldvraag wordt verder overgelaten aan de betrokken verzekeringsmaatschappijen.",
+        "bron": "boek p. 177"
+      }
+    },
+    {
+      "id": "U12-Q031",
+      "unit": "U12",
+      "pagina": "U12-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wanneer maakt de politie na een verkeersongeval een proces-verbaal op?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als er doden of gewonden zijn, of grote materiële schade.",
+          "feedback": "Goed. Dan volgt er meestal een uitspraak van de rechter en eventueel een veroordeling.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bij elk ongeval waarbij twee of meer voertuigen betrokken zijn.",
+          "feedback": "Fout. Bij kleine ongevallen komt de politie vaak helemaal niet en blijft het bij de verzekering.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen als een van de betrokkenen erom vraagt.",
+          "feedback": "Fout. Of er een proces-verbaal komt hangt af van de ernst van het ongeval en niet van een verzoek.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als er sprake is van doden of gewonden, of grote materiële schade, maakt de politie een proces-verbaal op. Dat stuk kan door jouw verzekeringsmaatschappij worden opgevraagd, door jezelf niet.",
+        "waarom": "Een proces-verbaal is het begin van een strafzaak, en dat middel bewaart de politie voor gevallen waarin er meer op het spel staat dan een gedeukte bumper.",
+        "valkuil": "Je kunt het proces-verbaal zelf niet opvragen; dat loopt via je verzekeraar.",
+        "onthoud": "Gewonden of grote schade: proces-verbaal."
+      },
+      "bronnen": [
+        {
+          "boek": 177,
+          "sectie": "10.7",
+          "anker": "Als er sprake is van doden of gewonden of grote materiële schade zal de politie"
+        },
+        {
+          "boek": 178,
+          "sectie": "10.7",
+          "anker": "Het proces-verbaal kan door jouw verzekeringsmaatschappij worden opgevraagd jijzelf kunt dat niet"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ongeval",
+        "politie",
+        "proces-verbaal"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als er sprake is van doden of gewonden, of grote materiële schade zal de politie een proces-verbaal opmaken.",
+        "bron": "boek p. 177"
+      }
+    },
+    {
+      "id": "U12-Q032",
+      "unit": "U12",
+      "pagina": "U12-P06",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "Je auto raakt te water en blijft nog even drijven. Zet de vier stappen van het stappenplan in de juiste volgorde.",
+      "media": null,
+      "opties": [
+        {
+          "id": "licht",
+          "tekst": "De binnen- en buitenverlichting aanzetten",
+          "feedback": "Dit is de eerste stap. Zolang de elektronica nog droog is kun je licht maken, en daarna zie je zelf iets en blijft de auto zichtbaar."
+        },
+        {
+          "id": "gordel",
+          "tekst": "De autogordel losmaken",
+          "feedback": "Dit is de tweede stap. Hoe verder het water stijgt, hoe meer je tegen de stoel wordt gedrukt en hoe lastiger de sluiting wordt."
+        },
+        {
+          "id": "ruit",
+          "tekst": "De zijruit openen of verbrijzelen",
+          "feedback": "Dit is de derde stap. Er moet een opening zijn voordat het water boven het glas staat."
+        },
+        {
+          "id": "weg",
+          "tekst": "De auto verlaten en wegzwemmen",
+          "feedback": "Dit is de laatste stap. Je klimt naar buiten en zwemt eerst met je gezicht naar de auto toe weg."
+        }
+      ],
+      "correct": [
+        "licht",
+        "gordel",
+        "ruit",
+        "weg"
+      ],
+      "uitleg": {
+        "regel": "Verlaat de auto volgens dit stappenplan: verlichting aan, gordel los, zijruit openen of verbrijzelen, en dan de auto verlaten en wegzwemmen.",
+        "waarom": "Elke stap koopt tijd voor de volgende, en elke stap wordt onmogelijk zodra het water hoger staat. Wie de volgorde omdraait, komt bij de laatste handeling water tegen in plaats van lucht.",
+        "valkuil": "De neiging is om meteen aan het raam te gaan trekken, maar met je gordel om kom je daar niet doorheen.",
+        "onthoud": "Licht, gordel, ruit, eruit."
+      },
+      "bronnen": [
+        {
+          "boek": 178,
+          "sectie": "10.8",
+          "anker": "Meestal blijft de auto nog even drijven voldoende om snel de auto te verlaten"
+        },
+        {
+          "slide": 194,
+          "anker": "Verlaat snel de auto volgens dit stappenplan"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "auto-te-water",
+        "stappenplan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Meestal blijft de auto nog even drijven, voldoende om snel de auto te verlaten volgens dit stappenplan",
+        "bron": "boek p. 178"
+      }
+    },
+    {
+      "id": "U12-Q033",
+      "unit": "U12",
+      "pagina": "U12-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto ligt in het water en de zijruit wil niet open. Je hebt een zwaar voorwerp bij de hand. Sla je daarmee de voorruit in?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De voorruit is extra stevig en bijna niet te breken, dus je verliest er alleen kostbare tijd mee.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je richt je op de zijruit; de voorruit krijg je vrijwel niet stuk.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Probeer niet de voorruit in te slaan, want die is extra stevig en daarom bijna niet te breken.",
+        "waarom": "Een voorruit bestaat uit twee lagen glas met folie ertussen, zodat hij bij een botsing heel blijft. Precies die eigenschap maakt hem onder water nutteloos als uitgang.",
+        "valkuil": "De voorruit is de grootste en lijkt daarom de makkelijkste; hij is juist de enige die je echt niet stuk krijgt.",
+        "onthoud": "Onder water ga je altijd door een zijruit."
+      },
+      "bronnen": [
+        {
+          "boek": 179,
+          "sectie": "10.8",
+          "anker": "Probeer niet de voorruit in te slaan want die is extra stevig"
+        },
+        {
+          "slide": 194,
+          "anker": "open de zijruit lukt dat niet gebruik dan de veiligheidshamer en verbrijzel het raam"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "auto-te-water",
+        "veiligheidshamer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Probeer niet de voorruit in te slaan want die is extra stevig en daarom bijna niet te breken.",
+        "bron": "boek p. 179"
+      }
+    },
+    {
+      "id": "U12-Q034",
+      "unit": "U12",
+      "pagina": "U12-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je pakt de veiligheidshamer om de zijruit te verbrijzelen. Waar sla je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "In de hoek van de ruit, bij de spiegel.",
+          "feedback": "Goed. Daar is de veerspanning van de ruit minder, dus daar breekt het glas het makkelijkst.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Midden op de ruit, want daar heb je de meeste ruimte om uit te halen.",
+          "feedback": "Fout. Juist in het midden zit de meeste veerspanning en veert het glas je klap terug.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Tegen het slot van het portier, zodat de deur openspringt.",
+          "feedback": "Fout. Het slot breek je niet met een hamertje, en onder water houdt de waterdruk de deur toch dicht.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Sla altijd in de hoek van de ruit, bij de spiegel, want daar is de veerspanning van de ruit minder en zal hij eerder breken.",
+        "waarom": "Glas dat aan alle kanten vrij kan meebuigen vangt de klap op. Vlak bij de rand kan het nergens heen en gaat het stuk in plaats van mee.",
+        "valkuil": "In het midden slaan voelt natuurlijk en is precies de plek waar het glas heel blijft.",
+        "onthoud": "Hamer in de hoek, niet in het midden."
+      },
+      "bronnen": [
+        {
+          "boek": 178,
+          "sectie": "10.8",
+          "anker": "Sla altijd in de hoek van de ruit bij de spiegel"
+        },
+        {
+          "slide": 194,
+          "anker": "Sla met je veiligheidshamer aan de zijkant van de ruit"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "auto-te-water",
+        "veiligheidshamer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Sla altijd in de hoek van de ruit (bij de spiegel); daar is de veerspanning van de ruit minder",
+        "bron": "boek p. 178"
+      }
+    },
+    {
+      "id": "U12-Q035",
+      "unit": "U12",
+      "pagina": "U12-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het lukt je niet om een raam te openen of te breken en de auto zakt verder weg. Neem je een ferme hap lucht en wacht je tot de auto grotendeels gezonken is voordat je het portier probeert te openen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Als de auto vol water staat is de druk binnen en buiten gelijk en gaat het portier wel open.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Zolang er nog lucht in de auto zit drukt het water het portier dicht; dan krijg je het met geen mogelijkheid open.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als het je niet lukt om de zijruit te openen of te breken, neem dan een ferme hap lucht en wacht tot de auto grotendeels is gezonken; dan is de druk binnen en buiten hetzelfde en kun je het portier openen.",
+        "waarom": "Zolang er lucht in de auto zit, duwt het water van buiten veel harder tegen de deur dan jij van binnen kunt trekken. Pas als binnen en buiten gelijk staan valt die tegendruk weg.",
+        "valkuil": "Wachten voelt als opgeven, maar het is hier de enige manier waarop de deur nog opengaat.",
+        "onthoud": "Deur open lukt pas als de auto vol staat."
+      },
+      "bronnen": [
+        {
+          "boek": 179,
+          "sectie": "10.8",
+          "anker": "neem dan een ferme hap met lucht en wacht totdat de auto grotendeels is gezonken"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "auto-te-water",
+        "portier"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "neem dan een ferme hap met lucht en wacht totdat de auto grotendeels is gezonken",
+        "bron": "boek p. 179"
+      }
+    },
+    {
+      "id": "U12-Q036",
+      "unit": "U12",
+      "pagina": "U12-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je staat op de kant en ziet een auto te water raken met mensen erin. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alarm slaan en zorgen dat 112 gebeld wordt.",
+          "feedback": "Goed. Dat is in elk geval het eerste wat er moet gebeuren, ook als je verder niets kunt doen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als je zelf het water in gaat, dat aangelijnd aan een touw doen.",
+          "feedback": "Goed. Dan kunnen anderen jou weer aan wal trekken als het misgaat.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Meteen het water in duiken om de portieren open te trekken.",
+          "feedback": "Fout. Gelaagd glas en elektrische vergrendeling maken dat vrijwel onmogelijk, en zonder touw loop je zelf groot gevaar.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Op de kant wachten tot de auto helemaal gezonken is voordat je iets onderneemt.",
+          "feedback": "Fout. Alarm slaan en 112 laten bellen kan meteen, en juist die eerste minuten tellen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Sla in elk geval alarm en zorg dat 112 gebeld wordt. Als je zelf het water in gaat, doe dat dan aangelijnd aan een touw zodat anderen jou weer aan wal kunnen trekken.",
+        "waarom": "Gelaagd glas en elektrische deurvergrendeling maken het zelfs voor hulpverleners moeilijk om iemand onder water uit een auto te halen, dus jouw beste bijdrage is snelle hulp laten komen in plaats van er zelf achteraan te gaan.",
+        "valkuil": "Iemand die ongezekerd het water in gaat wordt vaak het volgende slachtoffer.",
+        "onthoud": "Eerst 112, en het water in alleen aan een touw."
+      },
+      "bronnen": [
+        {
+          "boek": 180,
+          "sectie": "10.8",
+          "anker": "Sla in elk geval alarm en zorg dat 112 gebeld wordt"
+        },
+        {
+          "boek": 180,
+          "sectie": "10.8",
+          "anker": "Als je zelf het water in gaat doe dat dan aangelijnd aan een touw"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "auto-te-water",
+        "alarmnummer",
+        "hulpverlening"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Sla in elk geval alarm en zorg dat 112 gebeld wordt.",
+        "bron": "boek p. 180"
+      }
+    }
+  ]
+}

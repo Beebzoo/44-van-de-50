@@ -69,6 +69,7 @@ async function boot() {
   addEventListener("online", () => sync.flush().then(n => { if (n) refresh().then(render); }));
   app.addEventListener("click", onClick);
   app.addEventListener("change", onChange);
+  app.addEventListener("input", onInput);
   addEventListener("keydown", onKey);
   listen(route => { leavePage(); S.route = route; onRoute(); render(); });
 }
@@ -290,6 +291,13 @@ const SCREENS = {
         if (toon) { if (pos === juist) cls = "goed"; else { cls = "fout"; extra = `<span class="stempel goedcijfer" aria-label="goede plaats ${juist + 1}">${juist + 1}</span>`; } }
         return `<button type="button" class="optie ${cls}" data-actie="kies" data-id="${esc(o.id)}" ${toon ? "disabled" : ""}><span class="stempel ${pos < 0 ? "leeg" : ""} ${toon ? (pos === juist ? "goedcijfer" : "foutcijfer") : ""}">${pos >= 0 ? pos + 1 : ""}</span><span class="tekst">${esc(o.tekst)}</span>${extra}</button>`;
       }).join("")}</div>`;
+    } else if (q.type === "invul") {
+      const getikt = run.gekozen[0] || "";
+      const goed = Q.isCorrect(q, run.gekozen);
+      opties = `<div class="invulveld">
+        <input type="text" inputmode="decimal" autocomplete="off" class="getal ${toon ? (goed ? "goed" : "fout") : ""}" value="${esc(getikt)}" data-actie="invul" ${toon ? "disabled" : ""} aria-label="Vul het getal in">
+        <span class="eenheid">${esc(q.correct.eenheid)}</span>
+      </div>`;
     } else {
       const role = q.type === "meervoudig" ? "checkbox" : "radio";
       const letters = "ABCDEF";
@@ -308,7 +316,7 @@ const SCREENS = {
         return `<button type="button" class="optie ${cls}" role="${role}" aria-checked="${gekozen}" data-actie="kies" data-id="${esc(o.id)}" ${toon ? "disabled" : ""}><span class="letter" aria-hidden="true">${toon && cls === "goed" ? I.vink : toon && cls === "fout" ? I.kruis : letters[i]}</span><span class="tekst">${esc(o.tekst)}${noot ? `<span class="noot">${esc(noot)}</span>` : ""}</span></button>`;
       }).join("")}</div>`;
     }
-    const hint = q.type === "meervoudig" ? `<p class="meta">Kies er ${q.correct.length}.</p>` : q.type === "hotspot" ? `<p class="meta">Tik op het bord.</p>` : q.type === "volgorde" ? `<p class="meta">Tik in de volgorde waarin ze mogen gaan. Nog een keer tikken wist het nummer.</p>` : "";
+    const hint = q.type === "invul" ? `<p class="meta">Vul het getal in, in ${esc(q.correct.eenheid)}. Een komma mag.</p>` : q.type === "meervoudig" ? `<p class="meta">Kies er ${q.correct.length}.</p>` : q.type === "hotspot" ? `<p class="meta">Tik op het bord.</p>` : q.type === "volgorde" ? `<p class="meta">Tik in de volgorde waarin ze mogen gaan. Nog een keer tikken wist het nummer.</p>` : "";
     let uitleg = "";
     if (toon) {
       const goedOptie = q.opties.find(o => q.correct.includes(o.id));
@@ -319,7 +327,7 @@ const SCREENS = {
       uitleg = `<section class="uitleg" aria-live="polite"><span class="staat ${r.goed && !r.twijfel ? "goed" : ""}">${r.goed ? (r.twijfel ? "Goed, maar getwijfeld" : "Goed") : "Nog niet"}</span>
         <h2 class="kop2">Waarom</h2><p class="lees">${esc(u2.waarom)}</p>
         <div class="blokje lees"><span class="label">Regel</span>${esc(u2.regel)}</div>
-        ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">De juiste volgorde</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(/^(Goed|Fout)[.,:]?\s*/i, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">Het goede antwoord</span>${esc(goedOptie.feedback.replace(/^Goed[.,:]?\s*/i, ""))}</div>` : ""}
+        ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">De juiste volgorde</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(/^(Goed|Fout)[.,:]?\s*/i, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type === "invul" ? `<div class="blokje lees"><span class="label">Het goede antwoord</span>${esc(String(q.correct.getal).replace(".", ","))} ${esc(q.correct.eenheid)}</div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">Het goede antwoord</span>${esc(goedOptie.feedback.replace(/^Goed[.,:]?\s*/i, ""))}</div>` : ""}
         <div class="blokje lees"><span class="label">Valkuil</span>${esc(u2.valkuil)}</div>
         ${u2.onthoud ? `<div class="onthoud"><span class="label">Onthoud</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
@@ -509,6 +517,14 @@ async function onClick(e) {
   if (a === "update") { const reg = await navigator.serviceWorker?.getRegistration(); if (reg) { await reg.update(); toast("Gecontroleerd. Een nieuwe versie laadt bij de volgende start."); } render(); return; }
   if (a === "herlaad") { location.reload(); return; }
 }
+/* een invulvraag verzamelt zijn antwoord terwijl je typt, niet pas bij een klik */
+function onInput(e) {
+  const el = e.target.closest("[data-actie]");
+  if (!el || el.dataset.actie !== "invul" || !S.run) return;
+  S.run.gekozen = el.value.trim() ? [el.value.trim()] : [];
+  const knop = document.querySelector('[data-actie="controleer"]');
+  if (knop) knop.disabled = !Q.ready(S.run);
+}
 function onChange(e) {
   const el = e.target.closest("[data-actie]");
   if (!el) return;
@@ -517,7 +533,13 @@ function onChange(e) {
 }
 function onKey(e) {
   if (S.route.name !== "quiz" || !S.run || S.run.klaar) return;
-  if (e.target.tagName === "INPUT") return;
+  if (e.target.tagName === "INPUT") {
+    const invul = e.target.dataset && e.target.dataset.actie === "invul";
+    if (!(invul && e.key === "Enter")) return;
+    e.preventDefault();
+    if (Q.ready(S.run)) { Q.check(S.run, S.history); render(); }
+    return;
+  }
   const run = S.run;
   if (e.key === "Enter") { e.preventDefault(); if (run.fase === "kies") { if (run.gekozen.length) { Q.check(run, S.history); render(); } } else { if (Q.next(run)) afronden(); else render(); } return; }
   if (e.key === "Escape") { go("blok/" + run.unit); return; }

@@ -1,0 +1,2441 @@
+{
+  "unit": "U13",
+  "vragen": [
+    {
+      "id": "U13-Q001",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je merkt dat je 's avonds slechter ziet dan overdag en de huisarts bevestigt dat je nachtblind bent. Mag je met je rijbewijs B nog de weg op?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Het boek noemt kleurenblindheid en nachtblindheid geen belemmering om te rijden, zolang je je rijstijl erop aanpast.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het boek verbiedt rijden hier niet; het vraagt alleen dat je je rijstijl aanpast aan wat je wel en niet ziet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Kleurenblindheid en nachtblindheid hoeven geen belemmering te zijn om te rijden, zolang je je rijstijl erop aanpast.",
+        "waarom": "De wet kijkt naar of je de situatie meester blijft, niet naar of je zintuigen perfect zijn. Wie weet dat hij in het donker minder ziet en daar zijn snelheid op aanpast, blijft binnen zijn eigen waarneming.",
+        "valkuil": "Twijfel je aan je zicht, laat dan je ogen controleren. Aanpassen is iets anders dan hopen dat het goed gaat.",
+        "onthoud": "Aanpassen mag, doorrijden alsof er niets is niet."
+      },
+      "bronnen": [
+        {
+          "boek": 12,
+          "sectie": "1.2",
+          "anker": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zintuigen",
+        "zicht",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden, zolang je je rijstijl erop aanpast.",
+        "bron": "boek p. 12"
+      }
+    },
+    {
+      "id": "U13-Q002",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt al een tijd op een lange rechte weg. Je gaapt voortdurend, je oogleden zijn zwaar en je schrikt net even op. Wat helpt echt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Stoppen en een pauze nemen van minimaal 15 minuten.",
+          "feedback": "Goed. Alleen rusten helpt tegen vermoeidheid, en het boek koppelt daar een pauze van minimaal 15 minuten aan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het raam openzetten voor frisse lucht.",
+          "feedback": "Fout. Frisse lucht verandert niets aan je vermoeidheid, het maakt je hooguit even wakkerder terwijl je toch achter het stuur blijft.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Een sterke bak koffie halen bij de volgende tankstop en doorrijden.",
+          "feedback": "Fout. Zwarte koffie staat in het boek juist in het rijtje middelen dat niet werkt; je rijdt er alleen minder moe van in je hoofd.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De muziek harder zetten zodat je scherp blijft.",
+          "feedback": "Fout. Harde muziek maakt je juist doof voor een sirene of piepende remmen, dus je ruilt vermoeidheid in voor slechter horen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Alleen rusten helpt tegen vermoeidheid. Neem na iedere twee uur rijden een pauze van minimaal 15 minuten.",
+        "waarom": "Wat je voelt is niet een tekort aan prikkels maar een tekort aan slaap, en dat kun je alleen aanvullen door te stoppen. Alles wat je onderweg probeert, verbergt het signaal terwijl de oorzaak blijft.",
+        "valkuil": "De verschijnselen die je opsomt zijn precies de waarschuwingssignalen die het boek noemt, dus dit is geen moment om er nog even een halfuur bij te plakken.",
+        "onthoud": "Twee uur rijden, een kwartier pauze."
+      },
+      "bronnen": [
+        {
+          "boek": 14,
+          "sectie": "1.3",
+          "anker": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze"
+        },
+        {
+          "slide": 8,
+          "anker": "Neem na elke 2 uur een kwartier pauze"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "vermoeidheid",
+        "pauze",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze van minimaal 15 minuten.",
+        "bron": "boek p. 14"
+      }
+    },
+    {
+      "id": "U13-Q003",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke van deze gedragingen noemt het boek als voorbeeld van sociaal rijgedrag?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij een rijbaanversmalling ruimte vrijlaten voor inhalende bestuurders.",
+          "feedback": "Goed. Dit staat letterlijk in het rijtje voorbeelden van sociaal gedrag in het boek.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bestuurders laten invoegen als je op de doorgaande rijbaan in file rijdt.",
+          "feedback": "Goed. Ook dit is een van de vier voorbeelden die het boek geeft bij sociaal rijgedrag.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Begrip tonen voor vrachtauto's en bussen die trager optrekken.",
+          "feedback": "Goed. Zwaar verkeer is minder wendbaar en trekt langzamer op; daar rekening mee houden hoort bij sociaal rijgedrag.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Extra voorrang verlenen, ook als de ander die niet heeft.",
+          "feedback": "Fout. Onnodig voorrang verlenen maakt je juist onvoorspelbaar; het boek vraagt besluitvaardig gedrag, niet extra vriendelijkheid.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Met je lichten knipperen om iemand te laten weten dat hij te langzaam rijdt.",
+          "feedback": "Fout. Een lichtsignaal is bedoeld voor dreigend gevaar, niet om je ongeduld over te brengen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Sociaal rijgedrag betekent dat je voorkomt dat andere weggebruikers in moeilijkheden raken en dat je ze helpt als dat toch gebeurt.",
+        "waarom": "De voorbeelden hebben alle drie dezelfde vorm: jij levert een beetje ruimte of geduld in en de ander kan daardoor zijn manoeuvre afmaken. Waar jij de ander juist onzeker maakt over wat er gaat gebeuren, is het geen hulp meer.",
+        "valkuil": "Aardig zijn en sociaal rijden zijn niet hetzelfde. Iemand voorrang geven die hem niet heeft, verwart de rest van het kruispunt.",
+        "onthoud": "Sociaal is ruimte geven, niet rechten weggeven."
+      },
+      "bronnen": [
+        {
+          "boek": 19,
+          "sectie": "1.4",
+          "anker": "laat bij een rijbaanversmalling ruimte vrij voor inhalende bestuurders"
+        },
+        {
+          "boek": 19,
+          "sectie": "1.4",
+          "anker": "laat bestuurders invoegen als je op de doorgaande rijbaan in file rijdt"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "sociaal-rijgedrag",
+        "gedrag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "laat bij een rijbaanversmalling ruimte vrij voor inhalende bestuurders",
+        "bron": "boek p. 19"
+      }
+    },
+    {
+      "id": "U13-Q004",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Twee vrienden spreken af wie er als eerste bij het volgende dorp is en rijden vanaf het stoplicht tegen elkaar op. Is dat verboden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Ook als niemand te hard rijdt, is de wedstrijd zelf verboden; het verbod hangt niet aan de snelheid.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Het verkeer is geen wedstrijd. Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+        "waarom": "Zodra winnen het doel wordt, gaat elke beslissing over tijd in plaats van over ruimte, en dan houdt niemand meer marge over voor wat een ander doet. Daarom pakt de wet de afspraak zelf aan en niet pas het gevolg.",
+        "valkuil": "Meedoen is net zo strafbaar als beginnen. Ook de tweede auto overtreedt het verbod.",
+        "onthoud": "Een wedstrijd op de weg is altijd verboden."
+      },
+      "bronnen": [
+        {
+          "boek": 18,
+          "sectie": "1.4",
+          "anker": "Het is verboden op de weg een wedstrijd met voertuigen te houden"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "wedstrijd",
+        "gedrag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+        "bron": "boek p. 18"
+      }
+    },
+    {
+      "id": "U13-Q005",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een nieuwe auto met een noodremsysteem en een systeem dat je binnen de rijstrook houdt. Wat is de juiste houding tegenover die systemen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je rijdt precies zoals zonder die systemen en ziet ze als extra vangnet.",
+          "feedback": "Goed. Het boek waarschuwt voor risicocompensatie: laat je niet verleiden om meer risico te nemen omdat de auto meer kan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je kunt korter op je voorganger rijden, want het systeem remt voor je.",
+          "feedback": "Fout. Dit is precies de risicocompensatie waar het boek voor waarschuwt; je gebruikt de winst van het systeem op om dichter op de rand te gaan zitten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je kunt je blik vaker van de weg halen, want de auto stuurt zelf bij.",
+          "feedback": "Fout. Juist kijkgedrag blijft jouw taak; een hulpsysteem neemt het waarnemen niet van je over.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je zet de systemen uit, want anders leer je het zelf nooit.",
+          "feedback": "Fout. Het boek vraagt nergens om de systemen uit te zetten, alleen om je rijgedrag er niet losser door te laten worden.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Auto's krijgen steeds meer systemen die de bestuurder ondersteunen. Laat je niet verleiden om daardoor meer risico te nemen in het verkeer.",
+        "waarom": "Een hulpsysteem verschuift de grens waarop het misgaat, en zodra jij die winst opgebruikt door dichter te volgen of minder te kijken, ben je even dicht bij een ongeval als eerst. De winst telt alleen als je hem laat liggen.",
+        "valkuil": "Een systeem dat meestal werkt, is geen systeem dat altijd werkt. Bij slecht zicht of vuile sensoren val je terug op jezelf.",
+        "onthoud": "Meer techniek is geen reden voor minder marge."
+      },
+      "bronnen": [
+        {
+          "boek": 20,
+          "sectie": "1.4",
+          "anker": "Laat je niet verleiden om door de aanwezigheid van deze systemen"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "risicocompensatie",
+        "gedrag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Laat je niet verleiden om door de aanwezigheid van deze systemen meer risico's te nemen in het verkeer.",
+        "bron": "boek p. 20",
+        "gewijzigd": "fouttype van optie d stond op verkeerd_gelezen; wie de systemen uitzet leest de vraag goed maar past de regel verkeerd toe, dus nu verkeerd_toegepast."
+      }
+    },
+    {
+      "id": "U13-Q006",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Hoeveel alcohol mag een beginnende bestuurder volgens de wet in zijn bloed hebben?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "0,2 promille",
+          "feedback": "Goed. Voor de beginnende bestuurder geldt 0,2 promille in het bloed, oftewel 88 microgram per liter in de adem.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "0,5 promille",
+          "feedback": "Fout. Dat is de grens voor de ervaren bestuurder; voor een beginner ligt de grens lager.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "0,8 promille",
+          "feedback": "Fout. Deze waarde komt pas terug bij de educatieve maatregelen, niet als toegestane hoeveelheid.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een beginnende bestuurder mag helemaal niets drinken.",
+          "feedback": "Fout. Er geldt wel degelijk een grens, en die is niet nul; de nullimiet hoort bij alcohol samen met drugs.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Voor de beginnende bestuurder is de limiet 0,2 promille in het bloed, voor de ervaren bestuurder 0,5 promille.",
+        "waarom": "De strengere waarde hoort bij de minste rijervaring: een beginner heeft nog geen routine om op terug te vallen als zijn waarneming trager wordt. Daarom knijpt de wet daar de marge dicht.",
+        "valkuil": "Promille hoort bij het bloed en microgram per liter bij de adem. Wissel die twee niet om.",
+        "onthoud": "Beginner 0,2 promille, ervaren 0,5 promille."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor beginnende bestuurders: 0,2 promille / 88 microgram"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "promille",
+        "beginnend-bestuurder"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter",
+        "bron": "boek p. 15",
+        "gewijzigd": "fouttype van optie d stond op verkeerd_gelezen; wie denkt dat een beginner niets mag drinken kent de grens van 0,2 promille niet, dus nu niet_geweten."
+      }
+    },
+    {
+      "id": "U13-Q007",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Een bestuurder heeft zijn rijbewijs B al twaalf jaar. Hoeveel promille alcohol mag hij maximaal in zijn bloed hebben?",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 0.5,
+        "eenheid": "promille"
+      },
+      "uitleg": {
+        "regel": "Voor een ervaren bestuurder is de alcohollimiet 0,5 promille in het bloed, oftewel 220 microgram per liter uitgeademde lucht.",
+        "waarom": "Wie zijn eerste rijbewijs op of na zijn achttiende haalde, is vijf jaar lang beginner. Twaalf jaar ligt daar ruim voorbij, dus deze bestuurder valt in de tweede rij van de tabel.",
+        "valkuil": "De vraag noemt geen leeftijd maar het aantal jaren rijbewijsbezit, en dat is precies wat de beginnersstatus bepaalt.",
+        "onthoud": "Ervaren bestuurder: 0,5 promille."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor overige bestuurders: 0,5 promille / 220 microgram"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "promille",
+        "ervaren-bestuurder"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter",
+        "bron": "boek p. 15"
+      }
+    },
+    {
+      "id": "U13-Q008",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je haalde je rijbewijs B op je achttiende verjaardag en dat is nu vier jaar geleden. Geldt voor jou nog steeds de strengste alcoholgrens?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Wie zijn eerste rijbewijs op of na zijn achttiende haalt, blijft 5 jaar beginnende bestuurder, dus vier jaar later nog steeds.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. De beginnersperiode duurt 5 jaar en die is nog niet voorbij, dus de strengere grens geldt gewoon nog.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Haal je je eerste rijbewijs op of na je 18e, dan ben je 5 jaar beginnende bestuurder.",
+        "waarom": "De teller loopt vanaf het rijbewijs, niet vanaf je verjaardag of je rijervaring in kilometers. Zolang die teller nog niet vol is, sta je in de bovenste rij van de alcoholtabel.",
+        "valkuil": "Het examen kiest graag een aantal jaren dat net onder de grens ligt, zoals vier. Reken dus altijd na in plaats van te gokken op gevoel.",
+        "onthoud": "Vijf jaar beginner, en vier is minder dan vijf."
+      },
+      "bronnen": [
+        {
+          "slide": 9,
+          "anker": "op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is"
+        },
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "De toegestane hoeveelheid alcohol voor autobestuurders is"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder",
+        "rijbewijs"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "je je eerste rijbewijs op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is",
+        "bron": "slide 9"
+      }
+    },
+    {
+      "id": "U13-Q009",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Iemand haalde op zijn zestiende een bromfietsrijbewijs AM en daarna op zijn negentiende rijbewijs B. Hoe lang is hij beginnende bestuurder?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "7 jaar, gerekend vanaf het AM-rijbewijs.",
+          "feedback": "Goed. Had je al een AM-rijbewijs of T-rijbewijs voor je achttiende, dan telt de periode van 7 jaar vanaf dat eerste rijbewijs.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "5 jaar, gerekend vanaf het rijbewijs B.",
+          "feedback": "Fout. De vijf jaar horen bij iemand van wie het eerste rijbewijs op of na zijn achttiende is behaald, en dat is hier niet zo.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "7 jaar, gerekend vanaf het rijbewijs B.",
+          "feedback": "Fout. Het aantal jaren klopt, maar de teller begint bij het eerste rijbewijs en dat was de AM op zijn zestiende.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Hij is geen beginnende bestuurder, want hij rijdt al jaren.",
+          "feedback": "Fout. De beginnersstatus hangt aan het rijbewijs en niet aan hoeveel kilometers iemand naar eigen zeggen heeft gemaakt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Haal je je eerste rijbewijs (AM of T) voor je 18e, dan ben je 7 jaar beginnende bestuurder, gerekend vanaf dat AM-rijbewijs of T-rijbewijs.",
+        "waarom": "De wet wil dat er in totaal genoeg bewaakte tijd op de weg zit. Wie al op zijn zestiende de weg op mocht, krijgt daarom een langere periode, maar die begint ook eerder te lopen.",
+        "valkuil": "Twee getallen en twee startmomenten: het aantal jaren en waar de teller begint zijn allebei nodig voor het juiste antwoord.",
+        "onthoud": "Eerst AM of T voor je achttiende: 7 jaar vanaf dat rijbewijs."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
+        },
+        {
+          "slide": 9,
+          "anker": "voor je 18e verjaardag hebt behaald en dat minder dan 7 jaar geleden is"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder",
+        "bromfiets"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Indien je al in het bezit bent van het AM of T-rijbewijs, dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs.",
+        "bron": "boek p. 15"
+      }
+    },
+    {
+      "id": "U13-Q010",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Na een avond stappen drink je twee koppen zwarte koffie en loop je een blokje om in de frisse lucht. Zit er daardoor minder alcohol in je bloed dan zonder die koffie?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Koffie en frisse lucht staan in het boek juist als voorbeelden van wat niet helpt bij het afbreken van alcohol.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je lichaam breekt alcohol af in zijn eigen tempo en dat kun je niet versnellen, hoeveel koffie je ook drinkt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het lichaam breekt alcohol af met 0,1 tot 0,2 promille per uur, en dat kun je niet versnellen. Frisse lucht, zwarte koffie of een dutje doen helpt allemaal niets.",
+        "waarom": "Koffie verandert hoe wakker je je voelt, niet hoeveel alcohol er in je bloed zit. Het gevaarlijke daaraan is dat je jezelf daardoor nog verder gaat overschatten terwijl de meter bij een controle hetzelfde aanwijst.",
+        "valkuil": "De afbraak van 1 glas duurt al snel 1,5 uur. Reken dus met de klok en niet met hoe je je voelt.",
+        "onthoud": "Alleen tijd breekt alcohol af."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Frisse lucht, zwarte koffie, een dutje doen: het helpt allemaal niets"
+        },
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Het lichaam breekt alcohol af met 0,1 a 0,2 promille per uur"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "afbraak",
+        "promille"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dat kun je niet versnellen. Frisse lucht, zwarte koffie, een dutje doen: het helpt allemaal niets.",
+        "bron": "boek p. 16"
+      }
+    },
+    {
+      "id": "U13-Q011",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Op tafel staan een glas bier, een glas wijn en een glaasje whisky, allemaal in de gebruikelijke maat. Waar zit de meeste pure alcohol in?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "In alle drie evenveel.",
+          "feedback": "Goed. Elk standaardglas bevat dezelfde hoeveelheid alcohol, ongeveer 12 milliliter puur.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In de whisky, want die is het sterkst.",
+          "feedback": "Fout. Het percentage is hoger, maar het glaasje is juist veel kleiner, en die twee heffen elkaar op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "In het bier, want dat glas is het grootst.",
+          "feedback": "Fout. Het glas is groter, maar het percentage alcohol is juist het laagst van de drie.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "In de wijn, want die zit tussen de andere twee in.",
+          "feedback": "Fout. Wijn zit inderdaad tussen bier en whisky in qua sterkte, maar ook het glas zit ertussenin, dus het komt op hetzelfde uit.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Elk standaardglas bevat dezelfde hoeveelheid alcohol: ongeveer 12 milliliter pure alcohol.",
+        "waarom": "Hoe sterker de drank, hoe kleiner het glas waarin hij wordt geschonken. Daardoor komt de rekensom van inhoud maal percentage bij alle drie op hetzelfde uit, en kun je gewoon glazen tellen.",
+        "valkuil": "Een standaardglas levert gemiddeld 0,2 tot 0,3 promille op, dus voor een beginner is een glas van welke soort dan ook al te veel.",
+        "onthoud": "Bier, wijn of sterke drank: een glas is een glas."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Elk standaard glas bevat dezelfde hoeveelheid alcohol"
+        },
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "pure alcohol en leidt gemiddeld tot een promillage van 0,2 a 0,3"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "standaardglas"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Elk standaard glas bevat dezelfde hoeveelheid alcohol.",
+        "bron": "boek p. 15"
+      }
+    },
+    {
+      "id": "U13-Q012",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Bij wie of wanneer werkt alcohol volgens het boek extra sterk?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij kleine, lichte mensen.",
+          "feedback": "Goed. Het boek noemt kleine, lichte mensen als eerste groep bij wie alcohol extra hard aankomt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bij mensen die geen alcohol gewend zijn.",
+          "feedback": "Goed. Wie zelden drinkt, merkt van dezelfde hoeveelheid meer dan iemand die het gewend is.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je op een nuchtere maag drinkt.",
+          "feedback": "Goed. Zonder eten in je maag komt de alcohol sneller en heftiger aan.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je erbij rookt.",
+          "feedback": "Fout. Roken staat niet in het rijtje van het boek; blijf bij de drie genoemde omstandigheden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Als je jonger bent dan achttien.",
+          "feedback": "Fout. Leeftijd speelt hier geen rol in het boek; die komt alleen terug bij de duur van de beginnersperiode.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Alcohol werkt extra sterk bij kleine, lichte mensen, bij mensen die geen alcohol gewend zijn en als je op een nuchtere maag drinkt.",
+        "waarom": "Dezelfde hoeveelheid drank verdeelt zich over minder lichaam, komt sneller in het bloed of treft iemand zonder gewenning. Daarom kun je vooraf nooit precies zeggen waar iemand uitkomt en is glazen tellen alleen geen veilige rekenmethode.",
+        "valkuil": "Het exacte effect is van tevoren niet te zeggen, dus je kunt je promillage niet uitrekenen aan de bar.",
+        "onthoud": "Klein, ongewend of nuchtere maag: dan hakt het er harder in."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "bij mensen die geen alcohol gewend zijn"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "promille",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "bij kleine, lichte mensen, bij mensen die geen alcohol gewend zijn, als je op nuchtere maag drinkt",
+        "bron": "boek p. 16",
+        "gewijzigd": "tag standaardglas hoorde niet bij deze vraag over individuele verschillen en is vervangen door gesteldheid."
+      }
+    },
+    {
+      "id": "U13-Q013",
+      "unit": "U13",
+      "pagina": "U13-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Op een feest heb je een xtc-pil geslikt en daarna nog een klein glas bier gedronken. Geldt voor jou nu nog gewoon de promillegrens die bij jouw soort rijbewijs hoort?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Zodra alcohol en drugs samen in het spel zijn, vervalt de gewone promillegrens en geldt een nullimiet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Bij gecombineerd gebruik van alcohol en drugs geldt een nullimiet, dus er is geen toegestane hoeveelheid meer.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als je alcohol en drugs gecombineerd hebt gebruikt, geldt een nullimiet.",
+        "waarom": "De twee stoffen versterken elkaar, zodat je van weinig van allebei toch ver heen kunt zijn. Een grens die per stof apart is vastgesteld, zegt dan niets meer over hoe jij achter het stuur zit.",
+        "valkuil": "De nullimiet geldt bij de combinatie, niet bij alcohol alleen. Voor alcohol op zichzelf blijven 0,2 en 0,5 promille staan.",
+        "onthoud": "Alcohol plus drugs is nul."
+      },
+      "bronnen": [
+        {
+          "boek": 17,
+          "sectie": "1.3",
+          "anker": "Als je beide stoffen gecombineerd hebt gebruikt, geldt een nul-limiet"
+        },
+        {
+          "slide": 10,
+          "anker": "voor de combinatie alcohol en drugs geldt een nullimiet"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "drugs",
+        "nullimiet"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als je beide stoffen gecombineerd hebt gebruikt, geldt een nul-limiet (zero tolerance beleid).",
+        "bron": "boek p. 17",
+        "gewijzigd": "de stam zei alleen \"een pil geslikt\", wat ook een medicijn kan zijn; bij alcohol met medicijnen geldt geen nullimiet. De stam noemt nu een xtc-pil, zodat het echt om de combinatie alcohol en drugs gaat."
+      }
+    },
+    {
+      "id": "U13-Q014",
+      "unit": "U13",
+      "pagina": "U13-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Een bestuurder wordt aangehouden en blijkt onder invloed van drugs. Hoe typeert de wet dat feit?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als een misdrijf.",
+          "feedback": "Goed. Rijden onder invloed van alcohol, medicijnen of drugs is een misdrijf en dus geen lichte overtreding.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als een overtreding.",
+          "feedback": "Fout. Overtredingen zijn de lichtere feiten zoals foutparkeren of te hard rijden, en rijden onder invloed hoort daar niet bij.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Als een overtreding, tenzij er schade is ontstaan.",
+          "feedback": "Fout. Of er schade is, verandert de soort van het strafbare feit niet; rijden onder invloed is altijd een misdrijf.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Als een misdrijf, maar alleen bij harddrugs.",
+          "feedback": "Fout. Het boek maakt hier geen onderscheid tussen soorten drugs bij de vraag of het een misdrijf is.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rijden onder invloed van alcohol, medicijnen of drugs is een misdrijf.",
+        "waarom": "Bij een overtreding gaat het om een regel die je overschrijdt, bij een misdrijf om gedrag dat de veiligheid van anderen direct in gevaar brengt. Onder invloed rijden valt in de tweede groep, en daarom komt de straf van de rechter en niet uit de brievenbus.",
+        "valkuil": "Een misdrijf levert een strafblad op en kan een gevangenisstraf en een ontzegging van de rijbevoegdheid opleveren.",
+        "onthoud": "Onder invloed rijden is een misdrijf."
+      },
+      "bronnen": [
+        {
+          "boek": 17,
+          "sectie": "1.3",
+          "anker": "Rijden onder invloed van alcohol, medicijnen of drugs is een misdrijf"
+        },
+        {
+          "slide": 10,
+          "anker": "Rijden onder invloed van drugs is een misdrijf"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "drugs",
+        "misdrijf",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Rijden onder invloed van alcohol, medicijnen of drugs is een misdrijf.",
+        "bron": "boek p. 17",
+        "gewijzigd": "fouttype van optie c stond op verkeerd_gelezen; wie er de voorwaarde schade bij haalt past de regel over lichte overtredingen verkeerd toe, dus nu verkeerd_toegepast."
+      }
+    },
+    {
+      "id": "U13-Q015",
+      "unit": "U13",
+      "pagina": "U13-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Welke middelen noemt het boek als medicijnen die de rijvaardigheid vaak negatief beïnvloeden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Kalmeringsmiddelen en slaappillen.",
+          "feedback": "Goed. Deze twee staan vooraan in het rijtje dat het boek opsomt bij verkeersgevaarlijke medicijnen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een verdovingsinjectie van de tandarts.",
+          "feedback": "Goed. Ook de verdoving bij de tandarts staat in de opsomming van het boek.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Middelen tegen allergieën, reisziekte of verkoudheid.",
+          "feedback": "Goed. Juist deze alledaagse middeltjes staan in het boek genoemd, en dat maakt ze verraderlijk.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Pijnstillers, eetlustremmers en peppillen.",
+          "feedback": "Goed. Ook deze drie noemt het boek expliciet als middelen met een negatieve invloed op de rijvaardigheid.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Vitaminepillen en mineralen.",
+          "feedback": "Fout. Die komen in de opsomming van het boek niet voor als middelen met invloed op je rijgedrag.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "f",
+          "tekst": "Zalf tegen spierpijn.",
+          "feedback": "Fout. Het boek noemt dit middel niet; blijf bij wat er in de opsomming staat.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Vooral kalmeringsmiddelen, slaappillen, pijnstillers, eetlustremmers, peppillen, verdovingsinjecties van de tandarts en middelen tegen allergieën, reisziekte of verkoudheid hebben vaak een negatieve invloed op de rijvaardigheid.",
+        "waarom": "Wat deze middelen gemeen hebben, is dat ze je alertheid of je reactiesnelheid raken. Dat het om een gewoon doosje van de drogist kan gaan, maakt het effect op de weg niet kleiner.",
+        "valkuil": "Het boek geeft een opsomming en zegt er niet bij dat die volledig is. Staat er niets op de verpakking, vraag het dan alsnog aan je arts of apotheker.",
+        "onthoud": "Ook een middel tegen verkoudheid kan je rijvaardigheid raken."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Vooral kalmeringsmiddelen, slaappillen, pijnstillers, eetlustremmers, peppillen"
+        },
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Met bepaalde medicijnen loop je een verhoogd risico in het verkeer"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "medicijnen",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Vooral kalmeringsmiddelen, slaappillen, pijnstillers, eetlustremmers, peppillen, verdovings-injecties van de tandarts en middelen tegen allergieën, reisziekte of verkoudheid",
+        "bron": "boek p. 16"
+      }
+    },
+    {
+      "id": "U13-Q016",
+      "unit": "U13",
+      "pagina": "U13-P03",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Hoeveel uur kunnen sommige medicijnen volgens het boek nog doorwerken in je lichaam, ook als je ze maar een keer hebt gebruikt?",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 48,
+        "eenheid": "uur"
+      },
+      "uitleg": {
+        "regel": "Sommige medicijnen werken wel 48 uur door in je lichaam, ook als je ze maar een keer hebt gebruikt.",
+        "waarom": "Dat betekent dat je twee dagen na een enkele inname nog steeds beïnvloed kunt zijn zonder dat je daar iets van merkt. Wachten tot de volgende ochtend is dus geen garantie dat je weer helder achter het stuur zit.",
+        "valkuil": "Verwar dit niet met alcohol, waar je met glazen en uren kunt rekenen. Bij medicijnen is de enige betrouwbare bron je arts of apotheker.",
+        "onthoud": "Een enkele pil kan twee dagen meegaan."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Sommige medicijnen werken wel 48 uur door in je lichaam"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "medicijnen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Sommige medicijnen werken wel 48 uur door in je lichaam, ook als je ze maar één keer hebt gebruikt.",
+        "bron": "boek p. 16"
+      }
+    },
+    {
+      "id": "U13-Q017",
+      "unit": "U13",
+      "pagina": "U13-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je krijgt van de apotheek een doosje mee met een gele sticker erop. Je moet straks rijden. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je vraagt je arts of apotheker of je met dit middel mag rijden.",
+          "feedback": "Goed. De sticker is een waarschuwing en niet meer dan dat; twijfel je, dan vraag je het aan je arts of apotheker.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je wacht een uur na inname en rijdt dan, want dan is het middel uitgewerkt.",
+          "feedback": "Fout. Sommige medicijnen werken wel 48 uur door in je lichaam, ook als je ze maar een keer hebt gebruikt, dus een uur wachten zegt niets.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je rijdt gewoon, want een gele sticker is geen verbod.",
+          "feedback": "Fout. De sticker waarschuwt dat je reactievermogen kan verminderen, en dat negeren is precies wat het boek afraadt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je neemt een halve dosis, dan zijn de bijwerkingen ook maar half.",
+          "feedback": "Fout. Zelf doseren staat nergens in het boek en verandert niets aan de vraag of je veilig kunt rijden.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Op de verpakking van een verkeersgevaarlijk medicijn staat een pictogram of een gele sticker. Twijfel je, vraag het dan aan je arts of apotheker.",
+        "waarom": "De sticker zegt alleen dat een middel je reactievermogen kan verminderen, niet of dat bij jou en bij deze dosis ook gebeurt. Dat verschil kan alleen iemand met de bijsluiter en jouw gegevens erbij beoordelen.",
+        "valkuil": "De drie symbolen lopen van een groen vinkje via een gele driehoek naar een rode cirkel met kruis. Alleen bij het groene vinkje is er geen probleem.",
+        "onthoud": "Gele sticker betekent navragen, niet gokken."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Twijfel je, vraag het dan aan je arts of apotheker"
+        },
+        {
+          "slide": 13,
+          "anker": "vraag je arts of apotheker om advies als je twijfelt"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "medicijnen",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Twijfel je, vraag het dan aan je arts of apotheker.",
+        "bron": "boek p. 16",
+        "gewijzigd": "optie b (het middel pas na de rit innemen) was bij nader inzien niet echt fout en is vervangen door een optie die wel fout is: een uur wachten, terwijl medicijnen 48 uur kunnen doorwerken. Fouttype van optie c van verkeerd_gelezen naar verkeerd_toegepast."
+      }
+    },
+    {
+      "id": "U13-Q018",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De politie houdt je aan bij een controle langs de weg en wil dat je in het blaaspijpje blaast. Je hebt niets gedronken maar hebt geen zin in het gedoe. Mag je weigeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Meewerken is verplicht, en weigeren is bovendien zelf een reden om je rijbewijs meteen in te vorderen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je bent verplicht mee te werken aan de ademtest, de speekseltest en het vervolgonderzoek op het bureau.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je bent verplicht om mee te werken aan de ademtest, de speekseltest en aan een ademanalyse of bloedonderzoek op het politiebureau.",
+        "waarom": "Als weigeren zonder gevolg zou zijn, had de hele controle geen zin: iedereen die te veel op had, zou dan gewoon nee zeggen. Daarom staat weigeren in dezelfde rij als een zeer hoge alcoholwaarde bij de redenen om een rijbewijs ter plekke in te nemen.",
+        "valkuil": "Dat je niets gedronken hebt, doet niet ter zake. De plicht om mee te werken hangt niet aan je eigen inschatting.",
+        "onthoud": "Blazen is geen keuze."
+      },
+      "bronnen": [
+        {
+          "boek": 17,
+          "sectie": "1.3",
+          "anker": "Je bent verplicht om aan deze testen / onderzoeken mee te werken"
+        },
+        {
+          "boek": 43,
+          "sectie": "2.6",
+          "anker": "bij weigering mee te werken aan een alcoholonderzoek"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "politiecontrole",
+        "alcohol",
+        "invordering"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je bent verplicht om aan deze testen / onderzoeken mee te werken.",
+        "bron": "boek p. 17",
+        "gewijzigd": "de sectie bij het anker op p. 43 stond op 2.7; de invordering ter plekke staat nog in 2.6, dus het label is gecorrigeerd."
+      }
+    },
+    {
+      "id": "U13-Q019",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij een nachtelijke controle blaas je boven de grens. De agent zegt dat je vandaag niet meer mag rijden. Wat heeft hij je opgelegd en hoe lang duurt dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een rijverbod van maximaal 24 uur.",
+          "feedback": "Goed. De politie kan na een controle een rijverbod opleggen dat maximaal 24 uur duurt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een ontzegging van de rijbevoegdheid van maximaal 24 uur.",
+          "feedback": "Fout. Een ontzegging komt van de rechter en die bepaalt zelf de duur; een agent kan die niet opleggen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Een ongeldigverklaring van je rijbewijs tot de rechtszaak.",
+          "feedback": "Fout. Ongeldigverklaring is iets anders en volgt bijvoorbeeld als je een opgelegde cursus weigert.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een schorsing van je rijbewijs voor een week.",
+          "feedback": "Fout. Zo'n termijn noemt het boek niet, en een agent legt langs de weg hooguit een rijverbod op.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Een opsporingsambtenaar heeft de bevoegdheid om een rijverbod op te leggen van maximaal 24 uur.",
+        "waarom": "De agent kan ter plekke alleen voorkomen dat je nu de weg op gaat, want hij beoordeelt niet wat er verder moet gebeuren. Alles wat langer duurt hoort bij de rechter, die de zaak later in zijn geheel bekijkt.",
+        "valkuil": "Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook niet fietsend naar huis.",
+        "onthoud": "Politie: rijverbod, maximaal 24 uur."
+      },
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.7",
+          "anker": "een rijverbod op te leggen (maximaal 24 uur)"
+        },
+        {
+          "slide": 11,
+          "anker": "de politie kan je een rijverbod tot 24 uur opleggen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijverbod",
+        "straf",
+        "politiecontrole"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "een rijverbod op te leggen (maximaal 24 uur),",
+        "bron": "boek p. 43"
+      }
+    },
+    {
+      "id": "U13-Q020",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je hebt zojuist een rijverbod gekregen en laat je auto staan. Je vriendin biedt aan dat je haar fiets meeneemt naar huis. Mag je op die fiets stappen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een rijverbod gaat over elk voertuig, en een fiets is ook een voertuig.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook geen fiets.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook geen fiets.",
+        "waarom": "Het rijverbod haalt niet je rijbewijs weg maar jou van de weg, omdat je op dat moment onder invloed bent. Wie te veel op heeft, is ook op twee wielen een risico, en daarom maakt de maatregel geen uitzondering voor de fiets.",
+        "valkuil": "Bij een rijontzegging van de rechter mag je juist wel fietsen, want die gaat alleen over motorrijtuigen. De lichtere maatregel is hier dus de bredere.",
+        "onthoud": "Rijverbod: alles staat stil, ook de fiets."
+      },
+      "bronnen": [
+        {
+          "slide": 11,
+          "anker": "Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook geen fiets"
+        },
+        {
+          "slide": 12,
+          "anker": "je mag geen enkel voertuig besturen, ook geen fiets"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijverbod",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Tijdens een rijverbod mag je geen enkel voertuig besturen, dus ook geen fiets.",
+        "bron": "slide 11"
+      }
+    },
+    {
+      "id": "U13-Q021",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De rechter heeft je de rijbevoegdheid voor een aantal maanden ontzegd. Je wilt in die periode rijlessen nemen zodat je niet uit vorm raakt. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Tijdens een ontzegging mag je ook geen rijles nemen en geen rijexamen doen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Tijdens een ontzegging van de rijbevoegdheid mag je geen motorrijtuig besturen en ook geen rijles nemen of rijexamen doen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Tijdens een ontzegging van de rijbevoegdheid mag je geen enkel motorrijtuig besturen en ook geen rijles nemen of rijexamen doen.",
+        "waarom": "De ontzegging haalt je bevoegdheid weg om te sturen, en tijdens een rijles stuur jij nog steeds. Dat er een instructeur naast zit met een eigen rempedaal, verandert daar niets aan.",
+        "valkuil": "Is je rijbewijs ongeldig verklaard, dan mag je wel rijles nemen en examen doen. Het boek behandelt die twee gevallen los van elkaar.",
+        "onthoud": "Ontzegging: geen motorrijtuig, geen les, geen examen."
+      },
+      "bronnen": [
+        {
+          "slide": 23,
+          "anker": "Je mag ook geen rijles nemen of rijexamen doen"
+        },
+        {
+          "boek": 42,
+          "sectie": "2.6",
+          "anker": "dus ook geen snorfiets, bromfiets of tractor, maar wel een (elektrische) fiets"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "ontzegging",
+        "straf",
+        "rijbewijs"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag ook geen rijles nemen of rijexamen doen.",
+        "bron": "boek p. 42"
+      }
+    },
+    {
+      "id": "U13-Q022",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op een weg waar 80 km/u geldt, meet de politie dat je meer dan 50 km/u te hard reed. Wat gebeurt er ter plekke met je rijbewijs?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De politie vordert het direct in en de officier van justitie beslist over teruggave.",
+          "feedback": "Goed. Dit is een van de gevallen van directe invordering, en daarna beslist de officier van justitie.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je mag het houden en krijgt een bekeuring via de post.",
+          "feedback": "Fout. Dat gebeurt bij lichte overtredingen, maar bij deze snelheid wordt het rijbewijs ter plekke ingenomen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "De rechter neemt het in zodra je bent veroordeeld.",
+          "feedback": "Fout. De invordering gebeurt meteen langs de weg en wacht niet op een rechtszaak.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je rijbewijs wordt ongeldig verklaard door het CBR.",
+          "feedback": "Fout. Ongeldigverklaring hoort onder meer bij het weigeren van een opgelegde cursus, niet bij deze meting.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De politie vordert je rijbewijs direct in bij zeer hoge alcoholwaardes, bij weigering van een alcoholonderzoek en als je meer dan 50 km/u te hard hebt gereden. De officier van justitie bepaalt daarna of je het terugkrijgt.",
+        "waarom": "Bij zo'n snelheidsverschil is de kans op een ongeval nu meteen te groot om te wachten op een zitting. Daarom knipt de wet het in tweeën: de agent haalt je vandaag van de weg, de officier beslist daarna wat er verder gebeurt.",
+        "valkuil": "Het boek spreekt van meer dan 50 km/u te hard, de cursus van 50 km/u of meer. Precies op die 50 verschillen de bronnen dus, en daarboven is er geen twijfel.",
+        "onthoud": "Meer dan 50 km/u te hard: rijbewijs blijft daar."
+      },
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.6",
+          "anker": "als je meer dan 50 km/u te hard hebt gereden"
+        },
+        {
+          "boek": 43,
+          "sectie": "2.6",
+          "anker": "De officier van justitie bepaalt of je je rijbewijs terugkrijgt"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "invordering",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "als je meer dan 50 km/u te hard hebt gereden.",
+        "bron": "boek p. 43",
+        "gewijzigd": "de sectielabels bij beide ankers op p. 43 van 2.7 naar 2.6 gezet (invordering ter plekke valt nog onder 2.6), en de valkuil zei \"op het examen is dit de enige drempel die genoemd wordt\", een claim die geen bron heeft; die staat er nu niet meer."
+      }
+    },
+    {
+      "id": "U13-Q023",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Welke bevoegdheden heeft een opsporingsambtenaar volgens het boek?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een stopteken, aanwijzingen en bevelen geven.",
+          "feedback": "Goed. Dit staat als eerste in de opsomming van bevoegdheden in het boek.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je rijbewijs en kentekenbewijs ter inzage vragen.",
+          "feedback": "Goed. Beide documenten mag hij opvragen, en daarom moet je ze allebei bij je hebben.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je kentekenbewijs innemen als het voertuig technisch niet in orde is.",
+          "feedback": "Goed. Dat mag ook als de verschuldigde belasting niet is betaald.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Bepalen hoe lang je je rijbewijs kwijt bent na invordering.",
+          "feedback": "Fout. Dat is aan de officier van justitie, niet aan de agent die je staande houdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Een gevangenisstraf opleggen bij rijden onder invloed.",
+          "feedback": "Fout. Straffen komen van de rechter; de opsporingsambtenaar kan hooguit een rijverbod opleggen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Een opsporingsambtenaar mag onder meer een stopteken en aanwijzingen geven, je rijbewijs en kentekenbewijs ter inzage vragen, een test laten uitvoeren, een rijverbod opleggen en je rijbewijs of kentekenbewijs innemen.",
+        "waarom": "Alles wat in die lijst staat, kan iemand langs de weg vaststellen en uitvoeren. Zodra er een oordeel bij komt over hoe lang of hoe zwaar iets moet zijn, schuift de beslissing door naar de officier van justitie of de rechter.",
+        "valkuil": "Innemen en beslissen zijn twee verschillende dingen. De agent neemt in, een ander beslist wat er daarna gebeurt.",
+        "onthoud": "De agent handelt, de officier en de rechter beslissen."
+      },
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.7",
+          "anker": "een stopteken, aanwijzingen en bevelen te geven"
+        },
+        {
+          "boek": 43,
+          "sectie": "2.7",
+          "anker": "het kentekenbewijs in te nemen als het voertuig technisch niet in orde is"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "politiecontrole",
+        "bevoegdheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "het rijbewijs en kentekenbewijs ter inzage te vragen,",
+        "bron": "boek p. 43"
+      }
+    },
+    {
+      "id": "U13-Q024",
+      "unit": "U13",
+      "pagina": "U13-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "In welke gevallen neemt de politie een rijbewijs meteen langs de weg in?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij zeer hoge alcoholwaardes in je lichaam.",
+          "feedback": "Goed. Dit is het eerste geval dat het boek noemt bij directe invordering.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bij weigering om mee te werken aan een alcoholonderzoek.",
+          "feedback": "Goed. Weigeren telt hier even zwaar als een hoge uitslag.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je meer dan 50 km/u te hard hebt gereden.",
+          "feedback": "Goed. Bij zo'n snelheidsovertreding gaat het rijbewijs ter plekke mee.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je zonder gordel rijdt.",
+          "feedback": "Fout. Dat is een lichte overtreding waarvoor je een bekeuring krijgt, geen reden om je rijbewijs in te vorderen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Als je je kentekenbewijs niet bij je hebt.",
+          "feedback": "Fout. Dat document mag de agent opvragen en zo nodig innemen, maar het is geen grond om je rijbewijs mee te nemen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Directe invordering door de politie gebeurt bij zeer hoge alcoholwaardes, bij weigering om mee te werken aan een alcoholonderzoek en als je meer dan 50 km/u te hard hebt gereden.",
+        "waarom": "Alle drie de gevallen hebben gemeen dat de kans op een ernstig ongeval nu al te groot is om je te laten doorrijden. De lichtere feiten laten ruimte om het via de post af te handelen, omdat de rit zelf niet direct levensgevaarlijk was.",
+        "valkuil": "Weigeren staat bewust in dezelfde rij als een hoge uitslag, anders zou weigeren de goedkoopste uitweg zijn.",
+        "onthoud": "Veel te veel op, weigeren, of veel te hard: rijbewijs mee."
+      },
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.6",
+          "anker": "bij zeer hoge alcoholwaardes in je lichaam"
+        },
+        {
+          "slide": 36,
+          "anker": "In ernstige gevallen kan de politie je rijbewijs direct invorderen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "invordering",
+        "straf",
+        "politiecontrole"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "bij zeer hoge alcoholwaardes in je lichaam,",
+        "bron": "boek p. 43",
+        "gewijzigd": "het sectielabel bij het anker op p. 43 van 2.7 naar 2.6 gezet, want de invordering ter plekke valt nog onder 2.6."
+      }
+    },
+    {
+      "id": "U13-Q025",
+      "unit": "U13",
+      "pagina": "U13-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Een bestuurder van 72 vraagt bij de gemeente een nieuw rijbewijs aan. Hoe lang mag dat rijbewijs maximaal geldig zijn?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Maximaal 5 jaar.",
+          "feedback": "Goed. Vanaf je 70e is een rijbewijs bij verlenging maximaal 5 jaar geldig.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Standaard 10 jaar, net als daarvoor.",
+          "feedback": "Fout. Die termijn geldt tot je 65ste en nog tussen je 65e en 70e, maar daarna niet meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Tot zijn 75e, ongeacht de aanvraagdatum.",
+          "feedback": "Fout. Dat is de regel voor wie verlengt tussen zijn 65e en 70e, niet voor wie de 70 al gepasseerd is.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Hij krijgt geen nieuw rijbewijs meer zonder medische keuring.",
+          "feedback": "Fout. De medische keuring hoort bij het vernieuwen vanaf je 75e, en die leeftijd is hier nog niet bereikt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Tot je 65ste is een rijbewijs bij verlenging standaard 10 jaar geldig, tussen je 65e en 70e maximaal 10 jaar en vanaf je 70e maximaal 5 jaar.",
+        "waarom": "Naarmate de kans op medische veranderingen groeit, wil de wet vaker een moment waarop er opnieuw naar gekeken wordt. Een kortere geldigheid is dus geen straf maar een controlemoment dat dichterbij ligt.",
+        "valkuil": "De knip zit bij 70 en niet bij 65. Wie tussen zijn 65e en 70e verlengt, krijgt standaard een rijbewijs tot zijn 75e.",
+        "onthoud": "Vanaf je 70e: maximaal 5 jaar."
+      },
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "vanaf je 70e bij verlenging maximaal 5 jaar geldig"
+        },
+        {
+          "slide": 23,
+          "anker": "Vanaf 70 jaar is het rijbewijs maximaal 5 jaar geldig"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijbewijs",
+        "geldigheid",
+        "ouderen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "vanaf je 70e bij verlenging maximaal 5 jaar geldig.",
+        "bron": "boek p. 24"
+      }
+    },
+    {
+      "id": "U13-Q026",
+      "unit": "U13",
+      "pagina": "U13-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De geldigheidsdatum op je rijbewijs is gisteren verstreken. De aanvraag voor een nieuw pasje loopt al. Mag je vandaag nog naar je werk rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Zodra de geldigheidsduur is verstreken mag je niet rijden, ook niet terwijl de aanvraag loopt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Is de geldigheidsduur verstreken, dan mag je niet rijden en moet je eerst een nieuw rijbewijs hebben.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als de geldigheidsduur is verstreken, of als het rijbewijs slecht leesbaar is, mag je niet rijden. Je moet dan eerst een nieuw rijbewijs aanvragen.",
+        "waarom": "De datum op het pasje is het bewijs zelf en niet een herinnering. Zonder geldig bewijs kun je niet aantonen dat je bevoegd bent, en een lopende aanvraag verandert daar niets aan omdat er nog niets is beoordeeld.",
+        "valkuil": "Je moet zelf op tijd een nieuw rijbewijs aanvragen. Er komt geen bericht dat je nog even door mag rijden.",
+        "onthoud": "Datum voorbij is rijden verboden."
+      },
+      "bronnen": [
+        {
+          "boek": 21,
+          "sectie": "2.1",
+          "anker": "of als het rijbewijs slecht leesbaar is, mag je niet rijden"
+        },
+        {
+          "slide": 23,
+          "anker": "Je moet zélf op tijd bij het gemeentehuis een nieuw rijbewijs aanvragen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "rijbewijs",
+        "geldigheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als de geldigheidsduur is verstreken, of als het rijbewijs slecht leesbaar is, mag je niet rijden.",
+        "bron": "boek p. 21"
+      }
+    },
+    {
+      "id": "U13-Q027",
+      "unit": "U13",
+      "pagina": "U13-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Behalve door het verstrijken van de geldigheidsduur, waardoor wordt een rijbewijs volgens het boek nog meer ongeldig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Doordat je geboortegegevens wijzigen.",
+          "feedback": "Goed. Het boek noemt gewijzigde geboortegegevens als reden waardoor een rijbewijs ongeldig wordt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Doordat je het Nederlandse rijbewijs inwisselt voor een buitenlands rijbewijs.",
+          "feedback": "Goed. Na zo'n omwisseling is het Nederlandse rijbewijs niet langer geldig.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Doordat je fraudeert met de gegevens op het rijbewijs.",
+          "feedback": "Goed. Fraude met de gegevens op het pasje maakt het rijbewijs ongeldig.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Doordat je binnen Nederland verhuist naar een andere gemeente.",
+          "feedback": "Fout. Verhuizen staat niet in het rijtje; je adres bepaalt niet of je rijbewijs geldig is.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Doordat je een bril bent gaan dragen.",
+          "feedback": "Fout. Een bril leidt tot een code op je rijbewijs, niet tot ongeldigheid ervan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Een rijbewijs wordt onder meer ook ongeldig als je geboortegegevens wijzigen, als je het Nederlandse rijbewijs inwisselt voor een buitenlands rijbewijs en als je fraudeert met de gegevens op het rijbewijs.",
+        "waarom": "In alle drie de gevallen klopt het pasje niet meer met de werkelijkheid of met de bevoegdheid die erachter zit. Een document dat iets anders zegt dan wat waar is, kan niet langer als bewijs dienen.",
+        "valkuil": "Tijdens een ontzegging van de rijbevoegdheid is je rijbewijs tijdelijk ongeldig. Dat is dus geen blijvende ongeldigheid maar wel een periode waarin je niet mag rijden.",
+        "onthoud": "Ongeldig zodra het pasje niet meer klopt."
+      },
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "als je het Nederlandse rijbewijs inwisselt voor een buitenlands rijbewijs"
+        },
+        {
+          "slide": 23,
+          "anker": "wijziging geboortegegevens; inwisseling voor een buitenlands rijbewijs; fraude met gegevens op het rijbewijs"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijbewijs",
+        "geldigheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "ongeldig als je geboortegegevens wijzigen, als je het Nederlandse rijbewijs inwisselt voor een buitenlands rijbewijs en als je fraudeert met de gegevens op het rijbewijs.",
+        "bron": "boek p. 24",
+        "gewijzigd": "het tweede anker wees naar de zin over de brilcode op slide 23 en onderbouwde de sleutel niet; het wijst nu naar de opsomming van ongeldigheidsredenen op dezelfde slide."
+      }
+    },
+    {
+      "id": "U13-Q028",
+      "unit": "U13",
+      "pagina": "U13-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je tas is gestolen en je rijbewijs zat erin. Je vult bij de gemeente een verklaring in en vraagt meteen een nieuw pasje aan. Wat geldt er tot je het hebt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je mag niet rijden en kunt het nieuwe rijbewijs na 5 werkdagen ophalen.",
+          "feedback": "Goed. Na 5 werkdagen ligt het nieuwe rijbewijs klaar en tot die tijd mag je niet rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je mag rijden op vertoon van de verklaring die je hebt ingevuld.",
+          "feedback": "Fout. Die verklaring is onderdeel van de aanvraag en vervangt het rijbewijs niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag rijden met een kopie van je oude rijbewijs.",
+          "feedback": "Fout. Rijden met een kopie van je rijbewijs is nooit toegestaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je mag rijden zolang je de aangifte bij je hebt.",
+          "feedback": "Fout. Een aangifte geeft je geen rijbevoegdheid; die komt alleen van een geldig rijbewijs.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Ben je je rijbewijs kwijt of is het gestolen, dan vul je bij je gemeente een verklaring in en vraag je meteen een nieuw rijbewijs aan. Na 5 werkdagen kun je dat ophalen en tot die tijd mag je niet rijden.",
+        "waarom": "Zolang er geen nieuw pasje is, kan niemand langs de weg vaststellen dat jij bevoegd bent. Papieren die alleen zeggen dat je iets hebt aangevraagd, tonen dat niet aan.",
+        "valkuil": "Het gaat om werkdagen, dus een weekend telt niet mee in die termijn.",
+        "onthoud": "Kwijt is wachten, en intussen niet rijden."
+      },
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "Na 5 werkdagen kun je dat ophalen. Tot die tijd mag je niet rijden"
+        },
+        {
+          "slide": 23,
+          "anker": "als je rijbewijs verloren of gestolen is, moet je bij je gemeente"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "rijbewijs",
+        "rijbewijs-kwijt"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Na 5 werkdagen kun je dat ophalen. Tot die tijd mag je niet rijden.",
+        "bron": "boek p. 24"
+      }
+    },
+    {
+      "id": "U13-Q029",
+      "unit": "U13",
+      "pagina": "U13-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je leent de auto van je ouders. De kentekencard ligt thuis in de la, maar je hebt er wel een foto van op je telefoon. Voldoe je daarmee aan de regel?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het kentekenbewijs moet je, net als je originele rijbewijs, echt bij je hebben; een kopie mag niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je moet de kentekencard zelf bij je hebben als je met een auto op de openbare weg rijdt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je moet de kentekencard altijd bij je hebben als je met een auto op de openbare weg rijdt, en net als bij het rijbewijs mag een kopie niet.",
+        "waarom": "De opsporingsambtenaar mag rijbewijs en kentekenbewijs ter inzage vragen, en aan een foto kan hij niet zien of het document nog bestaat en klopt. Daarom moet het origineel mee in de auto waarin je rijdt.",
+        "valkuil": "Dat de auto van iemand anders is, maakt niets uit. De card hoort bij het voertuig, dus hij hoort mee te rijden.",
+        "onthoud": "Origineel mee, ook het kentekenbewijs."
+      },
+      "bronnen": [
+        {
+          "boek": 24,
+          "sectie": "2.1",
+          "anker": "Je moet die card altijd bij je hebben als je met een auto"
+        },
+        {
+          "slide": 24,
+          "anker": "Het kentekenbewijs moet je, net als je originele rijbewijs, bij je hebben"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "kentekenbewijs",
+        "kenteken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het kentekenbewijs moet je, net als je originele rijbewijs, bij je hebben. Een kopie mag niet.",
+        "bron": "slide 24"
+      }
+    },
+    {
+      "id": "U13-Q030",
+      "unit": "U13",
+      "pagina": "U13-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Wat mag je volgens het boek met alleen rijbewijs B besturen of meenemen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een voertuig met een toegestane maximummassa van maximaal 3.500 kg.",
+          "feedback": "Goed. Dat is de bovengrens die het boek noemt voor de auto zelf bij rijbewijs B.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een voertuig ingericht voor de bestuurder plus maximaal 8 passagiers.",
+          "feedback": "Goed. Meer dan acht passagiers valt onder de rijbewijzen voor de autobus.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een aanhangwagen met een toegestane maximummassa van maximaal 750 kg.",
+          "feedback": "Goed. Wil je een zwaardere aanhangwagen trekken, dan gelden daar aparte voorwaarden voor.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een bromfiets of een brommobiel.",
+          "feedback": "Goed. Bij het aanvragen of verlengen van je B-rijbewijs krijg je de categorie AM er automatisch bij.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Een kleine vrachtauto tot 7.500 kg.",
+          "feedback": "Fout. Daar heb je rijbewijs C1 voor nodig, dat is een aparte categorie.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Een landbouwtrekker.",
+          "feedback": "Fout. Voor een landbouw- of bosbouwtrekker heb je rijbewijs T nodig.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Met rijbewijs B mag de toegestane maximummassa maximaal 3.500 kg zijn, mag het voertuig zijn ingericht voor de bestuurder plus maximaal 8 passagiers en mag je een aanhangwagen van maximaal 750 kg trekken. De categorie AM krijg je er automatisch bij.",
+        "waarom": "De grenzen van rijbewijs B lopen langs gewicht en aantal inzittenden, want daar zit het verschil in hoe een voertuig remt, stuurt en wat er misgaat als het fout loopt. Zodra je daarboven komt, hoort er een apart examen bij.",
+        "valkuil": "Onder toegestane maximummassa valt het lege gewicht plus de maximale lading, dus niet alleen wat er nu in staat.",
+        "onthoud": "B is 3.500 kg, acht passagiers en 750 kg erachter."
+      },
+      "bronnen": [
+        {
+          "boek": 22,
+          "sectie": "2.1",
+          "anker": "ingericht voor het vervoer van de bestuurder + maximaal 8 passagiers"
+        },
+        {
+          "boek": 22,
+          "sectie": "2.1",
+          "anker": "je mag een aanhangwagen trekken waarvan de toegestane maximummassa maximaal 750 kg is"
+        },
+        {
+          "slide": 22,
+          "anker": "Met dit rijbewijs mag je ook een bromfiets en brommobiel besturen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijbewijs-b",
+        "rijbewijs",
+        "aanhangwagen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "je voertuig mag zijn ingericht voor het vervoer van de bestuurder + maximaal 8 passagiers",
+        "bron": "boek p. 22"
+      }
+    },
+    {
+      "id": "U13-Q031",
+      "unit": "U13",
+      "pagina": "U13-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Een beginnende bestuurder wordt aangehouden en blijkt 1,0 promille alcohol in zijn bloed te hebben. Welke educatieve maatregel hoort daarbij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De EMA, de zware educatieve maatregel alcohol en verkeer.",
+          "feedback": "Goed. Voor een beginnende bestuurder begint de EMA al bij de waarde die hier gemeten is.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De LEMA, de lichte educatieve maatregel alcohol en verkeer.",
+          "feedback": "Fout. De lichte variant hoort bij een lagere waarde; deze bestuurder zit daar als beginner al boven.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "De EMG, de educatieve maatregel gedrag en verkeer.",
+          "feedback": "Fout. De G-maatregelen horen bij snelheid en gevaarlijk rijgedrag, niet bij een alcoholmeting.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Geen enkele maatregel, alleen een boete van de rechter.",
+          "feedback": "Fout. De educatieve maatregel komt juist bovenop de boete of straf en vervalt daar niet door.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De EMA krijg je vanaf 0,8 promille als beginnende bestuurder of vanaf 1,0 promille als ervaren bestuurder. De LEMA begint lager, bij 0,5 promille voor een beginner en 0,8 promille voor een ervaren bestuurder.",
+        "waarom": "Bij elke drempel staan twee waarden, en welke telt hangt af van wie er rijdt. Dezelfde meting levert een beginner dus een zwaardere cursus op dan iemand die al jaren rijdt.",
+        "valkuil": "Bij een ervaren bestuurder zou deze waarde precies de onderkant van de EMA zijn. Kijk dus eerst wie er rijdt en pas daarna naar de tabel.",
+        "onthoud": "A is alcohol, en de L ervoor is de lichtere drempel."
+      },
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "EMA: ≥ 0,8 ‰ als beginnende bestuurder of ≥ 1,0 ‰ als ervaren bestuurder"
+        },
+        {
+          "slide": 38,
+          "anker": "≥ 0,8 ‰ als beginnende bestuurder of ≥ 1,0 ‰ als ervaren bestuurder"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "educatieve-maatregel",
+        "alcohol",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "EMA: 0,8 als beginnende bestuurder of 1,0 als ervaren bestuurder",
+        "bron": "boek p. 44"
+      }
+    },
+    {
+      "id": "U13-Q032",
+      "unit": "U13",
+      "pagina": "U13-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Tijdens een rit wordt gemeten dat een bestuurder 40 km/u harder rijdt dan is toegestaan. Welke educatieve maatregel hoort bij die snelheid?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De LEMG, de lichte educatieve maatregel gedrag en verkeer.",
+          "feedback": "Goed. De lichte gedragsmaatregel hoort bij te hard rijden tussen de twee drempels die het boek noemt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De EMG, de zware educatieve maatregel gedrag en verkeer.",
+          "feedback": "Fout. De zware variant hoort bij herhaald gevaarlijk rijgedrag of bij een nog veel groter snelheidsverschil.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "De LEMA, de lichte educatieve maatregel alcohol en verkeer.",
+          "feedback": "Fout. De A-maatregelen horen bij alcohol, en daar is in deze situatie geen sprake van.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De EMD, de educatieve maatregel drugs en verkeer.",
+          "feedback": "Fout. De EMD hoort bij drugs in het verkeer en niet bij een snelheidsovertreding.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De LEMG krijg je als je tijdens een rit 30 km/u tot 60 km/u te hard rijdt. De EMG hoort bij herhaald gevaarlijk rijgedrag tijdens een rit of bij 60 km/u of meer te hard.",
+        "waarom": "De gedragsmaatregelen zijn getrapt, net als bij alcohol: er is een lichte en een zware variant met een drempel ertussen. Zo krijgt iemand die fors maar niet extreem te hard reed een andere cursus dan iemand die echt roekeloos was.",
+        "valkuil": "Let op de letter. Een A in de afkorting wijst op alcohol, een G op gedrag en een D op drugs.",
+        "onthoud": "Tussen de twee drempels: de lichte gedragsmaatregel."
+      },
+      "bronnen": [
+        {
+          "boek": 45,
+          "sectie": "2.8",
+          "anker": "als je tijdens een rit 30 km/u tot 60 km/u te hard rijdt"
+        },
+        {
+          "slide": 39,
+          "anker": "Bij een snelheidsovertreding van: - meer dan 30 km/u tot 60 km/u"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "educatieve-maatregel",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "LEMG: als je tijdens een rit 30 km/u tot 60 km/u te hard rijdt,",
+        "bron": "boek p. 45"
+      }
+    },
+    {
+      "id": "U13-Q033",
+      "unit": "U13",
+      "pagina": "U13-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je krijgt een educatieve maatregel opgelegd, maar je vindt de kosten te hoog en besluit de cursus niet te volgen. Houd je dan gewoon je rijbewijs?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Volg je de cursus niet, dan wordt je rijbewijs ongeldig verklaard.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. De cursus is verplicht, je betaalt hem zelf, en wie hem niet volgt raakt zijn rijbewijs kwijt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De educatieve maatregel is een verplichte cursus die je zelf betaalt, tussen € 750 en € 1.500. Als je de cursus niet volgt, wordt je rijbewijs ongeldig verklaard.",
+        "waarom": "De maatregel is er niet om geld op te halen maar om gedrag te veranderen, en die bedoeling valt weg zodra je hem kunt afkopen door niet te komen. Daarom hangt er geen boete aan het overslaan maar het rijbewijs zelf.",
+        "valkuil": "De cursus komt bovenop de boete of de straf en niet in de plaats daarvan.",
+        "onthoud": "Cursus weigeren betekent rijbewijs kwijt."
+      },
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "Als je de cursus niet volgt, wordt je rijbewijs ongeldig verklaard"
+        },
+        {
+          "slide": 40,
+          "anker": "Als je weigert om deel te nemen of weigert het cursusgeld te betalen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "educatieve-maatregel",
+        "straf",
+        "rijbewijs"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je de cursus niet volgt, wordt je rijbewijs ongeldig verklaard.",
+        "bron": "boek p. 44"
+      }
+    },
+    {
+      "id": "U13-Q034",
+      "unit": "U13",
+      "pagina": "U13-P06",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Welke van deze feiten noemt het boek als voorbeeld van een misdrijf?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Rijden onder invloed van alcohol.",
+          "feedback": "Goed. Dit is het eerste voorbeeld van een misdrijf dat het boek geeft.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Doorrijden na een ongeval.",
+          "feedback": "Goed. Bij letsel is het verlaten van de plaats van het ongeval een ernstig verkeersmisdrijf.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Rijden tijdens een ontzegging van de rijbevoegdheid.",
+          "feedback": "Goed. Wie rijdt terwijl de rechter hem dat verboden heeft, pleegt een misdrijf.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Foutparkeren.",
+          "feedback": "Fout. Dat staat in het boek juist in het rijtje overtredingen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Door rood licht rijden.",
+          "feedback": "Fout. Ook dit noemt het boek als voorbeeld van een overtreding en niet van een misdrijf.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Overtredingen zijn bijvoorbeeld rijden door rood licht, foutparkeren of te hard rijden. Misdrijven zijn bijvoorbeeld rijden onder invloed van alcohol, doorrijden na een ongeval of rijden tijdens een ontzegging van de rijbevoegdheid.",
+        "waarom": "Het onderscheid bepaalt wie je straf uitdeelt en wat je eraan overhoudt. Bij een overtreding valt er meestal een bekeuring op de mat, bij een misdrijf sta je voor de rechter en houd je een strafblad over.",
+        "valkuil": "Dat door rood rijden gevaarlijk is, maakt het nog geen misdrijf. Het boek noemt het uitdrukkelijk als overtreding.",
+        "onthoud": "Onder invloed, doorrijden of rijden tijdens een ontzegging: misdrijf."
+      },
+      "bronnen": [
+        {
+          "boek": 40,
+          "sectie": "2.6",
+          "anker": "misdrijven, bijvoorbeeld rijden onder invloed van alcohol, doorrijden na een ongeval"
+        },
+        {
+          "boek": 40,
+          "sectie": "2.6",
+          "anker": "overtredingen, bijvoorbeeld rijden door rood licht, foutparkeren of te hard rijden"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "misdrijf",
+        "overtreding",
+        "straf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "misdrijven, bijvoorbeeld rijden onder invloed van alcohol, doorrijden na een ongeval of rijden tijdens een ontzegging van de rijbevoegdheid",
+        "bron": "boek p. 40"
+      }
+    },
+    {
+      "id": "U13-Q035",
+      "unit": "U13",
+      "pagina": "U13-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een leaseauto van je werkgever en bij een controle blijkt de technische staat niet in orde. Is behalve jij ook het leasebedrijf of je werkgever hiervoor aansprakelijk?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Voor technische eisen is naast de bestuurder ook de eigenaar of houder van het voertuig aansprakelijk.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Bij technische eisen ligt de aansprakelijkheid niet alleen bij de bestuurder maar ook bij de eigenaar of houder.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Voor veel feiten is alleen de bestuurder aansprakelijk, maar voor technische eisen is naast de bestuurder ook de eigenaar of houder van het voertuig aansprakelijk.",
+        "waarom": "Te hard rijden doe jij op dat moment zelf, maar de staat van de remmen of de banden is het resultaat van onderhoud dat iemand anders regelt. Daarom trekt de wet daar ook degene bij die het voertuig duurzaam onder zich heeft.",
+        "valkuil": "Een houder is niet de eigenaar maar de duurzame bezitter, bijvoorbeeld een bedrijf dat voertuigen least.",
+        "onthoud": "Techniek: bestuurder en eigenaar of houder samen."
+      },
+      "bronnen": [
+        {
+          "boek": 43,
+          "sectie": "2.7",
+          "anker": "naast de bestuurder, ook de eigenaar of houder van het voertuig aansprakelijk"
+        },
+        {
+          "slide": 34,
+          "anker": "voor technische eisen is, naast de bestuurder, ook de eigenaar van het voertuig aansprakelijk"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aansprakelijkheid",
+        "voertuig"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Voor technische eisen is, naast de bestuurder, ook de eigenaar of houder van het voertuig aansprakelijk.",
+        "bron": "boek p. 43"
+      }
+    },
+    {
+      "id": "U13-Q036",
+      "unit": "U13",
+      "pagina": "U13-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "De politie heeft een proces-verbaal opgemaakt en naar de officier van justitie gestuurd. Welke beslissingen kan die nemen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Seponeren, dus niet tot verdere vervolging overgaan.",
+          "feedback": "Goed. Seponeren is de eerste mogelijkheid die het boek noemt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een schikking of transactie voorstellen, waarbij je een boete krijgt opgelegd.",
+          "feedback": "Goed. Met een schikking wordt de zaak buiten de rechter om afgedaan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Dagvaarden, zodat je voor de rechter moet verschijnen.",
+          "feedback": "Goed. Dat gebeurt bij een ernstig genoeg feit en ook als je een opgelegde boete weigert te betalen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Zelf een gevangenisstraf opleggen.",
+          "feedback": "Fout. Een gevangenisstraf komt van de rechter en niet van de officier van justitie.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Je rijbewijs ter plekke innemen.",
+          "feedback": "Fout. Innemen langs de weg doet de politie; de officier beslist daarna pas of je het terugkrijgt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Bij zwaardere overtredingen stuurt de politie een proces-verbaal naar de officier van justitie, die kan seponeren, een schikking of transactie voorstellen of dagvaarden.",
+        "waarom": "De officier weegt of een zaak het waard is om door te zetten en hoe zwaar die dan moet worden aangepakt. Het uitdelen van de straf zelf hoort bij de rechter, want daar wordt de zaak pas echt behandeld.",
+        "valkuil": "Word je veroordeeld, dan krijg je naast een boete of een ontzegging van de rijbevoegdheid ook een strafblad.",
+        "onthoud": "Officier: seponeren, schikken of dagvaarden."
+      },
+      "bronnen": [
+        {
+          "boek": 41,
+          "sectie": "2.6",
+          "anker": "Bij zwaardere overtredingen maakt de politie een proces-verbaal op"
+        },
+        {
+          "boek": 41,
+          "sectie": "2.6",
+          "anker": "Dit betekent niet tot (verder) vervolgen overgaan"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "straf",
+        "overtreding",
+        "rechtspraak"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Schikking of transactie voorstellen: In dit geval krijg je een boete opgelegd.",
+        "bron": "boek p. 41"
+      }
+    }
+  ]
+}

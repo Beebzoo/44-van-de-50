@@ -10,7 +10,16 @@
    previous perfect run so the confirmation quiz cannot be memorised.
    Questions flagged reserve never appear here; they are held back for
    the exam simulations. */
-export const SUPPORTED = new Set(["ja_nee", "meerkeuze", "meervoudig", "hotspot", "volgorde", "reeks"]);
+export const SUPPORTED = new Set(["ja_nee", "meerkeuze", "meervoudig", "hotspot", "volgorde", "reeks", "invul"]);
+
+/* An invul answer is one typed number. Dutch writes a decimal comma, and a
+   learner types what he sees on a sign, so "1,6" and "1.6" both count. */
+export const getalUit = tekst => {
+  const t = String(tekst == null ? "" : tekst).replace(",", ".").replace(/[^0-9.-]/g, "");
+  if (!t || !/[0-9]/.test(t)) return null;
+  const n = parseFloat(t);
+  return Number.isFinite(n) ? n : null;
+};
 
 const shuffle = arr => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const weightOf = (q, history) => {
@@ -66,6 +75,11 @@ export function prepare(q) {
 }
 
 export function isCorrect(q, gekozen) {
+  if (q.type === "invul") {
+    const n = getalUit(gekozen[0]);
+    if (n === null) return false;
+    return Math.abs(n - q.correct.getal) <= (q.correct.tolerantie || 0);
+  }
   if (q.type === "volgorde") return gekozen.length === q.correct.length && gekozen.every((g, i) => g === q.correct[i]);
   const c = new Set(q.correct);
   if (gekozen.length !== c.size) return false;
@@ -75,6 +89,7 @@ export function isCorrect(q, gekozen) {
 /* can the run be checked with what is chosen so far */
 export function ready(run) {
   const q = current(run).q;
+  if (q.type === "invul") return getalUit(run.gekozen[0]) !== null;
   if (q.type === "volgorde") return run.gekozen.length === q.correct.length;
   return run.gekozen.length > 0;
 }
@@ -82,6 +97,7 @@ export function ready(run) {
 /* the default answer to "Wat ging er mis?": the distractor's own type,
    else a heuristic on the stem */
 export function defaultFouttype(q, gekozen, history) {
+  if (q.type === "invul") return history.get(q.id) ? "verkeerd_toegepast" : "niet_geweten";
   if (q.type === "volgorde") return history.get(q.id) ? "verkeerd_toegepast" : "niet_geweten";
   const wrong = q.opties.find(o => gekozen.includes(o.id) && !q.correct.includes(o.id));
   if (wrong && wrong.fouttype) return wrong.fouttype;

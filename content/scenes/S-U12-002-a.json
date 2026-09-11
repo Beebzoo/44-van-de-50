@@ -1,0 +1,30 @@
+{
+  "id": "S-U12-002-a",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    },
+    {
+      "id": "hulpdienst",
+      "soort": "hulpdienst",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de hulpdienst"
+    }
+  ],
+  "alt": "Een rechte weg. Jij staat stil op de rijbaan. Ver achter je nadert een hulpdienst met zwaailicht.",
+  "inspiratie": {
+    "boek": 168
+  }
+}

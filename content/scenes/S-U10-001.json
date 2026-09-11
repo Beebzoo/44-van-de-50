@@ -1,0 +1,28 @@
+{
+  "id": "S-U10-001",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "E1",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een rechte straat met rechts bord E1 op een paal. Jij staat met je auto stil langs de rechterkant van de rijbaan.",
+  "inspiratie": {
+    "boek": 161
+  }
+}

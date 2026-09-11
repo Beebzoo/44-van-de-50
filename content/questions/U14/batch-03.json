@@ -1,0 +1,862 @@
+{
+  "unit": "U14",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U14-Q025",
+      "unit": "U14",
+      "pagina": "U14-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je hebt een stapel steigerplanken achter op je auto liggen. Die stapel is deelbaar: je kunt er net zo goed de helft van meenemen. Hoe ver mag hij achter de auto uitsteken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Maximaal 1 meter achter de auto en maximaal 5 meter achter de achterste as",
+          "feedback": "Goed. Bij deelbare lading gelden allebei die grenzen tegelijk, dus de strengste van de twee telt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Helemaal niet, deelbare lading mag nergens uitsteken",
+          "feedback": "Fout. Aan de voorkant mag deelbare lading inderdaad niet uitsteken, maar achter wel een stuk.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Zo ver als je wilt, zolang je auto met lading niet langer wordt dan de maximale lengte",
+          "feedback": "Fout. De lengtegrens van het voertuig is iets anders dan de regels voor uitstekende lading.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Maximaal de helft van de lengte van de auto",
+          "feedback": "Fout. Die halve-lengte-regel hoort bij ondeelbare lading op een aanhangwagen.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Deelbare lading mag aan de voorkant van een auto niet uitsteken en aan de achterkant maximaal 1 meter achter de auto en maximaal 5 meter achter de achterste as.",
+        "waarom": "Wie zijn vracht kan opsplitsen, hoeft hem niet ver buiten het voertuig te laten steken, dus voor die soort lading is de ruimte krap gehouden.",
+        "valkuil": "Bij een korte auto met een lange overhang bereik je de ene grens eerder dan de andere; je moet aan allebei voldoen.",
+        "onthoud": "Deelbaar: niets naar voren, achter kort."
+      },
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "max. 1 m uitsteken achter de auto"
+        },
+        {
+          "slide": 250,
+          "anker": "max. 1 meter achter de auto - max. 5 meter achter de achterste as"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "lading",
+        "deelbaar",
+        "personenauto"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "voorkant: uitsteken verboden, achterkant: max. 1 m uitsteken achter de auto, max. 5 m uitsteken achter de achterste as",
+        "bron": "boek p. 227",
+        "gewijzigd": "De stam sprak van een bestelauto terwijl sectie 13.7 de maten van een personenauto geeft; nu een stapel planken achter op je auto, zoals de tekening bij slide 250."
+      }
+    },
+    {
+      "id": "U14-Q026",
+      "unit": "U14",
+      "pagina": "U14-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op je dakdragers ligt een lange ladder die je niet in stukken kunt halen. Wat geldt er voor het uitsteken aan de voorkant van je auto?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Hij mag maximaal 1 meter voor de auto uitsteken",
+          "feedback": "Goed. Voor ondeelbare lading geldt vooraan en achteraan dezelfde grens van een meter.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij mag aan de voorkant helemaal niet uitsteken",
+          "feedback": "Fout. Dat verbod geldt voor deelbare lading en voor lading op een aanhangwagen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Hij mag tot 5 meter voor de auto uitsteken",
+          "feedback": "Fout. Die maat hoort bij het uitsteken achter de achterste as, niet bij de voorkant.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen als je er een markeringsbord aan hangt mag hij voor uitsteken",
+          "feedback": "Fout. Markeringsborden zijn op een auto helemaal niet verplicht; het gaat hier om de afstand.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Ondeelbare lading zoals ladders, palen en latten mag op een auto maximaal 1 meter voor en maximaal 1 meter achter de auto uitsteken.",
+        "waarom": "Iets wat je niet kunt opsplitsen moet ergens heen, dus voor die soort lading laat de wet aan de voorkant wel wat ruimte.",
+        "valkuil": "Op een aanhangwagen mag ook ondeelbare lading aan de voorzijde nooit uitsteken; die uitzondering geldt alleen op de auto.",
+        "onthoud": "Ondeelbaar op de auto: een meter voor, een meter achter."
+      },
+      "bronnen": [
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "voorkant: max. 1 m uitsteken voor de auto"
+        },
+        {
+          "slide": 251,
+          "anker": "max. 1 meter voor de auto"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "lading",
+        "ondeelbaar",
+        "personenauto"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "voorkant: max. 1 m uitsteken voor de auto",
+        "bron": "boek p. 227"
+      }
+    },
+    {
+      "id": "U14-Q027",
+      "unit": "U14",
+      "pagina": "U14-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je rijdt met een open aanhangwagen vol bouwmateriaal. Welke uitspraken over markeringsborden zijn juist?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een markeringsbord is verplicht als de lading aan een zijkant meer dan 10 cm uitsteekt",
+          "feedback": "Goed. Aan de zijkant ligt de grens laag, want daar rijdt ander verkeer vlak langs je.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een markeringsbord is verplicht als de lading aan de achterkant meer dan 1 meter uitsteekt",
+          "feedback": "Goed. Achter mag er dus meer uitsteken voordat markering nodig is dan opzij.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Breedtemarkering breng je zowel aan de voorkant als aan de achterkant aan",
+          "feedback": "Goed. Wie van voren aankomt moet net zo goed zien hoe breed je bent als wie achter je rijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "In het donker mag je de borden onverlicht laten, want ze zijn al reflecterend",
+          "feedback": "Fout. De markeringsborden moeten 's nachts verlicht zijn.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Dezelfde markeringsplicht geldt voor lading op je imperiaal",
+          "feedback": "Fout. Op een auto zijn markeringsborden voor uitstekende lading niet verplicht.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Op een aanhangwagen is een markeringsbord verplicht als de lading aan een zijkant meer dan 10 cm uitsteekt of aan de achterkant meer dan 1 meter; breedtemarkering hoort voor en achter en 's nachts verlicht.",
+        "waarom": "Een aanhangwagen is smaller en lager dan de auto ervoor, dus wat er aan de zijkant uitsteekt valt in het verkeer nauwelijks op.",
+        "valkuil": "De grens voor de zijkant is veel krapper dan die voor de achterkant, dus tel niet met dezelfde maat.",
+        "onthoud": "Opzij een handbreedte, achter een meter."
+      },
+      "bronnen": [
+        {
+          "boek": 229,
+          "sectie": "13.7",
+          "anker": "als de lading aan een zijkant meer dan 10 cm uitsteekt"
+        },
+        {
+          "slide": 254,
+          "anker": "breedtemarkering moet je zowel aan de voor- de achterzijde aanbrengen"
+        },
+        {
+          "slide": 254,
+          "anker": "markeringsborden moeten 's nachts verlicht zijn"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "lading",
+        "markeringsbord",
+        "aanhangwagen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als de lading aan een zijkant meer dan 10 cm uitsteekt, als de lading aan de achterkant meer dan 1 m uitsteekt",
+        "bron": "boek p. 229"
+      }
+    },
+    {
+      "id": "U14-Q028",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Een aanhangwagen heeft geen eigen kentekenbewijs. Welke toegestane maximummassa geldt er dan voor hem? Vul het aantal kg in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 750,
+        "eenheid": "kg"
+      },
+      "uitleg": {
+        "regel": "Als een aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg.",
+        "waarom": "Zonder papieren is er niets waaruit een hogere massa kan blijken, dus valt hij terug op de grens waarboven een kentekenbewijs juist verplicht wordt.",
+        "valkuil": "Diezelfde grens bepaalt ook de kleur van de kentekenplaat: eronder wit met het kenteken van de auto, erboven geel met een eigen kenteken.",
+        "onthoud": "Geen papieren betekent 750 kg."
+      },
+      "bronnen": [
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "als een aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg"
+        },
+        {
+          "slide": 256,
+          "anker": "als de aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aanhangwagen",
+        "kentekenbewijs",
+        "massa"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als een aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg",
+        "bron": "boek p. 230"
+      }
+    },
+    {
+      "id": "U14-Q029",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Boven welke toegestane maximummassa moet een aanhangwagen echt een losbreekreminrichting hebben, en volstaat een hulpkoppeling dus niet meer?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Boven 750 kg",
+          "feedback": "Fout. Bij die grens gaat het over het kentekenbewijs en de kleur van de kentekenplaat.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Boven 1.500 kg",
+          "feedback": "Goed. Tot en met die massa mag je kiezen tussen een losbreekreminrichting en een hulpkoppeling, daarboven niet meer.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Boven 3.500 kg",
+          "feedback": "Fout. Dat is de grens die bij je rijbewijs en de massa van de combinatie hoort.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Er is geen grens, een hulpkoppeling mag altijd",
+          "feedback": "Fout. Boven een bepaalde massa moet de aanhangwagen zichzelf kunnen afremmen als hij losbreekt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een aanhangwagen tot en met 1.500 kg moet een losbreekreminrichting of een hulpkoppeling hebben; boven 1.500 kg is een losbreekreminrichting verplicht.",
+        "waarom": "Een kabel die de aanhangwagen aan de auto houdt kan een lichte last nog opvangen, maar een zware losgeraakte wagen moet zelf gaan remmen.",
+        "valkuil": "Tot die grens mag je kiezen, maar allebei tegelijk monteren is niet toegestaan.",
+        "onthoud": "Tot 1.500 kg mag je kiezen, daarboven remmen."
+      },
+      "bronnen": [
+        {
+          "boek": 231,
+          "sectie": "13.8",
+          "anker": "aanhangwagens met een toegestane maximummassa van meer dan 1.500 kilogram moeten een losbreekreminrichting hebben"
+        },
+        {
+          "slide": 255,
+          "anker": "hulpkoppeling of losbreekrem verplicht - beide tegelijk is niet toegestaan"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aanhangwagen",
+        "losbreekrem",
+        "hulpkoppeling"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "aanhangwagens met een toegestane maximummassa van meer dan 1.500 kilogram moeten een losbreekreminrichting hebben",
+        "bron": "boek p. 231"
+      }
+    },
+    {
+      "id": "U14-Q030",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je wilt een paardentrailer trekken die zwaarder is dan 750 kg. De toegestane maximummassa van auto en trailer samen ligt tussen 3.500 en 4.250 kg. Welk rijbewijs heb je nodig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen B is genoeg",
+          "feedback": "Fout. Met alleen B blijft de combinatie beperkt tot de lagere grens, en daar zit je nu boven.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "B met code 96, of anders BE",
+          "feedback": "Goed. In deze band mag je kiezen: de code op je B-rijbewijs of het volledige BE-rijbewijs.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen BE, code 96 volstaat hier niet",
+          "feedback": "Fout. Pas boven de bovengrens van deze band is code 96 niet meer genoeg.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "C1E",
+          "feedback": "Fout. Dat rijbewijs heb je pas nodig als je boven de grenzen van BE uitkomt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Is de aanhangwagen zwaarder dan 750 kg en ligt de toegestane maximummassa van de combinatie tussen 3.500 en 4.250 kg, dan heb je B met code 96 of BE nodig.",
+        "waarom": "De wetgever kijkt niet naar de trailer alleen maar naar wat je in totaal in beweging zet, want dat bepaalt hoe de combinatie remt en stuurt.",
+        "valkuil": "Het praktijkexamen voor code 96 en voor BE is hetzelfde, dus vrijwel iedereen haalt meteen BE.",
+        "onthoud": "Boven 3.500 kg combinatie: code 96 of BE."
+      },
+      "bronnen": [
+        {
+          "boek": 233,
+          "sectie": "13.8",
+          "anker": "de toegestane maximummassa van de combinatie tussen de 3.500 en 4.250 kilogram ligt"
+        },
+        {
+          "boek": 234,
+          "sectie": "13.8",
+          "anker": "Met een BE-rijbewijs mag je ook een combinatie besturen waarvoor een B-rijbewijs"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "aanhangwagen",
+        "code-96",
+        "rijbewijs-be",
+        "combinatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als de toegestane maximummassa van de aanhangwagen meer bedraagt dan 750 kilogram en de toegestane maximummassa van de combinatie tussen de 3.500 en 4.250 kilogram ligt",
+        "bron": "boek p. 233"
+      }
+    },
+    {
+      "id": "U14-Q031",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Onderweg naar de camping wil je neefje graag in de caravan zitten in plaats van achterin de auto. Mag hij daar tijdens de rit plaatsnemen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een caravan telt als aanhangwagen en daar mag tijdens de rit niemand in of op zitten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Personen vervoeren op of in een aanhangwagen is verboden, en dat geldt ook voor caravans.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het is verboden om personen op of in je aanhangwagen te vervoeren; dat geldt ook voor caravans. Voor evenementen en optochten kan de gemeente ontheffing verlenen.",
+        "waarom": "Een aanhangwagen heeft geen gordels, geen kreukelzones en geen airbags, dus bij een botsing is er niets wat een inzittende opvangt.",
+        "valkuil": "Dat de caravan stevig oogt en van binnen op een kamer lijkt, verandert niets aan het verbod.",
+        "onthoud": "Mensen horen in de auto, niet in wat je trekt."
+      },
+      "bronnen": [
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "het is verboden om personen op of in je aanhangwagen te vervoeren"
+        },
+        {
+          "slide": 256,
+          "anker": "het is verboden om personen op of in je aanhangwagen (of caravan) te vervoeren"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "aanhangwagen",
+        "caravan",
+        "gebruikseisen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "het is verboden om personen op of in je aanhangwagen te vervoeren. Dat geldt (dus) ook voor caravans",
+        "bron": "boek p. 230"
+      }
+    },
+    {
+      "id": "U14-Q032",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je hebt net een geleende aanhangwagen aan je trekhaak gehangen. Wat hoort er bij de controle voordat je wegrijdt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Nakijken of de achterlichten, het remlicht, de richtingaanwijzers en de kentekenplaatverlichting van de aanhangwagen werken",
+          "feedback": "Goed. De verlichting van de aanhangwagen hoort gelijktijdig te branden met die van je auto.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Nakijken of de kabel en de losbreekrem of hulpkoppeling de aanhangwagen vrij laten draaien",
+          "feedback": "Goed. Hij moet tot een hoek van negentig graden kunnen draaien zonder dat er iets strak komt te staan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Kijken of je zicht naar achteren nog goed genoeg is, en zo nodig extra buitenspiegels monteren",
+          "feedback": "Goed. Neemt de aanhangwagen je zicht via de gewone spiegels weg, dan komen er spiegels bij.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Aan de banden van de aanhangwagen hoef je niets na te kijken, want de eis van 1,6 mm profiel geldt alleen voor je auto",
+          "feedback": "Fout. De profieleis geldt ook voor de banden van de aanhangwagen zelf.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Controleren of er zowel een losbreekrem als een hulpkoppeling aan zit",
+          "feedback": "Fout. Bij een lichte aanhangwagen kies je er juist een van; allebei tegelijk is niet toegestaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Na het aankoppelen controleer je de verlichting van de aanhangwagen, of de kabel en de losbreekrem of hulpkoppeling de wagen vrij tot een hoek van 90 graden laten draaien, en of je zicht naar achteren extra spiegels nodig maakt.",
+        "waarom": "Dit zijn precies de drie dingen die door het koppelen zelf veranderen, en die je dus niet aan de keuring van de aanhangwagen kunt overlaten.",
+        "valkuil": "Een kabel die net te kort hangt, trekt bij de eerste scherpe bocht de losbreekrem in werking of scheurt eraf.",
+        "onthoud": "Licht, bocht en zicht: die drie na het aankoppelen."
+      },
+      "bronnen": [
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "Controleer na het aansluiten van de verlichtingskabel of de achterlichten, het remlicht"
+        },
+        {
+          "boek": 232,
+          "sectie": "13.8",
+          "anker": "vrijelijk (tot een hoek van 90 graden) kan draaien ten opzichte van je auto"
+        },
+        {
+          "boek": 230,
+          "sectie": "13.8",
+          "anker": "moet je extra buitenspiegels aanbrengen op je auto"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "aanhangwagen",
+        "aankoppelen",
+        "banden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Controleer na het aansluiten van de verlichtingskabel of de achterlichten, het remlicht, de richtingaanwijzer en de kentekenplaatverlichting van de aanhangwagen goed werken",
+        "bron": "boek p. 232",
+        "gewijzigd": "Afleider d was half waar: hij schreef een controle voor die je wel degelijk doet en pakte alleen de reden verkeerd. Nu zegt de optie dat je de banden van de aanhangwagen helemaal niet hoeft na te kijken, en dat is onmiskenbaar fout."
+      }
+    },
+    {
+      "id": "U14-Q033",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij het tankstation merk je dat je in je dieselauto het verkeerde vulpistool hebt gepakt. Er zit nu benzine in de tank. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De motor niet starten en deskundige hulp inroepen om het brandstofsysteem leeg te laten maken",
+          "feedback": "Goed. Zolang de motor niet loopt, blijft de verkeerde brandstof in de tank en kun je hem laten afvoeren.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De tank verder volgooien met diesel, zodat de benzine verdund wordt",
+          "feedback": "Fout. Verdunnen lost het niet op; de verkeerde brandstof moet eruit voordat de motor draait.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Rustig doorrijden naar de garage, want op lage toeren gebeurt er weinig",
+          "feedback": "Fout. Juist tijdens het rijden ontstaat de schade aan je brandstofsysteem.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De brandstof zelf in een jerrycan aftappen en in de berm laten staan",
+          "feedback": "Fout. De verkeerde brandstof moet op een verantwoorde en milieuvriendelijke manier worden afgevoerd.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Heb je verkeerd getankt, start de motor dan niet en roep deskundige hulp in om je brandstofsysteem leeg te laten maken en de verkeerde brandstof af te voeren.",
+        "waarom": "Zodra de pomp gaat draaien komt de verkeerde vloeistof door het hele systeem, en dan is er veel meer schoon te maken dan alleen de tank.",
+        "valkuil": "Benzine is minder vet dan diesel, dus juist in een dieselauto gaat het snel mis met het brandstofsysteem.",
+        "onthoud": "Verkeerd getankt betekent contactsleutel laten liggen."
+      },
+      "bronnen": [
+        {
+          "slide": 218,
+          "anker": "Toch verkeerd getankt? Start de motor niet"
+        },
+        {
+          "slide": 218,
+          "anker": "Roep deskundige hulp in om je brandstofsysteem leeg te laten maken"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "brandstof",
+        "tanken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Roep deskundige hulp in om je brandstofsysteem leeg te laten maken en de verkeerde brandstof af te voeren",
+        "bron": "slide 218"
+      }
+    },
+    {
+      "id": "U14-Q034",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een volledig elektrische bestelauto en komt bij een bord dat het begin van een nul-emissiezone aangeeft. Mag je die zone in rijden?",
+      "media": {
+        "bord": "C22e"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een nul-emissiezone is juist wel toegankelijk voor uitstootvrije voertuigen op stroom of waterstof.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het bord sluit bedrijfsauto's en vrachtauto's uit, maar niet de uitstootvrije exemplaren.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Een nul-emissiezone is een gebied dat verboden is voor alle soorten bedrijfsauto's en vrachtauto's, behalve voor uitstootvrije voertuigen op stroom of waterstof.",
+        "waarom": "De zone bestaat om de lucht in de stad schoon te houden, dus een voertuig dat niets uitstoot loopt dat doel niet in de weg.",
+        "valkuil": "Verwar de nul-emissiezone niet met de milieuzone: die kijkt naar diesel en naar je emissieklasse, die op je kentekenbewijs staat.",
+        "onthoud": "Nul-emissiezone: alleen wie niets uitstoot mag erin."
+      },
+      "bronnen": [
+        {
+          "boek": 202,
+          "sectie": "12.4",
+          "anker": "verboden is voor alle soorten bedrijfsauto's en vrachtauto's, behalve voor uitstootvrije voertuigen"
+        },
+        {
+          "slide": 220,
+          "anker": "is een gebied dat verboden is voor alle soorten bedrijfsauto's en vrachtauto's"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "milieuzone",
+        "emissie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een nul-emissiezone is een gebied dat verboden is voor alle soorten bedrijfsauto's en vrachtauto's, behalve voor uitstootvrije voertuigen (elektrisch of waterstof)",
+        "bron": "boek p. 202"
+      }
+    },
+    {
+      "id": "U14-Q035",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je wilt zuiniger gaan rijden en dus minder uitstoot veroorzaken. Welke gewoontes helpen daar volgens de cursus bij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Na het starten direct rustig wegrijden, ook in de winter",
+          "feedback": "Goed. De motor warmt tijdens het rijden sneller op dan met stationair draaien op de oprit.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Afstand houden en anticiperen, zodat je niet telkens hoeft te remmen",
+          "feedback": "Goed. Elke keer dat je remt gooi je snelheid weg die je met brandstof hebt opgebouwd.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De motor uitschakelen als je langer dan een minuut moet stilstaan",
+          "feedback": "Goed. Bij moderne auto's doet het start-stopsysteem dit vaak zelf voor je.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De skibox of het fietsenrek maar het hele jaar op de auto laten zitten",
+          "feedback": "Fout. Dat geeft onnodige luchtweerstand, dus je trekt minder snel op en verbruikt meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "De airco standaard aanlaten, want die kost bijna niets",
+          "feedback": "Fout. Met de airco aan kan het verbruik tot wel 15% hoger zijn, dus gebruik hem spaarzaam.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Het Nieuwe Rijden betekent onder meer direct rustig wegrijden, op tijd opschakelen met de toerenteller, afstand houden en anticiperen, uitrollen in de versnelling en de motor uitzetten bij langer dan een minuut stilstaan.",
+        "waarom": "Bijna elke tip komt op hetzelfde neer: energie die je er niet in hoeft te stoppen, hoef je er ook niet uit te remmen.",
+        "valkuil": "Luchtweerstand en airco lijken kleine dingen, maar juist die draaien de hele winst weer terug.",
+        "onthoud": "Rustig weg, vooruitkijken, motor uit bij wachten."
+      },
+      "bronnen": [
+        {
+          "slide": 215,
+          "anker": "rijd na het starten direct rustig weg, ook in de winter"
+        },
+        {
+          "slide": 215,
+          "anker": "schakel de motor uit als je langer dan 1 minuut moet stilstaan"
+        },
+        {
+          "slide": 216,
+          "anker": "met de airco aan kan het verbruik tot wel 15% hoger zijn"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "zuinig-rijden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "rijd na het starten direct rustig weg, ook in de winter",
+        "bron": "slide 215"
+      }
+    },
+    {
+      "id": "U14-Q036",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Je koopt nieuwe banden en de verkoper wijst je op het label dat erbij hoort. Welke informatie staat daarop?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De rolweerstand en het brandstofverbruik",
+          "feedback": "Goed. Een band die licht rolt kost minder brandstof, en dat zie je op het label terug.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De grip op een nat wegdek en de remweg",
+          "feedback": "Goed. Dit is de kolom met het regensymbool op het label.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De geluidsproductie bij 80 km/u",
+          "feedback": "Goed. Bandengeluid is een flink deel van het verkeerslawaai, dus dat staat er ook op.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Het aantal kilometers dat de band meegaat",
+          "feedback": "Fout. Levensduur staat niet op het label; dat hangt te veel van je rijstijl af.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "De juiste bandenspanning voor jouw auto",
+          "feedback": "Fout. Die vind je in het instructieboekje of op de sticker in het portier, niet op het label.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Alle verkochte nieuwe banden moeten een bandenlabel hebben met de rolweerstand en het brandstofverbruik, de grip op nat wegdek en de remweg, de geluidsproductie bij 80 km/u en de prestaties bij hevige sneeuw of ijs.",
+        "waarom": "Aan een band zie je van buiten niets van deze eigenschappen, dus zonder zo'n label koop je puur op prijs en merknaam.",
+        "valkuil": "Het label zegt niets over hoe lang een band meegaat of welke spanning erin hoort.",
+        "onthoud": "Zuinig, grip, geluid en winterprestaties."
+      },
+      "bronnen": [
+        {
+          "slide": 221,
+          "anker": "Alle verkochte nieuwe banden moeten voorzien zijn van een bandenlabel"
+        },
+        {
+          "slide": 221,
+          "anker": "de geluidsproductie bij 80 km/u"
+        },
+        {
+          "slide": 221,
+          "anker": "de prestaties bij hevige sneeuw- en/of ijscondities"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bandenlabel",
+        "banden",
+        "milieu"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alle verkochte nieuwe banden moeten voorzien zijn van een bandenlabel. Dat label geeft informatie over de band",
+        "bron": "slide 221"
+      }
+    }
+  ]
+}

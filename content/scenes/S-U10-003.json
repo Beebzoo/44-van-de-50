@@ -1,0 +1,34 @@
+{
+  "id": "S-U10-003",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een rechte straat met een oversteekplaats en bord L2. Jij staat met je auto stil langs de kant, vlak voor de strepen.",
+  "inspiratie": {
+    "boek": 162
+  }
+}

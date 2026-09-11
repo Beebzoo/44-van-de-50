@@ -1,0 +1,678 @@
+{
+  "unit": "U15",
+  "vragen": [
+    {
+      "id": "U15-Q001",
+      "unit": "U15",
+      "pagina": "U15-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Langs dezelfde weg staan twee borden met precies hetzelfde getal erop: dit blauwe vierkante bord en een rond wit bord met een rode rand. Welk van de twee bepaalt hoe hard je hier maximaal mag rijden?",
+      "media": {
+        "bord": "A4"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het ronde witte bord met de rode rand.",
+          "feedback": "Goed. De ronde witte plaat met rode rand geeft de maximumsnelheid; het blauwe vierkant geeft alleen een advies.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het blauwe vierkante bord.",
+          "feedback": "Fout. Een blauw vierkant bord met een getal is een adviessnelheid en dus geen maximum dat jou bindt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Allebei, want het getal is hetzelfde.",
+          "feedback": "Fout. De vorm en de kleur bepalen hier de betekenis van het bord, niet het getal dat erop staat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Geen van beide, want een getal op een bord is altijd een richtlijn.",
+          "feedback": "Fout. Het ronde bord met de rode rand geeft een echte maximumsnelheid aan waar je je aan moet houden.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De snelheidsborden geven een maximumsnelheid of adviessnelheid aan. Een ronde witte plaat met rode rand en een zwart getal is de maximumsnelheid; een blauw vierkant bord met een getal is de adviessnelheid.",
+        "waarom": "Een rode rand hoort in dit stelsel bij wat verboden is, dus het getal binnen die rand is een grens. Blauw kleurt de borden die je iets aanwijzen of aanraden.",
+        "valkuil": "Wie alleen naar het getal kijkt, ziet het verschil tussen deze twee borden helemaal niet.",
+        "onthoud": "Rode rand bindt, blauw vierkant adviseert."
+      },
+      "bronnen": [
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "Deze borden geven een maximumsnelheid of adviessnelheid aan"
+        },
+        {
+          "boek": 238,
+          "anker": "**A1** | Ronde witte plaat met rode rand en zwart `50`"
+        },
+        {
+          "boek": 238,
+          "anker": "**A4** | Blauw vierkant bord met wit `50 km/h` | *Adviessnelheid.*"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "borden-a",
+        "vorm-en-kleur",
+        "adviessnelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "**A4** | Blauw vierkant bord met wit 50 km/h | *Adviessnelheid.*",
+        "bron": "boek p. 238",
+        "gewijzigd": "de stam zette het ronde bord eerst iets verderop en vroeg toch wat er hier geldt; beide borden staan nu langs hetzelfde stuk weg, zodat de vraag over de twee bordsoorten gaat en niet over hun plaats"
+      }
+    },
+    {
+      "id": "U15-Q002",
+      "unit": "U15",
+      "pagina": "U15-P02",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Hieronder staan vijf borden uit de voorrangsfamilie. Bij welke daarvan moet jij zelf voorrang verlenen aan bestuurders op de kruisende weg? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "B1",
+          "tekst": "[B1], de gele ruit met witte rand",
+          "feedback": "Fout. De gele ruit betekent voorrangsweg: het verkeer uit de zijwegen verleent juist aan jou voorrang.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B2",
+          "tekst": "[B2], dezelfde gele ruit met schuine strepen erdoor",
+          "feedback": "Fout. Dit bord meldt het einde van de voorrangsweg en zegt op zichzelf niet dat jij moet wachten.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B3",
+          "tekst": "[B3], de rode driehoek met de punt omhoog en een dikke dwarsbalk",
+          "feedback": "Fout. Dit bord betekent voorrangskruispunt: je nadert een kruispunt waar bestuurders uit de zijwegen jou voorrang moeten geven.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "B6",
+          "tekst": "[B6], de rode driehoek met de punt omlaag",
+          "feedback": "Goed. Dit bord betekent: verleen voorrang aan bestuurders op de kruisende weg.",
+          "fouttype": null
+        },
+        {
+          "id": "B7",
+          "tekst": "[B7], de rode achthoek met het woord STOP",
+          "feedback": "Goed. Hier moet je stoppen en daarna voorrang verlenen aan bestuurders op de kruisende weg.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "B6",
+        "B7"
+      ],
+      "uitleg": {
+        "regel": "[B6] betekent: verleen voorrang aan bestuurders op de kruisende weg. [B7] betekent: stop en verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Alleen die twee borden staan op de plek waar jij moet wachten. De ruit hoort bij de weg waarop je rijdt, en de driehoek met de punt omhoog hoort bij een kruispunt waar jij juist voorrang krijgt.",
+        "valkuil": "Vier van de zeven voorrangsborden zijn driehoeken; de richting van de punt maakt het verschil.",
+        "onthoud": "Punt omlaag of achthoek: jij wacht."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "**B6** | Rode driehoek met de punt omlaag, wit binnenvlak"
+        },
+        {
+          "boek": 238,
+          "anker": "**B7** | Rode achthoek met het witte woord `STOP`"
+        },
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "Deze borden regelen de voorrang op kruispunten en op sommige afbuigende wegen"
+        },
+        {
+          "slide": 113,
+          "anker": "nader je een voorrangskruispunt waar je voorrang moet krijgen van bestuurders"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-b",
+        "vorm-en-kleur",
+        "voorrangsborden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als je een van deze borden ziet, nader je een voorrangskruispunt waar je voorrang moet krijgen van bestuurders uit zijwegen",
+        "bron": "slide 113",
+        "gewijzigd": "de valkuil telde drie van de vijf driehoeken in de familie, terwijl de familie zeven borden heeft waarvan er vier een driehoek zijn; de feedback bij [B3] zei alleen dat het bord iets aankondigt en zegt nu wat het bord betekent, met slide 113 als bron"
+      }
+    },
+    {
+      "id": "U15-Q003",
+      "unit": "U15",
+      "pagina": "U15-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een kruispunt en ziet dit bord: een rode driehoek met de punt omhoog, met een zwarte pijl die door een dikke dwarsbalk wordt gekruist. Moet jij hier voorrang verlenen aan het verkeer op de kruisende weg?",
+      "media": {
+        "bord": "B3"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je verwart deze driehoek met [B6], de driehoek met de punt omlaag; die legt de wachtplicht bij jou.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Bij dit bord nader je een voorrangskruispunt waar je voorrang krijgt van bestuurders uit de zijwegen; de driehoek die jou laat wachten heeft de punt omlaag.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "[B3] is een rode driehoek met de punt omhoog, met een zwarte verticale pijl gekruist door een dikke zwarte dwarsbalk, en betekent voorrangskruispunt. [B6] is de rode driehoek met de punt omlaag en betekent: verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Het boek geeft [B3] de betekenis voorrangskruispunt en [B6] de betekenis verleen voorrang. Zie je [B3], dan moeten bestuurders uit de zijwegen jou voorrang geven; de wachtplicht ligt pas bij jou als de punt omlaag wijst of als er STOP op staat.",
+        "valkuil": "Beide borden zijn rood en driehoekig, en op het examen zie je ze vaak klein afgebeeld. En let op: bij [B3] rijd je niet op een voorrangsweg, dus op het volgende kruispunt kan de voorrang weer anders geregeld zijn.",
+        "onthoud": "Kijk eerst naar de punt van de driehoek."
+      },
+      "bronnen": [
+        {
+          "boek": 238,
+          "anker": "Rode driehoek, punt omhoog, met een zwarte verticale pijl gekruist"
+        },
+        {
+          "boek": 238,
+          "anker": "**B6** | Rode driehoek met de punt omlaag, wit binnenvlak"
+        },
+        {
+          "slide": 113,
+          "anker": "nader je een voorrangskruispunt waar je voorrang moet krijgen van bestuurders"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-b",
+        "vorm-en-kleur",
+        "lijkers"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "je rijdt niet op een voorrangsweg, want bij het volgende kruispunt kan de voorrang weer anders geregeld zijn",
+        "bron": "slide 113",
+        "gewijzigd": "de sleutel nee leunde alleen op de richting van de punt, terwijl het boek bij [B3] enkel voorrangskruispunt geeft; slide 113 als bron toegevoegd, die zegt dat je bij deze borden voorrang krijgt uit de zijwegen, en de waarschuwing dat je daarmee nog niet op een voorrangsweg rijdt staat nu in de valkuil"
+      }
+    },
+    {
+      "id": "U15-Q004",
+      "unit": "U15",
+      "pagina": "U15-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Aan het begin van een straat staat dit bord: een rode cirkel met een brede witte horizontale balk. Terwijl je ernaar kijkt, rijdt er wel verkeer die straat uit. Wat is hier aan de hand?",
+      "media": {
+        "bord": "C2"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het is een eenrichtingsweg die in deze richting gesloten is; aan de andere kant staat het blauwe bord met de witte pijl omhoog.",
+          "feedback": "Goed. De witte balk in de rode cirkel hoort bij een eenrichtingsweg en jij kijkt tegen de verkeerde kant aan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De straat is in beide richtingen gesloten, dus dat verkeer rijdt daar fout.",
+          "feedback": "Fout. Gesloten in beide richtingen is de rode cirkel met een wit binnenvlak, dus zonder die witte balk erin.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Het bord verbiedt alleen het parkeren in die straat.",
+          "feedback": "Fout. Een parkeerverbod is een blauwe cirkel met een rode rand en een rode streep, niet een volle rode cirkel.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Het bord geldt alleen voor vrachtauto's.",
+          "feedback": "Fout. Als een bord alleen voor een groep geldt, staat dat symbool in de cirkel of op een onderbord eronder.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[C2] is een rode cirkel met een brede witte horizontale balk en betekent: eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee. [C3] is het blauwe vierkant met een witte pijl omhoog en betekent eenrichtingsweg.",
+        "waarom": "De twee borden horen bij dezelfde straat maar staan aan de tegengestelde uiteinden, dus verkeer dat je tegemoet komt rijden is hier precies wat je mag verwachten.",
+        "valkuil": "De witte balk is het enige verschil met [C1], het bord dat de weg in beide richtingen sluit.",
+        "onthoud": "Witte balk in een rode cirkel: eenrichtingsweg, jij mag er niet in."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders"
+        },
+        {
+          "boek": 239,
+          "anker": "**C3** | Blauw vierkant met een witte pijl omhoog | *Eenrichtingsweg.*"
+        },
+        {
+          "boek": 239,
+          "anker": "**C1** | Rode cirkel, wit binnenvlak | *Gesloten in beide richtingen voor voertuigen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-c",
+        "eenrichtingsweg",
+        "lijkers"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders",
+        "bron": "boek p. 239",
+        "gewijzigd": "uitleg.regel zei dat [C3] aan de kant staat waar je er wel in mag; dat staat niet in het boek en die redenering staat nu in uitleg.waarom, waar hij thuishoort"
+      }
+    },
+    {
+      "id": "U15-Q005",
+      "unit": "U15",
+      "pagina": "U15-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Twee borden dragen precies hetzelfde fietssymbool. Het ene is deze blauwe cirkel met een witte fiets, het andere een rode cirkel met een zwarte fiets. Wat is het verschil tussen die twee?",
+      "media": {
+        "bord": "G11"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De blauwe cirkel wijst een verplicht fietspad aan; de rode cirkel sluit de weg voor fietsen.",
+          "feedback": "Goed. Het symbool zegt om wie het gaat en de kleur van de cirkel zegt wat er met die groep gebeurt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De rode cirkel wijst een verplicht fietspad aan; de blauwe cirkel sluit de weg voor fietsen.",
+          "feedback": "Fout. Je hebt de twee kleuren omgedraaid: een rode cirkel sluit af en een blauwe cirkel wijst juist iets aan.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Allebei sluiten ze de weg voor fietsen; de kleur laat alleen zien hoe oud het bord is.",
+          "feedback": "Fout. De kleur van de cirkel is geen opmaak maar draagt de betekenis van het bord.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Allebei wijzen ze een fietspad aan; het rode bord hoort buiten de bebouwde kom.",
+          "feedback": "Fout. Waar een bord staat verandert niets aan de betekenis van de rode cirkel eromheen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[G11] is een blauwe cirkel met een witte fiets en betekent verplicht fietspad. [C14] is een rode cirkel met een zwarte fiets en betekent gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
+        "waarom": "In het hele bordenstelsel zegt een blauwe cirkel wat je moet volgen en een rode cirkel wat er niet doorheen mag. Het symbool erin bepaalt alleen om wie het gaat.",
+        "valkuil": "Het symbool trekt als eerste je aandacht, terwijl de kleur van de rand de betekenis draagt.",
+        "onthoud": "Blauwe cirkel: volgen. Rode cirkel: niet doorheen."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "**G11** | Blauwe cirkel met een witte fiets | *Verplicht fietspad.*"
+        },
+        {
+          "boek": 239,
+          "anker": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor"
+        },
+        {
+          "boek": 48,
+          "sectie": "3.1",
+          "anker": "Deze borden bepalen wie een weg niet in mag"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "vorm-en-kleur",
+        "borden-c",
+        "borden-g"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "**G11** | Blauwe cirkel met een witte fiets | *Verplicht fietspad.*",
+        "bron": "boek p. 244"
+      }
+    },
+    {
+      "id": "U15-Q006",
+      "unit": "U15",
+      "pagina": "U15-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "In het bordenhoofdstuk staat bij veel borden een tweede bord dat er precies hetzelfde uitziet, maar met een rode diagonale streep erdoorheen, zoals hier. Wat betekent die streep?",
+      "media": {
+        "bord": "G2"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het einde van wat het bord zonder streep aangeeft.",
+          "feedback": "Goed. Hetzelfde bord met een rode diagonale streep betekent einde autosnelweg, einde busbaan of einde verplicht fietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dat het bord tijdelijk buiten werking is.",
+          "feedback": "Fout. De streep hoort bij het bord zelf en meldt het einde van de aanduiding, niet een storing.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Dat het bord alleen voor motorvoertuigen geldt.",
+          "feedback": "Fout. Voor wie een bord geldt lees je af aan het symbool of aan een onderbord, niet aan een streep erdoorheen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Dat je moet stoppen voordat je het bord passeert.",
+          "feedback": "Fout. Stoppen laat het bord met de achthoek je doen; deze streep meldt alleen dat een aanduiding ophoudt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Hetzelfde bord met een rode diagonale streep erdoor betekent het einde van de aanduiding: einde autosnelweg, einde busbaan of -strook, einde verplicht fietspad.",
+        "waarom": "Zo hoef je maar een symbool te leren voor twee boodschappen, en zie je aan de streep meteen of je een wegsoort binnenrijdt of juist verlaat.",
+        "valkuil": "Het einde-bord zegt alleen dat die ene aanduiding stopt; het zegt niet wat er daarna begint.",
+        "onthoud": "Streep erdoorheen is einde."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Hetzelfde bord met een rode diagonale streep | *Einde autosnelweg.*"
+        },
+        {
+          "boek": 243,
+          "anker": "Hetzelfde bord met een rode diagonale streep | *Einde busbaan of -strook.*"
+        },
+        {
+          "boek": 244,
+          "anker": "Hetzelfde bord met een rode diagonale streep | *Einde verplicht fietspad.*"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "vorm-en-kleur",
+        "einde-bord",
+        "borden-g"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Hetzelfde bord met een rode diagonale streep | *Einde autosnelweg.*",
+        "bron": "boek p. 243"
+      }
+    },
+    {
+      "id": "U15-Q007",
+      "unit": "U15",
+      "pagina": "U15-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Voor een smalle doorgang hangt aan jouw kant dit blauwe vierkant met een rode pijl omlaag en een witte pijl omhoog. Wat betekent dat voor jou?",
+      "media": {
+        "bord": "F6"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bestuurders uit de tegengestelde richting moeten jou voor laten gaan.",
+          "feedback": "Goed. Het blauwe vierkant hoort bij de kant die door mag; de tegenligger ziet het bord dat hem laat wachten.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Jij moet verkeer uit de tegengestelde richting voor laten gaan.",
+          "feedback": "Fout. Dat hoort bij [F5], de rode cirkel met een rode pijl omlaag; die staat aan de andere kant van de doorgang.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag er alleen langs als er helemaal geen tegenligger in zicht is.",
+          "feedback": "Fout. Het bord regelt juist wie er wacht als er wel iemand aankomt uit de andere richting.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Het is een eenrichtingsweg.",
+          "feedback": "Fout. Bij een eenrichtingsweg komt er helemaal geen verkeer uit de andere richting, en hier dus wel.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[F6] is een blauw vierkant met een rode pijl omlaag en een witte pijl omhoog en betekent: bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan. [F5] is de rode cirkel die bestuurders verbiedt door te gaan bij nadering van verkeer uit tegengestelde richting.",
+        "waarom": "Het zijn twee kanten van dezelfde afspraak bij dezelfde versmalling. De vorm en de kleur vertellen je aan welke kant jij staat: het blauwe vierkant hoort bij de kant die mag.",
+        "valkuil": "De twee pijlen zijn op beide borden bijna gelijk, dus lees de vorm en de kleur van het bord.",
+        "onthoud": "Rode cirkel: jij wacht. Blauw vierkant: de ander wacht."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "**F6** | Blauw vierkant met een rode pijl omlaag en een witte pijl omhoog"
+        },
+        {
+          "boek": 242,
+          "anker": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting"
+        },
+        {
+          "boek": 242,
+          "anker": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "borden-f",
+        "vorm-en-kleur",
+        "lijkers"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan",
+        "bron": "boek p. 242"
+      }
+    },
+    {
+      "id": "U15-Q008",
+      "unit": "U15",
+      "pagina": "U15-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Twee blauwe cirkels met een rode rand lijken sterk op elkaar. Op de ene staat een rode diagonale streep, op de andere dit rode kruis. Wat is het verschil in betekenis?",
+      "media": {
+        "bord": "E2"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De streep is een parkeerverbod; het kruis verbiedt ook het stilstaan.",
+          "feedback": "Goed. Bij de streep gaat het alleen om parkeren, bij het kruis mag je er zelfs niet even stil blijven staan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het kruis is een parkeerverbod; de streep verbiedt ook het stilstaan.",
+          "feedback": "Fout. Je hebt de twee tekens verwisseld: het zwaardere teken hoort bij het zwaardere verbod.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De streep geldt aan beide kanten van de weg, het kruis alleen aan de kant waar het staat.",
+          "feedback": "Fout. Deze twee borden gelden allebei voor de kant van de rijbaan waar ze zijn geplaatst.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De streep verbiedt parkeren voor iedereen, het kruis alleen voor vrachtauto's.",
+          "feedback": "Fout. Als een verbod alleen voor een groep geldt, staat dat op een onderbord en niet in een kruis.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[E1] is een blauwe cirkel met rode rand en een rode diagonale streep en betekent parkeerverbod. [E2] is dezelfde cirkel met een rood kruis en betekent verbod stil te staan.",
+        "waarom": "Het kruis is het zwaardere teken van de twee en hoort bij het zwaardere verbod. Waar je niet eens even stil mag staan, komt parkeren al helemaal niet in beeld.",
+        "valkuil": "De twee borden hebben dezelfde vorm en dezelfde kleuren, dus alleen het teken in de cirkel helpt je.",
+        "onthoud": "Een kruis verbiedt meer dan een streep."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met rode rand en één rode diagonale streep | *Parkeerverbod.*"
+        },
+        {
+          "boek": 241,
+          "anker": "Blauwe cirkel met rode rand en een rood kruis | *Verbod stil te staan.*"
+        },
+        {
+          "boek": 46,
+          "sectie": "3.1",
+          "anker": "die gelden alleen voor de kant van de rijbaan waar ze zijn geplaatst"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-e",
+        "lijkers",
+        "parkeerverbod"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Blauwe cirkel met rode rand en een rood kruis | *Verbod stil te staan.*",
+        "bron": "boek p. 241"
+      }
+    },
+    {
+      "id": "U15-Q009",
+      "unit": "U15",
+      "pagina": "U15-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Langs de rijbaan staat dit blauwe rechthoekige bordje met alleen het witte woord fietspad erop. Betekent dit bordje dat fietsers verplicht zijn dat pad te gebruiken?",
+      "media": {
+        "bord": "G13"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het ronde blauwe bord met de witte fiets is het verplichte fietspad; dit rechthoekige bordje is de onverplichte variant.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Dit rechthoekige bordje duidt een onverplicht fietspad aan; het ronde blauwe bord is het verplichte.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "[G13] is een blauw rechthoekig bordje met het witte woord fietspad en betekent onverplicht fietspad. [G11] is de blauwe cirkel met een witte fiets en betekent verplicht fietspad.",
+        "waarom": "De vorm draagt hier het verschil: rond is in dit stelsel de vorm van een gebod, terwijl een rechthoekig bordje niet meer doet dan aanduiden wat voor pad dit is.",
+        "valkuil": "Beide borden zijn blauw en gaan over fietsers, dus alleen de vorm brengt je verder.",
+        "onthoud": "Rond blauw gebiedt, rechthoekig blauw duidt aan."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "**G13** | Blauw rechthoekig bordje met het witte woord `fietspad`"
+        },
+        {
+          "boek": 244,
+          "anker": "**G11** | Blauwe cirkel met een witte fiets | *Verplicht fietspad.*"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-g",
+        "vorm-en-kleur",
+        "fietspad"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "**G13** | Blauw rechthoekig bordje met het witte woord fietspad | *Onverplicht fietspad.*",
+        "bron": "boek p. 244"
+      }
+    }
+  ]
+}

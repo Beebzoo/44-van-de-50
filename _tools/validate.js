@@ -356,6 +356,14 @@ function validateQuestion(q, where, ctx) {
       if (!q.media || !q.media.borden) fail(where, "hotspot heeft media.borden als raster");
       else {
         if (![4, 6].includes(q.media.borden.length)) fail(where, "hotspot raster heeft 4 of 6 borden");
+        /* two signs in one grid with the same meaning give the question two right
+           answers, and the app marks one of them wrong */
+        if (MANIFEST && correct && correct.length === 1) {
+          const bet = c => { const b = MANIFEST.borden.find(x => x.code === c); return b ? normalise(b.betekenis) : null; };
+          const doel = bet(correct[0]);
+          const dubbel = q.media.borden.filter(c => c !== correct[0] && doel && bet(c) === doel);
+          if (dubbel.length) fail(where, "raster bevat " + dubbel.join(", ") + " met dezelfde betekenis als " + correct[0] + ", dus de vraag heeft meer dan een goed antwoord");
+        }
         if (ids.length !== q.media.borden.length || !ids.every(i => q.media.borden.includes(i))) fail(where, "hotspot opties zijn precies de rasterborden");
       }
       if (!correct || correct.length !== 1) fail(where, "hotspot heeft precies een goed antwoord");

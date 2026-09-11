@@ -1,0 +1,842 @@
+{
+  "unit": "U11",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U11-Q013",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Het is midden op de dag en je rijdt over een weg die door dichte bebossing loopt, waardoor het er somber en donker is. Mag je hier je groot licht voeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Overdag is groot licht verboden, hoe donker de weg zelf er ook uitziet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Groot licht is overdag verboden; hier schakel je je dimlicht in om zichtbaar te zijn.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het gebruik van groot licht is verboden overdag, als een andere weggebruiker je tegemoet komt en als je op korte afstand een ander voertuig volgt.",
+        "waarom": "Het middel dat hier wel werkt is je dimlicht: op een weg door dichte bebossing zien tegenliggers je daarmee al van ver aankomen.",
+        "valkuil": "Donker is niet hetzelfde als nacht. De vraag is welk deel van het etmaal het is, niet hoe somber het eruitziet.",
+        "onthoud": "Groot licht hoort bij de nacht, niet bij schaduw."
+      },
+      "bronnen": [
+        {
+          "boek": 185,
+          "sectie": "11.2",
+          "anker": "Het gebruik van groot licht is verboden"
+        },
+        {
+          "boek": 185,
+          "sectie": "11.2",
+          "anker": "als je rijdt op een weg door dichte bebossing"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "groot-licht",
+        "overdag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Overdag is het voeren van groot licht bovendien sowieso verboden.",
+        "bron": "boek p. 194",
+        "gewijzigd": "het tweede anker wees naar de laagstaande zon terwijl de stam over dichte bebossing gaat, en de moeilijkheid ging van 1 naar 2 omdat de stam met somber en donker bewust op het verkeerde been zet."
+      }
+    },
+    {
+      "id": "U11-Q014",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt 's nachts met groot licht over een onverlichte weg. In de verte zie je een voetganger langs de kant lopen, je tegemoet. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je dimt, want ook een voetganger is een weggebruiker die je tegemoet komt.",
+          "feedback": "Goed. Het boek noemt de voetganger er uitdrukkelijk bij: elke tegemoetkomende weggebruiker telt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je laat het groot licht aan, want dan zie je hem beter.",
+          "feedback": "Fout. Jij ziet hem beter, maar hij ziet even niets meer en loopt vlak langs jouw baan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je laat het groot licht aan, want dimmen hoeft alleen voor voertuigen.",
+          "feedback": "Fout. De regel spreekt over een andere weggebruiker, en daar hoort een voetganger gewoon bij.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Je geeft een knippersignaal zodat hij weet dat je eraan komt.",
+          "feedback": "Fout. Een lichtsignaal mag alleen tegen dreigend gevaar, en verblinden doe je er ook nog mee.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Het gebruik van groot licht is verboden als een andere weggebruiker, dus ook een voetganger, je tegemoet komt.",
+        "waarom": "Iemand die te voet langs de kant loopt heeft geen kooi om zich heen en kan geen kant op. Hem verblinden vlak voor je hem passeert is het laatste wat je wilt.",
+        "valkuil": "Rijd in het donker bovendien niet te veel rechts: juist daar loopt hij.",
+        "onthoud": "Dimmen doe je voor iedereen die je tegenkomt."
+      },
+      "bronnen": [
+        {
+          "boek": 185,
+          "sectie": "11.2",
+          "anker": "als een andere weggebruiker (dus ook een voetganger) je tegemoet komt"
+        },
+        {
+          "slide": 201,
+          "anker": "dimmen als je een andere weggebruiker tegenkomt (ook een voetganger dus)"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "groot-licht",
+        "voetganger"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als een andere weggebruiker (dus ook een voetganger) je tegemoet komt",
+        "bron": "boek p. 185"
+      }
+    },
+    {
+      "id": "U11-Q015",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt 's nachts met groot licht en komt op korte afstand achter een ruiter te paard terecht. Mag je je groot licht blijven voeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een ruiter heeft geen spiegels waarin je licht terugkaatst, dus hij wordt er niet door verblind.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Achter een voertuig moet je dimmen, maar bij een ruiter speelt de spiegel die je zou verblinden niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Achter een ruiter mag je wel groot licht voeren; deze heeft geen spiegels en wordt dus niet verblind.",
+        "waarom": "De reden om achter iemand te dimmen is de spiegel waarin je bundel hem in de ogen schijnt. Een paard heeft die niet, en het verbod in het boek gaat dan ook over het volgen van een ander voertuig.",
+        "valkuil": "Dit is een uitzondering op het dimmen achter een voorligger, geen vrijbrief: komt er iemand tegemoet, dan dim je alsnog.",
+        "onthoud": "Geen spiegels, geen verblinding."
+      },
+      "bronnen": [
+        {
+          "slide": 201,
+          "anker": "achter een ruiter mag je wel groot licht voeren"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "groot-licht",
+        "ruiter"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "achter een ruiter mag je wel groot licht voeren, deze heeft geen spiegels en wordt dus niet verblind",
+        "bron": "slide 201",
+        "gewijzigd": "de vraag blijft staan, want het boek verbiedt groot licht achter een ander voertuig en een paard is geen voertuig; alleen de cursus noemt de uitzondering met zoveel woorden, dus de waarom zegt nu welk stuk uit welke bron komt."
+      }
+    },
+    {
+      "id": "U11-Q016",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "In welke gevallen mag je geen groot licht voeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Overdag.",
+          "feedback": "Goed. Overdag is groot licht zonder meer verboden.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als een andere weggebruiker je tegemoet komt, ook als dat een voetganger is.",
+          "feedback": "Goed. Elke tegemoetkomende weggebruiker is een reden om te dimmen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je op korte afstand een ander voertuig volgt, ook een fiets of bromfiets.",
+          "feedback": "Goed. Via zijn spiegels verblind je de bestuurder voor je.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je op korte afstand achter een ruiter rijdt.",
+          "feedback": "Fout. Juist daar mag het wel, omdat een ruiter geen spiegels heeft.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op elke weg buiten de bebouwde kom.",
+          "feedback": "Fout. Daar is groot licht juist vaak nodig zolang je niemand tegenkomt of volgt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Het gebruik van groot licht is verboden overdag, als een andere weggebruiker je tegemoet komt en als je op korte afstand een ander voertuig volgt.",
+        "waarom": "Twee van de drie gevallen gaan over iemand die jouw bundel in zijn ogen krijgt, van voren of via een spiegel. Het derde geval is simpelweg dat er niets te verlichten valt.",
+        "valkuil": "De ruiter is de uitzondering die het examen graag tussen de andere gevallen zet.",
+        "onthoud": "Zie je iemand voor je of tegenover je, dan gaat de bundel omlaag."
+      },
+      "bronnen": [
+        {
+          "boek": 185,
+          "sectie": "11.2",
+          "anker": "als je op korte afstand een ander voertuig"
+        },
+        {
+          "slide": 201,
+          "anker": "dimmen als je achter een ander voertuig rijdt"
+        },
+        {
+          "slide": 201,
+          "anker": "achter een ruiter mag je wel groot licht voeren"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "groot-licht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "als je op korte afstand een ander voertuig (dus ook een fiets of bromfiets) volgt",
+        "bron": "boek p. 185",
+        "gewijzigd": "afleider d leunt op de ruiteruitzondering uit de cursus, maar die stond niet in de bronnen; slide 201 is toegevoegd."
+      }
+    },
+    {
+      "id": "U11-Q017",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt 's nachts buiten de bebouwde kom en een tegemoetkomende bestuurder geeft een knippersignaal met zijn lichten. Wat is de meest waarschijnlijke reden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je bent vergeten je groot licht te dimmen.",
+          "feedback": "Goed. Dat is waar het boek dit signaal aan koppelt; dim dan alsnog.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij laat je voorgaan bij de versmalling verderop.",
+          "feedback": "Fout. Een lichtsignaal is geen manier om iemand voor te laten gaan en dat mag er ook niet voor gebruikt worden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Hij bedankt je omdat je netjes rechts blijft.",
+          "feedback": "Fout. Bedanken met je lichten valt onder de overbodige signalen en is verboden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Zijn eigen verlichting is kapot.",
+          "feedback": "Fout. Dat zou je zien aan een donkere koplamp, niet aan een korte flits met beide lichten.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als tegemoetkomende bestuurders een knippersignaal geven, ben je waarschijnlijk vergeten om het groot licht te dimmen. Doe dat dan alsnog.",
+        "waarom": "Het signaal komt bijna altijd van iemand die net verblind wordt, en die heeft er alle reden voor om jouw aandacht te trekken zolang jullie elkaar nog niet gepasseerd zijn.",
+        "valkuil": "Ook met een automatisch systeem dat het groot licht in- en uitschakelt blijf je zelf verantwoordelijk voor het tijdig dimmen.",
+        "onthoud": "Knipperende tegenligger: kijk naar je eigen lichtknop."
+      },
+      "bronnen": [
+        {
+          "boek": 186,
+          "sectie": "11.2",
+          "anker": "ben je waarschijnlijk vergeten om het groot licht te dimmen"
+        },
+        {
+          "slide": 201,
+          "anker": "Als tegenliggers knipperen met hun lichten, ben je waarschijnlijk vergeten te dimmen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "groot-licht",
+        "signalen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als tegemoetkomende bestuurders een knippersignaal geven, ben je waarschijnlijk vergeten om het groot licht te dimmen.",
+        "bron": "boek p. 186"
+      }
+    },
+    {
+      "id": "U11-Q018",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Een tegenligger vergeet te dimmen en je wordt verblind door zijn koplampen. Waar richt je je blik op zolang hij nadert?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je probeert langs zijn koplampen te kijken, richting de rechterkant van de weg.",
+          "feedback": "Goed. Door er niet in te staren houd je zicht op je eigen deel van de weg.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je kijkt recht in zijn koplampen zodat je ziet wanneer hij eindelijk dimt.",
+          "feedback": "Fout. Dan raak je juist volledig verblind en zie je de weg naast hem helemaal niet meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je sluit je ogen kort tot hij voorbij is.",
+          "feedback": "Fout. Blind rijden is nooit een oplossing, ook niet voor een korte tel.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je kijkt in je binnenspiegel tot hij gepasseerd is.",
+          "feedback": "Fout. Dan kijk je van de weg af terwijl je juist moet zien waar jouw baan loopt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Geef eventueel een knippersignaal met je groot licht aan een tegenligger die vergeten is te dimmen. Focus je ondertussen niet op zijn koplampen, maar probeer erlangs te kijken.",
+        "waarom": "Je ogen stellen zich in op het felste punt in beeld. Kijk je daar niet naar, dan blijft de rest van het beeld bruikbaar en zie je de kantlijn nog.",
+        "valkuil": "Het boek noemt hier twee dingen en meer niet: eventueel een knippersignaal met je groot licht, en er vooral langs kijken in plaats van erin.",
+        "onthoud": "Kijk erlangs, niet erin."
+      },
+      "bronnen": [
+        {
+          "boek": 186,
+          "sectie": "11.2",
+          "anker": "Focus je ondertussen niet op zijn koplampen, maar probeer erlangs te kijken"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "verblinding",
+        "nacht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Focus je ondertussen niet op zijn koplampen, maar probeer erlangs te kijken.",
+        "bron": "boek p. 186",
+        "gewijzigd": "de valkuil zei dat snelheid minderen er ook bij hoort, maar 11.2 noemt alleen het knippersignaal en het erlangs kijken; de valkuil somt nu op wat het boek er wel bij zegt."
+      }
+    },
+    {
+      "id": "U11-Q019",
+      "unit": "U11",
+      "pagina": "U11-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Waar moet je in het donker extra rekening mee houden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je ziet alles een fractie later, zelfs met goede verlichting, dus obstakels en drempels zijn een extra risico.",
+          "feedback": "Goed. Dat kleine verschil in tijd is precies wat een drempel of een kuil gevaarlijk maakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Voetgangers, bijvoorbeeld joggers, voeren geen verlichting en zijn dus pas laat zichtbaar.",
+          "feedback": "Goed. Ze zitten niet in je koplampbundel tot je er vlakbij bent.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Rijd je vanaf een goed verlichte weg een donkere weg in, dan moeten je ogen wennen.",
+          "feedback": "Goed. In die overgang zie je tijdelijk minder dan je gewend bent.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Op een nat wegdek lossen de wegmarkering en de tekens op het wegdek op in de reflectie.",
+          "feedback": "Goed. Het licht van je koplampen kaatst terug en slokt de strepen op.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Je mag dan je dagrijlicht gebruiken in plaats van je dimlicht.",
+          "feedback": "Fout. Bij nacht is dimlicht verplicht en dagrijlicht vervangt dat niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "In het donker zie je alles een fractie later, zijn voetgangers zonder verlichting pas laat zichtbaar, moeten je ogen wennen na een verlichte weg en lossen de tekens op het wegdek op in de reflectie van een nat wegdek.",
+        "waarom": "Alle vier de punten komen op hetzelfde neer: je informatie komt later binnen dan overdag, terwijl je snelheid vaak gelijk blijft.",
+        "valkuil": "Goede koplampen geven het gevoel dat je net zoveel ziet als overdag. Dat gevoel klopt niet.",
+        "onthoud": "In het donker zie je minder ver, dus rijd je langzamer."
+      },
+      "bronnen": [
+        {
+          "boek": 187,
+          "sectie": "11.2",
+          "anker": "je ziet in het donker alles een fractie later, zelfs met goede verlichting"
+        },
+        {
+          "boek": 187,
+          "sectie": "11.2",
+          "anker": "de tekens op het wegdek 'lossen op' in die reflectie"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "nacht",
+        "zicht",
+        "verlichting"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "wees in het donker extra bedacht op voetgangers (o.a. joggers). Zij voeren geen verlichting",
+        "bron": "boek p. 187"
+      }
+    },
+    {
+      "id": "U11-Q020",
+      "unit": "U11",
+      "pagina": "U11-P04",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Er valt een hevige regenbui en het opspattende water maakt het zicht slecht. Mag je nu je mistachterlicht inschakelen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Bij regen mag het mistachterlicht nooit aan, ook niet tijdens een hevige bui.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Regen is nadrukkelijk uitgesloten: het felle rode licht hindert je achterliggers.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien. Door het felle rode licht en de reflectie worden achterliggers gehinderd.",
+        "waarom": "Regenwater op de weg en op de ruit kaatst dat rode licht alle kanten op. Je achterligger ziet dan een waas in plaats van jouw twee achterlichten, en die heeft hij nu net nodig om afstand te schatten.",
+        "valkuil": "Het mistlicht aan de voorzijde mag bij zware regen wel. Het zijn twee lampen met twee verschillende regels.",
+        "onthoud": "Mistachterlicht en regen gaan nooit samen."
+      },
+      "bronnen": [
+        {
+          "boek": 188,
+          "sectie": "11.3",
+          "anker": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien"
+        },
+        {
+          "slide": 202,
+          "anker": "Door het felle rode licht en de reflectie verblind je je achterliggers"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "mistachterlicht",
+        "regen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien.",
+        "bron": "boek p. 188"
+      }
+    },
+    {
+      "id": "U11-Q021",
+      "unit": "U11",
+      "pagina": "U11-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het giet en het zicht is ernstig belemmerd. Welke verlichting mag je voeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Dimlicht, en daarbij mag ook het mistlicht aan de voorzijde.",
+          "feedback": "Goed. Bij zware regenval die het zicht ernstig belemmert mag de voorste mistlamp erbij.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dimlicht en mistachterlicht.",
+          "feedback": "Fout. Het mistachterlicht is bij regen uitgesloten, hoe hard het ook giet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Groot licht, dan kijk je verder door de bui heen.",
+          "feedback": "Fout. Groot licht kaatst terug op het water voor je en helpt je juist niet verder.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen je dagrijlicht, dat is bij regen genoeg.",
+          "feedback": "Fout. Bij regen hoort altijd je dimlicht aan, want dagrijlicht laat je achterkant donker.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Schakel bij regen altijd je dimlicht in. Bij zware regenval die het zicht ernstig belemmert, mag je ook mistlicht aan de voorzijde inschakelen.",
+        "waarom": "De voorste mistlamp schijnt breed en laag onder de regensluier door, en hij hindert niemand achter je. Dat is precies het verschil met de lamp achterop.",
+        "valkuil": "Mistlicht heet mistlicht, maar het mag ook bij sneeuwval en regen, zolang het zicht ernstig belemmerd is.",
+        "onthoud": "Bij regen mag de lamp voor wel en de lamp achter niet."
+      },
+      "bronnen": [
+        {
+          "boek": 187,
+          "sectie": "11.3",
+          "anker": "mag je ook mistlicht aan de voorzijde inschakelen"
+        },
+        {
+          "slide": 202,
+          "anker": "alleen als het zicht ernstig is belemmerd door"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "mistlicht",
+        "regen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Bij zware regenval die het zicht ernstig belemmert, mag je ook mistlicht aan de voorzijde inschakelen.",
+        "bron": "boek p. 187",
+        "gewijzigd": "inhoudelijk goed; moeilijkheid van 2 naar 3, want je moet hier de lamp voor en de lamp achter tegelijk uit elkaar houden."
+      }
+    },
+    {
+      "id": "U11-Q022",
+      "unit": "U11",
+      "pagina": "U11-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt door een plas op de rijbaan en ineens gaat je stuur heel licht: je voelt een vrije slag. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Gas los, koppeling intrappen, niet remmen en blijven sturen in de richting die je op wilt.",
+          "feedback": "Goed. Zodra je snelheid genoeg is gezakt pakken je banden het wegdek vanzelf weer.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Stevig remmen zodat je snelheid snel omlaag gaat.",
+          "feedback": "Fout. Je banden drijven op het water, dus remmen levert niets op en laat je wielen blokkeren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Flink bijsturen om de auto weer recht te krijgen.",
+          "feedback": "Fout. Sturen heeft geen grip om op te werken, en zodra die terugkomt schiet je door.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Gas geven, dan rijd je er sneller doorheen.",
+          "feedback": "Fout. Meer snelheid is juist de reden dat het profiel het water niet meer kan afvoeren.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bij aquaplaning laat je het gas los, trap je de koppeling in, rem je niet en blijf je sturen in de richting die je op wilt.",
+        "waarom": "Alles wat je doet moet wachten tot er weer contact is tussen rubber en asfalt. Tot die tijd voert elke stuur- of rembeweging alleen maar een commando in dat later hard uitgevoerd wordt.",
+        "valkuil": "De neiging om te remmen is groot juist omdat het stuur niets doet. Dat is precies de verkeerde reflex.",
+        "onthoud": "Niets doen met rem en stuur tot de grip terug is."
+      },
+      "bronnen": [
+        {
+          "boek": 188,
+          "sectie": "11.3",
+          "anker": "Laat het gas los, trap de koppeling in, rem niet en blijf sturen"
+        },
+        {
+          "slide": 204,
+          "anker": "Aquaplaning merk je aan een 'vrije slag' in het stuur"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aquaplaning",
+        "regen",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Laat het gas los, trap de koppeling in, rem niet en blijf sturen in de richting die je op wilt.",
+        "bron": "boek p. 188"
+      }
+    },
+    {
+      "id": "U11-Q023",
+      "unit": "U11",
+      "pagina": "U11-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Wat vergroot de kans op aquaplaning?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Rijden met een hoge snelheid.",
+          "feedback": "Goed. Hoe sneller je rijdt, hoe minder tijd het profiel heeft om het water weg te voeren.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Banden met te weinig profiel.",
+          "feedback": "Goed. Zonder diepe groeven kan het water nergens heen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Brede banden.",
+          "feedback": "Goed. Door het grotere loopvlak drukt het gewicht per vierkante centimeter minder hard op de weg.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Rijden op de rechterrijstrook van de autosnelweg.",
+          "feedback": "Goed. Daar staat meer water in de sporen die het vrachtverkeer heeft gereden.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Smalle banden.",
+          "feedback": "Fout. Juist brede banden vergroten de kans, want bij een smalle band drukt hetzelfde gewicht op een kleiner oppervlak.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "De kans op aquaplaning is groter als het profiel het water niet kan afvoeren door hoge snelheid of te weinig profiel, als je brede banden hebt gemonteerd en als je op de rechterrijstrook van de autosnelweg rijdt, waar meer spoorvorming is.",
+        "waarom": "Het komt steeds neer op de vraag hoeveel water er per seconde onder je band weg moet en hoeveel ruimte daarvoor is.",
+        "valkuil": "Brede banden voelen stabiel en geven op droog wegdek ook meer grip, maar in het water werkt de breedte tegen je.",
+        "onthoud": "Aquaplaning voorkom je met snelheid minderen en goede banden."
+      },
+      "bronnen": [
+        {
+          "boek": 189,
+          "sectie": "11.3",
+          "anker": "als je brede banden hebt gemonteerd"
+        },
+        {
+          "boek": 189,
+          "sectie": "11.3",
+          "anker": "banden met een goed profiel en de juiste spanning"
+        },
+        {
+          "slide": 204,
+          "anker": "rijden met hoge snelheid, weinig profiel en brede banden vergroten de kans ook"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aquaplaning",
+        "banden",
+        "regen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "als je brede banden hebt gemonteerd. Door het grotere loopvlak is het gewicht",
+        "bron": "boek p. 189",
+        "gewijzigd": "afleider e was een te hoge bandenspanning, en omdat het boek de juiste spanning als middel noemt is dat ook als waar te lezen; de afleider is nu smalle banden, het spiegelbeeld van de goede optie over brede banden."
+      }
+    },
+    {
+      "id": "U11-Q024",
+      "unit": "U11",
+      "pagina": "U11-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het waait hard en op de autosnelweg begin je een vrachtauto in te halen. Moet je er rekening mee houden dat je opzij geblazen wordt op het moment dat je hem passeert?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Naast de vrachtauto rijd je uit de wind en erlangs weer erin, en dat zet je zomaar opzij.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het inhalen van een vrachtauto is juist een van de plekken waar zijwind het gevaarlijkst is.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Op autosnelwegen is het risico op plotselinge zijwind het grootst op bruggen en viaducten, waar een geluidswal ophoudt en bij het inhalen van een vrachtauto.",
+        "waarom": "De vrachtauto werkt als een scherm. Achter het scherm is het stil en aan het eind ervan staat de wind er in een klap weer vol op, terwijl jij net op zijn hoogte zit.",
+        "valkuil": "Bij harde wind haal je niet onnodig in. Kan het niet anders, houd dan je motor trekkend en je snelheid aangepast.",
+        "onthoud": "Langs een vrachtauto rijd je uit de wind en er weer in."
+      },
+      "bronnen": [
+        {
+          "slide": 203,
+          "anker": "bij het inhalen van een vrachtauto"
+        },
+        {
+          "slide": 203,
+          "anker": "of juist 'uit de wind' en kunt daardoor uit koers raken"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zijwind",
+        "inhalen",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "bij het inhalen van een vrachtauto",
+        "bron": "boek p. 190"
+      }
+    }
+  ]
+}

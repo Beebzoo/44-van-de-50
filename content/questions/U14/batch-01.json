@@ -1,0 +1,823 @@
+{
+  "unit": "U14",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U14-Q001",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je controleert voor vertrek je banden. Op twee banden is het profiel in de hoofdgroeven tot net onder het wettelijke minimum gesleten. Mag je met deze auto de weg op?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het minimum is een harde eis waar je auto altijd aan moet voldoen, ook voor een klein ritje naar de garage.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Zodra het profiel in de hoofdgroeven onder het minimum zakt, voldoet je auto niet meer aan de voertuigeisen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een personenauto moet luchtbanden hebben met minimaal 1,6 mm profiel in de hoofdgroeven.",
+        "waarom": "Ondiep profiel kan het water onder je band niet meer wegvoeren, zodat je grip bij nat wegdek snel wegvalt.",
+        "valkuil": "Het gaat om de hoofdgroeven, niet om de plek waar toevallig nog het meeste rubber zit.",
+        "onthoud": "Onder de wettelijke grens blijft de auto staan."
+      },
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "luchtbanden met minimaal 1,6 millimeter profiel in de hoofdgroeven"
+        },
+        {
+          "slide": 226,
+          "anker": "luchtbanden met minimaal 1,6 mm profiel"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "banden",
+        "voertuigeisen",
+        "profiel"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "luchtbanden met minimaal 1,6 millimeter profiel in de hoofdgroeven",
+        "bron": "boek p. 204"
+      }
+    },
+    {
+      "id": "U14-Q002",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je wilt donkere folie op je auto plakken. Hoeveel licht moet folie op de voorruit en de voorste zijruiten ten minste doorlaten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "25%",
+          "feedback": "Fout. Dit is veel te donker voor de ruiten waar je doorheen moet kijken en waardoor anderen jou moeten zien.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "55%",
+          "feedback": "Goed. Op de voorruit en de voorste zijruiten laat folie ten minste dit deel van het licht door.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "75%",
+          "feedback": "Fout. De eis ligt lager dan dit, al is helderder glas natuurlijk nooit een probleem voor je zicht.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Folie op deze ruiten is helemaal verboden",
+          "feedback": "Fout. Folie mag daar wel, zolang de ruit genoeg licht blijft doorlaten om goed naar buiten te kijken.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Folie op de voorruit en de voorste zijruiten moet ten minste 55% licht doorlaten; op de achterste zijruiten en de achterruit mag donkerder.",
+        "waarom": "Je moet ongehinderd naar buiten kunnen kijken en andere weggebruikers moeten jou achter het glas kunnen zien zitten.",
+        "valkuil": "Achterin mag donkerder glas, dus zie je vaak auto's die vooraan wel degelijk te donker zijn.",
+        "onthoud": "Voorruit en voorste zijruiten: meer dan de helft licht door."
+      },
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "op de voorruit en de voorste zijruiten ten minste 55% licht doorlaten"
+        },
+        {
+          "slide": 230,
+          "anker": "de auto zo is ingericht dat er onvoldoende zicht naar voren of opzij is"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voertuigeisen",
+        "ruiten",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Daarom moet eventuele folie op de voorruit en de voorste zijruiten ten minste 55% licht doorlaten",
+        "bron": "boek p. 204"
+      }
+    },
+    {
+      "id": "U14-Q003",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je loopt langs je auto en ziet een paar dingen die niet in orde zijn. Welke daarvan maken dat je auto niet meer aan de voertuigeisen voldoet?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De binnenspiegel heeft een barst",
+          "feedback": "Goed. De binnenspiegel en beide buitenspiegels moeten aanwezig en zonder barsten zijn.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Op de achterbank zit bij een zitplaats geen gordel",
+          "feedback": "Goed. Elke zitplaats moet een gordel hebben en in elke stand vergrendeld zijn.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De ruitensproeier spuit niet meer",
+          "feedback": "Goed. Bij de voorruit horen werkende ruitenwissers en ruitensproeiers, anders krijg je hem onderweg niet schoon.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Er ligt geen verbandtrommel in de kofferbak",
+          "feedback": "Fout. Een verbandtrommel is verstandig om bij je te hebben, maar hij is wettelijk niet verplicht.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "De auto heeft geen mistlicht aan de voorzijde",
+          "feedback": "Fout. Een mistlicht voor mag je monteren, maar verplicht is het niet; een mistachterlicht wel.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Bij de voertuigeisen horen een binnenspiegel en twee buitenspiegels zonder barsten, een gordel op elke zitplaats en werkende ruitenwissers en ruitensproeiers.",
+        "waarom": "Alle drie die punten raken direct je zicht of de bescherming van je inzittenden, terwijl noodspullen en extra lampen dat niet doen.",
+        "valkuil": "Verstandig om mee te nemen is iets anders dan wettelijk verplicht.",
+        "onthoud": "Zicht en gordels zijn eis, EHBO-spullen zijn advies."
+      },
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "binnenspiegel, linker buitenspiegel en rechter buitenspiegel zonder barsten"
+        },
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "in elke stand vergrendeld zijn, allemaal beschikken over een gordel"
+        },
+        {
+          "boek": 206,
+          "sectie": "13.1",
+          "anker": "Een brandblusser en verbandtrommel zijn wettelijk niet verplicht, maar het is wel verstandig"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voertuigeisen",
+        "spiegels",
+        "gordel"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "binnenspiegel, linker buitenspiegel en rechter buitenspiegel zonder barsten (of gelijkwaardige camera-monitorsystemen)",
+        "bron": "boek p. 204"
+      }
+    },
+    {
+      "id": "U14-Q004",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je zet je mistachterlicht aan, maar op het dashboard gaat er geen enkel controlelampje branden. Voldoet je auto zo aan de verlichtingseisen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het lampje hoort erbij, juist omdat je anders niet merkt dat je mistachterlicht nog aan staat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Branden je mistlichten of mistachterlichten, dan moet een controlelampje op het dashboard dat laten zien.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als de mistlichten of de mistachterlichten branden, moet dit te zien zijn aan een controlelampje op het dashboard.",
+        "waarom": "Een mistachterlicht is fel en verblindt je achterligger, dus je moet in de gaten kunnen houden of hij nog aan staat.",
+        "valkuil": "Je hoort het mistachterlicht niet en ziet het zelf niet, dus zonder lampje merk je pas veel te laat dat hij brandt.",
+        "onthoud": "Mistlicht aan betekent lampje aan."
+      },
+      "bronnen": [
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "als de mistlichten of de mistachterlichten branden, moet dit te zien zijn aan een controlelampje"
+        },
+        {
+          "slide": 229,
+          "anker": "als de mistlichten branden, moet dit te zien zijn aan een controlelampje op het dashboard"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "voertuigeisen",
+        "mistachterlicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als de mistlichten of de mistachterlichten branden, moet dit te zien zijn aan een controlelampje op het dashboard",
+        "bron": "boek p. 205"
+      }
+    },
+    {
+      "id": "U14-Q005",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij een controle blijkt dat je handrem nog maar op één wiel pakt. Je voetrem werkt op alle wielen prima. Wat betekent dat voor je auto?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Hij voldoet niet, want de parkeerrem moet op minimaal twee wielen werken",
+          "feedback": "Goed. De eis voor de parkeerrem staat los van die voor de voetrem en vraagt minstens twee wielen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij voldoet, want alleen de voetrem telt mee bij de voertuigeisen",
+          "feedback": "Fout. Voor de parkeerrem geldt een eigen eis; de wet noemt beide remmen apart.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Hij voldoet, want een handrem is alleen bedoeld om stil te blijven staan",
+          "feedback": "Fout. Waar je hem voor gebruikt verandert niets aan de eis die de wet aan de parkeerrem stelt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Hij voldoet niet, want de parkeerrem moet net als de voetrem op alle vier de wielen werken",
+          "feedback": "Fout. De conclusie klopt toevallig, maar de eis voor de parkeerrem ligt lager dan die voor de voetrem.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De bedrijfsrem, dus de voetrem, moet op alle vier de wielen werken en de parkeerrem, dus de handrem, op minimaal twee wielen.",
+        "waarom": "Twee remmen met een eigen eis betekent dat de ene niet voor de andere kan invallen als er iets stuk is.",
+        "valkuil": "Twee eisen door elkaar halen maakt van een goed antwoord toch een fout antwoord.",
+        "onthoud": "Voetrem vier wielen, handrem twee wielen."
+      },
+      "bronnen": [
+        {
+          "boek": 204,
+          "sectie": "13.1",
+          "anker": "de parkeerrem (handrem) moet op minimaal twee wielen werken"
+        },
+        {
+          "slide": 226,
+          "anker": "een remsysteem dat werkt op alle wielen + parkeerrem die werkt op minimaal 2 wielen"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voertuigeisen",
+        "remmen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "de bedrijfsrem (voetrem) moet op alle vier de wielen werken, de parkeerrem (handrem) moet op minimaal twee wielen werken",
+        "bron": "boek p. 204"
+      }
+    },
+    {
+      "id": "U14-Q006",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Is het wettelijk verplicht om een brandblusser en een verbandtrommel in je personenauto te hebben?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het boek noemt allebei uitdrukkelijk verstandig maar niet verplicht voor een personenauto.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Ze zijn wettelijk niet verplicht, al is het wel slim om ze bij je te hebben.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een brandblusser en een verbandtrommel zijn wettelijk niet verplicht, maar het is wel verstandig deze bij je te hebben.",
+        "waarom": "Zulke spullen helpen pas nadat er iets mis is gegaan, dus de wet laat de keuze bij jou terwijl de praktijk hem allang gemaakt heeft.",
+        "valkuil": "Een gevarendriehoek is ook niet verplicht, maar je moet er wel een plaatsen als je op een gevaarlijke plek stilstaat en je alarmlichten het niet doen.",
+        "onthoud": "Verstandig is niet hetzelfde als verplicht."
+      },
+      "bronnen": [
+        {
+          "boek": 206,
+          "sectie": "13.1",
+          "anker": "Een brandblusser en verbandtrommel zijn wettelijk niet verplicht, maar het is wel verstandig"
+        },
+        {
+          "slide": 230,
+          "anker": "Brandblusapparaat, verbandtrommel en gevarendriehoek in de auto zijn wettelijk niet verplicht"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "voertuigeisen",
+        "noodhulpmiddelen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een brandblusser en verbandtrommel zijn wettelijk niet verplicht, maar het is wel verstandig deze bij je te hebben",
+        "bron": "boek p. 206"
+      }
+    },
+    {
+      "id": "U14-Q007",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Hoeveel remlichten moet een personenauto aan de achterkant hebben?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Eén",
+          "feedback": "Fout. Eén stuks zijn er verplicht van het mistachterlicht en van het achteruitrijlicht, niet van het remlicht.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Twee",
+          "feedback": "Fout. Twee stuks zijn er verplicht van de achterlichten en de richtingaanwijzers achter.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Drie",
+          "feedback": "Goed. Het derde remlicht, meestal hoog achter het glas, hoort er gewoon bij.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Vier",
+          "feedback": "Fout. Zo veel remlichten eist de wet niet, ook al zie je soms auto's met extra lampen achter.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Aan de achterkant zijn onder meer 2 achterlichten, 3 remlichten, 1 mistachterlicht en 1 achteruitrijlicht verplicht.",
+        "waarom": "Het hooggeplaatste extra remlicht valt op ooghoogte van de achterligger en is ook zichtbaar als er een auto tussen zit.",
+        "valkuil": "Veel mensen tellen alleen de twee lampen in de achterlichtunits mee.",
+        "onthoud": "Twee achterlichten, drie remlichten."
+      },
+      "bronnen": [
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "2 achterlichten (rood) | 3 remlichten (rood)"
+        },
+        {
+          "slide": 229,
+          "anker": "drie remlichten (rood) - een of twee achteruitrijlichten (wit)"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "voertuigeisen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "2 achterlichten (rood) | 3 remlichten (rood) | 2 richtingaanwijzers (oranje of rood)",
+        "bron": "boek p. 205"
+      }
+    },
+    {
+      "id": "U14-Q008",
+      "unit": "U14",
+      "pagina": "U14-P01",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Moet elke personenauto aan de voorzijde een mistlicht hebben?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je mag mistlichten voor monteren, maar de wet eist ze niet van een personenauto.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Mistlicht aan de voorzijde is toegestaan maar niet verplicht; het mistachterlicht is dat wel.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Mistlicht aan de voorzijde is niet verplicht; aan de achterkant hoort wel een mistachterlicht te zitten.",
+        "waarom": "Achter gaat het erom dat anderen jou zien in dichte mist, en dat is een groter risico dan dat jij zelf iets minder ver kijkt.",
+        "valkuil": "Mistlichten voor mag je monteren, maar extra verlichting is lang niet altijd toegestaan, dus zoek het eerst na.",
+        "onthoud": "Voor mag, achter moet."
+      },
+      "bronnen": [
+        {
+          "slide": 229,
+          "anker": "mistlicht aan de voorzijde is niet verplicht"
+        },
+        {
+          "boek": 205,
+          "sectie": "13.1",
+          "anker": "Vaak is het monteren van extra verlichting verboden; zoek dus goed uit"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "voertuigeisen",
+        "mistlicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "mistlicht aan de voorzijde is niet verplicht",
+        "bron": "slide 229"
+      }
+    },
+    {
+      "id": "U14-Q009",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je leent de auto van een kennis en wordt aangehouden. De keuring blijkt al maanden verlopen. Wie is er strafbaar?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen de eigenaar, want die moet zorgen dat de auto gekeurd wordt",
+          "feedback": "Fout. De eigenaar is inderdaad verantwoordelijk, maar hij is niet de enige die de wet aanspreekt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen jij, want jij zit achter het stuur",
+          "feedback": "Fout. Jij bent aanspreekbaar, maar de eigenaar of houder komt er niet onderuit omdat hij niet meereed.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Zowel de eigenaar of houder als jij als bestuurder",
+          "feedback": "Goed. De wet legt de verantwoordelijkheid bij allebei, dus allebei zijn strafbaar.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Niemand, zolang de auto er technisch nog goed uitziet",
+          "feedback": "Fout. Rijden zonder geldige keuring is op zichzelf al strafbaar, los van hoe de auto erbij staat.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Zowel de eigenaar of houder als de bestuurder is verantwoordelijk en dus strafbaar als er zonder geldige keuring wordt gereden.",
+        "waarom": "Wie instapt kan zelf nagaan of de keuring nog loopt, dus de wet laat die controle niet alleen aan de eigenaar over.",
+        "valkuil": "Dezelfde dubbele verantwoordelijkheid geldt bij rijden met een auto die technisch niet in orde is.",
+        "onthoud": "Eigenaar en bestuurder zijn samen aan de beurt."
+      },
+      "bronnen": [
+        {
+          "boek": 206,
+          "sectie": "13.2",
+          "anker": "Zowel de eigenaar / houder als de bestuurder van het voertuig zijn verantwoordelijk"
+        },
+        {
+          "slide": 231,
+          "anker": "De eigenaar moet zorgen dat de auto tijdig gekeurd wordt"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "apk",
+        "keuring",
+        "verantwoordelijkheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Zowel de eigenaar / houder als de bestuurder van het voertuig zijn verantwoordelijk (en dus strafbaar) als zonder geldige APK wordt gereden",
+        "bron": "boek p. 206"
+      }
+    },
+    {
+      "id": "U14-Q010",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Moet je het keuringsbewijs van je auto bij een controle langs de weg kunnen laten zien?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je krijgt het bewijs wel, maar het hoeft niet mee in de auto voor een controle onderweg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. De politie kan in een systeem nakijken of je voertuig nog een geldig keuringsbewijs heeft.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je krijgt na goedkeuring een keuringsbewijs, maar dat hoef je bij een controle onderweg niet te kunnen tonen.",
+        "waarom": "De keuring staat centraal geregistreerd, dus een papiertje in het handschoenenkastje voegt niets toe aan die controle.",
+        "valkuil": "Niet hoeven tonen betekent niet dat de keuring mag verlopen; dat blijft gewoon strafbaar.",
+        "onthoud": "Het bewijs zit in het systeem, niet in je dashboardkastje."
+      },
+      "bronnen": [
+        {
+          "boek": 206,
+          "sectie": "13.2",
+          "anker": "dat hoef je bij een controle onderweg niet te kunnen tonen"
+        },
+        {
+          "slide": 231,
+          "anker": "Na goedkeuring is het APK-keuringsbewijs 1 of 2 jaar geldig"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "apk",
+        "keuring"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "je krijgt dan een keuringsbewijs, maar dat hoef je bij een controle onderweg niet te kunnen tonen",
+        "bron": "boek p. 206"
+      }
+    },
+    {
+      "id": "U14-Q011",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je stapt in voor een lange rit met een auto waarin gisteren iemand anders heeft gereden. Welke van deze punten horen bij de controle vóór de rit?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het oliepeil en het koelvloeistofpeil",
+          "feedback": "Goed. De vloeistofniveaus horen bij de vaste lijst controles voordat je wegrijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De bandenspanning en de staat van de banden",
+          "feedback": "Goed. Banden en bandenspanning staan met zoveel woorden in de lijst met controles vóór de rit.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De stand van je stoel, hoofdsteun, stuur en spiegels",
+          "feedback": "Goed. Juist als er iemand anders in heeft gereden stel je dat allemaal opnieuw af.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Hoeveel kilometer er sinds de laatste beurt is gereden",
+          "feedback": "Fout. Dat hoort bij het onderhoudsschema en niet bij de controle die je vlak voor vertrek doet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Het merk en het type van je banden",
+          "feedback": "Fout. Wat telt is het profiel, de spanning en de maataanduiding per as, niet welk merk erop staat.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Voor de rit controleer je onder meer de vloeistofniveaus, de verlichting, de banden en de bandenspanning, en je stelt stoel, hoofdsteun, stuur en spiegels goed af.",
+        "waarom": "Alles wat je nu nog rustig kunt nalopen, komt onderweg als verrassing terug op een moment dat je het er niet bij kunt hebben.",
+        "valkuil": "Heeft iemand anders in de auto gereden, dan staat de hoofdsteun meestal niet meer vlak achter je hoofd.",
+        "onthoud": "Eerst rondom en onder de motorkap, dan pas achter het stuur."
+      },
+      "bronnen": [
+        {
+          "boek": 207,
+          "sectie": "13.3",
+          "anker": "Voor je gaat rijden, moet je een aantal controles uitvoeren"
+        },
+        {
+          "boek": 210,
+          "sectie": "13.3",
+          "anker": "Controleer voor elke rit of je stoel, hoofdsteun, stuur en spiegels goed zijn afgesteld"
+        },
+        {
+          "slide": 232,
+          "anker": "het niveau van de motorolie, koelvloeistof en ruitensproeiervloeistof, de verlichting, de bandenspanning"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "onderhoud",
+        "controle",
+        "banden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Controleer voor elke rit of je stoel, hoofdsteun, stuur en spiegels goed zijn afgesteld",
+        "bron": "boek p. 210"
+      }
+    },
+    {
+      "id": "U14-Q012",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "Je krijgt een lekke band en gaat het wiel zelf verwisselen. Zet deze vier handelingen in de goede volgorde.",
+      "media": null,
+      "opties": [
+        {
+          "id": "veilig",
+          "tekst": "Parkeer veilig, zet je alarmlichten aan en trek een veiligheidsvest aan",
+          "feedback": "Eerst jezelf en de anderen op de weg beschermen, daarna pas aan het wiel beginnen.",
+          "fouttype": null
+        },
+        {
+          "id": "losdraaien",
+          "tekst": "Draai de wielmoeren een slag los",
+          "feedback": "Dit doe je terwijl de auto nog op de grond staat, want anders draait het wiel gewoon mee.",
+          "fouttype": null
+        },
+        {
+          "id": "krikken",
+          "tekst": "Krik de auto omhoog en wissel het wiel",
+          "feedback": "Pas als de moeren al los zijn gaat de auto omhoog en kan het reservewiel erop.",
+          "fouttype": null
+        },
+        {
+          "id": "vastdraaien",
+          "tekst": "Draai de moeren handvast, laat de auto zakken en draai ze dan pas vast",
+          "feedback": "Echt vastdraaien doe je met het gewicht van de auto op de band, anders komt het wiel scheef te staan.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "veilig",
+        "losdraaien",
+        "krikken",
+        "vastdraaien"
+      ],
+      "uitleg": {
+        "regel": "Parkeer veilig, alarmlichten aan en vest aan, dan de wielmoeren een slag los, dan krikken en wisselen, en tot slot handvast, laten zakken en vastdraaien.",
+        "waarom": "De volgorde draait om het gewicht van de auto: dat houdt het wiel tegen bij het draaien, dus losdraaien en vastdraaien horen aan de grond.",
+        "valkuil": "Eerst krikken en dan de moeren te lijf gaan kost je veel kracht en kan de auto van de krik duwen.",
+        "onthoud": "Los aan de grond, wisselen in de lucht, vast aan de grond."
+      },
+      "bronnen": [
+        {
+          "slide": 233,
+          "anker": "5. draai de wielmoeren 1 slag los 6. krik de auto omhoog"
+        },
+        {
+          "slide": 233,
+          "anker": "9. draai de wielmoeren handvast 10. laat de auto weer zakken"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "onderhoud",
+        "banden",
+        "pech"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "5. draai de wielmoeren 1 slag los 6. krik de auto omhoog (zie instructieboek) 7. haal het wiel met de lekke band eraf",
+        "bron": "slide 233"
+      }
+    }
+  ]
+}

@@ -51,32 +51,54 @@ const anchorOf = text => {
   while (n > 1 && normWords(w.slice(0, n).join(" ")) > 15) n -= 1;
   return w.slice(0, n).join(" ");
 };
-const clean = s => s.replace(/[\u2012\u2013\u2014\u2015]/g, ",").replace(/!/g, ".");
+const clean = s => s.replace(/[\u2012\u2013\u2014\u2015]/g, ",").replace(/!/g, ".").replace(/km\/h/gi, "km/u");
 const shortMeaning = b => { const m = clean(b.betekenis).replace(/\s+/g, " ").trim(); return m.length > 110 ? m.slice(0, 107).replace(/[,;: ]+\S*$/, "") + "..." : m; };
 
 function signItems(unit) {
   const codes = unit.borden.filter(c => byCode.has(c) && symbols.has(c));
   const page = unit.paginas.find(p => p.body.some(b => b.type === "borden")) || unit.paginas[unit.paginas.length - 1];
+  /* A sign item belongs to the reading page that actually shows that sign, not
+     to the first page that happens to have a borden block. The sampler takes
+     one question per reading page before it fills by weight, so hanging three
+     hundred sign items on one page would make a quiz cover one family and let
+     the rest turn up by chance. */
+  const pageOf = code => unit.paginas.find(p => p.body.some(b => b.type === "borden" && (b.codes || []).includes(code))) || page;
   const out = [];
+  /* two items per sign, numbered from where that sign stands in unit.borden,
+     so a sign keeps its id when the generator learns to make more items */
+  const idVoor = (code, variant) => unit.id + "-Q" + (900 + unit.borden.indexOf(code) * 2 + variant);
   for (const code of codes) {
     const b = byCode.get(code);
     const rnd = seeded(unit.id + code);
     const family = manifest.borden.filter(x => x.familie === b.familie && x.code !== code && symbols.has(x.code) && !x.zonderCode).map(x => x.code);
     const near = (b.nearMiss || []).filter(c => symbols.has(c) && c !== code);
-    const anker = anchorOf(b.betekenis);
+    /* The anchor comes from the meaning, but half the signs in chapter 14 mean
+       one word: "Maximumsnelheid.", "Voorrangsweg.", "Erf.". Those are shorter
+       than the six words the validator wants, so the whole A family and the
+       whole G family used to generate nothing at all. The description of the
+       sign stands in the same table row on the same page, so it anchors just as
+       well and it is what you actually look at. */
+    let anker = anchorOf(b.betekenis);
+    if (anker.split(" ").length < 6) anker = anchorOf(b.omschrijving || "");
     if (anker.split(" ").length < 6) continue;
     const bron = [{ boek: b.bron.boek, anker }];
     /* hotspot: click the sign that means X */
-    const others = pick(near.concat(pick(family.filter(c => !near.includes(c)), 6, rnd)), 5, rnd).slice(0, 5);
-    const grid = pick([code].concat(others), 6, rnd);
+    /* a lookalike that means exactly the same thing is not a wrong answer but
+       a second right one, so it never belongs in the grid or in the options */
+    const anderBetekenis = c => shortMeaning(byCode.get(c)) !== shortMeaning(b);
+    const others = pick(near.concat(pick(family.filter(c => !near.includes(c)), 6, rnd)), 5, rnd).filter(anderBetekenis).slice(0, 5);
+    /* the gate wants exactly four or six, so a family that only yields four
+       lookalikes becomes a grid of four instead of a rejected grid of five */
+    const nOthers = others.length >= 5 ? 5 : 3;
+    const grid = others.length >= 3 ? pick([code].concat(others.slice(0, nOthers)), nOthers + 1, rnd) : [];
     if (grid.length >= 4) {
       out.push({
-        id: unit.id + "-Q" + (900 + out.length).toString().padStart(3, "0"), unit: unit.id, pagina: page.id,
+        id: idVoor(code, 0), unit: unit.id, pagina: pageOf(code).id,
         type: "hotspot", soort: "kennis",
         stam: "Tik op het bord dat dit betekent: " + shortMeaning(b),
         media: { borden: grid },
         opties: grid.map(c => c === code
-          ? { id: c, tekst: c, feedback: "Goed. " + c + " betekent: " + shortMeaning(b), fouttype: null }
+          ? { id: c, tekst: c, feedback: "Goed. Dit is " + c + ", en dat bord betekent: " + shortMeaning(b), fouttype: null }
           : { id: c, tekst: c, feedback: "Fout. Dit is " + c + ": " + shortMeaning(byCode.get(c)) + " Het gevraagde bord is " + code + ".", fouttype: "niet_geweten" }),
         correct: [code],
         uitleg: { regel: code + " betekent: " + shortMeaning(b), waarom: "Het bord is te herkennen aan de vorm en de kleur: " + clean(b.omschrijving).toLowerCase() + ".", valkuil: near.length ? "Verwar het niet met " + near.join(", ") + ", die er op lijken maar iets anders betekenen." : "Let op de details van de tekening; de familie " + b.familie + " heeft meer borden die er op lijken." },
@@ -88,12 +110,12 @@ function signItems(unit) {
     if (distractors.length >= 2) {
       const opts = pick([code].concat(distractors.slice(0, 3)), 4, rnd);
       out.push({
-        id: unit.id + "-Q" + (900 + out.length).toString().padStart(3, "0"), unit: unit.id, pagina: page.id,
+        id: idVoor(code, 1), unit: unit.id, pagina: pageOf(code).id,
         type: "meerkeuze", soort: "kennis",
         stam: "Wat betekent dit bord?",
         media: { bord: code },
         opties: opts.map(c => c === code
-          ? { id: c, tekst: shortMeaning(b), feedback: "Goed. Dit is " + code + ", " + clean(b.omschrijving).toLowerCase() + ".", fouttype: null }
+          ? { id: c, tekst: shortMeaning(b), feedback: "Goed. Dit is " + code + ": " + clean(b.omschrijving).toLowerCase() + ", en dat betekent " + shortMeaning(b).replace(/[.]$/, "") + ".", fouttype: null }
           : { id: c, tekst: shortMeaning(byCode.get(c)), feedback: "Fout. Dat is de betekenis van " + c + ", " + clean(byCode.get(c).omschrijving).toLowerCase() + ". Dit bord is " + code + ".", fouttype: "niet_geweten" }),
         correct: [code],
         uitleg: { regel: code + " betekent: " + shortMeaning(b), waarom: "Kijk naar de vorm en de kleur: " + clean(b.omschrijving).toLowerCase() + ".", valkuil: near.length ? "De lijkers zijn " + near.join(", ") + ". Zoek het verschil in de tekening." : "Meer borden in familie " + b.familie + " lijken hierop." },
@@ -136,7 +158,10 @@ const index = {
 
 /* ==== 5 ids: never renumber, retire instead ==== */
 const ids = [];
-for (const f of Object.values(bankFiles).concat(Object.values(generatedFiles))) for (const q of readJson(path.join(REPO, f)).vragen) ids.push(q.id);
+/* only hand-written questions belong in the ledger: it exists to catch one
+   silently disappearing. A generated sign item comes and goes with the
+   manifest and the generator, and that is not the same event. */
+for (const f of Object.values(bankFiles)) for (const q of readJson(path.join(REPO, f)).vragen) ids.push(q.id);
 ids.sort();
 const idsFile = path.join(CONTENT, "ids.json");
 const retiredFile = path.join(CONTENT, "retired.json");

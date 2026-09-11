@@ -1,0 +1,768 @@
+{
+  "unit": "U12",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U12-Q001",
+      "unit": "U12",
+      "pagina": "U12-P01",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "In het eerste beeld rijdt de auto voor je nog gewoon door. In het tweede beeld staat hij stil en ben jij dichterbij gekomen. Wat doe je op dit moment als eerste?",
+      "media": {
+        "reeks": [
+          "S-U12-001-a",
+          "S-U12-001-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je schakelt je alarmlichten in.",
+          "feedback": "Goed. Je stuit op stilstaand verkeer, en dan waarschuw je met je alarmlichten de bestuurders die achter je nog met volle snelheid naderen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je let alleen op de auto voor je en doet verder niets.",
+          "feedback": "Fout. Je eigen remweg is maar de helft van het probleem; de bestuurder achter je weet nog van niets en kijkt tegen jouw achterkant aan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je wacht met je alarmlichten tot je zelf helemaal stilstaat.",
+          "feedback": "Fout. Juist de seconden waarin jij nog afremt zijn de seconden waarin je achterligger de waarschuwing nodig heeft.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Schakel je alarmlichten in als je op een file stuit, om je achterliggers te waarschuwen.",
+        "waarom": "De bestuurder achter je kijkt tegen jouw achterkant aan en niet om jou heen, dus jouw knipperlichten zijn het enige dat hem op tijd vertelt dat de rij stilstaat.",
+        "valkuil": "Wachten tot je zelf stilstaat kost precies de seconden die je achterligger nodig heeft om te remmen.",
+        "onthoud": "Stuit je op een file: meteen alarmlichten aan."
+      },
+      "bronnen": [
+        {
+          "boek": 167,
+          "sectie": "10.5",
+          "anker": "blijft het verstandig om achterliggers te waarschuwen om je alarmlichten in te schakelen"
+        },
+        {
+          "slide": 186,
+          "anker": "gebruik je alarmlichten om achterliggers te waarschuwen als je op een file stuit"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "file",
+        "alarmlichten",
+        "achterliggers"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "gebruik je alarmlichten om achterliggers te waarschuwen als je op een file stuit",
+        "bron": "slide 186"
+      }
+    },
+    {
+      "id": "U12-Q002",
+      "unit": "U12",
+      "pagina": "U12-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je hebt je alarmlichten aangezet omdat je op een file stuitte. In je spiegel zie je dat de bestuurders achter je netjes afremmen. Laat je je alarmlichten dan gewoon aanstaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De waarschuwing heeft zijn werk gedaan; blijven knipperen maakt alleen maar onduidelijk waar het gevaar eigenlijk zit.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Zodra je ziet dat je achterliggers afremmen schakel je de alarmlichten weer uit.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Schakel je alarmlichten weer uit als je ziet dat je achterliggers afremmen.",
+        "waarom": "Knipperende lichten zeggen: hier is iets aan de hand. Blijven ze branden terwijl het verkeer weer op gang komt, dan leert iedereen ze te negeren en werken ze niet meer op het moment dat het wel nodig is.",
+        "valkuil": "Alarmlichten zijn een waarschuwing voor een moment, geen stand waarin je de rest van de rit blijft rijden.",
+        "onthoud": "Achterligger remt af: lichten weer uit."
+      },
+      "bronnen": [
+        {
+          "boek": 167,
+          "sectie": "10.5",
+          "anker": "Schakel ze weer uit als je ziet dat je achterliggers afremmen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "file",
+        "alarmlichten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Schakel ze weer uit als je ziet dat je achterliggers afremmen.",
+        "bron": "boek p. 167"
+      }
+    },
+    {
+      "id": "U12-Q003",
+      "unit": "U12",
+      "pagina": "U12-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je staat in een file op de autosnelweg. Welke van deze dingen horen bij goed filegedrag?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Niet telkens van rijstrook wisselen.",
+          "feedback": "Goed. Steeds wisselen levert je nauwelijks tijdwinst op en kost de doorstroming juist snelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Voldoende afstand houden tot je voorligger.",
+          "feedback": "Goed. Met wat ruimte voor je kun je soepel meerijden in plaats van steeds hard te remmen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je motor afzetten als je langdurig stilstaat.",
+          "feedback": "Goed. Bij langdurig stilstaan zet je de motor af, en je blijft gewoon in de auto zitten.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Uitstappen om te kijken hoe lang de rij nog is.",
+          "feedback": "Fout. Je blijft om veiligheidsredenen in de auto zitten en volgt de verkeersinformatie in plaats van zelf te gaan kijken.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Zo dicht mogelijk op je voorligger blijven zodat er niemand tussen kan.",
+          "feedback": "Fout. Afstand houden hoort er juist bij; kleven levert alleen maar geschrik en onnodig remmen op.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "In een file wissel je niet telkens van rijstrook, houd je voldoende afstand tot je voorligger, zet je de motor af bij langdurig stilstaan en blijf je in de auto zitten.",
+        "waarom": "Een file lost het snelst op als iedereen rustig in zijn eigen rij blijft: elke wissel dwingt twee andere bestuurders om te remmen en dat plant zich naar achteren voort.",
+        "valkuil": "Wat voelt als opschieten, ritsen en kleven, maakt de rij voor iedereen langzamer.",
+        "onthoud": "In je rij blijven, ruimte houden, in de auto blijven."
+      },
+      "bronnen": [
+        {
+          "boek": 167,
+          "sectie": "10.5",
+          "anker": "Gedrag in een file Dit is het beste voor de veiligheid en doorstroming"
+        },
+        {
+          "slide": 186,
+          "anker": "wissel niet telkens van rijstrook houd voldoende afstand tot je voorligger"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "file",
+        "doorstroming",
+        "afstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "zet je motor af als je langdurig stilstaat. Blijf om veiligheidsredenen in de auto zitten en volg de verkeersinformatie.",
+        "bron": "boek p. 167",
+        "gewijzigd": "optie d had fouttype verkeerd_toegepast, maar wie uitstapt om te kijken kent de regel niet dat je in de auto blijft zitten; nu niet_geweten."
+      }
+    },
+    {
+      "id": "U12-Q004",
+      "unit": "U12",
+      "pagina": "U12-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het verkeer staat stil en in je spiegel zie je een motorrijder naderen die tussen de rijen door rijdt. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je gaat zelf iets naar rechts, zodat hij erlangs kan.",
+          "feedback": "Goed. Zo maak je ruimte voor de motorrijder zonder dat iemand hoeft te schrikken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je blijft strak in het midden staan, want tussen de rijen door rijden mag niet.",
+          "feedback": "Fout. Het boek vraagt juist van je om in je spiegels te kijken en ruimte te maken voor motorrijders die er tussendoor komen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je gaat juist iets naar links, zodat hij rechts van je langs kan.",
+          "feedback": "Fout. Hij komt tussen de rijen door, dus links van je; door naar links te gaan neem je hem zijn ruimte af.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Kijk in je spiegels en maak ruimte voor motorrijders die tussen de rijen door inhalen, door zelf iets naar rechts te gaan.",
+        "waarom": "De doorgang tussen twee rijen is smal en de motorrijder ziet pas laat of hij erdoor past. Een klein stuurtje van jou maakt het verschil tussen langs kunnen en klem komen te zitten.",
+        "valkuil": "Iemand bewust insluiten omdat je vindt dat het niet hoort, maakt de situatie alleen gevaarlijker.",
+        "onthoud": "Motor in je spiegel: zelf een stukje naar rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 167,
+          "sectie": "10.5",
+          "anker": "maak ruimte voor motorrijders die tussen de rijstroken door de file inhalen"
+        },
+        {
+          "slide": 186,
+          "anker": "let op tussen de files doorrijdende motorrijders en maak ruimte"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "file",
+        "motorrijder",
+        "ruimte-maken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "kijk in je spiegels en maak ruimte voor motorrijders die tussen de rijstroken door de file inhalen",
+        "bron": "boek p. 167"
+      }
+    },
+    {
+      "id": "U12-Q005",
+      "unit": "U12",
+      "pagina": "U12-P01",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "In het eerste beeld sta je stil op de rijbaan. In het tweede beeld is de hulpdienst met zwaailicht vlak achter je gekomen. Wat doe je?",
+      "media": {
+        "reeks": [
+          "S-U12-002-a",
+          "S-U12-002-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je maakt ruimte vrij zodat de hulpdienst erlangs kan.",
+          "feedback": "Goed. Als er geen ruimte naast de weg is, moeten de stilstaande bestuurders zelf een doorgang maken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je blijft staan waar je staat, want een hulpdienst zoekt zelf wel een weg langs je heen.",
+          "feedback": "Fout. Bij stilstaand verkeer komt een hulpdienst geen meter vooruit; de doorgang bestaat pas als de bestuurders zelf opzij gaan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je zet je alarmlichten aan en blijft precies staan waar je staat.",
+          "feedback": "Fout. Knipperlichten helpen de hulpdienst niet vooruit; hij heeft ruimte nodig en geen signaal.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Maak ruimte vrij voor hulpdiensten als er geen vluchtstrook beschikbaar is.",
+        "waarom": "Een ambulance haalt niets in bij stilstaand verkeer: de doorgang bestaat pas als elke bestuurder een stukje opzij gaat, en dat werkt alleen als iedereen het tegelijk doet.",
+        "valkuil": "Denken dat je zelf te ver naar achteren staat om nog iets te betekenen; de doorgang moet ook bij jou doorlopen.",
+        "onthoud": "Zwaailicht in je spiegel: opzij, ook als je stilstaat."
+      },
+      "bronnen": [
+        {
+          "boek": 168,
+          "sectie": "10.5",
+          "anker": "Maak ruimte vrij voor hulpdiensten als er geen vluchtstrook beschikbaar is"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "file",
+        "hulpdienst",
+        "ruimte-maken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Maak ruimte vrij voor hulpdiensten als er geen vluchtstrook beschikbaar is.",
+        "bron": "boek p. 168",
+        "gewijzigd": "de stam noemde verkeer voor je dat op de tekening niet staat, en optie b leunde op voorste bestuurders die er ook niet staan; allebei herschreven naar wat de twee beelden wel tonen, en de alt van S-U12-002-a claimt geen stilstaand verkeer meer."
+      }
+    },
+    {
+      "id": "U12-Q006",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je auto begint op de autosnelweg te haperen en je moet stoppen. Waar mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op de vluchtstrook of in een vluchthaven.",
+          "feedback": "Goed. In noodgevallen mag je je auto daar tot stilstand brengen, en een vluchthaven heeft de voorkeur omdat je verder van het verkeer staat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen in een vluchthaven, want de vluchtstrook is er uitsluitend voor hulpdiensten.",
+          "feedback": "Fout. De vluchtstrook mag je in een noodgeval wel degelijk gebruiken om tot stilstand te komen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Op de rijbaan zelf, mits je je alarmlichten aanzet.",
+          "feedback": "Fout. Alarmlichten maken je zichtbaar, maar ze maken van de rijbaan geen plek om stil te staan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je mag in noodgevallen je auto tot stilstand brengen op de vluchtstrook of in de vluchthaven.",
+        "waarom": "Een vluchthaven ligt verder van de rijbaan af, dus daar sta je minder dicht bij het langsrazende verkeer en kun je veiliger uitstappen.",
+        "valkuil": "Dit geldt voor een noodgeval. Even stoppen om te bellen of de kaart te bekijken hoort er niet bij.",
+        "onthoud": "Pech: vluchthaven als die er is, anders de vluchtstrook."
+      },
+      "bronnen": [
+        {
+          "boek": 168,
+          "sectie": "10.6",
+          "anker": "Je mag in noodgevallen je auto tot stilstand brengen op de vluchtstrook"
+        },
+        {
+          "slide": 187,
+          "anker": "Je mag in noodgevallen je auto tot stilstand brengen op de vluchtstrook of de vluchthaven"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "vluchtstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag in noodgevallen je auto tot stilstand brengen op de vluchtstrook of de vluchthaven.",
+        "bron": "boek p. 168"
+      }
+    },
+    {
+      "id": "U12-Q007",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je hebt pech en staat met je auto op de vluchtstrook van de autosnelweg. Wat hoort er bij wat je nu doet?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je auto zover mogelijk naar rechts zetten, het liefst in de berm.",
+          "feedback": "Goed. Hoe verder je auto van de rijbaan staat, hoe kleiner de kans dat iemand hem raakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Aan de rechterkant uitstappen.",
+          "feedback": "Goed. Links stap je zo het verkeer in, rechts stap je de berm in.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Achter de vangrail gaan staan en een pechhulpdienst bellen.",
+          "feedback": "Goed. Achter de vangrail is de enige plek waar een uitwijkend voertuig je niet kan raken.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "In de auto blijven zitten met je gordel om tot de hulp er is.",
+          "feedback": "Fout. Dat doe je in een file, maar bij pech is jouw auto juist het obstakel waar anderen op kunnen botsen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Voor je auto op de vluchtstrook gaan staan zodat je goed zichtbaar bent.",
+          "feedback": "Fout. Zichtbaar zijn helpt niets als je op de plek staat waar een auto terechtkomt die de vluchtstrook opdraait.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Zet je auto zover mogelijk naar rechts, het liefst in de berm, stap aan de rechterkant uit, trek bij voorkeur een veiligheidsvest aan, en ga achter de vangrail staan en bel een pechhulpdienst.",
+        "waarom": "Elke stap brengt jou verder weg van de rijbaan. Het verkeer raast er met volle snelheid langs en een bestuurder die even afgeleid is, komt precies daar terecht waar jij stond.",
+        "valkuil": "In de file blijf je in de auto, bij pech stap je juist uit. Dat verschil wordt vaak omgedraaid.",
+        "onthoud": "Rechts eruit en achter de vangrail wachten."
+      },
+      "bronnen": [
+        {
+          "boek": 168,
+          "sectie": "10.6",
+          "anker": "zet je auto zover mogelijk naar rechts het liefst in de berm"
+        },
+        {
+          "slide": 187,
+          "anker": "ga achter de vangrail staan en bel een pechhulpdienst"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "vluchtstrook",
+        "vangrail"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "zet je auto zover mogelijk naar rechts, het liefst in de berm",
+        "bron": "boek p. 168"
+      }
+    },
+    {
+      "id": "U12-Q008",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto begeeft het op de autosnelweg en je stuurt richting de vluchtstrook. Ga je al op de rijbaan flink afremmen zodat je rustig de vluchtstrook op kunt draaien?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Op de rijbaan afremmen maakt jou daar tot obstakel voor verkeer dat met volle snelheid nadert.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je begint pas langzamer te rijden zodra je op de vluchtstrook bent.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Begin pas langzamer te rijden zodra je op de vluchtstrook bent.",
+        "waarom": "Het snelheidsverschil is het gevaar. Zolang je nog op de rijbaan bent, is de kans dat iemand achterop komt groter dan het risico van een iets snellere bocht naar rechts.",
+        "valkuil": "Meteen vaart minderen voelt voorzichtig, maar op een autosnelweg is langzaam rijden juist het gevaar.",
+        "onthoud": "Eerst de vluchtstrook op, dan pas afremmen."
+      },
+      "bronnen": [
+        {
+          "boek": 168,
+          "sectie": "10.6",
+          "anker": "Begin pas langzamer te rijden zodra je op de vluchtstrook bent"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "vluchtstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Begin pas langzamer te rijden zodra je op de vluchtstrook bent.",
+        "bron": "boek p. 168"
+      }
+    },
+    {
+      "id": "U12-Q009",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je belt vanaf de berm de pechhulpdienst. Hij wil weten waar je staat. Welke gegevens lees je af van het hectometerpaaltje?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het wegnummer, de hectometeraanduiding en of je links of rechts staat.",
+          "feedback": "Goed. Met die drie gegevens weet de hulpdienst precies op welk stuk weg en aan welke kant je staat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het wegnummer en de dichtstbijzijnde plaatsnaam.",
+          "feedback": "Fout. Een plaatsnaam staat niet op het paaltje, en de hulpdienst zou dan nog kilometers moeten zoeken.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "De maximumsnelheid en het nummer van de dichtstbijzijnde afrit.",
+          "feedback": "Fout. Die staan er niet op; het paaltje geeft de weg, de afstand langs die weg en de rijbaan waarop je staat.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Geef aan de pechhulpdienst door waar je je bevindt: het wegnummer, de hectometeraanduiding en of je links of rechts staat.",
+        "waarom": "Een autosnelweg heeft twee rijbanen die kilometers uit elkaar kunnen liggen bij de eerste afrit. Zonder de kant erbij rijdt de hulpdienst langs je heen zonder dat hij erbij kan.",
+        "valkuil": "Alleen het wegnummer doorgeven is te weinig; de hulpdienst weet dan nog niet waar op die weg je staat.",
+        "onthoud": "Weg, hectometer, en links of rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 168,
+          "sectie": "10.6",
+          "anker": "Geef aan de pechhulpdienst door waar je je bevindt"
+        },
+        {
+          "slide": 187,
+          "anker": "geef aan de pechhulpdienst de informatie door op het hectometerbordje"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "hectometerpaaltje"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Geef aan de pechhulpdienst door waar je je bevindt. Die informatie staat op het hectometerpaaltje",
+        "bron": "boek p. 168"
+      }
+    },
+    {
+      "id": "U12-Q010",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Op hoeveel meter achter je auto plaats je de gevarendriehoek? Vul het aantal meters in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 30,
+        "eenheid": "meter"
+      },
+      "uitleg": {
+        "regel": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto.",
+        "waarom": "Die afstand geeft een naderende bestuurder de tijd om te zien dat er iets staat, te beslissen en te sturen; vlak achter je auto zou de driehoek pas zichtbaar zijn als het al te laat is.",
+        "valkuil": "De driehoek vlak achter de bumper zetten is de meest gemaakte fout, en dan doet hij zijn werk niet.",
+        "onthoud": "De driehoek staat een flink eind terug."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto"
+        },
+        {
+          "slide": 187,
+          "anker": "Gebruik je alarmlichten en of plaats de gevarendriehoek als je auto niet tijdig"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "gevarendriehoek"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto.",
+        "bron": "boek p. 169"
+      }
+    },
+    {
+      "id": "U12-Q011",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat met pech stil op een plek waar iedereen je van ver ziet staan, en je alarmlichten knipperen. Ben je dan verplicht om de gevarendriehoek neer te zetten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De plicht hangt eraan of je een obstakel vormt dat niet op tijd wordt opgemerkt, en dat is hier niet het geval.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Knipperen je alarmlichten en sta je goed zichtbaar, dan is de driehoek niet verplicht, al blijft hij veiliger.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als je voertuig een obstakel vormt dat door naderende bestuurders niet tijdig kan worden opgemerkt, moet je de gevarendriehoek plaatsen. Knipperen je alarmlichten en is je auto goed zichtbaar, dan is dat niet verplicht.",
+        "waarom": "De regel beschermt de bestuurder die je te laat ziet. Is er zo iemand niet, omdat je van ver zichtbaar staat te knipperen, dan valt de reden voor de plicht weg.",
+        "valkuil": "Niet verplicht betekent niet onverstandig: achter een bocht of een heuveltop ben je zo alsnog een obstakel.",
+        "onthoud": "Slecht op tijd te zien: driehoek verplicht."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "Als je alarmlichten knipperen en je auto goed zichtbaar is"
+        },
+        {
+          "slide": 187,
+          "anker": "Gebruik je alarmlichten en of plaats de gevarendriehoek als je auto niet tijdig"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "gevarendriehoek",
+        "alarmlichten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je alarmlichten knipperen en je auto goed zichtbaar is, is dat dus niet verplicht",
+        "bron": "boek p. 169"
+      }
+    },
+    {
+      "id": "U12-Q012",
+      "unit": "U12",
+      "pagina": "U12-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je staat met een lekke band langs de autosnelweg en je hebt een reservewiel in de kofferbak. Wat is hier verstandig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je laat de pechhulpdienst komen en wacht achter de vangrail.",
+          "feedback": "Goed. Zelf een reparatie uitvoeren langs de autosnelweg wordt afgeraden, want het is veel te gevaarlijk.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je wisselt het wiel snel zelf, dan ben je het eerst weer weg.",
+          "feedback": "Fout. Je zit dan gehurkt vlak naast een rijbaan waar het verkeer met volle snelheid langskomt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je wisselt het wiel zelf, maar zet eerst de gevarendriehoek neer.",
+          "feedback": "Fout. De driehoek waarschuwt anderen, maar hij houdt geen auto tegen die toch de vluchtstrook opdraait.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Zelf een reparatie uitvoeren langs de autosnelweg wordt afgeraden, want het is veel te gevaarlijk.",
+        "waarom": "Bij een reparatie sta of zit je aan de kant van je auto die het dichtst bij het verkeer ligt, en je aandacht zit bij het wiel in plaats van bij wat er aankomt.",
+        "valkuil": "Kunnen is niet hetzelfde als mogen doen; op een rustige weg is wisselen iets heel anders dan langs een autosnelweg.",
+        "onthoud": "Langs de autosnelweg repareer je niets zelf."
+      },
+      "bronnen": [
+        {
+          "boek": 169,
+          "sectie": "10.6",
+          "anker": "Zelf een reparatie uitvoeren langs de autosnelweg wordt afgeraden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "pech",
+        "vluchtstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Zelf een reparatie uitvoeren langs de autosnelweg wordt afgeraden. Het is veel te gevaarlijk.",
+        "bron": "boek p. 169"
+      }
+    }
+  ]
+}

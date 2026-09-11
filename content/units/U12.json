@@ -1,0 +1,1085 @@
+{
+  "id": "U12",
+  "slug": "file-pech-en-ongeval",
+  "titel": "File, pech en ongeval",
+  "ondertitel": "Wat je doet als het verkeer stilvalt of als het misgaat",
+  "volgorde": 12,
+  "week": 5,
+  "tier": "must",
+  "vereist": [
+    "U11"
+  ],
+  "borden": [],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "10.5",
+        "10.6",
+        "10.7",
+        "10.8"
+      ],
+      "paginas": [
+        167,
+        168,
+        169,
+        170,
+        171,
+        177,
+        178,
+        179,
+        180
+      ]
+    },
+    "cursus": {
+      "slides": [
+        18,
+        186,
+        187,
+        188,
+        189,
+        190,
+        192,
+        193,
+        194
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "veilig_rijden_en_noodsituaties",
+    "verantwoorde_deelname_en_milieu"
+  ],
+  "intro": "Dit blok gaat over de momenten waarop het verkeer stilvalt of waarop er echt iets misgaat. Je leert hoe je je gedraagt als je op stilstaand verkeer stuit, wat je doet als je auto ermee ophoudt, hoe je een voertuig sleept, in welke volgorde je handelt bij een ongeval en hoe je een auto verlaat die te water raakt. Het examen vraagt hier zelden naar techniek en bijna altijd naar volgorde en plicht: wie waarschuw je, wat doe je eerst, en wat mag je juist niet doen. Er zijn in dit blok weinig tekeningen, want het meeste hangt aan een handeling en niet aan een kruispunt.",
+  "paginas": [
+    {
+      "id": "U12-P01",
+      "anker": "p-10.5-filerijden",
+      "titel": "Rijden in een file",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.5"
+          ],
+          "paginas": [
+            167,
+            168
+          ]
+        },
+        "cursus": {
+          "slides": [
+            186
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Boven veel autosnelwegen staan portalen die je waarschuwen dat er verderop een file ontstaat. Toch blijf je zelf verantwoordelijk voor het verkeer achter je: de bestuurders die nog met volle snelheid naderen weten niet dat jij zo meteen stilstaat.",
+          "bron": {
+            "boek": 167,
+            "sectie": "10.5",
+            "anker": "blijft het verstandig om achterliggers te waarschuwen om je alarmlichten in te schakelen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r01",
+          "tekst": "Schakel je alarmlichten in zodra je op een file stuit, om je achterliggers te waarschuwen. Schakel ze weer uit als je ziet dat je achterliggers afremmen.",
+          "bron": [
+            {
+              "boek": 167,
+              "sectie": "10.5",
+              "anker": "Schakel ze weer uit als je ziet dat je achterliggers afremmen"
+            },
+            {
+              "slide": 186,
+              "anker": "gebruik je alarmlichten om achterliggers te waarschuwen als je op een file stuit"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r02",
+          "tekst": "Wissel in een file niet telkens van rijstrook en houd voldoende afstand tot je voorligger, maar overdrijf dat niet.",
+          "bron": [
+            {
+              "boek": 167,
+              "sectie": "10.5",
+              "anker": "Gedrag in een file Dit is het beste voor de veiligheid en doorstroming"
+            },
+            {
+              "slide": 186,
+              "anker": "wissel niet telkens van rijstrook houd voldoende afstand tot je voorligger"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r03",
+          "tekst": "Kijk in je spiegels en maak ruimte voor motorrijders die tussen de rijen door inhalen. Dat doe je door zelf iets naar rechts te gaan.",
+          "bron": [
+            {
+              "boek": 167,
+              "sectie": "10.5",
+              "anker": "maak ruimte voor motorrijders die tussen de rijstroken door de file inhalen"
+            },
+            {
+              "slide": 186,
+              "anker": "let op tussen de files doorrijdende motorrijders en maak ruimte"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r04",
+          "tekst": "Zet je motor af als je langdurig stilstaat. Blijf om veiligheidsredenen in de auto zitten en volg de verkeersinformatie.",
+          "bron": [
+            {
+              "boek": 167,
+              "sectie": "10.5",
+              "anker": "Blijf om veiligheidsredenen in de auto zitten en volg de verkeersinformatie"
+            },
+            {
+              "slide": 186,
+              "anker": "zet je motor af als je langdurig stilstaat"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r05",
+          "tekst": "Volg aanwijzingen van fileregelaars op, dan lost de file het snelst op. Maak ruimte vrij voor hulpdiensten als er geen vluchtstrook beschikbaar is.",
+          "bron": [
+            {
+              "boek": 168,
+              "sectie": "10.5",
+              "anker": "Volg aanwijzingen van eventuele fileregelaars op dan lost de file het snelst op"
+            },
+            {
+              "boek": 168,
+              "sectie": "10.5",
+              "anker": "Maak ruimte vrij voor hulpdiensten als er geen vluchtstrook beschikbaar is"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De staart van een file is de gevaarlijkste plek van de hele weg: daar komt snel verkeer aan op stilstaand verkeer. Jouw alarmlichten zijn het enige signaal dat de bestuurder achter je op tijd bereikt. Zodra je in je spiegel ziet dat hij afremt heeft hij het begrepen, en dan worden knipperende lichten juist verwarrend voor wie daar weer achter rijdt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U12-101",
+          "tekst": "Het verkeer staat stil. Je staat zelf ook stil met een auto voor je. Achter je nadert een motorrijder die tussen de rijen door wil. Ga iets naar rechts, dan kan hij erlangs.",
+          "bron": {
+            "boek": 167,
+            "sectie": "10.5",
+            "anker": "maak ruimte voor motorrijders die tussen de rijstroken door de file inhalen"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Laat je niet afleiden als je bijvoorbeeld een ongeval passeert. Kijkers veroorzaken de tweede file, en soms ook de tweede botsing.",
+          "bron": {
+            "boek": 168,
+            "sectie": "10.5",
+            "anker": "Laat je niet afleiden als je bijvoorbeeld een ongeval passeert"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Stuit je op een file: alarmlichten aan. Zie je je achterligger afremmen: alarmlichten uit."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat langdurig stil in een file. Stap je uit om te kijken hoe lang de rij is?",
+          "antwoord": "Nee.",
+          "uitleg": "Je zet je motor af, maar je blijft om veiligheidsredenen in de auto zitten en volgt de verkeersinformatie.",
+          "bron": {
+            "slide": 186,
+            "anker": "blijf om veiligheidsredenen in de auto zitten"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U12-P02",
+      "anker": "p-10.6-pech",
+      "titel": "Pech onderweg",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.6"
+          ],
+          "paginas": [
+            168,
+            169
+          ]
+        },
+        "cursus": {
+          "slides": [
+            187
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U12-r06",
+          "tekst": "Je mag in noodgevallen je auto tot stilstand brengen op de vluchtstrook of in de vluchthaven. Begin pas langzamer te rijden zodra je op de vluchtstrook bent.",
+          "bron": [
+            {
+              "boek": 168,
+              "sectie": "10.6",
+              "anker": "Begin pas langzamer te rijden zodra je op de vluchtstrook bent"
+            },
+            {
+              "slide": 187,
+              "anker": "Je mag in noodgevallen je auto tot stilstand brengen op de vluchtstrook of de vluchthaven"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "zet je auto zover mogelijk naar rechts, het liefst in de berm",
+            "stap aan de rechterkant uit",
+            "trek bij voorkeur een veiligheidsvest aan",
+            "ga achter de vangrail staan en bel een pechhulpdienst"
+          ],
+          "bron": [
+            {
+              "boek": 168,
+              "sectie": "10.6",
+              "anker": "zet je auto zover mogelijk naar rechts het liefst in de berm"
+            },
+            {
+              "boek": 168,
+              "sectie": "10.6",
+              "anker": "stap aan de rechterkant uit trek bij voorkeur een veiligheidsvest aan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r07",
+          "tekst": "Geef aan de pechhulpdienst door waar je je bevindt. Die informatie staat op het hectometerpaaltje: het wegnummer, de hectometeraanduiding en of je links of rechts staat.",
+          "bron": [
+            {
+              "boek": 168,
+              "sectie": "10.6",
+              "anker": "Geef aan de pechhulpdienst door waar je je bevindt"
+            },
+            {
+              "slide": 187,
+              "anker": "geef aan de pechhulpdienst de informatie door op het hectometerbordje"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r08",
+          "tekst": "Als je voertuig een obstakel vormt dat door naderende bestuurders niet tijdig kan worden opgemerkt, moet je de gevarendriehoek plaatsen. Knipperen je alarmlichten en is je auto goed zichtbaar, dan is dat niet verplicht, al blijft het veiliger.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "Als je voertuig een obstakel vormt dat door naderende bestuurders niet tijdig kan worden opgemerkt"
+            },
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "Als je alarmlichten knipperen en je auto goed zichtbaar is"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r09",
+          "tekst": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "Plaats de gevarendriehoek op ongeveer 30 meter achter je auto"
+            },
+            {
+              "slide": 187,
+              "anker": "Gebruik je alarmlichten en of plaats de gevarendriehoek als je auto niet tijdig"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Alles in dit lijstje duwt jou weg van de rijbaan en jouw auto in het zicht van anderen. Je stapt rechts uit omdat links het verkeer langsraast, je gaat achter de vangrail staan omdat dat de enige plek is waar een uitwijkende auto je niet raakt, en de driehoek staat een flink eind terug omdat een bestuurder tijd nodig heeft om te remmen.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je staat met pech langs de autosnelweg en belt de pechhulpdienst. Hij vraagt waar je staat. Op het groene paaltje in de berm lees je het wegnummer, de hectometeraanduiding en de aanduiding of je op de linker of de rechter rijbaan staat. Met die drie gegevens weet de hulpdienst precies waar je bent.",
+          "bron": {
+            "boek": 168,
+            "sectie": "10.6",
+            "anker": "Die informatie staat op het hectometerpaaltje het wegnummer A44"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Zelf een reparatie uitvoeren langs de autosnelweg wordt afgeraden, want het is veel te gevaarlijk. Ook een band wisselen hoort daar bij de pechhulpdienst en niet bij jou.",
+          "bron": {
+            "boek": 169,
+            "sectie": "10.6",
+            "anker": "Zelf een reparatie uitvoeren langs de autosnelweg wordt afgeraden"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "In een file blijf je juist wel in de auto zitten. Bij pech op de vluchtstrook stap je juist wel uit. Dat verschil zit in de vraag of jouw auto het obstakel is waar anderen op kunnen botsen.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rechts eruit, achter de vangrail, en de driehoek een eind achter de auto."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je krijgt pech en haalt de vluchtstrook nog net. Waar rem je af?",
+          "antwoord": "Pas op de vluchtstrook zelf.",
+          "uitleg": "Als je al op de rijbaan begint af te remmen, word je daar een obstakel voor het verkeer dat met volle snelheid nadert.",
+          "bron": {
+            "boek": 168,
+            "sectie": "10.6",
+            "anker": "Begin pas langzamer te rijden zodra je op de vluchtstrook bent"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U12-P03",
+      "anker": "p-10.6-slepen",
+      "titel": "Slepen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.6"
+          ],
+          "paginas": [
+            169
+          ]
+        },
+        "cursus": {
+          "slides": [
+            188
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Soms sleep je een auto met pech naar een veilige plek. Daar gelden eigen regels voor, en het examen vraagt bijna altijd naar de afstand, het aantal voertuigen en de alarmlichten.",
+          "bron": {
+            "boek": 169,
+            "sectie": "10.6",
+            "anker": "Neem dit in acht als je een voertuig met pech sleept"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r10",
+          "tekst": "Je mag maar een voertuig slepen en de afstand tussen beide voertuigen mag maximaal 5 meter zijn.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "je mag maar een voertuig slepen gebruik een deugdelijke sleepkabel"
+            },
+            {
+              "slide": 188,
+              "anker": "De afstand tussen beide voertuigen mag maximaal 5 meter zijn"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r11",
+          "tekst": "Gebruik een deugdelijke sleepkabel en bevestig die aan de daartoe bestemde bevestigingspunten.",
+          "bron": {
+            "boek": 169,
+            "sectie": "10.6",
+            "anker": "bevestig de kabel aan daartoe bestemde bevestigingspunten"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r12",
+          "tekst": "Houd de sleepkabel altijd gespannen. Rem als achterste bestuurder daarom meer af dan de voorste.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "houd de sleepkabel altijd gespannen Rem als achterste bestuurder daarom meer af dan de voorste"
+            },
+            {
+              "slide": 188,
+              "anker": "houdt de kabel strak om schokken te voorkomen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r13",
+          "tekst": "Laat de alarmlichten van beide auto's in principe uit en verlaat autowegen en autosnelwegen zo snel mogelijk.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "laat de alarmlichten van beide auto's in principe uit"
+            },
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "verlaat autowegen en autosnelwegen zo snel mogelijk"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r14",
+          "tekst": "Rem- en stuurbekrachtiging van het gesleepte voertuig werken niet als de motor uit staat. Laat daarom de meest ervaren bestuurder het gesleepte voertuig besturen.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "rem- en stuurbekrachtiging van het gesleepte voertuig niet werken als de motor uit staat"
+            },
+            {
+              "slide": 188,
+              "anker": "sturen en remmen gaat moeilijker als stuur- en rembekrachtiging niet werken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r15",
+          "tekst": "Tijdens het slepen moet je de regels volgen van een auto met aanhangwagen, en allebei de bestuurders moeten een geldig rijbewijs hebben.",
+          "bron": [
+            {
+              "boek": 169,
+              "sectie": "10.6",
+              "anker": "moet je de regels volgen van een auto met aanhangwagen"
+            },
+            {
+              "slide": 188,
+              "anker": "Beide bestuurders moeten een geldig rijbewijs hebben"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een slappe kabel die weer strak trekt geeft een ruk die de bevestigingspunten uit het chassis kan scheuren. Daarom remt degene achteraan net iets harder dan nodig: dan blijft er altijd spanning op de kabel staan. En omdat hij zonder bekrachtiging veel meer kracht moet zetten op rem en stuur, hoort daar de ervaren bestuurder.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je sleept de auto van een vriend naar de garage. Jullie rijden achter elkaar met een strakke kabel, de alarmlichten blijven uit, en jij houdt je aan de snelheden die voor een auto met aanhangwagen gelden. Bij de eerste afrit ga je van de autosnelweg af.",
+          "bron": {
+            "slide": 188,
+            "anker": "Voor de combinatie gelden de regels voor een auto met aanhangwagen"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Alarmlichten voelen logisch bij slepen, maar ze horen er juist uit te blijven. Andere bestuurders denken bij knipperende lichten dat je stilstaat.",
+          "bron": {
+            "slide": 188,
+            "anker": "laat de alarmlichten van beide auto's uit"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Een voertuig, maximaal 5 meter kabel, kabel strak, alarmlichten uit."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Wie kan het gesleepte voertuig het beste besturen?",
+          "antwoord": "De meest ervaren bestuurder.",
+          "uitleg": "Zonder draaiende motor werken de rem- en stuurbekrachtiging niet, dus sturen en remmen kost veel meer kracht.",
+          "bron": {
+            "boek": 169,
+            "sectie": "10.6",
+            "anker": "Laat daarom de meest ervaren bestuurder het gesleepte voertuig besturen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U12-P04",
+      "anker": "p-10.7-paman",
+      "titel": "Bij een ongeval: PAMAN",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.7"
+          ],
+          "paginas": [
+            170,
+            171
+          ]
+        },
+        "cursus": {
+          "slides": [
+            189,
+            190
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U12-r16",
+          "tekst": "Stilstaande voertuigen met zwaailicht van politie of Rijkswaterstaat waarschuwen je voor een ongeval of een andere calamiteit.",
+          "bron": {
+            "boek": 170,
+            "sectie": "10.7",
+            "anker": "Stilstaande voertuigen met zwaailicht van politie of Rijkswaterstaat waarschuwen je voor een ongeval"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r17",
+          "tekst": "Laat je niet afleiden als je langs een ongeval rijdt, en reken erop dat andere weggebruikers wel afgeleid kunnen worden. Houd er ook rekening mee dat er voetgangers op de weg kunnen lopen.",
+          "bron": [
+            {
+              "boek": 170,
+              "sectie": "10.7",
+              "anker": "Laat je niet afleiden als je langs een ongeval rijdt"
+            },
+            {
+              "boek": 170,
+              "sectie": "10.7",
+              "anker": "Houd er ook rekening mee dat er voetgangers op de weg kunnen lopen"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U12-102",
+          "tekst": "Voor je op dezelfde weg staat een hulpdienst met zwaailicht stil, en daarvoor een auto die stilstaat. Blijf kijken naar de weg en houd er rekening mee dat er mensen tussen de voertuigen door kunnen lopen.",
+          "bron": {
+            "boek": 170,
+            "sectie": "10.7",
+            "anker": "reken erop dat andere weggebruikers wel afgeleid kunnen worden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r18",
+          "tekst": "Als je bij een verkeersongeval betrokken raakt, handel je altijd in deze volgorde: eerst je Persoonlijke veiligheid, dan de veiligheid van Andere betrokkenen, dan het Markeren van de ongevalsplaats, dan Alarmeren van de hulpdiensten, en tenslotte de Noodzakelijke eerste hulp.",
+          "bron": [
+            {
+              "boek": 170,
+              "sectie": "10.7",
+              "anker": "Als je bij een verkeersongeval betrokken raakt moet je altijd in deze volgorde handelen"
+            },
+            {
+              "boek": 170,
+              "sectie": "10.7",
+              "anker": "Een handig ezelsbruggetje om de juiste volgorde te onthouden is"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Markeren betekent dat je met handgebaren, alarmlichten en wat je verder hebt het overige verkeer waarschuwt.",
+          "bron": {
+            "boek": 170,
+            "sectie": "10.7",
+            "anker": "Dit houdt in dat je met handgebaren alarmlichten et cetera het overige verkeer waarschuwt"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r19",
+          "tekst": "Bel bij ernstige ongevallen en calamiteiten via 112 de alarmcentrale. Beschrijf zo exact mogelijk waar je je bevindt, wat er is gebeurd en hoeveel voertuigen erbij betrokken zijn, en hoeveel gewonden er zijn.",
+          "bron": [
+            {
+              "boek": 170,
+              "sectie": "10.7",
+              "anker": "Bel bij ernstige ongevallen en calamiteiten via 112 de alarmcentrale"
+            },
+            {
+              "slide": 189,
+              "anker": "Bel bij ernstige ongevallen en incidenten via 112 de alarmcentrale"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r20",
+          "tekst": "Blijf op de plaats van het ongeval. Als je betrokken bent bij een ongeval, ben je verplicht om je identiteit bekend te maken.",
+          "bron": {
+            "slide": 189,
+            "anker": "Blijf op de plaats van het ongeval Als je betrokken bent bij een ongeval"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r21",
+          "tekst": "Verplaats een slachtoffer niet, behalve in een levensbedreigende situatie, bijvoorbeeld gevaar voor verbranding of verdrinking.",
+          "bron": [
+            {
+              "boek": 171,
+              "sectie": "10.7",
+              "anker": "Verplaats een slachtoffer niet behalve in een levensbedreigende situatie"
+            },
+            {
+              "slide": 189,
+              "anker": "Laat slachtoffers liggen Verplaats ze niet tenzij er acuut gevaar dreigt bijvoorbeeld brand"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Meestal zijn hulpdiensten snel ter plaatse. Wat jij moet kunnen is vooral de hulp die geen seconde uitstel kan dulden: controleer of iemand reageert en of hij ademt, en stop een slagaderlijke bloeding door de wond dicht te drukken. De rest laat je aan de professionals over.",
+          "bron": [
+            {
+              "boek": 171,
+              "sectie": "10.7",
+              "anker": "De handelingen die je moet kunnen verrichten zijn dan ook vooral gericht op het bieden"
+            },
+            {
+              "slide": 190,
+              "anker": "stop slagaderlijke bloedingen door de wond dicht te drukken"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De volgorde lijkt hard, maar hij redt de meeste mensen. Een helper die zelf wordt aangereden maakt er twee slachtoffers van in plaats van een, en een plek die niemand gemarkeerd heeft levert een tweede botsing op precies de plek waar jij geknield zit. Pas als het daar veilig is, heeft jouw hulp zin.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De verleiding is groot om meteen naar een slachtoffer te rennen. Dat is in PAMAN pas de laatste letter. Ook het verplaatsen van een gewonde hoort er niet bij, tenzij hij anders verbrandt of verdrinkt.",
+          "bron": {
+            "boek": 171,
+            "sectie": "10.7",
+            "anker": "bijvoorbeeld gevaar voor verbranding of verdrinking"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "PAMAN: Persoonlijk, Anderen, Markeren, Alarmeren, Noodzakelijke hulp."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je komt als eerste bij een ongeval. Wat doe je als allereerste?",
+          "antwoord": "Zorgen voor je eigen veiligheid.",
+          "uitleg": "Dat is de P van PAMAN. Pas daarna zorg je voor de anderen, markeer je de plaats en bel je 112.",
+          "bron": {
+            "boek": 170,
+            "sectie": "10.7",
+            "anker": "je moet altijd eerst aan je"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U12-P05",
+      "anker": "p-10.7-schade-en-doorrijden",
+      "titel": "Doorrijden, schade en de politie",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.7"
+          ],
+          "paginas": [
+            170,
+            171,
+            177,
+            178
+          ]
+        },
+        "cursus": {
+          "slides": [
+            18,
+            192,
+            193
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U12-r22",
+          "tekst": "Het is voor iedereen die betrokken is bij een verkeersongeval met dood, letsel of schade verboden de plaats van het ongeval te verlaten zonder de eigen gegevens en die van het motorrijtuig bekend te maken. Ook is het verboden een slachtoffer in hulpeloze toestand achter te laten.",
+          "bron": [
+            {
+              "boek": 171,
+              "sectie": "10.7",
+              "anker": "verboden de plaats van het ongeval te verlaten zonder bekendmaking van de eigen gegevens"
+            },
+            {
+              "boek": 171,
+              "sectie": "10.7",
+              "anker": "is het verboden een slachtoffer in hulpeloze toestand achter te laten"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Dat geldt voor iedereen die bij het ongeval betrokken is, dus ook als je geen schuld hebt. Rijd je toch door, dan kan de rechter een gevangenisstraf of geldboete en een ontzegging van de rijbevoegdheid opleggen. Je kunt aan strafvervolging ontkomen door je binnen 12 uur vrijwillig bij de politie te melden.",
+          "bron": [
+            {
+              "slide": 18,
+              "anker": "Dit geldt voor iedereen die bij het ongeval betrokken is"
+            },
+            {
+              "slide": 18,
+              "anker": "door je binnen 12 uur vrijwillig bij de politie te melden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r23",
+          "tekst": "Heb je schade veroorzaakt aan een geparkeerd voertuig, laat dan je contactgegevens achter bij het beschadigde voertuig en informeer de politie. Dat is verplicht.",
+          "bron": [
+            {
+              "boek": 171,
+              "sectie": "10.7",
+              "anker": "Laat dan je contactgegevens achter bij het beschadigde voertuig en informeer de politie"
+            },
+            {
+              "slide": 193,
+              "anker": "laat dan je contactgegevens achter en informeer gelijk de politie"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r24",
+          "tekst": "Is er alleen blikschade en kunnen de betrokken voertuigen nog rijden, maak dan een foto en rijd samen met de tegenpartij naar een parkeerplaats om de schade af te handelen. Zo wordt de doorstroming van het verkeer het minste gehinderd.",
+          "bron": [
+            {
+              "boek": 170,
+              "sectie": "10.7",
+              "anker": "Is er alleen blikschade en kunnen de betrokken voertuigen nog rijden"
+            },
+            {
+              "slide": 193,
+              "anker": "rij samen met de tegenpartij naar een parkeerplaats om de schade af te handelen"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "maak foto's van de situatie",
+            "noteer de naam en het kenteken van de tegenpartij",
+            "noteer de contactgegevens van getuigen",
+            "vul samen met de tegenpartij het Europese schadeformulier in, op papier of via de app voor mobiel schademelden"
+          ],
+          "bron": [
+            {
+              "boek": 177,
+              "sectie": "10.7",
+              "anker": "maak foto's van de situatie noteer de naam en het kenteken van de tegenpartij"
+            },
+            {
+              "slide": 192,
+              "anker": "Maak foto's van de situatie noteer contactgegevens van getuigen de naam en het kenteken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r25",
+          "tekst": "Je bent niet verplicht om het papieren formulier te ondertekenen. Wel ben je verplicht om gegevens over jezelf en je voertuig aan de tegenpartij te geven.",
+          "bron": {
+            "boek": 177,
+            "sectie": "10.7",
+            "anker": "Wel ben je verplicht om gegevens over jezelf en je voertuig"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r26",
+          "tekst": "Bij kleine ongevallen komt de politie niet ter plekke, of alleen om het verkeer weer op gang te brengen. De schuldvraag wordt verder overgelaten aan de betrokken verzekeringsmaatschappijen.",
+          "bron": [
+            {
+              "boek": 177,
+              "sectie": "10.7",
+              "anker": "Bij kleine ongevallen komt de politie niet ter plekke"
+            },
+            {
+              "boek": 177,
+              "sectie": "10.7",
+              "anker": "De schuldvraag wordt verder overgelaten aan de betrokken verzekeringsmaatschappijen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r27",
+          "tekst": "Als er doden of gewonden zijn, of grote materiële schade, maakt de politie een proces-verbaal op. Dat proces-verbaal kan door jouw verzekeringsmaatschappij worden opgevraagd, door jezelf niet.",
+          "bron": [
+            {
+              "boek": 177,
+              "sectie": "10.7",
+              "anker": "Als er sprake is van doden of gewonden of grote materiële schade zal de politie"
+            },
+            {
+              "boek": 178,
+              "sectie": "10.7",
+              "anker": "Het proces-verbaal kan door jouw verzekeringsmaatschappij worden opgevraagd jijzelf kunt dat niet"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De wet wil twee dingen van je: dat de tegenpartij weet wie je bent, en dat niemand hulpeloos achterblijft. Daarom is doorrijden ook strafbaar als de botsing niet jouw fout was, en daarom telt een briefje onder de ruitenwisser van een geparkeerde auto alleen samen met een melding bij de politie.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je tikt bij het inparkeren de bumper van een auto waarvan de eigenaar nergens te bekennen is. Je laat je contactgegevens achter bij het beschadigde voertuig en belt daarna de politie. Daarmee heb je aan je plicht voldaan.",
+          "bron": {
+            "slide": 193,
+            "anker": "laat dan je contactgegevens achter en informeer gelijk de politie"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Het is wettelijk niet verplicht het Europese schadeformulier bij je te hebben, maar wel verstandig. Zonder formulier heeft je verzekering alleen jouw verhaal en dat van de tegenpartij.",
+          "bron": {
+            "slide": 192,
+            "anker": "Het is wettelijk niet verplicht het Europese schadeformulier bij je te hebben"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Nooit doorrijden, altijd je gegevens achterlaten, ook zonder schuld en ook bij een lege geparkeerde auto."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Bij alleen blikschade: moet je de politie erbij halen?",
+          "antwoord": "Nee.",
+          "uitleg": "Politie inschakelen is dan niet noodzakelijk; de verzekering heeft genoeg aan een juist ingevuld schadeformulier.",
+          "bron": {
+            "slide": 193,
+            "anker": "de verzekering heeft genoeg aan een juist ingevuld schadeformulier"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U12-P06",
+      "anker": "p-10.8-auto-te-water",
+      "titel": "Auto te water",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.8"
+          ],
+          "paginas": [
+            178,
+            179,
+            180
+          ]
+        },
+        "cursus": {
+          "slides": [
+            194
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Meestal blijft de auto nog even drijven, lang genoeg om er volgens een vast stappenplan uit te komen. Dat stappenplan kennen is het verschil tussen uitstappen en vastzitten.",
+          "bron": {
+            "boek": 178,
+            "sectie": "10.8",
+            "anker": "Meestal blijft de auto nog even drijven voldoende om snel de auto te verlaten"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r28",
+          "tekst": "Stap 1: ontsteek de binnen- en buitenverlichting, zodat je je beter kunt oriënteren en de auto voor hulpdiensten zichtbaar blijft. Laat de sleutels in het contact zitten.",
+          "bron": [
+            {
+              "boek": 178,
+              "sectie": "10.8",
+              "anker": "Hierdoor kun je je beter orienteren en blijft de auto voor hulpdiensten beter zichtbaar"
+            },
+            {
+              "boek": 178,
+              "sectie": "10.8",
+              "anker": "Laat de sleutels in het contact zitten"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r29",
+          "tekst": "Stap 2: maak zo snel mogelijk de gordel los. Blokkeert de sluiting, gebruik dan het gordelmes van de veiligheidshamer en snij naar je toe.",
+          "bron": [
+            {
+              "boek": 178,
+              "sectie": "10.8",
+              "anker": "Maak zo snel mogelijk de gordel los"
+            },
+            {
+              "slide": 194,
+              "anker": "gebruik eventueel het gordelmes en snij naar je toe"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r30",
+          "tekst": "Stap 3: probeer de zijruit te openen. Lukt dat niet, gebruik dan de veiligheidshamer en verbrijzel het raam. Sla altijd in de hoek van de ruit, bij de spiegel, want daar is de veerspanning van de ruit minder.",
+          "bron": [
+            {
+              "boek": 178,
+              "sectie": "10.8",
+              "anker": "Sla altijd in de hoek van de ruit bij de spiegel"
+            },
+            {
+              "slide": 194,
+              "anker": "open de zijruit lukt dat niet gebruik dan de veiligheidshamer en verbrijzel het raam"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r31",
+          "tekst": "Stap 4: verlaat de auto en zwem weg. Zwem in eerste instantie met je gezicht naar de auto toe; pas op gepaste afstand draai je je om en zwem je naar de kant.",
+          "bron": [
+            {
+              "boek": 179,
+              "sectie": "10.8",
+              "anker": "Zwem in eerste instantie met je gezicht naar de auto toe weg"
+            },
+            {
+              "slide": 194,
+              "anker": "verlaat de auto en zwem weg"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r32",
+          "tekst": "Probeer niet de voorruit in te slaan, want die is extra stevig en daarom bijna niet te breken. Lukt de zijruit ook niet, neem dan een ferme hap lucht en wacht tot de auto grotendeels is gezonken; dan is de druk binnen en buiten gelijk en kun je het portier openen.",
+          "bron": [
+            {
+              "boek": 179,
+              "sectie": "10.8",
+              "anker": "Probeer niet de voorruit in te slaan want die is extra stevig"
+            },
+            {
+              "boek": 179,
+              "sectie": "10.8",
+              "anker": "neem dan een ferme hap met lucht en wacht totdat de auto grotendeels is gezonken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U12-r33",
+          "tekst": "Staat de auto op zijn kop, dan blokkeert je lichaamsgewicht de sluiting van de gordel. Zet je voeten tegen het dashboard, duw met een hand tegen het dak en maak met je andere hand de sluiting los.",
+          "bron": {
+            "boek": 179,
+            "sectie": "10.8",
+            "anker": "plaats je voeten tegen het dashboard om jezelf tegen de stoel aan te drukken"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U12-r34",
+          "tekst": "Help je iemand anders, sla dan in elk geval alarm en zorg dat 112 gebeld wordt. Ga je zelf het water in, doe dat aangelijnd aan een touw zodat anderen jou weer aan wal kunnen trekken.",
+          "bron": [
+            {
+              "boek": 180,
+              "sectie": "10.8",
+              "anker": "Sla in elk geval alarm en zorg dat 112 gebeld wordt"
+            },
+            {
+              "boek": 180,
+              "sectie": "10.8",
+              "anker": "Als je zelf het water in gaat doe dat dan aangelijnd aan een touw"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Elke stap koopt tijd voor de volgende. Licht aan kan alleen zolang de elektronica nog droog is, de gordel moet los voordat het water je tegen de stoel drukt, en het raam moet open zolang er nog lucht boven het glas staat. Wie de volgorde omdraait, komt bij de laatste stap water tegen in plaats van lucht.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je raakt met je auto te water en het raam wil niet open. Je pakt de veiligheidshamer en slaat in de hoek van de zijruit bij de spiegel. Het glas breekt, je klimt naar buiten en zwemt eerst met je gezicht naar de auto toe weg voordat je je omdraait naar de kant.",
+          "bron": {
+            "slide": 194,
+            "anker": "Sla met je veiligheidshamer aan de zijkant van de ruit"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Zorg dat de veiligheidshamer binnen handbereik is van alle passagiers. Aan het plafond kan iedereen erbij, ook als de auto ondersteboven ligt.",
+          "bron": [
+            {
+              "slide": 194,
+              "anker": "Zorg dat de veiligheidshamer binnen handbereik is van alle passagiers"
+            },
+            {
+              "boek": 180,
+              "sectie": "10.8",
+              "anker": "Zorg dat de veiligheidshamer goed binnen handbereik is"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Licht aan, gordel los, ruit open of stuk, eruit en wegzwemmen."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "De zijruit wil niet open en je hebt geen veiligheidshamer. Sla je de voorruit in?",
+          "antwoord": "Nee.",
+          "uitleg": "De voorruit is extra stevig en bijna niet te breken. Neem een ferme hap lucht en wacht tot de auto grotendeels gezonken is; dan kun je het portier openen.",
+          "bron": {
+            "boek": 179,
+            "sectie": "10.8",
+            "anker": "Probeer niet de voorruit in te slaan want die is extra stevig"
+          }
+        }
+      ]
+    }
+  ]
+}

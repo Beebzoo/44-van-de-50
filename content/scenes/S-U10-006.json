@@ -1,0 +1,34 @@
+{
+  "id": "S-U10-006",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "L3b",
+      "arm": "zuid"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "blokmarkering",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een rechte straat met rechts het bord bushalte en een blokmarkering langs de stoeprand. Jij staat met je auto stil langs die markering.",
+  "inspiratie": {
+    "boek": 162
+  }
+}

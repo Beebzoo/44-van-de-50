@@ -1,0 +1,288 @@
+{
+  "unit": "U14",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U14-Q900",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+      "media": {
+        "borden": [
+          "C20",
+          "C18",
+          "C19",
+          "C5",
+          "C22",
+          "C22e"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C20",
+          "tekst": "C20",
+          "feedback": "Fout. Dit is C20: Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven. Het gevraagde bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C18",
+          "tekst": "C18",
+          "feedback": "Fout. Dit is C18: Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven. Het gevraagde bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C19",
+          "tekst": "C19",
+          "feedback": "Fout. Dit is C19: Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven. Het gevraagde bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C5",
+          "tekst": "C5",
+          "feedback": "Fout. Dit is C5: Inrijden toegestaan. Het gevraagde bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22",
+          "tekst": "C22",
+          "feedback": "Fout. Dit is C22: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen. Het gevraagde bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e",
+          "tekst": "C22e",
+          "feedback": "Goed. Dit is C22e, en dat bord betekent: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "C22e"
+      ],
+      "uitleg": {
+        "regel": "C22e betekent: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een zwarte auto en bestelbus met uitlaatgassen.",
+        "valkuil": "Verwar het niet met C22, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone of"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c22e",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q901",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C22e"
+      },
+      "opties": [
+        {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e",
+          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "feedback": "Goed. Dit is C22e: rode cirkel met een zwarte auto en bestelbus met uitlaatgassen, en dat betekent Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "fouttype": null
+        },
+        {
+          "id": "C22",
+          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C22e.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C22e"
+      ],
+      "uitleg": {
+        "regel": "C22e betekent: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte auto en bestelbus met uitlaatgassen.",
+        "valkuil": "De lijkers zijn C22. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone of"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c22e",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q902",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gesloten voor motorvoertuigen met aanhangwagen.",
+      "media": {
+        "borden": [
+          "C13",
+          "C10",
+          "C23-02",
+          "C2",
+          "C3",
+          "C6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C13",
+          "tekst": "C13",
+          "feedback": "Fout. Dit is C13: Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor. Het gevraagde bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C10",
+          "tekst": "C10",
+          "feedback": "Goed. Dit is C10, en dat bord betekent: Gesloten voor motorvoertuigen met aanhangwagen.",
+          "fouttype": null
+        },
+        {
+          "id": "C23-02",
+          "tekst": "C23-02",
+          "feedback": "Fout. Dit is C23-02: Spitsstrook vrijmaken. Het gevraagde bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C2",
+          "tekst": "C2",
+          "feedback": "Fout. Dit is C2: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of... Het gevraagde bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C3",
+          "tekst": "C3",
+          "feedback": "Fout. Dit is C3: Eenrichtingsweg. Het gevraagde bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C6",
+          "tekst": "C6",
+          "feedback": "Fout. Dit is C6: Gesloten voor motorvoertuigen op meer dan twee wielen. Het gevraagde bord is C10.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C10"
+      ],
+      "uitleg": {
+        "regel": "C10 betekent: Gesloten voor motorvoertuigen met aanhangwagen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een zwarte auto met aanhangwagen.",
+        "valkuil": "Verwar het niet met C6, C12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Rode cirkel met een zwarte auto met aanhangwagen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c10",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q903",
+      "unit": "U14",
+      "pagina": "U14-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C10"
+      },
+      "opties": [
+        {
+          "id": "C9",
+          "tekst": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+          "feedback": "Fout. Dat is de betekenis van C9, rode cirkel met tractor, ruiter, fiets en bromfiets. Dit bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C10",
+          "tekst": "Gesloten voor motorvoertuigen met aanhangwagen.",
+          "feedback": "Goed. Dit is C10: rode cirkel met een zwarte auto met aanhangwagen, en dat betekent Gesloten voor motorvoertuigen met aanhangwagen.",
+          "fouttype": null
+        },
+        {
+          "id": "C3",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C10.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C10"
+      ],
+      "uitleg": {
+        "regel": "C10 betekent: Gesloten voor motorvoertuigen met aanhangwagen.",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte auto met aanhangwagen.",
+        "valkuil": "De lijkers zijn C6, C12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Rode cirkel met een zwarte auto met aanhangwagen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c10",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

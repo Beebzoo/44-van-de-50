@@ -1,0 +1,28 @@
+{
+  "id": "S-U10-002",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "E2",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een rechte straat met rechts bord E2 op een paal. Jij staat met je auto stil langs de rechterkant van de rijbaan.",
+  "inspiratie": {
+    "boek": 161
+  }
+}

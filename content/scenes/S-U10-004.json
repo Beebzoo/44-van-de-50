@@ -1,0 +1,25 @@
+{
+  "id": "S-U10-004",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een kruispunt van twee even brede straten zonder borden. Jij staat met je auto stil langs de kant van de zuidelijke straat, vlak voor het kruispunt.",
+  "inspiratie": {
+    "boek": 163
+  }
+}

@@ -1,0 +1,1388 @@
+{
+  "id": "U14",
+  "slug": "voertuig-lading-aanhanger-en-milieu",
+  "titel": "Voertuig, lading, aanhanger en milieu",
+  "ondertitel": "Eisen aan je auto, de APK, wat je mag laden en hoe je schoon rijdt",
+  "volgorde": 14,
+  "week": 5,
+  "tier": "must",
+  "vereist": [
+    "U13"
+  ],
+  "borden": [
+    "C22e",
+    "C10"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "12.1",
+        "12.2",
+        "12.3",
+        "12.4",
+        "13.1",
+        "13.2",
+        "13.3",
+        "13.4",
+        "13.5",
+        "13.6",
+        "13.7",
+        "13.8"
+      ],
+      "paginas": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        209,
+        210,
+        211,
+        212,
+        214,
+        215,
+        216,
+        218,
+        219,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        233,
+        234,
+        235
+      ]
+    },
+    "cursus": {
+      "slides": [
+        212,
+        213,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        225,
+        226,
+        227,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        239,
+        240,
+        244,
+        245,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "voertuigkennis",
+    "verantwoorde_deelname_en_milieu"
+  ],
+  "intro": "Dit blok gaat over de auto zelf en over wat je ermee vervoert. Je leert aan welke eisen je voertuig moet voldoen, wanneer het gekeurd wordt, wat je voor vertrek controleert en wat de lampjes op je dashboard je vertellen. Daarna komt de lading: hoe lang, hoe breed en hoe hoog mag het, wat mag uitsteken en wanneer er een markeringsbord bij hoort. Tot slot de aanhangwagen met zijn massa's en rijbewijzen, plus het milieu: zuinig rijden, de juiste brandstof en de milieuzone. Het is een blok met veel getallen, dus leer die grenzen echt uit je hoofd.",
+  "paginas": [
+    {
+      "id": "U14-P01",
+      "anker": "p-13.1-voertuigeisen",
+      "titel": "Voertuigeisen: waar je auto aan moet voldoen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "13.1"
+          ],
+          "paginas": [
+            203,
+            204,
+            205,
+            206
+          ]
+        },
+        "cursus": {
+          "slides": [
+            225,
+            226,
+            227,
+            229,
+            230
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Je auto moet aan een hele reeks eisen voldoen. Is er iets niet in orde, dan loop je meer kans op een ongeval en riskeer je een boete. Het is ook verboden om te rijden met een auto die rijtechnisch in onvoldoende staat van onderhoud verkeert.",
+          "bron": [
+            {
+              "slide": 225,
+              "anker": "Is een van deze eisen niet in orde"
+            },
+            {
+              "boek": 203,
+              "sectie": "13.1",
+              "anker": "de auto rijtechnisch in onvoldoende staat van onderhoud verkeert"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r01",
+          "tekst": "Een personenauto mag beneden een hoogte van 2 meter geen scherpe delen hebben die gevaarlijk kunnen zijn voor andere weggebruikers. De wielen moeten goed afgeschermd zijn en alle onderdelen moeten goed vastzitten.",
+          "bron": [
+            {
+              "boek": 203,
+              "sectie": "13.1",
+              "anker": "geen scherpe delen hebben die gevaarlijk voor andere weggebruikers kunnen zijn"
+            },
+            {
+              "slide": 225,
+              "anker": "Personenauto's mogen beneden een hoogte van 2 meter geen scherpe delen hebben"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r02",
+          "tekst": "Je auto rijdt op luchtbanden met minimaal 1,6 mm profiel in de hoofdgroeven. De banden op een as moeten dezelfde maataanduiding hebben, behalve wanneer je een nood of reservewiel gebruikt.",
+          "bron": [
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "luchtbanden met minimaal 1,6 millimeter profiel in de hoofdgroeven"
+            },
+            {
+              "slide": 226,
+              "anker": "luchtbanden met minimaal 1,6 mm profiel"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r03",
+          "tekst": "De bedrijfsrem, dus je voetrem, moet op alle vier de wielen werken. De parkeerrem, dus je handrem, moet op minimaal twee wielen werken.",
+          "bron": [
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "de bedrijfsrem (voetrem) moet op alle vier de wielen werken"
+            },
+            {
+              "slide": 226,
+              "anker": "een remsysteem dat werkt op alle wielen + parkeerrem die werkt op minimaal 2 wielen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r04",
+          "tekst": "De voorruit en de voorste zijruiten moeten zonder beschadigingen en zichtbelemmeringen zijn, met werkende ruitenwissers, ruitensproeiers en verwarming voor ontdooien en ontwasemen. Folie op die ruiten moet ten minste 55% licht doorlaten.",
+          "bron": [
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "voorruit en voorste zijruiten zonder beschadigingen en zichtbelemmeringen"
+            },
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "op de voorruit en de voorste zijruiten ten minste 55% licht doorlaten"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r05",
+          "tekst": "Je hebt een binnenspiegel, een linker buitenspiegel en een rechter buitenspiegel nodig, alle drie zonder barsten. Gelijkwaardige camera-monitorsystemen mogen ook.",
+          "bron": [
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "binnenspiegel, linker buitenspiegel en rechter buitenspiegel zonder barsten"
+            },
+            {
+              "slide": 230,
+              "anker": "de auto een gebroken buitenspiegel heeft (spiegels zijn verplicht en mogen niet gebarsten zijn)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r06",
+          "tekst": "Alle zitplaatsen zijn in elke stand vergrendeld en hebben een gordel. Verder heb je een snelheidsmeter die ook 's nachts goed afleesbaar is, en een goedwerkende claxon met vaste toonhoogte.",
+          "bron": [
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "in elke stand vergrendeld zijn, allemaal beschikken over een gordel"
+            },
+            {
+              "boek": 204,
+              "sectie": "13.1",
+              "anker": "een snelheidsmeter die ook 's nachts goed afleesbaar is"
+            },
+            {
+              "slide": 229,
+              "anker": "één goedwerkende claxon met vaste toonhoogte"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Waar",
+            "Verplichte verlichting"
+          ],
+          "rijen": [
+            [
+              "Voorkant",
+              "2 stadslichten, 2 dimlichten, 2 grote lichten, 2 richtingaanwijzers en waarschuwingsknipperlichten"
+            ],
+            [
+              "Achterkant",
+              "2 achterlichten, 3 remlichten, 2 richtingaanwijzers, waarschuwingsknipperlichten, 1 mistachterlicht, 1 achteruitrijlicht, kentekenplaatverlichting en 2 niet-driehoekige retroreflectoren"
+            ],
+            [
+              "Elke zijkant",
+              "1 richtingaanwijzer, oranje"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 205,
+              "sectie": "13.1",
+              "anker": "2 stadslichten (wit of geel) | 2 dimlichten (wit of geel)"
+            },
+            {
+              "slide": 229,
+              "anker": "twee niet-driehoekige rode retroreflectoren aan de achterzijde"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r07",
+          "tekst": "Als de mistlichten of de mistachterlichten branden, moet je dat kunnen zien aan een controlelampje op het dashboard.",
+          "bron": [
+            {
+              "boek": 205,
+              "sectie": "13.1",
+              "anker": "als de mistlichten of de mistachterlichten branden, moet dit te zien zijn aan een controlelampje"
+            },
+            {
+              "slide": 229,
+              "anker": "als de mistlichten branden, moet dit te zien zijn aan een controlelampje op het dashboard"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een mistlicht aan de voorzijde is niet verplicht, een mistachterlicht wel. En extra verlichting monteren mag vaak niet, dus zoek van tevoren goed uit of jouw extra lampen zijn toegestaan.",
+          "bron": [
+            {
+              "slide": 229,
+              "anker": "mistlicht aan de voorzijde is niet verplicht"
+            },
+            {
+              "boek": 205,
+              "sectie": "13.1",
+              "anker": "Vaak is het monteren van extra verlichting verboden; zoek dus goed uit"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Een brandblusser, een verbandtrommel en een gevarendriehoek zijn wettelijk niet verplicht. Handig om bij je te hebben zijn ze wel: kom je op een gevaarlijke plek stil te staan en werken je alarmlichten niet, dan moet je een gevarendriehoek plaatsen.",
+          "bron": [
+            {
+              "boek": 206,
+              "sectie": "13.1",
+              "anker": "Een brandblusser en verbandtrommel zijn wettelijk niet verplicht, maar het is wel verstandig"
+            },
+            {
+              "slide": 230,
+              "anker": "Brandblusapparaat, verbandtrommel en gevarendriehoek in de auto zijn wettelijk niet verplicht"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "1,6 mm profiel, 55% lichtdoorlating, vier wielen voetrem en twee wielen handrem."
+        }
+      ]
+    },
+    {
+      "id": "U14-P02",
+      "anker": "p-13.2-apk-en-controle",
+      "titel": "De APK en je controle voor de rit",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "13.2",
+            "13.3",
+            "13.6"
+          ],
+          "paginas": [
+            206,
+            207,
+            209,
+            210,
+            224,
+            225
+          ]
+        },
+        "cursus": {
+          "slides": [
+            231,
+            232,
+            233,
+            234,
+            235,
+            236
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U14-r08",
+          "tekst": "Personenauto's, bestelauto's, vrachtauto's en autobussen moeten regelmatig gekeurd worden. Bij die algemene periodieke keuring wordt je voertuig goedgekeurd als het voldoet aan de eisen voor verkeersveiligheid en milieu.",
+          "bron": [
+            {
+              "boek": 206,
+              "sectie": "13.2",
+              "anker": "je voertuig wordt goedgekeurd als het voldoet aan de eisen voor verkeersveiligheid en milieu"
+            },
+            {
+              "slide": 231,
+              "anker": "De eigenaar moet zorgen dat de auto tijdig gekeurd wordt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r09",
+          "tekst": "Zes weken voor de vervaldatum krijg je van de RDW een herinneringsbrief. Na goedkeuring is het keuringsbewijs 1 of 2 jaar geldig, en je hoeft het onderweg niet te kunnen tonen: de politie kijkt het in een systeem na.",
+          "bron": [
+            {
+              "boek": 206,
+              "sectie": "13.2",
+              "anker": "Zes weken voor de APK-vervaldatum ontvang je van de Rijksdienst voor het wegverkeer"
+            },
+            {
+              "slide": 231,
+              "anker": "Na goedkeuring is het APK-keuringsbewijs 1 of 2 jaar geldig"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r10",
+          "tekst": "Zowel de eigenaar of houder als de bestuurder is verantwoordelijk en dus strafbaar als er zonder geldige keuring wordt gereden. Dat geldt ook voor rijden met een voertuig dat technisch niet in orde is.",
+          "bron": {
+            "boek": 206,
+            "sectie": "13.2",
+            "anker": "Zowel de eigenaar / houder als de bestuurder van het voertuig zijn verantwoordelijk"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Wanneer",
+            "Wat je controleert"
+          ],
+          "rijen": [
+            [
+              "Voor de rit, onder de motorkap",
+              "Oliepeil, koelvloeistof, remvloeistof, ruitensproeiervloeistof en lekkages onder de auto"
+            ],
+            [
+              "Voor de rit, rondom",
+              "Spiegels en ruiten schoon en heel, verlichting schoon en werkend, banden en bandenspanning"
+            ],
+            [
+              "Voor de rit, op je plek",
+              "Stand van stoel, hoofdsteun, stuur en spiegels, en je gordel om"
+            ],
+            [
+              "Tijdens de rit",
+              "De meters en lampjes op je dashboard, en vreemde geluiden, trillingen en geuren"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 207,
+              "sectie": "13.3",
+              "anker": "Voor je gaat rijden, moet je een aantal controles uitvoeren"
+            },
+            {
+              "slide": 232,
+              "anker": "het niveau van de motorolie, koelvloeistof en ruitensproeiervloeistof, de verlichting, de bandenspanning"
+            },
+            {
+              "boek": 210,
+              "sectie": "13.3",
+              "anker": "Controleer voor elke rit of je stoel, hoofdsteun, stuur en spiegels goed zijn afgesteld"
+            },
+            {
+              "boek": 207,
+              "sectie": "13.3",
+              "anker": "houd je de controlemeters en lampjes in de gaten"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r11",
+          "tekst": "Luchtbanden lopen langzaam leeg. Controleer de spanning een keer per maand, het liefst aan het begin van de rit als de banden nog koud zijn. Te lage spanning geeft slechtere rijeigenschappen en meer brandstofverbruik.",
+          "bron": [
+            {
+              "boek": 209,
+              "sectie": "13.3",
+              "anker": "Controleer een keer per maand de bandenspanning voor meer veiligheid, minder slijtage"
+            },
+            {
+              "slide": 235,
+              "anker": "banden met te lage spanning hebben slechtere rijeigenschappen en verhogen het brandstofverbruik"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Banden die met stikstof zijn gevuld blijven veel langer op spanning, omdat stikstof niet via de poriën ontsnapt. Je herkent ze aan een groen ventieldopje.",
+          "bron": [
+            {
+              "boek": 225,
+              "sectie": "13.6",
+              "anker": "Banden met stikstof kun je herkennen aan een **groen** ventieldopje"
+            },
+            {
+              "slide": 235,
+              "anker": "Ze zijn herkenbaar aan een groene ventieldop"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r12",
+          "tekst": "Zorg voor vertrek dat je ruiten en spiegels schoon zijn. Wordt je voorruit onderweg vuil, bijvoorbeeld bij het inhalen van een vrachtauto, dan moet je dat meteen kunnen verhelpen met je ruitensproeier.",
+          "bron": [
+            {
+              "slide": 234,
+              "anker": "Maak vóór vertrek je ruiten en spiegels schoon"
+            },
+            {
+              "slide": 234,
+              "anker": "Zorg dus dat je altijd voldoende ruitensproeiervloeistof in je reservoir hebt"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "Parkeer op een veilige, vlakke, verharde plaats",
+            "Schakel je alarmlichten in en trek een veiligheidsvest aan",
+            "Plaats zo nodig de gevarendriehoek",
+            "Draai de wielmoeren een slag los en krik de auto omhoog",
+            "Haal het lekke wiel eraf en plaats het reservewiel",
+            "Draai de wielmoeren handvast, laat de auto zakken en draai ze dan pas vast"
+          ],
+          "bron": [
+            {
+              "slide": 233,
+              "anker": "parkeer op een veilige, vlakke, verharde plaats"
+            },
+            {
+              "slide": 233,
+              "anker": "9. draai de wielmoeren handvast 10. laat de auto weer zakken"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Vertrouw er niet op dat een kapotte lamp altijd met een melding op je dashboard komt. Daarom controleer je dagelijks zelf je verlichting, remlichten en richtingaanwijzers.",
+          "bron": [
+            {
+              "boek": 224,
+              "sectie": "13.6",
+              "anker": "Je mag er niet op vertrouwen dat een defecte lamp altijd met een melding"
+            },
+            {
+              "slide": 236,
+              "anker": "Controleer dagelijks je verlichting, remlichten en richtingaanwijzers"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Bandenspanning een keer per maand, verlichting elke dag."
+        }
+      ]
+    },
+    {
+      "id": "U14-P03",
+      "anker": "p-13.4-dashboard-en-rijhulp",
+      "titel": "Het dashboard en de rijhulpsystemen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "13.4",
+            "13.5"
+          ],
+          "paginas": [
+            211,
+            212,
+            214,
+            215,
+            216,
+            218,
+            219
+          ]
+        },
+        "cursus": {
+          "slides": [
+            237,
+            239,
+            240,
+            244,
+            245
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "De middelste meter is de snelheidsmeter en links zit de toerenteller, die aangeeft hoeveel omwentelingen de krukas per minuut maakt. Voor het examen tellen vooral de controlelampjes, en daar helpt een simpele kleurregel je door bijna elke vraag heen.",
+          "bron": [
+            {
+              "boek": 211,
+              "sectie": "13.4",
+              "anker": "De middelste meter is de snelheidsmeter die aangeeft met welke snelheid je rijdt"
+            },
+            {
+              "boek": 212,
+              "sectie": "13.4",
+              "anker": "Links zie je de toerenteller, die aangeeft hoeveel omwentelingen (toeren) de krukas"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r13",
+          "tekst": "Gaat er een rood waarschuwingslampje branden, dan is er een ernstige storing. Stop op een veilige plaats en schakel de motor uit om de auto te laten repareren.",
+          "bron": [
+            {
+              "boek": 214,
+              "sectie": "13.4",
+              "anker": "Als er een rood waarschuwingslampje gaat branden, is er sprake van een ernstige storing"
+            },
+            {
+              "slide": 237,
+              "anker": "Stop op een veilige plaats en schakel de motor uit om de auto te"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r14",
+          "tekst": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen. Je kunt bijvoorbeeld doorrijden naar je dealer, maar blijf niet langer doorrijden dan strikt noodzakelijk is.",
+          "bron": [
+            {
+              "boek": 216,
+              "sectie": "13.4",
+              "anker": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen"
+            },
+            {
+              "slide": 237,
+              "anker": "Je hoeft niet onmiddelijk te stoppen, maar blijf niet langer doorrijden dan noodzakelijk is"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Lampje",
+            "Kleur",
+            "Wat het betekent"
+          ],
+          "rijen": [
+            [
+              "Oliekannetje",
+              "Rood",
+              "De oliedruk is te laag: zet direct de motor af en controleer het oliepeil"
+            ],
+            [
+              "Thermometer in golvend water",
+              "Rood",
+              "De koelvloeistof is te heet: zet direct de motor af en controleer het niveau"
+            ],
+            [
+              "Accu met plus en min",
+              "Rood",
+              "De accu wordt niet bijgeladen, de dynamo of de V-riem is kapot"
+            ],
+            [
+              "Uitroepteken in een cirkel",
+              "Rood",
+              "Er is een probleem met het remsysteem"
+            ],
+            [
+              "Motorblok",
+              "Geel",
+              "Storing in het managementsysteem van de motor, met gevolgen voor de uitstoot"
+            ],
+            [
+              "Benzinepomp",
+              "Geel",
+              "De brandstoftank is bijna leeg"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 215,
+              "sectie": "13.4",
+              "anker": "De oliedruk is te laag, zet direct de motor af en controleer het niveau"
+            },
+            {
+              "boek": 215,
+              "sectie": "13.4",
+              "anker": "De accu wordt niet bijgeladen, de dynamo of V-riem is kapot"
+            },
+            {
+              "boek": 216,
+              "sectie": "13.4",
+              "anker": "Er is een storing in het elektronisch managementsysteem van de motor"
+            },
+            {
+              "slide": 237,
+              "anker": "een benzinepomp. De brandstoftank is bijna leeg"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Branden het koelvloeistoflampje en het accu-lampje tegelijk, dan is de V-snaar waarschijnlijk gebroken. Die drijft namelijk zowel de koelvloeistofpomp als de dynamo aan, dus je motor raakt oververhit.",
+          "bron": {
+            "slide": 237,
+            "anker": "Als de koelvloeistoftemperatuur te hoog wordt én tegelijkertijd het accu-lampje brandt"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U14-r15",
+          "tekst": "De belangrijkste regel bij rijhulpsystemen is dat jij als bestuurder altijd zelf verantwoordelijk bent voor de rijtaak. De systemen ondersteunen je, ze nemen het rijden niet over. Je moet dus ook weten wat de grenzen en beperkingen van elk systeem zijn.",
+          "bron": [
+            {
+              "boek": 218,
+              "sectie": "13.5",
+              "anker": "jij als bestuurder altijd zelf verantwoordelijk bent voor het uitvoeren van de rijtaak"
+            },
+            {
+              "slide": 239,
+              "anker": "Rijhulpsystemen ondersteunen je, maar nemen het rijden niet over"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "Noodremsysteem (AEB): waarschuwt als je te weinig afstand houdt en remt zelf als jij niet ingrijpt",
+            "Snelheidsondersteuning (ISA): herkent snelheidslimieten en waarschuwt of remt als je te hard rijdt",
+            "Informatiesysteem dode hoek (BSM): waarschuwt via je buitenspiegel voor voertuigen in je dode hoek"
+          ],
+          "bron": [
+            {
+              "slide": 244,
+              "anker": "Waarschuwt als je te weinig afstand houdt. Reageer je niet, dan remt je auto automatisch"
+            },
+            {
+              "slide": 245,
+              "anker": "Herkent snelheidslimieten en waarschuwt of remt bij te hard rijden"
+            },
+            {
+              "slide": 245,
+              "anker": "Waarschuwt via de buitenspiegel voor voertuigen of objecten in de dode hoek"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Het risico van rijhulpsystemen is dat je je gedrag ongemerkt aanpast, bijvoorbeeld dichter op je voorligger gaan rijden omdat de auto toch wel remt. Let er ook op dat je sensoren en camera's schoon zijn, want vuil, sneeuw of ijs vermindert de werking.",
+          "bron": [
+            {
+              "boek": 219,
+              "sectie": "13.5",
+              "anker": "je rijdt met een kleinere volgafstand omdat je erop vertrouwt dat de auto"
+            },
+            {
+              "slide": 240,
+              "anker": "zorg dat sensoren en camera's schoon zijn. Vuil, sneeuw of ijs kan de werking"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rood betekent stoppen, geel betekent laten nakijken, en de bestuurder blijft altijd zelf verantwoordelijk."
+        }
+      ]
+    },
+    {
+      "id": "U14-P04",
+      "anker": "p-13.7-lading",
+      "titel": "Lading: hoogte, breedte en wat uitsteekt",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "13.7"
+          ],
+          "paginas": [
+            226,
+            227,
+            228,
+            229
+          ]
+        },
+        "cursus": {
+          "slides": [
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U14-r16",
+          "tekst": "Een personenauto mag maximaal 12 meter lang zijn, maximaal 2,55 meter breed en maximaal 4 meter hoog, die laatste twee inclusief de lading. Voor een aanhangwagen gelden dezelfde drie maten.",
+          "bron": [
+            {
+              "boek": 226,
+              "sectie": "13.7",
+              "anker": "maximaal 12 meter lang zijn, maximaal 2,55 meter breed zijn (inclusief lading)"
+            },
+            {
+              "boek": 226,
+              "sectie": "13.7",
+              "anker": "maximaal 4 meter hoog zijn (inclusief lading)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r17",
+          "tekst": "Een combinatie van auto en aanhangwagen mag maximaal 18 meter lang zijn, ook al mogen beide delen apart 12 meter zijn.",
+          "bron": [
+            {
+              "boek": 227,
+              "sectie": "13.7",
+              "anker": "Zo'n combinatie mag: maximaal 18 meter lang zijn"
+            },
+            {
+              "slide": 248,
+              "anker": "auto + aanhangwagen (blauwe pijl) 18 meter"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r18",
+          "tekst": "Lading op een imperiaal of op een lastdrager aan je trekhaak mag aan elke zijkant maximaal 20 cm buiten je auto uitsteken. Overschrijd de toegestane daklast niet, en gebruik een lastdrager alleen waar hij voor bedoeld is.",
+          "bron": [
+            {
+              "boek": 226,
+              "sectie": "13.7",
+              "anker": "de lading mag aan de zijkanten maximaal 20 cm uitsteken buiten je auto"
+            },
+            {
+              "slide": 249,
+              "anker": "de lading mag maximaal 20 centimeter aan elke zijkant uitsteken"
+            },
+            {
+              "boek": 226,
+              "sectie": "13.7",
+              "anker": "je mag de lastdrager alleen voor geschikte doeleinden gebruiken"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Situatie",
+            "Voorkant",
+            "Achterkant"
+          ],
+          "rijen": [
+            [
+              "Deelbare lading op de auto",
+              "Uitsteken verboden",
+              "Max. 1 meter achter de auto en max. 5 meter achter de achterste as"
+            ],
+            [
+              "Ondeelbare lading op de auto",
+              "Max. 1 meter voor de auto",
+              "Max. 1 meter achter de auto"
+            ],
+            [
+              "Deelbare lading op de aanhangwagen",
+              "Uitsteken verboden",
+              "Max. 1 meter achter de aanhangwagen en max. 5 meter achter de achterste as"
+            ],
+            [
+              "Ondeelbare lading op de aanhangwagen",
+              "Uitsteken verboden",
+              "Max. de helft van de lengte van de aanhangwagen, tot max. 5 meter achter de achterste as"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 250,
+              "anker": "max. 1 meter achter de auto - max. 5 meter achter de achterste as"
+            },
+            {
+              "slide": 251,
+              "anker": "max. 1 meter voor de auto"
+            },
+            {
+              "slide": 252,
+              "anker": "max. 1 meter achter de aanhangwagen"
+            },
+            {
+              "slide": 253,
+              "anker": "max. de helft van de lengte van de aanhangwagen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r19",
+          "tekst": "Op een aanhangwagen mag deelbare lading aan de zijkanten uitsteken tot in totaal 2,55 meter breed. Ondeelbare lading mag daar maximaal 3 meter breed zijn.",
+          "bron": [
+            {
+              "boek": 228,
+              "sectie": "13.7",
+              "anker": "mag aan de zijkanten uitsteken tot een maximum van in totaal 2,55 meter"
+            },
+            {
+              "boek": 228,
+              "sectie": "13.7",
+              "anker": "ondeelbare lading mag maximaal 3 meter breed zijn"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r20",
+          "tekst": "Op een auto zijn markeringsborden voor uitstekende lading niet verplicht. Op een aanhangwagen wel: als de lading aan een zijkant meer dan 10 cm uitsteekt, of aan de achterkant meer dan 1 meter.",
+          "bron": [
+            {
+              "boek": 229,
+              "sectie": "13.7",
+              "anker": "markeringsborden voor uitstekende lading zijn niet verplicht"
+            },
+            {
+              "boek": 229,
+              "sectie": "13.7",
+              "anker": "als de lading aan een zijkant meer dan 10 cm uitsteekt"
+            },
+            {
+              "slide": 254,
+              "anker": "aan de achterkant > 1 meter uitsteekt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r21",
+          "tekst": "Een markeringsbord voor uitstekende lading is rood en wit diagonaal gestreept. Breedtemarkering breng je zowel aan de voorkant als aan de achterkant aan, en 's nachts moeten de borden verlicht zijn.",
+          "bron": [
+            {
+              "slide": 254,
+              "anker": "breedtemarkering moet je zowel aan de voor- de achterzijde aanbrengen"
+            },
+            {
+              "slide": 254,
+              "anker": "markeringsborden moeten 's nachts verlicht zijn"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Verdeel je lading goed. Hangt je auto achterover, dan stralen je koplampen omhoog en verblind je tegenliggers. Zet de lading ook vast, zodat die bij remmen of uitwijken op zijn plaats blijft.",
+          "bron": [
+            {
+              "boek": 226,
+              "sectie": "13.7",
+              "anker": "verdeel de lading goed; als je auto achterover hangt, zullen je koplampen omhoog stralen"
+            },
+            {
+              "boek": 226,
+              "sectie": "13.7",
+              "anker": "zet de lading goed vast; zorg dat je geen lading verliest"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Deelbaar mag nooit naar voren; ondeelbaar mag dat op de auto wel, tot 1 meter."
+        }
+      ]
+    },
+    {
+      "id": "U14-P05",
+      "anker": "p-13.8-aanhangwagen",
+      "titel": "De aanhangwagen en je rijbewijs",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "13.8"
+          ],
+          "paginas": [
+            229,
+            230,
+            231,
+            233,
+            234,
+            235
+          ]
+        },
+        "cursus": {
+          "slides": [
+            255,
+            256,
+            257
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U14-r22",
+          "tekst": "De wet noemt een aanhangwagen een voertuig dat kennelijk is bestemd om te worden voortbewogen door een motorrijtuig. Ook opleggers, caravans en een gesleepte auto vallen daaronder.",
+          "bron": {
+            "boek": 229,
+            "sectie": "13.8",
+            "anker": "een voertuig dat kennelijk is bestemd om te worden voortbewogen door een motorrijtuig"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U14-r23",
+          "tekst": "Heeft een aanhangwagen geen kentekenbewijs, dan is de toegestane maximummassa 750 kg. Tot en met 750 kg hoort er een witte kentekenplaat op met het kenteken van de trekkende auto; boven 750 kg heeft de aanhangwagen een eigen kentekenbewijs en een gele plaat met eigen kenteken.",
+          "bron": [
+            {
+              "boek": 230,
+              "sectie": "13.8",
+              "anker": "als een aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg"
+            },
+            {
+              "boek": 231,
+              "sectie": "13.8",
+              "anker": "moeten voorzien zijn van een witte kentekenplaat met daarop hetzelfde kenteken als de trekkende auto"
+            },
+            {
+              "boek": 231,
+              "sectie": "13.8",
+              "anker": "hebben een eigen kentekenbewijs. Zij moeten voorzien zijn van een normale gele kentekenplaat"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r24",
+          "tekst": "Een aanhangwagen tot en met 1.500 kg moet een losbreekreminrichting of een hulpkoppeling hebben. Boven 1.500 kg is een losbreekreminrichting verplicht.",
+          "bron": [
+            {
+              "boek": 231,
+              "sectie": "13.8",
+              "anker": "toegestane maximummassa t/m 1.500 kilogram moeten een losbreekreminrichting of hulpkoppeling hebben"
+            },
+            {
+              "slide": 255,
+              "anker": "hulpkoppeling of losbreekrem verplicht - beide tegelijk is niet toegestaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r25",
+          "tekst": "Een reminrichting is niet verplicht als de totale massa van de aanhangwagen minder is dan 750 kg en minder dan 50% van het rijklaargewicht van het trekkende voertuig. In alle andere gevallen is hij wel verplicht.",
+          "bron": [
+            {
+              "boek": 233,
+              "sectie": "13.8",
+              "anker": "is een reminrichting *niét* verplicht. In alle andere gevallen is een reminrichting"
+            },
+            {
+              "boek": 233,
+              "sectie": "13.8",
+              "anker": "minder dan 50% van het rijklaargewicht van het trekkende voertuig"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r26",
+          "tekst": "De last onder de koppeling van een middenasaanhangwagen tot 750 kg moet naar beneden gericht zijn en mag maximaal 50 kg zijn. Weegt de aanhangwagen meer dan 750 kg, dan mag die last niet minder zijn dan 1% van de toegestane maximummassa.",
+          "bron": [
+            {
+              "boek": 230,
+              "sectie": "13.8",
+              "anker": "moet neerwaarts gericht zijn en mag maximaal 50 kg zijn"
+            },
+            {
+              "boek": 230,
+              "sectie": "13.8",
+              "anker": "mag niet minder dan 1% van de toegestane maximummassa van het voertuig zijn"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Aanhangwagen",
+            "Combinatie",
+            "Rijbewijs"
+          ],
+          "rijen": [
+            [
+              "Tot en met 750 kg",
+              "Geen extra eis",
+              "B"
+            ],
+            [
+              "Meer dan 750 kg",
+              "Tot en met 3.500 kg",
+              "B"
+            ],
+            [
+              "Meer dan 750 kg",
+              "Tussen 3.500 en 4.250 kg",
+              "B met code 96 of BE"
+            ],
+            [
+              "Meer dan 750 kg",
+              "Meer dan 4.250 kg, tot 7.000 kg",
+              "BE"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 233,
+              "sectie": "13.8",
+              "anker": "als de toegestane maximummassa van de aanhangwagen niet meer bedraagt dan 750 kilogram"
+            },
+            {
+              "boek": 233,
+              "sectie": "13.8",
+              "anker": "de toegestane maximummassa van de combinatie tussen de 3.500 en 4.250 kilogram ligt"
+            },
+            {
+              "boek": 234,
+              "sectie": "13.8",
+              "anker": "de toegestane maximummassa van de combinatie is dus maximaal 7.000 kilogram"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r27",
+          "tekst": "Je mag geen personen op of in een aanhangwagen of caravan vervoeren. Hindert de aanhangwagen je zicht naar achteren, dan moet je extra buitenspiegels op je auto zetten.",
+          "bron": [
+            {
+              "boek": 230,
+              "sectie": "13.8",
+              "anker": "het is verboden om personen op of in je aanhangwagen te vervoeren"
+            },
+            {
+              "boek": 230,
+              "sectie": "13.8",
+              "anker": "moet je extra buitenspiegels aanbrengen op je auto"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r28",
+          "tekst": "Elke aanhangwagen en oplegger heeft aan de achterkant twee driehoekige retroreflectoren. Zie je die van achteren, dan weet je dat je een voertuigcombinatie nadert. Dat is handig om te weten voordat je gaat inhalen.",
+          "bron": {
+            "boek": 235,
+            "sectie": "13.8",
+            "anker": "Elke aanhangwagen en oplegger moet aan de achterzijde twee driehoekige retroreflectoren hebben"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C10"
+          ],
+          "tekst": "Staat dit bord bij een weg, dan is die weg gesloten voor motorvoertuigen met een aanhangwagen. Je ziet het bijvoorbeeld bij een smalle straat of een krappe brug waar je met een combinatie niet doorheen komt."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Met een BE-rijbewijs mag je ook rijden waar B met code 96 voor nodig is, maar andersom werkt het niet. De praktijkexamens voor allebei zijn hetzelfde, dus vrijwel iedereen kiest voor BE.",
+          "bron": [
+            {
+              "boek": 234,
+              "sectie": "13.8",
+              "anker": "Met een BE-rijbewijs mag je ook een combinatie besturen waarvoor een B-rijbewijs"
+            },
+            {
+              "boek": 234,
+              "sectie": "13.8",
+              "anker": "Die praktijkexamens zijn hetzelfde. Daarom kiest vrijwel iedereen voor het BE-examen"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "750 kg is de eerste grens, 3.500 kg de tweede en 4.250 kg de grens waarboven alleen BE nog telt."
+        }
+      ]
+    },
+    {
+      "id": "U14-P06",
+      "anker": "p-12.4-milieu",
+      "titel": "Milieu: zuinig rijden, tanken en de milieuzone",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "12.1",
+            "12.2",
+            "12.3",
+            "12.4"
+          ],
+          "paginas": [
+            200,
+            201,
+            202
+          ]
+        },
+        "cursus": {
+          "slides": [
+            212,
+            213,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "De uitstoot van verbrandingsmotoren draagt bij aan de opwarming van de aarde en aan een ongezond leefklimaat. Tijdens het rijden op elektriciteit of waterstof komen geen schadelijke stoffen vrij.",
+          "bron": [
+            {
+              "slide": 212,
+              "anker": "Uitstoot van verbrandingsmotoren draagt bij aan de opwarming van de aarde"
+            },
+            {
+              "slide": 213,
+              "anker": "Tijdens het rijden op elektriciteit en waterstof komen geen schadelijke stoffen vrij"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r29",
+          "tekst": "Auto's zijn verplicht uitgerust met een katalysator. Die zet de schadelijke uitlaatgassen voor 90% om in niet-schadelijke stoffen, maar werkt pas goed als de motor op temperatuur is, na 10 tot 15 minuten rijden.",
+          "bron": [
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "zijn auto's verplicht uitgerust met een katalysator in het uitlaatsysteem"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "worden de schadelijke uitlaatgassen voor 90% omgezet in niet-schadelijke stoffen"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "werkt pas goed als de automotor op temperatuur is, na 10 tot 15 minuten rijden"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "Rijd na het starten direct rustig weg, ook in de winter",
+            "Gebruik de toerenteller om op tijd op te schakelen",
+            "Houd afstand en anticipeer, zodat je niet telkens hoeft te remmen",
+            "Laat je auto uitrollen in de versnelling als je moet stoppen",
+            "Schakel de motor uit als je langer dan 1 minuut moet stilstaan",
+            "Gebruik je airco spaarzaam: met de airco aan kan het verbruik tot wel 15% hoger zijn"
+          ],
+          "bron": [
+            {
+              "slide": 215,
+              "anker": "rijd na het starten direct rustig weg, ook in de winter"
+            },
+            {
+              "slide": 215,
+              "anker": "schakel de motor uit als je langer dan 1 minuut moet stilstaan"
+            },
+            {
+              "slide": 216,
+              "anker": "met de airco aan kan het verbruik tot wel 15% hoger zijn"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r30",
+          "tekst": "Zorg dat je weet welke brandstof bij jouw auto hoort; dat staat op de tankklep of in het instructieboekje. Op het vulpistool staat een code die het type brandstof aangeeft.",
+          "bron": [
+            {
+              "slide": 217,
+              "anker": "Zorg dat je weet welke brandstof bij jouw auto hoort"
+            },
+            {
+              "slide": 217,
+              "anker": "Op het vulpistool van de brandstofpomp staat met een code het type brandstof aangegeven"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r31",
+          "tekst": "Heb je toch verkeerd getankt, start de motor dan niet. Onderdelen van je motor en brandstofsysteem kunnen ernstig beschadigd raken. Roep deskundige hulp in om je brandstofsysteem leeg te laten maken.",
+          "bron": [
+            {
+              "slide": 218,
+              "anker": "Toch verkeerd getankt? Start de motor niet"
+            },
+            {
+              "slide": 218,
+              "anker": "Roep deskundige hulp in om je brandstofsysteem leeg te laten maken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r32",
+          "tekst": "Geluidsoverlast is ook een vorm van milieuvervuiling. Een lawaaimakende uitlaat monteren, keiharde muziek draaien, onnodig claxonneren, spelen met je gaspedaal en wegrijden met piepende banden zijn daarom verboden.",
+          "bron": [
+            {
+              "boek": 201,
+              "sectie": "12.2",
+              "anker": "Ook spelen met het gaspedaal, wegrijden met piepende banden en onnodig toeteren"
+            },
+            {
+              "slide": 219,
+              "anker": "een lawaaimakende uitlaat monteren - keiharde muziek draaien - onnodig claxonneren"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r33",
+          "tekst": "Een milieuzone is een gebied dat verboden is voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen met een dieselmotor. Een nul-emissiezone is verboden voor alle soorten bedrijfsauto's en vrachtauto's, behalve voor uitstootvrije voertuigen op stroom of waterstof.",
+          "bron": [
+            {
+              "boek": 202,
+              "sectie": "12.4",
+              "anker": "Een milieuzone is een gebied dat verboden is voor personenauto's"
+            },
+            {
+              "boek": 202,
+              "sectie": "12.4",
+              "anker": "verboden is voor alle soorten bedrijfsauto's en vrachtauto's, behalve voor uitstootvrije voertuigen"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C22e"
+          ],
+          "tekst": "Dit ronde bord staat in een ZONE-kader aan het begin van een milieuzone of een nul-emissiezone. Onderborden vertellen je voor welke voertuigen en welke emissieklassen de zone geldt; jouw emissieklasse staat op het kentekenbewijs."
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "De rolweerstand en het brandstofverbruik",
+            "De grip op een nat wegdek en de remweg",
+            "De geluidsproductie bij 80 km/u",
+            "De prestaties bij hevige sneeuw of ijs"
+          ],
+          "bron": [
+            {
+              "slide": 221,
+              "anker": "Alle verkochte nieuwe banden moeten voorzien zijn van een bandenlabel"
+            },
+            {
+              "slide": 221,
+              "anker": "de grootte van de rolweerstand en het brandstofverbruik"
+            },
+            {
+              "slide": 221,
+              "anker": "de geluidsproductie bij 80 km/u"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Denk ook aan schoonmaken en onderhoud. Zorg dat er geen vervuilende of gevaarlijke stoffen in de bodem of de riolering komen, en breng oude onderdelen, accu's en banden naar de juiste inleverplek. In veel gemeenten is je auto wassen op de openbare weg trouwens verboden.",
+          "bron": [
+            {
+              "boek": 201,
+              "sectie": "12.3",
+              "anker": "Zorg dat er geen vervuilende / gevaarlijke stoffen in het milieu"
+            },
+            {
+              "boek": 201,
+              "sectie": "12.3",
+              "anker": "In veel gemeenten is het wassen van je auto op de openbare weg"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Milieuzone kijkt naar diesel en emissieklasse, nul-emissiezone laat alleen uitstootvrij toe."
+        }
+      ]
+    }
+  ]
+}

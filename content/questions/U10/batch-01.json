@@ -1,0 +1,821 @@
+{
+  "unit": "U10",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U10-Q001",
+      "unit": "U10",
+      "pagina": "U10-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat met je auto langs de kant en blijft achter het stuur zitten tot je collega naar buiten komt. Ben je volgens de regels aan het parkeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Wachten op iemand die nog moet komen is geen onmiddellijk in- of uitstappen, dus het valt onder parkeren.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je zit nog achter het stuur en dat voelt als even stilstaan, maar de regels kijken naar wat je doet en wachten telt als parkeren.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Stilstaan is alleen het onmiddellijk in- of uitstappen van passagiers of het onmiddellijk laden of lossen van goederen. Alle andere vormen van vrijwillig stilstaan heten parkeren.",
+        "waarom": "Zolang je wacht, houd je de plek bezet zonder dat er iemand in of uit stapt, en precies daar gaan de parkeerregels over.",
+        "valkuil": "Achter het stuur blijven zitten of de motor laten draaien verandert er niets aan.",
+        "onthoud": "Wachten op een passagier is parkeren."
+      },
+      "bronnen": [
+        {
+          "boek": 159,
+          "sectie": "10.1",
+          "anker": "in je auto blijven zitten om op een passagier te wachten"
+        },
+        {
+          "slide": 181,
+          "anker": "alle andere vormen van 'vrijwillig stilstaan'"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "stilstaan",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "in je auto blijven zitten om op een passagier te wachten",
+        "bron": "boek p. 159"
+      }
+    },
+    {
+      "id": "U10-Q002",
+      "unit": "U10",
+      "pagina": "U10-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Welke van deze situaties valt onder stilstaan en dus niet onder parkeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je laadt boodschappen in de kofferbak en rijdt meteen daarna weg.",
+          "feedback": "Goed. Het onmiddellijk laden of lossen van goederen is precies wat onder stilstaan valt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je loopt even de bakker in om brood te halen.",
+          "feedback": "Fout. Even een boodschap doen is een andere vorm van vrijwillig stilstaan en heet daarom parkeren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je blijft stilstaand met je mobiel bellen.",
+          "feedback": "Fout. Stilstaand bellen staat in het rijtje voorbeelden van parkeren, hoe kort het ook duurt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Je laat je auto achter op een parkeerterrein.",
+          "feedback": "Fout. Je voertuig ergens achterlaten is het duidelijkste voorbeeld van parkeren dat er is.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Stilstaan is het onmiddellijk in- of uitstappen van passagiers of het onmiddellijk laden of lossen van goederen, en het mag niet langer duren dan strikt noodzakelijk is.",
+        "waarom": "Bij de andere drie ben je niet bezig met laden, lossen of met mensen die in of uit stappen, dus blijft alleen de restcategorie over.",
+        "valkuil": "De duur is niet wat telt, want ook een heel korte boodschap bij de bakker heet parkeren.",
+        "onthoud": "Laden, lossen, in- en uitstappen: dat is stilstaan. De rest is parkeren."
+      },
+      "bronnen": [
+        {
+          "boek": 159,
+          "sectie": "10.1",
+          "anker": "stilstaan voor het onmiddellijk laden of lossen van goederen"
+        },
+        {
+          "boek": 159,
+          "sectie": "10.1",
+          "anker": "even stilstaan voor een winkel om een boodschap te doen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "parkeren",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "stilstaan voor het onmiddellijk laden of lossen van goederen",
+        "bron": "boek p. 159"
+      }
+    },
+    {
+      "id": "U10-Q003",
+      "unit": "U10",
+      "pagina": "U10-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je moet voor een rood verkeerslicht wachten en de wachttijd loopt flink op. Hoe heet dat in de regels over stilstaan en parkeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Geen van beide, want het is een noodzakelijke stop in het verkeer.",
+          "feedback": "Goed. Een noodzakelijke stop valt buiten allebei de begrippen, hoe lang hij ook duurt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Stilstaan, want je staat stil zonder dat er iemand in of uit stapt.",
+          "feedback": "Fout. Stilstaan is een smalle term die alleen over in- en uitstappen en over laden en lossen gaat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Parkeren, want je laat je auto daar staan.",
+          "feedback": "Fout. Parkeren gaat over vrijwillig stilstaan, en hier kies je er zelf niet voor om te blijven staan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Noodzakelijke stops in het verkeer gelden niet als stilstaan of parkeren. Dat geldt voor stoppen voor een rood verkeerslicht, stoppen om voorrang te verlenen en stoppen in een file.",
+        "waarom": "Je kiest er niet zelf voor om daar te blijven staan, dus een bord dat parkeren of stilstaan verbiedt kan je hier nooit iets aanrekenen.",
+        "valkuil": "Het woord vrijwillig is de sleutel: verplicht wachten valt buiten allebei de begrippen.",
+        "onthoud": "Moeten stoppen is geen stilstaan en geen parkeren."
+      },
+      "bronnen": [
+        {
+          "boek": 159,
+          "sectie": "10.1",
+          "anker": "Noodzakelijke stops in het verkeer gelden niet als 'stilstaan' of 'parkeren'"
+        },
+        {
+          "slide": 181,
+          "anker": "Een noodzakelijke stop in het verkeer valt niet"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "parkeren",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Noodzakelijke stops in het verkeer gelden niet als 'stilstaan' of 'parkeren'",
+        "bron": "boek p. 159"
+      }
+    },
+    {
+      "id": "U10-Q004",
+      "unit": "U10",
+      "pagina": "U10-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Tik alle situaties aan waarin je aan het parkeren bent.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je blijft in de auto zitten om op je moeder te wachten.",
+          "feedback": "Goed. Wachten op iemand is vrijwillig stilstaan zonder dat er iemand in of uit stapt, dus parkeren.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je zet de auto neer en loopt de supermarkt in.",
+          "feedback": "Goed. Je laat je auto achter om iets anders te gaan doen, en dat is de kern van parkeren.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je laat je passagier uitstappen en rijdt meteen door.",
+          "feedback": "Fout. Iemand onmiddellijk laten uitstappen valt juist onder stilstaan en niet onder parkeren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je staat stilstaand te bellen met je mobiel.",
+          "feedback": "Goed. Stilstaand bellen staat letterlijk in het rijtje voorbeelden van parkeren.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Je stopt om voorrang te verlenen aan verkeer van rechts.",
+          "feedback": "Fout. Dit is een noodzakelijke stop in het verkeer en die telt niet als parkeren en ook niet als stilstaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Parkeren is elke andere vorm van vrijwillig stilstaan dan het onmiddellijk in- of uitstappen van passagiers en het onmiddellijk laden of lossen van goederen.",
+        "waarom": "Loop de twee vragen na: kies je er zelf voor om te blijven staan, en ben je bezig met in- en uitstappen of met laden en lossen. Twee keer ja levert stilstaan op, anders kom je bij parkeren uit.",
+        "valkuil": "Een korte stop hoeft geen stilstaan te zijn en een lange stop hoeft geen parkeren te zijn.",
+        "onthoud": "Eerst vrijwillig, dan de bedoeling, pas daarna het woord."
+      },
+      "bronnen": [
+        {
+          "boek": 159,
+          "sectie": "10.1",
+          "anker": "Alle andere vormen van vrijwillig stilstaan noemen we 'parkeren'"
+        },
+        {
+          "boek": 159,
+          "sectie": "10.1",
+          "anker": "stoppen voor een rood verkeerslicht, - stoppen om voorrang te verlenen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "stilstaan",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alle andere vormen van vrijwillig stilstaan noemen we 'parkeren'",
+        "bron": "boek p. 159"
+      }
+    },
+    {
+      "id": "U10-Q005",
+      "unit": "U10",
+      "pagina": "U10-P01",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Op een gewone weg met verkeer in twee richtingen wil je aan de linkerkant van de rijbaan parkeren. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Links parkeren mag, al heeft het nadelen zoals tegen het verkeer in rijden en minder zicht bij het wegrijden.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Links parkeren is lastiger en minder overzichtelijk, maar een verbod is het niet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Je mag zowel rechts als links van de rijbaan stilstaan en parkeren.",
+        "waarom": "De nadelen zitten in het rijden en het zicht, niet in een verbod, en op een eenrichtingsweg vallen die nadelen grotendeels weg.",
+        "valkuil": "Een lijst met nadelen is nog geen verbod.",
+        "onthoud": "Links parkeren mag, maar is lastiger."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.1",
+          "anker": "Je mag zowel rechts als links van de rijbaan stilstaan en parkeren"
+        },
+        {
+          "boek": 160,
+          "sectie": "10.1",
+          "anker": "Links heeft een paar nadelen, zoals het tegen het verkeer in moeten rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "stilstaan",
+        "links-parkeren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag zowel rechts als links van de rijbaan stilstaan en parkeren",
+        "bron": "boek p. 160"
+      }
+    },
+    {
+      "id": "U10-Q006",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Langs de kant staat bord [E1]. Je wilt hier je dochter laten uitstappen en daarna meteen doorrijden. Mag je daarvoor even stilstaan?",
+      "media": {
+        "scene": "S-U10-001"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Dit bord verbiedt parkeren, en iemand laten uitstappen is stilstaan, dus dat blijft toegestaan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je past het zwaardere verbod toe, maar dit bord raakt alleen het parkeren en niet het even stilstaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als bord E1 langs de weg staat, mag je erna niet parkeren. Stilstaan om te laden of te lossen of om een passagier in of uit te laten stappen mag wel.",
+        "waarom": "De streep verbiedt minder dan het kruis, dus bij dit bord blijft de korte stop over waarbij iemand echt in of uit stapt.",
+        "valkuil": "Blijf je daarna staan wachten, dan ben je aan het parkeren en overtreed je het bord alsnog.",
+        "onthoud": "E1 verbiedt parkeren, niet stilstaan."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "Als bord E1 langs de weg staat, mag je erna niet parkeren"
+        },
+        {
+          "slide": 182,
+          "anker": "Je mag wel stilstaan om te laden of te lossen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "borden",
+        "e1"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je mag dan wel stilstaan om te laden/lossen of voor het laten in-/uitstappen van een passagier",
+        "bron": "boek p. 160",
+        "gewijzigd": "Fouttype van het antwoord nee naar verkeerd_toegepast gezet en de feedback daarop aangepast, want de stam noemt het bord al bij naam, dus wie fout kiest past de regel verkeerd toe en leest niets verkeerd."
+      }
+    },
+    {
+      "id": "U10-Q007",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij bord [E2] zet je je auto even stil om twee dozen uit de kofferbak te lossen. Mag dat hier?",
+      "media": {
+        "scene": "S-U10-002"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Bij het parkeerverbod mag laden en lossen wel, maar dit bord met het kruis verbiedt ook dat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Dit bord verbiedt stilstaan, en laden of lossen is nu juist een vorm van stilstaan.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Als bord E2 langs de weg staat, mag je erna niet stilstaan, en dus ook niet parkeren.",
+        "waarom": "Dit verbod pakt de zwaarste categorie, en omdat parkeren ook een vorm van vrijwillig stilstaan is, valt dat er meteen onder.",
+        "valkuil": "De twee borden lijken op elkaar, dus kijk of er een streep of een kruis in staat.",
+        "onthoud": "Het kruis verbiedt alles, ook het lossen van een doos."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "Als bord E2 langs de weg staat, mag je erna niet stilstaan"
+        },
+        {
+          "boek": 161,
+          "sectie": "10.2",
+          "anker": "Verbod om stil te staan. Even stoppen om een passagier uit te laten stappen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "borden",
+        "e2"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als bord E2 langs de weg staat, mag je erna niet stilstaan",
+        "bron": "boek p. 160",
+        "gewijzigd": "Fouttype van het antwoord ja van verkeerd_gelezen naar verkeerd_toegepast gezet, want wie hier ja kiest plakt de uitzondering van E1 op bord E2."
+      }
+    },
+    {
+      "id": "U10-Q008",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In een straat staat alleen aan de rechterkant het hierboven getoonde bord. Mag je aan de overkant van die straat je auto neerzetten?",
+      "media": {
+        "bord": "E1"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Zo'n bord geldt alleen voor de kant van de weg waar het staat, dus aan de overkant verandert er niets.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je laat het bord voor de hele straat gelden, maar een los verbodsbord werkt maar aan een kant.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "De borden E1 en E2 gelden alleen voor de kant van de weg waar ze staan. Staat er dus alleen rechts een bord E1, dan mag je aan de linkerkant wel parkeren.",
+        "waarom": "Een bord hoort bij de kant waar het staat, dus wie aan de overkant staat is er niet door gewaarschuwd en er ook niet aan gebonden.",
+        "valkuil": "Bij een zonebord werkt dit anders, want een zone pakt allebei de kanten van de weg.",
+        "onthoud": "Los bord: alleen de kant waar het staat."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "deze borden gelden alleen voor de kant van de weg waar ze staan"
+        },
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "dan mag je aan de linkerkant van de weg wél parkeren"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "borden",
+        "e1"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Staat er dus alleen rechts een bord E1, dan mag je aan de linkerkant van de weg wel parkeren",
+        "bron": "boek p. 160"
+      }
+    },
+    {
+      "id": "U10-Q009",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Onder bord [E1] hangt een onderbord met een zwarte pijl erop. Wat zegt die pijl?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het verbod geldt alleen in de richting van de pijl.",
+          "feedback": "Goed. Een pijl op het onderbord bakent af over welk stuk weg het verbod loopt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het verbod geldt alleen aan de overkant van de weg.",
+          "feedback": "Fout. Over welke kant het bord geldt, zegt de pijl niets; dat hangt af van waar het bord staat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag alleen parkeren in de richting van de pijl.",
+          "feedback": "Fout. Het onderbord beperkt het verbod en geeft je geen toestemming om ergens te parkeren.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "De pijl wijst naar de dichtstbijzijnde parkeerplaats.",
+          "feedback": "Fout. Een onderbord bij een verbodsbord hoort bij het verbod en verwijst niet naar een plek verderop.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Met onderborden kan extra informatie over het verbod worden gegeven. Staat er een pijl op, dan geldt het verbod alleen in de richting van die pijl.",
+        "waarom": "Een verbod moet ergens beginnen en ergens ophouden, en de pijl vertelt je welk stuk weg vanaf dat bord bedoeld is.",
+        "valkuil": "Staan er getallen op het onderbord, dan gaat het over dagen van de maand en niet over richting.",
+        "onthoud": "Pijl op het onderbord: het verbod loopt die kant op."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "dan geldt het verbod alleen in richting van die pijl"
+        },
+        {
+          "slide": 182,
+          "anker": "Verbod geldt in de richting van de pijl"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "borden",
+        "onderbord",
+        "parkeren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als op een onderbord een pijl staat, dan geldt het verbod alleen in richting van die pijl",
+        "bron": "boek p. 160"
+      }
+    },
+    {
+      "id": "U10-Q010",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Langs een straat met een aparte parkeerstrook naast de rijbaan staat bord [E2]. Mag je je auto in die strook zetten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Het bord geldt voor de rijbaan, maar niet voor weggedeelten die juist voor parkeren bedoeld zijn.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het bord lijkt de hele straat te dekken, maar een parkeerstrook valt er buiten.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Verbodsborden voor parkeren of stilstaan gelden niet voor de weggedeelten die voor parkeren bestemd zijn, zoals parkeerhavens en parkeervakken, maar alleen voor de overige delen van de rijbaan.",
+        "waarom": "De strook is aangelegd om er auto's neer te zetten, dus een bord dat de rijbaan vrij wil houden slaat er niet op.",
+        "valkuil": "Op de rijbaan zelf blijft het verbod gewoon gelden, ook als je alleen iemand wilt laten uitstappen.",
+        "onthoud": "Een parkeervak of parkeerhaven valt buiten deze borden."
+      },
+      "bronnen": [
+        {
+          "boek": 161,
+          "sectie": "10.2",
+          "anker": "gelden uiteraard niet voor de weggedeelten die voor parkeren bestemd zijn"
+        },
+        {
+          "boek": 161,
+          "sectie": "10.2",
+          "anker": "Maar het bord geldt niet voor de parkeerstrook"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "borden",
+        "parkeervak"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Maar het bord geldt niet voor de parkeerstrook. Je mag hier dus parkeren",
+        "bron": "boek p. 161"
+      }
+    },
+    {
+      "id": "U10-Q011",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat parkeren verbiedt, terwijl je er nog wel even mag stilstaan om iemand te laten uitstappen.",
+      "media": {
+        "borden": [
+          "E1",
+          "E2",
+          "E4",
+          "E6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E1",
+          "tekst": "Het blauwe ronde bord met een rode rand en een rode schuine streep",
+          "feedback": "Goed. Dit bord verbiedt parkeren en laat het laden, lossen en in- en uitstappen gewoon toe.",
+          "fouttype": null
+        },
+        {
+          "id": "E2",
+          "tekst": "Het blauwe ronde bord met een rode rand en een rood kruis",
+          "feedback": "Fout. Dit bord verbiedt stilstaan, dus iemand laten uitstappen mag er juist niet.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "E4",
+          "tekst": "Het blauwe vierkante bord met een witte P",
+          "feedback": "Fout. Dit bord wijst op een plek waar je juist wel mag parkeren en verbiedt dus niets.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E6",
+          "tekst": "Het blauwe rechthoekige bord met een P en een rolstoelsymbool",
+          "feedback": "Fout. Dit bord hoort bij een plek voor bepaalde bestuurders en is geen algemeen parkeerverbod.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E1"
+      ],
+      "uitleg": {
+        "regel": "Bij bord E1 mag je niet parkeren, maar stilstaan om te laden of te lossen of om een passagier in of uit te laten stappen mag wel.",
+        "waarom": "De enkele streep hoort bij het lichtste van de twee verboden, dus de korte stop waarbij iemand in of uit stapt blijft over.",
+        "valkuil": "Het bord met het kruis lijkt erop, maar dat verbiedt ook het even stilstaan.",
+        "onthoud": "Streep is parkeren, kruis is stilstaan."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "Als bord E1 langs de weg staat, mag je erna niet parkeren"
+        },
+        {
+          "slide": 182,
+          "anker": "Je mag wel stilstaan om te laden of te lossen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "borden",
+        "parkeren",
+        "e1"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als bord E1 langs de weg staat, mag je erna niet parkeren",
+        "bron": "boek p. 160",
+        "gewijzigd": "Bord E6 stond omschreven als vierkant terwijl de tekening een staand rechthoekig bord toont; omschrijving aangepast."
+      }
+    },
+    {
+      "id": "U10-Q012",
+      "unit": "U10",
+      "pagina": "U10-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Dit bord staat langs de weg. Tik alles aan wat je daar mag doen.",
+      "media": {
+        "bord": "E1"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Even stilstaan om een passagier te laten instappen.",
+          "feedback": "Goed. Iemand onmiddellijk laten in- of uitstappen is stilstaan, en dat verbiedt dit bord niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Even stilstaan om goederen te laden of te lossen.",
+          "feedback": "Goed. Laden en lossen valt onder stilstaan en blijft bij dit bord uitdrukkelijk toegestaan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je auto neerzetten om te gaan winkelen.",
+          "feedback": "Fout. Je auto achterlaten om iets anders te gaan doen is parkeren, en dat verbiedt dit bord.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "In je auto blijven wachten tot je vriend klaar is.",
+          "feedback": "Fout. Wachten in de auto telt als parkeren, ook al blijf je zelf achter het stuur zitten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Je auto in een parkeervak zetten dat naast de rijbaan ligt.",
+          "feedback": "Goed. Dit soort borden geldt niet voor parkeervakken en parkeerhavens, alleen voor de rest van de rijbaan.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "e"
+      ],
+      "uitleg": {
+        "regel": "Bij bord E1 mag je niet parkeren. Stilstaan om te laden of te lossen of om iemand in of uit te laten stappen mag wel, en het bord geldt niet voor parkeervakken en parkeerhavens.",
+        "waarom": "Het bord raakt alleen de rijbaan en alleen het achterlaten van je auto, dus zodra iemand echt in of uit stapt of je in een vak staat, doet het niets.",
+        "valkuil": "Wachten in de auto voelt als stilstaan, maar telt als parkeren.",
+        "onthoud": "Bij dit bord mag alles behalve je auto laten staan."
+      },
+      "bronnen": [
+        {
+          "boek": 160,
+          "sectie": "10.2",
+          "anker": "Als bord E1 langs de weg staat, mag je erna niet parkeren"
+        },
+        {
+          "slide": 182,
+          "anker": "De borden gelden niet voor parkeervakken en parkeerhavens"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "borden",
+        "e1"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "gelden uiteraard niet voor de weggedeelten die voor parkeren bestemd zijn",
+        "bron": "boek p. 161",
+        "gewijzigd": "Stam herschreven, want de oude zin liep grammaticaal niet."
+      }
+    }
+  ]
+}

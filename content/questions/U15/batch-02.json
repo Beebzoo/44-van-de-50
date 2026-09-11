@@ -1,0 +1,653 @@
+{
+  "unit": "U15",
+  "vragen": [
+    {
+      "id": "U15-Q010",
+      "unit": "U15",
+      "pagina": "U15-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een kruispunt en ziet dit bord staan: een rode driehoek met de punt omhoog met een schuin kruis erin. Weet je door dit bord dat jij hier voorrang hebt?",
+      "media": {
+        "bord": "J8"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een waarschuwingsbord wijst je op dreigend gevaar; wie voorrang heeft lees je af aan de voorrangsborden en de tekens op het wegdek.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Deze driehoek waarschuwt voor een gevaarlijk kruispunt en zegt niets over wie er als eerste mag.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Waarschuwingsborden wijzen je op dreigend gevaar, zodat je daar rekening mee kunt houden. [J8] is de rode driehoek met een schuin kruis en betekent gevaarlijk kruispunt.",
+        "waarom": "Een waarschuwing vraagt je om je snelheid en je kijkgedrag aan te passen. De voorrang op zo'n kruispunt wordt geregeld door de borden uit de voorrangsfamilie en door de tekens op het wegdek.",
+        "valkuil": "Ook [B3] is een driehoek met de punt omhoog, en dat bord gaat wel over voorrang.",
+        "onthoud": "Een waarschuwing is geen voorrang."
+      },
+      "bronnen": [
+        {
+          "boek": 49,
+          "sectie": "3.1",
+          "anker": "Waarschuwingsborden wijzen je op dreigend gevaar"
+        },
+        {
+          "boek": 245,
+          "anker": "**J8** | Een schuin kruis | *Gevaarlijk kruispunt.*"
+        },
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "Deze borden regelen de voorrang op kruispunten en op sommige afbuigende wegen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-j",
+        "waarschuwingsborden",
+        "vorm-en-kleur"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Waarschuwingsborden wijzen je op dreigend gevaar, zodat je daar rekening mee kunt houden",
+        "bron": "boek p. 49"
+      }
+    },
+    {
+      "id": "U15-Q011",
+      "unit": "U15",
+      "pagina": "U15-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Langs de weg staat dit bord: een rode driehoek met de punt omhoog met alleen een uitroepteken erin. Hoe kom je te weten waarvoor je hier precies gewaarschuwd wordt?",
+      "media": {
+        "bord": "J37"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Dat staat op het onderbord eronder.",
+          "feedback": "Goed. Bij dit bord is de aard van het gevaar aangegeven op het onderbord, dus dat moet je lezen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dit bord waarschuwt altijd voor werkzaamheden aan de weg.",
+          "feedback": "Fout. Voor werk in uitvoering bestaat een eigen driehoek met een werkman met een schep erin.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Dat zie je vanzelf aan de weg voor je.",
+          "feedback": "Fout. Dit bord staat er juist omdat het gevaar niet vanzelf opvalt, ook niet voor oplettende bestuurders.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Dit bord waarschuwt altijd voor een slecht wegdek.",
+          "feedback": "Fout. Voor slecht wegdek bestaat een eigen driehoek met een bult in het wegdek erin.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[J37] betekent gevaar, waarbij de aard van het gevaar is aangegeven op het onderbord.",
+        "waarom": "Voor bijna elk apart gevaar bestaat al een eigen symbool. Dit bord vangt de gevallen op waarvoor geen symbool bestaat, en dan moet het onderbord het werk doen.",
+        "valkuil": "Lees je het onderbord niet, dan weet je alleen dat er iets is en niet wat.",
+        "onthoud": "Lege driehoek met een uitroepteken: lees het onderbord."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Gevaar (de aard van het gevaar is aangegeven op het onderbord)"
+        },
+        {
+          "boek": 49,
+          "sectie": "3.1",
+          "anker": "Waarschuwingsborden zie je vaak op plaatsen waar ook ervaren en oplettende bestuurders"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-j",
+        "onderbord",
+        "waarschuwingsborden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Gevaar (de aard van het gevaar is aangegeven op het onderbord)",
+        "bron": "boek p. 246"
+      }
+    },
+    {
+      "id": "U15-Q012",
+      "unit": "U15",
+      "pagina": "U15-P08",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op een kruising staan twee wegwijzers die allebei naar hetzelfde dorp verwijzen: een blauwe puntige wegwijzer en deze rood-witte puntige wegwijzer. Welke van de twee volg je met de auto?",
+      "media": {
+        "bord": "K7"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De blauwe wegwijzer.",
+          "feedback": "Goed. De blauwe wegwijzers horen bij het gemotoriseerde verkeer en wijzen je een route die je met de auto mag rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De rood-witte wegwijzer.",
+          "feedback": "Fout. De rood-witte puntige wegwijzers zijn bedoeld voor fietsers, snorfietsers en bromfietsers.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De wegwijzer met de kortste afstand erop; de kleur maakt niet uit.",
+          "feedback": "Fout. De kleur van een wegwijzer zegt juist voor welke weggebruiker hij hangt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Allebei goed, want ze wijzen naar hetzelfde dorp.",
+          "feedback": "Fout. De fietsroute loopt vaak over paden waar je met de auto niet mag komen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De blauwe wegwijzer is een beslissingswegwijzer langs een niet-autosnelweg met interlokale doelen en een routenummer. De rood-witte puntige wegwijzer is een wegwijzer voor fietsers, snorfietsers en bromfietsers.",
+        "waarom": "Twee netwerken lopen door elkaar heen en komen op dezelfde plaatsen uit. De kleur van de wegwijzer houdt ze uit elkaar, zodat je niet per ongeluk een fietsroute op draait.",
+        "valkuil": "De plaatsnaam staat op allebei de borden; de kleur zegt voor wie het bord hangt.",
+        "onthoud": "Blauw is voor de auto, rood-wit voor de fiets."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "**K6** | Twee blauwe puntige wegwijzers boven elkaar: `N 212` en `Montfoort`"
+        },
+        {
+          "boek": 247,
+          "anker": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel"
+        },
+        {
+          "boek": 49,
+          "sectie": "3.1",
+          "anker": "Deze borden geven je informatie over de richting die je moet nemen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-k",
+        "bewegwijzering",
+        "vorm-en-kleur"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen",
+        "bron": "boek p. 247"
+      }
+    },
+    {
+      "id": "U15-Q013",
+      "unit": "U15",
+      "pagina": "U15-P09",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Twee borden tonen allebei een voetganger op een zebrapad: dit blauwe vierkante bord en een rode driehoek met de punt omhoog. Het boek geeft ze precies dezelfde betekenis, voetgangersoversteekplaats. Wat is dan nog het verschil tussen die twee?",
+      "media": {
+        "bord": "L2"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het blauwe vierkant is een informatiebord en de rode driehoek is een waarschuwingsbord.",
+          "feedback": "Goed. De betekenis is gelijk, dus wat overblijft is de familie: het blauwe vierkant informeert je en de rode driehoek waarschuwt je.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het blauwe bord geldt binnen de bebouwde kom en de driehoek daarbuiten.",
+          "feedback": "Fout. Het boek koppelt geen van beide borden aan de bebouwde kom; de vorm en de kleur zeggen bij welke familie een bord hoort, niet waar het staat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Bij het blauwe bord moet je voetgangers voor laten gaan, bij de driehoek niet.",
+          "feedback": "Fout. Voetgangers laat je voorgaan op de oversteekplaats zelf, als ze oversteken of op het punt staan over te steken; welk van de twee borden je erop attendeert, verandert daar niets aan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De driehoek hoort bij een zebrapad en het blauwe bord bij een fietsoversteek.",
+          "feedback": "Fout. Allebei de borden horen bij een voetgangersoversteekplaats en geen van beide gaat over fietsers.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[L2] is een blauw vierkant met een voetganger op een zebrapad en [J22] is een rode driehoek met datzelfde beeld. Het boek geeft ze allebei de betekenis voetgangersoversteekplaats en zet ze samen in een kader met de regel dat verkeersborden je op zo'n oversteekplaats attenderen.",
+        "waarom": "Als twee borden hetzelfde betekenen, zegt de familie je wat het bord met je doet. [J22] hoort bij de waarschuwingsborden, die je op dreigend gevaar wijzen, en [L2] bij de informatieborden. Wat je daar moet doen volgt niet uit het bord maar uit de regel voor de oversteekplaats.",
+        "valkuil": "De tekening in het bord is bijna gelijk, dus je moet de vorm en de kleur eromheen lezen.",
+        "onthoud": "Zelfde beeld, andere familie: blauw vierkant vertelt, rode driehoek waarschuwt."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "**L2** | Blauw vierkant met een voetganger op een zebrapad"
+        },
+        {
+          "boek": 245,
+          "anker": "**J22** | Een voetganger op een zebrapad | *Voetgangersoversteekplaats.*"
+        },
+        {
+          "boek": 91,
+          "sectie": "5.5",
+          "anker": "Verkeersborden attenderen je op een voetgangersoversteekplaats"
+        },
+        {
+          "boek": 49,
+          "sectie": "3.1",
+          "anker": "Waarschuwingsborden wijzen je op dreigend gevaar"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "borden-l",
+        "borden-j",
+        "lijkers"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Verkeersborden attenderen je op een voetgangersoversteekplaats",
+        "bron": "boek p. 91",
+        "gewijzigd": "de vraag liet in het midden dat het boek beide borden dezelfde betekenis geeft en uitleg.waarom sprak van een verschillende opdracht aan jou, terwijl geen van beide borden je iets opdraagt; de stam noemt de gelijke betekenis nu, het verschil is alleen nog de familie, en de feedback bij optie c legt de plicht bij de regel voor de oversteekplaats in plaats van bij de kleur van het bord"
+      }
+    },
+    {
+      "id": "U15-Q014",
+      "unit": "U15",
+      "pagina": "U15-P10",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Onder een verkeersbord hangt een wit onderbord met alleen het woord herhaling erop. Betekent dat, dat het bord erboven pas verderop gaat gelden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Herhaling zegt juist iets over wat achter je ligt: het bord stond er al eerder en werkt al.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Het bovenstaande verkeersbord is al eerder geplaatst en is al geldig; dit is alleen een geheugensteun.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het onderbord herhaling betekent: het bovenstaande verkeersbord is al eerder geplaatst en is al geldig.",
+        "waarom": "Op een lang stuk weg zonder kruispunten ben je het eerste bord allang vergeten, dus zet de wegbeheerder het nog een keer neer en meldt er met dit onderbord bij dat er niets nieuws begint.",
+        "valkuil": "Onderborden met een afstand erop kijken juist vooruit; herhaling kijkt achteruit.",
+        "onthoud": "Herhaling: dit gold hier al."
+      },
+      "bronnen": [
+        {
+          "boek": 252,
+          "anker": "`herhaling` | *Het bovenstaande verkeersbord is al eerder geplaatst en is al geldig.*"
+        },
+        {
+          "boek": 252,
+          "anker": "`500 m` | *Geldt over 500 meter.*"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "onderbord",
+        "bord",
+        "werkingsgebied"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het bovenstaande verkeersbord is al eerder geplaatst en is al geldig",
+        "bron": "boek p. 252"
+      }
+    },
+    {
+      "id": "U15-Q015",
+      "unit": "U15",
+      "pagina": "U15-P10",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Vijf uitspraken over welk teken het wint van welk ander. Welke daarvan kloppen? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een brandend verkeerslicht wint het van een voorrangsbord op dezelfde hoek.",
+          "feedback": "Goed. Verkeerslichten gaan voor borden en tekens die de voorrang regelen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een agent die je wenkt wint het van een brandend rood licht.",
+          "feedback": "Goed. Aanwijzingen staan bovenaan en gaan dus ook boven het verkeerslicht.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Haaientanden op het wegdek winnen het van een verkeersregelaar die je laat stoppen.",
+          "feedback": "Fout. Een teken op het wegdek staat onder de aanwijzingen, niet erboven.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De gewone regel dat je van rechts voorrang verleent wint het van een bord dat iets anders zegt.",
+          "feedback": "Fout. Juist andersom: borden en tekens gaan voor de gewone verkeersregels.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Een voorrangsbord wint het van de gewone regel dat je van rechts voorrang verleent.",
+          "feedback": "Goed. Borden en tekens gaan voor verkeersregels, dus het bord bepaalt hier wat er gebeurt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "e"
+      ],
+      "uitleg": {
+        "regel": "Borden en tekens gaan voor verkeersregels. Verkeerslichten gaan voor borden en tekens die de voorrang regelen. Aanwijzingen gaan weer voor verkeerstekens en verkeersregels.",
+        "waarom": "De trap loopt van algemeen naar bijzonder: hoe dichter iemand of iets bij dit moment en deze plek staat, hoe zwaarder het weegt. Een agent ziet het ongeval dat een bord niet kan kennen.",
+        "valkuil": "Een streep op het wegdek staat op dezelfde trede als een bord en niet erboven.",
+        "onthoud": "Aanwijzing, licht, bord en streep, regel."
+      },
+      "bronnen": [
+        {
+          "boek": 57,
+          "sectie": "3.4",
+          "anker": "Borden en tekens gaan voor verkeersregels"
+        },
+        {
+          "boek": 57,
+          "sectie": "3.4",
+          "anker": "Verkeerslichten gaan namelijk voor borden en tekens die de voorrang regelen"
+        },
+        {
+          "boek": 57,
+          "sectie": "3.4",
+          "anker": "Aanwijzingen gaan weer voor verkeerstekens en verkeersregels"
+        },
+        {
+          "slide": 57,
+          "anker": "Aanwijzingen hebben de hoogste prioriteit in het verkeer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "rangorde",
+        "aanwijzingen",
+        "verkeerstekens"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aanwijzingen gaan weer voor verkeerstekens en verkeersregels",
+        "bron": "boek p. 57"
+      }
+    },
+    {
+      "id": "U15-Q016",
+      "unit": "U15",
+      "pagina": "U15-P10",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een fietsoversteek. Op een paal hangen twee borden onder elkaar: bovenaan dit bord met de punt omlaag, daaronder een bord voor het fietspad. Op het wegdek liggen haaientanden. Moet jij hier voorrang verlenen?",
+      "media": {
+        "bord": "B6"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Dit verkeersbord en haaientanden op het wegdek geven aan dat je voorrang moet verlenen; het tweede bord verandert daar niets aan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het fietspadbord op dezelfde paal heft het voorrangsbord niet op; twee borden op een paal gelden allebei.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Dit verkeersbord en haaientanden op het wegdek geven aan dat je voorrang moet verlenen. [B6] betekent: verleen voorrang aan bestuurders op de kruisende weg.",
+        "waarom": "Elk bord op de paal doet zijn eigen werk. Het ene zegt wat voor pad je kruist, het andere zegt wie er wacht, en de haaientanden herhalen dat laatste op het wegdek.",
+        "valkuil": "Twee borden op een paal vormen samen geen nieuw bord; lees ze los van elkaar.",
+        "onthoud": "Bord en haaientanden zeggen hetzelfde: jij wacht."
+      },
+      "bronnen": [
+        {
+          "boek": 53,
+          "sectie": "3.2",
+          "anker": "Dit verkeersbord en haaientanden op het wegdek geven aan dat je voorrang moet verlenen"
+        },
+        {
+          "boek": 238,
+          "anker": "**B6** | Rode driehoek met de punt omlaag, wit binnenvlak"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden-b",
+        "haaientanden",
+        "twee-borden-op-een-paal"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dit verkeersbord en haaientanden op het wegdek geven aan dat je voorrang moet verlenen",
+        "bron": "boek p. 53"
+      }
+    },
+    {
+      "id": "U15-Q017",
+      "unit": "U15",
+      "pagina": "U15-P10",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Dezelfde afbeelding kan op een gewone paal staan of binnen een wit kader met het woord zone erboven. Hoe ver reikt de werking van elk van die twee?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het gewone bord reikt tot het volgende kruispunt; het zonebord reikt tot het einde van de zone.",
+          "feedback": "Goed. Een kruispunt maakt een eind aan een gewoon bord, terwijl een zone juist een heel gebied beslaat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Allebei reiken ze tot het volgende kruispunt.",
+          "feedback": "Fout. Dan zou een zone bij de eerste zijstraat al voorbij zijn, en daar is het kader nu net niet voor.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Allebei reiken ze tot je een einde-bord tegenkomt.",
+          "feedback": "Fout. Een gewoon bord houdt ook zonder einde-bord op, namelijk bij het volgende kruispunt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Het gewone bord reikt tot het einde van de bebouwde kom; het zonebord tot het volgende kruispunt.",
+          "feedback": "Fout. Je hebt de twee omgedraaid: het kader met het woord erboven is juist degene die een heel gebied beslaat.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Verkeersborden gelden tot het volgende kruispunt, tenzij een einde-bord de werking eerder opheft. Zoneborden en bebouwde-komborden gelden tot het einde van de zone of van de bebouwde kom.",
+        "waarom": "Bij een kruispunt komt er verkeer bij dat het bord nooit gezien heeft, dus daar begint de weg opnieuw. Een zone is juist bedoeld als aaneengesloten gebied en zou door elke zijstraat aan flarden worden geknipt.",
+        "valkuil": "Zie je binnen een zone een tijd lang geen bord meer, dan is dat geen teken dat de zone voorbij is.",
+        "onthoud": "Gewoon bord tot het kruispunt, zone tot het einde van de zone."
+      },
+      "bronnen": [
+        {
+          "slide": 45,
+          "anker": "Ze gelden tot het volgende kruispunt (tenzij een 'einde-bord' de werking eerder opheft)"
+        },
+        {
+          "slide": 45,
+          "anker": "zoneborden en bebouwde kom borden gelden tot het einde van de zone"
+        },
+        {
+          "boek": 46,
+          "sectie": "3.1",
+          "anker": "boven een verkeersbord het woord 'zone' staat, geldt het bord voor een heel gebied"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "werkingsgebied",
+        "zone",
+        "einde-bord"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "zoneborden en bebouwde kom borden gelden tot het einde van de zone",
+        "bron": "slide 45"
+      }
+    },
+    {
+      "id": "U15-Q018",
+      "unit": "U15",
+      "pagina": "U15-P10",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Voor een afgezette straat staat dit bord: een rode cirkel met een wit binnenvlak. Een politieagent in uniform gebaart jou dat je die straat toch in moet rijden. Mag je dat doen?",
+      "media": {
+        "bord": "C1"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Aanwijzingen gaan voor verkeerstekens, dus het gebaar van de agent gaat hier boven het bord.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Een bord wint het van de gewone verkeersregel, maar een aanwijzing van een bevoegde ambtenaar wint het weer van het bord.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Aanwijzingen gaan weer voor verkeerstekens en verkeersregels. Aanwijzingen van bevoegde en als zodanig herkenbare ambtenaren moet je opvolgen.",
+        "waarom": "De agent staat er en ziet wat het bord niet kan zien, bijvoorbeeld dat de afzetting erachter is weggehaald of dat er ruimte gemaakt moet worden voor een hulpdienst.",
+        "valkuil": "Een bord voelt als het hoogste gezag omdat het er altijd staat, maar in de rangorde staat het pas op de derde trede.",
+        "onthoud": "Wie ter plekke staat, gaat voor wat er staat."
+      },
+      "bronnen": [
+        {
+          "boek": 57,
+          "sectie": "3.4",
+          "anker": "Aanwijzingen gaan weer voor verkeerstekens en verkeersregels"
+        },
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Aanwijzingen van 'bevoegde en als zodanig herkenbare ambtenaren' moet je opvolgen"
+        },
+        {
+          "boek": 239,
+          "anker": "**C1** | Rode cirkel, wit binnenvlak | *Gesloten in beide richtingen voor voertuigen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rangorde",
+        "aanwijzingen",
+        "borden-c"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aanwijzingen van bevoegde en als zodanig herkenbare ambtenaren moet je opvolgen",
+        "bron": "boek p. 58"
+      }
+    }
+  ]
+}

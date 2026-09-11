@@ -1,0 +1,884 @@
+{
+  "unit": "U10",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U10-Q025",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij de ingang van de wijk staat rechts een zonebord met een parkeerverbod erin. Aan de overkant van de straat staat geen enkel bord. Mag je daar je auto neerzetten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Nee, want in een zone geldt het verbod voor beide kanten van de weg.",
+          "feedback": "Goed. Een zonebord werkt voor het hele gebied, dus ook voor de kant waar geen bord staat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Ja, want een bord geldt alleen voor de kant van de weg waar het staat.",
+          "feedback": "Fout. Dat klopt voor een los verbodsbord, maar een zonebord wijkt daar juist van af.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Ja, zolang je er niet langer dan een paar uur blijft staan.",
+          "feedback": "Fout. In een parkeerverbodzone gaat het niet over hoe lang je staat, maar over of je er parkeert.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Nee, maar alleen als er ook aan de overkant een zonebord staat.",
+          "feedback": "Fout. De zone werkt juist zonder dat er aan beide kanten een bord hoeft te staan.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Binnen een parkeerverbodzone mag je nergens parkeren, behalve op daarvoor bestemde weggedeelten. Het verbod geldt voor beide kanten van de weg, ook als het zonebord maar aan een kant staat.",
+        "waarom": "Een zone dekt een heel gebied en niet een stuk weg naast een paal, dus het bord bij de ingang moet alles daarbinnen kunnen regelen.",
+        "valkuil": "Dit is precies andersom dan bij de losse borden, die alleen hun eigen kant van de weg pakken.",
+        "onthoud": "Zonebord: allebei de kanten. Los bord: een kant."
+      },
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Het verbod geldt voor beide kanten van de weg"
+        },
+        {
+          "slide": 183,
+          "anker": "ook als het bord aan één kant staat"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "zone",
+        "borden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het verbod geldt voor beide kanten van de weg, ook als het zonebord maar aan een kant staat",
+        "bron": "boek p. 165"
+      }
+    },
+    {
+      "id": "U10-Q026",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je komt om 12 uur 40 aan in een parkeerschijfzone. Op welk tijdstip zet je de parkeerschijf?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "13 uur",
+          "feedback": "Goed. Je stelt de schijf in op je aankomsttijd en mag naar boven afronden op het eerstvolgende hele of halve uur.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Half een",
+          "feedback": "Fout. Dat ligt voor je aankomst, en afronden mag alleen naar boven.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Half twee",
+          "feedback": "Fout. Je gaat naar het eerstvolgende hele of halve uur en dat is hier 13 uur, niet het halve uur daarna.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Twee uur",
+          "feedback": "Fout. Je zet er niet de tijd op waarop je weer vertrekt, maar de tijd waarop je aankwam.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je stelt de parkeerschijf in op het tijdstip van aankomst en mag dat naar boven afronden op het eerstvolgende hele of halve uur.",
+        "waarom": "Afronden mag alleen naar boven en niet verder dan het eerstvolgende hele of halve uur, dus je komt uit op de eerste streep op de schijf na je aankomst.",
+        "valkuil": "Op de schijf hoort je aankomsttijd en niet het moment waarop je weer weg wilt.",
+        "onthoud": "Aankomsttijd op de schijf, naar boven afgerond."
+      },
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Je mag dit naar boven afronden op het eerstvolgende hele of halve uur"
+        },
+        {
+          "slide": 183,
+          "anker": "als je om 12.40 parkeert, stel je de schijf in op 13.00"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "parkeerschijf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je mag dit naar boven afronden op het eerstvolgende hele of halve uur",
+        "bron": "boek p. 165",
+        "gewijzigd": "Afleider c was waar: hij zei dat je de aankomsttijd ook zonder afronden mag zetten en de feedback gaf dat zelf toe. Vervangen door een afleider die naar het verkeerde halve uur afrondt, en de waarom herschreven omdat die leunde op een niet in de bron genoemde eigenschap van de schijf."
+      }
+    },
+    {
+      "id": "U10-Q027",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "De maximumtijd op het bord van de parkeerschijfzone loopt bijna af. Mag je de schijf dan opnieuw instellen en blijven staan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Nee, tussentijds opnieuw instellen mag niet.",
+          "feedback": "Goed. Je auto mag niet langer blijven staan dan de tijd die op het bord staat aangegeven.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Ja, zolang je zelf bij je auto blijft.",
+          "feedback": "Fout. Of je erbij bent doet niet ter zake; de maximumtijd op het bord blijft staan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Ja, mits je de schijf op het nieuwe tijdstip zet.",
+          "feedback": "Fout. Dat is precies wat er bedoeld wordt met tussentijds opnieuw instellen, en dat mag niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je auto mag niet langer blijven staan dan de maximumtijd die op het bord is aangegeven, en tussentijds de parkeerschijf opnieuw instellen mag dus niet.",
+        "waarom": "De zone is er voor kort parkeren zodat de plekken blijven doorstromen, en dat doel verdwijnt als iedereen zijn schijf steeds mag doordraaien.",
+        "valkuil": "De schijf is een bewijs van je aankomsttijd, geen klok die je zelf mag bijstellen.",
+        "onthoud": "Tijd om: wegrijden, niet doordraaien."
+      },
+      "bronnen": [
+        {
+          "boek": 166,
+          "sectie": "10.4",
+          "anker": "Tussentijds de parkeerschijf opnieuw instellen mag dus niet"
+        },
+        {
+          "slide": 183,
+          "anker": "Je mag niet langer blijven staan dan de maximumtijd die op het bord is aangegeven"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "parkeerschijf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Tussentijds de parkeerschijf opnieuw instellen mag dus niet",
+        "bron": "boek p. 166"
+      }
+    },
+    {
+      "id": "U10-Q028",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Voor welke voertuigen is het gebruik van een parkeerschijf in een parkeerschijfzone verplicht?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Voor alle motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Goed. Dat is precies de groep die het boek noemt bij de parkeerschijfzone.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Voor alle voertuigen, dus ook voor fietsen en bromfietsen.",
+          "feedback": "Fout. De verplichting gaat over motorvoertuigen en niet over elk voertuig op de weg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen voor personenauto's.",
+          "feedback": "Fout. De groep is breder dan de personenauto en omvat elk motorvoertuig op meer dan twee wielen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen voor vrachtauto's en bestelauto's.",
+          "feedback": "Fout. De verplichting is juist niet beperkt tot de zwaardere voertuigen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Het gebruik van een parkeerschijf is verplicht voor alle motorvoertuigen op meer dan twee wielen, en de schijf moet duidelijk zichtbaar achter de voorruit liggen.",
+        "waarom": "De grens ligt bij het aantal wielen omdat een voertuig op twee wielen nauwelijks een parkeervak bezet houdt en ook geen voorruit heeft om een schijf achter te leggen.",
+        "valkuil": "Laat je de schijf in het handschoenenkastje liggen, dan heb je er niets aan, want hij moet duidelijk zichtbaar zijn.",
+        "onthoud": "Meer dan twee wielen: schijf achter de voorruit."
+      },
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "verplicht voor alle motorvoertuigen op meer dan twee wielen"
+        },
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Je moet de parkeerschijf achter de voorruit plaatsen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "parkeerschijf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het gebruik van een parkeerschijf is verplicht voor alle motorvoertuigen op meer dan twee wielen",
+        "bron": "boek p. 165"
+      }
+    },
+    {
+      "id": "U10-Q029",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt een erf binnen en zoekt een plek om je auto achter te laten. Wat geldt daar?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het mag alleen op eigen terrein en op plaatsen die met een P zijn aangegeven.",
+          "feedback": "Goed. Binnen een erf is parkeren beperkt tot eigen terrein en de plaatsen die er speciaal voor zijn aangewezen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het mag overal langs de kant, want binnen een erf gelden geen parkeerregels.",
+          "feedback": "Fout. Juist binnen een erf gelden er extra beperkingen en niet minder.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Het mag overal waar je geen doorgang blokkeert.",
+          "feedback": "Fout. De regel kijkt niet naar de doorgang maar naar de plek, en die moet eigen terrein of een aangewezen plaats zijn.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Het mag alleen aan de rechterkant van de weg.",
+          "feedback": "Fout. De kant van de weg is hier niet wat telt, want het gaat om eigen terrein en aangewezen plaatsen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Binnen een erf mag je alleen parkeren op eigen terrein, bijvoorbeeld onder een carport, en op daarvoor bestemde parkeerplaatsen die met een P zijn aangegeven.",
+        "waarom": "Een erf is ingericht als verblijfsgebied waar spelende kinderen en voetgangers de ruimte delen met auto's, dus geparkeerd blik op willekeurige plekken past daar niet bij.",
+        "valkuil": "Een erf voelt rustig en vrij, maar de parkeerregels zijn er strenger dan op een gewone straat.",
+        "onthoud": "Op een erf parkeer je alleen op eigen terrein of bij de P."
+      },
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Binnen een erf mag je alleen parkeren op eigen terrein"
+        },
+        {
+          "slide": 185,
+          "anker": "Binnen een erf mag je alleen parkeren op eigen terrein"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "erf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Binnen een erf mag je alleen parkeren op eigen terrein",
+        "bron": "boek p. 165"
+      }
+    },
+    {
+      "id": "U10-Q030",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Tik alle uitspraken aan die kloppen over betaald parkeren.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij een parkeermeter mag je niet bijvullen om langer te blijven staan.",
+          "feedback": "Goed. Je mag daar maar eenmaal een beperkte tijd parkeren en bijvullen mag niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bij een parkeerautomaat leg je het bonnetje achter je voorruit of voer je je kenteken in.",
+          "feedback": "Goed. Dat zijn de twee manieren waarop een automaat werkt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Bij betalen via een app moet je de app afsluiten als je weer vertrekt.",
+          "feedback": "Goed. Doe je dat niet, dan loopt de betaling gewoon door.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "In een parkeergarage hoef je het bonnetje van de slagboom niet te bewaren.",
+          "feedback": "Fout. Dat bonnetje heb je juist nodig om te betalen en om weer naar buiten te kunnen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Het nummer van de parkeerzone vind je op je parkeerschijf.",
+          "feedback": "Fout. Dat nummer staat op een bord langs de weg en heeft niets met de schijf te maken.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Bij een parkeermeter mag je maar eenmaal een beperkte tijd parkeren en bijvullen mag niet. Bij een automaat leg je het bonnetje achter je voorruit of voer je je kenteken in, en in een parkeergarage bewaar je het bonnetje van de slagboom.",
+        "waarom": "Elke variant heeft een eigen bewijsstuk waarmee je laat zien dat je betaald hebt, en dat bewijs moet kloppen op het moment dat er gecontroleerd wordt.",
+        "valkuil": "Een app die je vergeet af te sluiten kost je geld, ook al staat je auto er allang niet meer.",
+        "onthoud": "Elke vorm van betaald parkeren heeft zijn eigen bewijs."
+      },
+      "bronnen": [
+        {
+          "boek": 166,
+          "sectie": "10.4",
+          "anker": "Je mag maar eenmaal een beperkte tijd parkeren"
+        },
+        {
+          "boek": 166,
+          "sectie": "10.4",
+          "anker": "Je krijgt dan een bonnetje dat je achter je voorruit moet leggen"
+        },
+        {
+          "boek": 166,
+          "sectie": "10.4",
+          "anker": "Vergeet niet de app af te sluiten als je weer vertrekt"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "betaald-parkeren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag maar eenmaal een beperkte tijd parkeren. Bijvullen mag niet",
+        "bron": "boek p. 166"
+      }
+    },
+    {
+      "id": "U10-Q031",
+      "unit": "U10",
+      "pagina": "U10-P05",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord waarmee een parkeerschijfzone begint.",
+      "media": {
+        "borden": [
+          "E10",
+          "E11",
+          "E4",
+          "E9"
+        ]
+      },
+      "opties": [
+        {
+          "id": "E10",
+          "tekst": "Het witte zonebord met ZONE erboven en het pictogram van een parkeerschijf",
+          "feedback": "Goed. Dit zonebord hoort bij de plekken waar je alleen met een parkeerschijf mag parkeren.",
+          "fouttype": null
+        },
+        {
+          "id": "E11",
+          "tekst": "Hetzelfde bord in grijs met diagonale strepen erdoor",
+          "feedback": "Fout. Een zonebord in grijs met diagonale strepen erdoor geeft juist het einde van de zone aan.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "E4",
+          "tekst": "Het blauwe vierkante bord met een witte P",
+          "feedback": "Fout. Dit is een gewone parkeergelegenheid zonder zonekader en zonder parkeerschijf.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E9",
+          "tekst": "Het blauwe rechthoekige bord met een P en het woord vergunninghouders",
+          "feedback": "Fout. Dit bord wijst een plek aan voor een bepaalde groep bestuurders en niet een schijfzone.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "E10"
+      ],
+      "uitleg": {
+        "regel": "Op plaatsen die bestemd zijn voor kort parkeren mag je alleen parkeren met een parkeerschijf. Je ziet daar het bord parkeerschijfzone en een blauwe streep op de stoeprand.",
+        "waarom": "Het zonekader zegt dat de regel voor een heel gebied geldt en de parkeerschijf op het bord zegt welke regel dat is, dus je hebt allebei die delen nodig om het bord te herkennen.",
+        "valkuil": "Het eindbord ziet er bijna hetzelfde uit, maar dan in grijs en met strepen erdoorheen.",
+        "onthoud": "Zonekader met schijf en tijd: hier moet de schijf achter de ruit."
+      },
+      "bronnen": [
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Je ziet dan het bord 'parkeerschijfzone' en een blauwe streep op de stoeprand"
+        },
+        {
+          "boek": 165,
+          "sectie": "10.4",
+          "anker": "Op plaatsen die bestemd zijn voor kort parkeren mag je alleen parkeren"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden",
+        "parkeerschijf",
+        "zone"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je ziet dan het bord 'parkeerschijfzone' en een blauwe streep op de stoeprand",
+        "bron": "boek p. 165",
+        "gewijzigd": "De omschrijvingen van E10, E11 en E9 pasten niet bij de getekende borden: er staat geen maximumtijd op het bord, het eindbord is grijs met meer dan een streep en E9 is staand rechthoekig. Omschrijvingen, feedback en waarom bijgesteld en het woord altijd geschrapt."
+      }
+    },
+    {
+      "id": "U10-Q032",
+      "unit": "U10",
+      "pagina": "U10-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je zit in je auto langs de kant en wilt zo wegrijden. Wanneer zet je je richtingaanwijzer aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Pas vlak voordat je wegrijdt.",
+          "feedback": "Goed. Zo weet iedereen dat het signaal echt over dit moment gaat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Meteen als je instapt, zodat iedereen het ruim op tijd ziet.",
+          "feedback": "Fout. Dan denken anderen dat je richtingaanwijzer is blijven aanstaan en weten ze niet wat je van plan bent.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Pas als je al een stukje op de rijbaan rijdt.",
+          "feedback": "Fout. Dan komt het signaal te laat, want je bent al bezig met de manoeuvre.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Dat hoeft niet, want je rijdt vanuit stilstand weg.",
+          "feedback": "Fout. Voor je wegrijdt moet je richting aangeven, juist omdat anderen je niet verwachten.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Voor je wegrijdt moet je richting aangeven, en dat doe je pas vlak voordat je wegrijdt.",
+        "waarom": "Een knipperlicht dat al een tijd brandt, zegt niemand meer iets, terwijl een licht dat net aangaat een duidelijk moment markeert waar de ander op kan reageren.",
+        "valkuil": "Te vroeg aanzetten wekt ook de indruk dat je de ander niet hebt zien aankomen.",
+        "onthoud": "Kijken, dan pas knipperen, dan pas rijden."
+      },
+      "bronnen": [
+        {
+          "boek": 134,
+          "sectie": "9.2",
+          "anker": "Geef pas richting aan vlak voordat je wegrijdt"
+        },
+        {
+          "boek": 134,
+          "sectie": "9.2",
+          "anker": "denken andere bestuurders misschien dat je richtingaanwijzer is blijven aanstaan"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegrijden",
+        "richting-aangeven"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Geef pas richting aan vlak voordat je wegrijdt",
+        "bron": "boek p. 134"
+      }
+    },
+    {
+      "id": "U10-Q033",
+      "unit": "U10",
+      "pagina": "U10-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je staat links van de weg en wilt wegrijden. Waar kijk je als laatste voordat je optrekt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Rechts naast je.",
+          "feedback": "Goed. Vanaf links kijk je eerst in de binnenspiegel en naar voren, dan rechts in de buitenspiegel, en als laatste rechts naast je.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Links naast je.",
+          "feedback": "Fout. Dat is de laatste blik als je rechts van de weg staat, niet als je links staat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "In de binnenspiegel.",
+          "feedback": "Fout. Daar kijk je juist als eerste, samen met de blik naar voren.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "In de linkerbuitenspiegel.",
+          "feedback": "Fout. Vanaf de linkerkant hoort de rechterbuitenspiegel in de volgorde en niet de linker.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Sta je links van de weg, kijk dan eerst in de binnenspiegel en naar voren, daarna in de rechterbuitenspiegel, en als laatste rechts naast je.",
+        "waarom": "Je rijdt vanaf de linkerkant naar de rechterhelft toe, dus het gevaar komt van rechts en die kant moet je het kortst voor het optrekken controleren.",
+        "valkuil": "Houd er ook rekening mee dat het zicht vanaf links een stuk minder is.",
+        "onthoud": "De laatste blik gaat naar de kant waar je heen gaat."
+      },
+      "bronnen": [
+        {
+          "boek": 134,
+          "sectie": "9.2",
+          "anker": "daarna in de rechterbuitenspiegel, en als laatste rechts naast je"
+        },
+        {
+          "boek": 134,
+          "sectie": "9.2",
+          "anker": "houd er rekening mee dat het zicht een stuk minder is"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegrijden",
+        "kijken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "daarna in de rechterbuitenspiegel, en als laatste rechts naast je",
+        "bron": "boek p. 134"
+      }
+    },
+    {
+      "id": "U10-Q034",
+      "unit": "U10",
+      "pagina": "U10-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Tik alles aan wat hoort bij veilig in- en uitstappen.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Voor het instappen loop je voor de auto langs naar het portier.",
+          "feedback": "Goed. Zo zie je het verkeer goed naderen en zie je meteen wat er voor de auto ligt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Voor het uitstappen kijk je in de binnenspiegel, de linkerbuitenspiegel en links naast de auto.",
+          "feedback": "Goed. Dat is de vaste volgorde waarmee je niets over het hoofd ziet.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je opent het portier alleen als dat zonder gevaar of hinder kan.",
+          "feedback": "Goed. Dit geldt zowel bij het instappen als bij het uitstappen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je laat het portier openstaan tot je zeker weet dat er niemand meer aankomt.",
+          "feedback": "Fout. Je sluit het portier juist direct, want een openstaand portier is zelf het obstakel.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Na het uitstappen blijf je op de rijbaan lopen tot je een veilige oversteek ziet.",
+          "feedback": "Fout. Je verlaat de rijbaan juist zo snel mogelijk en loopt daarbij tegen het verkeer in.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Loop bij het instappen voor de auto langs, open het portier alleen als dat zonder gevaar of hinder kan, en kijk voor het uitstappen in de binnenspiegel, de linkerbuitenspiegel en links naast de auto. Verlaat de rijbaan daarna zo snel mogelijk.",
+        "waarom": "Alles in die volgorde heeft hetzelfde doel: je ziet de ander aankomen voordat je iets doet wat hij niet kan ontwijken, want een portier en een lopend mens zijn allebei onverwacht op de rijbaan.",
+        "valkuil": "De blik links naast de auto wordt het vaakst overgeslagen, terwijl daar juist de fietser zit.",
+        "onthoud": "Voorlangs instappen, links kijken bij uitstappen, rijbaan meteen af."
+      },
+      "bronnen": [
+        {
+          "boek": 133,
+          "sectie": "9.1",
+          "anker": "loop daarna voor de auto langs naar het portier"
+        },
+        {
+          "boek": 133,
+          "sectie": "9.1",
+          "anker": "kijk in de binnenspiegel, linkerbuitenspiegel en links naast de auto"
+        },
+        {
+          "boek": 133,
+          "sectie": "9.1",
+          "anker": "verlaat de rijbaan z.s.m. Loop daarbij tegen het verkeer in"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "instappen",
+        "uitstappen",
+        "kijken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "kijk in de binnenspiegel, linkerbuitenspiegel en links naast de auto",
+        "bron": "boek p. 133"
+      }
+    },
+    {
+      "id": "U10-Q035",
+      "unit": "U10",
+      "pagina": "U10-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je wilt wegrijden vanaf de kant van de weg. Van achteren nadert een fietser en verderop komt er een auto aan. Wie gaat er voor?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Allebei, want je moet al het overige verkeer voor laten gaan.",
+          "feedback": "Goed. Bij het wegrijden gaat iedereen voor, dus je wacht tot beiden voorbij zijn.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen de auto, want die rijdt op de rijbaan.",
+          "feedback": "Fout. De fietser hoort ook bij het overige verkeer en gaat dus net zo goed voor.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Jij, want jij stond er het eerst.",
+          "feedback": "Fout. Wie er het eerst stond speelt geen rol bij een manoeuvre vanuit stilstand.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Jij, zodra je je richtingaanwijzer hebt aangezet.",
+          "feedback": "Fout. Richting aangeven vertelt anderen wat je van plan bent, maar geeft je nooit het recht om eerst te gaan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als je wilt wegrijden, moet je het overige verkeer voor laten gaan en mag je geen gevaar of hinder veroorzaken.",
+        "waarom": "Je komt vanuit stilstand de stroom in, dus iedereen op de weg is sneller dan jij en niemand rekent op jou. De wachtplicht ligt daarom volledig aan jouw kant.",
+        "valkuil": "Het woord overige betekent echt iedereen, dus ook fietsers en voetgangers achter je auto.",
+        "onthoud": "Wegrijden: iedereen gaat voor."
+      },
+      "bronnen": [
+        {
+          "boek": 134,
+          "sectie": "9.2",
+          "anker": "Als je wilt wegrijden, moet je het overige verkeer voor laten gaan"
+        },
+        {
+          "slide": 159,
+          "anker": "laat alle weggebruikers voorgaan - geef pas richting aan"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegrijden",
+        "voor-laten-gaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je wilt wegrijden, moet je het overige verkeer voor laten gaan",
+        "bron": "boek p. 134"
+      }
+    },
+    {
+      "id": "U10-Q036",
+      "unit": "U10",
+      "pagina": "U10-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je vertrekt vanaf een parkeerhaven buiten de bebouwde kom. Waar moet je extra rekening mee houden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het andere verkeer nadert snel, dus je moet vlot de gewenste snelheid bereiken.",
+          "feedback": "Goed. Buiten de kom rijdt het overige verkeer veel harder, dus het gat dat je nodig hebt is groter.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je hoeft daar niemand voor te laten gaan, want je komt van een aparte plek.",
+          "feedback": "Fout. Ook daar geldt gewoon dat je bij het wegrijden al het overige verkeer voor laat gaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag pas wegrijden als er helemaal geen verkeer meer te zien is.",
+          "feedback": "Fout. Dat is geen regel, en buiten de kom zou je er dan vrijwel nooit weg kunnen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je geeft daar geen richting aan, omdat je nog niet op de rijbaan rijdt.",
+          "feedback": "Fout. Juist voor het wegrijden moet je richting aangeven, waar je ook staat.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bij het wegrijden vanaf een parkeerhaven of vluchthaven buiten de bebouwde kom moet je goed beseffen dat het andere verkeer snel nadert. Zorg dat je na het wegrijden ook vlot de gewenste snelheid bereikt.",
+        "waarom": "Het snelheidsverschil tussen jou en het naderende verkeer is buiten de kom het grootst, en juist dat verschil vreet de tijd op die de ander heeft om te reageren.",
+        "valkuil": "Een gat dat binnen de kom ruim genoeg zou zijn, is buiten de kom veel te klein.",
+        "onthoud": "Buiten de kom: groter gat en meteen op snelheid."
+      },
+      "bronnen": [
+        {
+          "boek": 135,
+          "sectie": "9.2",
+          "anker": "moet je goed beseffen dat het andere verkeer snel nadert"
+        },
+        {
+          "slide": 159,
+          "anker": "wegrijden buiten bebouwde kom is lastiger omdat het overige verkeer"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegrijden",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "bij het wegrijden vanaf een parkeer- of vluchthaven buiten de bebouwde kom moet je goed beseffen dat het andere verkeer snel nadert",
+        "bron": "boek p. 135"
+      }
+    }
+  ]
+}

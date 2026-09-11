@@ -286,6 +286,14 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .twijfel { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 8px; font-size: 15px; color: var(--inkt-2); }
 .twijfel input { width: 20px; height: 20px; accent-color: var(--bord-blauw); }
 
+/* de invulvraag: een getal typen in plaats van een antwoord aanwijzen */
+.invulveld { display: flex; align-items: center; gap: 10px; margin: 4px 0 12px; }
+.invulveld .getal { flex: 0 1 180px; min-width: 0; min-height: 56px; padding: 0 14px; font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--inkt); background: var(--vlak); border: 2px solid var(--lijn); border-radius: 12px; }
+.invulveld .getal:focus { outline: none; border-color: var(--bord-blauw); }
+.invulveld .getal.goed { border-color: var(--goed); background: var(--goed-vlak); }
+.invulveld .getal.fout { border-color: var(--fout); background: var(--fout-vlak); }
+.invulveld .eenheid { font-size: 18px; font-weight: 600; color: var(--inkt-2); }
+
 /* explanation panel */
 .uitleg { background: var(--vlak); border: 1px solid var(--lijn); border-radius: var(--r); padding: 16px; margin: 4px 0 16px; animation: schuif var(--t-paneel) var(--beweeg); }
 .uitleg .staat { font-weight: 500; font-size: 14px; color: var(--inkt-2); }

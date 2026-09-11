@@ -1,0 +1,768 @@
+{
+  "unit": "U10",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U10-Q013",
+      "unit": "U10",
+      "pagina": "U10-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je zet je auto vlak voor de strepen van de oversteekplaats stil om je passagier te laten uitstappen. Mag dat hier?",
+      "media": {
+        "scene": "S-U10-003"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Iemand laten uitstappen is stilstaan, en juist stilstaan is hier verboden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Op een oversteekplaats en binnen 5 meter daarvan mag je niet stilstaan, ook niet om iemand uit te laten stappen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet stilstaan op een oversteekplaats of binnen een afstand van 5 meter daarvan.",
+        "waarom": "Een auto vlak voor de strepen neemt het zicht weg tussen de overstekende voetganger en wie er aan komt rijden, en dat is precies het gevaar dat de regel wil voorkomen.",
+        "valkuil": "Dat je maar heel even staat en direct doorrijdt, maakt hier niets uit.",
+        "onthoud": "Bij de strepen mag je helemaal niet staan, ook niet even."
+      },
+      "bronnen": [
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "op een oversteekplaats of binnen een afstand van vijf meter daarvan, - in een tunnel"
+        },
+        {
+          "slide": 184,
+          "anker": "op / binnen 5 meter van een voetgangersoversteekplaats"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "zebrapad"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "op een oversteekplaats of binnen een afstand van vijf meter daarvan",
+        "bron": "boek p. 162"
+      }
+    },
+    {
+      "id": "U10-Q014",
+      "unit": "U10",
+      "pagina": "U10-P03",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Bij een bord bushalte zonder blokmarkering geldt een stilstaanverbod rond dat bord. Vul het aantal meter in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 12,
+        "eenheid": "meter"
+      },
+      "uitleg": {
+        "regel": "Bij een bord bushalte mag je niet stilstaan langs de blokmarkering, of binnen 12 meter van het bord als er geen blokmarkering is.",
+        "waarom": "De bus moet ruimte hebben om schuin de halte in en weer uit te draaien, en die ruimte begint al ver voor het bord zelf.",
+        "valkuil": "Ligt er wel een blokmarkering, dan telt de lengte van die markering en niet deze afstand.",
+        "onthoud": "Geen blokmarkering: houd 12 meter van het haltebord."
+      },
+      "bronnen": [
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "binnen 12 meter van het bord als er geen blokmarkering is"
+        },
+        {
+          "slide": 184,
+          "anker": "langs de blokmarkering bij een bord bushalte / binnen 12 meter van het bord"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "bushalte"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "binnen 12 meter van het bord als er geen blokmarkering is",
+        "bron": "boek p. 162"
+      }
+    },
+    {
+      "id": "U10-Q015",
+      "unit": "U10",
+      "pagina": "U10-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Tik alle plekken aan waar stilstaan verboden is.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op de rijbaan langs een fietsstrook.",
+          "feedback": "Goed. Het verbod geldt voor de fietsstrook zelf en ook voor de rijbaan die eraan grenst.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In een tunnel.",
+          "feedback": "Goed. Een tunnel staat in het rijtje plekken waar stilstaan verboden is.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Op een suggestiestrook, zolang je geen gevaar of hinder veroorzaakt.",
+          "feedback": "Fout. Op een suggestiestrook mag je juist wel stilstaan, mits je geen gevaar of hinder veroorzaakt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Langs een gele doorgetrokken streep.",
+          "feedback": "Goed. De doorgetrokken gele streep is de strenge van de twee en verbiedt zelfs stilstaan.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Langs een gele onderbroken streep.",
+          "feedback": "Fout. De onderbroken gele streep verbiedt parkeren, maar stilstaan mag daar nog wel.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Stilstaan is onder meer verboden op een fietsstrook en op de rijbaan langs een fietsstrook, in een tunnel en langs een gele doorgetrokken streep.",
+        "waarom": "Een rode strook is niet altijd hetzelfde: een fietsstrook hoort bij de fietser en een suggestiestrook hoort bij de rijbaan, en daarom pakken de regels ze verschillend aan.",
+        "valkuil": "Bij de gele strepen draait alles om onderbroken of doorgetrokken, en die twee liggen makkelijk door elkaar.",
+        "onthoud": "Doorgetrokken geel is stilstaan, onderbroken geel is parkeren."
+      },
+      "bronnen": [
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "langs een gele doorgetrokken streep, - op weggedeelten voor andere weggebruikers"
+        },
+        {
+          "boek": 163,
+          "sectie": "10.3",
+          "anker": "mag je wél stilstaan, maar alleen als je geen gevaar of hinder veroorzaakt"
+        },
+        {
+          "boek": 164,
+          "sectie": "10.4",
+          "anker": "Langs een gele onderbroken streep mag je niet parkeren"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "fietsstrook",
+        "gele-streep"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "op een fietsstrook of op de rijbaan langs een fietsstrook",
+        "bron": "boek p. 162",
+        "gewijzigd": "Fouttype van de gele onderbroken streep naar verkeerd_toegepast gezet, want de optie noemt de streep bij naam en de fout zit in het verwisselen van de twee verboden."
+      }
+    },
+    {
+      "id": "U10-Q016",
+      "unit": "U10",
+      "pagina": "U10-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij de halte ligt een blokmarkering langs de stoeprand. Je stopt er kort om een passagier te laten uitstappen en de bus kan er gewoon langs. Mag dat?",
+      "media": {
+        "scene": "S-U10-006"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Bij een bushalte mag je wel even passagiers laten in- of uitstappen, zolang je de bus niet hindert.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Langs de blokmarkering geldt een stilstaanverbod, maar voor het in- en uitstappen van passagiers is er een uitzondering.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij een bord bushalte mag je niet stilstaan langs de blokmarkering, maar passagiers laten in- of uitstappen mag wel, als je de bus daarbij niet hindert.",
+        "waarom": "Het verbod is er voor de bus en niet voor de plek zelf, dus zodra de bus er zonder moeite langs of in kan, is het doel van de regel al gehaald.",
+        "valkuil": "Je auto daar laten staan mag natuurlijk niet, want dat is parkeren en niet in- of uitstappen.",
+        "onthoud": "Bij de halte: even iemand laten uitstappen mag, als de bus er geen last van heeft."
+      },
+      "bronnen": [
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "mag je wel even passagiers laten in- of uitstappen, mits je de bus niet hindert"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "bushalte"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "mag je wel even passagiers laten in- of uitstappen, mits je de bus niet hindert",
+        "bron": "boek p. 162"
+      }
+    },
+    {
+      "id": "U10-Q017",
+      "unit": "U10",
+      "pagina": "U10-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Rechts langs de weg ligt een rode suggestiestrook. Wat geldt daar voor stilstaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het mag, maar alleen als je geen gevaar of hinder veroorzaakt.",
+          "feedback": "Goed. Een suggestiestrook is geen fietsstrook, dus de algemene eis van geen gevaar of hinder blijft over.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het mag nooit, want een rode strook is altijd voor fietsers.",
+          "feedback": "Fout. De kleur zegt het niet; een suggestiestrook hoort bij de rijbaan en een fietsstrook niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Het mag altijd, want de strook hoort gewoon bij de rijbaan.",
+          "feedback": "Fout. De strook hoort inderdaad bij de rijbaan, maar de eis van geen gevaar of hinder blijft altijd gelden.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Het mag alleen om te laden of te lossen, niet om iemand te laten uitstappen.",
+          "feedback": "Fout. Beide vormen horen bij stilstaan, dus die splitsing bestaat hier niet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Op een suggestiestrook mag je wel stilstaan, maar alleen als je geen gevaar of hinder veroorzaakt.",
+        "waarom": "Een fietsstrook is met een streep van de rijbaan afgescheiden en is bedoeld voor de fietser; de suggestiestrook is alleen een gekleurd stuk rijbaan en heeft die status niet.",
+        "valkuil": "De rode kleur zorgt voor de verwarring, want beide stroken zien er van boven hetzelfde uit.",
+        "onthoud": "Fietsstrook is verboden, suggestiestrook mag met beleid."
+      },
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.3",
+          "anker": "mag je wél stilstaan, maar alleen als je geen gevaar of hinder veroorzaakt"
+        },
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "op een fietsstrook of op de rijbaan langs een fietsstrook"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "fietsstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Op een (fiets)suggestiestrook mag je wel stilstaan, maar alleen als je geen gevaar of hinder veroorzaakt",
+        "bron": "boek p. 163"
+      }
+    },
+    {
+      "id": "U10-Q018",
+      "unit": "U10",
+      "pagina": "U10-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Op een bepaald weggedeelte geldt een verbod om stil te staan. Betekent dat ook dat je er niet mag parkeren?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Waar je niet mag stilstaan, mag je natuurlijk ook niet parkeren, want parkeren is een vorm van stilstaan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je draait de regel om; het is het parkeerverbod dat stilstaan vrijlaat, niet andersom.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Waar je niet mag stilstaan, mag je ook niet parkeren. Waar je niet mag parkeren, mag je wel stilstaan, tenzij er ook een stilstaanverbod geldt.",
+        "waarom": "Parkeren is een van de vormen van vrijwillig stilstaan, dus een verbod op de hele groep sluit die ene vorm meteen uit. Omgekeerd blijft de rest van de groep gewoon over.",
+        "valkuil": "Deze regel werkt maar een kant op, en dat is precies waar het examen op mikt.",
+        "onthoud": "Stilstaanverbod is het zwaarste verbod van de twee."
+      },
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "Waar je niet mag stilstaan, mag je natuurlijk ook niet parkeren"
+        },
+        {
+          "boek": 164,
+          "sectie": "10.4",
+          "anker": "Waar je niet mag parkeren, mag je wel stilstaan (tenzij er ook een stilstaanverbod geldt)"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "stilstaan",
+        "parkeren",
+        "verbod"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Waar je niet mag stilstaan, mag je natuurlijk ook niet parkeren",
+        "bron": "boek p. 163"
+      }
+    },
+    {
+      "id": "U10-Q019",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat met je auto langs de kant op minder dan 5 meter van het kruispunt en wilt hier boodschappen gaan doen. Mag je je auto hier laten staan?",
+      "media": {
+        "scene": "S-U10-004"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je auto achterlaten is parkeren, en zo dicht bij een kruispunt is parkeren verboden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Parkeren mag niet op een afstand van minder dan 5 meter van een kruispunt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet parkeren op een afstand van minder dan 5 meter van een kruispunt.",
+        "waarom": "Wie het kruispunt nadert, moet langs de zijstraat kunnen kijken, en een auto op de hoek haalt dat zicht weg voor iedereen die daar afslaat of oversteekt.",
+        "valkuil": "Die 5 meter hoort bij het parkeerverbod. Voor stilstaan geldt het verbod op het kruispunt zelf.",
+        "onthoud": "Houd de hoek vrij: 5 meter van het kruispunt af."
+      },
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "op een afstand van minder dan vijf meter van een kruispunt"
+        },
+        {
+          "slide": 185,
+          "anker": "binnen 5 meter van een kruispunt"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "kruispunt"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "op een afstand van minder dan vijf meter van een kruispunt",
+        "bron": "boek p. 163",
+        "gewijzigd": "Het woord alleen uit de valkuil gehaald, want het boek zegt niet dat stilstaan nergens anders verboden is."
+      }
+    },
+    {
+      "id": "U10-Q020",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Er geldt een parkeerverbod rond elk kruispunt. Vul in binnen hoeveel meter van dat kruispunt je niet mag parkeren.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 5,
+        "eenheid": "meter"
+      },
+      "uitleg": {
+        "regel": "Parkeren is verboden op een afstand van minder dan 5 meter van een kruispunt.",
+        "waarom": "Die paar meter zijn precies wat een bestuurder nodig heeft om vanaf de zijstraat de doorgaande weg in te kijken voordat hij de hoek om gaat.",
+        "valkuil": "Deze afstand hoort bij parkeren; stilstaan is verboden op het kruispunt zelf.",
+        "onthoud": "Vijf meter van de hoek af blijven met je auto."
+      },
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "op een afstand van minder dan vijf meter van een kruispunt"
+        },
+        {
+          "slide": 185,
+          "anker": "binnen 5 meter van een kruispunt"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "kruispunt"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "op een afstand van minder dan vijf meter van een kruispunt",
+        "bron": "boek p. 163"
+      }
+    },
+    {
+      "id": "U10-Q021",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat stil ter hoogte van een uitrit om je passagier te laten uitstappen en rijdt daarna meteen door. Mag dat hier?",
+      "media": {
+        "scene": "S-U10-005"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Bij een uitrit geldt een parkeerverbod, en een parkeerverbod laat stilstaan gewoon toe.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Voor een uitrit mag je niet parkeren, maar even iemand laten uitstappen valt onder stilstaan en dat mag.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet parkeren voor een inrit of een uitrit. Waar je niet mag parkeren, mag je wel stilstaan, tenzij er ook een stilstaanverbod geldt.",
+        "waarom": "De bewoner moet erin en eruit kunnen, en dat lukt niet als er een auto blijft staan. Iemand die even iemand laat uitstappen, kan meteen wegrijden als hij in de weg staat.",
+        "valkuil": "Blijf je daarna wachten of ga je weg bij je auto, dan ben je alsnog aan het parkeren.",
+        "onthoud": "Voor een uitrit: stilstaan mag, laten staan niet."
+      },
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "voor een inrit of een uitrit"
+        },
+        {
+          "boek": 164,
+          "sectie": "10.4",
+          "anker": "Waar je niet mag parkeren, mag je wel stilstaan (tenzij er ook een stilstaanverbod geldt)"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "stilstaan",
+        "uitrit"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag niet parkeren voor een inrit of uitrit",
+        "bron": "boek p. 163"
+      }
+    },
+    {
+      "id": "U10-Q022",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Langs de stoeprand ligt een gele onderbroken streep. Wat mag je daar wel en niet?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Even stilstaan om iemand te laten uitstappen mag, je auto er neerzetten niet.",
+          "feedback": "Goed. De onderbroken gele streep is een parkeerverbod en die laat stilstaan gewoon toe.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Niets, want deze streep verbiedt stilstaan en parkeren allebei.",
+          "feedback": "Fout. Dat geldt voor de doorgetrokken gele streep, niet voor de onderbroken.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Alles, want een gele streep is alleen een waarschuwing.",
+          "feedback": "Fout. Een gele streep langs de kant is een echt verbod en geen vrijblijvende aanduiding.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Parkeren mag, maar alleen met een parkeerschijf achter de voorruit.",
+          "feedback": "Fout. De parkeerschijf hoort bij de parkeerschijfzone en heeft met de gele strepen niets te maken.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Langs een gele onderbroken streep mag je niet parkeren, maar stilstaan om bijvoorbeeld een passagier uit te laten stappen mag wel.",
+        "waarom": "De onderbroken streep hoort in het rijtje parkeerverboden en de doorgetrokken streep in het rijtje stilstaanverboden, dus de vorm van de streep vertelt je meteen hoe streng het is.",
+        "valkuil": "De twee gele strepen zien er van achter het stuur bijna hetzelfde uit.",
+        "onthoud": "Onderbroken geel is parkeren, doorgetrokken geel is ook stilstaan."
+      },
+      "bronnen": [
+        {
+          "boek": 164,
+          "sectie": "10.4",
+          "anker": "Stilstaan om bv. een passagier uit te laten stappen mag wel"
+        },
+        {
+          "boek": 162,
+          "sectie": "10.3",
+          "anker": "langs een gele doorgetrokken streep, - op weggedeelten voor andere weggebruikers"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "gele-streep"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Langs een gele onderbroken streep mag je niet parkeren. Stilstaan om bv. een passagier uit te laten stappen mag wel",
+        "bron": "boek p. 164"
+      }
+    },
+    {
+      "id": "U10-Q023",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Tik alle plekken aan waar je je auto niet mag neerzetten.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op minder dan 5 meter van een kruispunt.",
+          "feedback": "Goed. Zo dicht bij een kruispunt is parkeren verboden, want anders verdwijnt het zicht op de zijstraat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Voor de uitrit van een erf.",
+          "feedback": "Goed. Voor een inrit of uitrit mag je niet parkeren, want de ander moet erin en eruit kunnen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Buiten de bebouwde kom op de rijbaan van een voorrangsweg.",
+          "feedback": "Goed. Daar staat parkeren op de rijbaan uitdrukkelijk in het rijtje verboden.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "In een parkeervak langs de rijbaan.",
+          "feedback": "Fout. Een parkeervak is juist aangelegd om er te parkeren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op een parkeerterrein zonder borden die een andere groep aanwijzen.",
+          "feedback": "Fout. Een gewoon parkeerterrein is een van de plaatsen die voor parkeren bedoeld zijn.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet parkeren op minder dan 5 meter van een kruispunt, voor een inrit of een uitrit, en buiten de bebouwde kom op de rijbaan van een voorrangsweg.",
+        "waarom": "Alle drie de plekken hebben hetzelfde probleem: er moet iemand langs of doorheen kunnen kijken, en een auto die blijft staan haalt dat weg. Op plekken die voor parkeren gemaakt zijn, speelt dat niet.",
+        "valkuil": "Bij de voorrangsweg gaat het om de rijbaan buiten de bebouwde kom, niet om elke voorrangsweg.",
+        "onthoud": "Hoek, uitrit en voorrangsweg buiten de kom: daar laat je je auto niet staan."
+      },
+      "bronnen": [
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "op een afstand van minder dan vijf meter van een kruispunt"
+        },
+        {
+          "boek": 163,
+          "sectie": "10.4",
+          "anker": "buiten de bebouwde kom op de rijbaan van een voorrangsweg"
+        },
+        {
+          "slide": 185,
+          "anker": "Verder mag je niet parkeren: - voor een in- / uitrit"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "kruispunt",
+        "uitrit"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Buiten de bebouwde kom mag je niet parkeren op de rijbaan van een voorrangsweg",
+        "bron": "boek p. 163"
+      }
+    },
+    {
+      "id": "U10-Q024",
+      "unit": "U10",
+      "pagina": "U10-P04",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Er is geen vrije plek meer, dus je zet je auto naast een auto die al in de parkeerstrook staat. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Dit heet dubbel parkeren en dat mag niet, ook niet naast een parkeerstrook.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Dubbel parkeren is verboden, ook naast een auto die in een strook of op een plaats naast de rijbaan staat.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je mag niet dubbel parkeren, ook niet naast een auto op een parkeerplaats of parkeerstrook naast de rijbaan.",
+        "waarom": "De ander komt er dan niet meer uit en jij staat met je auto in de doorgang, terwijl er niemand bij je auto is om even weg te rijden.",
+        "valkuil": "Stilstaan om te laden of te lossen mag daar wel, want dan sta je er kort en blijf je erbij.",
+        "onthoud": "Dubbel parkeren nooit, dubbel stilstaan om te lossen wel."
+      },
+      "bronnen": [
+        {
+          "boek": 164,
+          "sectie": "10.4",
+          "anker": "Je mag niet dubbel parkeren, ook niet naast een auto op een parkeerplaats"
+        },
+        {
+          "boek": 164,
+          "sectie": "10.4",
+          "anker": "Stilstaan om te laden / lossen mag hier wél"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "parkeren",
+        "dubbel-parkeren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag niet dubbel parkeren, ook niet naast een auto op een parkeerplaats of -strook naast de rijbaan",
+        "bron": "boek p. 164"
+      }
+    }
+  ]
+}

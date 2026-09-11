@@ -1647,10 +1647,10 @@
     {
       "id": "F070",
       "categorie": "straf",
-      "onderwerp": "LEMA-grens",
+      "onderwerp": "LEMA-grens voor een beginnende bestuurder",
       "waarde": 0.5,
       "eenheid": "promille",
-      "tekst": "De lichte educatieve maatregel alcohol (LEMA) krijg je vanaf 0,5 promille als beginnende bestuurder of vanaf 0,8 promille als ervaren bestuurder.",
+      "tekst": "De lichte educatieve maatregel alcohol (LEMA) krijg je als beginnende bestuurder vanaf 0,5 promille.",
       "bronnen": [
         {
           "boek": 44,
@@ -1665,16 +1665,18 @@
       "tags": [
         "straf",
         "alcohol",
-        "educatieve-maatregel"
+        "educatieve-maatregel",
+        "beginnend-bestuurder",
+        "promille"
       ]
     },
     {
       "id": "F071",
       "categorie": "straf",
-      "onderwerp": "EMA-grens",
+      "onderwerp": "EMA-grens voor een beginnende bestuurder",
       "waarde": 0.8,
       "eenheid": "promille",
-      "tekst": "De educatieve maatregel alcohol (EMA) krijg je vanaf 0,8 promille als beginnende bestuurder of vanaf 1,0 promille als ervaren bestuurder.",
+      "tekst": "De educatieve maatregel alcohol (EMA) krijg je als beginnende bestuurder vanaf 0,8 promille.",
       "bronnen": [
         {
           "boek": 44,
@@ -1689,7 +1691,9 @@
       "tags": [
         "straf",
         "alcohol",
-        "educatieve-maatregel"
+        "educatieve-maatregel",
+        "beginnend-bestuurder",
+        "promille"
       ]
     },
     {
@@ -5335,6 +5339,77 @@
         "autosnelweg",
         "nacht",
         "personenauto"
+      ]
+    },
+    {
+      "id": "F236",
+      "categorie": "overig",
+      "onderwerp": "Afstand op een onderbord",
+      "waarde": 500,
+      "eenheid": "m",
+      "tekst": "Een onderbord kan aangeven waar het verkeersbord geldt, bijvoorbeeld met een afstand als 500 m, met of zonder pijlen erbij.",
+      "bronnen": [
+        {
+          "boek": 47,
+          "sectie": "3.1",
+          "anker": "waar het verkeersbord geldt, extra informatie"
+        }
+      ],
+      "tags": [
+        "onderbord",
+        "bord"
+      ]
+    },
+    {
+      "id": "F237",
+      "categorie": "straf",
+      "onderwerp": "LEMA-grens voor een ervaren bestuurder",
+      "waarde": 0.8,
+      "eenheid": "promille",
+      "tekst": "De lichte educatieve maatregel alcohol (LEMA) krijg je als ervaren bestuurder vanaf 0,8 promille.",
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "LEMA: ≥ 0,5 ‰ als beginnende bestuurder of ≥ 0,8 ‰ als ervaren bestuurder"
+        },
+        {
+          "slide": 38,
+          "anker": "≥ 0,5 ‰ als beginnende bestuurder of\n≥ 0,8 ‰ als ervaren bestuurder"
+        }
+      ],
+      "tags": [
+        "straf",
+        "alcohol",
+        "educatieve-maatregel",
+        "ervaren-bestuurder",
+        "promille"
+      ]
+    },
+    {
+      "id": "F238",
+      "categorie": "straf",
+      "onderwerp": "EMA-grens voor een ervaren bestuurder",
+      "waarde": 1,
+      "eenheid": "promille",
+      "tekst": "De educatieve maatregel alcohol (EMA) krijg je als ervaren bestuurder vanaf 1,0 promille.",
+      "bronnen": [
+        {
+          "boek": 44,
+          "sectie": "2.8",
+          "anker": "EMA: ≥ 0,8 ‰ als beginnende bestuurder of ≥ 1,0 ‰ als ervaren bestuurder"
+        },
+        {
+          "slide": 38,
+          "anker": "≥ 0,8 ‰ als beginnende bestuurder of\n≥ 1,0 ‰ als ervaren bestuurder"
+        }
+      ],
+      "tags": [
+        "straf",
+        "alcohol",
+        "educatieve-maatregel",
+        "ervaren-bestuurder",
+        "promille"
       ]
     }
   ]

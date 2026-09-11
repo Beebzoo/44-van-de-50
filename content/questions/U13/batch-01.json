@@ -1,0 +1,788 @@
+{
+  "unit": "U13",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U13-Q001",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je merkt dat je 's avonds slechter ziet dan overdag en de huisarts bevestigt dat je nachtblind bent. Mag je met je rijbewijs B nog de weg op?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Het boek noemt kleurenblindheid en nachtblindheid geen belemmering om te rijden, zolang je je rijstijl erop aanpast.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het boek verbiedt rijden hier niet; het vraagt alleen dat je je rijstijl aanpast aan wat je wel en niet ziet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Kleurenblindheid en nachtblindheid hoeven geen belemmering te zijn om te rijden, zolang je je rijstijl erop aanpast.",
+        "waarom": "De wet kijkt naar of je de situatie meester blijft, niet naar of je zintuigen perfect zijn. Wie weet dat hij in het donker minder ziet en daar zijn snelheid op aanpast, blijft binnen zijn eigen waarneming.",
+        "valkuil": "Twijfel je aan je zicht, laat dan je ogen controleren. Aanpassen is iets anders dan hopen dat het goed gaat.",
+        "onthoud": "Aanpassen mag, doorrijden alsof er niets is niet."
+      },
+      "bronnen": [
+        {
+          "boek": 12,
+          "sectie": "1.2",
+          "anker": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zintuigen",
+        "zicht",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Kleuren- en nachtblindheid hoeven geen belemmering te zijn om te rijden, zolang je je rijstijl erop aanpast.",
+        "bron": "boek p. 12"
+      }
+    },
+    {
+      "id": "U13-Q002",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt al een tijd op een lange rechte weg. Je gaapt voortdurend, je oogleden zijn zwaar en je schrikt net even op. Wat helpt echt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Stoppen en een pauze nemen van minimaal 15 minuten.",
+          "feedback": "Goed. Alleen rusten helpt tegen vermoeidheid, en het boek koppelt daar een pauze van minimaal 15 minuten aan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het raam openzetten voor frisse lucht.",
+          "feedback": "Fout. Frisse lucht verandert niets aan je vermoeidheid, het maakt je hooguit even wakkerder terwijl je toch achter het stuur blijft.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Een sterke bak koffie halen bij de volgende tankstop en doorrijden.",
+          "feedback": "Fout. Zwarte koffie staat in het boek juist in het rijtje middelen dat niet werkt; je rijdt er alleen minder moe van in je hoofd.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De muziek harder zetten zodat je scherp blijft.",
+          "feedback": "Fout. Harde muziek maakt je juist doof voor een sirene of piepende remmen, dus je ruilt vermoeidheid in voor slechter horen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Alleen rusten helpt tegen vermoeidheid. Neem na iedere twee uur rijden een pauze van minimaal 15 minuten.",
+        "waarom": "Wat je voelt is niet een tekort aan prikkels maar een tekort aan slaap, en dat kun je alleen aanvullen door te stoppen. Alles wat je onderweg probeert, verbergt het signaal terwijl de oorzaak blijft.",
+        "valkuil": "De verschijnselen die je opsomt zijn precies de waarschuwingssignalen die het boek noemt, dus dit is geen moment om er nog even een halfuur bij te plakken.",
+        "onthoud": "Twee uur rijden, een kwartier pauze."
+      },
+      "bronnen": [
+        {
+          "boek": 14,
+          "sectie": "1.3",
+          "anker": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze"
+        },
+        {
+          "slide": 8,
+          "anker": "Neem na elke 2 uur een kwartier pauze"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "vermoeidheid",
+        "pauze",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alleen rusten helpt. Neem na iedere twee uur rijden een pauze van minimaal 15 minuten.",
+        "bron": "boek p. 14"
+      }
+    },
+    {
+      "id": "U13-Q003",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke van deze gedragingen noemt het boek als voorbeeld van sociaal rijgedrag?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij een rijbaanversmalling ruimte vrijlaten voor inhalende bestuurders.",
+          "feedback": "Goed. Dit staat letterlijk in het rijtje voorbeelden van sociaal gedrag in het boek.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bestuurders laten invoegen als je op de doorgaande rijbaan in file rijdt.",
+          "feedback": "Goed. Ook dit is een van de vier voorbeelden die het boek geeft bij sociaal rijgedrag.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Begrip tonen voor vrachtauto's en bussen die trager optrekken.",
+          "feedback": "Goed. Zwaar verkeer is minder wendbaar en trekt langzamer op; daar rekening mee houden hoort bij sociaal rijgedrag.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Extra voorrang verlenen, ook als de ander die niet heeft.",
+          "feedback": "Fout. Onnodig voorrang verlenen maakt je juist onvoorspelbaar; het boek vraagt besluitvaardig gedrag, niet extra vriendelijkheid.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Met je lichten knipperen om iemand te laten weten dat hij te langzaam rijdt.",
+          "feedback": "Fout. Een lichtsignaal is bedoeld voor dreigend gevaar, niet om je ongeduld over te brengen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Sociaal rijgedrag betekent dat je voorkomt dat andere weggebruikers in moeilijkheden raken en dat je ze helpt als dat toch gebeurt.",
+        "waarom": "De voorbeelden hebben alle drie dezelfde vorm: jij levert een beetje ruimte of geduld in en de ander kan daardoor zijn manoeuvre afmaken. Waar jij de ander juist onzeker maakt over wat er gaat gebeuren, is het geen hulp meer.",
+        "valkuil": "Aardig zijn en sociaal rijden zijn niet hetzelfde. Iemand voorrang geven die hem niet heeft, verwart de rest van het kruispunt.",
+        "onthoud": "Sociaal is ruimte geven, niet rechten weggeven."
+      },
+      "bronnen": [
+        {
+          "boek": 19,
+          "sectie": "1.4",
+          "anker": "laat bij een rijbaanversmalling ruimte vrij voor inhalende bestuurders"
+        },
+        {
+          "boek": 19,
+          "sectie": "1.4",
+          "anker": "laat bestuurders invoegen als je op de doorgaande rijbaan in file rijdt"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "sociaal-rijgedrag",
+        "gedrag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "laat bij een rijbaanversmalling ruimte vrij voor inhalende bestuurders",
+        "bron": "boek p. 19"
+      }
+    },
+    {
+      "id": "U13-Q004",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Twee vrienden spreken af wie er als eerste bij het volgende dorp is en rijden vanaf het stoplicht tegen elkaar op. Is dat verboden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Ook als niemand te hard rijdt, is de wedstrijd zelf verboden; het verbod hangt niet aan de snelheid.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Het verkeer is geen wedstrijd. Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+        "waarom": "Zodra winnen het doel wordt, gaat elke beslissing over tijd in plaats van over ruimte, en dan houdt niemand meer marge over voor wat een ander doet. Daarom pakt de wet de afspraak zelf aan en niet pas het gevolg.",
+        "valkuil": "Meedoen is net zo strafbaar als beginnen. Ook de tweede auto overtreedt het verbod.",
+        "onthoud": "Een wedstrijd op de weg is altijd verboden."
+      },
+      "bronnen": [
+        {
+          "boek": 18,
+          "sectie": "1.4",
+          "anker": "Het is verboden op de weg een wedstrijd met voertuigen te houden"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "wedstrijd",
+        "gedrag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het is verboden op de weg een wedstrijd met voertuigen te houden of daaraan deel te nemen.",
+        "bron": "boek p. 18"
+      }
+    },
+    {
+      "id": "U13-Q005",
+      "unit": "U13",
+      "pagina": "U13-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een nieuwe auto met een noodremsysteem en een systeem dat je binnen de rijstrook houdt. Wat is de juiste houding tegenover die systemen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je rijdt precies zoals zonder die systemen en ziet ze als extra vangnet.",
+          "feedback": "Goed. Het boek waarschuwt voor risicocompensatie: laat je niet verleiden om meer risico te nemen omdat de auto meer kan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je kunt korter op je voorganger rijden, want het systeem remt voor je.",
+          "feedback": "Fout. Dit is precies de risicocompensatie waar het boek voor waarschuwt; je gebruikt de winst van het systeem op om dichter op de rand te gaan zitten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je kunt je blik vaker van de weg halen, want de auto stuurt zelf bij.",
+          "feedback": "Fout. Juist kijkgedrag blijft jouw taak; een hulpsysteem neemt het waarnemen niet van je over.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je zet de systemen uit, want anders leer je het zelf nooit.",
+          "feedback": "Fout. Het boek vraagt nergens om de systemen uit te zetten, alleen om je rijgedrag er niet losser door te laten worden.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Auto's krijgen steeds meer systemen die de bestuurder ondersteunen. Laat je niet verleiden om daardoor meer risico te nemen in het verkeer.",
+        "waarom": "Een hulpsysteem verschuift de grens waarop het misgaat, en zodra jij die winst opgebruikt door dichter te volgen of minder te kijken, ben je even dicht bij een ongeval als eerst. De winst telt alleen als je hem laat liggen.",
+        "valkuil": "Een systeem dat meestal werkt, is geen systeem dat altijd werkt. Bij slecht zicht of vuile sensoren val je terug op jezelf.",
+        "onthoud": "Meer techniek is geen reden voor minder marge."
+      },
+      "bronnen": [
+        {
+          "boek": 20,
+          "sectie": "1.4",
+          "anker": "Laat je niet verleiden om door de aanwezigheid van deze systemen"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "risicocompensatie",
+        "gedrag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Laat je niet verleiden om door de aanwezigheid van deze systemen meer risico's te nemen in het verkeer.",
+        "bron": "boek p. 20",
+        "gewijzigd": "fouttype van optie d stond op verkeerd_gelezen; wie de systemen uitzet leest de vraag goed maar past de regel verkeerd toe, dus nu verkeerd_toegepast."
+      }
+    },
+    {
+      "id": "U13-Q006",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Hoeveel alcohol mag een beginnende bestuurder volgens de wet in zijn bloed hebben?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "0,2 promille",
+          "feedback": "Goed. Voor de beginnende bestuurder geldt 0,2 promille in het bloed, oftewel 88 microgram per liter in de adem.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "0,5 promille",
+          "feedback": "Fout. Dat is de grens voor de ervaren bestuurder; voor een beginner ligt de grens lager.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "0,8 promille",
+          "feedback": "Fout. Deze waarde komt pas terug bij de educatieve maatregelen, niet als toegestane hoeveelheid.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een beginnende bestuurder mag helemaal niets drinken.",
+          "feedback": "Fout. Er geldt wel degelijk een grens, en die is niet nul; de nullimiet hoort bij alcohol samen met drugs.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Voor de beginnende bestuurder is de limiet 0,2 promille in het bloed, voor de ervaren bestuurder 0,5 promille.",
+        "waarom": "De strengere waarde hoort bij de minste rijervaring: een beginner heeft nog geen routine om op terug te vallen als zijn waarneming trager wordt. Daarom knijpt de wet daar de marge dicht.",
+        "valkuil": "Promille hoort bij het bloed en microgram per liter bij de adem. Wissel die twee niet om.",
+        "onthoud": "Beginner 0,2 promille, ervaren 0,5 promille."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor beginnende bestuurders: 0,2 promille / 88 microgram"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "promille",
+        "beginnend-bestuurder"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Beginnende bestuurder | 0,2 promille | 88 microgram / liter",
+        "bron": "boek p. 15",
+        "gewijzigd": "fouttype van optie d stond op verkeerd_gelezen; wie denkt dat een beginner niets mag drinken kent de grens van 0,2 promille niet, dus nu niet_geweten."
+      }
+    },
+    {
+      "id": "U13-Q007",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Een bestuurder heeft zijn rijbewijs B al twaalf jaar. Hoeveel promille alcohol mag hij maximaal in zijn bloed hebben?",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 0.5,
+        "eenheid": "promille"
+      },
+      "uitleg": {
+        "regel": "Voor een ervaren bestuurder is de alcohollimiet 0,5 promille in het bloed, oftewel 220 microgram per liter uitgeademde lucht.",
+        "waarom": "Wie zijn eerste rijbewijs op of na zijn achttiende haalde, is vijf jaar lang beginner. Twaalf jaar ligt daar ruim voorbij, dus deze bestuurder valt in de tweede rij van de tabel.",
+        "valkuil": "De vraag noemt geen leeftijd maar het aantal jaren rijbewijsbezit, en dat is precies wat de beginnersstatus bepaalt.",
+        "onthoud": "Ervaren bestuurder: 0,5 promille."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter"
+        },
+        {
+          "slide": 9,
+          "anker": "voor overige bestuurders: 0,5 promille / 220 microgram"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "promille",
+        "ervaren-bestuurder"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ervaren bestuurder | 0,5 promille | 220 microgram / liter",
+        "bron": "boek p. 15"
+      }
+    },
+    {
+      "id": "U13-Q008",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je haalde je rijbewijs B op je achttiende verjaardag en dat is nu vier jaar geleden. Geldt voor jou nog steeds de strengste alcoholgrens?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Wie zijn eerste rijbewijs op of na zijn achttiende haalt, blijft 5 jaar beginnende bestuurder, dus vier jaar later nog steeds.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. De beginnersperiode duurt 5 jaar en die is nog niet voorbij, dus de strengere grens geldt gewoon nog.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Haal je je eerste rijbewijs op of na je 18e, dan ben je 5 jaar beginnende bestuurder.",
+        "waarom": "De teller loopt vanaf het rijbewijs, niet vanaf je verjaardag of je rijervaring in kilometers. Zolang die teller nog niet vol is, sta je in de bovenste rij van de alcoholtabel.",
+        "valkuil": "Het examen kiest graag een aantal jaren dat net onder de grens ligt, zoals vier. Reken dus altijd na in plaats van te gokken op gevoel.",
+        "onthoud": "Vijf jaar beginner, en vier is minder dan vijf."
+      },
+      "bronnen": [
+        {
+          "slide": 9,
+          "anker": "op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is"
+        },
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "De toegestane hoeveelheid alcohol voor autobestuurders is"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder",
+        "rijbewijs"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "je je eerste rijbewijs op/na je 18e verjaardag hebt behaald en dat minder dan 5 jaar geleden is",
+        "bron": "slide 9"
+      }
+    },
+    {
+      "id": "U13-Q009",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Iemand haalde op zijn zestiende een bromfietsrijbewijs AM en daarna op zijn negentiende rijbewijs B. Hoe lang is hij beginnende bestuurder?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "7 jaar, gerekend vanaf het AM-rijbewijs.",
+          "feedback": "Goed. Had je al een AM-rijbewijs of T-rijbewijs voor je achttiende, dan telt de periode van 7 jaar vanaf dat eerste rijbewijs.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "5 jaar, gerekend vanaf het rijbewijs B.",
+          "feedback": "Fout. De vijf jaar horen bij iemand van wie het eerste rijbewijs op of na zijn achttiende is behaald, en dat is hier niet zo.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "7 jaar, gerekend vanaf het rijbewijs B.",
+          "feedback": "Fout. Het aantal jaren klopt, maar de teller begint bij het eerste rijbewijs en dat was de AM op zijn zestiende.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Hij is geen beginnende bestuurder, want hij rijdt al jaren.",
+          "feedback": "Fout. De beginnersstatus hangt aan het rijbewijs en niet aan hoeveel kilometers iemand naar eigen zeggen heeft gemaakt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Haal je je eerste rijbewijs (AM of T) voor je 18e, dan ben je 7 jaar beginnende bestuurder, gerekend vanaf dat AM-rijbewijs of T-rijbewijs.",
+        "waarom": "De wet wil dat er in totaal genoeg bewaakte tijd op de weg zit. Wie al op zijn zestiende de weg op mocht, krijgt daarom een langere periode, maar die begint ook eerder te lopen.",
+        "valkuil": "Twee getallen en twee startmomenten: het aantal jaren en waar de teller begint zijn allebei nodig voor het juiste antwoord.",
+        "onthoud": "Eerst AM of T voor je achttiende: 7 jaar vanaf dat rijbewijs."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
+        },
+        {
+          "slide": 9,
+          "anker": "voor je 18e verjaardag hebt behaald en dat minder dan 7 jaar geleden is"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "beginnend-bestuurder",
+        "bromfiets"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Indien je al in het bezit bent van het AM of T-rijbewijs, dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs.",
+        "bron": "boek p. 15"
+      }
+    },
+    {
+      "id": "U13-Q010",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Na een avond stappen drink je twee koppen zwarte koffie en loop je een blokje om in de frisse lucht. Zit er daardoor minder alcohol in je bloed dan zonder die koffie?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Koffie en frisse lucht staan in het boek juist als voorbeelden van wat niet helpt bij het afbreken van alcohol.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je lichaam breekt alcohol af in zijn eigen tempo en dat kun je niet versnellen, hoeveel koffie je ook drinkt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het lichaam breekt alcohol af met 0,1 tot 0,2 promille per uur, en dat kun je niet versnellen. Frisse lucht, zwarte koffie of een dutje doen helpt allemaal niets.",
+        "waarom": "Koffie verandert hoe wakker je je voelt, niet hoeveel alcohol er in je bloed zit. Het gevaarlijke daaraan is dat je jezelf daardoor nog verder gaat overschatten terwijl de meter bij een controle hetzelfde aanwijst.",
+        "valkuil": "De afbraak van 1 glas duurt al snel 1,5 uur. Reken dus met de klok en niet met hoe je je voelt.",
+        "onthoud": "Alleen tijd breekt alcohol af."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Frisse lucht, zwarte koffie, een dutje doen: het helpt allemaal niets"
+        },
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "Het lichaam breekt alcohol af met 0,1 a 0,2 promille per uur"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "afbraak",
+        "promille"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dat kun je niet versnellen. Frisse lucht, zwarte koffie, een dutje doen: het helpt allemaal niets.",
+        "bron": "boek p. 16"
+      }
+    },
+    {
+      "id": "U13-Q011",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Op tafel staan een glas bier, een glas wijn en een glaasje whisky, allemaal in de gebruikelijke maat. Waar zit de meeste pure alcohol in?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "In alle drie evenveel.",
+          "feedback": "Goed. Elk standaardglas bevat dezelfde hoeveelheid alcohol, ongeveer 12 milliliter puur.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In de whisky, want die is het sterkst.",
+          "feedback": "Fout. Het percentage is hoger, maar het glaasje is juist veel kleiner, en die twee heffen elkaar op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "In het bier, want dat glas is het grootst.",
+          "feedback": "Fout. Het glas is groter, maar het percentage alcohol is juist het laagst van de drie.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "In de wijn, want die zit tussen de andere twee in.",
+          "feedback": "Fout. Wijn zit inderdaad tussen bier en whisky in qua sterkte, maar ook het glas zit ertussenin, dus het komt op hetzelfde uit.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Elk standaardglas bevat dezelfde hoeveelheid alcohol: ongeveer 12 milliliter pure alcohol.",
+        "waarom": "Hoe sterker de drank, hoe kleiner het glas waarin hij wordt geschonken. Daardoor komt de rekensom van inhoud maal percentage bij alle drie op hetzelfde uit, en kun je gewoon glazen tellen.",
+        "valkuil": "Een standaardglas levert gemiddeld 0,2 tot 0,3 promille op, dus voor een beginner is een glas van welke soort dan ook al te veel.",
+        "onthoud": "Bier, wijn of sterke drank: een glas is een glas."
+      },
+      "bronnen": [
+        {
+          "boek": 15,
+          "sectie": "1.3",
+          "anker": "Elk standaard glas bevat dezelfde hoeveelheid alcohol"
+        },
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "pure alcohol en leidt gemiddeld tot een promillage van 0,2 a 0,3"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "standaardglas"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Elk standaard glas bevat dezelfde hoeveelheid alcohol.",
+        "bron": "boek p. 15"
+      }
+    },
+    {
+      "id": "U13-Q012",
+      "unit": "U13",
+      "pagina": "U13-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Bij wie of wanneer werkt alcohol volgens het boek extra sterk?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij kleine, lichte mensen.",
+          "feedback": "Goed. Het boek noemt kleine, lichte mensen als eerste groep bij wie alcohol extra hard aankomt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Bij mensen die geen alcohol gewend zijn.",
+          "feedback": "Goed. Wie zelden drinkt, merkt van dezelfde hoeveelheid meer dan iemand die het gewend is.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je op een nuchtere maag drinkt.",
+          "feedback": "Goed. Zonder eten in je maag komt de alcohol sneller en heftiger aan.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je erbij rookt.",
+          "feedback": "Fout. Roken staat niet in het rijtje van het boek; blijf bij de drie genoemde omstandigheden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Als je jonger bent dan achttien.",
+          "feedback": "Fout. Leeftijd speelt hier geen rol in het boek; die komt alleen terug bij de duur van de beginnersperiode.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Alcohol werkt extra sterk bij kleine, lichte mensen, bij mensen die geen alcohol gewend zijn en als je op een nuchtere maag drinkt.",
+        "waarom": "Dezelfde hoeveelheid drank verdeelt zich over minder lichaam, komt sneller in het bloed of treft iemand zonder gewenning. Daarom kun je vooraf nooit precies zeggen waar iemand uitkomt en is glazen tellen alleen geen veilige rekenmethode.",
+        "valkuil": "Het exacte effect is van tevoren niet te zeggen, dus je kunt je promillage niet uitrekenen aan de bar.",
+        "onthoud": "Klein, ongewend of nuchtere maag: dan hakt het er harder in."
+      },
+      "bronnen": [
+        {
+          "boek": 16,
+          "sectie": "1.3",
+          "anker": "bij mensen die geen alcohol gewend zijn"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "alcohol",
+        "promille",
+        "gesteldheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "bij kleine, lichte mensen, bij mensen die geen alcohol gewend zijn, als je op nuchtere maag drinkt",
+        "bron": "boek p. 16",
+        "gewijzigd": "tag standaardglas hoorde niet bij deze vraag over individuele verschillen en is vervangen door gesteldheid."
+      }
+    }
+  ]
+}

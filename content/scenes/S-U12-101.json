@@ -1,0 +1,38 @@
+{
+  "id": "S-U12-101",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de auto voor je"
+    },
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "motor",
+      "soort": "motorfiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de motorrijder"
+    }
+  ],
+  "alt": "Een rechte weg waar het verkeer stilstaat. Jij staat stil met een auto voor je. Achter je nadert een motorrijder die erlangs wil.",
+  "inspiratie": {
+    "boek": 167
+  }
+}

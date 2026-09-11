@@ -1,0 +1,829 @@
+{
+  "unit": "U14",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U14-Q013",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je stopt na een lange rit over de snelweg bij een tankstation en wilt daar meteen je bandenspanning nakijken. Is dat het beste moment daarvoor?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Na een lange rit zijn je banden warm, en warme lucht zet uit, dus je meet dan te veel.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je meet de spanning bij voorkeur aan het begin van de rit, als de banden nog koud zijn.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Controleer de bandenspanning een keer per maand, bij voorkeur aan het begin van de rit als de banden nog koud zijn.",
+        "waarom": "Rijden warmt de lucht in je band op, en die uitgezette lucht laat de meter een hogere waarde zien dan er koud in zit.",
+        "valkuil": "Meten mag altijd, maar wie warm meet en dan lucht laat ontsnappen rijdt straks met te weinig spanning.",
+        "onthoud": "Koud gemeten is eerlijk gemeten."
+      },
+      "bronnen": [
+        {
+          "slide": 235,
+          "anker": "Controleer de spanning elke maand, bij voorkeur aan het begin van de rit"
+        },
+        {
+          "boek": 209,
+          "sectie": "13.3",
+          "anker": "Controleer een keer per maand de bandenspanning"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "banden",
+        "onderhoud",
+        "bandenspanning"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Controleer de spanning elke maand, bij voorkeur aan het begin van de rit, als je banden nog koud zijn",
+        "bron": "slide 235"
+      }
+    },
+    {
+      "id": "U14-Q014",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij het afremmen voor een kruispunt hoor je sinds vandaag een raspend geluid uit de wielen komen. Wat is hier het waarschijnlijkste aan de hand?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je remblokken zijn versleten en je bent eigenlijk al te laat",
+          "feedback": "Goed. Raspen bij het remmen wijst op remblokken die op zijn; laat de auto snel nakijken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er zit een lek in je uitlaat",
+          "feedback": "Fout. Een lekke uitlaat maakt juist lawaai als je gas geeft, en een losse uitlaat schraapt over de weg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je wielen sporen niet meer goed",
+          "feedback": "Fout. Dat merk je aan een trilling in het stuur of aan banden die scheef afslijten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Er is iets mis met je stuurinrichting",
+          "feedback": "Fout. Een probleem in de aandrijfas hoor je als een bonkend geluid bij scherp insturen, niet bij remmen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Remblokken slijten en moeten geregeld vervangen worden; hoor je tijdens het remmen een raspend geluid, dan ben je te laat.",
+        "waarom": "Het rasp is metaal op metaal: het wrijfmateriaal is op en de houder schuurt nu rechtstreeks over je remschijf.",
+        "valkuil": "Trekt je auto tijdens het remmen naar links of rechts, dan is er een ander defect in je remsysteem.",
+        "onthoud": "Raspen bij remmen betekent nu naar de garage."
+      },
+      "bronnen": [
+        {
+          "boek": 224,
+          "sectie": "13.6",
+          "anker": "Als je tijdens het remmen een 'raspend' geluid hoort"
+        },
+        {
+          "slide": 236,
+          "anker": "Remblokken slijten elke keer als je remt"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "defecten",
+        "remmen",
+        "onderhoud"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je tijdens het remmen een 'raspend' geluid hoort, ben je te laat",
+        "bron": "boek p. 224"
+      }
+    },
+    {
+      "id": "U14-Q015",
+      "unit": "U14",
+      "pagina": "U14-P02",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "In de garage wordt je aangeboden om je banden met stikstof te laten vullen. Welke voordelen noemt het boek daarbij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De banden blijven veel langer op spanning",
+          "feedback": "Goed. Stikstof ontsnapt niet via de poriën van het rubber, dus de spanning zakt veel trager weg.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het brandstofverbruik is lager",
+          "feedback": "Goed. Banden op de juiste spanning rollen lichter, en dat scheelt brandstof.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De wegligging is beter en de remweg korter",
+          "feedback": "Goed. Dit staat met zoveel woorden in de lijst voordelen van banden op stikstof.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je hoeft de spanning daarna nooit meer te controleren",
+          "feedback": "Fout. Langer op spanning blijven is iets anders dan nooit meer leeglopen; blijven controleren dus.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Je herkent ze aan een rood ventieldopje",
+          "feedback": "Fout. Het dopje van een band met stikstof is groen, niet rood.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Banden met stikstof blijven langer op spanning, geven lager brandstofverbruik, betere wegligging en een kortere remweg, worden minder warm en slijten minder; je herkent ze aan een groen ventieldopje.",
+        "waarom": "Bijna al die voordelen komen uit hetzelfde punt: een band die zijn spanning vasthoudt blijft in de vorm waarin hij ontworpen is.",
+        "valkuil": "Ook stikstofbanden lopen op den duur leeg, dus de maandelijkse controle vervalt niet.",
+        "onthoud": "Groen dopje betekent stikstof."
+      },
+      "bronnen": [
+        {
+          "boek": 225,
+          "sectie": "13.6",
+          "anker": "Stikstof ontsnapt niet via de poriën van de banden"
+        },
+        {
+          "boek": 225,
+          "sectie": "13.6",
+          "anker": "de wegligging is beter en de remweg is korter"
+        },
+        {
+          "slide": 235,
+          "anker": "Ze zijn herkenbaar aan een groene ventieldop"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "banden",
+        "stikstof",
+        "onderhoud"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Stikstof ontsnapt niet via de porien van de banden, waardoor die langer op spanning blijven",
+        "bron": "boek p. 225"
+      }
+    },
+    {
+      "id": "U14-Q016",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Midden op een provinciale weg springt er een rood waarschuwingslampje aan op je dashboard. De garage waar je heen wilt is nog tien minuten rijden. Mag je doorrijden tot daar?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Dat is de regel voor een geel lampje; bij rood hoort de motor zo snel mogelijk uit.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Rood betekent een ernstige storing: stop op een veilige plaats en schakel de motor uit.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Gaat er een rood waarschuwingslampje branden, dan is er een ernstige storing: stop op een veilige plaats en schakel de motor uit om de auto te laten repareren.",
+        "waarom": "Bij te lage oliedruk of een te hete motor gaat de schade per gereden kilometer verder, dus elke extra minuut is er een te veel.",
+        "valkuil": "Tien minuten klinkt kort, maar juist die tien minuten kunnen het verschil zijn tussen een reparatie en een nieuwe motor.",
+        "onthoud": "Rood is stoppen, geel is laten nakijken."
+      },
+      "bronnen": [
+        {
+          "boek": 214,
+          "sectie": "13.4",
+          "anker": "Als er een rood waarschuwingslampje gaat branden, is er sprake van een ernstige storing"
+        },
+        {
+          "slide": 237,
+          "anker": "Stop op een veilige plaats en schakel de motor uit om de auto te"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "waarschuwingslampje"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als er een rood waarschuwingslampje gaat branden, is er sprake van een ernstige storing",
+        "bron": "boek p. 214"
+      }
+    },
+    {
+      "id": "U14-Q017",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op weg naar je werk gaat er een geel waarschuwingslampje branden. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je rijdt door, maar laat het probleem zo snel mogelijk nakijken",
+          "feedback": "Goed. Bij geel hoef je niet onmiddellijk te stoppen, maar je rijdt niet langer door dan nodig is.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je stopt direct en schakelt de motor uit",
+          "feedback": "Fout. Dat hoort bij een rood lampje; geel geeft je de ruimte om naar een werkplaats te rijden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je negeert het tot de volgende onderhoudsbeurt",
+          "feedback": "Fout. Blijf niet langer doorrijden dan strikt noodzakelijk is, want een klein defect groeit vanzelf.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je stopt, wacht tot de motor is afgekoeld en rijdt dan door",
+          "feedback": "Fout. Afkoelen lost niets op; een geel lampje wijst op een storing die nagekeken moet worden.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen; je kunt bijvoorbeeld doorrijden naar je autodealer, maar blijf niet langer doorrijden dan strikt noodzakelijk is.",
+        "waarom": "Geel staat voor een storing die je veiligheid nu nog niet meteen aantast, maar die wel erger wordt als je hem laat zitten.",
+        "valkuil": "Brandt er geel terwijl datzelfde symbool ook als rood lampje bestaat, dan is voorzichtigheid extra op zijn plaats.",
+        "onthoud": "Geel betekent doorrijden met een afspraak, niet doorrijden zonder plan."
+      },
+      "bronnen": [
+        {
+          "boek": 216,
+          "sectie": "13.4",
+          "anker": "Je kunt bijvoorbeeld doorrijden naar je autodealer om het probleem te verhelpen"
+        },
+        {
+          "slide": 237,
+          "anker": "Je hoeft niet onmiddelijk te stoppen, maar blijf niet langer doorrijden dan noodzakelijk is"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "waarschuwingslampje"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen. Je kunt bijvoorbeeld doorrijden naar je autodealer om het probleem te verhelpen",
+        "bron": "boek p. 216"
+      }
+    },
+    {
+      "id": "U14-Q018",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Tijdens het rijden gaan het lampje voor de koelvloeistoftemperatuur en het accu-lampje tegelijk branden. Wat is er vermoedelijk kapot?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De V-snaar, die zowel de koelvloeistofpomp als de dynamo aandrijft",
+          "feedback": "Goed. Eén gebroken snaar legt twee systemen tegelijk stil, en dat zie je aan die twee lampjes samen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het roetfilter, dat verstopt is geraakt",
+          "feedback": "Fout. Daarvoor bestaat een eigen rood lampje met een filtersymbool.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "De stuurbekrachtiging, waardoor het sturen zwaarder wordt",
+          "feedback": "Fout. Die storing meldt zich met een rood stuurwiel met een uitroepteken en heeft niets met koelen te maken.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "De accu zelf, die versleten is",
+          "feedback": "Fout. Een versleten accu verklaart de oplopende motortemperatuur niet, en die twee lampjes samen wel.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Brandt het lampje voor de koelvloeistoftemperatuur samen met het accu-lampje, dan is vermoedelijk de V-snaar gebroken, want die drijft zowel de koelvloeistofpomp als de dynamo aan.",
+        "waarom": "Twee storingen die op hetzelfde moment beginnen wijzen meestal op één gezamenlijke oorzaak in plaats van op twee losse pechgevallen.",
+        "valkuil": "Allebei zijn het rode lampjes, dus je stopt hoe dan ook meteen en zet de motor af.",
+        "onthoud": "Twee rode lampjes tegelijk betekent één snaar te weinig."
+      },
+      "bronnen": [
+        {
+          "slide": 237,
+          "anker": "Als de koelvloeistoftemperatuur te hoog wordt én tegelijkertijd het accu-lampje brandt"
+        },
+        {
+          "boek": 215,
+          "sectie": "13.4",
+          "anker": "De accu wordt niet bijgeladen, de dynamo of V-riem is kapot"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "defecten",
+        "waarschuwingslampje"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "is vermoedelijk de V-snaar gebroken. Deze drijft namelijk zowel de koelvloeistofpomp als de dynamo aan",
+        "bron": "slide 237"
+      }
+    },
+    {
+      "id": "U14-Q019",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke meldingen op je dashboard horen bij de groep waarbij je zo snel mogelijk stopt en de motor uitschakelt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De oliedruk is te laag",
+          "feedback": "Goed. Dit is een rood lampje: motor af en direct het niveau van de motorolie controleren.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De temperatuur van de koelvloeistof is te hoog",
+          "feedback": "Goed. Ook dit is rood: zet de motor af voordat hij oververhit raakt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Er is een probleem met het remsysteem",
+          "feedback": "Goed. Een rood lampje bij het remsysteem betekent stoppen, niet nog even doorrijden.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De brandstoftank is bijna leeg",
+          "feedback": "Fout. Dat is een geel lampje; vervelend, maar geen reden om direct de motor uit te zetten.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "e",
+          "tekst": "Er is een storing in het antiblokkeersysteem",
+          "feedback": "Fout. Dat meldt zich geel, dus je rijdt door naar de garage in plaats van meteen te stoppen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "f",
+          "tekst": "De achterruitverwarming staat aan",
+          "feedback": "Fout. Dat is een functioneringslampje dat alleen laat zien dat je iets hebt ingeschakeld.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Rode waarschuwingslampjes staan voor een ernstige storing waarbij je op een veilige plaats stopt en de motor uitschakelt; gele lampjes vragen niet om onmiddellijk stoppen.",
+        "waarom": "De kleur vertelt je hoe snel de schade oploopt, dus je hoeft geen enkel symbool uit je hoofd te leren om de goede beslissing te nemen.",
+        "valkuil": "Een groen of blauw lampje zegt alleen dat een functie aanstaat en waarschuwt helemaal nergens voor.",
+        "onthoud": "Kijk eerst naar de kleur, dan pas naar het plaatje."
+      },
+      "bronnen": [
+        {
+          "boek": 215,
+          "sectie": "13.4",
+          "anker": "zet direct de motor af en controleer het niveau van de motorolie"
+        },
+        {
+          "boek": 216,
+          "sectie": "13.4",
+          "anker": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen"
+        },
+        {
+          "slide": 237,
+          "anker": "Aangeven dat er een 'minder acute' storing is"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "dashboard",
+        "waarschuwingslampje"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Stop op een veilige plaats en schakel de motor uit om de auto te (laten) repareren",
+        "bron": "boek p. 214"
+      }
+    },
+    {
+      "id": "U14-Q020",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto heeft een noodremsysteem dat zelf ingrijpt als je te dicht op je voorligger komt. Blijf jij dan nog steeds zelf verantwoordelijk voor de rijtaak?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Rijhulpsystemen ondersteunen je, maar ze nemen het rijden en de verantwoordelijkheid niet over.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Zodra een systeem meebestuurt lijkt het alsof je iets kunt afgeven, maar de wet ziet dat anders.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "De belangrijkste regel is dat jij als bestuurder altijd zelf verantwoordelijk bent voor het uitvoeren van de rijtaak; rijhulpsystemen ondersteunen je en nemen het rijden niet over.",
+        "waarom": "Elk systeem heeft grenzen die het zelf niet kan overzien, dus er moet altijd iemand zijn die wel het hele plaatje ziet.",
+        "valkuil": "Het echte risico is gedragsaanpassing: dichter op je voorligger gaan rijden omdat de auto toch wel remt.",
+        "onthoud": "De auto helpt, jij rijdt."
+      },
+      "bronnen": [
+        {
+          "boek": 218,
+          "sectie": "13.5",
+          "anker": "jij als bestuurder altijd zelf verantwoordelijk bent voor het uitvoeren van de rijtaak"
+        },
+        {
+          "slide": 239,
+          "anker": "Rijhulpsystemen ondersteunen je, maar nemen het rijden niet over"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "adas",
+        "verantwoordelijkheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "jij als bestuurder altijd zelf verantwoordelijk bent voor het uitvoeren van de rijtaak",
+        "bron": "boek p. 218"
+      }
+    },
+    {
+      "id": "U14-Q021",
+      "unit": "U14",
+      "pagina": "U14-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het heeft flink gesneeuwd en de sensoren en camera's aan de voorkant van je auto zitten onder de sneeuw. Wat betekent dat voor je rijhulpsystemen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De betreffende systemen worden automatisch uitgeschakeld en je krijgt een melding op je dashboard",
+          "feedback": "Goed. Een sensor die niets kan waarnemen levert geen bruikbare informatie, dus het systeem gaat uit.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Ze werken gewoon door, want ze gebruiken ook de gegevens van je navigatie",
+          "feedback": "Fout. De systemen leunen op wat hun eigen sensoren en camera's zien, en dat zicht is nu weg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Ze schakelen zichzelf over op een voorzichtiger stand",
+          "feedback": "Fout. Zo'n tussenstand bestaat niet; vuil, sneeuw of ijs vermindert de werking ernstig.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Er verandert niets tot je auto aan zijn volgende beurt toe is",
+          "feedback": "Fout. Dit merk je meteen tijdens de rit en niet pas bij het onderhoud.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als een sensor vervuild of geblokkeerd is, wordt een rijhulpsysteem automatisch uitgeschakeld en verschijnt er een melding op je dashboard.",
+        "waarom": "Een systeem dat zou blijven werken op half beeld is gevaarlijker dan een systeem dat eerlijk meldt dat het niets ziet.",
+        "valkuil": "Juist dan moet jij het werk weer overnemen, dus poets de sensoren en camera's schoon voor je wegrijdt.",
+        "onthoud": "Sneeuw en vuil op de sensor betekent systeem uit."
+      },
+      "bronnen": [
+        {
+          "boek": 219,
+          "sectie": "13.5",
+          "anker": "Als een sensor vervuild of geblokkeerd is, wordt een rijhulpsysteem automatisch uitgeschakeld"
+        },
+        {
+          "slide": 240,
+          "anker": "zorg dat sensoren en camera's schoon zijn. Vuil, sneeuw of ijs kan de werking"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "adas",
+        "sensoren",
+        "winter"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als een sensor vervuild of geblokkeerd is, wordt een rijhulpsysteem automatisch uitgeschakeld. Er verschijnt dan een melding op je dashboard",
+        "bron": "boek p. 219"
+      }
+    },
+    {
+      "id": "U14-Q022",
+      "unit": "U14",
+      "pagina": "U14-P04",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je hebt spullen op je imperiaal gebonden. Auto en lading samen zijn daarmee precies 4 meter hoog. Blijf je binnen de maximale hoogte?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Dat is precies de maximale hoogte die voor een personenauto inclusief lading geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Deze hoogte is nog toegestaan; de lading telt gewoon mee, maar je zit er niet boven.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Een personenauto mag inclusief de lading maximaal 4 meter hoog zijn; dezelfde grens geldt voor een aanhangwagen.",
+        "waarom": "De grens hangt samen met wat er onder viaducten en in tunnels door past, dus hij geldt voor de auto met alles erop.",
+        "valkuil": "Op de weg kan een bord met een lagere hoogte staan, en dan telt dat bord en niet deze algemene grens.",
+        "onthoud": "Hoogte tot 4 meter, breedte tot 2,55 meter, lading inbegrepen."
+      },
+      "bronnen": [
+        {
+          "boek": 226,
+          "sectie": "13.7",
+          "anker": "maximaal 4 meter hoog zijn (inclusief lading)"
+        },
+        {
+          "slide": 248,
+          "anker": "hoogte (blauwe pijl) 4 meter (inclusief lading)"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "lading",
+        "afmetingen",
+        "personenauto"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "maximaal 4 meter hoog zijn (inclusief lading)",
+        "bron": "boek p. 226",
+        "gewijzigd": "Het tweede anker wees naar de regel over daklast op slide 248 en niet naar de hoogte waar de vraag over gaat; vervangen door de hoogtemaat op diezelfde slide, en de moeilijkheid van 1 naar 2 omdat precies op de grens zitten nog is toegestaan en dat de eigenlijke valkuil is."
+      }
+    },
+    {
+      "id": "U14-Q023",
+      "unit": "U14",
+      "pagina": "U14-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Hoe breed mag een personenauto inclusief zijn lading maximaal zijn?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "2,10 meter",
+          "feedback": "Fout. Deze maat komt uit de verlichtingseisen voor brede voertuigen, niet uit de breedtegrens.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "2,55 meter",
+          "feedback": "Goed. Deze breedte geldt inclusief de lading, en ook voor een aanhangwagen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "3 meter",
+          "feedback": "Fout. Dat is de grens voor ondeelbare lading op een aanhangwagen, niet de breedte van je auto.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "4 meter",
+          "feedback": "Fout. Dat getal hoort bij de maximale hoogte van auto en lading samen.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een personenauto mag maximaal 12 meter lang zijn en inclusief lading maximaal 2,55 meter breed; voor een aanhangwagen gelden dezelfde maten.",
+        "waarom": "Rijstroken zijn op deze maximumbreedte afgestemd, dus alles wat daarbuiten steekt komt bij een tegenligger of naast je terecht.",
+        "valkuil": "Op een aanhangwagen mag ondeelbare lading wel breder zijn, tot een andere grens.",
+        "onthoud": "Breed tot 2,55 meter, alles wat je meeneemt telt mee."
+      },
+      "bronnen": [
+        {
+          "boek": 226,
+          "sectie": "13.7",
+          "anker": "maximaal 12 meter lang zijn, maximaal 2,55 meter breed zijn (inclusief lading)"
+        },
+        {
+          "boek": 227,
+          "sectie": "13.7",
+          "anker": "maximaal 2,55 meter breed zijn"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "lading",
+        "afmetingen",
+        "breedte"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "maximaal 12 meter lang zijn, maximaal 2,55 meter breed zijn (inclusief lading)",
+        "bron": "boek p. 226"
+      }
+    },
+    {
+      "id": "U14-Q024",
+      "unit": "U14",
+      "pagina": "U14-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je vervoert planken op je imperiaal. Ze steken aan elke kant een stuk buiten de auto uit, maar blijven binnen de toegestane 20 cm. Moet je er een markeringsbord aan hangen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Die verplichting geldt voor een aanhangwagen, niet voor lading op de auto zelf.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Markeringsborden voor uitstekende lading zijn op een auto niet verplicht.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Lading op een auto mag aan elke kant maximaal 20 cm uitsteken en markeringsborden zijn daarbij niet verplicht; op een aanhangwagen zijn ze dat wel.",
+        "waarom": "Op de auto is de speelruimte zo klein dat de lading binnen de contour van het voertuig blijft opvallen, terwijl een aanhangwagen veel verder mag uitsteken.",
+        "valkuil": "Niet verplicht betekent niet verboden, en bij slecht zicht is markering natuurlijk gewoon verstandig.",
+        "onthoud": "Auto geen bord nodig, aanhangwagen wel."
+      },
+      "bronnen": [
+        {
+          "boek": 229,
+          "sectie": "13.7",
+          "anker": "markeringsborden voor uitstekende lading zijn niet verplicht"
+        },
+        {
+          "slide": 254,
+          "anker": "Bij lading op auto / imperiaal niet nodig"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "lading",
+        "markeringsbord",
+        "breedte",
+        "personenauto"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "markeringsborden voor uitstekende lading zijn niet verplicht",
+        "bron": "boek p. 229"
+      }
+    }
+  ]
+}

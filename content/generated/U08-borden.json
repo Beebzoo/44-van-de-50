@@ -8,6 +8,570 @@
       "pagina": "U08-P02",
       "type": "hotspot",
       "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Autosnelweg.",
+      "media": {
+        "borden": [
+          "G9",
+          "G2",
+          "G14",
+          "G1",
+          "G6",
+          "G3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G9",
+          "tekst": "G9",
+          "feedback": "Fout. Dit is G9: Ruiterpad. Het gevraagde bord is G1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Fout. Dit is G2: Einde autosnelweg. Het gevraagde bord is G1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G14",
+          "tekst": "G14",
+          "feedback": "Fout. Dit is G14: Einde onverplicht fietspad. Het gevraagde bord is G1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G1",
+          "tekst": "G1",
+          "feedback": "Goed. Dit is G1, en dat bord betekent: Autosnelweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G3",
+          "tekst": "G3",
+          "feedback": "Fout. Dit is G3: Autoweg. Het gevraagde bord is G1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G1"
+      ],
+      "uitleg": {
+        "regel": "G1 betekent: Autosnelweg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met het witte autosnelwegsymbool.",
+        "valkuil": "Verwar het niet met G2, G3, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Blauw vierkant met het witte autosnelwegsymbool"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g1",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q901",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G1"
+      },
+      "opties": [
+        {
+          "id": "G1",
+          "tekst": "Autosnelweg.",
+          "feedback": "Goed. Dit is G1: blauw vierkant met het witte autosnelwegsymbool, en dat betekent Autosnelweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G9",
+          "tekst": "Ruiterpad.",
+          "feedback": "Fout. Dat is de betekenis van G9, blauwe cirkel met een witte ruiter te paard. Dit bord is G1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G11",
+          "tekst": "Verplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G11, blauwe cirkel met een witte fiets. Dit bord is G1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G10",
+          "tekst": "Einde ruiterpad.",
+          "feedback": "Fout. Dat is de betekenis van G10, hetzelfde bord met een rode diagonale streep. Dit bord is G1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G1"
+      ],
+      "uitleg": {
+        "regel": "G1 betekent: Autosnelweg.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met het witte autosnelwegsymbool.",
+        "valkuil": "De lijkers zijn G2, G3. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Blauw vierkant met het witte autosnelwegsymbool"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g1",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q902",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde autosnelweg.",
+      "media": {
+        "borden": [
+          "G13",
+          "G4",
+          "G2",
+          "G1",
+          "G3",
+          "G6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G13",
+          "tekst": "G13",
+          "feedback": "Fout. Dit is G13: Onverplicht fietspad. Het gevraagde bord is G2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Fout. Dit is G4: Einde autoweg. Het gevraagde bord is G2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Goed. Dit is G2, en dat bord betekent: Einde autosnelweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G1",
+          "tekst": "G1",
+          "feedback": "Fout. Dit is G1: Autosnelweg. Het gevraagde bord is G2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G3",
+          "tekst": "G3",
+          "feedback": "Fout. Dit is G3: Autoweg. Het gevraagde bord is G2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G2"
+      ],
+      "uitleg": {
+        "regel": "G2 betekent: Einde autosnelweg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: hetzelfde bord met een rode diagonale streep.",
+        "valkuil": "Verwar het niet met G1, G4, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Hetzelfde bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g2",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q903",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G2"
+      },
+      "opties": [
+        {
+          "id": "G2",
+          "tekst": "Einde autosnelweg.",
+          "feedback": "Goed. Dit is G2: hetzelfde bord met een rode diagonale streep, en dat betekent Einde autosnelweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G11",
+          "tekst": "Verplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G11, blauwe cirkel met een witte fiets. Dit bord is G2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G5",
+          "tekst": "Erf.",
+          "feedback": "Fout. Dat is de betekenis van G5, blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger. Dit bord is G2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G3",
+          "tekst": "Autoweg.",
+          "feedback": "Fout. Dat is de betekenis van G3, blauw vierkant met een witte auto van voren. Dit bord is G2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G2"
+      ],
+      "uitleg": {
+        "regel": "G2 betekent: Einde autosnelweg.",
+        "waarom": "Kijk naar de vorm en de kleur: hetzelfde bord met een rode diagonale streep.",
+        "valkuil": "De lijkers zijn G1, G4. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Hetzelfde bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g2",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q904",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Autoweg.",
+      "media": {
+        "borden": [
+          "G2",
+          "G3",
+          "G5",
+          "G8",
+          "G6",
+          "G4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Fout. Dit is G2: Einde autosnelweg. Het gevraagde bord is G3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G3",
+          "tekst": "G3",
+          "feedback": "Goed. Dit is G3, en dat bord betekent: Autoweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G5",
+          "tekst": "G5",
+          "feedback": "Fout. Dit is G5: Erf. Het gevraagde bord is G3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G8",
+          "tekst": "G8",
+          "feedback": "Fout. Dit is G8: Einde voetpad. Het gevraagde bord is G3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Fout. Dit is G4: Einde autoweg. Het gevraagde bord is G3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G3"
+      ],
+      "uitleg": {
+        "regel": "G3 betekent: Autoweg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met een witte auto van voren.",
+        "valkuil": "Verwar het niet met G4, G1, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Blauw vierkant met een witte auto van voren"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g3",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q905",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G3"
+      },
+      "opties": [
+        {
+          "id": "G12b",
+          "tekst": "Einde fiets-/bromfietspad.",
+          "feedback": "Fout. Dat is de betekenis van G12b, hetzelfde bord met een rode diagonale streep. Dit bord is G3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G3",
+          "tekst": "Autoweg.",
+          "feedback": "Goed. Dit is G3: blauw vierkant met een witte auto van voren, en dat betekent Autoweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G9",
+          "tekst": "Ruiterpad.",
+          "feedback": "Fout. Dat is de betekenis van G9, blauwe cirkel met een witte ruiter te paard. Dit bord is G3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G1",
+          "tekst": "Autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van G1, blauw vierkant met het witte autosnelwegsymbool. Dit bord is G3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G3"
+      ],
+      "uitleg": {
+        "regel": "G3 betekent: Autoweg.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met een witte auto van voren.",
+        "valkuil": "De lijkers zijn G4, G1. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Blauw vierkant met een witte auto van voren"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g3",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q906",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde autoweg.",
+      "media": {
+        "borden": [
+          "G2",
+          "G4",
+          "G12b",
+          "G5",
+          "G13",
+          "G7"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Fout. Dit is G2: Einde autosnelweg. Het gevraagde bord is G4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Goed. Dit is G4, en dat bord betekent: Einde autoweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G12b",
+          "tekst": "G12b",
+          "feedback": "Fout. Dit is G12b: Einde fiets-/bromfietspad. Het gevraagde bord is G4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G5",
+          "tekst": "G5",
+          "feedback": "Fout. Dit is G5: Erf. Het gevraagde bord is G4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G13",
+          "tekst": "G13",
+          "feedback": "Fout. Dit is G13: Onverplicht fietspad. Het gevraagde bord is G4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G7",
+          "tekst": "G7",
+          "feedback": "Fout. Dit is G7: Voetpad. Het gevraagde bord is G4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G4"
+      ],
+      "uitleg": {
+        "regel": "G4 betekent: Einde autoweg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: hetzelfde bord met een rode diagonale streep.",
+        "valkuil": "Verwar het niet met G3, G2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Hetzelfde bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g4",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q907",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G4"
+      },
+      "opties": [
+        {
+          "id": "G14",
+          "tekst": "Einde onverplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G14, hetzelfde bordje met een rode diagonale streep. Dit bord is G4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "Einde autoweg.",
+          "feedback": "Goed. Dit is G4: hetzelfde bord met een rode diagonale streep, en dat betekent Einde autoweg.",
+          "fouttype": null
+        },
+        {
+          "id": "G3",
+          "tekst": "Autoweg.",
+          "feedback": "Fout. Dat is de betekenis van G3, blauw vierkant met een witte auto van voren. Dit bord is G4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G2",
+          "tekst": "Einde autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van G2, hetzelfde bord met een rode diagonale streep. Dit bord is G4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G4"
+      ],
+      "uitleg": {
+        "regel": "G4 betekent: Einde autoweg.",
+        "waarom": "Kijk naar de vorm en de kleur: hetzelfde bord met een rode diagonale streep.",
+        "valkuil": "De lijkers zijn G3, G2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 243,
+          "anker": "Hetzelfde bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g4",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q908",
+      "unit": "U08",
+      "pagina": "U08-P05",
+      "type": "hotspot",
+      "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
       "media": {
         "borden": [
@@ -47,7 +611,7 @@
         {
           "id": "K1",
           "tekst": "K1",
-          "feedback": "Goed. K1 betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Goed. Dit is K1, en dat bord betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
           "fouttype": null
         },
         {
@@ -83,9 +647,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q901",
+      "id": "U08-Q909",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -102,7 +666,7 @@
         {
           "id": "K1",
           "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
-          "feedback": "Goed. Dit is K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34.",
+          "feedback": "Goed. Dit is K1: blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34, en dat betekent Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
           "fouttype": null
         },
         {
@@ -144,9 +708,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q902",
+      "id": "U08-Q910",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "hotspot",
       "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
@@ -194,7 +758,7 @@
         {
           "id": "K2",
           "tekst": "K2",
-          "feedback": "Goed. K2 betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+          "feedback": "Goed. Dit is K2, en dat bord betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
           "fouttype": null
         }
       ],
@@ -224,9 +788,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q903",
+      "id": "U08-Q911",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -249,7 +813,7 @@
         {
           "id": "K2",
           "tekst": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
-          "feedback": "Goed. Dit is K2, blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak.",
+          "feedback": "Goed. Dit is K2: blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak, en dat betekent Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
           "fouttype": null
         },
         {
@@ -285,9 +849,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q904",
+      "id": "U08-Q912",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "hotspot",
       "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
@@ -323,7 +887,7 @@
         {
           "id": "K3",
           "tekst": "K3",
-          "feedback": "Goed. K3 betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+          "feedback": "Goed. Dit is K3, en dat bord betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
           "fouttype": null
         },
         {
@@ -365,9 +929,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q905",
+      "id": "U08-Q913",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -384,7 +948,7 @@
         {
           "id": "K3",
           "tekst": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
-          "feedback": "Goed. Dit is K3, blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog.",
+          "feedback": "Goed. Dit is K3: blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog, en dat betekent Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
           "fouttype": null
         },
         {
@@ -426,9 +990,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q906",
+      "id": "U08-Q914",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "hotspot",
       "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
@@ -452,7 +1016,7 @@
         {
           "id": "K4",
           "tekst": "K4",
-          "feedback": "Goed. K4 betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+          "feedback": "Goed. Dit is K4, en dat bord betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
           "fouttype": null
         },
         {
@@ -506,9 +1070,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q907",
+      "id": "U08-Q915",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -531,7 +1095,7 @@
         {
           "id": "K4",
           "tekst": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
-          "feedback": "Goed. Dit is K4, groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m.",
+          "feedback": "Goed. Dit is K4: groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m, en dat betekent Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
           "fouttype": null
         },
         {
@@ -567,9 +1131,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q908",
+      "id": "U08-Q916",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "hotspot",
       "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
@@ -611,7 +1175,7 @@
         {
           "id": "K5",
           "tekst": "K5",
-          "feedback": "Goed. K5 betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+          "feedback": "Goed. Dit is K5, en dat bord betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
           "fouttype": null
         },
         {
@@ -647,9 +1211,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q909",
+      "id": "U08-Q917",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -672,7 +1236,7 @@
         {
           "id": "K5",
           "tekst": "Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
-          "feedback": "Goed. Dit is K5, blauw bord met een schematische kruising: breeven, best, n620, links a58 en tilburg, rechts a2 en eindhoven; en een tweede paneel met venlo, n275, eindhoven, amsterdam, a2, roermond, maastricht.",
+          "feedback": "Goed. Dit is K5: blauw bord met een schematische kruising: breeven, best, n620, links a58 en tilburg, rechts a2 en eindhoven; en een tweede paneel met venlo, n275, eindhoven, amsterdam, a2, roermond, maastricht, en dat betekent Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
           "fouttype": null
         },
         {
@@ -708,7 +1272,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q910",
+      "id": "U08-Q918",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "hotspot",
@@ -740,7 +1304,7 @@
         {
           "id": "K6",
           "tekst": "K6",
-          "feedback": "Goed. K6 betekent: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+          "feedback": "Goed. Dit is K6, en dat bord betekent: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
           "fouttype": null
         },
         {
@@ -788,7 +1352,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q911",
+      "id": "U08-Q919",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "meerkeuze",
@@ -807,7 +1371,7 @@
         {
           "id": "K6",
           "tekst": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
-          "feedback": "Goed. Dit is K6, twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14.",
+          "feedback": "Goed. Dit is K6: twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14, en dat betekent Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
           "fouttype": null
         },
         {
@@ -849,7 +1413,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q912",
+      "id": "U08-Q920",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "hotspot",
@@ -887,7 +1451,7 @@
         {
           "id": "K7",
           "tekst": "K7",
-          "feedback": "Goed. K7 betekent: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Goed. Dit is K7, en dat bord betekent: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
           "fouttype": null
         },
         {
@@ -929,7 +1493,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q913",
+      "id": "U08-Q921",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "meerkeuze",
@@ -948,7 +1512,7 @@
         {
           "id": "K7",
           "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
-          "feedback": "Goed. Dit is K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16.",
+          "feedback": "Goed. Dit is K7: twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16, en dat betekent Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
           "fouttype": null
         },
         {
@@ -990,9 +1554,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q914",
+      "id": "U08-Q924",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "hotspot",
       "soort": "kennis",
       "stam": "Tik op het bord dat dit betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
@@ -1028,7 +1592,7 @@
         {
           "id": "K9",
           "tekst": "K9",
-          "feedback": "Goed. K9 betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+          "feedback": "Goed. Dit is K9, en dat bord betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
           "fouttype": null
         },
         {
@@ -1070,9 +1634,9 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q915",
+      "id": "U08-Q925",
       "unit": "U08",
-      "pagina": "U08-P02",
+      "pagina": "U08-P05",
       "type": "meerkeuze",
       "soort": "kennis",
       "stam": "Wat betekent dit bord?",
@@ -1083,7 +1647,7 @@
         {
           "id": "K9",
           "tekst": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
-          "feedback": "Goed. Dit is K9, blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel.",
+          "feedback": "Goed. Dit is K9: blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel, en dat betekent Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
           "fouttype": null
         },
         {
@@ -1131,7 +1695,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q916",
+      "id": "U08-Q926",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "hotspot",
@@ -1169,7 +1733,7 @@
         {
           "id": "K10",
           "tekst": "K10",
-          "feedback": "Goed. K10 betekent: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "feedback": "Goed. Dit is K10, en dat bord betekent: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
           "fouttype": null
         },
         {
@@ -1211,7 +1775,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q917",
+      "id": "U08-Q927",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "meerkeuze",
@@ -1242,7 +1806,7 @@
         {
           "id": "K10",
           "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
-          "feedback": "Goed. Dit is K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers.",
+          "feedback": "Goed. Dit is K10: blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers, en dat betekent Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
           "fouttype": null
         }
       ],
@@ -1272,7 +1836,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q918",
+      "id": "U08-Q930",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "hotspot",
@@ -1322,7 +1886,7 @@
         {
           "id": "K12",
           "tekst": "K12",
-          "feedback": "Goed. K12 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "feedback": "Goed. Dit is K12, en dat bord betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
           "fouttype": null
         }
       ],
@@ -1352,7 +1916,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q919",
+      "id": "U08-Q931",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "meerkeuze",
@@ -1371,7 +1935,7 @@
         {
           "id": "K12",
           "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
-          "feedback": "Goed. Dit is K12, blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog.",
+          "feedback": "Goed. Dit is K12: blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog, en dat betekent Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
           "fouttype": null
         },
         {
@@ -1413,7 +1977,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q920",
+      "id": "U08-Q932",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "hotspot",
@@ -1451,7 +2015,7 @@
         {
           "id": "K13",
           "tekst": "K13",
-          "feedback": "Goed. K13 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+          "feedback": "Goed. Dit is K13, en dat bord betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
           "fouttype": null
         },
         {
@@ -1493,7 +2057,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q921",
+      "id": "U08-Q933",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "meerkeuze",
@@ -1512,7 +2076,7 @@
         {
           "id": "K13",
           "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
-          "feedback": "Goed. Dit is K13, blauw bord met de getallen 10 12 14 25 en een pijl naar rechts.",
+          "feedback": "Goed. Dit is K13: blauw bord met de getallen 10 12 14 25 en een pijl naar rechts, en dat betekent Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
           "fouttype": null
         },
         {
@@ -1554,7 +2118,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q922",
+      "id": "U08-Q934",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "hotspot",
@@ -1580,7 +2144,7 @@
         {
           "id": "K14",
           "tekst": "K14",
-          "feedback": "Goed. K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Goed. Dit is K14, en dat bord betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
           "fouttype": null
         },
         {
@@ -1634,7 +2198,7 @@
       "status": "gecheckt"
     },
     {
-      "id": "U08-Q923",
+      "id": "U08-Q935",
       "unit": "U08",
       "pagina": "U08-P02",
       "type": "meerkeuze",
@@ -1653,7 +2217,7 @@
         {
           "id": "K14",
           "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
-          "feedback": "Goed. Dit is K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+          "feedback": "Goed. Dit is K14: geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool, en dat betekent Route voor het vervoer van bepaalde gevaarlijke stoffen.",
           "fouttype": null
         },
         {

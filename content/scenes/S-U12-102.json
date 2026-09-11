@@ -1,0 +1,38 @@
+{
+  "id": "S-U12-102",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "betrokken",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de stilstaande auto"
+    },
+    {
+      "id": "hulpdienst",
+      "soort": "hulpdienst",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "de hulpdienst"
+    },
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een rechte weg zonder kruispunt. Jij nadert van achteren. Voor je staat een hulpdienst met zwaailicht stil en daarvoor staat een auto stil.",
+  "inspiratie": {
+    "boek": 170
+  }
+}

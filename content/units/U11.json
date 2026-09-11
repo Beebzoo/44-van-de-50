@@ -1,0 +1,1400 @@
+{
+  "id": "U11",
+  "slug": "licht-signalen-en-weer",
+  "titel": "Licht, signalen en weer",
+  "ondertitel": "Communiceren, rijden met licht en rijden in regen, mist en sneeuw",
+  "volgorde": 11,
+  "week": 4,
+  "tier": "must",
+  "vereist": [
+    "U10"
+  ],
+  "borden": [],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "11.1",
+        "11.2",
+        "11.3",
+        "11.4",
+        "11.5"
+      ],
+      "paginas": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
+      ]
+    },
+    "cursus": {
+      "slides": [
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "veilig_rijden_en_noodsituaties",
+    "voertuigkennis"
+  ],
+  "intro": "Dit blok gaat over zien en gezien worden. Eerst hoe je aan anderen vertelt wat je van plan bent: de richtingaanwijzer, je remlichten, je alarmlichten en het geluids- of lichtsignaal. Daarna welk licht wanneer aan moet en aan mag, want daar zitten de getallen die het examen graag vraagt. En tot slot wat regen, wind, mist en sneeuw met je auto doen. Let vooral op het verschil tussen mistlicht aan de voorzijde en mistachterlicht: dat zijn twee verschillende lampen met twee verschillende regels, en daar gaan de meeste kandidaten onderuit.",
+  "paginas": [
+    {
+      "id": "U11-P01",
+      "anker": "p-11.1-communicatie",
+      "titel": "Richting aangeven en signalen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "11.1"
+          ],
+          "paginas": [
+            181,
+            182,
+            183
+          ]
+        },
+        "cursus": {
+          "slides": [
+            198,
+            199
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "In het verkeer moet je duidelijk communiceren, zodat andere weggebruikers weten wat je gaat doen: remmen, afslaan of van rijstrook wisselen.",
+          "bron": {
+            "boek": 181,
+            "sectie": "11.1",
+            "anker": "moet je duidelijk communiceren, zodat andere weggebruikers weten wat je gaat doen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U11-r01",
+          "tekst": "Je moet richting aangeven bij elke belangrijke zijdelingse verplaatsing, zoals wegrijden, invoegen, inhalen en afslaan.",
+          "bron": [
+            {
+              "boek": 181,
+              "sectie": "11.1",
+              "anker": "richting aangeven bij elke belangrijke zijdelingse verplaatsing"
+            },
+            {
+              "slide": 198,
+              "anker": "Richting aangeven is verplicht bij elke belangrijke zijdelingse verplaatsing"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r02",
+          "tekst": "Geef op tijd, maar niet te vroeg richting aan, en zet direct na afronding van de verplaatsing of manoeuvre de richtingaanwijzer weer uit.",
+          "bron": [
+            {
+              "boek": 181,
+              "sectie": "11.1",
+              "anker": "geef op tijd, maar niet te vroeg richting aan"
+            },
+            {
+              "slide": 198,
+              "anker": "Zet direct na afronding van de verplaatsing de richtingaanwijzer weer uit"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r03",
+          "tekst": "Tijdig richting aangeven betekent: op een zodanig tijdstip dat ander verkeer ruim van tevoren kennis kan nemen van de bedoeling om af te slaan en daar het eigen rijgedrag op kan afstemmen.",
+          "bron": {
+            "boek": 181,
+            "sectie": "11.1",
+            "anker": "dat ander verkeer ruim van tevoren kennis kan nemen van de bedoeling"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Waar je rijdt",
+            "Richting aangeven op ongeveer"
+          ],
+          "rijen": [
+            [
+              "autosnelweg",
+              "300 meter voor de uitrijstrook"
+            ],
+            [
+              "buiten de bebouwde kom, 80 km/u",
+              "200 meter voor het kruispunt"
+            ],
+            [
+              "binnen de bebouwde kom, 50 km/u",
+              "100 meter voor het kruispunt"
+            ],
+            [
+              "woonwijk",
+              "50 meter voor het kruispunt"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 181,
+              "sectie": "11.1",
+              "anker": "op autosnelwegen: circa 300 meter voor de uitrijstrook"
+            },
+            {
+              "slide": 198,
+              "anker": "woonwijk: 50 meter voor het kruispunt"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een richtingaanwijzer is geen bezweringsformule maar een mededeling. Te laat aangeven laat de rest van het verkeer schrikken, te vroeg aangeven vertelt een verhaal dat nog niet klopt. Beide kosten anderen hun beslissingstijd, en die tijd is precies waar je ze mee wilde helpen.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U11-001",
+          "tekst": "Je gaat hier rechtdoor, maar je richtingaanwijzer staat al aan voor een afslag verderop. De bestuurder in de zijweg ziet dat knipperlicht en kan denken dat jij zijn straat in draait.",
+          "bron": {
+            "boek": 182,
+            "sectie": "11.1",
+            "anker": "Verwarrend is bijvoorbeeld een zijweg passeren met een richtingaanwijzer die al aan staat"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De afstanden uit de tabel gelden alleen wanneer er geen verwarring kan ontstaan. Ligt er nog een zijweg tussen jou en je afslag, kies dan een later moment om richting aan te geven.",
+          "bron": {
+            "boek": 182,
+            "sectie": "11.1",
+            "anker": "Verwarrend is bijvoorbeeld een zijweg passeren met een richtingaanwijzer die al aan staat"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U11-r04",
+          "tekst": "Je kunt je remlichten gebruiken om aan achterliggers duidelijk te maken dat je gaat afremmen. Raak het rempedaal even heel licht aan voordat je daadwerkelijk remt.",
+          "bron": [
+            {
+              "boek": 182,
+              "sectie": "11.1",
+              "anker": "je remlichten gebruiken om aan achterliggers duidelijk te maken dat je wilt"
+            },
+            {
+              "boek": 182,
+              "sectie": "11.1",
+              "anker": "Raak het rempedaal even heel licht aan voordat je daadwerkelijk remt"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "je staat stil met pech op een plaats waar je niet mag staan of op een gevaarlijke plaats",
+            "je staat stil in het donker terwijl de verplichte verlichting het niet doet",
+            "je staat stil op een plaats waar je slecht zichtbaar bent en je voertuig een obstakel vormt",
+            "je stuit op een file"
+          ],
+          "bron": [
+            {
+              "boek": 182,
+              "sectie": "11.1",
+              "anker": "stilstaat in het donker terwijl de verplichte verlichting het niet doet"
+            },
+            {
+              "slide": 199,
+              "anker": "stilstaat met pech op een gevaarlijke plek"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r05",
+          "tekst": "Staan bij een ander voertuig de alarmlichten aan, dan moet je dat als waarschuwing zien en extra goed opletten.",
+          "bron": {
+            "boek": 182,
+            "sectie": "11.1",
+            "anker": "moet je dat als waarschuwing zien en extra goed opletten"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U11-r06",
+          "tekst": "Alleen om een dreigend gevaar af te wenden mag je een geluidssignaal of een lichtsignaal geven. Overbodige signalen, zoals toeteren om een bekende te begroeten, zijn verboden.",
+          "bron": [
+            {
+              "boek": 183,
+              "sectie": "11.1",
+              "anker": "Alleen om een dreigend gevaar af te wenden, mag je een geluidssignaal"
+            },
+            {
+              "slide": 199,
+              "anker": "dus niet bijv. om iemand te groeten"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Ter afwending van dreigend gevaar mag je zowel binnen als buiten de bebouwde kom een signaal geven.",
+          "bron": {
+            "slide": 199,
+            "anker": "mag je zowel binnen als buiten de bebouwde kom een signaal geven"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je ziet verderop een voertuig met een geel zwaailicht. Sommige voertuigen mogen zo'n geel zwaai-, flits- of knipperlicht voeren als waarschuwing: denk aan exceptioneel transport, bergingswerkzaamheden of een ongeval, wegwerkzaamheden en gladheidsbestrijding. Het is geen voorrangsvoertuig, maar wel een reden om je snelheid alvast terug te nemen.",
+          "bron": {
+            "boek": 183,
+            "sectie": "11.1",
+            "anker": "een geel zwaai-, flits- of knipperlicht gebruiken"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Aangeven doe je op tijd en je zet hem meteen weer uit. Toeteren en knipperen mag alleen tegen dreigend gevaar."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Op welke afstand zet je buiten de bebouwde kom je richtingaanwijzer aan als je wilt afslaan?",
+          "antwoord": "Ongeveer 200 meter voor het kruispunt.",
+          "uitleg": "Buiten de bebouwde kom rijd je harder, dus heeft het verkeer om je heen die afstand nodig om jouw plan te kunnen verwerken.",
+          "bron": {
+            "slide": 198,
+            "anker": "80 km/u weg: 200 meter voor het kruispunt"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een tegenligger knippert met zijn lichten om je te bedanken. Mag dat?",
+          "antwoord": "Nee.",
+          "uitleg": "Een licht- of geluidssignaal mag alleen om een dreigend gevaar af te wenden, niet om te bedanken of te groeten.",
+          "bron": {
+            "boek": 183,
+            "sectie": "11.1",
+            "anker": "zoals toeteren om een bekende te begroeten, is verboden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U11-P02",
+      "anker": "p-11.2-welk-licht-wanneer",
+      "titel": "Welk licht wanneer",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "11.2"
+          ],
+          "paginas": [
+            183,
+            184,
+            185,
+            186
+          ]
+        },
+        "cursus": {
+          "slides": [
+            200
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Je verlichting zorgt dat je zelf kunt zien en dat je zichtbaar bent voor anderen. Ook met verlichting die automatisch aangaat blijf jij degene die in de gaten houdt of dat op het juiste moment gebeurt. Desnoods schakel je hem met de hand in.",
+          "bron": [
+            {
+              "boek": 183,
+              "sectie": "11.2",
+              "anker": "zorgt dat je zelf kunt zien en dat je zichtbaar bent"
+            },
+            {
+              "boek": 183,
+              "sectie": "11.2",
+              "anker": "in de gaten houden of dat op het juiste moment gebeurt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r07",
+          "tekst": "Je moet het dimlicht inschakelen 's nachts, en overdag als er sprake is van slecht zicht, dus minder dan 200 meter.",
+          "bron": [
+            {
+              "boek": 184,
+              "sectie": "11.2",
+              "anker": "overdag als er sprake is van slecht zicht (minder dan 200 meter)"
+            },
+            {
+              "slide": 200,
+              "anker": "overdag bij slecht zicht (minder dan 200 m)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r08",
+          "tekst": "Nieuwe auto's moeten aan de voorzijde voorzien zijn van dagrijlichten. Die moeten automatisch gaan branden als de motor wordt gestart, en ze moeten uitgeschakeld worden zodra je dimlicht, groot licht of mistlicht inschakelt.",
+          "bron": [
+            {
+              "boek": 184,
+              "sectie": "11.2",
+              "anker": "Nieuwe auto's moeten aan de voorzijde voorzien zijn van zogenoemde dagrijlichten"
+            },
+            {
+              "boek": 184,
+              "sectie": "11.2",
+              "anker": "De dagrijlichten moeten automatisch gaan branden als de motor wordt gestart"
+            },
+            {
+              "boek": 184,
+              "sectie": "11.2",
+              "anker": "Als je andere verlichting inschakelt, zoals dimlicht, groot licht of mistlicht"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Dagrijlicht is geen vervanging van je dimlicht. Bij veel auto's branden de achterlichten niet als je met dagrijlicht rijdt, dus van achteren ben je dan een grijze vlek.",
+          "bron": [
+            {
+              "boek": 184,
+              "sectie": "11.2",
+              "anker": "Dagrijlicht is geen vervanging van je dimlicht"
+            },
+            {
+              "slide": 200,
+              "anker": "Let op: je achterlichten branden (meestal) niet"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r09",
+          "tekst": "Je moet je stadslicht en achterlicht laten branden als je bij nacht of overdag bij slecht zicht stilstaat op de rijbaan buiten de bebouwde kom, of op een parkeerhaven, parkeerstrook, vluchthaven of vluchtstrook langs een autoweg of autosnelweg. Die verplichting geldt ook voor een aanhangwagen of caravan, of die nu aan je auto vastzit of losgekoppeld is.",
+          "bron": [
+            {
+              "boek": 186,
+              "sectie": "11.2",
+              "anker": "Je moet je stadslicht (en achterlicht) laten branden"
+            },
+            {
+              "slide": 200,
+              "anker": "tijdens stilstaan op de rijbaan buiten de bebouwde kom bij slecht zicht"
+            },
+            {
+              "boek": 186,
+              "sectie": "11.2",
+              "anker": "Deze verplichting geldt ook voor een eventuele aanhangwagen of caravan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r10",
+          "tekst": "Met alleen je stadslicht en achterlicht aan mag je niet gaan rijden.",
+          "bron": {
+            "boek": 186,
+            "sectie": "11.2",
+            "anker": "met alleen je stadslicht (en achterlicht) aan mag je niet gaan rijden"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Binnen de bebouwde kom kan het verstandig zijn je stadslicht en achterlicht in te schakelen als je op een gevaarlijke of hinderlijke plaats stilstaat, maar verplicht is het daar niet. Je kunt er ook je parkeerlichten voor gebruiken.",
+          "bron": {
+            "boek": 186,
+            "sectie": "11.2",
+            "anker": "maar het is niet verplicht. Je kunt als alternatief ook je parkeerlichten gebruiken"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Licht",
+            "Wanneer"
+          ],
+          "rijen": [
+            [
+              "dimlicht",
+              "verplicht 's nachts en overdag bij zicht van minder dan 200 meter"
+            ],
+            [
+              "dagrijlicht",
+              "toegestaan overdag als dimlicht niet verplicht is"
+            ],
+            [
+              "stadslicht",
+              "verplicht tijdens stilstaan op de rijbaan buiten de bebouwde kom bij nacht of slecht zicht, rijden mag er niet mee"
+            ],
+            [
+              "groot licht",
+              "alleen 's nachts, wanneer dimlicht onvoldoende is"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 200,
+              "anker": "overdag als dimlicht niet verplicht is"
+            },
+            {
+              "slide": 200,
+              "anker": "alleen 's nachts, wanneer dimlicht onvoldoende is"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Het is een heldere dag en je auto heeft geen dagrijlicht. Je rijdt met een laagstaande zon in je rug, of door dichte bebossing. Ook dan is het verstandig je dimlicht in te schakelen, want tegenliggers zien je anders moeilijk aankomen.",
+          "bron": {
+            "boek": 185,
+            "sectie": "11.2",
+            "anker": "als je een laagstaande zon in je rug hebt"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Kom je overdag veel voertuigen met dimlicht tegen, verwacht dan verderop regen, mist of sneeuw en schakel zelf ook alvast je dimlicht in.",
+          "bron": {
+            "boek": 184,
+            "sectie": "11.2",
+            "anker": "verwacht dan verderop regen, mist of sneeuw"
+          }
+        },
+        {
+          "type": "tekst",
+          "tekst": "De grote lichten, dimlichten, dagrijlichten en stadslichten mogen alleen wit of geel licht uitstralen. Blauwe lampen monteren omdat je dat mooier vindt mag dus niet.",
+          "bron": [
+            {
+              "boek": 184,
+              "sectie": "11.2",
+              "anker": "mogen alleen wit of geel licht uitstralen"
+            },
+            {
+              "slide": 201,
+              "anker": "Aan de voorzijde van je auto mag je alleen witte of gele verlichting hebben"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Dimlicht bij nacht en bij zicht onder de 200 meter. Stadslicht is om stil te staan, niet om te rijden."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat met pech stil op de vluchtstrook van de autosnelweg. Het is nacht. Welk licht moet branden?",
+          "antwoord": "Je stadslicht en achterlicht.",
+          "uitleg": "Bij nacht of slecht zicht moet je stadslicht branden als je stilstaat op de vluchtstrook langs een autoweg of autosnelweg.",
+          "bron": {
+            "boek": 186,
+            "sectie": "11.2",
+            "anker": "Je moet je stadslicht (en achterlicht) laten branden"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Mag je overdag met alleen dagrijlicht rijden als het hard regent en je nog maar 150 meter ver kijkt?",
+          "antwoord": "Nee, dan is dimlicht verplicht.",
+          "uitleg": "Onder de 200 meter zicht is het slecht zicht, en dan moet je dimlicht aan. Het dagrijlicht gaat dan automatisch uit.",
+          "bron": {
+            "boek": 184,
+            "sectie": "11.2",
+            "anker": "overdag als er sprake is van slecht zicht (minder dan 200 meter)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U11-P03",
+      "anker": "p-11.2-groot-licht",
+      "titel": "Groot licht en rijden in het donker",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "11.2"
+          ],
+          "paginas": [
+            185,
+            186,
+            187
+          ]
+        },
+        "cursus": {
+          "slides": [
+            201
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U11-r11",
+          "tekst": "Schakel het groot licht in als je met dimlicht de wegsituatie niet goed kunt overzien.",
+          "bron": [
+            {
+              "boek": 185,
+              "sectie": "11.2",
+              "anker": "Schakel het groot licht in als je met dimlicht de wegsituatie niet goed kunt overzien"
+            },
+            {
+              "slide": 200,
+              "anker": "alleen 's nachts, wanneer dimlicht onvoldoende is"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r12",
+          "tekst": "Het gebruik van groot licht is verboden overdag, als een andere weggebruiker je tegemoet komt, ook een voetganger, en als je op korte afstand een ander voertuig volgt, ook een fiets of bromfiets.",
+          "bron": [
+            {
+              "boek": 185,
+              "sectie": "11.2",
+              "anker": "Het gebruik van groot licht is verboden"
+            },
+            {
+              "boek": 185,
+              "sectie": "11.2",
+              "anker": "als een andere weggebruiker (dus ook een voetganger) je tegemoet komt"
+            },
+            {
+              "slide": 201,
+              "anker": "dimmen als je achter een ander voertuig rijdt"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Verblinding werkt twee kanten op. De tegenligger krijgt je bundel recht in zijn ogen, en de bestuurder voor je krijgt hem via zijn spiegels terug. In beide gevallen rijdt er iemand naast jou op de weg die een paar seconden lang niets ziet, en dat is precies de tijd waarin er iets gebeurt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U11-r13",
+          "tekst": "Dim tijdig, dus voordat de tegenligger in je stralenbundel komt. Ook met een systeem dat het groot licht automatisch in- en uitschakelt blijf je zelf verantwoordelijk voor het tijdig dimmen.",
+          "bron": [
+            {
+              "boek": 186,
+              "sectie": "11.2",
+              "anker": "Dim tijdig, dus vóórdat de tegenligger in je stralenbundel komt"
+            },
+            {
+              "boek": 186,
+              "sectie": "11.2",
+              "anker": "blijf je zelf verantwoordelijk voor het tijdig dimmen"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt met groot licht over een donkere weg en een tegenligger geeft een knippersignaal. Dan ben je waarschijnlijk vergeten om het groot licht te dimmen. Doe dat alsnog.",
+          "bron": [
+            {
+              "boek": 186,
+              "sectie": "11.2",
+              "anker": "ben je waarschijnlijk vergeten om het groot licht te dimmen"
+            },
+            {
+              "slide": 201,
+              "anker": "Als tegenliggers knipperen met hun lichten, ben je waarschijnlijk vergeten te dimmen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r14",
+          "tekst": "Word je zelf verblind door een tegenligger die vergeten is te dimmen, geef dan eventueel een knippersignaal met je groot licht. Focus ondertussen niet op zijn koplampen, maar probeer erlangs te kijken.",
+          "bron": {
+            "boek": 186,
+            "sectie": "11.2",
+            "anker": "Focus je ondertussen niet op zijn koplampen, maar probeer erlangs te kijken"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Achter een ruiter mag je wel groot licht voeren. Een ruiter heeft geen spiegels en wordt dus niet verblind.",
+          "bron": {
+            "slide": 201,
+            "anker": "achter een ruiter mag je wel groot licht voeren"
+          }
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "je ziet in het donker alles een fractie later, zelfs met goede verlichting, dus obstakels en drempels zijn een extra risico",
+            "wees extra bedacht op voetgangers, bijvoorbeeld joggers: zij voeren geen verlichting en zijn pas laat zichtbaar",
+            "rijd je vanaf een goed verlichte weg een donkere weg in, dan moeten je ogen wennen en zie je tijdelijk minder goed",
+            "op een nat wegdek reflecteert het licht van je koplampen en lossen de wegmarkering en de tekens op het wegdek op in die reflectie"
+          ],
+          "bron": [
+            {
+              "boek": 187,
+              "sectie": "11.2",
+              "anker": "je ziet in het donker alles een fractie later, zelfs met goede verlichting"
+            },
+            {
+              "boek": 187,
+              "sectie": "11.2",
+              "anker": "de tekens op het wegdek 'lossen op' in die reflectie"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Groot licht is voor een lege donkere weg. Zie je iemand, dan dim je, ook voor een voetganger."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt 's nachts met groot licht en er loopt een voetganger je tegemoet. Moet je dimmen?",
+          "antwoord": "Ja.",
+          "uitleg": "Groot licht is verboden als een andere weggebruiker je tegemoet komt, en een voetganger is ook een weggebruiker.",
+          "bron": {
+            "boek": 185,
+            "sectie": "11.2",
+            "anker": "als een andere weggebruiker (dus ook een voetganger) je tegemoet komt"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt vanaf een verlichte straat een donkere weg in. Waarom moet je dan extra voorzichtig zijn?",
+          "antwoord": "Je ogen moeten aan het donker wennen.",
+          "uitleg": "Zolang je ogen zich aanpassen zie je tijdelijk minder goed dan je gewend bent.",
+          "bron": {
+            "boek": 187,
+            "sectie": "11.2",
+            "anker": "als je vanaf een goed verlichte weg een donkere weg inslaat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U11-P04",
+      "anker": "p-11.3-regen-en-wind",
+      "titel": "Regen, aquaplaning en zijwind",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "11.3"
+          ],
+          "paginas": [
+            187,
+            188,
+            189,
+            190
+          ]
+        },
+        "cursus": {
+          "slides": [
+            203,
+            204
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Tijdens regen zie je minder goed, is het wegdek gladder en wordt je remafstand langer. Houd meer afstand en pas je snelheid aan, anders wordt je stopafstand te lang en neemt de kans op aquaplaning toe.",
+          "bron": [
+            {
+              "slide": 204,
+              "anker": "is het wegdek gladder en wordt je remafstand langer"
+            },
+            {
+              "boek": 187,
+              "sectie": "11.3",
+              "anker": "Houd meer afstand en pas je snelheid aan om te voorkomen dat"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r15",
+          "tekst": "Schakel bij regen altijd je dimlicht in. Bij zware regenval die het zicht ernstig belemmert, mag je ook mistlicht aan de voorzijde inschakelen.",
+          "bron": {
+            "boek": 187,
+            "sectie": "11.3",
+            "anker": "mag je ook mistlicht aan de voorzijde inschakelen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U11-r16",
+          "tekst": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien. Door het felle rode licht en de reflectie worden achterliggers gehinderd.",
+          "bron": [
+            {
+              "boek": 188,
+              "sectie": "11.3",
+              "anker": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien"
+            },
+            {
+              "boek": 188,
+              "sectie": "11.3",
+              "anker": "Door het felle rode licht en de reflectie worden achterliggers gehinderd"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r17",
+          "tekst": "Als er veel water op de weg ligt, kan aquaplaning optreden: je banden verliezen de grip op het wegdek en je kunt niet meer sturen en remmen. Je merkt het aan een plotselinge vrije slag in het stuur, of doordat het sturen ineens heel licht gaat.",
+          "bron": [
+            {
+              "boek": 188,
+              "sectie": "11.3",
+              "anker": "Als er veel water op de weg ligt, kan aquaplaning optreden"
+            },
+            {
+              "boek": 188,
+              "sectie": "11.3",
+              "anker": "Je merkt het aan een plotselinge vrije slag in het stuur"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r18",
+          "tekst": "Bij aquaplaning laat je het gas los, trap je de koppeling in, rem je niet en blijf je sturen in de richting die je op wilt. Zodra je snelheid genoeg is afgenomen, krijgen je banden weer grip.",
+          "bron": [
+            {
+              "boek": 188,
+              "sectie": "11.3",
+              "anker": "Laat het gas los, trap de koppeling in, rem niet en blijf sturen"
+            },
+            {
+              "slide": 204,
+              "anker": "Aquaplaning merk je aan een 'vrije slag' in het stuur"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "hoge snelheid, want dan kan het profiel het water niet meer afvoeren",
+            "te weinig profiel op je banden",
+            "brede banden, want door het grotere loopvlak is het gewicht per vierkante centimeter kleiner",
+            "de rechterrijstrook van de autosnelweg, omdat daar meer spoorvorming is door het vrachtverkeer"
+          ],
+          "bron": [
+            {
+              "boek": 189,
+              "sectie": "11.3",
+              "anker": "als je brede banden hebt gemonteerd"
+            },
+            {
+              "boek": 189,
+              "sectie": "11.3",
+              "anker": "omdat daar meer spoorvorming is door het vele vrachtverkeer dat er rijdt"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Het gaat regenen na een lange droge periode. Je ziet minder goed door je voorruit, tenzij die net is schoongemaakt, en rubber en olieresten maken het wegdek verraderlijk glad. Precies dan wordt er nog op de oude snelheid doorgereden.",
+          "bron": [
+            {
+              "boek": 187,
+              "sectie": "11.3",
+              "anker": "na een lange droge periode zie je minder goed door je voorruit"
+            },
+            {
+              "boek": 187,
+              "sectie": "11.3",
+              "anker": "Bovendien kunnen rubber en olieresten het wegdek verraderlijk glad maken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r19",
+          "tekst": "Zware zijwind en vooral sterke rukwinden kunnen je zomaar een paar meter opzij blazen. Houd je motor trekkend, schakel desgewenst naar een lagere versnelling, rijd met aangepaste snelheid en haal niet onnodig in.",
+          "bron": [
+            {
+              "boek": 190,
+              "sectie": "11.3",
+              "anker": "Zware zijwind en vooral sterke rukwinden kunnen je zomaar een paar meter opzij blazen"
+            },
+            {
+              "slide": 203,
+              "anker": "Houd je motor 'trekkend', rijd met aangepaste snelheid en haal niet onnodig in"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op de autosnelweg is het risico op plotselinge zijwind het grootst op bruggen en viaducten, waar een geluidswal ophoudt en bij het inhalen van een vrachtauto. Je rijdt dan opeens in de wind of juist uit de wind en kunt daardoor uit koers raken.",
+          "bron": [
+            {
+              "slide": 203,
+              "anker": "bij het inhalen van een vrachtauto"
+            },
+            {
+              "slide": 203,
+              "anker": "of juist 'uit de wind' en kunt daardoor uit koers raken"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Een bord of een windzak waarschuwen je op plaatsen waar vaak zijwindhinder is.",
+          "bron": {
+            "boek": 190,
+            "sectie": "11.3",
+            "anker": "Een bord of een windzak waarschuwen je op plaatsen waar vaak zijwindhinder is"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Regen: dimlicht aan, mistachterlicht uit. Bij aquaplaning niet remmen maar gas los en blijven sturen."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het regent zo hard dat je bijna niets meer ziet. Mag je mistachterlicht aan?",
+          "antwoord": "Nee, nooit bij regen.",
+          "uitleg": "Het felle rode licht en de reflectie hinderen je achterliggers, en zij zien jou al aan je achterlichten.",
+          "bron": {
+            "boek": 188,
+            "sectie": "11.3",
+            "anker": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je stuur gaat ineens heel licht en je voelt een vrije slag. Wat doe je?",
+          "antwoord": "Gas los, koppeling in, niet remmen, blijven sturen.",
+          "uitleg": "Je banden drijven op het water; pas als je snelheid is gezakt krijgen ze weer grip, en remmen helpt daar niet bij.",
+          "bron": {
+            "slide": 204,
+            "anker": "omdat ze het regenwater niet meer voldoende kunnen afvoeren"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U11-P05",
+      "anker": "p-11.4-mist",
+      "titel": "Mist en de twee mistlichten",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "11.4"
+          ],
+          "paginas": [
+            190,
+            191
+          ]
+        },
+        "cursus": {
+          "slides": [
+            202,
+            205
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Mist ontstaat vooral als warme, vochtige lucht over een koud aardoppervlak stroomt, het vaakst in het najaar en het vroege voorjaar. Vooral in polders, in de buurt van rivieren en in lager gelegen veengebieden kan mist onverwacht en snel opzetten.",
+          "bron": [
+            {
+              "boek": 190,
+              "sectie": "11.4",
+              "anker": "Mist ontstaat vooral als warme, vochtige lucht over een koud aardoppervlak stroomt"
+            },
+            {
+              "slide": 205,
+              "anker": "Mist ontstaat het vaakst in het najaar en het vroege voorjaar"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r20",
+          "tekst": "Van zeer dichte mist spreek je bij een zicht van minder dan 50 meter. Houd dan geen twee maar drie seconden afstand tot je voorligger.",
+          "bron": [
+            {
+              "boek": 190,
+              "sectie": "11.4",
+              "anker": "Tijdens zeer dichte mist (zicht minder dan 50 meter) zijn dit de belangrijkste maatregelen"
+            },
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "houd geen twee maar drie seconden afstand tot je voorligger"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r21",
+          "tekst": "Tijdens weersomstandigheden die het zicht ernstig belemmeren, dus bij een zicht van minder dan ongeveer 200 meter door mist, sneeuwval of regen, mag je het mistlicht aan de voorzijde inschakelen.",
+          "bron": [
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "dus ook bij regen, sneeuwval of mist, mag je het mistlicht aan de voorzijde inschakelen"
+            },
+            {
+              "slide": 202,
+              "anker": "ernstig belemmerd zicht = zicht minder dan 200 meter"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r22",
+          "tekst": "Als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval, en dus niet bij regen, mag je je mistachterlicht inschakelen. Doe dat alleen als het beter is voor de veiligheid.",
+          "bron": [
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "Als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval"
+            },
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "Doe dat alleen als het beter is voor de veiligheid"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Lamp",
+            "Bij welk weer",
+            "Vanaf welk zicht"
+          ],
+          "rijen": [
+            [
+              "mistlicht aan de voorzijde",
+              "mist, sneeuwval of regen",
+              "minder dan ongeveer 200 meter"
+            ],
+            [
+              "mistachterlicht",
+              "mist of sneeuwval, nooit bij regen",
+              "minder dan 50 meter"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 202,
+              "anker": "alleen als het zicht ernstig is belemmerd door"
+            },
+            {
+              "slide": 202,
+              "anker": "met een zicht van minder dan 50 meter"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De lamp voor helpt jou kijken en kost niemand iets, dus die mag al bij matig zicht aan. De lamp achter schijnt iemand anders in de ogen: die mag pas aan als het zicht zo kort is dat hij jou anders echt te laat ziet. Vandaar twee verschillende grenzen voor twee lampen die je met een knop naast elkaar bedient.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Twee dingen gaan hier mis op het examen. Een: het mistachterlicht mag nooit bij regen, hoe hard het ook giet. Twee: is het zicht meer dan 50 meter, dan mag je mistachterlicht niet aan, ook niet als het mistig is.",
+          "bron": [
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "Het zicht is meer dan 50 meter"
+            },
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "Hier is géén sprake van ernstig belemmerd zicht"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "verlaag je snelheid, maar blijf letten op het overige verkeer: veel langzamer rijden dan de rest is ook een risico",
+            "haal liever niet in bij dichte mist, ook niet op een autosnelweg, want een kop-staartbotsing of kettingbotsing ligt op de loer",
+            "volg niet klakkeloos de achterlichten van je voorligger, maar gebruik de kantlijn als leidraad",
+            "volg zoveel mogelijk de rechterrijstrook, zodat je in geval van nood direct de vluchtstrook kunt gebruiken"
+          ],
+          "bron": [
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "haal liever niet in bij dichte mist, ook niet op een autosnelweg"
+            },
+            {
+              "slide": 205,
+              "anker": "Rijd niet klakkeloos achter de achterlichten van de voorligger aan"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Ook als het mistachterlicht mag, is het niet altijd verstandig: als je achterligger je al gezien heeft, kun je het beter uitschakelen.",
+          "bron": [
+            {
+              "boek": 191,
+              "sectie": "11.4",
+              "anker": "als je achterliggers je al hebben gezien, is het felle mistachterlicht voor hen hinderlijk"
+            },
+            {
+              "slide": 202,
+              "anker": "maar als je achterligger je al gezien heeft, kun je het beter uitschakelen"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Voor mag onder de 200 meter, achter pas onder de 50 meter en nooit bij regen."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het mist en je schat het zicht op 150 meter. Welke mistlamp mag aan?",
+          "antwoord": "Alleen het mistlicht aan de voorzijde.",
+          "uitleg": "Onder de 200 meter is het zicht ernstig belemmerd, maar het mistachterlicht mag pas onder de 50 meter.",
+          "bron": {
+            "slide": 202,
+            "anker": "ernstig belemmerd zicht = zicht minder dan 200 meter"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Hoeveel afstand houd je bij zeer dichte mist tot je voorligger?",
+          "antwoord": "Drie seconden.",
+          "uitleg": "De gewone twee seconden zijn te kort als je de situatie voor je voorligger niet kunt zien aankomen.",
+          "bron": {
+            "boek": 191,
+            "sectie": "11.4",
+            "anker": "houd geen twee maar drie seconden afstand tot je voorligger"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U11-P06",
+      "anker": "p-11.5-sneeuw-en-gladheid",
+      "titel": "Sneeuw, ijzel en gladheid",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "11.5"
+          ],
+          "paginas": [
+            192,
+            193,
+            194,
+            195,
+            196
+          ]
+        },
+        "cursus": {
+          "slides": [
+            206,
+            207,
+            208
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U11-r23",
+          "tekst": "Maak voor vertrek je ramen, lampen, spiegels, dak en kentekenplaten vrij van sneeuw of ijs. Je bent strafbaar als je onvoldoende zicht hebt door de voorruit en de voorste zijruiten.",
+          "bron": [
+            {
+              "boek": 192,
+              "sectie": "11.5",
+              "anker": "Maak voor vertrek je ramen, lampen, spiegels, dak en kentekenplaten vrij van sneeuw of ijs"
+            },
+            {
+              "boek": 192,
+              "sectie": "11.5",
+              "anker": "Je bent strafbaar als je onvoldoende zicht hebt door de voorruit en de voorste zijruiten"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Stap niet in met schoenzolen vol sneeuw. Als dat smelt krijg je vocht in je auto en beslaan je ramen eerder.",
+          "bron": {
+            "boek": 192,
+            "sectie": "11.5",
+            "anker": "Stap niet in met schoenzolen vol sneeuw"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U11-r24",
+          "tekst": "Is het wegdek glad, dan verlaag je je snelheid, houd je meer afstand, rem je eerder en voorzichtiger af en stuur je voorzichtiger en vloeiender, om te voorkomen dat je in een slip raakt.",
+          "bron": [
+            {
+              "boek": 192,
+              "sectie": "11.5",
+              "anker": "moet je deze maatregelen nemen om te voorkomen dat je in een slip raakt"
+            },
+            {
+              "slide": 206,
+              "anker": "rijd minder hard en houd meer afstand"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r25",
+          "tekst": "Nader op een glad wegdek een kruispunt stapvoets en steek in één beweging over of sla in één beweging af. Houd rekening met de kans op doorslippen, van jezelf en van andere bestuurders. Springt het licht van rood op groen, houd er dan rekening mee dat langzaam rijdende kruisende bestuurders nog op het kruispunt rijden.",
+          "bron": [
+            {
+              "boek": 193,
+              "sectie": "11.5",
+              "anker": "nader een kruispunt stapvoets en steek in één beweging over"
+            },
+            {
+              "boek": 193,
+              "sectie": "11.5",
+              "anker": "Houd rekening met de kans op doorslippen, van jezelf en van andere bestuurders"
+            },
+            {
+              "boek": 193,
+              "sectie": "11.5",
+              "anker": "Sta je te wachten voor rood licht en springt dat op groen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r26",
+          "tekst": "De adviessnelheden die op borden staan aangegeven, gelden bij gunstige weersomstandigheden. Bij sneeuw, ijzel en gladheid moet je snelheid aanmerkelijk lager zijn. Ook de aangegeven maximumsnelheid kan onder die omstandigheden nog te hoog zijn.",
+          "bron": [
+            {
+              "boek": 193,
+              "sectie": "11.5",
+              "anker": "De adviessnelheden die op borden staan aangegeven, zijn van toepassing bij gunstige weersomstandigheden"
+            },
+            {
+              "boek": 193,
+              "sectie": "11.5",
+              "anker": "Bij sneeuw, ijzel en gladheid moet je snelheid aanmerkelijk lager zijn"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "De doorgaande rijbaan is schoongereden en ziet er prima uit. De op- en afritten, de voorsorteervakken en de linkerrijstrook worden minder bereden en zijn dan vaak veel gladder. Daar sta je zo dwars.",
+          "bron": [
+            {
+              "boek": 193,
+              "sectie": "11.5",
+              "anker": "worden minder bereden en zijn vaak veel gladder dan de doorgaande rijbaan"
+            },
+            {
+              "slide": 206,
+              "anker": "minder bereden rijstroken en op- en afritten blijven langer glad"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r27",
+          "tekst": "Bij sneeuw mag je bij zware sneeuwval met een zicht van minder dan 50 meter je mistachterlicht gebruiken, net als bij mist, en bij ernstig belemmerd zicht je mistlicht aan de voorzijde. Gebruik geen groot licht tijdens sneeuwval, want je raakt verblind door de reflectie van het licht op de sneeuwvlokken.",
+          "bron": [
+            {
+              "boek": 194,
+              "sectie": "11.5",
+              "anker": "bij zware sneeuwval met een zicht van minder dan 50 meter je mistachterlicht gebruiken"
+            },
+            {
+              "boek": 194,
+              "sectie": "11.5",
+              "anker": "Gebruik geen groot licht tijdens sneeuwval"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Verlichting aan de voorzijde verbetert je zicht op de situatie, maar een laagje sneeuw is een prima camouflage voor obstakels zoals drempels. Wat je niet ziet liggen, ligt er nog steeds.",
+          "bron": {
+            "boek": 194,
+            "sectie": "11.5",
+            "anker": "dat een laagje sneeuw een prima camouflage is voor obstakels zoals drempels"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "B6",
+            "B7"
+          ],
+          "tekst": "Verkeerstekens op het wegdek, zoals haaientanden, zie je niet als er sneeuw ligt, en borden raken ondergesneeuwd. Gelukkig verraadt de vorm de betekenis: er bestaat maar één driehoekig bord waarvan de punt naar beneden wijst, en het stopbord heeft mede daarom een unieke achthoekige vorm."
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "tegemoetkomende bestuurders die opvallend langzaam rijden zijn een voorwaarschuwing voor gladheid",
+            "op beschutte weggedeelten in bosgebieden en langs rivieren en kanalen is het risico op gladheid groter",
+            "op enkelbaanswegen met een gebold wegdek en op wegen van kinderkopjes moet je extra oppassen voor gladheid",
+            "bruggen en viaducten koelen door de wind snel af en bevriezen daarom eerder",
+            "ook als de thermometer in de auto net boven nul aangeeft, kan het wegdek kouder en bevroren zijn",
+            "als het gesneeuwd heeft lopen voetgangers binnen de bebouwde kom vaak op de rijbaan, en (brom)fietsers hebben moeite om overeind te blijven"
+          ],
+          "bron": [
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "tegemoetkomende bestuurders die opvallend langzaam rijden kun je beschouwen als een voorwaarschuwing"
+            },
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "ook als de thermometer in de auto een temperatuur aangeeft net boven nul"
+            },
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "ook op enkelbaanswegen met een gebold wegdek en op wegen van kinderkopjes"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r28",
+          "tekst": "Winterbanden zijn in Nederland niet verplicht. Bij temperaturen onder de 7 graden en op een besneeuwd wegdek geven ze meer grip dan gewone banden. Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd en je herkent ze aan een sneeuwvlok-symbool en een M+S-logo.",
+          "bron": [
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "Winterbanden zijn in Nederland niet verplicht"
+            },
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd"
+            },
+            {
+              "slide": 207,
+              "anker": "Bij temperaturen onder de 7 graden Celsius en op een besneeuwd wegdek"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Rijd je in de zomer door op winterbanden, dan heb je een langere remweg, slechtere rijeigenschappen en een hoger brandstofverbruik, en ze slijten sneller. Wissel dus op tijd terug naar zomerbanden.",
+          "bron": [
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "De nadelen van winterbanden bij zomerse temperaturen zijn"
+            },
+            {
+              "boek": 195,
+              "sectie": "11.5",
+              "anker": "Bovendien slijten ze sneller. Alle reden dus om tijdig terug te wisselen naar zomerbanden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U11-r29",
+          "tekst": "In Nederland is het gebruik van metalen sneeuwkettingen verboden, sneeuwkettingen van kunststof zijn wel toegestaan. In bergachtige gebieden in het buitenland kun je ze nodig hebben en soms is het zelfs verplicht.",
+          "bron": [
+            {
+              "boek": 196,
+              "sectie": "11.5",
+              "anker": "In Nederland is het gebruik van metalen sneeuwkettingen verboden"
+            },
+            {
+              "slide": 208,
+              "anker": "Soms is het zelfs verplicht om ze bij je te hebben of om te leggen"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Let erop dat je de juiste maat kettingen gebruikt en dat je er niet te snel mee rijdt. Oefen het omleggen een keer voordat je op reis gaat.",
+          "bron": [
+            {
+              "boek": 196,
+              "sectie": "11.5",
+              "anker": "dat je de juiste maat kettingen gebruikt en dat je niet te snel rijdt"
+            },
+            {
+              "slide": 208,
+              "anker": "oefen dat een keer voordat je op reis gaat"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Eerst schoonmaken, dan pas rijden. Op glad wegdek is de aangegeven snelheid een bovengrens, geen advies."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Er staat een bord met een adviessnelheid en het heeft gesneeuwd. Mag je die snelheid rijden?",
+          "antwoord": "Nee, je snelheid moet aanmerkelijk lager zijn.",
+          "uitleg": "Adviessnelheden gelden bij gunstige weersomstandigheden, en jij blijft zelf verantwoordelijk voor een veilige snelheid.",
+          "bron": {
+            "boek": 193,
+            "sectie": "11.5",
+            "anker": "Je blijft altijd zélf verantwoordelijk om een veilige, voldoende lage snelheid te kiezen"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Zijn winterbanden in Nederland verplicht?",
+          "antwoord": "Nee.",
+          "uitleg": "In sommige andere landen wel, maar hier niet. Onder de 7 graden en op sneeuw geven ze wel meer grip.",
+          "bron": {
+            "boek": 195,
+            "sectie": "11.5",
+            "anker": "Winterbanden zijn in Nederland niet verplicht"
+          }
+        }
+      ]
+    }
+  ]
+}

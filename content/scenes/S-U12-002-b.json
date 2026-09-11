@@ -1,0 +1,30 @@
+{
+  "id": "S-U12-002-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "jij"
+    },
+    {
+      "id": "hulpdienst",
+      "soort": "hulpdienst",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de hulpdienst"
+    }
+  ],
+  "alt": "Dezelfde weg een moment later. Jij staat nog steeds stil en de hulpdienst is vlak achter je gekomen.",
+  "inspiratie": {
+    "boek": 168
+  }
+}

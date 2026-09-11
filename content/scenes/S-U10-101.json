@@ -1,0 +1,28 @@
+{
+  "id": "S-U10-101",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "fietsstrook",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 2,
+      "label": "jij"
+    }
+  ],
+  "alt": "Een rechte weg met rechts een fietsstrook met een onderbroken streep. Jij staat met je auto stil op de rijbaan naast die strook.",
+  "inspiratie": {
+    "boek": 162
+  }
+}

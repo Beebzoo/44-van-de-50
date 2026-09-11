@@ -1,0 +1,792 @@
+{
+  "unit": "U11",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U11-Q025",
+      "unit": "U11",
+      "pagina": "U11-P05",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Bij zeer dichte mist mag je je mistachterlicht inschakelen. Onder welk zicht is dat toegestaan? Vul het aantal meters in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 50,
+        "eenheid": "meter"
+      },
+      "uitleg": {
+        "regel": "Als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval mag je je mistachterlicht inschakelen.",
+        "waarom": "Onder die grens is de afstand waarop een achterligger jou ziet korter dan de afstand die hij nodig heeft om te stoppen, en pas dan weegt het felle rode licht op tegen de hinder ervan.",
+        "valkuil": "Diezelfde 50 meter is ook de definitie van zeer dichte mist. Bij het mistlicht aan de voorzijde hoort een heel andere grens.",
+        "onthoud": "Achterlamp pas onder de 50 meter."
+      },
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "Als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval"
+        },
+        {
+          "slide": 202,
+          "anker": "met een zicht van minder dan 50 meter"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "mistachterlicht",
+        "mist"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval",
+        "bron": "boek p. 191"
+      }
+    },
+    {
+      "id": "U11-Q026",
+      "unit": "U11",
+      "pagina": "U11-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het mist en je schat dat je nog ongeveer 100 meter ver kunt kijken. Zet je je mistachterlicht aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het zicht is hier ruim genoeg; de achterlamp mag pas als je nog geen 50 meter meer ziet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je achterliggers zien je bij dit zicht prima aan je gewone achterlichten.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Het mistachterlicht mag alleen als het zicht minder is dan 50 meter door zeer dichte mist of zware sneeuwval.",
+        "waarom": "Bij dit zicht ziet iemand achter je jouw auto al lang voordat hij moet remmen. Het felle rode licht voegt dan niets toe en maakt het alleen lastiger om je afstand in te schatten.",
+        "valkuil": "Mist voelt altijd dichter dan hij is. Zoek een herkenningspunt om je zicht echt te schatten.",
+        "onthoud": "Mistig is niet hetzelfde als zeer dichte mist."
+      },
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "Het zicht is meer dan 50 meter"
+        },
+        {
+          "slide": 202,
+          "anker": "met een zicht van minder dan 50 meter"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "mistachterlicht",
+        "mist"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Het zicht is meer dan 50 meter. Je mag dus niét je mistachterlicht inschakelen.",
+        "bron": "boek p. 191",
+        "gewijzigd": "inhoudelijk goed; moeilijkheid van 2 naar 3, want dit is precies de verwisseling waar het hoofdstuk om draait."
+      }
+    },
+    {
+      "id": "U11-Q027",
+      "unit": "U11",
+      "pagina": "U11-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Door een mistbank is je zicht ernstig belemmerd, al kijk je duidelijk verder dan 50 meter. Mag het mistlicht aan de voorzijde aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De voorste mistlamp hoort bij ernstig belemmerd zicht, dus onder ongeveer 200 meter.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je verwart de grens van de voorste lamp met die van de lamp achterop.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Tijdens weersomstandigheden die het zicht ernstig belemmeren, dus bij minder dan ongeveer 200 meter, mag je het mistlicht aan de voorzijde inschakelen.",
+        "waarom": "Die lamp schijnt breed en laag voor je uit en niemand kijkt erin. Daarom mag hij al aan bij zicht waarbij de achterlamp nog veel te fel zou zijn.",
+        "valkuil": "De twee mistlampen hebben twee verschillende grenzen. Wie ze door elkaar haalt, laat het mistlicht te laat aan of het mistachterlicht veel te vroeg.",
+        "onthoud": "Voorlamp onder 200 meter, achterlamp onder 50 meter."
+      },
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "dus ook bij regen, sneeuwval of mist, mag je het mistlicht aan de voorzijde inschakelen"
+        },
+        {
+          "slide": 202,
+          "anker": "ernstig belemmerd zicht = zicht minder dan 200 meter"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "verlichting",
+        "mistlicht",
+        "mist"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Tijdens weersomstandigheden die het zicht ernstig belemmeren (zicht minder dan +/- 200 m), dus ook bij regen, sneeuwval of mist",
+        "bron": "boek p. 191",
+        "gewijzigd": "inhoudelijk goed; moeilijkheid van 2 naar 3, want dit is de spiegelvraag van Q026 en vraagt dezelfde twee grenzen uit elkaar te houden."
+      }
+    },
+    {
+      "id": "U11-Q028",
+      "unit": "U11",
+      "pagina": "U11-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je komt in zeer dichte mist terecht en er rijdt een auto voor je. Hoeveel volgafstand houd je aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "3 seconden.",
+          "feedback": "Goed. In zeer dichte mist houd je geen twee maar drie seconden afstand tot je voorligger.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "2 seconden, net als altijd.",
+          "feedback": "Fout. Dat is de gewone regel bij goed zicht, en hier zie je de reden om te remmen veel later.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Zo kort mogelijk, dan raak je zijn achterlichten niet kwijt.",
+          "feedback": "Fout. Dit is precies hoe kop-staartbotsingen en kettingbotsingen in de mist ontstaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Dat maakt niet uit zolang je maar langzaam rijdt.",
+          "feedback": "Fout. Ook langzaam heb je afstand nodig, want je ziet pas heel laat wat er voor hem gebeurt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bij zeer dichte mist houd je geen twee maar drie seconden afstand tot je voorligger.",
+        "waarom": "Wat er voor je voorligger gebeurt zie je nu helemaal niet meer. Die extra tel is de tijd die je anders uit je vooruitkijken haalt.",
+        "valkuil": "De verleiding is groot om juist dichterbij te gaan rijden, omdat die achterlichten het enige zijn wat je ziet.",
+        "onthoud": "Slecht weer betekent een seconde erbij."
+      },
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "houd geen twee maar drie seconden afstand tot je voorligger"
+        },
+        {
+          "slide": 205,
+          "anker": "houd meer afstand (3 i.p.v. 2"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "mist",
+        "volgafstand",
+        "afstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "houd geen twee maar drie seconden afstand tot je voorligger",
+        "bron": "boek p. 191",
+        "gewijzigd": "het tweede anker ging over snelheid aanpassen en onderbouwde de drie seconden niet; het wijst nu naar de zin op slide 205 die de drie seconden noemt."
+      }
+    },
+    {
+      "id": "U11-Q029",
+      "unit": "U11",
+      "pagina": "U11-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke maatregelen horen bij rijden in zeer dichte mist?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je schakelt je mistlicht aan de voorzijde en eventueel je mistachterlicht in.",
+          "feedback": "Goed. Zien en gezien worden is het eerste wat je regelt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je houdt 3 seconden afstand tot je voorligger.",
+          "feedback": "Goed. Een seconde meer dan normaal, omdat je niet verder kunt kijken dan die ene auto.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je verlaagt je snelheid, maar blijft letten op het overige verkeer.",
+          "feedback": "Goed. Veel langzamer rijden dan de rest levert zijn eigen risico op.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je haalt liever niet in, ook niet op een autosnelweg.",
+          "feedback": "Goed. Het risico op een kop-staartbotsing of kettingbotsing is te groot.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Je zet je groot licht aan om verder te kunnen kijken.",
+          "feedback": "Fout. Groot licht kaatst terug op de mist en je ziet er juist minder door.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Je blijft dicht achter de achterlichten van je voorligger zodat je de weg kunt volgen.",
+          "feedback": "Fout. Als hij uit de bocht vliegt ga je mee; gebruik liever de kantlijn als leidraad.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Bij zeer dichte mist schakel je je mistlicht aan de voorzijde en eventueel je mistachterlicht in, houd je drie seconden afstand, verlaag je je snelheid zonder veel langzamer te gaan dan de rest, en haal je liever niet in.",
+        "waarom": "Alles draait om ruimte kopen. Je ziet later, dus je hebt meer tijd nodig, en die tijd haal je uit je snelheid en je volgafstand.",
+        "valkuil": "Twee klassieke fouten: groot licht aanzetten en aan de achterlichten van je voorligger blijven hangen.",
+        "onthoud": "Zichtbaar zijn, afstand houden, niet inhalen."
+      },
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "haal liever niet in bij dichte mist, ook niet op een autosnelweg"
+        },
+        {
+          "slide": 205,
+          "anker": "haal liever niet in, en al helemaal niet op een weg met tegenliggers"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "mist",
+        "volgafstand",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "haal liever niet in bij dichte mist, ook niet op een autosnelweg",
+        "bron": "boek p. 191"
+      }
+    },
+    {
+      "id": "U11-Q030",
+      "unit": "U11",
+      "pagina": "U11-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Waar houd je je koers op bij dichte mist op een weg buiten de bebouwde kom?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op de kantlijn aan de rechterkant van de rijbaan.",
+          "feedback": "Goed. Die streep ligt stil en gaat niet ineens de berm in, in tegenstelling tot een voorligger.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Op de achterlichten van de auto voor je.",
+          "feedback": "Fout. Je volgt dan iemand anders zijn stuurfouten, en je ziet zelf niets meer van de weg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Op de middenstreep, want dan blijf je zeker op de rijbaan.",
+          "feedback": "Fout. Daarmee kruip je naar het midden van de weg, waar de tegenligger rijdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Op de bomen en palen langs de kant.",
+          "feedback": "Fout. Die staan er onregelmatig en op wisselende afstand van de weg, dus je koers klopt niet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Het is verleidelijk om de achterlichten van je voorligger te volgen, maar gebruik liever de kantlijn als leidraad.",
+        "waarom": "De kantlijn zegt precies waar de rijbaan ophoudt en hij ligt er altijd. Een voorligger vertelt je alleen waar hij toevallig rijdt, en dat kan naast de weg zijn.",
+        "valkuil": "Wie de achterlichten volgt, rijdt vanzelf steeds dichter op zijn voorligger om ze te kunnen blijven zien.",
+        "onthoud": "Volg de streep, niet de lichten."
+      },
+      "bronnen": [
+        {
+          "boek": 191,
+          "sectie": "11.4",
+          "anker": "Gebruik liever de kantlijn als leidraad"
+        },
+        {
+          "slide": 205,
+          "anker": "Rijd niet klakkeloos achter de achterlichten van de voorligger aan"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "mist",
+        "zicht",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Maar wat als dié uit de bocht vliegt? Gebruik liever de kantlijn als leidraad",
+        "bron": "boek p. 191"
+      }
+    },
+    {
+      "id": "U11-Q031",
+      "unit": "U11",
+      "pagina": "U11-P06",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Het heeft flink gesneeuwd. Wat doe je voordat je wegrijdt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je maakt je ramen, lampen en spiegels vrij van sneeuw en ijs.",
+          "feedback": "Goed. Zonder die drie kun je niet zien en word je niet gezien.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je veegt het dak van je auto schoon.",
+          "feedback": "Goed. Anders schuift die laag bij het remmen zo over je voorruit.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je maakt je kentekenplaten vrij.",
+          "feedback": "Goed. Het boek noemt de kentekenplaten er uitdrukkelijk bij.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je stampt de sneeuw van je schoenzolen voordat je instapt.",
+          "feedback": "Goed. Smeltende sneeuw geeft vocht in de auto, waardoor je ramen eerder beslaan.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Je krabt een kijkgat in je voorruit en rijdt langzaam weg.",
+          "feedback": "Fout. Je bent strafbaar als je onvoldoende zicht hebt door de voorruit en de voorste zijruiten.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Maak voor vertrek je ramen, lampen, spiegels, dak en kentekenplaten vrij van sneeuw of ijs. Je bent strafbaar als je onvoldoende zicht hebt door de voorruit en de voorste zijruiten.",
+        "waarom": "Een kijkgat werkt alleen zolang er niets van opzij komt, en dat is precies waar een fietser vandaan komt. De sneeuw op je dak komt er bovendien vanzelf af, op het slechtst denkbare moment.",
+        "valkuil": "De kentekenplaten worden het vaakst vergeten, terwijl juist die eis zwart op wit staat.",
+        "onthoud": "Ruiten, lampen, spiegels, dak en platen."
+      },
+      "bronnen": [
+        {
+          "boek": 192,
+          "sectie": "11.5",
+          "anker": "Maak voor vertrek je ramen, lampen, spiegels, dak en kentekenplaten vrij van sneeuw of ijs"
+        },
+        {
+          "slide": 206,
+          "anker": "Maak voor vertrek je auto sneeuwvrij (o.a. je ramen en kentekenplaten)"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "sneeuw",
+        "zicht",
+        "voertuigeisen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Maak voor vertrek je ramen, lampen, spiegels, dak en kentekenplaten vrij van sneeuw of ijs.",
+        "bron": "boek p. 192"
+      }
+    },
+    {
+      "id": "U11-Q032",
+      "unit": "U11",
+      "pagina": "U11-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Er ligt sneeuw en de borden zijn half ondergesneeuwd. Bij een kruispunt zie je nog net dat het bord een driehoek is met de punt naar beneden. Wat betekent dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je moet voorrang verlenen aan bestuurders op de kruisende weg.",
+          "feedback": "Goed. Er bestaat maar een driehoekig bord waarvan de punt naar beneden wijst, en dat is dit.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je moet stoppen en daarna voorrang verlenen.",
+          "feedback": "Fout. Dat bord heeft juist een eigen achthoekige vorm, ook om het onder de sneeuw te kunnen herkennen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Het is een waarschuwing voor een gevaarlijk kruispunt.",
+          "feedback": "Fout. Waarschuwingsborden zijn driehoekig met de punt naar boven.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Je rijdt op een voorrangsweg.",
+          "feedback": "Fout. Dat bord is een gele ruit en die vergis je niet met een driehoek.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Verkeerstekens op het wegdek, zoals haaientanden, zie je niet als er sneeuw ligt, en borden raken vaak ondergesneeuwd. Er bestaat maar een driehoekig bord waarvan de punt naar beneden wijst.",
+        "waarom": "De vorm van een bord blijft zichtbaar als de kleur en het symbool eronder verdwijnen. Daarom is die vorm bij de twee belangrijkste voorrangsborden expres uniek gemaakt.",
+        "valkuil": "Onder de sneeuw liggen ook de haaientanden, dus je kunt er niet op vertrouwen dat je het aan het wegdek ziet.",
+        "onthoud": "Punt omlaag betekent voorrang verlenen, ook onder de sneeuw."
+      },
+      "bronnen": [
+        {
+          "boek": 192,
+          "sectie": "11.5",
+          "anker": "Er bestaat namelijk maar één driehoekig bord waarvan de punt naar beneden wijst"
+        },
+        {
+          "boek": 192,
+          "sectie": "11.5",
+          "anker": "Verkeerstekens op het wegdek, zoals haaientanden, zie je natuurlijk niet als er sneeuw ligt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "sneeuw",
+        "voorrang",
+        "borden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Er bestaat namelijk maar één driehoekig bord waarvan de punt naar beneden wijst.",
+        "bron": "boek p. 192"
+      }
+    },
+    {
+      "id": "U11-Q033",
+      "unit": "U11",
+      "pagina": "U11-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "In een bocht staat een bord met een adviessnelheid. Het heeft gesneeuwd en het wegdek is glad. Welke snelheid kies je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Aanmerkelijk lager dan de adviessnelheid.",
+          "feedback": "Goed. Adviessnelheden gelden bij gunstige weersomstandigheden, en die zijn er nu niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Precies de adviessnelheid, want daar is de bocht op berekend.",
+          "feedback": "Fout. Die snelheid hoort bij een droog wegdek met normale grip, niet bij sneeuw.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "De algemene maximumsnelheid van die weg, het advies is vrijblijvend.",
+          "feedback": "Fout. Ook de aangegeven maximumsnelheid kan onder deze omstandigheden nog veel te hoog zijn.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Iets onder de adviessnelheid is genoeg.",
+          "feedback": "Fout. Bij sneeuw, ijzel en gladheid moet je snelheid aanmerkelijk lager zijn, niet een tikje.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De adviessnelheden die op borden staan aangegeven, zijn van toepassing bij gunstige weersomstandigheden. Bij sneeuw, ijzel en gladheid moet je snelheid aanmerkelijk lager zijn.",
+        "waarom": "In een bocht duwt de middelpuntvliedende kracht je naar buiten, en op een glad wegdek is er veel minder grip om daar iets tegenover te zetten. Je blijft zelf verantwoordelijk voor een veilige snelheid.",
+        "valkuil": "Een bordje voelt als toestemming. Het is een bovengrens bij goed weer, geen belofte dat het kan.",
+        "onthoud": "Borden kennen het weer niet, jij wel."
+      },
+      "bronnen": [
+        {
+          "boek": 193,
+          "sectie": "11.5",
+          "anker": "De adviessnelheden die op borden staan aangegeven, zijn van toepassing bij gunstige weersomstandigheden"
+        },
+        {
+          "boek": 193,
+          "sectie": "11.5",
+          "anker": "Je blijft altijd zélf verantwoordelijk om een veilige, voldoende lage snelheid te kiezen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "gladheid",
+        "sneeuw",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij sneeuw, ijzel en gladheid moet je snelheid aanmerkelijk lager zijn.",
+        "bron": "boek p. 193"
+      }
+    },
+    {
+      "id": "U11-Q034",
+      "unit": "U11",
+      "pagina": "U11-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Na een nacht sneeuw is de doorgaande rijbaan van de autosnelweg schoongereden en ligt er bijna niets meer. Mag je aannemen dat de afrit die je zo neemt net zo goed te berijden is?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een afrit wordt veel minder bereden en blijft daardoor veel langer glad.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Minder bereden weggedeelten zijn vaak nog glad terwijl de doorgaande rijbaan er prima bij ligt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "In- en uitvoegstroken worden minder bereden en zijn vaak veel gladder dan de doorgaande rijbaan. Dat geldt ook voor voorsorteerstroken en de linker rijstroken op autosnelwegen.",
+        "waarom": "Het zijn de banden van duizenden auto's die de sneeuw wegvegen en het wegdek warm houden. Waar weinig verkeer komt, gebeurt dat niet en blijft de laag liggen.",
+        "valkuil": "Je merkt het verschil precies op het moment dat je gaat afremmen en sturen, want dat doe je juist op die afrit.",
+        "onthoud": "Weinig bereden is lang glad."
+      },
+      "bronnen": [
+        {
+          "boek": 193,
+          "sectie": "11.5",
+          "anker": "worden minder bereden en zijn vaak veel gladder dan de doorgaande rijbaan"
+        },
+        {
+          "slide": 206,
+          "anker": "minder bereden rijstroken en op- en afritten blijven langer glad"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "gladheid",
+        "sneeuw",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "In- en uitvoegstroken worden minder bereden en zijn vaak veel gladder dan de doorgaande rijbaan.",
+        "bron": "boek p. 193"
+      }
+    },
+    {
+      "id": "U11-Q035",
+      "unit": "U11",
+      "pagina": "U11-P06",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Welke minimale profieldiepte wordt voor winterbanden geadviseerd? Vul het aantal millimeters in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 4,
+        "eenheid": "mm"
+      },
+      "uitleg": {
+        "regel": "Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd. Vervang ze op tijd om verzekerd te blijven van optimale rijeigenschappen.",
+        "waarom": "Een winterband moet sneeuw uit zijn profiel kunnen duwen en water kunnen afvoeren. Dat lukt alleen zolang de groeven diep genoeg zijn, en dat is eerder op dan bij een zomerband.",
+        "valkuil": "Het wettelijke minimum van 1,6 mm geldt voor alle banden, maar voor een winterband is dat te weinig om te doen waarvoor hij gekocht is.",
+        "onthoud": "Wettelijk 1,6 mm, geadviseerd voor winterbanden 4 mm."
+      },
+      "bronnen": [
+        {
+          "boek": 195,
+          "sectie": "11.5",
+          "anker": "Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd"
+        },
+        {
+          "slide": 207,
+          "anker": "wettelijk een profieldiepte van **minimaal 1,6 mm**"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "banden",
+        "winterbanden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Voor winterbanden wordt een minimale profieldiepte van 4 mm geadviseerd.",
+        "bron": "boek p. 195",
+        "gewijzigd": "de valkuil noemt de wettelijke 1,6 mm, maar het slide-anker wees naar het sneeuwvloksymbool; het anker wijst nu naar de zin op slide 207 waar die 1,6 mm staat."
+      }
+    },
+    {
+      "id": "U11-Q036",
+      "unit": "U11",
+      "pagina": "U11-P06",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je hebt metalen sneeuwkettingen in de achterbak liggen. Mag je ze in Nederland gebruiken als het hard gesneeuwd heeft?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Metalen sneeuwkettingen zijn hier verboden; alleen kunststof kettingen mogen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. In Nederland is het gebruik van metalen sneeuwkettingen verboden, van kunststof wel toegestaan.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "In Nederland is het gebruik van metalen sneeuwkettingen verboden, sneeuwkettingen van kunststof zijn wel toegestaan.",
+        "waarom": "Nederlandse wegen zijn zelden lang genoeg besneeuwd om kettingen nodig te hebben, terwijl metaal het asfalt eronder stuk rijdt zodra de sneeuw weg is.",
+        "valkuil": "In bergachtige gebieden in het buitenland kun je ze wel nodig hebben, en soms is het daar zelfs verplicht.",
+        "onthoud": "Metaal mag hier niet, kunststof wel."
+      },
+      "bronnen": [
+        {
+          "boek": 196,
+          "sectie": "11.5",
+          "anker": "In Nederland is het gebruik van metalen sneeuwkettingen verboden"
+        },
+        {
+          "slide": 208,
+          "anker": "In Nederland is het gebruik van metalen sneeuwkettingen verboden"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "sneeuwkettingen",
+        "banden",
+        "sneeuw"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "In Nederland is het gebruik van metalen sneeuwkettingen verboden, sneeuwkettingen van kunststof zijn wel toegestaan.",
+        "bron": "boek p. 196",
+        "gewijzigd": "het slide-anker ging over het buitenland en onderbouwde het verbod hier niet; het wijst nu naar de zin op slide 208 die het verbod zelf noemt."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1256 @@
+{
+  "id": "U10",
+  "slug": "stilstaan-en-parkeren",
+  "titel": "Stilstaan en parkeren",
+  "ondertitel": "Het verschil, de borden en de verboden",
+  "volgorde": 10,
+  "week": 4,
+  "tier": "must",
+  "vereist": [
+    "U09"
+  ],
+  "borden": [
+    "E1",
+    "E2",
+    "E6",
+    "E10",
+    "E11"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "9.1",
+        "9.2",
+        "10.1",
+        "10.2",
+        "10.3",
+        "10.4"
+      ],
+      "paginas": [
+        133,
+        134,
+        135,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
+      ]
+    },
+    "cursus": {
+      "slides": [
+        158,
+        159,
+        181,
+        182,
+        183,
+        184,
+        185
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "gebruik_van_de_weg",
+    "verkeerstekens_en_aanwijzingen"
+  ],
+  "intro": "Dit blok draait om twee woorden die op elkaar lijken en toch iets heel anders betekenen. Stilstaan is alleen het onmiddellijk in- of uitstappen van passagiers en het onmiddellijk laden of lossen van goederen. Al het andere vrijwillige stilstaan heet parkeren. Dat verschil bepaalt alles wat daarna komt: welk bord wat verbiedt, welke plekken je vrij moet laten en waar je wel even mag stoppen maar je auto niet mag achterlaten. Onthoud vooral deze kant van de zaak: een verbod om stil te staan verbiedt ook parkeren, maar een verbod om te parkeren verbiedt stilstaan niet. Aan het eind staan ook het in- en uitstappen zelf en het wegrijden, want daar begint en eindigt elke stop.",
+  "paginas": [
+    {
+      "id": "U10-P01",
+      "anker": "p-10.1-stilstaan-of-parkeren",
+      "titel": "Stilstaan of parkeren: het verschil",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.1"
+          ],
+          "paginas": [
+            159,
+            160
+          ]
+        },
+        "cursus": {
+          "slides": [
+            181
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U10-r01",
+          "tekst": "Stilstaan is stilstaan voor het onmiddellijk in- of uitstappen van passagiers, of voor het onmiddellijk laden of lossen van goederen. Voorwaarde is dat je daar ook echt mee bezig bent en dat het niet langer duurt dan strikt noodzakelijk is.",
+          "bron": [
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "stilstaan voor het onmiddellijk in- of uitstappen van passagiers"
+            },
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "het stilstaan niet langer duurt dan strikt noodzakelijk is"
+            },
+            {
+              "slide": 181,
+              "anker": "het laten stilstaan van een voertuig voor het onmiddellijk in- of uitstappen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r02",
+          "tekst": "Parkeren is elke andere vorm van vrijwillig stilstaan. Je auto achterlaten op een parkeerplaats, even een boodschap doen bij een winkel, in je auto blijven zitten om op een passagier te wachten, stilstaand mobiel bellen of de weg vragen: dat telt allemaal als parkeren.",
+          "bron": [
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "Alle andere vormen van vrijwillig stilstaan noemen we 'parkeren'"
+            },
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "in je auto blijven zitten om op een passagier te wachten"
+            },
+            {
+              "slide": 181,
+              "anker": "alle andere vormen van 'vrijwillig stilstaan'"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r03",
+          "tekst": "Een noodzakelijke stop in het verkeer is geen stilstaan en geen parkeren. Stoppen voor een rood verkeerslicht, stoppen om voorrang te verlenen en stoppen in een file vallen er dus buiten.",
+          "bron": [
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "Noodzakelijke stops in het verkeer gelden niet als 'stilstaan' of 'parkeren'"
+            },
+            {
+              "slide": 181,
+              "anker": "Een noodzakelijke stop in het verkeer valt niet"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Het verschil zit niet in hoe lang je staat, maar in wat je doet. Iemand laten uitstappen of een doos naar binnen dragen duurt kort en houdt de plek maar even bezet, dus daar is de wet soepel in. Zodra je iets anders gaat doen, of gewoon weggaat, is de plek voor onbepaalde tijd van jou en dat is precies wat de parkeerregels willen sturen. Daarom kijkt het examen eerst naar je bedoeling en pas daarna naar de klok.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Wat je doet",
+            "Hoe het heet"
+          ],
+          "rijen": [
+            [
+              "Je laat een passagier in- of uitstappen",
+              "Stilstaan"
+            ],
+            [
+              "Je laadt of lost goederen",
+              "Stilstaan"
+            ],
+            [
+              "Je blijft in de auto zitten om op iemand te wachten",
+              "Parkeren"
+            ],
+            [
+              "Je doet even een boodschap bij de winkel",
+              "Parkeren"
+            ],
+            [
+              "Je belt stilstaand met je mobiel",
+              "Parkeren"
+            ],
+            [
+              "Je staat stil voor een rood verkeerslicht",
+              "Geen van beide"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "even stilstaan voor een winkel om een boodschap te doen"
+            },
+            {
+              "boek": 159,
+              "sectie": "10.1",
+              "anker": "stoppen voor een rood verkeerslicht, - stoppen om voorrang te verlenen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r04",
+          "tekst": "Er zijn plaatsen en situaties waar stilstaan of parkeren verboden is, en borden kunnen het je ook verbieden. Daarbuiten mag je overal stilstaan of parkeren, het liefst op de plaatsen die daarvoor bedoeld zijn, zoals parkeerstroken en parkeerplaatsen.",
+          "bron": [
+            {
+              "boek": 160,
+              "sectie": "10.1",
+              "anker": "Er zijn plaatsen en situaties waar je niet mag stilstaan of parkeren"
+            },
+            {
+              "boek": 160,
+              "sectie": "10.1",
+              "anker": "Daarbuiten mag je overal stilstaan of parkeren"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r05",
+          "tekst": "Je mag zowel rechts als links van de rijbaan stilstaan en parkeren. Links heeft nadelen: je moet tegen het verkeer in rijden en je hebt minder zicht als je weer wegrijdt. Op een eenrichtingsweg kan links wel makkelijk en veilig, omdat daar geen tegemoetkomende bestuurders zijn.",
+          "bron": [
+            {
+              "boek": 160,
+              "sectie": "10.1",
+              "anker": "Je mag zowel rechts als links van de rijbaan stilstaan en parkeren"
+            },
+            {
+              "boek": 160,
+              "sectie": "10.1",
+              "anker": "Links heeft een paar nadelen, zoals het tegen het verkeer in moeten rijden"
+            },
+            {
+              "boek": 160,
+              "sectie": "10.1",
+              "anker": "Op eenrichtingswegen kun je wél gemakkelijk en veilig links stilstaan of parkeren"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Het woord stilstaan klinkt als elke vorm van stilstaan, maar in het verkeer is het een smalle term. Wacht je in de auto op iemand die nog moet komen, dan ben je aan het parkeren, ook als je de motor laat draaien en na twee minuten weer wegrijdt.",
+          "bron": {
+            "boek": 159,
+            "sectie": "10.1",
+            "anker": "in je auto blijven zitten om op een passagier te wachten"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Ook bij het in- of uitstappen mag je geen hinder veroorzaken, en stilstaan mag nooit langer duren dan de tijd die je echt aan het in- of uitstappen of het laden of lossen besteedt.",
+          "bron": [
+            {
+              "slide": 181,
+              "anker": "bij het in- of uitstappen mag je geen hinder veroorzaken"
+            },
+            {
+              "slide": 181,
+              "anker": "Stilstaan mag nooit langer duren dan de tijd die je écht besteedt"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Stilstaan is in- en uitstappen of laden en lossen. Al het andere vrijwillige stilstaan heet parkeren."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je blijft in je auto zitten om te wachten tot je zus naar buiten komt. Sta je stil of parkeer je?",
+          "antwoord": "Je parkeert.",
+          "uitleg": "Wachten op een passagier valt niet onder het onmiddellijk in- of uitstappen, dus het is een andere vorm van vrijwillig stilstaan en dat heet parkeren.",
+          "bron": {
+            "boek": 159,
+            "sectie": "10.1",
+            "anker": "in je auto blijven zitten om op een passagier te wachten"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat stil in een file. Parkeer je dan?",
+          "antwoord": "Nee, en je staat ook niet stil in de zin van de wet.",
+          "uitleg": "Een noodzakelijke stop in het verkeer telt niet als stilstaan of parkeren, dus een parkeerverbod of stilstaanverbod raakt je hier niet.",
+          "bron": {
+            "boek": 159,
+            "sectie": "10.1",
+            "anker": "Noodzakelijke stops in het verkeer gelden niet als 'stilstaan' of 'parkeren'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U10-P02",
+      "anker": "p-10.2-verboden-door-borden",
+      "titel": "Verboden door borden: E1 en E2",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.2"
+          ],
+          "paginas": [
+            160,
+            161
+          ]
+        },
+        "cursus": {
+          "slides": [
+            182
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U10-r06",
+          "tekst": "Staat bord [E1] langs de weg, dan mag je erna niet parkeren. Stilstaan om te laden of te lossen, of om een passagier in of uit te laten stappen, mag daar wel.",
+          "bron": [
+            {
+              "boek": 160,
+              "sectie": "10.2",
+              "anker": "Als bord E1 langs de weg staat, mag je erna niet parkeren"
+            },
+            {
+              "slide": 182,
+              "anker": "Je mag wel stilstaan om te laden of te lossen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r07",
+          "tekst": "Staat bord [E2] langs de weg, dan mag je erna niet stilstaan, en dus ook niet parkeren. Even stoppen om iemand uit te laten stappen of om te laden of te lossen mag daar dus niet.",
+          "bron": [
+            {
+              "boek": 160,
+              "sectie": "10.2",
+              "anker": "Als bord E2 langs de weg staat, mag je erna niet stilstaan"
+            },
+            {
+              "boek": 161,
+              "sectie": "10.2",
+              "anker": "Verbod om stil te staan. Even stoppen om een passagier uit te laten stappen"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "E1",
+            "E2"
+          ],
+          "tekst": "Links het parkeerverbod met de ene schuine streep, rechts het verbod om stil te staan met het kruis."
+        },
+        {
+          "type": "regel",
+          "id": "U10-r08",
+          "tekst": "Deze borden gelden alleen voor de kant van de weg waar ze staan. Staat er alleen rechts een bord [E1], dan mag je aan de linkerkant van de weg wel parkeren.",
+          "bron": [
+            {
+              "boek": 160,
+              "sectie": "10.2",
+              "anker": "deze borden gelden alleen voor de kant van de weg waar ze staan"
+            },
+            {
+              "boek": 160,
+              "sectie": "10.2",
+              "anker": "dan mag je aan de linkerkant van de weg wél parkeren"
+            },
+            {
+              "slide": 182,
+              "anker": "Deze borden gelden alleen voor de kant van de weg waar ze staan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r09",
+          "tekst": "Met onderborden kan extra informatie over het verbod worden gegeven. Staat er een pijl op, dan geldt het verbod alleen in de richting van die pijl. Staan er getallen op, dan geldt het verbod alleen op die dagen van de maand.",
+          "bron": [
+            {
+              "boek": 160,
+              "sectie": "10.2",
+              "anker": "dan geldt het verbod alleen in richting van die pijl"
+            },
+            {
+              "boek": 160,
+              "sectie": "10.2",
+              "anker": "dan geldt het verbod alleen op die dagen van de maand"
+            },
+            {
+              "slide": 182,
+              "anker": "Met onderborden kan extra informatie over het verbod worden aangegeven"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r10",
+          "tekst": "Verbodsborden voor parkeren of stilstaan gelden niet voor de weggedeelten die voor parkeren bestemd zijn, zoals parkeerhavens en parkeervakken. Ze gelden alleen voor de overige delen van de rijbaan.",
+          "bron": [
+            {
+              "boek": 161,
+              "sectie": "10.2",
+              "anker": "gelden uiteraard niet voor de weggedeelten die voor parkeren bestemd zijn"
+            },
+            {
+              "slide": 182,
+              "anker": "De borden gelden niet voor parkeervakken en parkeerhavens"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Langs een straat met een parkeerstrook staat een bord [E2]. Op de rijbaan mag je daar niet stilstaan, maar het bord geldt niet voor de parkeerstrook, dus in die strook mag je gewoon parkeren.",
+          "bron": {
+            "boek": 161,
+            "sectie": "10.2",
+            "anker": "Maar het bord geldt niet voor de parkeerstrook"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een parkeervak is aangelegd om er auto's in te zetten, dus een bord dat de rijbaan vrij wil houden slaat daar niet op. En omdat een bord altijd aan een kant van de weg staat en naar die kant wijst, kan het ook alleen die kant verbieden. Wie dat weet, hoeft bij zo'n bord nooit te gokken: kijk aan welke kant het staat en waar het naar wijst.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Het boek zegt dat [E1] en [E2] ook voor de berm gelden, maar zet er een voetnoot bij: na een rechterlijke uitspraak is dat niet meer zeker en het CBR stelt er daarom geen vragen over in het theorie-examen.",
+          "bron": {
+            "boek": 161,
+            "sectie": "10.2",
+            "anker": "Het CBR stelt er daarom geen vragen over in het theorie-examen"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De twee borden lijken op elkaar en het verschil is precies een streep. Lees het antwoord altijd terug: gaat de vraag over parkeren of over stilstaan, en welk bord staat er.",
+          "bron": {
+            "boek": 161,
+            "sectie": "10.2",
+            "anker": "Dit verkeersbord betekent dat je niet mag stilstaan"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "E1 heeft een streep en verbiedt parkeren. E2 heeft een kruis en verbiedt stilstaan, en daarmee ook parkeren."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je stopt bij bord [E1] om je vriendin te laten uitstappen. Mag dat?",
+          "antwoord": "Ja.",
+          "uitleg": "Het bord verbiedt parkeren. Stilstaan om iemand in of uit te laten stappen blijft toegestaan.",
+          "bron": {
+            "boek": 161,
+            "sectie": "10.2",
+            "anker": "Even stil gaan staan om goederen te laden of te lossen"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Rechts staat een bord [E1], links staat niets. Mag je links van de weg parkeren?",
+          "antwoord": "Ja.",
+          "uitleg": "Het bord geldt alleen voor de kant van de weg waar het staat, dus aan de overkant verandert er niets.",
+          "bron": {
+            "boek": 160,
+            "sectie": "10.2",
+            "anker": "dan mag je aan de linkerkant van de weg wél parkeren"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U10-P03",
+      "anker": "p-10.3-stilstaanverboden",
+      "titel": "Waar je niet mag stilstaan",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.3"
+          ],
+          "paginas": [
+            162,
+            163
+          ]
+        },
+        "cursus": {
+          "slides": [
+            184
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U10-r11",
+          "tekst": "Bij het stilstaan mag je geen gevaar of hinder veroorzaken. Sta dus niet stil voor of na een onoverzichtelijke bocht of helling, en niet op plaatsen waar je de doorstroming belemmert.",
+          "bron": [
+            {
+              "boek": 162,
+              "sectie": "10.3",
+              "anker": "Je mag bij het stilstaan geen gevaar of hinder veroorzaken"
+            },
+            {
+              "boek": 162,
+              "sectie": "10.3",
+              "anker": "Sta daarom bijvoorbeeld niet stil voor of na een onoverzichtelijke bocht of helling"
+            },
+            {
+              "slide": 184,
+              "anker": "Je mag geen gevaar of hinder veroorzaken"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "op een kruispunt of een overweg",
+            "op een fietsstrook of op de rijbaan langs een fietsstrook",
+            "op een oversteekplaats of binnen 5 meter daarvan",
+            "in een tunnel",
+            "bij een bord bushalte langs de blokmarkering, of binnen 12 meter van het bord als er geen blokmarkering is",
+            "op een busstrook of op de rijbaan langs een busstrook",
+            "langs een gele doorgetrokken streep",
+            "op weggedeelten voor andere weggebruikers, zoals een stoep of een fietspad"
+          ],
+          "bron": [
+            {
+              "boek": 162,
+              "sectie": "10.3",
+              "anker": "Verder mag je niet stilstaan: - op een kruispunt of een overweg"
+            },
+            {
+              "boek": 162,
+              "sectie": "10.3",
+              "anker": "op een oversteekplaats of binnen een afstand van vijf meter daarvan, - in een tunnel"
+            },
+            {
+              "boek": 162,
+              "sectie": "10.3",
+              "anker": "binnen 12 meter van het bord als er geen blokmarkering is"
+            },
+            {
+              "slide": 184,
+              "anker": "langs een gele doorgetrokken streep - op / binnen 5 meter"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U10-101",
+          "tekst": "Op de rijbaan naast een fietsstrook mag je niet stilstaan, en op de strook zelf natuurlijk ook niet.",
+          "bron": {
+            "boek": 162,
+            "sectie": "10.3",
+            "anker": "op een fietsstrook of op de rijbaan langs een fietsstrook"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U10-r12",
+          "tekst": "Bij een bushalte mag je wel even passagiers laten in- of uitstappen, zolang je de bus niet hindert.",
+          "bron": {
+            "boek": 162,
+            "sectie": "10.3",
+            "anker": "mag je wel even passagiers laten in- of uitstappen, mits je de bus niet hindert"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U10-r13",
+          "tekst": "Op een suggestiestrook mag je wel stilstaan, maar alleen als je daarbij geen gevaar of hinder veroorzaakt. Een suggestiestrook is dus iets anders dan een fietsstrook.",
+          "bron": {
+            "boek": 163,
+            "sectie": "10.3",
+            "anker": "mag je wél stilstaan, maar alleen als je geen gevaar of hinder veroorzaakt"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Alle plekken in de lijst hebben iets gemeen: een ander moet er langs of overheen kunnen. Een fietser die om je auto heen moet, komt op de rijbaan terecht. Wie vlak voor de strepen stilstaat, neemt het zicht weg van de voetganger en van de bestuurder die aan komt rijden. De verboden staan er dus niet om de doorstroming, maar omdat jouw auto daar iemand anders blind maakt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een stilstaanverbod is het zwaarste van de twee: waar je niet mag stilstaan, mag je natuurlijk ook niet parkeren. Andersom werkt het niet, want een parkeerverbod laat stilstaan gewoon toe.",
+          "bron": {
+            "boek": 163,
+            "sectie": "10.4",
+            "anker": "Waar je niet mag stilstaan, mag je natuurlijk ook niet parkeren"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Een stilstaanverbod verbiedt ook parkeren. Een parkeerverbod verbiedt stilstaan niet."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je zet je auto even stil op de rijbaan naast een fietsstrook om iemand te laten uitstappen. Mag dat?",
+          "antwoord": "Nee.",
+          "uitleg": "Stilstaan is verboden op een fietsstrook en op de rijbaan langs een fietsstrook, dus ook voor het uitstappen.",
+          "bron": {
+            "boek": 162,
+            "sectie": "10.3",
+            "anker": "op een fietsstrook of op de rijbaan langs een fietsstrook"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Bij een bord bushalte zonder blokmarkering: binnen welke afstand mag je niet stilstaan?",
+          "antwoord": "Binnen 12 meter van het bord.",
+          "uitleg": "Is er wel een blokmarkering, dan geldt het verbod langs die markering.",
+          "bron": {
+            "boek": 162,
+            "sectie": "10.3",
+            "anker": "binnen 12 meter van het bord als er geen blokmarkering is"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U10-P04",
+      "anker": "p-10.4-parkeerverboden",
+      "titel": "Waar je niet mag parkeren",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.4"
+          ],
+          "paginas": [
+            163,
+            164
+          ]
+        },
+        "cursus": {
+          "slides": [
+            185
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U10-r14",
+          "tekst": "Waar je niet mag stilstaan, mag je ook niet parkeren. Daar komen de eigen parkeerverboden nog bij.",
+          "bron": [
+            {
+              "boek": 163,
+              "sectie": "10.4",
+              "anker": "Waar je niet mag stilstaan, mag je natuurlijk ook niet parkeren"
+            },
+            {
+              "slide": 185,
+              "anker": "Waar je niet mag stilstaan, mag je ook niet parkeren"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "op minder dan 5 meter van een kruispunt",
+            "voor een inrit of een uitrit",
+            "buiten de bebouwde kom op de rijbaan van een voorrangsweg",
+            "langs een gele onderbroken streep",
+            "op een andere dan voorgeschreven wijze, bijvoorbeeld dwars op een aantal parkeervakken"
+          ],
+          "bron": [
+            {
+              "boek": 163,
+              "sectie": "10.4",
+              "anker": "op een afstand van minder dan vijf meter van een kruispunt"
+            },
+            {
+              "boek": 163,
+              "sectie": "10.4",
+              "anker": "langs een gele onderbroken streep, - op een andere dan voorgeschreven wijze"
+            },
+            {
+              "slide": 185,
+              "anker": "Verder mag je niet parkeren: - voor een in- / uitrit"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U10-102",
+          "tekst": "Voor een inrit of uitrit mag je niet parkeren. Even stilstaan om iemand te laten uitstappen mag hier wel, want er geldt geen stilstaanverbod.",
+          "bron": {
+            "boek": 163,
+            "sectie": "10.4",
+            "anker": "voor een inrit of een uitrit"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U10-r15",
+          "tekst": "Je mag niet parkeren op parkeerplaatsen die bedoeld zijn voor een andere voertuigcategorie, zoals taxi's of vrachtauto's, en ook niet op plaatsen voor een ander doel, zoals laden en lossen of het opladen van een elektrische auto. Plaatsen voor bepaalde bestuurders, zoals gehandicapten of vergunninghouders, zijn ook verboden voor jou.",
+          "bron": [
+            {
+              "boek": 164,
+              "sectie": "10.4",
+              "anker": "Je mag niet parkeren op parkeerplaatsen die bedoeld zijn voor een andere voertuigcategorie"
+            },
+            {
+              "boek": 164,
+              "sectie": "10.4",
+              "anker": "En ook niet op plaatsen die bedoeld zijn voor bepaalde bestuurders"
+            },
+            {
+              "slide": 185,
+              "anker": "op parkeerplaatsen bestemd voor andere voertuigen of bestuurders"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "E6"
+          ],
+          "tekst": "Een gehandicaptenparkeerplaats. Parkeren mag je hier niet, maar iemand laten in- of uitstappen mag wel."
+        },
+        {
+          "type": "regel",
+          "id": "U10-r16",
+          "tekst": "Op zo'n plaats mag je wel stilstaan, bijvoorbeeld om een passagier in of uit te laten stappen of om te laden of te lossen.",
+          "bron": {
+            "boek": 164,
+            "sectie": "10.4",
+            "anker": "Je mag hier wel stilstaan om bijvoorbeeld een passagier in- of uit te laten stappen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U10-r17",
+          "tekst": "Dubbel parkeren mag niet, ook niet naast een auto die in een parkeerstrook of op een parkeerplaats naast de rijbaan staat. Stilstaan om te laden of te lossen mag daar wel.",
+          "bron": [
+            {
+              "boek": 164,
+              "sectie": "10.4",
+              "anker": "Je mag niet dubbel parkeren, ook niet naast een auto op een parkeerplaats"
+            },
+            {
+              "boek": 164,
+              "sectie": "10.4",
+              "anker": "Stilstaan om te laden / lossen mag hier wél"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r18",
+          "tekst": "Waar je niet mag parkeren, mag je wel stilstaan, tenzij er ook een stilstaanverbod geldt.",
+          "bron": {
+            "boek": 164,
+            "sectie": "10.4",
+            "anker": "Waar je niet mag parkeren, mag je wel stilstaan (tenzij er ook een stilstaanverbod geldt)"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Langs de stoeprand ligt een gele onderbroken streep. Parkeren mag daar niet, maar even stilstaan om een passagier uit te laten stappen mag wel. Ligt er een gele doorgetrokken streep, dan mag zelfs dat niet.",
+          "bron": [
+            {
+              "boek": 164,
+              "sectie": "10.4",
+              "anker": "Stilstaan om bv. een passagier uit te laten stappen mag wel"
+            },
+            {
+              "boek": 162,
+              "sectie": "10.3",
+              "anker": "langs een gele doorgetrokken streep, - op weggedeelten voor andere weggebruikers"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een auto die geparkeerd staat, blijft daar. Precies dat is het probleem bij een uitrit, bij een kruispunt en op een voorrangsweg buiten de kom: de ander moet er lang omheen of eromheen kijken. Iemand die even in of uit stapt, is binnen een halve minuut weg en kan intussen nog wegrijden als het nodig is. Vandaar dat het parkeerverbod op zo'n plek strenger uitpakt dan wat er over stilstaan wordt gezegd.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Twee gele strepen langs de kant, twee verschillende regels. Onderbroken is een parkeerverbod, doorgetrokken is een stilstaanverbod. Lees dus eerst welke streep er ligt en pas daarna wat je wilt doen.",
+          "bron": {
+            "boek": 164,
+            "sectie": "10.4",
+            "anker": "Langs een gele onderbroken streep mag je niet parkeren"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Geel onderbroken: niet parkeren. Geel doorgetrokken: niet eens stilstaan."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je zet je auto voor de uitrit van een woning om snel een pakje af te geven aan de overkant. Mag dat?",
+          "antwoord": "Nee.",
+          "uitleg": "Je laat je auto achter voor een uitrit en dat is parkeren, en parkeren voor een inrit of uitrit is verboden.",
+          "bron": {
+            "boek": 163,
+            "sectie": "10.4",
+            "anker": "voor een inrit of een uitrit"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Mag je op een gehandicaptenparkeerplaats iemand laten uitstappen?",
+          "antwoord": "Ja.",
+          "uitleg": "Parkeren mag daar niet, maar stilstaan om een passagier in of uit te laten stappen is wel toegestaan.",
+          "bron": {
+            "boek": 164,
+            "sectie": "10.4",
+            "anker": "Om iemand in of uit te laten stappen mag je hier wel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U10-P05",
+      "anker": "p-10.4-zones-en-parkeerschijf",
+      "titel": "Erf, zones, parkeerschijf en betaald parkeren",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "10.4"
+          ],
+          "paginas": [
+            165,
+            166
+          ]
+        },
+        "cursus": {
+          "slides": [
+            183,
+            185
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U10-r19",
+          "tekst": "Binnen een erf mag je alleen parkeren op eigen terrein, bijvoorbeeld onder een carport, en op de daarvoor bestemde plaatsen die met een P zijn aangegeven.",
+          "bron": [
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Binnen een erf mag je alleen parkeren op eigen terrein"
+            },
+            {
+              "slide": 185,
+              "anker": "Binnen een erf mag je alleen parkeren op eigen terrein"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r20",
+          "tekst": "Het begin en het einde van een parkeerverbodzone worden met borden aangegeven. Binnen de zone mag je nergens parkeren, behalve op weggedeelten die daarvoor bestemd zijn, zoals een parkeervak, een parkeerhaven of een parkeerterrein.",
+          "bron": [
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Het begin en het einde van een parkeerverbodzone wordt aangegeven met borden"
+            },
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Binnen de zone mag je nergens parkeren, behalve op daarvoor bestemde weggedeelten"
+            },
+            {
+              "slide": 183,
+              "anker": "mag je niet parkeren, behalve op daarvoor bestemde weggedeelten zoals een parkeervak"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r21",
+          "tekst": "In een parkeerverbodzone geldt het verbod voor beide kanten van de weg, ook als het zonebord maar aan een kant staat. Dat wijkt af van de borden [E1] en [E2], die alleen gelden voor de kant waar ze staan.",
+          "bron": [
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Het verbod geldt voor beide kanten van de weg"
+            },
+            {
+              "slide": 183,
+              "anker": "ook als het bord aan één kant staat"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r22",
+          "tekst": "Op plaatsen die bestemd zijn voor kort parkeren mag je alleen parkeren met een parkeerschijf. Je herkent zo'n plek aan het bord parkeerschijfzone en aan een blauwe streep op de stoeprand.",
+          "bron": [
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Op plaatsen die bestemd zijn voor kort parkeren mag je alleen parkeren"
+            },
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Je ziet dan het bord 'parkeerschijfzone' en een blauwe streep op de stoeprand"
+            },
+            {
+              "slide": 183,
+              "anker": "herken je aan het bord en aan de blauwe streep op de trottoirband"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "E10",
+            "E11"
+          ],
+          "tekst": "Het zonebord van de parkeerschijfzone en het bord dat het einde van die zone aangeeft."
+        },
+        {
+          "type": "regel",
+          "id": "U10-r23",
+          "tekst": "De parkeerschijf is verplicht voor alle motorvoertuigen op meer dan twee wielen. Je legt hem duidelijk zichtbaar achter de voorruit en je stelt hem in op het tijdstip van aankomst, naar boven afgerond op het eerstvolgende hele of halve uur.",
+          "bron": [
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "verplicht voor alle motorvoertuigen op meer dan twee wielen"
+            },
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Je moet de parkeerschijf achter de voorruit plaatsen"
+            },
+            {
+              "boek": 165,
+              "sectie": "10.4",
+              "anker": "Je mag dit naar boven afronden op het eerstvolgende hele of halve uur"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Kom je om 12 uur 40 aan, dan zet je de schijf op 13 uur. Je auto mag daarna niet langer blijven staan dan de maximumtijd op het bord, en tussentijds de schijf opnieuw instellen mag niet.",
+          "bron": [
+            {
+              "slide": 183,
+              "anker": "als je om 12.40 parkeert, stel je de schijf in op 13.00"
+            },
+            {
+              "boek": 166,
+              "sectie": "10.4",
+              "anker": "Tussentijds de parkeerschijf opnieuw instellen mag dus niet"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "Betalen via een app: op een bord langs de weg staat het nummer van de parkeerzone, dat voer je in de app in, en bij vertrek sluit je de app af",
+            "Parkeerautomaat: je krijgt een bonnetje dat je achter je voorruit legt, of je voert je kenteken in",
+            "Parkeermeter: je parkeert tegen betaling een bepaalde tijd, maar bijvullen mag niet",
+            "Parkeergarage: je bewaart het bonnetje van de slagboom, betaalt voor vertrek en steekt het betaalbewijs bij het uitrijden in de automaat"
+          ],
+          "bron": [
+            {
+              "boek": 166,
+              "sectie": "10.4",
+              "anker": "Vergeet niet de app af te sluiten als je weer vertrekt"
+            },
+            {
+              "boek": 166,
+              "sectie": "10.4",
+              "anker": "Je krijgt dan een bonnetje dat je achter je voorruit moet leggen"
+            },
+            {
+              "boek": 166,
+              "sectie": "10.4",
+              "anker": "Je mag maar eenmaal een beperkte tijd parkeren"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een zone loopt over een heel gebied en niet langs een enkel bord, dus er staat maar een bord bij de ingang en dat moet alles binnen dat gebied dekken. Vandaar dat het aan beide kanten van de weg werkt. Bij een parkeerschijf werkt hetzelfde idee omgekeerd: de schijf is het bewijs dat jij er kort staat, en die zou niets waard zijn als je hem steeds mocht doordraaien.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een zonebord aan de rechterkant lijkt op een gewoon bord aan de rechterkant, maar doet iets anders: de zone pakt allebei de kanten van de weg. Kijk dus of het bord in een wit zonekader staat.",
+          "bron": {
+            "boek": 165,
+            "sectie": "10.4",
+            "anker": "Het verbod geldt voor beide kanten van de weg"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Los bord: een kant van de weg. Zonebord: allebei de kanten, tot het eindbord."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je parkeert in een parkeerschijfzone en komt om 12 uur 40 aan. Wat zet je op de schijf?",
+          "antwoord": "13 uur.",
+          "uitleg": "Je stelt de schijf in op het tijdstip van aankomst en mag naar boven afronden op het eerstvolgende hele of halve uur.",
+          "bron": {
+            "slide": 183,
+            "anker": "als je om 12.40 parkeert, stel je de schijf in op 13.00"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het zonebord van een parkeerverbodzone staat alleen rechts. Mag je links parkeren?",
+          "antwoord": "Nee.",
+          "uitleg": "In een zone geldt het verbod voor beide kanten van de weg, ook als het bord maar aan een kant staat.",
+          "bron": {
+            "boek": 165,
+            "sectie": "10.4",
+            "anker": "Het verbod geldt voor beide kanten van de weg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U10-P06",
+      "anker": "p-9.1-instappen-en-wegrijden",
+      "titel": "In- en uitstappen en wegrijden",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "9.1",
+            "9.2"
+          ],
+          "paginas": [
+            133,
+            134,
+            135
+          ]
+        },
+        "cursus": {
+          "slides": [
+            158,
+            159
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U10-r24",
+          "tekst": "Voor het instappen kijk je achter de auto of er ruimte is om achteruit te rijden als dat nodig zou zijn, en daarna loop je voor de auto langs naar het portier. Zo zie je het verkeer goed naderen en zie je obstakels aan de voorkant.",
+          "bron": [
+            {
+              "boek": 133,
+              "sectie": "9.1",
+              "anker": "kijk achter de auto of er ruimte is om achteruit te rijden"
+            },
+            {
+              "boek": 133,
+              "sectie": "9.1",
+              "anker": "loop daarna voor de auto langs naar het portier"
+            },
+            {
+              "slide": 158,
+              "anker": "loop voorlangs naar je portier; dan zie je het verkeer goed naderen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r25",
+          "tekst": "Je opent het portier alleen als dat zonder gevaar of hinder kan, je stapt vlot in en sluit het portier direct, en dan doe je je gordel om.",
+          "bron": [
+            {
+              "boek": 133,
+              "sectie": "9.1",
+              "anker": "open alleen het portier als dat zonder gevaar of hinder kan"
+            },
+            {
+              "boek": 133,
+              "sectie": "9.1",
+              "anker": "stap vlot in en sluit het portier direct"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r26",
+          "tekst": "Voor het uitstappen kijk je in de binnenspiegel, in de linkerbuitenspiegel en links naast de auto. Je stapt vlot uit, sluit het portier direct en verlaat de rijbaan zo snel mogelijk, lopend tegen het verkeer in.",
+          "bron": [
+            {
+              "boek": 133,
+              "sectie": "9.1",
+              "anker": "kijk in de binnenspiegel, linkerbuitenspiegel en links naast de auto"
+            },
+            {
+              "boek": 133,
+              "sectie": "9.1",
+              "anker": "verlaat de rijbaan z.s.m. Loop daarbij tegen het verkeer in"
+            },
+            {
+              "slide": 158,
+              "anker": "stap vlot uit zonder gevaar of hinder te veroorzaken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r27",
+          "tekst": "Als je wilt wegrijden, moet je het overige verkeer voor laten gaan en mag je geen gevaar of hinder veroorzaken. Houd rekening met je uitzicht en de beschikbare ruimte, met het verkeer dat voor en achter je nadert, en met de weersomstandigheden.",
+          "bron": [
+            {
+              "boek": 134,
+              "sectie": "9.2",
+              "anker": "Als je wilt wegrijden, moet je het overige verkeer voor laten gaan"
+            },
+            {
+              "slide": 159,
+              "anker": "laat alle weggebruikers voorgaan - geef pas richting aan"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Waar je staat",
+            "Kijkvolgorde voor het wegrijden"
+          ],
+          "rijen": [
+            [
+              "Rechts van de weg",
+              "binnenspiegel en naar voren, dan de linkerbuitenspiegel, als laatste links naast je"
+            ],
+            [
+              "Links van de weg",
+              "binnenspiegel en naar voren, dan de rechterbuitenspiegel, als laatste rechts naast je"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 134,
+              "sectie": "9.2",
+              "anker": "kijk voor je wegrijdt eerst in de binnenspiegel en naar voren"
+            },
+            {
+              "boek": 134,
+              "sectie": "9.2",
+              "anker": "daarna in de rechterbuitenspiegel, en als laatste rechts naast je"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r28",
+          "tekst": "Sta je links van de weg, houd er dan rekening mee dat het zicht een stuk minder is. Wegrijden vanaf de linkerkant is lastiger, omdat je minder zicht hebt en omdat je moet oversteken.",
+          "bron": [
+            {
+              "boek": 134,
+              "sectie": "9.2",
+              "anker": "houd er rekening mee dat het zicht een stuk minder is"
+            },
+            {
+              "slide": 159,
+              "anker": "wegrijden vanaf de linkerkant is lastiger, omdat je minder zicht hebt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U10-r29",
+          "tekst": "Voor je wegrijdt, moet je richting aangeven, en dat doe je pas vlak voordat je wegrijdt. Geef je te vroeg richting aan, dan denken andere bestuurders misschien dat je richtingaanwijzer is blijven aanstaan, of zijn ze bang dat je hen niet hebt zien aankomen.",
+          "bron": [
+            {
+              "boek": 134,
+              "sectie": "9.2",
+              "anker": "Geef pas richting aan vlak voordat je wegrijdt"
+            },
+            {
+              "boek": 134,
+              "sectie": "9.2",
+              "anker": "denken andere bestuurders misschien dat je richtingaanwijzer is blijven aanstaan"
+            },
+            {
+              "slide": 159,
+              "anker": "geef pas richting aan vlak voordat je wegrijdt"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Rijd je weg vanaf een parkeerhaven buiten de bebouwde kom, besef dan goed dat het andere verkeer snel nadert. Zorg dat je na het wegrijden ook vlot de gewenste snelheid bereikt.",
+          "bron": [
+            {
+              "boek": 135,
+              "sectie": "9.2",
+              "anker": "moet je goed beseffen dat het andere verkeer snel nadert"
+            },
+            {
+              "slide": 159,
+              "anker": "wegrijden buiten bebouwde kom is lastiger omdat het overige verkeer"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Wegrijden is de enige manoeuvre waarbij je vanuit stilstand de stroom in gaat, dus iedereen is sneller dan jij en niemand verwacht je. Je hebt daarom twee dingen nodig: een gat dat groot genoeg is en een signaal dat op het goede moment komt. Een knipperlicht dat al een minuut aanstaat, vertelt niemand meer iets.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Voor laten gaan bij het wegrijden geldt voor al het overige verkeer, dus ook voor de fietser die van achteren komt en voor de voetganger op de stoep achter je auto. Het is geen kwestie van wie er het eerst was.",
+          "bron": {
+            "boek": 134,
+            "sectie": "9.2",
+            "anker": "moet je het overige verkeer voor laten gaan"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Wegrijden: eerst kijken, dan richting aangeven, en iedereen gaat voor jou."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat rechts van de weg geparkeerd en wilt wegrijden. Waar kijk je als laatste?",
+          "antwoord": "Links naast je.",
+          "uitleg": "Eerst de binnenspiegel en naar voren, dan de linkerbuitenspiegel, en als laatste links naast je.",
+          "bron": {
+            "boek": 134,
+            "sectie": "9.2",
+            "anker": "kijk voor je wegrijdt eerst in de binnenspiegel en naar voren"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Wanneer geef je richting aan als je wilt wegrijden?",
+          "antwoord": "Pas vlak voordat je wegrijdt.",
+          "uitleg": "Te vroeg richting aangeven verwart anderen, want die denken dan dat je richtingaanwijzer is blijven aanstaan.",
+          "bron": {
+            "boek": 134,
+            "sectie": "9.2",
+            "anker": "Geef pas richting aan vlak voordat je wegrijdt"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "S-U11-001",
+  "vorm": "T",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "zuid",
+    "oost"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "signaal": "rechts",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "links",
+      "afstand": 1,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en gaat rechtdoor, terwijl je rechter richtingaanwijzer al aan staat. Rechts ligt een zijweg met haaientanden en bord B6, waar een grijze auto staat te wachten om de voorrangsweg op te draaien.",
+  "inspiratie": {
+    "boek": 182
+  }
+}
