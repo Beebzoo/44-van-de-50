@@ -366,6 +366,13 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .tabel td.zwak { color: var(--fout); font-weight: 700; }
 .begrip { display: inline; padding: 0; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; border-bottom: 1.5px dotted var(--bord-blauw); }
 .begrip:hover { color: var(--bord-blauw); }
+.notitierij { margin-top: 16px; }
+.notitieknop { gap: 8px; }
+.notitiesheet { display: flex; flex-direction: column; gap: 12px; }
+.notitieveld { width: 100%; box-sizing: border-box; padding: 12px; border-radius: var(--r-klein); border: 1px solid var(--lijn-2); background: var(--vlak); color: var(--inkt); font: inherit; line-height: 1.5; resize: vertical; }
+.notitieveld:focus { outline: 2px solid var(--bord-blauw); outline-offset: 1px; }
+.notitietekst { white-space: pre-wrap; margin: 8px 0; }
+.knop.groei { flex: 1; }
 .begripkaart { background: var(--vlak); color: var(--inkt); border-radius: var(--r); padding: 20px 22px; max-width: min(92vw, 30rem); text-align: left; box-shadow: 0 12px 32px rgba(0,0,0,.28); }
 .begripkaart .kop2 { margin: 0 0 6px; }
 .begripkaart .lees { margin: 0 0 10px; }

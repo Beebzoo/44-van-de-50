@@ -21,7 +21,7 @@ const app = document.getElementById("app");
 const S = {
   route: { name: "route" }, index: null, units: [], unitsNl: [], vertalingen: null, vragenEn: null, unitById: {}, bankNl: {}, bank: {}, qById: {}, pools: {}, scenes: {},
   attempts: [], history: new Map(), states: {}, settings: {}, boxes: new Map(),
-  run: null, sheet: null, viewer: null, toast: null, gemeld: new Set(), familie: null, lezenStart: null, zojuistGehaald: null,
+  run: null, sheet: null, viewer: null, schrijf: null, toast: null, gemeld: new Set(), familie: null, lezenStart: null, zojuistGehaald: null,
 };
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const datum = d => isEngels()
@@ -37,6 +37,7 @@ const I = {
   terug: '<svg class="ico" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>',
   sluit: '<svg class="ico" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>',
   pijl: '<svg class="ico" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>',
+  notitie: '<svg class="ico" viewBox="0 0 24 24"><path d="M5 4h9l5 5v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M14 4v5h5M8 13h8M8 17h5"/></svg>',
   instellingen: '<svg class="ico" viewBox="0 0 24 24"><path d="M4 8h8M17 8h3M4 16h3M12 16h8"/><circle cx="14.5" cy="8" r="2.5"/><circle cx="9.5" cy="16" r="2.5"/></svg>',
   route: '<svg class="ico" viewBox="0 0 24 24"><path d="M12 21V9M12 9h6l2-2.5L18 4h-6M12 13H7l-2 2 2 2h5"/></svg>',
   leren: '<svg class="ico" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M8 7h7"/></svg>',
@@ -50,7 +51,7 @@ const I = {
 /* ==== boot ==== */
 async function boot() {
   store.persist(); /* not awaited: a permission prompt must never block the start */
-  S.settings = { thema: "licht", tekst: "normaal", taal: "nl", examenDatum: null, ...(await store.allSettings()) };
+  S.settings = { thema: "licht", tekst: "normaal", taal: "nl", examenDatum: null, notities: {}, ...(await store.allSettings()) };
   zetTaal(S.settings.taal);
   S.koppelcode = await sync.learnerCode();
   S.index = await fetch("content/index.json").then(r => r.json());
@@ -152,7 +153,7 @@ async function refresh() {
 async function log(a) { await store.addAttempt(a); await refresh(); sync.flush().then(n => { if (n) refresh().then(render); }); }
 
 function onRoute() {
-  S.sheet = null; S.viewer = null;
+  S.sheet = null; S.viewer = null; S.schrijf = null;
   if (S.route.name === "quiz") startRunIfNeeded();
   else if (S.run && !S.run.klaar && S.route.name !== "quiz") { /* a run left half-way is dropped; nothing was scored */ S.run = null; }
   if (S.route.name === "lezen") S.lezenStart = Date.now();
@@ -200,6 +201,15 @@ function actionbar(html) { return `<div class="onderbalk"><div class="actiebalk"
 function overlays() {
   let h = "";
   if (S.sheet === "route") h += `<div class="scrim" data-actie="sluit-sheet"></div><div class="sheet" role="dialog" aria-label="Route"><div class="handvat"></div>${countdownBlock()}${timeline()}</div>`;
+  if (S.schrijf) {
+    const n = notitieVan(S.schrijf.ref) || { tekst: "" };
+    const d = notitieDoel(S.schrijf.ref);
+    h += `<div class="scrim" data-actie="notitie-annuleer"></div><div class="sheet notitiesheet" role="dialog" aria-label="${esc(t("Notitie"))}"><div class="handvat"></div>
+      <p class="meta-3">${esc(S.schrijf.titel || d.titel)}</p>
+      <textarea id="notitieveld" class="notitieveld" rows="7" placeholder="${esc(t("Schrijf op wat je wilt onthouden"))}">${esc(n.tekst)}</textarea>
+      <div class="rij"><button class="knop omlijnd" data-actie="notitie-annuleer">${esc(t("Annuleren"))}</button><button class="knop primair groei" data-actie="notitie-bewaar" data-ref="${esc(S.schrijf.ref)}" data-titel="${esc(S.schrijf.titel || "")}">${esc(t("Bewaren"))}</button></div>
+      ${n.tekst ? `<button class="knop tekstknop" data-actie="notitie-wis" data-ref="${esc(S.schrijf.ref)}">${esc(t("Verwijderen"))}</button>` : ""}</div>`;
+  }
   if (S.viewer && S.viewer.bord) {
     const code = S.viewer.bord, b = sign(code);
     h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(code)}">${bordHtml(code, 176)}<div class="naam"><span class="bordcode">${esc(code)}</span><br>${b ? esc(b.betekenis) : ""}</div><a class="knop tekstknop" href="#/borden/${encodeURIComponent(code)}">${esc(t("Bekijk in Borden"))}</a></div>`;
@@ -466,6 +476,35 @@ function volgendeActie(u) {
   const l = st.laatste;
   return { tekst: l ? t("Quiz · vorige keer {score} van {total}", { score: l.score, total: l.total }) : t("Quiz · eerste poging"), href: "#/quiz/" + u.id, knop: t("Start quiz") };
 }
+/* ==== notities ==== */
+const notities = () => (S.settings && S.settings.notities) || {};
+const notitieVan = ref => notities()[ref] || null;
+async function bewaarNotitie(ref, tekst, titel) {
+  const alles = { ...notities() };
+  const schoon = String(tekst || "").trim();
+  if (schoon) alles[ref] = { tekst: schoon, titel: titel || (alles[ref] && alles[ref].titel) || "", ts: Date.now() };
+  else delete alles[ref];
+  await setSetting("notities", alles);
+}
+/* waar hoort een notitie bij, en hoe kom je er terug */
+function notitieDoel(ref) {
+  const n = notitieVan(ref) || {};
+  if (/^U[0-9]{2}-P[0-9]{2}$/.test(ref)) {
+    const u = S.unitById[ref.slice(0, 3)];
+    const p = u && u.paginas.find(x => x.id === ref);
+    return { titel: p ? p.titel : ref, href: u ? "#/blok/" + u.id + "/lezen/" + ref : "#/leren", soort: t("Leespagina") };
+  }
+  if (/^U[0-9]{2}-Q[0-9]{3,4}$/.test(ref)) {
+    const q = S.qById[ref];
+    return { titel: q ? q.stam : ref, href: q ? "#/blok/" + q.unit : "#/leren", soort: t("Vraag") };
+  }
+  return { titel: n.titel || t("Losse notitie"), href: "#/notities", soort: t("Los") };
+}
+function notitieKnop(ref, titel) {
+  const n = notitieVan(ref);
+  return `<button class="knop omlijnd notitieknop" data-actie="notitie-open" data-ref="${esc(ref)}" data-titel="${esc(titel || "")}">${I.notitie}${esc(n ? t("Notitie bewerken") : t("Notitie maken"))}</button>`;
+}
+
 const SCREENS = {
   route() {
     const u = currentUnit();
@@ -485,7 +524,8 @@ const SCREENS = {
       ${herhalingKaart()}
       ${examenklaarKaart()}
       ${timeline()}
-      <a class="kaart klik" href="#/fouten"><div class="rij"><span class="groei">${esc(t("Fouten om te herhalen"))}</span><span class="cijfer cijfer-klein">${fouten.length}</span>${I.pijl}</div></a>`;
+      <a class="kaart klik" href="#/fouten"><div class="rij"><span class="groei">${esc(t("Fouten om te herhalen"))}</span><span class="cijfer cijfer-klein">${fouten.length}</span>${I.pijl}</div></a>
+      <a class="kaart klik" href="#/notities"><div class="rij"><span class="groei">${esc(t("Notities"))}</span><span class="cijfer cijfer-klein">${Object.keys(notities()).length}</span>${I.pijl}</div></a>`;
     return { titel: t("Route"), body, onder: "tab" };
   },
   leren() {
@@ -531,7 +571,7 @@ const SCREENS = {
     const st = S.states[u.id];
     const laatste = i === u.paginas.length - 1;
     const body = `<div class="segment"><a class="actief" href="#/blok/${u.id}/lezen/${p.id}">${esc(t("Lezen"))}</a><a href="${st.quizOpen ? "#/quiz/" + u.id : "#/blok/" + u.id}">${esc(t("Quiz"))}${st.staat === "beheerst" ? " " + I.vink : ""}</a></div>
-      <p class="meta-3">${esc(t("Pagina {i} van {n}", { i: i + 1, n: u.paginas.length }))}</p>${isEngels() && p.vertaald === false ? `<p class="meta">${esc(t("Deze pagina is nog niet vertaald. Je leest hem in het Nederlands."))}</p>` : ""}${pageHtml(u, p)}`;
+      <p class="meta-3">${esc(t("Pagina {i} van {n}", { i: i + 1, n: u.paginas.length }))}</p>${isEngels() && p.vertaald === false ? `<p class="meta">${esc(t("Deze pagina is nog niet vertaald. Je leest hem in het Nederlands."))}</p>` : ""}${pageHtml(u, p)}<div class="rij notitierij">${notitieKnop(p.id, p.titel)}</div>`;
     let onder;
     if (!laatste) onder = `<div class="rij">${i > 0 ? `<a class="knop omlijnd" href="#/blok/${u.id}/lezen/${u.paginas[i - 1].id}" aria-label="${esc(t("Vorige pagina"))}">${I.terug}</a>` : ""}<a class="knop primair groot" href="#/blok/${u.id}/lezen/${u.paginas[i + 1].id}">${esc(t("Volgende pagina"))}<span class="pijl">${I.pijl}</span></a></div>`;
     else if (!u.quiz.gate) onder = `<div class="rij">${i > 0 ? `<a class="knop omlijnd" href="#/blok/${u.id}/lezen/${u.paginas[i - 1].id}" aria-label="${esc(t("Vorige pagina"))}">${I.terug}</a>` : ""}<button class="knop primair groot" data-actie="klaar-lezen" data-unit="${u.id}">${esc(st.staat === "beheerst" ? t("Gelezen, terug naar route") : t("Klaar met lezen"))}<span class="pijl">${I.pijl}</span></button></div>`;
@@ -640,7 +680,7 @@ const SCREENS = {
         ${u2.onthoud ? `<div class="onthoud"><span class="label">${esc(t("Onthoud"))}</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
         <p class="meta-3" style="margin:8px 0 0">${esc(bron)}${pagina ? ` · <a href="#/blok/${u.id}/lezen/${pagina.id}">${esc(t("Lees {pagina} opnieuw", { pagina: kortePaginanaam(pagina) }))}</a>` : ""}</p>
-        <button class="knop tekstknop" style="min-height:36px;padding:0" data-actie="meld-fout" data-q="${esc(q.id)}">${esc(S.gemeld.has(q.id) ? t("Gemeld") : t("Klopt deze vraag niet?"))}</button></section>`, new Set());
+        <button class="knop tekstknop" style="min-height:36px;padding:0" data-actie="meld-fout" data-q="${esc(q.id)}">${esc(S.gemeld.has(q.id) ? t("Gemeld") : t("Klopt deze vraag niet?"))}</button><div class="rij notitierij">${notitieKnop(q.id, q.stam)}</div></section>`, new Set());
     }
     const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${uitleg}`;
     const onder = toon
@@ -702,6 +742,20 @@ const SCREENS = {
     const body = `<h1 class="kop1">${esc(t("Fouten"))} <span class="cijfer cijfer-klein" style="float:right">${rows.length}</span></h1>${taxonomie}
       ${rows.length ? `<button class="knop primair groot" data-actie="oefen-fouten" style="margin-bottom:16px">${esc(t("Oefen deze {n}", { n: Math.min(rows.length, 20) }))}<span class="pijl">${I.pijl}</span></button>${groups}<p class="meta-3">${esc(t("Een vraag verdwijnt hier na twee keer achter elkaar goed."))}</p>` : `<p class="lees">${esc(t("Nog geen fouten om te herhalen. Alles wat je fout doet komt hier terecht, met de uitleg erbij."))}</p>`}`;
     return { titel: t("Fouten"), body, onder: "tab" };
+  },
+  notities() {
+    const alles = notities();
+    const rijen = Object.entries(alles).sort((a, b) => (b[1].ts || 0) - (a[1].ts || 0)).map(([ref, n]) => {
+      const d = notitieDoel(ref);
+      return `<div class="kaart"><div class="rij"><span class="groei"><span class="meta-3">${esc(d.soort)}</span><br><strong>${esc(d.titel.length > 70 ? d.titel.slice(0, 67) + "..." : d.titel)}</strong></span><span class="meta">${datum(new Date(n.ts))}</span></div>
+        <p class="lees notitietekst">${esc(n.tekst)}</p>
+        <div class="rij"><a class="knop tekstknop" href="${d.href}">${esc(t("Ga erheen"))}</a><button class="knop tekstknop" data-actie="notitie-open" data-ref="${esc(ref)}">${esc(t("Bewerken"))}</button></div></div>`;
+    }).join("");
+    const body = `<h1 class="kop1">${esc(t("Notities"))}</h1>
+      <p class="lees">${esc(t("Alles wat je onderweg opschrijft komt hier samen. Een notitie hangt aan de pagina of de vraag waar je hem maakte."))}</p>
+      ${rijen || `<div class="kaart"><p style="margin:0">${esc(t("Nog geen notities. Maak er een op een leespagina of onder een vraag, of hieronder."))}</p></div>`}`;
+    const onder = `<button class="knop primair groot" data-actie="notitie-open" data-ref="los-${Date.now().toString(36)}">${esc(t("Nieuwe losse notitie"))}</button>`;
+    return { titel: t("Notities"), terug: "#/route", body, onder };
   },
   instellingen() {
     const s = S.settings;
@@ -814,6 +868,10 @@ async function onClick(e) {
   if (a === "sluit-sheet") { S.sheet = null; render(); return; }
   if (a === "bekijk-bord") { e.preventDefault(); S.viewer = { bord: el.dataset.code }; render(); return; }
   if (a === "bekijk-scene") { e.preventDefault(); S.viewer = { scene: el.dataset.scene }; render(); return; }
+  if (a === "notitie-open") { S.schrijf = { ref: el.dataset.ref, titel: el.dataset.titel || "" }; render(); setTimeout(() => { const v = document.getElementById("notitieveld"); if (v) { v.focus(); v.selectionStart = v.value.length; } }, 60); return; }
+  if (a === "notitie-annuleer") { S.schrijf = null; render(); return; }
+  if (a === "notitie-bewaar") { const v = document.getElementById("notitieveld"); await bewaarNotitie(el.dataset.ref, v ? v.value : "", el.dataset.titel); S.schrijf = null; toast(t("Notitie bewaard")); render(); return; }
+  if (a === "notitie-wis") { await bewaarNotitie(el.dataset.ref, "", ""); S.schrijf = null; toast(t("Notitie verwijderd")); render(); return; }
   if (a === "begrip") { e.preventDefault(); const b = B.zoek(el.dataset.term); if (b) { S.viewer = { begrip: b }; render(); } return; }
   if (a === "frame" && run) { const it = Q.current(run); it.frame = Math.max(0, it.frame + parseInt(el.dataset.n, 10)); render(); return; }
   if (a === "speel" && run) { speelReeks(run); return; }

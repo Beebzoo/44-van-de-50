@@ -140,7 +140,7 @@ export async function flush() {
 
     /* settings: last write wins on updated_at */
     const local = await store.allSettings();
-    const mine = { examenDatum: local.examenDatum, thema: local.thema, tekst: local.tekst };
+    const mine = { examenDatum: local.examenDatum, thema: local.thema, tekst: local.tekst, notities: local.notities };
     const localAt = local.instellingenAt || 0;
     const remote = await api("settings?select=*&learner=eq." + encodeURIComponent(learner), { learner });
     const r = remote && remote[0];
