@@ -2,7 +2,7 @@
 
 Bijgewerkt op vrijdag 11 september 2026. Dit bestand staat in de repo, zodat een nieuwe sessie op elke computer weet waar hij instapt. Lees ook `README.md` voor hoe de app werkt en `BOUWPLAN.md` in de app-plan-map voor het plan van record.
 
-Examen: woensdag 28 oktober 2026. De app is live op https://beebzoo.github.io/44-van-de-50/ en installeerbaar op telefoon en computer.
+Examen: **dinsdag 13 oktober 2026, 11:20, Roermond**. Op 11 september gereserveerd bij het CBR; het stond daarvoor op 28 oktober en dat was een streefdatum, geen afspraak. Dat scheelt vijftien dagen, dus het studieplan van zes weken past niet meer: van 14 september tot het examen zijn het er nog negenentwintig. De app is live op https://beebzoo.github.io/44-van-de-50/ en installeerbaar op telefoon en computer.
 
 ## Wat af is
 

@@ -28,7 +28,11 @@ const readJson = f => JSON.parse(fs.readFileSync(f, "utf8"));
 const writeJson = (f, o) => fs.writeFileSync(f, JSON.stringify(o, null, 2) + "\n");
 const listJson = dir => fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith(".json")).sort() : [];
 const CHECK = process.argv.includes("controle");
-const EXAMEN = "2026-10-28";
+/* Gereserveerd bij het CBR op 11 september 2026: dinsdag 13 oktober, Roermond.
+   Stond eerder op 28 oktober toen er nog niets vastlag. Wijzigen kan nog, maar
+   dan verhuist deze datum mee, want de aftelling en het examenklaar-lampje
+   hangen eraan. In Instellingen kun je hem per apparaat overschrijven. */
+const EXAMEN = "2026-10-13";
 
 /* ==== 1 sprite ==== */
 const { sprite } = require("./build-signs.js");
@@ -308,7 +312,13 @@ const precache = [
 ].filter((f, i, a) => a.indexOf(f) === i);
 const hash = crypto.createHash("sha256");
 for (const f of precache) { if (f === "content/index.json") continue; hash.update(f); hash.update(fs.readFileSync(path.join(REPO, f))); }
-hash.update(JSON.stringify(index.units) + JSON.stringify(index.scenes));
+/* De index zelf draagt de versie, dus die kan niet in zijn eigen hash. De rest
+   van de index wel, en dat was eerder alleen units en scenes. Daardoor bleef de
+   cacheversie staan toen de examendatum veranderde, en een geinstalleerde app
+   telde vrolijk af naar de oude datum. gegenereerd is de bouwdatum en blijft er
+   bewust buiten, anders krijg je elke dag een nieuwe versie zonder reden. */
+const { versie: _v, gegenereerd: _g, ...indexVoorHash } = index;
+hash.update(JSON.stringify(indexVoorHash));
 const version = hash.digest("hex").slice(0, 10);
 index.versie = version;
 
