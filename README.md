@@ -14,6 +14,8 @@ Alles wat je doet staat in een logboek van pogingen op het apparaat (IndexedDB).
 
 Telefoon en computer lopen gelijk via een koppelcode. Op het eerste apparaat maakt de app er een; op het tweede typ je hem een keer over onder Instellingen. De code gaat als kopregel mee naar Supabase en een regel in de database laat alleen rijen met precies die code toe. Er is geen account en geen wachtwoord. Lokaal blijft de bron van waarheid, dus zonder bereik werkt alles gewoon door en wordt later bijgewerkt.
 
+Waar het project staat en wat er nog moet: `HANDOFF.md`.
+
 ## Bronnen
 
 Alle inhoud komt uit twee transcripties van VekaBest-lesmateriaal (het theorieboek en de online SpeedTheorie). Elke regel en elke vraag citeert een pagina of slide met een letterlijk anker dat de validator terugvindt. De transcripties zelf staan niet in deze repo.
