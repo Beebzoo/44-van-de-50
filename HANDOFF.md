@@ -20,43 +20,86 @@ De feiten: `content/facts/registry.json` heeft 233 getallen, elk met een letterl
 
 ## De inhoud
 
-| Blok | Titel | Stand |
+Alle zestien blokken zijn geschreven en gecheckt. Veertien van de vijftien
+blokken met een quiz halen het aantal geschreven vragen dat het bouwplan ervoor
+vraagt; blok 15 staat op 18 van de 60 en dat blijft een keuze, want het heeft
+290 gegenereerde bordvragen in zijn pool.
+
+| Blok | Titel | Vragen |
 |---|---|---|
-| 0 | Zo denkt het examen | 3 leespagina's, geen quiz, af |
-| 1 | Begrippen: wie en wat | 4 pagina's, 24 vragen, gecheckt en live |
-| 2 | Verkeerstekens en rangorde | 5 pagina's, 24 geschreven plus 48 gegenereerde bordvragen, gecheckt en live |
-| 3 | Voorrang op kruispunten | 5 pagina's, 36 vragen, 29 tekeningen, gecheckt en live |
-| 4 | Voor laten gaan en afslaan | 6 pagina's, 36 vragen, 36 tekeningen waarvan 35 in gebruik, gecheckt en live |
-| 5 | Rotondes, uitritten, erf en 30-zone | 4 pagina's, 36 vragen, 30 tekeningen, gecheckt en live |
-| 6 | Snelheid, afstand en remmen | 6 pagina's, 38 geschreven plus 2 gegenereerd, 7 tekeningen, gecheckt en live |
-| 7 | Plaats op de weg en inhalen | 7 pagina's, 36 geschreven plus 24 gegenereerd, 16 tekeningen, gecheckt en live |
-| 8 | Autoweg en autosnelweg | 6 pagina's, 38 geschreven plus 24 gegenereerd, 1 tekening, gecheckt en live |
-| 9 | Overwegen, haltes, bruggen en tunnels | 6 pagina's, 36 geschreven plus 12 gegenereerd, 8 tekeningen, gecheckt en live |
+| 0 | Zo denkt het examen | leespagina's, geen quiz |
+| 1 | Begrippen: wie en wat | 36 geschreven |
+| 2 | Verkeerstekens en rangorde | 36 geschreven plus 86 gegenereerd |
+| 3 | Voorrang op kruispunten | 60 geschreven plus 12 gegenereerd, 41 tekeningen |
+| 4 | Voor laten gaan en afslaan | 36 geschreven plus 2 gegenereerd, 36 tekeningen |
+| 5 | Rotondes, uitritten, erf en 30-zone | 36 geschreven plus 6 gegenereerd, 30 tekeningen |
+| 6 | Snelheid, afstand en remmen | 38 geschreven plus 18 gegenereerd, 7 tekeningen |
+| 7 | Plaats op de weg en inhalen | 60 geschreven plus 30 gegenereerd, 22 tekeningen |
+| 8 | Autoweg en autosnelweg | 38 geschreven plus 32 gegenereerd |
+| 9 | Overwegen, haltes, bruggen en tunnels | 36 geschreven plus 22 gegenereerd, 8 tekeningen |
+| 10 | Stilstaan en parkeren | 36 geschreven plus 10 gegenereerd, 8 tekeningen |
+| 11 | Licht, signalen en weer | 36 geschreven |
+| 12 | File, pech en ongeval | 36 geschreven, 6 tekeningen |
+| 13 | De bestuurder en de wet | 36 geschreven |
+| 14 | Voertuig, lading, aanhanger en milieu | 39 geschreven plus 4 gegenereerd |
+| 15 | Alle borden op een rij | 18 geschreven plus 290 gegenereerd |
+
+Blok 3, 4 en 5 zijn twee keer door een checker gegaan. De tweede ronde vond in
+die drie blokken samen achttien dingen, waaronder twee afleiders die bij nader
+inzien gewoon waar waren.
 
 ## Het eerste wat moet gebeuren
 
-**Blok 10 tot en met 14 schrijven.** Op 11 september zijn de blokken 6 tot en met 9 in een middag geschreven en gecheckt, vier schrijvers en vier checkers naast elkaar. De bank staat op 418 vragen en tien van de zestien blokken zijn speelbaar. Wat er nog moet:
+De inhoud is klaar. Wat er nog ligt is app-werk en aankleding, in de volgorde
+waarin het de meeste waarde heeft:
 
-- blok 10 stilstaan en parkeren (boek 10.1 t/m 10.4, 9.1, 9.2; slides 158, 159, 181 t/m 185)
-- blok 11 licht, signalen en weer (boek 11.1 t/m 11.5; slides 197 t/m 208)
-- blok 12 file, pech en ongeval (boek 10.5 t/m 10.8; slides 186 t/m 194)
-- blok 13 de bestuurder en de wet (boek 1.1 t/m 1.4, 2.1, 2.6 t/m 2.8)
-- blok 14 voertuig, lading, aanhanger en milieu (boek 13.1 t/m 13.8, 12.1 t/m 12.4)
-- blok 15 bordenconsolidatie, grotendeels gegenereerd uit het manifest
-- derde batches voor blok 1 en 2, die nog op 24 staan, en blok 3 naar 60
+1. **De vier losse diagrammen** uit het bouwplan: remweg en stopafstand met een
+   snelheidsschuif, de dode hoek, andreaskruisen en de handsignalen. Geen van
+   vier bestaat, en het zijn precies de dingen die je niet uit tekst leert.
+2. **De renderer uitbreiden**: verkeerslichten, voorsorteerstroken en pijlen op
+   het wegdek, meer dan een rijstrook per richting, invoegstroken, turborotonde.
+   Daar hangt inhoud aan vast. Blok 8 heeft 38 vragen en nauwelijks een
+   tekening, blok 7 heeft er vier over invoegen en ritsen zonder beeld, en
+   U04-Q026 raakte zijn tekening kwijt omdat de renderer geen voorsorteerpijl
+   kan zetten.
+3. **Zes samengestelde oefenexamens** met een vaste mix. De motor staat er, dus
+   dit is nog het samenstellen van zes vaste sets in plaats van steeds opnieuw
+   trekken.
+4. **De weekweergave op Route**: gepland tegenover werkelijk, minuten,
+   simulaties, zwakste onderwerp.
+5. **27 bordcodes hebben geen tekening** in `assets/borden`, waaronder alle
+   C22e-onderborden voor milieuzones en de hele E8-reeks. Die kunnen in geen
+   enkele gegenereerde bordvraag terecht. `node _tools/build.js` noemt ze bij
+   naam onder "zonder tekening".
 
-Daarnaast staat uit fase 2 nog open: het oefenexamen met 52 vragen in 30 minuten en het examenklaar-lampje, de bordencatalogus met detailvenster, de weekweergave op Route, de getalvraag met varianten, en de renderer uitbreiden.
+Wat je verder moet weten over de staat van het gereedschap:
 
-### Hoe die middag werkte, voor wie het overdoet
+- `_tools/check-scenes.js` is het tweede paar ogen van de checker en vindt
+  negen soorten fouten die eerder met de hand gezocht werden. Draai hem altijd
+  voordat je zelf begint. Wat je bewust zo laat, zet je met een reden in
+  `_tools/check-scenes-ack.json`.
+- `_tools/schermen.js` fotografeert elk scherm en vindt de browser zelf op
+  Windows en Linux. Gebruik hem om te kijken of iets echt werkt in plaats van
+  erop te hopen. Start er een lokale server bij, bijvoorbeeld op poort 8765.
+- Het oefenexamen trekt zijn 52 vragen alleen uit vrijgespeelde blokken, dus op
+  een leeg profiel kun je er geen doen. Dat is met opzet.
 
-Vier schrijvers tegelijk, elk op een eigen blok, elk met exacte regelnummers in de twee transcripties en een schrijversbrief die de valkuilen opsomt. Daarna vier checkers, ook parallel, ook elk op een eigen blok. Dat is ongeveer drie tot vier keer sneller dan blok voor blok, en de kwaliteit blijft staan omdat de checker een ander is dan de schrijver.
+### Hoe de parallelle rondes werkten
 
-Twee dingen die daarbij misgaan als je niet oplet:
+Schrijvers en checkers draaien naast elkaar, elk op een eigen blok, elk met
+exacte regelnummers in de twee transcripties. Dat is drie tot vier keer sneller
+dan blok voor blok en de kwaliteit blijft staan omdat de checker een ander is
+dan de schrijver. Drie dingen die daarbij misgaan als je niet oplet:
 
-- **Bouw niet in dezelfde map terwijl er schrijvers draaien.** Hun halve bestanden belanden dan in de precache. Zet er een worktree naast met `git worktree add --detach <pad> HEAD`, bouw daar, en kopieer `content/index.json`, `sw.js` en `sw-assets.js` terug.
-- **Merge pas als alle blokken van de ronde klaar zijn.** Een unit-bestand zonder gemergede vragen komt wel in `content/index.json` terecht, dus de app zou een blok tonen met leespagina's en nul vragen.
-
-Alle vier de schrijvers meldden onafhankelijk dat de paginanummers uit hun opdracht net naast de werkelijkheid zaten: een sectie begint vaak in het paginablok ervoor. Geef een schrijver dus regelnummers, die kloppen wel, en laat hem de pagina zelf opzoeken.
+- **Bouw niet in dezelfde map terwijl er schrijvers draaien.** Hun halve
+  bestanden belanden dan in de precache. Zet er een worktree naast met
+  `git worktree add --detach <pad> HEAD`, bouw daar, en kopieer
+  `content/index.json`, `sw.js` en `sw-assets.js` terug.
+- **Merge pas als alle blokken van de ronde klaar zijn**, anders toont de app een
+  blok met leespagina's en nul vragen.
+- **Kijk naar de exitcode van build.js, niet naar het woord Gehaald in zijn
+  uitvoer.** Dat woord komt van de validator die erin draait; de bouw kan daarna
+  alsnog stoppen. Ik heb daar een keer een rode deploy mee veroorzaakt.
 
 ## Wat een nieuwe computer nodig heeft
 
