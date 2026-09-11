@@ -364,6 +364,14 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .vraaghokje.beantwoord { background: var(--bord-blauw); border-color: var(--bord-blauw); color: #fff; }
 .vraaghokje.gemarkeerd { box-shadow: 0 0 0 3px var(--geel); }
 .tabel td.zwak { color: var(--fout); font-weight: 700; }
+.begrip { display: inline; padding: 0; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; border-bottom: 1.5px dotted var(--bord-blauw); }
+.begrip:hover { color: var(--bord-blauw); }
+.begripkaart { background: var(--vlak); color: var(--inkt); border-radius: var(--r); padding: 20px 22px; max-width: min(92vw, 30rem); text-align: left; box-shadow: 0 12px 32px rgba(0,0,0,.28); }
+.begripkaart .kop2 { margin: 0 0 6px; }
+.begripkaart .lees { margin: 0 0 10px; }
+.begripkaart .meta-3 { margin: 0; }
+.begripkaart .bord { width: min(60vw, 180px); height: min(60vw, 180px); padding: 12px; margin: 0 auto 12px; display: block; }
+.begripkaart .scene { width: 100%; height: auto; margin-bottom: 12px; }
 .tempo { margin: 6px 0 0; }
 .tempo.traag { color: var(--fout); }
 .kaart.laatsteweek { border-color: var(--bord-blauw); }

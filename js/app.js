@@ -13,6 +13,7 @@ import { pageHtml, setScenes } from "./lezen.js";
 import { sceneSvg, scenePlate } from "./scene.js";
 import * as SRS from "./srs.js";
 import * as sync from "./sync.js";
+import * as B from "./begrippen.js";
 import { t, taal, zetTaal, isEngels, DAGEN as TDAGEN, MAANDEN as TMAANDEN } from "./taal.js";
 import { remwegSvg } from "./diagram.js";
 
@@ -55,6 +56,7 @@ async function boot() {
   S.index = await fetch("content/index.json").then(r => r.json());
   if (!S.settings.examenDatum) S.settings.examenDatum = S.index.examenDatum;
   await loadSigns();
+  try { B.laad(await fetch("content/begrippen.json").then(r => r.json())); } catch (e) { /* zonder begrippenlijst blijft de tekst gewoon tekst */ }
   const units = await Promise.all(S.index.units.map(u => fetch(u.bestand).then(r => r.json())));
   S.unitsNl = units.sort((a, b) => a.volgorde - b.volgorde);
   await Promise.all(S.index.units.map(async u => {
@@ -193,6 +195,7 @@ function tabbar() {
   const act = n => S.route.name === n || (n === "leren" && ["blok", "lezen", "gehaald"].includes(S.route.name)) || (n === "borden" && S.route.name === "bord");
   return `<nav class="onderbalk tab"><div class="tabbalk">${tabs.map(([n, l, ic]) => `<a href="#/${n}" class="${act(n) ? "actief" : ""}">${ic}<span>${l}</span></a>`).join("")}</div></nav>`;
 }
+const hoofdletter = s => String(s || "").charAt(0).toUpperCase() + String(s || "").slice(1);
 function actionbar(html) { return `<div class="onderbalk"><div class="actiebalk">${html}</div></div>`; }
 function overlays() {
   let h = "";
@@ -200,6 +203,11 @@ function overlays() {
   if (S.viewer && S.viewer.bord) {
     const code = S.viewer.bord, b = sign(code);
     h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(code)}">${bordHtml(code, 176)}<div class="naam"><span class="bordcode">${esc(code)}</span><br>${b ? esc(b.betekenis) : ""}</div><a class="knop tekstknop" href="#/borden/${encodeURIComponent(code)}">${esc(t("Bekijk in Borden"))}</a></div>`;
+  } else if (S.viewer && S.viewer.begrip) {
+    const b = S.viewer.begrip;
+    const beeld = b.bord && hasSymbol(b.bord) ? bordHtml(b.bord, 140) : b.scene && S.scenes[b.scene] ? sceneSvg(S.scenes[b.scene]) : "";
+    const bron = b.bron.boek ? t("Boek p. {p}", { p: b.bron.boek }) + (b.bron.sectie ? " (\u00a7" + b.bron.sectie + ")" : "") : t("SpeedTheorie slide {n}", { n: b.bron.slide });
+    h += `<div class="viewer begripviewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(b.term)}"><div class="begripkaart">${beeld}<h2 class="kop2">${esc(hoofdletter(b.term))}</h2><p class="lees">${esc(isEngels() && b.uitleg_en ? b.uitleg_en : b.uitleg)}</p><p class="meta-3">${esc(bron)}</p></div></div>`;
   } else if (S.viewer && S.viewer.scene && S.scenes[S.viewer.scene]) {
     const sc = S.scenes[S.viewer.scene];
     h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(t("Tekening"))}">${sceneSvg(sc)}<div class="naam">${esc(sc.alt)}</div></div>`;
@@ -624,7 +632,7 @@ const SCREENS = {
       const pagina = u.paginas.find(p => p.id === q.pagina);
       const bron = q.bronnen.filter(b => !b.afgeleid).map(b => b.boek ? t("Boek p. {p}", { p: b.boek }) + (b.sectie ? " (§" + b.sectie + ")" : "") : t("SpeedTheorie slide {n}", { n: b.slide })).join(" · ");
       const ft = r.goed && !r.twijfel ? "" : `<div class="blokje"><span class="label">${esc(t("Wat ging er mis?"))}</span><div class="fouttypes">${[["niet_geweten", "Niet geweten"], ["verkeerd_gelezen", "Verkeerd gelezen"], ["verkeerd_toegepast", "Verkeerd toegepast"], ["gegokt", "Gegokt"]].map(([k, l]) => `<button type="button" class="${run.fouttype === k ? "actief" : ""}" data-actie="fouttype" data-type="${k}">${esc(t(l))}</button>`).join("")}</div><span class="meta-3">${esc(t("Komt terug aan het eind."))}</span></div>`;
-      uitleg = `<section class="uitleg" aria-live="polite"><span class="staat ${r.goed && !r.twijfel ? "goed" : ""}">${esc(r.goed ? (r.twijfel ? t("Goed, maar getwijfeld") : t("Goed")) : t("Nog niet"))}</span>
+      uitleg = B.markeer(`<section class="uitleg" aria-live="polite"><span class="staat ${r.goed && !r.twijfel ? "goed" : ""}">${esc(r.goed ? (r.twijfel ? t("Goed, maar getwijfeld") : t("Goed")) : t("Nog niet"))}</span>
         <h2 class="kop2">${esc(t("Waarom"))}</h2><p class="lees">${esc(u2.waarom)}</p>
         <div class="blokje lees"><span class="label">${esc(t("Regel"))}</span>${esc(u2.regel)}</div>
         ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">${esc(t("De juiste volgorde"))}</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(VOORVOEGSEL, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type === "invul" ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(String(q.correct.getal).replace(".", ","))} ${esc(q.correct.eenheid)}</div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(goedOptie.feedback.replace(VOORVOEGSEL, ""))}</div>` : ""}
@@ -632,7 +640,7 @@ const SCREENS = {
         ${u2.onthoud ? `<div class="onthoud"><span class="label">${esc(t("Onthoud"))}</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
         <p class="meta-3" style="margin:8px 0 0">${esc(bron)}${pagina ? ` · <a href="#/blok/${u.id}/lezen/${pagina.id}">${esc(t("Lees {pagina} opnieuw", { pagina: kortePaginanaam(pagina) }))}</a>` : ""}</p>
-        <button class="knop tekstknop" style="min-height:36px;padding:0" data-actie="meld-fout" data-q="${esc(q.id)}">${esc(S.gemeld.has(q.id) ? t("Gemeld") : t("Klopt deze vraag niet?"))}</button></section>`;
+        <button class="knop tekstknop" style="min-height:36px;padding:0" data-actie="meld-fout" data-q="${esc(q.id)}">${esc(S.gemeld.has(q.id) ? t("Gemeld") : t("Klopt deze vraag niet?"))}</button></section>`, new Set());
     }
     const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${uitleg}`;
     const onder = toon
@@ -806,6 +814,7 @@ async function onClick(e) {
   if (a === "sluit-sheet") { S.sheet = null; render(); return; }
   if (a === "bekijk-bord") { e.preventDefault(); S.viewer = { bord: el.dataset.code }; render(); return; }
   if (a === "bekijk-scene") { e.preventDefault(); S.viewer = { scene: el.dataset.scene }; render(); return; }
+  if (a === "begrip") { e.preventDefault(); const b = B.zoek(el.dataset.term); if (b) { S.viewer = { begrip: b }; render(); } return; }
   if (a === "frame" && run) { const it = Q.current(run); it.frame = Math.max(0, it.frame + parseInt(el.dataset.n, 10)); render(); return; }
   if (a === "speel" && run) { speelReeks(run); return; }
   if (a === "sluit-viewer") { if (e.target.closest("a")) return; S.viewer = null; render(); return; }

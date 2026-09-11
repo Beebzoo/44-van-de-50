@@ -301,7 +301,7 @@ const precache = [
   ...fs.readdirSync(path.join(REPO, "js")).filter(f => f.endsWith(".js")).map(f => "js/" + f),
   ...fs.readdirSync(path.join(REPO, "assets", "fonts")).filter(f => f.endsWith(".woff2")).map(f => "assets/fonts/" + f),
   "assets/signs.svg", "assets/dashboard.svg",
-  "content/index.json", "content/signs/manifest.json",
+  "content/index.json", "content/signs/manifest.json", "content/begrippen.json",
   ...units.map(u => "content/units/" + u.id + ".json"),
   ...units.map(u => "content/units-en/" + u.id + ".json").filter(f => fs.existsSync(path.join(REPO, f))),
   ...units.map(u => "content/bank-en/" + u.id + ".json").filter(f => fs.existsSync(path.join(REPO, f))),

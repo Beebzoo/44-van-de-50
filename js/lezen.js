@@ -5,6 +5,7 @@
    regel in a box, waarom, voorbeeld, valkuil, onthoud, zelftest. Sign
    codes in [B6] brackets become inline chips. */
 import { inlineSigns, bordRij, lampRij } from "./signs.js";
+import * as B from "./begrippen.js";
 import { t } from "./taal.js";
 import { diagramHtml } from "./diagram.js";
 import { scenePlate } from "./scene.js";
@@ -56,6 +57,12 @@ export function bronnenRegel(bronnen) {
 }
 
 export function pageHtml(unit, page) {
+  /* De hele pagina in een keer, met een gedeelde gezien-set, zodat een begrip
+     een keer per pagina oplicht en niet een keer per alinea. */
+  return B.markeer(paginaHtml(unit, page), new Set());
+}
+
+function paginaHtml(unit, page) {
   return `<article class="pagina" id="${esc(page.anker)}">
     <p class="meta">${esc(t("Blok {n} · {titel}", { n: unit.volgorde, titel: unit.titel }))}</p>
     <h1 class="kop1">${esc(page.titel)}</h1>
