@@ -2,272 +2,58 @@
   "$comment": "De begrippenlijst. Elk woord dat in de app aantikbaar is staat hier met een korte uitleg en het anker waar die uitleg vandaan komt. De uitleg is een ingekorte versie van de regel op de leespagina, niet iets nieuws: als de bron verandert, verandert de regel mee en dan deze ook. varianten zijn de vormen die in de tekst voorkomen, meervoud en samenstellingen. Een bord of een tekening mag erbij, maar hoeft niet.",
   "begrippen": [
     {
-      "term": "weggebruiker",
+      "term": "aanhangwagen",
       "varianten": [
-        "weggebruikers"
+        "aanhangwagens",
+        "aanhanger",
+        "aanhangers"
       ],
-      "uitleg": "Iedereen die van de weg gebruik maakt, van voetganger tot trambestuurder. Er zijn twee hoofdgroepen: voetgangers en bestuurders.",
+      "uitleg": "Alles wat je achter je auto hangt en dat zelf geen motor heeft, van bagagekar tot caravan.",
       "bron": {
-        "boek": 27,
-        "sectie": "2.2",
-        "anker": "Iedereen die van de weg gebruik maakt"
+        "boek": 231,
+        "sectie": "13.8",
+        "anker": "toegestane maximummassa t/m 1.500 kilogram moeten een losbreekreminrichting of hulpkoppeling hebben"
       },
-      "uitleg_en": "Anyone using the road, from a pedestrian to a tram driver. There are two main groups: pedestrians and drivers."
+      "uitleg_en": "Anything you tow behind your car that has no motor of its own, from a luggage trailer to a caravan."
     },
     {
-      "term": "bestuurder",
+      "term": "achterligger",
       "varianten": [
-        "bestuurders"
+        "achterliggers"
       ],
-      "uitleg": "Alle weggebruikers behalve voetgangers. Ook wie rijles geeft of een rijexamen afneemt is bestuurder van het motorvoertuig.",
+      "uitleg": "De bestuurder die achter je rijdt.",
       "bron": {
-        "boek": 25,
-        "sectie": "2.2",
-        "anker": "Alle weggebruikers behalve voetgangers. Bestuurders van motorvoertuigen"
+        "boek": 182,
+        "sectie": "11.1",
+        "anker": "je remlichten gebruiken om aan achterliggers duidelijk te maken dat je wilt"
       },
-      "uitleg_en": "All road users except pedestrians. Whoever gives a driving lesson or conducts a test also counts as the driver of that motor vehicle."
+      "uitleg_en": "The driver behind you."
     },
     {
-      "term": "voetganger",
+      "term": "alarmlichten",
       "varianten": [
-        "voetgangers"
+        "alarmlicht"
       ],
-      "uitleg": "Wie te voet aan het verkeer deelneemt, ook met een kinderwagen of met een fiets aan de hand. Rolschaatsers en skateboarders vallen er ook onder.",
+      "uitleg": "Alle vier de richtingaanwijzers tegelijk, om anderen te waarschuwen dat er iets aan de hand is.",
       "bron": {
-        "boek": 26,
-        "sectie": "2.2",
-        "anker": "Personen die te voet aan het verkeer deelnemen"
+        "boek": 169,
+        "sectie": "10.6",
+        "anker": "laat de alarmlichten van beide auto's in principe uit"
       },
-      "uitleg_en": "Anyone taking part in traffic on foot, including with a pram or wheeling a bicycle by hand. Roller skaters and skateboarders count too."
+      "uitleg_en": "All four indicators at once, to warn others that something is wrong."
     },
     {
-      "term": "bestemmingsverkeer",
-      "varianten": [],
-      "uitleg": "Bestuurders die hun reisdoel alleen via de afgesloten weg kunnen bereiken. Lijnbussen vallen er altijd onder. Een kortere route zoeken telt niet.",
-      "bron": {
-        "boek": 25,
-        "sectie": "2.2",
-        "anker": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring"
-      },
-      "uitleg_en": "Destination traffic: drivers who can only reach their destination by the closed road. Scheduled buses always count. Taking a shortcut does not."
-    },
-    {
-      "term": "militaire colonne",
+      "term": "andreaskruis",
       "varianten": [
-        "militaire colonnes"
+        "andreaskruisen"
       ],
-      "uitleg": "Achter elkaar rijdende militaire motorvoertuigen onder leiding van een commandant, met de vastgestelde herkenningstekens.",
+      "uitleg": "Het witte kruis bij een overweg. Een kruis betekent een spoor, twee kruisen betekent twee of meer sporen.",
       "bron": {
-        "boek": 26,
-        "sectie": "2.2",
-        "anker": "Achter elkaar rijdende militaire motorvoertuigen of motorvoertuigen van een rampenbestrijdingsorganisatie"
+        "boek": 95,
+        "sectie": "5.7",
+        "anker": "Eén kruis wil zeggen dat de overweg maar één spoor heeft"
       },
-      "uitleg_en": "A military convoy: military vehicles driving in line under one commander, carrying the prescribed markings."
-    },
-    {
-      "term": "voertuig",
-      "varianten": [
-        "voertuigen"
-      ],
-      "uitleg": "Fietsen, bromfietsen, gehandicaptenvoertuigen, motorvoertuigen, trams en wagens.",
-      "bron": {
-        "boek": 30,
-        "sectie": "2.3",
-        "anker": "Fietsen, bromfietsen, gehandicaptenvoertuigen, motorvoertuigen, trams en wagens"
-      },
-      "uitleg_en": "Bicycles, mopeds, disability vehicles, motor vehicles, trams and carts."
-    },
-    {
-      "term": "motorvoertuig",
-      "varianten": [
-        "motorvoertuigen"
-      ],
-      "uitleg": "Alles met een motor, behalve vier uitzonderingen: de tram, de fiets met trapondersteuning, de bromfiets en het gehandicaptenvoertuig.",
-      "bron": {
-        "boek": 29,
-        "sectie": "2.3",
-        "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
-      },
-      "uitleg_en": "Anything with a motor, except four exceptions: the tram, the bicycle with pedal assistance, the moped and the disability vehicle."
-    },
-    {
-      "term": "motorrijtuig",
-      "varianten": [
-        "motorrijtuigen"
-      ],
-      "uitleg": "Ruimer dan motorvoertuig: hier vallen alleen de tram en de fiets met trapondersteuning buiten. Een bromfiets is dus wel motorrijtuig, geen motorvoertuig.",
-      "bron": {
-        "boek": 29,
-        "sectie": "2.3",
-        "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
-      },
-      "uitleg_en": "Wider than motorvoertuig: only the tram and the pedal-assisted bicycle fall outside it. So a moped is a motorrijtuig but not a motorvoertuig."
-    },
-    {
-      "term": "bromfiets",
-      "varianten": [
-        "bromfietsen"
-      ],
-      "uitleg": "Twee, drie of vier wielen, gemaakt voor hoogstens 45 km/u, met een gele kentekenplaat achterop.",
-      "bron": {
-        "boek": 27,
-        "sectie": "2.3",
-        "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
-      },
-      "uitleg_en": "Moped. Two, three or four wheels, built for at most 45 km/u, with a yellow number plate at the back."
-    },
-    {
-      "term": "snorfiets",
-      "varianten": [
-        "snorfietsen"
-      ],
-      "uitleg": "Een bromfiets die door zijn bouw niet harder kan dan 25 km/u. Je herkent hem aan de blauwe kentekenplaat.",
-      "bron": {
-        "boek": 30,
-        "sectie": "2.3",
-        "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
-      },
-      "uitleg_en": "Light moped. A moped whose construction limits it to 25 km/u. You recognise it by the blue number plate."
-    },
-    {
-      "term": "brommobiel",
-      "varianten": [
-        "brommobielen"
-      ],
-      "uitleg": "Een bromfiets op meer dan twee wielen met een gesloten carrosserie. Ziet eruit als een klein autootje en volgt op de weg de regels van motorvoertuigen.",
-      "bron": {
-        "boek": 30,
-        "sectie": "2.3",
-        "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
-      },
-      "uitleg_en": "A moped on more than two wheels with an enclosed body. Looks like a tiny car and follows the rules for motor vehicles on the road."
-    },
-    {
-      "term": "brombakfiets",
-      "varianten": [
-        "brombakfietsen"
-      ],
-      "uitleg": "Een bakfiets met een motor. Geldt als bromfiets.",
-      "bron": {
-        "boek": 27,
-        "sectie": "2.3",
-        "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
-      },
-      "uitleg_en": "A cargo bike with a motor. Counts as a moped."
-    },
-    {
-      "term": "gehandicaptenvoertuig",
-      "varianten": [
-        "gehandicaptenvoertuigen"
-      ],
-      "uitleg": "Ingericht voor het vervoer van een gehandicapte, niet breder dan 1,10 meter, met motor hoogstens 45 km/u. Wordt niet als bromfiets gezien.",
-      "bron": {
-        "boek": 28,
-        "sectie": "2.3",
-        "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
-      },
-      "uitleg_en": "Disability vehicle. Fitted out for carrying a disabled person, no wider than 1,10 meter, and with a motor no faster than 45 km/u. Not regarded as a moped."
-    },
-    {
-      "term": "scootmobiel",
-      "varianten": [
-        "scootmobielen"
-      ],
-      "uitleg": "Het bekendste gehandicaptenvoertuig. Op de stoep gelden de regels voor voetgangers en mag je hoogstens 6 km/u.",
-      "bron": {
-        "boek": 28,
-        "sectie": "2.3",
-        "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
-      },
-      "uitleg_en": "Mobility scooter, the best known disability vehicle. On the pavement the rules for pedestrians apply and 6 km/u is the limit."
-    },
-    {
-      "term": "voorrangsvoertuig",
-      "varianten": [
-        "voorrangsvoertuigen"
-      ],
-      "uitleg": "Een motorvoertuig dat blauw zwaailicht en een tweetonige hoorn voert. Allebei tegelijk, anders is het geen voorrangsvoertuig.",
-      "bron": {
-        "boek": 30,
-        "sectie": "2.3",
-        "anker": "Motorvoertuig dat optische signalen (blauw zwaailicht, flitslicht of knipperlicht) en geluidssignalen (tweetonige hoorn) voert"
-      },
-      "uitleg_en": "Priority vehicle: a motor vehicle showing blue flashing lights and sounding a two-tone horn. Both at once, otherwise it is not one."
-    },
-    {
-      "term": "bijzondere bromfiets",
-      "varianten": [
-        "bijzondere bromfietsen"
-      ],
-      "uitleg": "Een voertuig met typegoedkeuring van de RDW, zoals de Segway. Lichtblauwe kentekenplaat, hoogstens 25 km/u, vanaf 16 jaar, geen rijbewijs en geen helm.",
-      "bron": {
-        "boek": 28,
-        "sectie": "2.3",
-        "anker": "Dit is een voertuig met een door de RDW afgegeven typegoedkeuring"
-      },
-      "uitleg_en": "Special moped: a vehicle with RDW type approval, such as a Segway. Light blue plate, 25 km/u at most, from 16 years, no licence and no helmet."
-    },
-    {
-      "term": "speed-pedelec",
-      "varianten": [
-        "speed-pedelecs"
-      ],
-      "uitleg": "Een fiets met trapondersteuning tot 45 km/u. Geldt als bromfiets: gele plaat, helm, bromfietsrijbewijs, en niet op het fietspad.",
-      "bron": {
-        "slide": 27,
-        "anker": "gelden dezelfde regels als voor een bromfiets: de minimumleeftijd is 16 jaar"
-      },
-      "uitleg_en": "A bicycle with pedal assistance up to 45 km/u. Counts as a moped: yellow plate, helmet, moped licence, and not on the cycle path."
-    },
-    {
-      "term": "weg",
-      "varianten": [],
-      "uitleg": "Alles wat voor het openbaar verkeer openstaat, inclusief bruggen, duikers, bermen en zijkanten. De rijbaan is er maar een deel van.",
-      "bron": {
-        "boek": 35,
-        "sectie": "2.4",
-        "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
-      },
-      "uitleg_en": "Road. Everything open to public traffic, including bridges, culverts, verges and edges. The carriageway is only part of it."
-    },
-    {
-      "term": "rijbaan",
-      "varianten": [
-        "rijbanen"
-      ],
-      "uitleg": "Elk weggedeelte dat bestemd is voor rijdende voertuigen, behalve fietspaden en fiets-/bromfietspaden.",
-      "bron": {
-        "boek": 35,
-        "sectie": "2.4",
-        "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
-      },
-      "uitleg_en": "Carriageway. Every part of the road meant for moving vehicles, except cycle paths and cycle and moped paths."
-    },
-    {
-      "term": "rijstrook",
-      "varianten": [
-        "rijstroken"
-      ],
-      "uitleg": "Een door strepen gemarkeerd deel van de rijbaan, breed genoeg voor een motorvoertuig op meer dan twee wielen. Strepen alleen is niet genoeg.",
-      "bron": {
-        "boek": 35,
-        "sectie": "2.4",
-        "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
-      },
-      "uitleg_en": "Traffic lane. A part of the carriageway marked out by lines and wide enough for a motor vehicle on more than two wheels. Lines alone are not enough."
-    },
-    {
-      "term": "kruispunt",
-      "varianten": [
-        "kruispunten"
-      ],
-      "uitleg": "Een kruising of een splitsing van wegen. Een splitsing telt dus ook mee.",
-      "bron": {
-        "boek": 32,
-        "sectie": "2.4",
-        "anker": "Een kruispunt is een kruising of splitsing van wegen"
-      },
-      "uitleg_en": "Junction. A crossing or a fork in the road, so a fork counts as well."
+      "uitleg_en": "The white cross at a level crossing. One cross means one track, two crosses mean two or more."
     },
     {
       "term": "autosnelweg",
@@ -298,31 +84,127 @@
       "uitleg_en": "Expressway, marked by sign G3. Not a motorway, and different speed limits apply."
     },
     {
-      "term": "fietsstrook",
-      "varianten": [
-        "fietsstroken"
-      ],
-      "uitleg": "Een deel van de rijbaan met strepen en fietsafbeeldingen erop. Ligt dus op de rijbaan, anders dan een fietspad.",
+      "term": "bandenspanning",
+      "varianten": [],
+      "uitleg": "Hoeveel lucht er in je banden zit. Meet hem koud, want rijden maakt de lucht warm en de meting te hoog.",
       "bron": {
-        "boek": 31,
-        "sectie": "2.4",
-        "anker": "waarop afbeeldingen van een fiets zijn aangebracht"
+        "boek": 220,
+        "sectie": "13.5",
+        "anker": "In de loop van de jaren zijn steeds meer rijhulpsystemen verplicht geworden"
       },
-      "uitleg_en": "Cycle strip. Part of the carriageway, marked with lines and bicycle symbols. It lies on the carriageway, unlike a cycle path."
+      "uitleg_en": "How much air is in your tyres. Measure it cold, because driving warms the air and makes the reading too high."
     },
     {
-      "term": "suggestiestrook",
+      "term": "beginnende bestuurder",
       "varianten": [
-        "suggestiestroken",
-        "fietssuggestiestrook"
+        "beginnend bestuurder",
+        "beginnende bestuurders"
       ],
-      "uitleg": "Ziet eruit als een fietsstrook maar mist de witte fiets. Dan is het geen fietsstrook en gelden die regels niet.",
+      "uitleg": "Je eerste jaren met een rijbewijs. Voor jou geldt een strengere alcoholgrens: 0,2 in plaats van 0,5 promille.",
       "bron": {
-        "boek": 31,
-        "sectie": "2.4",
-        "anker": "waarop afbeeldingen van een fiets zijn aangebracht"
+        "boek": 15,
+        "sectie": "1.3",
+        "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
       },
-      "uitleg_en": "Looks like a cycle strip but has no white bicycle on it. Then it is not a cycle strip and those rules do not apply."
+      "uitleg_en": "Your first years with a licence. A stricter alcohol limit applies to you: 0,2 instead of 0,5 per mille."
+    },
+    {
+      "term": "bestemmingsverkeer",
+      "varianten": [],
+      "uitleg": "Bestuurders die hun reisdoel alleen via de afgesloten weg kunnen bereiken. Lijnbussen vallen er altijd onder. Een kortere route zoeken telt niet.",
+      "bron": {
+        "boek": 25,
+        "sectie": "2.2",
+        "anker": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring"
+      },
+      "uitleg_en": "Destination traffic: drivers who can only reach their destination by the closed road. Scheduled buses always count. Taking a shortcut does not."
+    },
+    {
+      "term": "bestuurder",
+      "varianten": [
+        "bestuurders"
+      ],
+      "uitleg": "Alle weggebruikers behalve voetgangers. Ook wie rijles geeft of een rijexamen afneemt is bestuurder van het motorvoertuig.",
+      "bron": {
+        "boek": 25,
+        "sectie": "2.2",
+        "anker": "Alle weggebruikers behalve voetgangers. Bestuurders van motorvoertuigen"
+      },
+      "uitleg_en": "All road users except pedestrians. Whoever gives a driving lesson or conducts a test also counts as the driver of that motor vehicle."
+    },
+    {
+      "term": "bewegwijzering",
+      "varianten": [],
+      "uitleg": "De grote blauwe en groene borden die je vertellen welke kant je op moet voor welke plaats.",
+      "bron": {
+        "boek": 76,
+        "sectie": "4.8",
+        "anker": "Op autosnelwegen vind je boven de weg vaak beslissingsborden met pijlen"
+      },
+      "uitleg_en": "The big blue and green signs telling you which way to go for which place."
+    },
+    {
+      "term": "bijzondere bromfiets",
+      "varianten": [
+        "bijzondere bromfietsen"
+      ],
+      "uitleg": "Een voertuig met typegoedkeuring van de RDW, zoals de Segway. Lichtblauwe kentekenplaat, hoogstens 25 km/u, vanaf 16 jaar, geen rijbewijs en geen helm.",
+      "bron": {
+        "boek": 28,
+        "sectie": "2.3",
+        "anker": "Dit is een voertuig met een door de RDW afgegeven typegoedkeuring"
+      },
+      "uitleg_en": "Special moped: a vehicle with RDW type approval, such as a Segway. Light blue plate, 25 km/u at most, from 16 years, no licence and no helmet."
+    },
+    {
+      "term": "blokmarkering",
+      "varianten": [],
+      "uitleg": "Dikke blokken op het wegdek die een invoeg- of uitrijstrook van de gewone rijbaan scheiden.",
+      "bron": {
+        "boek": 32,
+        "sectie": "2.4",
+        "anker": "bestemd is voor bestuurders die de doorgaande rijbaan willen oprijden"
+      },
+      "uitleg_en": "Thick blocks on the road separating an acceleration or deceleration lane from the ordinary carriageway."
+    },
+    {
+      "term": "brombakfiets",
+      "varianten": [
+        "brombakfietsen"
+      ],
+      "uitleg": "Een bakfiets met een motor. Geldt als bromfiets.",
+      "bron": {
+        "boek": 27,
+        "sectie": "2.3",
+        "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
+      },
+      "uitleg_en": "A cargo bike with a motor. Counts as a moped."
+    },
+    {
+      "term": "bromfiets",
+      "varianten": [
+        "bromfietsen"
+      ],
+      "uitleg": "Twee, drie of vier wielen, gemaakt voor hoogstens 45 km/u, met een gele kentekenplaat achterop.",
+      "bron": {
+        "boek": 27,
+        "sectie": "2.3",
+        "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
+      },
+      "uitleg_en": "Moped. Two, three or four wheels, built for at most 45 km/u, with a yellow number plate at the back."
+    },
+    {
+      "term": "brommobiel",
+      "varianten": [
+        "brommobielen"
+      ],
+      "uitleg": "Een bromfiets op meer dan twee wielen met een gesloten carrosserie. Ziet eruit als een klein autootje en volgt op de weg de regels van motorvoertuigen.",
+      "bron": {
+        "boek": 30,
+        "sectie": "2.3",
+        "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
+      },
+      "uitleg_en": "A moped on more than two wheels with an enclosed body. Looks like a tiny car and follows the rules for motor vehicles on the road."
     },
     {
       "term": "busbaan",
@@ -351,6 +233,172 @@
       "uitleg_en": "Bus strip: a marked part of the carriageway. BUS means all buses may use it, LIJNBUS only the scheduled service."
     },
     {
+      "term": "dagrijlicht",
+      "varianten": [
+        "dagrijlichten"
+      ],
+      "uitleg": "Lampen die vanzelf aangaan als je start, zodat anderen je overdag zien. Ze verlichten de weg niet.",
+      "bron": {
+        "boek": 184,
+        "sectie": "11.2",
+        "anker": "Nieuwe auto's moeten aan de voorzijde voorzien zijn van zogenoemde dagrijlichten"
+      },
+      "uitleg_en": "Lights that come on by themselves when you start, so others see you in daylight. They do not light the road."
+    },
+    {
+      "term": "dimlicht",
+      "varianten": [],
+      "uitleg": "Je gewone koplampen. Die schijnen laag genoeg om niemand te verblinden.",
+      "bron": {
+        "boek": 99,
+        "sectie": "5.9",
+        "anker": "als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt"
+      },
+      "uitleg_en": "Your ordinary headlights. They aim low enough not to dazzle anyone."
+    },
+    {
+      "term": "dode hoek",
+      "varianten": [
+        "dode hoeken"
+      ],
+      "uitleg": "Het stuk naast en achter je auto dat je in geen enkele spiegel ziet. Even omkijken is de enige oplossing.",
+      "bron": {
+        "boek": 143,
+        "sectie": "9.6",
+        "anker": "kun je een auto links van je gewoon 'missen'"
+      },
+      "uitleg_en": "The area beside and behind your car that no mirror shows. A glance over your shoulder is the only fix."
+    },
+    {
+      "term": "doelgroepstrook",
+      "varianten": [
+        "doelgroepstroken"
+      ],
+      "uitleg": "Een extra rijstrook die alleen voor een bepaald soort voertuig is, bijvoorbeeld vrachtauto's of bussen.",
+      "bron": {
+        "boek": 75,
+        "sectie": "4.7",
+        "anker": "Vooral op autosnelwegen worden soms speciale stroken voor vrachtauto en/of bussen aangelegd"
+      },
+      "uitleg_en": "An extra lane reserved for one kind of vehicle, for instance lorries or buses."
+    },
+    {
+      "term": "eenrichtingsweg",
+      "varianten": [
+        "eenrichtingswegen"
+      ],
+      "uitleg": "Een straat waar het verkeer maar een kant op mag.",
+      "bron": {
+        "boek": 62,
+        "sectie": "4.1",
+        "anker": "De eenrichtingsweg mag je maar van een kant inrijden"
+      },
+      "uitleg_en": "A street where traffic may only go one way."
+    },
+    {
+      "term": "erf",
+      "varianten": [
+        "erven"
+      ],
+      "uitleg": "Een woongebied waar je stapvoets rijdt en voetgangers de hele straat mogen gebruiken.",
+      "bron": {
+        "boek": 81,
+        "sectie": "4.10",
+        "anker": "Dit zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer"
+      },
+      "uitleg_en": "A residential zone where you drive at walking pace and pedestrians may use the whole street."
+    },
+    {
+      "term": "fietsstrook",
+      "varianten": [
+        "fietsstroken"
+      ],
+      "uitleg": "Een deel van de rijbaan met strepen en fietsafbeeldingen erop. Ligt dus op de rijbaan, anders dan een fietspad.",
+      "bron": {
+        "boek": 31,
+        "sectie": "2.4",
+        "anker": "waarop afbeeldingen van een fiets zijn aangebracht"
+      },
+      "uitleg_en": "Cycle strip. Part of the carriageway, marked with lines and bicycle symbols. It lies on the carriageway, unlike a cycle path."
+    },
+    {
+      "term": "gehandicaptenvoertuig",
+      "varianten": [
+        "gehandicaptenvoertuigen"
+      ],
+      "uitleg": "Ingericht voor het vervoer van een gehandicapte, niet breder dan 1,10 meter, met motor hoogstens 45 km/u. Wordt niet als bromfiets gezien.",
+      "bron": {
+        "boek": 28,
+        "sectie": "2.3",
+        "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
+      },
+      "uitleg_en": "Disability vehicle. Fitted out for carrying a disabled person, no wider than 1,10 meter, and with a motor no faster than 45 km/u. Not regarded as a moped."
+    },
+    {
+      "term": "gelijkwaardig kruispunt",
+      "varianten": [
+        "gelijkwaardige kruispunten",
+        "gelijkwaardig"
+      ],
+      "uitleg": "Een kruispunt zonder borden of strepen die de voorrang regelen. Dan geldt: rechts gaat voor.",
+      "bron": {
+        "boek": 106,
+        "sectie": "6.2",
+        "anker": "word je daar vaak voor gewaarschuwd door bord J8"
+      },
+      "uitleg_en": "A junction with no signs or markings governing priority. Then the rule is: the one on the right goes first."
+    },
+    {
+      "term": "geslotenverklaring",
+      "varianten": [
+        "geslotenverklaringen"
+      ],
+      "uitleg": "Een bord dat een weg afsluit voor bepaalde groepen bestuurders. Een onderbord kan er uitzonderingen bij zetten, zoals bestemmingsverkeer.",
+      "bron": {
+        "boek": 25,
+        "sectie": "2.2",
+        "anker": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring"
+      },
+      "uitleg_en": "A sign closing a road to certain groups of drivers. A plate underneath can add exceptions, such as destination traffic."
+    },
+    {
+      "term": "groot licht",
+      "varianten": [
+        "grootlicht"
+      ],
+      "uitleg": "De felle stand van je koplampen, voor donkere wegen zonder ander verkeer. Zet hem uit zodra er iemand aankomt.",
+      "bron": {
+        "boek": 185,
+        "sectie": "11.2",
+        "anker": "Schakel het groot licht in als je met dimlicht de wegsituatie niet goed kunt overzien"
+      },
+      "uitleg_en": "The bright setting of your headlights, for dark roads with nobody about. Switch it off as soon as someone comes."
+    },
+    {
+      "term": "haaientanden",
+      "varianten": [],
+      "uitleg": "Rij witte driehoekjes op het wegdek die naar je toe wijzen. Ze zeggen: jij moet voorrang verlenen.",
+      "bron": {
+        "boek": 107,
+        "sectie": "6.2",
+        "anker": "staat er bord B6 voor het kruispunt"
+      },
+      "uitleg_en": "A row of white triangles on the road pointing at you. They say: you must give way."
+    },
+    {
+      "term": "inhalen",
+      "varianten": [
+        "ingehaald"
+      ],
+      "uitleg": "Voorbijrijden aan iemand die zelf ook rijdt. Links is de regel.",
+      "bron": {
+        "boek": 140,
+        "sectie": "9.6",
+        "anker": "Bij het inhalen en voorbijgaan mag je geen gevaar of hinder veroorzaken"
+      },
+      "uitleg_en": "Passing someone who is also moving. On the left is the rule."
+    },
+    {
       "term": "invoegstrook",
       "varianten": [
         "invoegstroken",
@@ -365,83 +413,200 @@
       "uitleg_en": "Acceleration lane. The lane you use to join the through carriageway, separated from it by block markings."
     },
     {
-      "term": "uitrijstrook",
+      "term": "katalysator",
       "varianten": [
-        "uitrijstroken",
-        "uitrijden"
+        "katalysatoren"
       ],
-      "uitleg": "Dezelfde blokmarkering, maar de andere kant op: hiermee verlaat je de doorgaande rijbaan.",
+      "uitleg": "Een pot in de uitlaat die het grootste deel van de schadelijke gassen omzet in onschadelijke. Werkt pas als de motor warm is.",
+      "bron": {
+        "boek": 200,
+        "sectie": "12.1",
+        "anker": "Dieselauto's hebben ook nog een roetfilter in het uitlaatsysteem"
+      },
+      "uitleg_en": "A chamber in the exhaust that turns most of the harmful gases into harmless ones. It only works once the engine is warm."
+    },
+    {
+      "term": "kentekenbewijs",
+      "varianten": [
+        "kentekenbewijzen",
+        "kentekencard"
+      ],
+      "uitleg": "Het pasje dat bewijst dat een voertuig op jouw naam staat.",
+      "bron": {
+        "boek": 230,
+        "sectie": "13.8",
+        "anker": "als een aanhangwagen geen kentekenbewijs heeft, is de toegestane maximummassa 750 kg"
+      },
+      "uitleg_en": "The card proving a vehicle is registered in your name."
+    },
+    {
+      "term": "keren",
+      "varianten": [],
+      "uitleg": "Omdraaien om de andere kant op te rijden.",
+      "bron": {
+        "slide": 176,
+        "anker": "Keren is (sowieso) verboden op een"
+      },
+      "uitleg_en": "Turning round to drive back the other way."
+    },
+    {
+      "term": "kruispunt",
+      "varianten": [
+        "kruispunten"
+      ],
+      "uitleg": "Een kruising of een splitsing van wegen. Een splitsing telt dus ook mee.",
       "bron": {
         "boek": 32,
         "sectie": "2.4",
-        "anker": "bestemd is voor bestuurders die de doorgaande rijbaan willen oprijden"
+        "anker": "Een kruispunt is een kruising of splitsing van wegen"
       },
-      "uitleg_en": "Deceleration lane. The same block markings, the other way round: this is how you leave the through carriageway."
+      "uitleg_en": "Junction. A crossing or a fork in the road, so a fork counts as well."
     },
     {
-      "term": "puntstuk",
+      "term": "matrixbord",
       "varianten": [
-        "puntstukken"
+        "matrixborden"
       ],
-      "uitleg": "Het meerhoekige vlak waar wegen splitsen of samenkomen. Daar mag je niet op rijden.",
+      "uitleg": "Het elektronische bord boven de snelweg. Wat daar staat gaat voor de gewone borden langs de weg.",
+      "bron": {
+        "boek": 50,
+        "sectie": "3.1",
+        "anker": "dan geldt het bord met de laagste snelheid"
+      },
+      "uitleg_en": "The electronic sign above the motorway. What it says overrules the ordinary signs at the roadside."
+    },
+    {
+      "term": "militaire colonne",
+      "varianten": [
+        "militaire colonnes"
+      ],
+      "uitleg": "Achter elkaar rijdende militaire motorvoertuigen onder leiding van een commandant, met de vastgestelde herkenningstekens.",
+      "bron": {
+        "boek": 26,
+        "sectie": "2.2",
+        "anker": "Achter elkaar rijdende militaire motorvoertuigen of motorvoertuigen van een rampenbestrijdingsorganisatie"
+      },
+      "uitleg_en": "A military convoy: military vehicles driving in line under one commander, carrying the prescribed markings."
+    },
+    {
+      "term": "mistachterlicht",
+      "varianten": [
+        "mistachterlichten"
+      ],
+      "uitleg": "Een extra fel rood achterlicht. Alleen aan bij mist of sneeuw en zicht onder de 50 meter, nooit bij regen.",
+      "bron": {
+        "boek": 188,
+        "sectie": "11.3",
+        "anker": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien"
+      },
+      "uitleg_en": "An extra bright red rear light. Only in fog or snow with visibility under 50 metres, never in rain."
+    },
+    {
+      "term": "motorrijtuig",
+      "varianten": [
+        "motorrijtuigen"
+      ],
+      "uitleg": "Ruimer dan motorvoertuig: hier vallen alleen de tram en de fiets met trapondersteuning buiten. Een bromfiets is dus wel motorrijtuig, geen motorvoertuig.",
+      "bron": {
+        "boek": 29,
+        "sectie": "2.3",
+        "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
+      },
+      "uitleg_en": "Wider than motorvoertuig: only the tram and the pedal-assisted bicycle fall outside it. So a moped is a motorrijtuig but not a motorvoertuig."
+    },
+    {
+      "term": "motorvoertuig",
+      "varianten": [
+        "motorvoertuigen"
+      ],
+      "uitleg": "Alles met een motor, behalve vier uitzonderingen: de tram, de fiets met trapondersteuning, de bromfiets en het gehandicaptenvoertuig.",
+      "bron": {
+        "boek": 29,
+        "sectie": "2.3",
+        "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
+      },
+      "uitleg_en": "Anything with a motor, except four exceptions: the tram, the bicycle with pedal assistance, the moped and the disability vehicle."
+    },
+    {
+      "term": "onderbord",
+      "varianten": [
+        "onderborden"
+      ],
+      "uitleg": "Het witte bordje onder een verkeersbord. Het vertelt wanneer het bord geldt, voor wie, of over welke afstand.",
+      "bron": {
+        "boek": 47,
+        "sectie": "3.1",
+        "anker": "wanneer het verkeersbord geldt, voor wie het verkeersbord geldt"
+      },
+      "uitleg_en": "The small white plate under a sign. It tells you when the sign applies, to whom, or over what distance."
+    },
+    {
+      "term": "ontzegging van de rijbevoegdheid",
+      "varianten": [
+        "ontzegging",
+        "rijbevoegdheid"
+      ],
+      "uitleg": "Je mag een tijd lang niet rijden, opgelegd door de rechter. Je rijbewijs is dan tijdelijk waardeloos.",
+      "bron": {
+        "boek": 41,
+        "sectie": "2.6",
+        "anker": "Misdrijven zijn ernstige strafbare feiten. Je krijgt van de rechter"
+      },
+      "uitleg_en": "You may not drive for a period, imposed by a judge. Your licence is worthless for that time."
+    },
+    {
+      "term": "oplegger",
+      "varianten": [
+        "opleggers"
+      ],
+      "uitleg": "Een aanhanger zonder voorwielen, die met zijn neus op de trekker rust.",
+      "bron": {
+        "boek": 235,
+        "sectie": "13.8",
+        "anker": "Elke aanhangwagen en oplegger moet aan de achterzijde twee driehoekige retroreflectoren hebben"
+      },
+      "uitleg_en": "A trailer with no front wheels, resting its nose on the tractor unit."
+    },
+    {
+      "term": "overweg",
+      "varianten": [
+        "overwegen"
+      ],
+      "uitleg": "De plek waar de weg en het spoor elkaar kruisen.",
+      "bron": {
+        "boek": 94,
+        "sectie": "5.7",
+        "anker": "Overwegen zijn gelijkvloerse kruisingen tussen een weg en een spoorweg"
+      },
+      "uitleg_en": "The place where the road and the railway cross."
+    },
+    {
+      "term": "parkeerhaven",
+      "varianten": [
+        "parkeerhavens",
+        "parkeerstrook",
+        "parkeerstroken"
+      ],
+      "uitleg": "Een verharding langs de rijbaan die bestemd is voor stilstaande of geparkeerde voertuigen.",
       "bron": {
         "boek": 33,
         "sectie": "2.4",
-        "anker": "Op puntstukken mag je niet rijden, behalve als je op een spitsstrook rijdt"
+        "anker": "Rijbaan of -strook om ingehaald te kunnen worden"
       },
-      "uitleg_en": "The multi-sided area where roads split or come together. You may not drive on it."
+      "uitleg_en": "A hardened strip along the carriageway meant for stationary or parked vehicles."
     },
     {
-      "term": "verdrijvingsvlak",
+      "term": "parkeren",
       "varianten": [
-        "verdrijvingsvlakken"
+        "geparkeerd"
       ],
-      "uitleg": "Een deel van de rijbaan met schuine strepen. Rijden mag er niet, ook niet om iemand ruimte te geven.",
+      "uitleg": "Stilstaan langer dan nodig is voor het onmiddellijk in- en uitstappen of laden en lossen. Wachten op iemand is dus parkeren, ook met de motor aan.",
       "bron": {
-        "boek": 33,
-        "sectie": "2.4",
-        "anker": "Op puntstukken mag je niet rijden, behalve als je op een spitsstrook rijdt"
+        "boek": 38,
+        "sectie": "2.5",
+        "anker": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd"
       },
-      "uitleg_en": "Hatched area: a part of the carriageway with diagonal stripes. No driving on it, not even to give someone room."
-    },
-    {
-      "term": "spitsstrook",
-      "varianten": [
-        "spitsstroken"
-      ],
-      "uitleg": "De vluchtstrook rechts, die in de spits als extra rijstrook wordt opengesteld. De vluchtstrook is dan dus bezet.",
-      "bron": {
-        "boek": 34,
-        "sectie": "2.4",
-        "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
-      },
-      "uitleg_en": "Rush-hour lane: the hard shoulder on the right, opened as an extra lane at busy times. The hard shoulder is then occupied."
-    },
-    {
-      "term": "plusstrook",
-      "varianten": [
-        "plusstroken"
-      ],
-      "uitleg": "Een extra rijstrook links, smaller dan normaal. Voordeel: de vluchtstrook rechts blijft vrij voor pech.",
-      "bron": {
-        "boek": 34,
-        "sectie": "2.4",
-        "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
-      },
-      "uitleg_en": "An extra lane on the left, narrower than normal. The advantage is that the hard shoulder on the right stays free for breakdowns."
-    },
-    {
-      "term": "vluchtstrook",
-      "varianten": [
-        "vluchtstroken"
-      ],
-      "uitleg": "De strook rechts voor pech en noodgevallen, afgescheiden met een doorgetrokken streep.",
-      "bron": {
-        "boek": 34,
-        "sectie": "2.4",
-        "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
-      },
-      "uitleg_en": "Hard shoulder. The strip on the right for breakdowns and emergencies, separated by a continuous line."
+      "uitleg_en": "Parking: leaving a vehicle standing longer than the immediate getting in and out or loading needs. Waiting for someone is parking, engine running or not."
     },
     {
       "term": "passeerstrook",
@@ -460,19 +625,407 @@
       "uitleg_en": "Passing lane, for being overtaken. Reserved for and compulsory for tractors and other slow working traffic. Sign F11 marks it."
     },
     {
-      "term": "parkeerhaven",
+      "term": "plusstrook",
       "varianten": [
-        "parkeerhavens",
-        "parkeerstrook",
-        "parkeerstroken"
+        "plusstroken"
       ],
-      "uitleg": "Een verharding langs de rijbaan die bestemd is voor stilstaande of geparkeerde voertuigen.",
+      "uitleg": "Een extra rijstrook links, smaller dan normaal. Voordeel: de vluchtstrook rechts blijft vrij voor pech.",
+      "bron": {
+        "boek": 34,
+        "sectie": "2.4",
+        "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
+      },
+      "uitleg_en": "An extra lane on the left, narrower than normal. The advantage is that the hard shoulder on the right stays free for breakdowns."
+    },
+    {
+      "term": "proces-verbaal",
+      "varianten": [],
+      "uitleg": "Het officiele verslag dat de politie opmaakt en naar de officier van justitie stuurt.",
+      "bron": {
+        "boek": 41,
+        "sectie": "2.6",
+        "anker": "Bij zwaardere overtredingen maakt de politie een proces-verbaal op"
+      },
+      "uitleg_en": "The official report the police write up and send to the public prosecutor."
+    },
+    {
+      "term": "puntstuk",
+      "varianten": [
+        "puntstukken"
+      ],
+      "uitleg": "Het meerhoekige vlak waar wegen splitsen of samenkomen. Daar mag je niet op rijden.",
       "bron": {
         "boek": 33,
         "sectie": "2.4",
-        "anker": "Rijbaan of -strook om ingehaald te kunnen worden"
+        "anker": "Op puntstukken mag je niet rijden, behalve als je op een spitsstrook rijdt"
       },
-      "uitleg_en": "A hardened strip along the carriageway meant for stationary or parked vehicles."
+      "uitleg_en": "The multi-sided area where roads split or come together. You may not drive on it."
+    },
+    {
+      "term": "reactieafstand",
+      "varianten": [],
+      "uitleg": "De meters die je nog doorrijdt tussen het zien van een gevaar en het intrappen van de rem.",
+      "bron": {
+        "boek": 125,
+        "sectie": "7.3",
+        "anker": "Voor het bepalen van de reactieafstand kun je de volgende vuistregel gebruiken"
+      },
+      "uitleg_en": "The metres you still travel between spotting a danger and hitting the brake."
+    },
+    {
+      "term": "remweg",
+      "varianten": [
+        "remwegen"
+      ],
+      "uitleg": "De meters die je nog aflegt vanaf het moment dat de remmen pakken tot stilstand.",
+      "bron": {
+        "boek": 125,
+        "sectie": "7.3",
+        "anker": "is de afstand die je aflegt vanaf het moment dat je begint met remmen"
+      },
+      "uitleg_en": "The metres you still cover from the brakes biting until you stop."
+    },
+    {
+      "term": "richtingaanwijzer",
+      "varianten": [
+        "richtingaanwijzers"
+      ],
+      "uitleg": "Je knipperlicht, waarmee je laat zien welke kant je op wilt.",
+      "bron": {
+        "boek": 154,
+        "sectie": "9.9",
+        "anker": "mag je eerder dan bij de laatste blokmarkering de richtingaanwijzer uitzetten"
+      },
+      "uitleg_en": "Your indicator, showing which way you want to go."
+    },
+    {
+      "term": "rijbaan",
+      "varianten": [
+        "rijbanen"
+      ],
+      "uitleg": "Elk weggedeelte dat bestemd is voor rijdende voertuigen, behalve fietspaden en fiets-/bromfietspaden.",
+      "bron": {
+        "boek": 35,
+        "sectie": "2.4",
+        "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
+      },
+      "uitleg_en": "Carriageway. Every part of the road meant for moving vehicles, except cycle paths and cycle and moped paths."
+    },
+    {
+      "term": "rijstrook",
+      "varianten": [
+        "rijstroken"
+      ],
+      "uitleg": "Een door strepen gemarkeerd deel van de rijbaan, breed genoeg voor een motorvoertuig op meer dan twee wielen. Strepen alleen is niet genoeg.",
+      "bron": {
+        "boek": 35,
+        "sectie": "2.4",
+        "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
+      },
+      "uitleg_en": "Traffic lane. A part of the carriageway marked out by lines and wide enough for a motor vehicle on more than two wheels. Lines alone are not enough."
+    },
+    {
+      "term": "ritsen",
+      "varianten": [],
+      "uitleg": "Om de beurt invoegen waar twee rijstroken er een worden: een van jou, een van hem.",
+      "bron": {
+        "boek": 154,
+        "sectie": "9.10",
+        "anker": "Ritsen is het op een ordelijke manier wisselen van rijstrook op punten"
+      },
+      "uitleg_en": "Merging in turn where two lanes become one: one of yours, one of theirs."
+    },
+    {
+      "term": "roetfilter",
+      "varianten": [
+        "roetfilters"
+      ],
+      "uitleg": "Een filter in de uitlaat van een dieselauto dat de kleine roetdeeltjes tegenhoudt.",
+      "bron": {
+        "boek": 200,
+        "sectie": "12.1",
+        "anker": "Dieselauto's hebben ook nog een roetfilter in het uitlaatsysteem"
+      },
+      "uitleg_en": "A filter in a diesel car's exhaust that catches the small soot particles."
+    },
+    {
+      "term": "scootmobiel",
+      "varianten": [
+        "scootmobielen"
+      ],
+      "uitleg": "Het bekendste gehandicaptenvoertuig. Op de stoep gelden de regels voor voetgangers en mag je hoogstens 6 km/u.",
+      "bron": {
+        "boek": 28,
+        "sectie": "2.3",
+        "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
+      },
+      "uitleg_en": "Mobility scooter, the best known disability vehicle. On the pavement the rules for pedestrians apply and 6 km/u is the limit."
+    },
+    {
+      "term": "snorfiets",
+      "varianten": [
+        "snorfietsen"
+      ],
+      "uitleg": "Een bromfiets die door zijn bouw niet harder kan dan 25 km/u. Je herkent hem aan de blauwe kentekenplaat.",
+      "bron": {
+        "boek": 30,
+        "sectie": "2.3",
+        "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
+      },
+      "uitleg_en": "Light moped. A moped whose construction limits it to 25 km/u. You recognise it by the blue number plate."
+    },
+    {
+      "term": "speed-pedelec",
+      "varianten": [
+        "speed-pedelecs"
+      ],
+      "uitleg": "Een fiets met trapondersteuning tot 45 km/u. Geldt als bromfiets: gele plaat, helm, bromfietsrijbewijs, en niet op het fietspad.",
+      "bron": {
+        "slide": 27,
+        "anker": "gelden dezelfde regels als voor een bromfiets: de minimumleeftijd is 16 jaar"
+      },
+      "uitleg_en": "A bicycle with pedal assistance up to 45 km/u. Counts as a moped: yellow plate, helmet, moped licence, and not on the cycle path."
+    },
+    {
+      "term": "spitsstrook",
+      "varianten": [
+        "spitsstroken"
+      ],
+      "uitleg": "De vluchtstrook rechts, die in de spits als extra rijstrook wordt opengesteld. De vluchtstrook is dan dus bezet.",
+      "bron": {
+        "boek": 34,
+        "sectie": "2.4",
+        "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
+      },
+      "uitleg_en": "Rush-hour lane: the hard shoulder on the right, opened as an extra lane at busy times. The hard shoulder is then occupied."
+    },
+    {
+      "term": "stadslicht",
+      "varianten": [
+        "stadslichten"
+      ],
+      "uitleg": "Kleine lampjes voor als je stilstaat in het donker. Rijden mag er niet mee.",
+      "bron": {
+        "boek": 186,
+        "sectie": "11.2",
+        "anker": "Je moet je stadslicht (en achterlicht) laten branden"
+      },
+      "uitleg_en": "Small lights for when you are standing still in the dark. You may not drive with them."
+    },
+    {
+      "term": "stapvoets",
+      "varianten": [],
+      "uitleg": "Zo langzaam als een mens loopt, dus ongeveer 5 km/u.",
+      "bron": {
+        "boek": 193,
+        "sectie": "11.5",
+        "anker": "nader een kruispunt stapvoets en steek in één beweging over"
+      },
+      "uitleg_en": "As slow as a person walks, so about 5 km/u."
+    },
+    {
+      "term": "stopafstand",
+      "varianten": [],
+      "uitleg": "Reactieafstand en remweg bij elkaar: alles wat je nodig hebt om echt stil te staan.",
+      "bron": {
+        "boek": 125,
+        "sectie": "7.3",
+        "anker": "De totale afstand die je nodig hebt om tot stilstand te komen noemen we stopafstand"
+      },
+      "uitleg_en": "Reaction distance plus braking distance: everything you need to actually come to a stop."
+    },
+    {
+      "term": "suggestiestrook",
+      "varianten": [
+        "suggestiestroken",
+        "fietssuggestiestrook"
+      ],
+      "uitleg": "Ziet eruit als een fietsstrook maar mist de witte fiets. Dan is het geen fietsstrook en gelden die regels niet.",
+      "bron": {
+        "boek": 31,
+        "sectie": "2.4",
+        "anker": "waarop afbeeldingen van een fiets zijn aangebracht"
+      },
+      "uitleg_en": "Looks like a cycle strip but has no white bicycle on it. Then it is not a cycle strip and those rules do not apply."
+    },
+    {
+      "term": "tegenligger",
+      "varianten": [
+        "tegenliggers"
+      ],
+      "uitleg": "Iemand die je van de andere kant tegemoet komt rijden.",
+      "bron": {
+        "boek": 186,
+        "sectie": "11.2",
+        "anker": "Dim tijdig, dus vóórdat de tegenligger in je stralenbundel komt"
+      },
+      "uitleg_en": "Someone coming towards you from the other direction."
+    },
+    {
+      "term": "trapondersteuning",
+      "varianten": [],
+      "uitleg": "De motor van een elektrische fiets helpt alleen mee zolang jij zelf trapt. Stop je met trappen, dan stopt de hulp.",
+      "bron": {
+        "boek": 29,
+        "sectie": "2.3",
+        "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
+      },
+      "uitleg_en": "The motor of an electric bicycle only helps while you are pedalling. Stop pedalling and the help stops."
+    },
+    {
+      "term": "uitrijstrook",
+      "varianten": [
+        "uitrijstroken",
+        "uitrijden"
+      ],
+      "uitleg": "Dezelfde blokmarkering, maar de andere kant op: hiermee verlaat je de doorgaande rijbaan.",
+      "bron": {
+        "boek": 32,
+        "sectie": "2.4",
+        "anker": "bestemd is voor bestuurders die de doorgaande rijbaan willen oprijden"
+      },
+      "uitleg_en": "Deceleration lane. The same block markings, the other way round: this is how you leave the through carriageway."
+    },
+    {
+      "term": "uitrit",
+      "varianten": [
+        "uitritten",
+        "inrit",
+        "inritten"
+      ],
+      "uitleg": "De oprit van een erf, garage of parkeerterrein. Kom je daaruit, dan moet je iedereen voor laten gaan.",
+      "bron": {
+        "boek": 88,
+        "sectie": "5.2",
+        "anker": "zoals de verlaagde stoepranden of de inritblokken"
+      },
+      "uitleg_en": "The entrance to a yard, garage or car park. Coming out of one, you let everybody go first."
+    },
+    {
+      "term": "ventweg",
+      "varianten": [
+        "ventwegen"
+      ],
+      "uitleg": "Een smalle weg die naast de hoofdrijbaan loopt, voor de huizen en winkels erlangs.",
+      "bron": {
+        "boek": 67,
+        "sectie": "4.3",
+        "anker": "Dit bord wordt bij een ventweg of parallelweg geplaatst als je die"
+      },
+      "uitleg_en": "A narrow road running alongside the main carriageway, serving the houses and shops on it."
+    },
+    {
+      "term": "verdrijvingsvlak",
+      "varianten": [
+        "verdrijvingsvlakken"
+      ],
+      "uitleg": "Een deel van de rijbaan met schuine strepen. Rijden mag er niet, ook niet om iemand ruimte te geven.",
+      "bron": {
+        "boek": 33,
+        "sectie": "2.4",
+        "anker": "Op puntstukken mag je niet rijden, behalve als je op een spitsstrook rijdt"
+      },
+      "uitleg_en": "Hatched area: a part of the carriageway with diagonal stripes. No driving on it, not even to give someone room."
+    },
+    {
+      "term": "vluchthaven",
+      "varianten": [
+        "vluchthavens"
+      ],
+      "uitleg": "Een uitsparing langs de weg waar je bij pech kunt stoppen als er geen vluchtstrook is.",
+      "bron": {
+        "boek": 72,
+        "sectie": "4.7",
+        "anker": "gebruikmaken van de vluchtstrook, de vluchthaven of de berm (behalve in een noodgeval)"
+      },
+      "uitleg_en": "A bay beside the road where you can stop in a breakdown when there is no hard shoulder."
+    },
+    {
+      "term": "vluchtstrook",
+      "varianten": [
+        "vluchtstroken"
+      ],
+      "uitleg": "De strook rechts voor pech en noodgevallen, afgescheiden met een doorgetrokken streep.",
+      "bron": {
+        "boek": 34,
+        "sectie": "2.4",
+        "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
+      },
+      "uitleg_en": "Hard shoulder. The strip on the right for breakdowns and emergencies, separated by a continuous line."
+    },
+    {
+      "term": "voertuig",
+      "varianten": [
+        "voertuigen"
+      ],
+      "uitleg": "Fietsen, bromfietsen, gehandicaptenvoertuigen, motorvoertuigen, trams en wagens.",
+      "bron": {
+        "boek": 30,
+        "sectie": "2.3",
+        "anker": "Fietsen, bromfietsen, gehandicaptenvoertuigen, motorvoertuigen, trams en wagens"
+      },
+      "uitleg_en": "Bicycles, mopeds, disability vehicles, motor vehicles, trams and carts."
+    },
+    {
+      "term": "voetganger",
+      "varianten": [
+        "voetgangers"
+      ],
+      "uitleg": "Wie te voet aan het verkeer deelneemt, ook met een kinderwagen of met een fiets aan de hand. Rolschaatsers en skateboarders vallen er ook onder.",
+      "bron": {
+        "boek": 26,
+        "sectie": "2.2",
+        "anker": "Personen die te voet aan het verkeer deelnemen"
+      },
+      "uitleg_en": "Anyone taking part in traffic on foot, including with a pram or wheeling a bicycle by hand. Roller skaters and skateboarders count too."
+    },
+    {
+      "term": "volgafstand",
+      "varianten": [],
+      "uitleg": "De ruimte tussen jou en je voorligger. Reken met twee seconden, en drie als het slecht weer is.",
+      "bron": {
+        "boek": 124,
+        "sectie": "7.2",
+        "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
+      },
+      "uitleg_en": "The space between you and the car in front. Count two seconds, and three in bad weather."
+    },
+    {
+      "term": "voor laten gaan",
+      "varianten": [],
+      "uitleg": "Blinden met een blindenstok en personen die zich moeilijk voortbewegen laat je altijd voorgaan. Een rolstoel op zich betekent dat nog niet.",
+      "bron": {
+        "boek": 37,
+        "sectie": "2.5",
+        "anker": "blinden met blindenstok, personen die zich moeilijk voortbewegen"
+      },
+      "uitleg_en": "Blind people with a white cane and people who have difficulty moving about always go first. A wheelchair on its own does not mean that."
+    },
+    {
+      "term": "voorbijgaan",
+      "varianten": [
+        "voorbijrijden"
+      ],
+      "uitleg": "Voorbijrijden aan iets dat stilstaat, of aan een voetganger. Dat is dus geen inhalen.",
+      "bron": {
+        "boek": 140,
+        "sectie": "9.6",
+        "anker": "Bij het inhalen en voorbijgaan mag je geen gevaar of hinder veroorzaken"
+      },
+      "uitleg_en": "Passing something that is stationary, or a pedestrian. So that is not overtaking."
+    },
+    {
+      "term": "voorligger",
+      "varianten": [
+        "voorliggers"
+      ],
+      "uitleg": "De bestuurder die voor jou rijdt, in dezelfde richting.",
+      "bron": {
+        "boek": 167,
+        "sectie": "10.5",
+        "anker": "Gedrag in een file Dit is het beste voor de veiligheid en doorstroming"
+      },
+      "uitleg_en": "The driver in front of you, going the same way."
     },
     {
       "term": "voorrang verlenen",
@@ -489,41 +1042,93 @@
       "uitleg_en": "Giving way: letting the other continue unhindered. If they have to brake or swerve you did not give way, even if you stopped."
     },
     {
-      "term": "voor laten gaan",
+      "term": "voorrangsvoertuig",
+      "varianten": [
+        "voorrangsvoertuigen"
+      ],
+      "uitleg": "Een motorvoertuig dat blauw zwaailicht en een tweetonige hoorn voert. Allebei tegelijk, anders is het geen voorrangsvoertuig.",
+      "bron": {
+        "boek": 30,
+        "sectie": "2.3",
+        "anker": "Motorvoertuig dat optische signalen (blauw zwaailicht, flitslicht of knipperlicht) en geluidssignalen (tweetonige hoorn) voert"
+      },
+      "uitleg_en": "Priority vehicle: a motor vehicle showing blue flashing lights and sounding a two-tone horn. Both at once, otherwise it is not one."
+    },
+    {
+      "term": "voorrangsweg",
+      "varianten": [
+        "voorrangswegen"
+      ],
+      "uitleg": "Een weg waarop jij voorrang hebt op al het verkeer dat er vanaf de zijkant bij komt. Je ziet het aan een geel ruitbord.",
+      "bron": {
+        "boek": 113,
+        "sectie": "6.4",
+        "anker": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten"
+      },
+      "uitleg_en": "A road where you have priority over everything joining from the side. You know it by the yellow diamond sign."
+    },
+    {
+      "term": "voorsorteren",
+      "varianten": [
+        "gesorteerd"
+      ],
+      "uitleg": "Op tijd naar de kant of de strook gaan waar je heen wilt, zodat anderen zien welke kant je op gaat.",
+      "bron": {
+        "boek": 136,
+        "sectie": "9.3",
+        "anker": "mag je daarop voorsorteren maar alleen als je daarbij geen"
+      },
+      "uitleg_en": "Moving over in good time to the side or lane you want, so others can see where you are going."
+    },
+    {
+      "term": "weefvak",
+      "varianten": [
+        "weefvakken"
+      ],
+      "uitleg": "Een stuk snelweg waar invoegers en uitrijders elkaar kruisen.",
+      "bron": {
+        "boek": 153,
+        "sectie": "9.9",
+        "anker": "Wettelijk is het zo geregeld dat invoegers en uitvoegers elkaar voor moeten laten gaan"
+      },
+      "uitleg_en": "A stretch of motorway where those joining and those leaving cross each other."
+    },
+    {
+      "term": "weg",
       "varianten": [],
-      "uitleg": "Blinden met een blindenstok en personen die zich moeilijk voortbewegen laat je altijd voorgaan. Een rolstoel op zich betekent dat nog niet.",
+      "uitleg": "Alles wat voor het openbaar verkeer openstaat, inclusief bruggen, duikers, bermen en zijkanten. De rijbaan is er maar een deel van.",
       "bron": {
-        "boek": 37,
-        "sectie": "2.5",
-        "anker": "blinden met blindenstok, personen die zich moeilijk voortbewegen"
+        "boek": 35,
+        "sectie": "2.4",
+        "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
       },
-      "uitleg_en": "Blind people with a white cane and people who have difficulty moving about always go first. A wheelchair on its own does not mean that."
+      "uitleg_en": "Road. Everything open to public traffic, including bridges, culverts, verges and edges. The carriageway is only part of it."
     },
     {
-      "term": "parkeren",
+      "term": "weggebruiker",
       "varianten": [
-        "geparkeerd"
+        "weggebruikers"
       ],
-      "uitleg": "Stilstaan langer dan nodig is voor het onmiddellijk in- en uitstappen of laden en lossen. Wachten op iemand is dus parkeren, ook met de motor aan.",
+      "uitleg": "Iedereen die van de weg gebruik maakt, van voetganger tot trambestuurder. Er zijn twee hoofdgroepen: voetgangers en bestuurders.",
       "bron": {
-        "boek": 38,
-        "sectie": "2.5",
-        "anker": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd"
-      },
-      "uitleg_en": "Parking: leaving a vehicle standing longer than the immediate getting in and out or loading needs. Waiting for someone is parking, engine running or not."
-    },
-    {
-      "term": "geslotenverklaring",
-      "varianten": [
-        "geslotenverklaringen"
-      ],
-      "uitleg": "Een bord dat een weg afsluit voor bepaalde groepen bestuurders. Een onderbord kan er uitzonderingen bij zetten, zoals bestemmingsverkeer.",
-      "bron": {
-        "boek": 25,
+        "boek": 27,
         "sectie": "2.2",
-        "anker": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring"
+        "anker": "Iedereen die van de weg gebruik maakt"
       },
-      "uitleg_en": "A sign closing a road to certain groups of drivers. A plate underneath can add exceptions, such as destination traffic."
+      "uitleg_en": "Anyone using the road, from a pedestrian to a tram driver. There are two main groups: pedestrians and drivers."
+    },
+    {
+      "term": "zwaailicht",
+      "varianten": [
+        "zwaailichten"
+      ],
+      "uitleg": "Het blauwe draailicht van politie, brandweer of ambulance.",
+      "bron": {
+        "boek": 170,
+        "sectie": "10.7",
+        "anker": "Stilstaande voertuigen met zwaailicht van politie of Rijkswaterstaat waarschuwen je voor een ongeval"
+      },
+      "uitleg_en": "The blue rotating light on a police car, fire engine or ambulance."
     }
   ]
 }
