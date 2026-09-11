@@ -1,0 +1,798 @@
+{
+  "unit": "U04",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U04-Q013",
+      "unit": "U04",
+      "pagina": "U04-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je wilt linksaf op een gelijkwaardig kruispunt en je richtingaanwijzer staat aan. Dicht achter je rijdt een motorrijder die rechtdoor gaat. Moet je hem voor laten gaan?",
+      "media": {
+        "scene": "S-U04-013"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Ook verkeer dat dicht achter je rijdt en rechtdoor gaat op dezelfde weg, laat je voor gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het voelt logisch dat wie voorop rijdt eerst mag, maar de afslaanregel geldt ook voor verkeer achter je.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bestuurders die afslaan, laten het rechtdoorgaande verkeer op dezelfde weg voor gaan. Dat geldt voor tegemoetkomend verkeer en voor verkeer dat zich dicht achter je bevindt.",
+        "waarom": "Een motorrijder die vlak achter je zit kan al naast je zijn voordat je stuurt, en hij rekent erop dat hij kan doorrijden.",
+        "valkuil": "Kijk daarom twee keer achterom: voordat je voorsorteert en nog eens vlak voordat je stuurt.",
+        "onthoud": "Rechtdoor gaat voor, ook van achteren."
+      },
+      "bronnen": [
+        {
+          "boek": 110,
+          "sectie": "6.3",
+          "anker": "voor verkeer dat zich dicht achter je bevindt"
+        },
+        {
+          "boek": 138,
+          "sectie": "9.5",
+          "anker": "voordat je voorsorteert, nogmaals voordat je daadwerkelijk afslaat"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "links-afslaan",
+        "achteropkomend-verkeer",
+        "motorrijder"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q014",
+      "unit": "U04",
+      "pagina": "U04-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je wilt rechtsaf en rechts van je rijstrook ligt een rode fietsstrook met een doorgetrokken streep. Waar sorteer je voor?",
+      "media": {
+        "scene": "S-U04-014"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Tegen de streep, dus naast de fietsstrook.",
+          "feedback": "Goed. Je schuift op tot tegen de streep en laat de strook zelf vrij voor de fietsers.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Op de fietsstrook, zolang er geen fietser rijdt.",
+          "feedback": "Fout. Bij een onderbroken streep zou dat mogen, maar op een strook met een doorgetrokken streep nooit.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Midden op je eigen rijstrook, tot je de bocht in stuurt.",
+          "feedback": "Fout. Zo laat je rechts een gat waar een fietser in schiet, terwijl je juist tegen de streep hoort te rijden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Op de fietsstrook, maar alleen vlak voor het kruispunt.",
+          "feedback": "Fout. Er bestaat geen laatste stukje waarop het ineens wel mag; de doorgetrokken streep geldt over de hele lengte.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Om rechts af te slaan sorteer je voor tegen de stoeprand of de witte kantstreep, en tegen de streep als er rechts van de rijbaan een fietsstrook met een doorgetrokken streep ligt.",
+        "waarom": "De doorgetrokken streep houdt de strook vrij, zodat fietsers niet om jouw auto heen de rijbaan op hoeven.",
+        "valkuil": "Ligt er een onderbroken streep, dan mag je er wel op, mits je geen (snor)fietsers hindert.",
+        "onthoud": "Doorgetrokken: ernaast. Onderbroken: erop mag."
+      },
+      "bronnen": [
+        {
+          "boek": 136,
+          "sectie": "9.3",
+          "anker": "Op een fietsstrook met een doorgetrokken streep mag je niet voorsorteren"
+        },
+        {
+          "slide": 161,
+          "anker": "Het is niet toegestaan om voor te sorteren op een fietsstrook met een doorgetrokken streep"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voorsorteren",
+        "fietsstrook",
+        "rechts-afslaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q015",
+      "unit": "U04",
+      "pagina": "U04-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Vlak voor een zebrapad staat een grijze auto stil op de rijbaan. Jij ziet zelf geen voetganger. Mag je die auto inhalen?",
+      "media": {
+        "scene": "S-U04-015"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Geen voetganger zien voelt als vrije baan, maar juist die stilstaande auto neemt je het zicht op hem af.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Vlak voor of op een oversteekplaats mag je niet inhalen, en die auto staat er niet voor niets stil.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats.",
+        "waarom": "Achter dat voertuig kan iemand oversteken die jou niet ziet en die jij pas ziet als hij voor je motorkap staat.",
+        "valkuil": "Liggen er meerdere rijstroken in een richting, dan mag je wel stoppen naast een voertuig dat ook staat te wachten.",
+        "onthoud": "Ernaast stilstaan mag, erlangs rijden niet."
+      },
+      "bronnen": [
+        {
+          "boek": 91,
+          "sectie": "5.5",
+          "anker": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats"
+        },
+        {
+          "slide": 91,
+          "anker": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zebrapad",
+        "inhalen",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q016",
+      "unit": "U04",
+      "pagina": "U04-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je staat voor een verkeerslicht en van links steekt een uitvaartstoet over; de eerste auto is al gepasseerd. Jouw licht springt op groen. Mag je de stoet doorsnijden?",
+      "media": {
+        "scene": "S-U04-016"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een uitvaartstoet moet zelf voor rood stoppen, dus bij verkeerslichten mag je de stoet doorsnijden.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Bij een militaire colonne zou dit kloppen, maar juist bij verkeerslichten geldt voor de stoet iets anders.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij een kruispunt met verkeerslichten moet een uitvaartstoet stoppen voor rood en mag je de stoet doorsnijden. Een militaire colonne mag doorrijden en die mag je niet doorsnijden.",
+        "waarom": "Het licht bepaalt hier wie er gaat, en de volgauto's van een stoet krijgen bij lichten geen recht om als groep bij elkaar te blijven.",
+        "valkuil": "Groen betekent nog altijd zelf kijken; je rijdt pas op als het kruispunt echt vrij is.",
+        "onthoud": "Bij lichten rijdt de colonne door en stopt de stoet."
+      },
+      "bronnen": [
+        {
+          "boek": 116,
+          "sectie": "6.5",
+          "anker": "De stoet moet stoppen voor rood. Je mag de stoet wel doorsnijden"
+        },
+        {
+          "slide": 121,
+          "anker": "Deze regel geldt niet bij uitvaartstoeten"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "uitvaartstoet",
+        "verkeerslichten",
+        "doorsnijden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q017",
+      "unit": "U04",
+      "pagina": "U04-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Buiten de bebouwde kom sla je vanuit een zijweg met haaientanden rechtsaf een enkelbaansweg op. Bomen nemen je zicht weg en van rechts nadert een auto. Waar let je hier vooral op?",
+      "media": {
+        "scene": "S-U04-017"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Dat er van rechts een inhaler op jouw weghelft kan zitten.",
+          "feedback": "Goed. Wie van rechts een ander inhaalt, rijdt precies op de weghelft waar jij naartoe stuurt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dat het verkeer van rechts jou voorrang moet verlenen.",
+          "feedback": "Fout. De haaientanden liggen voor jou, dus jij verleent voorrang aan al het verkeer op die weg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Dat je bij haaientanden altijd eerst moet stoppen.",
+          "feedback": "Fout. Haaientanden betekenen voorrang verlenen; stoppen doe je alleen als dat nodig is om iemand voor te laten gaan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Dat je alleen naar links hoeft te kijken, want daar komt het verkeer vandaan.",
+          "feedback": "Fout. Je rijdt straks naar rechts weg, maar van rechts komt het verkeer dat jou het snelst raakt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rijd je buiten de bebouwde kom rechtsaf een enkelbaansweg op, houd er dan rekening mee dat bestuurders van links en rechts snel naderen, dat bomen het uitzicht zeer kunnen belemmeren en dat je frontaal op een inhaler kunt botsen.",
+        "waarom": "Door de bomen zie je verkeer laat, en een inhaler van rechts zit op de weghelft die jij net op wilt draaien.",
+        "valkuil": "Je kijkt bij rechtsaf vooral naar links omdat je daar ruimte zoekt, en vergeet dan de kant waar je naartoe gaat.",
+        "onthoud": "Rechtsaf de weg op: kijk ook naar rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 138,
+          "sectie": "9.4",
+          "anker": "je frontaal op een inhaler kunt botsen"
+        },
+        {
+          "boek": 138,
+          "sectie": "9.4",
+          "anker": "Pas op dat je niet op een inhaler van rechts botst"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "rechts-afslaan",
+        "buiten-bebouwde-kom",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q018",
+      "unit": "U04",
+      "pagina": "U04-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Een militaire colonne steekt het kruispunt zonder borden voor je over. De blauwe vlag van het voorste voertuig is al voorbij en de volgvoertuigen rijden nog. Jij wilt rechtdoor. Mag je tussen de voertuigen door?",
+      "media": {
+        "scene": "S-U04-018"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je komt van rechts en denkt daarom voorrang te hebben, maar na het eerste voertuig gelden voor de colonne de regels van een tram.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Zodra het voorste voertuig voorbij is mag je de colonne niet doorsnijden en wacht je tot de laatste weg is.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Zodra het eerste voertuig gepasseerd is, gelden dezelfde regels als bij trams en mag je de colonne niet doorsnijden.",
+        "waarom": "De groep hoort bij elkaar en moet in een keer kunnen oversteken, anders raken de achterste voertuigen los van de rest.",
+        "valkuil": "Het laatste voertuig voert een groene vlag; daaraan zie je wanneer je weer mag gaan.",
+        "onthoud": "Blauwe vlag voorbij: wachten tot de groene."
+      },
+      "bronnen": [
+        {
+          "boek": 114,
+          "sectie": "6.5",
+          "anker": "Je mag de colonne niet doorsnijden"
+        },
+        {
+          "slide": 120,
+          "anker": "zodra het eerste voertuig gepasseerd is, gelden dezelfde regels als bij trams"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "militaire-colonne",
+        "doorsnijden",
+        "gelijkwaardig-kruispunt"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q019",
+      "unit": "U04",
+      "pagina": "U04-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Sommige kwetsbare weggebruikers krijgen extra bescherming in de voorrangsregels. Welke drie groepen zijn dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Blinden.",
+          "feedback": "Goed. Iemand die niets ziet kan zelf geen gat in het verkeer kiezen en krijgt daarom extra bescherming.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Slechtzienden.",
+          "feedback": "Goed. Wie slecht ziet, merkt jou pas laat op en hoort daarom bij deze beschermde groep.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Personen die zich moeilijk voortbewegen.",
+          "feedback": "Goed. Zij hebben meer tijd nodig om de rijbaan over te steken en krijgen die tijd ook.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Bestuurders van gehandicaptenvoertuigen.",
+          "feedback": "Fout. Zo een voertuig oogt kwetsbaar, maar de bestuurder ervan heeft geen bijzondere rechten in de voorrang.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Kinderen op de fiets.",
+          "feedback": "Fout. Kinderen vragen extra aandacht van jou, maar ze staan niet in het rijtje met extra bescherming bij de voorrangsregels.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Blinden, slechtzienden en personen die zich moeilijk voortbewegen genieten extra bescherming bij de voorrangsregels. Bestuurders van gehandicaptenvoertuigen hebben geen bijzondere rechten.",
+        "waarom": "Wie de weg niet kan overzien of niet snel kan bewegen, kan zelf geen veilig moment kiezen, dus legt de wet die zorg bij jou.",
+        "valkuil": "Op een zebrapad laat je een gehandicaptenvoertuig wel voor gaan, maar daarbuiten gelden voor die bestuurder de gewone regels.",
+        "onthoud": "Beschermd: wie niet ziet of moeilijk beweegt."
+      },
+      "bronnen": [
+        {
+          "boek": 128,
+          "sectie": "8.1",
+          "anker": "Ze merken je dan pas laat op"
+        },
+        {
+          "slide": 152,
+          "anker": "blinden slechtzienden personen die zich moeilijk voortbewegen"
+        },
+        {
+          "slide": 152,
+          "anker": "Bestuurders van gehandicaptenvoertuigen hebben geen bijzondere rechten"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "kwetsbare-weggebruikers",
+        "gehandicaptenvoertuig",
+        "bescherming"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q020",
+      "unit": "U04",
+      "pagina": "U04-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Bij een voetgangersoversteekplaats gelden vaste regels voor jou als bestuurder. Welke drie zijn juist?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Wie oversteekt of op het punt staat over te steken, laat je voor gaan.",
+          "feedback": "Goed. Ook wie nog op de stoep staat te wachten met de bedoeling over te steken, laat je voor gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Vlak voor of op de oversteekplaats haal je geen voertuig in.",
+          "feedback": "Goed. Een voertuig naast je neemt het zicht op de voetganger weg, dus inhalen is daar verboden.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "In een file zorg je dat je niet op de oversteekplaats tot stilstand komt.",
+          "feedback": "Goed. Je rijdt pas verder als er na de strepen genoeg ruimte is voor je hele auto.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je moet altijd stoppen, ook als er niemand in de buurt is.",
+          "feedback": "Fout. Voor laten gaan gaat over mensen die oversteken of dat gaan doen, niet over lege strepen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Naast een voertuig dat voor de oversteekplaats wacht, mag je nooit stoppen.",
+          "feedback": "Fout. Bij meerdere rijstroken in een richting mag je juist wel naast zo een wachtend voertuig stoppen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Je laat voetgangers op een oversteekplaats voor gaan als ze oversteken of op het punt staan over te steken, je haalt niet in vlak voor of op de oversteekplaats en je zorgt dat je er niet op tot stilstand komt.",
+        "waarom": "De drie regels beschermen dezelfde persoon: iemand te voet die de rijbaan op moet en die jou pas laat ziet aankomen.",
+        "valkuil": "Stoppen naast een wachtend voertuig mag wel, eraan voorbij rijden niet.",
+        "onthoud": "Voor laten gaan, niet inhalen, vrijhouden."
+      },
+      "bronnen": [
+        {
+          "boek": 91,
+          "sectie": "5.5",
+          "anker": "mag je wel stoppen naast een ander voertuig dat ook voor de oversteekplaats stilstaat"
+        },
+        {
+          "boek": 92,
+          "sectie": "5.5",
+          "anker": "Zorg dat je niet op een oversteekplaats tot stilstand komt"
+        },
+        {
+          "slide": 91,
+          "anker": "Houd een oversteekplaats altijd vrij. Ook wanneer je in een file moet stoppen"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "zebrapad",
+        "inhalen",
+        "file"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q021",
+      "unit": "U04",
+      "pagina": "U04-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt in een voorsorteerstrook en merkt dat je eigenlijk in de strook ernaast moet zijn. Wanneer mag je nog van strook wisselen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen als er geen doorgetrokken streep ligt en je niemand hindert.",
+          "feedback": "Goed. Die twee voorwaarden gelden allebei, en pas dan is wisselen voor het kruispunt toegestaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Altijd, zolang je maar op tijd richting aangeeft.",
+          "feedback": "Fout. Richting aangeven maakt je zichtbaar, maar het haalt een doorgetrokken streep niet weg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen zolang het verkeerslicht nog rood is.",
+          "feedback": "Fout. De kleur van het licht zegt niets over de strepen naast je strook of over hinder voor anderen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Nooit, want een gekozen strook ligt vast.",
+          "feedback": "Fout. De richting op het kruispunt ligt vast, maar voor het kruispunt mag je zonder doorgetrokken streep nog wisselen.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je mag voor het kruispunt alleen nog van strook wisselen als er geen doorgetrokken streep is en als je geen ander verkeer hindert. Heb je gekozen, dan volg je op het kruispunt de aangegeven richting.",
+        "waarom": "Anderen rekenen op de pijl in jouw strook, dus laat wisselen verrast precies de bestuurders die naast je rijden.",
+        "valkuil": "Lukt wisselen niet meer, volg dan de pijl en keer verderop; dwars oversteken is veel gevaarlijker.",
+        "onthoud": "Wisselen mag: geen doorgetrokken streep en niemand hinderen."
+      },
+      "bronnen": [
+        {
+          "boek": 137,
+          "sectie": "9.3",
+          "anker": "alleen nog van strook wisselen als er geen doorgetrokken streep is"
+        },
+        {
+          "slide": 162,
+          "anker": "Als je voor een bepaalde voorsorteerstrook hebt gekozen, ben je verplicht"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voorsorteerstrook",
+        "doorgetrokken-streep",
+        "wisselen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q022",
+      "unit": "U04",
+      "pagina": "U04-P01",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een voorrangsweg en wilt rechtsaf. De tegemoetkomende grijze auto wil linksaf dezelfde zijstraat in, op de hoek steekt een voetganger die zijstraat over en uit de zijweg links komt een fietser met haaientanden voor zich. In welke volgorde mogen jullie gaan?",
+      "media": {
+        "scene": "S-U04-022"
+      },
+      "opties": [
+        {
+          "id": "voetganger",
+          "tekst": "de voetganger",
+          "feedback": "De voetganger gaat rechtdoor op dezelfde weg als de twee afslaande auto's, dus hij is als eerste aan de beurt.",
+          "fouttype": null
+        },
+        {
+          "id": "ego",
+          "tekst": "jij",
+          "feedback": "Jij rijdt op de voorrangsweg en slaat rechtsaf, en rechtsaf gaat voor linksaf, dus jij mag als tweede.",
+          "fouttype": null
+        },
+        {
+          "id": "grijs",
+          "tekst": "de grijze auto",
+          "feedback": "De grijze auto rijdt ook op de voorrangsweg maar slaat linksaf, dus hij komt na jou aan de beurt.",
+          "fouttype": null
+        },
+        {
+          "id": "fietser",
+          "tekst": "de fietser",
+          "feedback": "De fietser heeft haaientanden voor zich en verleent voorrang aan alle bestuurders op de voorrangsweg, dus hij is als laatste.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "voetganger",
+        "ego",
+        "grijs",
+        "fietser"
+      ],
+      "uitleg": {
+        "regel": "Bestuurders op een voorrangsweg gaan voor; onderling laat wie linksaf slaat de tegemoetkomende bestuurder voor die rechtsaf slaat, en allebei laten ze het rechtdoorgaande verkeer op dezelfde weg voor gaan.",
+        "waarom": "De haaientanden zetten de fietser achteraan, de voetganger kruist geen van beide bochten en tussen de auto's beslist wie de kortste bocht maakt.",
+        "valkuil": "De fietser komt van rechts gezien vanuit de grijze auto, maar de haaientanden zetten hem hoe dan ook achteraan.",
+        "onthoud": "Voorrangsweg eerst, dan rechtsaf voor linksaf."
+      },
+      "bronnen": [
+        {
+          "boek": 112,
+          "sectie": "6.3",
+          "anker": "Eerst de voetganger, daarna jij en als laatste de grijze auto"
+        },
+        {
+          "slide": 123,
+          "anker": "De witte auto mag eerst, omdat hij rechts afslaat"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "volgorde",
+        "voorrangsweg",
+        "afslaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q023",
+      "unit": "U04",
+      "pagina": "U04-P01",
+      "type": "volgorde",
+      "soort": "inzicht",
+      "stam": "De voorrangsweg buigt af naar rechts en jij gaat rechtdoor, dus je verlaat de voorrangsweg. Van rechts volgt een bromfietser de afbuigende voorrangsweg en uit de zijweg links komt een grijze auto met haaientanden voor zich. In welke volgorde mogen jullie gaan?",
+      "media": {
+        "scene": "S-U04-023"
+      },
+      "opties": [
+        {
+          "id": "brom",
+          "tekst": "de bromfietser",
+          "feedback": "De bromfietser volgt de afbuigende voorrangsweg en gaat daarmee rechtdoor op dezelfde weg, dus hij mag eerst.",
+          "fouttype": null
+        },
+        {
+          "id": "ego",
+          "tekst": "jij",
+          "feedback": "Jij verlaat de voorrangsweg en bent dus de afslaande bestuurder, maar de grijze auto moet jou wel voor laten gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "grijs",
+          "tekst": "de grijze auto",
+          "feedback": "De grijze auto heeft haaientanden voor zich en verleent voorrang aan alle bestuurders op de afbuigende voorrangsweg, dus hij is als laatste.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "brom",
+        "ego",
+        "grijs"
+      ],
+      "uitleg": {
+        "regel": "Wie een afbuigende voorrangsweg volgt, gaat rechtdoor op dezelfde weg en mag eerst; bestuurders uit de zijweg verlenen voorrang aan alle bestuurders op die voorrangsweg.",
+        "waarom": "Het bord met het onderbord bepaalt waar de hoofdweg loopt, niet de vorm van het kruispunt, en jij stapt uit die hoofdweg.",
+        "valkuil": "Jij gaat rechtdoor en denkt daarom voor te gaan, maar op een afbuigende voorrangsweg telt de bocht als rechtdoor.",
+        "onthoud": "Op een afbuigende voorrangsweg is de bocht rechtdoor."
+      },
+      "bronnen": [
+        {
+          "boek": 112,
+          "sectie": "6.3",
+          "anker": "de rode auto moet voorrang verlenen aan alle bestuurders op de afbuigende voorrangsweg"
+        },
+        {
+          "slide": 123,
+          "anker": "de snorfietser gaat rechtdoor op de afbuigende voorrangsweg en mag eerst"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "volgorde",
+        "afbuigende-voorrangsweg",
+        "bromfietser"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    },
+    {
+      "id": "U04-Q024",
+      "unit": "U04",
+      "pagina": "U04-P03",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "Je staat voorgesorteerd om linksaf te slaan. Een tegemoetkomende auto die rechtdoor gaat is eerst nog ver weg en is even later vlak bij het kruispunt. Wat doe je nu?",
+      "media": {
+        "reeks": [
+          "S-U04-024-a",
+          "S-U04-024-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je blijft staan en laat hem eerst passeren.",
+          "feedback": "Goed. Hij gaat rechtdoor op dezelfde weg, dus jij wacht met je bocht tot hij voorbij is.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je gaat er snel voor langs, want je stond er eerder.",
+          "feedback": "Fout. Eerder staan geeft geen recht, en midden in je bocht kun je niet meer terug.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je rijdt het kruispunt op en wacht daar tot hij weg is.",
+          "feedback": "Fout. Hier is geen voorrangsweg, dus midden op het kruispunt gaan staan wachten mag niet en je hindert het kruisende verkeer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je knippert met je lichten zodat hij afremt.",
+          "feedback": "Fout. Zo geef je een teken dat hij anders kan uitleggen, terwijl de regel gewoon zegt dat jij wacht.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bestuurders die afslaan laten het rechtdoorgaande verkeer op dezelfde weg voor gaan, en wie moet wachten gaat zo staan dat hij het kruisende verkeer niet hindert.",
+        "waarom": "Een auto die eerst ver weg lijkt is binnen enkele seconden bij je, en je hebt de hele bocht nodig om over te steken.",
+        "valkuil": "Een tegenligger die voor je langs afslaat, ontneemt je bovendien het zicht op het verkeer achter hem.",
+        "onthoud": "Twijfel je over de ruimte, dan wacht je."
+      },
+      "bronnen": [
+        {
+          "boek": 139,
+          "sectie": "9.5",
+          "anker": "Laat het tegemoetkomend verkeer voorgaan als je links afslaat"
+        },
+        {
+          "boek": 110,
+          "sectie": "6.3",
+          "anker": "zo gaan stilstaan dat je het kruisende verkeer niet hindert"
+        }
+      ],
+      "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "links-afslaan",
+        "tegenligger",
+        "wachten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "concept"
+    }
+  ]
+}

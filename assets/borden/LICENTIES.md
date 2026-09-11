@@ -4,6 +4,7 @@ De meeste borden komen uit de MIT-gelicentieerde set van NDW (github.com/ndwnu/q
 
 | Code | Bestand op Commons | Licentie | Maker |
 |---|---|---|---|
+| C22e | Nederlands verkeersbord C22e 2026.svg | Public domain | LxH526 |
 | C22e1 | NL-C22e1.svg | Public domain | LxH526 |
 | C22e10 | NL-C22e10.svg | CC BY 4.0 | LxH526 |
 | C22e4 | NL-C22e4.svg | CC BY 4.0 | LxH526 |

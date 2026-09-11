@@ -21,6 +21,7 @@
   "bronnen": {
     "boek": {
       "secties": [
+        "2.2",
         "5.5",
         "6.3",
         "6.5",
@@ -30,6 +31,7 @@
         "9.5"
       ],
       "paginas": [
+        26,
         91,
         92,
         110,
@@ -47,7 +49,6 @@
         136,
         137,
         138,
-        139,
         140
       ]
     },
@@ -55,7 +56,6 @@
       "slides": [
         91,
         108,
-        119,
         120,
         121,
         123,
@@ -425,7 +425,6 @@
             110,
             137,
             138,
-            139,
             140
           ]
         },
@@ -770,7 +769,7 @@
           "type": "zelftest",
           "vraag": "Je haalt een bromfietser in. Hoeveel zijdelingse afstand houd je aan?",
           "antwoord": "Ongeveer 1,5 meter, en pas naar rechts als hij in je binnenspiegel zichtbaar is.",
-          "uitleg": "Je auto beinvloedt de stuurvastheid van tweewielers.",
+          "uitleg": "Je auto beïnvloedt de stuurvastheid van tweewielers.",
           "bron": {
             "boek": 130,
             "sectie": "8.1",
@@ -796,7 +795,8 @@
       "bronnen": {
         "boek": {
           "secties": [
-            "5.5"
+            "5.5",
+            "2.2"
           ],
           "paginas": [
             26,
@@ -969,7 +969,6 @@
         },
         "cursus": {
           "slides": [
-            119,
             120,
             121
           ]

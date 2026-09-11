@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><g font-family="Arial,Helvetica,Sans,Liberation Sans,sans-serif"><path fill="#f7fbf5" d="M0 0h300v150H0z"/><rect width="290" height="140" x="5" y="5" fill="none" stroke="gray" stroke-width="3" rx="10" ry="10"/><text lengthAdjust="spacingAndGlyphs" textLength="260">
+		<tspan x="50%" y="25%" alignment-baseline="centre" font-size="32" font-weight="bold" text-anchor="middle">uitgezonderd</tspan>
+	</text><g transform="matrix(.7 0 0 .7 56 -14)"><path fill="#2a2d2f" d="M82 186h136v-75H82zm0-1v-4H32v4z"/><circle cx="149" cy="185" r="24" stroke="#f7fbf5" stroke-width="4"/></g></g></svg>
