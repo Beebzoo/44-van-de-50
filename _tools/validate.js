@@ -108,13 +108,17 @@ function validateSchema(name, value, where) {
 }
 
 /* ==== sources: page blocks and slide blocks ==== */
+/* a source in sources.json is a path or a list of paths: the first one that is
+   really there wins, so every computer keeps its own path in the same file */
+const pick = v => (Array.isArray(v) ? v : [v]).find(f => f && exists(f)) || null;
 let SRC = null;
 function loadSources() {
   if (NO_SOURCES) return null;
   const cfg = readJson(path.join(__dirname, "sources.json"));
-  if (!exists(cfg.boek) || !exists(cfg.cursus)) { warn("bronnen", "transcripties niet gevonden, ankergates overgeslagen"); return null; }
-  const book = fs.readFileSync(cfg.boek, "utf8").split("\n");
-  const course = fs.readFileSync(cfg.cursus, "utf8").split("\n");
+  const boek = pick(cfg.boek), cursus = pick(cfg.cursus);
+  if (!boek || !cursus) { warn("bronnen", "transcripties niet gevonden, ankergates overgeslagen"); return null; }
+  const book = fs.readFileSync(boek, "utf8").split("\n");
+  const course = fs.readFileSync(cursus, "utf8").split("\n");
 
   /* Book: a marker is "### Pagina N" or "## Pagina N en M". A page's text is
      the union of every marker block that names it, each running to the next
@@ -256,7 +260,7 @@ function lexicon() {
   if (!NO_SOURCES) {
     try {
       const cfg = readJson(path.join(__dirname, "sources.json"));
-      for (const f of [cfg.boek, cfg.cursus]) if (exists(f)) for (const w of fs.readFileSync(f, "utf8").toLowerCase().match(/[a-zà-ÿ]+(?:['-][a-zà-ÿ]+)*/g) || []) LEXICON.add(w);
+      for (const f of [pick(cfg.boek), pick(cfg.cursus)]) if (f) for (const w of fs.readFileSync(f, "utf8").toLowerCase().match(/[a-zà-ÿ]+(?:['-][a-zà-ÿ]+)*/g) || []) LEXICON.add(w);
     } catch (e) { /* no sources, lexicon stays small and spelling only warns */ }
   }
   return LEXICON;

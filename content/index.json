@@ -1,5 +1,5 @@
 {
-  "versie": "30568715fb",
+  "versie": "d2faaf517a",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -256,8 +256,10 @@
       "week": 2,
       "tier": "must",
       "bestand": "content/units/U04.json",
-      "bank": [],
-      "aantalVragen": 0,
+      "bank": [
+        "content/bank/U04.json"
+      ],
+      "aantalVragen": 36,
       "paginas": [
         {
           "id": "U04-P01",

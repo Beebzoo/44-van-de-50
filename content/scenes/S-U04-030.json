@@ -16,6 +16,18 @@
     {
       "soort": "stopstreep",
       "arm": "zuid"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "noord"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "oost"
+    },
+    {
+      "soort": "stopstreep",
+      "arm": "west"
     }
   ],
   "borden": [
@@ -34,7 +46,7 @@
       "afstand": 2
     }
   ],
-  "alt": "Jij rijdt in een file naar een kruispunt met verkeerslichten. Vlak voor het kruispunt ligt een zebrapad op jouw weg. De auto's voor je staan stil; tussen het zebrapad en de stopstreep is geen ruimte meer voor jouw auto.",
+  "alt": "Een kruispunt met stopstrepen op alle vier de armen. Jij nadert van onderen. Vlak voor het kruispunt ligt een zebrapad; tussen het zebrapad en de stopstreep past geen auto.",
   "inspiratie": {
     "boek": 92
   }

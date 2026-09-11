@@ -1,5 +1,11 @@
 {
-  "$comment": "Where the two transcriptions live on this machine. They are the only content sources and are never committed. The validator skips the anchor gates when they are absent (for example in the Pages workflow).",
-  "boek": "/home/alardus/Admin/09 Voertuig/Rijbewijs/bronnen/VekaBest-theorieboek-VOLLEDIG.md",
-  "cursus": "/home/alardus/Admin/09 Voertuig/Rijbewijs/bronnen/VekaBest-SpeedTheorie-transcriptie.md"
+  "$comment": "Where the two transcriptions live. They are the only content sources and are never committed. Each source is a list of paths and the first one that exists wins, so every computer keeps its own path here and nobody has to edit this file again. The validator skips the anchor gates when none of them exist, for example in the Pages workflow.",
+  "boek": [
+    "/home/alardus/Admin/09 Voertuig/Rijbewijs/bronnen/VekaBest-theorieboek-VOLLEDIG.md",
+    "C:/dev/09 Voertuig/Rijbewijs/bronnen/VekaBest-theorieboek-VOLLEDIG.md"
+  ],
+  "cursus": [
+    "/home/alardus/Admin/09 Voertuig/Rijbewijs/bronnen/VekaBest-SpeedTheorie-transcriptie.md",
+    "C:/dev/09 Voertuig/Rijbewijs/bronnen/VekaBest-SpeedTheorie-transcriptie.md"
+  ]
 }

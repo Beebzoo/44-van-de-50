@@ -57,7 +57,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dat geldt zowel voor tegemoetkomend verkeer als voor verkeer dat zich (dicht) achter je bevindt.",
+        "bron": "boek p. 110"
+      }
     },
     {
       "id": "U04-Q014",
@@ -125,7 +130,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Op een fietsstrook met een doorgetrokken streep mag je niet voorsorteren.",
+        "bron": "boek p. 136",
+        "gewijzigd": "de tekening S-U04-014 tekende een onderbroken streep terwijl de vraag een doorgetrokken streep noemt; de renderer kent nu fietsstrook-doorgetrokken"
+      }
     },
     {
       "id": "U04-Q015",
@@ -181,7 +192,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je ziet de voetganger van rechts niet. En hij ziet jou ook niet. Mede daarom is inhalen verboden bij een voetgangersoversteekplaats.",
+        "bron": "boek p. 91"
+      }
     },
     {
       "id": "U04-Q016",
@@ -237,7 +253,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De stoet moet stoppen voor rood. Je mag de stoet wel doorsnijden.",
+        "bron": "boek p. 116"
+      }
     },
     {
       "id": "U04-Q017",
@@ -245,7 +266,7 @@
       "pagina": "U04-P03",
       "type": "meerkeuze",
       "soort": "inzicht",
-      "stam": "Buiten de bebouwde kom sla je vanuit een zijweg met haaientanden rechtsaf een enkelbaansweg op. Bomen nemen je zicht weg en van rechts nadert een auto. Waar let je hier vooral op?",
+      "stam": "Buiten de bebouwde kom sla je vanuit een zijweg met haaientanden rechtsaf een enkelbaansweg op. Je zicht langs de weg is beperkt en van rechts nadert een auto. Waar let je hier vooral op?",
       "media": {
         "scene": "S-U04-017"
       },
@@ -306,7 +327,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Pas op dat je niet op een inhaler van rechts botst.",
+        "bron": "boek p. 138",
+        "gewijzigd": "de stam noemde bomen die de tekening niet kan tonen; de bomen staan nu alleen in de regel, waar het boek ze noemt"
+      }
     },
     {
       "id": "U04-Q018",
@@ -362,7 +389,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "zodra het eerste voertuig gepasseerd is, gelden dezelfde regels als bij trams",
+        "bron": "slide 120"
+      }
     },
     {
       "id": "U04-Q019",
@@ -417,11 +449,6 @@
       },
       "bronnen": [
         {
-          "boek": 128,
-          "sectie": "8.1",
-          "anker": "Ze merken je dan pas laat op"
-        },
-        {
           "slide": 152,
           "anker": "blinden slechtzienden personen die zich moeilijk voortbewegen"
         },
@@ -440,7 +467,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Sommige kwetsbare weggebruikers genieten extra bescherming m.b.t. voorrangsregels: blinden, slechtzienden, personen die zich moeilijk voortbewegen",
+        "bron": "slide 152",
+        "gewijzigd": "de boekbron ging over ouderen en niet over de voorrangsregels; de opsomming komt alleen van slide 152"
+      }
     },
     {
       "id": "U04-Q020",
@@ -519,7 +552,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag geen voertuig inhalen vlak voor of op een voetgangersoversteekplaats.",
+        "bron": "boek p. 91"
+      }
     },
     {
       "id": "U04-Q021",
@@ -585,7 +623,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "je mag voor het kruispunt alleen nog van strook wisselen als er geen doorgetrokken streep is en als je geen ander verkeer hindert",
+        "bron": "boek p. 137"
+      }
     },
     {
       "id": "U04-Q022",
@@ -637,12 +680,12 @@
       },
       "bronnen": [
         {
-          "boek": 112,
+          "boek": 111,
           "sectie": "6.3",
-          "anker": "Eerst de voetganger, daarna jij en als laatste de grijze auto"
+          "anker": "moeten tegemoetkomende bestuurders die op hetzelfde kruispunt naar rechts afslaan voor laten gaan"
         },
         {
-          "slide": 123,
+          "slide": 131,
           "anker": "De witte auto mag eerst, omdat hij rechts afslaat"
         }
       ],
@@ -656,7 +699,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "daarna mogen de auto’s, omdat beide op een voorrangsweg rijden. De witte auto mag eerst, omdat hij rechts afslaat",
+        "bron": "slide 131",
+        "gewijzigd": "bronnen vervangen: het oude boekcitaat beschreef een ander plaatje en de slide is 131, niet 123"
+      }
     },
     {
       "id": "U04-Q023",
@@ -706,7 +755,7 @@
           "anker": "de rode auto moet voorrang verlenen aan alle bestuurders op de afbuigende voorrangsweg"
         },
         {
-          "slide": 123,
+          "slide": 132,
           "anker": "de snorfietser gaat rechtdoor op de afbuigende voorrangsweg en mag eerst"
         }
       ],
@@ -720,7 +769,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "de snorfietser gaat ‘rechtdoor’ op de afbuigende voorrangsweg en mag eerst",
+        "bron": "slide 132",
+        "gewijzigd": "bron stond op slide 123, de zin staat op slide 132"
+      }
     },
     {
       "id": "U04-Q024",
@@ -751,7 +806,7 @@
         {
           "id": "c",
           "tekst": "Je rijdt het kruispunt op en wacht daar tot hij weg is.",
-          "feedback": "Fout. Hier is geen voorrangsweg, dus midden op het kruispunt gaan staan wachten mag niet en je hindert het kruisende verkeer.",
+          "feedback": "Fout. Op dit gelijkwaardige kruispunt hoor je voor het kruispunt te wachten, zodat je het kruisende verkeer niet hindert.",
           "fouttype": "verkeerd_toegepast"
         },
         {
@@ -792,7 +847,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Laat het tegemoetkomend verkeer voorgaan als je links afslaat. En let ook op het achteropkomend verkeer.",
+        "bron": "boek p. 139",
+        "gewijzigd": "feedback bij optie c noemde de voorrangsweg als enige geval; hij wijst nu op wachten voor het kruispunt"
+      }
     }
   ]
 }

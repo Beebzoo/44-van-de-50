@@ -58,7 +58,11 @@
         108,
         120,
         121,
-        123,
+        125,
+        126,
+        127,
+        131,
+        132,
         151,
         152,
         160,
@@ -93,7 +97,8 @@
         "cursus": {
           "slides": [
             108,
-            123
+            125,
+            126
           ]
         }
       },
@@ -176,7 +181,7 @@
               "anker": "rechtdoor op dezelfde weg en mag eerst"
             },
             {
-              "slide": 123,
+              "slide": 126,
               "anker": "een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat"
             }
           ]
@@ -194,7 +199,7 @@
           "type": "valkuil",
           "tekst": "De regel zegt: op dezelfde weg. Een voetganger die de kruisende weg oversteekt, hoef je niet voor te laten gaan; een voetganger die jouw weg volgt en de zijstraat oversteekt wel. Wachten doe je voor het kruispunt, niet erop.",
           "bron": {
-            "slide": 123,
+            "slide": 125,
             "anker": "hoeft voetgangers op de kruisende weg niet voor te laten gaan"
           }
         },
@@ -481,7 +486,7 @@
         {
           "type": "regel",
           "id": "U04-r12",
-          "tekst": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij hij al duidelijk positie heeft gekozen, er tekens op het wegdek staan die anders aanduiden of er een brede middenberm ligt.",
+          "tekst": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij hij al duidelijk positie heeft gekozen, er tekens op het wegdek staan die anders aanduiden of er een brede middenberm ligt. Laat in elk geval duidelijk zien of je voor of achter hem langs gaat.",
           "bron": [
             {
               "boek": 140,
@@ -491,6 +496,11 @@
             {
               "slide": 164,
               "anker": "ga voor elkaar langs behalve als er een brede middenberm ligt"
+            },
+            {
+              "boek": 140,
+              "sectie": "9.5",
+              "anker": "laat duidelijk zien of je voor of achter de tegenligger langs gaat"
             }
           ]
         },

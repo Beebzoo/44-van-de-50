@@ -56,7 +56,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De regel geldt ook voor verkeer op een naastgelegen pad. Hier moet je de fietser dus voor laten gaan.",
+        "bron": "boek p. 111"
+      }
     },
     {
       "id": "U04-Q002",
@@ -124,7 +129,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bestuurders die naar links afslaan, moeten tegemoetkomende bestuurders die op hetzelfde kruispunt naar rechts afslaan voor laten gaan.",
+        "bron": "boek p. 111"
+      }
     },
     {
       "id": "U04-Q003",
@@ -132,7 +142,7 @@
       "pagina": "U04-P05",
       "type": "ja_nee",
       "soort": "inzicht",
-      "stam": "Je rijdt door een straat met een zebrapad en bord [L2]. Op de stoep rechts staat een voetganger stil bij de strepen, met zijn gezicht naar de weg. Moet je hem voor laten gaan?",
+      "stam": "Je rijdt door een straat met een zebrapad en bord [L2]. Op de stoep rechts staat een voetganger stil bij de strepen. Moet je hem voor laten gaan?",
       "media": {
         "scene": "S-U04-003"
       },
@@ -140,13 +150,13 @@
         {
           "id": "ja",
           "tekst": "Ja",
-          "feedback": "Goed. Uit zijn houding blijkt dat hij op het punt staat over te steken, en ook dan laat je hem voor gaan.",
+          "feedback": "Goed. Wie bij de strepen staat te wachten, laat je ook voor gaan, niet pas als hij loopt.",
           "fouttype": null
         },
         {
           "id": "nee",
           "tekst": "Nee",
-          "feedback": "Fout. Je wacht dan tot hij een voet op de strepen zet, maar wie op het punt staat over te steken laat je ook voor gaan.",
+          "feedback": "Fout. Je wacht dan tot hij een voet op de strepen zet, maar wie staat te wachten laat je ook voor gaan.",
           "fouttype": "verkeerd_toegepast"
         }
       ],
@@ -180,7 +190,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Hier steken de voetgangers al over, maar ook als ze nog staan te wachten moet je ze voor laten gaan.",
+        "bron": "boek p. 91",
+        "gewijzigd": "stam en feedback vragen niet meer om het gezicht van de voetganger, want de renderer tekent hem kijkend langs de weg"
+      }
     },
     {
       "id": "U04-Q004",
@@ -236,7 +252,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het 1e voertuig van de colonne is nog niet gepasseerd. De normale regels voor voorrang zijn van toepassing. Jij mag eerst.",
+        "bron": "slide 120"
+      }
     },
     {
       "id": "U04-Q005",
@@ -292,7 +313,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Hier moet je de rechtdoorgaande voetganger voor laten gaan.",
+        "bron": "boek p. 111"
+      }
     },
     {
       "id": "U04-Q006",
@@ -336,7 +362,7 @@
       "uitleg": {
         "regel": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij er tekens op het wegdek staan die anders aanduiden of er een brede middenberm ligt.",
         "waarom": "Voor elkaar langs houdt de manoeuvre kort en jullie blijven elkaar zien; om elkaar heen kost meer ruimte en tijd op het kruispunt.",
-        "valkuil": "Heeft de tegenligger al duidelijk positie gekozen om af te slaan, laat dan zien hoe jij langs hem gaat.",
+        "valkuil": "Heeft de tegenligger al duidelijk positie gekozen om af te slaan, dan ga je juist om elkaar heen. Laat in elk geval zien of je voor of achter hem langs gaat.",
         "onthoud": "Voor elkaar langs, tenzij tekens of een brede middenberm."
       },
       "bronnen": [
@@ -348,6 +374,11 @@
         {
           "slide": 164,
           "anker": "Ga voor elkaar langs, behalve als er een brede middenberm ligt"
+        },
+        {
+          "boek": 140,
+          "sectie": "9.5",
+          "anker": "laat duidelijk zien of je voor of achter de tegenligger langs gaat"
         }
       ],
       "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
@@ -360,7 +391,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als jij en een tegemoetkomende bestuurder allebei linksaf willen, ga je voor elkaar langs, tenzij:",
+        "bron": "boek p. 140",
+        "gewijzigd": "valkuil herschreven: een tegenligger die al positie heeft gekozen is een uitzondering, dan ga je om elkaar heen"
+      }
     },
     {
       "id": "U04-Q007",
@@ -427,7 +464,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "geheel links van de rijbaan, als de weg gescheiden rijbanen heeft",
+        "bron": "boek p. 135"
+      }
     },
     {
       "id": "U04-Q008",
@@ -501,7 +543,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "kijk in je binnenspiegel, kijk in je rechterbuitenspiegel, kijk over je rechterschouder, geef richting aan als je weet dat je veilig kunt gaan afslaan",
+        "bron": "boek p. 137"
+      }
     },
     {
       "id": "U04-Q009",
@@ -568,7 +615,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Houd daarom bij het inhalen een ruime zijdelingse afstand (1,5 meter) en ga na de inhaalmanoeuvre niet te vroeg weer naar rechts.",
+        "bron": "boek p. 130"
+      }
     },
     {
       "id": "U04-Q010",
@@ -622,7 +674,7 @@
           "anker": "die rechts afslaan dezelfde weg in voor laten gaan"
         },
         {
-          "slide": 123,
+          "slide": 126,
           "anker": "een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat"
         }
       ],
@@ -636,7 +688,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "daarna mag de vrachtauto, want een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat",
+        "bron": "slide 126",
+        "gewijzigd": "bron stond op slide 123, de zin staat op slide 126"
+      }
     },
     {
       "id": "U04-Q011",
@@ -686,7 +744,7 @@
           "anker": "Je moet voetgangers en bestuurders van een gehandicaptenvoertuig op een voetgangersoversteekplaats voor laten gaan"
         },
         {
-          "slide": 123,
+          "slide": 127,
           "anker": "de voetganger mag eerst, vanwege de voetgangersoversteekplaats"
         }
       ],
@@ -700,7 +758,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "de voetganger mag eerst, vanwege de voetgangersoversteekplaats",
+        "bron": "slide 127",
+        "gewijzigd": "bron stond op slide 123, de zin staat op slide 127"
+      }
     },
     {
       "id": "U04-Q012",
@@ -708,7 +772,7 @@
       "pagina": "U04-P04",
       "type": "reeks",
       "soort": "inzicht",
-      "stam": "Je rijdt door een woonstraat langs een speelterrein. Op de stoep staat een kind met zijn rug naar de weg, druk met zijn spel, en even later rent het zonder te kijken de weg op. Wat doe je nu?",
+      "stam": "Je rijdt door een woonstraat langs een speelterrein. Op de stoep staat een kind te spelen, en even later rent het zonder te kijken de weg op. Wat doe je nu?",
       "media": {
         "reeks": [
           "S-U04-012-a",
@@ -747,7 +811,7 @@
       "uitleg": {
         "regel": "Let extra goed op bij plaatsen waar kleine kinderen zomaar de weg op kunnen lopen, zoals bij scholen en speelterreinen.",
         "waarom": "Een kind dat opgaat in zijn spel kijkt niet en reageert nauwelijks op geluid, dus alleen jouw lagere snelheid maakt verschil.",
-        "valkuil": "De rug naar de weg is het teken dat je al eerder had moeten afremmen.",
+        "valkuil": "Een spelend kind langs de weg is het teken dat je al eerder snelheid had moeten minderen.",
         "onthoud": "Bij spelende kinderen: snelheid eraf, voet klaar."
       },
       "bronnen": [
@@ -772,7 +836,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Ze gaan zo op in hun spel, dat ze er niet aan denken om uit te kijken.",
+        "bron": "boek p. 128",
+        "gewijzigd": "stam en valkuil leunden op de rug van het kind naar de weg, en dat toont de tekening niet"
+      }
     }
   ]
 }

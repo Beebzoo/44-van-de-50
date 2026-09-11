@@ -145,6 +145,7 @@ function drawMarkering(s) {
       case "drempel": out += line(pt(arm, edge + 30, -LANE), pt(arm, edge + 30, LANE), MARK, 3, "6 4") + line(pt(arm, edge + 38, -LANE), pt(arm, edge + 38, LANE), MARK, 3, "6 4"); break;
       case "blokmarkering": for (let i = 0; i < 5; i++) out += line(pt(arm, edge + 10 + i * 14, LANE - 3), pt(arm, edge + 18 + i * 14, LANE - 3), MARK, 6); break;
       case "fietsstrook": out += line(pt(arm, edge, LANE - 5), pt(arm, armLength(arm) + 2, LANE - 5), FIETSPAD, 9) + line(pt(arm, edge, LANE - 10), pt(arm, armLength(arm) + 2, LANE - 10), MARK, 1, "6 6"); break;
+      case "fietsstrook-doorgetrokken": out += line(pt(arm, edge, LANE - 5), pt(arm, armLength(arm) + 2, LANE - 5), FIETSPAD, 9) + line(pt(arm, edge, LANE - 10), pt(arm, armLength(arm) + 2, LANE - 10), MARK, 1.4); break;
       case "rails": {
         for (const off of [-LANE / 2 - 4, -LANE / 2 + 4, LANE / 2 - 4, LANE / 2 + 4]) out += line(pt(arm, 0, off), pt(arm, armLength(arm) + 2, off), "#9AA0A6", 1.2);
         break;

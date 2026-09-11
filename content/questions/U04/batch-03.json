@@ -57,7 +57,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "personen die te voet een motor, bromfiets, snorfiets of fiets aan de hand meevoeren",
+        "bron": "boek p. 26"
+      }
     },
     {
       "id": "U04-Q026",
@@ -66,9 +71,7 @@
       "type": "meerkeuze",
       "soort": "inzicht",
       "stam": "Je staat voor het verkeerslicht in een strook met een pijl rechtdoor; links en rechts van je ligt een doorgetrokken streep. Nu pas merk je dat je linksaf moet. Wat doe je?",
-      "media": {
-        "scene": "S-U04-026"
-      },
+      "media": null,
       "opties": [
         {
           "id": "a",
@@ -125,7 +128,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "als je eenmaal voor een bepaalde voorsorteerstrook hebt gekozen, ben je verplicht om op het kruispunt de aangegeven richting te volgen",
+        "bron": "boek p. 137",
+        "gewijzigd": "de tekening is losgelaten: de renderer kan geen voorsorteerpijlen of doorgetrokken strepen naast een strook tekenen, dus S-U04-026 toonde een leeg kruispunt"
+      }
     },
     {
       "id": "U04-Q027",
@@ -182,7 +191,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je rijdt op een voorrangsweg en nadert een kruispunt zónder verkeerslichten, colonne/stoet komt van links of rechts, 1e voertuig is al gepasseerd.",
+        "bron": "boek p. 115"
+      }
     },
     {
       "id": "U04-Q028",
@@ -238,7 +252,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bestuurders die afslaan, moeten het rechtdoorgaande verkeer",
+        "bron": "boek p. 110"
+      }
     },
     {
       "id": "U04-Q029",
@@ -246,7 +265,7 @@
       "pagina": "U04-P04",
       "type": "meerkeuze",
       "soort": "inzicht",
-      "stam": "Je rijdt door een straat bij een school met aan beide kanten geparkeerde auto's. Rechts steekt een kind tussen de auto's door over en links staat nog een kind op de stoep. Wat doe je?",
+      "stam": "Je rijdt door een straat bij een school. Rechts steekt een kind de weg over en links staat nog een kind op de stoep. Wat doe je?",
       "media": {
         "scene": "S-U04-029"
       },
@@ -307,7 +326,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als er geparkeerde auto’s staan, is het helemaal uitkijken geblazen.",
+        "bron": "boek p. 128",
+        "gewijzigd": "de stam noemde geparkeerde auto’s die de tekening niet kan tonen; ze staan nu in de regel en het waarom"
+      }
     },
     {
       "id": "U04-Q030",
@@ -363,7 +388,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Zorg dat je niet op een oversteekplaats tot stilstand komt. Stop op tijd en rijd pas verder als er voldoende vrije ruimte na de oversteekplaats is.",
+        "bron": "boek p. 92",
+        "gewijzigd": "de tekening beweerde een rij stilstaande auto’s die er niet stond; nu stopstrepen op alle vier de armen en een alt die beschrijft wat er wel te zien is"
+      }
     },
     {
       "id": "U04-Q031",
@@ -441,7 +472,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag tussen de colonne invoegen",
+        "bron": "boek p. 115"
+      }
     },
     {
       "id": "U04-Q032",
@@ -515,7 +551,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "laat ook hier het rechtdoorgaande verkeer en tegemoetkomende naar rechts afslaande bestuurders voor gaan",
+        "bron": "boek p. 138"
+      }
     },
     {
       "id": "U04-Q033",
@@ -582,7 +623,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Deze groep weggebruikers heeft (vaak) een beperkt waarnemings- en reactievermogen.",
+        "bron": "boek p. 128"
+      }
     },
     {
       "id": "U04-Q034",
@@ -646,7 +692,13 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Hier moet je de fietser dus voor laten gaan.",
+        "bron": "boek p. 111",
+        "gewijzigd": "de tekening noemde slide 123 als inspiratie, maar dat is de zandweg met de trekker; het is de foto op p. 111"
+      }
     },
     {
       "id": "U04-Q035",
@@ -710,7 +762,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Jij komt van rechts op dit gelijkwaardige kruispunt. Het 1e voertuig van de stoet is al gepasseerd.",
+        "bron": "slide 120"
+      }
     },
     {
       "id": "U04-Q036",
@@ -782,7 +839,12 @@
       ],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Rem tijdig en rustig af als je moet stoppen voor voetgangers of bestuurders van een gehandicaptenvoertuig.",
+        "bron": "boek p. 92"
+      }
     }
   ]
 }

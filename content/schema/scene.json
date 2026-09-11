@@ -29,7 +29,7 @@
     "borden": {"type": "array", "items": {"type": "object", "required": ["code", "arm"], "additionalProperties": false, "properties": {
       "code": {"type": "string"}, "arm": {"enum": ["noord", "oost", "zuid", "west", "rotonde"]}, "onderbord": {"type": "string"}}}},
     "markering": {"type": "array", "items": {"type": "object", "required": ["soort", "arm"], "additionalProperties": false, "properties": {
-      "soort": {"enum": ["haaientanden", "stopstreep", "zebrapad", "fietsoversteek", "drempel", "blokmarkering", "fietsstrook", "rails", "verdrijvingsvlak"]}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}}}},
+      "soort": {"enum": ["haaientanden", "stopstreep", "zebrapad", "fietsoversteek", "drempel", "blokmarkering", "fietsstrook", "fietsstrook-doorgetrokken", "rails", "verdrijvingsvlak"]}, "arm": {"enum": ["noord", "oost", "zuid", "west"]}}}},
     "gebieden": {"type": "array", "items": {"type": "object", "required": ["id", "vorm"], "additionalProperties": false, "properties": {
       "id": {"type": "string"}, "vorm": {"enum": ["cirkel", "rechthoek"]}, "x": {"type": "number"}, "y": {"type": "number"}, "r": {"type": "number"}, "w": {"type": "number"}, "h": {"type": "number"}}}},
     "volgorde": {"type": "array", "items": {"type": "string"}, "$comment": "actor ids in the order they may go; the renderer draws numbered badges"},
