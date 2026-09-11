@@ -777,7 +777,21 @@ function toast(tekst, knop, actie) { S.toast = { tekst, knop, actie }; render();
 function registerSw() {
   if (!("serviceWorker" in navigator)) return;
   let had = !!navigator.serviceWorker.controller;
-  navigator.serviceWorker.register("sw.js").catch(() => { /* file:// or unsupported */ });
+  /* Vraag bij elke start of er een nieuwe versie is, en nog eens als de app na
+     een half uur weer op de voorgrond komt. Zonder dat blijft een geinstalleerde
+     app op zijn eigen kopie draaien tot de browser er toevallig zin in heeft, en
+     dan lees je dagen later nog de oude pagina. */
+  navigator.serviceWorker.register("sw.js").then(reg => {
+    if (!reg) return;
+    reg.update().catch(() => {});
+    let laatst = Date.now();
+    addEventListener("visibilitychange", () => {
+      if (document.visibilityState !== "visible") return;
+      if (Date.now() - laatst < 30 * 60000) return;
+      laatst = Date.now();
+      reg.update().catch(() => {});
+    });
+  }).catch(() => { /* file:// or unsupported */ });
   navigator.serviceWorker.addEventListener("controllerchange", () => { if (had) toast(t("Nieuwe versie klaar"), t("Herlaad"), "herlaad"); had = true; });
 }
 
