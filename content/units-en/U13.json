@@ -146,6 +146,9 @@
           "tekst": "Your body breaks alcohol down at 0.1 to 0.2 per mille an hour. Clearing 1 glass of alcohol therefore easily takes 1.5 hours. You cannot speed that up: fresh air, black coffee or a nap do nothing at all."
         },
         {
+          "tekst": "Two limits, and a drink you are only rid of after an hour and a half."
+        },
+        {
           "tekst": "Exactly how high your reading will go cannot be said in advance. Alcohol works extra strongly on small, light people, on people who are not used to alcohol, and when you drink on an empty stomach."
         },
         {
@@ -440,6 +443,9 @@
         },
         {
           "tekst": "For alcohol misuse, drugs misuse or antisocial behaviour in traffic, a compulsory course can be imposed on top of a fine or a punishment: the educational measure (educatieve maatregel). You pay the costs yourself, between €750 and €1,500. If you do not take the course, your licence is declared invalid."
+        },
+        {
+          "tekst": "On the left a fine in the post, on the right always a judge."
         },
         {
           "kop": [

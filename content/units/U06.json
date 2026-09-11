@@ -181,6 +181,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "snelheden",
+          "tekst": "Als staaf zie je meteen hoeveel er tussen de bebouwde kom en de rest zit.",
+          "bron": {
+            "boek": 117,
+            "sectie": "7.1",
+            "anker": "Binnen de bebouwde kom mag je als automobilist maximaal 50 km/u rijden"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Waar je rijdt vertelt je wie je kunt tegenkomen. Binnen de kom kruisen voetgangers, fietsers en zijstraten voortdurend je pad; op een autoweg of autosnelweg gebeurt dat niet. Hoe minder kruisend verkeer, hoe hoger het maximum dat nog te verantwoorden is. Op de autosnelweg komt er nog een reden bij die niets met de weg te maken heeft: overdag is het er veel drukker, en daarom ligt de standaard dan lager dan in de nacht.",
           "bron": {

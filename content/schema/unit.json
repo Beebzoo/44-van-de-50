@@ -580,7 +580,17 @@
                 "handsignalen",
                 "voertuigen",
                 "weggebruikers",
-                "rangorde"
+                "rangorde",
+                "weggedeelten",
+                "snelheden",
+                "stroken",
+                "duurzaamveilig",
+                "stilstaan",
+                "lichten",
+                "mistlichten",
+                "paman",
+                "alcohol",
+                "strafbaar"
               ]
             },
             "tekst": {
@@ -610,7 +620,17 @@
                 "handsignalen",
                 "voertuigen",
                 "weggebruikers",
-                "rangorde"
+                "rangorde",
+                "weggedeelten",
+                "snelheden",
+                "stroken",
+                "duurzaamveilig",
+                "stilstaan",
+                "lichten",
+                "mistlichten",
+                "paman",
+                "alcohol",
+                "strafbaar"
               ]
             },
             "knop": {

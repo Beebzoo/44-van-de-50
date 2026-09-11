@@ -246,6 +246,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "stilstaan",
+          "tekst": "Links mag je blijven staan zolang je bezig bent, rechts heet het parkeren.",
+          "bron": {
+            "boek": 159,
+            "sectie": "10.1",
+            "anker": "stilstaan voor het onmiddellijk in- of uitstappen van passagiers"
+          }
+        },
+        {
           "type": "valkuil",
           "tekst": "Het woord stilstaan klinkt als elke vorm van stilstaan, maar in het verkeer is het een smalle term. Wacht je in de auto op iemand die nog moet komen, dan ben je aan het parkeren, ook als je de motor laat draaien en na twee minuten weer wegrijdt.",
           "bron": {

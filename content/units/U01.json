@@ -826,6 +826,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "weggedeelten",
+          "tekst": "Een strook ligt op de rijbaan, een pad ligt ernaast. Daar draait de helft van de vragen over weggedeelten om.",
+          "bron": {
+            "boek": 35,
+            "sectie": "2.4",
+            "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Een fietsstrook is een deel van de rijbaan, een fietspad niet; dat bepaalt welke regels er gelden.",
           "bron": {

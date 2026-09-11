@@ -822,6 +822,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "stroken",
+          "tekst": "Vier namen die allemaal strook heten. Let op wat er met de vluchtstrook gebeurt.",
+          "bron": {
+            "boek": 74,
+            "sectie": "4.7",
+            "anker": "een extra rijstrook die alleen tijdens drukke momenten open is voor verkeer"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Een spitsstrook is geleende ruimte. Zolang hij open is, is hij een gewone rijstrook, en zodra hij dicht gaat is hij weer de plek waar pech en hulpdiensten terechtkunnen. Bij werkzaamheden geldt hetzelfde idee: de weg is smaller dan je gewend bent en er lopen mensen vlak naast het verkeer, dus daar past een lagere snelheid bij.",
           "bron": [
@@ -1325,6 +1335,16 @@
               "anker": "maak gebruik van de remwerking van de motor (rijd niet met slepende remmen)"
             }
           ]
+        },
+        {
+          "type": "visueel",
+          "naam": "duurzaamveilig",
+          "tekst": "Drie taken, drie wegbeelden, drie snelheden.",
+          "bron": {
+            "boek": 80,
+            "sectie": "4.10",
+            "anker": "Binnen 'Duurzaam veilig' zijn de wegen onderverdeeld in drie categorieen"
+          }
         },
         {
           "type": "valkuil",

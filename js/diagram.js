@@ -19,6 +19,9 @@ import { t } from "./taal.js";
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const ASFALT = "#2A2F36", MARK = "#F7F7F4", BERM = "#B9C3A8", FIETSPAD = "#B84A3A";
 const BLAUW = "#0B5CAD", BLAUW_ZACHT = "#9CC4EA", GEEL = "#F2B705", INKT = "#15181C", GRIJS = "#8A9099", GROEN = "#1E7F4F";
+/* geel op wit haalt geen enkele contrasteis, dus tekst die geel hoort te zijn
+   krijgt deze donkere amber en het kader blijft GEEL */
+const AMBER = "#8A6400";
 
 /* een getal zoals het boek het schrijft: komma, en geen ,00 */
 const getal = n => { const s = n.toFixed(2).replace(".", ","); return s.endsWith(",00") ? s.slice(0, -3) : s; };
@@ -273,6 +276,225 @@ function rangordeHtml() {
   </svg>`;
 }
 
+
+/* ==== 8 de standaardmaxima als staven ====
+   Een tabel met snelheden lees je als losse getallen. Als staaf zie je in een
+   oogopslag dat buiten de kom bijna twee keer zo hard gaat als erbinnen. */
+function snelhedenHtml() {
+  const rijen = [
+    [t("binnen de bebouwde kom"), 50, GROEN],
+    [t("buiten de kom, overige wegen"), 80, GEEL],
+    [t("autoweg buiten de kom"), 100, BLAUW],
+    [t("autosnelweg, 6 tot 19 uur"), 100, BLAUW],
+    [t("autosnelweg, 19 tot 6 uur"), 130, INKT],
+  ];
+  const x0 = 12, breed = 200, schaal = breed / 130;
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("De standaardmaxima"))}">
+    ${rijen.map(([naam, v, kleur], i) => {
+      const y = 16 + i * 34;
+      return `<text x="${x0}" y="${y}" font-size="11" fill="${GRIJS}">${esc(naam)}</text>
+        <rect x="${x0}" y="${y + 5}" width="${(v * schaal).toFixed(1)}" height="14" rx="3" fill="${kleur}" opacity="0.85"/>
+        <text x="${x0 + v * schaal + 8}" y="${y + 16}" font-size="12" font-weight="700" fill="${kleur}">${v} km/u</text>`;
+    }).join("")}
+    <text x="${x0}" y="192" font-size="10" fill="${GRIJS}">${esc(t("Borden kunnen altijd een lager maximum aangeven"))}</text>
+  </svg>`;
+}
+
+/* ==== 9 stilstaan, parkeren, of geen van beide ==== */
+function stilstaanHtml() {
+  const lijst = (x, items) => items.map((s, i) => `<text x="${x}" y="${106 + i * 19}" font-size="11" fill="${INKT}">${esc(s)}</text>`).join("");
+  return `<svg class="schema" viewBox="0 0 340 250" role="img" aria-label="${esc(t("Stilstaan of parkeren"))}">
+    ${label(170, 20, t("Je staat vrijwillig stil"), { grootte: 13, gewicht: 700 })}
+    <path d="M170 28 V44 M58 44 H282 M58 44 V58 M282 44 V58" stroke="${GRIJS}" stroke-width="2" fill="none"/>
+    ${doos(10, 58, 150, 110, GROEN, "rgba(30,127,79,.07)")}
+    ${label(85, 78, t("Stilstaan"), { grootte: 13, gewicht: 700, kleur: GROEN })}
+    ${label(85, 93, t("en je bent er ook mee bezig"), { grootte: 9, kleur: GRIJS })}
+    ${lijst(20, [t("in- of uitstappen"), t("laden of lossen"), t("en niet langer dan nodig")])}
+    ${doos(180, 58, 150, 110, GEEL, "rgba(242,183,5,.12)")}
+    ${label(255, 78, t("Parkeren"), { grootte: 13, gewicht: 700, kleur: INKT })}
+    ${label(255, 93, t("al het andere"), { grootte: 9, kleur: GRIJS })}
+    ${lijst(190, [t("wachten op iemand"), t("even een boodschap"), t("stilstaand bellen")])}
+    ${doos(10, 182, 320, 56, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 202, t("Geen van beide: je moest wel"), { grootte: 12, gewicht: 600, kleur: GRIJS })}
+    ${label(170, 222, t("rood licht, voorrang verlenen, file"), { grootte: 11 })}
+  </svg>`;
+}
+
+/* ==== 10 de twee alcoholgrenzen ==== */
+function alcoholHtml() {
+  const x0 = 30, breed = 250, max = 1.0;
+  const px = v => x0 + (v / max) * breed;
+  const balk = (y, naam, grens, kleur) => `
+    <text x="${x0}" y="${y}" font-size="11" fill="${GRIJS}">${esc(naam)}</text>
+    <rect x="${x0}" y="${y + 6}" width="${breed}" height="12" rx="3" fill="rgba(138,144,153,.18)"/>
+    <rect x="${x0}" y="${y + 6}" width="${(px(grens) - x0).toFixed(1)}" height="12" rx="3" fill="${kleur}" opacity="0.8"/>
+    <path d="M${px(grens).toFixed(1)} ${y + 2} V${y + 24}" stroke="${kleur}" stroke-width="2"/>
+    <text x="${px(grens).toFixed(1)}" y="${y + 36}" font-size="12" font-weight="700" fill="${kleur}" text-anchor="middle">${esc(grens.toFixed(1).replace(".", ","))}</text>`;
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("De twee alcoholgrenzen"))}">
+    ${balk(18, t("beginnende bestuurder"), 0.2, GROEN)}
+    ${balk(78, t("ervaren bestuurder"), 0.5, BLAUW)}
+    <text x="${x0}" y="148" font-size="10" fill="${GRIJS}">0</text>
+    <text x="${x0 + breed}" y="148" font-size="10" fill="${GRIJS}" text-anchor="end">1,0 ${esc(t("promille"))}</text>
+    ${doos(10, 156, 320, 38, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 172, t("Een standaardglas is 0,2 tot 0,3 promille"), { grootte: 10, gewicht: 600 })}
+    ${label(170, 187, t("en dat breek je pas in ongeveer anderhalf uur af"), { grootte: 9, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 11 duurzaam veilig: drie soorten wegen ==== */
+function duurzaamveiligHtml() {
+  const kaart = (x, kleur, naam, taak, snelheid) => {
+    const inkt = kleur === GEEL ? AMBER : kleur;
+    return doos(x, 30, 100, 150, kleur, "rgba(0,0,0,.03)") +
+      label(x + 50, 52, naam, { grootte: 11, gewicht: 700, kleur: inkt }) +
+      label(x + 50, 74, taak, { grootte: 10, kleur: GRIJS }) +
+      `<text x="${x + 50}" y="120" font-size="17" font-weight="700" fill="${inkt}" text-anchor="middle">${esc(snelheid)}</text>`;
+  };
+  return `<svg class="schema" viewBox="0 0 340 210" role="img" aria-label="${esc(t("Drie soorten wegen"))}">
+    ${label(170, 18, t("Duurzaam veilig kent drie soorten wegen"), { grootte: 12, gewicht: 600 })}
+    ${kaart(8, BLAUW, t("Stroomweg"), t("doorstromen"), "100 / 130")}
+    ${kaart(120, GEEL, t("Gebiedsontsluiting"), t("gebied ontsluiten"), "50 / 70 / 80")}
+    ${kaart(232, GROEN, t("Erftoegangsweg"), t("erven ontsluiten"), "30 / 60")}
+    ${label(58, 150, t("autoweg, autosnelweg"), { grootte: 9, kleur: GRIJS })}
+    ${label(170, 150, t("gelijkvloerse kruisingen"), { grootte: 9, kleur: GRIJS })}
+    ${label(282, 150, t("gemengd verkeer"), { grootte: 9, kleur: GRIJS })}
+    ${label(170, 200, t("km/u, binnen en buiten de bebouwde kom"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 12 welk licht wanneer ==== */
+function lichtenHtml() {
+  const rij = (y, naam, wanneer, kleur) =>
+    doos(10, y, 320, 38, kleur, "rgba(0,0,0,.03)") +
+    label(80, y + 17, naam, { grootte: 12, gewicht: 700, kleur: kleur === GEEL ? AMBER : kleur }) +
+    `<text x="150" y="${y + 17}" font-size="10" fill="${GRIJS}">${esc(wanneer)}</text>`;
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("Welk licht wanneer"))}">
+    ${rij(8, t("Dimlicht"), t("'s nachts, en overdag onder 200 meter zicht"), BLAUW)}
+    ${rij(52, t("Dagrijlicht"), t("overdag, als dimlicht niet verplicht is"), GRIJS)}
+    ${rij(96, t("Stadslicht"), t("alleen om stil te staan, nooit om te rijden"), GEEL)}
+    ${rij(140, t("Groot licht"), t("alleen 's nachts, als dimlicht te weinig is"), INKT)}
+    ${label(170, 192, t("Stadslicht is geen rijlicht"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 13 de twee mistlichten ==== */
+function mistlichtenHtml() {
+  const x0 = 20, breed = 300;
+  /* 200 meter links, 0 rechts: hoe slechter het zicht, hoe verder naar rechts */
+  const px = m => x0 + ((200 - m) / 200) * breed;
+  return `<svg class="schema" viewBox="0 0 340 210" role="img" aria-label="${esc(t("De twee mistlichten"))}">
+    <rect x="${x0}" y="26" width="${breed}" height="16" rx="3" fill="rgba(138,144,153,.18)"/>
+    <text x="${x0}" y="20" font-size="10" fill="${GRIJS}">200 m</text>
+    <text x="${px(50).toFixed(1)}" y="20" font-size="10" fill="${GRIJS}" text-anchor="middle">50 m</text>
+    <text x="${x0 + breed}" y="20" font-size="10" fill="${GRIJS}" text-anchor="end">0 m</text>
+    <path d="M${px(50).toFixed(1)} 24 V52" stroke="${GRIJS}" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <rect x="${px(200).toFixed(1)}" y="60" width="${(px(0) - px(200)).toFixed(1)}" height="30" rx="4" fill="rgba(242,183,5,.22)" stroke="${GEEL}" stroke-width="2"/>
+    ${label(170, 80, t("Mistlicht voor: mag onder de 200 meter"), { grootte: 11, gewicht: 600 })}
+    ${label(170, 100, t("bij mist, sneeuw of regen"), { grootte: 10, kleur: GRIJS })}
+
+    <rect x="${px(50).toFixed(1)}" y="116" width="${(px(0) - px(50)).toFixed(1)}" height="30" rx="4" fill="rgba(184,74,58,.18)" stroke="${FIETSPAD}" stroke-width="2"/>
+    ${label(282, 136, t("Mistachterlicht"), { grootte: 10, gewicht: 600 })}
+    ${label(170, 162, t("pas onder de 50 meter, en nooit bij regen"), { grootte: 10, kleur: GRIJS })}
+    ${doos(10, 174, 320, 30, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 194, t("Onder de 50 meter houd je drie seconden afstand"), { grootte: 11, gewicht: 600 })}
+  </svg>`;
+}
+
+/* ==== 14 PAMAN, in volgorde ==== */
+function pamanHtml() {
+  const stap = (i, letter, woord, uitleg) => {
+    const y = 8 + i * 38;
+    return `<circle cx="26" cy="${y + 18}" r="14" fill="${BLAUW}"/>
+      <text x="26" y="${y + 23}" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">${esc(letter)}</text>
+      <text x="50" y="${y + 15}" font-size="12" font-weight="700" fill="${INKT}">${esc(woord)}</text>
+      <text x="50" y="${y + 30}" font-size="10" fill="${GRIJS}">${esc(uitleg)}</text>
+      ${i < 4 ? `<path d="M26 ${y + 32} V${y + 42}" stroke="${GRIJS}" stroke-width="2"/>` : ""}`;
+  };
+  return `<svg class="schema" viewBox="0 0 340 210" role="img" aria-label="PAMAN">
+    ${stap(0, "P", t("Persoonlijke veiligheid"), t("eerst jezelf in veiligheid brengen"))}
+    ${stap(1, "A", t("Andere betrokkenen"), t("daarna de veiligheid van de rest"))}
+    ${stap(2, "M", t("Markeren"), t("de ongevalsplaats zichtbaar maken"))}
+    ${stap(3, "A", t("Alarmeren"), t("112 bellen, zeg waar en wat"))}
+    ${stap(4, "N", t("Noodzakelijke eerste hulp"), t("en pas dan helpen"))}
+  </svg>`;
+}
+
+/* ==== 15 overtreding of misdrijf ==== */
+function strafbaarHtml() {
+  const lijst = (x, items, kleur) => items.map((s, i) => `<text x="${x}" y="${102 + i * 18}" font-size="10" fill="${kleur}">${esc(s)}</text>`).join("");
+  return `<svg class="schema" viewBox="0 0 340 230" role="img" aria-label="${esc(t("Overtreding of misdrijf"))}">
+    ${label(170, 20, t("Strafbaar feit"), { grootte: 13, gewicht: 700 })}
+    <path d="M170 28 V44 M58 44 H282 M58 44 V58 M282 44 V58" stroke="${GRIJS}" stroke-width="2" fill="none"/>
+    ${doos(10, 58, 150, 162, GEEL, "rgba(242,183,5,.10)")}
+    ${label(85, 78, t("Overtreding"), { grootte: 12, gewicht: 700, kleur: INKT })}
+    ${label(85, 92, t("meestal licht"), { grootte: 9, kleur: GRIJS })}
+    ${lijst(20, [t("door rood rijden"), t("foutparkeren"), t("te hard rijden")], INKT)}
+    ${label(85, 172, t("bekeuring per post"), { grootte: 10, kleur: GRIJS })}
+    ${label(85, 188, t("zwaarder: officier"), { grootte: 10, kleur: GRIJS })}
+    ${label(85, 204, t("van justitie"), { grootte: 10, kleur: GRIJS })}
+    ${doos(180, 58, 150, 162, FIETSPAD, "rgba(184,74,58,.10)")}
+    ${label(255, 78, t("Misdrijf"), { grootte: 12, gewicht: 700, kleur: FIETSPAD })}
+    ${label(255, 92, t("ernstig"), { grootte: 9, kleur: GRIJS })}
+    ${lijst(190, [t("rijden onder invloed"), t("doorrijden na ongeval"), t("rijden tijdens ontzegging")], INKT)}
+    ${label(255, 172, t("altijd de rechter"), { grootte: 10, kleur: GRIJS })}
+    ${label(255, 188, t("hoge boete, cel of"), { grootte: 10, kleur: GRIJS })}
+    ${label(255, 204, t("ontzegging, strafblad"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+
+/* ==== 16 weg, rijbaan, rijstrook ====
+   De rijbaan is niet de weg, en het fietspad ligt er wel op maar hoort er niet
+   bij. Dat verschil kost op het examen punten en in een zin lees je erover. */
+function weggedeeltenHtml() {
+  return `<svg class="schema" viewBox="0 0 340 210" role="img" aria-label="${esc(t("Weg, rijbaan en rijstrook"))}">
+    ${doos(6, 26, 328, 150, INKT, "rgba(21,24,28,.04)")}
+    ${label(170, 18, t("Weg: alles wat openstaat voor het verkeer"), { grootte: 12, gewicht: 700 })}
+
+    <rect x="14" y="40" width="46" height="126" rx="4" fill="rgba(185,195,168,.5)" stroke="${GRIJS}" stroke-width="1"/>
+    ${label(37, 106, t("berm"), { grootte: 10, kleur: GRIJS })}
+
+    <rect x="66" y="40" width="46" height="126" rx="4" fill="rgba(184,74,58,.14)" stroke="${FIETSPAD}" stroke-width="2"/>
+    ${label(89, 100, t("fietspad"), { grootte: 10, kleur: FIETSPAD })}
+    ${label(89, 116, t("ligt ernaast"), { grootte: 8, kleur: GRIJS })}
+
+    ${doos(120, 40, 210, 126, BLAUW, "rgba(11,92,173,.07)")}
+    ${label(225, 58, t("Rijbaan"), { grootte: 12, gewicht: 700, kleur: BLAUW })}
+    <rect x="130" y="68" width="60" height="88" rx="3" fill="rgba(11,92,173,.12)" stroke="${BLAUW}" stroke-width="1"/>
+    ${label(160, 116, t("rijstrook"), { grootte: 10 })}
+    <rect x="196" y="68" width="60" height="88" rx="3" fill="rgba(11,92,173,.12)" stroke="${BLAUW}" stroke-width="1"/>
+    ${label(226, 116, t("rijstrook"), { grootte: 10 })}
+    <rect x="262" y="68" width="58" height="88" rx="3" fill="rgba(242,183,5,.18)" stroke="${GEEL}" stroke-width="1"/>
+    ${label(291, 108, t("fietsstrook"), { grootte: 9 })}
+    ${label(291, 124, t("of busstrook"), { grootte: 9 })}
+
+    ${label(170, 196, t("Een strook ligt op de rijbaan, een pad ligt ernaast"), { grootte: 11, gewicht: 600, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 17 de stroken op de snelweg ====
+   Vier namen die allemaal "strook" heten en op de foto op elkaar lijken. Naast
+   elkaar zie je waar ze liggen en wat er met de vluchtstrook gebeurt. */
+function strokenHtml() {
+  const strook = (x, w, vul, rand, naam, sub) =>
+    `<rect x="${x}" y="36" width="${w}" height="110" rx="4" fill="${vul}" stroke="${rand}" stroke-width="2"/>` +
+    label(x + w / 2, 100, naam, { grootte: 10, gewicht: 700 }) +
+    (sub ? label(x + w / 2, 116, sub, { grootte: 8, kleur: GRIJS }) : "");
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("De stroken op de snelweg"))}">
+    ${label(170, 18, t("Van links naar rechts op een autosnelweg"), { grootte: 11, gewicht: 600 })}
+    ${label(28, 32, t("links"), { grootte: 8, kleur: GRIJS })}
+    ${label(310, 32, t("rechts"), { grootte: 8, kleur: GRIJS })}
+    ${strook(8, 56, "rgba(30,127,79,.14)", GROEN, t("plusstrook"), t("smaller"))}
+    ${strook(68, 76, "rgba(42,47,54,.10)", GRIJS, t("rijstrook"), "")}
+    ${strook(148, 76, "rgba(42,47,54,.10)", GRIJS, t("rijstrook"), "")}
+    ${strook(228, 104, "rgba(242,183,5,.18)", GEEL, t("vluchtstrook"), t("of spitsstrook"))}
+    ${doos(8, 154, 324, 40, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 170, t("Plusstrook links: de vluchtstrook blijft vrij"), { grootte: 10, gewicht: 600, kleur: GROEN })}
+    ${label(170, 186, t("Spitsstrook rechts: de vluchtstrook is dan in gebruik"), { grootte: 10, gewicht: 600, kleur: AMBER })}
+  </svg>`;
+}
+
 const DIAGRAMMEN = {
   remweg: { html: remwegHtml, titel: () => t("Reactieafstand, remweg en stopafstand") },
   dodehoek: { html: dodehoekHtml, titel: () => t("De dode hoek") },
@@ -281,6 +503,16 @@ const DIAGRAMMEN = {
   voertuigen: { html: voertuigenHtml, titel: () => t("Voertuigen en waar ze onder vallen") },
   weggebruikers: { html: weggebruikersHtml, titel: () => t("Voetganger of bestuurder") },
   rangorde: { html: rangordeHtml, titel: () => t("De rangorde: wie overstemt wie") },
+  snelheden: { html: snelhedenHtml, titel: () => t("De standaardmaxima") },
+  stilstaan: { html: stilstaanHtml, titel: () => t("Stilstaan of parkeren") },
+  alcohol: { html: alcoholHtml, titel: () => t("De twee alcoholgrenzen") },
+  duurzaamveilig: { html: duurzaamveiligHtml, titel: () => t("Drie soorten wegen") },
+  lichten: { html: lichtenHtml, titel: () => t("Welk licht wanneer") },
+  mistlichten: { html: mistlichtenHtml, titel: () => t("De twee mistlichten") },
+  paman: { html: pamanHtml, titel: () => t("PAMAN, in volgorde") },
+  strafbaar: { html: strafbaarHtml, titel: () => t("Overtreding of misdrijf") },
+  weggedeelten: { html: weggedeeltenHtml, titel: () => t("Weg, rijbaan en rijstrook") },
+  stroken: { html: strokenHtml, titel: () => t("De stroken op de snelweg") },
 };
 export const kentDiagram = naam => Object.prototype.hasOwnProperty.call(DIAGRAMMEN, naam);
 export const diagramNamen = () => Object.keys(DIAGRAMMEN);

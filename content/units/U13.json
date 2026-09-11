@@ -544,6 +544,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "alcohol",
+          "tekst": "Twee grenzen, en een glas dat je pas in anderhalf uur kwijt bent.",
+          "bron": {
+            "boek": 15,
+            "sectie": "1.3",
+            "anker": "De toegestane hoeveelheid alcohol voor autobestuurders is"
+          }
+        },
+        {
           "type": "tekst",
           "tekst": "Hoe hoog je promillage precies wordt, valt vooraf niet te zeggen. Alcohol werkt extra sterk bij kleine, lichte mensen, bij mensen die geen alcohol gewend zijn en als je op een nuchtere maag drinkt.",
           "bron": {
@@ -1540,6 +1550,16 @@
               "anker": "Als je de cursus niet volgt, wordt je rijbewijs ongeldig verklaard"
             }
           ]
+        },
+        {
+          "type": "visueel",
+          "naam": "strafbaar",
+          "tekst": "Links de bekeuring per post, rechts altijd de rechter.",
+          "bron": {
+            "boek": 40,
+            "sectie": "2.6",
+            "anker": "Wie de regels van een wet overtreedt, pleegt een strafbaar feit"
+          }
         },
         {
           "type": "tabel",

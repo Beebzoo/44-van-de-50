@@ -111,6 +111,9 @@
           "tekst": "You are not allowed to drive off with only your sidelights and rear light on."
         },
         {
+          "tekst": "The parking light is in there on purpose: that is for standing still, not for driving."
+        },
+        {
           "tekst": "Inside built-up areas it can be sensible to switch on your sidelights and rear light when you are stopped in a dangerous or obstructive place, but there it is not compulsory. You can use your parking lights for this instead."
         },
         {
@@ -275,6 +278,9 @@
         },
         {
           "tekst": "If visibility is less than 50 metres because of very dense fog or heavy snowfall, so not in rain, you may switch on your rear fog light (mistachterlicht). Only do that if it is better for safety."
+        },
+        {
+          "tekst": "The two lamps each have their own threshold, and the rear one is never allowed in rain."
         },
         {
           "kop": [

@@ -659,6 +659,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "paman",
+          "tekst": "De volgorde is de hele regel: eerst jezelf, pas als laatste de eerste hulp.",
+          "bron": {
+            "boek": 170,
+            "sectie": "10.7",
+            "anker": "Stilstaande voertuigen met zwaailicht van politie of Rijkswaterstaat waarschuwen je voor een ongeval"
+          }
+        },
+        {
           "type": "tekst",
           "tekst": "Meestal zijn hulpdiensten snel ter plaatse. Wat jij moet kunnen is vooral de hulp die geen seconde uitstel kan dulden: controleer of iemand reageert en of hij ademt, en stop een slagaderlijke bloeding door de wond dicht te drukken. De rest laat je aan de professionals over.",
           "bron": [

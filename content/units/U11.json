@@ -435,6 +435,16 @@
           }
         },
         {
+          "type": "visueel",
+          "naam": "lichten",
+          "tekst": "Stadslicht staat er bewust tussen: dat is om stil te staan en niet om te rijden.",
+          "bron": {
+            "boek": 184,
+            "sectie": "11.2",
+            "anker": "overdag als er sprake is van slecht zicht (minder dan 200 meter)"
+          }
+        },
+        {
           "type": "callout",
           "stijl": "weetje",
           "tekst": "Binnen de bebouwde kom kan het verstandig zijn je stadslicht en achterlicht in te schakelen als je op een gevaarlijke of hinderlijke plaats stilstaat, maar verplicht is het daar niet. Je kunt er ook je parkeerlichten voor gebruiken.",
@@ -996,6 +1006,16 @@
               "anker": "Doe dat alleen als het beter is voor de veiligheid"
             }
           ]
+        },
+        {
+          "type": "visueel",
+          "naam": "mistlichten",
+          "tekst": "De twee lampen hebben elk hun eigen grens, en achter mag nooit bij regen.",
+          "bron": {
+            "boek": 190,
+            "sectie": "11.4",
+            "anker": "Tijdens zeer dichte mist (zicht minder dan 50 meter) zijn dit de belangrijkste maatregelen"
+          }
         },
         {
           "type": "tabel",

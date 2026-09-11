@@ -6,124 +6,339 @@
     "U08-P01": {
       "titel": "The expressway (autoweg)",
       "body": [
-        { "tekst": "You recognise an expressway (autoweg) by sign [G3]. Sign [G4] shows that the expressway ends." },
-        { "tekst": "Only motor vehicles that are able and allowed to do at least 50 km/h may use an expressway." },
-        { "tekst": "The speed limit on expressways is 100 km/h by default outside the built-up area (bebouwde kom) and 50 km/h by default inside the built-up area. Signs can give a different speed limit." },
-        { "tekst": "Expressways often have one carriageway (rijbaan) with oncoming traffic, but they can also have separate carriageways. You can come across level junctions and roundabouts." },
-        { "tekst": "An expressway usually has short merging lanes (invoegstroken) and no hard shoulder (vluchtstrook)." },
-        { "tekst": "The expressway sits between the ordinary road and the motorway (autosnelweg). It is built for driving on, but all sorts of things can still cross it and there is often no lane to pull off onto. So on an expressway you count on a junction or a roundabout turning up suddenly, and on a merging lane being short." },
-        { "tekst": "This is what an expressway often looks like: one carriageway with oncoming traffic and sign [G3] on the right." },
-        { "tekst": "You are driving outside the built-up area on a road with a double line with green infill down the middle and a solid edge marking. That is the picture of an expressway, and without another sign you may do 100 km/h." },
-        { "tekst": "There are also expressways that look like motorways. Only the sign then tells you that you are on an expressway, so only the sign tells you which speed and which rules apply." },
-        { "tekst": "Expressway: [G3], able and allowed to do at least 50 km/h, 100 km/h by default outside the built-up area, junctions and roundabouts are possible." },
-        { "vraag": "May a vehicle that cannot go faster than 45 km/h use the expressway?", "antwoord": "No.", "uitleg": "Only motor vehicles that are able and allowed to do at least 50 km/h may use an expressway." },
-        { "vraag": "You are on an expressway outside the built-up area and you see no speed sign anywhere. How fast may you go?", "antwoord": "100 km/h.", "uitleg": "That is the default on expressways outside the built-up area; a sign can make it a different speed." }
+        {
+          "tekst": "You recognise an expressway (autoweg) by sign [G3]. Sign [G4] shows that the expressway ends."
+        },
+        {
+          "tekst": "Only motor vehicles that are able and allowed to do at least 50 km/h may use an expressway."
+        },
+        {
+          "tekst": "The speed limit on expressways is 100 km/h by default outside the built-up area (bebouwde kom) and 50 km/h by default inside the built-up area. Signs can give a different speed limit."
+        },
+        {
+          "tekst": "Expressways often have one carriageway (rijbaan) with oncoming traffic, but they can also have separate carriageways. You can come across level junctions and roundabouts."
+        },
+        {
+          "tekst": "An expressway usually has short merging lanes (invoegstroken) and no hard shoulder (vluchtstrook)."
+        },
+        {
+          "tekst": "The expressway sits between the ordinary road and the motorway (autosnelweg). It is built for driving on, but all sorts of things can still cross it and there is often no lane to pull off onto. So on an expressway you count on a junction or a roundabout turning up suddenly, and on a merging lane being short."
+        },
+        {
+          "tekst": "This is what an expressway often looks like: one carriageway with oncoming traffic and sign [G3] on the right."
+        },
+        {
+          "tekst": "You are driving outside the built-up area on a road with a double line with green infill down the middle and a solid edge marking. That is the picture of an expressway, and without another sign you may do 100 km/h."
+        },
+        {
+          "tekst": "There are also expressways that look like motorways. Only the sign then tells you that you are on an expressway, so only the sign tells you which speed and which rules apply."
+        },
+        {
+          "tekst": "Expressway: [G3], able and allowed to do at least 50 km/h, 100 km/h by default outside the built-up area, junctions and roundabouts are possible."
+        },
+        {
+          "vraag": "May a vehicle that cannot go faster than 45 km/h use the expressway?",
+          "antwoord": "No.",
+          "uitleg": "Only motor vehicles that are able and allowed to do at least 50 km/h may use an expressway."
+        },
+        {
+          "vraag": "You are on an expressway outside the built-up area and you see no speed sign anywhere. How fast may you go?",
+          "antwoord": "100 km/h.",
+          "uitleg": "That is the default on expressways outside the built-up area; a sign can make it a different speed."
+        }
       ]
     },
     "U08-P02": {
       "titel": "The motorway (autosnelweg)",
       "body": [
-        { "tekst": "Motorways (autosnelweg) are indicated by sign [G1]. Sign [G2] means end of motorway." },
-        { "tekst": "Only motor vehicles that are able and allowed to do at least 60 km/h may use a motorway." },
-        { "tekst": "Motorways always have separate carriageways (rijbaan) with two or more lanes (rijstrook). To the right of the carriageway lies a hard shoulder (vluchtstrook), and where there are more than three lanes there is often one on the left as well. You come across no level junctions or roundabouts." },
-        { "tekst": "The speed limit on motorways is 100 km/h during the day, between 6 and 19, and 100, 120 or 130 km/h in the evening and at night. A lower limit can also apply, temporarily or permanently, for example on ring roads around big cities." },
-        { "tekst": "At the entry slip road of a motorway the speed limit is only signposted if it is lower than 130 km/h." },
-        { "tekst": "To prevent confusion about the speed limit, the speed is shown on the hectometre posts at every full kilometre. Where there are three or more lanes, that marking is also placed on the left of the road." },
-        { "tekst": "The course puts it bluntly: the default is 130 km/h, but in practice you often may not go that fast. The number that counts comes from the signs and from the little post beside the road, not from what you think you know about this stretch of motorway. So on a long drive you keep checking, because the limit can differ per section and per time of day." },
         {
-          "kop": ["When", "What applies on the motorway"],
+          "tekst": "Motorways (autosnelweg) are indicated by sign [G1]. Sign [G2] means end of motorway."
+        },
+        {
+          "tekst": "Only motor vehicles that are able and allowed to do at least 60 km/h may use a motorway."
+        },
+        {
+          "tekst": "Motorways always have separate carriageways (rijbaan) with two or more lanes (rijstrook). To the right of the carriageway lies a hard shoulder (vluchtstrook), and where there are more than three lanes there is often one on the left as well. You come across no level junctions or roundabouts."
+        },
+        {
+          "tekst": "The speed limit on motorways is 100 km/h during the day, between 6 and 19, and 100, 120 or 130 km/h in the evening and at night. A lower limit can also apply, temporarily or permanently, for example on ring roads around big cities."
+        },
+        {
+          "tekst": "At the entry slip road of a motorway the speed limit is only signposted if it is lower than 130 km/h."
+        },
+        {
+          "tekst": "To prevent confusion about the speed limit, the speed is shown on the hectometre posts at every full kilometre. Where there are three or more lanes, that marking is also placed on the left of the road."
+        },
+        {
+          "tekst": "The course puts it bluntly: the default is 130 km/h, but in practice you often may not go that fast. The number that counts comes from the signs and from the little post beside the road, not from what you think you know about this stretch of motorway. So on a long drive you keep checking, because the limit can differ per section and per time of day."
+        },
+        {
+          "kop": [
+            "When",
+            "What applies on the motorway"
+          ],
           "rijen": [
-            ["during the day, between 6 and 19", "100 km/h by default"],
-            ["evening and night", "100, 120 or 130 km/h, the signs tell you"],
-            ["many ring roads around big cities", "80 km/h"],
-            ["no speed sign at the entry slip road", "then the maximum is 130 km/h"]
+            [
+              "during the day, between 6 and 19",
+              "100 km/h by default"
+            ],
+            [
+              "evening and night",
+              "100, 120 or 130 km/h, the signs tell you"
+            ],
+            [
+              "many ring roads around big cities",
+              "80 km/h"
+            ],
+            [
+              "no speed sign at the entry slip road",
+              "then the maximum is 130 km/h"
+            ]
           ]
         },
-        { "tekst": "Four signs you have to keep apart: [G1] motorway, [G2] end of motorway, [G3] expressway (autoweg), [G4] end of expressway." },
-        { "tekst": "No sign at the entry slip road does not mean there is no limit. It means the limit is 130 km/h, and during the day that still works out at 100 km/h." },
-        { "tekst": "Motorway: [G1], at least 60 km/h, separate carriageways, hard shoulder on the right, never a level junction." },
-        { "vraag": "Without a sign, how do you see the difference between an expressway and a motorway?", "antwoord": "By the separate carriageways and the hard shoulder of the motorway.", "uitleg": "Those are the features of a motorway; an expressway can sometimes look the same, and then only the sign tells you." },
-        { "vraag": "You are driving on a motorway at three in the afternoon and there are no speed signs. How fast may you go?", "antwoord": "100 km/h.", "uitleg": "Between 6 and 19 the default is 100 km/h, even when there is no sign." }
+        {
+          "tekst": "Four signs you have to keep apart: [G1] motorway, [G2] end of motorway, [G3] expressway (autoweg), [G4] end of expressway."
+        },
+        {
+          "tekst": "No sign at the entry slip road does not mean there is no limit. It means the limit is 130 km/h, and during the day that still works out at 100 km/h."
+        },
+        {
+          "tekst": "Motorway: [G1], at least 60 km/h, separate carriageways, hard shoulder on the right, never a level junction."
+        },
+        {
+          "vraag": "Without a sign, how do you see the difference between an expressway and a motorway?",
+          "antwoord": "By the separate carriageways and the hard shoulder of the motorway.",
+          "uitleg": "Those are the features of a motorway; an expressway can sometimes look the same, and then only the sign tells you."
+        },
+        {
+          "vraag": "You are driving on a motorway at three in the afternoon and there are no speed signs. How fast may you go?",
+          "antwoord": "100 km/h.",
+          "uitleg": "Between 6 and 19 the default is 100 km/h, even when there is no sign."
+        }
       ]
     },
     "U08-P03": {
       "titel": "What you may not do and which lane you pick",
       "body": [
-        { "tekst": "On an expressway (autoweg) and a motorway (autosnelweg) you may not reverse, you may not turn round and you may not let your car stand still on the carriageway (rijbaan)." },
-        { "tekst": "You may not use the hard shoulder (vluchtstrook), the emergency lay-by (vluchthaven) or the verge (berm) with your car, and not on foot either. Only in an emergency is it allowed." },
-        { "tekst": "If the carriageway of a motorway has more than two lanes (rijstrook), lorries and vehicles with a trailer (aanhangwagen) that are longer than 7 metres together may only use the two right-hand lanes. To get into lane (voorsorteren) they may go further left." },
-        { "tekst": "Use the right-hand lane as much as you can. The other lanes you use only for overtaking (inhalen) or to get into lane. Driving on the left or in the middle without need is forbidden and only allowed when you are in a traffic jam." },
-        { "tekst": "If it can be done safely, move over a lane to make room for merging traffic (invoegen) or for heavy traffic that has trouble merging." },
-        { "tekst": "If you are in a traffic jam and an emergency vehicle with priority (voorrangsvoertuig) cannot get past along the hard shoulder, you make room: in the left-hand lane you drive all the way to the left, in the right-hand lane all the way to the right. That leaves a clear gap to pass through down the middle." },
-        { "tekst": "Everything on this list comes down to the same thing: on a fast road everyone counts on traffic going one way and staying in motion. Whoever turns round, reverses or stands still puts something crossways in a stream that is coming at it at 100 km/h. And whoever hangs about on the left without need squeezes all the others through the right-hand lanes, which produces jams and risky overtaking." },
-        { "tekst": "You are in the left-hand lane of a motorway with three lanes and you have finished overtaking. The lane to your right is clear. You go back to the right, because the left-hand lane is there to overtake in, not to stay in." },
-        { "tekst": "The hard shoulder is not a waiting spot and not a place to step out for a moment. On foot it is forbidden too, except in an emergency. And watch the exception for the long combinations: to get into lane they may go further to the left." },
-        { "tekst": "No reversing, no turning round, no standing still, no going onto the hard shoulder. Keep right, overtake on the left." },
-        { "vraag": "You miss your exit on the motorway. May you reverse a little way along the hard shoulder?", "antwoord": "No.", "uitleg": "Reversing is not allowed and you may only use the hard shoulder in an emergency; you drive on to the next exit." },
-        { "vraag": "Your car and caravan together are longer than 7 metres. Which lanes may you use on a motorway with three lanes?", "antwoord": "Only the two right-hand lanes.", "uitleg": "To get into lane you may go further to the left." }
+        {
+          "tekst": "On an expressway (autoweg) and a motorway (autosnelweg) you may not reverse, you may not turn round and you may not let your car stand still on the carriageway (rijbaan)."
+        },
+        {
+          "tekst": "You may not use the hard shoulder (vluchtstrook), the emergency lay-by (vluchthaven) or the verge (berm) with your car, and not on foot either. Only in an emergency is it allowed."
+        },
+        {
+          "tekst": "If the carriageway of a motorway has more than two lanes (rijstrook), lorries and vehicles with a trailer (aanhangwagen) that are longer than 7 metres together may only use the two right-hand lanes. To get into lane (voorsorteren) they may go further left."
+        },
+        {
+          "tekst": "Use the right-hand lane as much as you can. The other lanes you use only for overtaking (inhalen) or to get into lane. Driving on the left or in the middle without need is forbidden and only allowed when you are in a traffic jam."
+        },
+        {
+          "tekst": "If it can be done safely, move over a lane to make room for merging traffic (invoegen) or for heavy traffic that has trouble merging."
+        },
+        {
+          "tekst": "If you are in a traffic jam and an emergency vehicle with priority (voorrangsvoertuig) cannot get past along the hard shoulder, you make room: in the left-hand lane you drive all the way to the left, in the right-hand lane all the way to the right. That leaves a clear gap to pass through down the middle."
+        },
+        {
+          "tekst": "Everything on this list comes down to the same thing: on a fast road everyone counts on traffic going one way and staying in motion. Whoever turns round, reverses or stands still puts something crossways in a stream that is coming at it at 100 km/h. And whoever hangs about on the left without need squeezes all the others through the right-hand lanes, which produces jams and risky overtaking."
+        },
+        {
+          "tekst": "You are in the left-hand lane of a motorway with three lanes and you have finished overtaking. The lane to your right is clear. You go back to the right, because the left-hand lane is there to overtake in, not to stay in."
+        },
+        {
+          "tekst": "The hard shoulder is not a waiting spot and not a place to step out for a moment. On foot it is forbidden too, except in an emergency. And watch the exception for the long combinations: to get into lane they may go further to the left."
+        },
+        {
+          "tekst": "No reversing, no turning round, no standing still, no going onto the hard shoulder. Keep right, overtake on the left."
+        },
+        {
+          "vraag": "You miss your exit on the motorway. May you reverse a little way along the hard shoulder?",
+          "antwoord": "No.",
+          "uitleg": "Reversing is not allowed and you may only use the hard shoulder in an emergency; you drive on to the next exit."
+        },
+        {
+          "vraag": "Your car and caravan together are longer than 7 metres. Which lanes may you use on a motorway with three lanes?",
+          "antwoord": "Only the two right-hand lanes.",
+          "uitleg": "To get into lane you may go further to the left."
+        }
       ]
     },
     "U08-P04": {
       "titel": "Rush-hour lanes, dedicated lanes and roadworks",
       "body": [
-        { "tekst": "A rush-hour lane (spitsstrook) is an extra lane that is only open to traffic at busy times. That can be the hard shoulder (vluchtstrook) on the right, or an extra lane on the left called a plus lane (plusstrook)." },
-        { "tekst": "Signs and electronic lane signalling show whether the rush-hour lane is open or closed. After the sign with the red cross the rush-hour lane stops and becomes hard shoulder again, so you may not drive on there." },
-        { "tekst": "If a rush-hour lane on the right is open, you follow it as much as you can, because after all you have to keep as far right as you can. Bear in mind that there is no hard shoulder any more; there is an emergency lay-by (vluchthaven) every few kilometres though." },
-        { "tekst": "Sometimes there are extra lanes for particular vehicles, for example for lorries with [F21] or for buses with [F19]. Only those vehicles may use these dedicated lanes (doelgroepstroken); as a car driver you may not drive on them." },
-        { "tekst": "At roadworks one or more lanes are often closed and the speed limit is lowered. Adjust your speed in good time, stop overtaking and let others merge safely." },
-        { "tekst": "Yellow lines can be used to mark temporary lanes. They then replace the original white lines. The temporary lanes are usually narrower and a hard shoulder is often missing." },
-        { "tekst": "A rush-hour lane is borrowed space. As long as it is open it is an ordinary lane, and the moment it closes it is once again the place where breakdowns and the emergency services can go. At roadworks the same idea applies: the road is narrower than you are used to and there are people working right beside the traffic, so a lower speed goes with it." },
-        { "tekst": "A red cross appears above the rush-hour lane while you are driving on it. You merge to the left as soon as it can be done safely, because past that point the lane is hard shoulder again." },
-        { "tekst": "Before a rush-hour lane opens, cameras check whether the hard shoulder is clear. That is why rush-hour lanes often stay closed when it is foggy." },
-        { "tekst": "An open rush-hour lane on the right is not a choice but a lane you follow as much as you can. And if you break down, do not think of the hard shoulder that is no longer there: try to reach the next emergency lay-by." },
-        { "tekst": "Green arrow: you may drive. Red cross: get off it. Yellow beats white. At roadworks the fines are extra high." },
-        { "vraag": "At roadworks there are yellow lines beside the old white ones. Which do you follow?", "antwoord": "The yellow ones.", "uitleg": "Temporary yellow lines replace the original white lines." },
-        { "vraag": "Why do rush-hour lanes often stay closed in fog?", "antwoord": "Because cameras have to check whether the hard shoulder is clear.", "uitleg": "If that check cannot be done properly, the lane does not open." }
+        {
+          "tekst": "A rush-hour lane (spitsstrook) is an extra lane that is only open to traffic at busy times. That can be the hard shoulder (vluchtstrook) on the right, or an extra lane on the left called a plus lane (plusstrook)."
+        },
+        {
+          "tekst": "Signs and electronic lane signalling show whether the rush-hour lane is open or closed. After the sign with the red cross the rush-hour lane stops and becomes hard shoulder again, so you may not drive on there."
+        },
+        {
+          "tekst": "If a rush-hour lane on the right is open, you follow it as much as you can, because after all you have to keep as far right as you can. Bear in mind that there is no hard shoulder any more; there is an emergency lay-by (vluchthaven) every few kilometres though."
+        },
+        {
+          "tekst": "Sometimes there are extra lanes for particular vehicles, for example for lorries with [F21] or for buses with [F19]. Only those vehicles may use these dedicated lanes (doelgroepstroken); as a car driver you may not drive on them."
+        },
+        {
+          "tekst": "At roadworks one or more lanes are often closed and the speed limit is lowered. Adjust your speed in good time, stop overtaking and let others merge safely."
+        },
+        {
+          "tekst": "Yellow lines can be used to mark temporary lanes. They then replace the original white lines. The temporary lanes are usually narrower and a hard shoulder is often missing."
+        },
+        {
+          "tekst": "Four names that are all called strook. Watch what happens to the hard shoulder."
+        },
+        {
+          "tekst": "A rush-hour lane is borrowed space. As long as it is open it is an ordinary lane, and the moment it closes it is once again the place where breakdowns and the emergency services can go. At roadworks the same idea applies: the road is narrower than you are used to and there are people working right beside the traffic, so a lower speed goes with it."
+        },
+        {
+          "tekst": "A red cross appears above the rush-hour lane while you are driving on it. You merge to the left as soon as it can be done safely, because past that point the lane is hard shoulder again."
+        },
+        {
+          "tekst": "Before a rush-hour lane opens, cameras check whether the hard shoulder is clear. That is why rush-hour lanes often stay closed when it is foggy."
+        },
+        {
+          "tekst": "An open rush-hour lane on the right is not a choice but a lane you follow as much as you can. And if you break down, do not think of the hard shoulder that is no longer there: try to reach the next emergency lay-by."
+        },
+        {
+          "tekst": "Green arrow: you may drive. Red cross: get off it. Yellow beats white. At roadworks the fines are extra high."
+        },
+        {
+          "vraag": "At roadworks there are yellow lines beside the old white ones. Which do you follow?",
+          "antwoord": "The yellow ones.",
+          "uitleg": "Temporary yellow lines replace the original white lines."
+        },
+        {
+          "vraag": "Why do rush-hour lanes often stay closed in fog?",
+          "antwoord": "Because cameras have to check whether the hard shoulder is clear.",
+          "uitleg": "If that check cannot be done properly, the lane does not open."
+        }
       ]
     },
     "U08-P05": {
       "titel": "Reading the signposting",
       "body": [
-        { "tekst": "Signposting (bewegwijzering) points you the right way. On motorways (autosnelweg) you often find decision signs with arrows above the road: follow your destination and move into the lane shown." },
-        { "tekst": "The signs often carry symbols. Those give the direction to an airport, a motorway interchange, a ferry, a restaurant or a car park, for example." },
-        { "tekst": "Advance direction signs (voorwegwijzers) show the shape of a junction or roundabout as a diagram. You then know what sort of junction or roundabout you are approaching and how to drive for your direction." },
-        { "tekst": "You recognise a fork of expressways (autoweg) and motorways by the green and white fork sign. The roads to the left and right of it are both expressways or motorways." },
-        { "tekst": "A number and letter combination in a coloured box shows what sort of road you are going to follow: an E road is an international European main route, an A road is a Dutch motorway and an N road is a Dutch main traffic road that is not a motorway." },
-        { "tekst": "A road number tells you what sort of road is coming, and so what you can expect there. Pick an N road at an interchange and you go straight from a road without junctions onto a road with junctions. Whoever only watches the place names misses that." },
-        { "tekst": "The K family is the signposting. [K4] hangs high above a motorway, [K3] points to a service area with parking, food and fuel, [K5] stands along a road that is not a motorway and [K9] is a diversion." },
-        { "tekst": "A blue sign shows Arnhem and Utrecht, with A12 in a red box and E30 in a green box beside them. The national motorway A12 is part of the European main route E30, so this is the same road with two numbers." },
-        { "tekst": "An E number is no proof that you are on a motorway: often it is one, but it does not have to be. And you pick your sign early, because moving into the lane shown takes time." },
-        { "tekst": "Red box is an A road, green box an E road, yellow box an N road. Green and white with arrow points is a fork." },
-        { "vraag": "At an interchange you follow a sign with N225 in a yellow box. What sort of road are you driving onto?", "antwoord": "A Dutch main traffic road that is not a motorway.", "uitleg": "An N road is a main traffic road but not a motorway, so count on junctions and a different speed." },
-        { "vraag": "What is an advance direction sign with a diagram of a junction good for?", "antwoord": "You see in advance what sort of junction you are approaching and how to drive.", "uitleg": "That way you can pick the right lane in time instead of deciding at the junction itself." }
+        {
+          "tekst": "Signposting (bewegwijzering) points you the right way. On motorways (autosnelweg) you often find decision signs with arrows above the road: follow your destination and move into the lane shown."
+        },
+        {
+          "tekst": "The signs often carry symbols. Those give the direction to an airport, a motorway interchange, a ferry, a restaurant or a car park, for example."
+        },
+        {
+          "tekst": "Advance direction signs (voorwegwijzers) show the shape of a junction or roundabout as a diagram. You then know what sort of junction or roundabout you are approaching and how to drive for your direction."
+        },
+        {
+          "tekst": "You recognise a fork of expressways (autoweg) and motorways by the green and white fork sign. The roads to the left and right of it are both expressways or motorways."
+        },
+        {
+          "tekst": "A number and letter combination in a coloured box shows what sort of road you are going to follow: an E road is an international European main route, an A road is a Dutch motorway and an N road is a Dutch main traffic road that is not a motorway."
+        },
+        {
+          "tekst": "A road number tells you what sort of road is coming, and so what you can expect there. Pick an N road at an interchange and you go straight from a road without junctions onto a road with junctions. Whoever only watches the place names misses that."
+        },
+        {
+          "tekst": "The K family is the signposting. [K4] hangs high above a motorway, [K3] points to a service area with parking, food and fuel, [K5] stands along a road that is not a motorway and [K9] is a diversion."
+        },
+        {
+          "tekst": "A blue sign shows Arnhem and Utrecht, with A12 in a red box and E30 in a green box beside them. The national motorway A12 is part of the European main route E30, so this is the same road with two numbers."
+        },
+        {
+          "tekst": "An E number is no proof that you are on a motorway: often it is one, but it does not have to be. And you pick your sign early, because moving into the lane shown takes time."
+        },
+        {
+          "tekst": "Red box is an A road, green box an E road, yellow box an N road. Green and white with arrow points is a fork."
+        },
+        {
+          "vraag": "At an interchange you follow a sign with N225 in a yellow box. What sort of road are you driving onto?",
+          "antwoord": "A Dutch main traffic road that is not a motorway.",
+          "uitleg": "An N road is a main traffic road but not a motorway, so count on junctions and a different speed."
+        },
+        {
+          "vraag": "What is an advance direction sign with a diagram of a junction good for?",
+          "antwoord": "You see in advance what sort of junction you are approaching and how to drive.",
+          "uitleg": "That way you can pick the right lane in time instead of deciding at the junction itself."
+        }
       ]
     },
     "U08-P06": {
       "titel": "Sustainable Safety (Duurzaam veilig): three sorts of road",
       "body": [
-        { "tekst": "Under Sustainable Safety (Duurzaam veilig) roads are divided into three categories: flow roads (stroomwegen), district access roads (gebiedsontsluitingswegen) and residential access roads (erftoegangswegen). As a driver you have to show the right behaviour on each of the three." },
-        { "tekst": "Flow roads are meant to let traffic move on as fast as possible. Most expressways (autoweg) and motorways (autosnelweg) are designated as flow roads." },
-        { "tekst": "District access roads are roads with level junctions meant to give access to rural or urban areas. Inside the built-up area (bebouwde kom) the speed is 50 km/h or 70 km/h, outside the built-up area 80 km/h." },
-        { "tekst": "Residential access roads are roads where slow traffic and motorised traffic are mixed, with no separation of the directions and usually without separate cycle paths (fietspad). The speed is 30 km/h inside the built-up area and 60 km/h outside the built-up area." },
-        { "tekst": "A residential access road outside the built-up area: there is no separate cycle path, so the cyclist rides ahead of you on your own half of the road." },
-        { "tekst": "The road marking tells you the speed limit on expressways, on 80 km/h roads and on 60 km/h roads. You also recognise a 60 km/h zone by the zone sign." },
         {
-          "kop": ["Sort of road", "How you see it", "Speed"],
+          "tekst": "Under Sustainable Safety (Duurzaam veilig) roads are divided into three categories: flow roads (stroomwegen), district access roads (gebiedsontsluitingswegen) and residential access roads (erftoegangswegen). As a driver you have to show the right behaviour on each of the three."
+        },
+        {
+          "tekst": "Flow roads are meant to let traffic move on as fast as possible. Most expressways (autoweg) and motorways (autosnelweg) are designated as flow roads."
+        },
+        {
+          "tekst": "District access roads are roads with level junctions meant to give access to rural or urban areas. Inside the built-up area (bebouwde kom) the speed is 50 km/h or 70 km/h, outside the built-up area 80 km/h."
+        },
+        {
+          "tekst": "Residential access roads are roads where slow traffic and motorised traffic are mixed, with no separation of the directions and usually without separate cycle paths (fietspad). The speed is 30 km/h inside the built-up area and 60 km/h outside the built-up area."
+        },
+        {
+          "tekst": "A residential access road outside the built-up area: there is no separate cycle path, so the cyclist rides ahead of you on your own half of the road."
+        },
+        {
+          "tekst": "The road marking tells you the speed limit on expressways, on 80 km/h roads and on 60 km/h roads. You also recognise a 60 km/h zone by the zone sign."
+        },
+        {
+          "kop": [
+            "Sort of road",
+            "How you see it",
+            "Speed"
+          ],
           "rijen": [
-            ["flow road, built as an expressway", "double centre marking with green infill, solid edge marking", "100 km/h"],
-            ["flow road, built as a motorway", "separate carriageways and a hard shoulder", "whatever the signs say"],
-            ["district access road outside the built-up area", "double centre marking, broken edge marking", "80 km/h"],
-            ["residential access road outside the built-up area", "no separation of the carriageway, usually no separate cycle path", "60 km/h"]
+            [
+              "flow road, built as an expressway",
+              "double centre marking with green infill, solid edge marking",
+              "100 km/h"
+            ],
+            [
+              "flow road, built as a motorway",
+              "separate carriageways and a hard shoulder",
+              "whatever the signs say"
+            ],
+            [
+              "district access road outside the built-up area",
+              "double centre marking, broken edge marking",
+              "80 km/h"
+            ],
+            [
+              "residential access road outside the built-up area",
+              "no separation of the carriageway, usually no separate cycle path",
+              "60 km/h"
+            ]
           ]
         },
-        { "tekst": "The classification exists because the chance of an accident gets smaller when a road looks like the job it does. Whoever drives the same on a strip of tarmac with trees and properties along the side as on a flow road will come unstuck there one day. So the marking is a hint about who else you can come across." },
-        { "tekst": "Verge posts (bermpaaltjes) let you follow the road safely in the dark or in bad weather: the reflectors are red on the right-hand side and white on the left-hand side." },
-        { "tekst": "One more thing: driving in the mountains" },
-        { "tekst": "In the mountains, climbing traffic gets priority (voorrang) from descending traffic. Take descents in the same gear as the climbs and use the braking effect of the engine, so do not drive with the brakes dragging." },
-        { "tekst": "Overtaking (inhalen) on an uphill road takes far more time than you think, so only do it very carefully. And count on water, mud or loose stones on the road surface." },
-        { "tekst": "Flowing, giving access to areas, giving access to properties: three jobs, three road pictures, three speeds." },
-        { "vraag": "You are driving outside the built-up area on a road with a double centre marking and a broken edge marking. What sort of road is this and how fast may you go?", "antwoord": "A district access road, 80 km/h.", "uitleg": "The double centre marking without green infill and with broken edge lines belongs to a district access road outside the built-up area." },
-        { "vraag": "Who gets priority in the mountains, climbing or descending traffic?", "antwoord": "Climbing traffic.", "uitleg": "Descending traffic has to give way to climbing traffic." }
+        {
+          "tekst": "The classification exists because the chance of an accident gets smaller when a road looks like the job it does. Whoever drives the same on a strip of tarmac with trees and properties along the side as on a flow road will come unstuck there one day. So the marking is a hint about who else you can come across."
+        },
+        {
+          "tekst": "Verge posts (bermpaaltjes) let you follow the road safely in the dark or in bad weather: the reflectors are red on the right-hand side and white on the left-hand side."
+        },
+        {
+          "tekst": "One more thing: driving in the mountains"
+        },
+        {
+          "tekst": "In the mountains, climbing traffic gets priority (voorrang) from descending traffic. Take descents in the same gear as the climbs and use the braking effect of the engine, so do not drive with the brakes dragging."
+        },
+        {
+          "tekst": "Three jobs, three road pictures, three speeds."
+        },
+        {
+          "tekst": "Overtaking (inhalen) on an uphill road takes far more time than you think, so only do it very carefully. And count on water, mud or loose stones on the road surface."
+        },
+        {
+          "tekst": "Flowing, giving access to areas, giving access to properties: three jobs, three road pictures, three speeds."
+        },
+        {
+          "vraag": "You are driving outside the built-up area on a road with a double centre marking and a broken edge marking. What sort of road is this and how fast may you go?",
+          "antwoord": "A district access road, 80 km/h.",
+          "uitleg": "The double centre marking without green infill and with broken edge lines belongs to a district access road outside the built-up area."
+        },
+        {
+          "vraag": "Who gets priority in the mountains, climbing or descending traffic?",
+          "antwoord": "Climbing traffic.",
+          "uitleg": "Descending traffic has to give way to climbing traffic."
+        }
       ]
     }
   }
