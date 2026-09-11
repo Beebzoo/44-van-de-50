@@ -1,0 +1,828 @@
+{
+  "unit": "U09",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U09-Q001",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Vooruit staat binnen de bebouwde kom een bus stil bij een halte met de richtingaanwijzer naar links aan. Moet je hem voor laten gaan?",
+      "media": {
+        "scene": "S-U09-001"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De bus geeft aan dat hij weg wil van de halte en jij bent binnen de bebouwde kom, dus jij wacht even.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Een bus die bij een halte wil wegrijden krijgt binnen de bebouwde kom ruimte van jou, ook al rijd jij gewoon door op de rijbaan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Je moet binnen de bebouwde kom een bus voor laten gaan als deze aangeeft te willen wegrijden van een bushalte.",
+        "waarom": "Een bus is lang, trekt traag op en heeft slecht zicht naar achteren, dus zonder ruimte van het overige verkeer komt hij bij een drukke straat nauwelijks van zijn plaats.",
+        "valkuil": "Het draait om het aangeven. Een bus die stilstaat zonder richting aan te geven, hoef je niet voor te laten gaan.",
+        "onthoud": "Binnen de kom en richting aan betekent voor laten gaan."
+      },
+      "bronnen": [
+        {
+          "boek": 92,
+          "sectie": "5.6",
+          "anker": "Je moet binnen de bebouwde kom een bus voor laten gaan"
+        },
+        {
+          "slide": 92,
+          "anker": "voor laten gaan als deze wil wegrijden bij een bushalte"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bushalte",
+        "voor-laten-gaan",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Binnen de bebouwde kom moet je een autobus die aangeeft te willen wegrijden van de halte, voor laten gaan.",
+        "bron": "boek p. 92",
+        "gewijzigd": "valkuil zei dat je een bus zonder richtingaanwijzer niet voor laat gaan, wat als verbod te lezen is; nu staat er dat je hem niet voor hoeft te laten gaan. De tekening had jou op afstand 3 staan, buiten het beeld, en staat nu op afstand 2."
+      }
+    },
+    {
+      "id": "U09-Q002",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je bent buiten de bebouwde kom. Langs de weg staat een touringcar bij een halte en die geeft met de richtingaanwijzer aan dat hij weg wil rijden. Ben je verplicht hem voor te laten gaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De regel over wegrijdende bussen is er een van de bebouwde kom; buiten de kom geldt hij niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Buiten de bebouwde kom geldt deze regel niet, dus je bent niet verplicht om te wachten.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je moet binnen de bebouwde kom een bus voor laten gaan die aangeeft te willen wegrijden van een bushalte. Buiten de bebouwde kom geldt deze regel niet.",
+        "waarom": "Buiten de kom wordt er harder gereden en ligt het verkeer verder uit elkaar, dus daar is remmen voor een optrekkende bus eerder een risico dan een oplossing.",
+        "valkuil": "Dat het om een touringcar gaat verandert niets; wat telt is dat je buiten de bebouwde kom rijdt.",
+        "onthoud": "Deze regel stopt bij het kombord."
+      },
+      "bronnen": [
+        {
+          "boek": 92,
+          "sectie": "5.6",
+          "anker": "Buiten de bebouwde kom geldt deze regel niet"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bushalte",
+        "bebouwde-kom",
+        "voor-laten-gaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Buiten de bebouwde kom geldt deze regel niet.",
+        "bron": "boek p. 92"
+      }
+    },
+    {
+      "id": "U09-Q003",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Voor welke voertuigen geldt de regel dat je binnen de bebouwde kom moet wachten als ze aangeven te willen wegrijden van een halte?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Voor alle autobussen, dus ook voor touringcars, maar niet voor bijvoorbeeld kleine buurtbusjes.",
+          "feedback": "Goed. Het boek trekt de grens bij de autobus: touringcars horen erbij, kleine buurtbusjes niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen voor lijnbussen, want een touringcar rijdt geen dienstregeling.",
+          "feedback": "Fout. Een dienstregeling speelt hier geen rol; de regel geldt voor alle autobussen en dus ook voor een touringcar.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Voor alle autobussen en ook voor kleine buurtbusjes.",
+          "feedback": "Fout. Kleine buurtbusjes worden juist als voorbeeld genoemd van iets wat er niet onder valt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Voor elk voertuig dat bij een halte stilstaat.",
+          "feedback": "Fout. Zo ruim is de regel niet; hij gaat over autobussen die wegrijden van een halte.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Dat geldt voor alle autobussen, dus ook voor touringcars, maar niet voor bijvoorbeeld kleine buurtbusjes.",
+        "waarom": "Het gaat om het soort voertuig en niet om het soort rit: een grote bus die vanuit stilstand de rijbaan op moet heeft die ruimte nodig, of er nu reizigers of toeristen in zitten.",
+        "valkuil": "Wie op de dienstregeling let in plaats van op de bus zelf, kiest hier het verkeerde antwoord.",
+        "onthoud": "Autobus wel, buurtbusje niet."
+      },
+      "bronnen": [
+        {
+          "boek": 92,
+          "sectie": "5.6",
+          "anker": "Dat geldt voor alle autobussen, dus ook voor touringcars, maar niet voor bijvoorbeeld kleine buurtbusjes"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bushalte",
+        "autobus",
+        "voor-laten-gaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Dat geldt voor alle autobussen, dus ook voor touringcars, maar niet voor bijvoorbeeld kleine buurtbusjes.",
+        "bron": "boek p. 92",
+        "gewijzigd": "de stam zei dat de bus wil wegrijden; het boek hangt de regel aan het aangeven, dus de stam zegt nu dat de bus aangeeft te willen wegrijden."
+      }
+    },
+    {
+      "id": "U09-Q004",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Binnen de bebouwde kom nadert een autobus je van voren. Hij vertrekt van een halte aan de overkant en geeft met zijn richtingaanwijzer aan dat hij weg wil. Laat je hem voor gaan?",
+      "media": {
+        "scene": "S-U09-002"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De regel kijkt niet naar de kant waarvan de bus komt, dus ook een tegemoetkomende bus laat je voor gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je denkt waarschijnlijk alleen aan een bus die voor je uit staat, maar de regel geldt net zo goed van voren.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Ook als de autobus je van voren nadert en aangeeft te willen wegrijden van de halte, moet je hem voor laten gaan.",
+        "waarom": "Een bus die van de overkant vertrekt moet vaak eerst jouw weghelft kruisen of insnijden, en juist dan is hij het traagst en het kwetsbaarst.",
+        "valkuil": "Het maakt niet uit of de halte aan jouw kant of aan de overkant ligt.",
+        "onthoud": "Van achteren of van voren: allebei voor laten gaan."
+      },
+      "bronnen": [
+        {
+          "boek": 92,
+          "sectie": "5.6",
+          "anker": "Ook als de autobus je van voren nadert en aangeeft te willen wegrijden"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bushalte",
+        "tegemoetkomend",
+        "voor-laten-gaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook als de autobus je van voren nadert en aangeeft te willen wegrijden van de halte, moet je hem voor laten gaan.",
+        "bron": "boek p. 92"
+      }
+    },
+    {
+      "id": "U09-Q005",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "Twee beelden van dezelfde straat binnen de bebouwde kom. In het eerste beeld staat de bus alleen stil bij de halte, in het tweede beeld staat zijn richtingaanwijzer naar links aan. Wat doe je op het moment van het tweede beeld?",
+      "media": {
+        "reeks": [
+          "S-U09-005-a",
+          "S-U09-005-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Vaart minderen en de bus laten wegrijden.",
+          "feedback": "Goed. Pas in het tweede beeld geeft de bus aan dat hij weg wil, en vanaf dat moment laat je hem binnen de bebouwde kom voor gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Doorrijden, want een bus die stilstaat heeft geen voorrang.",
+          "feedback": "Fout. Het gaat hier niet om voorrang op een kruispunt maar om een aparte regel voor bussen die van een halte wegrijden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Nog even snel langs de bus rijden voordat hij optrekt.",
+          "feedback": "Fout. Zodra de bus aangeeft dat hij weg wil, is het aan jou om ruimte te geven en niet om er nog tussendoor te glippen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Binnen de bebouwde kom laat je een autobus voor gaan zodra hij aangeeft te willen wegrijden van een bushalte.",
+        "waarom": "Het verschil tussen de twee beelden zit in de richtingaanwijzer, en dat ene lampje is precies het signaal waar de regel op aanslaat.",
+        "valkuil": "In het eerste beeld hoef je nog niets te doen; wie daar al remt of juist besluit door te rijden, kijkt naar de bus en niet naar het signaal.",
+        "onthoud": "Geen signaal, geen wachtplicht. Signaal aan, ruimte geven."
+      },
+      "bronnen": [
+        {
+          "boek": 92,
+          "sectie": "5.6",
+          "anker": "als deze aangeeft te willen wegrijden van een bushalte"
+        },
+        {
+          "slide": 92,
+          "anker": "Binnen de bebouwde kom moet je een autobus"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bushalte",
+        "voor-laten-gaan",
+        "richtingaanwijzer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Binnen de bebouwde kom moet je een autobus (dus ook een touringcar) voor laten gaan als deze wil wegrijden bij een bushalte.",
+        "bron": "slide 92",
+        "gewijzigd": "in het eerste beeld stond jij op afstand 3, buiten het beeld; beide beelden staan nu op afstand 2, zodat alleen de richtingaanwijzer nog verschilt."
+      }
+    },
+    {
+      "id": "U09-Q006",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij een tramhalte zonder vluchtheuvel staat een tram stil met open deuren. Een uitgestapte passagier wil de rijbaan oversteken naar de stoep. Moet je hem voor laten gaan?",
+      "media": {
+        "scene": "S-U09-003"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Zonder vluchtheuvel is de rijbaan het enige pad naar de stoep, dus overstekende passagiers gaan voor.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Bij een halteplaats zonder vluchtheuvel ben je verplicht de overstekende passagiers voor te laten gaan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als een tram of autobus stopt bij een halteplaats zonder vluchtheuvel, moet je overstekende in- en uitstappende passagiers voor laten gaan.",
+        "waarom": "Zonder heuvel stapt iemand vanuit de tram rechtstreeks de rijbaan op, met de tram in zijn rug en dus zonder zicht op wat er aankomt.",
+        "valkuil": "Ligt er wel een vluchtheuvel, dan stapt de passagier veilig uit en is de situatie anders.",
+        "onthoud": "Geen vluchtheuvel betekent passagiers voor laten gaan."
+      },
+      "bronnen": [
+        {
+          "boek": 93,
+          "sectie": "5.6",
+          "anker": "ben je verplicht om passagiers voor te laten gaan"
+        },
+        {
+          "slide": 92,
+          "anker": "dan moét je overstekende in- en uitstappende passagiers voor laten gaan"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tramhalte",
+        "passagiers",
+        "voor-laten-gaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "als je een tram nadert bij een tramhalte zonder vluchtheuvel, ben je verplicht om passagiers voor te laten gaan als ze de rijbaan (willen) oversteken",
+        "bron": "boek p. 93",
+        "gewijzigd": "de tekening zette jou buiten beeld en de tram in jouw eigen rijstrook, waar je auto er half achter verdween; tram en passagier staan nu aan de overkant, zoals op de foto in het boek, en jij staat er zichtbaar achter."
+      }
+    },
+    {
+      "id": "U09-Q007",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Voor je uit staat een bus stil bij een halte en jij wilt erlangs. Met welke risico's moet je rekening houden?",
+      "media": {
+        "scene": "S-U09-004"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Uitgestapte passagiers die voor of achter de bus plotseling de weg oversteken.",
+          "feedback": "Goed. Dit is het eerste risico dat het boek noemt: iemand komt onverwacht achter of voor de bus vandaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Gehaaste passagiers die de weg oversteken om de bus nog te halen.",
+          "feedback": "Goed. Wie bang is de bus te missen kijkt naar de deuren en niet naar jou.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De bus die meteen wegrijdt op het moment dat de bestuurder richting naar links aangeeft.",
+          "feedback": "Goed. De bus kan zo vertrekken, en dan sta jij er precies naast.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De bus die plotseling achteruit de halte uit rijdt.",
+          "feedback": "Fout. Dat staat niet bij de risico's die hier genoemd worden; een bus vertrekt vooruit vanaf de halte.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Passagiers die alleen aan de stoepkant uitstappen en dus nooit op de rijbaan komen.",
+          "feedback": "Fout. Dit is geen risico maar een geruststelling, en bovendien een onterechte: passagiers steken juist wel over.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Passeer een stilstaande bus of tram altijd met aangepaste snelheid en houd voldoende zijdelingse afstand, want er kunnen passagiers oversteken en de bus kan wegrijden.",
+        "waarom": "Een stilstaande bus is een muur waar je niet langs kunt kijken, en juist achter die muur staan de mensen die zo de weg op stappen.",
+        "valkuil": "Snelheid minderen doe je voordat je erlangs bent, niet op het moment dat er iemand tevoorschijn komt.",
+        "onthoud": "Langs een stilstaande bus: langzaam en met ruimte ernaast."
+      },
+      "bronnen": [
+        {
+          "boek": 93,
+          "sectie": "5.6",
+          "anker": "Passeer een stilstaande bus of tram altijd met aangepaste snelheid"
+        },
+        {
+          "boek": 93,
+          "sectie": "5.6",
+          "anker": "gehaast toestromende passagiers die de weg oversteken om de bus nog te halen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bushalte",
+        "passagiers",
+        "aangepaste-snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Passeer een stilstaande bus of tram altijd met aangepaste snelheid en houd voldoende zijdelingse afstand.",
+        "bron": "boek p. 93",
+        "gewijzigd": "jij stond op afstand 3 buiten het beeld; nu op afstand 2. De alt-tekst zei dat je erlangs wilt, wat niet getekend wordt, en dat is eruit."
+      }
+    },
+    {
+      "id": "U09-Q008",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt in een personenauto een straat in en komt bij een bussluis. Wat gebeurt er als je die toch probeert te kruisen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je auto raakt zwaar beschadigd en komt onherroepelijk vast te zitten in de sluis.",
+          "feedback": "Goed. Een bussluis is zo gebouwd dat alleen een bus erdoor kan; een auto zakt erin en blijft steken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Niets, een bussluis is alleen een markering op het wegdek.",
+          "feedback": "Fout. Het is geen markering maar een verdiepte bak in de weg, en daar rijd je met een auto niet zomaar overheen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "De sluis gaat vanzelf dicht zodra er een auto overheen rijdt.",
+          "feedback": "Fout. Er beweegt niets: de sluis ligt er altijd en is gewoon te diep voor een personenauto.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Je mag erdoor zolang er geen lijnbus aankomt.",
+          "feedback": "Fout. Een bussluis kan en mag alleen door bussen gekruist worden, ongeacht of er een bus in de buurt is.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bussluizen kunnen en mogen alleen gekruist worden door bussen; een auto komt onherroepelijk vast te zitten in de sluis.",
+        "waarom": "De sluis werkt met de afmetingen van het voertuig zelf, dus er is geen bord of camera nodig om andere bestuurders tegen te houden.",
+        "valkuil": "Zie je een bussluis en moet je die kant op, keer dan om en kies een andere route.",
+        "onthoud": "Bussluis gezien: omkeren, niet proberen."
+      },
+      "bronnen": [
+        {
+          "boek": 93,
+          "sectie": "5.6",
+          "anker": "die alleen gekruist kunnen en mogen worden door bussen"
+        },
+        {
+          "slide": 92,
+          "anker": "je auto raakt zwaar beschadigd als je het tóch probeert"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bussluis",
+        "lijnbus",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "bussluizen zijn aangelegd, die alleen gekruist kunnen en mogen worden door bussen. Een auto komt onherroepelijk vast te zitten in de sluis.",
+        "bron": "boek p. 93"
+      }
+    },
+    {
+      "id": "U09-Q009",
+      "unit": "U09",
+      "pagina": "U09-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Langs de weg staat een rood omrande driehoek met een hek erop [J10]. Wat kondigt dit bord aan?",
+      "media": {
+        "bord": "J10"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een overweg met overwegbomen.",
+          "feedback": "Goed. Het hek op het bord staat voor de bomen die daar over de weg zakken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een overweg zonder overwegbomen, wel met knipperlichten en alarmbellen.",
+          "feedback": "Fout. Dat is het bord met de locomotief erop; het hek betekent juist dat er wel bomen staan.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Een onbeveiligde overweg, zonder bomen, lichten en bellen.",
+          "feedback": "Fout. Een onbeveiligde overweg heeft juist geen van die voorzieningen, terwijl dit bord de bomen aankondigt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een plek waar de weg is afgesloten met een hek.",
+          "feedback": "Fout. Het is een waarschuwingsbord voor een overweg, geen aanduiding dat de weg dichtzit.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Overwegen zijn meestal beveiligd met overwegbomen, knipperlichten en alarmbellen. Je kunt dat zien aan het waarschuwingsbord met het hek erop.",
+        "waarom": "Het plaatje vertelt je vooraf of er iets is dat je fysiek tegenhoudt, en dat bepaalt hoe je de overweg nadert.",
+        "valkuil": "Hek en locomotief lijken op elkaar in een flits; het hek is de bomenversie.",
+        "onthoud": "Hek is bomen, locomotief is geen bomen."
+      },
+      "bronnen": [
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "Je kunt dat zien aan het waarschuwingsbord met het hek erop"
+        },
+        {
+          "slide": 93,
+          "anker": "Het waarschuwingsbord geeft aan welk soort overweg je gaat passeren"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "waarschuwingsbord"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je kunt dat zien aan het waarschuwingsbord met het hek erop.",
+        "bron": "boek p. 94"
+      }
+    },
+    {
+      "id": "U09-Q010",
+      "unit": "U09",
+      "pagina": "U09-P02",
+      "type": "hotspot",
+      "soort": "inzicht",
+      "stam": "Verderop ligt een overweg die alleen knipperlichten en alarmbellen heeft en dus geen bomen die dichtgaan. Tik op het waarschuwingsbord dat daarbij hoort.",
+      "media": {
+        "borden": [
+          "J10",
+          "J11",
+          "J12",
+          "J13"
+        ]
+      },
+      "opties": [
+        {
+          "id": "J11",
+          "tekst": "J11",
+          "feedback": "Goed. De locomotief hoort bij een overweg zonder overwegbomen, wel met knipperlichten en alarmbellen.",
+          "fouttype": null
+        },
+        {
+          "id": "J10",
+          "tekst": "J10",
+          "feedback": "Fout. Het hek staat juist voor een overweg die wel overwegbomen heeft.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "J12",
+          "tekst": "J12",
+          "feedback": "Fout. Dit is een andreaskruis, dat vlak voor de overweg zelf staat en het aantal sporen aangeeft.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J13",
+          "tekst": "J13",
+          "feedback": "Fout. Het dubbele andreaskruis zegt iets over het aantal sporen, niet over de bomen of de bellen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "J11"
+      ],
+      "uitleg": {
+        "regel": "Er zijn ook overwegen zonder overwegbomen, maar wel met knipperlichten en alarmbellen. Die herken je aan het bord met de locomotief.",
+        "waarom": "Zonder bomen houdt niets je fysiek tegen, dus je moet zelf op de lichten en de bellen letten en daar je snelheid op aanpassen.",
+        "valkuil": "De andreaskruisen staan pas vlak voor de overweg en waarschuwen je dus niet van ver.",
+        "onthoud": "Locomotief betekent lichten en bellen, geen bomen."
+      },
+      "bronnen": [
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "Er zijn ook overwegen zonder overwegbomen, maar wel met knipperlichten en alarmbellen"
+        },
+        {
+          "slide": 93,
+          "anker": "geen slagbomen, wel rode knipperlichten en alarmbellen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "waarschuwingsbord",
+        "andreaskruis"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Er zijn ook overwegen zonder overwegbomen, maar wel met knipperlichten en alarmbellen. Die herken je aan het bord met de locomotief.",
+        "bron": "boek p. 94"
+      }
+    },
+    {
+      "id": "U09-Q011",
+      "unit": "U09",
+      "pagina": "U09-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Onder een waarschuwingsbord voor een overweg zie je een baken met drie rode schuine strepen. Hoe ver is het vanaf daar nog tot de overweg?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "240 meter",
+          "feedback": "Goed. Elke schuine streep staat voor 80 meter, dus drie strepen is drie keer die afstand.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "160 meter",
+          "feedback": "Fout. Dat hoort bij het baken met twee strepen; met drie strepen sta je nog verder weg.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "80 meter",
+          "feedback": "Fout. Dat is de waarde van een enkele streep, en dat baken staat het dichtst bij de overweg.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Dat kun je aan het aantal strepen niet aflezen.",
+          "feedback": "Fout. Juist wel: de strepen zijn een afstandsteller en elke streep heeft een vaste waarde.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Elke schuine streep op een baken geeft een afstand van 80 meter aan, dus drie strepen betekent 240 meter voor de overweg.",
+        "waarom": "De bakens tellen af terwijl je nadert, zodat je al voor het eerste baken je snelheid kunt aanpassen in plaats van pas bij de rails.",
+        "valkuil": "Meer strepen is verder weg, niet dichterbij; het baken met een streep staat vlak voor de overweg.",
+        "onthoud": "Drie strepen, twee strepen, een streep: van ver naar dichtbij."
+      },
+      "bronnen": [
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "Elke schuine streep geeft een afstand van 80 meter aan"
+        },
+        {
+          "slide": 93,
+          "anker": "Gestreepte bakens geven aan hoe ver je nog van de overweg bent"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "bakens"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "het eerste baken heeft drie strepen (240 meter voor de overweg)",
+        "bron": "boek p. 95"
+      }
+    },
+    {
+      "id": "U09-Q012",
+      "unit": "U09",
+      "pagina": "U09-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Vlak voor een overweg staat een paal met daarop een dubbel andreaskruis [J13]. Wat zegt dat over de overweg?",
+      "media": {
+        "bord": "J13"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De overweg heeft twee of meer sporen.",
+          "feedback": "Goed. Twee kruisen betekenen twee of meer sporen, dus er kan ook na het eerste spoor nog iets langskomen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het aantal kruisen zegt hoeveel treinen er tegelijk kunnen komen.",
+          "feedback": "Fout. De kruisen tellen sporen en geen treinen; hoeveel treinen er komen staat nergens op het bord.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De overweg heeft precies een spoor.",
+          "feedback": "Fout. Dat is het enkele kruis; bij twee kruisen liggen er twee of meer sporen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Het kruis is dubbel omdat er overwegbomen staan.",
+          "feedback": "Fout. Of er bomen staan lees je aan het waarschuwingsbord verderop af, niet aan het aantal kruisen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Een kruis wil zeggen dat de overweg maar een spoor heeft, twee kruisen geven twee of meer sporen aan.",
+        "waarom": "Met meerdere sporen kan er achter de trein die net voorbij is een tweede aankomen uit de andere richting, en dan is de overweg nog niet vrij.",
+        "valkuil": "Het aantal kruisen zegt niets over bomen, lichten of bellen.",
+        "onthoud": "Elk kruis is een spoor."
+      },
+      "bronnen": [
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "Eén kruis wil zeggen dat de overweg maar één spoor heeft"
+        },
+        {
+          "slide": 93,
+          "anker": "twee kruisen: twee of meer sporen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "andreaskruis"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Eén kruis wil zeggen dat de overweg maar één spoor heeft, twee kruisen geven twee of meer sporen aan.",
+        "bron": "boek p. 95",
+        "gewijzigd": "afleider b zei dat er twee treinen tegelijk kunnen aankomen, en dat is bij twee sporen gewoon waar; de afleider zegt nu dat het aantal kruisen de treinen telt, wat wel onjuist is."
+      }
+    }
+  ]
+}

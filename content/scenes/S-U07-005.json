@@ -1,0 +1,31 @@
+{
+  "id": "S-U07-005",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "stilstaand",
+      "soort": "bestelauto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de bestelauto"
+    }
+  ],
+  "alt": "Een rechte straat. Voor je op jouw weghelft staat een grijze bestelauto stil. Er komt niemand uit de andere richting.",
+  "inspiratie": {
+    "boek": 140,
+    "slide": 165
+  }
+}

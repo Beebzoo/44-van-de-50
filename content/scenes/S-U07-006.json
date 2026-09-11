@@ -1,0 +1,32 @@
+{
+  "id": "S-U07-006",
+  "vorm": "T",
+  "armen": [
+    "noord",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "voorligger",
+      "soort": "bestelauto",
+      "arm": "zuid",
+      "richting": "links",
+      "afstand": 1,
+      "signaal": "links",
+      "label": "de bestelauto"
+    }
+  ],
+  "alt": "Je nadert een zijstraat links. Vlak voor je rijdt een grijze bestelauto met de richtingaanwijzer naar links aan, en zijn pijl buigt de zijstraat in.",
+  "inspiratie": {
+    "slide": 166
+  }
+}

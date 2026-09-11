@@ -1,0 +1,972 @@
+{
+  "unit": "U08",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U08-Q025",
+      "unit": "U08",
+      "pagina": "U08-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Op de wegwijzer voor je staat jouw bestemming met daarnaast N225 in een geel vak. Wat voor weg ga je volgen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een Nederlandse hoofdverkeersweg die geen autosnelweg is.",
+          "feedback": "Goed. Een N-weg is een hoofdverkeersweg, dus reken op kruispunten en op een lagere snelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een Nederlandse autosnelweg.",
+          "feedback": "Fout. Dat is de A-weg; die heeft een eigen letter en een eigen kleur op het bord.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Een internationale Europese hoofdroute.",
+          "feedback": "Fout. Dat is de E-weg, te herkennen aan de eigen letter in een eigen vak.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Een weg binnen de bebouwde kom met een stadsroutenummer.",
+          "feedback": "Fout. Stadsroutenummers zien er anders uit en horen bij de bewegwijzering binnen de kom.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Met een cijfer-lettercombinatie in een gekleurd vak wordt aangegeven wat voor soort weg je gaat volgen: een N-weg is een Nederlandse hoofdverkeersweg die geen autosnelweg is.",
+        "waarom": "Het nummer vertelt je vooraf wat voor wegbeeld je krijgt, en dat bepaalt hoe hard je mag en wat je kunt tegenkomen.",
+        "valkuil": "Wie alleen op de plaatsnaam let, merkt pas bij het eerste kruispunt dat hij van een snelle weg af is.",
+        "onthoud": "A is autosnelweg, N is hoofdweg, E is Europese route."
+      },
+      "bronnen": [
+        {
+          "boek": 78,
+          "sectie": "4.8",
+          "anker": "in een gekleurd vak wordt aangegeven wat voor soort weg je gaat volgen"
+        },
+        {
+          "boek": 78,
+          "sectie": "4.8",
+          "anker": "een N-weg; dit is een Nederlandse hoofdverkeersweg die geen autosnelweg is"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bewegwijzering",
+        "wegnummer",
+        "n-weg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "een N-weg; dit is een Nederlandse hoofdverkeersweg die geen autosnelweg is",
+        "bron": "boek p. 78"
+      }
+    },
+    {
+      "id": "U08-Q026",
+      "unit": "U08",
+      "pagina": "U08-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je volgt een route die op de borden met E30 in een groen vak wordt aangegeven. Weet je daarmee zeker dat je op een autosnelweg rijdt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een E-nummer is vaak een autosnelweg, maar het hoeft er geen te zijn.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een E-weg is een internationale hoofdroute; vaak is dat een autosnelweg, maar dat hoeft niet.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een E-weg is een internationale Europese hoofdroute; vaak is het een autosnelweg, maar dat hoeft niet per se.",
+        "waarom": "Het nummer zegt iets over de route die je volgt en niet over de inrichting van het stuk asfalt waar je op dat moment op rijdt.",
+        "valkuil": "Kijk voor de regels naar het bord langs de weg: dat zegt of je op een autoweg of een autosnelweg zit.",
+        "onthoud": "E is een route, niet een wegtype."
+      },
+      "bronnen": [
+        {
+          "boek": 78,
+          "sectie": "4.8",
+          "anker": "een E-weg; dit is een internationale Europese hoofdroute"
+        },
+        {
+          "boek": 78,
+          "sectie": "4.8",
+          "anker": "Een A-weg is vaak ook onderdeel van een E-weg"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "bewegwijzering",
+        "wegnummer",
+        "e-weg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "een E-weg; dit is een internationale Europese hoofdroute. Vaak is het een autosnelweg, maar dat hoeft niet per se",
+        "bron": "boek p. 78"
+      }
+    },
+    {
+      "id": "U08-Q027",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Welk bord geeft aan dat je een autosnelweg op rijdt? Tik het aan.",
+      "media": {
+        "borden": [
+          "G1",
+          "G2",
+          "G3",
+          "G4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G1",
+          "tekst": "G1",
+          "feedback": "Goed. Met G1 wordt de autosnelweg aangeduid, met alles wat daarbij hoort.",
+          "fouttype": null
+        },
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Fout. Hetzelfde symbool met een rode streep erover betekent juist einde autosnelweg.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "G3",
+          "tekst": "G3",
+          "feedback": "Fout. Dit is de autoweg, waar andere snelheden en andere kenmerken bij horen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Fout. Dit betekent einde autoweg en zegt dus niets over het begin van een autosnelweg.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G1"
+      ],
+      "uitleg": {
+        "regel": "Autosnelwegen worden aangeduid met bord G1 en bord G2 betekent einde autosnelweg.",
+        "waarom": "Vanaf dat bord liggen de toegangseis, de snelheden en de verboden van de autosnelweg vast, dus het is het startsein voor een hele set regels.",
+        "valkuil": "Het autosnelwegsymbool en het autowegsymbool lijken op elkaar; kijk of je een auto van voren ziet of een weg met een viaduct.",
+        "onthoud": "G1 begint, G2 eindigt."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "Autosnelwegen worden aangeduid met bord G1"
+        },
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "G1 (autosnelweg) en G2 (einde autosnelweg)"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "borden-g",
+        "herkennen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Autosnelwegen worden aangeduid met bord G1.",
+        "bron": "boek p. 71"
+      }
+    },
+    {
+      "id": "U08-Q028",
+      "unit": "U08",
+      "pagina": "U08-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Wat kun je uit de blauwe bewegwijzering halen? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op welke rijstrook je moet gaan rijden voor jouw reisdoel.",
+          "feedback": "Goed. Boven de weg hangen beslissingsborden met pijlen, en je volgt je reisdoel naar de aangegeven strook.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dat er verderop een vliegveld, een veerpont of een restaurant te bereiken is.",
+          "feedback": "Goed. Symbolen op de borden wijzen naar dat soort bestemmingen en voorzieningen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Wat voor soort kruispunt of rotonde je nadert.",
+          "feedback": "Goed. Op voorwegwijzers staat de vorm van het kruispunt of de rotonde schematisch getekend.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Wie er voorrang heeft op het kruispunt dat je nadert.",
+          "feedback": "Fout. Voorrang lees je af van de voorrangsborden en de haaientanden, niet van een wegwijzer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Hoe druk het verderop op de weg is.",
+          "feedback": "Fout. Bewegwijzering wijst richtingen aan en zegt niets over de drukte.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Bewegwijzering wijst je de juiste richting: boven de weg hangen beslissingsborden met pijlen, symbolen wijzen naar bestemmingen zoals een vliegveld of een veerpont, en op voorwegwijzers staat de vorm van het kruispunt of de rotonde schematisch weergegeven.",
+        "waarom": "Al die informatie krijg je ruim van tevoren, zodat je kunt kiezen terwijl je nog rustig rijdt in plaats van vlak voor de afslag.",
+        "valkuil": "De borden vertellen je waarheen, niet wie er voor mag; die regels blijven gewoon van de voorrangsborden komen.",
+        "onthoud": "Wegwijzers zeggen waarheen en op welke strook, verder niets."
+      },
+      "bronnen": [
+        {
+          "boek": 76,
+          "sectie": "4.8",
+          "anker": "Volg je reisdoel en ga op de aangegeven rijstrook rijden"
+        },
+        {
+          "boek": 76,
+          "sectie": "4.8",
+          "anker": "Deze geven bijvoorbeeld de richting aan naar een vliegveld, een verkeersknooppunt, een veerpont"
+        },
+        {
+          "boek": 77,
+          "sectie": "4.8",
+          "anker": "Op voorwegwijzers staat de vorm van een kruispunt of rotonde schematisch weergegeven"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bewegwijzering",
+        "voorwegwijzer",
+        "rijstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Op autosnelwegen vind je boven de weg vaak beslissingsborden met pijlen. Volg je reisdoel en ga op de aangegeven rijstrook rijden.",
+        "bron": "boek p. 76"
+      }
+    },
+    {
+      "id": "U08-Q029",
+      "unit": "U08",
+      "pagina": "U08-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De weg voor je gaat uit elkaar en op het punt waar dat gebeurt staat een groen-wit bord met pijlpunten. Wat weet je nu?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Dit is een splitsing en de wegen links en rechts zijn allebei auto(snel)wegen.",
+          "feedback": "Goed. Het groen-witte splitsingsbord hoort bij een splitsing van auto(snel)wegen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Rechts gaat de autosnelweg verder en links begint een gewone weg.",
+          "feedback": "Fout. Het bord maakt dat onderscheid niet; beide takken zijn auto(snel)wegen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Hier eindigt de autosnelweg en begint een N-weg.",
+          "feedback": "Fout. Het einde van de autosnelweg wordt met een eigen bord aangegeven, niet met pijlpunten.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Je moet hier voorrang verlenen aan verkeer van rechts.",
+          "feedback": "Fout. Het splitsingsbord gaat niet over voorrang; het zegt alleen dat de weg zich hier in twee auto(snel)wegen splitst.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Een splitsing van auto(snel)wegen herken je aan het groen-witte splitsingsbord; de wegen links en rechts zijn allebei auto(snel)wegen.",
+        "waarom": "Je weet daardoor dat je aan beide kanten met dezelfde soort weg te maken houdt en dat je dus vooral op de juiste bestemming moet letten.",
+        "valkuil": "Kies je richting ruim voor het puntstuk, want daarna kun je er niet meer tussenuit.",
+        "onthoud": "Groen-wit met pijlpunten: de weg gaat in tweeën, allebei auto(snel)weg."
+      },
+      "bronnen": [
+        {
+          "boek": 76,
+          "sectie": "4.7",
+          "anker": "Een splitsing van autosnelwegen wordt aangegeven met het groen-witte splitsingsbord"
+        },
+        {
+          "boek": 76,
+          "sectie": "4.7",
+          "anker": "De wegen links en rechts zijn auto(snel)wegen"
+        },
+        {
+          "slide": 75,
+          "anker": "Een splitsing van auto(snel)wegen herken je aan het groen-witte splitsingsbord"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bewegwijzering",
+        "splitsing",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Een splitsing van autosnelwegen wordt aangegeven met het groen-witte splitsingsbord.",
+        "bron": "boek p. 76",
+        "gewijzigd": "de feedback bij optie d zei dat niemand je op een auto(snel)weg kruist, en dat is op een autoweg niet waar; de feedback gaat nu over wat het splitsingsbord wel en niet zegt"
+      }
+    },
+    {
+      "id": "U08-Q030",
+      "unit": "U08",
+      "pagina": "U08-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Voor je staat een voorwegwijzer waarop een rotonde schematisch is getekend, met bij elke arm een plaatsnaam. Kun je daaraan zien hoe je moet rijden voor jouw richting?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Juist daarvoor staat de vorm van de rotonde op het bord getekend.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. De schematische tekening is er nu juist om je vooraf te laten zien hoe je moet rijden.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Op voorwegwijzers staat de vorm van een kruispunt of rotonde schematisch weergegeven, zodat je weet wat je nadert en hoe je moet rijden voor een bepaalde richting.",
+        "waarom": "Je krijgt de plattegrond voordat je de rotonde op rijdt, en dat scheelt je een beslissing op het moment dat je je aandacht bij het verkeer nodig hebt.",
+        "valkuil": "De tekening laat de vorm zien, niet wie er voor mag; voorrang blijft van de borden en de haaientanden komen.",
+        "onthoud": "Voorwegwijzer eerst lezen, dan pas de rotonde op."
+      },
+      "bronnen": [
+        {
+          "boek": 77,
+          "sectie": "4.8",
+          "anker": "Je weet dan wat voor soort kruispunt of rotonde je nadert"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bewegwijzering",
+        "voorwegwijzer",
+        "rotonde"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je weet dan wat voor soort kruispunt of rotonde je nadert en hoe je moet rijden om een bepaalde richting in te gaan.",
+        "bron": "boek p. 77"
+      }
+    },
+    {
+      "id": "U08-Q031",
+      "unit": "U08",
+      "pagina": "U08-P06",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Wat is de maximumsnelheid op een erftoegangsweg buiten de bebouwde kom? Vul het aantal km/u in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 60,
+        "eenheid": "km/u"
+      },
+      "uitleg": {
+        "regel": "Op erftoegangswegen geldt 30 km/u binnen de bebouwde kom en 60 km/u buiten de bebouwde kom.",
+        "waarom": "Op zo'n weg rijden langzaam verkeer en gemotoriseerd verkeer door elkaar, dus het verschil in snelheid moet klein blijven.",
+        "valkuil": "Verwissel deze weg niet met de gebiedsontsluitingsweg buiten de kom, waar je harder mag.",
+        "onthoud": "Erf ontsluiten is dertig binnen en zestig buiten de kom."
+      },
+      "bronnen": [
+        {
+          "slide": 79,
+          "anker": "30 km/u binnen de bebouwde kom 60 km/u buiten de bebouwde kom"
+        },
+        {
+          "boek": 81,
+          "sectie": "4.10",
+          "anker": "Dit zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "erftoegangsweg",
+        "duurzaam-veilig",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "60 km/u buiten de bebouwde kom",
+        "bron": "slide 79"
+      }
+    },
+    {
+      "id": "U08-Q032",
+      "unit": "U08",
+      "pagina": "U08-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt buiten de bebouwde kom op een weg met in het midden een dubbele asmarkering zonder groene vulling en aan de zijkanten een onderbroken kantmarkering. Wat zegt dat wegbeeld je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Dit is een gebiedsontsluitingsweg, hier geldt 80 km/u.",
+          "feedback": "Goed. Die markering hoort buiten de bebouwde kom bij een gebiedsontsluitingsweg.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dit is een autoweg, want er ligt een dubbele asmarkering.",
+          "feedback": "Fout. Bij de autoweg hoort groene vulling tussen die strepen en doorgetrokken kantmarkering.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Dit is een erftoegangsweg met gemengd verkeer.",
+          "feedback": "Fout. Die heeft juist geen rijbaanscheiding en meestal ook geen kantmarkering van dit type.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Dit is een stroomweg, want er staan geen huizen langs.",
+          "feedback": "Fout. Stroomwegen zijn de autowegen en autosnelwegen, en die herken je aan hun eigen kenmerken.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Een gebiedsontsluitingsweg buiten de bebouwde kom heeft een dubbele asmarkering met onderbroken kantmarkering, en daar geldt 80 km/u.",
+        "waarom": "De markering hoort bij de taak van de weg, dus je kunt aan de strepen aflezen wat voor verkeer en welke snelheid erbij horen.",
+        "valkuil": "Het verschil met de autoweg zit in de groene vulling en in de kantstreep: doorgetrokken hoort bij de autoweg.",
+        "onthoud": "Groene vulling is honderd, kale dubbele streep is tachtig."
+      },
+      "bronnen": [
+        {
+          "slide": 78,
+          "anker": "kenmerken buiten de bebouwde kom: dubbele asmarkering onderbroken kantmarkering"
+        },
+        {
+          "slide": 78,
+          "anker": "50 km/u binnen de bebouwde kom 80 km/u buiten de bebouwde kom"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "gebiedsontsluitingsweg",
+        "duurzaam-veilig",
+        "markering"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Binnen de bebouwde kom is de snelheid 50 km/u of 70 km/u en buiten de bebouwde kom is dat 80 km/u.",
+        "bron": "boek p. 81"
+      }
+    },
+    {
+      "id": "U08-Q033",
+      "unit": "U08",
+      "pagina": "U08-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Duurzaam veilig kent stroomwegen als eerste categorie. Wat hoort er bij die categorie? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Ze zijn bedoeld om het verkeer zo snel mogelijk te laten doorstromen.",
+          "feedback": "Goed. Dat is precies de taak die deze categorie in Duurzaam veilig heeft gekregen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De meeste autowegen en autosnelwegen horen bij deze categorie.",
+          "feedback": "Goed. Autowegen en autosnelwegen zijn meestal aangeduid als stroomweg.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een dubbele asmarkering met groene vulling hoort bij een stroomweg die als autoweg is uitgevoerd.",
+          "feedback": "Goed. Die markering met doorgetrokken kantstrepen is het kenmerk van de autoweg.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Langzaam verkeer en gemotoriseerd verkeer rijden er door elkaar.",
+          "feedback": "Fout. Dat is juist het kenmerk van de erftoegangsweg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Ze zijn bedoeld om stedelijk gebied te ontsluiten.",
+          "feedback": "Fout. Ontsluiten is de taak van de gebiedsontsluitingsweg, niet van de stroomweg.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Stroomwegen zijn bedoeld om het verkeer zo snel mogelijk te laten doorstromen, en de meeste autowegen en autosnelwegen zijn als stroomweg aangeduid.",
+        "waarom": "Elke categorie heeft een eigen taak, en aan het wegbeeld kun je zien welke taak deze weg heeft en dus wat voor gedrag erbij hoort.",
+        "valkuil": "Ontsluiten en doorstromen klinken op elkaar, maar het zijn twee verschillende categorieen met twee verschillende snelheden.",
+        "onthoud": "Stromen is doorrijden, ontsluiten is erbij komen."
+      },
+      "bronnen": [
+        {
+          "boek": 81,
+          "sectie": "4.10",
+          "anker": "Deze zijn bedoeld om het verkeer zo snel mogelijk te laten doorstromen"
+        },
+        {
+          "boek": 81,
+          "sectie": "4.10",
+          "anker": "De meeste autowegen en autosnelwegen zijn aangeduid als stroomweg"
+        },
+        {
+          "slide": 77,
+          "anker": "kenmerken autoweg: dubbele asmarkering groene vulling doorgetrokken kantmarkering"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "stroomweg",
+        "duurzaam-veilig",
+        "autoweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Deze zijn bedoeld om het verkeer zo snel mogelijk te laten doorstromen. De meeste autowegen en autosnelwegen zijn aangeduid als stroomweg.",
+        "bron": "boek p. 81"
+      }
+    },
+    {
+      "id": "U08-Q034",
+      "unit": "U08",
+      "pagina": "U08-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt buiten de bebouwde kom een erftoegangsweg op: smal, geen rijrichtingscheiding en geen apart fietspad. Moet je hier rekening houden met fietsers op de rijbaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Op een erftoegangsweg rijden langzaam verkeer en gemotoriseerd verkeer door elkaar.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Juist op deze categorie ontbreken gescheiden fietspaden meestal, dus fietsers horen op de rijbaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Erftoegangswegen zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en meestal zonder gescheiden fietspaden.",
+        "waarom": "Het wegbeeld waarschuwt je dus voor gezelschap: wie hier hetzelfde rijdt als op een stroomweg, komt een fietser in een bocht tegen.",
+        "valkuil": "Een lege, rechte erftoegangsweg verleidt tot doorrijden, terwijl er om elke erfaansluiting iemand de weg op kan komen.",
+        "onthoud": "Geen middenscheiding en geen fietspad: hier deel je de weg."
+      },
+      "bronnen": [
+        {
+          "boek": 81,
+          "sectie": "4.10",
+          "anker": "Dit zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer"
+        },
+        {
+          "slide": 79,
+          "anker": "Ze hebben geen rijbaanscheiding en (meestal) geen gescheiden fietspaden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "erftoegangsweg",
+        "duurzaam-veilig",
+        "langzaam-verkeer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dit zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en meestal zonder gescheiden fietspaden.",
+        "bron": "boek p. 81"
+      }
+    },
+    {
+      "id": "U08-Q035",
+      "unit": "U08",
+      "pagina": "U08-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je daalt in het buitenland een bergweg af en op een smal stuk komt een auto je klimmend tegemoet. Moet jij hem voor laten gaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. In de bergen krijgt klimmend verkeer voorrang van dalend verkeer.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Dalend verkeer hoort juist te wachten voor wie omhoog rijdt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "In de bergen moet klimmend verkeer voorrang krijgen van dalend verkeer.",
+        "waarom": "Wie omhoog rijdt verliest bij stilstaan zijn vaart en komt op een steil stuk moeilijk weer op gang, terwijl afremmen en wachten bergafwaarts veel eenvoudiger is.",
+        "valkuil": "In Nederland oefen je dit nooit, dus deze regel moet je puur uit je hoofd meenemen.",
+        "onthoud": "Omhoog gaat voor omlaag."
+      },
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.6",
+          "anker": "klimmend verkeer moet voorrang krijgen van dalend verkeer"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bergen",
+        "voorrang",
+        "buitenland"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "klimmend verkeer moet voorrang krijgen van dalend verkeer",
+        "bron": "boek p. 70"
+      }
+    },
+    {
+      "id": "U08-Q036",
+      "unit": "U08",
+      "pagina": "U08-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Voor je ligt een lange afdaling in de bergen. Hoe pak je die aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "In dezelfde versnelling als waarin je omhoog zou rijden, zodat de motor meeremt.",
+          "feedback": "Goed. Zo gebruik je de remwerking van de motor en rijd je niet met slepende remmen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In de hoogste versnelling en steeds even op de rem als het te snel gaat.",
+          "feedback": "Fout. Dan doet de motor niets mee en moeten de remmen het hele werk doen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "In de vrijstand, dan bespaar je brandstof.",
+          "feedback": "Fout. Zonder versnelling remt de motor helemaal niet mee en heb je minder controle.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Met de rem licht ingedrukt, dan houd je je snelheid gelijkmatig.",
+          "feedback": "Fout. Dat is nu juist rijden met slepende remmen, en daar worden je remmen heet van.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Neem afdalingen in dezelfde versnelling als de beklimmingen en maak gebruik van de remwerking van de motor, dus rijd niet met slepende remmen.",
+        "waarom": "Remmen die kilometers achter elkaar moeten werken, worden heet en gaan minder goed pakken, terwijl de motor dat rustig kan opvangen.",
+        "valkuil": "Wees ook alert op water, modder of steenslag op het wegdek, want dan heb je die remmen ineens wel nodig.",
+        "onthoud": "Naar beneden in dezelfde versnelling als naar boven."
+      },
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.6",
+          "anker": "neem afdalingen in dezelfde versnelling als de beklimmingen"
+        },
+        {
+          "boek": 70,
+          "sectie": "4.6",
+          "anker": "maak gebruik van de remwerking van de motor (rijd niet met slepende remmen)"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bergen",
+        "afdaling",
+        "motorrem"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "neem afdalingen in dezelfde versnelling als de beklimmingen; maak gebruik van de remwerking van de motor",
+        "bron": "boek p. 70"
+      }
+    },
+    {
+      "id": "U08-Q037",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat geldt er 's avonds en 's nachts als maximumsnelheid op autosnelwegen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "100, 120 of 130 km/u, en de borden zeggen welke van de drie.",
+          "feedback": "Goed. Het boek noemt die drie waarden voor de avond en de nacht, en het bord bepaalt welke er op jouw traject geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Overal 130 km/u, want de dagregel is dan voorbij.",
+          "feedback": "Fout. Op veel trajecten staat ook na zeven uur 's avonds een lagere waarde op de borden.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Overal 100 km/u, net als overdag.",
+          "feedback": "Fout. De honderd hoort bij de uren tussen zes uur in de ochtend en zeven uur in de avond, daarbuiten kan er meer op de borden staan.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Overal 80 km/u, want in het donker moet je langzamer.",
+          "feedback": "Fout. Die waarde hoort bij veel ringwegen van grote steden en niet bij de avond en de nacht.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De maximumsnelheid op autosnelwegen is overdag tussen 6 uur en 19 uur 100 km/u, en 's avonds en 's nachts 100, 120 of 130 km/u.",
+        "waarom": "Buiten de daguren ligt er geen vaste landelijke waarde meer, dus je moet het bord lezen in plaats van een getal uit je hoofd op te halen.",
+        "valkuil": "Een bord met een onderbord met tijden erop geldt alleen binnen die tijden, dus kijk naar de klok en naar dat onderbord.",
+        "onthoud": "Overdag ligt het getal vast, 's avonds en 's nachts zegt het bord het."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "'s avonds en 's nachts 100, 120 of 130 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "op veel autosnelwegen 100 km/u of 120 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "snelheid",
+        "nacht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "'s avonds en 's nachts 100, 120 of 130 km/u.",
+        "bron": "boek p. 71",
+        "gewijzigd": "nieuw toegevoegd door de checker: het blok testte de avond- en nachtsnelheid op de autosnelweg nergens, terwijl die in de leerstof staat en op het examen terugkomt; het getal 120 km/u staat inmiddels als F235 in het feitenregister"
+      }
+    },
+    {
+      "id": "U08-Q038",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt binnen de bebouwde kom op een autoweg. Aan de paal met bord [G3] hangt daaronder een rond bord dat 70 km/u aangeeft. Hoe hard mag je hier?",
+      "media": {
+        "bord": "G3"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "50 km/u",
+          "feedback": "Fout. Dat is de standaard als er geen bord staat, en hier hangt er wel degelijk een.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "70 km/u",
+          "feedback": "Goed. Het bord geeft een afwijkende maximumsnelheid aan en die gaat voor op de standaard.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Die waarde hoort bij gebiedsontsluitingswegen buiten de bebouwde kom en staat hier nergens aangegeven.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is de autowegstandaard buiten de bebouwde kom, en je rijdt hier binnen de kom.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Op een autoweg binnen de bebouwde kom is de maximumsnelheid standaard 50 km/u, maar borden kunnen een afwijkende maximumsnelheid aangeven.",
+        "waarom": "Een snelheidsbord staat er juist om van de standaard af te wijken, dus zodra het er hangt hoef je niet meer te weten wat de standaard was.",
+        "valkuil": "Het werkt beide kanten op: buiten de bebouwde kom kan zo'n bord de honderd van de autoweg juist verlagen.",
+        "onthoud": "Staat er een snelheidsbord, dan telt dat bord en niet de standaard."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "Borden kunnen een afwijkende maximumsnelheid aangeven"
+        },
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "binnen de bebouwde kom: standaard 50 km/u"
+        },
+        {
+          "slide": 69,
+          "anker": "Rechts staat een blauw bord met een auto (G3) en daaronder een rond bord"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "snelheid",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Borden kunnen een afwijkende maximumsnelheid aangeven.",
+        "bron": "boek p. 71",
+        "gewijzigd": "nieuw toegevoegd door de checker: geen enkele vraag liet een bord de standaardsnelheid overrulen, terwijl het boek die situatie op p. 71 zelf in beeld brengt met G3 en een bord 70; het getal 70 km/u staat inmiddels als F234 in het feitenregister"
+      }
+    }
+  ]
+}

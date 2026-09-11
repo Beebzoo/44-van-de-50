@@ -1,0 +1,32 @@
+{
+  "id": "S-U06-102",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "noord",
+      "zijde": "links",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Een rechte weg. Jij nadert van onderen en ver voor je steekt een voetganger de rijbaan over.",
+  "inspiratie": {
+    "boek": 125,
+    "slide": 143
+  }
+}

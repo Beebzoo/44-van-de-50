@@ -1,0 +1,32 @@
+{
+  "id": "S-U07-007",
+  "vorm": "T",
+  "armen": [
+    "noord",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "traag",
+      "soort": "vrachtauto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de vrachtauto"
+    }
+  ],
+  "alt": "Je rijdt achter een langzame vrachtauto die rechtdoor gaat. Verderop ligt een zijstraat aan de linkerkant.",
+  "inspiratie": {
+    "boek": 142,
+    "slide": 170
+  }
+}

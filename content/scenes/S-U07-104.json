@@ -1,0 +1,43 @@
+{
+  "id": "S-U07-104",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Een rechte straat met een zebrapad en bord L2. Voor je rijdt een grijze auto naar het zebrapad toe. Jij rijdt daarachter.",
+  "inspiratie": {
+    "boek": 146,
+    "slide": 167
+  }
+}

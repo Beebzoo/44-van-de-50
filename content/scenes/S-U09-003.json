@@ -1,0 +1,14 @@
+{
+  "id": "S-U09-003",
+  "vorm": "recht",
+  "armen": ["noord", "zuid"],
+  "markering": [{"soort": "rails", "arm": "zuid"}, {"soort": "rails", "arm": "noord"}, {"soort": "blokmarkering", "arm": "noord"}],
+  "borden": [{"code": "L3c", "arm": "noord"}],
+  "actoren": [
+    {"id": "ego", "soort": "auto", "arm": "zuid", "richting": "rechtdoor", "afstand": 2, "label": "jij"},
+    {"id": "tram", "soort": "tram", "arm": "noord", "richting": "stil", "afstand": 1, "label": "de tram"},
+    {"id": "passagier", "soort": "voetganger", "arm": "noord", "zijde": "rechts", "richting": "rechtdoor", "afstand": 1, "label": "de passagier"}
+  ],
+  "alt": "Een rechte straat met tramrails in beide rijstroken. Aan de overkant staat een tram stil bij een halte zonder vluchtheuvel, met bord L3c en blokmarkering ernaast. Een passagier staat naast de tram en steekt de rijbaan over. Jij nadert van onderen en kruist zijn pad.",
+  "inspiratie": {"boek": 93, "beeld": "computertekening links, uitstappende passagier"}
+}

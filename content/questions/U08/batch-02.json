@@ -1,0 +1,827 @@
+{
+  "unit": "U08",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U08-Q013",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je merkt net te laat dat je de afrit voorbij rijdt. De vluchtstrook is leeg. Mag je daarover een stukje achteruit naar de afrit?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Zowel het achteruitrijden als het gebruik van de vluchtstrook is hier verboden, hoe leeg die strook ook lijkt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Achteruitrijden mag niet en de vluchtstrook is alleen voor een noodgeval, dus je rijdt door naar de volgende afrit.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Op een autoweg en autosnelweg mag je niet achteruitrijden, en met je auto niet gebruikmaken van de vluchtstrook, de vluchthaven of de berm, behalve in een noodgeval.",
+        "waarom": "Wie daar tegen de stroom in beweegt, is precies wat andere bestuurders op die plek nooit verwachten, en zij komen met hoge snelheid aan.",
+        "valkuil": "Een gemiste afrit voelt als een noodgeval, maar dat is het niet: omrijden kost tijd en verder niets.",
+        "onthoud": "Afrit gemist is doorrijden, nooit terug."
+      },
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "gebruikmaken van de vluchtstrook, de vluchthaven of de berm (behalve in een noodgeval)"
+        },
+        {
+          "slide": 71,
+          "anker": "de vluchtstrook, de vluchthaven of de berm gebruiken (dat mag alleen in geval van nood)"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "vluchtstrook",
+        "verboden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "met je auto gebruikmaken van de vluchtstrook, de vluchthaven of de berm (behalve in een noodgeval)",
+        "bron": "boek p. 72"
+      }
+    },
+    {
+      "id": "U08-Q014",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Wat is op een autoweg en een autosnelweg verboden? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Keren op de rijbaan.",
+          "feedback": "Goed. Keren staat met zoveel woorden in de lijst met verboden op deze wegen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je auto laten stilstaan op de rijbaan.",
+          "feedback": "Goed. Stilstaan op de rijbaan mag hier niet, want daar rijdt iedereen op hoge snelheid langs.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Met je auto over de vluchtstrook een file omzeilen.",
+          "feedback": "Goed. De vluchtstrook mag je met je auto alleen in een noodgeval gebruiken, en een file is dat niet.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Inhalen via de rijstrook links van je.",
+          "feedback": "Fout. Daar zijn de andere rijstroken juist voor: inhalen en voorsorteren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op de rechterrijstrook blijven rijden.",
+          "feedback": "Fout. Dat is precies de bedoeling; je hoort zoveel mogelijk rechts te rijden.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Je mag op een autoweg en autosnelweg niet achteruitrijden, niet keren, je auto niet laten stilstaan op de rijbaan en de vluchtstrook, vluchthaven of berm niet gebruiken, behalve in een noodgeval.",
+        "waarom": "Alles op die lijst zet iets stil of dwars in een stroom die daar juist moet doorlopen, en dat is de reden dat ze bij elkaar staan.",
+        "valkuil": "Inhalen en rechts rijden horen niet in dit rijtje thuis; die zijn juist gewoon toegestaan.",
+        "onthoud": "Niet achteruit, niet keren, niet stilstaan, niet de vluchtstrook op."
+      },
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "Je mag op een autoweg en autosnelweg niet"
+        },
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "je auto laten stilstaan op de rijbaan"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "verboden",
+        "vluchtstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "met je auto gebruikmaken van de vluchtstrook, de vluchthaven of de berm (behalve in een noodgeval)",
+        "bron": "boek p. 72"
+      }
+    },
+    {
+      "id": "U08-Q015",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt met je auto en caravan, samen langer dan 7 meter, op een autosnelweg met drie rijstroken. Welke rijstroken mag je gebruiken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alleen de rechterrijstrook.",
+          "feedback": "Fout. Je mag verder naar links dan alleen de meest rechtse strook, maar niet op alle stroken.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "De twee rechter rijstroken.",
+          "feedback": "Goed. Een combinatie langer dan zeven meter blijft op een rijbaan met meer dan twee rijstroken rechts van de linkerstrook.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Alle drie de rijstroken, zolang je niemand hindert.",
+          "feedback": "Fout. De linkerrijstrook is voor zulke lange combinaties verboden, ook als het rustig is.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen de linkerrijstrook, want je rijdt langzamer dan de rest.",
+          "feedback": "Fout. Langzamer rijden is juist een reden om rechts te blijven, niet om links te gaan hangen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Als de rijbaan van een autosnelweg meer dan twee rijstroken heeft, mogen vrachtauto's en voertuigen met aanhangwagen die samen langer zijn dan 7 meter alleen de twee rechter rijstroken gebruiken.",
+        "waarom": "Zo'n combinatie haalt links weinig winst en kost daar veel ruimte en tijd, dus de wet houdt de snelste strook vrij voor wie er echt langs moet.",
+        "valkuil": "Tel de rijstroken van jouw rijbaan, niet van de hele weg: bij twee rijstroken speelt deze regel niet.",
+        "onthoud": "Langer dan zeven meter: blijf uit de linkerstrook."
+      },
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "voertuigen met aanhangwagen die samen langer zijn dan 7 meter"
+        },
+        {
+          "slide": 71,
+          "anker": "Dan mag je alleen de rechter twee rijstroken gebruiken"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "aanhangwagen",
+        "rijstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "alleen de twee rechter rijstroken gebruiken (deze regel geldt niet als je moet voorsorteren)",
+        "bron": "boek p. 72"
+      }
+    },
+    {
+      "id": "U08-Q016",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je combinatie is langer dan zeven meter en je nadert een knooppunt waar je richting alleen vanaf de linkerrijstrook te volgen is. Mag je daarvoor naar links?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De regel over de twee rechter rijstroken geldt niet als je moet voorsorteren.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Er staat een uitzondering bij de regel: voor voorsorteren mag je wel verder naar links.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Lange combinaties mogen op een rijbaan met meer dan twee rijstroken alleen de twee rechter rijstroken gebruiken, en die regel geldt niet als je moet voorsorteren.",
+        "waarom": "Zonder die uitzondering zou je met een caravan bepaalde richtingen helemaal niet kunnen volgen, en dat kan de bedoeling niet zijn.",
+        "valkuil": "Voorsorteren is iets anders dan links blijven hangen: je gaat erheen om af te slaan en daarna weer terug.",
+        "onthoud": "Links mag alleen om voor te sorteren, niet om op te schieten."
+      },
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "alleen de twee rechter rijstroken gebruiken (deze regel geldt niet als je moet voorsorteren)"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "aanhangwagen",
+        "voorsorteren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "alleen de twee rechter rijstroken gebruiken (deze regel geldt niet als je moet voorsorteren)",
+        "bron": "boek p. 72"
+      }
+    },
+    {
+      "id": "U08-Q017",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op de middelste van drie rijstroken. Je hebt niets meer in te halen, er is geen file en rechts van je is het vrij. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je gaat naar de rechterrijstrook.",
+          "feedback": "Goed. De rechterrijstrook gebruik je zoveel mogelijk, de rest is om in te halen en voor te sorteren.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je blijft op de middelste strook, want dan hoef je niet steeds te wisselen.",
+          "feedback": "Fout. Onnodig in het midden blijven rijden is verboden, hoe rustig het ook rijdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je gaat naar links, dan heb je minder last van invoegend verkeer.",
+          "feedback": "Fout. Nog verder naar links maakt het erger; de linkerstrook is bedoeld om in te halen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je mag blijven waar je bent zolang je de maximumsnelheid rijdt.",
+          "feedback": "Fout. Je snelheid geeft je geen recht op een strook; de plicht om rechts te houden blijft gewoon staan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Gebruik zoveel mogelijk de rechterrijstrook; de andere rijstroken gebruik je alleen om in te halen of om voor te sorteren.",
+        "waarom": "Blijf je in het midden hangen, dan moet iedereen om je heen manoeuvreren en ontstaan er juist de inhaalacties waar het mis kan gaan.",
+        "valkuil": "In een file mag je wel op je strook blijven; dat is de enige uitzondering die het boek noemt.",
+        "onthoud": "Ingehaald is uitgehaald: terug naar rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 73,
+          "sectie": "4.7",
+          "anker": "Gebruik zoveel mogelijk de rechterrijstrook. De andere rijstroken gebruik je alleen"
+        },
+        {
+          "slide": 72,
+          "anker": "blijf niet onnodig links of in het midden rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "rijstrook",
+        "rechts-houden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Onnodig links of in het midden rijden hindert de doorstroming (leidt tot extra filevorming)",
+        "bron": "boek p. 73"
+      }
+    },
+    {
+      "id": "U08-Q018",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het staat muurvast en het verkeer schuift op alle rijstroken stapvoets vooruit. Mag je dan op de linkerrijstrook blijven rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. In een file mag je op je strook blijven; het verbod op onnodig links rijden geldt daar niet.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het boek noemt de file juist als de situatie waarin links of in het midden rijden wel is toegestaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Onnodig links of in het midden rijden is verboden en alleen toegestaan als je in een file rijdt.",
+        "waarom": "In een file schiet niemand op door van strook te wisselen, en al dat geschuif maakt de rij juist langzamer en gevaarlijker.",
+        "valkuil": "Zodra de file oplost en het verkeer weer doorrijdt, gaat de plicht om rechts te houden gewoon weer in.",
+        "onthoud": "File: blijf in je rij. Weer vrij: terug naar rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 73,
+          "sectie": "4.7",
+          "anker": "Daarom is het verboden en alleen toegestaan als je in een file rijdt"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "rijstrook",
+        "file"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Daarom is het verboden en alleen toegestaan als je in een file rijdt.",
+        "bron": "boek p. 73"
+      }
+    },
+    {
+      "id": "U08-Q019",
+      "unit": "U08",
+      "pagina": "U08-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Er staat file op een weg met twee rijstroken en achter je nadert een voorrangsvoertuig dat er via de vluchtstrook niet langs kan. Wat hoort er te gebeuren? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Wie op de linker rijstrook rijdt, gaat helemaal links rijden.",
+          "feedback": "Goed. Zo maak je aan jouw kant van de rijbaan ruimte vrij naast je.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Wie op de rechter rijstrook rijdt, gaat helemaal rechts rijden.",
+          "feedback": "Goed. Samen met de linkerrij ontstaat er zo in het midden een vrije passeerruimte.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Iedereen gaat naar de vluchtstrook zodat het midden vrij blijft.",
+          "feedback": "Fout. De vluchtstrook is hier al geen optie en met je auto mag je daar alleen in een noodgeval komen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Iedereen blijft staan waar hij staat, want het voorrangsvoertuig zoekt zelf een weg.",
+          "feedback": "Fout. Van jou wordt juist verwacht dat je actief ruimte maakt in de file.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Je rijdt door tot de eerstvolgende afrit en maakt daar plaats.",
+          "feedback": "Fout. Dan is de hulpdienst allang te laat; ruimte maak je meteen, waar je staat.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Rijd je in een file en kan een voorrangsvoertuig niet via de vluchtstrook passeren, dan ga je helemaal links rijden als je op de linker rijstrook rijdt en helemaal rechts als je op de rechter rijstrook rijdt.",
+        "waarom": "Twee rijen die allebei een klein stukje uit elkaar gaan, leveren samen een gang op waar geen enkele rij in zijn eentje voor kan zorgen.",
+        "valkuil": "Wachten tot je buurman begint kost seconden die de hulpdienst nodig heeft; begin zodra je het zwaailicht ziet.",
+        "onthoud": "Links naar links, rechts naar rechts, midden vrij."
+      },
+      "bronnen": [
+        {
+          "slide": 69,
+          "anker": "als je in een file rijdt en een voorrangsvoertuig kan niet via de vluchtstrook passeren"
+        },
+        {
+          "slide": 69,
+          "anker": "zo ontstaat in het midden een vrije 'passeerruimte'"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "file",
+        "voorrangsvoertuig",
+        "rijstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "zo ontstaat in het midden een vrije 'passeerruimte'",
+        "bron": "slide 69"
+      }
+    },
+    {
+      "id": "U08-Q020",
+      "unit": "U08",
+      "pagina": "U08-P04",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Rechts van je is een spitsstrook geopend. Ben je verplicht die strook te gebruiken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een geopende spitsstrook rechts volg je zoveel mogelijk, want je moet zoveel mogelijk rechts houden.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Zolang de strook open is, is het een gewone rijstrook en geldt de plicht om rechts te houden gewoon.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als een spitsstrook rechts geopend is, moet je die zoveel mogelijk volgen, want je moet tenslotte zoveel mogelijk rechts houden.",
+        "waarom": "Een open strook die niemand gebruikt lost geen file op, en de reden dat hij opengaat is juist dat het druk is.",
+        "valkuil": "Denk er wel aan dat er dan geen vluchtstrook meer ligt; bij pech probeer je een vluchthaven te halen.",
+        "onthoud": "Open spitsstrook rechts is gewoon de rechterrijstrook."
+      },
+      "bronnen": [
+        {
+          "boek": 74,
+          "sectie": "4.7",
+          "anker": "moet je die zoveel mogelijk volgen; je moet tenslotte zoveel mogelijk rechts houden"
+        },
+        {
+          "slide": 73,
+          "anker": "Als een rechts liggende spitsstrook geopend is, ben je verplicht die te gebruiken"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "spitsstrook",
+        "rijstrook",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "moet je die zoveel mogelijk volgen; je moet tenslotte zoveel mogelijk rechts houden",
+        "bron": "boek p. 74"
+      }
+    },
+    {
+      "id": "U08-Q021",
+      "unit": "U08",
+      "pagina": "U08-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een geopende spitsstrook en verderop verschijnt boven die strook een rood kruis. Wat betekent dat voor jou?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Voorbij dat punt is de strook weer vluchtstrook, dus je gaat er op tijd af.",
+          "feedback": "Goed. Na dat bord houdt de spitsstrook op en mag je er niet verder over rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je mag er blijven rijden zolang je snelheid mindert.",
+          "feedback": "Fout. Het rode kruis is geen snelheidsadvies maar een verbod om die strook nog te gebruiken.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je moet er meteen stoppen en wachten tot de strook weer opengaat.",
+          "feedback": "Fout. Stilstaan op de rijbaan is hier juist verboden en levert een groot gevaar op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Het kruis geldt alleen voor vrachtauto's, dus je kunt doorrijden.",
+          "feedback": "Fout. Het teken hoort bij de strook waarboven het hangt en geldt voor iedereen die daarop rijdt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Na het bord met het rode kruis houdt de spitsstrook op en wordt hij weer vluchtstrook, dus je mag daarom niet verder rijden over deze strook.",
+        "waarom": "De strook is geleend van de vluchtstrook, en zodra hij teruggegeven wordt moet hij leeg zijn voor pech en hulpdiensten.",
+        "valkuil": "Voor het rode kruis komt eerst het teken dat je de spitsstrook moet vrijmaken, dus wacht niet tot het kruis boven je hangt.",
+        "onthoud": "Rood kruis boven je strook: eraf, en wel meteen."
+      },
+      "bronnen": [
+        {
+          "boek": 74,
+          "sectie": "4.7",
+          "anker": "Na bord 3 houdt de spitsstrook op en wordt weer vluchtstrook"
+        },
+        {
+          "boek": 74,
+          "sectie": "4.7",
+          "anker": "Dat wordt ook aangegeven door het rode kruis boven de strook"
+        },
+        {
+          "boek": 74,
+          "sectie": "4.7",
+          "anker": "Witte afbuigende pijl boven een blauw bord waarop de rechter pijl naar links afbuigt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "spitsstrook",
+        "rijstrooksignalering",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Na bord 3 houdt de spitsstrook op en wordt weer vluchtstrook. Je mag daarom niet verder rijden over deze strook.",
+        "bron": "boek p. 74",
+        "gewijzigd": "de valkuil beweerde dat het rode kruis pas vlak voor het einde verschijnt en dat je dus weinig tijd hebt; dat staat nergens en gaat voorbij aan bord 2, spitsstrook vrijmaken, dat er juist voor waarschuwt"
+      }
+    },
+    {
+      "id": "U08-Q022",
+      "unit": "U08",
+      "pagina": "U08-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Naast de drukke rijbaan ligt een aparte strook met bord [F21] erboven. Mag je daar met je personenauto op rijden om sneller op te schieten?",
+      "media": {
+        "bord": "F21"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Zo'n strook is er voor een bepaalde groep voertuigen, en jouw personenauto hoort daar niet bij.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Alleen de voertuigen van de aangegeven groep mogen een doelgroepstrook gebruiken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Soms liggen er extra rijstroken voor bepaalde voertuigen; alleen die voertuigen mogen deze doelgroepstroken gebruiken en als automobilist mag je daar niet op rijden.",
+        "waarom": "De strook is aangelegd om vracht of bussen langs de drukte te helpen, en dat werkt alleen zolang de rest er niet op gaat rijden.",
+        "valkuil": "Ook als de strook helemaal leeg is en jij vaststaat, blijft hij verboden voor je.",
+        "onthoud": "Doelgroepstrook: alleen wie op het bord staat."
+      },
+      "bronnen": [
+        {
+          "boek": 75,
+          "sectie": "4.7",
+          "anker": "Je mag daar als automobilist niet op rijden"
+        },
+        {
+          "slide": 73,
+          "anker": "Alleen die mogen deze doelgroepenstroken gebruiken"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "doelgroepstrook",
+        "rijstrook",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Vooral op autosnelwegen worden soms speciale stroken voor vrachtauto en/of bussen aangelegd. Je mag daar als automobilist niet op rijden.",
+        "bron": "boek p. 75"
+      }
+    },
+    {
+      "id": "U08-Q023",
+      "unit": "U08",
+      "pagina": "U08-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij wegwerkzaamheden liggen er gele strepen op het wegdek, terwijl de oude witte strepen nog zichtbaar zijn. Welke volg je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De gele strepen.",
+          "feedback": "Goed. Tijdelijke gele strepen vervangen de oorspronkelijke witte strepen zolang het werk duurt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De witte strepen, want die horen bij de echte weg.",
+          "feedback": "Fout. De witte strepen gelden juist niet meer zolang er gele liggen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Allebei, je kiest zelf welke het beste uitkomt.",
+          "feedback": "Fout. Dan zou niemand weten waar de rijstroken lopen; er kan er maar een gelden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "De strepen die het dichtst bij de vluchtstrook liggen.",
+          "feedback": "Fout. De kleur bepaalt wat er geldt, niet de plaats op de weg.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Met gele strepen kunnen tijdelijke rijstroken worden aangegeven, en die vervangen dan de oorspronkelijke witte strepen.",
+        "waarom": "Bij werk in uitvoering loopt de weg anders dan normaal, dus moet de nieuwe indeling voorgaan op de oude lijnen die er nog liggen.",
+        "valkuil": "Die tijdelijke rijstroken zijn meestal smaller en een vluchtstrook ontbreekt vaak, dus stuur rustig en houd je snelheid laag.",
+        "onthoud": "Geel gaat voor wit."
+      },
+      "bronnen": [
+        {
+          "boek": 75,
+          "sectie": "4.7",
+          "anker": "Met gele strepen kunnen tijdelijke rijstroken worden aangegeven"
+        },
+        {
+          "slide": 74,
+          "anker": "Die vervangen dan de oorspronkelijke witte strepen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "wegwerkzaamheden",
+        "markering",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Soms worden tijdelijke (gele) strepen op het wegdek aangebracht. Die vervangen dan de oorspronkelijke witte strepen.",
+        "bron": "slide 74"
+      }
+    },
+    {
+      "id": "U08-Q024",
+      "unit": "U08",
+      "pagina": "U08-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je nadert een traject met werk in uitvoering. Waar moet je rekening mee houden? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De maximumsnelheid is er meestal verlaagd.",
+          "feedback": "Goed. Bij werkzaamheden gaat de snelheid omlaag, dus pas die op tijd aan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De boetes voor snelheidsovertredingen zijn er extra hoog.",
+          "feedback": "Goed. Juist daar wordt een overtreding zwaarder aangerekend, omdat er mensen naast de weg werken.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De tijdelijke rijstroken zijn meestal smaller dan normaal.",
+          "feedback": "Goed. Daardoor raak je makkelijker de berm, zeker als je te hard rijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De vluchtstrook blijft hoe dan ook beschikbaar.",
+          "feedback": "Fout. Bij tijdelijke rijstroken ontbreekt de vluchtstrook juist vaak.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Inhalen is er handig, want dan ben je er sneller voorbij.",
+          "feedback": "Fout. Het boek zegt juist: pas je snelheid aan en haal niet meer in.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Bij wegwerkzaamheden is de maximumsnelheid meestal verlaagd, zijn de boetes voor snelheidsovertredingen extra hoog en zijn de tijdelijke rijstroken meestal smaller, terwijl een vluchtstrook vaak ontbreekt.",
+        "waarom": "Wegwerkers staan er vlak naast het passerende verkeer, dus een fout van jou raakt hier iemand die geen kant op kan.",
+        "valkuil": "Het lijkt rustig als een strook is afgesloten, maar juist dan remmen of wijken bestuurders voor je onverwacht uit.",
+        "onthoud": "Werk in uitvoering: langzamer, geen inhaalactie, extra ruimte geven."
+      },
+      "bronnen": [
+        {
+          "boek": 76,
+          "sectie": "4.7",
+          "anker": "de boetes voor snelheidsovertredingen zijn bij wegwerkzaamheden extra hoog"
+        },
+        {
+          "boek": 75,
+          "sectie": "4.7",
+          "anker": "tijdelijke rijstroken zijn meestal smaller; je kunt daardoor gemakkelijk in de berm raken"
+        },
+        {
+          "slide": 74,
+          "anker": "Wegwerkers zijn vaak vlak naast het passerende verkeer aan het werk"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegwerkzaamheden",
+        "snelheid",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De maximumsnelheid is meestal verlaagd. Let goed op je snelheid; de boetes voor snelheidsovertredingen zijn bij wegwerkzaamheden extra hoog.",
+        "bron": "boek p. 76"
+      }
+    }
+  ]
+}

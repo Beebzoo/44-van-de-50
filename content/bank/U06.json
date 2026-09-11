@@ -1,0 +1,2561 @@
+{
+  "unit": "U06",
+  "vragen": [
+    {
+      "id": "U06-Q001",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het is half drie in de middag. Je rijdt op een autosnelweg en je ziet nergens een snelheidsbord. Mag je hier 130 km/u rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Dat is wel de standaard op autosnelwegen, maar die standaard is overdag verlaagd en het is nu midden op de dag.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Tussen 6 uur en 19 uur is de standaard op de autosnelweg teruggebracht naar 100 km/u, ook als er geen bord staat.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De standaard maximumsnelheid op autosnelwegen is 130 km/u, maar overdag tussen 6 uur en 19 uur is die teruggebracht naar standaard 100 km/u.",
+        "waarom": "Overdag is het op de snelweg veel drukker, en drukte gaat slecht samen met grote snelheidsverschillen. Het tijdstip is hier dus de maatstaf, niet het soort weg, en dat betekent dat jij zelf op de klok let.",
+        "valkuil": "Geen bord betekent niet dat het hoogste getal geldt, maar dat de standaard van dat moment geldt.",
+        "onthoud": "Overdag op de snelweg 100 km/u, in de avond en nacht 130 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Overdag tussen 6.00 uur en 19.00 uur is deze snelheid teruggebracht"
+        },
+        {
+          "slide": 137,
+          "anker": "overdag tussen 06:00u en 19:00u teruggebracht naar standaard 100 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "overdag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Overdag tussen 6.00 uur en 19.00 uur is deze snelheid teruggebracht naar standaard 100 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q002",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je verlaat de bebouwde kom en rijdt verder over een autoweg. Er staat geen enkel snelheidsbord. Welke maximumsnelheid geldt er?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Dat is het maximum op de overige wegen buiten de bebouwde kom, niet op een autoweg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "100 km/u",
+          "feedback": "Goed. Buiten de bebouwde kom hangt het maximum af van het soort weg, en op een autoweg is dat 100 km/u.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "130 km/u",
+          "feedback": "Fout. Dat getal hoort bij de autosnelweg. Een autoweg is een ander soort weg met een eigen maximum.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg: op overige wegen 80 km/u en op autowegen 100 km/u.",
+        "waarom": "Een autoweg heeft geen kruisend langzaam verkeer en meestal geen gelijkvloerse kruispunten, dus er kan meer snelheid bij dan op een gewone weg buiten de kom. Daarom is de vraag altijd eerst: wat voor soort weg is dit.",
+        "valkuil": "Autoweg en autosnelweg klinken hetzelfde maar hebben een verschillend maximum en een verschillend bord.",
+        "onthoud": "Gewone weg buiten de kom 80 km/u, autoweg 100 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg waarop je rijdt"
+        },
+        {
+          "slide": 137,
+          "anker": "buiten de bebouwde kom: 80 km/u - op autowegen: 100 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg waarop je rijdt",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q003",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Binnen de bebouwde kom rijd je een stuk autoweg op. Langs de kant staat alleen het blauwe bord voor autoweg en verder niets. Mag je daarom sneller dan 50 km/u?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het bord voor autoweg zegt wat voor weg dit is, maar het verhoogt de maximumsnelheid binnen de kom niet vanzelf.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Binnen de bebouwde kom blijft het in principe 50 km/u; alleen een snelheidsbord kan daar meer van maken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid van 50 km/u, maar in de praktijk wordt vaak met borden aangegeven dat je sneller mag rijden.",
+        "waarom": "Het soort weg bepaalt het maximum pas buiten de bebouwde kom. Binnen de kom weegt de kom zelf zwaarder, want daar zitten de kruisingen, de zijstraten en de mensen. Wil de wegbeheerder daar meer toestaan, dan moet hij dat expliciet met een bord doen.",
+        "valkuil": "Mensen lezen het bord voor autoweg als een snelheidsbord. Dat is het niet: het zegt alleen welk soort weg dit is.",
+        "onthoud": "Binnen de kom telt de kom, buiten de kom telt het soort weg."
+      },
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "tenzij met borden een ander maximum staat aangegeven"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid van 50 km/u",
+        "bron": "boek p. 117"
+      }
+    },
+    {
+      "id": "U06-Q004",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Welke standaardmaxima voor een personenauto kloppen, in een situatie zonder snelheidsborden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Binnen de bebouwde kom 50 km/u",
+          "feedback": "Goed. Dat is de standaard binnen de kom, tenzij met borden een ander maximum staat aangegeven.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Buiten de bebouwde kom op een gewone weg 80 km/u",
+          "feedback": "Goed. Op de overige wegen buiten de kom is dat inderdaad de standaard.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Op een autoweg buiten de bebouwde kom 100 km/u",
+          "feedback": "Goed. De autoweg heeft buiten de kom zijn eigen standaard, boven die van de gewone wegen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Op een autosnelweg om drie uur in de middag 130 km/u",
+          "feedback": "Fout. Midden op de dag geldt op de autosnelweg de verlaagde standaard, niet de nachtwaarde.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op elke ringweg bij een stad 100 km/u",
+          "feedback": "Fout. Op sommige ringwegen geldt juist een permanent lager maximum, en het woord elke maakt deze uitspraak te stellig.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Zonder borden geldt binnen de bebouwde kom 50 km/u, buiten de bebouwde kom 80 km/u op gewone wegen en 100 km/u op autowegen.",
+        "waarom": "Deze drie waarden vormen samen het geraamte waar alle andere regels aan hangen. Ken je ze uit je hoofd, dan hoef je op de weg alleen nog te kijken of een bord ervan afwijkt.",
+        "valkuil": "De autosnelweg heeft geen enkele vaste waarde: daar hangt het maximum ook van het tijdstip af.",
+        "onthoud": "50, 80 en 100 km/u zijn de drie waarden die altijd blijven staan."
+      },
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Binnen de bebouwde kom mag je als automobilist maximaal 50 km/u rijden"
+        },
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg waarop je rijdt"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Op sommige ringwegen bij steden geldt echter een permanent lager maximum van 80 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "bebouwde-kom",
+        "buiten-bebouwde-kom",
+        "autoweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Op sommige ringwegen bij steden geldt echter een permanent lager maximum van 80 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q005",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het is negen uur 's avonds en je rijdt over een autosnelweg. Je hebt onderweg geen enkel snelheidsbord gezien. Hoe hard mag je nu?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Dat lagere maximum geldt alleen op sommige ringwegen bij steden, en dan staat het aangegeven.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is de verlaagde standaard voor overdag; op dit tijdstip geldt hij niet meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "130 km/u",
+          "feedback": "Goed. Na 19 uur geldt weer de standaard van de autosnelweg, tenzij verkeersborden een lagere snelheid aangeven.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Tussen 19 uur en 6 uur geldt op autosnelwegen de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven.",
+        "waarom": "In de avond en de nacht is de weg leger, dus het argument voor de verlaging vervalt. Dat maakt de borden juist belangrijker: alleen zij kunnen je vertellen dat er hier toch minder mag.",
+        "valkuil": "Op veel trajecten staan wel borden met een lager getal. Dit antwoord geldt alleen omdat er in de vraag nergens een bord staat.",
+        "onthoud": "Na 19 uur terug naar de standaard, tenzij een bord anders zegt."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "geldt de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven"
+        },
+        {
+          "slide": 137,
+          "anker": "op autowegen: 100 km/u - op autosnelwegen: 130 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Tussen 19 uur 's avonds en 6 uur 's ochtends geldt de standaard maximumsnelheid van 130 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q006",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt een erf binnen. Welke maximumsnelheid geldt daar?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "15 km/u",
+          "feedback": "Goed. Het erf is het langzaamste weggedeelte dat je binnen de bebouwde kom tegenkomt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "30 km/u",
+          "feedback": "Fout. Dat getal hoort bij de 30 km-zone, een ander bijzonder weggedeelte binnen de kom.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "50 km/u",
+          "feedback": "Fout. Dat is de gewone standaard binnen de bebouwde kom, en juist daar wijkt het erf van af.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone met maximaal 30 km/u en het erf met maximaal 15 km/u.",
+        "waarom": "Op een erf lopen voetgangers en spelende kinderen over de hele breedte van de weg. Bij stapvoets rijden kun je nog stoppen voor iemand die je pas op het laatste moment ziet, en dat is precies de bedoeling van zo'n lage waarde.",
+        "valkuil": "Het erfbord ziet er vriendelijk uit en heeft geen getal, maar het maximum ligt er lager dan waar ook binnen de kom.",
+        "onthoud": "Erf 15 km/u, 30 km-zone 30 km/u, de rest van de kom 50 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "In een erf is de maximumsnelheid 15 km/u"
+        },
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "erf",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "In een erf is de maximumsnelheid 15 km/u",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q007",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Buiten de bebouwde kom rijd je over een smalle weg zonder middenstreep, met onderbroken kantstrepen en rode suggestiestroken langs de kant. Je ziet geen snelheidsbord en geen zonebord. Mag je hier 80 km/u rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De belijning lijkt op die van een langzamere weg, maar zonder bord of zonebord geldt gewoon de standaard buiten de kom.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je leest de strepen als een regel, maar alleen een bord kan het maximum daadwerkelijk verlagen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Staan er langs een weg met deze markering geen snelheidsbord en geen zonebord, dan mag je er 80 km/u rijden.",
+        "waarom": "De markering is bedoeld als hulpmiddel om het soort weg te herkennen, niet als verkeersteken met een eigen verbod. Pas een bord maakt er een afdwingbaar maximum van, en dat is hier niet geplaatst.",
+        "valkuil": "Veilig rijden is hier iets anders dan wat mag: op zo'n weg is langzamer vaak verstandig, ook als 80 km/u is toegestaan.",
+        "onthoud": "Geen bord op een 60 km-weg betekent gewoon 80 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "als deze borden er niet staan, mag je 80 km/u rijden"
+        },
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "De werkelijke maximumsnelheid staat aangegeven met borden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "wegmarkering",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als deze borden er niet staan, mag je 80 km/u rijden",
+        "bron": "boek p. 79"
+      }
+    },
+    {
+      "id": "U06-Q008",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op het midden van de rijbaan zie je een dubbele streep met een groene baan ertussen, en aan beide zijkanten ligt een doorgetrokken streep. Welke maximumsnelheid hoort meestal bij zo'n weg?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "60 km/u",
+          "feedback": "Fout. Bij dat type weg ontbreekt de middenstreep juist en liggen er vaak suggestiestroken.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Daar hoort wel een dubbele middenstreep bij, maar zonder groene baan en met onderbroken kantstrepen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "100 km/u",
+          "feedback": "Goed. De groene baan tussen de middenstrepen en de doorgetrokken kantstrepen horen bij het zwaarste wegtype van de drie.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Aan de belijning kun je zien op welk soort weg je rijdt; een dubbele middenstreep met een groene baan ertussen en doorgetrokken kantstrepen hoort bij het hoogste van de drie wegtypen.",
+        "waarom": "Hoe zwaarder de weg, hoe nadrukkelijker de scheiding tussen de rijrichtingen. De groene baan maakt van de middenstreep een brede band die je niet per ongeluk oversteekt, en dat past bij een weg waar tegenliggers hard rijden.",
+        "valkuil": "Dit is een indicatie, geen zekerheid. Zolang je geen bord hebt gezien, weet je het niet zeker.",
+        "onthoud": "Groene baan in het midden en dichte kantstrepen horen bij de snelste van de drie."
+      },
+      "bronnen": [
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "Dubbele doorgetrokken of onderbroken streep met groene baan ertussen"
+        },
+        {
+          "boek": 78,
+          "sectie": "4.9",
+          "anker": "Aan de belijning kun je zien op welk soort weg je rijdt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "wegmarkering"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dubbele doorgetrokken of onderbroken streep met groene baan ertussen",
+        "bron": "boek p. 79"
+      }
+    },
+    {
+      "id": "U06-Q009",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Wat kun je aan de belijning van een weg aflezen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op welk soort weg je rijdt",
+          "feedback": "Goed. Daar is het nieuwe markeringssysteem juist voor gemaakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Welk verkeersgedrag er van je wordt verwacht",
+          "feedback": "Goed. De markering vertelt je hoe je je hier hoort te gedragen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Welke andere verkeersdeelnemers je kunt verwachten",
+          "feedback": "Goed. Een weg met suggestiestroken kondigt bijvoorbeeld fietsers aan.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De maximumsnelheid met zekerheid",
+          "feedback": "Fout. De belijning is een indicatie van de maximumsnelheid, maar geen zekerheid.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Of er verderop een zonebord komt te staan",
+          "feedback": "Fout. Wat er verderop staat kun je nooit aan de strepen onder je zien.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Aan de belijning kun je zien op welk soort weg je rijdt, welk verkeersgedrag van je wordt verwacht en welke andere verkeersdeelnemers je kunt verwachten, en het is een hulpmiddel om de maximumsnelheid in te schatten.",
+        "waarom": "Strepen lopen mee met de hele weg, dus ze zijn er ook als je net een bord hebt gemist of als je ergens midden op een traject invoegt. Dat maakt ze tot een goede eerste inschatting, maar juist omdat ze niets verbieden kun je er geen snelheid op baseren.",
+        "valkuil": "Het verschil tussen een indicatie en een regel is precies waar deze vraag om draait.",
+        "onthoud": "Strepen vertellen, borden bepalen."
+      },
+      "bronnen": [
+        {
+          "boek": 78,
+          "sectie": "4.9",
+          "anker": "Aan de belijning kun je zien op welk soort weg je rijdt"
+        },
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "de belijning is wel een indicatie van de maximumsnelheid, maar geen zekerheid"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegmarkering",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aan de belijning kun je zien op welk soort weg je rijdt, welk verkeersgedrag van je wordt verwacht",
+        "bron": "boek p. 78"
+      }
+    },
+    {
+      "id": "U06-Q010",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "In een 30 km-zone mag je maximaal 30 km/u rijden. Is zo'n zone een bijzonder weggedeelte binnen de bebouwde kom?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Samen met het erf is dit het bijzondere weggedeelte binnen de kom waar minder dan de standaard geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je verwart hem waarschijnlijk met de zone van 60 km/u, en die ligt wel buiten de kom.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone en het erf.",
+        "waarom": "Binnen de kom liggen woonstraten waar de gewone standaard te snel is voor wat er gebeurt: kinderen, oversteekbewegingen, geparkeerde auto's. Buiten de kom speelt iets anders, namelijk het mengen van snel en langzaam verkeer, en daar hoort een eigen zone met een eigen waarde bij.",
+        "valkuil": "De twee zones lijken op elkaar in naam en vorm, maar horen aan verschillende kanten van het kombord.",
+        "onthoud": "30 hoort binnen de kom, 60 hoort erbuiten."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "waar een lagere maximumsnelheid van 60 km/u geldt"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "zone",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone (max. 30 km/u) en het erf",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q011",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Buiten de bebouwde kom nader je een zonebord met daarin een rond bord met het getal 60. Wat verandert er voorbij dat bord?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je mag er 60 km/u rijden",
+          "feedback": "Goed. Zo'n zone herken je aan het zonebord, en voorbij dat bord geldt de lagere maximumsnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er verandert niets, want je blijft buiten de bebouwde kom",
+          "feedback": "Fout. Het zonebord is juist bedoeld om binnen een gebied buiten de kom een lager maximum in te stellen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Er gaat een adviessnelheid gelden waar je van mag afwijken",
+          "feedback": "Fout. Een adviessnelheid staat op een blauw vierkant bord; dit is een maximumsnelheid in een zone.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Buiten de bebouwde kom zijn in veel gebieden zones ingesteld waar een lagere maximumsnelheid van 60 km/u geldt; zo'n zone herken je aan het zonebord.",
+        "waarom": "Buiten de kom rijden snel en langzaam verkeer vaak door elkaar, en daar gebeuren veel ongevallen. Met een zone kan een wegbeheerder een heel gebied in een keer rustiger maken zonder bij elke zijweg opnieuw een bord te plaatsen.",
+        "valkuil": "Een zonebord is geen advies en geen waarschuwing: het stelt een echte maximumsnelheid in.",
+        "onthoud": "Zonebord met 60 erin betekent 60 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 80,
+          "sectie": "4.9",
+          "anker": "Je nadert hier een 60 km-zone, herkenbaar aan het zonebord"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "waar een lagere maximumsnelheid van 60 km/u geldt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "zone",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je nadert hier een 60 km-zone, herkenbaar aan het zonebord. Voorbij dit bord mag je 60 km/u rijden",
+        "bron": "boek p. 80"
+      }
+    },
+    {
+      "id": "U06-Q012",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Op welke plaatsen ligt het maximum lager dan de gewone standaard binnen de bebouwde kom?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "In een erf",
+          "feedback": "Goed. Daar geldt 15 km/u en dat is de laagste waarde die je binnen de kom tegenkomt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In een 30 km-zone",
+          "feedback": "Goed. Ook dat is een bijzonder weggedeelte binnen de kom met een lagere waarde.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Op een autoweg binnen de bebouwde kom",
+          "feedback": "Fout. Daar geldt in principe dezelfde standaard als in de rest van de kom, en met borden vaak juist meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "In een zone van 60 km/u buiten de bebouwde kom",
+          "feedback": "Fout. Dat is een verlaging, maar ten opzichte van de standaard buiten de kom en niet erbinnen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "e",
+          "tekst": "Op een ringweg met een permanent lager maximum",
+          "feedback": "Fout. Dat permanent lagere maximum van 80 km/u hoort bij de autosnelweg, en 80 km/u ligt nog altijd boven de 50 km/u die binnen de kom geldt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone met maximaal 30 km/u en het erf met maximaal 15 km/u.",
+        "waarom": "De vraag is niet welke waarde laag klinkt, maar waarmee je hem vergelijkt. Binnen de kom is 50 km/u het ijkpunt; buiten de kom is dat 80 km/u, en daar is 60 km/u dus ook een verlaging maar in een andere wereld.",
+        "valkuil": "Lezers pikken alle lage getallen eruit zonder te kijken of de plek binnen of buiten de kom ligt.",
+        "onthoud": "Vergelijk altijd met het ijkpunt van de plek waar je bent."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "erf",
+        "zone",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone (max. 30 km/u) en het erf (max. 15 km/u)",
+        "bron": "boek p. 118",
+        "gewijzigd": "De feedback bij afleider e zei dat een ringweg nooit binnen de bebouwde kom ligt, en dat staat nergens in de bron. Nu draait de feedback om wat wel vaststaat: 80 km/u is hoger dan de 50 km/u van de kom, dus het is sowieso geen verlaging binnen de kom."
+      }
+    },
+    {
+      "id": "U06-Q013",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt rustig op de autosnelweg. Rechts van je is de spitsstrook geopend, te zien aan de groene pijl omlaag op het matrixbord erboven. Er is voor jou geen reden om links te blijven. Moet je die strook gaan gebruiken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een geopende spitsstrook rechts van je hoort bij de rijbaan, dus de gewone plicht om rechts te houden geldt daar ook.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Een spitsstrook voelt als iets extra's, maar zodra hij open is telt hij mee als rijstrook waar je zoveel mogelijk rechts op houdt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als een spitsstrook rechts geopend is, moet je die zoveel mogelijk volgen, want je moet tenslotte zoveel mogelijk rechts houden.",
+        "waarom": "De strook wordt juist opengezet om ruimte te maken als het druk is. Blijft iedereen links rijden, dan levert die extra ruimte niets op en ontstaat er alsnog een file naast een lege strook.",
+        "valkuil": "Dit geldt voor een spitsstrook rechts. Een plusstrook ligt links, en de plicht om zoveel mogelijk rechts te houden stuurt je daar dus niet naartoe.",
+        "onthoud": "Spitsstrook rechts open betekent voor jou: zoveel mogelijk erheen."
+      },
+      "bronnen": [
+        {
+          "boek": 74,
+          "sectie": "4.7",
+          "anker": "moet je die zoveel mogelijk volgen; je moet tenslotte zoveel mogelijk rechts houden"
+        },
+        {
+          "boek": 74,
+          "sectie": "4.7",
+          "anker": "Met borden en elektronische rijstrooksignalering wordt aangegeven of de spitsstrook geopend of gesloten is"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "spitsstrook",
+        "matrixbord",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "moet je die zoveel mogelijk volgen; je moet tenslotte zoveel mogelijk rechts houden",
+        "bron": "boek p. 74",
+        "gewijzigd": "de regel zei ben je verplicht die te gebruiken, wat uit de vervaagde tiptekst van slide 73 komt; het boek zegt zoveel mogelijk volgen en dat is nu de regel en de bron"
+      }
+    },
+    {
+      "id": "U06-Q014",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Boven een strook op de autosnelweg zie je een matrixbord met een rood kruis. Wat hoort daarbij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De spitsstrook is geopend",
+          "feedback": "Fout. Bij een geopende spitsstrook hoort een groene pijl omlaag, niet een kruis.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "De spitsstrook moet worden vrijgemaakt",
+          "feedback": "Fout. Daarbij hoort de schuine witte pijl naar linksonder, die je naar de strook ernaast stuurt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De spitsstrook is gesloten",
+          "feedback": "Goed. Het kruis hoort bij de gesloten strook, en dan rijd je er dus niet op.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Borden en rijstrooksignalering geven aan of de strook geopend is: een groene pijl omlaag hoort bij een geopende spitsstrook, een schuine witte pijl naar linksonder bij een strook die je moet vrijmaken en een rood kruis bij een gesloten strook.",
+        "waarom": "De drie beelden vormen samen een oplopende reeks: eerst mag je erop, dan moet je eraf, dan is hij dicht. Herken je die volgorde, dan weet je bij elk beeld meteen wat er van je verwacht wordt.",
+        "valkuil": "De schuine pijl wordt vaak voor een gewone richtingaanwijzing aangezien, terwijl hij een opdracht is om de strook te verlaten.",
+        "onthoud": "Groene pijl erop, schuine pijl eraf, kruis dicht."
+      },
+      "bronnen": [
+        {
+          "slide": 73,
+          "anker": "Matrixbord: een grijs vierkant met een rood kruis"
+        },
+        {
+          "slide": 73,
+          "anker": "Matrixbord: een grijs vierkant met een groene pijl omlaag"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "matrixbord",
+        "spitsstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Matrixbord: een grijs vierkant met een rood kruis",
+        "bron": "slide 73"
+      }
+    },
+    {
+      "id": "U06-Q015",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op een drukke snelweg wordt de vluchtstrook rechts opengesteld als extra rijstrook. Welk nadeel heeft dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Er is dan geen vluchtstrook meer beschikbaar",
+          "feedback": "Goed. Precies dat is het nadeel: pech of een ongeval heeft dan geen eigen uitwijkruimte meer.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De maximumsnelheid wordt dan automatisch hoger",
+          "feedback": "Fout. Het openstellen van een strook zegt niets over de maximumsnelheid; die staat op de borden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen vrachtverkeer mag er dan nog rijden",
+          "feedback": "Fout. Je verwart het met een doelgroepenstrook, die inderdaad voor bepaalde voertuigen is bedoeld.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als de vluchtstrook rechts wordt gebruikt als extra rijstrook heet dat een spitsstrook, en het nadeel is dat er dan geen vluchtstrook meer beschikbaar is.",
+        "waarom": "Een vluchtstrook is de plek waar een auto met pech naartoe kan zonder het verkeer te blokkeren. Wordt die ruimte als rijstrook gebruikt, dan staat iemand met pech ineens tussen rijdend verkeer, en daarom kijk je op zo'n traject extra ver vooruit.",
+        "valkuil": "Open betekent hier niet vrijblijvend: ligt de strook rechts en is hij open, dan moet je hem juist gebruiken.",
+        "onthoud": "Spitsstrook rechts is extra ruimte, maar geen vluchtruimte meer."
+      },
+      "bronnen": [
+        {
+          "slide": 30,
+          "anker": "wordt gebruikt als extra rijstrook, dan heet dat een spitsstrook"
+        },
+        {
+          "slide": 30,
+          "anker": "Het nadeel is dat er dan geen vluchtstrook meer beschikbaar is"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "spitsstrook",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "wordt gebruikt als extra rijstrook, dan heet dat een spitsstrook. Het nadeel is dat er dan geen vluchtstrook meer beschikbaar is",
+        "bron": "slide 30",
+        "gewijzigd": "de ankers wezen naar de vervaagde herhaling op slide 73; dezelfde zinnen staan in gewone tekst op slide 30"
+      }
+    },
+    {
+      "id": "U06-Q016",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke uitspraken over een van de standaard afwijkend maximum kloppen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het kan met elektronische borden worden aangegeven",
+          "feedback": "Goed. Naast gewone borden gebruiken wegbeheerders daar ook elektronische panelen voor.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het kan voor de hele dag gelden of alleen voor bepaalde dagdelen",
+          "feedback": "Goed. Dat is precies waarom je op sommige borden ook een tijdsaanduiding ziet.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Het kan in een zone of op een traject gelden",
+          "feedback": "Goed. Een afwijkend maximum hoeft niet bij een enkel bord te blijven.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een elektronisch bord geeft altijd alleen een advies",
+          "feedback": "Fout. Een elektronisch bord met een getal in een rode ring is een echte maximumsnelheid.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Een afwijkend maximum kan alleen hoger zijn dan de standaard",
+          "feedback": "Fout. Met borden kan juist ook een lager maximum worden aangegeven.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Afwijkende maxima worden aangegeven met (elektronische) borden, voor de hele dag of voor bepaalde dagdelen, en in zones of op trajecten.",
+        "waarom": "De standaard hoort bij een soort weg, maar de werkelijkheid verandert per uur en per stuk weg. Daarom heeft de wegbeheerder gereedschap nodig dat mee kan bewegen, en dat zijn precies die borden en panelen.",
+        "valkuil": "Een elektronisch bord ziet er tijdelijk uit en wordt daarom te makkelijk als vrijblijvend gelezen.",
+        "onthoud": "Een bord kan het maximum omhoog of omlaag zetten, per dagdeel, per zone of per traject."
+      },
+      "bronnen": [
+        {
+          "slide": 137,
+          "anker": "aangegeven met (elektronische) borden - hele dag of bepaalde dagdelen"
+        },
+        {
+          "slide": 137,
+          "anker": "hele dag of bepaalde dagdelen - in zones of op trajecten"
+        },
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Ook hier geldt dat met (elektronische) borden een lager maximum kan worden aangegeven"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "matrixbord",
+        "zone"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook hier geldt dat met (elektronische) borden een lager maximum kan worden aangegeven",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q017",
+      "unit": "U06",
+      "pagina": "U06-P03",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Naast je ligt een extra rijstrook die is aangeduid met een rond blauw bord met daarop een witte bus. Mag jij daar met je personenauto op rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Bij zo'n aanduiding gaat het om een strook voor een bepaalde groep voertuigen, en een personenauto hoort daar niet bij.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Dit is een doelgroepenstrook, en alleen de voertuigen die erop staan aangegeven mogen hem gebruiken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Soms liggen er extra rijstroken voor bepaalde voertuigen; alleen die voertuigen mogen deze doelgroepenstroken gebruiken.",
+        "waarom": "Zo'n strook is aangelegd om een bepaalde groep door te laten stromen, bijvoorbeeld bussen of vrachtverkeer. Zodra iedereen erop mag, is de reden om hem aan te leggen weg.",
+        "valkuil": "Een lege strook naast een file trekt enorm, maar leeg zijn is hier juist het doel.",
+        "onthoud": "Staat er een voertuig op het bord, dan is de strook alleen voor dat voertuig."
+      },
+      "bronnen": [
+        {
+          "slide": 73,
+          "anker": "soms liggen er extra rijstroken voor bepaalde voertuigen"
+        },
+        {
+          "slide": 73,
+          "anker": "Alleen die mogen deze doelgroepenstroken gebruiken"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "doelgroepenstrook",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "soms liggen er extra rijstroken voor bepaalde voertuigen. Alleen die mogen deze doelgroepenstroken gebruiken",
+        "bron": "slide 73"
+      }
+    },
+    {
+      "id": "U06-Q018",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt met een caravan over de autosnelweg. De toegestane maximummassa van de caravan is niet meer dan 3.500 kg. Wat is je maximumsnelheid?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Dat is het maximum buiten de bebouwde kom op gewone wegen, en met een zwaardere aanhangwagen ook op de snelweg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "90 km/u",
+          "feedback": "Goed. Op autowegen en autosnelwegen mag je met een aanhangwagen 90 km/u zolang die niet zwaarder is.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is het maximum voor een gewone personenauto op een autoweg, niet voor een combinatie met caravan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Met een aanhangwagen of caravan mag je op autowegen en autosnelwegen 90 km/u, maar alleen als de toegestane maximummassa van de aanhangwagen of caravan niet meer is dan 3.500 kg.",
+        "waarom": "Een combinatie is langer, zwaarder en instabieler dan een losse auto, dus de wetgever knipt de snelweg voor jou af op een lagere waarde. De massagrens zit erin omdat een zware aanhanger het remmen en het slingeren nog verder verergert.",
+        "valkuil": "Het getal geldt alleen op auto(snel)wegen. Buiten de kom op een gewone weg blijf je op de lagere waarde.",
+        "onthoud": "Met aanhanger op de snelweg 90 km/u, mits niet zwaarder dan 3.500 kg."
+      },
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "op autowegen en autosnelwegen: 90 km/u, maar alleen als de toegestane maximummassa"
+        },
+        {
+          "slide": 138,
+          "anker": "op auto(snel)wegen: 90 km/u mits TMM van de aanhangwagen niet meer is"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "aanhangwagen",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "op autowegen en autosnelwegen: 90 km/u, maar alleen als de toegestane maximummassa van je aanhangwagen of caravan niet meer is dan 3.500 kg",
+        "bron": "boek p. 120"
+      }
+    },
+    {
+      "id": "U06-Q019",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Achter je auto hangt een zware aanhangwagen met een toegestane maximummassa van meer dan 3.500 kg. Je draait een autoweg op. Blijft je maximum dan 80 km/u?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De verhoging naar de hogere waarde geldt alleen voor lichtere aanhangwagens, dus voor jou verandert er niets.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je pakt wel de juiste soort weg, maar je slaat de voorwaarde over die aan de massa van de aanhangwagen hangt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Met een aanhangwagen geldt op autowegen en autosnelwegen 90 km/u, maar alleen als de toegestane maximummassa niet meer is dan 3.500 kg; anders blijft het 80 km/u.",
+        "waarom": "De regel heeft twee sloten: het juiste soort weg en een aanhangwagen die licht genoeg is. Voldoe je maar aan een van de twee, dan gaat de deur niet open en val je terug op de waarde die buiten de kom sowieso geldt.",
+        "valkuil": "Lees bij dit soort vragen altijd eerst de massa. Die zit verstopt in een bijzin en beslist het antwoord.",
+        "onthoud": "Te zwaar betekent 80 km/u, ook op de snelweg."
+      },
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "Maximaal 80 km/u of 90 km/u afhankelijk van het gewicht van je aanhangwagen"
+        },
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "Als je een aanhangwagen of caravan trekt, zijn de maximumsnelheden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "aanhangwagen",
+        "autoweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Maximaal 80 km/u of 90 km/u afhankelijk van het gewicht van je aanhangwagen",
+        "bron": "boek p. 120"
+      }
+    },
+    {
+      "id": "U06-Q020",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Buiten de bebouwde kom loop je verrassend snel in op een klein overdekt voertuigje dat op de rijbaan rijdt: een brommobiel. Hoe hard mag zo'n voertuig?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Maximaal 25 km/u",
+          "feedback": "Fout. Dat is de waarde voor een snorfiets, niet voor een brommobiel.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Maximaal 45 km/u",
+          "feedback": "Goed. Dat geldt binnen en buiten de bebouwde kom, en ook voor een gehandicaptenvoertuig met een motor.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Maximaal 80 km/u, want hij rijdt op de rijbaan",
+          "feedback": "Fout. Dat hij op de rijbaan hoort betekent niet dat voor hem hetzelfde maximum geldt als voor jou.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een brommobiel rijdt zowel binnen als buiten de bebouwde kom op de rijbaan met een maximumsnelheid van 45 km/u; dat geldt ook voor een gehandicaptenvoertuig met een motor.",
+        "waarom": "Buiten de kom is het snelheidsverschil met jou het grootst, en juist daar staat zo'n voertuig midden op jouw rijbaan. Wie dat weet, remt vroeg af in plaats van laat te schrikken.",
+        "valkuil": "Een brommobiel lijkt van veraf op een kleine auto, dus je schat zijn snelheid te hoog in.",
+        "onthoud": "Brommobiel: op de rijbaan, maar nooit sneller dan 45 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Een brommobiel rijdt zowel binnen als buiten de bebouwde kom op de rijbaan"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Vooral buiten de bebouwde kom kunnen ze je verrassen door hun lage snelheid"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "brommobiel",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een brommobiel rijdt zowel binnen als buiten de bebouwde kom op de rijbaan met een maximumsnelheid van 45 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q021",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Voor een scherpe bocht staat een blauw vierkant bord met het getal 50 erop. Het regent hard en het wegdek is spiegelglad nat. Mag je ervan uitgaan dat 50 km/u hier veilig is?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het advies gaat uit van goede weg- en weersomstandigheden, en daar is op dit moment geen sprake van.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Bij regen en een nat wegdek pas je je snelheid aan en ga je onder de geadviseerde waarde zitten.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Adviessnelheden zijn gebaseerd op goede weg- en weersomstandigheden; onder slechte omstandigheden pas je je snelheid aan.",
+        "waarom": "Het advies vertelt je wat de bocht aankan als alles meezit. Nat asfalt verlaagt je grip en verlengt je stopafstand, dus dezelfde bocht vraagt dan minder snelheid dan het bord noemt.",
+        "valkuil": "Omdat een adviessnelheid geen maximum is, denken mensen dat er niets aan vastzit. Hij is juist een bovengrens voor de beste omstandigheden.",
+        "onthoud": "Advies hoort bij mooi weer, niet bij nat wegdek."
+      },
+      "bronnen": [
+        {
+          "slide": 138,
+          "anker": "Adviessnelheden zijn gebaseerd op goede weg- en weersomstandigheden"
+        },
+        {
+          "boek": 121,
+          "sectie": "7.1",
+          "anker": "Onder zware winterse omstandigheden moet je je snelheid nog verder aanpassen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "adviessnelheid",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Adviessnelheden zijn gebaseerd op goede weg- en weersomstandigheden. Pas je snelheid aan onder slechte (weers)omstandigheden",
+        "bron": "slide 138",
+        "gewijzigd": "De tweede bron was het onderschrift dat er bij een nat wegdek juist een adviessnelheid van 50 km/u geldt. Dat onderbouwde het antwoord niet maar sprak het bijna tegen. Vervangen door de zin op dezelfde pagina dat je onder zware winterse omstandigheden nog verder moet afremmen."
+      }
+    },
+    {
+      "id": "U06-Q022",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Langs een straat met een reeks verkeerslichten hangen wisselende adviessnelheden. Waarvoor zijn die bedoeld?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Om de doorstroming te verbeteren, zodat je geen rood licht tegenkomt",
+          "feedback": "Goed. Dat heet een groene golf: houd je het advies aan, dan rijd je de lichten groen tegemoet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Om de maximumsnelheid tijdelijk te verhogen",
+          "feedback": "Fout. Een adviessnelheid verandert het maximum niet; dat blijft staan wat het was.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Om te waarschuwen voor een scherpe bocht verderop",
+          "feedback": "Fout. Dat is een van de andere redenen voor een adviessnelheid, maar niet die bij een reeks lichten.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Adviessnelheden kunnen ook als doel hebben de doorstroming te verbeteren; door de geadviseerde snelheid aan te houden profiteer je van een groene golf en kom je geen rood verkeerslicht tegen.",
+        "waarom": "De lichten in zo'n reeks schakelen met een vaste tussentijd. Rijd je precies het tempo waarop die tijden zijn afgestemd, dan sta je nergens stil, en dat scheelt brandstof en optrekbewegingen voor iedereen.",
+        "valkuil": "Sneller rijden dan het advies werkt hier tegen je: je haalt de golf niet in, je staat alleen eerder voor rood.",
+        "onthoud": "Groene golf: het advies volgen levert je groen op."
+      },
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "Adviessnelheden kunnen ook als doel hebben de doorstroming te verbeteren"
+        },
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "Door de geadviseerde snelheden aan te houden, profiteer je van een groene golf"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "adviessnelheid",
+        "groene-golf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Door de geadviseerde snelheden aan te houden, profiteer je van een 'groene golf'",
+        "bron": "boek p. 120"
+      }
+    },
+    {
+      "id": "U06-Q023",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Je trekt een lichte caravan. Welke maxima horen daarbij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Binnen de bebouwde kom 50 km/u",
+          "feedback": "Goed. Daar verandert de caravan niets aan de standaard van de kom.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Buiten de bebouwde kom 80 km/u",
+          "feedback": "Goed. Op de gewone wegen buiten de kom blijf je op dezelfde waarde als zonder caravan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Op een autoweg 100 km/u",
+          "feedback": "Fout. Dat is de waarde voor een losse personenauto; met een aanhanger ligt hij lager.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Op een autosnelweg 130 km/u in de nacht",
+          "feedback": "Fout. De nachtwaarde van de snelweg geldt niet voor een combinatie met caravan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op een autosnelweg 90 km/u",
+          "feedback": "Goed. Voor een lichte caravan is dat het maximum op auto(snel)wegen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "e"
+      ],
+      "uitleg": {
+        "regel": "Trek je een aanhangwagen of caravan, dan geldt binnen de bebouwde kom 50 km/u, buiten de bebouwde kom 80 km/u en op autowegen en autosnelwegen 90 km/u.",
+        "waarom": "Alleen op de snelste wegen wijkt de combinatie af van de gewone auto, want daar zou het verschil anders het grootst worden. Op de lagere wegen hoef je dus niets nieuws te onthouden, en dat scheelt in je hoofd.",
+        "valkuil": "De laagste twee waarden zijn hetzelfde als zonder caravan, dus mensen zoeken daar ten onrechte een afwijking.",
+        "onthoud": "Met caravan verandert alleen het stuk boven de 80 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 120,
+          "sectie": "7.1",
+          "anker": "Als je een aanhangwagen of caravan trekt, zijn de maximumsnelheden"
+        },
+        {
+          "slide": 138,
+          "anker": "op auto(snel)wegen: 90 km/u mits TMM van de aanhangwagen niet meer is"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "aanhangwagen",
+        "bebouwde-kom",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "binnen de bebouwde kom: 50 km/u, buiten de bebouwde kom: 80 km/u, op autowegen en autosnelwegen: 90 km/u",
+        "bron": "boek p. 120"
+      }
+    },
+    {
+      "id": "U06-Q024",
+      "unit": "U06",
+      "pagina": "U06-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Wanneer hoor je langzamer te rijden dan het maximum dat op het bord staat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als het slecht weer is",
+          "feedback": "Goed. Bij slecht weer moet je zelfs beduidend langzamer rijden dan het maximum.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Op plaatsen waar kinderen kunnen oversteken",
+          "feedback": "Goed. Daar is het maximum een bovengrens en geen richtlijn.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je met een slecht wegdek te maken hebt",
+          "feedback": "Goed. Een kapot of glad wegdek vraagt om minder snelheid dan het bord toelaat.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Altijd, want zo langzaam mogelijk is altijd het veiligst",
+          "feedback": "Fout. Te langzaam rijden belemmert de doorstroming en kan gevaarlijke reacties uitlokken.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Als er een adviessnelheid staat die hoger is dan het maximum",
+          "feedback": "Fout. Een adviessnelheid is afgestemd op de plaatselijke omstandigheden, en de maximumsnelheid mag je sowieso niet overschrijden, dus dit is geen reden om langzamer te rijden.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Als het nodig is moet je beduidend langzamer rijden dan het maximum, bijvoorbeeld bij slecht weer, op plaatsen waar kinderen kunnen oversteken of bij een slecht wegdek. Overdrijf het niet, want te langzaam rijden belemmert de doorstroming.",
+        "waarom": "Een bord kent de situatie van dit moment niet: het kende alleen de weg toen het geplaatst werd. Jij ziet wel wat er nu speelt, dus de afweging ligt bij jou, met het bord als bovengrens en niet als opdracht.",
+        "valkuil": "De omgekeerde fout bestaat ook. Kruipen op een weg waar iedereen doorrijdt, lokt onveilige inhaalmanoeuvres uit.",
+        "onthoud": "Het maximum is een plafond, geen streefwaarde, maar ook geen reden om te kruipen."
+      },
+      "bronnen": [
+        {
+          "boek": 121,
+          "sectie": "7.1",
+          "anker": "Als het nodig is moet je zelfs beduidend langzamer rijden dan het maximum"
+        },
+        {
+          "boek": 121,
+          "sectie": "7.1",
+          "anker": "Overdrijf het niet, want anders belemmer je de doorstroming"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "slecht-weer",
+        "doorstroming"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als het nodig is moet je zelfs beduidend langzamer rijden dan het maximum, bijvoorbeeld als het slecht weer is",
+        "bron": "boek p. 121",
+        "gewijzigd": "De feedback bij afleider e beweerde dat een adviessnelheid nooit boven het maximum ligt. Dat zegt geen enkele bron. Nu staat er wat de bron wel zegt: het advies is afgestemd op de plaatselijke omstandigheden en het maximum mag je sowieso niet overschrijden."
+      }
+    },
+    {
+      "id": "U06-Q025",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "In het eerste beeld houd je keurig twee seconden afstand. In het tweede beeld heeft je voorligger vaart geminderd en is het gat duidelijk kleiner geworden. Wat doe je?",
+      "media": {
+        "reeks": [
+          "S-U06-001-a",
+          "S-U06-001-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Gas los tot je weer 2 seconden afstand hebt",
+          "feedback": "Goed. De regel is een ondergrens die je steeds opnieuw herstelt zodra je hem kwijtraakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je snelheid aanhouden, want hij gaat vast zo weer sneller",
+          "feedback": "Fout. Je gokt op wat de ander gaat doen, terwijl je afstand nu al te klein is.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Nog wat dichter aansluiten zodat hij doorrijdt",
+          "feedback": "Fout. Dicht op iemand gaan zitten haalt je laatste ruimte weg en verandert niets aan zijn tempo.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je moet minimaal 2 seconden afstand tot je voorligger aanhouden, en raak je die afstand kwijt, dan zorg je dat je opnieuw een veilige afstand van 2 seconden maakt.",
+        "waarom": "Volgafstand is geen stand die je een keer instelt, maar iets wat voortdurend verandert doordat de ander remt of iemand ertussen komt. Zodra het gat krimpt, is het enige wat je zelf in de hand hebt je eigen gaspedaal.",
+        "valkuil": "Wachten tot de ander weer optrekt kost je precies de ruimte die je nodig hebt als hij dat niet doet.",
+        "onthoud": "Gat kwijt, gat terugmaken."
+      },
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "de 2 secondenregel: je moet (minimaal) 2 seconden afstand tot je voorligger aanhouden"
+        },
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "zorg dan dat je opnieuw een veilige afstand van 2 seconden creeert"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je 2 seconden afstand houdt en er voegt een auto in, zorg dan dat je opnieuw een veilige afstand van 2 seconden",
+        "bron": "boek p. 124"
+      }
+    },
+    {
+      "id": "U06-Q026",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "In het eerste beeld staat de voetganger nog stil naast de rijbaan. In het tweede beeld stapt hij de weg op en ben jij dichterbij gekomen, terwijl je voet nog niet op de rem staat. Hoe heet de afstand die je in dat moment aflegt?",
+      "media": {
+        "reeks": [
+          "S-U06-002-a",
+          "S-U06-002-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De reactieafstand",
+          "feedback": "Goed. Dat is de afstand die je aflegt tijdens je reactietijd, dus voordat je remmen iets doen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De remweg",
+          "feedback": "Fout. Die begint pas op het moment dat je daadwerkelijk begint met remmen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De stopafstand",
+          "feedback": "Fout. Dat is het totaal van beide stukken samen, niet alleen dit eerste stuk.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De reactieafstand is de afstand die je aflegt tijdens je reactietijd; tussen je waarneming en het moment dat je op de rem trapt verstrijkt gemiddeld een seconde.",
+        "waarom": "In die ene seconde gebeurt er aan de auto helemaal niets: je rijdt op volle snelheid door terwijl het gevaar al zichtbaar is. Wie dat beseft, begrijpt ook waarom vooruitkijken meer oplevert dan hard remmen.",
+        "valkuil": "Veel mensen rekenen alleen met de remweg en laten dit eerste stuk weg, waardoor ze hun stopafstand flink onderschatten.",
+        "onthoud": "Eerst reactieafstand, dan pas remweg."
+      },
+      "bronnen": [
+        {
+          "slide": 143,
+          "anker": "dit is de afstand die je aflegt tijdens je reactietijd"
+        },
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "verstrijkt gemiddeld een seconde. Deze seconde noemen we de reactieseconde"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "reactietijd"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "de reactieafstand (in geel): dit is de afstand die je aflegt tijdens je reactietijd",
+        "bron": "slide 143"
+      }
+    },
+    {
+      "id": "U06-Q027",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt 80 km/u buiten de bebouwde kom. Je voorligger passeert een paaltje langs de weg en ongeveer een seconde later ben jij er ook. Houd je genoeg afstand?",
+      "media": {
+        "scene": "S-U06-003"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je bent er half zo snel als zou moeten; de tel moet tot twee komen voordat jij het paaltje passeert.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een seconde is de helft van wat de regel vraagt, dus je zit ruim onder je volgafstand.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je moet minimaal 2 seconden afstand tot je voorligger aanhouden; door hardop mee te tellen vanaf een vast punt langs de weg merk je snel of je afstand voldoende is.",
+        "waarom": "Meters schatten lukt niemand betrouwbaar, tellen wel. Kom je maar tot een, dan is je gat ongeveer de helft van wat je nodig hebt, en dat verschil merk je pas als je voorligger plotseling remt.",
+        "valkuil": "Op een lege weg voelt dicht volgen rustig aan, maar je gat is dan even kort als in de file.",
+        "onthoud": "Tel tot twee voordat jij het paaltje passeert."
+      },
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "Als je voorligger bijvoorbeeld een bermpaaltje passeert, tel je hoe lang het duurt"
+        },
+        {
+          "slide": 139,
+          "anker": "Gebruik objecten langs de weg (boom of verkeersbord) als referentiepunt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je voorligger bijvoorbeeld een bermpaaltje passeert, tel je hoe lang het duurt voordat je zelf bij dat bermpaaltje bent",
+        "bron": "boek p. 123"
+      }
+    },
+    {
+      "id": "U06-Q028",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt 80 km/u en gebruikt de vuistregel om je volgafstand uit te rekenen. Op hoeveel meter kom je uit?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "22 meter",
+          "feedback": "Fout. 22 meter is je reactieafstand bij deze snelheid, dus de afstand van een seconde; de vuistregel voor de volgafstand rekent met twee seconden.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "44 meter",
+          "feedback": "Goed. De snelheid gedeeld door 2 is 40, en daar tel je nog 10% bij op.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "80 meter",
+          "feedback": "Fout. Je neemt dan het getal van je snelheid over als meters, en dat is de vuistregel niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "De vuistregel voor de 2 seconden afstand is: deel je snelheid in km/u door 2 en tel er 10% bij op.",
+        "waarom": "De vuistregel is een snelle benadering van de formule, die met meters per seconde werkt. Beide komen bij deze snelheid vrijwel op hetzelfde uit, en de vuistregel heeft als voordeel dat je hem in je hoofd kunt doen terwijl je rijdt.",
+        "valkuil": "Vergeet de opslag van 10% niet; zonder die stap kom je structureel te kort uit.",
+        "onthoud": "Delen door twee, dan tien procent erbij."
+      },
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "deel je snelheid in km/u door 2 en tel 10% op bij de uitkomst"
+        },
+        {
+          "slide": 140,
+          "anker": "80 km/u gedeeld door 2 = 40 meter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "vuistregel",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "80 km/u gedeeld door 2 = 40 meter. 40 + 10% = 44 meter",
+        "bron": "boek p. 123",
+        "gewijzigd": "De feedback bij de 22 meter noemde die afstand de helft van het verhaal, wat de volgafstand en de stopafstand door elkaar haalt. Nu staat er dat 22 meter de afstand van een seconde is en dat de vuistregel met twee seconden rekent."
+      }
+    },
+    {
+      "id": "U06-Q029",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Het stortregent en achter je auto hangt een caravan. Vergroot je je volgafstand dan naar 3 seconden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Regen en een aanhangwagen staan allebei in het rijtje moeilijke omstandigheden waarbij je meer ruimte neemt.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. De twee seconden gelden bij goede omstandigheden, en daar is hier geen sprake van.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Houd een grotere volgafstand aan van 3 seconden in moeilijke omstandigheden, bijvoorbeeld als het regent, sneeuwt of mistig is, als je voertuig zwaar beladen is of als je met een aanhangwagen of caravan rijdt.",
+        "waarom": "Een nat wegdek verlengt je remweg en een caravan duwt je bovendien door. Beide effecten vreten aan de ruimte die je nodig hebt, dus je compenseert ze met het enige wat gratis is: meer gat.",
+        "valkuil": "Hier stapelen twee redenen zich op. Ook met maar een van de twee zou het antwoord al hetzelfde zijn.",
+        "onthoud": "Twee seconden is de basis, drie seconden zodra iets tegenzit."
+      },
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
+        },
+        {
+          "slide": 139,
+          "anker": "Houd 3 seconden afstand aan tijdens lastige (weers)omstandigheden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden",
+        "bron": "boek p. 124"
+      }
+    },
+    {
+      "id": "U06-Q030",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "In welke situaties hoort de langere volgafstand van 3 seconden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als het regent, sneeuwt of mistig is",
+          "feedback": "Goed. Slecht zicht en een glad wegdek vragen allebei om meer ruimte.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als je voertuig zwaar beladen is",
+          "feedback": "Goed. Meer massa betekent meer meters voordat je stilstaat.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je met een aanhangwagen of caravan rijdt",
+          "feedback": "Goed. Ook dan sta je later stil dan met een lege auto.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je op een rustige weg rijdt met weinig verkeer",
+          "feedback": "Fout. Rust op de weg verandert niets aan de meters die je nodig hebt om te stoppen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Als er een auto voor je is ingevoegd",
+          "feedback": "Fout. Dan herstel je je volgafstand, maar naar de gewone waarde en niet naar de langere.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Houd 3 seconden afstand in moeilijke omstandigheden: als het regent, sneeuwt of mistig is, als je voertuig zwaar beladen is of als je met een aanhangwagen of caravan rijdt.",
+        "waarom": "Alle drie de gevallen hebben hetzelfde effect: je hebt meer meters nodig voordat je stilstaat, of je ziet het gevaar later. Extra tijd tussen jou en je voorligger is de simpelste manier om dat op te vangen.",
+        "valkuil": "Een invoeger vraagt wel om herstel van je gat, maar niet om de langere waarde.",
+        "onthoud": "Nat, zwaar of met aanhanger: een seconde erbij."
+      },
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
+        },
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Als je 2 seconden afstand houdt en er voegt een auto in"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als het regent, sneeuwt of mistig is, als je voertuig zwaar beladen is, als je met een aanhangwagen of caravan rijdt",
+        "bron": "boek p. 124"
+      }
+    },
+    {
+      "id": "U06-Q031",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op de autosnelweg liggen tekens op het wegdek die je helpen afstand te houden. Tussen jou en je voorligger zie je er nog maar een. Wat zegt dat over je volgafstand?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je zit te dicht op je voorligger",
+          "feedback": "Goed. Er moeten er minimaal twee zichtbaar zijn, dus met een enkel teken ertussen is je gat te klein.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je volgafstand is precies goed",
+          "feedback": "Fout. Precies goed begint pas bij twee zichtbare tekens, dus bij een teken kom je ruimte tekort.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je volgafstand is ruimer dan nodig",
+          "feedback": "Fout. Hoe meer tekens je ziet, hoe groter je gat; een enkel teken wijst juist op weinig ruimte.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger.",
+        "waarom": "De tekens liggen op een vaste onderlinge afstand, dus ze vertalen de secondenregel naar iets wat je met een blik ziet in plaats van moet tellen. Op een drukke snelweg is dat precies het moment waarop tellen er vaak bij inschiet.",
+        "valkuil": "De tekens vervangen de regel niet, ze maken hem alleen zichtbaar. Bij regen wil je er meer tussen zien.",
+        "onthoud": "Minstens twee tekens in het gat, anders laat je gas los."
+      },
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger"
+        },
+        {
+          "slide": 140,
+          "anker": "Op autosnelwegen staan soms tekens die je helpen voldoende afstand te houden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger",
+        "bron": "boek p. 124",
+        "gewijzigd": "Was een pure getalvraag over hoeveel tekens er minimaal zichtbaar moeten zijn. Herschreven naar dezelfde vorm als de tweesecondenvraag ernaast: je ziet er een en moet zelf concluderen dat je te dicht zit. Daarmee is het een inzichtvraag en staat moeilijkheid nu op 2."
+      }
+    },
+    {
+      "id": "U06-Q032",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je gaat twee keer zo hard rijden als daarvoor. Wordt je remweg daarmee ook twee keer zo lang?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De remweg loopt niet recht mee met je snelheid maar veel steiler op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Bij een verdubbelde snelheid wordt de remweg vier keer zo lang, niet twee keer.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De remweg neemt progressief toe: als je twee keer zo hard gaat rijden, wordt je remweg vier keer zo lang.",
+        "waarom": "Je remmen moeten de bewegingsenergie wegwerken, en die loopt op met het kwadraat van je snelheid. Daarom kost elke stap omhoog in snelheid onevenredig veel meer meters dan de vorige stap.",
+        "valkuil": "De reactieafstand groeit wel gewoon recht mee. Juist door die twee door elkaar te halen ontstaat dit misverstand.",
+        "onthoud": "Twee keer zo hard is vier keer zo lang remmen."
+      },
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "De remweg neemt progressief toe: als je 2x zo hard gaat rijden"
+        },
+        {
+          "slide": 143,
+          "anker": "Je remafstand neemt kwadratisch toe: bij 100 km/u is deze 4x groter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "remweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De remweg neemt progressief toe: als je 2x zo hard gaat rijden, wordt je remweg 4x zo lang",
+        "bron": "boek p. 126"
+      }
+    },
+    {
+      "id": "U06-Q033",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Bij 80 km/u is je reactieafstand 22,00 meter en je remweg 32,00 meter. Hoe groot is je stopafstand?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "32,00 meter",
+          "feedback": "Fout. Dat is alleen het stuk waarin je remt; het eerste stuk telt gewoon mee.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "54,00 meter",
+          "feedback": "Goed. De stopafstand is precies de som van die twee stukken.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "22,00 meter",
+          "feedback": "Fout. Dat is het stuk dat je aflegt voordat je remt, niet het geheel.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "De stopafstand is de reactieafstand plus de remweg.",
+        "waarom": "De optelling zelf is makkelijk; het lastige is dat je bij hoge snelheid nauwelijks doorhebt hoeveel meter dat samen is. Ruim vijftig meter is meer dan de lengte van veel woonstraten, en die ruimte moet er dus voor je liggen.",
+        "valkuil": "Wie alleen het remstuk telt, denkt dat hij bijna twee keer zo snel stilstaat als in werkelijkheid.",
+        "onthoud": "Reactieafstand plus remweg is stopafstand."
+      },
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Reactieafstand bij 80 km/u = 22,00 meter"
+        },
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Remafstand bij 80 km/u = 32,00 meter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Reactieafstand bij 80 km/u = 22,00 meter, Remafstand bij 80 km/u = 32,00 meter",
+        "bron": "boek p. 126"
+      }
+    },
+    {
+      "id": "U06-Q034",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "In een woonstraat rijd je 40 km/u. Je reactieafstand is daar 11 meter en je remweg 8 meter. Hoeveel ruimte heb je nodig voordat je stilstaat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "8 meter",
+          "feedback": "Fout. Je rekent alleen met het remmen en vergeet de meters voor je voet de rem raakt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "11 meter",
+          "feedback": "Fout. Dat is het stuk waarin je nog reageert; daarna moet je ook nog tot stilstand komen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "19 meter",
+          "feedback": "Goed. Elf meter waarin je reageert en acht meter waarin je remt, samen negentien meter voordat je stilstaat.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "De stopafstand is de reactieafstand plus de remweg; bij 40 km/u is dat 11 meter plus 8 meter.",
+        "waarom": "Juist bij lage snelheid schatten mensen hun stopafstand veel te kort in, omdat het rustig voelt. Een kind dat op tien meter voor je de weg op loopt, haal je bij deze snelheid dus nog niet.",
+        "valkuil": "Bij lage snelheid is de reactieafstand groter dan de remweg, precies omgekeerd aan wat je verwacht.",
+        "onthoud": "Ook bij 40 km/u heb je al bijna twintig meter nodig."
+      },
+      "bronnen": [
+        {
+          "slide": 144,
+          "anker": "Je stopafstand (in lichtblauw) is dan 11 + 8 = 19 meter"
+        },
+        {
+          "slide": 144,
+          "anker": "Bij 40 km/u is dit: ((40:10) x (40:10) : 2) = 8 meter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je stopafstand (in lichtblauw) is dan 11 + 8 = 19 meter",
+        "bron": "slide 144",
+        "gewijzigd": "De feedback bij het goede antwoord vergeleek 19 meter met bijna vijf autolengtes, een getal dat in geen enkele bron staat. Vervangen door de optelling zelf: elf meter reageren plus acht meter remmen."
+      }
+    },
+    {
+      "id": "U06-Q035",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke uitspraken over tot stilstand komen zijn juist?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De stopafstand bestaat uit de reactieafstand en de remweg samen",
+          "feedback": "Goed. Dat is precies hoe de stopafstand is opgebouwd.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De reactieafstand is de afstand die je aflegt tijdens je reactietijd",
+          "feedback": "Goed. In dat stuk gebeurt er aan de auto nog niets.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De remweg loopt vanaf het begin van het remmen tot je stilstaat",
+          "feedback": "Goed. Dat is de definitie van de remweg.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De remweg groeit recht evenredig met je snelheid",
+          "feedback": "Fout. De remweg neemt progressief toe en loopt dus veel steiler op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "De reactieseconde begint pas als je voet op de rem staat",
+          "feedback": "Fout. Die seconde ligt juist tussen je waarneming en het moment dat je op de rem trapt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "De stopafstand is de afstand die je aflegt tijdens de reactieseconde plus de remweg, en de remweg loopt vanaf het moment dat je begint met remmen totdat je stilstaat.",
+        "waarom": "De drie begrippen beschrijven achter elkaar wat er in een noodstop gebeurt: eerst zie je iets, dan reageer je, dan rem je. Zet je ze in de goede volgorde, dan kun je elke rekenvraag hierover aan.",
+        "valkuil": "De twee foute uitspraken zijn allebei net een stap verschoven, en dat is precies hoe examenvragen het doen.",
+        "onthoud": "Zien, reageren, remmen: drie stappen, twee afstanden."
+      },
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "De stopafstand is de afstand die je aflegt tijdens de zogenaamde reactieseconde"
+        },
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "is de afstand die je aflegt vanaf het moment dat je begint met remmen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "remweg",
+        "reactieafstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De stopafstand is de afstand die je aflegt tijdens de zogenaamde reactieseconde + de remafstand",
+        "bron": "boek p. 125"
+      }
+    },
+    {
+      "id": "U06-Q036",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Tussen het moment dat je ziet dat je moet remmen en het moment dat je echt op de rem trapt zit gemiddeld 1 seconde. Klopt dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Die tijd heet de reactieseconde en is de reden dat je altijd meer ruimte nodig hebt dan alleen het remmen.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Dit is een vast gegeven waar de hele berekening van de reactieafstand op rust.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Tussen je waarneming dat je moet remmen en het moment dat je op je rem trapt verstrijkt gemiddeld een seconde; die seconde noemen we de reactieseconde.",
+        "waarom": "Het is een gemiddelde, en bij vermoeidheid of afleiding duurt het langer. Precies daarom is de tweesecondenregel opgebouwd uit die seconde plus een seconde om ook nog iets te doen.",
+        "valkuil": "Dat het gemiddeld is, betekent niet dat jij er altijd binnen blijft. Reken er niet op dat je sneller bent.",
+        "onthoud": "Een seconde zien en beslissen, daarna pas remmen."
+      },
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "verstrijkt gemiddeld een seconde. Deze seconde noemen we de reactieseconde"
+        },
+        {
+          "slide": 144,
+          "anker": "Je reactietijd is ongeveer 1 seconde"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "reactietijd"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Tussen je waarneming 'ik moet remmen' en het moment dat je daadwerkelijk op je rem trapt, verstrijkt gemiddeld een seconde",
+        "bron": "boek p. 125"
+      }
+    },
+    {
+      "id": "U06-Q037",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt een dorp binnen. Op de paal onder het plaatsnaambord hangt het bord voor autoweg en daar weer onder een rond bord met het getal 70. Hoe hard mag je hier?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "50 km/u",
+          "feedback": "Fout. Dat is de standaard binnen de kom, maar hier staat een bord dat een ander maximum aangeeft.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "70 km/u",
+          "feedback": "Goed. Binnen de kom geldt in principe 50 km/u, maar met een bord kan een hoger maximum worden aangegeven en dat gebeurt hier.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is het maximum van een autoweg buiten de bebouwde kom, en bovendien staat hier een bord met een ander getal.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Binnen de bebouwde kom mag je maximaal 50 km/u, tenzij met borden een ander maximum staat aangegeven; op een autoweg binnen de kom wordt vaak met borden aangegeven dat je sneller mag rijden, bijvoorbeeld 70 km/u.",
+        "waarom": "Het bord voor autoweg zegt alleen wat voor weg dit is en verandert de snelheid niet. Het ronde bord eronder doet dat wel, en omdat dat het enige teken is dat een getal noemt, is dat het getal waar jij je aan houdt.",
+        "valkuil": "Twee borden onder elkaar lijken een geheel, maar alleen het ronde bord met de rode rand stelt de snelheid vast.",
+        "onthoud": "Binnen de kom 50 km/u, en op een autoweg binnen de kom staat er vaak een bord met bijvoorbeeld 70 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Autoweg binnen de bebouwde kom met een afwijkende maximumsnelheid van 70"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "in de praktijk wordt vaak met borden aangegeven dat je sneller mag rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Autoweg binnen de bebouwde kom met een afwijkende maximumsnelheid van 70 km/u",
+        "bron": "boek p. 117",
+        "gewijzigd": "Nieuwe vraag. De afwijkende maximumsnelheid op een autoweg binnen de kom stond als getal nergens in het blok, terwijl F234 nu in het register staat en het boek het bord op p. 117 laat zien. Deze vraag zet die 70 km/u naast de standaard van 50 km/u."
+      }
+    },
+    {
+      "id": "U06-Q038",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het is elf uur 's avonds en je rijdt op een autosnelweg. Langs de weg staat een rond bord met 120 en daaronder een onderbord met 19-6h. Hoe hard mag je hier?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat getal hoort bij het dagdeel van 6 tot 19 uur, en het onderbord noemt hier juist de uren daarbuiten.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "120 km/u",
+          "feedback": "Goed. Het onderbord zegt dat dit bord geldt tussen 19 uur en 6 uur, en op dit tijdstip is dat zo.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "130 km/u",
+          "feedback": "Fout. Dat is de standaard voor de avond en de nacht, maar die geldt alleen zolang geen bord een lagere snelheid aangeeft.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Tussen 19 uur en 6 uur geldt op de autosnelweg de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven.",
+        "waarom": "Een onderbord vertelt je wanneer het bord erboven geldt. Hier dekt het bord precies de uren waarin de standaard anders het hoogst zou zijn, dus het bord beslist en niet de standaard van de weg.",
+        "valkuil": "Zonder bord is de avond en de nacht het stuk waar de hoogste standaard geldt. Zodra er een bord staat, telt alleen nog het bord.",
+        "onthoud": "Een bord met een onderbord voor bepaalde uren gaat boven de standaard van de weg."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "een zwart bord 120 met 19-6h"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "geldt de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven"
+        },
+        {
+          "slide": 138,
+          "anker": "100 met onderbord 6-19 h en 120 met onderbord 19-6 h"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "een rond bord 100 met het onderbord 6-19h; een rond bord 130; een zwart bord 120 met 19-6h",
+        "bron": "boek p. 119",
+        "gewijzigd": "Nieuwe vraag. F235 staat weer in het register, maar het bord 120 met onderbord 19-6h kwam in het blok nergens voor, terwijl dat de klassieke val is bij de avondsnelheid op de autosnelweg."
+      }
+    }
+  ]
+}

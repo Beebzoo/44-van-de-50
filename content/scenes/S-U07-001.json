@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-001",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "obstakel",
+      "soort": "bestelauto",
+      "arm": "noord",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "het obstakel"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Een smalle rechte weg. Op de weghelft van de tegenligger staat een bestelauto stil. Daarachter nadert een grijze auto die er langs wil. Jij komt van onderen.",
+  "inspiratie": {
+    "boek": 61,
+    "slide": 62
+  }
+}

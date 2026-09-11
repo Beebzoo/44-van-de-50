@@ -1,0 +1,860 @@
+{
+  "unit": "U09",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U09-Q025",
+      "unit": "U09",
+      "pagina": "U09-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Voor een tunnel staat bord [L13] met een getal erop. Wat geeft dat bord aan en wanneer staat het er?",
+      "media": {
+        "bord": "L13"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het geeft de lengte van de tunnel aan en staat er bij tunnels die langer zijn dan 250 meter.",
+          "feedback": "Goed. Bij die langere tunnels wordt de lengte erbij gezet, zodat je weet hoe ver je in het donker zit.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het geeft de hoogte van de tunnel aan.",
+          "feedback": "Fout. Een doorrijhoogte wordt met een ander bord aangegeven; dit bord gaat over de lengte.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Het geeft aan hoeveel kilometer je nog moet rijden tot de tunnel begint.",
+          "feedback": "Fout. Het getal hoort bij de tunnel zelf en niet bij de afstand die je er nog heen hebt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Het geeft de maximumsnelheid in de tunnel aan.",
+          "feedback": "Fout. Een snelheid staat op een rond bord met een rode rand, niet op dit blauwe tunnelbord.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Voor tunnels die langer zijn dan 250 meter staat bord L13, dat aangeeft hoe lang de tunnel is.",
+        "waarom": "Weten hoe lang je erin zit verandert je keuzes: bij een korte koker rijd je gewoon door, bij een lange loont het om eerst je licht, je bril en je afstand op orde te hebben.",
+        "valkuil": "Het getal op het bord hoort bij de tunnel, niet bij de afstand tot de ingang.",
+        "onthoud": "Het tunnelbord vertelt hoe lang de tunnel is."
+      },
+      "bronnen": [
+        {
+          "boek": 98,
+          "sectie": "5.9",
+          "anker": "voor tunnels die langer zijn dan 250 meter staat bord L13"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "bord"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "voor tunnels die langer zijn dan 250 meter staat bord L13, dat aangeeft hoe lang de tunnel is",
+        "bron": "boek p. 98"
+      }
+    },
+    {
+      "id": "U09-Q026",
+      "unit": "U09",
+      "pagina": "U09-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Voor een tunnel is met bord [K14] een omleidingsroute aangegeven voor voertuigen met bepaalde gevaarlijke stoffen. Jij rijdt in een personenauto en wilt liever niet door de tunnel. Mag je die route nemen?",
+      "media": {
+        "bord": "K14"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De omleidingsroute is niet gesloten voor ander verkeer, dus jij mag er gewoon gebruik van maken.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het bord wijst een route aan voor voertuigen die niet door de tunnel mogen, maar het verbiedt de rest niets.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als je zelf om de een of andere reden niet door de tunnel wilt rijden, mag je ook van de omleidingsroute gebruikmaken.",
+        "waarom": "Het bord is een aanwijzing voor wie de tunnel niet in mag en geen geslotenverklaring voor de rest, dus er staat niemand buiten.",
+        "valkuil": "Een bord met een doelgroep erop hoeft geen verbod voor alle anderen te zijn.",
+        "onthoud": "De route voor gevaarlijke stoffen mag jij ook rijden."
+      },
+      "bronnen": [
+        {
+          "boek": 98,
+          "sectie": "5.9",
+          "anker": "mag je ook van de omleidingsroute gebruikmaken"
+        },
+        {
+          "slide": 97,
+          "anker": "Die omleidingsroute is niet gesloten voor ander verkeer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "gevaarlijke-stoffen",
+        "omleidingsroute"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je zelf om de een of andere reden niet door de tunnel wilt rijden, mag je ook van de omleidingsroute gebruikmaken.",
+        "bron": "boek p. 98"
+      }
+    },
+    {
+      "id": "U09-Q027",
+      "unit": "U09",
+      "pagina": "U09-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op een heldere dag nader je een lange tunnel. Op welk moment schakel je je dimlicht in?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Ruim voordat je de tunnel inrijdt.",
+          "feedback": "Goed. Dan zien je voor- en achterliggers je al aankomen en verwart niemand jouw licht met remmen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Pas als je in de tunnel bent en het donker wordt.",
+          "feedback": "Fout. Licht dat pas in de tunnel aangaat, kan bij je achterligger overkomen als remmen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Pas als je merkt dat je zelf te weinig ziet.",
+          "feedback": "Fout. Het licht is er niet alleen om zelf te zien maar vooral om gezien te worden, en dat moet meteen goed zijn.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen bij tunnels waar geen verlichting hangt.",
+          "feedback": "Fout. Ook in een verlichte tunnel hoor je met dimlicht te rijden, zodat je zichtbaar bent.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Schakel je dimlicht in ruim voordat je de tunnel inrijdt, want als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt.",
+        "waarom": "In het donker leest een achterligger elk nieuw lichtje als informatie, en een lamp die precies bij de ingang aanspringt lijkt op remlicht op het slechtste moment.",
+        "valkuil": "Met automatische verlichting ga je er te makkelijk van uit dat de auto het zelf wel op tijd doet.",
+        "onthoud": "Licht aan voor de ingang, niet erin."
+      },
+      "bronnen": [
+        {
+          "boek": 99,
+          "sectie": "5.9",
+          "anker": "als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt"
+        },
+        {
+          "slide": 95,
+          "anker": "zet ruim voor de tunnel je dimlicht aan"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "dimlicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Doe dat ruim voordat je de tunnel inrijdt; als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt.",
+        "bron": "boek p. 99"
+      }
+    },
+    {
+      "id": "U09-Q028",
+      "unit": "U09",
+      "pagina": "U09-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Wat hoort er bij het rijden door een tunnel?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je zonnebril afzetten voordat je de tunnel inrijdt.",
+          "feedback": "Goed. In de tunnel is het donkerder en met een zonnebril op zie je onvoldoende.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Extra afstand houden, omdat andere bestuurders vaak vaart minderen.",
+          "feedback": "Goed. Bij het inrijden gaan bestuurders vaak langzamer rijden en verder van de wand af.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Bij het uitrijden je ogen een paar seconden laten wennen aan het felle daglicht.",
+          "feedback": "Goed. Dat wennen duurt even, en tot die tijd pas je je rijgedrag aan.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je grootlicht aanzetten zodat je zo veel mogelijk ziet.",
+          "feedback": "Fout. Het advies gaat over dimlicht; daarmee ben je zichtbaar zonder anderen te verblinden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Juist inhalen zodra het kan, want in een tunnel rijdt iedereen netjes rechts.",
+          "feedback": "Fout. Inhalen is in een tunnel juist risicovol en soms kun je er beter even mee wachten.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Zet je zonnebril af voordat je een tunnel inrijdt, houd extra afstand omdat andere bestuurders vaart minderen, en laat je ogen bij het verlaten van de tunnel wennen aan het felle daglicht.",
+        "waarom": "Alle drie de punten gaan over hetzelfde probleem: je ogen lopen achter op wat de weg doet, en dat vang je op met ruimte in plaats van met reactiesnelheid.",
+        "valkuil": "De gevaarlijkste seconden zitten niet midden in de tunnel maar bij de ingang en de uitgang.",
+        "onthoud": "Zonnebril af, afstand erbij, ogen laten wennen."
+      },
+      "bronnen": [
+        {
+          "boek": 99,
+          "sectie": "5.9",
+          "anker": "zet je zonnebril af voordat je een tunnel inrijdt"
+        },
+        {
+          "boek": 98,
+          "sectie": "5.9",
+          "anker": "andere bestuurders vaak vaart minderen en verder van de tunnelwand af gaan rijden"
+        },
+        {
+          "slide": 95,
+          "anker": "bij het verlaten van de tunnel kun je verblind worden door het felle daglicht"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "zicht",
+        "afstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "zet je zonnebril af voordat je een tunnel inrijdt. In de tunnel is het donker(der) en zie je met een zonnebril op onvoldoende",
+        "bron": "boek p. 99"
+      }
+    },
+    {
+      "id": "U09-Q029",
+      "unit": "U09",
+      "pagina": "U09-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het is fel zonnig en je draagt een zonnebril. Voor je uit ligt de ingang van een tunnel. Is het verstandig om die bril op te houden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Buiten helpt de bril tegen de zon, maar binnen maakt hij een al donkere omgeving nog donkerder.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je zet je zonnebril af voordat je de tunnel inrijdt, want anders zie je binnen onvoldoende.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Zet je zonnebril af voordat je een tunnel inrijdt, want in de tunnel is het donkerder en zie je met een zonnebril op onvoldoende.",
+        "waarom": "Je ogen hebben al even nodig om aan het donker te wennen, en een gekleurd glas ervoor rekt die blinde seconden nog verder op.",
+        "valkuil": "Afzetten doe je ervoor, niet als je er al in zit en merkt dat je niets ziet.",
+        "onthoud": "Bril af voor de ingang."
+      },
+      "bronnen": [
+        {
+          "boek": 99,
+          "sectie": "5.9",
+          "anker": "zie je met een zonnebril op onvoldoende"
+        },
+        {
+          "slide": 95,
+          "anker": "je ogen moeten wennen aan het donker in de tunnel"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "In de tunnel is het donker(der) en zie je met een zonnebril op onvoldoende",
+        "bron": "boek p. 99"
+      }
+    },
+    {
+      "id": "U09-Q030",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Halverwege een lange tunnel merk je dat je een band hebt die leegloopt. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Langzaam doorrijden en pas na de tunnel op een veilige plaats stoppen.",
+          "feedback": "Goed. Uit de tunnel komen is het eerste doel; buiten heb je ruimte en zien anderen je van ver aankomen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Meteen stoppen en in de auto op hulp wachten.",
+          "feedback": "Fout. Stilstaan in de tunnel probeer je juist te vermijden, en in de auto blijven zitten hoort daar niet bij.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Keren en terugrijden naar de ingang.",
+          "feedback": "Fout. Keren in een tunnel doe je nooit; je blijft de rijrichting volgen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Op de rijstrook stoppen en de band verwisselen.",
+          "feedback": "Fout. Sleutelen op een rijstrook in een tunnel zet jou midden in het verkeer, met de wand in je rug.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Probeer uit de tunnel te komen als je pech krijgt. Rijd bijvoorbeeld met een lekke band langzaam door en stop pas na de tunnel op een veilige plaats.",
+        "waarom": "Een stilstaande auto in een koker zonder berm is het begin van elk tunnelongeval, dus een beschadigde band weegt niet op tegen het buiten halen van de auto.",
+        "valkuil": "Je band is minder waard dan je positie; doorrijden op een lekke band mag hier.",
+        "onthoud": "Bij pech in een tunnel: eerst eruit zien te komen."
+      },
+      "bronnen": [
+        {
+          "boek": 99,
+          "sectie": "5.9",
+          "anker": "Rijd bijvoorbeeld met een lekke band langzaam door en stop pas na de tunnel"
+        },
+        {
+          "slide": 96,
+          "anker": "Probeer bij pech de tunnel uit te rijden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "pech",
+        "noodsituatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Probeer uit de tunnel te komen als je pech krijgt. Rijd bijvoorbeeld met een lekke band langzaam door en stop pas na de tunnel op een veilige plaats.",
+        "bron": "boek p. 99"
+      }
+    },
+    {
+      "id": "U09-Q031",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je krijgt pech in een tunnel en de tunnel uit rijden lukt niet meer. Wat hoort er bij de juiste aanpak?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Alarmlichten aanzetten en zo ver mogelijk rechts parkeren, het liefst in een vluchthaven.",
+          "feedback": "Goed. In een vluchthaven staat je auto het minst in de weg, en anders zo ver mogelijk rechts.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je motor afzetten en voorzichtig uitstappen.",
+          "feedback": "Goed. Je blijft niet in de auto zitten, maar je stapt wel behoedzaam uit omdat het verkeer doorrijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een stuk voorbij je auto gaan staan, dicht bij de tunnelwand.",
+          "feedback": "Goed. Zo vangt je auto de klap op bij een eventuele aanrijding in plaats van jij.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "In de auto blijven zitten met je gordel om tot er hulp komt.",
+          "feedback": "Fout. Je auto is in een tunnel geen veilige plek; je verlaat hem juist.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Vlak achter je auto gaan staan zodat het verkeer je goed ziet.",
+          "feedback": "Fout. Achter je auto sta je precies in de baan van een aanrijding; je hoort er een stuk voorbij te staan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Schakel je alarmlichten in en parkeer zo ver mogelijk rechts, als het kan in de volgende vluchthaven. Zet je motor af, verlaat je voertuig voorzichtig en ga een stuk voorbij je auto staan, want dan vangt je auto de klap op bij een eventuele aanrijding.",
+        "waarom": "Alles draait om de vraag waar de klap terechtkomt als iemand jouw auto te laat ziet. Sta je een stuk voorbij je auto en tegen de wand aan, dan vangt de auto die klap op en jij niet.",
+        "valkuil": "Het voelt logisch om achter de auto te blijven zwaaien, maar juist daar komt de aanrijding binnen.",
+        "onthoud": "Rechts parkeren, uitstappen, en voorbij je auto bij de wand gaan staan."
+      },
+      "bronnen": [
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "lukt dat niet, zet dan je motor af en verlaat je voertuig voorzichtig"
+        },
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "Hierdoor vangt je auto de klap op bij een eventuele aanrijding"
+        },
+        {
+          "slide": 96,
+          "anker": "zet je motor af en stap voorzichtig uit"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "pech",
+        "vluchthaven"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "ga een stuk voorbij je auto staan. Hierdoor vangt je auto de klap op bij een eventuele aanrijding.",
+        "bron": "boek p. 100",
+        "gewijzigd": "de waarom zei voor de auto (de woorden van slide 96) terwijl de rest van de vraag voorbij je auto zegt (de woorden van het boek); nu staat er overal voorbij je auto, en het absolute de enige plek is eruit. Slide 96 is als bron toegevoegd voor het uitstappen. Ook stond er dat een vluchthaven de enige plek is waar je auto niet in de weg staat; het boek zegt alleen zo ver mogelijk rechts, als het kan in een vluchthaven."
+      }
+    },
+    {
+      "id": "U09-Q032",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto staat stil in een tunnel en je bent uitgestapt. Aan de overkant van de rijbaan zie je een hulppost die dichterbij is dan die aan jouw kant. Loop je daarheen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Hoe dichtbij die post ook lijkt, de rijbaan oversteken is in een tunnel uitgesloten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je steekt nooit de rijbaan over; je loopt langs de wand aan jouw kant naar de dichtstbijzijnde hulppost.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Steek nooit de rijbaan over, maar loop langs de tunnelwand naar de dichtstbijzijnde hulppost, in de rijrichting van het verkeer.",
+        "waarom": "In een tunnel is er geen berm en geen uitwijkruimte, dus een bestuurder die je te laat ziet kan niets meer. Langs de wand blijf je buiten zijn baan.",
+        "valkuil": "De kortste route is hier niet de veiligste; de wand aan jouw kant is de route.",
+        "onthoud": "Nooit oversteken, altijd langs je eigen wand."
+      },
+      "bronnen": [
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "loop langs de tunnelwand naar de dichtstbijzijnde hulppost"
+        },
+        {
+          "slide": 96,
+          "anker": "langs de tunnelwand naar de dichtstbijzijnde hulppost"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "hulppost",
+        "noodsituatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "steek nooit de rijbaan over, loop langs de tunnelwand naar de dichtstbijzijnde hulppost",
+        "bron": "boek p. 100"
+      }
+    },
+    {
+      "id": "U09-Q033",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Verderop in de tunnel staat een voertuig in brand. Je hebt je eigen auto verlaten. Welke kant loop je op?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Tegen de rijrichting in, van de brand vandaan, naar de dichtstbijzijnde nooduitgang.",
+          "feedback": "Goed. Brand is de uitzondering op de gewone looprichting, want de rook trekt met het verkeer mee.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Met het verkeer mee, langs de brand, naar de dichtstbijzijnde hulppost.",
+          "feedback": "Fout. Dat is de gewone regel bij pech, maar bij brand zou je zo de brand en de rook in lopen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Midden over de rijbaan, zodat je zo snel mogelijk weg bent.",
+          "feedback": "Fout. Je loopt altijd langs de tunnelwand en nooit over de rijbaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Nergens heen, je blijft bij je auto tot de brandweer er is.",
+          "feedback": "Fout. Bij brand moet je juist evacueren en de tunnel via de dichtstbijzijnde nooduitgang verlaten.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Loop langs de tunnelwand van de brand vandaan en verlaat de tunnel via de dichtstbijzijnde nooduitgang; alleen bij brand vlucht je dus tegen de rijrichting in.",
+        "waarom": "Het ventilatiesysteem blaast de rook in de rijrichting naar buiten, dus met het verkeer meelopen zou betekenen dat je precies met de rookwolk mee wandelt.",
+        "valkuil": "Zonder brand loop je juist wel met het verkeer mee; het is de brand die de richting omdraait.",
+        "onthoud": "Brand voor je: tegen de rijrichting in weglopen."
+      },
+      "bronnen": [
+        {
+          "slide": 96,
+          "anker": "alleen bij brand vlucht je tegen de rijrichting in naar de dichtstbijzijnde nooduitgang"
+        },
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "loop langs de tunnelwand van de brand vandaan en verlaat de tunnel"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "brand",
+        "nooduitgang"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "alleen bij brand vlucht je tegen de rijrichting in naar de dichtstbijzijnde nooduitgang",
+        "bron": "slide 96"
+      }
+    },
+    {
+      "id": "U09-Q034",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "In een tunnel kom je in een file terecht die helemaal stilstaat. Wat doe je terwijl je daar staat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Afstand houden tot je voorganger en je alarmlichten aanzetten.",
+          "feedback": "Goed. Ruimte voor je uit en zichtbaarheid naar achteren zijn het eerste wat je regelt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je radio afstemmen op een veelgebruikte frequentie in de FM-band.",
+          "feedback": "Goed. De meeste tunnels zenden bij incidenten instructies uit via de radio.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Kijken waar de dichtstbijzijnde nooduitgang zit.",
+          "feedback": "Goed. Dat wil je weten voordat je het nodig hebt, niet op het moment zelf.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Zorgen dat je gereed bent om na een instructie je auto te verlaten.",
+          "feedback": "Goed. Een stilstaande file in een tunnel kan op een ongeval verderop wijzen, dus je houdt er rekening mee dat je eruit moet.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Meteen uitstappen en alvast naar de uitgang lopen.",
+          "feedback": "Fout. Je wacht op een instructie; zomaar gaan lopen tussen stilstaande auto's helpt niemand.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Keren en de tunnel achteruit verlaten.",
+          "feedback": "Fout. Keren en achteruitrijden doe je in een tunnel nooit.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Bij een file in de tunnel houd je afstand tot je voorganger en zet je je alarmlichten aan, stem je je radio af op een veelgebruikte frequentie, kijk je waar een nooduitgang is en zorg je dat je gereed bent om na een instructie je auto te verlaten.",
+        "waarom": "Een stilstaande file in een koker betekent meestal dat er verderop iets ergs is gebeurd, dus je bereidt je voor op instructies terwijl je nog rustig in de auto zit.",
+        "valkuil": "Niets doen en op je telefoon kijken is hier de echte fout; de tunnel praat via je radio tegen je.",
+        "onthoud": "Afstand, alarmlichten, radio aan, nooduitgang zoeken."
+      },
+      "bronnen": [
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "houd dan afstand tot je voorganger en zet je alarmlichten aan"
+        },
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "een systeem dat bij incidenten instructies via de radio uitzendt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "file",
+        "noodsituatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "stem je radio af op een veelgebruikte FM-frequentie. De meeste tunnels zijn voorzien van een systeem dat bij incidenten instructies via de radio uitzendt",
+        "bron": "boek p. 100"
+      }
+    },
+    {
+      "id": "U09-Q035",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "hotspot",
+      "soort": "inzicht",
+      "stam": "Je staat met pech in een tunnel en wilt contact opnemen met de wegverkeersleider. Tik op het bord dat je naar een noodtelefoon wijst.",
+      "media": {
+        "borden": [
+          "L16",
+          "L17",
+          "L14",
+          "L19"
+        ]
+      },
+      "opties": [
+        {
+          "id": "L16",
+          "tekst": "L16",
+          "feedback": "Goed. Het blauwe bord met de telefoonhoorn wijst je naar de noodtelefoon waarmee je de wegverkeersleider bereikt.",
+          "fouttype": null
+        },
+        {
+          "id": "L17",
+          "tekst": "L17",
+          "feedback": "Fout. Het bord met de rode brandblusser wijst naar een brandblusapparaat en niet naar een telefoon.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "L14",
+          "tekst": "L14",
+          "feedback": "Fout. Dit bord geeft een vluchthaven aan, de plek waar je je auto kwijt kunt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L19",
+          "tekst": "L19",
+          "feedback": "Fout. Het groene bord met de rennende figuren wijst naar de dichtstbijzijnde nooduitgang.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L16"
+      ],
+      "uitleg": {
+        "regel": "In tunnels vind je informatieborden over vluchtwegen, brandblussers en noodtelefoons, en het bord met de telefoonhoorn staat voor de noodtelefoon.",
+        "waarom": "Bij pech is de hulppost je enige lijn naar buiten, dus je moet dat ene symbool er in het donker tussenuit kunnen pikken zonder na te denken.",
+        "valkuil": "Kijk naar het symbool en niet naar de kleur of de vorm: de hoorn, de blusser en de vluchthaven staan alle drie op een blauw vierkant bord, terwijl de nooduitgang een groen bord is.",
+        "onthoud": "Hoorn is telefoon, blusser is brand, rennend figuur is uitgang."
+      },
+      "bronnen": [
+        {
+          "boek": 101,
+          "sectie": "5.9",
+          "anker": "In tunnels vind je informatieborden over vluchtwegen, brandblussers en noodtelefoons"
+        },
+        {
+          "boek": 101,
+          "sectie": "5.9",
+          "anker": "blauw vierkant bord met een witte telefoonhoorn"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "noodtelefoon",
+        "bord"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "blauw vierkant bord met een witte telefoonhoorn en S.O.S. (noodtelefoon)",
+        "bron": "boek p. 101",
+        "gewijzigd": "de valkuil zei dat de drie afleiders op hetzelfde soort bord staan, maar L19 is een groen rechthoekig bord; de valkuil zegt nu wat er echt verschilt."
+      }
+    },
+    {
+      "id": "U09-Q036",
+      "unit": "U09",
+      "pagina": "U09-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Er staat een auto in brand en het verkeer in de tunnel staat stil. De uitgang achter je is dichtbij. Mag je keren of achteruitrijden om weg te komen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Keren en achteruitrijden is precies wat je hier nooit doet; je laat de auto staan en gaat te voet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je keert nooit om en rijdt niet achteruit; je zet de motor uit, laat de sleutel in het contact en verlaat je voertuig.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Bij brand keer je nooit om en rijd je niet achteruit. Zet je motor uit, laat de sleutel in het contact zitten en verlaat je voertuig samen met je passagiers.",
+        "waarom": "Achter je staan auto's die hetzelfde denken, en een tunnel waar mensen gaan keren loopt binnen een minuut helemaal vast voor de hulpdiensten die er juist in moeten.",
+        "valkuil": "De sleutel blijft in het contact, zodat anderen je auto kunnen verplaatsen als dat nodig is.",
+        "onthoud": "Bij brand: auto laten staan, lopend eruit."
+      },
+      "bronnen": [
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "keer nooit om en rijd niet achteruit"
+        },
+        {
+          "boek": 100,
+          "sectie": "5.9",
+          "anker": "zet je motor uit en laat de sleutel in het contact zitten"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "tunnel",
+        "brand",
+        "noodsituatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "keer nooit om en rijd niet achteruit",
+        "bron": "boek p. 100"
+      }
+    }
+  ]
+}

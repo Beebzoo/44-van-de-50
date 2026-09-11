@@ -260,11 +260,36 @@ function laadUitzonderingen() {
   return Array.isArray(lijst) ? lijst : lijst.uitzonderingen || [];
 }
 
-function main() {
+/* Render every drawing with the real renderer and look at where things land.
+   A north or south arm is only 150 long, so an actor at afstand 3 used to be
+   drawn below the bottom of the canvas and simply was not there: no white car,
+   no "jij" mark, and an intention arrow coming out of nowhere. Nobody notices
+   that by reading json, so the machine looks instead. */
+async function checkBuitenBeeld() {
+  const bestand = path.join(REPO, "js", "scene.js");
+  if (!exists(bestand)) return;
+  let sceneSvg;
+  try { ({ sceneSvg } = await import(require("url").pathToFileURL(bestand).href)); }
+  catch (e) { meld("js/scene.js", "render", "kon de renderer niet laden: " + e.message); return; }
+  for (const [id, s] of Object.entries(SCENES)) {
+    if (arg && !arg.endsWith(".json") && !id.startsWith("S-" + arg)) continue;
+    let svg;
+    try { svg = sceneSvg(s); }
+    catch (e) { meld(id, "render", "de renderer struikelt over deze tekening: " + e.message); continue; }
+    if (/NaN|Infinity/.test(svg)) meld(id, "render", "de tekening bevat NaN of Infinity, er is ergens door nul gedeeld of een veld ontbreekt");
+    for (const m of svg.matchAll(/translate\(([-\d.]+),([-\d.]+)\) rotate/g)) {
+      const x = parseFloat(m[1]), y = parseFloat(m[2]);
+      if (x < -8 || x > 408 || y < -8 || y > 308) meld(id, "render", "een actor wordt getekend op x " + x.toFixed(0) + " y " + y.toFixed(0) + ", buiten het doek van 400 bij 300");
+    }
+  }
+}
+
+async function main() {
   const vragen = alleVragen();
   const units = listJson(path.join(CONTENT, "units")).map(readJson);
   for (const { q, bestand } of vragen) checkVraag(q, bestand);
   checkWezen(vragen, units);
+  await checkBuitenBeeld();
 
   if (!CURSUSBLOKKEN) console.log("  let op: de cursustranscriptie is niet gevonden, de slidecontrole is overgeslagen");
 
@@ -275,7 +300,7 @@ function main() {
 
   const perSoort = {};
   for (const m of open) (perSoort[m.soort] = perSoort[m.soort] || []).push(m);
-  const volgorde = ["leesfout", "slide", "volgorde", "reeks", "arm", "kleur", "tekenbaar", "tekening", "wees"];
+  const volgorde = ["leesfout", "render", "slide", "volgorde", "reeks", "arm", "kleur", "tekenbaar", "tekening", "wees"];
   for (const soort of volgorde) {
     if (!perSoort[soort]) continue;
     console.log("\n== " + soort + " (" + perSoort[soort].length + ")");

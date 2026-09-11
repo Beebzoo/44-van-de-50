@@ -1,0 +1,32 @@
+{
+  "id": "S-U06-002-a",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "noord",
+      "zijde": "links",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Een rechte weg. Jij nadert van onderen. Ver voor je staat een voetganger stil aan de kant van de rijbaan.",
+  "inspiratie": {
+    "boek": 125,
+    "slide": 143
+  }
+}

@@ -1,0 +1,1122 @@
+{
+  "id": "U09",
+  "slug": "overwegen-haltes-bruggen-en-tunnels",
+  "titel": "Overwegen, haltes, bruggen en tunnels",
+  "ondertitel": "Bijzondere weggedeelten waar je gedrag anders is dan op een gewone weg",
+  "volgorde": 9,
+  "week": 4,
+  "tier": "must",
+  "vereist": [
+    "U08"
+  ],
+  "borden": [
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J15",
+    "J31",
+    "C22",
+    "K14",
+    "L3a",
+    "L3b",
+    "L3c",
+    "L13",
+    "L14",
+    "L15",
+    "L16",
+    "L17",
+    "L18",
+    "L19"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.9"
+      ],
+      "paginas": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ]
+    },
+    "cursus": {
+      "slides": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "bijzondere_wegen_weggebruikers_manoeuvres",
+    "veilig_rijden_en_noodsituaties"
+  ],
+  "intro": "Op een gewone weg weet je ongeveer wat er kan gebeuren. Bij een halte, een overweg, een brug of een tunnel ligt dat anders: daar staat iets stil dat zo weer wegrijdt, komt er een trein die niet kan uitwijken, gaat een wegdek omhoog of rijd je een donkere koker in waar je niet zomaar kunt keren. In dit blok leer je de bus en de tram bij de halte, de borden en bakens die een overweg aankondigen, het verschil tussen een en twee andreaskruisen, zijwind en gladheid op bruggen, het rode bruglicht, en wat je doet bij pech, file of brand in een tunnel. Veel vragen hebben geen tekening, want een overweg en een tunnel laten zich van bovenaf niet tekenen. Lees de situatie dus rustig door en zoek eerst het detail dat het antwoord omdraait.",
+  "paginas": [
+    {
+      "id": "U09-P01",
+      "anker": "p-5.6-halte",
+      "titel": "Bus en tram bij de halte",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.6"
+          ],
+          "paginas": [
+            92,
+            93
+          ]
+        },
+        "cursus": {
+          "slides": [
+            92
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U09-r01",
+          "tekst": "Je moet binnen de bebouwde kom een bus voor laten gaan als deze aangeeft te willen wegrijden van een bushalte.",
+          "bron": [
+            {
+              "boek": 92,
+              "sectie": "5.6",
+              "anker": "Je moet binnen de bebouwde kom een bus voor laten gaan"
+            },
+            {
+              "slide": 92,
+              "anker": "voor laten gaan als deze wil wegrijden bij een bushalte"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r02",
+          "tekst": "Dat geldt voor alle autobussen, dus ook voor touringcars, maar niet voor bijvoorbeeld kleine buurtbusjes. Buiten de bebouwde kom geldt deze regel niet.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.6",
+            "anker": "Dat geldt voor alle autobussen, dus ook voor touringcars, maar niet voor bijvoorbeeld kleine buurtbusjes"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r03",
+          "tekst": "De regel werkt in beide richtingen: ook als de autobus je van voren nadert en aangeeft te willen wegrijden van de halte, moet je hem voor laten gaan.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.6",
+            "anker": "Ook als de autobus je van voren nadert en aangeeft te willen wegrijden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r04",
+          "tekst": "Passeer een stilstaande bus of tram altijd met aangepaste snelheid en houd voldoende zijdelingse afstand.",
+          "bron": {
+            "boek": 93,
+            "sectie": "5.6",
+            "anker": "Passeer een stilstaande bus of tram altijd met aangepaste snelheid"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r05",
+          "tekst": "Als een tram of autobus stopt bij een halteplaats zonder vluchtheuvel, dan moet je overstekende in- en uitstappende passagiers voor laten gaan.",
+          "bron": [
+            {
+              "slide": 92,
+              "anker": "dan moét je overstekende in- en uitstappende passagiers voor laten gaan"
+            },
+            {
+              "boek": 93,
+              "sectie": "5.6",
+              "anker": "ben je verplicht om passagiers voor te laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een bus bij een halte staat er maar even. Hij moet vanuit stilstand een gat in de rijbaan zien te vinden, terwijl hij lang is, traag optrekt en slecht zicht naar achteren heeft. Binnen de bebouwde kom staan haltes dicht op elkaar, en als niemand ruimte gaf zou een bus daar nauwelijks van zijn plaats komen.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U09-101",
+          "tekst": "Binnen de bebouwde kom staat een bus bij de halte en geeft richting naar links aan. Hij gaat eerst, jij daarna.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.6",
+            "anker": "als deze aangeeft te willen wegrijden van een bushalte"
+          }
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "uitgestapte passagiers die voor of achter de bus plotseling de weg oversteken",
+            "gehaast toestromende passagiers die de weg oversteken om de bus nog te halen",
+            "de bus die meteen wegrijdt op het moment dat de bestuurder richting naar links aangeeft"
+          ],
+          "bron": {
+            "boek": 93,
+            "sectie": "5.6",
+            "anker": "Houd rekening met deze risico's als een bus"
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U09-102",
+          "tekst": "Een tram staat bij een halte zonder vluchtheuvel. De uitstappende passagier steekt de rijbaan over naar de stoep en gaat voor.",
+          "bron": {
+            "boek": 93,
+            "sectie": "5.6",
+            "anker": "als je een tram nadert bij een tramhalte zonder vluchtheuvel"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "L3a",
+            "L3b",
+            "L3c"
+          ],
+          "tekst": "De halteborden in de nieuwe stijl: tram en bus samen, alleen bus, alleen tram."
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "In een straat met een bussluis ligt een verzonken bak dwars over de weg. Een bussluis zorgt dat een bepaalde route wel gevolgd kan worden door lijnbussen, maar niet door andere bestuurders. Een auto komt onherroepelijk vast te zitten in de sluis, dus keer om en kies een andere route.",
+          "bron": [
+            {
+              "slide": 92,
+              "anker": "Een bussluis zorgt dat een bepaalde route wél gevolgd kan worden door lijnbussen"
+            },
+            {
+              "boek": 93,
+              "sectie": "5.6",
+              "anker": "Een auto komt onherroepelijk vast te zitten in de sluis"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Twee dingen samen maken de regel: binnen de bebouwde kom, en de bus geeft aan dat hij weg wil. Ontbreekt er een van de twee, dan gelden de gewone regels. En let op: touringcars tellen mee, kleine buurtbusjes niet.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.6",
+            "anker": "Buiten de bebouwde kom geldt deze regel niet"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Binnen de kom plus richting aan is voor laten gaan. Een halte zonder vluchtheuvel betekent overstekende passagiers voor laten gaan."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Buiten de bebouwde kom geeft een touringcar bij een halte richting naar links aan. Moet je hem voor laten gaan?",
+          "antwoord": "Nee.",
+          "uitleg": "De regel geldt binnen de bebouwde kom; buiten de bebouwde kom geldt hij niet.",
+          "bron": {
+            "boek": 92,
+            "sectie": "5.6",
+            "anker": "Buiten de bebouwde kom geldt deze regel niet"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een tram staat stil bij een halteplaats zonder vluchtheuvel en er stappen mensen uit. Wat doe je?",
+          "antwoord": "Je laat de overstekende passagiers voor gaan.",
+          "uitleg": "Bij een halteplaats zonder vluchtheuvel moeten overstekende in- en uitstappende passagiers voor.",
+          "bron": {
+            "slide": 92,
+            "anker": "Als een tram of autobus stopt bij een halteplaats zonder vluchtheuvel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U09-P02",
+      "anker": "p-5.7-overweg-herkennen",
+      "titel": "Een overweg zien aankomen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.7"
+          ],
+          "paginas": [
+            94,
+            95
+          ]
+        },
+        "cursus": {
+          "slides": [
+            93
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U09-r06",
+          "tekst": "Overwegen zijn gelijkvloerse kruisingen tussen een weg en een spoorweg. Meestal zijn ze beveiligd met overwegbomen, knipperlichten en alarmbellen.",
+          "bron": {
+            "boek": 94,
+            "sectie": "5.7",
+            "anker": "Overwegen zijn gelijkvloerse kruisingen tussen een weg en een spoorweg"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r07",
+          "tekst": "Het waarschuwingsbord geeft aan welk soort overweg je gaat passeren. Het bord met het hek erop hoort bij een overweg met overwegbomen. Er zijn ook overwegen zonder overwegbomen, maar wel met knipperlichten en alarmbellen, en die herken je aan het bord met de locomotief.",
+          "bron": [
+            {
+              "boek": 94,
+              "sectie": "5.7",
+              "anker": "Er zijn ook overwegen zonder overwegbomen, maar wel met knipperlichten en alarmbellen"
+            },
+            {
+              "slide": 93,
+              "anker": "Het waarschuwingsbord geeft aan welk soort overweg je gaat passeren"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "J10",
+            "J11"
+          ],
+          "tekst": "Het hek hoort bij een overweg met overwegbomen, de locomotief bij een overweg zonder overwegbomen."
+        },
+        {
+          "type": "regel",
+          "id": "U09-r08",
+          "tekst": "Onder die borden zijn bakens aangebracht met rode schuine strepen, zowel links als rechts van de weg. Elke schuine streep geeft een afstand van 80 meter aan: drie strepen is 240 meter, twee strepen 160 meter en een streep 80 meter voor de overweg.",
+          "bron": [
+            {
+              "boek": 95,
+              "sectie": "5.7",
+              "anker": "Elke schuine streep geeft een afstand van 80 meter aan"
+            },
+            {
+              "slide": 93,
+              "anker": "Gestreepte bakens geven aan hoe ver je nog van de overweg bent"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r09",
+          "tekst": "Vlak voor de overweg zelf staat een paal met daarop een of twee zogenaamde andreaskruisen. Een kruis wil zeggen dat de overweg maar een spoor heeft, twee kruisen geven twee of meer sporen aan.",
+          "bron": [
+            {
+              "boek": 95,
+              "sectie": "5.7",
+              "anker": "Eén kruis wil zeggen dat de overweg maar één spoor heeft"
+            },
+            {
+              "slide": 93,
+              "anker": "twee kruisen: twee of meer sporen"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "J12",
+            "J13"
+          ],
+          "tekst": "Een andreaskruis staat voor een spoor, een dubbel kruis voor twee of meer sporen."
+        },
+        {
+          "type": "regel",
+          "id": "U09-r10",
+          "tekst": "De overweglichten knipperen wit zolang er geen trein aan komt. Zodra de overweglichten rood gaan knipperen en de alarmbellen beginnen te rinkelen, moet je stoppen. Na een paar seconden gaan de overwegbomen dicht.",
+          "bron": [
+            {
+              "boek": 94,
+              "sectie": "5.7",
+              "anker": "De overweglichten knipperen wit zolang er geen trein aan komt"
+            },
+            {
+              "slide": 93,
+              "anker": "wit knipperlicht bij overweg betekent; er nadert geen trein"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Wat je ziet",
+            "Wat het betekent"
+          ],
+          "rijen": [
+            [
+              "bord met een hek",
+              "overweg met overwegbomen"
+            ],
+            [
+              "bord met een locomotief",
+              "overweg zonder overwegbomen, wel knipperlichten en alarmbellen"
+            ],
+            [
+              "baken met drie strepen",
+              "nog 240 meter tot de overweg"
+            ],
+            [
+              "een andreaskruis",
+              "een spoor"
+            ],
+            [
+              "twee andreaskruisen",
+              "twee of meer sporen"
+            ],
+            [
+              "wit knipperend licht",
+              "er nadert geen trein"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 95,
+              "sectie": "5.7",
+              "anker": "het eerste baken heeft drie strepen (240 meter voor de overweg)"
+            },
+            {
+              "boek": 94,
+              "sectie": "5.7",
+              "anker": "Je kunt dat zien aan het waarschuwingsbord met het hek erop"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een trein heeft honderden meters nodig om te stoppen en kan niet uitwijken, dus alle informatie langs de weg is erop gericht dat jij ruim van tevoren weet wat er komt. De bakens tellen letterlijk voor je af, het bord vertelt of er bomen zijn die je tegenhouden, en de kruisen vertellen of er na het eerste spoor nog een tweede kan liggen.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Twee kruisen betekent niet twee treinen maar twee of meer sporen. En de bakens tellen af naar de overweg toe: het baken met de meeste strepen staat het verst weg.",
+          "bron": {
+            "boek": 95,
+            "sectie": "5.7",
+            "anker": "twee kruisen geven twee of meer sporen aan"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Hek is bomen, locomotief is geen bomen. Elke streep op een baken is 80 meter. Elk kruis is een spoor."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je ziet een waarschuwingsbord met een locomotief en daaronder een baken met twee strepen. Wat weet je nu?",
+          "antwoord": "Over 160 meter komt een overweg zonder overwegbomen, wel met knipperlichten en alarmbellen.",
+          "uitleg": "De locomotief staat voor een overweg zonder bomen en elke streep op het baken is 80 meter.",
+          "bron": {
+            "boek": 95,
+            "sectie": "5.7",
+            "anker": "het tweede baken heeft twee strepen (160 meter voor de overweg)"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het overweglicht knippert wit. Wat betekent dat?",
+          "antwoord": "Er nadert geen trein.",
+          "uitleg": "Pas als de lichten rood gaan knipperen en de alarmbellen gaan rinkelen, moet je stoppen.",
+          "bron": {
+            "boek": 94,
+            "sectie": "5.7",
+            "anker": "De overweglichten knipperen wit zolang er geen trein aan komt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U09-P03",
+      "anker": "p-5.7-overweg-gedrag",
+      "titel": "Veilig over de overweg",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.7"
+          ],
+          "paginas": [
+            94,
+            95,
+            96
+          ]
+        },
+        "cursus": {
+          "slides": [
+            93
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U09-r11",
+          "tekst": "De tijd tussen de knipperlichten en het dichtgaan van de overwegbomen is op de plaatselijke maximumsnelheid afgestemd. Ook daarom moet je een overweg altijd met aangepaste snelheid naderen.",
+          "bron": {
+            "boek": 94,
+            "sectie": "5.7",
+            "anker": "het dichtgaan van de overwegbomen is op de plaatselijke maximumsnelheid afgestemd"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r12",
+          "tekst": "Als je moet stoppen bij een overweg, laat dan zijwegen en in- of uitritten vrij, en natuurlijk ook de overweg zelf. Zet je motor af totdat de overwegbomen weer open gaan.",
+          "bron": {
+            "boek": 94,
+            "sectie": "5.7",
+            "anker": "laat dan zijwegen en in- of uitritten vrij"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r13",
+          "tekst": "Rijd een overweg pas op als je zeker weet dat je er ook direct weer af kunt rijden. Wacht dus altijd met doorrijden tot aan de andere kant van de overweg voldoende ruimte voor je vrij is.",
+          "bron": {
+            "boek": 95,
+            "sectie": "5.7",
+            "anker": "Wacht dus altijd met doorrijden tot aan de andere kant van de overweg"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r14",
+          "tekst": "Vlak voor en op een overweg kun je beter niet inhalen. Het inhalen van fietsers is daarop soms een uitzondering: als er voldoende ruimte en zicht is, is het voor de doorstroming beter om hen wel in te halen.",
+          "bron": {
+            "boek": 96,
+            "sectie": "5.7",
+            "anker": "Vlak voor en op een overweg kun je beter niet inhalen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r15",
+          "tekst": "Nadat de trein is gepasseerd, gaan de overwegbomen automatisch open, ook als er vlak daarna nog een trein komt. Wacht daarom tot de overwegbomen omhoog staan en het rode knipperlicht gedoofd is.",
+          "bron": {
+            "boek": 96,
+            "sectie": "5.7",
+            "anker": "Nadat de trein is gepasseerd, gaan de overwegbomen automatisch open"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r16",
+          "tekst": "Heel soms kom je nog onbeveiligde overwegen tegen, zonder overwegbomen, knipperlichten en alarmbellen. Als je daar wilt oversteken, moet je extra voorzichtig zijn en erg goed uitkijken.",
+          "bron": [
+            {
+              "boek": 96,
+              "sectie": "5.7",
+              "anker": "Heel soms kom je nog onbeveiligde overwegen tegen, zonder overwegbomen, knipperlichten en alarmbellen"
+            },
+            {
+              "slide": 93,
+              "anker": "dit komt bijna niet meer voor in Nederland, omdat het erg gevaarlijk is"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Slaat je motor af op de overweg en wil hij niet meer aanslaan, schakel dan je auto in de eerste versnelling en laat de koppeling opkomen. Draai de contactsleutel om of druk op de startknop en houd die vast in de stand starten. Je rijdt nu van de spoorbaan af op de startmotor. Lukt dat niet, verlaat dan je auto en breng jezelf in veiligheid.",
+          "bron": {
+            "boek": 95,
+            "sectie": "5.7",
+            "anker": "schakel dan je auto in de eerste versnelling en laat de koppeling opkomen"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Alles op een overweg draait om de ene fout die je niet kunt herstellen: stilstaan tussen de bomen terwijl er een trein aankomt. Daarom kijk je niet naar de ruimte voor de overweg maar naar de ruimte erachter, en daarom blijf je van zijwegen af zodat een rij wachtenden nooit de overweg in schuift.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Bij een overweg met bomen staat een bord dat je waarschuwt dat er nog een trein kan komen. De bomen gaan namelijk vanzelf omhoog, ook als er vlak achter de eerste trein een tweede zit.",
+          "bron": {
+            "boek": 96,
+            "sectie": "5.7",
+            "anker": "ook als er vlak daarna nog een trein komt"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Openstaande bomen zijn nog geen toestemming. Pas als het rode knipperlicht gedoofd is, mag je gaan. En achter je voorligger aan de overweg op rijden terwijl het aan de overkant vaststaat, is precies waar het misgaat.",
+          "bron": {
+            "boek": 96,
+            "sectie": "5.7",
+            "anker": "wacht dan tot de overwegbomen omhoog staan en het rode knipperlicht gedoofd is"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Eerst kijken of je er af kunt, dan pas erop. Bomen omhoog is niet genoeg, het rode licht moet uit zijn."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je moet stoppen voor een gesloten overweg. Waar let je op bij het kiezen van je plek?",
+          "antwoord": "Je laat zijwegen en in- of uitritten vrij, en de overweg zelf natuurlijk ook.",
+          "uitleg": "Wie voor een overweg in een zijweg of een uitrit blijft staan, zet anderen vast; daarom houd je die vrij.",
+          "bron": {
+            "boek": 94,
+            "sectie": "5.7",
+            "anker": "laat dan zijwegen en in- of uitritten vrij"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt achter een fietser en er is vlak voor een overweg voldoende ruimte en zicht. Mag je hem inhalen?",
+          "antwoord": "Ja, fietsers zijn soms een uitzondering op het advies om daar niet in te halen.",
+          "uitleg": "Bij voldoende ruimte en zicht is het voor de doorstroming beter om een fietser daar wel in te halen.",
+          "bron": {
+            "boek": 96,
+            "sectie": "5.7",
+            "anker": "Het inhalen van fietsers is daarop soms een uitzondering"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U09-P04",
+      "anker": "p-5.8-brug-en-viaduct",
+      "titel": "Bruggen en viaducten",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.8"
+          ],
+          "paginas": [
+            97,
+            98
+          ]
+        },
+        "cursus": {
+          "slides": [
+            94
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U09-r17",
+          "tekst": "Op bruggen en viaducten kun je last hebben van zijwind. Dit geldt vooral buiten de bebouwde kom op hoge bruggen en bij bruggen over groot open water. Vaak staat er dan een waarschuwingsbord met een afbeelding van een windzak.",
+          "bron": {
+            "boek": 97,
+            "sectie": "5.8",
+            "anker": "Op bruggen en viaducten kun je last hebben van zijwind"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r18",
+          "tekst": "Hoe verder die windzak uitstaat, hoe harder het waait. Als de windzak dwars op de weg staat, moet je bedacht zijn op veel zijwindhinder. Het is dan verstandig om langzamer te rijden en de motor van de auto zoveel mogelijk trekkende te houden.",
+          "bron": [
+            {
+              "boek": 97,
+              "sectie": "5.8",
+              "anker": "Als de windzak dwars op de weg staat, moet je bedacht zijn op veel zijwindhinder"
+            },
+            {
+              "slide": 94,
+              "anker": "De windzak kan je helpen om te bepalen hoe hard het waait"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r19",
+          "tekst": "Bij vorst zijn bruggen en viaducten sneller glad dan gewone wegen. Doordat de wind er ook onderdoor komt, koelt het wegdek sneller af en bevriest het eerder dan het wegdek van gewone wegen.",
+          "bron": [
+            {
+              "boek": 97,
+              "sectie": "5.8",
+              "anker": "Bij vorst zijn bruggen en viaducten sneller glad dan gewone wegen"
+            },
+            {
+              "slide": 94,
+              "anker": "Bij vorst en sneeuwval zijn bruggen en viaducten eerder glad dan gewone wegen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r20",
+          "tekst": "Een brug die open kan, herken je aan het waarschuwingsbord. Op wegen waar snel gereden mag worden, staat er vaak een geel knipperlicht bij. Dat knippert als de brug open gaat, open is of net open is geweest.",
+          "bron": [
+            {
+              "boek": 97,
+              "sectie": "5.8",
+              "anker": "Een brug die open kan, herken je aan het waarschuwingsbord"
+            },
+            {
+              "slide": 94,
+              "anker": "waarschuwen je voor een beweegbare brug"
+            },
+            {
+              "boek": 97,
+              "sectie": "5.8",
+              "anker": "Dat knippert als de brug open gaat"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r21",
+          "tekst": "Bij de brug zelf staat een rood licht. Als dat brandt of gaat knipperen, stop je. De slagbomen gaan na een paar seconden naar beneden en de brug gaat omhoog. Zet je motor af en wacht. Je mag pas weer gaan rijden zodra het rode licht gedoofd is.",
+          "bron": [
+            {
+              "boek": 98,
+              "sectie": "5.8",
+              "anker": "Je mag pas weer gaan rijden zodra het rode licht gedoofd is"
+            },
+            {
+              "slide": 94,
+              "anker": "Als de brug opengaat, zijn de slagbomen gesloten en brandt of knippert het rode bruglicht"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r22",
+          "tekst": "Als er voor de brug nog een andere zijweg is, staat bij de brug ook wel eens een rood verlichte pijl. Het verbod om door te rijden geldt dan alleen voor de richting van de pijl. In andere richtingen mag je dus wel doorrijden.",
+          "bron": {
+            "boek": 98,
+            "sectie": "5.8",
+            "anker": "Het verbod om door te rijden geldt dan alleen voor de richting van de pijl"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "J31",
+            "J15"
+          ],
+          "tekst": "De windzak waarschuwt voor zijwind, de opengaande brug voor een beweegbare brug."
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een brug hangt vrij in de lucht. De wind kan er ongehinderd langs en onderdoor, en dat merk je twee keer: aan je stuur als het waait en aan je grip als het vriest. Een auto die trekt staat steviger op de weg dan een auto die uitrolt, en dat scheelt op het moment dat je uit de luwte de wind in schiet.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Zet je motor uit als je voor een open brug moet wachten.",
+          "bron": {
+            "slide": 94,
+            "anker": "Zet je motor uit als je moet wachten"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een rood verlichte pijl geldt alleen voor de richting waar de pijl heen wijst. Wie daar een algemeen stopteken van maakt, blijft onnodig staan terwijl hij de zijweg in had gemogen.",
+          "bron": {
+            "boek": 98,
+            "sectie": "5.8",
+            "anker": "In andere richtingen mag je dus wel doorrijden"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rood bij de brug is stoppen en pas rijden als het gedoofd is. Windzak dwars op de weg betekent veel zijwind."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "De slagbomen bij een brug staan weer omhoog, maar het rode licht knippert nog. Mag je rijden?",
+          "antwoord": "Nee.",
+          "uitleg": "Je mag pas weer gaan rijden zodra het rode licht gedoofd is.",
+          "bron": {
+            "boek": 98,
+            "sectie": "5.8",
+            "anker": "Je mag pas weer gaan rijden zodra het rode licht gedoofd is"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Het heeft gevroren. Waarom is een viaduct verraderlijker dan de gewone weg ervoor?",
+          "antwoord": "Omdat het wegdek er sneller afkoelt en eerder bevriest.",
+          "uitleg": "De wind komt er ook onderdoor, dus het wegdek koelt sneller af dan dat van een gewone weg.",
+          "bron": {
+            "boek": 97,
+            "sectie": "5.8",
+            "anker": "koelt het wegdek sneller af en bevriest het eerder dan het wegdek"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U09-P05",
+      "anker": "p-5.9-tunnel-in",
+      "titel": "De tunnel in",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.9"
+          ],
+          "paginas": [
+            98,
+            99
+          ]
+        },
+        "cursus": {
+          "slides": [
+            95,
+            97
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U09-r23",
+          "tekst": "Voor tunnels die langer zijn dan 250 meter staat bord L13, dat aangeeft hoe lang de tunnel is.",
+          "bron": {
+            "boek": 98,
+            "sectie": "5.9",
+            "anker": "voor tunnels die langer zijn dan 250 meter staat bord L13"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r24",
+          "tekst": "Als bepaalde gevaarlijke stoffen niet door de tunnel mogen, staat dat aangegeven met verkeersbord C22 en een letter. Voertuigen die zulke stoffen vervoeren, moeten de omleidingsroute volgen die met bord K14 staat aangegeven. Als je zelf om de een of andere reden niet door de tunnel wilt rijden, mag je ook van de omleidingsroute gebruikmaken.",
+          "bron": [
+            {
+              "boek": 98,
+              "sectie": "5.9",
+              "anker": "moeten de omleidingsroute volgen die met bord K14 staat aangegeven"
+            },
+            {
+              "slide": 97,
+              "anker": "Die omleidingsroute is niet gesloten voor ander verkeer"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "L13",
+            "C22",
+            "K14"
+          ],
+          "tekst": "De tunnellengte, het verbod voor bepaalde gevaarlijke stoffen en de omleidingsroute voor die stoffen."
+        },
+        {
+          "type": "regel",
+          "id": "U09-r25",
+          "tekst": "Schakel je dimlicht in. Je bent dan beter zichtbaar voor je voor- en achterliggers. Doe dat ruim voordat je de tunnel inrijdt, want als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt.",
+          "bron": [
+            {
+              "boek": 99,
+              "sectie": "5.9",
+              "anker": "als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt"
+            },
+            {
+              "slide": 95,
+              "anker": "zet ruim voor de tunnel je dimlicht aan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r26",
+          "tekst": "Zet je zonnebril af voordat je een tunnel inrijdt, want anders zie je met een zonnebril op onvoldoende. Als je de tunnel verlaat, moeten je ogen weer wennen aan het felle daglicht. Dit duurt een paar seconden. Pas je rijgedrag aan.",
+          "bron": [
+            {
+              "boek": 99,
+              "sectie": "5.9",
+              "anker": "zet je zonnebril af voordat je een tunnel inrijdt"
+            },
+            {
+              "slide": 95,
+              "anker": "bij het verlaten van de tunnel kun je verblind worden door het felle daglicht"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r27",
+          "tekst": "Houd er bij het inrijden van de tunnel rekening mee dat andere bestuurders vaak vaart minderen en verder van de tunnelwand af gaan rijden. Het is dan verstandig om extra afstand te houden en soms kun je beter even wachten met inhalen.",
+          "bron": [
+            {
+              "boek": 98,
+              "sectie": "5.9",
+              "anker": "andere bestuurders vaak vaart minderen en verder van de tunnelwand af gaan rijden"
+            },
+            {
+              "slide": 95,
+              "anker": "andere voertuigen gaan vaak langzamer rijden of gedragen zich vreemd"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "In een tunnel verandert er in een paar tellen van alles: het licht, de breedte, het geluid en de ruimte naast je. Je ogen lopen achter op wat er gebeurt, en de bestuurder voor je heeft daar net zo veel last van. Daarom regel je alles wat je zelf kunt regelen, licht en zonnebril en afstand, voordat je erin rijdt.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Boven de afrit voor een tunnel hangt een bord met de woorden gevaarlijke stoffen. Voertuigen met gevaarlijke stoffen mogen vaak niet door tunnels en worden daarom omgeleid, maar die omleidingsroute is niet gesloten voor ander verkeer. Jij mag hier dus gewoon de uitrijstrook gebruiken.",
+          "bron": {
+            "slide": 97,
+            "anker": "Voertuigen met gevaarlijke stoffen mogen vaak niet door tunnels en worden daarom omgeleid"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Je licht pas aandoen als het donker wordt is te laat: in de tunnel lijkt dat op remmen. En de verblinding zit niet alleen bij het inrijden maar juist ook bij het uitrijden, als het daglicht weer in je ogen slaat.",
+          "bron": {
+            "boek": 99,
+            "sectie": "5.9",
+            "anker": "Doe dat ruim voordat je de tunnel inrijdt"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Licht aan en zonnebril af voor de tunnel, afstand erbij in de tunnel, ogen laten wennen na de tunnel."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Vanaf welke lengte staat er een bord dat aangeeft hoe lang de tunnel is?",
+          "antwoord": "Vanaf 250 meter.",
+          "uitleg": "Voor tunnels die langer zijn dan 250 meter staat bord L13 met de lengte erop.",
+          "bron": {
+            "boek": 98,
+            "sectie": "5.9",
+            "anker": "dat aangeeft hoe lang de tunnel is"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt in een personenauto zonder gevaarlijke stoffen en wilt liever niet door de tunnel. Mag je de omleidingsroute nemen?",
+          "antwoord": "Ja.",
+          "uitleg": "Als je zelf om de een of andere reden niet door de tunnel wilt rijden, mag je ook van de omleidingsroute gebruikmaken.",
+          "bron": {
+            "boek": 98,
+            "sectie": "5.9",
+            "anker": "mag je ook van de omleidingsroute gebruikmaken"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U09-P06",
+      "anker": "p-5.9-tunnel-noodsituatie",
+      "titel": "Pech, file en brand in een tunnel",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "5.9"
+          ],
+          "paginas": [
+            99,
+            100,
+            101
+          ]
+        },
+        "cursus": {
+          "slides": [
+            96
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U09-r28",
+          "tekst": "Probeer uit de tunnel te komen als je pech krijgt. Rijd bijvoorbeeld met een lekke band langzaam door en stop pas na de tunnel op een veilige plaats.",
+          "bron": [
+            {
+              "boek": 99,
+              "sectie": "5.9",
+              "anker": "Probeer uit de tunnel te komen als je pech krijgt"
+            },
+            {
+              "slide": 96,
+              "anker": "Probeer bij pech de tunnel uit te rijden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r29",
+          "tekst": "Moet je toch in de tunnel stoppen, schakel dan je alarmlichten in en parkeer zo ver mogelijk rechts, als het kan in de volgende vluchthaven. Lukt dat niet, zet dan je motor af en verlaat je voertuig voorzichtig.",
+          "bron": [
+            {
+              "boek": 100,
+              "sectie": "5.9",
+              "anker": "lukt dat niet, zet dan je motor af en verlaat je voertuig voorzichtig"
+            },
+            {
+              "slide": 96,
+              "anker": "zet dan je alarmlichten aan en stop helemaal rechts, het liefst in een vluchthaven"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r30",
+          "tekst": "Steek nooit de rijbaan over. Loop langs de tunnelwand naar de dichtstbijzijnde hulppost, in de rijrichting van het verkeer en nooit richting het tegemoetkomend verkeer. Neem via de telefoon in de hulppost contact op met de wegverkeersleider en volg de instructies op die je krijgt.",
+          "bron": [
+            {
+              "boek": 100,
+              "sectie": "5.9",
+              "anker": "loop langs de tunnelwand naar de dichtstbijzijnde hulppost"
+            },
+            {
+              "slide": 96,
+              "anker": "langs de tunnelwand naar de dichtstbijzijnde hulppost"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r31",
+          "tekst": "Wacht zo dicht mogelijk bij de tunnelwand op hulp en ga een stuk voorbij je auto staan. Hierdoor vangt je auto de klap op bij een eventuele aanrijding.",
+          "bron": [
+            {
+              "boek": 100,
+              "sectie": "5.9",
+              "anker": "Hierdoor vangt je auto de klap op bij een eventuele aanrijding"
+            },
+            {
+              "slide": 96,
+              "anker": "je auto vangt de klap op bij een aanrijding van achteren"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U09-r32",
+          "tekst": "Bij een file in de tunnel houd je afstand tot je voorganger en zet je je alarmlichten aan. Stem je radio af op een veelgebruikte FM-frequentie, want de meeste tunnels hebben een systeem dat bij incidenten instructies via de radio uitzendt. Kijk waar een nooduitgang is en zorg dat je gereed bent om na een instructie je auto te verlaten.",
+          "bron": {
+            "boek": 100,
+            "sectie": "5.9",
+            "anker": "stem je radio af op een veelgebruikte FM-frequentie"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U09-r33",
+          "tekst": "Bij brand aan je eigen voertuig of verderop in de tunnel moet je evacueren. Staat je eigen auto in brand, zet dan je alarmlichten aan en parkeer zo dicht mogelijk tegen de tunnelwand; staat een ander voertuig in brand, houd dan afstand en zet je alarmlichten aan. Keer nooit om en rijd niet achteruit. Zet je motor uit en laat de sleutel in het contact zitten, verlaat je voertuig samen met je passagiers, volg de instructies uit de luidsprekers in de tunnel op en loop langs de tunnelwand van de brand vandaan naar de dichtstbijzijnde nooduitgang.",
+          "bron": [
+            {
+              "boek": 100,
+              "sectie": "5.9",
+              "anker": "zet je motor uit en laat de sleutel in het contact zitten"
+            },
+            {
+              "slide": 96,
+              "anker": "alleen bij brand vlucht je tegen de rijrichting in naar de dichtstbijzijnde nooduitgang"
+            },
+            {
+              "boek": 100,
+              "sectie": "5.9",
+              "anker": "Zet je alarmlichten aan en parkeer zo dicht mogelijk tegen de tunnelwand"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "L19"
+          ],
+          "tekst": "In tunnels vind je informatieborden over vluchtwegen, brandblussers en noodtelefoons."
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een tunnel heeft geen berm en geen uitweg opzij, dus je enige ontsnapping loopt langs de wand. Rook is daarbij het echte gevaar, en die trekt met de rijrichting mee naar buiten. Daarom loop je normaal met het verkeer mee, maar juist tegen de rijrichting in als de brand voor je ligt: dan loop je de rook uit in plaats van erin.",
+          "bron": {
+            "slide": 96,
+            "anker": "het tunnel-ventilatiesysteem blaast de rook namelijk in de rijrichting uit de tunnel"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Er komt rook onder je motorkap vandaan terwijl je in de tunnel rijdt. Probeer de tunnel uit te rijden. Lukt dat niet, parkeer dan zo ver mogelijk rechts, zet de alarmlichten aan en loop langs de tunnelwand in de rijrichting naar de dichtstbijzijnde hulppost.",
+          "bron": {
+            "boek": 101,
+            "sectie": "5.9",
+            "anker": "Loop langs de tunnelwand in de rijrichting van het verkeer naar de dichtstbijzijnde hulppost"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Er zijn twee looprichtingen en het verschil zit in de brand. Zonder brand loop je met het verkeer mee naar de hulppost. Staat er verderop een voertuig in brand, dan loop je juist tegen de rijrichting in van de brand weg.",
+          "bron": {
+            "boek": 101,
+            "sectie": "5.9",
+            "anker": "behalve als er verderop een voertuig in de brand staat"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Uitrijden als het kan. Moet je stoppen: alarmlichten, rechts, langs de wand lopen, nooit de rijbaan over en nooit keren."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat met pech in een tunnel en de hulppost aan de overkant is dichterbij. Loop je erheen?",
+          "antwoord": "Nee.",
+          "uitleg": "Je steekt nooit de rijbaan over; je loopt langs de tunnelwand aan jouw kant naar de dichtstbijzijnde hulppost.",
+          "bron": {
+            "boek": 100,
+            "sectie": "5.9",
+            "anker": "loop langs de tunnelwand naar de dichtstbijzijnde hulppost"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Verderop in de tunnel staat een voertuig in brand. Welke kant loop je op?",
+          "antwoord": "Tegen de rijrichting in, van de brand vandaan naar de dichtstbijzijnde nooduitgang.",
+          "uitleg": "De ventilatie blaast de rook in de rijrichting uit de tunnel, dus met het verkeer mee lopen zou je de rook in sturen.",
+          "bron": {
+            "slide": 96,
+            "anker": "alleen bij brand vlucht je tegen de rijrichting in naar de dichtstbijzijnde nooduitgang"
+          }
+        }
+      ]
+    }
+  ]
+}

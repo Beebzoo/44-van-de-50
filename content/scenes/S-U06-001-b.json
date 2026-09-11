@@ -1,0 +1,30 @@
+{
+  "id": "S-U06-001-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "je voorligger"
+    }
+  ],
+  "alt": "Dezelfde weg even later. De grijze auto voor je is dichterbij gekomen en het gat tussen jullie is kleiner.",
+  "inspiratie": {
+    "boek": 124
+  }
+}

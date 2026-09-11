@@ -1,0 +1,1686 @@
+{
+  "unit": "U07",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U07-Q900",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+      "media": {
+        "borden": [
+          "F5",
+          "F1",
+          "F2",
+          "F21",
+          "F3",
+          "F6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F5",
+          "tekst": "F5",
+          "feedback": "Fout. Dit is F5: Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting. Het gevraagde bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F1",
+          "tekst": "F1",
+          "feedback": "Goed. F1 betekent: Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+          "fouttype": null
+        },
+        {
+          "id": "F2",
+          "tekst": "F2",
+          "feedback": "Fout. Dit is F2: Einde verbod voor motorvoertuigen om elkaar onderling in te halen. Het gevraagde bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F21",
+          "tekst": "F21",
+          "feedback": "Fout. Dit is F21: Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's. Het gevraagde bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F3",
+          "tekst": "F3",
+          "feedback": "Fout. Dit is F3: Verbod voor vrachtauto's om motorvoertuigen in te halen. Het gevraagde bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F6",
+          "tekst": "F6",
+          "feedback": "Fout. Dit is F6: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan. Het gevraagde bord is F1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F1"
+      ],
+      "uitleg": {
+        "regel": "F1 betekent: Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een rode en een zwarte auto naast elkaar.",
+        "valkuil": "Verwar het niet met F3, F2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Verbod voor motorvoertuigen om elkaar onderling in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f1",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q901",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F1"
+      },
+      "opties": [
+        {
+          "id": "F20",
+          "tekst": "Einde rijbaan of -strook voor vrachtauto's en lijnbussen.",
+          "feedback": "Fout. Dat is de betekenis van F20, hetzelfde bord met een rode diagonale streep. Dit bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F4",
+          "tekst": "Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "feedback": "Fout. Dat is de betekenis van F4, witte cirkel met een grijze vrachtauto en auto, met schuine strepen. Dit bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F5",
+          "tekst": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+          "feedback": "Fout. Dat is de betekenis van F5, rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog. Dit bord is F1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F1",
+          "tekst": "Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+          "feedback": "Goed. Dit is F1, rode cirkel met een rode en een zwarte auto naast elkaar.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "F1"
+      ],
+      "uitleg": {
+        "regel": "F1 betekent: Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een rode en een zwarte auto naast elkaar.",
+        "valkuil": "De lijkers zijn F3, F2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Verbod voor motorvoertuigen om elkaar onderling in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f1",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q902",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde verbod voor motorvoertuigen om elkaar onderling in te halen.",
+      "media": {
+        "borden": [
+          "F19",
+          "F1",
+          "F2",
+          "F8",
+          "F4",
+          "F18"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F19",
+          "tekst": "F19",
+          "feedback": "Fout. Dit is F19: Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's en lijnbussen. Het gevraagde bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F1",
+          "tekst": "F1",
+          "feedback": "Fout. Dit is F1: Verbod voor motorvoertuigen om elkaar onderling in te halen. Het gevraagde bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F2",
+          "tekst": "F2",
+          "feedback": "Goed. F2 betekent: Einde verbod voor motorvoertuigen om elkaar onderling in te halen.",
+          "fouttype": null
+        },
+        {
+          "id": "F8",
+          "tekst": "F8",
+          "feedback": "Fout. Dit is F8: Einde van alle door verkeersborden aangegeven verboden. Het gevraagde bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F4",
+          "tekst": "F4",
+          "feedback": "Fout. Dit is F4: Einde verbod voor vrachtauto's om motorvoertuigen in te halen. Het gevraagde bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F18",
+          "tekst": "F18",
+          "feedback": "Fout. Dit is F18: Einde bus- en trambaan of -strook. Het gevraagde bord is F2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F2"
+      ],
+      "uitleg": {
+        "regel": "F2 betekent: Einde verbod voor motorvoertuigen om elkaar onderling in te halen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: witte cirkel met twee grijze auto's en schuine strepen.",
+        "valkuil": "Verwar het niet met F1, F4, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Einde verbod voor motorvoertuigen om elkaar onderling in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f2",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q903",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F2"
+      },
+      "opties": [
+        {
+          "id": "F18",
+          "tekst": "Einde bus- en trambaan of -strook.",
+          "feedback": "Fout. Dat is de betekenis van F18, hetzelfde bord met een rode diagonale streep. Dit bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F4",
+          "tekst": "Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "feedback": "Fout. Dat is de betekenis van F4, witte cirkel met een grijze vrachtauto en auto, met schuine strepen. Dit bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F13",
+          "tekst": "Rijbaan of -strook uitsluitend ten behoeve van lijnbussen.",
+          "feedback": "Fout. Dat is de betekenis van F13, blauwe cirkel met een witte bus. Dit bord is F2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F2",
+          "tekst": "Einde verbod voor motorvoertuigen om elkaar onderling in te halen.",
+          "feedback": "Goed. Dit is F2, witte cirkel met twee grijze auto's en schuine strepen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "F2"
+      ],
+      "uitleg": {
+        "regel": "F2 betekent: Einde verbod voor motorvoertuigen om elkaar onderling in te halen.",
+        "waarom": "Kijk naar de vorm en de kleur: witte cirkel met twee grijze auto's en schuine strepen.",
+        "valkuil": "De lijkers zijn F1, F4. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Einde verbod voor motorvoertuigen om elkaar onderling in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f2",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q904",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+      "media": {
+        "borden": [
+          "F4",
+          "F6",
+          "F1",
+          "F19",
+          "F3",
+          "F17"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F4",
+          "tekst": "F4",
+          "feedback": "Fout. Dit is F4: Einde verbod voor vrachtauto's om motorvoertuigen in te halen. Het gevraagde bord is F3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F6",
+          "tekst": "F6",
+          "feedback": "Fout. Dit is F6: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan. Het gevraagde bord is F3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F1",
+          "tekst": "F1",
+          "feedback": "Fout. Dit is F1: Verbod voor motorvoertuigen om elkaar onderling in te halen. Het gevraagde bord is F3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F19",
+          "tekst": "F19",
+          "feedback": "Fout. Dit is F19: Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's en lijnbussen. Het gevraagde bord is F3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F3",
+          "tekst": "F3",
+          "feedback": "Goed. F3 betekent: Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "fouttype": null
+        },
+        {
+          "id": "F17",
+          "tekst": "F17",
+          "feedback": "Fout. Dit is F17: Rijbaan of -strook uitsluitend ten behoeve van lijnbussen en trams. Het gevraagde bord is F3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F3"
+      ],
+      "uitleg": {
+        "regel": "F3 betekent: Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een rode vrachtauto en een zwarte auto.",
+        "valkuil": "Verwar het niet met F1, F4, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Verbod voor vrachtauto's om motorvoertuigen in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f3",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q905",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F3"
+      },
+      "opties": [
+        {
+          "id": "F1",
+          "tekst": "Verbod voor motorvoertuigen om elkaar onderling in te halen.",
+          "feedback": "Fout. Dat is de betekenis van F1, rode cirkel met een rode en een zwarte auto naast elkaar. Dit bord is F3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F9",
+          "tekst": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+          "feedback": "Fout. Dat is de betekenis van F9, zwart elektronisch paneel met een witte cirkel met diagonale streep. Dit bord is F3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F3",
+          "tekst": "Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "feedback": "Goed. Dit is F3, rode cirkel met een rode vrachtauto en een zwarte auto.",
+          "fouttype": null
+        },
+        {
+          "id": "F12",
+          "tekst": "Einde verplicht gebruik passeerbaan of passeerstrook (rijbaan of -strook om ingehaald te kunnen worden)...",
+          "feedback": "Fout. Dat is de betekenis van F12, hetzelfde bord met een rode diagonale streep. Dit bord is F3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F3"
+      ],
+      "uitleg": {
+        "regel": "F3 betekent: Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een rode vrachtauto en een zwarte auto.",
+        "valkuil": "De lijkers zijn F1, F4. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Verbod voor vrachtauto's om motorvoertuigen in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f3",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q906",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+      "media": {
+        "borden": [
+          "F3",
+          "F6",
+          "F8",
+          "F16",
+          "F4",
+          "F17"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F3",
+          "tekst": "F3",
+          "feedback": "Fout. Dit is F3: Verbod voor vrachtauto's om motorvoertuigen in te halen. Het gevraagde bord is F4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F6",
+          "tekst": "F6",
+          "feedback": "Fout. Dit is F6: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan. Het gevraagde bord is F4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F8",
+          "tekst": "F8",
+          "feedback": "Fout. Dit is F8: Einde van alle door verkeersborden aangegeven verboden. Het gevraagde bord is F4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F16",
+          "tekst": "F16",
+          "feedback": "Fout. Dit is F16: Einde trambaan of -strook. Het gevraagde bord is F4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F4",
+          "tekst": "F4",
+          "feedback": "Goed. F4 betekent: Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "fouttype": null
+        },
+        {
+          "id": "F17",
+          "tekst": "F17",
+          "feedback": "Fout. Dit is F17: Rijbaan of -strook uitsluitend ten behoeve van lijnbussen en trams. Het gevraagde bord is F4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F4"
+      ],
+      "uitleg": {
+        "regel": "F4 betekent: Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: witte cirkel met een grijze vrachtauto en auto, met schuine strepen.",
+        "valkuil": "Verwar het niet met F3, F2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Einde verbod voor vrachtauto's om motorvoertuigen in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f4",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q907",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F4"
+      },
+      "opties": [
+        {
+          "id": "F15",
+          "tekst": "Rijbaan of -strook uitsluitend ten behoeve van trams.",
+          "feedback": "Fout. Dat is de betekenis van F15, blauwe cirkel met een witte tram. Dit bord is F4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F13",
+          "tekst": "Rijbaan of -strook uitsluitend ten behoeve van lijnbussen.",
+          "feedback": "Fout. Dat is de betekenis van F13, blauwe cirkel met een witte bus. Dit bord is F4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F4",
+          "tekst": "Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "feedback": "Goed. Dit is F4, witte cirkel met een grijze vrachtauto en auto, met schuine strepen.",
+          "fouttype": null
+        },
+        {
+          "id": "F11",
+          "tekst": "Verplicht gebruik passeerbaan of passeerstrook (rijbaan of -strook om ingehaald te kunnen worden)...",
+          "feedback": "Fout. Dat is de betekenis van F11, blauwe cirkel met een witte tractor. Dit bord is F4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F4"
+      ],
+      "uitleg": {
+        "regel": "F4 betekent: Einde verbod voor vrachtauto's om motorvoertuigen in te halen.",
+        "waarom": "Kijk naar de vorm en de kleur: witte cirkel met een grijze vrachtauto en auto, met schuine strepen.",
+        "valkuil": "De lijkers zijn F3, F2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Einde verbod voor vrachtauto's om motorvoertuigen in te halen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f4",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q908",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+      "media": {
+        "borden": [
+          "F19",
+          "F13",
+          "F7",
+          "F8",
+          "F5",
+          "J29"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F19",
+          "tekst": "F19",
+          "feedback": "Fout. Dit is F19: Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's en lijnbussen. Het gevraagde bord is F5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F13",
+          "tekst": "F13",
+          "feedback": "Fout. Dit is F13: Rijbaan of -strook uitsluitend ten behoeve van lijnbussen. Het gevraagde bord is F5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F7",
+          "tekst": "F7",
+          "feedback": "Fout. Dit is F7: Keerverbod. Het gevraagde bord is F5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F8",
+          "tekst": "F8",
+          "feedback": "Fout. Dit is F8: Einde van alle door verkeersborden aangegeven verboden. Het gevraagde bord is F5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F5",
+          "tekst": "F5",
+          "feedback": "Goed. F5 betekent: Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+          "fouttype": null
+        },
+        {
+          "id": "J29",
+          "tekst": "J29",
+          "feedback": "Fout. Dit is J29: Tegenliggers. Het gevraagde bord is F5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F5"
+      ],
+      "uitleg": {
+        "regel": "F5 betekent: Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog.",
+        "valkuil": "Verwar het niet met F6, J29, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f5",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q909",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F5"
+      },
+      "opties": [
+        {
+          "id": "F5",
+          "tekst": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+          "feedback": "Goed. Dit is F5, rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog.",
+          "fouttype": null
+        },
+        {
+          "id": "F10",
+          "tekst": "Stop. In het bord kan worden aangegeven door wie of waarom het bord wordt toegepast.",
+          "feedback": "Fout. Dat is de betekenis van F10, rode cirkel met een witte horizontale balk. Dit bord is F5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F14",
+          "tekst": "Einde busbaan of -strook.",
+          "feedback": "Fout. Dat is de betekenis van F14, hetzelfde bord met een rode diagonale streep. Dit bord is F5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F6",
+          "tekst": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+          "feedback": "Fout. Dat is de betekenis van F6, blauw vierkant met een rode pijl omlaag en een witte pijl omhoog. Dit bord is F5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F5"
+      ],
+      "uitleg": {
+        "regel": "F5 betekent: Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog.",
+        "valkuil": "De lijkers zijn F6, J29. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f5",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q910",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+      "media": {
+        "borden": [
+          "F21",
+          "F6",
+          "F10",
+          "F4",
+          "F8",
+          "F1"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F21",
+          "tekst": "F21",
+          "feedback": "Fout. Dit is F21: Rijbaan of -strook uitsluitend ten behoeve van vrachtauto's. Het gevraagde bord is F6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F6",
+          "tekst": "F6",
+          "feedback": "Goed. F6 betekent: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "F10",
+          "tekst": "F10",
+          "feedback": "Fout. Dit is F10: Stop. In het bord kan worden aangegeven door wie of waarom het bord wordt toegepast. Het gevraagde bord is F6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F4",
+          "tekst": "F4",
+          "feedback": "Fout. Dit is F4: Einde verbod voor vrachtauto's om motorvoertuigen in te halen. Het gevraagde bord is F6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F8",
+          "tekst": "F8",
+          "feedback": "Fout. Dit is F8: Einde van alle door verkeersborden aangegeven verboden. Het gevraagde bord is F6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F1",
+          "tekst": "F1",
+          "feedback": "Fout. Dit is F1: Verbod voor motorvoertuigen om elkaar onderling in te halen. Het gevraagde bord is F6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F6"
+      ],
+      "uitleg": {
+        "regel": "F6 betekent: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met een rode pijl omlaag en een witte pijl omhoog.",
+        "valkuil": "Verwar het niet met F5, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f6",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q911",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F6"
+      },
+      "opties": [
+        {
+          "id": "F6",
+          "tekst": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+          "feedback": "Goed. Dit is F6, blauw vierkant met een rode pijl omlaag en een witte pijl omhoog.",
+          "fouttype": null
+        },
+        {
+          "id": "F7",
+          "tekst": "Keerverbod.",
+          "feedback": "Fout. Dat is de betekenis van F7, rode cirkel met een zwarte pijl die een u-bocht maakt. Dit bord is F6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F8",
+          "tekst": "Einde van alle door verkeersborden aangegeven verboden.",
+          "feedback": "Fout. Dat is de betekenis van F8, witte cirkel met een enkele schuine grijze streep. Dit bord is F6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F20",
+          "tekst": "Einde rijbaan of -strook voor vrachtauto's en lijnbussen.",
+          "feedback": "Fout. Dat is de betekenis van F20, hetzelfde bord met een rode diagonale streep. Dit bord is F6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F6"
+      ],
+      "uitleg": {
+        "regel": "F6 betekent: Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met een rode pijl omlaag en een witte pijl omhoog.",
+        "valkuil": "De lijkers zijn F5. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f6",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q912",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
+      "media": {
+        "borden": [
+          "C2",
+          "C1",
+          "C5",
+          "C8",
+          "C22e4",
+          "F10"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C2",
+          "tekst": "C2",
+          "feedback": "Goed. C2 betekent: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
+          "fouttype": null
+        },
+        {
+          "id": "C1",
+          "tekst": "C1",
+          "feedback": "Fout. Dit is C1: Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee. Het gevraagde bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C5",
+          "tekst": "C5",
+          "feedback": "Fout. Dit is C5: Inrijden toegestaan. Het gevraagde bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C8",
+          "tekst": "C8",
+          "feedback": "Fout. Dit is C8: Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines. Het gevraagde bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e4",
+          "tekst": "C22e4",
+          "feedback": "Fout. Dit is C22e4: Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6. Het gevraagde bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F10",
+          "tekst": "F10",
+          "feedback": "Fout. Dit is F10: Stop. In het bord kan worden aangegeven door wie of waarom het bord wordt toegepast. Het gevraagde bord is C2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C2"
+      ],
+      "uitleg": {
+        "regel": "C2 betekent: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een brede witte horizontale balk.",
+        "valkuil": "Verwar het niet met C1, F10, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c2",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q913",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C2"
+      },
+      "opties": [
+        {
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C2",
+          "tekst": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
+          "feedback": "Goed. Dit is C2, rode cirkel met een brede witte horizontale balk.",
+          "fouttype": null
+        },
+        {
+          "id": "C11",
+          "tekst": "Gesloten voor motoren.",
+          "feedback": "Fout. Dat is de betekenis van C11, rode cirkel met een zwarte motorfiets. Dit bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C20",
+          "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C2"
+      ],
+      "uitleg": {
+        "regel": "C2 betekent: Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een brede witte horizontale balk.",
+        "valkuil": "De lijkers zijn C1, F10. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c2",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q914",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+      "media": {
+        "borden": [
+          "C1",
+          "C8",
+          "C13",
+          "C22",
+          "C22e10",
+          "C7"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C1",
+          "tekst": "C1",
+          "feedback": "Fout. Dit is C1: Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee. Het gevraagde bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C8",
+          "tekst": "C8",
+          "feedback": "Goed. C8 betekent: Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "fouttype": null
+        },
+        {
+          "id": "C13",
+          "tekst": "C13",
+          "feedback": "Fout. Dit is C13: Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor. Het gevraagde bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22",
+          "tekst": "C22",
+          "feedback": "Fout. Dit is C22: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen. Het gevraagde bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e10",
+          "tekst": "C22e10",
+          "feedback": "Fout. Dit is C22e10: Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en... Het gevraagde bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Fout. Dit is C7: Gesloten voor vrachtauto's. Het gevraagde bord is C8.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C8"
+      ],
+      "uitleg": {
+        "regel": "C8 betekent: Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een zwarte tractor.",
+        "valkuil": "Verwar het niet met C9, C7, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c8",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q915",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C8"
+      },
+      "opties": [
+        {
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Goed. Dit is C8, rode cirkel met een zwarte tractor.",
+          "fouttype": null
+        },
+        {
+          "id": "C18",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C18, rode cirkel met 2,3 m tussen twee pijlpunten. Dit bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7b",
+          "tekst": "Gesloten voor autobussen en vrachtauto's.",
+          "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e6",
+          "tekst": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's en bedrijfsauto's, toegankelijk voor...",
+          "feedback": "Fout. Dat is de betekenis van C22e6, wit onderbord diesel met een personenauto en een bestelbus, met emissieklasse-rondjes. Dit bord is C8.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C8"
+      ],
+      "uitleg": {
+        "regel": "C8 betekent: Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte tractor.",
+        "valkuil": "De lijkers zijn C9, C7. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c8",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q916",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+      "media": {
+        "borden": [
+          "C9",
+          "C22e10",
+          "C23-02",
+          "C7",
+          "C18",
+          "C5"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C9",
+          "tekst": "C9",
+          "feedback": "Goed. C9 betekent: Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+          "fouttype": null
+        },
+        {
+          "id": "C22e10",
+          "tekst": "C22e10",
+          "feedback": "Fout. Dit is C22e10: Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en... Het gevraagde bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-02",
+          "tekst": "C23-02",
+          "feedback": "Fout. Dit is C23-02: Spitsstrook vrijmaken. Het gevraagde bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7",
+          "tekst": "C7",
+          "feedback": "Fout. Dit is C7: Gesloten voor vrachtauto's. Het gevraagde bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C18",
+          "tekst": "C18",
+          "feedback": "Fout. Dit is C18: Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven. Het gevraagde bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C5",
+          "tekst": "C5",
+          "feedback": "Fout. Dit is C5: Inrijden toegestaan. Het gevraagde bord is C9.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C9"
+      ],
+      "uitleg": {
+        "regel": "C9 betekent: Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met tractor, ruiter, fiets en bromfiets.",
+        "valkuil": "Verwar het niet met C8, C15, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid, mobiele machines, brommobielen,"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c9",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q917",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C9"
+      },
+      "opties": [
+        {
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C9",
+          "tekst": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+          "feedback": "Goed. Dit is C9, rode cirkel met tractor, ruiter, fiets en bromfiets.",
+          "fouttype": null
+        },
+        {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C9.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C9"
+      ],
+      "uitleg": {
+        "regel": "C9 betekent: Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met tractor, ruiter, fiets en bromfiets.",
+        "valkuil": "De lijkers zijn C8, C15. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 239,
+          "anker": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid, mobiele machines, brommobielen,"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c9",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q918",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+      "media": {
+        "borden": [
+          "D1",
+          "D2",
+          "D6",
+          "D7",
+          "D3",
+          "D4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "D1",
+          "tekst": "D1",
+          "feedback": "Fout. Dit is D1: Rotonde; verplichte rijrichting. Het gevraagde bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D2",
+          "tekst": "D2",
+          "feedback": "Goed. D2 betekent: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+          "fouttype": null
+        },
+        {
+          "id": "D6",
+          "tekst": "D6",
+          "feedback": "Fout. Dit is D6: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D7",
+          "tekst": "D7",
+          "feedback": "Fout. Dit is D7: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D3",
+          "tekst": "D3",
+          "feedback": "Fout. Dit is D3: Bord mag aan beide zijden worden voorbij gegaan. Het gevraagde bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D4",
+          "tekst": "D4",
+          "feedback": "Fout. Dit is D4: Gebod tot het volgen van de rijrichting die op het bord is aangegeven. Het gevraagde bord is D2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D2"
+      ],
+      "uitleg": {
+        "regel": "D2 betekent: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met een dikke witte pijl schuin naar rechtsonder.",
+        "valkuil": "Verwar het niet met D3, D1, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d2",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q919",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "D2"
+      },
+      "opties": [
+        {
+          "id": "D3",
+          "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
+          "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D5",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D2",
+          "tekst": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+          "feedback": "Goed. Dit is D2, blauwe cirkel met een dikke witte pijl schuin naar rechtsonder.",
+          "fouttype": null
+        },
+        {
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D2"
+      ],
+      "uitleg": {
+        "regel": "D2 betekent: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een dikke witte pijl schuin naar rechtsonder.",
+        "valkuil": "De lijkers zijn D3, D1. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d2",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q920",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+      "media": {
+        "borden": [
+          "D7",
+          "D4",
+          "D5",
+          "D1",
+          "D6",
+          "D3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "D7",
+          "tekst": "D7",
+          "feedback": "Fout. Dit is D7: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D4",
+          "tekst": "D4",
+          "feedback": "Goed. D4 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "fouttype": null
+        },
+        {
+          "id": "D5",
+          "tekst": "D5",
+          "feedback": "Fout. Dit is D5: Gebod tot het volgen van de rijrichting die op het bord is aangegeven. Het gevraagde bord is D4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D1",
+          "tekst": "D1",
+          "feedback": "Fout. Dit is D1: Rotonde; verplichte rijrichting. Het gevraagde bord is D4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D6",
+          "tekst": "D6",
+          "feedback": "Fout. Dit is D6: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D3",
+          "tekst": "D3",
+          "feedback": "Fout. Dit is D3: Bord mag aan beide zijden worden voorbij gegaan. Het gevraagde bord is D4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D4"
+      ],
+      "uitleg": {
+        "regel": "D4 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met een witte pijl omhoog.",
+        "valkuil": "Verwar het niet met D5, D6, D7, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d4",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q921",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "D4"
+      },
+      "opties": [
+        {
+          "id": "D7",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D4",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Goed. Dit is D4, blauwe cirkel met een witte pijl omhoog.",
+          "fouttype": null
+        },
+        {
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D4"
+      ],
+      "uitleg": {
+        "regel": "D4 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte pijl omhoog.",
+        "valkuil": "De lijkers zijn D5, D6, D7. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d4",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q922",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+      "media": {
+        "borden": [
+          "D5",
+          "D3",
+          "D4",
+          "D7",
+          "D1",
+          "D6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "D5",
+          "tekst": "D5",
+          "feedback": "Goed. D5 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "fouttype": null
+        },
+        {
+          "id": "D3",
+          "tekst": "D3",
+          "feedback": "Fout. Dit is D3: Bord mag aan beide zijden worden voorbij gegaan. Het gevraagde bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D4",
+          "tekst": "D4",
+          "feedback": "Fout. Dit is D4: Gebod tot het volgen van de rijrichting die op het bord is aangegeven. Het gevraagde bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D7",
+          "tekst": "D7",
+          "feedback": "Fout. Dit is D7: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D1",
+          "tekst": "D1",
+          "feedback": "Fout. Dit is D1: Rotonde; verplichte rijrichting. Het gevraagde bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D6",
+          "tekst": "D6",
+          "feedback": "Fout. Dit is D6: Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven. Het gevraagde bord is D5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "D5"
+      ],
+      "uitleg": {
+        "regel": "D5 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met een witte pijl die naar rechts buigt.",
+        "valkuil": "Verwar het niet met D4, D6, D7, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d5",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q923",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "D5"
+      },
+      "opties": [
+        {
+          "id": "D1",
+          "tekst": "Rotonde; verplichte rijrichting.",
+          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D3",
+          "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
+          "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D5",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Goed. Dit is D5, blauwe cirkel met een witte pijl die naar rechts buigt.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "D5"
+      ],
+      "uitleg": {
+        "regel": "D5 betekent: Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte pijl die naar rechts buigt.",
+        "valkuil": "De lijkers zijn D4, D6, D7. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 241,
+          "anker": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-d5",
+        "borden-d"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

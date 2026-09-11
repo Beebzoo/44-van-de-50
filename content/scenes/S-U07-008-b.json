@@ -1,0 +1,43 @@
+{
+  "id": "S-U07-008-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "L2",
+      "arm": "zuid"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Dezelfde straat een moment later. De grijze auto is nu vlak voor het zebrapad en jij zit er vlak achter.",
+  "inspiratie": {
+    "boek": 146,
+    "slide": 167
+  }
+}

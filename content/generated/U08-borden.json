@@ -1,0 +1,1698 @@
+{
+  "unit": "U08",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U08-Q900",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+      "media": {
+        "borden": [
+          "K2",
+          "K7",
+          "K10",
+          "K4",
+          "K1",
+          "K9"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K2",
+          "tekst": "K2",
+          "feedback": "Fout. Dit is K2: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen... Het gevraagde bord is K1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Fout. Dit is K7: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk... Het gevraagde bord is K1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "K10",
+          "feedback": "Fout. Dit is K10: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten... Het gevraagde bord is K1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K4",
+          "tekst": "K4",
+          "feedback": "Fout. Dit is K4: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de... Het gevraagde bord is K1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Goed. K1 betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "fouttype": null
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K1"
+      ],
+      "uitleg": {
+        "regel": "K1 betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34.",
+        "valkuil": "Verwar het niet met K2, K4, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale bestemmingen en routenummer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k1",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q901",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K1"
+      },
+      "opties": [
+        {
+          "id": "K9",
+          "tekst": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+          "feedback": "Fout. Dat is de betekenis van K9, blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel. Dit bord is K1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Goed. Dit is K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34.",
+          "fouttype": null
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Fout. Dat is de betekenis van K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16. Dit bord is K1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K4",
+          "tekst": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+          "feedback": "Fout. Dat is de betekenis van K4, groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m. Dit bord is K1.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K1"
+      ],
+      "uitleg": {
+        "regel": "K1 betekent: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34.",
+        "valkuil": "De lijkers zijn K2, K4. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale bestemmingen en routenummer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k1",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q902",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+      "media": {
+        "borden": [
+          "K4",
+          "K5",
+          "K10",
+          "K14",
+          "K7",
+          "K2"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K4",
+          "tekst": "K4",
+          "feedback": "Fout. Dit is K4: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de... Het gevraagde bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Fout. Dit is K5: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en... Het gevraagde bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "K10",
+          "feedback": "Fout. Dit is K10: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten... Het gevraagde bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "K14",
+          "feedback": "Fout. Dit is K14: Route voor het vervoer van bepaalde gevaarlijke stoffen. Het gevraagde bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Fout. Dit is K7: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk... Het gevraagde bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K2",
+          "tekst": "K2",
+          "feedback": "Goed. K2 betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "K2"
+      ],
+      "uitleg": {
+        "regel": "K2 betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak.",
+        "valkuil": "Verwar het niet met K1, K5, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen (bovenste doel=afritnaam), verwijzing"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k2",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q903",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K2"
+      },
+      "opties": [
+        {
+          "id": "K1",
+          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Fout. Dat is de betekenis van K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34. Dit bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "feedback": "Fout. Dat is de betekenis van K12, blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog. Dit bord is K2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K2",
+          "tekst": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+          "feedback": "Goed. Dit is K2, blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak.",
+          "fouttype": null
+        },
+        {
+          "id": "K3",
+          "tekst": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+          "feedback": "Fout. Dat is de betekenis van K3, blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog. Dit bord is K2.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K2"
+      ],
+      "uitleg": {
+        "regel": "K2 betekent: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak.",
+        "valkuil": "De lijkers zijn K1, K5. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen (bovenste doel=afritnaam), verwijzing"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k2",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q904",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+      "media": {
+        "borden": [
+          "K1",
+          "K12",
+          "K5",
+          "K3",
+          "K7",
+          "K13"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Fout. Dit is K5: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en... Het gevraagde bord is K3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Goed. K3 betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+          "fouttype": null
+        },
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Fout. Dit is K7: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk... Het gevraagde bord is K3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Fout. Dit is K13: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden). Het gevraagde bord is K3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K3"
+      ],
+      "uitleg": {
+        "regel": "K3 betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog.",
+        "valkuil": "Verwar het niet met K1, K2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam van de"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k3",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q905",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K3"
+      },
+      "opties": [
+        {
+          "id": "K12",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "feedback": "Fout. Dat is de betekenis van K12, blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog. Dit bord is K3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+          "feedback": "Goed. Dit is K3, blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog.",
+          "fouttype": null
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Fout. Dat is de betekenis van K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16. Dit bord is K3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Fout. Dat is de betekenis van K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34. Dit bord is K3.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K3"
+      ],
+      "uitleg": {
+        "regel": "K3 betekent: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog.",
+        "valkuil": "De lijkers zijn K1, K2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 246,
+          "anker": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam van de"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k3",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q906",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+      "media": {
+        "borden": [
+          "K1",
+          "K4",
+          "K12",
+          "K13",
+          "K9",
+          "K14"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K4",
+          "tekst": "K4",
+          "feedback": "Goed. K4 betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+          "fouttype": null
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Fout. Dit is K13: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden). Het gevraagde bord is K4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "K14",
+          "feedback": "Fout. Dit is K14: Route voor het vervoer van bepaalde gevaarlijke stoffen. Het gevraagde bord is K4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K4"
+      ],
+      "uitleg": {
+        "regel": "K4 betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m.",
+        "valkuil": "Verwar het niet met K1, K2, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de afgaande richting,"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k4",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q907",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K4"
+      },
+      "opties": [
+        {
+          "id": "K6",
+          "tekst": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van K6, twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14. Dit bord is K4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+          "feedback": "Fout. Dat is de betekenis van K13, blauw bord met de getallen 10 12 14 25 en een pijl naar rechts. Dit bord is K4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K4",
+          "tekst": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+          "feedback": "Goed. Dit is K4, groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m.",
+          "fouttype": null
+        },
+        {
+          "id": "K9",
+          "tekst": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+          "feedback": "Fout. Dat is de betekenis van K9, blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel. Dit bord is K4.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K4"
+      ],
+      "uitleg": {
+        "regel": "K4 betekent: Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+        "waarom": "Kijk naar de vorm en de kleur: groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m.",
+        "valkuil": "De lijkers zijn K1, K2. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de afgaande richting,"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k4",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q908",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+      "media": {
+        "borden": [
+          "K7",
+          "K1",
+          "K13",
+          "K3",
+          "K5",
+          "K9"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Fout. Dit is K7: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk... Het gevraagde bord is K5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Fout. Dit is K13: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden). Het gevraagde bord is K5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Fout. Dit is K3: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam... Het gevraagde bord is K5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Goed. K5 betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+          "fouttype": null
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K5"
+      ],
+      "uitleg": {
+        "regel": "K5 betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met een schematische kruising: breeven, best, n620, links a58 en tilburg, rechts a2 en eindhoven; en een tweede paneel met venlo, n275, eindhoven, amsterdam, a2, roermond, maastricht.",
+        "valkuil": "Verwar het niet met K6, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en viaductsymbool (verticale gele haakjes:"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k5",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q909",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K5"
+      },
+      "opties": [
+        {
+          "id": "K4",
+          "tekst": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+          "feedback": "Fout. Dat is de betekenis van K4, groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m. Dit bord is K5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Fout. Dat is de betekenis van K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16. Dit bord is K5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K5",
+          "tekst": "Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+          "feedback": "Goed. Dit is K5, blauw bord met een schematische kruising: breeven, best, n620, links a58 en tilburg, rechts a2 en eindhoven; en een tweede paneel met venlo, n275, eindhoven, amsterdam, a2, roermond, maastricht.",
+          "fouttype": null
+        },
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool. Dit bord is K5.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K5"
+      ],
+      "uitleg": {
+        "regel": "K5 betekent: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met een schematische kruising: breeven, best, n620, links a58 en tilburg, rechts a2 en eindhoven; en een tweede paneel met venlo, n275, eindhoven, amsterdam, a2, roermond, maastricht.",
+        "valkuil": "De lijkers zijn K6. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en viaductsymbool (verticale gele haakjes:"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k5",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q910",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+      "media": {
+        "borden": [
+          "K9",
+          "K13",
+          "K6",
+          "K12",
+          "K3",
+          "K5"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Fout. Dit is K13: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden). Het gevraagde bord is K6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K6",
+          "tekst": "K6",
+          "feedback": "Goed. K6 betekent: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+          "fouttype": null
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Fout. Dit is K3: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam... Het gevraagde bord is K6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Fout. Dit is K5: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en... Het gevraagde bord is K6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K6"
+      ],
+      "uitleg": {
+        "regel": "K6 betekent: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14.",
+        "valkuil": "Verwar het niet met K5, K7, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k6",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q911",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K6"
+      },
+      "opties": [
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool. Dit bord is K6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K6",
+          "tekst": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+          "feedback": "Goed. Dit is K6, twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14.",
+          "fouttype": null
+        },
+        {
+          "id": "K2",
+          "tekst": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+          "feedback": "Fout. Dat is de betekenis van K2, blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak. Dit bord is K6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Fout. Dat is de betekenis van K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16. Dit bord is K6.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K6"
+      ],
+      "uitleg": {
+        "regel": "K6 betekent: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+        "waarom": "Kijk naar de vorm en de kleur: twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14.",
+        "valkuil": "De lijkers zijn K5, K7. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k6",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q912",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+      "media": {
+        "borden": [
+          "K5",
+          "K13",
+          "K6",
+          "K7",
+          "K12",
+          "K10"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Fout. Dit is K5: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en... Het gevraagde bord is K7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Fout. Dit is K13: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden). Het gevraagde bord is K7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K6",
+          "tekst": "K6",
+          "feedback": "Fout. Dit is K6: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg. Het gevraagde bord is K7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Goed. K7 betekent: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "fouttype": null
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "K10",
+          "feedback": "Fout. Dit is K10: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten... Het gevraagde bord is K7.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K7"
+      ],
+      "uitleg": {
+        "regel": "K7 betekent: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16.",
+        "valkuil": "Verwar het niet met K6, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk fietsroutenummer (boven), en"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k7",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q913",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K7"
+      },
+      "opties": [
+        {
+          "id": "K6",
+          "tekst": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van K6, twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14. Dit bord is K7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Goed. Dit is K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16.",
+          "fouttype": null
+        },
+        {
+          "id": "K2",
+          "tekst": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+          "feedback": "Fout. Dat is de betekenis van K2, blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak. Dit bord is K7.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam...",
+          "feedback": "Fout. Dat is de betekenis van K3, blauw bord met p, een mes-en-vork symbool, een tanksymbool, de naam boermark en een pijl schuin omhoog. Dit bord is K7.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K7"
+      ],
+      "uitleg": {
+        "regel": "K7 betekent: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+        "waarom": "Kijk naar de vorm en de kleur: twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16.",
+        "valkuil": "De lijkers zijn K6. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk fietsroutenummer (boven), en"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k7",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q914",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+      "media": {
+        "borden": [
+          "K7",
+          "K10",
+          "K2",
+          "K9",
+          "K14",
+          "K6"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Fout. Dit is K7: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk... Het gevraagde bord is K9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "K10",
+          "feedback": "Fout. Dit is K10: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten... Het gevraagde bord is K9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K2",
+          "tekst": "K2",
+          "feedback": "Fout. Dit is K2: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen... Het gevraagde bord is K9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Goed. K9 betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+          "fouttype": null
+        },
+        {
+          "id": "K14",
+          "tekst": "K14",
+          "feedback": "Fout. Dit is K14: Route voor het vervoer van bepaalde gevaarlijke stoffen. Het gevraagde bord is K9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K6",
+          "tekst": "K6",
+          "feedback": "Fout. Dit is K6: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg. Het gevraagde bord is K9.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K9"
+      ],
+      "uitleg": {
+        "regel": "K9 betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel.",
+        "valkuil": "Verwar het niet met K5, K10, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k9",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q915",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K9"
+      },
+      "opties": [
+        {
+          "id": "K9",
+          "tekst": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+          "feedback": "Goed. Dit is K9, blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel.",
+          "fouttype": null
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Fout. Dat is de betekenis van K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16. Dit bord is K9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool. Dit bord is K9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Fout. Dat is de betekenis van K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34. Dit bord is K9.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K9"
+      ],
+      "uitleg": {
+        "regel": "K9 betekent: Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel.",
+        "valkuil": "De lijkers zijn K5, K10. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k9",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q916",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+      "media": {
+        "borden": [
+          "K7",
+          "K1",
+          "K12",
+          "K10",
+          "K13",
+          "K2"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K7",
+          "tekst": "K7",
+          "feedback": "Fout. Dit is K7: Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk... Het gevraagde bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "K10",
+          "feedback": "Goed. K10 betekent: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "fouttype": null
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Fout. Dit is K13: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden). Het gevraagde bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K2",
+          "tekst": "K2",
+          "feedback": "Fout. Dit is K2: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen... Het gevraagde bord is K10.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K10"
+      ],
+      "uitleg": {
+        "regel": "K10 betekent: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers.",
+        "valkuil": "Verwar het niet met K12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten en stadsroutenummers."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k10",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q917",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K10"
+      },
+      "opties": [
+        {
+          "id": "K6",
+          "tekst": "Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van K6, twee blauwe puntige wegwijzers boven elkaar: n 212 en montfoort / woerden 14. Dit bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+          "feedback": "Fout. Dat is de betekenis van K13, blauw bord met de getallen 10 12 14 25 en een pijl naar rechts. Dit bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K7",
+          "tekst": "Wegwijzer voor fietsers, snorfietsers en bromfietsers met lokaal doel, interlokale doelen, stedelijk...",
+          "feedback": "Fout. Dat is de betekenis van K7, twee rood-witte puntige wegwijzers: centrum 1 / brielle 32 en delft 6 / den haag 16. Dit bord is K10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "feedback": "Goed. Dit is K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "K10"
+      ],
+      "uitleg": {
+        "regel": "K10 betekent: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers.",
+        "valkuil": "De lijkers zijn K12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten en stadsroutenummers."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k10",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q918",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+      "media": {
+        "borden": [
+          "K5",
+          "K9",
+          "K6",
+          "K1",
+          "K3",
+          "K12"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Fout. Dit is K5: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en... Het gevraagde bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K6",
+          "tekst": "K6",
+          "feedback": "Fout. Dit is K6: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg. Het gevraagde bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Fout. Dit is K3: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam... Het gevraagde bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Goed. K12 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "K12"
+      ],
+      "uitleg": {
+        "regel": "K12 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog.",
+        "valkuil": "Verwar het niet met K13, K10, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden)."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k12",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q919",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K12"
+      },
+      "opties": [
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool. Dit bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "feedback": "Goed. Dit is K12, blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog.",
+          "fouttype": null
+        },
+        {
+          "id": "K10",
+          "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "feedback": "Fout. Dat is de betekenis van K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers. Dit bord is K12.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Fout. Dat is de betekenis van K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34. Dit bord is K12.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K12"
+      ],
+      "uitleg": {
+        "regel": "K12 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog.",
+        "valkuil": "De lijkers zijn K13, K10. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden)."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k12",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q920",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+      "media": {
+        "borden": [
+          "K1",
+          "K6",
+          "K12",
+          "K13",
+          "K5",
+          "K3"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K6",
+          "tekst": "K6",
+          "feedback": "Fout. Dit is K6: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg. Het gevraagde bord is K13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "K13",
+          "feedback": "Goed. K13 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+          "fouttype": null
+        },
+        {
+          "id": "K5",
+          "tekst": "K5",
+          "feedback": "Fout. Dit is K5: Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en... Het gevraagde bord is K13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Fout. Dit is K3: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam... Het gevraagde bord is K13.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K13"
+      ],
+      "uitleg": {
+        "regel": "K13 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met de getallen 10 12 14 25 en een pijl naar rechts.",
+        "valkuil": "Verwar het niet met K12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden)."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k13",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q921",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K13"
+      },
+      "opties": [
+        {
+          "id": "K10",
+          "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "feedback": "Fout. Dat is de betekenis van K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers. Dit bord is K13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K13",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+          "feedback": "Goed. Dit is K13, blauw bord met de getallen 10 12 14 25 en een pijl naar rechts.",
+          "fouttype": null
+        },
+        {
+          "id": "K12",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "feedback": "Fout. Dat is de betekenis van K12, blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog. Dit bord is K13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool. Dit bord is K13.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K13"
+      ],
+      "uitleg": {
+        "regel": "K13 betekent: Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden).",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met de getallen 10 12 14 25 en een pijl naar rechts.",
+        "valkuil": "De lijkers zijn K12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Wijkwegwijzer binnen de bebouwde kom, met wijknummers (in verkeersgebieden)."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k13",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q922",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+      "media": {
+        "borden": [
+          "K3",
+          "K14",
+          "K2",
+          "K9",
+          "K10",
+          "K12"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Fout. Dit is K3: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam... Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "K14",
+          "feedback": "Goed. K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "fouttype": null
+        },
+        {
+          "id": "K2",
+          "tekst": "K2",
+          "feedback": "Fout. Dit is K2: Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen... Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "K10",
+          "feedback": "Fout. Dit is K10: Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten... Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K14"
+      ],
+      "uitleg": {
+        "regel": "K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+        "valkuil": "Verwar het niet met K9, K12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Route voor het vervoer van bepaalde gevaarlijke stoffen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k14",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U08-Q923",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K14"
+      },
+      "opties": [
+        {
+          "id": "K5",
+          "tekst": "Voorwegwijzer langs niet-autosnelweg, met interlokale doelen, routenummers, aanduiding industrieterrein en...",
+          "feedback": "Fout. Dat is de betekenis van K5, blauw bord met een schematische kruising: breeven, best, n620, links a58 en tilburg, rechts a2 en eindhoven; en een tweede paneel met venlo, n275, eindhoven, amsterdam, a2, roermond, maastricht. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Goed. Dit is K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+          "fouttype": null
+        },
+        {
+          "id": "K9",
+          "tekst": "Voorwegwijzer met omleiding in verband met wegwerkzaamheden.",
+          "feedback": "Fout. Dat is de betekenis van K9, blauw bord met montfoort en woerden doorgestreept, n121, een pijl, n120, ijsselstein, utrecht, 400 m en onderaan woerden op geel. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K4",
+          "tekst": "Hoge beslissingswegwijzer langs autosnelweg met aanduidingen voor de doorgaande richting en voor de...",
+          "feedback": "Fout. Dat is de betekenis van K4, groot blauw bord met links arnhem, utrecht en a12 (rood) e30 (groen), rechts amsterdam, rotterdam, rijswijk met a4 (rood) e19 (groen) en een pijl schuin omhoog, plus 600 m. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K14"
+      ],
+      "uitleg": {
+        "regel": "K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+        "waarom": "Kijk naar de vorm en de kleur: geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+        "valkuil": "De lijkers zijn K9, K12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Route voor het vervoer van bepaalde gevaarlijke stoffen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k14",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

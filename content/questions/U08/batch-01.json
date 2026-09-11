@@ -1,0 +1,802 @@
+{
+  "unit": "U08",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U08-Q001",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een oprit met bord [G3]. Je rijdt in een motorvoertuig dat niet harder kan dan 45 km/u. Mag je deze weg op rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het bord laat niet iedereen toe: een motorvoertuig moet de minimumeis halen voordat het hier mag komen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Op een autoweg mogen alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Op autowegen mogen alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden.",
+        "waarom": "Een voertuig dat die eis niet haalt, wordt op zo'n weg een sta in de weg voor verkeer dat er veel sneller aankomt.",
+        "valkuil": "Het gaat om kunnen en mogen samen: ook een voertuig dat het technisch wel haalt maar niet zo hard mag rijden, blijft eraf.",
+        "onthoud": "Autoweg vanaf 50 km/u, autosnelweg vanaf 60 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.7",
+          "anker": "alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden"
+        },
+        {
+          "slide": 69,
+          "anker": "alleen motorvoertuigen die harder kunnen en mogen dan 50 km/u mogen erop rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "toegang",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Op autowegen mogen alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden.",
+        "bron": "boek p. 70"
+      }
+    },
+    {
+      "id": "U08-Q002",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt buiten de bebouwde kom op een autoweg. Nergens staat een snelheidsbord. Wat is hier de maximumsnelheid?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Dat is de standaard buiten de bebouwde kom op gewone wegen, maar de autoweg heeft een eigen standaard.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "100 km/u",
+          "feedback": "Goed. Zonder afwijkend bord geldt op een autoweg buiten de bebouwde kom de standaard van het boek.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "120 km/u",
+          "feedback": "Fout. Zulke snelheden horen bij de autosnelweg en dan nog alleen als de borden dat toestaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "130 km/u",
+          "feedback": "Fout. Dat is de landelijke standaard op autosnelwegen, niet op een autoweg met bord G3.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "De maximumsnelheid op autowegen is buiten de bebouwde kom standaard 100 km/u, en borden kunnen daarvan afwijken.",
+        "waarom": "Zonder bord val je terug op de standaard die bij dit wegtype hoort, dus je moet weten op wat voor weg je rijdt voordat je weet hoe hard je mag.",
+        "valkuil": "Een autoweg die er ruim uitziet verleidt tot snelweggedrag, maar het bord zegt autoweg en dus geldt de autowegsnelheid.",
+        "onthoud": "Bord G3 buiten de bebouwde kom en geen ander bord: 100 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "buiten de bebouwde kom: standaard 100 km/u"
+        },
+        {
+          "slide": 69,
+          "anker": "standaard is de maximumsnelheid 100 km/u maar met borden kan een lagere snelheid"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "snelheid",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De maximumsnelheid op autowegen is: buiten de bebouwde kom: standaard 100 km/u",
+        "bron": "boek p. 71"
+      }
+    },
+    {
+      "id": "U08-Q003",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je volgt een autoweg buiten de bebouwde kom. Kun je op zo'n weg een rotonde tegenkomen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Op een autoweg kun je gelijkvloerse kruispunten en rotondes tegenkomen, dus blijf vooruitkijken.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je denkt aan de autosnelweg; op de autoweg kruist het verkeer wel degelijk gelijkvloers.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Op autowegen kun je gelijkvloerse kruispunten en rotondes tegenkomen.",
+        "waarom": "De weg is gemaakt om door te rijden, maar hij ligt niet overal ongelijkvloers, dus kruisend verkeer moet ergens over jouw rijbaan heen.",
+        "valkuil": "Juist omdat het wegbeeld snel aanvoelt, komt zo'n kruispunt onverwacht; de autosnelweg is de weg zonder gelijkvloerse kruisingen.",
+        "onthoud": "Autoweg: kruispunten kunnen. Autosnelweg: nooit."
+      },
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.7",
+          "anker": "Je kunt gelijkvloerse kruispunten en rotondes tegenkomen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "wegbeeld",
+        "kruispunt"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je kunt gelijkvloerse kruispunten en rotondes tegenkomen.",
+        "bron": "boek p. 70"
+      }
+    },
+    {
+      "id": "U08-Q004",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke uitspraken over een autoweg kloppen? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Hij heeft vaak een rijbaan met tegemoetkomend verkeer.",
+          "feedback": "Goed. Een autoweg kan gescheiden rijbanen hebben, maar heeft vaak gewoon een rijbaan met tegenliggers.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij heeft meestal korte invoegstroken.",
+          "feedback": "Goed. Korte invoegstroken horen bij het beeld van de autoweg, dus je hebt minder ruimte om op snelheid te komen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Hij heeft altijd een vluchtstrook naast de rijbaan.",
+          "feedback": "Fout. Een autoweg heeft meestal juist geen vluchtstroken; die horen bij de autosnelweg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je kunt er een gelijkvloers kruispunt tegenkomen.",
+          "feedback": "Goed. Gelijkvloerse kruispunten en rotondes zijn op een autoweg mogelijk.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Er mogen alleen motorvoertuigen komen die 60 km/u kunnen en mogen rijden.",
+          "feedback": "Fout. Die grens hoort bij de autosnelweg; op de autoweg ligt de eis lager.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Autowegen hebben vaak een rijbaan met tegemoetkomend verkeer, meestal korte invoegstroken en geen vluchtstroken, en er kunnen gelijkvloerse kruispunten en rotondes liggen.",
+        "waarom": "Dit wegtype zit tussen de gewone weg en de snelweg in, dus je krijgt de snelheid van de een met de verrassingen van de ander.",
+        "valkuil": "Wie autoweg en autosnelweg door elkaar haalt, rekent op een vluchtstrook die er niet is en op een invoegstrook die langer is dan hij blijkt.",
+        "onthoud": "Autoweg: kort invoegen, niets om op te vluchten, kruisingen mogelijk."
+      },
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.7",
+          "anker": "Autowegen hebben vaak een rijbaan met tegemoetkomend verkeer"
+        },
+        {
+          "boek": 70,
+          "sectie": "4.7",
+          "anker": "Een autoweg heeft meestal korte invoegstroken en geen vluchtstroken"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "wegbeeld",
+        "vluchtstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een autoweg heeft meestal korte invoegstroken en geen vluchtstroken.",
+        "bron": "boek p. 70"
+      }
+    },
+    {
+      "id": "U08-Q005",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Een autoweg loopt hier binnen de bebouwde kom door. Er staat geen bord met een snelheid. Hoe hard mag je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "30 km/u",
+          "feedback": "Fout. Dat hoort bij erftoegangswegen in een woonbuurt, niet bij een autoweg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "50 km/u",
+          "feedback": "Goed. Binnen de bebouwde kom geldt op een autoweg in principe de gewone snelheid van de bebouwde kom.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Die snelheid hoort bij wegen buiten de bebouwde kom, en je rijdt hier binnen de kom.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is de autowegsnelheid buiten de bebouwde kom; binnen de kom ligt hij lager.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Op een autoweg binnen de bebouwde kom is de maximumsnelheid standaard 50 km/u, tenzij borden iets anders aangeven.",
+        "waarom": "Het bord met de auto erop zegt wat voor weg het is, maar niet waar je bent; binnen en buiten de kom horen bij dezelfde autoweg twee verschillende standaarden.",
+        "valkuil": "Veel mensen koppelen de autoweg meteen aan honderd, ook als ze net een kombord voorbij zijn gereden.",
+        "onthoud": "Eerst kijken waar je bent, dan pas wat voor weg het is."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "binnen de bebouwde kom: standaard 50 km/u"
+        },
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "Borden kunnen een afwijkende maximumsnelheid aangeven"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "snelheid",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "binnen de bebouwde kom: standaard 50 km/u",
+        "bron": "boek p. 71",
+        "gewijzigd": "de feedback bij het goede antwoord gebruikte het woord kombsnelheid, dat niet bestaat; er staat nu de gewone snelheid van de bebouwde kom"
+      }
+    },
+    {
+      "id": "U08-Q006",
+      "unit": "U08",
+      "pagina": "U08-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat aangeeft dat de autoweg ophoudt.",
+      "media": {
+        "borden": [
+          "G1",
+          "G2",
+          "G3",
+          "G4"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G1",
+          "tekst": "G1",
+          "feedback": "Fout. Dit is G1 en dat betekent autosnelweg, dus juist het begin van de snelste weg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G2",
+          "tekst": "G2",
+          "feedback": "Fout. Dit is G2, het einde van de autosnelweg; let op het symbool onder de rode streep.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "G3",
+          "tekst": "G3",
+          "feedback": "Fout. Dit is G3 en daarmee begint de autoweg juist in plaats van dat hij eindigt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Goed. G4 is het autowegbord met een rode diagonale streep en betekent einde autoweg.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "G4"
+      ],
+      "uitleg": {
+        "regel": "Bord G3 geeft de autoweg aan en bord G4 het einde van de autoweg.",
+        "waarom": "De rode streep is in deze familie steeds het teken dat de regeling ophoudt, en het symbool eronder zegt welke regeling dat was.",
+        "valkuil": "Het autowegsymbool is een auto van voren, het autosnelwegsymbool is een weg met een viaduct; met een streep erover lijken ze op elkaar.",
+        "onthoud": "Auto van voren is autoweg, streep erover is einde."
+      },
+      "bronnen": [
+        {
+          "boek": 70,
+          "sectie": "4.7",
+          "anker": "bovenaan de borden G3 en G4 (autoweg en einde autoweg)"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autoweg",
+        "borden-g",
+        "einde"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "bovenaan de borden G3 en G4 (autoweg en einde autoweg)",
+        "bron": "boek p. 70"
+      }
+    },
+    {
+      "id": "U08-Q007",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Kun je op een autosnelweg een gelijkvloers kruispunt tegenkomen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Op een autosnelweg kruist ander verkeer nooit gelijkvloers; dat gaat via viaducten en afritten.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Op een autosnelweg kom je geen gelijkvloerse kruispunten of rotondes tegen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Op autosnelwegen kom je geen gelijkvloerse kruispunten of rotondes tegen.",
+        "waarom": "Alles wat de rijbaan zou kruisen is er weggehaald, en daarom kan het verkeer er zo snel doorstromen.",
+        "valkuil": "Op de autoweg kan het wel, en die twee wegen lijken van een afstand op elkaar.",
+        "onthoud": "Autosnelweg: alleen op- en afritten, nooit een kruispunt."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "Je komt geen gelijkvloerse kruispunten of rotondes tegen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "wegbeeld",
+        "kruispunt"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je komt geen gelijkvloerse kruispunten of rotondes tegen.",
+        "bron": "boek p. 71"
+      }
+    },
+    {
+      "id": "U08-Q008",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt om drie uur in de middag op een autosnelweg. Er staan geen snelheidsborden langs de weg en boven de weg. Hoe hard mag je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Die waarde staat op veel ringwegen bij grote steden, maar dan geven borden dat aan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "100 km/u",
+          "feedback": "Goed. Overdag geldt op autosnelwegen de dagstandaard, ook als er geen bord staat.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "120 km/u",
+          "feedback": "Fout. Zo hard mag je alleen waar de borden dat aangeven, en dan nog niet midden op de dag.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "130 km/u",
+          "feedback": "Fout. Dat is de landelijke standaard, maar overdag is die standaard juist verlaagd.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Op autosnelwegen geldt overdag tussen 6 uur en 19 uur standaard 100 km/u.",
+        "waarom": "De klok bepaalt hier mee: dezelfde weg zonder een enkel bord geeft je op een ander moment van de dag een andere snelheid.",
+        "valkuil": "Geen bord zien betekent niet dat de hoogste snelheid geldt; je moet zelf weten hoe laat het is.",
+        "onthoud": "Overdag honderd, daarna zegt het bord het."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "overdag tussen 6.00 uur en 19.00 uur 100 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "overdag tussen 06.00 en 19.00: standaard 100 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "snelheid",
+        "overdag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "overdag tussen 6.00 uur en 19.00 uur 100 km/u",
+        "bron": "boek p. 71"
+      }
+    },
+    {
+      "id": "U08-Q009",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Bij de oprit van de autosnelweg stond geen bord met een maximumsnelheid. Mag je hieruit afleiden dat hier in de nacht 130 km/u geldt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Een lagere snelheid zou bij de oprit zijn aangegeven, dus die is er hier niet afgekondigd.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Het ontbreken van het bord is hier zelf de informatie: alleen een lagere snelheid wordt bij de oprit gezet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij de oprit van een autosnelweg staat de maximumsnelheid alleen aangegeven als die lager is dan 130 km/u.",
+        "waarom": "Het bord is er om je te waarschuwen voor een afwijking, dus als er niets staat is er ook niets afgeweken van de landelijke standaard.",
+        "valkuil": "Overdag tussen 6 uur en 19 uur blijft het alsnog honderd, ook als er bij de oprit niets stond.",
+        "onthoud": "Geen bord bij de oprit betekent de hoogste standaard, niet vrij spel."
+      },
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "staat alleen de maximumsnelheid aangegeven als deze lager is dan 130 km/u"
+        },
+        {
+          "slide": 70,
+          "anker": "'s avonds en 's nachts: standaard 130 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "snelheid",
+        "oprit"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij de oprit van een autosnelweg staat alleen de maximumsnelheid aangegeven als deze lager is dan 130 km/u.",
+        "bron": "boek p. 72"
+      }
+    },
+    {
+      "id": "U08-Q010",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke kenmerken horen bij een autosnelweg? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Gescheiden rijbanen met twee of meer rijstroken.",
+          "feedback": "Goed. Een autosnelweg heeft altijd gescheiden rijbanen met minstens twee rijstroken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Rechts van de rijbaan ligt een vluchtstrook.",
+          "feedback": "Goed. De vluchtstrook rechts hoort bij het beeld, en bij meer dan drie rijstroken ligt er links vaak ook een.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Er mogen alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden.",
+          "feedback": "Goed. Dat is de toegangseis voor de autosnelweg en die ligt hoger dan op de autoweg.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Waar de weg een dorp raakt, ligt soms een rotonde.",
+          "feedback": "Fout. Op een autosnelweg kom je geen rotondes of gelijkvloerse kruispunten tegen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Korte invoegstroken en geen vluchtstrook.",
+          "feedback": "Fout. Dat hoort bij de autoweg, niet bij de autosnelweg.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Autosnelwegen hebben altijd gescheiden rijbanen met twee of meer rijstroken, rechts een vluchtstrook, geen gelijkvloerse kruisingen, en er mogen alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden.",
+        "waarom": "Al die kenmerken dienen hetzelfde doel: niets mag de stroom onderbreken, en wie stilvalt heeft een plek om naartoe te gaan.",
+        "valkuil": "Sommige autowegen zien er net zo uit; dan zegt alleen het bord op welke van de twee je zit.",
+        "onthoud": "Twee rijbanen, twee rijstroken, een vluchtstrook: autosnelweg."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "Autosnelwegen hebben altijd gescheiden rijbanen met twee of meer rijstroken"
+        },
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "wegbeeld",
+        "toegang"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Autosnelwegen hebben altijd gescheiden rijbanen met twee of meer rijstroken.",
+        "bron": "boek p. 71"
+      }
+    },
+    {
+      "id": "U08-Q011",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "invul",
+      "soort": "kennis",
+      "stam": "Vanaf welke snelheid mag een motorvoertuig de autosnelweg op? Vul het aantal km/u in.",
+      "media": null,
+      "opties": [],
+      "correct": {
+        "getal": 60,
+        "eenheid": "km/u"
+      },
+      "uitleg": {
+        "regel": "Op een autosnelweg mogen alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden.",
+        "waarom": "De ondergrens ligt hier hoger dan op de autoweg, want het verschil met de rest van het verkeer wordt anders te groot.",
+        "valkuil": "Verwissel de eis niet met die van de autoweg, waar de grens tien lager ligt.",
+        "onthoud": "Vijftig voor de autoweg, zestig voor de autosnelweg."
+      },
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden"
+        },
+        {
+          "slide": 70,
+          "anker": "alleen motorvoertuigen die harder kunnen en mogen dan 60 km/u mogen erop rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "toegang",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden",
+        "bron": "boek p. 71"
+      }
+    },
+    {
+      "id": "U08-Q012",
+      "unit": "U08",
+      "pagina": "U08-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Waarom staat op de hectometerbordjes op de hele kilometer ook een snelheidsaanduiding?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Om verwarring over de maximumsnelheid te voorkomen.",
+          "feedback": "Goed. Het bordje herhaalt de snelheid zodat je onderweg kunt controleren wat er geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Om aan te geven hoeveel kilometer je nog tot de afrit hebt.",
+          "feedback": "Fout. Het getal op het bordje is een plaatsaanduiding langs de weg en geen afstand tot jouw afrit.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Om de afstand tot de volgende vluchthaven te tonen.",
+          "feedback": "Fout. Vluchthavens worden met eigen borden aangegeven en niet met de snelheid op een hectometerbordje.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Om aan te geven welke rijstrook je moet gebruiken.",
+          "feedback": "Fout. Welke strook je neemt lees je op de borden boven de weg, niet op het bordje in de berm.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Om verwarring over de maximumsnelheid te voorkomen staat de snelheid op de hectometerbordjes op de hele kilometer, en bij drie of meer rijstroken ook links van de weg.",
+        "waarom": "Op een lange rit passeer je trajecten met verschillende maxima, en een herhaling in de berm helpt je te controleren waar je aan toe bent.",
+        "valkuil": "Het bordje hoort bij het traject waar je op rijdt, dus lees het pas als je zeker weet op welke rijbaan je zit.",
+        "onthoud": "Twijfel over de snelheid: kijk naar het groene bordje in de berm."
+      },
+      "bronnen": [
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "Om verwarring over de maximumsnelheid te voorkomen"
+        },
+        {
+          "boek": 72,
+          "sectie": "4.7",
+          "anker": "worden de hectometerbordjes op de hele kilometer voorzien van een snelheidsaanduiding"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "autosnelweg",
+        "hectometerbord",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Om verwarring over de maximumsnelheid te voorkomen, worden de hectometerbordjes op de hele kilometer voorzien van een snelheidsaanduiding.",
+        "bron": "boek p. 72"
+      }
+    }
+  ]
+}

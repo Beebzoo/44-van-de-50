@@ -1,0 +1,833 @@
+{
+  "unit": "U09",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U09-Q013",
+      "unit": "U09",
+      "pagina": "U09-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Het licht bij een overweg knippert wit. Wat betekent dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Er nadert geen trein.",
+          "feedback": "Goed. Wit knipperen is het rustsignaal; pas als het rood gaat knipperen en de bellen gaan rinkelen moet je stoppen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De overweg is buiten werking en je moet zelf goed kijken.",
+          "feedback": "Fout. Het witte knipperen hoort juist bij een werkende installatie en betekent dat er geen trein aan komt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Er komt zo een trein, dus je moet vaart minderen.",
+          "feedback": "Fout. Dat wordt aangekondigd met rood knipperende lichten en alarmbellen, niet met wit licht.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "De overwegbomen staan op het punt om dicht te gaan.",
+          "feedback": "Fout. De bomen gaan pas een paar seconden na het rood knipperen en het rinkelen naar beneden.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De overweglichten knipperen wit zolang er geen trein aan komt.",
+        "waarom": "Een lamp die blijft knipperen laat je zien dat de installatie het doet, zodat een donker sein niet met veilig verward kan worden.",
+        "valkuil": "Wit betekent niet dat je hard mag; je nadert een overweg altijd met aangepaste snelheid.",
+        "onthoud": "Wit is rustig, rood met bellen is stoppen."
+      },
+      "bronnen": [
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "De overweglichten knipperen wit zolang er geen trein aan komt"
+        },
+        {
+          "slide": 93,
+          "anker": "wit knipperlicht bij overweg betekent; er nadert geen trein"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "knipperlichten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De overweglichten knipperen wit zolang er geen trein aan komt.",
+        "bron": "boek p. 94"
+      }
+    },
+    {
+      "id": "U09-Q014",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De lichten bij een overweg gaan rood knipperen en de alarmbellen beginnen te rinkelen. De bomen staan nog omhoog. Mag je er nog snel overheen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De bomen zijn niet het startsein; vanaf het rood knipperen en het rinkelen moet je stoppen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Zodra de lichten rood knipperen en de bellen rinkelen, moet je stoppen, ook al hangen de bomen nog in de lucht.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Zodra de overweglichten rood gaan knipperen en de alarmbellen beginnen te rinkelen, moet je stoppen. Na een paar seconden gaan de overwegbomen dicht.",
+        "waarom": "De tijd tussen de bellen en het dichtgaan van de bomen is afgestemd op de plaatselijke maximumsnelheid: hij is er om je rustig tot stilstand te laten komen, niet om er nog even doorheen te schieten.",
+        "valkuil": "Wie op de bomen wacht in plaats van op de lichten, staat straks met de bomen op zijn dak.",
+        "onthoud": "Rood en bellen: stoppen, ook met bomen omhoog."
+      },
+      "bronnen": [
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "Zodra de overweglichten rood gaan knipperen en de alarmbellen beginnen te rinkelen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "knipperlichten",
+        "stoppen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Zodra de overweglichten rood gaan knipperen en de alarmbellen beginnen te rinkelen, moet je stoppen.",
+        "bron": "boek p. 94",
+        "gewijzigd": "de waarom gaf een eigen reden voor die paar seconden terwijl het boek er zelf een noemt; nu staat de reden van het boek erin, dat de tijd op de plaatselijke maximumsnelheid is afgestemd."
+      }
+    },
+    {
+      "id": "U09-Q015",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je nadert een open overweg, maar aan de andere kant staat het verkeer stil in een file. De ruimte achter de rails is te klein voor jouw auto. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Wachten voor de overweg tot er aan de andere kant genoeg ruimte vrij is.",
+          "feedback": "Goed. Je rijdt een overweg pas op als je zeker weet dat je er ook direct weer af kunt rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Doorrijden en op de overweg wachten tot de file opschuift.",
+          "feedback": "Fout. Stilstaan op de overweg is precies wat je nooit mag laten gebeuren, ook niet voor even.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Doorrijden, want de bomen staan open en dus is de overweg vrijgegeven.",
+          "feedback": "Fout. Open bomen zeggen alleen dat er nu geen trein komt, niet dat er aan de overkant plek voor je is.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Tot halverwege de overweg rijden zodat je alvast opschuift.",
+          "feedback": "Fout. Half op de rails staan is net zo gevaarlijk als er helemaal op staan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rijd een overweg pas op als je zeker weet dat je er ook direct weer af kunt rijden. Wacht dus altijd met doorrijden tot aan de andere kant van de overweg voldoende ruimte voor je vrij is.",
+        "waarom": "Zodra je op de rails staat ben je afhankelijk van de auto voor je, en die kan niet weg. De enige plek waar je die keuze nog zelf hebt, is ervoor.",
+        "valkuil": "Het gaat niet om de ruimte voor de overweg maar om de ruimte erachter.",
+        "onthoud": "Eerst kijken of je er af kunt, dan pas erop."
+      },
+      "bronnen": [
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "Wacht dus altijd met doorrijden tot aan de andere kant van de overweg"
+        },
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "Voorkom zelf dat je stil komt te staan op de overweg"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "file",
+        "stoppen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Rijd een overweg pas op als je zeker weet dat je er ook direct weer af kunt rijden.",
+        "bron": "boek p. 95"
+      }
+    },
+    {
+      "id": "U09-Q016",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "De bomen van een overweg gaan dicht en jij moet wachten. Wat hoort er bij het goed stilstaan op die plek?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je laat zijwegen en in- of uitritten vrij.",
+          "feedback": "Goed. Wie daar blijft staan, sluit anderen in terwijl er niets aan de hand hoeft te zijn.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je houdt de overweg zelf vrij.",
+          "feedback": "Goed. De rails vrijhouden is de belangrijkste reden waarom je bewust een plek kiest om te stoppen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je zet je motor af totdat de overwegbomen weer open gaan.",
+          "feedback": "Goed. Het boek zegt dat je je motor afzet tot de bomen weer omhoog gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je gaat in een zijweg staan als daar toevallig plek is.",
+          "feedback": "Fout. Juist die zijweg moet je vrijlaten, want anders kan niemand daar meer in of uit.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Je zet je auto in de vrije stand en laat hem langzaam uitrollen tot tegen de bomen.",
+          "feedback": "Fout. Je kiest een plek en staat daar stil; tegen de bomen aan kruipen levert alleen maar risico op.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Als je moet stoppen bij een overweg, laat dan zijwegen en in- of uitritten vrij, en natuurlijk ook de overweg zelf. Zet je motor af totdat de overwegbomen weer open gaan.",
+        "waarom": "Voor een dichte overweg groeit de rij snel, en elke auto die een zijweg blokkeert maakt de knoop groter op de plek waar juist ruimte nodig is.",
+        "valkuil": "Denk niet alleen aan je eigen plek maar ook aan wie er achter je en naast je nog weg moet.",
+        "onthoud": "Zijwegen vrij, rails vrij, motor uit."
+      },
+      "bronnen": [
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "laat dan zijwegen en in- of uitritten vrij"
+        },
+        {
+          "boek": 94,
+          "sectie": "5.7",
+          "anker": "Zet je motor af totdat de overwegbomen weer open gaan"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "stoppen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je moet stoppen bij een overweg, laat dan zijwegen en in- of uitritten vrij.",
+        "bron": "boek p. 94"
+      }
+    },
+    {
+      "id": "U09-Q017",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt achter een fietser en vlak voor je ligt een overweg. Er is voldoende ruimte en het zicht is goed. Mag je de fietser hier inhalen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Fietsers zijn soms een uitzondering op het advies om daar niet in te halen, en bij genoeg ruimte en zicht is het beter voor de doorstroming.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Voor gemotoriseerd verkeer geldt hier het advies om niet in te halen, maar bij fietsers wordt juist een uitzondering genoemd.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Vlak voor en op een overweg kun je beter niet inhalen. Het inhalen van fietsers is daarop soms een uitzondering: als er voldoende ruimte en zicht is, is het voor de doorstroming beter om hen wel in te halen.",
+        "waarom": "Een fietser gaat zo langzaam dat achter hem blijven hangen de hele rij op de overweg laat treuzelen, en juist daar wil je dat iedereen er vlot af komt.",
+        "valkuil": "De uitzondering hangt aan de twee voorwaarden: genoeg ruimte en genoeg zicht. Zonder die twee blijf je erachter.",
+        "onthoud": "Niet inhalen bij een overweg, fietsers soms wel."
+      },
+      "bronnen": [
+        {
+          "boek": 96,
+          "sectie": "5.7",
+          "anker": "Het inhalen van fietsers is daarop soms een uitzondering"
+        },
+        {
+          "boek": 96,
+          "sectie": "5.7",
+          "anker": "als er voldoende ruimte en zicht is, is het voor de doorstroming beter"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "inhalen",
+        "fietser"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het inhalen van fietsers is daarop soms een uitzondering; als er voldoende ruimte en zicht is, is het voor de doorstroming beter om hen wél in te halen.",
+        "bron": "boek p. 96"
+      }
+    },
+    {
+      "id": "U09-Q018",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De trein is gepasseerd en de overwegbomen gaan weer omhoog. Het rode licht knippert nog wel. Mag je optrekken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Bomen omhoog is geen toestemming; er kan vlak achter de eerste trein nog een tweede zitten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je wacht tot de bomen omhoog staan en het rode knipperlicht gedoofd is, en dat laatste is hier nog niet zo.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Nadat de trein is gepasseerd, gaan de overwegbomen automatisch open, ook als er vlak daarna nog een trein komt. Wacht daarom tot de overwegbomen omhoog staan en het rode knipperlicht gedoofd is.",
+        "waarom": "De bomen reageren op de trein die net weg is en niet op de trein die eraan komt, dus alleen het gedoofde licht zegt echt iets over de trein achter de eerste.",
+        "valkuil": "Daarom staat er bij een overweg een bord dat je waarschuwt dat er nog een trein kan komen.",
+        "onthoud": "Wacht tot het rode licht gedoofd is."
+      },
+      "bronnen": [
+        {
+          "boek": 96,
+          "sectie": "5.7",
+          "anker": "Nadat de trein is gepasseerd, gaan de overwegbomen automatisch open"
+        },
+        {
+          "boek": 96,
+          "sectie": "5.7",
+          "anker": "wacht dan tot de overwegbomen omhoog staan en het rode knipperlicht gedoofd is"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "knipperlichten"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als de trein is gepasseerd, wacht dan tot de overwegbomen omhoog staan en het rode knipperlicht gedoofd is.",
+        "bron": "boek p. 96"
+      }
+    },
+    {
+      "id": "U09-Q019",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Midden op een overweg slaat je motor af en hij wil niet meer aanslaan. Wat is de beste manier om er toch af te komen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Eerste versnelling, koppeling laten opkomen en de startmotor laten draaien, zodat je er hobbelend af rijdt.",
+          "feedback": "Goed. Op de startmotor rijd je van de spoorbaan af; lukt dat niet, verlaat dan je auto en breng jezelf in veiligheid.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In de vrije stand zetten en rustig blijven proberen te starten.",
+          "feedback": "Fout. In de vrije stand beweegt de auto niet, en juist bewegen is wat je nu nodig hebt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "De motorkap openen om te kijken wat er mis is.",
+          "feedback": "Fout. Je gaat geen storing zoeken terwijl je op de rails staat; je zorgt eerst dat je er af bent.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Blijven zitten en met je alarmlichten aan op hulp wachten.",
+          "feedback": "Fout. Wachten op de rails is het slechtste dat je kunt doen; eerst proberen weg te komen en anders uitstappen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Schakel je auto in de eerste versnelling en laat de koppeling opkomen, draai de contactsleutel om en houd die vast in de stand starten. Je rijdt nu van de spoorbaan af op de startmotor.",
+        "waarom": "De startmotor is sterk genoeg om de auto een paar meter te verplaatsen, en die paar meter zijn precies het verschil tussen op en naast de rails.",
+        "valkuil": "Lukt het niet, laat de auto dan staan; het voertuig is te vervangen en jij niet.",
+        "onthoud": "Eerste versnelling en starten: van de rails af op de startmotor."
+      },
+      "bronnen": [
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "schakel dan je auto in de eerste versnelling en laat de koppeling opkomen"
+        },
+        {
+          "boek": 95,
+          "sectie": "5.7",
+          "anker": "verlaat dan je auto en breng jezelf in veiligheid"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "noodsituatie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "schakel dan je auto in de eerste versnelling en laat de koppeling opkomen",
+        "bron": "boek p. 95"
+      }
+    },
+    {
+      "id": "U09-Q020",
+      "unit": "U09",
+      "pagina": "U09-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Op een landweggetje kom je bij een onbeveiligde overweg. Welke uitspraken kloppen hier?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Er staan geen overwegbomen.",
+          "feedback": "Goed. Onbeveiligd wil zeggen dat er niets is dat je fysiek tegenhoudt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er zijn ook geen knipperlichten en alarmbellen.",
+          "feedback": "Goed. Er is dus ook geen sein dat je waarschuwt als er een trein aankomt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je moet extra voorzichtig zijn en erg goed uitkijken.",
+          "feedback": "Goed. Alles wat de installatie normaal voor je doet, moet je hier zelf doen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Dit soort overwegen kom je in Nederland nog heel vaak tegen.",
+          "feedback": "Fout. Ze bestaan nog, maar heel soms; ze zijn juist bijna overal verdwenen omdat ze gevaarlijk zijn.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "e",
+          "tekst": "Bij slecht zicht is zo'n overweg veiliger, omdat er geen lichten zijn die je afleiden.",
+          "feedback": "Fout. Precies andersom: vooral bij slecht zicht zijn dit levensgevaarlijke overwegen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Heel soms kom je nog onbeveiligde overwegen tegen, zonder overwegbomen, knipperlichten en alarmbellen. Als je daar wilt oversteken, moet je extra voorzichtig zijn en erg goed uitkijken.",
+        "waarom": "Bij een beveiligde overweg vertelt de installatie je wanneer het niet mag; hier is er niemand die dat zegt, dus jouw eigen kijken is het enige wat overblijft.",
+        "valkuil": "Zonder bellen en lichten is stilte geen bewijs dat er niets aankomt.",
+        "onthoud": "Onbeveiligd betekent: alles zelf doen, en heel goed kijken."
+      },
+      "bronnen": [
+        {
+          "boek": 96,
+          "sectie": "5.7",
+          "anker": "Heel soms kom je nog onbeveiligde overwegen tegen, zonder overwegbomen, knipperlichten en alarmbellen"
+        },
+        {
+          "boek": 96,
+          "sectie": "5.7",
+          "anker": "Vooral bij slecht zicht zijn dit levensgevaarlijke overwegen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "overweg",
+        "onbeveiligd"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Heel soms kom je nog onbeveiligde overwegen tegen, zonder overwegbomen, knipperlichten en alarmbellen.",
+        "bron": "boek p. 96"
+      }
+    },
+    {
+      "id": "U09-Q021",
+      "unit": "U09",
+      "pagina": "U09-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke uitspraken over bruggen en viaducten kloppen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij vorst zijn ze sneller glad dan gewone wegen.",
+          "feedback": "Goed. De wind komt er ook onderdoor, dus het wegdek koelt sneller af en bevriest eerder.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je kunt er last hebben van zijwind, vooral buiten de bebouwde kom op hoge bruggen.",
+          "feedback": "Goed. Hoge bruggen en bruggen over groot open water worden met name genoemd.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Moet je voor een open brug wachten, dan zet je je motor uit.",
+          "feedback": "Goed. Dat is precies het advies dat bij het wachten voor een brug hoort.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Ze blijven juist langer ijsvrij, omdat er warme lucht onderdoor trekt.",
+          "feedback": "Fout. De lucht eronder koelt het wegdek juist af, waardoor het eerder bevriest dan een gewone weg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Zijwindhinder speelt vooral binnen de bebouwde kom.",
+          "feedback": "Fout. Het is andersom: buiten de bebouwde kom, op hoge bruggen en over open water, heb je er het meest last van.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Op bruggen en viaducten kun je last hebben van zijwind, vooral buiten de bebouwde kom op hoge bruggen. Bij vorst zijn bruggen en viaducten sneller glad dan gewone wegen. Zet je motor uit als je moet wachten.",
+        "waarom": "Een brug ligt los van de grond, dus de lucht kan er langs en onderdoor. Dat is precies waarom je er zowel je stuur als je grip anders voelt dan op de weg ervoor.",
+        "valkuil": "De brug voelt hetzelfde als de weg ervoor, want je ziet niet dat je op een los stuk wegdek rijdt.",
+        "onthoud": "Een brug hangt in de wind, in twee betekenissen."
+      },
+      "bronnen": [
+        {
+          "boek": 97,
+          "sectie": "5.8",
+          "anker": "Bij vorst zijn bruggen en viaducten sneller glad dan gewone wegen"
+        },
+        {
+          "slide": 94,
+          "anker": "Zet je motor uit als je moet wachten"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "brug",
+        "viaduct",
+        "zijwind",
+        "gladheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij vorst zijn bruggen en viaducten sneller glad dan gewone wegen.",
+        "bron": "boek p. 97"
+      }
+    },
+    {
+      "id": "U09-Q022",
+      "unit": "U09",
+      "pagina": "U09-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je nadert een hoge brug en de windzak aan de mast staat helemaal dwars op de weg. Wat zegt dat en wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Er staat veel zijwind; je rijdt langzamer en houdt de motor zoveel mogelijk trekkende.",
+          "feedback": "Goed. Hoe verder de windzak uitstaat, hoe harder het waait, en dwars op de weg betekent veel zijwindhinder.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er staat nauwelijks wind; je kunt gewoon je snelheid aanhouden.",
+          "feedback": "Fout. Een windzak die slap hangt zegt dat het weinig waait, maar deze staat juist helemaal uit.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De wind komt recht van achteren; je kunt rustig wat harder rijden.",
+          "feedback": "Fout. De windzak wijst met de wind mee, en dwars op de weg betekent dus wind van opzij.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Het is een versiering bij de brug en zegt niets over de wind.",
+          "feedback": "Fout. De windzak is er juist om je te laten zien hoe hard het waait en uit welke richting.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Hoe verder die windzak uitstaat, hoe harder het waait. Als de windzak dwars op de weg staat, moet je bedacht zijn op veel zijwindhinder, en dan is het verstandig om langzamer te rijden en de motor zoveel mogelijk trekkende te houden.",
+        "waarom": "Bij lagere snelheid zet de wind je minder ver opzij, en een auto die trekt staat steviger op de weg dan een auto die uitrolt.",
+        "valkuil": "De harde klap komt vaak pas achter een pijler of aan het einde van de brug, waar je ineens uit de luwte schiet.",
+        "onthoud": "Windzak dwars op de weg: langzamer en trekkende houden."
+      },
+      "bronnen": [
+        {
+          "boek": 97,
+          "sectie": "5.8",
+          "anker": "Als de windzak dwars op de weg staat, moet je bedacht zijn op veel zijwindhinder"
+        },
+        {
+          "slide": 94,
+          "anker": "De windzak kan je helpen om te bepalen hoe hard het waait"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "brug",
+        "zijwind"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als de windzak dwars op de weg staat, moet je bedacht zijn op veel zijwindhinder.",
+        "bron": "boek p. 97"
+      }
+    },
+    {
+      "id": "U09-Q023",
+      "unit": "U09",
+      "pagina": "U09-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Eerder waarschuwde bord [J15] je voor een beweegbare brug. Nu begint het rode licht bij de brug te knipperen, terwijl de slagbomen nog omhoog staan. Mag je nog doorrijden?",
+      "media": {
+        "bord": "J15"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het licht is het sein en de slagbomen volgen pas een paar seconden later.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Als het rode licht brandt of gaat knipperen, stop je; de slagbomen gaan daarna pas naar beneden.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Bij de brug zelf staat een rood licht. Als dat brandt of gaat knipperen, stop je. De slagbomen gaan na een paar seconden naar beneden en de brug gaat omhoog.",
+        "waarom": "Die paar seconden zitten er alleen om het brugdek leeg te laten lopen, dus wie er dan nog op rijdt, rijdt de ruimte in die juist vrij moet komen.",
+        "valkuil": "Bij een brug werkt het net als bij een overweg: het licht is het sein, niet de boom.",
+        "onthoud": "Rood bij de brug betekent stoppen, ook met de slagbomen omhoog."
+      },
+      "bronnen": [
+        {
+          "boek": 98,
+          "sectie": "5.8",
+          "anker": "De slagbomen gaan na een paar seconden naar beneden en de brug gaat omhoog"
+        },
+        {
+          "slide": 94,
+          "anker": "Als de brug opengaat, zijn de slagbomen gesloten en brandt of knippert het rode bruglicht"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "brug",
+        "bruglicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij de brug zelf staat een rood licht. Als dat brandt of gaat knipperen, stop je.",
+        "bron": "boek p. 98"
+      }
+    },
+    {
+      "id": "U09-Q024",
+      "unit": "U09",
+      "pagina": "U09-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Vlak voor een brug ligt nog een zijweg. Bij de brug brandt een rood verlichte pijl die naar de brug wijst. Jij wilt de zijweg in. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Ja, het verbod geldt alleen voor de richting waar de pijl heen wijst.",
+          "feedback": "Goed. In andere richtingen mag je gewoon doorrijden, dus de zijweg blijft voor jou open.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Nee, een rood licht bij een brug geldt altijd voor alle richtingen.",
+          "feedback": "Fout. Dat klopt voor een gewoon rood bruglicht, maar een verlichte pijl beperkt het verbod juist tot een richting.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Nee, je moet eerst wachten tot het licht gedoofd is en dan pas kiezen.",
+          "feedback": "Fout. Wachten hoeft alleen als je de kant van de pijl op wilt; jij gaat een andere kant op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Ja, maar alleen als er niemand anders voor de brug staat te wachten.",
+          "feedback": "Fout. Of er rij staat verandert niets aan wat de pijl zegt; de richting van de pijl is bepalend.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als er voor de brug nog een andere zijweg is, staat bij de brug ook wel eens een rood verlichte pijl. Het verbod om door te rijden geldt dan alleen voor de richting van de pijl, en in andere richtingen mag je dus wel doorrijden.",
+        "waarom": "Alleen het verkeer dat de brug op zou rijden hoeft tegengehouden te worden, en met een pijl hoeft de rest van de straat niet nodeloos stil te staan.",
+        "valkuil": "Kijk dus waar de pijl heen wijst voordat je aanneemt dat rood voor jou geldt.",
+        "onthoud": "Een verlichte pijl geldt alleen voor zijn eigen richting."
+      },
+      "bronnen": [
+        {
+          "boek": 98,
+          "sectie": "5.8",
+          "anker": "Het verbod om door te rijden geldt dan alleen voor de richting van de pijl"
+        },
+        {
+          "boek": 98,
+          "sectie": "5.8",
+          "anker": "In andere richtingen mag je dus wel doorrijden"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "brug",
+        "bruglicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het verbod om door te rijden geldt dan alleen voor de richting van de pijl. In andere richtingen mag je dus wel doorrijden.",
+        "bron": "boek p. 98"
+      }
+    }
+  ]
+}

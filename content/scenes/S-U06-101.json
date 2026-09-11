@@ -1,0 +1,31 @@
+{
+  "id": "S-U06-101",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "je voorligger"
+    }
+  ],
+  "alt": "Een rechte weg. Jij rijdt onderaan en voor je rijdt een grijze auto dezelfde kant op. Tussen jullie zit een ruim gat.",
+  "inspiratie": {
+    "boek": 123,
+    "slide": 139
+  }
+}

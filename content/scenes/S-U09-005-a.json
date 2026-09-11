@@ -1,0 +1,13 @@
+{
+  "id": "S-U09-005-a",
+  "vorm": "recht",
+  "armen": ["noord", "zuid"],
+  "markering": [{"soort": "blokmarkering", "arm": "zuid"}],
+  "borden": [{"code": "L3b", "arm": "zuid"}],
+  "actoren": [
+    {"id": "ego", "soort": "auto", "arm": "zuid", "richting": "rechtdoor", "afstand": 2, "label": "jij"},
+    {"id": "bus", "soort": "bus", "arm": "zuid", "richting": "stil", "afstand": 1, "label": "de bus"}
+  ],
+  "alt": "Eerste beeld. Een rechte straat met een bushalte: rechts staat bord L3b en op het wegdek ligt blokmarkering. De bus staat stil bij de halte en geeft nog geen richting aan. Jij nadert er van achteren.",
+  "inspiratie": {"boek": 92, "beeld": "foto linksonder, lijnbus bij de halte"}
+}

@@ -196,6 +196,28 @@ function actorSymbol(a) {
   if (a.signaal === "rechts") body += `<rect x="${w / 2 - 1}" y="${-h / 2 + 2}" width="3" height="5" fill="#F2B705"/>`;
   return body;
 }
+/* How far from the centre an actor at afstand 1, 2 or 3 stands on a given arm.
+
+   afstand is an order, not a measurement, so the spacing follows the longest
+   vehicle on that arm: a car behind a tram used to be drawn inside it, because
+   every actor spaced itself by its own length. And a north or south arm is only
+   150 long, so three car lengths ran off the bottom of the 400 by 300 canvas
+   and took the white car with them. The step therefore shrinks until the
+   furthest actor fits. If the arm is too short to do both, staying in frame
+   wins: a few pixels of overlap is a smaller lie than a car nobody can see. */
+function armGap(s, arm, dist, h, edge) {
+  if (!ARM[arm]) return edge + 13 + h / 2 + (dist - 1) * (h + 22);
+  const inBaan = x => !(x.soort === "voetganger" || (x.zijde && (x.soort === "fiets" || x.soort === "bromfiets")));
+  const opArm = (s.actoren || []).filter(x => x.arm === arm && inBaan(x));
+  const langste = Math.max(SIZE.auto[1], ...opArm.map(x => (SIZE[x.soort] || SIZE.auto)[1]));
+  const verste = Math.max(1, ...opArm.map(x => x.afstand || 1));
+  const basis = edge + 8 + langste / 2;
+  const ruimte = armLength(arm) - langste / 2 - 4;
+  const stapNodig = langste + 12;
+  const stapPast = verste > 1 ? (ruimte - basis) / (verste - 1) : stapNodig;
+  const stap = Math.max(10, Math.min(stapNodig, stapPast));
+  return Math.min(basis + (dist - 1) * stap, ruimte);
+}
 function actorPlace(s, a) {
   /* returns [x, y, heading] */
   const edge = s.vorm === "rotonde" ? 60 : ROAD / 2;
@@ -220,7 +242,7 @@ function actorPlace(s, a) {
     return [CX + R * Math.cos(rad), CY + R * Math.sin(rad), ang - 90];
   }
   const dist = a.afstand || 1;
-  const gap = edge + 13 + h / 2 + (dist - 1) * (h + 22);
+  const gap = armGap(s, a.arm, dist, h, edge);
   let side = LANE / 2;
   if (a.soort === "voetganger" || (a.zijde && (a.soort === "fiets" || a.soort === "bromfiets"))) {
     const fp = (s.fietspad || []).includes(a.arm);

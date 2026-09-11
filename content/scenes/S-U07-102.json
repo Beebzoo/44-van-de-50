@@ -1,0 +1,29 @@
+{
+  "id": "S-U07-102",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "fietsstrook-doorgetrokken",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    }
+  ],
+  "alt": "Je rijdt op een rechte weg. Rechts van je ligt een rode fietsstrook met een doorgetrokken streep ertussen.",
+  "inspiratie": {
+    "boek": 63,
+    "slide": 64
+  }
+}

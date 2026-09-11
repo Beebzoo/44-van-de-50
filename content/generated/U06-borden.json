@@ -1,0 +1,147 @@
+{
+  "unit": "U06",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U06-Q900",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+      "media": {
+        "borden": [
+          "F17",
+          "A3",
+          "F22",
+          "F15",
+          "F9",
+          "F8"
+        ]
+      },
+      "opties": [
+        {
+          "id": "F17",
+          "tekst": "F17",
+          "feedback": "Fout. Dit is F17: Rijbaan of -strook uitsluitend ten behoeve van lijnbussen en trams. Het gevraagde bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "A3",
+          "feedback": "Fout. Dit is A3: Maximumsnelheid op een elektronisch signaleringsbord. Het gevraagde bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F22",
+          "tekst": "F22",
+          "feedback": "Fout. Dit is F22: Einde rijbaan of -strook voor vrachtauto's. Het gevraagde bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F15",
+          "tekst": "F15",
+          "feedback": "Fout. Dit is F15: Rijbaan of -strook uitsluitend ten behoeve van trams. Het gevraagde bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F9",
+          "tekst": "F9",
+          "feedback": "Goed. F9 betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+          "fouttype": null
+        },
+        {
+          "id": "F8",
+          "tekst": "F8",
+          "feedback": "Fout. Dit is F8: Einde van alle door verkeersborden aangegeven verboden. Het gevraagde bord is F9.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F9"
+      ],
+      "uitleg": {
+        "regel": "F9 betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: zwart elektronisch paneel met een witte cirkel met diagonale streep.",
+        "valkuil": "Verwar het niet met F8, A3, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f9",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U06-Q901",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "F9"
+      },
+      "opties": [
+        {
+          "id": "F5",
+          "tekst": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
+          "feedback": "Fout. Dat is de betekenis van F5, rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog. Dit bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F9",
+          "tekst": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+          "feedback": "Goed. Dit is F9, zwart elektronisch paneel met een witte cirkel met diagonale streep.",
+          "fouttype": null
+        },
+        {
+          "id": "F7",
+          "tekst": "Keerverbod.",
+          "feedback": "Fout. Dat is de betekenis van F7, rode cirkel met een zwarte pijl die een u-bocht maakt. Dit bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F15",
+          "tekst": "Rijbaan of -strook uitsluitend ten behoeve van trams.",
+          "feedback": "Fout. Dat is de betekenis van F15, blauwe cirkel met een witte tram. Dit bord is F9.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "F9"
+      ],
+      "uitleg": {
+        "regel": "F9 betekent: Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
+        "waarom": "Kijk naar de vorm en de kleur: zwart elektronisch paneel met een witte cirkel met diagonale streep.",
+        "valkuil": "De lijkers zijn F8, A3. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 242,
+          "anker": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-f9",
+        "borden-f"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

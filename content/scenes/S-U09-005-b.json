@@ -1,0 +1,13 @@
+{
+  "id": "S-U09-005-b",
+  "vorm": "recht",
+  "armen": ["noord", "zuid"],
+  "markering": [{"soort": "blokmarkering", "arm": "zuid"}],
+  "borden": [{"code": "L3b", "arm": "zuid"}],
+  "actoren": [
+    {"id": "ego", "soort": "auto", "arm": "zuid", "richting": "rechtdoor", "afstand": 2, "label": "jij"},
+    {"id": "bus", "soort": "bus", "arm": "zuid", "richting": "stil", "afstand": 1, "signaal": "links", "label": "de bus"}
+  ],
+  "alt": "Tweede beeld. Dezelfde straat, even later: jij staat nog op dezelfde plek en de bus geeft nu richting naar links aan.",
+  "inspiratie": {"boek": 92, "beeld": "foto linksonder, lijnbus bij de halte"}
+}

@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-101",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "obstakel",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "het obstakel"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Een rechte weg met verkeer in twee richtingen. Op jouw weghelft staat vlak voor je een grijze auto stil. Van de andere kant nadert een grijze auto over zijn eigen weghelft.",
+  "inspiratie": {
+    "boek": 61,
+    "slide": 169
+  }
+}

@@ -1,0 +1,835 @@
+{
+  "unit": "U07",
+  "batch": 2,
+  "vragen": [
+    {
+      "id": "U07-Q013",
+      "unit": "U07",
+      "pagina": "U07-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je neemt dezelfde bocht een keer met 30 km/u en een keer met 60 km/u. Wat gebeurt er met de middelpuntvliedende kracht?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Die wordt vier maal zo groot.",
+          "feedback": "Goed. De kracht loopt veel harder op dan je snelheid, dus twee keer zo hard betekent vier keer zoveel kracht.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Die wordt twee maal zo groot.",
+          "feedback": "Fout. Je rekent recht evenredig met de snelheid, maar de kracht loopt veel sneller op dan dat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Die blijft gelijk, want de bocht is hetzelfde.",
+          "feedback": "Fout. De straal van de bocht is inderdaad gelijk, maar je snelheid telt net zo hard mee.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Die wordt kleiner, want je bent korter in de bocht.",
+          "feedback": "Fout. De tijd in de bocht heeft er niets mee te maken; het gaat om hoe hard je erdoorheen gaat.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Neem je dezelfde bocht eenmaal met 30 km/u en eenmaal met 60 km/u, dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot.",
+        "waarom": "Daarom voelt een afrit die bij rustig rijden niets voorstelt ineens grimmig als je er te hard in duikt. Snelheid eruit halen werkt dus veel sterker dan je verwacht.",
+        "valkuil": "De kracht wordt ook sterker als de bocht scherper wordt, dus een krappe bocht bij matige snelheid kan net zo lastig zijn.",
+        "onthoud": "Twee keer zo hard door dezelfde bocht is vier keer zoveel kracht."
+      },
+      "bronnen": [
+        {
+          "boek": 68,
+          "sectie": "4.4",
+          "anker": "dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot"
+        },
+        {
+          "slide": 68,
+          "anker": "Centrifugaalkracht treedt op zodra je van de rechte rijlijn afwijkt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bochten",
+        "centrifugaalkracht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot",
+        "bron": "boek p. 68"
+      }
+    },
+    {
+      "id": "U07-Q014",
+      "unit": "U07",
+      "pagina": "U07-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In een bocht ligt het wegdek aan de buitenkant lager dan aan de binnenkant. Is het risico om uit de bocht te vliegen dan groter dan normaal?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Dit is negatieve wegverkanting en die helpt de kracht die je naar buiten duwt een handje.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je hebt de twee soorten verkanting verwisseld: alleen een hoger liggende buitenbocht werkt in jouw voordeel.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij negatieve wegverkanting ligt het wegdek van de buitenbocht lager dan de binnenbocht en is het risico groter om uit de bocht te vliegen.",
+        "waarom": "Het wegdek loopt dan af naar de kant waar je toch al naartoe geduwd wordt, dus je banden moeten al het werk alleen doen. Bij een hoger liggende buitenbocht helpt de weg juist mee.",
+        "valkuil": "Je ziet de verkanting pas als je er al in zit, dus beoordeel het wegdek terwijl je de bocht nog nadert.",
+        "onthoud": "Buitenbocht lager is tegenwerken, buitenbocht hoger is meewerken."
+      },
+      "bronnen": [
+        {
+          "boek": 68,
+          "sectie": "4.4",
+          "anker": "Bij negatieve wegverkanting is het risico groter om uit de bocht te vliegen"
+        },
+        {
+          "slide": 68,
+          "anker": "wegverkanting: het wegdek van de buitenbocht ligt lager dan de binnenbocht"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bochten",
+        "wegverkanting"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij negatieve wegverkanting is het risico groter om uit de bocht te vliegen",
+        "bron": "boek p. 68"
+      }
+    },
+    {
+      "id": "U07-Q015",
+      "unit": "U07",
+      "pagina": "U07-P04",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je rijdt buiten de bebouwde kom over een smalle weg met aan beide kanten bomen vlak langs het asfalt. Welke risico's horen daarbij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je kunt niet uitwijken, en tegenliggers ook niet.",
+          "feedback": "Goed. De bomen nemen precies de ruimte weg die je bij een tegenligger nodig zou hebben.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je ziet bestuurders uit zijwegen niet goed aankomen en zij jou ook niet.",
+          "feedback": "Goed. De stammen staan als een scherm tussen jou en het verkeer dat de weg op wil.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De bomen belemmeren je zicht in bochten.",
+          "feedback": "Goed. Je ziet pas laat wat er in en achter de bocht gebeurt, dus je moet er langzamer in.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "In het najaar is er meer kans op slippen door natte bladeren.",
+          "feedback": "Goed. Een laag natte bladeren werkt als een gladde deken over het wegdek.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "De bomen houden de weg in de winter juist warmer, dus gladheid is er minder.",
+          "feedback": "Fout. Het is andersom: in de schaduw wordt de weg eerder glad en blijft hij langer glad.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Staan er bomen dicht langs de kant van de weg, dan kun je niet uitwijken, zie je bestuurders uit zijwegen niet goed aankomen en belemmeren de bomen je zicht in bochten.",
+        "waarom": "Alles wat mis kan gaan komt hier samen: minder ruimte, minder zicht en minder grip. De belangrijkste maatregel is dan ook dat je er langzamer rijdt dan de weg toelaat.",
+        "valkuil": "Schaduw maakt het wegdek in de winter niet veiliger maar juist langer glad.",
+        "onthoud": "Bomen langs de weg kosten je ruimte, zicht en grip tegelijk."
+      },
+      "bronnen": [
+        {
+          "boek": 65,
+          "sectie": "4.3",
+          "anker": "belemmeren de bomen je zicht in bochten"
+        },
+        {
+          "slide": 66,
+          "anker": "bomen langs de weg die het zicht op zijwegen en uitritten wegnemen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "enkelbaansweg",
+        "bomen",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "zie je bestuurders uit zijwegen niet goed aankomen (en zij jou niet)",
+        "bron": "boek p. 65",
+        "gewijzigd": "fouttype van afleider e was verkeerd_toegepast terwijl het een feit is dat je gewoon niet weet; en de enige echte maatregel is afgezwakt, want het boek noemt ook dimlicht inschakelen"
+      }
+    },
+    {
+      "id": "U07-Q016",
+      "unit": "U07",
+      "pagina": "U07-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een bocht waar je niet doorheen kunt kijken en voor je rijdt een trage bestelauto. Wacht je met inhalen tot je de bocht uit bent?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. In een bocht waar je niet doorheen kijkt is veilig inhalen meestal niet mogelijk, dus je wacht tot erna.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je gaat er dan van uit dat de weg achter de bocht vrij is, en dat is precies wat je op dat moment niet kunt zien.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "In een bocht is veilig inhalen meestal niet mogelijk; wacht tot na de bocht.",
+        "waarom": "Om in te halen moet je weten dat er genoeg vrije ruimte voor je voorligger is. In een bocht die je niet kunt overzien weet je dat niet, en de tegenligger die eruit komt heeft geen tijd om te reageren.",
+        "valkuil": "Voor een onoverzichtelijke bocht staat vaak een inhaalverbodsbord, maar ook zonder bord is het hier geen goed idee.",
+        "onthoud": "Niet door de bocht heen kunnen kijken betekent niet inhalen."
+      },
+      "bronnen": [
+        {
+          "slide": 67,
+          "anker": "veilig inhalen is meestal niet mogelijk; wacht tot na de bocht"
+        },
+        {
+          "boek": 146,
+          "sectie": "9.6",
+          "anker": "Het verbod om in te halen tref je vaak aan voor"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bochten",
+        "inhalen",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "veilig inhalen is meestal niet mogelijk; wacht tot na de bocht",
+        "bron": "slide 67"
+      }
+    },
+    {
+      "id": "U07-Q017",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Voor je op jouw weghelft staat een bestelauto stil en je stuurt er links omheen. Hoe heet die manoeuvre in het verkeer?",
+      "media": {
+        "scene": "S-U07-005"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Voorbijgaan.",
+          "feedback": "Goed. Het voertuig staat stil, en het passeren van stilstaande voertuigen en obstakels heet voorbijgaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Inhalen.",
+          "feedback": "Fout. Inhalen gaat over rijdende bestuurders onderling, en deze bestelauto staat stil.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Uitwijken.",
+          "feedback": "Fout. Uitwijken doe je voor een tegenligger op een te smalle weg; hier passeer je iets wat stilstaat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Het hangt ervan af of je de andere weghelft gebruikt.",
+          "feedback": "Fout. Het onderscheid zit niet in de ruimte die je nodig hebt, maar in de vraag of de ander rijdt of stilstaat.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "We spreken van inhalen bij rijdende bestuurders onderling in dezelfde richting, en van voorbijgaan bij het passeren van stilstaande voertuigen, obstakels en voetgangers.",
+        "waarom": "Het verschil is meer dan een woord. Een inhaalverbodsbord en het verbod bij een oversteekplaats gaan over inhalen, dus over rijdende voertuigen. Een doorgetrokken streep werkt anders: die mag je sowieso niet overschrijden, ook niet om iets stilstaands voorbij te gaan.",
+        "valkuil": "Op het examen staat het woord inhalen vaak in een vraag waar iets stilstaat. Kijk dus eerst of het ding beweegt.",
+        "onthoud": "Rijdt het, dan haal je in. Staat het stil, dan ga je voorbij."
+      },
+      "bronnen": [
+        {
+          "boek": 140,
+          "sectie": "9.6",
+          "anker": "voorbijgaan bij het passeren van (buiten het verkeer) stilstaande voertuigen"
+        },
+        {
+          "slide": 165,
+          "anker": "inhalen (in lichtblauw) bij het passeren van rijdende bestuurders onderling"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "voorbijgaan",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "voorbijgaan bij het passeren van (buiten het verkeer) stilstaande voertuigen, stilstaande obstakels en voetgangers",
+        "bron": "boek p. 140",
+        "gewijzigd": "de waarom zei dat inhaalverboden niets zeggen zodra iets stilstaat; dat klopt niet voor de doorgetrokken streep, die je sowieso niet mag overschrijden. Moeilijkheid van 1 naar 2, want dit is de valstrik van het hoofdstuk"
+      }
+    },
+    {
+      "id": "U07-Q018",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je gaat in een woonstraat om een geparkeerde auto heen en stuurt daarvoor een eind naar links. Moet je dan richting aangeven?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Bij elke belangrijke zijdelingse verplaatsing is richting aangeven verplicht, en dit is er een.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je denkt aan afslaan, maar de plicht hangt aan de verplaatsing en niet aan de vraag of je een straat in gaat.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij elke belangrijke zijdelingse verplaatsing is richting aangeven verplicht, dus ook bij het inhalen en voorbijgaan.",
+        "waarom": "De bestuurder achter je ziet het obstakel misschien nog niet en schrikt van een auto die zomaar naar links komt. Je knipperlicht vertelt hem een seconde eerder wat er gaat gebeuren.",
+        "valkuil": "Geef pas richting aan als je daadwerkelijk met de manoeuvre begint, niet een halve straat van tevoren.",
+        "onthoud": "Opzij bewegen is richting aangeven."
+      },
+      "bronnen": [
+        {
+          "boek": 141,
+          "sectie": "9.6",
+          "anker": "Bij elke belangrijke zijdelingse verplaatsing is richting aangeven verplicht"
+        },
+        {
+          "slide": 165,
+          "anker": "mag je geen gevaar of hinder veroorzaken en is richting aangeven verplicht"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "richting-aangeven",
+        "voorbijgaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bij elke belangrijke zijdelingse verplaatsing is richting aangeven verplicht, dus ook bij het inhalen en voorbijgaan",
+        "bron": "boek p. 141"
+      }
+    },
+    {
+      "id": "U07-Q019",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "In welke van deze gevallen mag je een ander voertuig aan de rechterkant inhalen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Vlak voor en op een rotonde.",
+          "feedback": "Goed. Dit is een van de uitzonderingen die het boek noemt op de regel dat je links inhaalt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als je een file inhaalt.",
+          "feedback": "Goed. In file rijden de stroken vaak ongelijk, en dan mag rechts sneller zijn dan links.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als het voertuig dat je inhaalt een tram is.",
+          "feedback": "Goed. Een tram rijdt midden op de weg, dus rechts erlangs is de gewone manier.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als de bestuurder voor je links heeft voorgesorteerd en richting naar links aangeeft.",
+          "feedback": "Goed. Hij maakt links plaats en geeft aan dat hij die kant op gaat, dus dan mag je er rechts langs.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Als de bestuurder voor je te langzaam rijdt en je hem al een tijdje volgt.",
+          "feedback": "Fout. Ergernis is geen uitzondering; bij een trage voorligger blijft links inhalen de regel.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Als er rechts van je een fietsstrook met een onderbroken streep ligt.",
+          "feedback": "Fout. Op een fietsstrook mag je niet rijden, ook niet om er even snel langs te gaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "In principe haal je altijd links in. Rechts mag alleen vlak voor en op rotondes, rechts van een blokmarkering, bij een file, bij een bestuurder die links voorgesorteerd heeft en richting naar links aangeeft, en bij een tram.",
+        "waarom": "In al die gevallen is links geen optie of is de ander zelf al naar links. Daarbuiten verwacht niemand dat er iets aan zijn rechterkant langs schiet, en dus kijkt ook niemand daar.",
+        "valkuil": "Een traag voertuig is geen uitzondering. Alleen wat op de lijst staat telt.",
+        "onthoud": "Links is de regel, de uitzonderingen zijn op een hand te tellen."
+      },
+      "bronnen": [
+        {
+          "boek": 141,
+          "sectie": "9.6",
+          "anker": "In principe moet je altijd links inhalen"
+        },
+        {
+          "slide": 166,
+          "anker": "Haal in principe altijd links in. Rechts inhalen is alleen toegestaan"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "rechts-inhalen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "In principe moet je altijd links inhalen. Rechts inhalen is alleen toegestaan",
+        "bron": "boek p. 141",
+        "gewijzigd": "moeilijkheid van 2 naar 3: zes opties waarvan er vier precies goed moeten zijn is geen middenmoter"
+      }
+    },
+    {
+      "id": "U07-Q020",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De bestelauto voor je heeft links voorgesorteerd en geeft met zijn richtingaanwijzer aan dat hij de zijstraat links in gaat. Wat mag jij doen?",
+      "media": {
+        "scene": "S-U07-006"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je mag hem rechts inhalen als daar genoeg ruimte is.",
+          "feedback": "Goed. Een links voorgesorteerd voertuig met de richtingaanwijzer naar links aan mag je rechts inhalen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je moet wachten tot hij de zijstraat in is, want inhalen mag alleen links.",
+          "feedback": "Fout. Links is de regel, maar dit is nu juist een van de gevallen waarin rechts is toegestaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag hem links inhalen, want links inhalen mag altijd.",
+          "feedback": "Fout. Hij heeft links voorgesorteerd en gaat die kant op, dus links langs hem is precies waar hij naartoe stuurt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je mag rechts inhalen, maar alleen als hij helemaal stilstaat.",
+          "feedback": "Fout. Of hij rolt of stilstaat verandert niets; het voorsorteren en het knipperlicht zijn wat telt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rechts inhalen is toegestaan als de in te halen bestuurder links voorgesorteerd heeft en richting naar links aangeeft.",
+        "waarom": "Hij heeft de rechterkant van de rijbaan zelf vrijgemaakt en vertelt met zijn knipperlicht dat hij daar niet meer heen gaat. Links langs hem zou juist gevaarlijk zijn.",
+        "valkuil": "Kijk of hij ook echt voorgesorteerd staat. Alleen een knipperlicht terwijl hij midden op de weg blijft is te weinig.",
+        "onthoud": "Staat hij links en wil hij links, dan mag jij rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 141,
+          "sectie": "9.6",
+          "anker": "als de in te halen bestuurder links voorgesorteerd heeft en richting naar links aangeeft"
+        },
+        {
+          "slide": 166,
+          "anker": "Ook een links voorgesorteerd voertuig (richting aan naar links) mag je rechts inhalen"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "rechts-inhalen",
+        "voorsorteren"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Ook een links voorgesorteerd voertuig (richting aan naar links) mag je rechts inhalen",
+        "bron": "slide 166",
+        "gewijzigd": "het boek eist voorsorteren en richting aangeven allebei, maar de tekening kan voorsorteren niet tonen en de stam noemde het niet meer; nu staat het in de stam, waarmee de valkuil van de vraag weer klopt"
+      }
+    },
+    {
+      "id": "U07-Q021",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je volgt een langzame vrachtauto en een eindje verderop ligt een zijstraat links. Is het verboden om hem vlak voor dat punt in te halen?",
+      "media": {
+        "scene": "S-U07-007"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het is vaak onverstandig, maar er bestaat geen algemeen verbod om vlak voor een kruispunt in te halen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Verboden is het niet, al is het op deze plek meestal geen slim moment om eraan te beginnen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Inhalen vlak voor een kruispunt is niet altijd verstandig, maar het is niet verboden.",
+        "waarom": "Het boek raadt het af omdat bestuurders uit een zijweg links jou vanachter de vrachtauto niet zien en zomaar de weg op kunnen draaien. Afraden is echter iets anders dan verbieden.",
+        "valkuil": "Ligt er wel een verbodsbord, een doorgetrokken streep of een zebrapad, dan is het natuurlijk alsnog verboden.",
+        "onthoud": "Onverstandig en verboden zijn twee verschillende dingen."
+      },
+      "bronnen": [
+        {
+          "slide": 170,
+          "anker": "Inhalen vlak voor een kruispunt is niet altijd verstandig, maar niet verboden"
+        },
+        {
+          "boek": 142,
+          "sectie": "9.6",
+          "anker": "je kunt beter niet inhalen als het uitzicht slecht is en er links zijwegen liggen"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "kruispunt",
+        "zicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Inhalen vlak voor een kruispunt is niet altijd verstandig, maar niet verboden",
+        "bron": "slide 170"
+      }
+    },
+    {
+      "id": "U07-Q022",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je staat op een weg zonder vrijliggend fietspad en wilt naar rechts opschuiven. Waarom is het belangrijk dat fietsers je rechts mogen inhalen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Omdat er ook zonder fietspad iemand rechts naast je kan opduiken.",
+          "feedback": "Goed. Fietsers en snorfietsers mogen daar rechts langs, dus je kijkt voor je naar rechts gaat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Omdat je dan zelf ook rechts mag inhalen.",
+          "feedback": "Fout. Wat fietsers mogen zegt niets over wat jij mag; voor jou blijft links inhalen de regel.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Omdat je die fietsers dan voorrang moet geven op elk kruispunt.",
+          "feedback": "Fout. Dit gaat over waar ze mogen rijden en niet over wie er op een kruispunt eerst mag.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Omdat bromfietsers dat ook mogen en er dus altijd verkeer rechts van je zit.",
+          "feedback": "Fout. Bromfietsers mogen het juist niet, al doen ze het in de praktijk vaak wel.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Is er geen vrijliggend pad, dan mogen fietsers en snorfietsers je rechts inhalen op de rijbaan. Bromfietsers mogen dat niet, maar doen het vaak wel.",
+        "waarom": "Je spiegels laten de ruimte vlak rechts naast je slecht zien, en dat is precies waar zo iemand zit. Even over je schouder kijken kost je niets en scheelt een aanrijding.",
+        "valkuil": "Bromfietsers mogen het niet, maar houd er toch rekening mee dat ze het doen.",
+        "onthoud": "Geen fietspad betekent verkeer aan allebei je kanten."
+      },
+      "bronnen": [
+        {
+          "boek": 62,
+          "sectie": "4.2",
+          "anker": "fietsers en snorfietsers je rechts mogen inhalen op de rijbaan"
+        },
+        {
+          "boek": 142,
+          "sectie": "9.6",
+          "anker": "fietsers en snorfietsers mogen andere bestuurders rechts inhalen"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "fietser",
+        "rechts-inhalen",
+        "dode-hoek"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "fietsers en snorfietsers je rechts mogen inhalen op de rijbaan. Bromfietsers mogen dat niet",
+        "bron": "boek p. 62",
+        "gewijzigd": "fouttype van afleider d was verkeerd_gelezen; wie denkt dat bromfietsers het ook mogen kent de regel niet, dus niet_geweten"
+      }
+    },
+    {
+      "id": "U07-Q023",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je bent dit bord net gepasseerd en voor je rijdt een motorrijder die langzamer gaat dan jij wilt. Mag je hem inhalen?",
+      "media": {
+        "bord": "F1"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een motorfiets lijkt smal genoeg om erlangs te kunnen, maar hij is een motorvoertuig en valt dus onder het verbod.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Na dit bord mag je geen motorvoertuigen inhalen, en een motorfiets is er daar een van.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Na [F1] mogen motorvoertuigen elkaar onderling niet inhalen.",
+        "waarom": "Het bord staat er omdat de plek zelf gevaarlijk is, bijvoorbeeld door een bocht of slecht zicht. Dat gevaar verandert niet doordat het voertuig voor je toevallig smal is.",
+        "valkuil": "Staat er een onderbord met een tractor, dan mag je landbouwverkeer wel inhalen.",
+        "onthoud": "Motorvoertuig blijft motorvoertuig, ook op twee wielen."
+      },
+      "bronnen": [
+        {
+          "slide": 167,
+          "anker": "na dit bord mag je geen motorvoertuigen inhalen, ook geen motorfiets"
+        },
+        {
+          "boek": 146,
+          "sectie": "9.6",
+          "anker": "Hier geldt een verbod voor motorvoertuigen om elkaar onderling in te halen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhaalverbod",
+        "borden",
+        "motorfiets"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "na dit bord mag je geen motorvoertuigen inhalen, ook geen motorfiets",
+        "bron": "slide 167"
+      }
+    },
+    {
+      "id": "U07-Q024",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat verbiedt dit ronde bord met een rode rand waarop een vrachtauto en een personenauto staan?",
+      "media": {
+        "bord": "F3"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Vrachtauto's mogen hier geen motorvoertuigen inhalen.",
+          "feedback": "Goed. Dit bord richt zich alleen op vrachtauto's; de rest mag gewoon inhalen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Niemand mag hier een vrachtauto inhalen.",
+          "feedback": "Fout. Je draait het om: het verbod ligt bij de vrachtauto als inhaler, niet bij de anderen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Motorvoertuigen mogen elkaar hier onderling niet inhalen.",
+          "feedback": "Fout. Dat is het bord met twee personenauto's erin; dit bord is smaller bedoeld.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Vrachtauto's mogen hier niet rijden.",
+          "feedback": "Fout. Een bord dat vrachtauto's weert toont alleen een vrachtauto en gaat over de hele weg.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[F3] betekent een verbod voor vrachtauto's om motorvoertuigen in te halen, en [F4] heft dat verbod weer op.",
+        "waarom": "Een vrachtauto heeft veel meer tijd en ruimte nodig om iemand voorbij te komen, en juist dat maakt zijn inhaalmanoeuvre op krappe wegen zo storend en riskant.",
+        "valkuil": "Tel de voertuigen in het bord: twee personenauto's is het algemene verbod, een vrachtauto met een auto is dit verbod.",
+        "onthoud": "Vrachtauto in het bord betekent dat de vrachtauto niet mag inhalen."
+      },
+      "bronnen": [
+        {
+          "boek": 145,
+          "sectie": "9.6",
+          "anker": "Motorvoertuigen mogen elkaar dan niet inhalen of vrachtauto's mogen geen motorvoertuigen inhalen"
+        },
+        {
+          "boek": 145,
+          "sectie": "9.6",
+          "anker": "Op plaatsen waar inhalen gevaarlijk is, staat vaak het bord 'verboden in te halen'"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhaalverbod",
+        "borden",
+        "vrachtauto"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Motorvoertuigen mogen elkaar dan niet inhalen of vrachtauto's mogen geen motorvoertuigen inhalen",
+        "bron": "boek p. 145"
+      }
+    }
+  ]
+}

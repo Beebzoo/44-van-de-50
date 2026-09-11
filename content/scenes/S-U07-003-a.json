@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-003-a",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de fietser"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Een smalle weg zonder fietspad. Voor je rijdt een fietser op de rijbaan. Ver weg nadert een grijze auto uit de andere richting.",
+  "inspiratie": {
+    "boek": 60,
+    "slide": 61
+  }
+}

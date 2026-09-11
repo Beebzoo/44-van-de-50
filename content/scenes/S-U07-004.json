@@ -1,0 +1,31 @@
+{
+  "id": "S-U07-004",
+  "vorm": "T",
+  "armen": [
+    "noord",
+    "zuid",
+    "oost"
+  ],
+  "markering": [
+    {
+      "soort": "fietsstrook-doorgetrokken",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechts",
+      "afstand": 2,
+      "label": "jij",
+      "signaal": "rechts"
+    }
+  ],
+  "alt": "Je nadert een zijstraat rechts en je wilt daar in. Rechts van je ligt een fietsstrook met een doorgetrokken streep.",
+  "inspiratie": {
+    "boek": 63,
+    "slide": 64
+  }
+}

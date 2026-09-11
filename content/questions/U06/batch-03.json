@@ -1,0 +1,944 @@
+{
+  "unit": "U06",
+  "vragen": [
+    {
+      "id": "U06-Q025",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "In het eerste beeld houd je keurig twee seconden afstand. In het tweede beeld heeft je voorligger vaart geminderd en is het gat duidelijk kleiner geworden. Wat doe je?",
+      "media": {
+        "reeks": [
+          "S-U06-001-a",
+          "S-U06-001-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Gas los tot je weer 2 seconden afstand hebt",
+          "feedback": "Goed. De regel is een ondergrens die je steeds opnieuw herstelt zodra je hem kwijtraakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je snelheid aanhouden, want hij gaat vast zo weer sneller",
+          "feedback": "Fout. Je gokt op wat de ander gaat doen, terwijl je afstand nu al te klein is.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Nog wat dichter aansluiten zodat hij doorrijdt",
+          "feedback": "Fout. Dicht op iemand gaan zitten haalt je laatste ruimte weg en verandert niets aan zijn tempo.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Je moet minimaal 2 seconden afstand tot je voorligger aanhouden, en raak je die afstand kwijt, dan zorg je dat je opnieuw een veilige afstand van 2 seconden maakt.",
+        "waarom": "Volgafstand is geen stand die je een keer instelt, maar iets wat voortdurend verandert doordat de ander remt of iemand ertussen komt. Zodra het gat krimpt, is het enige wat je zelf in de hand hebt je eigen gaspedaal.",
+        "valkuil": "Wachten tot de ander weer optrekt kost je precies de ruimte die je nodig hebt als hij dat niet doet.",
+        "onthoud": "Gat kwijt, gat terugmaken."
+      },
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "de 2 secondenregel: je moet (minimaal) 2 seconden afstand tot je voorligger aanhouden"
+        },
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "zorg dan dat je opnieuw een veilige afstand van 2 seconden creeert"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je 2 seconden afstand houdt en er voegt een auto in, zorg dan dat je opnieuw een veilige afstand van 2 seconden",
+        "bron": "boek p. 124"
+      }
+    },
+    {
+      "id": "U06-Q026",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "In het eerste beeld staat de voetganger nog stil naast de rijbaan. In het tweede beeld stapt hij de weg op en ben jij dichterbij gekomen, terwijl je voet nog niet op de rem staat. Hoe heet de afstand die je in dat moment aflegt?",
+      "media": {
+        "reeks": [
+          "S-U06-002-a",
+          "S-U06-002-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De reactieafstand",
+          "feedback": "Goed. Dat is de afstand die je aflegt tijdens je reactietijd, dus voordat je remmen iets doen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De remweg",
+          "feedback": "Fout. Die begint pas op het moment dat je daadwerkelijk begint met remmen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "De stopafstand",
+          "feedback": "Fout. Dat is het totaal van beide stukken samen, niet alleen dit eerste stuk.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De reactieafstand is de afstand die je aflegt tijdens je reactietijd; tussen je waarneming en het moment dat je op de rem trapt verstrijkt gemiddeld een seconde.",
+        "waarom": "In die ene seconde gebeurt er aan de auto helemaal niets: je rijdt op volle snelheid door terwijl het gevaar al zichtbaar is. Wie dat beseft, begrijpt ook waarom vooruitkijken meer oplevert dan hard remmen.",
+        "valkuil": "Veel mensen rekenen alleen met de remweg en laten dit eerste stuk weg, waardoor ze hun stopafstand flink onderschatten.",
+        "onthoud": "Eerst reactieafstand, dan pas remweg."
+      },
+      "bronnen": [
+        {
+          "slide": 143,
+          "anker": "dit is de afstand die je aflegt tijdens je reactietijd"
+        },
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "verstrijkt gemiddeld een seconde. Deze seconde noemen we de reactieseconde"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "reactieafstand",
+        "reactietijd"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "de reactieafstand (in geel): dit is de afstand die je aflegt tijdens je reactietijd",
+        "bron": "slide 143"
+      }
+    },
+    {
+      "id": "U06-Q027",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt 80 km/u buiten de bebouwde kom. Je voorligger passeert een paaltje langs de weg en ongeveer een seconde later ben jij er ook. Houd je genoeg afstand?",
+      "media": {
+        "scene": "S-U06-003"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je bent er half zo snel als zou moeten; de tel moet tot twee komen voordat jij het paaltje passeert.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een seconde is de helft van wat de regel vraagt, dus je zit ruim onder je volgafstand.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je moet minimaal 2 seconden afstand tot je voorligger aanhouden; door hardop mee te tellen vanaf een vast punt langs de weg merk je snel of je afstand voldoende is.",
+        "waarom": "Meters schatten lukt niemand betrouwbaar, tellen wel. Kom je maar tot een, dan is je gat ongeveer de helft van wat je nodig hebt, en dat verschil merk je pas als je voorligger plotseling remt.",
+        "valkuil": "Op een lege weg voelt dicht volgen rustig aan, maar je gat is dan even kort als in de file.",
+        "onthoud": "Tel tot twee voordat jij het paaltje passeert."
+      },
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "Als je voorligger bijvoorbeeld een bermpaaltje passeert, tel je hoe lang het duurt"
+        },
+        {
+          "slide": 139,
+          "anker": "Gebruik objecten langs de weg (boom of verkeersbord) als referentiepunt"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als je voorligger bijvoorbeeld een bermpaaltje passeert, tel je hoe lang het duurt voordat je zelf bij dat bermpaaltje bent",
+        "bron": "boek p. 123"
+      }
+    },
+    {
+      "id": "U06-Q028",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt 80 km/u en gebruikt de vuistregel om je volgafstand uit te rekenen. Op hoeveel meter kom je uit?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "22 meter",
+          "feedback": "Fout. 22 meter is je reactieafstand bij deze snelheid, dus de afstand van een seconde; de vuistregel voor de volgafstand rekent met twee seconden.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "44 meter",
+          "feedback": "Goed. De snelheid gedeeld door 2 is 40, en daar tel je nog 10% bij op.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "80 meter",
+          "feedback": "Fout. Je neemt dan het getal van je snelheid over als meters, en dat is de vuistregel niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "De vuistregel voor de 2 seconden afstand is: deel je snelheid in km/u door 2 en tel er 10% bij op.",
+        "waarom": "De vuistregel is een snelle benadering van de formule, die met meters per seconde werkt. Beide komen bij deze snelheid vrijwel op hetzelfde uit, en de vuistregel heeft als voordeel dat je hem in je hoofd kunt doen terwijl je rijdt.",
+        "valkuil": "Vergeet de opslag van 10% niet; zonder die stap kom je structureel te kort uit.",
+        "onthoud": "Delen door twee, dan tien procent erbij."
+      },
+      "bronnen": [
+        {
+          "boek": 123,
+          "sectie": "7.2",
+          "anker": "deel je snelheid in km/u door 2 en tel 10% op bij de uitkomst"
+        },
+        {
+          "slide": 140,
+          "anker": "80 km/u gedeeld door 2 = 40 meter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "vuistregel",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "80 km/u gedeeld door 2 = 40 meter. 40 + 10% = 44 meter",
+        "bron": "boek p. 123",
+        "gewijzigd": "De feedback bij de 22 meter noemde die afstand de helft van het verhaal, wat de volgafstand en de stopafstand door elkaar haalt. Nu staat er dat 22 meter de afstand van een seconde is en dat de vuistregel met twee seconden rekent."
+      }
+    },
+    {
+      "id": "U06-Q029",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Het stortregent en achter je auto hangt een caravan. Vergroot je je volgafstand dan naar 3 seconden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Regen en een aanhangwagen staan allebei in het rijtje moeilijke omstandigheden waarbij je meer ruimte neemt.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. De twee seconden gelden bij goede omstandigheden, en daar is hier geen sprake van.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Houd een grotere volgafstand aan van 3 seconden in moeilijke omstandigheden, bijvoorbeeld als het regent, sneeuwt of mistig is, als je voertuig zwaar beladen is of als je met een aanhangwagen of caravan rijdt.",
+        "waarom": "Een nat wegdek verlengt je remweg en een caravan duwt je bovendien door. Beide effecten vreten aan de ruimte die je nodig hebt, dus je compenseert ze met het enige wat gratis is: meer gat.",
+        "valkuil": "Hier stapelen twee redenen zich op. Ook met maar een van de twee zou het antwoord al hetzelfde zijn.",
+        "onthoud": "Twee seconden is de basis, drie seconden zodra iets tegenzit."
+      },
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
+        },
+        {
+          "slide": 139,
+          "anker": "Houd 3 seconden afstand aan tijdens lastige (weers)omstandigheden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden",
+        "bron": "boek p. 124"
+      }
+    },
+    {
+      "id": "U06-Q030",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "In welke situaties hoort de langere volgafstand van 3 seconden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als het regent, sneeuwt of mistig is",
+          "feedback": "Goed. Slecht zicht en een glad wegdek vragen allebei om meer ruimte.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als je voertuig zwaar beladen is",
+          "feedback": "Goed. Meer massa betekent meer meters voordat je stilstaat.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als je met een aanhangwagen of caravan rijdt",
+          "feedback": "Goed. Ook dan sta je later stil dan met een lege auto.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Als je op een rustige weg rijdt met weinig verkeer",
+          "feedback": "Fout. Rust op de weg verandert niets aan de meters die je nodig hebt om te stoppen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Als er een auto voor je is ingevoegd",
+          "feedback": "Fout. Dan herstel je je volgafstand, maar naar de gewone waarde en niet naar de langere.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Houd 3 seconden afstand in moeilijke omstandigheden: als het regent, sneeuwt of mistig is, als je voertuig zwaar beladen is of als je met een aanhangwagen of caravan rijdt.",
+        "waarom": "Alle drie de gevallen hebben hetzelfde effect: je hebt meer meters nodig voordat je stilstaat, of je ziet het gevaar later. Extra tijd tussen jou en je voorligger is de simpelste manier om dat op te vangen.",
+        "valkuil": "Een invoeger vraagt wel om herstel van je gat, maar niet om de langere waarde.",
+        "onthoud": "Nat, zwaar of met aanhanger: een seconde erbij."
+      },
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
+        },
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Als je 2 seconden afstand houdt en er voegt een auto in"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "slecht-weer"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als het regent, sneeuwt of mistig is, als je voertuig zwaar beladen is, als je met een aanhangwagen of caravan rijdt",
+        "bron": "boek p. 124"
+      }
+    },
+    {
+      "id": "U06-Q031",
+      "unit": "U06",
+      "pagina": "U06-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op de autosnelweg liggen tekens op het wegdek die je helpen afstand te houden. Tussen jou en je voorligger zie je er nog maar een. Wat zegt dat over je volgafstand?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je zit te dicht op je voorligger",
+          "feedback": "Goed. Er moeten er minimaal twee zichtbaar zijn, dus met een enkel teken ertussen is je gat te klein.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je volgafstand is precies goed",
+          "feedback": "Fout. Precies goed begint pas bij twee zichtbare tekens, dus bij een teken kom je ruimte tekort.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je volgafstand is ruimer dan nodig",
+          "feedback": "Fout. Hoe meer tekens je ziet, hoe groter je gat; een enkel teken wijst juist op weinig ruimte.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger.",
+        "waarom": "De tekens liggen op een vaste onderlinge afstand, dus ze vertalen de secondenregel naar iets wat je met een blik ziet in plaats van moet tellen. Op een drukke snelweg is dat precies het moment waarop tellen er vaak bij inschiet.",
+        "valkuil": "De tekens vervangen de regel niet, ze maken hem alleen zichtbaar. Bij regen wil je er meer tussen zien.",
+        "onthoud": "Minstens twee tekens in het gat, anders laat je gas los."
+      },
+      "bronnen": [
+        {
+          "boek": 124,
+          "sectie": "7.2",
+          "anker": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger"
+        },
+        {
+          "slide": 140,
+          "anker": "Op autosnelwegen staan soms tekens die je helpen voldoende afstand te houden"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "volgafstand",
+        "autosnelweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Zorg dat er minimaal 2 tekens zichtbaar zijn tussen jou en je voorligger",
+        "bron": "boek p. 124",
+        "gewijzigd": "Was een pure getalvraag over hoeveel tekens er minimaal zichtbaar moeten zijn. Herschreven naar dezelfde vorm als de tweesecondenvraag ernaast: je ziet er een en moet zelf concluderen dat je te dicht zit. Daarmee is het een inzichtvraag en staat moeilijkheid nu op 2."
+      }
+    },
+    {
+      "id": "U06-Q032",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je gaat twee keer zo hard rijden als daarvoor. Wordt je remweg daarmee ook twee keer zo lang?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De remweg loopt niet recht mee met je snelheid maar veel steiler op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Bij een verdubbelde snelheid wordt de remweg vier keer zo lang, niet twee keer.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De remweg neemt progressief toe: als je twee keer zo hard gaat rijden, wordt je remweg vier keer zo lang.",
+        "waarom": "Je remmen moeten de bewegingsenergie wegwerken, en die loopt op met het kwadraat van je snelheid. Daarom kost elke stap omhoog in snelheid onevenredig veel meer meters dan de vorige stap.",
+        "valkuil": "De reactieafstand groeit wel gewoon recht mee. Juist door die twee door elkaar te halen ontstaat dit misverstand.",
+        "onthoud": "Twee keer zo hard is vier keer zo lang remmen."
+      },
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "De remweg neemt progressief toe: als je 2x zo hard gaat rijden"
+        },
+        {
+          "slide": 143,
+          "anker": "Je remafstand neemt kwadratisch toe: bij 100 km/u is deze 4x groter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "remweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De remweg neemt progressief toe: als je 2x zo hard gaat rijden, wordt je remweg 4x zo lang",
+        "bron": "boek p. 126"
+      }
+    },
+    {
+      "id": "U06-Q033",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Bij 80 km/u is je reactieafstand 22,00 meter en je remweg 32,00 meter. Hoe groot is je stopafstand?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "32,00 meter",
+          "feedback": "Fout. Dat is alleen het stuk waarin je remt; het eerste stuk telt gewoon mee.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "54,00 meter",
+          "feedback": "Goed. De stopafstand is precies de som van die twee stukken.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "22,00 meter",
+          "feedback": "Fout. Dat is het stuk dat je aflegt voordat je remt, niet het geheel.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "De stopafstand is de reactieafstand plus de remweg.",
+        "waarom": "De optelling zelf is makkelijk; het lastige is dat je bij hoge snelheid nauwelijks doorhebt hoeveel meter dat samen is. Ruim vijftig meter is meer dan de lengte van veel woonstraten, en die ruimte moet er dus voor je liggen.",
+        "valkuil": "Wie alleen het remstuk telt, denkt dat hij bijna twee keer zo snel stilstaat als in werkelijkheid.",
+        "onthoud": "Reactieafstand plus remweg is stopafstand."
+      },
+      "bronnen": [
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Reactieafstand bij 80 km/u = 22,00 meter"
+        },
+        {
+          "boek": 126,
+          "sectie": "7.3",
+          "anker": "Remafstand bij 80 km/u = 32,00 meter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Reactieafstand bij 80 km/u = 22,00 meter, Remafstand bij 80 km/u = 32,00 meter",
+        "bron": "boek p. 126"
+      }
+    },
+    {
+      "id": "U06-Q034",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "In een woonstraat rijd je 40 km/u. Je reactieafstand is daar 11 meter en je remweg 8 meter. Hoeveel ruimte heb je nodig voordat je stilstaat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "8 meter",
+          "feedback": "Fout. Je rekent alleen met het remmen en vergeet de meters voor je voet de rem raakt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "11 meter",
+          "feedback": "Fout. Dat is het stuk waarin je nog reageert; daarna moet je ook nog tot stilstand komen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "19 meter",
+          "feedback": "Goed. Elf meter waarin je reageert en acht meter waarin je remt, samen negentien meter voordat je stilstaat.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "De stopafstand is de reactieafstand plus de remweg; bij 40 km/u is dat 11 meter plus 8 meter.",
+        "waarom": "Juist bij lage snelheid schatten mensen hun stopafstand veel te kort in, omdat het rustig voelt. Een kind dat op tien meter voor je de weg op loopt, haal je bij deze snelheid dus nog niet.",
+        "valkuil": "Bij lage snelheid is de reactieafstand groter dan de remweg, precies omgekeerd aan wat je verwacht.",
+        "onthoud": "Ook bij 40 km/u heb je al bijna twintig meter nodig."
+      },
+      "bronnen": [
+        {
+          "slide": 144,
+          "anker": "Je stopafstand (in lichtblauw) is dan 11 + 8 = 19 meter"
+        },
+        {
+          "slide": 144,
+          "anker": "Bij 40 km/u is dit: ((40:10) x (40:10) : 2) = 8 meter"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Je stopafstand (in lichtblauw) is dan 11 + 8 = 19 meter",
+        "bron": "slide 144",
+        "gewijzigd": "De feedback bij het goede antwoord vergeleek 19 meter met bijna vijf autolengtes, een getal dat in geen enkele bron staat. Vervangen door de optelling zelf: elf meter reageren plus acht meter remmen."
+      }
+    },
+    {
+      "id": "U06-Q035",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke uitspraken over tot stilstand komen zijn juist?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De stopafstand bestaat uit de reactieafstand en de remweg samen",
+          "feedback": "Goed. Dat is precies hoe de stopafstand is opgebouwd.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De reactieafstand is de afstand die je aflegt tijdens je reactietijd",
+          "feedback": "Goed. In dat stuk gebeurt er aan de auto nog niets.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De remweg loopt vanaf het begin van het remmen tot je stilstaat",
+          "feedback": "Goed. Dat is de definitie van de remweg.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De remweg groeit recht evenredig met je snelheid",
+          "feedback": "Fout. De remweg neemt progressief toe en loopt dus veel steiler op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "De reactieseconde begint pas als je voet op de rem staat",
+          "feedback": "Fout. Die seconde ligt juist tussen je waarneming en het moment dat je op de rem trapt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "De stopafstand is de afstand die je aflegt tijdens de reactieseconde plus de remweg, en de remweg loopt vanaf het moment dat je begint met remmen totdat je stilstaat.",
+        "waarom": "De drie begrippen beschrijven achter elkaar wat er in een noodstop gebeurt: eerst zie je iets, dan reageer je, dan rem je. Zet je ze in de goede volgorde, dan kun je elke rekenvraag hierover aan.",
+        "valkuil": "De twee foute uitspraken zijn allebei net een stap verschoven, en dat is precies hoe examenvragen het doen.",
+        "onthoud": "Zien, reageren, remmen: drie stappen, twee afstanden."
+      },
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "De stopafstand is de afstand die je aflegt tijdens de zogenaamde reactieseconde"
+        },
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "is de afstand die je aflegt vanaf het moment dat je begint met remmen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "stopafstand",
+        "remweg",
+        "reactieafstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "De stopafstand is de afstand die je aflegt tijdens de zogenaamde reactieseconde + de remafstand",
+        "bron": "boek p. 125"
+      }
+    },
+    {
+      "id": "U06-Q036",
+      "unit": "U06",
+      "pagina": "U06-P06",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Tussen het moment dat je ziet dat je moet remmen en het moment dat je echt op de rem trapt zit gemiddeld 1 seconde. Klopt dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Die tijd heet de reactieseconde en is de reden dat je altijd meer ruimte nodig hebt dan alleen het remmen.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Dit is een vast gegeven waar de hele berekening van de reactieafstand op rust.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Tussen je waarneming dat je moet remmen en het moment dat je op je rem trapt verstrijkt gemiddeld een seconde; die seconde noemen we de reactieseconde.",
+        "waarom": "Het is een gemiddelde, en bij vermoeidheid of afleiding duurt het langer. Precies daarom is de tweesecondenregel opgebouwd uit die seconde plus een seconde om ook nog iets te doen.",
+        "valkuil": "Dat het gemiddeld is, betekent niet dat jij er altijd binnen blijft. Reken er niet op dat je sneller bent.",
+        "onthoud": "Een seconde zien en beslissen, daarna pas remmen."
+      },
+      "bronnen": [
+        {
+          "boek": 125,
+          "sectie": "7.3",
+          "anker": "verstrijkt gemiddeld een seconde. Deze seconde noemen we de reactieseconde"
+        },
+        {
+          "slide": 144,
+          "anker": "Je reactietijd is ongeveer 1 seconde"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "afstand",
+        "reactietijd"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Tussen je waarneming 'ik moet remmen' en het moment dat je daadwerkelijk op je rem trapt, verstrijkt gemiddeld een seconde",
+        "bron": "boek p. 125"
+      }
+    },
+    {
+      "id": "U06-Q037",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt een dorp binnen. Op de paal onder het plaatsnaambord hangt het bord voor autoweg en daar weer onder een rond bord met het getal 70. Hoe hard mag je hier?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "50 km/u",
+          "feedback": "Fout. Dat is de standaard binnen de kom, maar hier staat een bord dat een ander maximum aangeeft.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "70 km/u",
+          "feedback": "Goed. Binnen de kom geldt in principe 50 km/u, maar met een bord kan een hoger maximum worden aangegeven en dat gebeurt hier.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is het maximum van een autoweg buiten de bebouwde kom, en bovendien staat hier een bord met een ander getal.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Binnen de bebouwde kom mag je maximaal 50 km/u, tenzij met borden een ander maximum staat aangegeven; op een autoweg binnen de kom wordt vaak met borden aangegeven dat je sneller mag rijden, bijvoorbeeld 70 km/u.",
+        "waarom": "Het bord voor autoweg zegt alleen wat voor weg dit is en verandert de snelheid niet. Het ronde bord eronder doet dat wel, en omdat dat het enige teken is dat een getal noemt, is dat het getal waar jij je aan houdt.",
+        "valkuil": "Twee borden onder elkaar lijken een geheel, maar alleen het ronde bord met de rode rand stelt de snelheid vast.",
+        "onthoud": "Binnen de kom 50 km/u, en op een autoweg binnen de kom staat er vaak een bord met bijvoorbeeld 70 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Autoweg binnen de bebouwde kom met een afwijkende maximumsnelheid van 70"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "in de praktijk wordt vaak met borden aangegeven dat je sneller mag rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Autoweg binnen de bebouwde kom met een afwijkende maximumsnelheid van 70 km/u",
+        "bron": "boek p. 117",
+        "gewijzigd": "Nieuwe vraag. De afwijkende maximumsnelheid op een autoweg binnen de kom stond als getal nergens in het blok, terwijl F234 nu in het register staat en het boek het bord op p. 117 laat zien. Deze vraag zet die 70 km/u naast de standaard van 50 km/u."
+      }
+    },
+    {
+      "id": "U06-Q038",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het is elf uur 's avonds en je rijdt op een autosnelweg. Langs de weg staat een rond bord met 120 en daaronder een onderbord met 19-6h. Hoe hard mag je hier?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat getal hoort bij het dagdeel van 6 tot 19 uur, en het onderbord noemt hier juist de uren daarbuiten.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "120 km/u",
+          "feedback": "Goed. Het onderbord zegt dat dit bord geldt tussen 19 uur en 6 uur, en op dit tijdstip is dat zo.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "130 km/u",
+          "feedback": "Fout. Dat is de standaard voor de avond en de nacht, maar die geldt alleen zolang geen bord een lagere snelheid aangeeft.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Tussen 19 uur en 6 uur geldt op de autosnelweg de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven.",
+        "waarom": "Een onderbord vertelt je wanneer het bord erboven geldt. Hier dekt het bord precies de uren waarin de standaard anders het hoogst zou zijn, dus het bord beslist en niet de standaard van de weg.",
+        "valkuil": "Zonder bord is de avond en de nacht het stuk waar de hoogste standaard geldt. Zodra er een bord staat, telt alleen nog het bord.",
+        "onthoud": "Een bord met een onderbord voor bepaalde uren gaat boven de standaard van de weg."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "een zwart bord 120 met 19-6h"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "geldt de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven"
+        },
+        {
+          "slide": 138,
+          "anker": "100 met onderbord 6-19 h en 120 met onderbord 19-6 h"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "een rond bord 100 met het onderbord 6-19h; een rond bord 130; een zwart bord 120 met 19-6h",
+        "bron": "boek p. 119",
+        "gewijzigd": "Nieuwe vraag. F235 staat weer in het register, maar het bord 120 met onderbord 19-6h kwam in het blok nergens voor, terwijl dat de klassieke val is bij de avondsnelheid op de autosnelweg."
+      }
+    }
+  ]
+}

@@ -406,8 +406,14 @@ function validateQuestion(q, where, ctx) {
   if (waarom === regel || regel.includes(waarom) || waarom.includes(regel)) fail(where, "waarom herhaalt de regel");
   if (/^omdat de regel/i.test(q.uitleg.waarom)) fail(where, "waarom begint met 'Omdat de regel'");
 
-  /* gate 7: numbers against the registry */
-  if (REGISTRY) {
+  /* gate 7: numbers against the registry.
+
+     A generated sign question reads its numbers off the sign face: the 1200 m
+     under a bewegwijzeringsbord, the 17 km on a tunnel plate. Those are part of
+     the drawing, not figures to learn, and they come from the manifest, which
+     has its own source. Letting them warn forever makes the warning list
+     unreadable and hides the numbers that do matter. */
+  if (REGISTRY && !q.gegenereerd) {
     const nums = [];
     for (const t of [q.stam, q.uitleg.regel, q.uitleg.waarom, q.uitleg.onthoud, ...q.opties.filter(o => correct && correct.includes(o.id)).map(o => o.tekst)].filter(Boolean)) nums.push(...numbersIn(t));
     if (!Array.isArray(q.correct)) nums.push({ value: q.correct.getal, unit: registryUnit(q.correct.eenheid), raw: "correct" });

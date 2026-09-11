@@ -1,0 +1,37 @@
+{
+  "id": "S-U08-101",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "borden": [
+    {
+      "code": "G3",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Een autoweg met een rijbaan voor beide richtingen. Jij rijdt van onderen naar boven en een grijze auto komt je tegemoet. Rechts van jouw weghelft staat bord G3.",
+  "inspiratie": {
+    "boek": 70,
+    "beeld": "tekening in het grijze kader rechts van de tekst"
+  }
+}

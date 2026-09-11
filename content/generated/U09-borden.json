@@ -1,0 +1,852 @@
+{
+  "unit": "U09",
+  "gegenereerd": true,
+  "vragen": [
+    {
+      "id": "U09-Q900",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Overweg met twee of meer sporen.",
+      "media": {
+        "borden": [
+          "J27",
+          "J21",
+          "J9",
+          "J11",
+          "J19",
+          "J13"
+        ]
+      },
+      "opties": [
+        {
+          "id": "J27",
+          "tekst": "J27",
+          "feedback": "Fout. Dit is J27: Groot wild. Het gevraagde bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J21",
+          "tekst": "J21",
+          "feedback": "Fout. Dit is J21: Kinderen. Het gevraagde bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J9",
+          "tekst": "J9",
+          "feedback": "Fout. Dit is J9: Rotonde. Het gevraagde bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J11",
+          "tekst": "J11",
+          "feedback": "Fout. Dit is J11: Overweg zonder overwegbomen. Het gevraagde bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J19",
+          "tekst": "J19",
+          "feedback": "Fout. Dit is J19: Rijbaanversmalling links. Het gevraagde bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J13",
+          "tekst": "J13",
+          "feedback": "Goed. J13 betekent: Overweg met twee of meer sporen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "J13"
+      ],
+      "uitleg": {
+        "regel": "J13 betekent: Overweg met twee of meer sporen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: een dubbel rood-wit andreaskruis.",
+        "valkuil": "Verwar het niet met J12, J11, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 245,
+          "anker": "Overweg met twee of meer sporen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-j13",
+        "borden-j"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q901",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "J13"
+      },
+      "opties": [
+        {
+          "id": "J36",
+          "tekst": "IJzel of sneeuw.",
+          "feedback": "Fout. Dat is de betekenis van J36, een sneeuwvlok / ijskristal. Dit bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J11",
+          "tekst": "Overweg zonder overwegbomen.",
+          "feedback": "Fout. Dat is de betekenis van J11, een stoomlocomotief. Dit bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J38",
+          "tekst": "Verkeersdrempel.",
+          "feedback": "Fout. Dat is de betekenis van J38, een verhoging in het wegdek. Dit bord is J13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J13",
+          "tekst": "Overweg met twee of meer sporen.",
+          "feedback": "Goed. Dit is J13, een dubbel rood-wit andreaskruis.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "J13"
+      ],
+      "uitleg": {
+        "regel": "J13 betekent: Overweg met twee of meer sporen.",
+        "waarom": "Kijk naar de vorm en de kleur: een dubbel rood-wit andreaskruis.",
+        "valkuil": "De lijkers zijn J12, J11. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 245,
+          "anker": "Overweg met twee of meer sporen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-j13",
+        "borden-j"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q902",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+      "media": {
+        "borden": [
+          "C22",
+          "C23-02",
+          "C22e",
+          "C7b",
+          "C14",
+          "C10"
+        ]
+      },
+      "opties": [
+        {
+          "id": "C22",
+          "tekst": "C22",
+          "feedback": "Goed. C22 betekent: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+          "fouttype": null
+        },
+        {
+          "id": "C23-02",
+          "tekst": "C23-02",
+          "feedback": "Fout. Dit is C23-02: Spitsstrook vrijmaken. Het gevraagde bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e",
+          "tekst": "C22e",
+          "feedback": "Fout. Dit is C22e: Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone... Het gevraagde bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C7b",
+          "tekst": "C7b",
+          "feedback": "Fout. Dit is C7b: Gesloten voor autobussen en vrachtauto's. Het gevraagde bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C14",
+          "tekst": "C14",
+          "feedback": "Fout. Dit is C14: Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor. Het gevraagde bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C10",
+          "tekst": "C10",
+          "feedback": "Fout. Dit is C10: Gesloten voor motorvoertuigen met aanhangwagen. Het gevraagde bord is C22.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C22"
+      ],
+      "uitleg": {
+        "regel": "C22 betekent: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: rode cirkel met een zwarte tankwagen met rood gevarenbord.",
+        "valkuil": "Verwar het niet met C22e, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c22",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q903",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "C22"
+      },
+      "opties": [
+        {
+          "id": "C22e",
+          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22",
+          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+          "feedback": "Goed. Dit is C22, rode cirkel met een zwarte tankwagen met rood gevarenbord.",
+          "fouttype": null
+        },
+        {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C22.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "C22"
+      ],
+      "uitleg": {
+        "regel": "C22 betekent: Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+        "waarom": "Kijk naar de vorm en de kleur: rode cirkel met een zwarte tankwagen met rood gevarenbord.",
+        "valkuil": "De lijkers zijn C22e. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 240,
+          "anker": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-c22",
+        "borden-c"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q904",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+      "media": {
+        "borden": [
+          "K6",
+          "K3",
+          "K12",
+          "K1",
+          "K9",
+          "K14"
+        ]
+      },
+      "opties": [
+        {
+          "id": "K6",
+          "tekst": "K6",
+          "feedback": "Fout. Dit is K6: Beslissingswegwijzer langs niet-autosnelweg met interlokale doelen en routenummer niet-autosnelweg. Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K3",
+          "tekst": "K3",
+          "feedback": "Fout. Dit is K3: Beslissingswegwijzer langs autosnelweg voor de afgaande richting naar een verzorgingsplaats, met de naam... Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "K12",
+          "feedback": "Fout. Dit is K12: Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden). Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "K1",
+          "feedback": "Fout. Dit is K1: Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale... Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K9",
+          "tekst": "K9",
+          "feedback": "Fout. Dit is K9: Voorwegwijzer met omleiding in verband met wegwerkzaamheden. Het gevraagde bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "K14",
+          "feedback": "Goed. K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "K14"
+      ],
+      "uitleg": {
+        "regel": "K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+        "valkuil": "Verwar het niet met K9, K12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Route voor het vervoer van bepaalde gevaarlijke stoffen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k14",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q905",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "K14"
+      },
+      "opties": [
+        {
+          "id": "K10",
+          "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "feedback": "Fout. Dat is de betekenis van K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K1",
+          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
+          "feedback": "Fout. Dat is de betekenis van K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K14",
+          "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+          "feedback": "Goed. Dit is K14, geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+          "fouttype": null
+        },
+        {
+          "id": "K2",
+          "tekst": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
+          "feedback": "Fout. Dat is de betekenis van K2, blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "K14"
+      ],
+      "uitleg": {
+        "regel": "K14 betekent: Route voor het vervoer van bepaalde gevaarlijke stoffen.",
+        "waarom": "Kijk naar de vorm en de kleur: geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool.",
+        "valkuil": "De lijkers zijn K9, K12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 247,
+          "anker": "Route voor het vervoer van bepaalde gevaarlijke stoffen."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-k14",
+        "borden-k"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q906",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verkeerstunnel (lengte van tunnel is aangegeven).",
+      "media": {
+        "borden": [
+          "L13",
+          "L1",
+          "L21",
+          "L3a",
+          "L17",
+          "L19"
+        ]
+      },
+      "opties": [
+        {
+          "id": "L13",
+          "tekst": "L13",
+          "feedback": "Goed. L13 betekent: Verkeerstunnel (lengte van tunnel is aangegeven).",
+          "fouttype": null
+        },
+        {
+          "id": "L1",
+          "tekst": "L1",
+          "feedback": "Fout. Dit is L1: Hoogte onderdoorgang. Het gevraagde bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L21",
+          "tekst": "L21",
+          "feedback": "Fout. Dit is L21: Uitwijkplaats links van de weg. Het gevraagde bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L3a",
+          "tekst": "L3a",
+          "feedback": "Fout. Dit is L3a: Tram/bushalte. Het gevraagde bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L17",
+          "tekst": "L17",
+          "feedback": "Fout. Dit is L17: (verkeerstunnel) Brandblusapparaat. Het gevraagde bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L19",
+          "tekst": "L19",
+          "feedback": "Fout. Dit is L19: (verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven... Het gevraagde bord is L13.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L13"
+      ],
+      "uitleg": {
+        "regel": "L13 betekent: Verkeerstunnel (lengte van tunnel is aangegeven).",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw vierkant met een tunnelsymbool en 17 km.",
+        "valkuil": "Verwar het niet met L14, L1, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "Verkeerstunnel (lengte van tunnel is aangegeven)."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l13",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q907",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "L13"
+      },
+      "opties": [
+        {
+          "id": "L5",
+          "tekst": "Einde rijstrook.",
+          "feedback": "Fout. Dat is de betekenis van L5, blauw vierkant met een pijl die van rechts naar links samenvoegt. Dit bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L13",
+          "tekst": "Verkeerstunnel (lengte van tunnel is aangegeven).",
+          "feedback": "Goed. Dit is L13, blauw vierkant met een tunnelsymbool en 17 km.",
+          "fouttype": null
+        },
+        {
+          "id": "L1",
+          "tekst": "Hoogte onderdoorgang.",
+          "feedback": "Fout. Dat is de betekenis van L1, blauw vierkant met 4,2 m tussen twee pijlpunten. Dit bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L14",
+          "tekst": "Vluchthaven.",
+          "feedback": "Fout. Dat is de betekenis van L14, blauw vierkant met een uitstulping aan de rechterkant van de weg. Dit bord is L13.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L13"
+      ],
+      "uitleg": {
+        "regel": "L13 betekent: Verkeerstunnel (lengte van tunnel is aangegeven).",
+        "waarom": "Kijk naar de vorm en de kleur: blauw vierkant met een tunnelsymbool en 17 km.",
+        "valkuil": "De lijkers zijn L14, L1. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "Verkeerstunnel (lengte van tunnel is aangegeven)."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l13",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q908",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: (verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+      "media": {
+        "borden": [
+          "L17",
+          "L15",
+          "L16",
+          "L5",
+          "L18",
+          "L1"
+        ]
+      },
+      "opties": [
+        {
+          "id": "L17",
+          "tekst": "L17",
+          "feedback": "Fout. Dit is L17: (verkeerstunnel) Brandblusapparaat. Het gevraagde bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L15",
+          "tekst": "L15",
+          "feedback": "Goed. L15 betekent: (verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+          "fouttype": null
+        },
+        {
+          "id": "L16",
+          "tekst": "L16",
+          "feedback": "Fout. Dit is L16: (verkeerstunnel) Noodtelefoon. Het gevraagde bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L5",
+          "tekst": "L5",
+          "feedback": "Fout. Dit is L5: Einde rijstrook. Het gevraagde bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L18",
+          "tekst": "L18",
+          "feedback": "Fout. Dit is L18: (verkeerstunnel) Noodtelefoon en brandblusapparaat. Het gevraagde bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L1",
+          "tekst": "L1",
+          "feedback": "Fout. Dit is L1: Hoogte onderdoorgang. Het gevraagde bord is L15.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L15"
+      ],
+      "uitleg": {
+        "regel": "L15 betekent: (verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw smal bord met s.o.s verticaal.",
+        "valkuil": "Verwar het niet met L16, L18, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l15",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q909",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "L15"
+      },
+      "opties": [
+        {
+          "id": "L20",
+          "tekst": "Uitwijkplaats rechts van de weg.",
+          "feedback": "Fout. Dat is de betekenis van L20, blauw vierkant met een pijl omlaag die links uitbuigt en een pijl omhoog. Dit bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L15",
+          "tekst": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+          "feedback": "Goed. Dit is L15, blauw smal bord met s.o.s verticaal.",
+          "fouttype": null
+        },
+        {
+          "id": "L16",
+          "tekst": "(verkeerstunnel) Noodtelefoon.",
+          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L2",
+          "tekst": "Voetgangersoversteekplaats.",
+          "feedback": "Fout. Dat is de betekenis van L2, blauw vierkant met een voetganger op een zebrapad. Dit bord is L15.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L15"
+      ],
+      "uitleg": {
+        "regel": "L15 betekent: (verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw smal bord met s.o.s verticaal.",
+        "valkuil": "De lijkers zijn L16, L18. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat."
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l15",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q910",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: (verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
+      "media": {
+        "borden": [
+          "L18",
+          "L16",
+          "L15",
+          "L8",
+          "L19",
+          "L3a"
+        ]
+      },
+      "opties": [
+        {
+          "id": "L18",
+          "tekst": "L18",
+          "feedback": "Fout. Dit is L18: (verkeerstunnel) Noodtelefoon en brandblusapparaat. Het gevraagde bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L16",
+          "tekst": "L16",
+          "feedback": "Fout. Dit is L16: (verkeerstunnel) Noodtelefoon. Het gevraagde bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L15",
+          "tekst": "L15",
+          "feedback": "Fout. Dit is L15: (verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat. Het gevraagde bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L8",
+          "tekst": "L8",
+          "feedback": "Fout. Dit is L8: Doodlopende weg. Het gevraagde bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L19",
+          "tekst": "L19",
+          "feedback": "Goed. L19 betekent: (verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
+          "fouttype": null
+        },
+        {
+          "id": "L3a",
+          "tekst": "L3a",
+          "feedback": "Fout. Dit is L3a: Tram/bushalte. Het gevraagde bord is L19.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L19"
+      ],
+      "uitleg": {
+        "regel": "L19 betekent: (verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: groen bord met twee vluchtende figuren en 50 m in beide richtingen.",
+        "valkuil": "Verwar het niet met L15, L18, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven richting en"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l19",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U09-Q911",
+      "unit": "U09",
+      "pagina": "U09-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "L19"
+      },
+      "opties": [
+        {
+          "id": "L3c",
+          "tekst": "Tramhalte.",
+          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L19",
+          "tekst": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
+          "feedback": "Goed. Dit is L19, groen bord met twee vluchtende figuren en 50 m in beide richtingen.",
+          "fouttype": null
+        },
+        {
+          "id": "L2",
+          "tekst": "Voetgangersoversteekplaats.",
+          "feedback": "Fout. Dat is de betekenis van L2, blauw vierkant met een voetganger op een zebrapad. Dit bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L1",
+          "tekst": "Hoogte onderdoorgang.",
+          "feedback": "Fout. Dat is de betekenis van L1, blauw vierkant met 4,2 m tussen twee pijlpunten. Dit bord is L19.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L19"
+      ],
+      "uitleg": {
+        "regel": "L19 betekent: (verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
+        "waarom": "Kijk naar de vorm en de kleur: groen bord met twee vluchtende figuren en 50 m in beide richtingen.",
+        "valkuil": "De lijkers zijn L15, L18. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven richting en"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l19",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

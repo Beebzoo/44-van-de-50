@@ -1,0 +1,1363 @@
+{
+  "id": "U08",
+  "slug": "autoweg-en-autosnelweg",
+  "titel": "Autoweg en autosnelweg",
+  "ondertitel": "Waar je mag komen, hoe hard je mag en hoe je de weg leest",
+  "volgorde": 8,
+  "week": 3,
+  "tier": "must",
+  "vereist": [
+    "U07"
+  ],
+  "borden": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "K8",
+    "K9",
+    "K10",
+    "K11",
+    "K12",
+    "K13",
+    "K14"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "4.6",
+        "4.7",
+        "4.8",
+        "4.10"
+      ],
+      "paginas": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81
+      ]
+    },
+    "cursus": {
+      "slides": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "gebruik_van_de_weg",
+    "verkeerstekens_en_aanwijzingen"
+  ],
+  "intro": "Autoweg en autosnelweg zijn de snelste wegen die Nederland heeft, en ze lijken op elkaar zonder hetzelfde te zijn. Het bord zegt op welke van de twee je rijdt, en daarmee ligt vast wie er mag komen, hoe hard je mag en wat er naast de rijbaan ligt. In dit blok leer je [G1] tot en met [G4] uit elkaar houden, ken je de snelheden en de verboden, weet je wat een spitsstrook en een doelgroepstrook zijn, en lees je de blauwe bewegwijzering. Aan het eind zie je hoe Duurzaam veilig alle wegen in drie soorten verdeelt, zodat je aan de markering al kunt zien wat voor weg je onder je hebt.",
+  "paginas": [
+    {
+      "id": "U08-P01",
+      "anker": "p-4.7-autoweg",
+      "titel": "De autoweg",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.7"
+          ],
+          "paginas": [
+            70,
+            71
+          ]
+        },
+        "cursus": {
+          "slides": [
+            69,
+            77
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U08-r01",
+          "tekst": "Een autoweg herken je aan bord [G3]. Bord [G4] geeft aan dat de autoweg ophoudt.",
+          "bron": [
+            {
+              "boek": 70,
+              "sectie": "4.7",
+              "anker": "Een autoweg herken je aan het bord G3"
+            },
+            {
+              "boek": 70,
+              "sectie": "4.7",
+              "anker": "bovenaan de borden G3 en G4 (autoweg en einde autoweg)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r02",
+          "tekst": "Op autowegen mogen alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden.",
+          "bron": [
+            {
+              "boek": 70,
+              "sectie": "4.7",
+              "anker": "alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden"
+            },
+            {
+              "slide": 69,
+              "anker": "alleen motorvoertuigen die harder kunnen en mogen dan 50 km/u mogen erop rijden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r03",
+          "tekst": "De maximumsnelheid op autowegen is buiten de bebouwde kom standaard 100 km/u en binnen de bebouwde kom standaard 50 km/u. Borden kunnen een afwijkende maximumsnelheid aangeven.",
+          "bron": [
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "buiten de bebouwde kom: standaard 100 km/u"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "binnen de bebouwde kom: standaard 50 km/u"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "Borden kunnen een afwijkende maximumsnelheid aangeven"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r04",
+          "tekst": "Autowegen hebben vaak een rijbaan met tegemoetkomend verkeer, maar kunnen ook gescheiden rijbanen hebben. Je kunt er gelijkvloerse kruispunten en rotondes tegenkomen.",
+          "bron": [
+            {
+              "boek": 70,
+              "sectie": "4.7",
+              "anker": "Autowegen hebben vaak een rijbaan met tegemoetkomend verkeer"
+            },
+            {
+              "boek": 70,
+              "sectie": "4.7",
+              "anker": "Je kunt gelijkvloerse kruispunten en rotondes tegenkomen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r05",
+          "tekst": "Een autoweg heeft meestal korte invoegstroken en geen vluchtstroken.",
+          "bron": {
+            "boek": 70,
+            "sectie": "4.7",
+            "anker": "Een autoweg heeft meestal korte invoegstroken en geen vluchtstroken"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "De autoweg zit tussen de gewone weg en de autosnelweg in. Hij is gemaakt om door te rijden, maar er kan nog van alles kruisen en er is vaak geen strook om naartoe te vluchten. Daarom houd je op een autoweg rekening met een kruispunt of rotonde die opeens opduikt, en met een invoegstrook die kort is.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "scene",
+          "ref": "S-U08-101",
+          "tekst": "Zo ziet een autoweg er vaak uit: een rijbaan met tegemoetkomend verkeer en rechts bord [G3].",
+          "bron": {
+            "boek": 70,
+            "sectie": "4.7",
+            "anker": "Autowegen hebben vaak een rijbaan met tegemoetkomend verkeer"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt buiten de bebouwde kom op een weg met een dubbele streep met groene vulling in het midden en doorgetrokken kantmarkering. Dat is het beeld van een autoweg, en zonder ander bord mag je er 100 km/u.",
+          "bron": [
+            {
+              "boek": 70,
+              "sectie": "4.7",
+              "anker": "Verder is op veel autowegen een groene vulling aangebracht tussen de dubbele streep"
+            },
+            {
+              "slide": 77,
+              "anker": "kenmerken autoweg: dubbele asmarkering groene vulling doorgetrokken kantmarkering"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Er zijn ook autowegen die eruitzien als autosnelwegen. Je kunt dan alleen aan het bord zien dat je op een autoweg rijdt, en dus ook alleen aan het bord welke snelheid en welke regels gelden.",
+          "bron": [
+            {
+              "slide": 77,
+              "anker": "Er zijn ook autowegen die eruitzien als autosnelwegen"
+            },
+            {
+              "slide": 77,
+              "anker": "Je kunt dan alleen aan het bord zien dat je op een autoweg rijdt"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Autoweg: [G3], minimaal 50 km/u kunnen en mogen, standaard 100 km/u buiten de bebouwde kom, kruispunten en rotondes zijn mogelijk."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Mag een voertuig dat niet harder kan dan 45 km/u de autoweg op?",
+          "antwoord": "Nee.",
+          "uitleg": "Alleen motorvoertuigen die minimaal 50 km/u kunnen en mogen rijden mogen op een autoweg komen.",
+          "bron": {
+            "boek": 70,
+            "sectie": "4.7",
+            "anker": "alleen motorvoertuigen komen die minimaal 50 km/u kunnen en mogen rijden"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op een autoweg buiten de bebouwde kom en ziet nergens een snelheidsbord. Hoe hard mag je?",
+          "antwoord": "100 km/u.",
+          "uitleg": "Dat is de standaard op autowegen buiten de bebouwde kom; een bord kan er een andere snelheid van maken.",
+          "bron": {
+            "boek": 71,
+            "sectie": "4.7",
+            "anker": "buiten de bebouwde kom: standaard 100 km/u"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U08-P02",
+      "anker": "p-4.7-autosnelweg",
+      "titel": "De autosnelweg",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.7"
+          ],
+          "paginas": [
+            71,
+            72
+          ]
+        },
+        "cursus": {
+          "slides": [
+            70,
+            77
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U08-r06",
+          "tekst": "Autosnelwegen worden aangeduid met bord [G1]. Bord [G2] betekent einde autosnelweg.",
+          "bron": [
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "Autosnelwegen worden aangeduid met bord G1"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "G1 (autosnelweg) en G2 (einde autosnelweg)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r07",
+          "tekst": "Op autosnelwegen mogen alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden.",
+          "bron": [
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "alleen motorvoertuigen komen die ten minste 60 km/u kunnen en mogen rijden"
+            },
+            {
+              "slide": 70,
+              "anker": "alleen motorvoertuigen die harder kunnen en mogen dan 60 km/u mogen erop rijden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r08",
+          "tekst": "Autosnelwegen hebben altijd gescheiden rijbanen met twee of meer rijstroken. Rechts van de rijbaan ligt een vluchtstrook, en bij meer dan drie rijstroken ligt er links vaak ook een. Je komt geen gelijkvloerse kruispunten of rotondes tegen.",
+          "bron": [
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "Autosnelwegen hebben altijd gescheiden rijbanen met twee of meer rijstroken"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "Als er meer dan drie rijstroken zijn, is er links vaak ook een vluchtstrook"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "Je komt geen gelijkvloerse kruispunten of rotondes tegen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r09",
+          "tekst": "De maximumsnelheid op autosnelwegen is overdag tussen 6 uur en 19 uur 100 km/u, en in de avond en de nacht 100, 120 of 130 km/u. Er kan ook tijdelijk of permanent een lagere maximumsnelheid gelden, bijvoorbeeld op ringwegen bij grote steden.",
+          "bron": [
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "overdag tussen 6.00 uur en 19.00 uur 100 km/u"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "'s avonds en 's nachts 100, 120 of 130 km/u"
+            },
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "Er kan ook (tijdelijk of permanent) een lagere maximumsnelheid gelden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r10",
+          "tekst": "Bij de oprit van een autosnelweg staat alleen de maximumsnelheid aangegeven als deze lager is dan 130 km/u.",
+          "bron": {
+            "boek": 72,
+            "sectie": "4.7",
+            "anker": "staat alleen de maximumsnelheid aangegeven als deze lager is dan 130 km/u"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U08-r11",
+          "tekst": "Om verwarring over de maximumsnelheid te voorkomen staat de snelheid op de hectometerbordjes op de hele kilometer. Bij drie of meer rijstroken staat die aanduiding ook links van de weg.",
+          "bron": [
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "worden de hectometerbordjes op de hele kilometer voorzien van een snelheidsaanduiding"
+            },
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "met drie of meer rijstroken wordt deze aanduiding ook links van de weg geplaatst"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De cursus zegt het scherp: standaard mag je 130 km/u, maar feitelijk mag je vaak niet zo hard. Het getal dat telt komt van de borden en van het bordje langs de weg, niet van wat je denkt te weten over dit stuk snelweg. Daarom kijk je op een lange rit steeds opnieuw, want de snelheid kan per traject en per tijdstip verschillen.",
+          "bron": {
+            "slide": 70,
+            "anker": "standaard is de maximumsnelheid 130 km/u, maar feitelijk mag je vaak niet zo hard"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Wanneer",
+            "Wat geldt er op de autosnelweg"
+          ],
+          "rijen": [
+            [
+              "overdag, tussen 6 uur en 19 uur",
+              "standaard 100 km/u"
+            ],
+            [
+              "avond en nacht",
+              "100, 120 of 130 km/u, de borden zeggen het"
+            ],
+            [
+              "veel ringwegen bij grote steden",
+              "80 km/u"
+            ],
+            [
+              "bij de oprit staat geen snelheidsbord",
+              "dan is het maximum 130 km/u"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 71,
+              "sectie": "4.7",
+              "anker": "overdag tussen 6.00 uur en 19.00 uur 100 km/u"
+            },
+            {
+              "slide": 70,
+              "anker": "op veel ringwegen van grote steden: 80 km/u"
+            },
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "staat alleen de maximumsnelheid aangegeven als deze lager is dan 130 km/u"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "G1",
+            "G2",
+            "G3",
+            "G4"
+          ],
+          "tekst": "Vier borden die je uit elkaar moet houden: [G1] autosnelweg, [G2] einde autosnelweg, [G3] autoweg, [G4] einde autoweg."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Geen bord bij de oprit betekent niet dat er geen maximum is. Het betekent dat het maximum 130 km/u is, en dat is overdag alsnog 100 km/u.",
+          "bron": {
+            "boek": 72,
+            "sectie": "4.7",
+            "anker": "staat alleen de maximumsnelheid aangegeven als deze lager is dan 130 km/u"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Autosnelweg: [G1], minimaal 60 km/u, gescheiden rijbanen, vluchtstrook rechts, nooit een gelijkvloers kruispunt."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Waaraan zie je zonder bord het verschil tussen een autoweg en een autosnelweg?",
+          "antwoord": "Aan de gescheiden rijbanen en de vluchtstrook van de autosnelweg.",
+          "uitleg": "Dat zijn de kenmerken van de autosnelweg; een autoweg kan er soms hetzelfde uitzien, en dan zegt alleen het bord het.",
+          "bron": {
+            "slide": 77,
+            "anker": "doorgetrokken kantmarkering kenmerken autosnelweg gescheiden rijbanen vluchtstrook"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt om drie uur in de middag op een autosnelweg zonder snelheidsborden. Hoe hard mag je?",
+          "antwoord": "100 km/u.",
+          "uitleg": "Tussen 6 uur en 19 uur geldt standaard 100 km/u, ook als er geen bord staat.",
+          "bron": {
+            "slide": 70,
+            "anker": "overdag tussen 06.00 en 19.00: standaard 100 km/u"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U08-P03",
+      "anker": "p-4.7-verboden-en-rijstroken",
+      "titel": "Wat er niet mag en welke rijstrook je kiest",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.7"
+          ],
+          "paginas": [
+            72,
+            73
+          ]
+        },
+        "cursus": {
+          "slides": [
+            69,
+            71,
+            72
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U08-r12",
+          "tekst": "Op een autoweg en een autosnelweg mag je niet achteruitrijden, niet keren en je auto niet laten stilstaan op de rijbaan.",
+          "bron": [
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "Je mag op een autoweg en autosnelweg niet"
+            },
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "je auto laten stilstaan op de rijbaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r13",
+          "tekst": "Je mag er met je auto geen gebruikmaken van de vluchtstrook, de vluchthaven of de berm, en te voet ook niet. Alleen in een noodgeval mag dat wel.",
+          "bron": [
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "gebruikmaken van de vluchtstrook, de vluchthaven of de berm (behalve in een noodgeval)"
+            },
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "te voet gebruikmaken van de vluchtstrook, de vluchthaven of de berm"
+            },
+            {
+              "slide": 71,
+              "anker": "de vluchtstrook, de vluchthaven of de berm gebruiken (dat mag alleen in geval van nood)"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r14",
+          "tekst": "Als de rijbaan van een autosnelweg meer dan twee rijstroken heeft, mogen vrachtauto's en voertuigen met aanhangwagen die samen langer zijn dan 7 meter alleen de twee rechter rijstroken gebruiken. Om voor te sorteren mag het wel.",
+          "bron": [
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "Als de rijbaan van een autosnelweg meer dan twee rijstroken heeft"
+            },
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "alleen de twee rechter rijstroken gebruiken (deze regel geldt niet als je moet voorsorteren)"
+            },
+            {
+              "slide": 71,
+              "anker": "De linkerrijstrook is verboden voor vrachtauto's en samenstellen van voertuigen langer dan 7 meter"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r15",
+          "tekst": "Gebruik zoveel mogelijk de rechterrijstrook. De andere rijstroken gebruik je alleen om in te halen of om voor te sorteren. Onnodig links of in het midden rijden is verboden en alleen toegestaan als je in een file rijdt.",
+          "bron": [
+            {
+              "boek": 73,
+              "sectie": "4.7",
+              "anker": "Gebruik zoveel mogelijk de rechterrijstrook. De andere rijstroken gebruik je alleen"
+            },
+            {
+              "boek": 73,
+              "sectie": "4.7",
+              "anker": "Daarom is het verboden en alleen toegestaan als je in een file rijdt"
+            },
+            {
+              "slide": 72,
+              "anker": "gebruik andere rijstroken alleen om in te halen en om voor te sorteren"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r16",
+          "tekst": "Als het veilig kan, schuif je een rijstrook op om ruimte te maken voor invoegers of voor zwaar verkeer dat moeite heeft met invoegen.",
+          "bron": {
+            "slide": 72,
+            "anker": "als het veilig kan, schuif dan een rijstrook op om ruimte te maken voor invoegers"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U08-r17",
+          "tekst": "Rijd je in een file en kan een voorrangsvoertuig niet via de vluchtstrook passeren, dan maak je ruimte: op de linker rijstrook ga je helemaal links rijden, op de rechter rijstrook helemaal rechts. Zo ontstaat er in het midden een vrije passeerruimte.",
+          "bron": [
+            {
+              "slide": 69,
+              "anker": "als je in een file rijdt en een voorrangsvoertuig kan niet via de vluchtstrook passeren"
+            },
+            {
+              "slide": 69,
+              "anker": "ga helemaal links rijden als je op de linker rijstrook rijdt"
+            },
+            {
+              "slide": 69,
+              "anker": "zo ontstaat in het midden een vrije 'passeerruimte'"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Alles op deze lijst komt op hetzelfde neer: op een snelle weg rekent iedereen erop dat het verkeer een kant op gaat en blijft rijden. Wie keert, achteruitrijdt of stilstaat, zet iets dwars in een stroom die daar met 100 km/u op af komt. En wie onnodig links blijft hangen, perst alle anderen door de rechterstroken heen, wat files en riskant inhalen oplevert.",
+          "bron": [
+            {
+              "boek": 73,
+              "sectie": "4.7",
+              "anker": "Onnodig links of in het midden rijden hindert de doorstroming"
+            },
+            {
+              "afgeleid": true
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt op de linkerrijstrook van een autosnelweg met drie rijstroken en je bent klaar met inhalen. Rechts van je is het vrij. Je gaat terug naar rechts, want de linkerstrook is er om in te halen, niet om op te blijven.",
+          "bron": {
+            "slide": 72,
+            "anker": "blijf niet onnodig links of in het midden rijden"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De vluchtstrook is geen wachtplek en geen plek om even uit te stappen. Ook te voet is hij verboden, behalve in een noodgeval. En let op de uitzondering bij de lange combinaties: voor voorsorteren mogen ze wel verder naar links.",
+          "bron": [
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "te voet gebruikmaken van de vluchtstrook, de vluchthaven of de berm"
+            },
+            {
+              "boek": 72,
+              "sectie": "4.7",
+              "anker": "alleen de twee rechter rijstroken gebruiken (deze regel geldt niet als je moet voorsorteren)"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Niet achteruit, niet keren, niet stilstaan, niet de vluchtstrook op. Rechts rijden, links inhalen."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je mist je afrit op de autosnelweg. Mag je op de vluchtstrook een stukje terugrijden?",
+          "antwoord": "Nee.",
+          "uitleg": "Achteruitrijden mag niet en de vluchtstrook mag je alleen in een noodgeval gebruiken; je rijdt door naar de volgende afrit.",
+          "bron": {
+            "slide": 71,
+            "anker": "de vluchtstrook, de vluchthaven of de berm gebruiken (dat mag alleen in geval van nood)"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je auto met caravan is samen langer dan 7 meter. Op welke rijstroken mag je op een autosnelweg met drie rijstroken rijden?",
+          "antwoord": "Alleen op de twee rechter rijstroken.",
+          "uitleg": "Om voor te sorteren mag je wel verder naar links.",
+          "bron": {
+            "slide": 71,
+            "anker": "Dan mag je alleen de rechter twee rijstroken gebruiken"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U08-P04",
+      "anker": "p-4.7-spitsstrook-en-werk",
+      "titel": "Spitsstroken, doelgroepstroken en werk in uitvoering",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.7"
+          ],
+          "paginas": [
+            74,
+            75,
+            76
+          ]
+        },
+        "cursus": {
+          "slides": [
+            73,
+            74
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U08-r18",
+          "tekst": "Een spitsstrook is een extra rijstrook die alleen tijdens drukke momenten open is voor verkeer. Dat kan de vluchtstrook rechts zijn, of een extra rijstrook links die plusstrook heet.",
+          "bron": [
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "een extra rijstrook die alleen tijdens drukke momenten open is voor verkeer"
+            },
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "de vluchtstrook die rechts ligt wordt tijdelijk als rijstrook gebruikt"
+            },
+            {
+              "slide": 73,
+              "anker": "deze spitsstrook wordt ook wel 'plusstrook' (A) genoemd"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r19",
+          "tekst": "Met borden en elektronische rijstrooksignalering wordt aangegeven of de spitsstrook geopend of gesloten is. Na het bord met het rode kruis houdt de spitsstrook op en wordt hij weer vluchtstrook, dus daar mag je niet verder over rijden.",
+          "bron": [
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "Met borden en elektronische rijstrooksignalering wordt aangegeven of de spitsstrook geopend of gesloten is"
+            },
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "Na bord 3 houdt de spitsstrook op en wordt weer vluchtstrook"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r20",
+          "tekst": "Is een spitsstrook rechts geopend, dan volg je die zoveel mogelijk, want je moet tenslotte zoveel mogelijk rechts houden. Houd er dan rekening mee dat er geen vluchtstrook meer is; wel ligt er elke paar kilometer een vluchthaven.",
+          "bron": [
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "moet je die zoveel mogelijk volgen; je moet tenslotte zoveel mogelijk rechts houden"
+            },
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "moet je er rekening mee houden dat er geen vluchtstrook meer is"
+            },
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "Wel ligt er elke paar kilometer een vluchthaven"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r21",
+          "tekst": "Soms liggen er extra rijstroken voor bepaalde voertuigen, bijvoorbeeld voor vrachtauto's met [F21] of voor bussen met [F19]. Alleen die voertuigen mogen deze doelgroepstroken gebruiken; als automobilist mag je daar niet op rijden.",
+          "bron": [
+            {
+              "boek": 75,
+              "sectie": "4.7",
+              "anker": "Vooral op autosnelwegen worden soms speciale stroken voor vrachtauto en/of bussen aangelegd"
+            },
+            {
+              "boek": 75,
+              "sectie": "4.7",
+              "anker": "Je mag daar als automobilist niet op rijden"
+            },
+            {
+              "slide": 73,
+              "anker": "Alleen die mogen deze doelgroepenstroken gebruiken"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r22",
+          "tekst": "Bij wegwerkzaamheden worden vaak een of meer rijstroken afgesloten en is de maximumsnelheid verlaagd. Pas tijdig je snelheid aan, haal niet meer in en laat anderen veilig invoegen.",
+          "bron": [
+            {
+              "boek": 75,
+              "sectie": "4.7",
+              "anker": "Op autosnelwegen worden bij werkzaamheden vaak een of meer rijstroken afgesloten"
+            },
+            {
+              "boek": 75,
+              "sectie": "4.7",
+              "anker": "Pas tijdig je snelheid aan, haal niet meer in en laat anderen veilig invoegen"
+            },
+            {
+              "boek": 76,
+              "sectie": "4.7",
+              "anker": "De maximumsnelheid is meestal verlaagd. Let goed op je snelheid"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r23",
+          "tekst": "Met gele strepen kunnen tijdelijke rijstroken worden aangegeven. Die vervangen dan de oorspronkelijke witte strepen. De tijdelijke rijstroken zijn meestal smaller en een vluchtstrook ontbreekt vaak.",
+          "bron": [
+            {
+              "boek": 75,
+              "sectie": "4.7",
+              "anker": "Met gele strepen kunnen tijdelijke rijstroken worden aangegeven"
+            },
+            {
+              "slide": 74,
+              "anker": "Die vervangen dan de oorspronkelijke witte strepen"
+            },
+            {
+              "boek": 75,
+              "sectie": "4.7",
+              "anker": "tijdelijke rijstroken zijn meestal smaller; je kunt daardoor gemakkelijk in de berm raken"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een spitsstrook is geleende ruimte. Zolang hij open is, is hij een gewone rijstrook, en zodra hij dicht gaat is hij weer de plek waar pech en hulpdiensten terechtkunnen. Bij werkzaamheden geldt hetzelfde idee: de weg is smaller dan je gewend bent en er lopen mensen vlak naast het verkeer, dus daar past een lagere snelheid bij.",
+          "bron": [
+            {
+              "slide": 74,
+              "anker": "Wegwerkers zijn vaak vlak naast het passerende verkeer aan het werk"
+            },
+            {
+              "afgeleid": true
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Boven de spitsstrook verschijnt een rood kruis terwijl jij erop rijdt. Je voegt zo snel als het veilig kan naar links in, want voorbij dat punt is de strook weer vluchtstrook.",
+          "bron": {
+            "boek": 74,
+            "sectie": "4.7",
+            "anker": "Na bord 3 houdt de spitsstrook op en wordt weer vluchtstrook"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "weetje",
+          "tekst": "Voordat een spitsstrook opengaat, wordt met camera's gecontroleerd of de vluchtstrook vrij is. Om die reden blijven spitsstroken vaak gesloten als het mistig is.",
+          "bron": [
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "wordt met camera's gecontroleerd of de vluchtstrook vrij is"
+            },
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "Om die reden blijven spitsstroken vaak gesloten als het mistig is"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een open spitsstrook rechts is geen keuze maar een strook die je zoveel mogelijk volgt. En denk bij pech niet aan de vluchtstrook die er dan niet meer is: probeer de eerstvolgende vluchthaven te halen.",
+          "bron": [
+            {
+              "slide": 73,
+              "anker": "Als een rechts liggende spitsstrook geopend is, ben je verplicht die te gebruiken"
+            },
+            {
+              "boek": 74,
+              "sectie": "4.7",
+              "anker": "Wel ligt er elke paar kilometer een vluchthaven"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Groene pijl: rijden mag. Rood kruis: eraf. Geel gaat voor wit. Bij werk in uitvoering zijn de boetes extra hoog."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Bij wegwerkzaamheden liggen er gele strepen naast de oude witte strepen. Welke volg je?",
+          "antwoord": "De gele.",
+          "uitleg": "Tijdelijke gele strepen vervangen de oorspronkelijke witte strepen.",
+          "bron": {
+            "slide": 74,
+            "anker": "Die vervangen dan de oorspronkelijke witte strepen"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Waarom blijven spitsstroken vaak dicht bij mist?",
+          "antwoord": "Omdat met camera's gecontroleerd moet worden of de vluchtstrook vrij is.",
+          "uitleg": "Kan die controle niet goed, dan gaat de strook niet open.",
+          "bron": {
+            "boek": 74,
+            "sectie": "4.7",
+            "anker": "Om die reden blijven spitsstroken vaak gesloten als het mistig is"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U08-P05",
+      "anker": "p-4.8-bewegwijzering",
+      "titel": "Bewegwijzering lezen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.8"
+          ],
+          "paginas": [
+            76,
+            77,
+            78
+          ]
+        },
+        "cursus": {
+          "slides": [
+            75,
+            76
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U08-r24",
+          "tekst": "Bewegwijzering wijst je de juiste richting. Op autosnelwegen vind je boven de weg vaak beslissingsborden met pijlen: volg je reisdoel en ga op de aangegeven rijstrook rijden.",
+          "bron": [
+            {
+              "boek": 76,
+              "sectie": "4.8",
+              "anker": "Op autosnelwegen vind je boven de weg vaak beslissingsborden met pijlen"
+            },
+            {
+              "boek": 76,
+              "sectie": "4.8",
+              "anker": "Volg je reisdoel en ga op de aangegeven rijstrook rijden"
+            },
+            {
+              "slide": 75,
+              "anker": "Borden verstrekken je informatie waarmee je de juiste rijrichting kunt kiezen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r25",
+          "tekst": "Op de borden staan vaak symbolen. Die geven bijvoorbeeld de richting aan naar een vliegveld, een verkeersknooppunt, een veerpont, een restaurant of een parkeerplaats.",
+          "bron": {
+            "boek": 76,
+            "sectie": "4.8",
+            "anker": "Deze geven bijvoorbeeld de richting aan naar een vliegveld, een verkeersknooppunt, een veerpont"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U08-r26",
+          "tekst": "Op voorwegwijzers staat de vorm van een kruispunt of rotonde schematisch weergegeven. Je weet dan wat voor soort kruispunt of rotonde je nadert en hoe je moet rijden voor jouw richting.",
+          "bron": [
+            {
+              "boek": 77,
+              "sectie": "4.8",
+              "anker": "Op voorwegwijzers staat de vorm van een kruispunt of rotonde schematisch weergegeven"
+            },
+            {
+              "boek": 77,
+              "sectie": "4.8",
+              "anker": "Je weet dan wat voor soort kruispunt of rotonde je nadert"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r27",
+          "tekst": "Een splitsing van auto(snel)wegen herken je aan het groen-witte splitsingsbord. De wegen links en rechts daarvan zijn allebei auto(snel)wegen.",
+          "bron": [
+            {
+              "boek": 76,
+              "sectie": "4.7",
+              "anker": "Een splitsing van autosnelwegen wordt aangegeven met het groen-witte splitsingsbord"
+            },
+            {
+              "boek": 76,
+              "sectie": "4.7",
+              "anker": "De wegen links en rechts zijn auto(snel)wegen"
+            },
+            {
+              "slide": 75,
+              "anker": "Een splitsing van auto(snel)wegen herken je aan het groen-witte splitsingsbord"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r28",
+          "tekst": "Met een cijfer-lettercombinatie in een gekleurd vak wordt aangegeven wat voor soort weg je gaat volgen: een E-weg is een internationale Europese hoofdroute, een A-weg een Nederlandse autosnelweg en een N-weg een Nederlandse hoofdverkeersweg die geen autosnelweg is.",
+          "bron": [
+            {
+              "boek": 78,
+              "sectie": "4.8",
+              "anker": "in een gekleurd vak wordt aangegeven wat voor soort weg je gaat volgen"
+            },
+            {
+              "boek": 78,
+              "sectie": "4.8",
+              "anker": "een E-weg; dit is een internationale Europese hoofdroute"
+            },
+            {
+              "boek": 78,
+              "sectie": "4.8",
+              "anker": "een N-weg; dit is een Nederlandse hoofdverkeersweg die geen autosnelweg is"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Een wegnummer vertelt je wat voor weg eraan komt, en dus wat je daar kunt verwachten. Kies je op een knooppunt voor een N-weg, dan rijd je zo van een weg zonder kruispunten een weg met kruispunten op. Wie alleen op plaatsnamen let, mist dat.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "K1",
+            "K2",
+            "K3",
+            "K4",
+            "K5",
+            "K9"
+          ],
+          "tekst": "De K-familie is de bewegwijzering. [K4] hangt hoog boven een autosnelweg, [K3] wijst naar een verzorgingsplaats met parkeren, eten en tanken, [K5] staat langs een weg die geen autosnelweg is en [K9] is een omleiding."
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Op een blauw bord staan Arnhem en Utrecht, met daarnaast A12 in een rood vak en E30 in een groen vak. De nationale snelweg A12 maakt deel uit van de Europese hoofdroute E30, dus dit is dezelfde weg met twee nummers.",
+          "bron": [
+            {
+              "slide": 76,
+              "anker": "De nationale snelweg A12 maakt deel uit van de Europese hoofdroute E30"
+            },
+            {
+              "boek": 78,
+              "sectie": "4.8",
+              "anker": "Een A-weg is vaak ook onderdeel van een E-weg"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Een E-nummer is geen bewijs dat je op een autosnelweg zit: vaak is het er een, maar dat hoeft niet. En het bord kiezen doe je vroeg, want op de aangegeven rijstrook gaan rijden kost tijd.",
+          "bron": [
+            {
+              "boek": 78,
+              "sectie": "4.8",
+              "anker": "een E-weg; dit is een internationale Europese hoofdroute"
+            },
+            {
+              "boek": 76,
+              "sectie": "4.8",
+              "anker": "Volg je reisdoel en ga op de aangegeven rijstrook rijden"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rood vak is een A-weg, groen vak een E-weg, geel vak een N-weg. Groen-wit met pijlpunten is een splitsing."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je volgt op een knooppunt een bord met N225 in een geel vak. Wat voor weg rijd je op?",
+          "antwoord": "Een Nederlandse hoofdverkeersweg die geen autosnelweg is.",
+          "uitleg": "Een N-weg is een hoofdverkeersweg, maar geen autosnelweg, dus reken op kruispunten en een andere snelheid.",
+          "bron": {
+            "boek": 78,
+            "sectie": "4.8",
+            "anker": "een N-weg; dit is een Nederlandse hoofdverkeersweg die geen autosnelweg is"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Waar is een voorwegwijzer met een schematisch kruispunt goed voor?",
+          "antwoord": "Je ziet vooraf wat voor kruispunt je nadert en hoe je moet rijden.",
+          "uitleg": "Daardoor kun je op tijd de goede rijstrook kiezen in plaats van op het kruispunt zelf te beslissen.",
+          "bron": {
+            "boek": 77,
+            "sectie": "4.8",
+            "anker": "Op voorwegwijzers staat de vorm van een kruispunt of rotonde schematisch weergegeven"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U08-P06",
+      "anker": "p-4.10-duurzaam-veilig",
+      "titel": "Duurzaam veilig: drie soorten wegen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.6",
+            "4.10"
+          ],
+          "paginas": [
+            70,
+            80,
+            81
+          ]
+        },
+        "cursus": {
+          "slides": [
+            76,
+            77,
+            78,
+            79,
+            80
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U08-r29",
+          "tekst": "Binnen Duurzaam veilig zijn de wegen onderverdeeld in drie categorieen: stroomwegen, gebiedsontsluitingswegen en erftoegangswegen. Als bestuurder moet je op elk van die drie het juiste gedrag vertonen.",
+          "bron": [
+            {
+              "boek": 80,
+              "sectie": "4.10",
+              "anker": "Binnen 'Duurzaam veilig' zijn de wegen onderverdeeld in drie categorieen"
+            },
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "Als bestuurder moet je op elk van de drie categorieen wegen het juiste gedrag vertonen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r30",
+          "tekst": "Stroomwegen zijn bedoeld om het verkeer zo snel mogelijk te laten doorstromen. De meeste autowegen en autosnelwegen zijn aangeduid als stroomweg.",
+          "bron": [
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "Deze zijn bedoeld om het verkeer zo snel mogelijk te laten doorstromen"
+            },
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "De meeste autowegen en autosnelwegen zijn aangeduid als stroomweg"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r31",
+          "tekst": "Gebiedsontsluitingswegen zijn wegen met gelijkvloerse kruisingen die bedoeld zijn om landelijk of stedelijk gebied te ontsluiten. Binnen de bebouwde kom is de snelheid 50 km/u of 70 km/u, buiten de bebouwde kom 80 km/u.",
+          "bron": [
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "wegen met gelijkvloerse kruisingen die bedoeld zijn om landelijk of stedelijk gebied te ontsluiten"
+            },
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "Binnen de bebouwde kom is de snelheid 50 km/u of 70 km/u"
+            },
+            {
+              "slide": 78,
+              "anker": "50 km/u binnen de bebouwde kom 80 km/u buiten de bebouwde kom"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r32",
+          "tekst": "Erftoegangswegen zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en meestal zonder gescheiden fietspaden. De snelheid is 30 km/u binnen de bebouwde kom en 60 km/u buiten de bebouwde kom.",
+          "bron": [
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "Dit zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer"
+            },
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "zonder rijrichtingscheiding en meestal zonder gescheiden fietspaden"
+            },
+            {
+              "slide": 79,
+              "anker": "30 km/u binnen de bebouwde kom 60 km/u buiten de bebouwde kom"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U08-r33",
+          "tekst": "Aan de wegmarkering kun je zien wat de maximumsnelheid is op autowegen, op 80 km/u wegen en op 60 km/u wegen. Een 60 km/u zone herken je ook aan het zonebord.",
+          "bron": [
+            {
+              "slide": 76,
+              "anker": "Aan de wegmarkering kun je zien wat de maximumsnelheid is op"
+            },
+            {
+              "slide": 76,
+              "anker": "Een 60 km/u zone herken je ook aan het zonebord"
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Soort weg",
+            "Waaraan je hem ziet",
+            "Snelheid"
+          ],
+          "rijen": [
+            [
+              "stroomweg, uitgevoerd als autoweg",
+              "dubbele asmarkering met groene vulling, doorgetrokken kantmarkering",
+              "100 km/u"
+            ],
+            [
+              "stroomweg, uitgevoerd als autosnelweg",
+              "gescheiden rijbanen en een vluchtstrook",
+              "wat de borden zeggen"
+            ],
+            [
+              "gebiedsontsluitingsweg buiten de bebouwde kom",
+              "dubbele asmarkering, onderbroken kantmarkering",
+              "80 km/u"
+            ],
+            [
+              "erftoegangsweg buiten de bebouwde kom",
+              "geen rijbaanscheiding, meestal geen apart fietspad",
+              "60 km/u"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 77,
+              "anker": "kenmerken autoweg: dubbele asmarkering groene vulling doorgetrokken kantmarkering"
+            },
+            {
+              "slide": 78,
+              "anker": "kenmerken buiten de bebouwde kom: dubbele asmarkering onderbroken kantmarkering"
+            },
+            {
+              "slide": 79,
+              "anker": "Ze hebben geen rijbaanscheiding en (meestal) geen gescheiden fietspaden"
+            },
+            {
+              "boek": 81,
+              "sectie": "4.10",
+              "anker": "De maximumsnelheid is hier daarom 100 km/u en de autoweg heeft ongelijkvloerse kruispunten"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De indeling bestaat omdat de kans op een ongeluk kleiner wordt als een weg er bij zijn taak uitziet. Wie op een strook asfalt met bomen en erven langs de kant hetzelfde rijdt als op een stroomweg, gaat daar een keer nat. De markering is dus een hint over wie je nog meer kunt tegenkomen.",
+          "bron": [
+            {
+              "boek": 80,
+              "sectie": "4.10",
+              "anker": "Door wegen op een bepaalde manier in te richten, wordt de kans op ongevallen kleiner"
+            },
+            {
+              "afgeleid": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "ezelsbrug",
+          "tekst": "Bermpaaltjes zorgen ervoor dat je de weg veilig kunt volgen in het donker of bij slecht weer: de reflectoren zijn rood aan de rechterkant en wit aan de linkerkant.",
+          "bron": [
+            {
+              "slide": 80,
+              "anker": "Bermpaaltjes zorgen ervoor dat je de weg veilig kunt volgen in het donker"
+            },
+            {
+              "slide": 80,
+              "anker": "de reflectoren van de bermpaaltjes duidelijk zichtbaar: rood aan de rechterkant, wit aan de linkerkant"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Nog even dit: rijden in de bergen"
+        },
+        {
+          "type": "regel",
+          "id": "U08-r34",
+          "tekst": "In de bergen krijgt klimmend verkeer voorrang van dalend verkeer. Neem afdalingen in dezelfde versnelling als de beklimmingen en maak gebruik van de remwerking van de motor, dus rijd niet met slepende remmen.",
+          "bron": [
+            {
+              "boek": 70,
+              "sectie": "4.6",
+              "anker": "klimmend verkeer moet voorrang krijgen van dalend verkeer"
+            },
+            {
+              "boek": 70,
+              "sectie": "4.6",
+              "anker": "neem afdalingen in dezelfde versnelling als de beklimmingen"
+            },
+            {
+              "boek": 70,
+              "sectie": "4.6",
+              "anker": "maak gebruik van de remwerking van de motor (rijd niet met slepende remmen)"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Inhalen op een stijgende weg kost veel meer tijd dan je denkt, dus doe het alleen zeer voorzichtig. En reken op water, modder of steenslag op het wegdek.",
+          "bron": [
+            {
+              "boek": 70,
+              "sectie": "4.6",
+              "anker": "haal alleen zeer voorzichtig in; op stijgende wegen kost zo'n manoeuvre veel meer tijd"
+            },
+            {
+              "boek": 70,
+              "sectie": "4.6",
+              "anker": "wees alert op water, modder, steenslag"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Stromen, ontsluiten, ontsluiten van erven: drie taken, drie wegbeelden, drie snelheden."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt buiten de bebouwde kom op een weg met een dubbele asmarkering en onderbroken kantmarkering. Wat voor weg is dit en hoe hard mag je?",
+          "antwoord": "Een gebiedsontsluitingsweg, 80 km/u.",
+          "uitleg": "De dubbele asmarkering zonder groene vulling met onderbroken kantstrepen hoort bij een gebiedsontsluitingsweg buiten de bebouwde kom.",
+          "bron": {
+            "slide": 78,
+            "anker": "kenmerken buiten de bebouwde kom: dubbele asmarkering onderbroken kantmarkering"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Wie krijgt in de bergen voorrang: klimmend of dalend verkeer?",
+          "antwoord": "Klimmend verkeer.",
+          "uitleg": "Dalend verkeer moet klimmend verkeer voorrang geven.",
+          "bron": {
+            "boek": 70,
+            "sectie": "4.6",
+            "anker": "klimmend verkeer moet voorrang krijgen van dalend verkeer"
+          }
+        }
+      ]
+    }
+  ]
+}

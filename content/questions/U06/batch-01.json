@@ -1,0 +1,817 @@
+{
+  "unit": "U06",
+  "vragen": [
+    {
+      "id": "U06-Q001",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het is half drie in de middag. Je rijdt op een autosnelweg en je ziet nergens een snelheidsbord. Mag je hier 130 km/u rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Dat is wel de standaard op autosnelwegen, maar die standaard is overdag verlaagd en het is nu midden op de dag.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Tussen 6 uur en 19 uur is de standaard op de autosnelweg teruggebracht naar 100 km/u, ook als er geen bord staat.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De standaard maximumsnelheid op autosnelwegen is 130 km/u, maar overdag tussen 6 uur en 19 uur is die teruggebracht naar standaard 100 km/u.",
+        "waarom": "Overdag is het op de snelweg veel drukker, en drukte gaat slecht samen met grote snelheidsverschillen. Het tijdstip is hier dus de maatstaf, niet het soort weg, en dat betekent dat jij zelf op de klok let.",
+        "valkuil": "Geen bord betekent niet dat het hoogste getal geldt, maar dat de standaard van dat moment geldt.",
+        "onthoud": "Overdag op de snelweg 100 km/u, in de avond en nacht 130 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Overdag tussen 6.00 uur en 19.00 uur is deze snelheid teruggebracht"
+        },
+        {
+          "slide": 137,
+          "anker": "overdag tussen 06:00u en 19:00u teruggebracht naar standaard 100 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "overdag"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Overdag tussen 6.00 uur en 19.00 uur is deze snelheid teruggebracht naar standaard 100 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q002",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je verlaat de bebouwde kom en rijdt verder over een autoweg. Er staat geen enkel snelheidsbord. Welke maximumsnelheid geldt er?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Dat is het maximum op de overige wegen buiten de bebouwde kom, niet op een autoweg.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "100 km/u",
+          "feedback": "Goed. Buiten de bebouwde kom hangt het maximum af van het soort weg, en op een autoweg is dat 100 km/u.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "130 km/u",
+          "feedback": "Fout. Dat getal hoort bij de autosnelweg. Een autoweg is een ander soort weg met een eigen maximum.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg: op overige wegen 80 km/u en op autowegen 100 km/u.",
+        "waarom": "Een autoweg heeft geen kruisend langzaam verkeer en meestal geen gelijkvloerse kruispunten, dus er kan meer snelheid bij dan op een gewone weg buiten de kom. Daarom is de vraag altijd eerst: wat voor soort weg is dit.",
+        "valkuil": "Autoweg en autosnelweg klinken hetzelfde maar hebben een verschillend maximum en een verschillend bord.",
+        "onthoud": "Gewone weg buiten de kom 80 km/u, autoweg 100 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg waarop je rijdt"
+        },
+        {
+          "slide": 137,
+          "anker": "buiten de bebouwde kom: 80 km/u - op autowegen: 100 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg waarop je rijdt",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q003",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Binnen de bebouwde kom rijd je een stuk autoweg op. Langs de kant staat alleen het blauwe bord voor autoweg en verder niets. Mag je daarom sneller dan 50 km/u?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het bord voor autoweg zegt wat voor weg dit is, maar het verhoogt de maximumsnelheid binnen de kom niet vanzelf.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Binnen de bebouwde kom blijft het in principe 50 km/u; alleen een snelheidsbord kan daar meer van maken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid van 50 km/u, maar in de praktijk wordt vaak met borden aangegeven dat je sneller mag rijden.",
+        "waarom": "Het soort weg bepaalt het maximum pas buiten de bebouwde kom. Binnen de kom weegt de kom zelf zwaarder, want daar zitten de kruisingen, de zijstraten en de mensen. Wil de wegbeheerder daar meer toestaan, dan moet hij dat expliciet met een bord doen.",
+        "valkuil": "Mensen lezen het bord voor autoweg als een snelheidsbord. Dat is het niet: het zegt alleen welk soort weg dit is.",
+        "onthoud": "Binnen de kom telt de kom, buiten de kom telt het soort weg."
+      },
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "tenzij met borden een ander maximum staat aangegeven"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid van 50 km/u",
+        "bron": "boek p. 117"
+      }
+    },
+    {
+      "id": "U06-Q004",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Welke standaardmaxima voor een personenauto kloppen, in een situatie zonder snelheidsborden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Binnen de bebouwde kom 50 km/u",
+          "feedback": "Goed. Dat is de standaard binnen de kom, tenzij met borden een ander maximum staat aangegeven.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Buiten de bebouwde kom op een gewone weg 80 km/u",
+          "feedback": "Goed. Op de overige wegen buiten de kom is dat inderdaad de standaard.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Op een autoweg buiten de bebouwde kom 100 km/u",
+          "feedback": "Goed. De autoweg heeft buiten de kom zijn eigen standaard, boven die van de gewone wegen.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Op een autosnelweg om drie uur in de middag 130 km/u",
+          "feedback": "Fout. Midden op de dag geldt op de autosnelweg de verlaagde standaard, niet de nachtwaarde.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op elke ringweg bij een stad 100 km/u",
+          "feedback": "Fout. Op sommige ringwegen geldt juist een permanent lager maximum, en het woord elke maakt deze uitspraak te stellig.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Zonder borden geldt binnen de bebouwde kom 50 km/u, buiten de bebouwde kom 80 km/u op gewone wegen en 100 km/u op autowegen.",
+        "waarom": "Deze drie waarden vormen samen het geraamte waar alle andere regels aan hangen. Ken je ze uit je hoofd, dan hoef je op de weg alleen nog te kijken of een bord ervan afwijkt.",
+        "valkuil": "De autosnelweg heeft geen enkele vaste waarde: daar hangt het maximum ook van het tijdstip af.",
+        "onthoud": "50, 80 en 100 km/u zijn de drie waarden die altijd blijven staan."
+      },
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Binnen de bebouwde kom mag je als automobilist maximaal 50 km/u rijden"
+        },
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Buiten de bebouwde kom is de maximumsnelheid afhankelijk van het soort weg waarop je rijdt"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "Op sommige ringwegen bij steden geldt echter een permanent lager maximum van 80 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "bebouwde-kom",
+        "buiten-bebouwde-kom",
+        "autoweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Op sommige ringwegen bij steden geldt echter een permanent lager maximum van 80 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q005",
+      "unit": "U06",
+      "pagina": "U06-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Het is negen uur 's avonds en je rijdt over een autosnelweg. Je hebt onderweg geen enkel snelheidsbord gezien. Hoe hard mag je nu?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Dat lagere maximum geldt alleen op sommige ringwegen bij steden, en dan staat het aangegeven.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "100 km/u",
+          "feedback": "Fout. Dat is de verlaagde standaard voor overdag; op dit tijdstip geldt hij niet meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "130 km/u",
+          "feedback": "Goed. Na 19 uur geldt weer de standaard van de autosnelweg, tenzij verkeersborden een lagere snelheid aangeven.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Tussen 19 uur en 6 uur geldt op autosnelwegen de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven.",
+        "waarom": "In de avond en de nacht is de weg leger, dus het argument voor de verlaging vervalt. Dat maakt de borden juist belangrijker: alleen zij kunnen je vertellen dat er hier toch minder mag.",
+        "valkuil": "Op veel trajecten staan wel borden met een lager getal. Dit antwoord geldt alleen omdat er in de vraag nergens een bord staat.",
+        "onthoud": "Na 19 uur terug naar de standaard, tenzij een bord anders zegt."
+      },
+      "bronnen": [
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "geldt de standaard maximumsnelheid van 130 km/u, tenzij verkeersborden een lagere snelheid aangeven"
+        },
+        {
+          "slide": 137,
+          "anker": "op autowegen: 100 km/u - op autosnelwegen: 130 km/u"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Tussen 19 uur 's avonds en 6 uur 's ochtends geldt de standaard maximumsnelheid van 130 km/u",
+        "bron": "boek p. 119"
+      }
+    },
+    {
+      "id": "U06-Q006",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je rijdt een erf binnen. Welke maximumsnelheid geldt daar?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "15 km/u",
+          "feedback": "Goed. Het erf is het langzaamste weggedeelte dat je binnen de bebouwde kom tegenkomt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "30 km/u",
+          "feedback": "Fout. Dat getal hoort bij de 30 km-zone, een ander bijzonder weggedeelte binnen de kom.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "50 km/u",
+          "feedback": "Fout. Dat is de gewone standaard binnen de bebouwde kom, en juist daar wijkt het erf van af.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone met maximaal 30 km/u en het erf met maximaal 15 km/u.",
+        "waarom": "Op een erf lopen voetgangers en spelende kinderen over de hele breedte van de weg. Bij stapvoets rijden kun je nog stoppen voor iemand die je pas op het laatste moment ziet, en dat is precies de bedoeling van zo'n lage waarde.",
+        "valkuil": "Het erfbord ziet er vriendelijk uit en heeft geen getal, maar het maximum ligt er lager dan waar ook binnen de kom.",
+        "onthoud": "Erf 15 km/u, 30 km-zone 30 km/u, de rest van de kom 50 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "In een erf is de maximumsnelheid 15 km/u"
+        },
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "erf",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "In een erf is de maximumsnelheid 15 km/u",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q007",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Buiten de bebouwde kom rijd je over een smalle weg zonder middenstreep, met onderbroken kantstrepen en rode suggestiestroken langs de kant. Je ziet geen snelheidsbord en geen zonebord. Mag je hier 80 km/u rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De belijning lijkt op die van een langzamere weg, maar zonder bord of zonebord geldt gewoon de standaard buiten de kom.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je leest de strepen als een regel, maar alleen een bord kan het maximum daadwerkelijk verlagen.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Staan er langs een weg met deze markering geen snelheidsbord en geen zonebord, dan mag je er 80 km/u rijden.",
+        "waarom": "De markering is bedoeld als hulpmiddel om het soort weg te herkennen, niet als verkeersteken met een eigen verbod. Pas een bord maakt er een afdwingbaar maximum van, en dat is hier niet geplaatst.",
+        "valkuil": "Veilig rijden is hier iets anders dan wat mag: op zo'n weg is langzamer vaak verstandig, ook als 80 km/u is toegestaan.",
+        "onthoud": "Geen bord op een 60 km-weg betekent gewoon 80 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "als deze borden er niet staan, mag je 80 km/u rijden"
+        },
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "De werkelijke maximumsnelheid staat aangegeven met borden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "wegmarkering",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als deze borden er niet staan, mag je 80 km/u rijden",
+        "bron": "boek p. 79"
+      }
+    },
+    {
+      "id": "U06-Q008",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Op het midden van de rijbaan zie je een dubbele streep met een groene baan ertussen, en aan beide zijkanten ligt een doorgetrokken streep. Welke maximumsnelheid hoort meestal bij zo'n weg?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "60 km/u",
+          "feedback": "Fout. Bij dat type weg ontbreekt de middenstreep juist en liggen er vaak suggestiestroken.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "80 km/u",
+          "feedback": "Fout. Daar hoort wel een dubbele middenstreep bij, maar zonder groene baan en met onderbroken kantstrepen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "100 km/u",
+          "feedback": "Goed. De groene baan tussen de middenstrepen en de doorgetrokken kantstrepen horen bij het zwaarste wegtype van de drie.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Aan de belijning kun je zien op welk soort weg je rijdt; een dubbele middenstreep met een groene baan ertussen en doorgetrokken kantstrepen hoort bij het hoogste van de drie wegtypen.",
+        "waarom": "Hoe zwaarder de weg, hoe nadrukkelijker de scheiding tussen de rijrichtingen. De groene baan maakt van de middenstreep een brede band die je niet per ongeluk oversteekt, en dat past bij een weg waar tegenliggers hard rijden.",
+        "valkuil": "Dit is een indicatie, geen zekerheid. Zolang je geen bord hebt gezien, weet je het niet zeker.",
+        "onthoud": "Groene baan in het midden en dichte kantstrepen horen bij de snelste van de drie."
+      },
+      "bronnen": [
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "Dubbele doorgetrokken of onderbroken streep met groene baan ertussen"
+        },
+        {
+          "boek": 78,
+          "sectie": "4.9",
+          "anker": "Aan de belijning kun je zien op welk soort weg je rijdt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "wegmarkering"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dubbele doorgetrokken of onderbroken streep met groene baan ertussen",
+        "bron": "boek p. 79"
+      }
+    },
+    {
+      "id": "U06-Q009",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Wat kun je aan de belijning van een weg aflezen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op welk soort weg je rijdt",
+          "feedback": "Goed. Daar is het nieuwe markeringssysteem juist voor gemaakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Welk verkeersgedrag er van je wordt verwacht",
+          "feedback": "Goed. De markering vertelt je hoe je je hier hoort te gedragen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Welke andere verkeersdeelnemers je kunt verwachten",
+          "feedback": "Goed. Een weg met suggestiestroken kondigt bijvoorbeeld fietsers aan.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De maximumsnelheid met zekerheid",
+          "feedback": "Fout. De belijning is een indicatie van de maximumsnelheid, maar geen zekerheid.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Of er verderop een zonebord komt te staan",
+          "feedback": "Fout. Wat er verderop staat kun je nooit aan de strepen onder je zien.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Aan de belijning kun je zien op welk soort weg je rijdt, welk verkeersgedrag van je wordt verwacht en welke andere verkeersdeelnemers je kunt verwachten, en het is een hulpmiddel om de maximumsnelheid in te schatten.",
+        "waarom": "Strepen lopen mee met de hele weg, dus ze zijn er ook als je net een bord hebt gemist of als je ergens midden op een traject invoegt. Dat maakt ze tot een goede eerste inschatting, maar juist omdat ze niets verbieden kun je er geen snelheid op baseren.",
+        "valkuil": "Het verschil tussen een indicatie en een regel is precies waar deze vraag om draait.",
+        "onthoud": "Strepen vertellen, borden bepalen."
+      },
+      "bronnen": [
+        {
+          "boek": 78,
+          "sectie": "4.9",
+          "anker": "Aan de belijning kun je zien op welk soort weg je rijdt"
+        },
+        {
+          "boek": 79,
+          "sectie": "4.9",
+          "anker": "de belijning is wel een indicatie van de maximumsnelheid, maar geen zekerheid"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegmarkering",
+        "snelheid"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aan de belijning kun je zien op welk soort weg je rijdt, welk verkeersgedrag van je wordt verwacht",
+        "bron": "boek p. 78"
+      }
+    },
+    {
+      "id": "U06-Q010",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "In een 30 km-zone mag je maximaal 30 km/u rijden. Is zo'n zone een bijzonder weggedeelte binnen de bebouwde kom?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Samen met het erf is dit het bijzondere weggedeelte binnen de kom waar minder dan de standaard geldt.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je verwart hem waarschijnlijk met de zone van 60 km/u, en die ligt wel buiten de kom.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone en het erf.",
+        "waarom": "Binnen de kom liggen woonstraten waar de gewone standaard te snel is voor wat er gebeurt: kinderen, oversteekbewegingen, geparkeerde auto's. Buiten de kom speelt iets anders, namelijk het mengen van snel en langzaam verkeer, en daar hoort een eigen zone met een eigen waarde bij.",
+        "valkuil": "De twee zones lijken op elkaar in naam en vorm, maar horen aan verschillende kanten van het kombord.",
+        "onthoud": "30 hoort binnen de kom, 60 hoort erbuiten."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "waar een lagere maximumsnelheid van 60 km/u geldt"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "zone",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone (max. 30 km/u) en het erf",
+        "bron": "boek p. 118"
+      }
+    },
+    {
+      "id": "U06-Q011",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Buiten de bebouwde kom nader je een zonebord met daarin een rond bord met het getal 60. Wat verandert er voorbij dat bord?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je mag er 60 km/u rijden",
+          "feedback": "Goed. Zo'n zone herken je aan het zonebord, en voorbij dat bord geldt de lagere maximumsnelheid.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er verandert niets, want je blijft buiten de bebouwde kom",
+          "feedback": "Fout. Het zonebord is juist bedoeld om binnen een gebied buiten de kom een lager maximum in te stellen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Er gaat een adviessnelheid gelden waar je van mag afwijken",
+          "feedback": "Fout. Een adviessnelheid staat op een blauw vierkant bord; dit is een maximumsnelheid in een zone.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Buiten de bebouwde kom zijn in veel gebieden zones ingesteld waar een lagere maximumsnelheid van 60 km/u geldt; zo'n zone herken je aan het zonebord.",
+        "waarom": "Buiten de kom rijden snel en langzaam verkeer vaak door elkaar, en daar gebeuren veel ongevallen. Met een zone kan een wegbeheerder een heel gebied in een keer rustiger maken zonder bij elke zijweg opnieuw een bord te plaatsen.",
+        "valkuil": "Een zonebord is geen advies en geen waarschuwing: het stelt een echte maximumsnelheid in.",
+        "onthoud": "Zonebord met 60 erin betekent 60 km/u."
+      },
+      "bronnen": [
+        {
+          "boek": 80,
+          "sectie": "4.9",
+          "anker": "Je nadert hier een 60 km-zone, herkenbaar aan het zonebord"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "waar een lagere maximumsnelheid van 60 km/u geldt"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "zone",
+        "buiten-bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je nadert hier een 60 km-zone, herkenbaar aan het zonebord. Voorbij dit bord mag je 60 km/u rijden",
+        "bron": "boek p. 80"
+      }
+    },
+    {
+      "id": "U06-Q012",
+      "unit": "U06",
+      "pagina": "U06-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Op welke plaatsen ligt het maximum lager dan de gewone standaard binnen de bebouwde kom?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "In een erf",
+          "feedback": "Goed. Daar geldt 15 km/u en dat is de laagste waarde die je binnen de kom tegenkomt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "In een 30 km-zone",
+          "feedback": "Goed. Ook dat is een bijzonder weggedeelte binnen de kom met een lagere waarde.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Op een autoweg binnen de bebouwde kom",
+          "feedback": "Fout. Daar geldt in principe dezelfde standaard als in de rest van de kom, en met borden vaak juist meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "In een zone van 60 km/u buiten de bebouwde kom",
+          "feedback": "Fout. Dat is een verlaging, maar ten opzichte van de standaard buiten de kom en niet erbinnen.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "e",
+          "tekst": "Op een ringweg met een permanent lager maximum",
+          "feedback": "Fout. Dat permanent lagere maximum van 80 km/u hoort bij de autosnelweg, en 80 km/u ligt nog altijd boven de 50 km/u die binnen de kom geldt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone met maximaal 30 km/u en het erf met maximaal 15 km/u.",
+        "waarom": "De vraag is niet welke waarde laag klinkt, maar waarmee je hem vergelijkt. Binnen de kom is 50 km/u het ijkpunt; buiten de kom is dat 80 km/u, en daar is 60 km/u dus ook een verlaging maar in een andere wereld.",
+        "valkuil": "Lezers pikken alle lage getallen eruit zonder te kijken of de plek binnen of buiten de kom ligt.",
+        "onthoud": "Vergelijk altijd met het ijkpunt van de plek waar je bent."
+      },
+      "bronnen": [
+        {
+          "boek": 118,
+          "sectie": "7.1",
+          "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+        },
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Ook op een autoweg binnen de bebouwde kom geldt in principe de maximumsnelheid"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "snelheid",
+        "erf",
+        "zone",
+        "bebouwde-kom"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone (max. 30 km/u) en het erf (max. 15 km/u)",
+        "bron": "boek p. 118",
+        "gewijzigd": "De feedback bij afleider e zei dat een ringweg nooit binnen de bebouwde kom ligt, en dat staat nergens in de bron. Nu draait de feedback om wat wel vaststaat: 80 km/u is hoger dan de 50 km/u van de kom, dus het is sowieso geen verlaging binnen de kom."
+      }
+    }
+  ]
+}

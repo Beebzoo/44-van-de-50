@@ -1,0 +1,32 @@
+{
+  "id": "S-U06-002-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "noord",
+      "zijde": "links",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de voetganger"
+    }
+  ],
+  "alt": "Dezelfde weg een moment later. De voetganger stapt de rijbaan op en jij bent intussen dichterbij gekomen.",
+  "inspiratie": {
+    "boek": 125,
+    "slide": 143
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "unit": "U07",
+  "batch": 1,
+  "vragen": [
+    {
+      "id": "U07-Q001",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Op de weghelft van de tegenligger staat een bestelauto stil en er is te weinig ruimte voor jullie samen. Moet jij stoppen om de tegenligger erlangs te laten?",
+      "media": {
+        "scene": "S-U07-001"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Je bent netjes bezig, maar de regel legt het wachten bij degene op wiens weghelft het obstakel staat en dat is hier de ander.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Het obstakel staat op zijn weghelft, dus hij is degene die wacht tot jij voorbij bent.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Is er onvoldoende ruimte voor jou en je tegenligger, dan stopt de bestuurder op wiens weghelft het obstakel staat.",
+        "waarom": "Wie om het obstakel heen stuurt, verlaat zijn eigen helft en komt in jouw baan terecht. Die zijdelingse verplaatsing is van hem, dus het toegeven ook.",
+        "valkuil": "Reken er niet op dat hij ook echt stopt. Veel bestuurders rijden gewoon door, dus houd je voet bij de rem.",
+        "onthoud": "Het obstakel bepaalt wie wacht, niet wie er het eerst is."
+      },
+      "bronnen": [
+        {
+          "boek": 61,
+          "sectie": "4.1",
+          "anker": "moet je tegenligger stoppen als het obstakel op zijn weghelft staat"
+        },
+        {
+          "slide": 169,
+          "anker": "houd rekening met tegenliggers die doorrijden, ook als het obstakel op hun weghelft staat"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "obstakel",
+        "tegenligger",
+        "voorbijgaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "moet je tegenligger stoppen als het obstakel op zijn weghelft staat",
+        "bron": "boek p. 61"
+      }
+    },
+    {
+      "id": "U07-Q002",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je nadert een rijbaanversmalling. Rechts van de weg staat bord [F5] en uit de andere richting nadert een auto. Wat doe je?",
+      "media": {
+        "scene": "S-U07-002"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je stopt en laat de tegemoetkomende auto eerst door de doorgang.",
+          "feedback": "Goed. Je rijdt in de richting van de rode pijl en dat betekent dat jij het verkeer uit de andere richting voor laat gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je rijdt door, want dit bord geldt voor de tegenligger.",
+          "feedback": "Fout. Je hebt de twee borden omgedraaid: het blauwe vierkante bord zegt dat de ander wacht, dit ronde rode bord zegt dat jij wacht.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Je rijdt door, want het bord geldt alleen voor vrachtauto's en bussen.",
+          "feedback": "Fout. Er staat niets over voertuigsoorten in dit bord; het richt zich op iedereen die in die richting rijdt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Je kijkt wie er het eerst bij de doorgang is en past je daarop aan.",
+          "feedback": "Fout. Bij een versmalling wijst het bord vooraf aan wie er eerst mag, juist zodat niemand dat ter plekke hoeft uit te vechten.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rijd je in de richting van de rode pijl, dan moet je stoppen; rijd je in de richting van de witte pijl, dan stopt de tegenligger.",
+        "waarom": "In de doorgang past maar een voertuig, dus iemand moet toegeven. Een bord dat dat vooraf regelt voorkomt dat jullie halverwege tegenover elkaar komen te staan.",
+        "valkuil": "Kijk naar de kleur van de pijl die jouw richting op wijst, niet naar de vorm of de plaats van het bord.",
+        "onthoud": "Rode pijl is wachten, witte pijl is gaan."
+      },
+      "bronnen": [
+        {
+          "boek": 60,
+          "sectie": "4.1",
+          "anker": "Als je in de richting van de rode pijl rijdt, moet je stoppen"
+        },
+        {
+          "slide": 62,
+          "anker": "rode pijl? Je tegenligger mag eerst"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "rijbaanversmalling",
+        "borden",
+        "tegenligger"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Als je in de richting van de rode pijl rijdt, moet je stoppen",
+        "bron": "boek p. 60",
+        "gewijzigd": "stam noemde geen versmalling terwijl twee opties over de doorgang spreken; de tekening kan er geen tekenen, dus staat hij nu in woorden in de stam"
+      }
+    },
+    {
+      "id": "U07-Q003",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je nadert een smalle brug en ziet dit bord staan. Betekent het dat jij mag doorrijden en dat het verkeer uit de andere richting moet wachten?",
+      "media": {
+        "bord": "F6"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Dit blauwe bord zegt dat bestuurders uit de tegengestelde richting het verkeer van jouw kant voor laten gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Dit is niet het verbodsbord maar het bord dat jou juist voorrang geeft bij de versmalling.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij [F6] moeten bestuurders uit tegengestelde richting het verkeer dat van deze richting nadert voor laten gaan.",
+        "waarom": "Het blauwe vierkant is in het hele bordenstelsel de kleur van een aanwijzing die in jouw voordeel werkt, terwijl de rode cirkel een verbod voor jou is.",
+        "valkuil": "Doorrijden mag, maar het blijft een smalle doorgang: lopende mensen erin laat je altijd eerst gaan.",
+        "onthoud": "Blauw vierkant bij een versmalling is jouw beurt."
+      },
+      "bronnen": [
+        {
+          "boek": 60,
+          "sectie": "4.1",
+          "anker": "Rijd je in de richting van de witte pijl, dan moeten de tegemoetkomende bestuurders stoppen"
+        },
+        {
+          "slide": 62,
+          "anker": "bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "rijbaanversmalling",
+        "borden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "bestuurders uit tegengestelde richting moeten verkeer dat van deze richting nadert voor laten gaan",
+        "bron": "slide 62",
+        "gewijzigd": "de tweede bron ging over voetgangers en onderbouwde de sleutel niet; vervangen door de zin die F6 uitlegt"
+      }
+    },
+    {
+      "id": "U07-Q004",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Je komt bij een nauwe doorgang waar geen bord aangeeft wie er eerst mag. Welke uitspraken over zo'n doorgang kloppen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zit de versmalling aan jouw kant van de weg, dan stop je voor een tegenligger.",
+          "feedback": "Goed. Jij bent degene die de eigen weghelft kwijtraakt, dus jij wacht tot de ander voorbij is.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Zit de versmalling aan beide kanten, dan zoeken jij en je tegenligger er samen een oplossing voor.",
+          "feedback": "Goed. Geen van beiden heeft dan het recht aan zijn kant, dus maken jullie het samen uit.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Het is sociaal om vrachtauto's en bussen voor te laten gaan.",
+          "feedback": "Goed. Zij hebben de ruimte veel harder nodig en manoeuvreren veel lastiger dan jij.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Mensen die door de doorgang lopen hoef je niet voor te laten gaan.",
+          "feedback": "Fout. De borden bij een versmalling gaan over bestuurders onderling, maar lopende mensen laat je er altijd door.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Wie er het eerst is, mag altijd als eerste door.",
+          "feedback": "Fout. Er bestaat geen regel die zegt dat de eerste voorgaat; de plaats van de versmalling is wat telt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Zit de versmalling aan jouw kant, dan stop je voor een tegenligger. Zit hij aan beide kanten, dan zoeken jullie er samen een oplossing voor.",
+        "waarom": "De vraag is telkens dezelfde: wie moet zijn eigen weghelft verlaten om erlangs te komen. Die bestuurder is de gast in de baan van de ander en wacht dus.",
+        "valkuil": "Voetgangers vallen buiten dit hele systeem. Zij gaan altijd voor, met of zonder bord.",
+        "onthoud": "Versmalling aan jouw kant: jij wacht."
+      },
+      "bronnen": [
+        {
+          "boek": 61,
+          "sectie": "4.1",
+          "anker": "Als de versmalling aan beide kanten van de weg zit"
+        },
+        {
+          "boek": 61,
+          "sectie": "4.1",
+          "anker": "Het is dan sociaal als je vrachtauto's en bussen voor laat gaan"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijbaanversmalling",
+        "voetganger",
+        "tegenligger"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als de versmalling aan beide kanten van de weg zit, moeten jij en je tegenligger samen een oplossing zoeken",
+        "bron": "boek p. 61"
+      }
+    },
+    {
+      "id": "U07-Q005",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "Voor je rijdt een fietser op de rijbaan van een smalle weg. Uit de andere richting nadert een auto, eerst ver weg en even later vlakbij. Wat doe je?",
+      "media": {
+        "reeks": [
+          "S-U07-003-a",
+          "S-U07-003-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je blijft achter de fietser tot de tegemoetkomende auto voorbij is en gaat er daarna met minimaal 1,5 meter langs.",
+          "feedback": "Goed. Pas als de weg voor je vrij is, heb je de ruimte om de fietser op veilige afstand voorbij te gaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je haalt de fietser meteen in en gaat er wat krapper langs, want hij rijdt al aan de kant.",
+          "feedback": "Fout. Krap langs een fietser gaan is precies wat de regel over zijdelingse afstand wil voorkomen, ook als hij netjes rechts rijdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je haalt in over de andere weghelft en rekent erop dat de naderende auto uitwijkt.",
+          "feedback": "Fout. Je legt je eigen risico bij iemand anders neer, en die bestuurder heeft geen enkele reden om voor jou te remmen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je claxonneert zodat de fietser opzij gaat en je er meteen langs kunt.",
+          "feedback": "Fout. Een schrikkende fietser stuurt eerder naar links dan naar rechts, en de ruimte die je nodig hebt komt er zo niet bij.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand, minimaal 1,5 meter.",
+        "waarom": "Die ruimte past alleen als je de hele breedte van de weg even voor jezelf hebt. Zolang er iemand aankomt is die er niet, en inhalen levert je hooguit een paar seconden op.",
+        "valkuil": "De tweede tekening laat zien waarom je moet wachten: de tegenligger is nu vlakbij en de ruimte om de fietser heen is er niet meer.",
+        "onthoud": "Eerst ruimte, dan pas inhalen."
+      },
+      "bronnen": [
+        {
+          "boek": 145,
+          "sectie": "9.6",
+          "anker": "houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand"
+        },
+        {
+          "slide": 61,
+          "anker": "Houd bij inhalen voldoende zijdelingse afstand"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "fietser",
+        "afstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand (minimaal 1,5 meter)",
+        "bron": "boek p. 145",
+        "gewijzigd": "de valkuil beschreef een begonnen inhaalmanoeuvre die in geen van beide beelden staat; nu beschrijft hij wat het tweede beeld wel toont"
+      }
+    },
+    {
+      "id": "U07-Q006",
+      "unit": "U07",
+      "pagina": "U07-P02",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je bent een straat met dit bord ingereden en je bent net de inrit voorbij waar je moest zijn. Mag je een stukje achteruitrijden?",
+      "media": {
+        "bord": "C3"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Een klein stukje terug voelt onschuldig, maar op een eenrichtingsweg is achteruitrijden gewoon verboden.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Op een eenrichtingsweg mag je niet achteruitrijden en ook niet keren; je rijdt door en gaat om.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Een eenrichtingsweg mag je maar van een kant inrijden, je mag er niet achteruitrijden en je mag er niet keren.",
+        "waarom": "Iedereen in zo'n straat rekent op verkeer dat maar een kant op gaat en kijkt daar ook naar. Een auto die de andere kant op beweegt past in niemands verwachting.",
+        "valkuil": "Achterwaarts een parkeervak of een inrit in steken mag wel. Het verbod gaat over achteruit door de straat rijden.",
+        "onthoud": "Eenrichtingsweg: niet keren, niet achteruit de straat door."
+      },
+      "bronnen": [
+        {
+          "boek": 62,
+          "sectie": "4.1",
+          "anker": "Je mag op een eenrichtingsweg niet achteruitrijden en je mag ook niet keren"
+        },
+        {
+          "slide": 63,
+          "anker": "niet achteruit de straat uit rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "eenrichtingsweg",
+        "achteruitrijden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag op een eenrichtingsweg niet achteruitrijden en je mag ook niet keren",
+        "bron": "boek p. 62"
+      }
+    },
+    {
+      "id": "U07-Q007",
+      "unit": "U07",
+      "pagina": "U07-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat geeft dit ronde blauwe bord met een witte pijl aan?",
+      "media": {
+        "bord": "D5"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een gebod om de rijrichting te volgen die op het bord staat.",
+          "feedback": "Goed. De ronde blauwe pijlborden schrijven voor welke kant je op moet, meer niet.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een eenrichtingsweg die je alleen van deze kant mag inrijden.",
+          "feedback": "Fout. Dit is precies de verwisseling waar de cursus voor waarschuwt: een rijrichting is iets anders dan een eenrichtingsweg.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Een verbod om deze weg in te rijden.",
+          "feedback": "Fout. Een verbod staat in een rode cirkel, niet in een blauwe.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Een aanbevolen route voor doorgaand verkeer.",
+          "feedback": "Fout. Er bestaat geen blauw rond bord dat alleen maar iets aanbeveelt; ronde borden schrijven voor.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[D4] en [D5] geven een gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+        "waarom": "Het verschil doet ertoe zodra je de weg uit wilt: op een eenrichtingsweg mag je niet keren, terwijl een verplichte rijrichting alleen zegt welke kant je bij dat punt op moet.",
+        "valkuil": "Ronde blauwe borden met een pijl lijken op de vierkante eenrichtingsborden, maar zeggen iets anders.",
+        "onthoud": "Bij een pijl: rond blauw is een rijrichting, vierkant blauw is een eenrichtingsweg."
+      },
+      "bronnen": [
+        {
+          "slide": 63,
+          "anker": "deze borden geven een verplichte rijrichting aan, geen eenrichtingsweg"
+        },
+        {
+          "slide": 63,
+          "anker": "gebod tot het volgen van de rijrichting"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "borden",
+        "rijrichting",
+        "eenrichtingsweg"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "deze borden geven een verplichte rijrichting aan, géén eenrichtingsweg",
+        "bron": "slide 63",
+        "gewijzigd": "onthoud zei dat rond blauw altijd een rijrichting is, wat voor G11 niet klopt; nu beperkt tot borden met een pijl"
+      }
+    },
+    {
+      "id": "U07-Q008",
+      "unit": "U07",
+      "pagina": "U07-P02",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Een weg is door een groene middenberm in twee rijbanen verdeeld en er staat geen enkel bord bij. Kies je dan de rechter rijbaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Zonder bord val je terug op de gewone regel dat je rechts houdt, en dat betekent hier de rechter rijbaan.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je gaat er dan van uit dat je vrij mag kiezen, maar zonder bord geldt gewoon dat je rechts houdt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Staan er geen borden bij gescheiden rijbanen, dan moet je rechts houden en dus de rechter rijbaan volgen.",
+        "waarom": "Een middenberm verandert niets aan de basis. De borden bij gescheiden rijbanen bevestigen meestal alleen wat je zonder bord ook al moest doen.",
+        "valkuil": "Een brede berm maakt de linker rijbaan niet tot een gewone strook waaruit je mag kiezen.",
+        "onthoud": "Geen bord, dan rechts."
+      },
+      "bronnen": [
+        {
+          "boek": 66,
+          "sectie": "4.3",
+          "anker": "Als er geen borden staan, moet je rechts houden en dus de rechter rijbaan volgen"
+        },
+        {
+          "slide": 65,
+          "anker": "Bij een middenberm of groenvoorziening wijst bord D2"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "gescheiden-rijbanen",
+        "rechts-houden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als er geen borden staan, moet je rechts houden en dus de rechter rijbaan volgen",
+        "bron": "boek p. 66"
+      }
+    },
+    {
+      "id": "U07-Q009",
+      "unit": "U07",
+      "pagina": "U07-P02",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Dit bord staat bij het begin van een parallelweg naast een drukke doorgaande weg. Wat vertelt het je?",
+      "media": {
+        "bord": "C5"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je mag deze weg van beide kanten inrijden.",
+          "feedback": "Goed. Het bord zegt dat inrijden is toegestaan, en bij een ventweg betekent dat van twee kanten.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De parallelweg is een eenrichtingsweg.",
+          "feedback": "Fout. Twee pijlen in tegengestelde richting betekenen juist dat er verkeer van twee kanten komt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen bestemmingsverkeer mag deze weg gebruiken.",
+          "feedback": "Fout. Een beperking tot bestemmingsverkeer staat op een onderbord en niet in dit bord zelf.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Landbouwverkeer moet verplicht deze weg volgen.",
+          "feedback": "Fout. Dat langzaam verkeer de hoofdrijbaan soms niet mag gebruiken regel je met andere borden, niet met dit bord.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "[C5] betekent inrijden toegestaan en staat bij een ventweg of parallelweg die je van beide kanten mag inrijden.",
+        "waarom": "Een ventweg loopt evenwijdig aan de hoofdweg en dient het lokale verkeer, dus verkeer dat van twee kanten komt is daar juist de bedoeling.",
+        "valkuil": "Twee pijlen tegenover elkaar lijken op een eenrichtingsbord, maar zeggen het omgekeerde.",
+        "onthoud": "Twee pijlen tegen elkaar in: van beide kanten inrijden mag."
+      },
+      "bronnen": [
+        {
+          "boek": 67,
+          "sectie": "4.3",
+          "anker": "Inrijden toegestaan. Dit bord wordt bij een ventweg of parallelweg geplaatst"
+        },
+        {
+          "slide": 65,
+          "anker": "Als je een ventweg of parallelweg in twee richtingen mag inrijden"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "ventweg",
+        "borden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Dit bord wordt bij een ventweg of parallelweg geplaatst als je die van beide kanten mag inrijden",
+        "bron": "boek p. 67"
+      }
+    },
+    {
+      "id": "U07-Q010",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Naast je ligt een rode strook met een fietsafbeelding op het wegdek en een doorgetrokken streep ernaast. Welke uitspraken over die strook kloppen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je mag hem kruisen om een inrit in te rijden.",
+          "feedback": "Goed. Van de drie dingen die het boek noemt is kruisen het enige dat je op zo'n strook mag doen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je mag er niet op rijden.",
+          "feedback": "Goed. De strook hoort bij de rijbaan, maar is voorbehouden aan fietsers en snorfietsers.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Je mag erop voorsorteren om rechtsaf te slaan.",
+          "feedback": "Fout. Dat mag alleen bij een onderbroken streep; hier houdt de doorgetrokken streep je eraf.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je mag erop rijden zolang er geen fietser op zit.",
+          "feedback": "Fout. Of de strook leeg is doet niet ter zake; erop rijden mag sowieso niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Je mag erop voorsorteren zolang je niemand hindert.",
+          "feedback": "Fout. Die voorwaarde hoort bij de onderbroken streep en niet bij deze.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Op een fietsstrook met een doorgetrokken streep mag je niet rijden en niet voorsorteren; kruisen om bijvoorbeeld een inrit in te rijden mag wel.",
+        "waarom": "De streep is de grens: doorgetrokken betekent dat je hem niet als rijruimte gebruikt. Een inrit oprijden vraagt maar een korte oversteek en laat de fietser verder met rust.",
+        "valkuil": "Onderbroken en doorgetrokken lijken op elkaar, maar alleen de onderbroken streep laat voorsorteren toe.",
+        "onthoud": "Doorgetrokken streep: kruisen mag, rijden niet."
+      },
+      "bronnen": [
+        {
+          "slide": 64,
+          "anker": "andere bestuurders mogen hier niet op rijden en ook niet op voorsorteren"
+        },
+        {
+          "slide": 64,
+          "anker": "Ze mogen de strook wel kruisen om bijvoorbeeld een inrit in te rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "fietsstrook",
+        "doorgetrokken-streep"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "andere bestuurders mogen hier niet op rijden en ook niet op voorsorteren",
+        "bron": "slide 64",
+        "gewijzigd": "de stam vroeg wat je mag doen terwijl een goed antwoord een verbod was; stam en opties zijn nu uitspraken, en het woord enige is teruggebracht tot wat de tabel van het boek zegt"
+      }
+    },
+    {
+      "id": "U07-Q011",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je wilt de zijstraat rechts in en rechts van jou loopt een fietsstrook met een doorgetrokken streep mee. Ga je vast op die strook staan om af te slaan?",
+      "media": {
+        "scene": "S-U07-004"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Voorsorteren tegen de kant is normaal, maar de doorgetrokken streep langs een fietsstrook houdt je daarvan af.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je blijft naast de strook en slaat af zonder erop te gaan staan.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Op een fietsstrook met een doorgetrokken streep mag je niet voorsorteren.",
+        "waarom": "Fietsers hebben die strook nodig juist op het punt waar auto's naar rechts draaien. Als jij er alvast op gaat staan, duw je ze naar de rijbaan of klem je ze tegen de stoep.",
+        "valkuil": "Bij een onderbroken streep mag het wel, mits je niemand hindert. Kijk dus altijd eerst naar de streep.",
+        "onthoud": "Streep doorgetrokken is strook verboden."
+      },
+      "bronnen": [
+        {
+          "boek": 63,
+          "sectie": "4.2",
+          "anker": "Een fietsstrook is een door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan"
+        },
+        {
+          "slide": 64,
+          "anker": "andere bestuurders mogen hier niet op rijden en ook niet op voorsorteren"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "fietsstrook",
+        "voorsorteren",
+        "rechtsaf"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "andere bestuurders mogen hier niet op rijden en ook niet op voorsorteren",
+        "bron": "slide 64"
+      }
+    },
+    {
+      "id": "U07-Q012",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je zit achter een langzame graafmachine op een weg met een rode strook zonder fietsafbeelding op het wegdek. Mag je die strook gebruiken om erlangs te gaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Ja, want zonder fietsafbeelding is het een suggestiestrook en die heeft geen juridische status.",
+          "feedback": "Goed. Hier mag je over de strook rijden om de langzame machine in te halen, mits dat veilig kan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Nee, want elke gekleurde strook langs de rijbaan is voor fietsers bestemd.",
+          "feedback": "Fout. De kleur maakt de strook niet; de fietsafbeelding op het wegdek doet dat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Nee, want een suggestiestrook mag je alleen bij het naar rechts afslaan gebruiken.",
+          "feedback": "Fout. Voorsorteren om rechtsaf te slaan mag inderdaad, maar dat is niet het enige wat er mag.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Ja, maar alleen als er een onderbroken streep langs ligt.",
+          "feedback": "Fout. Die voorwaarde hoort bij de echte fietsstrook; een suggestiestrook kent hem niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Een suggestiestrook ziet eruit als een fietsstrook, maar zonder fietsafbeelding op het wegdek en zonder juridische status, dus strikt genomen mag je erop rijden.",
+        "waarom": "Toch is het niet de bedoeling om er standaard overheen te rijden. Gebruik hem als het de veiligheid of de doorstroming helpt, zoals hier bij een voertuig dat stapvoets rijdt.",
+        "valkuil": "Kijk naar het wegdek en niet naar de kleur. Staat er een fiets op, dan gelden de strengere regels van de fietsstrook.",
+        "onthoud": "Geen fiets op het asfalt, dan is het een suggestiestrook."
+      },
+      "bronnen": [
+        {
+          "boek": 64,
+          "sectie": "4.2",
+          "anker": "Suggestiestroken hebben geen juridische status en je mag er dus strikt genomen gewoon op rijden"
+        },
+        {
+          "boek": 64,
+          "sectie": "4.2",
+          "anker": "Je mag hier over de suggestiestrook rijden om de langzaam rijdende graafmachine in te halen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "suggestiestrook",
+        "inhalen",
+        "fietsstrook"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Suggestiestroken hebben geen juridische status en je mag er dus strikt genomen gewoon op rijden",
+        "bron": "boek p. 64"
+      }
+    }
+  ]
+}

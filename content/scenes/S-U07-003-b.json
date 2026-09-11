@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-003-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de fietser"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Dezelfde smalle weg een moment later. De fietser rijdt nog steeds voor je en de grijze auto uit de andere richting is nu vlakbij.",
+  "inspiratie": {
+    "boek": 60,
+    "slide": 61
+  }
+}

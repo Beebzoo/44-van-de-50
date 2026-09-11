@@ -1,0 +1,1574 @@
+{
+  "id": "U07",
+  "slug": "plaats-op-de-weg-en-inhalen",
+  "titel": "Plaats op de weg en inhalen",
+  "ondertitel": "Waar je rijdt, en hoe je er veilig langs komt",
+  "volgorde": 7,
+  "week": 3,
+  "tier": "must",
+  "vereist": [
+    "U06"
+  ],
+  "borden": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C8",
+    "C9",
+    "D2",
+    "D4",
+    "D5"
+  ],
+  "quiz": {
+    "gate": true,
+    "lengte": 12,
+    "minimaalPool": 36,
+    "inzichtMinimum": 0.5,
+    "soort": "regels"
+  },
+  "bronnen": {
+    "boek": {
+      "secties": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "9.6",
+        "9.7",
+        "9.8",
+        "9.9",
+        "9.10",
+        "9.11"
+      ],
+      "paginas": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ]
+    },
+    "cursus": {
+      "slides": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177
+      ]
+    }
+  },
+  "cbr_onderwerpen": [
+    "gebruik_van_de_weg",
+    "bijzondere_wegen_weggebruikers_manoeuvres"
+  ],
+  "intro": "Dit blok gaat over de twee dingen die je de hele dag doet: kiezen waar je op de weg rijdt, en beslissen of je erlangs kunt. Je leert rechts houden en uitwijken, wie er eerst mag bij een versmalling of een obstakel, waar fietsers en bromfietsers rijden, wat een bocht met je auto doet, en daarna het grote onderwerp: inhalen. Let vooral op het verschil tussen inhalen en voorbijgaan, want daar zit een klassieke examenval. Aan het eind komen invoegen, uitvoegen, weven en ritsen erbij, de manoeuvres van de autoweg en de autosnelweg.",
+  "paginas": [
+    {
+      "id": "U07-P01",
+      "anker": "p-4.1-rechts-houden",
+      "titel": "Rechts houden, versmallingen en obstakels",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.1"
+          ],
+          "paginas": [
+            60,
+            61
+          ]
+        },
+        "cursus": {
+          "slides": [
+            61,
+            62,
+            169
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U07-r01",
+          "tekst": "Je moet zoveel mogelijk rechts houden, maar rijd niet te dicht tegen de stoep of tegen de berm.",
+          "bron": [
+            {
+              "boek": 60,
+              "sectie": "4.1",
+              "anker": "Je moet zoveel mogelijk rechts houden, maar rijd niet te dicht"
+            },
+            {
+              "slide": 61,
+              "anker": "Sommige tegenliggers kunnen niet uitwijken naar de berm"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r02",
+          "tekst": "Is de weg te smal voor jou en een tegenligger, dan wijken jullie allebei uit. Heeft je tegenligger bijna geen uitwijkruimte, dan wijk jij extra ruim uit.",
+          "bron": [
+            {
+              "boek": 60,
+              "sectie": "4.1",
+              "anker": "Als de weg te smal is voor jou en een tegenligger, moeten jullie allebei uitwijken"
+            },
+            {
+              "boek": 60,
+              "sectie": "4.1",
+              "anker": "Als je tegenligger (bijna) geen uitwijkruimte heeft, moet jij extra ruim uitwijken"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Uitwijken naar de berm is niet vanzelfsprekend. Lang niet elke berm draagt je auto, en een lager liggende berm of een scherpe rijbaankant trekt je wiel zo van de weg af.",
+          "bron": [
+            {
+              "boek": 60,
+              "sectie": "4.1",
+              "anker": "Lang niet elke berm is geschikt om naar uit te wijken"
+            },
+            {
+              "slide": 61,
+              "anker": "Pas extra op bij een lager liggende berm"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r03",
+          "tekst": "Bij een rijbaanversmalling regelen de borden [F5] en [F6] meestal wie er eerst mag. Rijd je in de richting van de rode pijl, dan moet je stoppen. Rijd je in de richting van de witte pijl, dan moet de tegenligger stoppen.",
+          "bron": [
+            {
+              "boek": 60,
+              "sectie": "4.1",
+              "anker": "Bij een versmalling regelen de verkeersborden F5-F6 meestal wie er eerst mag"
+            },
+            {
+              "slide": 62,
+              "anker": "rode pijl? Je tegenligger mag eerst"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "F5",
+            "F6"
+          ],
+          "tekst": "Rode pijl in het bord betekent wachten, witte pijl betekent doorrijden."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Deze twee borden gelden alleen voor bestuurders onderling. Nader je een nauwe doorgang waar voetgangers lopen, dan laat je die altijd voor gaan, ook met de witte pijl.",
+          "bron": [
+            {
+              "boek": 60,
+              "sectie": "4.1",
+              "anker": "Deze borden gelden alleen voor bestuurders onderling"
+            },
+            {
+              "slide": 62,
+              "anker": "Deze borden gelden alleen voor bestuurders. Voetgangers moet je dus altijd voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r04",
+          "tekst": "Staan er geen [F5] of [F6], kijk dan naar de waarschuwingsborden. Zit de versmalling aan jouw kant van de weg, dan stop je voor een tegenligger. Zit de versmalling aan beide kanten, dan zoeken jij en je tegenligger er samen een oplossing voor.",
+          "bron": [
+            {
+              "boek": 61,
+              "sectie": "4.1",
+              "anker": "moet je stoppen voor een tegenligger"
+            },
+            {
+              "boek": 61,
+              "sectie": "4.1",
+              "anker": "Als de versmalling aan beide kanten van de weg zit"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Zit de versmalling aan beide kanten, dan is het sociaal om vrachtauto's en bussen voor te laten gaan. Zij hebben de ruimte harder nodig dan jij.",
+          "bron": {
+            "boek": 61,
+            "sectie": "4.1",
+            "anker": "Het is dan sociaal als je vrachtauto's en bussen voor laat gaan"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r05",
+          "tekst": "Voor obstakels gelden dezelfde basisregels. Is er te weinig ruimte voor jou en je tegenligger samen, dan stop jij als het obstakel op jouw weghelft staat, en stopt je tegenligger als het op zijn weghelft staat.",
+          "bron": [
+            {
+              "boek": 61,
+              "sectie": "4.1",
+              "anker": "moet jij stoppen als het obstakel op jouw weghelft staat"
+            },
+            {
+              "slide": 62,
+              "anker": "op jouw weghelft? Jij moet wachten"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U07-101",
+          "tekst": "Het obstakel staat op jouw weghelft en er komt iemand aan. Jij bent degene die wacht, en je stopt op tijd zodat je overzicht houdt en makkelijk weer kunt wegrijden.",
+          "bron": {
+            "slide": 169,
+            "anker": "stop op tijd voor een obstakel op jouw weghelft"
+          }
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Heb jij voorrang omdat het obstakel op de andere weghelft staat, reken er dan niet op dat de tegenligger ook stopt. Veel bestuurders rijden gewoon door.",
+          "bron": {
+            "slide": 169,
+            "anker": "houd rekening met tegenliggers die doorrijden, ook als het obstakel op hun weghelft staat"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Obstakel op jouw helft: jij wacht. Rode pijl: jij wacht. Voetgangers in een nauwe doorgang: altijd voor laten gaan."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Op de weghelft van je tegenligger staat een vrachtauto stil en de weg is te smal voor jullie samen. Wie moet er wachten?",
+          "antwoord": "De tegenligger.",
+          "uitleg": "Het obstakel staat op zijn weghelft, dus hij stopt. Wees er wel op voorbereid dat hij toch doorrijdt.",
+          "bron": {
+            "boek": 61,
+            "sectie": "4.1",
+            "anker": "moet je tegenligger stoppen als het obstakel op zijn weghelft staat"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je nadert een smalle brug met bord [F6]. Wat betekent dat voor jou?",
+          "antwoord": "Je mag doorrijden en de tegenligger moet stoppen.",
+          "uitleg": "In [F6] wijst de witte pijl jouw kant op, en dat bord zegt dat het verkeer uit de andere richting jou voor laat gaan.",
+          "bron": {
+            "boek": 60,
+            "sectie": "4.1",
+            "anker": "Rijd je in de richting van de witte pijl, dan moeten de tegemoetkomende bestuurders stoppen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U07-P02",
+      "anker": "p-4.1-eenrichtingsweg",
+      "titel": "Eenrichtingswegen, gescheiden rijbanen en ventwegen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.1",
+            "4.3"
+          ],
+          "paginas": [
+            62,
+            66,
+            67
+          ]
+        },
+        "cursus": {
+          "slides": [
+            63,
+            65
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U07-r06",
+          "tekst": "Een eenrichtingsweg mag je maar van een kant inrijden. Je mag er niet achteruitrijden en je mag er niet keren. Achterwaarts inparkeren of een inrit inrijden mag wel.",
+          "bron": [
+            {
+              "boek": 62,
+              "sectie": "4.1",
+              "anker": "De eenrichtingsweg mag je maar van een kant inrijden"
+            },
+            {
+              "boek": 62,
+              "sectie": "4.1",
+              "anker": "Je mag op een eenrichtingsweg niet achteruitrijden en je mag ook niet keren"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Er zijn drie soorten: de volledige eenrichtingsweg, een weg die alleen voor een bepaalde groep eenrichting is, en een weg met een groep die juist is uitgezonderd.",
+          "bron": {
+            "slide": 63,
+            "anker": "geldt alleen voor een bepaalde groep"
+          }
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "tekst": "Zo herken je de eenrichtingsweg: [C2] aan de kant waar je niet in mag, [C3] en [C4] aan de kant waar je wel in mag."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De ronde blauwe pijlborden [D4] en [D5] lijken op een eenrichtingsbord, maar dat zijn ze niet. Ze geven een verplichte rijrichting aan.",
+          "bron": {
+            "slide": 63,
+            "anker": "deze borden geven een verplichte rijrichting aan, geen eenrichtingsweg"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Op veel eenrichtingswegen staat een onderbord dat fietsers, snorfietsers en bromfietsers uitzondert. Reken dus op tegenliggers op twee wielen.",
+          "bron": [
+            {
+              "boek": 62,
+              "sectie": "4.1",
+              "anker": "Op veel eenrichtingswegen geldt een uitzondering voor fietsers, snorfietsers en bromfietsers"
+            },
+            {
+              "slide": 63,
+              "anker": "Op veel eenrichtingswegen geldt een uitzondering voor fietsers, snorfietsers en bromfietsers"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r07",
+          "tekst": "Is een weg in twee rijbanen verdeeld, bijvoorbeeld door een middenberm, dan wijst bord [D2] meestal aan welke rijbaan je moet volgen. Staan er geen borden, dan houd je rechts en volg je dus de rechter rijbaan.",
+          "bron": [
+            {
+              "boek": 66,
+              "sectie": "4.3",
+              "anker": "wijst een bord meestal aan welke rijbaan je moet volgen"
+            },
+            {
+              "boek": 66,
+              "sectie": "4.3",
+              "anker": "Als er geen borden staan, moet je rechts houden en dus de rechter rijbaan volgen"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Naast de hoofdrijbaan ligt soms een ventweg, ook wel parallelweg genoemd. De hoofdweg is bedoeld voor het snelle en doorgaande verkeer, de ventweg voor het langzame en lokale verkeer.",
+          "bron": {
+            "boek": 66,
+            "sectie": "4.3",
+            "anker": "De hoofdweg is dan bedoeld voor het snelle en doorgaande verkeer"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Bord bij de weg",
+            "Trekker tot 25 km/u",
+            "Trekker sneller dan 25 km/u"
+          ],
+          "rijen": [
+            [
+              "geen borden",
+              "mag de weg inrijden",
+              "mag de weg inrijden"
+            ],
+            [
+              "[C8] of [C9] zonder onderbord",
+              "mag de weg niet inrijden",
+              "mag de weg niet inrijden"
+            ],
+            [
+              "[C8] of [C9] met onderbord voor snellere trekkers",
+              "mag de weg niet inrijden",
+              "mag de weg inrijden"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 67,
+              "sectie": "4.3",
+              "anker": "Snellere tractoren mogen de (hoofd)weg dan wel gebruiken"
+            },
+            {
+              "slide": 65,
+              "anker": "Als er een hoofdrijbaan en een ventweg of parallelweg is"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Bij de ingang van een ventweg staat bord [C5]. Dat betekent dat je die weg van beide kanten mag inrijden.",
+          "bron": [
+            {
+              "boek": 67,
+              "sectie": "4.3",
+              "anker": "Dit bord wordt bij een ventweg of parallelweg geplaatst als je die"
+            },
+            {
+              "slide": 65,
+              "anker": "Als je een ventweg of parallelweg in twee richtingen mag inrijden"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Eenrichtingsweg: niet keren, niet achteruit de straat uit. Blauwe ronde pijl is een rijrichting, geen eenrichtingsweg."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je staat in een eenrichtingsstraat en je bent de zijstraat voorbijgereden die je in wilde. Mag je een stukje achteruit?",
+          "antwoord": "Nee.",
+          "uitleg": "Achteruitrijden op een eenrichtingsweg mag niet, keren ook niet. Je rijdt door en gaat om.",
+          "bron": {
+            "boek": 62,
+            "sectie": "4.1",
+            "anker": "Je mag op een eenrichtingsweg niet achteruitrijden en je mag ook niet keren"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Een weg heeft twee rijbanen met een groenstrook ertussen en er staan geen borden. Welke rijbaan neem je?",
+          "antwoord": "De rechter rijbaan.",
+          "uitleg": "Zonder bord val je terug op de gewone regel dat je rechts houdt.",
+          "bron": {
+            "boek": 66,
+            "sectie": "4.3",
+            "anker": "Als er geen borden staan, moet je rechts houden en dus de rechter rijbaan volgen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U07-P03",
+      "anker": "p-4.2-fietsers-en-stroken",
+      "titel": "Fietsers, bromfietsers en fietsstroken",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.2"
+          ],
+          "paginas": [
+            62,
+            63,
+            64
+          ]
+        },
+        "cursus": {
+          "slides": [
+            61,
+            64
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Of je fietsers en bromfietsers op de rijbaan tegenkomt, hangt af van wat er naast de rijbaan ligt. Dit overzicht staat in het boek.",
+          "bron": {
+            "boek": 62,
+            "sectie": "4.2",
+            "anker": "Het kan zijn dat je op de rijbaan met fietsers"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Situatie",
+            "Fietsers en snorfietsers",
+            "Bromfietsers"
+          ],
+          "rijen": [
+            [
+              "geen gescheiden pad",
+              "rijbaan",
+              "rijbaan"
+            ],
+            [
+              "gescheiden fietspad",
+              "fietspad",
+              "rijbaan"
+            ],
+            [
+              "gescheiden fiets- en bromfietspad",
+              "fiets- en bromfietspad",
+              "fiets- en bromfietspad"
+            ]
+          ],
+          "bron": [
+            {
+              "slide": 64,
+              "anker": "bromfietsers moeten op de rijbaan (gaan) rijden"
+            },
+            {
+              "slide": 64,
+              "anker": "fietsers, snorfietsers en bromfietsers moeten hierop (gaan) rijden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r08",
+          "tekst": "Ligt er geen vrijliggend pad, houd er dan rekening mee dat fietsers en snorfietsers je rechts mogen inhalen op de rijbaan. Bromfietsers mogen dat niet, maar doen het vaak wel.",
+          "bron": [
+            {
+              "boek": 62,
+              "sectie": "4.2",
+              "anker": "fietsers en snorfietsers je rechts mogen inhalen op de rijbaan"
+            },
+            {
+              "slide": 64,
+              "anker": "Bromfietsers mogen dat niet, maar doen het vaak wel"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r09",
+          "tekst": "Een fietsstrook is een door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop afbeeldingen van een fiets zijn aangebracht.",
+          "bron": {
+            "boek": 63,
+            "sectie": "4.2",
+            "anker": "Een fietsstrook is een door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Wat jij doet",
+            "Doorgetrokken streep",
+            "Onderbroken streep",
+            "Busstrook"
+          ],
+          "rijen": [
+            [
+              "erop rijden",
+              "nee",
+              "nee",
+              "nee"
+            ],
+            [
+              "erop voorsorteren",
+              "nee",
+              "ja, mits je niemand hindert",
+              "nee"
+            ],
+            [
+              "kruisen om een inrit in te rijden",
+              "ja",
+              "ja",
+              "ja"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 63,
+              "sectie": "4.2",
+              "anker": "Alleen als het beter is voor de doorstroming en je geen gevaar of hinder veroorzaakt"
+            },
+            {
+              "slide": 64,
+              "anker": "andere bestuurders mogen hier niet op rijden en ook niet op voorsorteren"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U07-102",
+          "tekst": "Rechts van je ligt een fietsstrook met een doorgetrokken streep. Daar blijf je vanaf, ook als je rechtsaf wilt. Kruisen om een inrit in te rijden mag wel.",
+          "bron": {
+            "slide": 64,
+            "anker": "Ze mogen de strook wel kruisen om bijvoorbeeld een inrit in te rijden"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r10",
+          "tekst": "Een suggestiestrook ziet eruit als een fietsstrook, maar de afbeelding van een fiets ontbreekt op het wegdek. Zo'n strook heeft geen juridische status, dus strikt genomen mag je erop rijden.",
+          "bron": {
+            "boek": 64,
+            "sectie": "4.2",
+            "anker": "Suggestiestroken hebben geen juridische status en je mag er dus strikt genomen gewoon op rijden"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt achter een langzame graafmachine op een weg met suggestiestroken. Je mag over de strook rijden om hem in te halen, want dat is beter voor de doorstroming. Bij het naar rechts afslaan mag je er ook op voorsorteren.",
+          "bron": {
+            "boek": 64,
+            "sectie": "4.2",
+            "anker": "Bij het naar rechts afslaan mag je erop voorsorteren"
+          }
+        },
+        {
+          "type": "tekst",
+          "tekst": "Een fietsstraat is speciaal bedoeld voor fietsers. Andere bestuurders mogen er gebruik van maken, maar moeten zoveel mogelijk rekening houden met de fietsers. Je herkent hem aan het bord en vaak ook aan de inrichting.",
+          "bron": [
+            {
+              "boek": 64,
+              "sectie": "4.2",
+              "anker": "Andere bestuurders mogen gebruik maken van deze weg, maar moeten zoveel mogelijk rekening houden"
+            },
+            {
+              "slide": 64,
+              "anker": "Je herkent de fietsstraat aan het bord"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Fietsers op een fietsstrook wanen zich veilig en letten daardoor minder goed op het overige verkeer. Reken daar op als je er langs gaat.",
+          "bron": {
+            "boek": 63,
+            "sectie": "4.2",
+            "anker": "dat ze zich daar 'veilig wanen' en minder goed op het overige verkeer letten"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Fiets op het wegdek is een fietsstrook, geen fiets is een suggestiestrook. Doorgetrokken streep: eraf blijven."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Rechts van je ligt een fietsstrook met een onderbroken streep en je wilt rechtsaf. Mag je erop voorsorteren?",
+          "antwoord": "Ja, als je geen gevaar of hinder veroorzaakt.",
+          "uitleg": "Bij een onderbroken streep mag het, mits het beter is voor de doorstroming en er geen fietser door in de knel komt.",
+          "bron": {
+            "slide": 64,
+            "anker": "maar wel op voorsorteren als dat beter is voor de doorstroming"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Er ligt een gescheiden fietspad langs de weg. Waar rijdt de bromfietser?",
+          "antwoord": "Op de rijbaan.",
+          "uitleg": "Alleen bij een fiets- en bromfietspad gaat de bromfietser van de rijbaan af.",
+          "bron": {
+            "slide": 64,
+            "anker": "bromfietsers moeten op de rijbaan (gaan) rijden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U07-P04",
+      "anker": "p-4.3-enkelbaanswegen-en-bochten",
+      "titel": "Enkelbaanswegen en bochten",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "4.3",
+            "4.4"
+          ],
+          "paginas": [
+            64,
+            65,
+            68
+          ]
+        },
+        "cursus": {
+          "slides": [
+            66,
+            67,
+            68
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U07-r11",
+          "tekst": "Pas op voor een scherpe rijbaankant en een lager liggende berm op smalle enkelbaanswegen buiten de bebouwde kom. Raak je met je rechterwielen van de weg, dan verlies je al snel de controle over je stuur.",
+          "bron": {
+            "boek": 64,
+            "sectie": "4.3",
+            "anker": "Als je met je rechterwielen van de weg raakt, verlies je al snel de controle"
+          }
+        },
+        {
+          "type": "waarom",
+          "tekst": "Het gevaar zit niet in de berm zelf, maar in het moment erna: je schrikt, je stuurt hard terug en de auto schiet dwars de weg over. Daarom ga je langzamer rijden voordat je moet uitwijken, niet terwijl je uitwijkt.",
+          "bron": [
+            {
+              "boek": 64,
+              "sectie": "4.3",
+              "anker": "Zorg dat je tijdig langzamer gaat rijden en desnoods stopt om het passeren veilig"
+            },
+            {
+              "slide": 66,
+              "anker": "laat je gas los en stuur rustig terug. Wilde stuurbewegingen zijn gevaarlijk"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "je kunt niet uitwijken, en tegenliggers ook niet",
+            "je ziet bestuurders uit zijwegen niet goed aankomen, en zij jou niet",
+            "de bomen belemmeren je zicht in bochten",
+            "natte bladeren in het najaar maken het wegdek glad"
+          ],
+          "bron": [
+            {
+              "boek": 65,
+              "sectie": "4.3",
+              "anker": "belemmeren de bomen je zicht in bochten"
+            },
+            {
+              "slide": 66,
+              "anker": "bomen langs de weg die het zicht op zijwegen en uitritten wegnemen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r12",
+          "tekst": "In landelijke gebieden moet je rekenen op fietsers en ruiters op de rijbaan. Stem je rijgedrag daarop af en haal ze alleen in als er voldoende ruimte is.",
+          "bron": {
+            "boek": 65,
+            "sectie": "4.3",
+            "anker": "Stem je rijgedrag af en haal ze alleen in als er voldoende ruimte is"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r13",
+          "tekst": "Veilig door een bocht rijden doe je zo: schat het verloop van de bocht tijdig in, kies de juiste versnelling en pas je snelheid aan voor de bocht, beoordeel de rijbaanbreedte, het wegdek en de wegverkanting, en wees alert op tegenliggers en op langzame voorliggers.",
+          "bron": [
+            {
+              "boek": 68,
+              "sectie": "4.4",
+              "anker": "wees alert op tegenliggers, maar ook op langzame voorliggers"
+            },
+            {
+              "slide": 67,
+              "anker": "beoordeel de rijbaanbreedte, de toestand van het wegdek en de wegverkanting"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "In een bocht is veilig inhalen meestal niet mogelijk. Wacht tot na de bocht.",
+          "bron": {
+            "slide": 67,
+            "anker": "veilig inhalen is meestal niet mogelijk; wacht tot na de bocht"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r14",
+          "tekst": "De middelpuntvliedende kracht duwt je naar de buitenkant van de bocht. Die kracht is sterker als de straal van de bocht kleiner wordt en als je snelheid hoger wordt.",
+          "bron": [
+            {
+              "boek": 68,
+              "sectie": "4.4",
+              "anker": "Deze kracht duwt je naar de buitenkant van de bocht"
+            },
+            {
+              "slide": 68,
+              "anker": "Centrifugaalkracht treedt op zodra je van de rechte rijlijn afwijkt"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Neem je dezelfde bocht eenmaal met 30 km/u en eenmaal met 60 km/u, dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot.",
+          "bron": {
+            "boek": 68,
+            "sectie": "4.4",
+            "anker": "dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot"
+          }
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Wegverkanting",
+            "Hoe het wegdek ligt",
+            "Wat het met je doet"
+          ],
+          "rijen": [
+            [
+              "positief",
+              "de buitenbocht ligt hoger dan de binnenbocht",
+              "de kracht wordt gedeeltelijk gecompenseerd"
+            ],
+            [
+              "negatief",
+              "de buitenbocht ligt lager dan de binnenbocht",
+              "groter risico om uit de bocht te vliegen"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 68,
+              "sectie": "4.4",
+              "anker": "Bij positieve wegverkanting ligt de buitenbocht hoger dan de binnenbocht"
+            },
+            {
+              "boek": 68,
+              "sectie": "4.4",
+              "anker": "Bij negatieve wegverkanting is het risico groter om uit de bocht te vliegen"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Snelheid eruit voor de bocht, niet erin. Negatieve verkanting loopt naar buiten af en werkt tegen je."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je gaat door dezelfde bocht twee keer zo hard. Wat gebeurt er met de middelpuntvliedende kracht?",
+          "antwoord": "Die wordt vier maal zo groot.",
+          "uitleg": "De kracht loopt hard op met de snelheid, en daarom voel je een bocht bij 60 km/u zo veel heftiger dan bij 30 km/u.",
+          "bron": {
+            "boek": 68,
+            "sectie": "4.4",
+            "anker": "dan is de middelpuntvliedende kracht bij 60 km/u vier maal zo groot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U07-P05",
+      "anker": "p-9.6-inhalen-of-voorbijgaan",
+      "titel": "Inhalen of voorbijgaan, en links is de regel",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "9.6"
+          ],
+          "paginas": [
+            140,
+            141,
+            142
+          ]
+        },
+        "cursus": {
+          "slides": [
+            165,
+            166,
+            169,
+            170
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U07-r15",
+          "tekst": "We spreken van inhalen als het gaat om rijdende bestuurders onderling in dezelfde richting, en van voorbijgaan bij het passeren van stilstaande voertuigen, stilstaande obstakels en voetgangers.",
+          "bron": [
+            {
+              "boek": 140,
+              "sectie": "9.6",
+              "anker": "inhalen als we het hebben over rijdende bestuurders onderling in dezelfde richting"
+            },
+            {
+              "slide": 165,
+              "anker": "voorbijgaan (in lichtblauw) bij het passeren van stilstaande voertuigen en obstakels"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Het onderscheid is niet alleen taal. Een inhaalverbodsbord en het verbod vlak voor een voetgangersoversteekplaats gaan over inhalen, dus over rijdende voertuigen. Let wel op dat een doorgetrokken streep iets anders is: die mag je sowieso niet overschrijden, ook niet om iets voorbij te gaan dat stilstaat.",
+          "bron": {
+            "afgeleid": true
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r16",
+          "tekst": "Bij het inhalen en voorbijgaan mag je geen gevaar of hinder veroorzaken, en is richting aangeven verplicht.",
+          "bron": [
+            {
+              "boek": 140,
+              "sectie": "9.6",
+              "anker": "Bij het inhalen en voorbijgaan mag je geen gevaar of hinder veroorzaken"
+            },
+            {
+              "slide": 165,
+              "anker": "mag je geen gevaar of hinder veroorzaken en is richting aangeven verplicht"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Bij elke belangrijke zijdelingse verplaatsing is richting aangeven verplicht. Zelfs het inhalen van een fietser op een smalle weg of het voorbijgaan van een geparkeerde auto kan zo'n verplaatsing zijn.",
+          "bron": {
+            "boek": 141,
+            "sectie": "9.6",
+            "anker": "Bij elke belangrijke zijdelingse verplaatsing is richting aangeven verplicht"
+          }
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "geef pas richting aan als je daadwerkelijk met de inhaalmanoeuvre begint",
+            "wijk ruim voor het inhalen uit, zodat je eerst nog even rechtuit rijdt",
+            "passeer obstakels niet te snel of te krap",
+            "breng fietsers en snorfietsers die ook het obstakel voorbij rijden niet in gevaar"
+          ],
+          "bron": [
+            {
+              "boek": 141,
+              "sectie": "9.6",
+              "anker": "geef pas richting aan als je daadwerkelijk met de inhaalmanoeuvre begint"
+            },
+            {
+              "slide": 169,
+              "anker": "breng fietsers en snorfietsers die ook het obstakel voorbijrijden niet in gevaar"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r17",
+          "tekst": "In principe moet je altijd links inhalen. Rechts inhalen is alleen toegestaan vlak voor en op rotondes, als je rechts van een blokmarkering rijdt, als je een file inhaalt, als de in te halen bestuurder links voorgesorteerd heeft en richting naar links aangeeft, en als het in te halen voertuig een tram is.",
+          "bron": [
+            {
+              "boek": 141,
+              "sectie": "9.6",
+              "anker": "In principe moet je altijd links inhalen"
+            },
+            {
+              "slide": 166,
+              "anker": "Haal in principe altijd links in. Rechts inhalen is alleen toegestaan"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "ezelsbrug",
+          "tekst": "De cursus maakt van die uitzonderingen het woord FRUIT: File, Rotonde, Uitvoegen, Invoegen, Tram. Handig om te onthouden, maar het is een geheugensteun en geen wetstekst. Uitvoegen en invoegen zijn de gevallen waarin je rechts van een blokmarkering rijdt, en de bestuurder die links heeft voorgesorteerd zit niet in het woord.",
+          "bron": [
+            {
+              "afgeleid": true
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U07-103",
+          "tekst": "De grijze auto voor je gaat links de zijstraat in en geeft dat met zijn richtingaanwijzer aan. Hij heeft links voorgesorteerd, en dan mag je hem rechts inhalen.",
+          "bron": {
+            "slide": 166,
+            "anker": "Ook een links voorgesorteerd voertuig (richting aan naar links) mag je rechts inhalen"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt achter een veegmachine en verderop ligt een kruispunt. Je mag hem alleen links inhalen. Inhalen vlak voor een kruispunt is niet altijd verstandig, maar het is niet verboden.",
+          "bron": [
+            {
+              "slide": 170,
+              "anker": "je mag de veegmachine alleen links inhalen"
+            },
+            {
+              "slide": 170,
+              "anker": "Inhalen vlak voor een kruispunt is niet altijd verstandig, maar niet verboden"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Fietsers en snorfietsers mogen andere bestuurders rechts inhalen. Laat je daardoor niet verrassen als je zelf naar rechts wilt.",
+          "bron": {
+            "boek": 142,
+            "sectie": "9.6",
+            "anker": "fietsers en snorfietsers mogen andere bestuurders rechts inhalen"
+          }
+        },
+        {
+          "type": "callout",
+          "stijl": "tip",
+          "tekst": "Rijd je in een rijtje achter een traag voertuig, haal dan op volgorde in: het voorste voertuig haalt telkens als eerste in.",
+          "bron": {
+            "boek": 142,
+            "sectie": "9.6",
+            "anker": "rijd je in een rijtje achter een traag voertuig, haal dan 'op volgorde' in"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Rijdt het, dan haal je in. Staat het stil, dan ga je voorbij. Links is de regel, rechts is de uitzondering."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je gaat links om een stilstaande bestelauto heen die op jouw weghelft geparkeerd staat. Haal je in of ga je voorbij?",
+          "antwoord": "Je gaat voorbij.",
+          "uitleg": "Voorbijgaan is het passeren van stilstaande voertuigen en obstakels; inhalen gaat over rijdende bestuurders.",
+          "bron": {
+            "slide": 165,
+            "anker": "inhalen (in lichtblauw) bij het passeren van rijdende bestuurders onderling"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Waarom mag je een tram aan de rechterkant inhalen?",
+          "antwoord": "Omdat de tram een van de uitzonderingen op links inhalen is.",
+          "uitleg": "Een tram rijdt midden op de weg, dus rechts erlangs is de normale manier.",
+          "bron": {
+            "boek": 141,
+            "sectie": "9.6",
+            "anker": "als het in te halen voertuig een tram is"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U07-P06",
+      "anker": "p-9.6-inhaalverbod-en-veilig-inhalen",
+      "titel": "Inhalen verboden, en veilig inhalen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "9.6"
+          ],
+          "paginas": [
+            143,
+            144,
+            145,
+            146,
+            147
+          ]
+        },
+        "cursus": {
+          "slides": [
+            167,
+            168,
+            171
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U07-r18",
+          "tekst": "Op plaatsen waar inhalen gevaarlijk is, staat vaak het bord verboden in te halen. Na [F1] mogen motorvoertuigen elkaar niet inhalen, na [F3] mogen vrachtauto's geen motorvoertuigen inhalen. [F2] en [F4] heffen die verboden weer op.",
+          "bron": [
+            {
+              "boek": 145,
+              "sectie": "9.6",
+              "anker": "Op plaatsen waar inhalen gevaarlijk is, staat vaak het bord 'verboden in te halen'"
+            },
+            {
+              "boek": 145,
+              "sectie": "9.6",
+              "anker": "Motorvoertuigen mogen elkaar dan niet inhalen of vrachtauto's mogen geen motorvoertuigen inhalen"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "F1",
+            "F2",
+            "F3",
+            "F4"
+          ],
+          "tekst": "De rode borden zetten het verbod in, de doorgestreepte witte borden halen het er weer af."
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Na [F1] mag je geen enkel motorvoertuig inhalen, ook geen motorfiets. Staat er een onderbord met een tractor, dan mag je landbouwverkeer wel inhalen.",
+          "bron": [
+            {
+              "slide": 167,
+              "anker": "na dit bord mag je geen motorvoertuigen inhalen, ook geen motorfiets"
+            },
+            {
+              "boek": 146,
+              "sectie": "9.6",
+              "anker": "Het is hier wel toegestaan om tractoren in te halen"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Het inhaalverbod tref je vaak aan voor onoverzichtelijke bochten en hellingen, voor onoverzichtelijke kruispunten en voor overwegen die alleen met een knipperlichtinstallatie zijn beveiligd.",
+          "bron": {
+            "boek": 146,
+            "sectie": "9.6",
+            "anker": "Het verbod om in te halen tref je vaak aan voor"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r19",
+          "tekst": "Vlak voor of op een voetgangersoversteekplaats is het altijd verboden om een voertuig in te halen, ook al staat er geen inhaalverbodsbord.",
+          "bron": [
+            {
+              "boek": 146,
+              "sectie": "9.6",
+              "anker": "Vlak voor of op een voetgangersoversteekplaats is het altijd verboden om een voertuig"
+            },
+            {
+              "slide": 167,
+              "anker": "(van een voertuig) vlak voor en op een voetgangersoversteekplaats"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "ref": "S-U07-104",
+          "tekst": "Voor je rijdt een auto naar een zebrapad toe. Hier haal je hem niet in, ook zonder verbodsbord, want een voetganger die aan komt lopen zie jij vanachter die auto niet.",
+          "bron": {
+            "slide": 167,
+            "anker": "(van een voertuig) vlak voor en op een voetgangersoversteekplaats"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r20",
+          "tekst": "Ligt er op het midden van de weg of tussen de rijstroken een enkele of dubbele doorgetrokken streep, dan mag je die streep niet overschrijden en dus ook niet inhalen. Liggen er twee strepen, een onderbroken en een doorgetrokken, dan mag je inhalen als de onderbroken streep aan jouw kant ligt.",
+          "bron": [
+            {
+              "boek": 146,
+              "sectie": "9.6",
+              "anker": "mag je die streep niet overschrijden"
+            },
+            {
+              "boek": 146,
+              "sectie": "9.6",
+              "anker": "dan mag je inhalen als de onderbroken streep aan jouw kant ligt"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Haal op enkelbaanswegen ook niet in ter hoogte van een geel knipperlicht. Dat licht waarschuwt je voor een gevaarlijke situatie.",
+          "bron": {
+            "boek": 147,
+            "sectie": "9.6",
+            "anker": "Haal op enkelbaanswegen niet in ter hoogte van een geel knipperlicht"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r21",
+          "tekst": "Zorg dat je op tijd klaar bent met je inhaalmanoeuvre. Je moet hem altijd volledig hebben afgerond ruim voor een onoverzichtelijke situatie, voor het punt waar een inhaalverbod van kracht wordt, en ruim voor het begin van een doorgetrokken streep.",
+          "bron": [
+            {
+              "boek": 144,
+              "sectie": "9.6",
+              "anker": "Zorg dat je op tijd klaar bent met je inhaalmanoeuvre"
+            },
+            {
+              "boek": 144,
+              "sectie": "9.6",
+              "anker": "voor het punt waar een inhaalverbod van kracht wordt"
+            }
+          ]
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "houd voldoende afstand tot je voorligger met de tweesecondenregel, zodat die jou goed kan zien",
+            "ga na of er voor je voorligger genoeg vrije ruimte is en of er geen tegenligger nadert",
+            "controleer of je voorligger niet van plan is om links af te slaan",
+            "controleer of je niet zelf juist wordt ingehaald",
+            "geef richting aan en ga in een vloeiende lijn naar links, en zet de richtingaanwijzer uit zodra je naar links bent gegaan",
+            "ga nooit zo vroeg naar rechts dat je het ingehaalde voertuig snijdt"
+          ],
+          "bron": [
+            {
+              "boek": 145,
+              "sectie": "9.6",
+              "anker": "controleer of je voorligger niet van plan is om links af te slaan"
+            },
+            {
+              "boek": 145,
+              "sectie": "9.6",
+              "anker": "ga nooit zo vroeg naar rechts dat je het ingehaalde voertuig snijdt"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r22",
+          "tekst": "Voor je gaat inhalen kijk je eerst in de binnenspiegel, daarna in de linkerbuitenspiegel en vervolgens over je linkerschouder. Doe je dat laatste niet, dan kun je een auto links van je gewoon missen omdat die in een dode hoek zit.",
+          "bron": [
+            {
+              "boek": 143,
+              "sectie": "9.6",
+              "anker": "kun je een auto links van je gewoon 'missen'"
+            },
+            {
+              "slide": 171,
+              "anker": "Blijf daarom bij zijdelingse verplaatsingen goed spiegelen en over je schouder kijken"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Spiegels laten een deel van de ruimte naast je niet zien, en juist daar zit de auto die op het punt staat jou in te halen. Door je spiegels goed af te stellen maak je die gaten kleiner, maar weg krijg je ze niet.",
+          "bron": {
+            "slide": 171,
+            "anker": "Door je spiegels juist af te stellen verklein je de dode hoeken"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r23",
+          "tekst": "Houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand, minimaal 1,5 meter.",
+          "bron": [
+            {
+              "boek": 145,
+              "sectie": "9.6",
+              "anker": "houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand"
+            },
+            {
+              "slide": 168,
+              "anker": "passeer niet 'te krap'; houd bij kwetsbare verkeersdeelnemers minimaal 1,5 meter afstand"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Hoe kleiner het snelheidsverschil, hoe langer je bezig bent en hoe meer ruimte je nodig hebt. Rijd jij 80 km/u en je voorligger 25 km/u, dan is de inhaalafstand 87 meter. Rijdt diezelfde voorligger 60 km/u, dan is het 240 meter.",
+          "bron": [
+            {
+              "boek": 143,
+              "sectie": "9.6",
+              "anker": "Hoe kleiner het snelheidsverschil tussen jouw voertuig en het voertuig dat je inhaalt"
+            },
+            {
+              "boek": 143,
+              "sectie": "9.6",
+              "anker": "60 x 80 : (80 - 60) = 240 meter"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Binnenspiegel, buitenspiegel, schouder. Klaar zijn voor de streep, voor het bord en voor de bocht."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Er ligt een onderbroken streep aan jouw kant en een doorgetrokken streep aan de andere kant. Mag je inhalen?",
+          "antwoord": "Ja.",
+          "uitleg": "Bij twee strepen telt de streep aan jouw kant, en een onderbroken streep mag je overschrijden.",
+          "bron": {
+            "boek": 146,
+            "sectie": "9.6",
+            "anker": "dan mag je inhalen als de onderbroken streep aan jouw kant ligt"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je nadert een zebrapad en er staat geen inhaalverbodsbord. Mag je de auto voor je inhalen?",
+          "antwoord": "Nee.",
+          "uitleg": "Vlak voor en op een voetgangersoversteekplaats is inhalen altijd verboden, bord of geen bord.",
+          "bron": {
+            "boek": 146,
+            "sectie": "9.6",
+            "anker": "Vlak voor of op een voetgangersoversteekplaats is het altijd verboden om een voertuig"
+          }
+        }
+      ]
+    },
+    {
+      "id": "U07-P07",
+      "anker": "p-9.7-invoegen-uitvoegen-weven-ritsen",
+      "titel": "Invoegen, uitvoegen, weven en ritsen",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "9.7",
+            "9.8",
+            "9.9",
+            "9.10",
+            "9.11"
+          ],
+          "paginas": [
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155
+          ]
+        },
+        "cursus": {
+          "slides": [
+            172,
+            173,
+            174,
+            175,
+            176,
+            177
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "regel",
+          "id": "U07-r24",
+          "tekst": "Bij het oprijden van een autoweg of autosnelweg moet je gebruikmaken van de invoegstrook. Gebruik altijd ongeveer 2/3 van de invoegstrook om snelheid te maken, ook al kun je eerder invoegen. Je moet de bestuurders op de doorgaande rijbaan voor laten gaan.",
+          "bron": [
+            {
+              "boek": 148,
+              "sectie": "9.7",
+              "anker": "Bij het oprijden van een autoweg of autosnelweg moet je gebruikmaken van de invoegstrook"
+            },
+            {
+              "boek": 148,
+              "sectie": "9.7",
+              "anker": "Je moet de bestuurders op de doorgaande rijbaan voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Verkeer op de doorgaande rijbaan gaat soms naar links om jou ruimte te geven, maar dat is niet verplicht. Reken er dus niet op.",
+          "bron": {
+            "boek": 148,
+            "sectie": "9.7",
+            "anker": "Maar dat is niet verplicht, dus reken er niet op"
+          }
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "maak snelheid op de toeleidende weg en op de invoegstrook",
+            "kijk in je spiegels, opzij en over je schouder",
+            "geef pas richting aan vlak voor je invoegt",
+            "zet de richtingaanwijzer weer uit zodra je de blokmarkering bent gepasseerd",
+            "haal op de invoegstrook geen verkeer op de doorgaande rijbaan in"
+          ],
+          "bron": [
+            {
+              "slide": 172,
+              "anker": "geef pas richting aan vlak voor je invoegt"
+            },
+            {
+              "boek": 150,
+              "sectie": "9.7",
+              "anker": "haal op de invoegstrook geen verkeer op de doorgaande rijbaan in"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r25",
+          "tekst": "Kun je op een korte invoegstrook niet genoeg snelheid maken om veilig in te voegen, stop dan aan het begin van de strook. Doorrijden op de vluchtstrook mag niet.",
+          "bron": [
+            {
+              "slide": 172,
+              "anker": "stop desnoods aan het begin van de strook als je niet kunt invoegen"
+            },
+            {
+              "boek": 150,
+              "sectie": "9.7",
+              "anker": "Je mag bij het invoegen niet op de vluchtstrook komen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r26",
+          "tekst": "Bij het uitvoegen gebruik je de hele uitrijstrook, maar je mag niet over de vluchtstrook rijden. Geef richting aan op ongeveer 300 meter voor het begin van de uitrijstrook en verminder je snelheid in principe pas op de strook zelf.",
+          "bron": [
+            {
+              "boek": 151,
+              "sectie": "9.8",
+              "anker": "Bij het uitvoegen moet je de hele uitrijstrook gebruiken"
+            },
+            {
+              "slide": 173,
+              "anker": "verminder je snelheid (in principe) pas op de uitrijstrook"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Vanaf het punt waar pijlen de rijrichting aangeven mag je niet meer terug naar de hoofdrijbaan. Op de uitrijstrook mag je wel langzaam rijdende bestuurders op de doorgaande rijbaan rechts inhalen, als dat nodig is voor een vlotte doorstroming en je niemand hindert.",
+          "bron": [
+            {
+              "boek": 153,
+              "sectie": "9.8",
+              "anker": "mag je vanaf het punt waar pijlen de rijrichting aangeven niet meer terug"
+            },
+            {
+              "boek": 153,
+              "sectie": "9.8",
+              "anker": "Op de uitrijstrook mag je (rechts van de blokmarkering) langzaam rijdende bestuurders"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r27",
+          "tekst": "Gecombineerde invoeg- en uitrijstroken heten weefvakken. Wettelijk moeten invoegers en uitvoegers elkaar voor laten gaan, maar dat leidt tot aarzeling. In de praktijk laten invoegers de uitvoegers voorgaan, omdat zij langzamer rijden en meer ruimte en overzicht hebben.",
+          "bron": [
+            {
+              "boek": 153,
+              "sectie": "9.9",
+              "anker": "Wettelijk is het zo geregeld dat invoegers en uitvoegers elkaar voor moeten laten gaan"
+            },
+            {
+              "boek": 153,
+              "sectie": "9.9",
+              "anker": "is het veiliger en daarom vanzelfsprekend dat zij uitvoegers voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r28",
+          "tekst": "Ritsen is het op een ordelijke manier wisselen van rijstrook op punten waar de rijbaan met een strook versmalt. Elke bestuurder op de doorgaande rijstrook laat telkens een bestuurder van de gestremde rijstrook voor gaan.",
+          "bron": [
+            {
+              "boek": 154,
+              "sectie": "9.10",
+              "anker": "Ritsen is het op een ordelijke manier wisselen van rijstrook op punten"
+            },
+            {
+              "slide": 175,
+              "anker": "laat dan de ritsende bestuurder ertussen"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Je rijdt op de strook die eindigt. Op ongeveer 300 meter voor de versmalling pas je je snelheid aan aan die van de andere strook, je rijdt door tot het bord ritsen vanaf hier, en op circa 50 meter voor de versmalling voeg je in zonder af te remmen.",
+          "bron": [
+            {
+              "boek": 155,
+              "sectie": "9.10",
+              "anker": "op ongeveer 300 meter voor de versmalling pas je je snelheid aan"
+            },
+            {
+              "slide": 175,
+              "anker": "rijd je door tot het bord 'ritsen vanaf hier'"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Ver doorrijden op de eindigende strook hoort erbij, want zo gebruik je al het asfalt. Te ver doorrijden en dan ruimte opeisen is iets anders, en dat is irritant.",
+          "bron": {
+            "boek": 155,
+            "sectie": "9.10",
+            "anker": "te ver doorrijden en dan invoegruimte opeisen, irritant is"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U07-r29",
+          "tekst": "Keren is sowieso verboden op een autoweg, een autosnelweg en een eenrichtingsweg. Je mag ook niet over een doorgetrokken streep op het midden van de weg rijden om te keren.",
+          "bron": [
+            {
+              "slide": 176,
+              "anker": "Keren is (sowieso) verboden op een"
+            },
+            {
+              "slide": 176,
+              "anker": "Ook mag je niet over een doorgetrokken streep op het midden van de weg"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r30",
+          "tekst": "Keren, achteruitrijden, parkeren en de hellingproef zijn bijzondere manoeuvres. Tijdens het uitvoeren daarvan moet je het overige verkeer voor laten gaan en mag je geen gevaar of onnodige hinder veroorzaken.",
+          "bron": [
+            {
+              "boek": 155,
+              "sectie": "9.11",
+              "anker": "Tijdens het uitvoeren daarvan moet je het overige verkeer voor laten gaan"
+            },
+            {
+              "slide": 177,
+              "anker": "Je moet alle andere verkeersdeelnemers voor laten gaan als je een bijzondere verrichting uitvoert"
+            }
+          ]
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Invoegen: jij laat voor. Uitvoegen: richting aan op 300 meter. Weven: de uitvoeger gaat eerst. Ritsen: om en om."
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op de invoegstrook en het verkeer links van je op de doorgaande rijbaan rijdt langzaam. Mag je die auto's rechts inhalen?",
+          "antwoord": "Nee, niet onnodig.",
+          "uitleg": "Op de invoegstrook haal je geen verkeer op de doorgaande rijbaan in; je maakt snelheid en voegt in.",
+          "bron": {
+            "boek": 150,
+            "sectie": "9.7",
+            "anker": "Haal tijdens het rijden op de invoegstrook niet onnodig verkeer op de doorgaande rijbaan in"
+          }
+        },
+        {
+          "type": "zelftest",
+          "vraag": "Je rijdt op een weefvak en wilt invoegen terwijl naast je iemand wil uitvoegen. Wie gaat er eerst?",
+          "antwoord": "De uitvoeger.",
+          "uitleg": "Wettelijk laten jullie elkaar voor gaan, maar in de praktijk laat de invoeger de uitvoeger gaan, want die heeft meer overzicht.",
+          "bron": {
+            "slide": 174,
+            "anker": "invoegers en uitvoegers moeten elkaar voor laten gaan"
+          }
+        }
+      ]
+    }
+  ]
+}

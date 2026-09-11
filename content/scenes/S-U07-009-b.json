@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-009-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "traag",
+      "soort": "vrachtauto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de vrachtauto"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Dezelfde weg een paar tellen later. Je rijdt nog achter de vrachtauto en de grijze auto uit de andere richting is nu dichtbij.",
+  "inspiratie": {
+    "boek": 145,
+    "slide": 168
+  }
+}
