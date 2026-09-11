@@ -1,0 +1,6 @@
+# The generated cache version is a hash of the file bytes, so a CRLF checkout on
+# Windows gives a different hash than the LF checkout the Pages workflow sees.
+# Every text file therefore lives as LF in the working tree on every computer.
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
