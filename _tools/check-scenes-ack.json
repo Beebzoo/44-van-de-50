@@ -1,0 +1,35 @@
+{
+  "$comment": "Findings from check-scenes.js that a checker has looked at and left alone on purpose. Each entry names the question or scene, the kind of finding, and why it stands. Without a reason an entry does not belong here: this list exists so the script stays worth reading, not so it stays quiet.",
+  "uitzonderingen": [
+    {
+      "id": "U04-Q016",
+      "soort": "tekenbaar",
+      "reden": "De vraag gaat over een uitvaartstoet bij een verkeerslicht dat op groen springt, en de renderer tekent geen lichten. De tekening toont stopstrepen op alle vier de armen, wat een lichtengeregeld kruispunt zo goed als mogelijk in beeld brengt. Opgelost als de renderer in fase 2 lichten leert tekenen."
+    },
+    {
+      "id": "U04-Q030",
+      "soort": "tekenbaar",
+      "reden": "Zelfde reden als U04-Q016. Wat de vraag echt nodig heeft, namelijk dat er tussen het zebrapad en de stopstreep geen auto past, staat wel in de tekening."
+    },
+    {
+      "id": "U04-Q030",
+      "soort": "file",
+      "reden": "De file is de voorwaarde uit het boek, niet iets wat de leerling op de tekening moet zien."
+    },
+    {
+      "id": "S-U04-026",
+      "soort": "wees",
+      "reden": "Losgekoppeld van U04-Q026 tijdens de checkerronde van 11 september, omdat de renderer geen voorsorteerpijlen en geen doorgetrokken strepen naast een strook kan tekenen. De tekening blijft liggen voor fase 2, waar de renderer die dingen wel krijgt."
+    },
+    {
+      "id": "S-U05-021",
+      "soort": "wees",
+      "reden": "Rotonde met driekwart rond, geschreven voor blok 5 maar uiteindelijk nergens gebruikt. Blijft liggen als kandidaat voor een derde batch van blok 5."
+    },
+    {
+      "id": "U03-Q018",
+      "soort": "tekenbaar",
+      "reden": "De vluchtstrook staat alleen in een fout antwoord. De leerling hoeft hem niet te zien om te weten dat stoppen op de vluchtstrook het verkeerde antwoord is; wat hij wel moet zien, de ambulance achter zich, staat er."
+    }
+  ]
+}
