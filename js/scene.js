@@ -10,7 +10,8 @@
    driveway (uitrit), a straight road; cars, vans, trucks, buses, trams,
    motorbikes, mopeds, bicycles, pedestrians, a horse rider, an emergency
    vehicle, a column; haaientanden, stop line, zebra, cycle crossing, hump,
-   block marking, rails; a sign on a post per arm; intended-path arrows;
+   block marking, rails; a sign on a post per arm; traffic lights per arm,
+   for traffic, for cyclists and for pedestrians; intended-path arrows;
    numbered order badges. See content/schema/SCENES.md for the language. */
 const W = 400, H = 300, CX = 200, CY = 150;
 const ROAD = 64;            /* width of a two-lane road */
@@ -192,6 +193,41 @@ function onderbordPlaatje(s, b, x, yTop) {
 }
 
 /* ==== signs on posts ==== */
+/* ==== traffic lights ====
+
+   Signal colours, not the colours of the interface: a light is red, amber
+   or green because that is what it is, and inside a quiz that says nothing
+   about your answer. A pedestrian light has two lamps, everything else
+   three, and the head sits on the right-hand side of the arm it governs. */
+const LICHT = { rood: "#E02020", geel: "#F2B705", groen: "#2FA84F" };
+const LICHT_UIT = "#20242A";
+function lichtKop(x, y, kleur, soort) {
+  const twee = soort === "voetganger";
+  const w = twee ? 9 : 10, h = twee ? 17 : 24;
+  const lampen = (twee ? ["rood", "groen"] : ["rood", "geel", "groen"]).map((k, i) => {
+    const r = twee ? 3 : 3.2;
+    const cy = y - h / 2 + (twee ? 5 : 5) + i * (twee ? 8 : 7);
+    const aan = k === kleur;
+    return `<circle cx="${x}" cy="${cy}" r="${r}" fill="${aan ? LICHT[k] : LICHT_UIT}" ${aan ? `stroke="${LICHT[k]}" stroke-opacity=".45" stroke-width="2.5"` : ""}/>`;
+  }).join("");
+  return `<g class="scene-licht"><rect x="${x - 1}" y="${y}" width="2" height="10" fill="#555"/><rect x="${x - w / 2}" y="${y - h / 2}" width="${w}" height="${h}" rx="2" fill="#15181C" stroke="#3A404A"/>${lampen}</g>`;
+}
+function drawLichten(s) {
+  let out = "";
+  const edge = s.vorm === "rotonde" ? 60 : ROAD / 2;
+  /* elk soort licht staat op zijn eigen plek langs de arm, anders tekenen
+     twee lichten op dezelfde arm over elkaar heen: het autolicht vlak voor
+     de streep, het fietslicht daarnaast, het voetgangerslicht bij de stoep */
+  for (const l of s.lichten || []) {
+    const soort = l.voor || "verkeer";
+    const langs = soort === "voetganger" ? edge + 10 : soort === "fiets" ? edge + 26 : edge + 34;
+    const zij = soort === "verkeer" ? LANE + 9 : LANE + 23;
+    const [x, y] = pt(l.arm, langs, zij);
+    out += lichtKop(x, y, l.kleur, soort);
+  }
+  return out;
+}
+
 function drawSigns(s) {
   let out = "";
   const edge = s.vorm === "rotonde" ? 60 : ROAD / 2;
@@ -379,7 +415,7 @@ export function sceneSvg(s, attrs = "") {
   else roads = drawJunction(s);
   return `<svg viewBox="0 0 ${W} ${H}" class="scene" role="img" aria-label="${esc(s.alt)}" ${attrs}>
 <rect width="${W}" height="${H}" fill="${BERM}"/>
-${roads}${drawMarkering(s)}${drawSigns(s)}${drawActors(s)}
+${roads}${drawMarkering(s)}${drawSigns(s)}${drawLichten(s)}${drawActors(s)}
 </svg>`;
 }
 

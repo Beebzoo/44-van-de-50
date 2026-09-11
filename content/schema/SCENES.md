@@ -15,6 +15,7 @@ Je typt geen coördinaten. Je zegt op welke arm iemand staat, hoe ver van het kr
 | `onverhard` | armen die onverhard zijn (getekend als zandweg) |
 | `fietspad` | armen met een vrijliggend fietspad ernaast; werkt ook op een `recht`e weg |
 | `borden`. Met `"onderbord": "verloop voorrangsweg"` komt er een wit plaatje onder waarop het verloop van de `hoofdweg` getekend staat | `{"code": "B6", "arm": "zuid"}`: het bord staat rechts van die arm, vlak voor het kruispunt, gericht naar wie op die arm nadert |
+| `lichten` | `{"arm": "zuid", "kleur": "rood"}`: een verkeerslicht rechts van die arm, met de kop naar wie nadert. `kleur` is `rood`, `geel` of `groen`. Met `"voor": "fiets"` of `"voor": "voetganger"` teken je het lichtje voor die groep; een voetgangerslicht heeft twee lampen, de rest drie |
 | `markering` | `{"soort": "haaientanden", "arm": "zuid"}`; soorten: `haaientanden`, `stopstreep`, `zebrapad`, `fietsoversteek`, `drempel`, `blokmarkering`, `fietsstrook` (rode strook met een onderbroken streep), `fietsstrook-doorgetrokken` (dezelfde strook met een doorgetrokken streep), `rails` (tramrails over die arm en over het kruispunt), `verdrijvingsvlak` |
 | `actoren` | zie hieronder |
 | `volgorde` | actor-ids in de volgorde waarin ze mogen gaan; de app tekent genummerde blauwe rondjes. Zet `toonVolgorde: false` als de vraag juist om die volgorde vraagt |

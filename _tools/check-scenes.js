@@ -134,7 +134,6 @@ const VOERTUIG = "auto|autos|bestelauto|vrachtauto|vrachtwagen|bus|lijnbus|motor
 const VERKEERDE_KLEUR = new RegExp("\\b(rode|rood|blauwe|blauw|zwarte|zwart|bruine|oranje|paarse|zilveren|zilvergrijze)\\s+(" + VOERTUIG + ")\\b", "i");
 
 const NIET_TEKENBAAR = [
-  [/\bverkeerslicht|stoplicht|\bgroen licht|\brood licht|licht (?:springt|wordt) (?:op )?groen/i, "verkeerslicht, de renderer tekent er geen"],
   [/voorsorteerstro|voorsorteervak|pijl(?:en)? op het wegdek|voorsorteerpijl/i, "voorsorteerstrook of pijl op het wegdek, de renderer tekent die niet"],
   [/geparkeerde (?:auto|wagen)/i, "geparkeerde auto's, de renderer tekent die niet"],
   [/\bbomen\b|\bboom\b|\bheg\b|struiken|gebouw(?:en)?|huizen|flat/i, "landschap of bebouwing, de renderer tekent dat niet"],
