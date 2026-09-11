@@ -47,7 +47,9 @@ Wat de checkerronde van blok 4 opleverde, en wat nog open staat:
 
 ## Hoe de inhoud gemaakt wordt
 
-Schrijver, dan een aparte checker, dan `merge-batch.js`. Geef een schrijver altijd exacte regelnummers in de twee transcripties en laat hem `validate.js` en `trace.js` draaien. Tekeningen worden eerst geschreven volgens `SCENES.md`, dan gerenderd en bekeken, en pas daarna worden de vragen vertrouwd.
+Schrijver, dan een aparte checker, dan `merge-batch.js`. Draaien er meerdere schrijvers tegelijk in dezelfde map, bouw dan niet in die map: hun halve bestanden komen dan in de precache terecht. Zet er een worktree naast met `git worktree add --detach <pad> HEAD`, draai `build.js` daar, en kopieer `content/index.json`, `sw.js` en `sw-assets.js` terug. Geef een schrijver altijd exacte regelnummers in de twee transcripties en laat hem `validate.js` en `trace.js` draaien. Tekeningen worden eerst geschreven volgens `SCENES.md`, dan gerenderd en bekeken, en pas daarna worden de vragen vertrouwd.
+
+Draai eerst `node _tools/check-scenes.js Uxx`. Dat script zoekt de zes dingen die de checkers van blok 3, 4 en 5 met de hand vonden en scheelt je het meeste zoekwerk. Wat het meldt is een vraag, geen oordeel; wat je bewust zo laat, zet je met een reden in `_tools/check-scenes-ack.json`. Daarna lees je zelf de vragen die het niet kan beoordelen.
 
 Wat de checkers tot nu toe vonden, en waar de volgende op moet letten:
 
@@ -66,4 +68,4 @@ Fase 2 loopt tot zondag 4 oktober: blokken 6 tot en met 11, de renderer uitbreid
 
 ## Huisregels
 
-Geen em dashes, en dashes of dubbele streepjes, nergens, ook niet in code of commits. Nederlands, je-vorm, decimale komma, km/u, geen uitroeptekens. Commitberichten zijn gewone zinnen in Martijns stem, zonder attributieregel. Vaste id's voor elke unit, pagina, vraag en tekening; nooit hernummeren, wel uitzetten via `content/retired.json`. De cacheversie nooit met de hand ophogen, die komt uit de inhoud. Na elke push controleren of de deploy groen is.
+Geen em dashes, en dashes of dubbele streepjes, nergens, ook niet in code of commits. Nederlands, je-vorm, decimale komma, km/u, geen uitroeptekens. Commitberichten zijn gewone zinnen in Martijns stem, zonder attributieregel. Vaste id's voor elke unit, pagina, vraag en tekening; nooit hernummeren, wel uitzetten via `content/retired.json`. De cacheversie nooit met de hand ophogen, die komt uit de inhoud. Wel altijd `node _tools/build.js` draaien voordat je een inhoudswijziging commit: de workflow controleert of de gegenereerde bestanden nog bij de inhoud passen en zet de deploy anders op rood. Na elke push controleren of de deploy groen is.

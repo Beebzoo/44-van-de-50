@@ -26,6 +26,7 @@ Alle inhoud komt uit twee transcripties van VekaBest-lesmateriaal (het theoriebo
 node _tools/build.js        valideren, bordvragen genereren, index en precache-lijst schrijven
 node _tools/validate.js     alleen de twaalf kwaliteitspoorten
 node _tools/trace.js U01-Q003   laat zien waar een vraag zijn bewijs vandaan haalt
+node _tools/check-scenes.js U04  tweede paar ogen: wat een checker anders met de hand zoekt
 node _tools/merge-batch.js content/questions/U01/batch-01.json   gecheckte batch in de bank
 node _tools/build-facts.js      het stampblad opnieuw uit het feitenregister schrijven
 node _tools/schermen.js http://127.0.0.1:8765/ schermen [donker] [breed]   elk scherm fotograferen
@@ -33,7 +34,7 @@ node _tools/schermen.js http://127.0.0.1:8765/ schermen [donker] [breed]   elk s
 
 De tekeningen bekijk je op `preview.html`; `?s=S-U03` toont alleen die van een blok.
 
-De cacheversie in `sw.js` en `sw-assets.js` is een hash van de inhoud. Nooit met de hand ophogen.
+De cacheversie in `sw.js` en `sw-assets.js` is een hash van de inhoud. Nooit met de hand ophogen. Verander je iets in `content/`, `js/`, `app.css` of `assets/`, draai dan `build.js` voordat je commit, anders valt de deploy om over gegenereerde bestanden die niet meer bij de inhoud passen.
 
 ## Mappen
 
