@@ -1,0 +1,278 @@
+{
+  "id": "U12",
+  "titel": "Traffic jams, breakdowns and accidents",
+  "intro": "This block is about the moments when traffic comes to a standstill or when something really goes wrong. You learn how to behave when you run into stationary traffic, what to do when your car gives up, how to tow a vehicle, in what order to act at an accident and how to get out of a car that ends up in the water. The exam rarely asks about technology here and almost always about order and duty: who you warn, what you do first, and what you are not allowed to do. There are few drawings in this block, because most of it hangs on an action and not on a junction.",
+  "paginas": {
+    "U12-P01": {
+      "titel": "Driving in a traffic jam",
+      "body": [
+        {
+          "tekst": "Above many motorways there are gantries that warn you that a traffic jam (file) is building up further along. Even so, you stay responsible for the traffic behind you: the drivers still approaching at full speed do not know that you are about to be standing still."
+        },
+        {
+          "tekst": "Switch on your hazard warning lights (alarmlichten) as soon as you run into a traffic jam, to warn the drivers behind you. Switch them off again once you see that they are braking."
+        },
+        {
+          "tekst": "Do not keep changing lanes in a traffic jam and keep enough distance from the vehicle in front of you, but do not overdo it."
+        },
+        {
+          "tekst": "Check your mirrors and make room for motorcyclists overtaking between the rows. You do that by moving a little to the right yourself."
+        },
+        {
+          "tekst": "Switch off your engine if you are standing still for a long time. Stay in the car for safety reasons and follow the traffic information."
+        },
+        {
+          "tekst": "Follow the instructions of any traffic jam marshals (fileregelaars), because that clears the jam fastest. Make room for the emergency services if there is no hard shoulder (vluchtstrook) available."
+        },
+        {
+          "tekst": "The tail of a traffic jam is the most dangerous place on the whole road: fast traffic arrives there at traffic that is standing still. Your hazard warning lights are the only signal that reaches the driver behind you in time. As soon as you see in your mirror that he is braking he has understood, and from then on flashing lights only confuse the people driving behind him."
+        },
+        {
+          "tekst": "The traffic is at a standstill. You are standing still as well, with a car in front of you. Behind you a motorcyclist is approaching who wants to pass between the rows. Move a little to the right so he can get by."
+        },
+        {
+          "tekst": "Do not let yourself be distracted when you pass an accident, for example. Onlookers cause the second jam, and sometimes the second collision as well."
+        },
+        {
+          "tekst": "Run into a traffic jam: hazard lights on. See the driver behind you braking: hazard lights off."
+        },
+        {
+          "vraag": "You have been standing still in a traffic jam for a long time. Do you get out to see how long the queue is?",
+          "antwoord": "No.",
+          "uitleg": "You switch off your engine, but you stay in the car for safety reasons and follow the traffic information."
+        }
+      ]
+    },
+    "U12-P02": {
+      "titel": "Breaking down on the road",
+      "body": [
+        {
+          "tekst": "In an emergency you may bring your car to a stop on the hard shoulder (vluchtstrook) or in a lay-by (vluchthaven). Only start slowing down once you are on the hard shoulder."
+        },
+        {
+          "items": [
+            "put your car as far to the right as possible, preferably on the verge",
+            "get out on the right-hand side",
+            "preferably put on a high-visibility vest",
+            "stand behind the crash barrier (vangrail) and call a breakdown service (pechhulpdienst)"
+          ]
+        },
+        {
+          "tekst": "Tell the breakdown service where you are. That information is on the hectometre post (hectometerpaaltje): the road number, the hectometre marking and whether you are on the left or on the right."
+        },
+        {
+          "tekst": "If your vehicle forms an obstacle that approaching drivers cannot spot in time, you must put out the warning triangle (gevarendriehoek). If your hazard warning lights (alarmlichten) are flashing and your car is clearly visible, it is not compulsory, although it is still safer."
+        },
+        {
+          "tekst": "Put the warning triangle about 30 metres behind your car."
+        },
+        {
+          "tekst": "Everything in this list pushes you away from the carriageway and your car into other people's view. You get out on the right because the traffic races past on the left, you stand behind the crash barrier because that is the only place where a swerving car cannot hit you, and the triangle goes a good way back because a driver needs time to brake."
+        },
+        {
+          "tekst": "You have broken down beside the motorway and you call the breakdown service. He asks where you are. On the green post on the verge you read the road number, the hectometre marking and the marking that says whether you are on the left or the right carriageway. With those three details the service knows exactly where you are."
+        },
+        {
+          "tekst": "Carrying out a repair yourself beside the motorway is strongly discouraged, because it is far too dangerous. Changing a tyre is a job for the breakdown service too, and not for you."
+        },
+        {
+          "tekst": "In a traffic jam you do stay in the car. With a breakdown on the hard shoulder you do get out. That difference comes down to whether your car is the obstacle that others could crash into."
+        },
+        {
+          "tekst": "Out on the right, behind the crash barrier, and the triangle a good way behind the car."
+        },
+        {
+          "vraag": "You break down and just make it to the hard shoulder. Where do you slow down?",
+          "antwoord": "Only on the hard shoulder itself.",
+          "uitleg": "If you start braking while you are still on the carriageway, you become an obstacle there for traffic that is approaching at full speed."
+        }
+      ]
+    },
+    "U12-P03": {
+      "titel": "Towing",
+      "body": [
+        {
+          "tekst": "Sometimes you tow a broken-down car to a safe place. Separate rules apply to that, and the exam almost always asks about the distance, the number of vehicles and the hazard warning lights (alarmlichten)."
+        },
+        {
+          "tekst": "You may tow only one vehicle and the distance between the two vehicles may be 5 metres at most."
+        },
+        {
+          "tekst": "Use a sound tow rope (sleepkabel) and attach it to the attachment points meant for it."
+        },
+        {
+          "tekst": "Always keep the tow rope taut. As the driver at the back you therefore brake harder than the one in front."
+        },
+        {
+          "tekst": "In principle leave the hazard warning lights of both cars off, and leave expressways (autowegen) and motorways as quickly as possible."
+        },
+        {
+          "tekst": "The brake servo and the power steering of the towed vehicle do not work with the engine off. So let the most experienced driver steer the towed vehicle."
+        },
+        {
+          "tekst": "While towing you have to follow the rules for a car with a trailer (aanhangwagen), and both drivers must have a valid driving licence."
+        },
+        {
+          "tekst": "A slack rope that pulls tight again gives a jerk that can tear the attachment points out of the chassis. That is why the one at the back brakes a little harder than strictly needed, because that keeps tension on the rope at all times. And because he has to put far more force on the brake and the steering without servo assistance, that is the job for the experienced driver."
+        },
+        {
+          "tekst": "You tow a friend's car to the garage. You drive one behind the other with a taut rope, the hazard warning lights stay off, and you stick to the speeds that apply to a car with a trailer. You leave the motorway at the first exit."
+        },
+        {
+          "tekst": "Hazard warning lights feel logical when you are towing, but they are supposed to stay off. Other drivers see flashing lights and think you are standing still."
+        },
+        {
+          "tekst": "One vehicle, 5 metres of rope at most, rope taut, hazard lights off."
+        },
+        {
+          "vraag": "Who is best placed to steer the towed vehicle?",
+          "antwoord": "The most experienced driver.",
+          "uitleg": "With the engine not running the brake servo and the power steering do not work, so steering and braking take far more force."
+        }
+      ]
+    },
+    "U12-P04": {
+      "titel": "At an accident: PAMAN",
+      "body": [
+        {
+          "tekst": "Stationary vehicles with a flashing light belonging to the police or to Rijkswaterstaat (the national roads authority) warn you of an accident or another emergency."
+        },
+        {
+          "tekst": "Do not let yourself be distracted when you drive past an accident, and count on other road users being distracted. Bear in mind as well that there may be pedestrians walking on the road."
+        },
+        {
+          "tekst": "Ahead of you on the same road an emergency vehicle with a flashing light is standing still, and in front of it a car that is standing still. Keep looking at the road and bear in mind that people may be walking between the vehicles."
+        },
+        {
+          "tekst": "If you become involved in a road accident, you always act in this order: first your own safety (Persoonlijke veiligheid), then the safety of the other people involved (Andere betrokkenen), then marking the scene (Markeren), then alerting the emergency services (Alarmeren), and last the necessary first aid (Noodzakelijke eerste hulp)."
+        },
+        {
+          "tekst": "Marking means that you warn the rest of the traffic with hand signals, hazard warning lights (alarmlichten) and whatever else you have."
+        },
+        {
+          "tekst": "In serious accidents and emergencies call the emergency control room on 112. Describe as exactly as you can where you are, what has happened and how many vehicles are involved, and how many people are injured."
+        },
+        {
+          "tekst": "Stay at the scene of the accident. If you are involved in an accident, you are obliged to make your identity known."
+        },
+        {
+          "tekst": "Do not move a casualty, except in a life-threatening situation, for example a risk of fire or drowning."
+        },
+        {
+          "tekst": "Usually the emergency services are there quickly. What you have to be able to do is above all the help that cannot wait a second: check whether someone responds and whether he is breathing, and stop arterial bleeding by pressing the wound closed. The rest you leave to the professionals."
+        },
+        {
+          "tekst": "The order looks harsh, but it saves the most people. A helper who gets hit himself turns one casualty into two, and a scene that nobody has marked produces a second collision on exactly the spot where you are kneeling. Only once it is safe there does your help do any good."
+        },
+        {
+          "tekst": "The temptation to run straight to a casualty is strong. In PAMAN that is only the last letter. Moving an injured person is not part of it either, unless he would otherwise burn or drown."
+        },
+        {
+          "tekst": "PAMAN: Persoonlijk, Anderen, Markeren, Alarmeren, Noodzakelijke hulp (yourself, the others, marking, alerting, necessary first aid)."
+        },
+        {
+          "vraag": "You are the first to arrive at an accident. What do you do first of all?",
+          "antwoord": "Make sure you are safe yourself.",
+          "uitleg": "That is the P of PAMAN. Only after that do you look after the others, mark the scene and call 112."
+        }
+      ]
+    },
+    "U12-P05": {
+      "titel": "Driving off, damage and the police",
+      "body": [
+        {
+          "tekst": "Anyone involved in a road accident with death, injury or damage is forbidden to leave the scene of the accident without making their own details and those of the motor vehicle known. It is also forbidden to leave a casualty behind in a helpless state."
+        },
+        {
+          "tekst": "That applies to everyone involved in the accident, so it applies as well if you are not at fault. If you do drive off, the court can impose a prison sentence or a fine and a driving ban. You can avoid prosecution by reporting to the police voluntarily within 12 hours."
+        },
+        {
+          "tekst": "If you have caused damage to a parked vehicle, leave your contact details with the damaged vehicle and inform the police. That is compulsory."
+        },
+        {
+          "tekst": "If there is only bodywork damage (blikschade) and the vehicles involved can still drive, take a photo and drive with the other party to a car park to settle the damage. That way the flow of traffic is hindered least."
+        },
+        {
+          "items": [
+            "take photos of the situation",
+            "note down the name and the registration number of the other party",
+            "note down the contact details of witnesses",
+            "fill in the European accident statement form together with the other party, on paper or through the app for reporting damage by phone"
+          ]
+        },
+        {
+          "tekst": "You are not obliged to sign the paper form. You are obliged to give the other party details about yourself and your vehicle."
+        },
+        {
+          "tekst": "At small accidents the police do not come to the scene, or they come only to get the traffic moving again. The question of blame is left to the insurance companies involved."
+        },
+        {
+          "tekst": "If there are people killed or injured, or major material damage, the police draw up an official report (proces-verbaal). Your insurance company can request that report, you cannot do so yourself."
+        },
+        {
+          "tekst": "The law wants two things from you: that the other party knows who you are, and that nobody is left behind helpless. That is why driving off is punishable even when the collision was not your fault, and that is why a note under the windscreen wiper of a parked car only counts together with a report to the police."
+        },
+        {
+          "tekst": "While parking you clip the bumper of a car whose owner is nowhere to be seen. You leave your contact details with the damaged vehicle and then call the police. With that you have met your duty."
+        },
+        {
+          "tekst": "You are not legally required to carry the European accident statement form, but it is sensible. Without the form your insurer has only your story and that of the other party."
+        },
+        {
+          "tekst": "Never drive off, always leave your details, also when you are not at fault and also at an empty parked car."
+        },
+        {
+          "vraag": "Only bodywork damage: do you have to call in the police?",
+          "antwoord": "No.",
+          "uitleg": "Calling in the police is not necessary then; the insurer has enough with a correctly filled in accident statement form."
+        }
+      ]
+    },
+    "U12-P06": {
+      "titel": "Car in the water",
+      "body": [
+        {
+          "tekst": "Usually the car keeps floating for a while, long enough to get out of it by following a fixed set of steps. Knowing those steps is the difference between getting out and being stuck."
+        },
+        {
+          "tekst": "Step 1: switch on the interior and exterior lights, so that you can get your bearings better and the car stays visible to the emergency services. Leave the keys in the ignition."
+        },
+        {
+          "tekst": "Step 2: undo your seat belt as quickly as you can. If the buckle jams, use the belt cutter on the emergency hammer (veiligheidshamer) and cut towards yourself."
+        },
+        {
+          "tekst": "Step 3: try to open the side window. If that does not work, use the emergency hammer and smash the window. Always hit the corner of the window, near the mirror, because the spring tension of the glass is lower there."
+        },
+        {
+          "tekst": "Step 4: leave the car and swim away. Swim facing the car at first; only at a safe distance do you turn round and swim to the bank."
+        },
+        {
+          "tekst": "Do not try to smash the windscreen, because it is extra strong and therefore almost impossible to break. If the side window will not go either, take a good gulp of air and wait until the car has largely sunk; then the pressure inside and outside is equal and you can open the door."
+        },
+        {
+          "tekst": "If the car is upside down, your body weight blocks the buckle of the seat belt. Put your feet against the dashboard, push against the roof with one hand and undo the buckle with your other hand."
+        },
+        {
+          "tekst": "If you are helping someone else, raise the alarm in any case and make sure 112 is called. If you go into the water yourself, do it on a rope so that others can pull you back to the bank."
+        },
+        {
+          "tekst": "Every step buys time for the next one. The lights only go on as long as the electronics are still dry, the belt has to be off before the water presses you against the seat, and the window has to open while there is still air above the glass. Turn the order around and you meet water instead of air at the last step."
+        },
+        {
+          "tekst": "Your car ends up in the water and the window will not open. You grab the emergency hammer and hit the corner of the side window, near the mirror. The glass breaks, you climb out and swim away facing the car first, before you turn round towards the bank."
+        },
+        {
+          "tekst": "Make sure the emergency hammer is within reach of all the passengers. On the roof everyone can get to it, also when the car is upside down."
+        },
+        {
+          "tekst": "Lights on, belt off, window open or broken, out and swim away."
+        },
+        {
+          "vraag": "The side window will not open and you have no emergency hammer. Do you smash the windscreen?",
+          "antwoord": "No.",
+          "uitleg": "The windscreen is extra strong and almost impossible to break. Take a good gulp of air and wait until the car has largely sunk; then you can open the door."
+        }
+      ]
+    }
+  }
+}

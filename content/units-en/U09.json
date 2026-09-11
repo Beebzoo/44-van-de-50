@@ -1,0 +1,331 @@
+{
+  "id": "U09",
+  "titel": "Level crossings, stops, bridges and tunnels",
+  "intro": "On an ordinary road you roughly know what can happen. At a stop, a level crossing, a bridge or a tunnel it is different: something is standing still there that will pull away again in a moment, a train comes along that cannot swerve, a road surface lifts up, or you drive into a dark tube where you cannot simply turn around. In this block you learn about the bus and the tram at the stop, the signs and marker boards that announce a level crossing, the difference between one and two St Andrew's crosses, crosswind and slippery surfaces on bridges, the red bridge light, and what to do if you break down or meet a traffic jam or a fire in a tunnel. Many questions have no drawing, because a level crossing and a tunnel cannot be drawn from above. So read the situation through calmly and look first for the detail that turns the answer around.",
+  "paginas": {
+    "U09-P01": {
+      "titel": "Bus and tram at the stop",
+      "body": [
+        {
+          "tekst": "Inside a built-up area (bebouwde kom) you must let a bus go first (voor laten gaan) when it indicates that it wants to pull away from a bus stop."
+        },
+        {
+          "tekst": "That applies to all buses, so to coaches as well, but not to small neighbourhood minibuses for instance. Outside the built-up area this rule does not apply."
+        },
+        {
+          "tekst": "The rule works in both directions: if the bus is approaching you from the front and indicates that it wants to pull away from the stop, you have to let it go first as well."
+        },
+        {
+          "tekst": "Always pass (voorbijgaan) a stationary bus or tram at an adjusted speed and keep enough sideways clearance."
+        },
+        {
+          "tekst": "If a tram or bus stops at a stop without a refuge island, you have to let passengers getting on and off go first while they cross."
+        },
+        {
+          "tekst": "A bus at a stop is only there for a moment. It has to find a gap in the carriageway (rijbaan) from a standstill, while it is long, pulls away slowly and has poor rearward vision. Inside the built-up area stops are close together, and if nobody made room a bus would hardly get anywhere."
+        },
+        {
+          "tekst": "Inside the built-up area a bus is at the stop and indicates left. It goes first, you go after."
+        },
+        {
+          "items": [
+            "passengers who have got off and suddenly cross the road in front of or behind the bus",
+            "passengers hurrying towards the bus and crossing the road to catch it in time",
+            "the bus pulling away at the very moment the driver (bestuurder) indicates left"
+          ]
+        },
+        {
+          "tekst": "A tram is at a stop without a refuge island. The passenger getting off crosses the carriageway to the pavement and goes first."
+        },
+        {
+          "tekst": "The stop signs in the new style: tram and bus together, bus only, tram only."
+        },
+        {
+          "tekst": "In a street with a bus trap (bussluis) there is a sunken pit across the road. A bus trap makes sure that a particular route can be used by service buses but not by other drivers. A car gets stuck in the trap for good, so turn around and choose another route."
+        },
+        {
+          "tekst": "Two things together make the rule: inside the built-up area, and the bus indicating that it wants to leave. If one of the two is missing, the normal rules apply. And watch out: coaches count, small neighbourhood minibuses do not."
+        },
+        {
+          "tekst": "Inside the built-up area plus an indicator on means letting it go first. A stop without a refuge island means letting crossing passengers go first."
+        },
+        {
+          "vraag": "Outside the built-up area a coach at a stop indicates left. Do you have to let it go first?",
+          "antwoord": "No.",
+          "uitleg": "The rule applies inside the built-up area; outside the built-up area it does not."
+        },
+        {
+          "vraag": "A tram is standing still at a stop without a refuge island and people are getting off. What do you do?",
+          "antwoord": "You let the crossing passengers go first.",
+          "uitleg": "At a stop without a refuge island, passengers who are getting on or off and crossing have to go first."
+        }
+      ]
+    },
+    "U09-P02": {
+      "titel": "Seeing a level crossing coming",
+      "body": [
+        {
+          "tekst": "Level crossings (overweg) are places where a road and a railway cross at the same level. Most of them are protected with barriers (overwegbomen), flashing lights and warning bells."
+        },
+        {
+          "tekst": "The warning sign tells you what kind of level crossing you are about to pass. The sign with the gate on it belongs to a crossing with barriers. There are also crossings without barriers but with flashing lights and warning bells, and you recognise those by the sign with the locomotive."
+        },
+        {
+          "tekst": "The gate belongs to a crossing with barriers, the locomotive to a crossing without barriers."
+        },
+        {
+          "tekst": "Under those signs there are marker boards with red diagonal stripes, on the left as well as the right of the road. Every diagonal stripe stands for a distance of 80 metres: three stripes is 240 metres, two stripes 160 metres and one stripe 80 metres before the crossing."
+        },
+        {
+          "tekst": "Just before the crossing itself there is a post with one or two so-called St Andrew's crosses (andreaskruis) on it. One cross means the crossing has only one track, two crosses indicate two or more tracks."
+        },
+        {
+          "tekst": "A single St Andrew's cross stands for one track, a double cross for two or more tracks."
+        },
+        {
+          "tekst": "The crossing lights flash white as long as no train is coming. As soon as the crossing lights start flashing red and the warning bells start ringing, you have to stop. A few seconds later the barriers close."
+        },
+        {
+          "kop": [
+            "What you see",
+            "What it means"
+          ],
+          "rijen": [
+            [
+              "sign with a gate",
+              "crossing with barriers"
+            ],
+            [
+              "sign with a locomotive",
+              "crossing without barriers, but with flashing lights and warning bells"
+            ],
+            [
+              "marker board with three stripes",
+              "240 metres to go to the crossing"
+            ],
+            [
+              "one St Andrew's cross",
+              "one track"
+            ],
+            [
+              "two St Andrew's crosses",
+              "two or more tracks"
+            ],
+            [
+              "white flashing light",
+              "no train is coming"
+            ]
+          ]
+        },
+        {
+          "tekst": "A train needs hundreds of metres to stop and cannot swerve, so all the information along the road is meant to tell you well in advance what is coming. The marker boards literally count down for you, the sign tells you whether there are barriers to hold you back, and the crosses tell you whether there may be a second track after the first."
+        },
+        {
+          "tekst": "Two crosses does not mean two trains but two or more tracks. And the marker boards count down towards the crossing: the board with the most stripes is the one furthest away."
+        },
+        {
+          "tekst": "A gate means barriers, a locomotive means no barriers. Every stripe on a marker board is 80 metres. Every cross is one track."
+        },
+        {
+          "vraag": "You see a warning sign with a locomotive and below it a marker board with two stripes. What do you know now?",
+          "antwoord": "In 160 metres there is a level crossing without barriers, but with flashing lights and warning bells.",
+          "uitleg": "The locomotive stands for a crossing without barriers and every stripe on the marker board is 80 metres."
+        },
+        {
+          "vraag": "The crossing light is flashing white. What does that mean?",
+          "antwoord": "No train is coming.",
+          "uitleg": "You only have to stop once the lights start flashing red and the warning bells start ringing."
+        }
+      ]
+    },
+    "U09-P03": {
+      "titel": "Safely across the level crossing",
+      "body": [
+        {
+          "tekst": "The time between the flashing lights coming on and the barriers closing is matched to the local speed limit. That is another reason why you always have to approach a level crossing (overweg) at an adjusted speed."
+        },
+        {
+          "tekst": "If you have to stop at a level crossing, keep side roads and entrances or driveway exits (uitrit) clear, and of course the crossing itself as well. Switch off your engine until the barriers open again."
+        },
+        {
+          "tekst": "Only drive onto a level crossing when you are sure you can drive straight off it again. So always wait before moving on until there is enough room free for you on the other side of the crossing."
+        },
+        {
+          "tekst": "Just before and on a level crossing you had better not overtake (inhalen). Overtaking cyclists is sometimes an exception to that: if there is enough room and enough view, it is better for traffic flow to overtake them after all."
+        },
+        {
+          "tekst": "Once the train has passed, the barriers open automatically, even if another train is coming right behind it. So wait until the barriers are up and the red flashing light has gone out."
+        },
+        {
+          "tekst": "Very occasionally you still come across unprotected level crossings, without barriers, flashing lights or warning bells. If you want to cross there, you have to be extra careful and look very carefully."
+        },
+        {
+          "tekst": "If your engine stalls on the crossing and will not start again, put your car in first gear and let the clutch come up. Turn the ignition key or press the start button and hold it in the starting position. You are now driving off the track on the starter motor. If that does not work, leave your car and get yourself to safety."
+        },
+        {
+          "tekst": "Everything about a level crossing comes down to the one mistake you cannot undo: standing still between the barriers while a train is coming. That is why you look at the room behind the crossing rather than the room in front of it, and why you stay clear of side roads so that a queue of waiting traffic never shuffles onto the crossing."
+        },
+        {
+          "tekst": "At a crossing with barriers there is a sign warning you that another train may still be coming. The barriers go up by themselves, even when there is a second train right behind the first."
+        },
+        {
+          "tekst": "Open barriers are not permission yet. Only once the red flashing light has gone out may you go. And following the car in front onto the crossing while traffic on the other side is at a standstill is exactly where it goes wrong."
+        },
+        {
+          "tekst": "First check whether you can get off it, only then drive onto it. Barriers up is not enough, the red light has to be out."
+        },
+        {
+          "vraag": "You have to stop for a closed level crossing. What do you watch out for when you choose your spot?",
+          "antwoord": "You keep side roads and entrances or driveway exits clear, and of course the crossing itself as well.",
+          "uitleg": "Anyone who stops in a side road or a driveway exit in front of a crossing blocks other people, so you keep those clear."
+        },
+        {
+          "vraag": "You are driving behind a cyclist and just before a level crossing there is enough room and enough view. May you overtake him?",
+          "antwoord": "Yes, cyclists are sometimes an exception to the advice not to overtake there.",
+          "uitleg": "With enough room and enough view it is better for traffic flow to overtake a cyclist there after all."
+        }
+      ]
+    },
+    "U09-P04": {
+      "titel": "Bridges and flyovers",
+      "body": [
+        {
+          "tekst": "On bridges and flyovers you can be troubled by crosswind (zijwind). This is true above all outside the built-up area (bebouwde kom) on high bridges and on bridges over large stretches of open water. There is often a warning sign there with a picture of a windsock."
+        },
+        {
+          "tekst": "The further that windsock sticks out, the harder the wind is blowing. If the windsock is at right angles to the road, you have to expect a lot of trouble from crosswind. It is wise then to drive more slowly and to keep the car's engine pulling as much as you can."
+        },
+        {
+          "tekst": "In frosty weather bridges and flyovers turn slippery sooner than ordinary roads. Because the wind also passes underneath them, the road surface cools down faster and freezes earlier than the surface of ordinary roads."
+        },
+        {
+          "tekst": "You recognise a bridge that can open by the warning sign. On roads where high speeds are allowed there is often a yellow flashing light with it. It flashes when the bridge is opening, is open or has just been open."
+        },
+        {
+          "tekst": "At the bridge itself there is a red light. If it is on or starts flashing, you stop. The barriers come down after a few seconds and the bridge goes up. Switch off your engine and wait. You may only drive on once the red light has gone out."
+        },
+        {
+          "tekst": "If there is another side road before the bridge, there is sometimes a red lit arrow at the bridge as well. The ban on driving on then applies only to the direction of the arrow. In other directions you may drive on."
+        },
+        {
+          "tekst": "The windsock warns of crosswind, the opening bridge of a movable bridge."
+        },
+        {
+          "tekst": "A bridge hangs free in the air. The wind can pass alongside it and underneath it unhindered, and you notice that twice: in your steering when it is windy and in your grip when it freezes. A car that is pulling sits more firmly on the road than a car that is coasting, and that makes a difference at the moment you come out of the shelter into the wind."
+        },
+        {
+          "tekst": "Switch off your engine if you have to wait for an open bridge."
+        },
+        {
+          "tekst": "A red lit arrow applies only to the direction the arrow points in. Anyone who turns it into a general stop signal stands there for nothing while he could have gone into the side road."
+        },
+        {
+          "tekst": "Red at the bridge means stop and only drive once it has gone out. A windsock at right angles to the road means a lot of crosswind."
+        },
+        {
+          "vraag": "The barriers at a bridge are up again, but the red light is still flashing. May you drive?",
+          "antwoord": "No.",
+          "uitleg": "You may only drive on once the red light has gone out."
+        },
+        {
+          "vraag": "There has been a frost. Why is a flyover more treacherous than the ordinary road before it?",
+          "antwoord": "Because the road surface there cools down faster and freezes earlier.",
+          "uitleg": "The wind also passes underneath it, so the road surface cools down faster than that of an ordinary road."
+        }
+      ]
+    },
+    "U09-P05": {
+      "titel": "Into the tunnel",
+      "body": [
+        {
+          "tekst": "For tunnels longer than 250 metres there is sign L13, which tells you how long the tunnel is."
+        },
+        {
+          "tekst": "If certain dangerous goods are not allowed through the tunnel, this is shown with traffic sign C22 and a letter. Vehicles carrying such goods have to follow the diversion route shown with sign K14. If for whatever reason you would rather not drive through the tunnel yourself, you may use the diversion route too."
+        },
+        {
+          "tekst": "The tunnel length, the ban on certain dangerous goods and the diversion route for those goods."
+        },
+        {
+          "tekst": "Switch on your dipped headlights. That makes you easier to see for the vehicles in front of you and behind you. Do that well before you drive into the tunnel, because if you only switch the lights on inside the tunnel, the drivers behind you may think you are braking."
+        },
+        {
+          "tekst": "Take your sunglasses off before you drive into a tunnel, because with sunglasses on you cannot see well enough. When you leave the tunnel your eyes have to get used to the bright daylight again. That takes a few seconds. Adjust your driving."
+        },
+        {
+          "tekst": "When you drive into the tunnel, bear in mind that other drivers (bestuurder) often slow down and move further away from the tunnel wall. It is wise then to keep extra distance, and sometimes you had better hold off on overtaking (inhalen) for a moment."
+        },
+        {
+          "tekst": "In a tunnel a lot changes in a couple of seconds: the light, the width, the sound and the space next to you. Your eyes lag behind what is happening, and the driver in front of you has just as much trouble with it. That is why you sort out everything you can sort out yourself, lights and sunglasses and distance, before you drive in."
+        },
+        {
+          "tekst": "Above the exit slip road before a tunnel hangs a sign with the words gevaarlijke stoffen (dangerous goods). Vehicles with dangerous goods are often not allowed through tunnels and are diverted for that reason, but that diversion route is not closed to other traffic. So you may simply use the exit lane here."
+        },
+        {
+          "tekst": "Switching your lights on only once it gets dark is too late: inside the tunnel that looks like braking. And the dazzling does not only come when you drive in, it comes just as much when you drive out and the daylight hits your eyes again."
+        },
+        {
+          "tekst": "Lights on and sunglasses off before the tunnel, extra distance in the tunnel, let your eyes adjust after the tunnel."
+        },
+        {
+          "vraag": "From what length onwards is there a sign telling you how long the tunnel is?",
+          "antwoord": "From 250 metres.",
+          "uitleg": "For tunnels longer than 250 metres there is sign L13 with the length on it."
+        },
+        {
+          "vraag": "You are driving a car with no dangerous goods on board and would rather not go through the tunnel. May you take the diversion route?",
+          "antwoord": "Yes.",
+          "uitleg": "If for whatever reason you would rather not drive through the tunnel, you may use the diversion route too."
+        }
+      ]
+    },
+    "U09-P06": {
+      "titel": "Breakdown, traffic jam and fire in a tunnel",
+      "body": [
+        {
+          "tekst": "Try to get out of the tunnel if you break down. With a flat tyre, for instance, drive on slowly and only stop in a safe place after the tunnel."
+        },
+        {
+          "tekst": "If you do have to stop in the tunnel, switch on your hazard lights and park as far to the right as you can, in the next emergency lay-by (vluchthaven) if you can reach it. If that does not work, switch off your engine and leave your vehicle carefully."
+        },
+        {
+          "tekst": "Never cross the carriageway (rijbaan). Walk along the tunnel wall to the nearest emergency point (hulppost), in the direction of the traffic and never towards oncoming traffic. Use the telephone in the emergency point to contact the road traffic controller and follow the instructions you are given."
+        },
+        {
+          "tekst": "Wait for help as close to the tunnel wall as you can and stand some way past your car. That way your car takes the impact if there is a collision."
+        },
+        {
+          "tekst": "In a traffic jam in the tunnel you keep your distance from the vehicle in front and switch on your hazard lights. Tune your radio to a commonly used FM frequency, because most tunnels have a system that broadcasts instructions over the radio when something happens. Look for an emergency exit and make sure you are ready to leave your car once you are told to."
+        },
+        {
+          "tekst": "If your own vehicle is on fire or there is a fire further along in the tunnel, you have to evacuate. If your own car is on fire, switch on your hazard lights and park as close to the tunnel wall as you can; if another vehicle is on fire, keep your distance and switch on your hazard lights. Never turn around and do not reverse. Switch off your engine and leave the key in the ignition, leave your vehicle together with your passengers, follow the instructions from the loudspeakers in the tunnel and walk along the tunnel wall away from the fire to the nearest emergency exit."
+        },
+        {
+          "tekst": "In tunnels you will find information signs about escape routes, fire extinguishers and emergency telephones."
+        },
+        {
+          "tekst": "A tunnel has no verge (berm) and no way out to the side, so your only escape runs along the wall. Smoke is the real danger there, and it is pulled out of the tunnel in the direction of the traffic. That is why you normally walk with the traffic, but against the direction of the traffic when the fire is ahead of you: then you walk out of the smoke instead of into it."
+        },
+        {
+          "tekst": "Smoke is coming out from under your bonnet while you are driving in the tunnel. Try to drive out of the tunnel. If that does not work, park as far to the right as you can, switch on the hazard lights and walk along the tunnel wall in the direction of the traffic to the nearest emergency point."
+        },
+        {
+          "tekst": "There are two walking directions and the difference is the fire. Without a fire you walk with the traffic to the emergency point. If a vehicle further along is on fire, you walk against the direction of the traffic, away from the fire."
+        },
+        {
+          "tekst": "Drive out if you can. If you have to stop: hazard lights, to the right, walk along the wall, never across the carriageway and never turn around."
+        },
+        {
+          "vraag": "You have broken down in a tunnel and the emergency point on the other side is closer. Do you walk over to it?",
+          "antwoord": "No.",
+          "uitleg": "You never cross the carriageway; you walk along the tunnel wall on your own side to the nearest emergency point."
+        },
+        {
+          "vraag": "A vehicle further along in the tunnel is on fire. Which way do you walk?",
+          "antwoord": "Against the direction of the traffic, away from the fire to the nearest emergency exit.",
+          "uitleg": "The ventilation blows the smoke out of the tunnel in the direction of the traffic, so walking with the traffic would send you into the smoke."
+        }
+      ]
+    }
+  }
+}

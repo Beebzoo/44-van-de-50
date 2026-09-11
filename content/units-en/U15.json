@@ -1,0 +1,268 @@
+{
+  "id": "U15",
+  "titel": "All the signs in one place",
+  "intro": "This is the last unit and it works differently from the rest. Every sign from the signs chapter comes past once more here, family by family. It pays not to learn them one by one but per family: each family has its own shape and its own colour, and those already tell you half the meaning before you have read the symbol. Round with a red border forbids, round and blue orders, a triangle warns, a diamond belongs to the priority road (voorrangsweg) and a blue square tells you something. Work through the ten pages and then use the quiz until the look-alikes no longer surprise you.",
+  "paginas": {
+    "U15-P01": {
+      "titel": "Speed and the built-up area",
+      "body": [
+        {
+          "tekst": "Family A and family H belong together: one puts down a speed, the other puts down a whole area in which a standard speed applies. You recognise them by their shape, before you can even read the number."
+        },
+        {
+          "tekst": "These signs give a maximum speed (maximumsnelheid) or an advisory speed (adviessnelheid), or the end of it. There are also speed signs that apply to a whole zone."
+        },
+        {
+          "tekst": "A maximum is on a round white plate with a red border and a black number. An advisory speed is on a blue square sign. The same round plate with the number in grey and diagonal stripes through it is the end of that maximum."
+        },
+        {
+          "tekst": "Family A: the speed signs. The red border makes the number binding, the blue square makes it advice."
+        },
+        {
+          "tekst": "Family H is made up of the signs that show you are entering or leaving the built-up area (bebouwde kom). It is a blue rectangular sign with a white border and the place name on it; with a red diagonal stripe through it, it is the end of the built-up area."
+        },
+        {
+          "tekst": "Family H: you drive into the built-up area, or you leave it again."
+        },
+        {
+          "tekst": "The two end signs look alike but belong to different things: [A2] puts an end to a maximum speed, [A5] to an advisory speed. And a blue sign with a number stays advice, however large the number is."
+        },
+        {
+          "tekst": "Round with a red border is a maximum, a blue square is advice."
+        }
+      ]
+    },
+    "U15-P02": {
+      "titel": "Priority: diamond, triangle and octagon",
+      "body": [
+        {
+          "tekst": "These signs govern priority (voorrang) at junctions and on some roads that bend away."
+        },
+        {
+          "tekst": "The yellow diamond with a white border is the priority road (voorrangsweg); the same diamond with diagonal stripes through it is the end of the priority road. The red triangle pointing down and the red octagon with the word STOP both say: give way (voorrang verlenen) to drivers on the crossing road."
+        },
+        {
+          "tekst": "Family B: four shapes, three messages. The diamond belongs to the road, the triangle and the octagon belong to the junction you are approaching."
+        },
+        {
+          "tekst": "No other sign has the shape of a diamond, so you recognise a priority road from far away and from the side as well. And a triangle pointing down stands upside down among all the other triangles, exactly at the spot where you have to wait."
+        },
+        {
+          "tekst": "[B3] points up and means a priority junction (voorrangskruispunt); [B4] and [B5] are the same triangle with the side road on the left or on the right added. If you see one of them, you are approaching a priority junction where drivers from side roads have to give way to you. Of these seven signs, only [B6] and [B7] say that you yourself have to give way."
+        },
+        {
+          "tekst": "Pointing down or an octagon: you wait. Diamond: you are on the priority road."
+        }
+      ]
+    },
+    "U15-P03": {
+      "titel": "Closed to traffic: who may not enter",
+      "body": [
+        {
+          "tekst": "These signs settle who may not enter a road (geslotenverklaring). From the symbols on the signs you can see who they are meant for."
+        },
+        {
+          "tekst": "A red circle with a white inner face closes the road in both directions. A red circle with a broad white horizontal bar belongs to a one-way street (eenrichtingsweg) and means: closed in this direction. The blue square with the white arrow pointing up is that same one-way street, seen from the side where you may enter."
+        },
+        {
+          "tekst": "Family C: the road closes. Look in the circle for the symbol that goes with your vehicle, and only then read the sub-plate (onderbord)."
+        },
+        {
+          "tekst": "At a low-emission zone (milieuzone) you find [C22e], a red circle with a car and a van giving off exhaust fumes. The sub-plate below it says which vehicles and which emission classes may still enter."
+        },
+        {
+          "tekst": "The symbols look alike: [C13] is the moped (bromfiets), [C14] the bicycle and [C15] both. And [C6] closes the road to motor vehicles on more than two wheels, while [C12] keeps out all motor vehicles, so the motorcycle too."
+        },
+        {
+          "tekst": "Red circle: look for the symbol and ask yourself whether that is you."
+        }
+      ]
+    },
+    "U15-P04": {
+      "titel": "Direction of travel, orders and bans",
+      "body": [
+        {
+          "tekst": "At the direction signs (rijrichtingsborden) you are obliged to follow the direction shown. They are blue circles with white arrows in them."
+        },
+        {
+          "tekst": "The other orders and bans tell you where and whom you may overtake (inhalen), when you have to let oncoming traffic go first (voor laten gaan) or when other bans are lifted."
+        },
+        {
+          "tekst": "In these two families you see the colour language of the round sign most clearly. A blue circle with a white symbol points out a lane or a direction you have to follow, like the blue circle with a white bus at a bus lane. A white circle with a single diagonal grey stripe means the end of all bans indicated by traffic signs."
+        },
+        {
+          "tekst": "Family D and family F: blue says what you have to follow, red says what is not allowed, and a stripe through it is the end of it."
+        },
+        {
+          "tekst": "[F5] and [F6] show almost the same two arrows. The red circle [F5] forbids you to carry on when there is oncoming traffic; the blue square [F6] says the opposite, that oncoming traffic lets you go first. Look at the shape and the colour, not at the arrows."
+        },
+        {
+          "tekst": "Blue circle: follow this. Red circle: not this. A stripe through it: the end."
+        }
+      ]
+    },
+    "U15-P05": {
+      "titel": "Parking and stopping",
+      "body": [
+        {
+          "tekst": "These signs govern where you may or may not stop (stilstaan) or park (parkeren)."
+        },
+        {
+          "tekst": "A blue circle with a red border and one red diagonal stripe is a parking ban (parkeerverbod). The same circle with a red cross is a ban on stopping. The blue square with a white P points out a parking facility instead, and the symbol next to it says who it is meant for."
+        },
+        {
+          "tekst": "Signs with a ban on stopping or parking apply only to the side of the carriageway (rijbaan) where they are placed. If the same ban stands in a zone frame, it applies in the whole zone."
+        },
+        {
+          "tekst": "Family E: a stripe is a parking ban, a cross bans stopping as well, and the P points out a place."
+        },
+        {
+          "tekst": "[E1] and [E2] are both blue circles with a red border. The single stripe bans parking, the cross bans stopping as well. And [E3] looks like a parking ban for cars, but it is about leaving bicycles and mopeds."
+        },
+        {
+          "tekst": "A stripe bans parking, a cross bans stopping as well."
+        }
+      ]
+    },
+    "U15-P06": {
+      "titel": "What kind of road is this",
+      "body": [
+        {
+          "tekst": "These signs mark an expressway or a motorway (autoweg, autosnelweg), a residential precinct (erf), a footpath, a cycle and moped path or a bridle path. So they tell you which set of rules applies from here on."
+        },
+        {
+          "tekst": "Almost every sign in this family comes in a pair: the same sign with a red diagonal stripe through it means the end of that kind of road."
+        },
+        {
+          "tekst": "Family G: first the sign that opens the kind of road, then the same sign with a stripe that closes it."
+        },
+        {
+          "tekst": "The blue circle with a white bicycle [G11] is a compulsory cycle path (verplicht fietspad). The small blue rectangular sign with the word fietspad on it [G13] is a non-compulsory cycle path: the same message in a different shape and with a different weight."
+        },
+        {
+          "tekst": "[G11] and [G12a] differ in only one symbol: [G12a] has a moped on it as well and then it is a cycle and moped path. And [G13] is rectangular, not round, because a non-compulsory path is not an order."
+        },
+        {
+          "tekst": "Round and blue is an order, a rectangular blue sign is an indication."
+        }
+      ]
+    },
+    "U15-P07": {
+      "titel": "Warning: the red triangle",
+      "body": [
+        {
+          "tekst": "Warning signs (waarschuwingsborden) point you to danger ahead, so that you can take it into account. You often see them in places where even experienced and attentive drivers quickly overlook the dangers."
+        },
+        {
+          "tekst": "All J signs are red triangles pointing up with a black symbol, unless stated otherwise. So you only have to learn one thing: the symbol."
+        },
+        {
+          "tekst": "Family J: always the same triangle, and each time a different symbol. Read the symbol and work out what you may run into further on."
+        },
+        {
+          "tekst": "The triangle with an exclamation mark [J37] means danger, where the nature of the danger is given on the sub-plate (onderbord). Without that sub-plate you only know that there is something."
+        },
+        {
+          "tekst": "The look-alikes come in pairs: [J10] is a level crossing (overweg) with barriers and [J11] a level crossing without, [J12] goes with a single track and [J13] with two or more tracks, and [J2] up to and including [J5] differ only in the side the bend goes to."
+        },
+        {
+          "tekst": "A triangle pointing up warns you; priority is governed by the B signs."
+        }
+      ]
+    },
+    "U15-P08": {
+      "titel": "Signposting: where are you going",
+      "body": [
+        {
+          "tekst": "These signposts (bewegwijzering) give you information about the direction you have to take, the course of your route and the layout of the road."
+        },
+        {
+          "tekst": "The colour says who the sign is meant for. Blue signposts go with motorised traffic; the red and white pointed signposts are for cyclists, light moped riders and moped riders. Yellow signs go with a diversion (omleiding)."
+        },
+        {
+          "tekst": "Family K: the signposts. Blue for the car, red and white for the bicycle, yellow for a temporary route."
+        },
+        {
+          "tekst": "In the exam it is rarely about the place names on the sign, but about who the sign is hanging there for and where the arrow points."
+        },
+        {
+          "tekst": "Blue for the car, red and white for the bicycle, yellow is temporary."
+        }
+      ]
+    },
+    "U15-P09": {
+      "titel": "Information signs",
+      "body": [
+        {
+          "tekst": "The information signs (informatieborden) also give you information about the direction you have to take, the course of your route and the layout of the road. Almost all of them are blue square or rectangular signs with a white symbol."
+        },
+        {
+          "tekst": "A blue square with a white road that ends in a red bar is a dead-end road (doodlopende weg); the same picture with a side road is the advance warning of it."
+        },
+        {
+          "tekst": "Family L: information about the road ahead of you, from the height of a flyover to the exit of a tunnel."
+        },
+        {
+          "tekst": "[L2] and [J22] have exactly the same meaning in the book: voetgangersoversteekplaats, a pedestrian crossing. Both draw your attention to such a crossing. The difference lies in the family: [J22] is a warning sign and [L2] an information sign."
+        },
+        {
+          "tekst": "A blue square tells you something, a red triangle warns you."
+        }
+      ]
+    },
+    "U15-P10": {
+      "titel": "Zones, sub-plates and the order of precedence",
+      "body": [
+        {
+          "tekst": "Traffic signs usually apply to the whole width of the road. If the word zone stands above a traffic sign, the sign applies to a whole area, and if it is not immediately clear where the zone ends, the sign einde zone (end of zone) stands at the end."
+        },
+        {
+          "tekst": "An ordinary sign applies up to the next junction, unless an end sign lifts it earlier. Zone signs and built-up area (bebouwde kom) signs apply until the end of the zone or of the built-up area."
+        },
+        {
+          "tekst": "Sub-plates (onderborden) can say when the traffic sign applies, for whom it applies, for whom it does not apply, where it applies and extra information. The sub-plates with a vehicle symbol show that the traffic sign applies only to the category shown on the sub-plate."
+        },
+        {
+          "kop": [
+            "Sub-plate",
+            "What it does"
+          ],
+          "rijen": [
+            [
+              "An arrow to the left",
+              "Applies only in the direction of the arrow"
+            ],
+            [
+              "500 m",
+              "Applies over 500 metres"
+            ],
+            [
+              "herhaling (repeat)",
+              "The traffic sign above it was placed earlier already and is already in force"
+            ],
+            [
+              "uitgezonderd (except), with a bicycle",
+              "Does not apply to bicycles and disability vehicles without an engine"
+            ],
+            [
+              "ma t/m vr 08-18 h",
+              "Applies Monday to Friday inclusive, from 8 to 18 hours"
+            ]
+          ]
+        },
+        {
+          "tekst": "Signs and road markings come before traffic rules. Traffic lights come before signs and markings that govern priority. Instructions (aanwijzingen) in turn come before traffic signs, road markings and traffic rules."
+        },
+        {
+          "tekst": "At a cycle crossing [B6] stands on the post and there are shark's teeth (haaientanden) on the road surface. This traffic sign and shark's teeth on the road surface show that you have to give way (voorrang verlenen): the sign and the marking say the same thing."
+        },
+        {
+          "tekst": "A sub-plate never changes what the main sign means, it only limits for whom, when or where it applies. And if two signs stand on one post, read them both separately: they apply alongside each other."
+        },
+        {
+          "tekst": "Instruction above light, light above sign and marking, sign and marking above the ordinary rule."
+        }
+      ]
+    }
+  }
+}

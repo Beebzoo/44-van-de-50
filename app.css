@@ -485,3 +485,10 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .bloknr { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; margin-right: 8px; border-radius: 8px;
   background: var(--schil-zacht); color: var(--bord-blauw); border: 1px solid var(--schil-rand);
   font-family: var(--kop); font-weight: 700; font-size: 15px; vertical-align: -5px; }
+
+/* de taalknop in de kopbalk: twee letters, de actieve draagt de pil */
+.taalknop { display: inline-flex; flex: none; gap: 2px; padding: 2px; border-radius: 999px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.3); }
+.taalknop button { min-height: 26px; padding: 0 8px; border-radius: 999px; background: none; border: 0; color: var(--schil-inkt); font-family: var(--kop); font-weight: 600; font-size: 13px; letter-spacing: .02em; opacity: .75; }
+.taalknop button.actief { background: var(--schil-inkt); color: var(--bord-blauw); opacity: 1; }
+.taalknop button:hover { opacity: 1; }
+@media (max-width: 359px) { .taalknop { display: none; } }

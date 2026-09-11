@@ -1,0 +1,413 @@
+{
+  "id": "U06",
+  "titel": "Speed, distance and braking",
+  "intro": "This block is made of numbers, and that is good news: numbers can be learnt. You learn the four standard limits, the lower limits in zones and in a residential precinct (\"erf\"), what the signs and the road markings tell you, and what changes when you tow a trailer. After that it is about space: two seconds behind the vehicle in front, and the metres you need to really come to a stop. Work the examples out yourself once and they will stick.",
+  "paginas": {
+    "U06-P01": {
+      "titel": "The standard speed limits",
+      "body": [
+        {
+          "tekst": "Without a sign, every road has a standard speed limit. Which limit that is depends on two things: are you inside or outside the built-up area (bebouwde kom), and what kind of road is this."
+        },
+        {
+          "tekst": "Inside the built-up area you may drive at most 50 km/h as a car driver, unless a different limit is indicated with signs."
+        },
+        {
+          "tekst": "Outside the built-up area the speed limit depends on the type of road: 80 km/h on other roads and 100 km/h on expressways (\"autoweg\"). There too a lower limit can be indicated with signs."
+        },
+        {
+          "tekst": "The standard speed limit on motorways (autosnelweg) is 130 km/h. During the day, between 6 and 19, it is reduced to a standard of 100 km/h. Between 19 and 6 the 130 km/h applies again, unless traffic signs indicate a lower speed, for example a sign showing 120 with the sub-plate (onderbord) 19-6h."
+        },
+        {
+          "tekst": "On some ring roads around cities a permanently lower limit of 80 km/h applies."
+        },
+        {
+          "tekst": "On an expressway inside the built-up area the limit is in principle 50 km/h as well, but in practice signs often indicate that you may drive faster, for example 70 km/h."
+        },
+        {
+          "tekst": "Where you drive tells you who you can meet. Inside the built-up area, pedestrians, cyclists and side streets cross your path all the time; on an expressway or a motorway that does not happen. The less crossing traffic there is, the higher the limit that can still be justified. On the motorway there is one more reason that has nothing to do with the road: during the day it is far busier there, and that is why the standard is lower then than at night."
+        },
+        {
+          "kop": [
+            "Where you drive",
+            "Limit for a passenger car"
+          ],
+          "rijen": [
+            [
+              "inside the built-up area",
+              "50 km/h"
+            ],
+            [
+              "expressway inside the built-up area",
+              "50 km/h, unless signs allow more"
+            ],
+            [
+              "outside the built-up area, other roads",
+              "80 km/h"
+            ],
+            [
+              "expressway outside the built-up area",
+              "100 km/h"
+            ],
+            [
+              "motorway between 6 and 19",
+              "100 km/h"
+            ],
+            [
+              "motorway between 19 and 6",
+              "130 km/h, unless signs indicate less"
+            ],
+            [
+              "some ring roads around cities",
+              "permanently 80 km/h"
+            ]
+          ]
+        },
+        {
+          "tekst": "[A1] indicates a speed limit and [A2] indicates where it ends. If there is no sign, the standard for the road you are on applies."
+        },
+        {
+          "tekst": "On the motorway almost everyone thinks of 130 km/h, but that is the night value. During the day the standard is 100 km/h. Look at the clock and at the signs, not at what the cars around you are doing."
+        },
+        {
+          "tekst": "50 km/h inside the built-up area, 80 km/h outside it, 100 km/h on the expressway, and on the motorway 130 km/h with 100 km/h during the day."
+        },
+        {
+          "vraag": "It is three in the afternoon and you are driving on a motorway with no speed signs. How fast may you go?",
+          "antwoord": "100 km/h.",
+          "uitleg": "Between 6 and 19 the standard on the motorway is reduced to 100 km/h."
+        },
+        {
+          "vraag": "You are driving on an expressway inside the built-up area and there is no speed sign. What is your limit?",
+          "antwoord": "50 km/h.",
+          "uitleg": "On an expressway inside the built-up area 50 km/h applies in principle; only a sign can raise that."
+        }
+      ]
+    },
+    "U06-P02": {
+      "titel": "Zones, the residential precinct and what the markings say",
+      "body": [
+        {
+          "tekst": "Besides the standard limits there are places where people drive more slowly on purpose. You recognise them by a sign, and often already by the markings on the road surface (belijning)."
+        },
+        {
+          "tekst": "Special sections of road inside the built-up area (bebouwde kom) are the 30 km zone with a limit of 30 km/h and the residential precinct (\"erf\") with a limit of 15 km/h."
+        },
+        {
+          "tekst": "On roads outside the built-up area, fast and slow traffic often mix. That is why zones with a lower speed limit of 60 km/h have been set up in many areas. You recognise such a zone by the zone sign (zonebord)."
+        },
+        {
+          "tekst": "From the road markings you can tell what kind of road you are on, what behaviour is expected of you and which other road users you can expect. They are also a help in telling what the speed limit is."
+        },
+        {
+          "tekst": "The markings are an indication of the speed limit, but not a certainty. The actual speed limit is indicated with signs."
+        },
+        {
+          "tekst": "You see markings sooner than a sign: they run along with the whole road and they are there even when you have just missed a sign. That is why the markings are a fine first estimate of what kind of road this is. But a road authority may depart from the standard, and it does that with a sign. Anyone who goes by the markings alone will sooner or later be driving too fast without noticing."
+        },
+        {
+          "kop": [
+            "Road markings",
+            "Usually goes with"
+          ],
+          "rijen": [
+            [
+              "double centre line with a green strip between them, solid edge lines",
+              "100 km/h"
+            ],
+            [
+              "double solid or broken centre line, broken edge lines",
+              "80 km/h"
+            ],
+            [
+              "no centre line, broken edge lines sometimes with a suggestion lane",
+              "60 km/h"
+            ]
+          ]
+        },
+        {
+          "tekst": "You are driving outside the built-up area on a road without a centre line, with red suggestion lanes along the side. That looks like a 60 km road. If there is no speed sign and no zone sign, you may still drive 80 km/h there."
+        },
+        {
+          "tekst": "The markings are a clue, not a rule. If you see a road that looks like a 60 km road but there is no sign, it is simply a road where you may drive 80 km/h. And do not confuse 30 and 60: the 30 km zone belongs inside the built-up area, the 60 km zone outside it."
+        },
+        {
+          "tekst": "30 km/h in the 30 km zone, 15 km/h in the residential precinct, 60 km/h in the 60 km zone. The markings give a hint, the sign gives the rule."
+        },
+        {
+          "vraag": "Outside the built-up area you approach a zone sign with a round sign showing the number 60 in it. What changes?",
+          "antwoord": "Beyond that sign you may drive 60 km/h.",
+          "uitleg": "You recognise a 60 km zone by the zone sign; inside it the lower speed limit applies."
+        },
+        {
+          "vraag": "Why can you never go by the road markings alone to work out how fast you may drive?",
+          "antwoord": "Because the markings are an indication and not a certainty.",
+          "uitleg": "The actual speed limit is indicated with signs."
+        }
+      ]
+    },
+    "U06-P03": {
+      "titel": "Matrix signs and the signs above the road",
+      "body": [
+        {
+          "tekst": "Not every traffic sign stands on a post at the side of the road. On the motorway (autosnelweg) there are signs hanging above the lanes (rijstrook) that can change per lane and from moment to moment. So you check those actively."
+        },
+        {
+          "tekst": "A different limit is indicated with (electronic) signs. That can apply for the whole day or for certain parts of the day, and in zones or along stretches of road."
+        },
+        {
+          "tekst": "When the hard shoulder (vluchtstrook) on the right is used as an extra lane, that is called a rush-hour lane (spitsstrook). The drawback is that there is then no hard shoulder available any more."
+        },
+        {
+          "tekst": "Signs and lane signals indicate whether the lane is open. A matrix sign (matrixbord) with a green downward arrow goes with an open rush-hour lane, a white diagonal arrow pointing down to the left with a rush-hour lane you have to clear, and a red cross with a closed rush-hour lane."
+        },
+        {
+          "tekst": "If a rush-hour lane on the right is open, you must follow it as much as possible, because after all you have to keep as far right as possible."
+        },
+        {
+          "tekst": "Sometimes there are extra lanes for particular vehicles. Only those vehicles may use these dedicated lanes (doelgroepenstrook)."
+        },
+        {
+          "tekst": "A sign on a post says something about the road, a sign above the road says something about this moment. With it the road authority can close a lane after an accident, slow traffic down ahead of a queue or open an extra lane in the rush hour. Precisely because that information changes, you have to pick it up again every time: on the motorway you look not only ahead but also up."
+        },
+        {
+          "tekst": "[A3] is a speed limit on an electronic signal sign and [F9] indicates that the prohibitions shown there end. [C23-01] means rush-hour lane open, [C23-02] clear the rush-hour lane and [C23-03] end of rush-hour lane."
+        },
+        {
+          "tekst": "An electronic sign is a real traffic sign and not advice. It can indicate a lower limit than the standard for that road, for the whole day or only for part of the day."
+        },
+        {
+          "tekst": "On the motorway, look up as well. A green downward arrow means open, a red cross means closed, and an open rush-hour lane on the right is one you use."
+        },
+        {
+          "vraag": "Above the right-hand lane there is a matrix sign with a green downward arrow. What does that mean for you?",
+          "antwoord": "The rush-hour lane is open, and because it is on the right you have to follow it as much as possible.",
+          "uitleg": "You have to keep as far right as possible, so you use an open rush-hour lane on the right."
+        },
+        {
+          "vraag": "There is an extra lane with a blue sign showing a bus on it. May you use it?",
+          "antwoord": "No.",
+          "uitleg": "That is a dedicated lane: only the vehicles shown on the sign may use it."
+        }
+      ]
+    },
+    "U06-P04": {
+      "titel": "Trailer, moped car and advisory speed",
+      "body": [
+        {
+          "tekst": "If you tow something behind your car, different limits apply. And besides speed limits there are advisory speeds (adviessnelheid): they are not in a red ring, but you had better not ignore them."
+        },
+        {
+          "tekst": "If you tow a trailer (aanhangwagen) or caravan, you may drive 50 km/h inside the built-up area (bebouwde kom), 80 km/h outside the built-up area, and 90 km/h on expressways (\"autoweg\") and motorways, but only if the permitted maximum mass of your trailer or caravan is no more than 3,500 kg."
+        },
+        {
+          "tekst": "A moped car (brommobiel) drives on the carriageway (rijbaan) both inside and outside the built-up area, with a maximum speed of 45 km/h. The same goes for a disabled person's vehicle with an engine."
+        },
+        {
+          "tekst": "Besides speed limits there are also advisory speeds. They are indicated with signs and are matched to the local conditions, for example a sharp bend."
+        },
+        {
+          "tekst": "Advisory speeds are based on good road and weather conditions. Adjust your speed in poor conditions."
+        },
+        {
+          "tekst": "Advisory speeds can also have the aim of improving traffic flow. At a series of traffic lights you benefit from a green wave if you keep to the advised speed, so you do not meet a red light."
+        },
+        {
+          "tekst": "You may not exceed the speed limit, and if it is necessary you must even drive considerably slower than the limit. Do not overdo it the other way either, because driving too slowly gets in the way of the traffic flow and can provoke dangerous reactions."
+        },
+        {
+          "tekst": "A trailer makes your combination heavier and longer, and with that slower to come to a stop and more prone to swaying. A moped car is exactly the opposite problem: it belongs on the carriageway but cannot keep up with the pace of the rest. And an advisory speed is the speed at which the bend or the road surface still works with you, which makes it something you take seriously even though there is no red ring around it."
+        },
+        {
+          "kop": [
+            "With a trailer or caravan",
+            "Limit"
+          ],
+          "rijen": [
+            [
+              "inside the built-up area",
+              "50 km/h"
+            ],
+            [
+              "outside the built-up area",
+              "80 km/h"
+            ],
+            [
+              "expressway and motorway, trailer no heavier than 3,500 kg",
+              "90 km/h"
+            ],
+            [
+              "expressway and motorway, trailer heavier than 3,500 kg",
+              "80 km/h"
+            ]
+          ]
+        },
+        {
+          "tekst": "[A4] is the advisory speed and [A5] the end of it. The sign is blue and square, not round with a red border: that difference tells you straight away that it is not a limit."
+        },
+        {
+          "tekst": "You come into the built-up area after a long drive on the motorway. You are so used to motorway speed that you drive faster than 50 km/h without thinking about it. In a case like that, look at your speedometer on purpose instead of going by your feeling."
+        },
+        {
+          "tekst": "An advisory speed is not a limit, but not a free suggestion either: it goes with good road and weather conditions. If it is wet or wintry, you stay further below it."
+        },
+        {
+          "tekst": "With a trailer: 50, 80 and 90 km/h, and that 90 km/h only up to 3,500 kg. Moped car: 45 km/h, on the carriageway. Advice is blue, a limit is red."
+        },
+        {
+          "vraag": "You are driving with a caravan of 1,200 kg on the motorway. How fast may you go?",
+          "antwoord": "90 km/h.",
+          "uitleg": "On expressways and motorways you may drive 90 km/h with a trailer, provided the permitted maximum mass is no more than 3,500 kg."
+        },
+        {
+          "vraag": "Outside the built-up area you are catching up quickly on a moped car. How fast may such a vehicle actually go?",
+          "antwoord": "At most 45 km/h.",
+          "uitleg": "A moped car drives on the carriageway inside and outside the built-up area and may do at most 45 km/h."
+        }
+      ]
+    },
+    "U06-P05": {
+      "titel": "Keeping your distance: two seconds",
+      "body": [
+        {
+          "tekst": "Speed is one half of safe driving, space is the other. Keeping your distance costs you almost nothing and buys you the second you really need when things go wrong ahead of you."
+        },
+        {
+          "tekst": "The legal rule is that you must be able to bring your vehicle to a stop within the distance over which you can see the road and over which it is clear."
+        },
+        {
+          "tekst": "In practice the 2 second rule applies: in good conditions you keep at least 2 seconds behind the vehicle in front."
+        },
+        {
+          "tekst": "The formula for the 2 second distance is: divide your speed in metres per hour by 3,600 and multiply the result by 2. The rule of thumb is shorter: divide your speed in km/h by 2 and add 10%."
+        },
+        {
+          "tekst": "Keep a larger following distance (volgafstand), 3 seconds, in difficult conditions: when it is raining, snowing or foggy, when your vehicle is heavily loaded or when you are driving with a trailer (aanhangwagen) or caravan."
+        },
+        {
+          "tekst": "If a car merges in front of you while you are keeping 2 seconds, make sure you create a safe distance of 2 seconds again."
+        },
+        {
+          "tekst": "On motorways there are sometimes markings on the road surface that help you keep enough distance. Make sure at least 2 markings are visible between you and the vehicle in front."
+        },
+        {
+          "tekst": "Two seconds is exactly the time you need to see that something is happening and to do something about it. In the first second you are not reacting yet, in the second one you are on the brake. Drive closer than that and you reach the vehicle in front before your brakes have been able to do anything at all. Counting seconds works better than estimating metres, because the gap then grows with your speed by itself."
+        },
+        {
+          "tekst": "Count out loud from the moment the vehicle in front passes a fixed point along the road. If you get there yourself before two, your gap is too small."
+        },
+        {
+          "tekst": "At 80 km/h you cover 22.2 metres per second. Over 2 seconds that is 44.4 metres. The rule of thumb gives you almost the same: 80 divided by 2 is 40 metres, plus 10% is 44 metres."
+        },
+        {
+          "kop": [
+            "Method",
+            "At 80 km/h"
+          ],
+          "rijen": [
+            [
+              "formula: metres per hour divided by 3,600, times 2",
+              "44.4 metres"
+            ],
+            [
+              "rule of thumb: speed divided by 2, plus 10%",
+              "44 metres"
+            ]
+          ]
+        },
+        {
+          "tekst": "A following distance that is too tight, together with distraction or tiredness, is the cause of the large number of rear-end collisions on motorways. It is exactly when it is busy and everyone is driving close together that the temptation to join in is greatest."
+        },
+        {
+          "tekst": "Two seconds normally, three seconds in bad weather, heavily loaded or with a trailer. At least 2 markings visible on the motorway."
+        },
+        {
+          "vraag": "You are driving 80 km/h and want to know how many metres two seconds is. What does the rule of thumb give?",
+          "antwoord": "44 metres.",
+          "uitleg": "80 divided by 2 is 40 metres, plus 10% is 44 metres."
+        },
+        {
+          "vraag": "It is raining hard and you are driving with a caravan. How much distance do you keep?",
+          "antwoord": "3 seconds.",
+          "uitleg": "In rain, with a heavily loaded car or with a trailer you increase your following distance to 3 seconds."
+        }
+      ]
+    },
+    "U06-P06": {
+      "titel": "Reaction distance, braking distance and stopping distance",
+      "body": [
+        {
+          "tekst": "Stopping takes longer than you think, and a large part of it happens before your brakes do anything. Anyone who keeps the three terms apart sees straight away why speed counts so heavily."
+        },
+        {
+          "tekst": "The total distance you need to come to a stop is what we call the stopping distance (stopafstand). The stopping distance is the reaction distance (reactieafstand) plus the braking distance (remweg)."
+        },
+        {
+          "tekst": "Between noticing that you have to brake and the moment you really hit the brake, an average of one second goes by. We call that second the reaction second, and the distance you cover during it is the reaction distance."
+        },
+        {
+          "tekst": "The rule of thumb for the reaction distance is: speed in km/h divided by 2, plus 10%, and all of that divided by 2."
+        },
+        {
+          "tekst": "The braking distance is the distance you cover from the moment you start braking until you are at a standstill. The rule of thumb is: speed divided by 10, times speed divided by 10, divided by 2."
+        },
+        {
+          "tekst": "The braking distance increases progressively: if you drive 2 times as fast, your braking distance becomes 4 times as long."
+        },
+        {
+          "tekst": "The reaction distance grows in step with your speed, because that one second stays just as long. The braking distance grows far faster, because your brakes have to get rid of the kinetic energy and that goes up with the square of your speed. That is exactly why driving a bit faster costs so much more at high speed than at low speed: nearly all the extra metres are in the braking."
+        },
+        {
+          "tekst": "You see the pedestrian, and only a second later is your foot on the brake. During that second you simply carry on. Only after that does the braking distance start."
+        },
+        {
+          "kop": [
+            "Speed",
+            "Reaction distance",
+            "Braking distance",
+            "Stopping distance"
+          ],
+          "rijen": [
+            [
+              "50 km/h",
+              "13.75 metres",
+              "12.50 metres",
+              "26.25 metres"
+            ],
+            [
+              "80 km/h",
+              "22.00 metres",
+              "32.00 metres",
+              "54.00 metres"
+            ],
+            [
+              "130 km/h",
+              "35.75 metres",
+              "84.50 metres",
+              "120.25 metres"
+            ]
+          ]
+        },
+        {
+          "tekst": "At 40 km/h your reaction distance is 11 metres and your braking distance 8 metres. Your stopping distance is then 11 plus 8 is 19 metres. Work it out yourself with the two rules of thumb and you see how they fit together."
+        },
+        {
+          "tekst": "Many people think only of the braking distance when it comes to stopping and forget the metres they cover before they react. At 50 km/h that part is even longer than the braking distance itself."
+        },
+        {
+          "tekst": "Stopping distance is reaction distance plus braking distance. The reaction distance grows in step, the braking distance far faster: 2 times as fast is 4 times as long to brake."
+        },
+        {
+          "vraag": "What is the stopping distance at 80 km/h?",
+          "antwoord": "54.00 metres.",
+          "uitleg": "The reaction distance is 22.00 metres and the braking distance 32.00 metres; together that is 54.00 metres."
+        },
+        {
+          "vraag": "You double your speed. What happens to your braking distance?",
+          "antwoord": "It becomes 4 times as long.",
+          "uitleg": "The braking distance increases progressively, not in direct proportion to your speed."
+        }
+      ]
+    }
+  }
+}

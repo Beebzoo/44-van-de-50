@@ -1,0 +1,500 @@
+{
+  "id": "U13",
+  "titel": "The driver and the law",
+  "intro": "This block is not about a junction but about you. Are you fit enough to drive, what have you been drinking or taking, is your driving licence still valid, and what happens if the police pull you over. Here the exam asks above all for numbers: the alcohol limits for a novice and an experienced driver, how long a licence is valid, how much over the speed limit costs you your licence and from which figure a course is imposed on you. Learn those numbers as pairs, then all you have to do in the exam is work out which row of the table the driver in the question is in.",
+  "paginas": {
+    "U13-P01": {
+      "titel": "Fit to drive",
+      "body": [
+        {
+          "tekst": "The book does not start with the rules but with the driver (bestuurder). One person has more driving experience than another, one is relaxed and the other is full of stress, and all those drivers together decide how safe it is on the road. So before you think about priority, what counts first is whether you are in a state to drive today."
+        },
+        {
+          "tekst": "Your senses"
+        },
+        {
+          "tekst": "You use your senses to take in situations. Your eyes matter most, your ears alert you to a siren, a horn or screeching brakes, with your nose you smell fumes or leaking fuel, and through touch you feel vibrations, the centrifugal force in bends and the nature of the road surface. If your senses do not work properly, you are a danger on the road."
+        },
+        {
+          "tekst": "Colour blindness and night blindness need not stop you from driving, as long as you adapt your driving style to them. If you have doubts about your eyesight, have your eyes checked."
+        },
+        {
+          "tekst": "Make sure nothing blocks your senses. Loud music while driving is not clever, because you cannot hear important sounds. Phoning or listening to music is only allowed hands free and with as little effect on your concentration as possible."
+        },
+        {
+          "tekst": "Concentration, condition and tiredness"
+        },
+        {
+          "tekst": "Distraction, social media above all, is a major cause of accidents. Set your mirrors and your navigation before you set off, then you do not have to do it on the way."
+        },
+        {
+          "tekst": "Losing concentration also happens without a phone. A familiar route or a long straight road through flat, monotonous polder country lets your attention drift away. That is called polderblindheid (polder blindness)."
+        },
+        {
+          "tekst": "Tiredness is the main cause in 15 per cent of accidents. Only rest helps against tiredness. After every two hours of driving, take a break of at least 15 minutes."
+        },
+        {
+          "items": [
+            "heavy eyelids",
+            "yawning all the time",
+            "suddenly starting up",
+            "seeing double",
+            "even nodding off for a moment"
+          ]
+        },
+        {
+          "tekst": "If you are very happy, angry or sad, you drive less attentively, you react later and you are quicker to make a wrong decision. So do not drive when your emotions are running high, and do not let an aggressive fellow road user (weggebruiker) wind you up on the way."
+        },
+        {
+          "tekst": "All these points touch the same thing: the time between seeing and acting. Tired, angry or distracted, you see the cyclist half a second later and you decide half a second slower, and at a junction that half second is the difference. That is why there is no trick that cancels out tiredness: you can only take away the cause by resting."
+        },
+        {
+          "tekst": "Taking others into account"
+        },
+        {
+          "tekst": "Traffic is not a race. It is forbidden to hold a race with vehicles on the road, or to take part in one."
+        },
+        {
+          "tekst": "Social driving behaviour means that you prevent other road users from getting into trouble, and that you help them if it happens anyway. The book gives four examples."
+        },
+        {
+          "items": [
+            "where the carriageway (rijbaan) narrows, leave room for drivers who are overtaking (inhalen)",
+            "avoid driving through puddles when others are bothered by it",
+            "show understanding for lorries and buses, which pull away more slowly and are less nimble",
+            "let drivers merge (invoegen) when you are in a queue on the through carriageway"
+          ]
+        },
+        {
+          "tekst": "You are driving on a wet road past a bus stop where people are waiting. Social driving here means pulling out or slowing down so that you do not splash them. If there really is danger, you brake, pull out or stop, and if it is necessary you may give a light signal or a sound signal while doing so."
+        },
+        {
+          "tekst": "Watch out for risk compensation. Cars get more and more systems that support the driver. Do not let the presence of these systems tempt you into taking more risk."
+        },
+        {
+          "tekst": "Coffee, fresh air and an open window are not a rest break. The book names only one remedy for tiredness and that is resting. And note the wording about the senses: the book does not say that colour blindness bans you from driving, but that you adapt your driving style to it."
+        },
+        {
+          "tekst": "Two hours of driving, a quarter of an hour of rest. Tiredness is the main cause in 15 per cent of accidents."
+        },
+        {
+          "vraag": "You have been driving on the motorway for three hours in a row and you start yawning. You open the window and have a can of energy drink. Is that enough?",
+          "antwoord": "No, only rest helps.",
+          "uitleg": "After every two hours of driving there should be a break of at least 15 minutes. Fresh air and caffeine do not take the tiredness away."
+        },
+        {
+          "vraag": "You are night blind. Are you allowed on the road with an ordinary category B driving licence (rijbewijs)?",
+          "antwoord": "Yes, as long as you adapt your driving style to it.",
+          "uitleg": "The book calls colour blindness and night blindness no obstacle, provided you adapt your driving style."
+        }
+      ]
+    },
+    "U13-P02": {
+      "titel": "Alcohol: two limits and two clocks",
+      "body": [
+        {
+          "tekst": "Driving under the influence of alcohol is forbidden. The treacherous part is that you start to overrate yourself: you think you are driving better, while in fact you can concentrate less well and your perception and reaction go downhill."
+        },
+        {
+          "tekst": "There are two alcohol limits, a strict one for the novice driver (beginnend bestuurder) and a wider one for the experienced driver (ervaren bestuurder). Both are given as a figure per mille (promille) in the blood and as micrograms per litre of exhaled air."
+        },
+        {
+          "kop": [
+            "Type of driver",
+            "In the blood",
+            "In the breath"
+          ],
+          "rijen": [
+            [
+              "Novice driver",
+              "0.2 per mille",
+              "88 micrograms per litre"
+            ],
+            [
+              "Experienced driver",
+              "0.5 per mille",
+              "220 micrograms per litre"
+            ]
+          ]
+        },
+        {
+          "tekst": "How long you stay a novice driver depends on your first driving licence (rijbewijs). If you get it on or after your 18th birthday, you are a novice driver for 5 years. If you already held an AM or T licence before your 18th, it is 7 years, counted from that licence."
+        },
+        {
+          "kop": [
+            "First driving licence",
+            "How long a novice driver"
+          ],
+          "rijen": [
+            [
+              "Obtained on or after your 18th",
+              "5 years"
+            ],
+            [
+              "AM or T obtained before your 18th",
+              "7 years from that licence"
+            ]
+          ]
+        },
+        {
+          "tekst": "The glass and the clock"
+        },
+        {
+          "tekst": "Every standard glass holds the same amount of alcohol, about 12 millilitres of pure alcohol. A glass of beer, a glass of wine and a small glass of spirits therefore count just as heavily. One standard glass leads on average to a reading of 0.2 to 0.3 per mille."
+        },
+        {
+          "tekst": "Your body breaks alcohol down at 0.1 to 0.2 per mille an hour. Clearing 1 glass of alcohol therefore easily takes 1.5 hours. You cannot speed that up: fresh air, black coffee or a nap do nothing at all."
+        },
+        {
+          "tekst": "Exactly how high your reading will go cannot be said in advance. Alcohol works extra strongly on small, light people, on people who are not used to alcohol, and when you drink on an empty stomach."
+        },
+        {
+          "tekst": "Put the two figures side by side and the strictness speaks for itself: a standard glass gives an average of 0.2 to 0.3 per mille, and for a novice that is the limit itself. The course says it bluntly: after one glass, as a novice you are over it. Because your body needs an hour and a half to get rid of that one glass, you cannot bring yourself back under the limit with a cup of coffee or a walk round the block."
+        },
+        {
+          "tekst": "You got your category B licence at 19 and that was three years ago. So you are still a novice driver and 0.2 per mille applies to you. Your friend of 30 has held his licence for twelve years and sits at 0.5 per mille. With the same two beers you are both in the wrong, but you were over your limit after the first glass already."
+        },
+        {
+          "tekst": "Do not mix up the two units. Per mille goes with the blood, micrograms per litre with the breath. And watch who is driving in the question: the exam likes to put in a driver who has held a licence for just four years, and that is still a novice driver."
+        },
+        {
+          "tekst": "Novice 0.2 per mille, experienced 0.5 per mille. One glass is an hour and a half."
+        },
+        {
+          "vraag": "Which alcohol limit applies to a driver who got his category B licence six years ago at the age of 20?",
+          "antwoord": "0.5 per mille, because he is no longer a novice driver.",
+          "uitleg": "Anyone who gets a first licence on or after their 18th birthday is a novice driver for 5 years. Six years is more than five, so the limit for the experienced driver applies."
+        },
+        {
+          "vraag": "How much pure alcohol is in a glass of wine compared with a glass of beer?",
+          "antwoord": "The same, about 12 millilitres.",
+          "uitleg": "The stronger the drink, the smaller the glass. That is why every standard glass holds the same amount of alcohol."
+        }
+      ]
+    },
+    "U13-P03": {
+      "titel": "Drugs and medicines",
+      "body": [
+        {
+          "tekst": "Driving under the influence of drugs is a crime (misdrijf). Drugs act on the central nervous system and change your behaviour, and the effect is often impossible to judge: from one time to the next the same substance can work out differently."
+        },
+        {
+          "tekst": "Different limits apply to different drugs, but they are all very low. The book sums it up like this: you are in the wrong as soon as the degree of influence goes above the limits set for alcohol. The course keeps it practical: simply do not use drugs in traffic."
+        },
+        {
+          "tekst": "If you have combined alcohol and drugs, a zero limit (nullimiet) applies. So there is no permitted amount left at all."
+        },
+        {
+          "tekst": "Drugs stay detectable for a long time. For each substance the book gives the time in saliva, from about six to eight hours for hash or weed to dozens of hours for ecstasy. The course measures in blood and urine and arrives at 5 days to 3 weeks."
+        },
+        {
+          "tekst": "Medicines"
+        },
+        {
+          "tekst": "With certain medicines you run an increased risk in traffic. The book names tranquillisers, sleeping pills, painkillers, appetite suppressants, pep pills, anaesthetic injections from the dentist and remedies for allergies, travel sickness or a cold above all."
+        },
+        {
+          "tekst": "On the packaging of a medicine that is dangerous in traffic there is a pictogram or a yellow sticker. If you are in doubt, ask your doctor or pharmacist. Some medicines go on working in your body for as long as 48 hours, even if you took them only once."
+        },
+        {
+          "kop": [
+            "Symbol on the packaging",
+            "What it means"
+          ],
+          "rijen": [
+            [
+              "Green tick",
+              "No problem: you may simply drive"
+            ],
+            [
+              "Yellow triangle with exclamation mark",
+              "Take care: only drive if you have no side effects"
+            ],
+            [
+              "Red circle with a white cross",
+              "Do not: this medicine and driving do not go together"
+            ]
+          ]
+        },
+        {
+          "tekst": "With alcohol you can still work back through glasses and hours. With drugs and medicines you cannot, because the same dose works out differently each time and some substances are still in you two days later. That is why the law does not work here with a handy limit you can judge for yourself, but with a ban and a test."
+        },
+        {
+          "tekst": "At the dentist you are given an anaesthetic injection and a painkiller to take home, with a yellow sticker on the box. You have the car with you. The sticker warns that your reactions may be slower, so you ask the pharmacist whether you may still drive. If the medicine is advised against, you leave the car where it is."
+        },
+        {
+          "tekst": "Medicines and drink together are worse than either on its own: the effects of alcohol and drugs can be strengthened if you take medicines at the same time. And the zero limit applies to alcohol together with drugs, not to alcohol on its own."
+        },
+        {
+          "tekst": "Alcohol plus drugs is a zero limit. Medicines can go on working for 48 hours."
+        },
+        {
+          "vraag": "You took a pill last night and drank a glass of wine this morning. Which limit applies to you?",
+          "antwoord": "A zero limit.",
+          "uitleg": "With combined use of alcohol and drugs there is no longer a per mille limit, but a zero limit."
+        },
+        {
+          "vraag": "There is a yellow triangle with an exclamation mark on your medicine box. What does that mean?",
+          "antwoord": "Take care: you may only drive if you have no side effects.",
+          "uitleg": "The three symbols run from the green tick (no problem) through the yellow triangle (take care) to the red circle with a cross (do not)."
+        }
+      ]
+    },
+    "U13-P04": {
+      "titel": "Pulled over by the side of the road",
+      "body": [
+        {
+          "tekst": "The police check mainly for alcohol and drugs. At an alcohol check a breath test is used, at a drugs check a saliva test. If needed, a breath analysis or a blood test follows at the police station. You are obliged to cooperate with these tests and examinations."
+        },
+        {
+          "tekst": "What an investigating officer (opsporingsambtenaar) may do"
+        },
+        {
+          "items": [
+            "give a stop sign, directions and orders",
+            "ask to see your driving licence (rijbewijs) and vehicle registration document (kentekenbewijs)",
+            "have an alcohol test or a drugs test carried out",
+            "impose a driving ban (rijverbod) of up to 24 hours",
+            "take your driving licence away",
+            "take your registration document away if the vehicle is not technically sound or the tax has not been paid"
+          ]
+        },
+        {
+          "tekst": "Driving ban against disqualification from driving"
+        },
+        {
+          "kop": [
+            "Question",
+            "Driving ban (rijverbod)",
+            "Disqualification (rijontzegging)"
+          ],
+          "rijen": [
+            [
+              "Who imposes it",
+              "the police, after a check",
+              "the court"
+            ],
+            [
+              "What for",
+              "because you are under the influence of alcohol or drugs",
+              "speeding, dangerous behaviour or driving under the influence"
+            ],
+            [
+              "How long",
+              "up to 24 hours",
+              "the court decides the length"
+            ],
+            [
+              "What you may not do",
+              "drive any vehicle at all, not even a bicycle",
+              "drive any motor vehicle (motorrijtuig)"
+            ]
+          ]
+        },
+        {
+          "tekst": "During a driving ban you may not drive any vehicle at all, so not a bicycle either. During a disqualification you may not drive a motor vehicle, so no light moped, moped or tractor, but a bicycle is fine. You may not take driving lessons or sit your driving test then either."
+        },
+        {
+          "tekst": "Seizure on the spot"
+        },
+        {
+          "tekst": "In serious cases the police take your driving licence away straight away. That happens with very high alcohol readings in your body, if you refuse to cooperate with an alcohol test, and if you have driven more than 50 km/h over the limit. The public prosecutor (officier van justitie) then decides whether you get your licence back."
+        },
+        {
+          "tekst": "There are three different decision makers in this story, and the exam mostly tests whether you keep them apart. The officer at the roadside can take you off the road at that moment, no more than that. The public prosecutor decides what happens to the licence that was taken in. The punishment itself comes from the court. If a question asks who imposes something, look for the decision maker first and only then for the length."
+        },
+        {
+          "tekst": "You are pulled over in the middle of the night and blow well over the limit. The officer imposes a driving ban of up to 24 hours. You leave the car where it is and you do not cycle home either, because during a driving ban you may not drive any vehicle at all. Whether you also get a fine or a disqualification on top of that is for the court to decide later."
+        },
+        {
+          "tekst": "The driving ban is wider than the disqualification: with a driving ban you may not even cycle, with a disqualification you may. That feels the wrong way round, because the disqualification is the heavier measure, but it only covers motor vehicles."
+        },
+        {
+          "tekst": "Driving ban: police, up to 24 hours, no bicycle either. Disqualification: court, no motor vehicles."
+        },
+        {
+          "vraag": "You have driven 55 km/h over the limit on the motorway. What do the police do with your licence?",
+          "antwoord": "They seize it on the spot.",
+          "uitleg": "Immediate seizure follows, among other things, if you have driven more than 50 km/h over the limit. The public prosecutor then decides about giving it back."
+        },
+        {
+          "vraag": "You refuse to blow at a roadside check. Is that allowed?",
+          "antwoord": "No, cooperating is compulsory.",
+          "uitleg": "You are obliged to cooperate with the breath test, the saliva test and the follow-up examination. Refusing is also a reason to seize your licence immediately."
+        }
+      ]
+    },
+    "U13-P05": {
+      "titel": "Driving licence and registration document",
+      "body": [
+        {
+          "tekst": "Your driving licence (rijbewijs) shows your name, passport photo, citizen service number (burgerservicenummer) and place of residence, which vehicle categories it is valid for and how long it is valid. If the period of validity has run out or the licence is hard to read, you may not drive. A copy of your licence does not count."
+        },
+        {
+          "tekst": "With a category B licence you may drive cars and light vans. The permitted maximum mass (toegestane maximummassa) of your vehicle may be 3,500 kg at most, the vehicle may be fitted out for the driver plus 8 passengers at most, and you may pull a trailer (aanhangwagen) of up to 750 kg."
+        },
+        {
+          "tekst": "If you already hold a category A or B licence, you do not have to sit the moped test. When you apply for or renew your licence you get category AM added automatically, so with a category B licence you may also ride a moped (bromfiets) and drive a moped car (brommobiel)."
+        },
+        {
+          "tekst": "How long is it valid"
+        },
+        {
+          "kop": [
+            "Age at renewal",
+            "Validity"
+          ],
+          "rijen": [
+            [
+              "up to your 65th",
+              "10 years as standard"
+            ],
+            [
+              "between your 65th and 70th",
+              "up to 10 years, as standard until your 75th"
+            ],
+            [
+              "from your 70th",
+              "up to 5 years"
+            ],
+            [
+              "from your 75th",
+              "only after a medical examination"
+            ]
+          ]
+        },
+        {
+          "tekst": "You have to apply for a new licence at your local council (gemeente) in good time yourself. Besides the period of validity running out, a licence also becomes invalid if your birth details change, if you exchange it for a foreign licence and if you commit fraud with the details on it. During a disqualification from driving (ontzegging van de rijbevoegdheid) your licence is temporarily invalid."
+        },
+        {
+          "tekst": "If you have lost your licence or it has been stolen, you fill in a declaration at your council and apply for a new licence straight away. After 5 working days you can collect it, and until then you may not drive."
+        },
+        {
+          "tekst": "If extra requirements apply to you or to your vehicle, that is shown on your licence with a code. Code 01.06, for example, means that you may only drive with glasses or contact lenses."
+        },
+        {
+          "tekst": "The registration card (kentekencard)"
+        },
+        {
+          "tekst": "Motor vehicles and trailers driven on public roads must have a registration card. Its official name is vehicle registration document (kentekenbewijs). You must always carry that card when you drive a car on a public road, and as with your licence, a copy does not count."
+        },
+        {
+          "tekst": "The registration card is the identity document of your vehicle. It shows the details of the vehicle, such as the colour, the power output and the permitted maximum mass, and the details of the owner. The owner is also given a registration code (tenaamstellingscode), which is needed when the vehicle is sold, suspended, scrapped or exported."
+        },
+        {
+          "tekst": "Not every vehicle has a registration document. Trailers up to 750 kg and disabled persons' vehicles do not have one."
+        },
+        {
+          "tekst": "Two documents, two identities: one says who you are and what you are allowed to drive, the other says what that vehicle is and who owns it. That is why both have to come along in the car, and that is why you can lose both of them if something goes wrong: the officer can take your licence over drink, and your registration document if the car is not technically sound."
+        },
+        {
+          "tekst": "Your licence runs out in two weeks and you have just moved house. You apply for a new licence at your new council. If you do not do that in time, the licence is invalid after the expiry date and you may no longer drive, even though you drive just as well as you did the day before."
+        },
+        {
+          "tekst": "The limit for the shorter validity is at 70, not at 65. Between your 65th and 70th a licence is still valid for up to 10 years and you get one as standard until your 75th. The medical examination belongs with 75."
+        },
+        {
+          "tekst": "Licence 10 years, from your 70th up to 5 years, from your 75th with an examination. Lost means waiting 5 working days."
+        },
+        {
+          "vraag": "You are driving with a photo of your licence on your phone and the original is at home. Is that allowed?",
+          "antwoord": "No.",
+          "uitleg": "You may not drive with a copy of your licence. The same goes for the registration document."
+        },
+        {
+          "vraag": "What do you need the registration code for?",
+          "antwoord": "To sell, suspend, scrap or export the vehicle.",
+          "uitleg": "The owner gets that code from the RDW alongside the registration card."
+        }
+      ]
+    },
+    "U13-P06": {
+      "titel": "Minor offence, crime and the educational measure",
+      "body": [
+        {
+          "tekst": "Anyone who breaks the rules of a law commits a punishable act (strafbaar feit). There are two kinds: minor offences (overtredingen), such as running a red light, parking wrongly or speeding, and crimes (misdrijven), such as driving under the influence of alcohol, driving on after an accident or driving during a disqualification from driving (ontzegging van de rijbevoegdheid)."
+        },
+        {
+          "tekst": "Most minor offences are light punishable acts, without damage or injuries. You get a fine (bekeuring) through the post and if you pay it in time, the matter is settled."
+        },
+        {
+          "tekst": "For heavier minor offences the police draw up an official report (proces-verbaal) and send it to the public prosecutor (officier van justitie). He can drop the case, propose a settlement or summon you to court. If you are summoned and convicted, you get a criminal record on top of a fine or a disqualification from driving."
+        },
+        {
+          "tekst": "Crimes are serious punishable acts. The court will in any case give you a high fine, and a prison sentence or a disqualification from driving is possible as well. For driving under the influence it comes to 1 year in prison at most and a disqualification of up to 5 years."
+        },
+        {
+          "tekst": "If someone else has committed a crime with your car, you as the owner are obliged to make the identity of that driver known to the police. If you leave the scene of an accident yourself, you can still avoid prosecution by reporting to the police voluntarily within twelve hours."
+        },
+        {
+          "tekst": "Who is liable"
+        },
+        {
+          "tekst": "For many acts only the driver (bestuurder) is liable, for speeding or driving under the influence for instance. For technical requirements the owner or keeper (houder) of the vehicle is liable alongside the driver. A keeper is not the owner but the lasting holder, a company that leases cars for example."
+        },
+        {
+          "tekst": "If a minor offence is found and it is not immediately known who the owner of the vehicle is, the investigating officer (opsporingsambtenaar) may tow the vehicle away and take it into keeping. Instead of that, a wheel clamp may be fitted."
+        },
+        {
+          "tekst": "The educational measure"
+        },
+        {
+          "tekst": "For alcohol misuse, drugs misuse or antisocial behaviour in traffic, a compulsory course can be imposed on top of a fine or a punishment: the educational measure (educatieve maatregel). You pay the costs yourself, between €750 and €1,500. If you do not take the course, your licence is declared invalid."
+        },
+        {
+          "kop": [
+            "Measure",
+            "What for"
+          ],
+          "rijen": [
+            [
+              "LEMA (light, alcohol)",
+              "from 0.5 per mille as a novice driver or from 0.8 per mille as an experienced driver"
+            ],
+            [
+              "EMA (heavy, alcohol)",
+              "from 0.8 per mille as a novice driver or from 1.0 per mille as an experienced driver"
+            ],
+            [
+              "LEMG (light, behaviour)",
+              "driving 30 km/h to 60 km/h over the limit during one journey"
+            ],
+            [
+              "EMG (heavy, behaviour)",
+              "repeated dangerous driving during one journey, or driving 60 km/h or more over the limit"
+            ],
+            [
+              "EMD (drugs)",
+              "driving under the influence of drugs, a combination of substances, or refusing a blood test"
+            ]
+          ]
+        },
+        {
+          "tekst": "For the exam you do not have to know what the course contains. Remember the letters: A stands for alcohol, G for gedrag (behaviour) and D for drugs, and an L in front means the light version with the lower threshold."
+        },
+        {
+          "tekst": "A fine works on your wallet, a course works on your behaviour. That is why the measure does not hang on the damage you have done but on how far over the limit you were, and that is why it comes on top of the punishment instead of in its place. Anyone who refuses it is left without a licence."
+        },
+        {
+          "tekst": "A novice driver blows 0.6 per mille. That is above the LEMA threshold of 0.5 per mille for a novice, but below the 0.8 per mille of the EMA. So he gets the light course. If an experienced driver had blown the same, he would have stayed below the LEMA threshold of 0.8 per mille."
+        },
+        {
+          "tekst": "The educational measure does not come in place of the fine or the punishment, but on top of it. And watch who is driving: the same reading gives a novice a heavier measure than an experienced driver."
+        },
+        {
+          "tekst": "A is alcohol, G is gedrag (behaviour), D is drugs. An L in front is the light version."
+        },
+        {
+          "vraag": "Is speeding a minor offence or a crime?",
+          "antwoord": "A minor offence.",
+          "uitleg": "The book names speeding, parking wrongly and running a red light as minor offences. Driving under the influence and driving on after an accident are crimes."
+        },
+        {
+          "vraag": "Your car turns out not to be technically sound at a check. Who is liable for that?",
+          "antwoord": "The driver and the owner or keeper.",
+          "uitleg": "For technical requirements the owner or keeper of the vehicle is liable alongside the driver."
+        }
+      ]
+    }
+  }
+}

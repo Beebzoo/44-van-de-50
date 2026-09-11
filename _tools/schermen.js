@@ -27,6 +27,12 @@ const SINGLE = flags.includes("enkel");
    are the real thing instead of "nog geen quiz". Nothing is written to the
    repo; it lives in the throwaway profile this script starts Chrome with. */
 const VRIJ = flags.includes("vrij");
+/* engels: zet de taalinstelling voordat de schermen langskomen */
+const ENGELS = flags.includes("engels");
+const TAALZAAI = "(async () => { const store = await import('./js/store.js');" +
+  " await store.setSetting('taal', 'en');" +
+  " try { localStorage.setItem('taal', 'en'); } catch (e) {}" +
+  " return 'en'; })()";
 const ZAAI = "(async () => { const store = await import('./js/store.js');" +
   " const idx = await (await fetch('content/index.json')).json();" +
   " for (const u of idx.units) {" +
@@ -133,6 +139,15 @@ async function cdp() {
     const n = await evalJs(ZAAI);
     console.log("vrijgespeeld: " + n + " blokken gezaaid");
   }
+  if (ENGELS) {
+    if (!VRIJ) {
+      await c.send("Page.navigate", { url: base });
+      let klaar = false;
+      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    }
+    await evalJs(TAALZAAI);
+    console.log("taal op Engels gezet");
+  }
 
   for (const r of ROUTES) {
     const hash = r.hash.replace("{U}", r.naam.startsWith("quiz") ? withQuiz.id : U).replace("{P}", P);
@@ -153,7 +168,7 @@ async function cdp() {
     if (r.script) { await evalJs(r.script); await sleep(600); }
     await sleep(400);
     const shot = await c.send("Page.captureScreenshot", { format: "png" });
-    const file = path.join(outDir, r.naam + (DARK ? "-donker" : "") + (WIDE ? "-breed" : "") + ".png");
+    const file = path.join(outDir, r.naam + (ENGELS ? "-en" : "") + (DARK ? "-donker" : "") + (WIDE ? "-breed" : "") + ".png");
     fs.writeFileSync(file, Buffer.from(shot.result.data, "base64"));
     const title = await evalJs("document.title");
     console.log((ok ? "ok  " : "LEEG") + " " + r.naam.padEnd(14) + " " + title);

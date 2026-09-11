@@ -89,6 +89,38 @@ Wat je verder moet weten over de staat van het gereedschap:
 - Het oefenexamen trekt zijn 52 vragen alleen uit vrijgespeelde blokken, dus op
   een leeg profiel kun je er geen doen. Dat is met opzet.
 
+### Nederlands en Engels
+
+De app kent twee talen. Rechtsboven in de kopbalk staat NL | EN, en dezelfde
+keuze staat in Instellingen. De keuze wordt bewaard als instelling en ook in
+localStorage, zodat de taal al goed staat voordat de eerste verf op het scherm
+komt.
+
+Wat er vertaalt en wat niet, en dat is met opzet:
+
+- **De schil is tweetalig.** Elke zin in de code gaat door `t()` in
+  `js/taal.js`, met de Nederlandse zin als sleutel. Staat een zin niet in het
+  woordenboek, dan blijft hij Nederlands: de app kan nooit een lege knop of een
+  sleutel tonen. `node _tools/build.js` noemt bij naam welke zinnen nog geen
+  Engelse tegenhanger hebben.
+- **De leespagina's zijn tweetalig.** Het Nederlands in `content/units/` is de
+  bron, en `content/units-en/UXX.json` is een overlay: dezelfde pagina's,
+  dezelfde blokken in dezelfde volgorde, alleen de te vertalen velden. De app
+  legt ze op index over elkaar heen. Ontbreekt een blok, een pagina of een heel
+  bestand, dan staat daar het Nederlands.
+- **De vragen, hun uitleg en de bordbetekenissen blijven Nederlands**, in beide
+  talen. Dat zijn de woorden waarop het CBR toetst, en Martijn doet het examen
+  in het Nederlands. Wie dat ooit wil omgooien: het is een tweede overlay naast
+  `content/bank/`, met dezelfde gedachte.
+
+Gereedschap: `node _tools/check-en.js U07` kijkt één overlay na tegen de
+Nederlandse pagina (vorm, aantal blokken, dezelfde getallen, dezelfde
+bordcodes, niets dat Nederlands bleef). Zonder argument doet hij alle blokken.
+Het is geen poort in de bouw, want de terugval op Nederlands is veilig; het is
+de checklist voor wie vertaalt. De vertaalbrief die de vertalers kregen staat
+in de scratchpad van die ronde en is het waard om opnieuw te schrijven als er
+ooit een tweede taal bij komt.
+
 ### Hoe de parallelle rondes werkten
 
 Schrijvers en checkers draaien naast elkaar, elk op een eigen blok, elk met

@@ -1,0 +1,183 @@
+{
+  "id": "U00",
+  "titel": "How the exam thinks",
+  "intro": "Before you start learning rules, it helps to know how the exam is put together and what a question is actually asking of you. This block has no quiz: read the three pages and test yourself as you go.",
+  "paginas": {
+    "U00-P01": {
+      "titel": "The exam in numbers",
+      "body": [
+        {
+          "tekst": "You sit the theory exam on your own, at a screen at the CBR. At the start you get a few sample questions that do not count, so you can get used to the system."
+        },
+        {
+          "tekst": "The theory exam has 50 questions. You need at least 44 of them right to pass."
+        },
+        {
+          "kop": ["Item", "Number"],
+          "rijen": [
+            ["Questions", "50"],
+            ["Test questions that do not count", "2, and you do not know which"],
+            ["Minimum right to pass", "44"],
+            ["Time", "30 minutes for all the questions together"],
+            ["Insight questions (inzichtvragen)", "about 2/3 of the exam"],
+            ["Result", "straight after you finish, then valid for 1.5 years"]
+          ]
+        },
+        {
+          "tekst": "Six mistakes is your whole margin, and because you do not know which two questions are the test questions, you have to treat every question as if it counts."
+        },
+        {"tekst": "The question types you will come across"},
+        {
+          "tekst": "The CBR mixes up the question types. The book lists among others:"
+        },
+        {
+          "items": [
+            "yes/no questions",
+            "multiple choice questions",
+            "drag questions, for example the order in which you let others go first (voor laten gaan)",
+            "fill-in questions, where you type a number",
+            "text questions without a picture",
+            "hotspot questions (aanwijsvragen): click on the right picture",
+            "questions with more than one right answer",
+            "moving image questions (dynamisch beeld), with about 5 seconds of footage"
+          ]
+        },
+        {"tekst": "The eight topics"},
+        {
+          "items": [
+            "Use of the road",
+            "Priority and letting others go first",
+            "Special roads, parts of the road, road users and manoeuvres",
+            "Driving the vehicle safely and reacting in emergencies",
+            "Traffic signs and instructions",
+            "Responsible road use and environmentally aware driving",
+            "Legislation",
+            "Vehicle knowledge"
+          ]
+        },
+        {
+          "tekst": "A knowledge question sounds like: what does this sign mean? An insight question sounds like: should you expect the car in front of you to brake? With the first one you recite a rule. With the second one you look at the situation and choose how to behave."
+        },
+        {"tekst": "What to bring"},
+        {
+          "tekst": "Be there about fifteen minutes early, with valid ID and your booking number. You check in at the self-service kiosk (aanmeldzuil) and put your things in a locker."
+        },
+        {
+          "tekst": "There is no fixed time per question. If you get stuck on a hard one, you run into time trouble at the end. Skip that question, do the rest and come back to it: you can move forwards and backwards through the exam."
+        },
+        {
+          "tekst": "50 questions, 44 right, 30 minutes. Two test questions do not count and you do not know which ones."
+        },
+        {
+          "vraag": "How many questions can you get wrong and still pass?",
+          "antwoord": "Six.",
+          "uitleg": "50 questions, at least 44 right. The seventh mistake fails you."
+        },
+        {
+          "vraag": "You are stuck on question 12 and the clock is running. What do you do?",
+          "antwoord": "Skip it, do the rest and come back to it.",
+          "uitleg": "You can navigate forwards and backwards. An unanswered question costs you at most one of your six mistakes, running out of time costs you more."
+        }
+      ]
+    },
+    "U00-P02": {
+      "titel": "How to read a question",
+      "body": [
+        {
+          "tekst": "About two thirds of the exam is made up of insight questions (inzichtvragen). Those do not ask what the rule is, but what you do now in this situation. That asks for a different way of reading."
+        },
+        {
+          "tekst": "In every traffic situation you go through the same five task processes (taakprocessen): observing (waarnemen), predicting (voorspellen), evaluating (evalueren), deciding (beslissen) and acting (handelen). You have to be alert, think ahead and react in time."
+        },
+        {
+          "tekst": "When you answer a question, you always picture yourself as the driver of the white car."
+        },
+        {"tekst": "The five steps as a reading strategy"},
+        {
+          "kop": ["Step", "What you ask yourself"],
+          "rijen": [
+            ["Observing", "What do you see, what do you hear and which information matters?"],
+            ["Predicting", "How is the other person going to behave and how will the situation develop?"],
+            ["Evaluating", "What effect does your choice have on safety, the environment and the flow of traffic?"],
+            ["Deciding", "Brake, steer around it or come off the accelerator? Weighing that up decides your choice."],
+            ["Acting", "Carry out your decision. If you cannot work it out, start again at observing."]
+          ]
+        },
+        {
+          "tekst": "An insight question tests whether you can apply the rules and take the right decision, and that decision is only right if you have looked properly and predicted first."
+        },
+        {
+          "tekst": "You approach a junction (observing). A car comes from the right and has priority (predicting). If you brake hard at the last moment, the driver behind you suffers for it (evaluating). You come off the accelerator and start braking gently (deciding). You brake and give the car from the right the time and the room to go first (acting)."
+        },
+        {
+          "tekst": "Read the question twice when it has 'niet' (not), 'mag' (are you allowed) or 'moet' (do you have to) in it. 'Mag je hier inhalen?', are you allowed to overtake (inhalen) here, is a different question from 'Moet je hier inhalen?', do you have to overtake here, and 'Wat mag hier niet?' turns the answer round. The mistake is often in the question, not in the picture."
+        },
+        {
+          "tekst": "Look at the picture first and describe to yourself what is going on. Only then read the answers. The other way round you are searching the picture for confirmation of an answer instead of for the situation."
+        },
+        {
+          "tekst": "Observing, predicting, evaluating, deciding, acting. You are the white car. Watch out for 'niet', 'mag' and 'moet'."
+        },
+        {
+          "vraag": "Name the five task processes in the right order.",
+          "antwoord": "Observing, predicting, evaluating, deciding, acting.",
+          "uitleg": "The circle runs from observing through to acting and then back to observing."
+        },
+        {
+          "vraag": "An exam picture shows a white car, a red car and a cyclist. Whose point of view do you answer from?",
+          "antwoord": "From the driver of the white car.",
+          "uitleg": "You are always the white car. So look first at where it is and where it is going."
+        }
+      ]
+    },
+    "U00-P03": {
+      "titel": "Defensive and decisive",
+      "body": [
+        {
+          "tekst": "The exam is looking for a particular kind of driver (bestuurder): someone who takes account of the rest of the traffic and of the conditions. The book calls that adapted driving behaviour, aangepast rijgedrag, meaning defensive and considerate, plus decisive behaviour, besluitvaardig. If you are torn between two answers on an insight question, this often settles it."
+        },
+        {
+          "tekst": "You drive defensively when you actively try to prevent danger or nuisance, look ahead to what might develop, react properly to other people's mistakes and show proper looking behaviour."
+        },
+        {
+          "tekst": "You drive decisively when you drive with confidence and purpose. Do not give way (voorrang verlenen) when you do not have to, and do not wait longer than the situation asks for."
+        },
+        {"tekst": "Why the exam watches for this"},
+        {
+          "kop": ["Fact from the course", "Number"],
+          "rijen": [
+            ["Accidents caused by human error", "90%"],
+            ["Accidents where tiredness is a deciding factor", "15%"],
+            ["Biggest causes of accidents", "excessive speed, alcohol and drugs, distraction"]
+          ]
+        },
+        {
+          "tekst": "If nine out of ten accidents come from human error, what the exam mainly tests is whether you see those errors coming, in other people and in yourself."
+        },
+        {
+          "tekst": "On the motorway (autosnelweg) the driver next to you suddenly moves left. Defensive is: seeing that coming and reacting calmly, without needless horn or sudden braking. On an acceleration lane (invoegstrook) a lorry is coming up on your left on the through carriageway (rijbaan). Decisive is: either accelerating clearly so you merge (invoegen) in front of it, or easing off so you come in behind it. Holding the same speed and waiting to see is not decisive."
+        },
+        {
+          "tekst": "Defensive does not always mean waiting. If you give way when you do not have to, or wait longer than you need to, you drive hesitantly, and as soon as you hesitate other road users no longer know what you are going to do. The exam counts that as unsafe."
+        },
+        {"tekst": "How this app scores you"},
+        {
+          "tekst": "In this app a guess counts as wrong. Tick 'Twijfel' (unsure) on a practice question when you are not certain. A right answer with unsure ticked does not count as right, and you only pass a quiz when everything is right without unsure. That way you only practise what you really know."
+        },
+        {
+          "tekst": "Defensive: prevent danger, look ahead, keep your eyes working. Decisive: confident and purposeful, no hesitating. Guessing counts as wrong here."
+        },
+        {
+          "vraag": "You are on the acceleration lane and a lorry is coming up on your left. You hold the same speed and watch what the lorry does. Is that decisive?",
+          "antwoord": "No.",
+          "uitleg": "Either accelerate so you merge in front of it, or ease off so you come in behind it. Waiting to see makes you unpredictable for the lorry and for the traffic behind you."
+        },
+        {
+          "vraag": "What share of all accidents comes from human error?",
+          "antwoord": "90%.",
+          "uitleg": "That is why so many exam questions are about looking, predicting and reacting in time, not just about reciting rules."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "id": "U03",
+  "titel": "Priority at junctions",
+  "intro": "At a junction roads and road users come together, and that is exactly where most mistakes in the exam happen. This unit starts with how you approach a junction and when you may drive onto it. After that you learn priority: the equal-priority junction (gelijkwaardig kruispunt) where traffic from the right goes first, signs B1 to B7 that arrange priority, the difference between a surfaced and an unsurfaced road, the three exceptions for the tram and the emergency vehicle with priority (voorrangsvoertuig) that beats everything. Most questions are drawn situations: look at who is coming from where and what everyone wants to do, and only then apply the rule.",
+  "paginas": {
+    "U03-P01": {
+      "titel": "Approaching and entering a junction",
+      "body": [
+        {
+          "tekst": "Approach a junction (kruispunt) at an adjusted speed, so you can react to the situation in time. Work out which type of junction you are dealing with: equal-priority (gelijkwaardig), with a priority road (voorrangsweg), with traffic lights or with an unsurfaced road (onverharde weg)."
+        },
+        {
+          "tekst": "Keep the way through as clear as you can for the crossing traffic. You only drive onto a junction if you can carry straight on or clear it again quickly, if you can position yourself between the crossing streams of traffic, or if the driver (bestuurder) you have to give way to (voorrang verlenen) cannot move on himself because he in turn has to give way to a queue of other drivers. That last one is called courtesy priority (gelegenheidsvoorrang): only if you are sure it can be done safely."
+        },
+        {
+          "tekst": "You may stop on a junction in these cases: when you are on a priority road and want to turn left, and when you have to let an emergency vehicle with priority (voorrangsvoertuig) go first (voor laten gaan)."
+        },
+        {
+          "tekst": "Anyone waiting to turn left on a priority road blocks nobody who is allowed to carry on: the crossing traffic has to give way anyway and the traffic behind you can pass you on the right."
+        },
+        {
+          "tekst": "You are on a priority road and want to turn left, an oncoming vehicle is going straight on. You wait in the middle of the junction; here that is allowed."
+        },
+        {
+          "tekst": "A service bus (lijnbus) from the right wants to turn left into the street you are coming out of. Stop further back and more to the right, then the bus can take its turn without being hindered."
+        },
+        {
+          "tekst": "You have to be sure that a cycle path (fietspad) or zebra crossing (zebrapad) beyond the junction is clear before you drive onto the junction. Otherwise you may have to stop on the junction and you block the crossing traffic."
+        },
+        {
+          "tekst": "Behave decisively and clearly. If you do not know how priority is arranged, stop to be on the safe side, look for eye contact with the other drivers and communicate with friendly hand gestures."
+        },
+        {
+          "tekst": "Stopping briefly on a cycle path or zebra crossing to get a view is only allowed if you have too little view from a spot before the path. At a crossing cycle path look both ways: cyclists and light moped (snorfiets) riders come from the left as well as from the right."
+        },
+        {
+          "tekst": "As you approach, also work out how busy it is, where you may run into cyclists and pedestrians, how well or how badly you can take in the situation, and where you have to position yourself if you have to stop to let other traffic go first."
+        },
+        {
+          "tekst": "If several drivers approach an equal-priority junction from different directions at the same time, there are often several possible solutions for the priority. Then settle on the most practical solution together with the other drivers."
+        },
+        {
+          "tekst": "If the traffic lights are working, they arrange the priority. If they are out of service, the amber light usually flashes: approach the junction carefully, because signs usually show how priority is arranged."
+        },
+        {
+          "tekst": "At places with a poor view there may be traffic mirrors. The glass is often convex and therefore gives a distorted picture: the traffic looks further away than it really is."
+        },
+        {
+          "tekst": "Keep the junction clear. Waiting on the junction is allowed on a priority road when turning left, and to let an emergency vehicle with priority go first."
+        },
+        {
+          "vraag": "You are on a priority road and want to turn left, but an oncoming vehicle is going straight on. May you wait on the junction?",
+          "antwoord": "Yes.",
+          "uitleg": "On a priority road you may stop on the junction when turning left."
+        },
+        {
+          "vraag": "You do not know how priority at a junction is arranged. What do you do?",
+          "antwoord": "Stop, look for eye contact and sort it out with friendly hand gestures."
+        }
+      ]
+    },
+    "U03-P02": {
+      "titel": "The equal-priority junction",
+      "body": [
+        {
+          "tekst": "At equal-priority junctions (gelijkwaardig kruispunt) there are no signs or markings that arrange priority. They are always junctions where only surfaced roads or only unsurfaced roads cross each other. Drivers (bestuurder) give way (voorrang verlenen) to all drivers coming from the right, and to trams, whatever direction the tram comes from."
+        },
+        {
+          "tekst": "A fixed agreement makes a junction without signs predictable: everyone looks to the right. Pedestrians fall outside it, because they are not drivers."
+        },
+        {
+          "tekst": "There may be speed humps before the junction, or the whole junction area is built as a hump. This has no effect on how priority is arranged; it stays an equal-priority junction."
+        },
+        {
+          "tekst": "If an equal-priority junction is extra dangerous, you are often warned about it by sign J8. Approach the junction with extra care then."
+        },
+        {
+          "tekst": "[J8] warns; it does not arrange priority. The junction stays equal-priority, so traffic from the right goes first."
+        },
+        {
+          "tekst": "At an equal-priority T-junction the traffic on the through road often thinks it has priority. Do not force priority from the side road, and on the through road simply give way to drivers from the right."
+        },
+        {
+          "tekst": "Equal-priority T-junction with a speed hump. A motorbike comes out of the side road from the right. You give way, even though you are on the through road."
+        },
+        {
+          "tekst": "If a surfaced road (verharde weg) crosses an unsurfaced road (onverharde weg), there are no signs or markings, but even so: drivers on an unsurfaced road give way to drivers on a crossing surfaced road."
+        },
+        {
+          "tekst": "You are driving along a sand track and approach a surfaced road with two riders coming along it. You let them go first: riders are drivers too, also when they are leading a horse by hand."
+        },
+        {
+          "tekst": "Coming from the right is not enough if you are on the unsurfaced road yourself: then you give way anyway. A driveway exit (uitrit) is not a junction: whoever drives out of one lets all road users (weggebruiker) go first (voor laten gaan), pedestrians included."
+        },
+        {
+          "kop": [
+            "Junction without signs",
+            "Who goes first"
+          ],
+          "rijen": [
+            [
+              "Surfaced crosses surfaced",
+              "Right goes first; the tram always"
+            ],
+            [
+              "Unsurfaced crosses unsurfaced",
+              "Right goes first; the tram always"
+            ],
+            [
+              "Unsurfaced crosses surfaced",
+              "The surfaced road"
+            ],
+            [
+              "Speed hump or raised junction area",
+              "Changes nothing"
+            ],
+            [
+              "Sign J8",
+              "Changes nothing, but take extra care"
+            ]
+          ]
+        },
+        {
+          "tekst": "A van towing a broken-down car comes from the right. You simply let the combination go first, because the fact that towing is going on takes nothing away from the priority rules."
+        },
+        {
+          "tekst": "If you are going straight on, a pedestrian crossing the road that cuts across yours is not, for you, traffic going straight on along the same road. For a driver who is turning and so leaving that road, that same pedestrian is exactly that, so he has to let the pedestrian go first."
+        },
+        {
+          "tekst": "No signs: right goes first, the tram always. Unsurfaced gives way to surfaced. A speed hump and J8 change nothing."
+        },
+        {
+          "vraag": "An equal-priority junction is built entirely as a speed hump. A car comes from the right. Who goes first?",
+          "antwoord": "The car from the right."
+        },
+        {
+          "vraag": "You are on an unsurfaced road; a car approaches from the left along the surfaced road. Do you have to give way?",
+          "antwoord": "Yes.",
+          "uitleg": "Unsurfaced gives way to the crossing surfaced road, including to traffic from the left."
+        }
+      ]
+    },
+    "U03-P03": {
+      "titel": "Signs arrange the priority",
+      "body": [
+        {
+          "tekst": "If you have to give way (voorrang verlenen) to all drivers (bestuurder) on the crossing road, sign B6 is there, often with shark's teeth (haaientanden). If you have to stop, sign B7 is there, usually with a stop line: always stop to look, even if the car in front of you drives on."
+        },
+        {
+          "tekst": "[B6] give way, [B7] always stop. You do not have to let pedestrians go first (voor laten gaan) here."
+        },
+        {
+          "tekst": "Sign B1 means you are on a priority road (voorrangsweg): you get priority at this junction and at all the next ones, until sign B2 marks the end. The junction after that is equal-priority (gelijkwaardig kruispunt), unless signs say otherwise."
+        },
+        {
+          "tekst": "If you are not on a priority road but still get priority from drivers coming out of side roads, B3, B4 or B5 is there. At the next junction priority may be arranged differently again."
+        },
+        {},
+        {
+          "kop": [
+            "Sign",
+            "Meaning",
+            "Applies"
+          ],
+          "rijen": [
+            [
+              "B1",
+              "Priority road",
+              "Until B2, at all junctions"
+            ],
+            [
+              "B2",
+              "End of priority road",
+              "Equal-priority after that"
+            ],
+            [
+              "B3",
+              "Priority junction",
+              "This junction only"
+            ],
+            [
+              "B4",
+              "Priority junction, side road on the left",
+              "This junction only"
+            ],
+            [
+              "B5",
+              "Priority junction, side road on the right",
+              "This junction only"
+            ],
+            [
+              "B6",
+              "Give way",
+              "To all drivers on the crossing road"
+            ],
+            [
+              "B7",
+              "Stop",
+              "Always stop, then give way"
+            ]
+          ]
+        },
+        {
+          "tekst": "Inside the built-up area (bebouwde kom) B1 stands before the junction, outside it stands after it. B2 always stands before the junction."
+        },
+        {
+          "tekst": "Where a priority road bends away, a sub-plate (onderbord) shows how it runs. If you are approaching sign B6, you give way to crossing drivers who follow the bending priority road and to anyone leaving it. Thick goes before thin (dik gaat voor dun)."
+        },
+        {
+          "tekst": "The priority road bends from the left to straight ahead. The grey car from the left follows it; you approach B6 and give way."
+        },
+        {
+          "tekst": "The signs take over from the right-hand rule so the busy road keeps flowing. At every sign ask yourself: do I get priority here, and only here or further on as well?"
+        },
+        {
+          "tekst": "A moped rider (bromfietser) approaches B6 and you are on the crossing road: he gives way to you. He does not have to let a pedestrian on the crossing road go first."
+        },
+        {
+          "tekst": "B3, B4 and B5 do not make a priority road: further on everything may be different. And when turning right, look to the right as well: a driver overtaking (inhalen) from the right is on your half of the road and gets priority too."
+        },
+        {
+          "tekst": "Approach the junction at a moderate speed and slow down in good time if you have to give way. You must not give drivers on the crossing road the impression that you are going to carry on."
+        },
+        {
+          "tekst": "The signs arrange the priority between the roads. Between you and the vehicle coming towards you on the same road an order is still left after that: whoever goes straight on along the same road goes first, even if that is a pedestrian, and whoever turns right goes before whoever turns left from the same road. If there is a zebra crossing (zebrapad), the pedestrian goes first there."
+        },
+        {
+          "tekst": "B6 give way, B7 stop. B1 to B2 a whole road, B3 to B5 one junction. Bending away: thick goes before thin."
+        },
+        {
+          "vraag": "You pass sign B2. How is priority arranged at the very next junction?",
+          "antwoord": "Equal-priority, unless signs say otherwise."
+        },
+        {
+          "vraag": "At sign B7 the car in front of you drives on without stopping. May you do the same?",
+          "antwoord": "No, you always stop."
+        }
+      ]
+    },
+    "U03-P04": {
+      "titel": "The tram: three exceptions",
+      "body": [
+        {
+          "tekst": "Trams do not have to keep to the rules for turning and priority, but they do have to keep to the signs and markings for turning and priority."
+        },
+        {
+          "tekst": "Three exceptions apply to trams. One: the tram goes first if it comes from the left at an equal-priority junction (gelijkwaardig kruispunt); from the right of course as well. Two: the tram goes first if it bends away while you are going straight on along the same road, also when it approaches from behind and wants to bend away across your path. Three: the tram goes first if it wants to turn left into a road while you want to turn right into that same road."
+        },
+        {
+          "kop": [
+            "Exception",
+            "Situation",
+            "Who goes first"
+          ],
+          "rijen": [
+            [
+              "1",
+              "Equal-priority junction, tram from the left (from the right of course as well)",
+              "The tram"
+            ],
+            [
+              "2",
+              "The tram bends away, you are going straight on along the same road; also when it comes from behind",
+              "The tram"
+            ],
+            [
+              "3",
+              "The tram turns left into a road, you want to turn right into that same road",
+              "The tram"
+            ]
+          ]
+        },
+        {
+          "tekst": "A tram is tied to its rails, is heavy and needs a long way to brake; the rules let it through where a car would wait. A sign or a zebra crossing does apply to the tram."
+        },
+        {
+          "tekst": "When the tram approaches a priority road (voorrangsweg), it has no special rights over drivers (bestuurder) on that priority road. A tram that bends away does go before traffic going straight on, but that does not hold against pedestrians on a pedestrian crossing (voetgangersoversteekplaats)."
+        },
+        {
+          "tekst": "You are on the priority road, the tram approaches that road from the left at sign B6. The tram has to keep to the sign: you go first."
+        },
+        {
+          "tekst": "A tram bends away and crosses a zebra crossing (zebrapad) where a pedestrian is crossing; you want to go into that same road. The pedestrian goes first, then the tram and then you."
+        },
+        {
+          "tekst": "At an equal-priority junction a tram from the left is the classic trap: the tram always goes first. The other way round, a tram at shark's teeth (haaientanden) is no exception: the sign applies to the tram driver too."
+        },
+        {
+          "tekst": "Tram from the left, tram bending away, tram turning left against you turning right: the tram goes first. A sign and a zebra crossing apply to the tram as well."
+        },
+        {
+          "vraag": "At an equal-priority junction a tram comes from the left, so you are coming from the right. Who goes first?",
+          "antwoord": "The tram.",
+          "uitleg": "You give way to trams, whatever direction they come from."
+        },
+        {
+          "vraag": "You are on a priority road. A tram approaches from the right out of a side road with sign B6. Do you have to let the tram go first?",
+          "antwoord": "No.",
+          "uitleg": "At a priority road the tram has no special rights; it keeps to the sign."
+        }
+      ]
+    },
+    "U03-P05": {
+      "titel": "Emergency vehicles with priority",
+      "body": [
+        {
+          "tekst": "Motor vehicles showing blue rotating, flashing or blinking lights and sounding a two-tone siren are emergency vehicles with priority (voorrangsvoertuig) and you have to let them go first (voor laten gaan). Look for the way to let the vehicle past with the least hindrance, sometimes on the far right or even partly on the pavement."
+        },
+        {
+          "tekst": "You let an emergency vehicle with priority go first, even when the rules or the signs and markings for turning and priority prescribe something else. Causing danger, for example by driving through a red light, in order to let an emergency vehicle with priority go first, is not allowed."
+        },
+        {
+          "tekst": "An ambulance or a fire engine is on its way to someone who cannot wait. That is why it beats every rule and every sign, but not safety: a collision is exactly what holds the help up."
+        },
+        {
+          "tekst": "An equal-priority junction. You come from the right, a police car with a rotating light and siren approaches from the left. Even so you let the emergency vehicle with priority go first."
+        },
+        {
+          "tekst": "On the motorway (autosnelweg) an ambulance with rotating lights is driving between the lanes (rijstrook). Stay calm, carry on at the same speed and keep as far right as you can; the ambulance driver picks the moment to pass you."
+        },
+        {
+          "tekst": "The best known emergency vehicles with priority are those of the police, the fire brigade and the ambulance service, but other emergency services and road inspectors from Rijkswaterstaat may also drive with a blue rotating light and a siren."
+        },
+        {
+          "tekst": "To let an emergency vehicle with priority go first you may stop on a junction; that is the second case, alongside turning left on a priority road."
+        },
+        {
+          "kop": [
+            "Signals",
+            "Emergency vehicle with priority?"
+          ],
+          "rijen": [
+            [
+              "A blue rotating, flashing or blinking light and a two-tone siren",
+              "Yes: let it go first, even against rules and signs"
+            ],
+            [
+              "Only a blue light, without a siren",
+              "No: the definition asks for both signals"
+            ],
+            [
+              "A police car without signals",
+              "No: an ordinary driver under the ordinary rules"
+            ]
+          ]
+        },
+        {
+          "tekst": "On a priority road or at a green light you think you may carry on, but an emergency vehicle with priority goes first then too. The other way round, driving through a red light to make room is forbidden: find room where that can be done without danger."
+        },
+        {
+          "tekst": "Blue light and siren: let it go first, above every rule and every sign, without causing danger yourself."
+        },
+        {
+          "vraag": "You are stopped at a red traffic light. An ambulance with a rotating light and siren approaches behind you. May you drive through the red light to make room?",
+          "antwoord": "No.",
+          "uitleg": "Causing danger in order to let an emergency vehicle with priority go first is not allowed."
+        },
+        {
+          "vraag": "You come from the right at an equal-priority junction, a fire engine with a rotating light and siren comes from the left. Who goes first?",
+          "antwoord": "The fire engine.",
+          "uitleg": "You let an emergency vehicle with priority go first, even when the priority rule would let you go first."
+        }
+      ]
+    }
+  }
+}

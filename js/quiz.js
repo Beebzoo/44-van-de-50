@@ -10,6 +10,8 @@
    previous perfect run so the confirmation quiz cannot be memorised.
    Questions flagged reserve never appear here; they are held back for
    the exam simulations. */
+import { t } from "./taal.js";
+
 export const SUPPORTED = new Set(["ja_nee", "meerkeuze", "meervoudig", "hotspot", "volgorde", "reeks", "invul"]);
 
 /* An invul answer is one typed number. Dutch writes a decimal comma, and a
@@ -313,9 +315,9 @@ export function examenklaar(attempts, retentie) {
     .map(([k]) => k);
 
   const lampen = [
-    { id: "simulaties", ok: geslaagd.length >= EXAMENKLAAR.simulaties, tekst: geslaagd.length + " van de " + EXAMENKLAAR.simulaties + " simulaties gehaald, in de laatste " + EXAMENKLAAR.dagen + " dagen" },
-    { id: "onderwerpen", ok: sims.length > 0 && zwak.length === 0, tekst: sims.length === 0 ? "nog geen simulatie gedaan" : zwak.length ? zwak.length + " onderwerp" + (zwak.length > 1 ? "en" : "") + " onder de 70 procent" : "elk onderwerp boven de 70 procent" },
-    { id: "retentie", ok: retentie >= EXAMENKLAAR.retentie, tekst: Math.round(retentie * 100) + " procent van de herhaling op tijd" },
+    { id: "simulaties", ok: geslaagd.length >= EXAMENKLAAR.simulaties, tekst: t("{n} van de {van} simulaties gehaald, in de laatste {dagen} dagen", { n: geslaagd.length, van: EXAMENKLAAR.simulaties, dagen: EXAMENKLAAR.dagen }) },
+    { id: "onderwerpen", ok: sims.length > 0 && zwak.length === 0, tekst: sims.length === 0 ? t("nog geen simulatie gedaan") : zwak.length ? t(zwak.length > 1 ? "{n} onderwerpen onder de 70 procent" : "{n} onderwerp onder de 70 procent", { n: zwak.length }) : t("elk onderwerp boven de 70 procent") },
+    { id: "retentie", ok: retentie >= EXAMENKLAAR.retentie, tekst: t("{n} procent van de herhaling op tijd", { n: Math.round(retentie * 100) }) },
   ];
   return { lampen, klaar: lampen.every(l => l.ok), sims: sims.length, zwak };
 }

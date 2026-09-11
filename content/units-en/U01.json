@@ -1,0 +1,299 @@
+{
+  "id": "U01",
+  "titel": "Concepts: who and what",
+  "intro": "Every exam question is written in the language of the law: driver (bestuurder), pedestrian (voetganger), motor vehicle (motorvoertuig), carriageway (rijbaan), lane (rijstrook). Which box a person or a thing falls into decides which rule applies. In this block you learn those concepts well enough to recognise them in a situation, because that is what the exam is about: a mobility scooter on the pavement is a pedestrian, a moped car is not a motor vehicle, and a petrol station along the motorway is not part of the motorway.",
+  "paginas": {
+    "U01-P01": {
+      "titel": "Road users: pedestrian or driver",
+      "body": [
+        {
+          "tekst": "Which group you fall into at that moment decides which rule applies to you."
+        },
+        {
+          "tekst": "Traffic is all road users (weggebruikers). Road users are everyone who uses the road, from a pedestrian (voetganger) to a tram driver, and also riders on horseback, people leading riding animals, draught animals or cattle, and drivers of a cart, with or without animals harnessed to it. There are two main groups: pedestrians and drivers (bestuurders)."
+        },
+        {
+          "tekst": "Drivers are all road users except pedestrians. Drivers of a motor vehicle (bestuurder van een motorvoertuig) are everyone who drives a motor vehicle themselves, gives a driving lesson or conducts a driving test."
+        },
+        {
+          "tekst": "Pedestrians are people who take part in traffic on foot, including with a small vehicle such as a pram or a walking frame. The rules for pedestrians also apply to anyone on foot wheeling a motorcycle, moped (bromfiets), light moped (snorfiets) or bicycle alongside them, to roller skaters and skateboarders, and to drivers of a disability vehicle (gehandicaptenvoertuig) on the footpath or the pavement, also when they cross from or to a footpath or pavement. They may then not ride faster than 6 km/h."
+        },
+        {
+          "tekst": "Under traffic law, riders on horseback and people leading riding animals, draught animals or cattle are not pedestrians but drivers."
+        },
+        {
+          "tekst": "Destination traffic (bestemmingsverkeer) means drivers who can only reach their destination via a road that is closed to certain categories of driver by a closure order (geslotenverklaring). Scheduled buses also count as destination traffic."
+        },
+        {
+          "tekst": "A military column (militaire colonne) consists of military motor vehicles driving one behind the other, or motor vehicles of a disaster response organisation, under one commander and carrying the prescribed identification marks. A funeral procession (uitvaartstoet) is a procession of motor vehicles accompanying a body or the ashes, flying two three-pointed black flags with three horizontal white stripes."
+        },
+        {
+          "tekst": "Every rule and every sign applies to a particular group, so you have to be able to tell the road users apart."
+        },
+        {
+          "tekst": "Two friends are skating through the park. They are pedestrians, but they have to use the cycle path (fietspad), the cycle/moped path, the footpath or the pavement. Only if none of those are there may they use the carriageway (rijbaan)."
+        },
+        {
+          "tekst": "Bicycle at your side: pedestrian. Horse at your side: driver."
+        },
+        {
+          "kop": [
+            "Who",
+            "Group"
+          ],
+          "rijen": [
+            [
+              "Walking with a pram, a walking frame or a bicycle at their side",
+              "pedestrian"
+            ],
+            [
+              "Skateboarder or roller skater",
+              "pedestrian"
+            ],
+            [
+              "Mobility scooter on the pavement, 6 km/h at most",
+              "pedestrian"
+            ],
+            [
+              "Rider on horseback, someone leading cattle or a draught animal",
+              "driver"
+            ]
+          ]
+        },
+        {
+          "tekst": "On foot, including with something at your side: pedestrian. Everything else, right up to a horse on the rein: driver."
+        },
+        {
+          "vraag": "Your instructor is sitting next to you during the driving lesson. Is he a driver of a motor vehicle in law?",
+          "antwoord": "Yes.",
+          "uitleg": "Anyone who gives a driving lesson or conducts a driving test is also a driver of a motor vehicle."
+        },
+        {
+          "vraag": "A scheduled bus wants to enter a street that is closed by a closure order, except for destination traffic. Is that allowed?",
+          "antwoord": "Yes.",
+          "uitleg": "Scheduled buses always count as destination traffic."
+        }
+      ]
+    },
+    "U01-P02": {
+      "titel": "Vehicles: from bicycle to lorry",
+      "body": [
+        {
+          "tekst": "Pay attention above all to what the law leaves out, because that is where the exam questions are."
+        },
+        {
+          "tekst": "Vehicles (voertuigen) are bicycles, mopeds (bromfietsen), disability vehicles (gehandicaptenvoertuigen), motor vehicles (motorvoertuigen), trams and carts."
+        },
+        {
+          "tekst": "Motor vehicles are all vehicles driven by an engine, except trams, bicycles with pedal assistance, mopeds and disability vehicles. Motorised vehicles (motorrijtuigen) is wider: only trams and bicycles with pedal assistance fall outside it. So a moped is a motorised vehicle, but not a motor vehicle."
+        },
+        {
+          "tekst": "A moped is a vehicle on two, three or four wheels, built for a speed of no more than 45 km/h, with a combustion engine of no more than 50 cm³ or an electric motor of no more than 4 kW. A moped cargo bike (brombakfiets) and a fast e-bike also count as a moped. You recognise mopeds by the yellow number plate."
+        },
+        {
+          "tekst": "A light moped (snorfiets) is a moped that by its construction cannot go faster than 25 km/h, with a blue number plate. A moped car (brommobiel) is a moped on more than two wheels with a closed body. It follows the rules for motor vehicles, with a plate showing 45 on the back and a yellow number plate."
+        },
+        {
+          "tekst": "A disability vehicle is built to carry a disabled person, with or without an engine, no wider than 1.10 metres and, with an engine, 45 km/h at most. It does not count as a moped. A mobility scooter (scootmobiel) is a disability vehicle."
+        },
+        {
+          "tekst": "An emergency vehicle with priority (voorrangsvoertuig) is a motor vehicle showing optical signals (a blue rotating light, flashing light or blinking light) and sound signals (a two-tone horn)."
+        },
+        {
+          "tekst": "A special moped (bijzondere bromfiets) is a vehicle with a type approval issued by the RDW, such as the Segway, the BSO bus and the Trikke. You ride on the compulsory cycle path (fietspad) or the cycle/moped path, and otherwise on the carriageway (rijbaan), at 25 km/h at most. Only a disabled person may ride on the pavement, and then at 6 km/h at most. You have to be at least 16, and 18 for the BSO bus, and disabled people may also ride one at a younger age. A registration certificate and a light blue number plate are compulsory, there is no helmet requirement but there is an insurance requirement. You do not need a driving licence."
+        },
+        {
+          "tekst": "The same rules apply to the speed pedelec as to a moped: the minimum age is 16 and a moped licence, a yellow number plate, third-party insurance and a helmet are compulsory. You may not ride on the cycle path, you have to use the carriageway or the cycle/moped path. Sometimes the speed pedelec may use the cycle path after all, namely at sign [G11] with a sub-plate (onderbord) that allows speed pedelecs."
+        },
+        {
+          "tekst": "Do not let slow agricultural traffic catch you out. Certain tractors may do 25 km/h at most and others 40 km/h at most. Also bear in mind that the driver (bestuurder) is often young and inexperienced, that the lights, indicators and brake lights do not always work, that attached implements are often wider than the tractor, and that mud and load (lading) falling off can make the road surface slippery."
+        },
+        {
+          "tekst": "A moped car looks like a car and a mobility scooter looks like a moped, but the law looks at construction and speed, not at appearance."
+        },
+        {
+          "tekst": "Behind a tractor with a high-loaded trailer (aanhangwagen) the driver cannot see you, so wait patiently until there is clear space for overtaking (inhalen). Certain tractors may do 25 km/h at most, others 40 km/h."
+        },
+        {
+          "tekst": "A light moped and a moped car are mopeds. A disability vehicle is not, and an e-bike with pedal assistance stays a bicycle."
+        },
+        {
+          "kop": [
+            "Term",
+            "Definition in short"
+          ],
+          "rijen": [
+            [
+              "Special moped",
+              "RDW type approval, such as the Segway and the Trikke; light blue number plate, no driving licence needed"
+            ],
+            [
+              "Bus",
+              "built to carry more than eight people, not counting the driver"
+            ],
+            [
+              "Lorry",
+              "not built to carry people, permitted maximum mass over 3500 kg"
+            ]
+          ]
+        },
+        {
+          "tekst": "Motor vehicle: it has an engine, but it is not a tram, an e-bike, a moped or a disability vehicle."
+        },
+        {
+          "vraag": "Is an electric bicycle with pedal assistance a motorised vehicle?",
+          "antwoord": "No.",
+          "uitleg": "Bicycles with pedal assistance fall outside the motorised vehicles and so outside the motor vehicles as well."
+        },
+        {
+          "vraag": "A van has a permitted maximum mass below 3500 kg. Is it a lorry?",
+          "antwoord": "No.",
+          "uitleg": "A lorry has a permitted maximum mass of more than 3500 kg."
+        }
+      ]
+    },
+    "U01-P03": {
+      "titel": "Roads and parts of the road",
+      "body": [
+        {
+          "tekst": "With priority, overtaking and parking the answer often hangs on a single word."
+        },
+        {
+          "tekst": "Roads are all roads or paths open to public traffic, including bridges, culverts, verges (bermen) or edges. The carriageway (rijbaan) is every part of the road meant for moving vehicles, apart from cycle paths (fietspaden) and cycle/moped paths. A lane (rijstrook) is a part of the carriageway marked off by lines, wide enough for motor vehicles on more than two wheels to drive on."
+        },
+        {
+          "tekst": "A junction (kruispunt) is a crossing or a fork of roads. A motorway (autosnelweg) is indicated by sign [G1] and an expressway (autoweg) by sign [G3]. Car parks, petrol stations and bus stops beside them are not part of that road."
+        },
+        {
+          "tekst": "A cycle lane (fietsstrook) is part of the carriageway, marked with lines and images of a bicycle. Without a white bicycle it is a suggested cycle lane (suggestiestrook)."
+        },
+        {
+          "tekst": "A separate bus lane (busbaan) is a carriageway of its own, and a bus lane on the carriageway (busstrook) is a marked part of the carriageway. The word BUS means that coaches and scheduled buses may use it, LIJNBUS that only scheduled buses may."
+        },
+        {
+          "tekst": "The slip lane for joining (invoegstrook) and the slip lane for leaving (uitrijstrook) are separated from the through carriageway by block markings. Merging (invoegen) is driving onto the through carriageway, leaving is driving off it."
+        },
+        {
+          "tekst": "A traffic island at a fork (puntstuk) is a many-sided area where roads split or come together, and a hatched area (verdrijvingsvlak) is a part of the carriageway with diagonal stripes. You may not drive on either of them, except on a rush-hour lane (spitsstrook) or when you are lawfully following a separate bus lane or a bus lane on the carriageway."
+        },
+        {
+          "tekst": "If the hard shoulder (vluchtstrook) on the right of a motorway is used as an extra lane during the rush hour, that is called a rush-hour lane. An extra lane on the left is a plus lane (plusstrook): narrower than the normal lanes, but the hard shoulder on the right stays available for breakdowns and emergencies."
+        },
+        {
+          "tekst": "A passing lane (passeerbaan or passeerstrook) is a carriageway or lane that lets others overtake you, meant only for and compulsory for agricultural and forestry tractors, motorised vehicles of limited speed and mobile machines. Sign [F11] marks it and sign [F12] the end. A parking bay or parking strip (parkeerhaven, parkeerstrook) is a paved area alongside the carriageway meant for vehicles that are stopping (stilstaan) or parked."
+        },
+        {
+          "tekst": "A cycle lane is part of the carriageway and a cycle path is not, and that decides which rules apply."
+        },
+        {
+          "tekst": "To the right of your lane there is a red area with the word BUS on it: the bus lane runs directly alongside the lane for the other traffic."
+        },
+        {
+          "tekst": "Without a white bicycle it is a suggested cycle lane, not a cycle lane. A petrol station along the motorway is not part of the motorway."
+        },
+        {
+          "kop": [
+            "Part of the road",
+            "What it is"
+          ],
+          "rijen": [
+            [
+              "Shark's teeth (haaientanden)",
+              "priority triangles marked on the road surface"
+            ],
+            [
+              "Passing place (uitwijkplaats)",
+              "the side of a narrow road where oncoming traffic can pull over for each other"
+            ]
+          ]
+        },
+        {
+          "tekst": "Carriageway: everything vehicles drive on, except cycle paths. A cycle lane and a bus lane lie on the carriageway, a cycle path lies beside it."
+        },
+        {
+          "vraag": "A strip on the carriageway is marked with a broken line (onderbroken streep), without a white bicycle. Is it a cycle lane?",
+          "antwoord": "No.",
+          "uitleg": "Without the image of a bicycle it is a suggested cycle lane."
+        },
+        {
+          "vraag": "You are lawfully following a bus lane and drive over a traffic island at a fork. Is that allowed?",
+          "antwoord": "Yes.",
+          "uitleg": "Anyone lawfully following a bus lane may drive over a traffic island at a fork."
+        }
+      ]
+    },
+    "U01-P04": {
+      "titel": "Other concepts and provisions",
+      "body": [
+        {
+          "tekst": "Giving way (voorrang verlenen), letting someone go first (voor laten gaan) and parking are more precise than you think."
+        },
+        {
+          "tekst": "You have to behave so that no danger or obstruction is caused or can be caused, and keep as far right as possible, but as safely as possible: at a reasonable distance from the pavement or the verge (berm)."
+        },
+        {
+          "tekst": "You may not drive if a load (lading) or anything else gets in the way of your steering. You must have a good view forwards, to the side and through your mirrors. A misted or frozen windscreen or front side windows, or a crack in your field of view: do not drive. Holding a mobile electronic device while driving is forbidden. Hands-free is allowed, but it distracts you as well."
+        },
+        {
+          "tekst": "Giving way means letting the driver (bestuurder) concerned carry on without being hindered. So brake in good time and stop in the right place."
+        },
+        {
+          "tekst": "You always have to let these people go first in traffic: blind people with a white stick and people who have difficulty moving about. A person in a wheelchair is not by definition a person who has difficulty moving about."
+        },
+        {
+          "tekst": "Parking (parkeren) is leaving a vehicle standing other than for the time that is needed and used for passengers getting in or out straight away, or for loading or unloading goods straight away."
+        },
+        {
+          "tekst": "Towing is not allowed if the distance from the back of the towing vehicle to the front of the towed vehicle is more than 5 metres. A red flag is not compulsory, but the driver of the towed vehicle does have to hold a valid driving licence."
+        },
+        {
+          "tekst": "You may only carry passengers on a proper seat built for use by adults, so not on an improvised seat or a seat meant for use while the vehicle is standing still, such as a bench in a camper van. The exceptions are a child under 18 and shorter than 1.35 metres on a special fixed child seat with a belt, and a passenger in a wheelchair that is secured in the vehicle."
+        },
+        {
+          "tekst": "In cars with belts on every seat you may not carry more people than there are belts. The belt has to be used the right way: it is forbidden to run the diagonal part under your arm, behind your back or behind the backrest, because the belt then no longer works properly."
+        },
+        {
+          "tekst": "You may only set off if you can operate the car properly. Driving while you are not able to operate your car properly is forbidden."
+        },
+        {
+          "tekst": "You have only given way properly if the other road user did not have to brake for anything, and that is why braking in good time belongs to the rule."
+        },
+        {
+          "tekst": "You are standing still at the shark's teeth (haaientanden) while a bus drives along the priority road (voorrangsweg). By stopping in good time you give the bus enough room and it is not hindered."
+        },
+        {
+          "tekst": "Giving way is about drivers. Blind people with a stick and people who have difficulty moving about you let go first. Braking too late is not giving way."
+        },
+        {
+          "kop": [
+            "Term",
+            "Meaning"
+          ],
+          "rijen": [
+            [
+              "Giving way (voorrang verlenen)",
+              "letting the driver concerned carry on without being hindered"
+            ],
+            [
+              "Letting go first (voor laten gaan)",
+              "blind people with a white stick and people who have difficulty moving about"
+            ]
+          ]
+        },
+        {
+          "tekst": "Priority: the other road user notices nothing of you. Parking: everything except getting in, getting out, loading and unloading straight away."
+        },
+        {
+          "vraag": "You stop by the kerb, your passenger gets out straight away and you drive on. Was this parking?",
+          "antwoord": "No.",
+          "uitleg": "Getting out straight away is not parking."
+        },
+        {
+          "vraag": "Someone in a wheelchair wants to cross. Do you always have to let this person go first?",
+          "antwoord": "Not by definition.",
+          "uitleg": "A wheelchair does not say that someone has difficulty moving about."
+        }
+      ]
+    }
+  }
+}

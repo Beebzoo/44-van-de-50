@@ -1,0 +1,378 @@
+{
+  "id": "U04",
+  "titel": "Letting others go first and turning off",
+  "intro": "Priority is about who may go first at a junction. Letting someone go first is something else: it is about your own manoeuvre. If you turn off, you let the traffic going straight on along the same road go first, and if you turn left you let the oncoming driver who turns right go first. In this unit you learn that rule, how to take up position and turn properly, why you give vulnerable road users extra room and time, what you do at a zebra crossing, and how you deal with a military column and a funeral procession. Almost every question is a drawing seen from above: look first at who goes straight on and who turns off, and you usually know the answer already.",
+  "paginas": {
+    "U04-P01": {
+      "titel": "Turning off: straight on goes first",
+      "body": [
+        {
+          "tekst": "Drivers (bestuurders, which includes cyclists) who turn off must let the traffic going straight on along the same road go first (voor laten gaan), pedestrians included. That applies to oncoming traffic as well as to traffic close behind you."
+        },
+        {
+          "tekst": "If you have to let traffic go first, you must come to a stop in such a way that you do not obstruct the crossing traffic. So usually you wait before the junction."
+        },
+        {
+          "tekst": "The rule also applies to traffic on an adjacent path. So you let a cyclist going straight on along the cycle path (fietspad) beside you go first when you turn right."
+        },
+        {
+          "tekst": "Drivers turning left must let oncoming drivers who turn right at the same junction go first. So a right turn goes before a left turn."
+        },
+        {
+          "tekst": "Someone going straight on stays on his own path and has nothing to cross. Someone who turns off does cross a path: that of the oncoming driver, of the cyclist beside you or of the pedestrian on the corner. That is why the duty to wait sits with the driver who turns off. With left against right you cross the other driver's path, while he never touches yours."
+        },
+        {
+          "tekst": "You turn right and the cyclist on the cycle path beside you goes straight on. The cycle path is an adjacent path on the same road, so the cyclist goes first."
+        },
+        {
+          "tekst": "You want to turn left, an oncoming lorry wants to turn right into the same street, and on the corner a pedestrian is crossing that street. The pedestrian is going straight on along the same road and may go first. Then the lorry, because a right turn goes before a left turn. You are last."
+        },
+        {
+          "tekst": "On a priority road (voorrangsweg) that bends away, following the bend counts as going straight on. So a light moped rider (snorfiets) following the bending priority road goes before you when you leave the priority road."
+        },
+        {
+          "tekst": "The rule says: along the same road. You do not have to let a pedestrian crossing the intersecting road go first; a pedestrian who follows your road and crosses the side street you do. You wait before the junction, not on it."
+        },
+        {
+          "tekst": "Turning off means waiting: straight on goes first, cyclists and pedestrians included, behind you included. A right turn goes before a left turn."
+        },
+        {
+          "vraag": "You are turning right. On the cycle path to your right a cyclist is going straight on. Who goes first?",
+          "antwoord": "The cyclist.",
+          "uitleg": "The cycle path is an adjacent path on the same road; the cyclist goes straight on and you turn off."
+        },
+        {
+          "vraag": "You want to turn left, an oncoming driver wants to turn right into the same street. Who may go first?",
+          "antwoord": "The oncoming driver turning right.",
+          "uitleg": "If you turn left, you let the oncoming driver who turns right at the same junction go first."
+        }
+      ]
+    },
+    "U04-P02": {
+      "titel": "Taking up position to turn (voorsorteren)",
+      "body": [
+        {
+          "tekst": "To turn left you take up position against the centre line of the road on roads where you can expect oncoming drivers, and fully to the left on full one-way roads and roads with separate carriageways (rijbanen)."
+        },
+        {
+          "tekst": "To turn right you take up position against the kerb or the white edge line of the carriageway, or against the line if there is a bus lane or a cycle lane (fietsstrook) with a solid line to your right."
+        },
+        {
+          "tekst": "If the cycle lane is marked with a broken line, you may take up position on it, but only if you do not obstruct any cyclists or light moped riders."
+        },
+        {
+          "tekst": "Arrows in the turning lanes show which direction you must follow from that lane. You may only change lanes if there is no solid line and you obstruct nobody."
+        },
+        {
+          "tekst": "Taking up position is communicating. Driving against the centre line with your indicator on lets the traffic behind you past on the right and tells the oncoming driver what you intend to do. A solid line along a cycle lane protects the cyclist: you stay off it."
+        },
+        {
+          "kop": [
+            "You want to",
+            "Where you take up position"
+          ],
+          "rijen": [
+            [
+              "turn left, road with oncoming traffic",
+              "against the centre line of the road"
+            ],
+            [
+              "turn left, restricted one-way road",
+              "against the centre line of the road"
+            ],
+            [
+              "turn left, full one-way road or separate carriageways",
+              "fully to the left of the carriageway"
+            ],
+            [
+              "turn right, ordinary road, bus lane or solid line",
+              "against the kerb, the edge line or the line"
+            ],
+            [
+              "turn right, cycle lane with a broken line",
+              "on the lane is allowed, if you obstruct no cyclist"
+            ]
+          ]
+        },
+        {
+          "tekst": "There is a cycle lane to your right. Look at the line: broken means you may take up position on it as long as you obstruct nobody, solid means staying beside it."
+        },
+        {
+          "tekst": "You drive into a street with sign C2 and cyclists coming towards you. This is a restricted one-way road: for a left turn you take up position against the centre line of the road, not fully to the left."
+        },
+        {
+          "tekst": "A one-way road does not automatically mean fully to the left. If cyclists or moped riders can come towards you, you take up position against the centre line. And a lane you have chosen between solid lines is a promise: you have to follow that direction."
+        },
+        {
+          "tekst": "Left turn: against the centre line, unless nobody can come towards you. Right turn: against the edge. A broken line is allowed, a solid line is not. The lane you choose is the direction you choose."
+        },
+        {
+          "vraag": "You want to turn left on a road with separate carriageways. Where do you take up position?",
+          "antwoord": "Fully to the left of the carriageway.",
+          "uitleg": "On separate carriageways there can be no oncoming driver on your carriageway."
+        },
+        {
+          "vraag": "There is a cycle lane with a broken line to your right. May you take up position on it to turn right?",
+          "antwoord": "Yes, provided you obstruct no cyclists or light moped riders.",
+          "uitleg": "With a broken line it is allowed, with a solid line it is not."
+        }
+      ]
+    },
+    "U04-P03": {
+      "titel": "Turning right and turning left",
+      "body": [
+        {
+          "tekst": "You turn right safely in a fixed order: look, indicate, take up position (voorsorteren), let the traffic going straight on along the same road go first (voor laten gaan) and take the bend tightly."
+        },
+        {
+          "tekst": "For a left turn the order is the same, but you also let the oncoming drivers who turn right into the same street go first, and you take the bend wide. Do not cut the bend to the left."
+        },
+        {
+          "tekst": "Watch for traffic coming up behind you before you take up position and again before you actually turn off. Do not let a driver in a hurry to overtake catch you out."
+        },
+        {
+          "tekst": "If you and an oncoming driver both want to turn left, you pass in front of each other, unless he has clearly taken up position already, there are markings on the road surface that say otherwise, or there is a wide central reservation. Either way, show clearly whether you are going in front of him or behind him."
+        },
+        {
+          "kop": [
+            "Step",
+            "Right turn",
+            "Left turn"
+          ],
+          "rijen": [
+            [
+              "1 look",
+              "interior mirror, right wing mirror, over your right shoulder",
+              "interior mirror, left wing mirror, out to your left"
+            ],
+            [
+              "2 indicate",
+              "once you can turn off safely",
+              "once you can turn off safely"
+            ],
+            [
+              "3 take up position",
+              "smoothly to the right, obstruct no cyclists",
+              "smoothly to the left, against the centre line"
+            ],
+            [
+              "4 let others go first",
+              "traffic going straight on, cyclists and pedestrians included",
+              "traffic going straight on and oncoming drivers turning right"
+            ],
+            [
+              "5 the bend",
+              "tight, ending up on the right-hand half of the road",
+              "wide, do not cut it"
+            ]
+          ]
+        },
+        {
+          "tekst": "With a right turn the danger is to your right and behind you: a cyclist in your blind spot. That is why you look over your right shoulder and take the bend tightly. With a left turn the danger is ahead of you with the oncoming driver and behind you with someone overtaking."
+        },
+        {
+          "tekst": "You and the oncoming driver both want to turn left. Without markings on the road surface and without a wide central reservation you pass in front of each other."
+        },
+        {
+          "tekst": "Outside the built-up area (bebouwde kom) you turn right onto a single-carriageway road. Trees take away your view and traffic approaches fast. Look to the right as well, because someone overtaking could be on your half of the road there."
+        },
+        {
+          "tekst": "An oncoming driver turning left in front of you takes away your view of the oncoming traffic going straight on behind him. So do not follow him blindly into the bend."
+        },
+        {
+          "tekst": "Look, indicate, take up position, let others go first, bend. Right tight, left wide. Two looks behind you for a left turn."
+        },
+        {
+          "vraag": "You turn left and end up on the left-hand half of the side street. What went wrong?",
+          "antwoord": "You cut the bend.",
+          "uitleg": "Take the bend to the left wide enough that you end up on the right-hand half of the road."
+        },
+        {
+          "vraag": "You and an oncoming driver both want to turn left; there is a wide central reservation. How do you pass each other?",
+          "antwoord": "Around each other.",
+          "uitleg": "Passing in front of each other is the main rule; a wide central reservation is an exception."
+        }
+      ]
+    },
+    "U04-P04": {
+      "titel": "Vulnerable road users (kwetsbare weggebruikers)",
+      "body": [
+        {
+          "tekst": "Pedestrians often take part in traffic without thinking about it and are far from always following the rules. Pay extra attention where small children can walk onto the road out of nowhere, such as near schools and playgrounds."
+        },
+        {
+          "tekst": "Older people and people with a disability notice you late and need more time to cross. Blind people, partially sighted people and people who have difficulty moving about get extra protection; drivers of a mobility vehicle (gehandicaptenvoertuig) have no special rights."
+        },
+        {
+          "tekst": "Cyclists regularly apply the rules poorly: they do not always indicate when they turn off and they sometimes go through a red light. Riders of electric bikes are often a good deal faster than ordinary cyclists."
+        },
+        {
+          "tekst": "When overtaking (inhalen) cyclists, light moped riders and moped riders, keep a sideways distance of 1.5 metres and do not move back to the right too soon afterwards. Cyclists with heavy bags are less stable."
+        },
+        {
+          "tekst": "A car protects you, a cyclist or pedestrian only has his body. On top of that, in a collision with a pedestrian you are in principle always liable. Children do not watch out, so you watch out for them."
+        },
+        {
+          "tekst": "At a playground a child walks onto the road out of nowhere. He is absorbed in his game and is not paying attention to traffic. You drive slowly and are ready to stop."
+        },
+        {
+          "tekst": "In a street with parked cars a child crosses between the cars. The child cannot see you coming, and you cannot see him."
+        },
+        {
+          "tekst": "A cyclist with a small sign on the back of the bike may be hard of hearing. Drive predictably and do not turn up beside him unexpectedly, that way you avoid startling him."
+        },
+        {
+          "items": [
+            "Children: near schools, playgrounds and parked cars.",
+            "Older people and people with a disability: more time, late reaction.",
+            "Large groups of pedestrians, such as on organised walks, may use the carriageway.",
+            "Horse riders and people leading animals: pass with plenty of room and do not startle the animals."
+          ]
+        },
+        {
+          "tekst": "A mobility vehicle looks vulnerable, but its driver has no special rights in priority. A cyclist going straight on does go before you when you turn off."
+        },
+        {
+          "tekst": "Vulnerable means: you are the one who adapts. Slower near children, time for older people, 1.5 metres when overtaking, predictable at every moment."
+        },
+        {
+          "vraag": "You overtake a moped rider. How much sideways distance do you keep?",
+          "antwoord": "About 1.5 metres, and only move back to the right once he is visible in your interior mirror.",
+          "uitleg": "Your car affects how steadily a two-wheeler holds its line."
+        },
+        {
+          "vraag": "Does the driver of a mobility vehicle have special rights in priority?",
+          "antwoord": "No.",
+          "uitleg": "Extra protection applies to blind people, partially sighted people and people who have difficulty moving about, not to mobility vehicles."
+        }
+      ]
+    },
+    "U04-P05": {
+      "titel": "The zebra crossing",
+      "body": [
+        {
+          "tekst": "You must let pedestrians and drivers of a mobility vehicle at a pedestrian crossing (voetgangersoversteekplaats) go first (voor laten gaan) when they are crossing or are about to cross. You can often tell from their behaviour."
+        },
+        {
+          "tekst": "You may not overtake a vehicle just before or on a pedestrian crossing. If there are several lanes in one direction, you may stop next to another vehicle that is also standing still before the crossing."
+        },
+        {
+          "tekst": "Brake in good time and calmly when you have to stop. That warns the drivers behind you, it keeps you from startling the pedestrians, and it gives oncoming drivers a reason to stop as well."
+        },
+        {
+          "tekst": "Take care when you are in a queue of traffic. Make sure you do not come to a stop on a crossing. Stop in time and only drive on once there is enough free space beyond the crossing."
+        },
+        {
+          "tekst": "Anyone on foot wheeling a bicycle, moped or motorbike along is a pedestrian. You let such a person go first at the zebra crossing too."
+        },
+        {
+          "tekst": "A zebra crossing is the place where the pedestrian is weakest and still has to go onto the road. That is why the duty sits with you, even before he puts a foot on the stripes. Overtaking is forbidden because a car standing still takes away the view."
+        },
+        {
+          "tekst": "[L2] stands at the pedestrian crossing itself, [J22] warns you about it in advance. The duty to let people go first is in the stripes."
+        },
+        {
+          "tekst": "The pedestrian is still on the pavement, but he is about to cross. Even then you let him go first."
+        },
+        {
+          "tekst": "A car ahead of you is standing still at a zebra crossing and you cannot see a pedestrian yourself. Even so you may not overtake it: the pedestrian is hidden behind that car, and he cannot see you either."
+        },
+        {
+          "tekst": "A cyclist riding across the zebra crossing is a driver and not a pedestrian. If he gets off and walks with the bike in hand, then he is a pedestrian."
+        },
+        {
+          "tekst": "Zebra crossing: let people go first, including anyone still standing and waiting. No overtaking, no stopping on the stripes, brake in good time and calmly."
+        },
+        {
+          "vraag": "A pedestrian is waiting at a zebra crossing and looking your way. Do you have to stop?",
+          "antwoord": "Yes.",
+          "uitleg": "You also let someone who is about to cross go first."
+        },
+        {
+          "vraag": "You are in a queue of traffic and beyond the zebra crossing there is no room for your car. What do you do?",
+          "antwoord": "You stop before the zebra crossing and only drive on once there is room.",
+          "uitleg": "You always keep a crossing clear, in a queue of traffic as well."
+        }
+      ]
+    },
+    "U04-P06": {
+      "titel": "Military column and funeral procession",
+      "body": [
+        {
+          "tekst": "You recognise a military column (militaire colonne) and a funeral procession (uitvaartstoet) by special markings. The first vehicle of a column carries a blue flag and the last one a green flag. A funeral procession carries a three-pointed black flag with white stripes."
+        },
+        {
+          "tekst": "As long as the first vehicle has not passed yet, the normal rules for priority and turning off apply. So if you come from the right at an equal-priority junction (gelijkwaardig kruispunt), you go first."
+        },
+        {
+          "tekst": "As soon as the first vehicle has passed, you may not cut through the column or the procession. You then wait until the whole group has gone by."
+        },
+        {
+          "tekst": "Exception 1: if you are on a priority road (voorrangsweg) yourself and you approach a junction without traffic lights, you may cut through. Merging (invoegen) between the vehicles of a column or procession is allowed as well."
+        },
+        {
+          "tekst": "Exception 2: at traffic lights a military column drives on if the light turns red while it is crossing. If your light turns green, you still wait. A funeral procession does stop for a red light, and that one you may cut through."
+        },
+        {
+          "tekst": "A column or procession belongs together. Whoever drives through it breaks up the group and forces the vehicles at the back into a race to catch up. That is why the same rules as for trams apply once the first vehicle has passed."
+        },
+        {
+          "kop": [
+            "Situation",
+            "Military column",
+            "Funeral procession"
+          ],
+          "rijen": [
+            [
+              "First vehicle has not passed yet",
+              "normal rules",
+              "normal rules"
+            ],
+            [
+              "Equal-priority junction, driveway exit or turning across in front of you",
+              "do not cut through",
+              "do not cut through"
+            ],
+            [
+              "You on a priority road, junction without traffic lights",
+              "cutting through is allowed",
+              "cutting through is allowed"
+            ],
+            [
+              "You have to merge",
+              "between the vehicles is allowed",
+              "between the vehicles is allowed"
+            ],
+            [
+              "Traffic lights, your light turns green",
+              "do not cut through",
+              "cutting through is allowed"
+            ]
+          ]
+        },
+        {
+          "tekst": "The first vehicle of the column has already gone by. Even though you come from the right, you wait until the whole column has passed."
+        },
+        {
+          "tekst": "You are waiting at a red light. After the first vehicle of a military column has passed, your light turns green. You still wait until the whole column has gone by."
+        },
+        {
+          "tekst": "The difference is only at the traffic lights: the column drives through a red light, the procession does not. In every other situation the same rules apply to both."
+        },
+        {
+          "tekst": "Before the first vehicle: normal rules. After it: do not cut through, except on a priority road without lights or when you are merging."
+        },
+        {
+          "vraag": "You are driving on a priority road without traffic lights. A funeral procession is crossing from a side road; the first car has already gone by. May you cut through?",
+          "antwoord": "Yes.",
+          "uitleg": "On a priority road without traffic lights that is allowed."
+        },
+        {
+          "vraag": "The first vehicle of a military column has not reached the equal-priority junction yet. You come from the right. Who goes first?",
+          "antwoord": "You do.",
+          "uitleg": "Before the first vehicle the normal rules apply."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,333 @@
+/* Dutch and English, with Dutch as the key.
+
+   Every user-visible string in the app is written in Dutch in the code and
+   passed through t(). The dictionary below maps that exact Dutch string to
+   its English twin. A missing entry falls back to the Dutch, so the app can
+   never show a blank or a key; _tools/build.js lists what is missing.
+
+   Placeholders are {naam} and are filled from the second argument, so a
+   sentence can be reordered in translation without touching the caller.
+
+   What is NOT translated: the questions, their feedback and the meanings of
+   the road signs. Those are the words the CBR uses and the words Martijn has
+   to recognise on the day, so they stay Dutch in both languages. The reading
+   pages do get an English twin, in content/units-en/, merged in at boot. */
+
+let TAAL = "nl";
+export const taal = () => TAAL;
+export const isEngels = () => TAAL === "en";
+export function zetTaal(v) {
+  TAAL = v === "en" ? "en" : "nl";
+  if (typeof document !== "undefined") document.documentElement.lang = TAAL;
+  return TAAL;
+}
+
+/* the day and month names for the short dates in the shell */
+export const DAGEN = { nl: ["zo", "ma", "di", "wo", "do", "vr", "za"], en: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"] };
+export const MAANDEN = { nl: ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"], en: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] };
+
+const EN = {
+  /* ==== shell ==== */
+  "Route": "Route",
+  "Leren": "Learn",
+  "Borden": "Signs",
+  "Fouten": "Mistakes",
+  "Terug": "Back",
+  "Sluiten": "Close",
+  "{d} dagen tot je examen": "{d} days until your exam",
+  "{d} d": "{d} d",
+  "examen geweest": "exam done",
+  "Nederlands": "Dutch",
+  "Engels": "English",
+  "Taal": "Language",
+  "Schakel naar het Engels": "Switch to English",
+  "Schakel naar het Nederlands": "Switch to Dutch",
+
+  /* ==== route ==== */
+  "dagen tot je examen, {datum}": "days until your exam, {datum}",
+  "dag tot je examen, morgen": "day until your exam, tomorrow",
+  "vandaag is je examen": "your exam is today",
+  "je examen is geweest": "your exam has been",
+  "Verder waar je was": "Pick up where you left off",
+  "Vandaag {vragen} vragen, {minuten} min": "Today {vragen} questions, {minuten} min",
+  " · {n} dagen op rij": " · {n} days in a row",
+  "Herhaling vandaag": "Review today",
+  "{n} vragen, ongeveer {min} minuten": "{n} questions, about {min} minutes",
+  ", {n} aan de beurt": ", {n} due",
+  " · vandaag al gedaan": " · already done today",
+  "Start": "Start",
+  "Fouten om te herhalen": "Mistakes to review",
+  "vandaag {datum}": "today {datum}",
+  "Theorie-examen": "Theory exam",
+  "Praktijklessen": "Driving lessons",
+  "daarna": "after that",
+  "wk {n}": "wk {n}",
+  "nu": "now",
+  "bijna": "almost",
+  "klaar": "done",
+  "Je bent examenklaar": "You are exam ready",
+  "Nog niet examenklaar": "Not exam ready yet",
+  "{n} van de {van} simulaties gehaald, in de laatste {dagen} dagen": "{n} of {van} mock exams passed, in the last {dagen} days",
+  "nog geen simulatie gedaan": "no mock exam done yet",
+  "{n} onderwerp onder de 70 procent": "{n} topic below 70 percent",
+  "{n} onderwerpen onder de 70 procent": "{n} topics below 70 percent",
+  "elk onderwerp boven de 70 procent": "every topic above 70 percent",
+  "{n} procent van de herhaling op tijd": "{n} percent of the review on time",
+
+  /* ==== the next step on a block ==== */
+  "Eerst het vorige blok afronden": "Finish the previous block first",
+  "Bekijk blok": "View block",
+  "Lees de pagina en rond af": "Read the page and finish up",
+  "Lezen": "Read",
+  "{n} pagina's om te lezen": "{n} pages to read",
+  "De quiz voor dit blok is nog niet klaar": "The quiz for this block is not ready yet",
+  "Voorlopig gehaald. Over {uren} uur kun je bevestigen": "Provisionally passed. In {uren} hours you can confirm",
+  "Voorlopig gehaald. Bevestig met een tweede quiz": "Provisionally passed. Confirm with a second quiz",
+  "Oefen alvast": "Practise already",
+  "Bevestig": "Confirm",
+  "Quiz · vorige keer {score} van {total}": "Quiz · last time {score} of {total}",
+  "Quiz · eerste poging": "Quiz · first attempt",
+  "Start quiz": "Start quiz",
+
+  /* ==== leren ==== */
+  "Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen.": "Sixteen blocks in learning order. A block is passed after two faultless quizzes.",
+  "Gehaald": "Passed",
+  "Voorlopig gehaald": "Provisionally passed",
+  "Vergrendeld": "Locked",
+  "Oefenen": "Practise",
+  "{n} vragen · ": "{n} questions · ",
+  "week {n}": "week {n}",
+
+  /* ==== blok ==== */
+  "Blok {n}": "Block {n}",
+  "Blok {n} · week {week}": "Block {n} · week {week}",
+  "Blok {n} · {titel}": "Block {n} · {titel}",
+  "Borden in dit blok": "Signs in this block",
+  "Dit blok heeft geen quiz. Lees de pagina en rond af.": "This block has no quiz. Read the page and finish up.",
+  "De quiz opent als het vorige blok gehaald is.": "The quiz opens once the previous block is passed.",
+  "Je kunt alvast lezen. De quiz opent als het vorige blok gehaald is.": "You can already read. The quiz opens once the previous block is passed.",
+  "De vragen voor dit blok worden nog geschreven ({n} van {van}).": "The questions for this block are still being written ({n} of {van}).",
+  "{lengte} vragen per quiz uit een pool van {pool}.": "{lengte} questions per quiz from a pool of {pool}.",
+  " {n} pogingen tot nu toe.": " {n} attempts so far.",
+  "{vragen} vragen beantwoord · {minuten} min in dit blok": "{vragen} questions answered · {minuten} min in this block",
+
+  /* ==== lezen ==== */
+  "Quiz": "Quiz",
+  "Pagina {i} van {n}": "Page {i} of {n}",
+  "Vorige pagina": "Previous page",
+  "Volgende pagina": "Next page",
+  "Gelezen, terug naar route": "Read, back to Route",
+  "Klaar met lezen": "Done reading",
+  "Naar de quiz": "To the quiz",
+  "Terug naar het blok": "Back to the block",
+  "Regel": "Rule",
+  "Waarom": "Why",
+  "Voorbeeld": "Example",
+  "Valkuil": "Trap",
+  "Onthoud": "Remember",
+  "Zelftest": "Self-test",
+  "Toon antwoord": "Show answer",
+  "Tip": "Tip",
+  "Let op": "Watch out",
+  "Weetje": "Did you know",
+  "Ezelsbrug": "Memory aid",
+  "Boek {pag}": "Book {pag}",
+  "p. {p}": "p. {p}",
+  "p. {van} tot {tot}": "p. {van} to {tot}",
+  "SpeedTheorie slide {n}": "SpeedTheorie slide {n}",
+  "SpeedTheorie slide {van} t/m {tot}": "SpeedTheorie slides {van} to {tot}",
+  "{ref} ontbreekt": "{ref} missing",
+  "Deze pagina is nog niet vertaald. Je leest hem in het Nederlands.": "This page has not been translated yet. You are reading it in Dutch.",
+
+  /* ==== quiz ==== */
+  "Nog geen quiz": "No quiz yet",
+  "De vragen voor dit blok zijn er nog niet, of het blok is nog vergrendeld.": "The questions for this block do not exist yet, or the block is still locked.",
+  "Vul het getal in, in {eenheid}. Een komma mag.": "Enter the number, in {eenheid}. A comma is fine.",
+  "Kies er {n}.": "Pick {n}.",
+  "Tik op het bord.": "Tap the sign.",
+  "Tik in de volgorde waarin ze mogen gaan. Nog een keer tikken wist het nummer.": "Tap in the order in which they may go. Tapping again clears the number.",
+  "Vul het getal in": "Enter the number",
+  "Kies een bord": "Choose a sign",
+  "Kies een lampje": "Choose a warning light",
+  "Zet in volgorde": "Put in order",
+  "Bord vergroten": "Enlarge sign",
+  "Vorig beeld": "Previous frame",
+  "Volgend beeld": "Next frame",
+  "Speel af": "Play",
+  "Tekening {ref} ontbreekt": "Drawing {ref} missing",
+  "Tekening": "Drawing",
+  "goede plaats {n}": "correct place {n}",
+  "Twijfel": "Unsure",
+  "Controleer": "Check",
+  "Volgende": "Next",
+  "Naar de uitslag": "To the result",
+  "Naar het overzicht": "To the overview",
+  "Vorige vraag": "Previous question",
+  "Markeer": "Flag",
+  "Gemarkeerd": "Flagged",
+  "Goed": "Correct",
+  "Goed, maar getwijfeld": "Correct, but unsure",
+  "Nog niet": "Not yet",
+  "Ook goed": "Also correct",
+  "jouw antwoord": "your answer",
+  "het goede antwoord": "the correct answer",
+  "Het goede antwoord": "The correct answer",
+  "De juiste volgorde": "The correct order",
+  "Wat ging er mis?": "What went wrong?",
+  "Niet geweten": "Did not know",
+  "Verkeerd gelezen": "Misread",
+  "Verkeerd toegepast": "Misapplied",
+  "Gegokt": "Guessed",
+  "Komt terug aan het eind.": "Comes back at the end.",
+  "Lees {pagina} opnieuw": "Read {pagina} again",
+  "de pagina": "the page",
+  "Gemeld": "Reported",
+  "Klopt deze vraag niet?": "Is this question wrong?",
+  "Herhaling": "Review",
+  "Fouten oefenen": "Practise mistakes",
+  "Herstelronde": "Repair round",
+  "{naam} · vraag {i} van {n}": "{naam} · question {i} of {n}",
+  "Quiz-einde": "End of quiz",
+
+  /* ==== uitslag ==== */
+  "Uitslag": "Result",
+  "van {n}": "of {n}",
+  "Deze ging mis": "This one went wrong",
+  "Deze gingen mis": "These went wrong",
+  "Blok gehaald.": "Block passed.",
+  "Nog niet alle vragen uit de pool goed gehad. Nog een quiz, dan is het rond.": "You have not had every question in the pool right yet. One more quiz and it is done.",
+  "Voorlopig gehaald. Doe over minstens 12 uur nog een foutloze quiz, dan is het blok rond.": "Provisionally passed. Do another faultless quiz in at least 12 hours and the block is done.",
+  "Alleen de fouten opnieuw": "Just the mistakes again",
+  "Hele quiz opnieuw": "Whole quiz again",
+  "Terug naar blok": "Back to block",
+  "Blok gehaald": "Block passed",
+  "Klaar": "Done",
+  "Nog een herstelronde": "Another repair round",
+
+  /* ==== blok gehaald ==== */
+  "Blok {n} gehaald": "Block {n} passed",
+  "vragen": "questions",
+  "pogingen": "attempts",
+  "minuten": "minutes",
+  "Wat je lastig vond": "What you found hard",
+  "Deze staan in je foutenlijst.": "These are in your mistake list.",
+  "Ontgrendeld": "Unlocked",
+  "Verder naar blok {n}": "On to block {n}",
+  "Terug naar route": "Back to Route",
+
+  /* ==== borden ==== */
+  "Niet verwarren met": "Not to be confused with",
+  "Bord": "Sign",
+  "Bekijk in Borden": "View in Signs",
+  "Boek p. {p}": "Book p. {p}",
+  "Snelheid": "Speed",
+  "Voorrang": "Priority",
+  "Geslotenverklaring": "Closed to traffic",
+  "Rijrichting": "Direction",
+  "Parkeren en stilstaan": "Parking and stopping",
+  "Overige geboden en verboden": "Other orders and prohibitions",
+  "Verkeersregels": "Traffic rules",
+  "Bebouwde kom": "Built-up area",
+  "Waarschuwing": "Warning",
+  "Bewegwijzering": "Direction signs",
+  "Informatie": "Information",
+
+  /* ==== fouten ==== */
+  "niet geweten": "did not know",
+  "verkeerd gelezen": "misread",
+  "verkeerd toegepast": "misapplied",
+  "gegokt": "guessed",
+  "Oefen deze {n}": "Practise these {n}",
+  "Een vraag verdwijnt hier na twee keer achter elkaar goed.": "A question leaves this list after two correct answers in a row.",
+  "Nog geen fouten om te herhalen. Alles wat je fout doet komt hier terecht, met de uitleg erbij.": "No mistakes to review yet. Everything you get wrong ends up here, with the explanation.",
+  "Blok {n} {titel}": "Block {n} {titel}",
+
+  /* ==== oefenexamen ==== */
+  "Oefenexamen": "Mock exam",
+  "{getoond} vragen waarvan er {telt} tellen, {minuten} minuten, en je haalt het bij {halen} goed. Net als bij het CBR krijg je onderweg niets te zien: je antwoordt, je mag terug, en je ziet alles pas als je inlevert.": "{getoond} questions of which {telt} count, {minuten} minutes, and you pass at {halen} correct. Just like at the CBR you are shown nothing along the way: you answer, you may go back, and you see everything only when you hand in.",
+  "Er zijn nog {n} vragen te weinig vrijgespeeld. Rond eerst wat blokken af.": "There are {n} questions too few unlocked. Finish a few blocks first.",
+  "Je vorige simulaties": "Your previous mock exams",
+  "Niet gehaald": "Not passed",
+  "Nog een simulatie": "Another mock exam",
+  "Begin het oefenexamen": "Start the mock exam",
+  "Terug naar Route": "Back to Route",
+  "Overzicht": "Overview",
+  "Tik op een nummer om terug te gaan. Een blauw randje betekent dat je hem gemarkeerd hebt.": "Tap a number to go back. A blue edge means you flagged it.",
+  "{beantwoord} van {n} beantwoord": "{beantwoord} of {n} answered",
+  "Je hebt er nog {n} niet beantwoord. Onbeantwoord telt als fout.": "You have {n} unanswered. Unanswered counts as wrong.",
+  "Inleveren en nakijken": "Hand in and check",
+  "Per onderwerp": "By topic",
+  "Onderwerp": "Topic",
+  "{goed} van {totaal}": "{goed} of {totaal}",
+  "Je haalt het bij {halen} goed": "You pass at {halen} correct",
+  ", en je liet er {n} open": ", and you left {n} blank",
+  "Niet beantwoord. ": "Not answered. ",
+  "Gebruik van de weg": "Use of the road",
+  "Voorrang en voor laten gaan": "Priority and giving way",
+  "Bijzondere wegen en manoeuvres": "Special roads and manoeuvres",
+  "Veilig rijden en noodsituaties": "Safe driving and emergencies",
+  "Verkeerstekens en aanwijzingen": "Traffic signs and directions",
+  "Verantwoorde deelname en milieu": "Responsible driving and the environment",
+  "Wetgeving": "Legislation",
+  "Voertuigkennis": "Vehicle knowledge",
+
+  /* ==== instellingen ==== */
+  "Instellingen": "Settings",
+  "Thema": "Theme",
+  "Automatisch": "Automatic",
+  "Licht": "Light",
+  "Donker": "Dark",
+  "Tekstgrootte": "Text size",
+  "Normaal": "Normal",
+  "Groot": "Large",
+  "Examendatum": "Exam date",
+  "Koppelen": "Pairing",
+  "Dit is je koppelcode. Typ hem een keer in op je andere apparaat, dan lopen telefoon en computer gelijk.": "This is your pairing code. Type it once on your other device and phone and computer stay in step.",
+  "Kopieer": "Copy",
+  "Code van je andere apparaat": "Code from your other device",
+  "Koppel dit apparaat": "Pair this device",
+  "Laatste poging mislukt: {fout}": "Last attempt failed: {fout}",
+  "Laatst gesynchroniseerd {datum} {tijd}": "Last synced {datum} {tijd}",
+  "Nog niet gesynchroniseerd": "Not synced yet",
+  " · {n} wachten": " · {n} waiting",
+  "Nu synchroniseren": "Sync now",
+  "Koppelen met je computer staat klaar in de code, maar het Supabase-project is nog niet ingevuld. Tot die tijd blijft alles op dit apparaat.": "Pairing with your computer is ready in the code, but the Supabase project has not been filled in. Until then everything stays on this device.",
+  "Gegevens": "Data",
+  "{n} pogingen op dit apparaat.": "{n} attempts on this device.",
+  "Je meldde {n} vraag als fout: {ids}. Die staan in je export.": "You reported {n} question as wrong: {ids}. They are in your export.",
+  "Je meldde {n} vragen als fout: {ids}. Die staan in je export.": "You reported {n} questions as wrong: {ids}. They are in your export.",
+  "Exporteer": "Export",
+  "Wis alles": "Erase everything",
+  "Over": "About",
+  "Inhoud versie {versie} · {vragen} vragen · {blokken} blokken": "Content version {versie} · {vragen} questions · {blokken} blocks",
+  "Controleer op een nieuwe versie": "Check for a new version",
+
+  /* ==== meldingen ==== */
+  "Deze had je al gemeld": "You already reported this one",
+  "Gemeld. Ik kijk ernaar bij de volgende ronde": "Reported. I will look at it in the next round",
+  "Gekopieerd": "Copied",
+  "Kopieren lukt niet, typ de code over": "Copying failed, type the code over",
+  "Gekoppeld, gegevens worden opgehaald": "Paired, fetching data",
+  "{n} pogingen opgehaald": "{n} attempts fetched",
+  "Gekoppeld": "Paired",
+  "Synchroniseren": "Syncing",
+  "Mislukt: {fout}": "Failed: {fout}",
+  "{n} nieuwe pogingen": "{n} new attempts",
+  "Alles is gelijk": "Everything is in step",
+  "Alle pogingen en instellingen op dit apparaat wissen?": "Erase all attempts and settings on this device?",
+  "Gewist": "Erased",
+  "Gecontroleerd. Een nieuwe versie laadt bij de volgende start.": "Checked. A new version loads on the next start.",
+  "Nieuwe versie klaar": "New version ready",
+  "Herlaad": "Reload",
+  "Er ging iets mis bij het laden": "Something went wrong while loading",
+  "Ververs de pagina. Als dat niet helpt: Instellingen, Wis alles.": "Refresh the page. If that does not help: Settings, Erase everything.",
+};
+
+export function t(s, vars) {
+  let out = TAAL === "en" && EN[s] !== undefined ? EN[s] : s;
+  if (vars) out = out.replace(/\{(\w+)\}/g, (m, k) => (vars[k] === undefined || vars[k] === null ? m : String(vars[k])));
+  return out;
+}
+
+/* for _tools/build.js: every key the dictionary knows */
+export const sleutels = () => Object.keys(EN);

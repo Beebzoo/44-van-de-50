@@ -10,6 +10,8 @@
      3 validate        the twelve gates (validate.js), stop on failure
      4 index           content/index.json: units, pages, bank files, exam date
      5 ids             content/ids.json; a vanished id needs a content/retired.json entry
+     5b english        js/taal.js against every t("...") in js/, and the reading
+                       overlays in content/units-en/ against the Dutch pages
      6 precache        sw-assets.js with CACHE = "44-" + hash of everything precached,
                        and the same hash stamped into sw.js so the browser sees a change
 
@@ -179,6 +181,66 @@ if (fs.existsSync(idsFile)) {
   if (gone.length) { console.error("build gestopt: deze vraag-ids zijn verdwenen zonder retired-vermelding: " + gone.join(", ")); process.exit(1); }
 }
 
+/* ==== 5b the English side ====
+
+   Two things can rot without anyone noticing. A new Dutch sentence in the
+   code that nobody added to the dictionary would silently stay Dutch for an
+   English reader, and a reading overlay can drift out of step with the page
+   it translates once the Dutch is edited. Neither stops the build: the app
+   falls back to Dutch in both cases, which is ugly but never broken. They
+   are printed, so they get fixed. */
+const engelsWaarschuwingen = [];
+{
+  /* every key the dictionary knows */
+  const taalSrc = fs.readFileSync(path.join(REPO, "js", "taal.js"), "utf8");
+  const bekend = new Set();
+  const dict = taalSrc.slice(taalSrc.indexOf("const EN = {"), taalSrc.indexOf("export function t("));
+  for (const m of dict.matchAll(/^\s*"((?:[^"\\]|\\.)*)":/gm)) bekend.add(m[1].replace(/\\"/g, '"'));
+
+  /* every string that goes through t() in the app */
+  const gevraagd = new Map();
+  for (const f of fs.readdirSync(path.join(REPO, "js")).filter(x => x.endsWith(".js") && x !== "taal.js")) {
+    const src = fs.readFileSync(path.join(REPO, "js", f), "utf8");
+    for (const m of src.matchAll(/\bt\(\s*"((?:[^"\\]|\\.)*)"/g)) gevraagd.set(m[1].replace(/\\"/g, '"'), f);
+  }
+  const mist = [...gevraagd.keys()].filter(k => !bekend.has(k));
+  if (mist.length) engelsWaarschuwingen.push(mist.length + " zinnen zonder Engelse vertaling in js/taal.js: " + mist.slice(0, 8).map(x => '"' + x.slice(0, 42) + '"').join(", ") + (mist.length > 8 ? " en " + (mist.length - 8) + " meer" : ""));
+
+  /* the reading overlays */
+  const enDir = path.join(CONTENT, "units-en");
+  const VERTAALBAAR = ["tekst", "vraag", "antwoord", "uitleg", "kop", "rijen", "items", "titel"];
+  const getallen = str => (String(str).match(/\d+(?:[.,]\d+)?/g) || []).map(x => x.replace(",", ".")).sort();
+  const codes = str => (String(str).match(/\[[A-L][0-9]{1,2}[a-z]?\]/g) || []).sort();
+  const plat = b => VERTAALBAAR.map(k => b[k] === undefined ? "" : Array.isArray(b[k]) ? JSON.stringify(b[k]) : String(b[k])).join(" ");
+  let vertaaldePaginas = 0, totaalPaginas = 0;
+  for (const u of units) {
+    totaalPaginas += u.paginas.length;
+    const f = path.join(enDir, u.id + ".json");
+    if (!fs.existsSync(f)) { engelsWaarschuwingen.push(u.id + " heeft geen Engelse leespagina's"); continue; }
+    const ov = readJson(f);
+    for (const pg of u.paginas) {
+      const po = ov.paginas && ov.paginas[pg.id];
+      if (!po || !po.body || !po.body.length) { engelsWaarschuwingen.push(pg.id + " is niet vertaald"); continue; }
+      if (po.body.length !== pg.body.length) { engelsWaarschuwingen.push(pg.id + " heeft " + po.body.length + " blokken tegen " + pg.body.length + " in het Nederlands"); continue; }
+      vertaaldePaginas++;
+      for (let i = 0; i < pg.body.length; i++) {
+        const nlB = pg.body[i], enB = po.body[i] || {};
+        for (const k of Object.keys(enB)) {
+          if (!VERTAALBAAR.includes(k)) { engelsWaarschuwingen.push(pg.id + " blok " + (i + 1) + ": veld " + k + " hoort niet in een vertaling"); continue; }
+          if (nlB[k] === undefined) engelsWaarschuwingen.push(pg.id + " blok " + (i + 1) + ": veld " + k + " bestaat niet in het Nederlands");
+        }
+        const a = getallen(plat(nlB)), b = getallen(plat(enB));
+        if (b.length && a.join(",") !== b.join(",")) engelsWaarschuwingen.push(pg.id + " blok " + (i + 1) + ": andere getallen (" + a.join(" ") + " tegen " + b.join(" ") + ")");
+        const ca = codes(plat(nlB)), cb = codes(plat(enB));
+        if (plat(enB) && ca.join(",") !== cb.join(",")) engelsWaarschuwingen.push(pg.id + " blok " + (i + 1) + ": andere bordcodes (" + ca.join(" ") + " tegen " + cb.join(" ") + ")");
+      }
+    }
+  }
+  console.log("Engels: " + vertaaldePaginas + " van de " + totaalPaginas + " leespagina's vertaald, " + engelsWaarschuwingen.length + " opmerkingen");
+  for (const w of engelsWaarschuwingen.slice(0, 12)) console.log("  " + w);
+  if (engelsWaarschuwingen.length > 12) console.log("  en nog " + (engelsWaarschuwingen.length - 12));
+}
+
 /* ==== 6 precache list and content hash ==== */
 const walk = (dir, out = []) => { for (const f of fs.readdirSync(dir)) { const p = path.join(dir, f); if (fs.statSync(p).isDirectory()) walk(p, out); else out.push(p); } return out; };
 const rel = p => path.relative(REPO, p).split(path.sep).join("/");
@@ -189,6 +251,7 @@ const precache = [
   "assets/signs.svg", "assets/dashboard.svg",
   "content/index.json", "content/signs/manifest.json",
   ...units.map(u => "content/units/" + u.id + ".json"),
+  ...units.map(u => "content/units-en/" + u.id + ".json").filter(f => fs.existsSync(path.join(REPO, f))),
   ...Object.values(bankFiles), ...Object.values(generatedFiles),
   ...(fs.existsSync(path.join(CONTENT, "scenes")) ? walk(path.join(CONTENT, "scenes")).map(rel) : []),
   "icons/icon-192.png", "icons/icon-512.png", "icons/icon-180.png", "icons/icon-maskable-512.png",

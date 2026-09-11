@@ -1,0 +1,402 @@
+{
+  "id": "U02",
+  "titel": "Traffic signs and the order of precedence",
+  "intro": "Traffic rules are the basic agreements, but in many places they are not enough. That is where traffic signs and signals (verkeerstekens) come in: there are three kinds, namely road signs (verkeersborden) with their sub-plates, markings on the road surface and traffic lights. In this unit you learn what those signs ask of you, for whom and where they apply, and what wins when a sign, a traffic light, a traffic rule and a police officer contradict each other. You also practise the signs of families A, C, D and H with the sign cards.",
+  "paginas": {
+    "U02-P01": {
+      "titel": "Road signs: where and for whom they apply",
+      "body": [
+        {
+          "tekst": "Road signs (verkeersborden) usually apply to the full width of the road. The exception is the signs with a ban on stopping or parking; those apply only to the side of the carriageway (rijbaan) where they are placed."
+        },
+        {
+          "tekst": "If the word 'zone' appears above a road sign, the sign applies to a whole area. If it is not immediately clear where the zone ends, the sign 'einde zone' (end of zone) stands at the end."
+        },
+        {
+          "tekst": "Road signs apply until the next junction, unless an end-of-restriction sign lifts them sooner. Zone signs and built-up area (bebouwde kom) signs apply until the end of the zone or of the built-up area."
+        },
+        {
+          "tekst": "If an ordinary road sign and a matrix sign (matrixbord) both give a maximum speed, the sign with the lowest speed applies. The speed on a matrix sign is always a maximum speed, even without a red ring. A temporary sign takes precedence over the fixed sign."
+        },
+        {
+          "tekst": "A matrix sign and a temporary sign respond to what is happening right now: a tailback, roadworks, an icy surface. The fixed sign does not know about that situation, so the lowest speed wins."
+        },
+        {
+          "tekst": "Above a motorway (autosnelweg), matrix signs show 50 without a red ring. This is the maximum speed here too: you may not go faster than 50 now."
+        },
+        {
+          "tekst": "Family A: a maximum speed or an advisory speed, and the end of it. [A3] is a maximum speed on a matrix sign."
+        },
+        {
+          "tekst": "Family C closes a road off; the symbol says for whom."
+        },
+        {
+          "tekst": "Family D: a compulsory direction of travel, or passing (voorbijgaan) the sign on one particular side."
+        },
+        {
+          "tekst": "Family H: you are entering the built-up area or you are leaving it."
+        },
+        {
+          "tekst": "A matrix sign without a red ring looks like information, but it is a maximum. And a zone sign with a parking ban applies to both sides of the road."
+        },
+        {
+          "kop": [
+            "Family",
+            "Shape and colour",
+            "What the sign does"
+          ],
+          "rijen": [
+            [
+              "A speed",
+              "Round, white with a red ring; advisory is a blue square",
+              "A maximum or an advisory speed, or the end of it"
+            ],
+            [
+              "C closure (geslotenverklaring)",
+              "Usually round, red ring, black symbol",
+              "Who may not enter the road"
+            ],
+            [
+              "D direction of travel",
+              "Round, blue, white arrows",
+              "Compulsory direction"
+            ],
+            [
+              "H built-up area",
+              "Rectangular, blue, white border, place name",
+              "Start or end of the built-up area"
+            ]
+          ]
+        },
+        {
+          "tekst": "Full width of the road, except stopping and parking. A zone is a whole area. The lowest speed wins."
+        },
+        {
+          "vraag": "A fixed sign gives 100, the matrix sign above you shows 70 without a red ring. How fast may you go?",
+          "antwoord": "70 at most.",
+          "uitleg": "The lowest speed applies, and a matrix sign is always a maximum, even without a red ring."
+        },
+        {
+          "vraag": "There is a parking ban on the left of the street and nothing on the right. May you park on the right?",
+          "antwoord": "Yes.",
+          "uitleg": "A ban like that applies only to the side of the carriageway where the sign stands."
+        }
+      ]
+    },
+    "U02-P02": {
+      "titel": "Sub-plates: when, for whom and where",
+      "body": [
+        {
+          "tekst": "A sub-plate (onderbord) can state: when the road sign applies, for whom the road sign applies, for whom the road sign does not apply, where the road sign applies, and extra information."
+        },
+        {
+          "tekst": "A sub-plate with only a distance on it, such as 500 m, means that the sign applies 500 metres further on. A sub-plate with arrows pointing up next to the distance means that the sign applies for the next 500 metres."
+        },
+        {
+          "tekst": "The main sign says what applies; the sub-plate says for whom, when and where. If you do not read the sub-plate, you apply a ban to yourself that does not concern you, or you ignore a ban that does apply to you."
+        },
+        {
+          "tekst": "A cobbled street has [C12] with the sub-plate 'uitgezonderd lijnbussen' (except scheduled buses). Only scheduled buses may go in. In a car you get stuck here."
+        },
+        {
+          "tekst": "On a motorway there is [A1] with 90 and below it 'bij nat wegdek' (on a wet road surface). On a dry surface this sign does not apply; the sub-plate says when the sign applies."
+        },
+        {
+          "tekst": "You often see these main signs with a sub-plate underneath that limits them to a group, a time or a distance."
+        },
+        {
+          "tekst": "'Uitgezonderd' (except) on a sub-plate means: the sign does not apply to this group. If there is only a symbol without 'uitgezonderd', the sign applies to that group alone. So read the whole sub-plate before you decide."
+        },
+        {
+          "kop": [
+            "Sub-plate",
+            "Meaning"
+          ],
+          "rijen": [
+            [
+              "alleen op maandag (Mondays only)",
+              "The sign applies on Mondays only (when)"
+            ],
+            [
+              "bij nat wegdek (on a wet road surface)",
+              "The sign applies only on a wet road surface (when)"
+            ],
+            [
+              "uitgezonderd lijnbussen (except scheduled buses)",
+              "The sign does not apply to scheduled buses (for whom it does not apply)"
+            ],
+            [
+              "pictogram of a car",
+              "The sign applies to cars only (for whom)"
+            ],
+            [
+              "500 m",
+              "The sign applies 500 metres further on (where)"
+            ],
+            [
+              "500 m between two arrows pointing up",
+              "The sign applies for the next 500 metres (where)"
+            ]
+          ]
+        },
+        {
+          "tekst": "The main sign says what, the sub-plate says for whom, when and where."
+        },
+        {
+          "vraag": "A sign has 'uitgezonderd lijnbussen' underneath it. You are driving a car. Does the sign apply to you?",
+          "antwoord": "Yes.",
+          "uitleg": "The sub-plate exempts scheduled buses only; for every other road user the main sign simply applies."
+        },
+        {
+          "vraag": "A warning sign has only '500 m' underneath it, without arrows. Does the danger start now, or further on?",
+          "antwoord": "Further on, in 500 metres.",
+          "uitleg": "Without arrows the distance means that the sign applies 500 metres further on. With arrows pointing up the sign applies for the next 500 metres."
+        }
+      ]
+    },
+    "U02-P03": {
+      "titel": "Markings on the road surface",
+      "body": [
+        {
+          "tekst": "You may not cross a solid line (doorgetrokken streep), with these exceptions: a solid line that marks the edge of the carriageway (rijbaan) may be crossed, for example to stop with a breakdown, and the line between a normal lane and a rush-hour lane (spitsstrook) may be crossed when the rush-hour lane is open."
+        },
+        {
+          "tekst": "You may cross a broken line (onderbroken streep) if you do not endanger safety and the flow of traffic. The exceptions are a broken line that marks a bus lane or a cycle lane (fietsstrook)."
+        },
+        {
+          "tekst": "If a broken line and a solid line lie next to each other, you may cross them only if the broken line is on your side."
+        },
+        {
+          "tekst": "At roadworks, temporary yellow lines are often put down. The normal, permanent white lines then do not apply. You may not drive on a nose marking (puntstuk) or a chevron area (verdrijvingsvlak), except in an open rush-hour lane. On a cross marking (kruis) you may not stop and you may not stand still (stilstaan)."
+        },
+        {
+          "tekst": "You recognise a bus roadway (busbaan) or a bus lane (busstrook) by the word 'bus' or 'lijnbus' on the road surface. You may not drive on it and you may not use it to get into position (voorsorteren). Crossing it is allowed, to turn off or to enter a driveway (inrit)."
+        },
+        {
+          "tekst": "A solid line lies where the road authority knows that changing lanes or overtaking (inhalen) is dangerous, for example because of poor visibility. The line bans it exactly where you cannot judge it for yourself."
+        },
+        {
+          "tekst": "In a village a badly parked car blocks your lane. The centre line is solid. To keep the traffic flowing you may still cross it, but only if it can be done safely."
+        },
+        {
+          "tekst": "If the rush-hour lane is open, shown by [C23-01], you may cross the solid line, the nose marking or the chevron area that leads to it."
+        },
+        {
+          "tekst": "Warning lines, broken lines with shorter gaps, are not a ban: they warn you of a bend or a slope. Yellow or orange lines over the white ones are temporary and take precedence."
+        },
+        {
+          "kop": [
+            "Marking on the road surface",
+            "What you must do"
+          ],
+          "rijen": [
+            [
+              "Solid line",
+              "Do not cross it, except the edge of the carriageway, an open rush-hour lane or a broken line on your side"
+            ],
+            [
+              "Broken line",
+              "Allowed if it can be done safely; watch out for bus lanes and cycle lanes"
+            ],
+            [
+              "Warning line",
+              "Broken, with short gaps: be alert to danger"
+            ],
+            [
+              "Yellow or orange lines",
+              "Temporary, they take precedence over white"
+            ],
+            [
+              "Nose marking and chevron area",
+              "Do not drive on them, except in an open rush-hour lane"
+            ],
+            [
+              "Cross marking",
+              "Do not stop and do not stand still"
+            ],
+            [
+              "Zigzag line",
+              "Warns you of a dangerous crossing point"
+            ],
+            [
+              "Bus roadway or bus lane",
+              "Do not drive on it and do not get into position on it; crossing it to turn off or to enter a driveway is allowed"
+            ]
+          ]
+        },
+        {
+          "tekst": "Solid is shut, broken is open, yellow beats white, and your side of the line is what counts."
+        },
+        {
+          "vraag": "Between your lane and the lane to your left there are two lines next to each other: solid on your side, broken on the other side. May you move over to the left?",
+          "antwoord": "No.",
+          "uitleg": "The solid line is on your side. The driver to your left has the broken line on his side and may move over to the right."
+        },
+        {
+          "vraag": "You have a breakdown and want to stop on the hard shoulder. The edge line is solid. May you cross it?",
+          "antwoord": "Yes.",
+          "uitleg": "A line that marks the edge of the carriageway may be crossed, for example to stop with a breakdown."
+        }
+      ]
+    },
+    "U02-P04": {
+      "titel": "Traffic lights",
+      "body": [
+        {
+          "tekst": "At a green light you must drive on, at a red light you must stop. You must stop at an amber light (geel licht) too, but if you have come so close to the amber light that stopping can no longer be done safely and responsibly, you may drive on."
+        },
+        {
+          "tekst": "Traffic lights that are out of operation usually show a flashing amber light, as a warning. The priority arrangement given by the signs applies there instead. Without signs and without markings on the road surface, the basic priority rule applies."
+        },
+        {
+          "tekst": "If you turn left at a green light without an arrow, you can expect oncoming traffic. You must let it go first (voor laten gaan). If you drive through a traffic light with a green arrow, you do not have to expect other oncoming traffic."
+        },
+        {
+          "tekst": "Traffic lights can have sub-plates (onderborden) underneath them saying that the red light does not apply to cyclists and (light) moped riders who want to turn right. 'Rechtsaf voor fietsers vrij' (right turn free for cyclists) applies only to cyclists, light moped riders (snorfietsers) and disability vehicles."
+        },
+        {
+          "tekst": "Lane signals: a green arrow, you may follow the lane; a white arrow, an advance warning of a red cross; a red cross, you may not follow the lane; BUS, buses and scheduled buses; LIJNBUS, scheduled buses only. Tram lights and bus lights do not apply to you as a car driver."
+        },
+        {
+          "tekst": "Two-colour traffic lights have amber and red only. You often find them at level crossings (overweg), at bridges, at pedestrian crossings and at places where trams cross the carriageway. In normal conditions the light is off; if you have to stop, the amber light comes on first and the red one after it."
+        },
+        {
+          "tekst": "A green light without an arrow counts when you turn right as well: the cyclists going straight on along the cycle path (fietspad) beside you usually have green too, and you let them go first. You must also let pedestrians going straight on go first."
+        },
+        {
+          "tekst": "If you turn left, always allow for cyclists, light moped riders and moped riders (bromfietsers) from the oncoming direction who may turn into your road, even though their light is red. After all, you cannot read their sub-plates."
+        },
+        {
+          "tekst": "A round green light governs your direction only; the oncoming driver can have green at the same time. With a green arrow, the light for the conflicting traffic is on red."
+        },
+        {
+          "tekst": "At a level crossing the white flashing light is on: no train is coming and you can drive on. At a red flashing light you must stop, the same as at a bridge with a red light."
+        },
+        {
+          "tekst": "A flashing amber light does not give you priority; it only warns you. If the traffic lights themselves flash amber, they are out of operation: look at the signs and the shark's teeth (haaientanden), and without signs or markings the basic priority rule applies."
+        },
+        {
+          "kop": [
+            "Light",
+            "Meaning"
+          ],
+          "rijen": [
+            [
+              "Green",
+              "Drive on"
+            ],
+            [
+              "Amber",
+              "Stop, unless that can no longer be done safely"
+            ],
+            [
+              "Red",
+              "Stop"
+            ],
+            [
+              "Flashing amber light",
+              "A warning; if the traffic lights themselves flash amber, they are out of operation and the signs and the rules apply"
+            ],
+            [
+              "Green arrow",
+              "No conflicting traffic to expect"
+            ],
+            [
+              "White flashing light at a level crossing",
+              "No train, drive on"
+            ],
+            [
+              "Red flashing light at a level crossing or a bridge",
+              "Stop"
+            ],
+            [
+              "Two-colour light with amber and red that is off",
+              "The normal state: drive on"
+            ]
+          ]
+        },
+        {
+          "tekst": "Amber means stop if you still can. Green without an arrow: let the oncoming driver go first. Red cross: not that lane."
+        },
+        {
+          "vraag": "The traffic light is flashing amber. Underneath it is a 'verleen voorrang' (give way) sign, with shark's teeth on the road surface. What do you do?",
+          "antwoord": "You give way to the crossing traffic.",
+          "uitleg": "The light is out of operation; the priority arrangement given by the signs applies then."
+        },
+        {
+          "vraag": "Next to your red traffic light, the special bus light shows that the bus may go. May you go too?",
+          "antwoord": "No.",
+          "uitleg": "Tram lights and bus lights do not apply to you as a car driver. Your light is red, so you wait."
+        }
+      ]
+    },
+    "U02-P05": {
+      "titel": "Instructions and the order of precedence",
+      "body": [
+        {
+          "tekst": "Signs and markings take precedence over traffic rules. Traffic lights take precedence over signs and markings that govern priority. Instructions (aanwijzingen) in turn take precedence over traffic signs and traffic rules."
+        },
+        {
+          "tekst": "You must follow instructions from authorised officials who are recognisable as such. These are mainly police officers, military police officers or customs officers. They can give instructions by word of mouth or with hand or arm signals, with a red lamp, or with the text STOP, STOP POLITIE or DOUANE on a display."
+        },
+        {
+          "tekst": "Vehicles belonging to these officials are exempt from many traffic rules and traffic signs. This exemption applies even when they are driving without flashing lights and siren."
+        },
+        {
+          "tekst": "Instructions can also be given by authorised and recognisable traffic controllers (verkeersregelaars), by school crossing patrols (verkeersbrigadiers) who help children cross, and by an attendant of a rail vehicle. A stop signal like that can also be given with a red flag or a red lamp."
+        },
+        {
+          "tekst": "A police officer or a traffic controller is there on the spot and sees what a sign or a light cannot see: an accident, a road closure, a tailback. Their instruction fits the situation of that moment, which is why it beats everything that is fixed."
+        },
+        {
+          "tekst": "You are driving on a priority road (voorrangsweg) and you approach a red traffic light. A police officer gives you the instruction to drive through the red light. You follow the instruction: it takes precedence over the red light, and the red light already took precedence over your priority road."
+        },
+        {
+          "tekst": "A customs officer may give you instructions anywhere in the country, not just at the border. And a police car may drive faster or park where parking is banned without flashing lights and siren too, if that is necessary."
+        },
+        {
+          "kop": [
+            "Rank",
+            "What",
+            "Example"
+          ],
+          "rijen": [
+            [
+              "1",
+              "Instructions",
+              "An officer lets you drive through a red light"
+            ],
+            [
+              "2",
+              "Traffic lights",
+              "A red light on a priority road: stop"
+            ],
+            [
+              "3",
+              "Road signs and markings on the road surface",
+              "Priority road: traffic from the side roads gives way"
+            ],
+            [
+              "4",
+              "Traffic rules",
+              "At an equal-priority junction (gelijkwaardig kruispunt), traffic from the right goes first"
+            ]
+          ]
+        },
+        {
+          "tekst": "Instruction over light, light over sign, sign over rule."
+        },
+        {
+          "vraag": "At roadworks a traffic controller gives you a stop signal while your traffic light is green. What do you do?",
+          "antwoord": "You stop.",
+          "uitleg": "An instruction from an authorised and recognisable traffic controller takes precedence over the traffic light."
+        },
+        {
+          "vraag": "An attendant of a tram waves a red flag. Do you have to stop?",
+          "antwoord": "Yes.",
+          "uitleg": "A stop signal from an attendant of a rail vehicle can also be given with a red flag or a red lamp."
+        }
+      ]
+    }
+  }
+}

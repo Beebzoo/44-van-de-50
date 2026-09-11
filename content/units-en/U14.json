@@ -1,0 +1,375 @@
+{
+  "id": "U14",
+  "titel": "Vehicle, load, trailer and the environment",
+  "intro": "This unit is about the car itself and about what you carry with it. You learn which requirements your vehicle has to meet, when it gets tested, what you check before you set off and what the lights on your dashboard are telling you. Then comes the load: how long, how wide and how high it may be, what may stick out and when a marker board goes with it. Finally the trailer with its masses and licences, plus the environment: economical driving, the right fuel and the low-emission zone. This is a unit with a lot of numbers in it, so really learn those limits by heart.",
+  "paginas": {
+    "U14-P01": {
+      "titel": "Vehicle requirements: what your car has to meet",
+      "body": [
+        {
+          "tekst": "Your car has to meet a whole series of requirements (voertuigeisen). If something is not in order, you run a bigger risk of an accident and you risk a fine. It is also forbidden to drive a car that is technically in an inadequate state of maintenance."
+        },
+        {
+          "tekst": "Below a height of 2 metres, a car may not have sharp parts that could be dangerous to other road users (weggebruikers). The wheels must be properly shielded and all parts must be firmly attached."
+        },
+        {
+          "tekst": "Your car runs on pneumatic tyres (luchtbanden) with at least 1.6 mm of tread in the main grooves. The tyres on one axle must have the same size marking, except when you are using an emergency or spare wheel."
+        },
+        {
+          "tekst": "The service brake (bedrijfsrem), so your foot brake, must work on all four wheels. The parking brake (parkeerrem), so your handbrake, must work on at least two wheels."
+        },
+        {
+          "tekst": "The windscreen (voorruit) and the front side windows must be free of damage and of anything that blocks your view, with working wipers, washers and heating for de-icing and demisting. Film on those windows must let through at least 55% of the light."
+        },
+        {
+          "tekst": "You need an interior mirror (binnenspiegel), a left door mirror and a right door mirror, all three without cracks. Equivalent camera monitor systems are allowed too."
+        },
+        {
+          "tekst": "All seats lock in every position and all have a seat belt (gordel). You also need a speedometer (snelheidsmeter) that can be read clearly at night, and a horn in good working order with a fixed pitch."
+        },
+        {
+          "kop": [
+            "Where",
+            "Compulsory lighting"
+          ],
+          "rijen": [
+            [
+              "Front",
+              "2 sidelights, 2 dipped headlights, 2 main-beam headlights, 2 indicators and hazard warning lights"
+            ],
+            [
+              "Rear",
+              "2 tail lights, 3 brake lights, 2 indicators, hazard warning lights, 1 rear fog light, 1 reversing light, number plate lighting and 2 non-triangular retroreflectors"
+            ],
+            [
+              "Each side",
+              "1 indicator, amber"
+            ]
+          ]
+        },
+        {
+          "tekst": "If the fog lights (mistlichten) or the rear fog lights are on, you must be able to see that from a warning light on the dashboard."
+        },
+        {
+          "tekst": "A fog light at the front is not compulsory, a rear fog light is. And fitting extra lighting is often not allowed, so find out properly beforehand whether your extra lamps are permitted."
+        },
+        {
+          "tekst": "A fire extinguisher, a first aid kit and a warning triangle (gevarendriehoek) are not required by law. They are useful to have with you though: if you come to a stop in a dangerous spot and your hazard lights do not work, you have to put out a warning triangle."
+        },
+        {
+          "tekst": "1.6 mm of tread, 55% light transmission, four wheels for the foot brake and two wheels for the handbrake."
+        }
+      ]
+    },
+    "U14-P02": {
+      "titel": "The APK test and your check before the drive",
+      "body": [
+        {
+          "tekst": "Cars, vans, lorries and buses have to be tested regularly. In that general periodic test (algemene periodieke keuring, APK) your vehicle passes if it meets the requirements for road safety and the environment."
+        },
+        {
+          "tekst": "Six weeks before the expiry date the RDW sends you a reminder letter. Once it has passed, the test certificate (keuringsbewijs) is valid for 1 or 2 years, and you do not have to be able to show it on the road: the police look it up in a system."
+        },
+        {
+          "tekst": "Both the owner or keeper and the driver (bestuurder) are responsible, and so both are punishable if the car is driven without a valid test. The same goes for driving a vehicle that is technically not in order."
+        },
+        {
+          "kop": [
+            "When",
+            "What you check"
+          ],
+          "rijen": [
+            [
+              "Before the drive, under the bonnet",
+              "Oil level, coolant, brake fluid, screen wash and leaks under the car"
+            ],
+            [
+              "Before the drive, walking round",
+              "Mirrors and windows clean and undamaged, lights clean and working, tyres and tyre pressure"
+            ],
+            [
+              "Before the drive, in your seat",
+              "The setting of your seat, head restraint, steering wheel and mirrors, and your seat belt on"
+            ],
+            [
+              "During the drive",
+              "The gauges and lights on your dashboard, and odd noises, vibrations and smells"
+            ]
+          ]
+        },
+        {
+          "tekst": "Pneumatic tyres slowly go down. Check the pressure (bandenspanning) once a month, preferably at the start of the drive while the tyres are still cold. Pressure that is too low gives poorer handling and more fuel consumption."
+        },
+        {
+          "tekst": "Tyres filled with nitrogen stay at pressure much longer, because nitrogen does not escape through the pores. You recognise them by a green valve cap."
+        },
+        {
+          "tekst": "Make sure your windows and mirrors are clean before you set off. If your windscreen gets dirty on the way, for instance while overtaking (inhalen) a lorry, you have to be able to sort that out straight away with your washer."
+        },
+        {
+          "items": [
+            "Park in a safe, level, paved spot",
+            "Switch on your hazard lights and put on a high-visibility jacket",
+            "Put out the warning triangle if needed",
+            "Loosen the wheel nuts by a turn and jack the car up",
+            "Take the flat wheel off and fit the spare wheel",
+            "Tighten the wheel nuts by hand, lower the car and only then do them up properly"
+          ]
+        },
+        {
+          "tekst": "Do not count on a blown bulb always showing up as a message on your dashboard. That is why you check your lights, brake lights and indicators yourself every day."
+        },
+        {
+          "tekst": "Tyre pressure once a month, lighting every day."
+        }
+      ]
+    },
+    "U14-P03": {
+      "titel": "The dashboard and the driver assistance systems",
+      "body": [
+        {
+          "tekst": "The middle gauge is the speedometer (snelheidsmeter) and on the left sits the rev counter (toerenteller), which shows how many turns the crankshaft makes per minute. For the exam it is mainly the warning lights (controlelampjes) that count, and there a simple colour rule gets you through almost every question."
+        },
+        {
+          "tekst": "If a red warning light comes on, there is a serious fault. Stop in a safe place and switch the engine off so the car can be repaired."
+        },
+        {
+          "tekst": "With a yellow warning light you do not have to stop immediately. You can drive on to your dealer, for instance, but do not keep driving any longer than is strictly necessary."
+        },
+        {
+          "tekst": "These are the six lights the book points you to. The colour is half the answer: red means stop now, yellow means have it looked at."
+        },
+        {
+          "kop": [
+            "Light",
+            "Colour",
+            "What it means"
+          ],
+          "rijen": [
+            [
+              "Oil can",
+              "Red",
+              "The oil pressure is too low: switch the engine off at once and check the oil level"
+            ],
+            [
+              "Thermometer in wavy water",
+              "Red",
+              "The coolant is too hot: switch the engine off at once and check the level"
+            ],
+            [
+              "Battery with plus and minus",
+              "Red",
+              "The battery is not being charged, the alternator or the V-belt is broken"
+            ],
+            [
+              "Exclamation mark in a circle",
+              "Red",
+              "There is a problem with the braking system"
+            ],
+            [
+              "Engine block",
+              "Yellow",
+              "A fault in the engine management system, with consequences for the emissions"
+            ],
+            [
+              "Petrol pump",
+              "Yellow",
+              "The fuel tank is nearly empty"
+            ]
+          ]
+        },
+        {
+          "tekst": "If the coolant light and the battery light come on at the same time, the V-belt has probably snapped. It drives both the coolant pump and the alternator, so your engine will overheat."
+        },
+        {
+          "tekst": "The most important rule with driver assistance systems (rijhulpsystemen) is that you as the driver (bestuurder) are always responsible for the driving task yourself. The systems support you, they do not take over the driving. So you also have to know the limits and shortcomings of each system."
+        },
+        {
+          "items": [
+            "Emergency braking system (AEB): warns you if you keep too little distance and brakes by itself if you do not act",
+            "Speed assistance (ISA): recognises speed limits and warns or brakes if you drive too fast",
+            "Blind spot information system (BSM): warns you through your door mirror about vehicles in your blind spot (dode hoek)"
+          ]
+        },
+        {
+          "tekst": "The risk of driver assistance systems is that you adjust your behaviour without noticing, for instance driving closer to the car in front because the car will brake anyway. Also make sure your sensors and cameras are clean, because dirt, snow or ice reduces how well they work."
+        },
+        {
+          "tekst": "Red means stop, yellow means have it looked at, and the driver always stays responsible."
+        }
+      ]
+    },
+    "U14-P04": {
+      "titel": "Load: height, width and what sticks out",
+      "body": [
+        {
+          "tekst": "A car may be at most 12 metres long, at most 2.55 metres wide and at most 4 metres high, the last two including the load (lading). The same three dimensions apply to a trailer (aanhangwagen)."
+        },
+        {
+          "tekst": "A combination of car and trailer may be at most 18 metres long, even though each part on its own may be 12 metres."
+        },
+        {
+          "tekst": "A load on a roof rack (imperiaal) or on a carrier on your towbar may stick out at most 20 cm beyond your car on each side. Do not go over the permitted roof load, and only use a carrier for what it is meant for."
+        },
+        {
+          "kop": [
+            "Situation",
+            "Front",
+            "Rear"
+          ],
+          "rijen": [
+            [
+              "Divisible load on the car",
+              "Sticking out is forbidden",
+              "Max. 1 metre behind the car and max. 5 metres behind the rear axle"
+            ],
+            [
+              "Indivisible load on the car",
+              "Max. 1 metre in front of the car",
+              "Max. 1 metre behind the car"
+            ],
+            [
+              "Divisible load on the trailer",
+              "Sticking out is forbidden",
+              "Max. 1 metre behind the trailer and max. 5 metres behind the rear axle"
+            ],
+            [
+              "Indivisible load on the trailer",
+              "Sticking out is forbidden",
+              "Max. half the length of the trailer, up to max. 5 metres behind the rear axle"
+            ]
+          ]
+        },
+        {
+          "tekst": "On a trailer, a divisible load may stick out at the sides up to a total width of 2.55 metres. An indivisible load there may be at most 3 metres wide."
+        },
+        {
+          "tekst": "On a car, marker boards (markeringsborden) for a protruding load are not compulsory. On a trailer they are: if the load sticks out more than 10 cm at a side, or more than 1 metre at the rear."
+        },
+        {
+          "tekst": "A marker board for a protruding load has diagonal red and white stripes. You fit width marking at the front as well as at the rear, and at night the boards have to be lit."
+        },
+        {
+          "tekst": "Spread your load well. If your car hangs backwards, your headlights shine upwards and you dazzle oncoming drivers. Secure the load too, so that it stays in place when you brake or swerve."
+        },
+        {
+          "tekst": "A divisible load may never stick out at the front; an indivisible one may do so on the car, up to 1 metre."
+        }
+      ]
+    },
+    "U14-P05": {
+      "titel": "The trailer and your driving licence",
+      "body": [
+        {
+          "tekst": "The law calls a trailer (aanhangwagen) a vehicle that is clearly meant to be moved along by a motor vehicle. Semi-trailers, caravans and a car being towed fall under it too."
+        },
+        {
+          "tekst": "If a trailer has no registration certificate (kentekenbewijs), the permitted maximum mass (toegestane maximummassa) is 750 kg. Up to and including 750 kg it carries a white number plate with the registration of the towing car; above 750 kg the trailer has its own registration certificate and a yellow plate with its own registration."
+        },
+        {
+          "tekst": "A trailer up to and including 1,500 kg has to have a breakaway brake (losbreekreminrichting) or a safety coupling (hulpkoppeling). Above 1,500 kg a breakaway brake is compulsory."
+        },
+        {
+          "tekst": "A braking system is not compulsory if the total mass of the trailer is less than 750 kg and less than 50% of the kerb weight (rijklaargewicht) of the towing vehicle. In all other cases it is compulsory."
+        },
+        {
+          "tekst": "The load under the coupling of a centre-axle trailer (middenasaanhangwagen) up to 750 kg has to point downwards and may be at most 50 kg. If the trailer weighs more than 750 kg, that load may not be less than 1% of the permitted maximum mass."
+        },
+        {
+          "kop": [
+            "Trailer",
+            "Combination",
+            "Licence"
+          ],
+          "rijen": [
+            [
+              "Up to and including 750 kg",
+              "No extra requirement",
+              "B"
+            ],
+            [
+              "More than 750 kg",
+              "Up to and including 3,500 kg",
+              "B"
+            ],
+            [
+              "More than 750 kg",
+              "Between 3,500 and 4,250 kg",
+              "B with code 96, or BE"
+            ],
+            [
+              "More than 750 kg",
+              "More than 4,250 kg, up to 7,000 kg",
+              "BE"
+            ]
+          ]
+        },
+        {
+          "tekst": "You may not carry people on or in a trailer or caravan. If the trailer gets in the way of your view to the rear, you have to fit extra door mirrors on your car."
+        },
+        {
+          "tekst": "Every trailer and semi-trailer has two triangular retroreflectors at the rear. If you see those from behind, you know you are coming up on a vehicle combination. That is useful to know before you start overtaking (inhalen)."
+        },
+        {
+          "tekst": "If this sign stands at a road, that road is closed to motor vehicles with a trailer. You see it at a narrow street or a tight bridge, for instance, where you cannot get through with a combination."
+        },
+        {
+          "tekst": "With a BE licence you may also drive where B with code 96 is needed, but it does not work the other way round. The practical tests for both are the same, so almost everyone goes for BE."
+        },
+        {
+          "tekst": "750 kg is the first limit, 3,500 kg the second and 4,250 kg the limit above which only BE still counts."
+        }
+      ]
+    },
+    "U14-P06": {
+      "titel": "Environment: economical driving, refuelling and the low-emission zone",
+      "body": [
+        {
+          "tekst": "The emissions from combustion engines add to global warming and to an unhealthy living environment. While driving on electricity or hydrogen, no harmful substances are released."
+        },
+        {
+          "tekst": "Cars are required to be fitted with a catalytic converter (katalysator). It turns 90% of the harmful exhaust gases into harmless substances, but only works properly once the engine is up to temperature, after 10 to 15 minutes of driving."
+        },
+        {
+          "items": [
+            "Drive off gently straight after starting, in winter too",
+            "Use the rev counter to change up in good time",
+            "Keep your distance and look ahead, so that you do not have to brake all the time",
+            "Let your car roll out in gear when you have to stop",
+            "Switch the engine off if you have to stand still for longer than 1 minute",
+            "Use your air conditioning sparingly: with the air conditioning on, consumption can be up to 15% higher"
+          ]
+        },
+        {
+          "tekst": "Make sure you know which fuel belongs in your car; it is on the fuel flap or in the handbook. On the nozzle there is a code that tells you the type of fuel."
+        },
+        {
+          "tekst": "If you have put in the wrong fuel anyway, do not start the engine. Parts of your engine and fuel system can be badly damaged. Call in expert help to have your fuel system drained."
+        },
+        {
+          "tekst": "Noise nuisance is a form of pollution too. Fitting a noisy exhaust, playing music at full blast, sounding your horn unnecessarily, playing with your accelerator and pulling away with squealing tyres are therefore forbidden."
+        },
+        {
+          "tekst": "A low-emission zone (milieuzone) is an area that is closed to cars, vans, lorries or buses with a diesel engine. A zero-emission zone (nul-emissiezone) is closed to all sorts of vans and lorries, except for zero-emission vehicles running on electricity or hydrogen."
+        },
+        {
+          "tekst": "This round sign stands in a ZONE frame at the start of a low-emission zone or a zero-emission zone. Sub-plates (onderborden) tell you which vehicles and which emission classes the zone applies to; your own emission class is on the registration certificate."
+        },
+        {
+          "items": [
+            "The rolling resistance and the fuel consumption",
+            "The grip on a wet road surface and the braking distance (remweg)",
+            "The noise produced at 80 km/h",
+            "The performance in heavy snow or ice"
+          ]
+        },
+        {
+          "tekst": "Think about cleaning and maintenance too. Make sure no polluting or dangerous substances end up in the soil or the drains, and take old parts, batteries and tyres to the right collection point. In many municipalities washing your car on the public road is forbidden, by the way."
+        },
+        {
+          "tekst": "A low-emission zone looks at diesel and emission class, a zero-emission zone only lets zero-emission vehicles in."
+        }
+      ]
+    }
+  }
+}

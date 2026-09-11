@@ -1,0 +1,398 @@
+{
+  "id": "U11",
+  "titel": "Lights, signals and weather",
+  "intro": "This unit is about seeing and being seen. First, how you tell others what you are going to do: the indicator (richtingaanwijzer), your brake lights, your hazard warning lights (alarmlichten) and the audible or light signal. Then which light has to be on and which one may be on, because that is where the numbers sit that the exam likes to ask about. And finally what rain, wind, fog and snow do to your car. Pay particular attention to the difference between the front fog light (mistlicht aan de voorzijde) and the rear fog light (mistachterlicht): those are two different lamps with two different rules, and that is where most candidates come unstuck.",
+  "paginas": {
+    "U11-P01": {
+      "titel": "Indicating and signals",
+      "body": [
+        {
+          "tekst": "In traffic you have to communicate clearly, so that other road users (weggebruikers) know what you are going to do: brake, turn off or change lane (rijstrook)."
+        },
+        {
+          "tekst": "You must indicate (richting aangeven) for every significant sideways movement, such as moving off, merging (invoegen), overtaking (inhalen) and turning off."
+        },
+        {
+          "tekst": "Indicate in good time but not too early, and switch the indicator off again straight after you have completed the movement or manoeuvre."
+        },
+        {
+          "tekst": "Indicating in good time means: at a moment that lets other traffic know well in advance that you intend to turn off, so they can adjust their own driving to it."
+        },
+        {
+          "kop": [
+            "Where you are driving",
+            "Indicate at roughly"
+          ],
+          "rijen": [
+            [
+              "motorway",
+              "300 metres before the exit lane"
+            ],
+            [
+              "outside built-up areas (bebouwde kom), 80 km/h",
+              "200 metres before the junction"
+            ],
+            [
+              "inside built-up areas, 50 km/h",
+              "100 metres before the junction"
+            ],
+            [
+              "residential area",
+              "50 metres before the junction"
+            ]
+          ]
+        },
+        {
+          "tekst": "An indicator is not a magic spell but a message. Indicating too late gives the rest of the traffic a fright, indicating too early tells a story that is not true yet. Both cost other people their thinking time, and that time is exactly what you were trying to give them."
+        },
+        {
+          "tekst": "You are going straight on here, but your indicator is already on for a turning further along. The driver (bestuurder) in the side road sees that flashing light and may think you are turning into his street."
+        },
+        {
+          "tekst": "The distances in the table only apply where no confusion can arise. If there is another side road between you and your turning, pick a later moment to indicate."
+        },
+        {
+          "tekst": "You can use your brake lights to make it clear to the traffic behind you that you are about to slow down. Touch the brake pedal very lightly before you actually brake."
+        },
+        {
+          "items": [
+            "you are stopped with a breakdown somewhere you are not allowed to stop, or in a dangerous place",
+            "you are stopped in the dark while the compulsory lights are not working",
+            "you are stopped somewhere you are hard to see and your vehicle forms an obstacle",
+            "you come upon a traffic jam"
+          ]
+        },
+        {
+          "tekst": "If another vehicle has its hazard warning lights (alarmlichten) on, you have to read that as a warning and pay extra attention."
+        },
+        {
+          "tekst": "You may only give an audible signal or a light signal to avert immediate danger. Unnecessary signals, such as sounding your horn to greet someone you know, are forbidden."
+        },
+        {
+          "tekst": "To avert immediate danger you may give a signal both inside and outside built-up areas."
+        },
+        {
+          "tekst": "You see a vehicle with a yellow flashing light further along. Some vehicles are allowed to use such a yellow rotating, flashing or blinking light as a warning: think of abnormal loads, recovery work or an accident, roadworks and gritting. It is not an emergency vehicle with priority (voorrangsvoertuig), but it is a reason to take your speed off early."
+        },
+        {
+          "tekst": "Indicate in good time and switch it off again straight away. Sounding your horn and flashing your lights is only allowed against immediate danger."
+        },
+        {
+          "vraag": "Outside built-up areas, at what distance do you switch on your indicator when you want to turn off?",
+          "antwoord": "About 200 metres before the junction.",
+          "uitleg": "Outside built-up areas you are driving faster, so the traffic around you needs that distance to take in what you are planning."
+        },
+        {
+          "vraag": "An oncoming driver flashes his lights to thank you. Is that allowed?",
+          "antwoord": "No.",
+          "uitleg": "A light signal or an audible signal may only be used to avert immediate danger, not to thank or greet someone."
+        }
+      ]
+    },
+    "U11-P02": {
+      "titel": "Which light, when",
+      "body": [
+        {
+          "tekst": "Your lights make sure that you can see and that you are visible to others. Even with lights that come on automatically, you are still the one who keeps an eye on whether that happens at the right moment. If need be you switch them on by hand."
+        },
+        {
+          "tekst": "You must switch on your dipped headlights (dimlicht) at night, and during the day when visibility is poor, so less than 200 metres."
+        },
+        {
+          "tekst": "New cars must have daytime running lights (dagrijlicht) at the front. Those have to come on automatically when the engine is started, and they have to switch off as soon as you switch on your dipped headlights, main beam (groot licht) or fog lights."
+        },
+        {
+          "tekst": "Daytime running lights are no replacement for your dipped headlights. On many cars the rear lights do not come on when you drive on daytime running lights, so from behind you are a grey smudge."
+        },
+        {
+          "tekst": "You must keep your sidelights (stadslicht) and rear light on when you are stopped at night, or during the day in poor visibility, on the carriageway (rijbaan) outside built-up areas (bebouwde kom), or in a parking bay, parking strip, emergency lay-by or hard shoulder along an expressway (\"autoweg\") or motorway. That obligation also applies to any trailer (aanhangwagen) or caravan, whether it is still attached to your car or uncoupled."
+        },
+        {
+          "tekst": "You are not allowed to drive off with only your sidelights and rear light on."
+        },
+        {
+          "tekst": "Inside built-up areas it can be sensible to switch on your sidelights and rear light when you are stopped in a dangerous or obstructive place, but there it is not compulsory. You can use your parking lights for this instead."
+        },
+        {
+          "kop": [
+            "Light",
+            "When"
+          ],
+          "rijen": [
+            [
+              "dipped headlights",
+              "compulsory at night and during the day when visibility is less than 200 metres"
+            ],
+            [
+              "daytime running lights",
+              "allowed during the day when dipped headlights are not compulsory"
+            ],
+            [
+              "sidelights",
+              "compulsory while stopped on the carriageway outside built-up areas at night or in poor visibility, you may not drive on them"
+            ],
+            [
+              "main beam",
+              "only at night, when dipped headlights are not enough"
+            ]
+          ]
+        },
+        {
+          "tekst": "It is a bright day and your car has no daytime running lights. You are driving with a low sun behind you, or through dense woodland. Even then it is sensible to switch on your dipped headlights, because otherwise oncoming drivers find it hard to see you coming."
+        },
+        {
+          "tekst": "If you meet a lot of vehicles with dipped headlights during the day, expect rain, fog or snow further along and switch your own dipped headlights on as well."
+        },
+        {
+          "tekst": "Main beam, dipped headlights, daytime running lights and sidelights may only give out white or yellow light. So fitting blue bulbs because you think they look nicer is not allowed."
+        },
+        {
+          "tekst": "Dipped headlights at night and when visibility is under 200 metres. Sidelights are for standing still, not for driving."
+        },
+        {
+          "vraag": "You are stopped with a breakdown on the hard shoulder of the motorway. It is night. Which light has to be on?",
+          "antwoord": "Your sidelights and rear light.",
+          "uitleg": "At night or in poor visibility your sidelights have to be on when you are stopped on the hard shoulder along an expressway or motorway."
+        },
+        {
+          "vraag": "May you drive during the day on daytime running lights alone if it is raining hard and you can only see 150 metres ahead?",
+          "antwoord": "No, dipped headlights are compulsory then.",
+          "uitleg": "Under 200 metres counts as poor visibility, and then your dipped headlights have to be on. The daytime running lights switch off automatically."
+        }
+      ]
+    },
+    "U11-P03": {
+      "titel": "Main beam and driving in the dark",
+      "body": [
+        {
+          "tekst": "Switch on the main beam (groot licht) when your dipped headlights (dimlicht) do not let you see the road situation properly."
+        },
+        {
+          "tekst": "Using main beam is forbidden during the day, when another road user is coming towards you, a pedestrian included, and when you are following another vehicle at close range, a bicycle or moped included."
+        },
+        {
+          "tekst": "Dazzle works both ways. The oncoming driver gets your beam straight in the eyes, and the driver in front of you gets it back through his mirrors. Either way there is someone on the road beside you who sees nothing for a few seconds, and that is exactly the time in which something happens."
+        },
+        {
+          "tekst": "Dip in good time, so before the oncoming driver is in your beam. Even with a system that switches main beam on and off automatically, you stay responsible yourself for dipping in time."
+        },
+        {
+          "tekst": "You are driving on main beam along a dark road and an oncoming driver flashes his lights at you. Then you have probably forgotten to dip your main beam. Do it now."
+        },
+        {
+          "tekst": "If you are dazzled yourself by an oncoming driver who has forgotten to dip, you may flash your main beam at him. In the meantime do not focus on his headlights, but try to look past them."
+        },
+        {
+          "tekst": "Behind a horse rider you are allowed to use main beam. A rider has no mirrors and so is not dazzled."
+        },
+        {
+          "items": [
+            "in the dark you see everything a fraction later, even with good lights, so obstacles and speed humps are an extra risk",
+            "be extra alert to pedestrians, joggers for instance: they carry no lights and only become visible late",
+            "if you turn from a well-lit road onto a dark road, your eyes have to adjust and you see less well for a while",
+            "on a wet road surface the light from your headlights reflects and the road markings and the signs on the road surface dissolve into that reflection"
+          ]
+        },
+        {
+          "tekst": "Main beam is for an empty dark road. See someone, and you dip, a pedestrian included."
+        },
+        {
+          "vraag": "You are driving at night on main beam and a pedestrian is walking towards you. Do you have to dip?",
+          "antwoord": "Yes.",
+          "uitleg": "Main beam is forbidden when another road user is coming towards you, and a pedestrian is a road user too."
+        },
+        {
+          "vraag": "You turn from a lit street onto a dark road. Why do you have to be extra careful then?",
+          "antwoord": "Your eyes have to adjust to the dark.",
+          "uitleg": "While your eyes are adjusting you see less well for a while than you are used to."
+        }
+      ]
+    },
+    "U11-P04": {
+      "titel": "Rain, aquaplaning and crosswind",
+      "body": [
+        {
+          "tekst": "In rain you see less well, the road surface is more slippery and your braking distance (remweg) gets longer. Keep more distance and adjust your speed, otherwise your stopping distance (stopafstand) gets too long and the risk of aquaplaning goes up."
+        },
+        {
+          "tekst": "Always switch on your dipped headlights (dimlicht) in rain. In heavy rain that seriously obstructs visibility, you may also switch on the front fog light (mistlicht aan de voorzijde)."
+        },
+        {
+          "tekst": "You may not switch on the rear fog light (mistachterlicht) in rain, not even during a downpour. The bright red light and its reflection are a nuisance to the traffic behind you."
+        },
+        {
+          "tekst": "If there is a lot of water on the road, aquaplaning can occur: your tyres lose their grip on the road surface and you can no longer steer or brake. You notice it from a sudden free play in the steering, or because the steering suddenly goes very light."
+        },
+        {
+          "tekst": "In aquaplaning you come off the accelerator, press the clutch in, do not brake and keep steering in the direction you want to go. As soon as your speed has dropped far enough, your tyres get their grip back."
+        },
+        {
+          "items": [
+            "high speed, because the tread can no longer clear the water",
+            "too little tread on your tyres",
+            "wide tyres, because the larger contact patch means less weight per square centimetre",
+            "the right-hand lane of the motorway, because there is more rutting there from the lorry traffic"
+          ]
+        },
+        {
+          "tekst": "It starts to rain after a long dry spell. You see less well through your windscreen, unless it has just been cleaned, and rubber and oil residue make the road surface treacherously slippery. That is exactly when people carry on at the old speed."
+        },
+        {
+          "tekst": "Strong crosswind (zijwind) and above all fierce gusts can blow you a few metres sideways just like that. Keep your engine pulling, change down a gear if you want, drive at a speed that suits the conditions and do not overtake (inhalen) unnecessarily."
+        },
+        {
+          "tekst": "On the motorway the risk of sudden crosswind is greatest on bridges and flyovers, where a noise barrier stops and when you overtake a lorry. You are suddenly in the wind, or suddenly out of the wind, and that can push you off course."
+        },
+        {
+          "tekst": "A sign or a windsock warns you at places where crosswind is often a problem."
+        },
+        {
+          "tekst": "Rain: dipped headlights on, rear fog light off. In aquaplaning do not brake, come off the accelerator and keep steering."
+        },
+        {
+          "vraag": "It is raining so hard that you can hardly see anything. May your rear fog light be on?",
+          "antwoord": "No, never in rain.",
+          "uitleg": "The bright red light and its reflection are a nuisance to the traffic behind you, and they can already see you by your rear lights."
+        },
+        {
+          "vraag": "Your steering suddenly goes very light and you feel free play. What do you do?",
+          "antwoord": "Off the accelerator, clutch in, no braking, keep steering.",
+          "uitleg": "Your tyres are floating on the water; only once your speed has dropped do they get their grip back, and braking does not help with that."
+        }
+      ]
+    },
+    "U11-P05": {
+      "titel": "Fog and the two fog lights",
+      "body": [
+        {
+          "tekst": "Fog forms above all when warm, moist air flows over a cold ground surface, most often in autumn and early spring. In polders, near rivers and in low-lying peat areas in particular, fog can come up unexpectedly and fast."
+        },
+        {
+          "tekst": "Very dense fog means visibility of less than 50 metres. In that case keep not two but three seconds of distance from the vehicle in front of you."
+        },
+        {
+          "tekst": "In weather conditions that seriously obstruct visibility, so visibility of less than about 200 metres because of fog, snowfall or rain, you may switch on the front fog light (mistlicht aan de voorzijde)."
+        },
+        {
+          "tekst": "If visibility is less than 50 metres because of very dense fog or heavy snowfall, so not in rain, you may switch on your rear fog light (mistachterlicht). Only do that if it is better for safety."
+        },
+        {
+          "kop": [
+            "Lamp",
+            "In which weather",
+            "From what visibility"
+          ],
+          "rijen": [
+            [
+              "front fog light",
+              "fog, snowfall or rain",
+              "less than about 200 metres"
+            ],
+            [
+              "rear fog light",
+              "fog or snowfall, never in rain",
+              "less than 50 metres"
+            ]
+          ]
+        },
+        {
+          "tekst": "The lamp at the front helps you see and costs nobody anything, so it may go on when visibility is merely moderate. The lamp at the back shines into someone else's eyes: it may only go on when visibility is so short that he would otherwise see you far too late. Hence two different limits for two lamps that you operate with a switch side by side."
+        },
+        {
+          "tekst": "Two things go wrong here in the exam. One: the rear fog light is never allowed in rain, however hard it is pouring. Two: if visibility is more than 50 metres, your rear fog light may not be on, not even when it is foggy."
+        },
+        {
+          "items": [
+            "reduce your speed, but keep watching the rest of the traffic: driving much slower than everyone else is a risk too",
+            "better not to overtake in dense fog, not even on a motorway, because a rear-end shunt or a pile-up is waiting to happen",
+            "do not blindly follow the rear lights of the vehicle in front of you, use the edge line as your guide",
+            "stay in the right-hand lane as much as you can, so that you can use the hard shoulder straight away in an emergency"
+          ]
+        },
+        {
+          "tekst": "Even when the rear fog light is allowed, it is not always sensible: if the driver behind you has seen you, you are better off switching it off."
+        },
+        {
+          "tekst": "The front one may go on under 200 metres, the rear one only under 50 metres and never in rain."
+        },
+        {
+          "vraag": "It is foggy and you put visibility at 150 metres. Which fog lamp may be on?",
+          "antwoord": "Only the front fog light.",
+          "uitleg": "Under 200 metres visibility is seriously obstructed, but the rear fog light is only allowed under 50 metres."
+        },
+        {
+          "vraag": "How much distance do you keep from the vehicle in front of you in very dense fog?",
+          "antwoord": "Three seconds.",
+          "uitleg": "The usual two seconds are too short when you cannot see what is coming up for the vehicle in front of you."
+        }
+      ]
+    },
+    "U11-P06": {
+      "titel": "Snow, black ice and slippery roads",
+      "body": [
+        {
+          "tekst": "Before you set off, clear snow and ice from your windows, lights, mirrors, roof and number plates. You are committing an offence if you do not have enough view through the windscreen and the front side windows."
+        },
+        {
+          "tekst": "Do not get in with soles full of snow. When that melts you get damp in the car and your windows mist up sooner."
+        },
+        {
+          "tekst": "If the road surface is slippery, reduce your speed, keep more distance, brake earlier and more gently and steer more carefully and smoothly, so that you do not go into a skid."
+        },
+        {
+          "tekst": "On a slippery road surface, approach a junction at walking pace and cross it or turn off in one movement. Allow for the chance of skidding on, your own and that of other drivers (bestuurders). If the light goes from red to green, bear in mind that slow-moving drivers crossing your path may still be on the junction."
+        },
+        {
+          "tekst": "The advisory speeds shown on signs apply in favourable weather conditions. In snow, black ice and slippery conditions your speed has to be considerably lower. The posted maximum speed can also be too high in those conditions."
+        },
+        {
+          "tekst": "The through carriageway (rijbaan) has been driven clear and looks fine. The slip roads, the turning lanes and the left-hand lane get less traffic and are then often far more slippery. That is where you end up sideways in no time."
+        },
+        {
+          "tekst": "In snow you may use your rear fog light (mistachterlicht) during heavy snowfall with visibility of less than 50 metres, just as in fog, and your front fog light (mistlicht aan de voorzijde) when visibility is seriously obstructed. Do not use main beam (groot licht) during snowfall, because you get dazzled by the light reflecting off the snowflakes."
+        },
+        {
+          "tekst": "Lights at the front improve your view of the situation, but a layer of snow is excellent camouflage for obstacles such as speed humps. What you do not see lying there is still lying there."
+        },
+        {
+          "tekst": "Road markings such as shark's teeth (haaientanden) are invisible when there is snow lying, and signs get covered over. Luckily the shape gives the meaning away: there is only one triangular sign with its point facing downwards, and that is part of why the stop sign has a unique octagonal shape."
+        },
+        {
+          "items": [
+            "oncoming drivers who are going strikingly slowly are an early warning of slippery conditions",
+            "on sheltered stretches of road in wooded areas and along rivers and canals the risk of slipperiness is greater",
+            "on single-carriageway roads with a cambered surface and on cobbled roads you have to watch out for slipperiness even more",
+            "bridges and flyovers cool down quickly in the wind and therefore freeze sooner",
+            "even when the thermometer in the car reads just above zero, the road surface can be colder and frozen",
+            "after it has snowed, pedestrians inside built-up areas often walk on the carriageway, and cyclists and moped riders have trouble staying upright"
+          ]
+        },
+        {
+          "tekst": "Winter tyres are not compulsory in the Netherlands. At temperatures below 7 degrees and on a snow-covered road surface they give more grip than ordinary tyres. A minimum tread depth of 4 mm is advised for winter tyres, and you recognise them by a snowflake symbol and an M+S logo."
+        },
+        {
+          "tekst": "If you carry on into the summer on winter tyres, you have a longer braking distance, poorer handling and higher fuel consumption, and they wear out faster. So change back to summer tyres in good time."
+        },
+        {
+          "tekst": "In the Netherlands the use of metal snow chains is forbidden, plastic snow chains are allowed. In mountainous areas abroad you may need them and sometimes it is even compulsory."
+        },
+        {
+          "tekst": "Make sure you use the right size of chains and that you do not drive too fast with them on. Practise fitting them once before you set off on your trip."
+        },
+        {
+          "tekst": "Clean it off first, then drive. On a slippery road surface the posted speed is an upper limit, not a recommendation."
+        },
+        {
+          "vraag": "There is a sign with an advisory speed and it has been snowing. May you drive that speed?",
+          "antwoord": "No, your speed has to be considerably lower.",
+          "uitleg": "Advisory speeds apply in favourable weather conditions, and you stay responsible yourself for a safe speed."
+        },
+        {
+          "vraag": "Are winter tyres compulsory in the Netherlands?",
+          "antwoord": "No.",
+          "uitleg": "In some other countries they are, but not here. Below 7 degrees and on snow they do give more grip."
+        }
+      ]
+    }
+  }
+}

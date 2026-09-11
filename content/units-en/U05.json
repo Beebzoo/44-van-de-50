@@ -1,0 +1,279 @@
+{
+  "id": "U05",
+  "titel": "Roundabouts, driveway exits, the erf and the 30 km zone",
+  "intro": "From block 4 you know who goes first at an ordinary junction. This block is about four places where that works slightly differently: the roundabout (rotonde), the entry and exit driveway (inrit and uitrit), the residential precinct (\"erf\") and the 30 km zone. On a roundabout everything comes down to waiting as you enter, indicating at the right moment, and the cyclist as you leave. At a uitrit, an erf and a 30 km zone the same rule often applies: whoever drives in or out lets all road users go first, pedestrians included. Most questions are drawings seen from above, and you are always the white car.",
+  "paginas": {
+    "U05-P01": {
+      "titel": "Roundabouts: entering, indicating and leaving",
+      "body": [
+        {
+          "tekst": "On a roundabout (rotonde) you must always drive 'rechtsom' (to the right). The central island has the 'roundabout' sign (D1) on it, often on a chevron board with arrows pointing to the right. The approach road often has the warning sign 'roundabout' (J9)."
+        },
+        {
+          "tekst": "The book puts rechtsom in quotation marks, because as you enter you steer to the right and you keep the central island on your left hand. On a drawing seen from above that makes you go anticlockwise around the island."
+        },
+        {
+          "tekst": "On almost every roundabout, signs arrange that drivers (bestuurders) on the roundabout have priority. If you are on the approach road, you must give way (voorrang verlenen) to them. If there are no signs at a roundabout, drivers entering the roundabout have priority, but you do not come across that situation often any more."
+        },
+        {
+          "tekst": "Just before and on a roundabout you may drive on the left as well as on the right, and you may overtake (inhalen) on the left as well as on the right, if it can be done safely. Traffic lights on a roundabout override the priority signs and the markings on the road surface."
+        },
+        {
+          "tekst": "If you want to leave the roundabout, you must let the traffic that carries on round the roundabout go first (voor laten gaan). That also applies to cyclists, light moped riders (snorfiets), moped riders (bromfiets) and pedestrians who carry on round the roundabout on a cycle lane (fietsstrook), a cycle path (fietspad), a cycle/moped path or a footpath, unless signs or markings prescribe otherwise."
+        },
+        {
+          "tekst": "If the cycle/moped path lies a bit further away from the roundabout, mainly outside the built-up area (bebouwde kom), you do not have to give way to the cyclists and moped riders as you leave. They have shark's teeth (haaientanden) on their path."
+        },
+        {
+          "tekst": "A roundabout only works if the ring keeps flowing. That is why whoever enters waits, and why the cyclist who carries on round the ring goes first: he belongs to the roundabout. If the cycle path lies further out, it is an ordinary crossing and the shark's teeth turn it around."
+        },
+        {
+          "tekst": "You are standing at the shark's teeth at [B6]. The van is already on the roundabout and is coming from the left, so you give way."
+        },
+        {
+          "kop": [
+            "You want to go",
+            "On the approach road",
+            "On the roundabout"
+          ],
+          "rijen": [
+            [
+              "Right, first side road",
+              "Keep right, indicate right",
+              "Keep the indicator on until you are off"
+            ],
+            [
+              "Straight on, second side road",
+              "Right-hand lane (rijstrook), the middle one where there are three lanes, no indicator",
+              "At the first side road indicate right and move over to the right"
+            ],
+            [
+              "Left, third side road",
+              "Left-hand lane, indicate left (not compulsory, but a good habit)",
+              "Large roundabout: indicator off; mini roundabout: leave the left one on. At the second side road indicate right and move over to the right"
+            ],
+            [
+              "Turbo roundabout",
+              "The advance direction sign and the arrows decide your lane, so get into position in good time",
+              "Concrete kerb: you can no longer change lane, but still indicate when you turn off"
+            ]
+          ]
+        },
+        {
+          "tekst": "You leave the roundabout at the northern arm. The cycle path runs right around the roundabout and the cyclist carries on round it, so you let him go first."
+        },
+        {
+          "tekst": "Here the cycle/moped path lies some way away from the roundabout. The moped rider has shark's teeth on his path and gives way to you. Make eye contact so that you know that for sure."
+        },
+        {
+          "tekst": "[D1] stands on the central island and makes the direction of travel compulsory; [J9] on the approach road warns you of the roundabout."
+        },
+        {
+          "tekst": "If you are going straight on, you do not indicate on the approach road; the right indicator only goes on at the side road before your exit. If there are shark's teeth on the carriageway (rijbaan) as you leave, they are there for you; if they are on the cycle path, the cyclist waits."
+        },
+        {
+          "tekst": "Entering: wait for the ring. Leaving: the cyclist who follows the ring goes first, unless the shark's teeth are on his path. Indicate right at the side road before your exit."
+        },
+        {
+          "vraag": "You are going straight on over a roundabout with four side roads. When do you switch on your right indicator?",
+          "antwoord": "As you come level with the first side road.",
+          "uitleg": "That way, whoever is waiting at the second side road knows you are coming off."
+        },
+        {
+          "vraag": "Outside the built-up area the cycle path lies far from the roundabout, with shark's teeth on the cycle path. Do you have to let the cyclist go first as you leave?",
+          "antwoord": "No.",
+          "uitleg": "The path does not belong to the roundabout; the shark's teeth make the cyclist wait for you."
+        }
+      ]
+    },
+    "U05-P02": {
+      "titel": "The inrit and the uitrit: everyone goes first",
+      "body": [
+        {
+          "tekst": "When you drive into an entry driveway (inrit) and when you leave a driveway exit (uitrit), you must let all road users go first (voor laten gaan), so pedestrians too."
+        },
+        {
+          "tekst": "You usually recognise an inrit or a uitrit by the way it is built, such as the lowered kerbs or the driveway blocks (inritblokken). But roads with a limited destination are entry and exit driveways as well, for instance the road to the car park of a shopping centre."
+        },
+        {
+          "tekst": "If you want to turn left into an inrit, inside the built-up area (bebouwde kom) you simply move over towards the centre line. Outside the built-up area you may do that too, but on busy through roads it is better not to come to a standstill to let oncoming traffic go first, certainly not just after a bend. If need be, stop on the right in the verge (berm), or drive on and approach the inrit from the other side."
+        },
+        {
+          "tekst": "If you want to turn right into an inrit, you have to alert the traffic behind you earlier than for an ordinary right turn. Indicate in good time and reduce your speed; sometimes it is wise to give a brake signal with your brake pedal first."
+        },
+        {
+          "tekst": "Anyone who leaves a uitrit or drives into an inrit is doing something the other road users do not expect, in a place that is not a junction. That is why the whole duty to wait lies with you, including towards a pedestrian on the pavement."
+        },
+        {
+          "tekst": "A silver-grey car comes from the right out of a side street with a lowered kerb. It is true that it comes from the right, but it is leaving a uitrit, so you may go first."
+        },
+        {
+          "tekst": "The moped rider (bromfiets) comes from the car park of a shopping centre, a road with a limited destination and therefore a uitrit. You may go first."
+        },
+        {
+          "kop": [
+            "Driving into an inrit",
+            "What you do"
+          ],
+          "rijen": [
+            [
+              "Left, inside the built-up area",
+              "Move over towards the centre line and let the oncoming traffic go first"
+            ],
+            [
+              "Left, outside the built-up area",
+              "Better not to stand still on a busy road: pull into the verge on the right, or drive on and come from the other side"
+            ],
+            [
+              "Right",
+              "Indicate early, speed down, a brake signal first if need be"
+            ]
+          ]
+        },
+        {
+          "tekst": "Coming from the right means nothing here: a uitrit is not a side road. Look at the lowered kerb or the driveway blocks, and remember that a road to a car park is a uitrit too, even without blocks."
+        },
+        {
+          "tekst": "Into an inrit or out of a uitrit: everyone goes first, the pedestrian too. When you are on the road yourself: the car coming out of the uitrit waits for you, even if it comes from the right."
+        },
+        {
+          "vraag": "You are driving along a street. From the right a car comes out of a uitrit with driveway blocks. Who goes first?",
+          "antwoord": "You do.",
+          "uitleg": "Anyone who leaves a uitrit lets all road users go first; coming from the right does not count here."
+        },
+        {
+          "vraag": "You want to turn right into an inrit and there is a car driving behind you. What do you do differently from an ordinary right turn?",
+          "antwoord": "Indicate earlier, reduce your speed and give a brake signal if need be.",
+          "uitleg": "The driver behind you does not expect you to suddenly drive into an inrit."
+        }
+      ]
+    },
+    "U05-P03": {
+      "titel": "The erf: walking pace, pedestrians everywhere",
+      "body": [
+        {
+          "tekst": "You recognise a residential precinct (\"erf\") by the signs. It is an ordinary public road, but special rules apply: the maximum speed is 15 km/h, pedestrians may walk on the road, and you may only park in places marked with a P or on private ground."
+        },
+        {
+          "tekst": "Letting passengers get in or out is allowed in an erf. Drive extra alert, not only because of pedestrians and children playing, but also because all sorts of obstacles can be standing on the road."
+        },
+        {
+          "tekst": "The way into or out of an erf is usually an entry driveway (inrit) or a driveway exit (uitrit). You then have to let all road users go first (voor laten gaan), so the pedestrian on the pavement too."
+        },
+        {
+          "tekst": "In an erf, children playing, people walking and cars share the same brick paving, often without a pavement. Driving at walking pace gives you the time to stop for whoever comes out from between the parked cars, and the parking ban keeps that space clear."
+        },
+        {
+          "tekst": "You drive into a brick-paved street with the erf sign on the right. There is no P sign and it is not your own ground, so you may not park here. A bit further along, in a place where parking is allowed, a car stands neatly parked."
+        },
+        {
+          "tekst": "You leave the erf by a uitrit with a lowered kerb. A pedestrian walks along the pavement right in front of you, so he goes first."
+        },
+        {
+          "tekst": "[G5] starts the erf, [G6] ends it. Between those two signs the erf rules apply."
+        },
+        {
+          "kop": [
+            "Rule",
+            "In an erf"
+          ],
+          "rijen": [
+            [
+              "Speed",
+              "15 km/h at most, walking pace"
+            ],
+            [
+              "Pedestrians",
+              "May use the full width of the road"
+            ],
+            [
+              "Parking",
+              "Only in places with a P or on private ground; letting passengers get in or out is allowed"
+            ],
+            [
+              "Way in and way out",
+              "Usually an inrit or a uitrit: everyone goes first"
+            ]
+          ]
+        },
+        {
+          "tekst": "Walking pace is 15 km/h, not 30. And parking at the side of the road, as in an ordinary residential street, is not allowed here without a P; stopping briefly to let someone get out is allowed."
+        },
+        {
+          "tekst": "Erf: 15 km/h, pedestrians everywhere, parking only on a P or on private ground, and at the way out you let everyone go first."
+        },
+        {
+          "vraag": "In an erf a pedestrian walks in the middle of the road. Is that allowed?",
+          "antwoord": "Yes.",
+          "uitleg": "In an erf, pedestrians may use the full width of the road."
+        },
+        {
+          "vraag": "You are leaving an erf by a uitrit. A cyclist comes along the street from the left. Do you have to let him go first?",
+          "antwoord": "Yes.",
+          "uitleg": "When you leave a uitrit you let all road users go first, from the left and from the right."
+        }
+      ]
+    },
+    "U05-P04": {
+      "titel": "The 30 km zone: in and out by an inrit",
+      "body": [
+        {
+          "tekst": "30 km zones are mainly built in places with a lot of mixed traffic (fast and slow) and near schools. Take pedestrians and cyclists into account and drive extra defensively."
+        },
+        {
+          "tekst": "You recognise a 30 km zone by the signs. The maximum speed is 30 km/h and that applies throughout the zone."
+        },
+        {
+          "tekst": "The way into a 30 km zone is often an entry driveway (inrit) or a driveway exit (uitrit). You then have to let all road users go first (voor laten gaan) when you drive into or out of a zone."
+        },
+        {
+          "tekst": "The end of a 30 km zone is not always a uitrit. If it is an ordinary equal-priority junction (gelijkwaardig kruispunt), the normal priority rules apply: if you come from the right, you may go first."
+        },
+        {
+          "tekst": "Around schools and in residential areas, children and cyclists cross without warning. At 30 km/h your stopping distance (stopafstand) is far shorter than at 50, and the inrit at the entrance forces you to slow down and look as you drive in."
+        },
+        {
+          "tekst": "The zone sign is a white rectangular sign with the word ZONE at the top and below it a round sign with a red border and the number 30. The end of the zone is the same sign in grey, with black diagonal stripes through it."
+        },
+        {
+          "tekst": "You are approaching the end of a zone. On the right stands the end of 30 km zone sign, and in the middle of the junction there is a raised white circle. An off-road vehicle comes from the left. There is no driveway construction, so it is an ordinary equal-priority junction: you come from the right and may go first."
+        },
+        {
+          "tekst": "Here the end of the zone is an equal-priority junction without a lowered kerb. You come from the right for the grey car, so you may go first."
+        },
+        {
+          "kop": [
+            "Zone boundary",
+            "Who goes first"
+          ],
+          "rijen": [
+            [
+              "Inrit or uitrit (lowered kerb, driveway blocks)",
+              "All road users, pedestrians too; you wait"
+            ],
+            [
+              "Ordinary equal-priority junction",
+              "The normal rules: drivers from the right go first"
+            ]
+          ]
+        },
+        {
+          "tekst": "A zone entrance with a lowered kerb is an inrit, so you let everyone go first, including anyone who comes from the left. Without a driveway construction the zone boundary is an ordinary junction and traffic from the right goes first. So look at the road, not only at the sign."
+        },
+        {
+          "tekst": "30 throughout the zone. Into or out of the zone by an inrit: everyone goes first. End of the zone without an inrit: an ordinary junction."
+        },
+        {
+          "vraag": "You drive into a 30 km zone through an entrance with a lowered kerb. A pedestrian walks along the pavement past the entrance. Do you have to wait?",
+          "antwoord": "Yes.",
+          "uitleg": "The entrance is an inrit; as you drive in you let all road users go first, so pedestrians too."
+        },
+        {
+          "vraag": "Where do you mainly find 30 km zones?",
+          "antwoord": "Where there is a lot of mixed traffic, in residential areas and near schools.",
+          "uitleg": "That is where a lot of vulnerable road users walk and cycle among the cars."
+        }
+      ]
+    }
+  }
+}

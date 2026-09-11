@@ -1,0 +1,495 @@
+{
+  "id": "U07",
+  "titel": "Position on the road and overtaking",
+  "intro": "This unit is about the two things you do all day: choosing where on the road you drive, and deciding whether you can get past. You learn keeping right and moving over, who goes first at a narrowing or an obstacle, where cyclists and moped riders ride, what a bend does to your car, and after that the big subject: overtaking (inhalen). Pay attention above all to the difference between overtaking and passing (voorbijgaan), because there is a classic exam trap in it. At the end come merging, leaving, weaving and zip merging, the manoeuvres of the expressway (autoweg) and the motorway.",
+  "paginas": {
+    "U07-P01": {
+      "titel": "Keeping right, narrowings and obstacles",
+      "body": [
+        {
+          "tekst": "You must keep as far to the right as you can (rechts houden), but do not drive too close to the kerb or to the verge (berm)."
+        },
+        {
+          "tekst": "If the road is too narrow for you and an oncoming driver (tegenligger), you both move over. If the oncoming driver has almost no room to move over, you move over extra far."
+        },
+        {
+          "tekst": "Moving onto the verge is not a given. Plenty of verges will not carry your car, and a verge that lies lower or a sharp carriageway edge (rijbaan) pulls your wheel straight off the road."
+        },
+        {
+          "tekst": "At a carriageway narrowing, the signs [F5] and [F6] usually settle who goes first. If you are driving in the direction of the red arrow, you must stop. If you are driving in the direction of the white arrow, the oncoming driver must stop."
+        },
+        {
+          "tekst": "A red arrow in the sign means wait, a white arrow means carry on."
+        },
+        {
+          "tekst": "These two signs only apply between drivers (bestuurders). If you approach a narrow gap where pedestrians are walking, you always let them go first (voor laten gaan), white arrow or not."
+        },
+        {
+          "tekst": "If there is no [F5] or [F6], look at the warning signs. If the narrowing is on your side of the road, you stop for an oncoming driver. If the narrowing is on both sides, you and the oncoming driver sort it out together."
+        },
+        {
+          "tekst": "If the narrowing is on both sides, it is decent to let lorries and buses go first. They need the space more than you do."
+        },
+        {
+          "tekst": "The same basic rules apply to obstacles. If there is not enough room for you and the oncoming driver together, you stop when the obstacle is on your half of the road (weghelft), and the oncoming driver stops when it is on his half."
+        },
+        {
+          "tekst": "The obstacle is on your half of the road and someone is coming towards you. You are the one who waits, and you stop in good time so that you keep a clear view and can pull away again easily."
+        },
+        {
+          "tekst": "If you have priority because the obstacle is on the other half of the road, do not count on the oncoming driver stopping as well. Plenty of drivers just carry on."
+        },
+        {
+          "tekst": "Obstacle on your half: you wait. Red arrow: you wait. Pedestrians in a narrow gap: always let them go first."
+        },
+        {
+          "vraag": "On your oncoming driver's half of the road a lorry is standing still and the road is too narrow for the two of you. Who has to wait?",
+          "antwoord": "The oncoming driver.",
+          "uitleg": "The obstacle is on his half of the road, so he stops. Do be ready for him to carry on anyway."
+        },
+        {
+          "vraag": "You are approaching a narrow bridge with sign [F6]. What does that mean for you?",
+          "antwoord": "You may carry on and the oncoming driver must stop.",
+          "uitleg": "In [F6] the white arrow points your way, and that sign tells the traffic from the other direction to let you go first."
+        }
+      ]
+    },
+    "U07-P02": {
+      "titel": "One-way roads, divided carriageways and service roads",
+      "body": [
+        {
+          "tekst": "A one-way road (eenrichtingsweg) may only be entered from one side. You may not reverse on it and you may not turn round on it. Reverse parking or driving into a driveway is allowed."
+        },
+        {
+          "tekst": "There are three sorts: the full one-way road, a road that is one-way for one particular group only, and a road where one group is exempt."
+        },
+        {
+          "tekst": "This is how you recognise the one-way road: [C2] on the side where you may not enter, [C3] and [C4] on the side where you may."
+        },
+        {
+          "tekst": "The round blue arrow signs [D4] and [D5] look like a one-way sign, but they are not. They give a compulsory direction of travel."
+        },
+        {
+          "tekst": "On many one-way roads there is a sub-plate (onderbord) that exempts cyclists, light mopeds (snorfietsen) and mopeds (bromfietsen). So count on oncoming traffic on two wheels."
+        },
+        {
+          "tekst": "If a road is split into two carriageways (rijbanen), by a central reservation for instance, sign [D2] usually points out which carriageway you have to follow. If there are no signs, you keep right and so follow the right-hand carriageway."
+        },
+        {
+          "tekst": "Next to the main carriageway there is sometimes a service road (ventweg), also called a parallel road. The main road is meant for fast through traffic, the service road for slow local traffic."
+        },
+        {
+          "kop": [
+            "Sign at the road",
+            "Tractor up to 25 km/h",
+            "Tractor faster than 25 km/h"
+          ],
+          "rijen": [
+            [
+              "no signs",
+              "may enter the road",
+              "may enter the road"
+            ],
+            [
+              "[C8] or [C9] without a sub-plate",
+              "may not enter the road",
+              "may not enter the road"
+            ],
+            [
+              "[C8] or [C9] with a sub-plate for faster tractors",
+              "may not enter the road",
+              "may enter the road"
+            ]
+          ]
+        },
+        {
+          "tekst": "At the entrance to a service road there is sign [C5]. That means you may enter that road from both directions."
+        },
+        {
+          "tekst": "One-way road: no turning round, no reversing back out of the street. A round blue arrow is a direction of travel, not a one-way road."
+        },
+        {
+          "vraag": "You are in a one-way street and you have driven past the side street you wanted to take. May you reverse a short way?",
+          "antwoord": "No.",
+          "uitleg": "Reversing on a one-way road is not allowed, and neither is turning round. You carry on and go round."
+        },
+        {
+          "vraag": "A road has two carriageways with a strip of grass between them and there are no signs. Which carriageway do you take?",
+          "antwoord": "The right-hand carriageway.",
+          "uitleg": "Without a sign you fall back on the ordinary rule that you keep right."
+        }
+      ]
+    },
+    "U07-P03": {
+      "titel": "Cyclists, moped riders and cycle lanes",
+      "body": [
+        {
+          "tekst": "Whether you meet cyclists and moped riders (bromfietsers) on the carriageway (rijbaan) depends on what lies beside the carriageway. This overview is in the book."
+        },
+        {
+          "kop": [
+            "Situation",
+            "Cyclists and light mopeds (snorfietsen)",
+            "Mopeds"
+          ],
+          "rijen": [
+            [
+              "no separate path",
+              "carriageway",
+              "carriageway"
+            ],
+            [
+              "separate cycle path (fietspad)",
+              "cycle path",
+              "carriageway"
+            ],
+            [
+              "separate cycle and moped path",
+              "cycle and moped path",
+              "cycle and moped path"
+            ]
+          ]
+        },
+        {
+          "tekst": "If there is no separate path, bear in mind that cyclists and light mopeds may overtake you (inhalen) on the right on the carriageway. Moped riders may not, but they often do it anyway."
+        },
+        {
+          "tekst": "A cycle lane (fietsstrook) is a part of the carriageway marked off by solid (doorgetrokken) or broken (onderbroken) lines, with pictures of a bicycle painted on it."
+        },
+        {
+          "kop": [
+            "What you do",
+            "Solid line",
+            "Broken line",
+            "Bus lane"
+          ],
+          "rijen": [
+            [
+              "drive on it",
+              "no",
+              "no",
+              "no"
+            ],
+            [
+              "move into it beforehand (voorsorteren)",
+              "no",
+              "yes, as long as you obstruct nobody",
+              "no"
+            ],
+            [
+              "cross it to enter a driveway",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ]
+        },
+        {
+          "tekst": "To your right is a cycle lane with a solid line. You stay off it, even when you want to turn right. Crossing it to enter a driveway is allowed."
+        },
+        {
+          "tekst": "A suggestion lane (suggestiestrook) looks like a cycle lane, but the picture of a bicycle is missing from the road surface. A lane like that has no legal status, so strictly speaking you may drive on it."
+        },
+        {
+          "tekst": "You are driving behind a slow digger on a road with suggestion lanes. You may drive over the lane to overtake it, because that is better for the traffic flow. When turning right you may also move into it beforehand."
+        },
+        {
+          "tekst": "A cycle street (fietsstraat) is meant specially for cyclists. Other drivers (bestuurders) may use it, but have to take account of the cyclists as much as they can. You recognise it by the sign and often by the layout as well."
+        },
+        {
+          "tekst": "On a compulsory cycle path with sign [G11], cyclists and light mopeds ride on the path and moped riders on the carriageway. On a cycle and moped path with sign [G12a], cyclists, light mopeds and moped riders all go on the path. If that path ends at sign [G12b], the moped riders have to go back onto the carriageway."
+        },
+        {
+          "tekst": "You recognise a non-compulsory cycle path by sign [G13]. Bicycles, disability vehicles and electric light mopeds may ride on it. Light mopeds with a combustion engine may only go on it with the engine switched off, and mopeds may not go on it at all."
+        },
+        {
+          "tekst": "Only a bicycle on the sign means moped riders on the carriageway. A bicycle and a moped together means both of them on the path. Sign [L51] belongs to the cycle street."
+        },
+        {
+          "tekst": "Cyclists on a cycle lane feel safe there and so pay less attention to the rest of the traffic. Count on that when you pass them."
+        },
+        {
+          "tekst": "A bicycle on the road surface means a cycle lane, no bicycle means a suggestion lane. Solid line: stay off it."
+        },
+        {
+          "vraag": "To your right is a cycle lane with a broken line and you want to turn right. May you move into it beforehand?",
+          "antwoord": "Yes, as long as you cause no danger or obstruction.",
+          "uitleg": "With a broken line it is allowed, provided it is better for the traffic flow and no cyclist gets squeezed by it."
+        },
+        {
+          "vraag": "There is a separate cycle path along the road. Where does the moped rider ride?",
+          "antwoord": "On the carriageway.",
+          "uitleg": "Only on a cycle and moped path does the moped rider leave the carriageway."
+        }
+      ]
+    },
+    "U07-P04": {
+      "titel": "Single-carriageway roads and bends",
+      "body": [
+        {
+          "tekst": "Watch out for a sharp carriageway edge (rijbaan) and a verge (berm) lying lower than the road on narrow single-carriageway roads outside the built-up area (bebouwde kom). If your right-hand wheels come off the road, you soon lose control of your steering."
+        },
+        {
+          "tekst": "The danger is not in the verge itself but in the moment after it: you get a fright, you steer back hard and the car shoots straight across the road. That is why you slow down before you have to move over, not while you are moving over."
+        },
+        {
+          "items": [
+            "you cannot move over, and oncoming drivers (tegenliggers) cannot either",
+            "you do not see drivers (bestuurders) coming out of side roads in good time, and they do not see you",
+            "the trees block your view in bends",
+            "wet leaves in autumn make the road surface slippery"
+          ]
+        },
+        {
+          "tekst": "In rural areas you have to count on cyclists and horse riders on the carriageway. Adjust your driving to that and only overtake them (inhalen) when there is enough room."
+        },
+        {
+          "tekst": "This is how you drive safely through a bend: judge the line of the bend in good time, choose the right gear and adjust your speed before the bend, assess the width of the carriageway, the road surface and the camber (wegverkanting), and stay alert to oncoming traffic and to slow vehicles in front of you."
+        },
+        {
+          "tekst": "In a bend, safe overtaking is usually not possible. Wait until you are past the bend."
+        },
+        {
+          "tekst": "Centrifugal force (middelpuntvliedende kracht) pushes you towards the outside of the bend. That force is stronger as the radius of the bend gets smaller and as your speed gets higher."
+        },
+        {
+          "tekst": "Take the same bend once at 30 km/h and once at 60 km/h, and the centrifugal force at 60 km/h is four times as great."
+        },
+        {
+          "kop": [
+            "Camber",
+            "How the road surface lies",
+            "What it does to you"
+          ],
+          "rijen": [
+            [
+              "positive",
+              "the outside of the bend lies higher than the inside",
+              "the force is partly compensated for"
+            ],
+            [
+              "negative",
+              "the outside of the bend lies lower than the inside",
+              "a bigger risk of flying off the bend"
+            ]
+          ]
+        },
+        {
+          "tekst": "Take the speed off before the bend, not in it. Negative camber slopes outwards and works against you."
+        },
+        {
+          "vraag": "You go through the same bend twice as fast. What happens to the centrifugal force?",
+          "antwoord": "It becomes four times as great.",
+          "uitleg": "The force climbs steeply with speed, and that is why a bend at 60 km/h feels so much fiercer than at 30 km/h."
+        }
+      ]
+    },
+    "U07-P05": {
+      "titel": "Overtaking or passing, and left is the rule",
+      "body": [
+        {
+          "tekst": "We speak of overtaking (inhalen) when it is about moving drivers (bestuurders) among themselves going the same way, and of passing (voorbijgaan) when you go by stationary vehicles, stationary obstacles and pedestrians."
+        },
+        {
+          "tekst": "The difference is not only language. A no-overtaking sign and the ban just before a pedestrian crossing are about overtaking, so about moving vehicles. Do note that a solid line (doorgetrokken streep) is something else: you may not cross it at all, not even to pass something that is standing still."
+        },
+        {
+          "tekst": "When overtaking and passing you may cause no danger or obstruction, and indicating is compulsory."
+        },
+        {
+          "tekst": "Indicating is compulsory for every significant sideways movement. Even overtaking a cyclist on a narrow road or passing a parked car can be a movement like that."
+        },
+        {
+          "items": [
+            "only indicate once you actually begin the overtaking manoeuvre",
+            "move out well before you overtake, so that you drive straight ahead for a moment first",
+            "do not go past obstacles too fast or too close",
+            "do not endanger cyclists and light mopeds (snorfietsers) who are going past the obstacle as well"
+          ]
+        },
+        {
+          "tekst": "In principle you must always overtake on the left. Overtaking on the right is only allowed just before and on roundabouts, when you are driving to the right of a block marking, when you are overtaking a queue, when the driver being overtaken has moved over to the left and is indicating left, and when the vehicle being overtaken is a tram."
+        },
+        {
+          "tekst": "The course turns those exceptions into the word FRUIT: File (queue), Rotonde (roundabout), Uitvoegen (leaving), Invoegen (merging), Tram. Handy to remember, but it is a memory aid and not the text of the law. Uitvoegen and invoegen are the cases where you are driving to the right of a block marking, and the driver who has moved over to the left is not in the word."
+        },
+        {
+          "tekst": "The grey car in front of you is going left into the side road and is showing that with its indicator. It has moved over to the left, and then you may overtake it on the right."
+        },
+        {
+          "tekst": "You are driving behind a road sweeper and there is a junction further on. You may only overtake it on the left. Overtaking just before a junction is not always wise, but it is not forbidden."
+        },
+        {
+          "tekst": "Cyclists and light mopeds may overtake other drivers on the right. Do not let that catch you out when you want to move to the right yourself."
+        },
+        {
+          "tekst": "If you are in a line behind a slow vehicle, overtake in turn: the vehicle at the front overtakes first each time."
+        },
+        {
+          "tekst": "If it is moving, you overtake. If it is standing still, you pass. Left is the rule, right is the exception."
+        },
+        {
+          "vraag": "You go round a stationary van on the left that is parked on your half of the road (weghelft). Are you overtaking or passing?",
+          "antwoord": "You are passing.",
+          "uitleg": "Passing is going by stationary vehicles and obstacles; overtaking is about moving drivers."
+        },
+        {
+          "vraag": "Why may you overtake a tram on the right?",
+          "antwoord": "Because the tram is one of the exceptions to overtaking on the left.",
+          "uitleg": "A tram runs down the middle of the road, so going by it on the right is the normal way."
+        }
+      ]
+    },
+    "U07-P06": {
+      "titel": "No overtaking, and overtaking safely",
+      "body": [
+        {
+          "tekst": "In places where overtaking (inhalen) is dangerous you often find the no-overtaking sign. After [F1] motor vehicles may not overtake each other, after [F3] lorries may not overtake motor vehicles. [F2] and [F4] lift those bans again."
+        },
+        {
+          "tekst": "The red signs put the ban in place, the crossed-out white signs take it off again."
+        },
+        {
+          "tekst": "After [F1] you may not overtake any motor vehicle at all, not even a motorcycle. If there is a sub-plate (onderbord) with a tractor on it, you may overtake agricultural traffic."
+        },
+        {
+          "tekst": "You often find the overtaking ban before blind bends and hills, before blind junctions and before level crossings (overwegen) that are only protected by a flashing light installation."
+        },
+        {
+          "tekst": "Just before or on a pedestrian crossing it is always forbidden to overtake a vehicle, even when there is no no-overtaking sign."
+        },
+        {
+          "tekst": "Ahead of you a car is driving towards a zebra crossing. You do not overtake it here, sign or no sign, because you cannot see a pedestrian walking up from behind that car."
+        },
+        {
+          "tekst": "If there is a single or double solid line (doorgetrokken streep) down the middle of the road or between the lanes (rijstroken), you may not cross that line and so you may not overtake either. If there are two lines, one broken (onderbroken) and one solid, you may overtake when the broken line is on your side."
+        },
+        {
+          "tekst": "On single-carriageway roads, do not overtake alongside a yellow flashing light either. That light is warning you about a dangerous situation."
+        },
+        {
+          "tekst": "Make sure you are done with your overtaking manoeuvre in time. You must always have finished it well before a blind situation, before the point where an overtaking ban comes into force, and well before the start of a solid line."
+        },
+        {
+          "items": [
+            "keep enough distance from the vehicle in front (voorligger) with the two-second rule, so that it can see you properly",
+            "check whether there is enough clear space beyond the vehicle in front and whether no oncoming driver is approaching",
+            "check that the vehicle in front is not planning to turn left",
+            "check that you are not being overtaken yourself",
+            "indicate and move to the left in a smooth line, and switch the indicator off as soon as you have moved over to the left",
+            "never move back to the right so early that you cut up the vehicle you have overtaken"
+          ]
+        },
+        {
+          "tekst": "Before you overtake you look in the interior mirror first, then in the left-hand door mirror and after that over your left shoulder. If you skip that last one, you can simply miss a car to your left because it is sitting in a blind spot."
+        },
+        {
+          "tekst": "Mirrors leave part of the space beside you out of sight, and that is exactly where the car that is about to overtake you sits. By adjusting your mirrors properly you make those gaps smaller, but you cannot get rid of them."
+        },
+        {
+          "tekst": "When overtaking pedestrians and cyclists, keep enough sideways distance, at least 1.5 metres."
+        },
+        {
+          "tekst": "You work out the overtaking distance with 60 times your own speed, divided by the difference in speed between the vehicles."
+        },
+        {
+          "tekst": "Many modern cars have a blind spot detection system. Handy, but to be safe always look to the side yourself as well."
+        },
+        {
+          "tekst": "The smaller the difference in speed, the longer you are busy and the more room you need. If you are doing 80 km/h and the vehicle in front 25 km/h, the overtaking distance is 87 metres. If that same vehicle in front is doing 60 km/h, it is 240 metres."
+        },
+        {
+          "tekst": "Interior mirror, door mirror, shoulder. Be finished before the line, before the sign and before the bend."
+        },
+        {
+          "vraag": "There is a broken line on your side and a solid line on the other side. May you overtake?",
+          "antwoord": "Yes.",
+          "uitleg": "With two lines the line on your side counts, and a broken line may be crossed."
+        },
+        {
+          "vraag": "You are approaching a zebra crossing and there is no no-overtaking sign. May you overtake the car in front of you?",
+          "antwoord": "No.",
+          "uitleg": "Just before and on a pedestrian crossing, overtaking is always forbidden, sign or no sign."
+        }
+      ]
+    },
+    "U07-P07": {
+      "titel": "Merging, zip merging and special manoeuvres",
+      "body": [
+        {
+          "tekst": "When joining an expressway (autoweg) or a motorway you must use the merging lane (invoegstrook). Always use about 2/3 of the merging lane to build up speed, even when you could merge earlier. You have to let the drivers (bestuurders) on the through carriageway (rijbaan) go first (voor laten gaan)."
+        },
+        {
+          "tekst": "Traffic on the through carriageway sometimes moves to the left to give you room, but it does not have to. So do not count on it."
+        },
+        {
+          "items": [
+            "build up speed on the approach road and on the merging lane",
+            "look in your mirrors, to the side and over your shoulder",
+            "only indicate just before you merge (invoegen)",
+            "switch the indicator off again as soon as you have passed the block marking",
+            "do not overtake traffic on the through carriageway while you are on the merging lane"
+          ]
+        },
+        {
+          "tekst": "If a merging lane is short and you cannot build up enough speed to merge safely, stop at the start of the lane. Carrying on along the hard shoulder is not allowed."
+        },
+        {
+          "tekst": "When leaving, you use the whole exit lane, but you may not drive over the hard shoulder. Indicate about 300 metres before the start of the exit lane and as a rule only reduce your speed on the lane itself."
+        },
+        {
+          "tekst": "Use the green hectometre posts to help you work out where that 300 metres is. Switch the indicator off again level with the place where the lane separates from the through carriageway, so at the end of the block marking."
+        },
+        {
+          "tekst": "From the point where arrows show the direction of travel you may no longer go back to the main carriageway. On the exit lane you may overtake slow-moving drivers on the through carriageway on the right, if that is needed for a smooth flow of traffic and you obstruct nobody."
+        },
+        {
+          "tekst": "Combined merging and exit lanes are called weaving sections. In law, drivers merging and drivers leaving have to let each other go first, but that leads to hesitation. In practice the ones merging let the ones leaving go first, because they are driving more slowly and have more room and a better view."
+        },
+        {
+          "tekst": "On a long combined merging and exit lane you may switch the indicator off earlier than at the last block marking, and you indicate again in between and shortly before the end. You may overtake the traffic on the through carriageway on the right there, but only when it can be done safely and it is good for the flow."
+        },
+        {
+          "tekst": "Zip merging (ritsen) is changing lane (rijstrook) in an orderly way at points where the carriageway narrows by one lane. Each driver on the continuing lane lets one driver from the blocked lane go first, in turn."
+        },
+        {
+          "tekst": "You are on the lane that ends. About 300 metres before the narrowing you match your speed to the speed on the other lane, you carry on to the sign saying zip merge from here, and about 50 metres before the narrowing you merge without braking."
+        },
+        {
+          "tekst": "Driving a long way along the ending lane is part of it, because that way you use all the tarmac. Driving too far and then demanding room is something else, and that is annoying."
+        },
+        {
+          "tekst": "Turning round is forbidden in any case on an expressway, a motorway and a one-way road. Nor may you drive over a solid line (doorgetrokken streep) down the middle of the road in order to turn round."
+        },
+        {
+          "tekst": "Turning round, reversing, parking and the hill start (hellingproef) are special manoeuvres. While you carry them out you must let the other traffic go first and you may cause no danger or unnecessary obstruction."
+        },
+        {
+          "tekst": "Reversing in a straight line: stop in a safe place, 30 cm from the kerb, engage reverse gear, look through the rear window or use your mirrors, look forwards regularly as well and reverse about 20 metres at walking pace with the clutch slipping."
+        },
+        {
+          "tekst": "Reversing round a corner: stop 5 metres from the corner, 30 cm from the kerb, steer gradually into the corner to the right once your rear wheel is at the corner and steer back when your car is almost parallel to the centre line of the road after the corner. Watch the front end swinging out by looking forwards and to the left, and stop when traffic is approaching."
+        },
+        {
+          "tekst": "There are two ways to turn round: with a half turn and by shunting. For parking there are four methods you have to be able to carry out in the exam: forwards into a bay, backwards into a bay, forwards into a parallel space and backwards into a parallel space."
+        },
+        {
+          "tekst": "For reverse parallel parking one free space is enough, for forward parallel parking you need more room. And if you park forwards into a bay, you have to reverse out of it again, which is awkward when there is a lot of traffic."
+        },
+        {
+          "tekst": "Merging: you let others go first. Leaving: indicate at 300 metres. Weaving: the one leaving goes first. Zip merging: turn and turn about. Reversing: look first, drive after that."
+        },
+        {
+          "vraag": "You are on the merging lane and the traffic to your left on the through carriageway is moving slowly. May you overtake those cars on the right?",
+          "antwoord": "No, not unnecessarily.",
+          "uitleg": "On the merging lane you do not overtake traffic on the through carriageway; you build up speed and merge."
+        },
+        {
+          "vraag": "You are on a weaving section and want to merge while someone beside you wants to leave. Who goes first?",
+          "antwoord": "The one leaving.",
+          "uitleg": "In law you let each other go first, but in practice the one merging lets the one leaving go, because that driver has the better view."
+        }
+      ]
+    }
+  }
+}

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#F2F1EC" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#10141A" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0B5CAD" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#154C86" media="(prefers-color-scheme: dark)">
 <title>44 van de 50</title>
 <meta name="description" content="Studie-app voor het CBR theorie-examen B. Lezen, quizzen, uitleg bij elk antwoord.">
 <link rel="manifest" href="manifest.webmanifest">
@@ -21,6 +21,8 @@
     var t = localStorage.getItem("thema");
     if (t === "donker") document.documentElement.dataset.theme = "dark";
     else if (t === "licht") document.documentElement.dataset.theme = "light";
+    var l = localStorage.getItem("taal");
+    if (l === "en") document.documentElement.lang = "en";
     var g = localStorage.getItem("tekst");
     if (g === "groot") document.documentElement.dataset.tekst = "groot";
   } catch (e) {}
