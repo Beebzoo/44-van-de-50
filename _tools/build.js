@@ -166,7 +166,10 @@ const index = {
   units: units.sort((a, b) => a.volgorde - b.volgorde).map(u => {
     const bank = [bankFiles[u.id], generatedFiles[u.id]].filter(Boolean);
     const n = bank.reduce((a, f) => a + readJson(path.join(REPO, f)).vragen.length, 0);
-    return { id: u.id, slug: u.slug, titel: u.titel, volgorde: u.volgorde, week: u.week, tier: u.tier, bestand: "content/units/" + u.id + ".json", bank, aantalVragen: n, paginas: u.paginas.map(p => ({ id: p.id, anker: p.anker, titel: p.titel })) };
+    /* alleen de blokken die echt een Engelse vragenoverlay hebben, anders haalt
+       de app vijftien bestanden op die er niet zijn en staat de console vol 404 */
+    const vragenEn = fs.existsSync(path.join(CONTENT, "bank-en", u.id + ".json"));
+    return { id: u.id, slug: u.slug, titel: u.titel, volgorde: u.volgorde, week: u.week, tier: u.tier, bestand: "content/units/" + u.id + ".json", bank, aantalVragen: n, vragenEn, paginas: u.paginas.map(p => ({ id: p.id, anker: p.anker, titel: p.titel })) };
   }),
 };
 
@@ -248,7 +251,40 @@ const engelsWaarschuwingen = [];
       }
     }
   }
-  console.log("Engels: " + vertaaldePaginas + " van de " + totaalPaginas + " leespagina's vertaald, " + engelsWaarschuwingen.length + " opmerkingen");
+  /* de vragenoverlay: zelfde gedachte, maar op id in plaats van op volgorde */
+  const bankEnDir = path.join(CONTENT, "bank-en");
+  const VRAAGVELDEN = ["stam", "opties", "uitleg"];
+  const UITLEGVELDEN = ["regel", "waarom", "valkuil", "onthoud"];
+  let vertaaldeVragen = 0, totaalVragen = 0;
+  for (const u of units) {
+    const bankFile = path.join(CONTENT, "bank", u.id + ".json");
+    if (!fs.existsSync(bankFile)) continue;
+    const vragen = readJson(bankFile).vragen.filter(q => !q.gegenereerd);
+    totaalVragen += vragen.length;
+    const f = path.join(bankEnDir, u.id + ".json");
+    if (!fs.existsSync(f)) continue;
+    const ov = readJson(f).vragen || {};
+    const opId = new Map(vragen.map(q => [q.id, q]));
+    for (const [id, v] of Object.entries(ov)) {
+      const q = opId.get(id);
+      if (!q) { engelsWaarschuwingen.push(id + " staat in bank-en maar niet in de Nederlandse bank"); continue; }
+      for (const k of Object.keys(v)) if (!VRAAGVELDEN.includes(k)) engelsWaarschuwingen.push(id + ": veld " + k + " hoort niet in een vraagvertaling");
+      for (const k of Object.keys(v.uitleg || {})) {
+        if (!UITLEGVELDEN.includes(k)) engelsWaarschuwingen.push(id + ": uitleg-veld " + k + " bestaat niet");
+        else if (q.uitleg[k] === undefined) engelsWaarschuwingen.push(id + ": uitleg-veld " + k + " bestaat niet in het Nederlands");
+      }
+      for (const oid of Object.keys(v.opties || {})) if (!(q.opties || []).some(o => o.id === oid)) engelsWaarschuwingen.push(id + ": optie " + oid + " bestaat niet in het Nederlands");
+      const nlTekst = [q.stam, ...(q.opties || []).map(o => o.tekst + " " + o.feedback), q.uitleg.regel, q.uitleg.waarom, q.uitleg.valkuil, q.uitleg.onthoud].filter(Boolean).join(" ");
+      const enTekst = [v.stam, ...Object.values(v.opties || {}).map(o => (o.tekst || "") + " " + (o.feedback || "")), ...UITLEGVELDEN.map(k => (v.uitleg || {})[k])].filter(Boolean).join(" ");
+      const ga = getallen(nlTekst), gb = getallen(enTekst);
+      if (gb.length && ga.join(",") !== gb.join(",")) engelsWaarschuwingen.push(id + ": andere getallen (" + ga.join(" ") + " tegen " + gb.join(" ") + ")");
+      const ca = codes(nlTekst), cb = codes(enTekst);
+      if (ca.join(",") !== cb.join(",")) engelsWaarschuwingen.push(id + ": andere bordcodes (" + ca.join(" ") + " tegen " + cb.join(" ") + ")");
+      if (v.stam && Object.keys(v.opties || {}).length === (q.opties || []).length && UITLEGVELDEN.every(k => q.uitleg[k] === undefined || (v.uitleg || {})[k])) vertaaldeVragen++;
+    }
+  }
+
+  console.log("Engels: " + vertaaldePaginas + " van de " + totaalPaginas + " leespagina's vertaald, " + vertaaldeVragen + " van de " + totaalVragen + " geschreven vragen vertaald, " + engelsWaarschuwingen.length + " opmerkingen");
   for (const w of engelsWaarschuwingen.slice(0, 12)) console.log("  " + w);
   if (engelsWaarschuwingen.length > 12) console.log("  en nog " + (engelsWaarschuwingen.length - 12));
 }
@@ -264,6 +300,7 @@ const precache = [
   "content/index.json", "content/signs/manifest.json",
   ...units.map(u => "content/units/" + u.id + ".json"),
   ...units.map(u => "content/units-en/" + u.id + ".json").filter(f => fs.existsSync(path.join(REPO, f))),
+  ...units.map(u => "content/bank-en/" + u.id + ".json").filter(f => fs.existsSync(path.join(REPO, f))),
   ...Object.values(bankFiles), ...Object.values(generatedFiles),
   ...(fs.existsSync(path.join(CONTENT, "scenes")) ? walk(path.join(CONTENT, "scenes")).map(rel) : []),
   "icons/icon-192.png", "icons/icon-512.png", "icons/icon-180.png", "icons/icon-maskable-512.png",

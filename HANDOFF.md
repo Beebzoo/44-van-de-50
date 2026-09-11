@@ -231,6 +231,50 @@ en de blokken waar je te traag bent. In een browser nagekeken met de examendatum
 op drie dagen vooruit.
 
 
+### De vragen kunnen nu ook Engels (11 september, avond)
+
+Martijn merkte dat de schil en de leespagina's wel van taal wisselen maar de
+vragen niet, en dat de taalknop in een quiz zelfs helemaal verdween. Allebei
+opgelost.
+
+**Het mechaniek.** Naast `content/units-en/` staat nu `content/bank-en/`, met
+per blok een bestand dat op **vraag-id** is gesleuteld en niet op volgorde, want
+id's liggen vast en de volgorde in de bank niet. Per vraag mag je `stam`,
+`opties` (op optie-id) en `uitleg` vertalen. Ontbreekt een veld, een vraag of een
+heel bestand, dan blijft daar gewoon het Nederlands staan, dus de app kan nooit
+een gat tonen. `content/index.json` draagt per blok een vlaggetje `vragenEn`, en
+de app haalt alleen op wat er echt is; zonder dat vlaggetje stond de console vol
+met vijftien 404's.
+
+**In de quiz mag je nu wisselen**, en een lopende ronde haakt zichzelf opnieuw
+aan de vertaalde vraag, dus de vraag op je scherm verandert meteen mee. In een
+**examen** blijft de taalknop weg: daar loopt een klok en de eerste keer
+overschakelen haalt nog bestanden op.
+
+`node _tools/build.js` telt hoeveel vragen een Engelse tweeling hebben en
+controleert dat de vertaling dezelfde getallen en dezelfde bordcodes draagt als
+het Nederlands, en dat elke vertaalde optie ook echt bestaat. Dat is dezelfde
+poort die de leespagina's al hadden.
+
+**Wat er vertaald is en wat het kost.** Blok 1 is klaar, 36 van de 601
+geschreven vragen. De rest is gemeten en niet geschat:
+
+- **601 geschreven vragen**, samen 6.981 velden en ongeveer 643.000 tekens, dus
+  zo'n 129.000 woorden. Dat is het echte werk, en het is het enige dat de quiz
+  van blok 1 tot en met 14 Engels maakt.
+- **522 gegenereerde bordvragen** komen uit twee sjablonen in `build.js` plus de
+  velden `betekenis` en `omschrijving` van 347 borden in het manifest. Die
+  vertalen is ongeveer 694 korte regels en dekt in een klap alle 522. Veruit de
+  goedkoopste helft, en nog niet gedaan.
+
+**De afspraak over vaktermen.** De Nederlandse term blijft tussen haakjes staan
+bij het eerste gebruik in een vraag, zoals de leespagina's het al deden:
+"a pedestrian (voetganger)", "giving way (voorrang verlenen)". Martijn doet het
+examen in het Nederlands, dus de woorden waarop het CBR toetst moeten hoe dan
+ook langskomen. Wie de rest vertaalt houdt die afspraak aan, en houdt ook de
+getallen en de bordcodes ongewijzigd, anders piept de bouw.
+
+
 ### Hoe de parallelle rondes werkten
 
 Schrijvers en checkers draaien naast elkaar, elk op een eigen blok, elk met

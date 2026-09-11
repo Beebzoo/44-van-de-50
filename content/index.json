@@ -1,5 +1,5 @@
 {
-  "versie": "9c06d72430",
+  "versie": "908ee4c12c",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -189,6 +189,7 @@
       "bestand": "content/units/U00.json",
       "bank": [],
       "aantalVragen": 0,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U00-P01",
@@ -219,6 +220,7 @@
         "content/bank/U01.json"
       ],
       "aantalVragen": 36,
+      "vragenEn": true,
       "paginas": [
         {
           "id": "U01-P01",
@@ -255,6 +257,7 @@
         "content/generated/U02-borden.json"
       ],
       "aantalVragen": 122,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U02-P01",
@@ -296,6 +299,7 @@
         "content/generated/U03-borden.json"
       ],
       "aantalVragen": 72,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U03-P01",
@@ -337,6 +341,7 @@
         "content/generated/U04-borden.json"
       ],
       "aantalVragen": 38,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U04-P01",
@@ -383,6 +388,7 @@
         "content/generated/U05-borden.json"
       ],
       "aantalVragen": 42,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U05-P01",
@@ -419,6 +425,7 @@
         "content/generated/U06-borden.json"
       ],
       "aantalVragen": 56,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U06-P01",
@@ -465,6 +472,7 @@
         "content/generated/U07-borden.json"
       ],
       "aantalVragen": 100,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U07-P01",
@@ -516,6 +524,7 @@
         "content/generated/U08-borden.json"
       ],
       "aantalVragen": 70,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U08-P01",
@@ -562,6 +571,7 @@
         "content/generated/U09-borden.json"
       ],
       "aantalVragen": 58,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U09-P01",
@@ -608,6 +618,7 @@
         "content/generated/U10-borden.json"
       ],
       "aantalVragen": 46,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U10-P01",
@@ -653,6 +664,7 @@
         "content/bank/U11.json"
       ],
       "aantalVragen": 36,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U11-P01",
@@ -698,6 +710,7 @@
         "content/bank/U12.json"
       ],
       "aantalVragen": 36,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U12-P01",
@@ -743,6 +756,7 @@
         "content/bank/U13.json"
       ],
       "aantalVragen": 36,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U13-P01",
@@ -789,6 +803,7 @@
         "content/generated/U14-borden.json"
       ],
       "aantalVragen": 67,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U14-P01",
@@ -840,6 +855,7 @@
         "content/generated/U15-borden.json"
       ],
       "aantalVragen": 308,
+      "vragenEn": false,
       "paginas": [
         {
           "id": "U15-P01",

@@ -18,7 +18,7 @@ import { remwegSvg } from "./diagram.js";
 
 const app = document.getElementById("app");
 const S = {
-  route: { name: "route" }, index: null, units: [], unitsNl: [], vertalingen: null, unitById: {}, bank: {}, qById: {}, pools: {}, scenes: {},
+  route: { name: "route" }, index: null, units: [], unitsNl: [], vertalingen: null, vragenEn: null, unitById: {}, bankNl: {}, bank: {}, qById: {}, pools: {}, scenes: {},
   attempts: [], history: new Map(), states: {}, settings: {}, boxes: new Map(),
   run: null, sheet: null, viewer: null, toast: null, gemeld: new Set(), familie: null, lezenStart: null, zojuistGehaald: null,
 };
@@ -56,16 +56,15 @@ async function boot() {
   await loadSigns();
   const units = await Promise.all(S.index.units.map(u => fetch(u.bestand).then(r => r.json())));
   S.unitsNl = units.sort((a, b) => a.volgorde - b.volgorde);
+  await Promise.all(S.index.units.map(async u => {
+    S.bankNl[u.id] = [];
+    for (const f of u.bank) { const b = await fetch(f).then(r => r.json()); S.bankNl[u.id].push(...b.vragen); }
+  }));
   await laadVertalingen();
   pasTaalToe();
-  await Promise.all(S.index.units.map(async u => {
-    S.bank[u.id] = [];
-    for (const f of u.bank) { const b = await fetch(f).then(r => r.json()); S.bank[u.id].push(...b.vragen); }
-  }));
-  for (const qs of Object.values(S.bank)) for (const q of qs) S.qById[q.id] = q;
   await Promise.all((S.index.scenes || []).map(async id => { S.scenes[id] = await fetch("content/scenes/" + id + ".json").then(r => r.json()); }));
   setScenes(S.scenes);
-  for (const u of S.units) S.pools[u.id] = (S.bank[u.id] || []).filter(q => !q.reserve && Q.SUPPORTED.has(q.type)).map(q => q.id);
+  for (const u of S.units) S.pools[u.id] = (S.bankNl[u.id] || []).filter(q => !q.reserve && Q.SUPPORTED.has(q.type)).map(q => q.id);
   await refresh();
   registerSw();
   /* the sync never blocks: it runs after the first paint, on reconnect, and after every attempt */
@@ -83,12 +82,34 @@ async function boot() {
    Nederlands staan, dus de app kan nooit leeg vallen. */
 async function laadVertalingen() {
   if (!isEngels() || S.vertalingen) return;
-  const uit = {};
+  const uit = {}, vragen = {};
   await Promise.all(S.index.units.map(async u => {
     try { const r = await fetch("content/units-en/" + u.id + ".json"); uit[u.id] = r.ok ? await r.json() : null; }
     catch (e) { uit[u.id] = null; }
+    /* alleen ophalen waar de index zegt dat er iets te halen valt */
+    if (!u.vragenEn) return;
+    try {
+      const r = await fetch("content/bank-en/" + u.id + ".json");
+      if (r.ok) { const j = await r.json(); for (const [id, v] of Object.entries(j.vragen || {})) vragen[id] = v; }
+    } catch (e) { /* een blok zonder vertaalde vragen blijft gewoon Nederlands */ }
   }));
   S.vertalingen = uit;
+  S.vragenEn = vragen;
+}
+
+/* De Engelse vraag is een overlay op de Nederlandse, op id en niet op volgorde,
+   want id's liggen vast en de volgorde in de bank niet. Ontbreekt een veld of
+   een hele vraag, dan blijft het Nederlands staan: de app toont nooit een gat.
+
+   Wat met opzet Nederlands blijft in allebei de talen is de bordcode zelf en
+   alles wat de tekening laat zien, want dat is wat je op de dag voor je hebt. */
+function voegSamenVraag(q, ov) {
+  if (!ov) return q;
+  const opties = (q.opties || []).map(o => {
+    const oo = ov.opties && ov.opties[o.id];
+    return oo ? { ...o, ...oo } : o;
+  });
+  return { ...q, stam: ov.stam || q.stam, opties, uitleg: { ...q.uitleg, ...(ov.uitleg || {}) }, vertaald: true };
 }
 function voegSamen(u, ov) {
   if (!ov) return u;
@@ -104,9 +125,19 @@ function voegSamen(u, ov) {
   return { ...u, titel: ov.titel || u.titel, intro: ov.intro || u.intro, paginas };
 }
 function pasTaalToe() {
-  S.units = isEngels() && S.vertalingen ? S.unitsNl.map(u => voegSamen(u, S.vertalingen[u.id])) : S.unitsNl;
+  const en = isEngels();
+  S.units = en && S.vertalingen ? S.unitsNl.map(u => voegSamen(u, S.vertalingen[u.id])) : S.unitsNl;
   S.unitById = {};
   for (const u of S.units) S.unitById[u.id] = u;
+  S.bank = {};
+  S.qById = {};
+  for (const [id, vragen] of Object.entries(S.bankNl)) {
+    S.bank[id] = en && S.vragenEn ? vragen.map(q => voegSamenVraag(q, S.vragenEn[q.id])) : vragen;
+    for (const q of S.bank[id]) S.qById[q.id] = q;
+  }
+  /* een lopende ronde wijst naar de oude vraagobjecten, dus haak die opnieuw
+     aan, anders blijft de vraag op je scherm in de oude taal staan */
+  if (S.run) for (const it of S.run.items) if (S.qById[it.q.id]) it.q = S.qById[it.q.id];
 }
 async function refresh() {
   S.attempts = await store.allAttempts();
@@ -191,6 +222,9 @@ const ONDERWERP_NL = {
   wetgeving: "Wetgeving",
   voertuigkennis: "Voertuigkennis",
 };
+/* De feedback opent met Goed of Fout, en in het Engels met Correct of Wrong.
+   Het uitlegpaneel zegt zelf al of het goed was, dus dat woord gaat eraf. */
+const VOORVOEGSEL = /^(Goed|Fout|Correct|Wrong)[.,:]?\s*/i;
 const onderwerpNaam = k => t(ONDERWERP_NL[k] || k);
 
 /* ==== het oefenexamen ====
@@ -588,7 +622,7 @@ const SCREENS = {
       uitleg = `<section class="uitleg" aria-live="polite"><span class="staat ${r.goed && !r.twijfel ? "goed" : ""}">${esc(r.goed ? (r.twijfel ? t("Goed, maar getwijfeld") : t("Goed")) : t("Nog niet"))}</span>
         <h2 class="kop2">${esc(t("Waarom"))}</h2><p class="lees">${esc(u2.waarom)}</p>
         <div class="blokje lees"><span class="label">${esc(t("Regel"))}</span>${esc(u2.regel)}</div>
-        ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">${esc(t("De juiste volgorde"))}</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(/^(Goed|Fout)[.,:]?\s*/i, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type === "invul" ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(String(q.correct.getal).replace(".", ","))} ${esc(q.correct.eenheid)}</div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(goedOptie.feedback.replace(/^Goed[.,:]?\s*/i, ""))}</div>` : ""}
+        ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">${esc(t("De juiste volgorde"))}</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(VOORVOEGSEL, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type === "invul" ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(String(q.correct.getal).replace(".", ","))} ${esc(q.correct.eenheid)}</div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(goedOptie.feedback.replace(VOORVOEGSEL, ""))}</div>` : ""}
         <div class="blokje lees"><span class="label">${esc(t("Valkuil"))}</span>${esc(u2.valkuil)}</div>
         ${u2.onthoud ? `<div class="onthoud"><span class="label">${esc(t("Onthoud"))}</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
@@ -602,7 +636,10 @@ const SCREENS = {
         ? `<div class="rij"><button class="knop omlijnd" data-actie="examen-ga" data-n="${run.i - 1}" ${run.i === 0 ? "disabled" : ""} aria-label="${esc(t("Vorige vraag"))}">${I.terug}</button><button class="knop primair groot" data-actie="examen-ga" data-n="${run.i + 1}">${esc(run.i + 1 >= n ? t("Naar het overzicht") : t("Volgende"))}<span class="pijl">${I.pijl}</span></button></div>`
         : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> ${esc(t("Twijfel"))}</label><button class="knop primair groot" data-actie="controleer" ${Q.ready(run) ? "" : "disabled"}>${esc(t("Controleer"))}</button></div>`;
     const naam = run.examen ? t("Oefenexamen") : run.soort === "quiz" ? t("Quiz") : run.soort === "herhaling" ? t("Herhaling") : run.ref === "fouten" ? t("Fouten oefenen") : t("Herstelronde");
-    return { titel: naam, terug: run.examen ? "#/examen" : u ? "#/blok/" + u.id : "#/route", sluit: true, midden: esc(t("{naam} · vraag {i} van {n}", { naam, i: run.i + 1, n })), body, onder, baan: true, taal: false };
+    /* In een quiz mag je van taal wisselen, want dat is alleen een ander woord
+       voor dezelfde vraag. In een examen niet: daar loopt een klok, en de
+       eerste keer overschakelen haalt nog bestanden op. */
+    return { titel: naam, terug: run.examen ? "#/examen" : u ? "#/blok/" + u.id : "#/route", sluit: true, midden: esc(t("{naam} · vraag {i} van {n}", { naam, i: run.i + 1, n })), body, onder, baan: true, taal: run.examen ? false : undefined };
   },
   gehaald() {
     const u = S.unitById[S.route.unit];

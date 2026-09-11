@@ -1,0 +1,518 @@
+{
+  "unit": "U01",
+  "$comment": "English twin of the written questions in content/bank/U01.json, keyed by question id. Dutch legal terms stay in brackets on first use, because the exam itself is sat in Dutch and those are the words it tests.",
+  "vragen": {
+    "U01-Q001": {
+      "stam": "You get off your bicycle and push it by hand across the zebra crossing to the other side. Are you a pedestrian (voetganger) at that moment?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Correct, anyone on foot wheeling a bicycle by hand falls under the rules for pedestrians and may therefore use the zebra crossing as a pedestrian." },
+        "nee": { "tekst": "No", "feedback": "Wrong, the bicycle does not make you a cyclist: the moment you walk and wheel it by hand, the rules for pedestrians apply to you." }
+      },
+      "uitleg": {
+        "regel": "The rules for pedestrians also apply to people who wheel a motorcycle, moped, light moped or bicycle by hand on foot.",
+        "waarom": "The law looks at how you move, walking or riding, and not at what you happen to have with you.",
+        "valkuil": "You think: I have a bicycle with me, so I am a cyclist. Walking with the bicycle by hand you are a pedestrian.",
+        "onthoud": "Walking with something by hand: pedestrian."
+      }
+    },
+    "U01-Q002": {
+      "stam": "A man walks along a country road leading his horse by the reins. Under traffic law, is he a pedestrian (voetganger)?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, it seems logical because he is walking, but under the law people leading animals are drivers (bestuurders) and not pedestrians." },
+        "nee": { "tekst": "No", "feedback": "Correct, riders and people leading riding animals, draught animals or cattle are not pedestrians under traffic law but drivers, even though they walk." }
+      },
+      "uitleg": {
+        "regel": "Riders and people leading riding animals, draught animals or cattle are not pedestrians under traffic law but drivers (bestuurders).",
+        "waarom": "An animal on a rein takes up space and behaves on the road like a vehicle rather than like a walker, so the law treats the handler as a driver.",
+        "valkuil": "Walking with a bicycle by hand makes you a pedestrian, but walking with a horse by hand makes you a driver.",
+        "onthoud": "Animal by hand: driver."
+      }
+    },
+    "U01-Q003": {
+      "stam": "During your driving lesson you are behind the wheel of the lesson car and your instructor is sitting beside you. Who counts as the driver (bestuurder) of a motor vehicle under the law?",
+      "opties": {
+        "a": { "tekst": "Only you, because you work the wheel and the pedals.", "feedback": "Wrong, that seems logical, but the law also counts whoever gives the driving lesson among the drivers of motor vehicles, so your instructor counts too." },
+        "b": { "tekst": "You and your instructor, both of you.", "feedback": "Correct, a driver of a motor vehicle is anyone who drives a motor vehicle themselves, gives a driving lesson or conducts a driving test, so that is both of you." },
+        "c": { "tekst": "Only your instructor, because he is responsible.", "feedback": "Wrong, your instructor is indeed a driver, but you are driving the motor vehicle yourself and are therefore a driver as well." }
+      },
+      "uitleg": {
+        "regel": "Drivers of motor vehicles are anyone who drives a motor vehicle themselves, gives a driving lesson or conducts a driving test.",
+        "waarom": "In the lesson car the instructor and the examiner carry part of the responsibility, which is why the rules for drivers apply to them too.",
+        "valkuil": "You assume that only the person with their hands on the wheel is the driver.",
+        "onthoud": "Steering, teaching or examining: all three are drivers."
+      }
+    },
+    "U01-Q004": {
+      "stam": "Ahead of you is a brommobiel: a small vehicle with an enclosed body and a yellow number plate. Under the law, is a brommobiel a motor vehicle (motorvoertuig)?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, a brommobiel looks like a small passenger car and follows the rules for motor vehicles, but by definition it is a moped on more than two wheels." },
+        "nee": { "tekst": "No", "feedback": "Correct, a brommobiel is a moped (bromfiets) on more than two wheels with an enclosed body, and mopeds are not motor vehicles." }
+      },
+      "uitleg": {
+        "regel": "A brommobiel is a moped on more than two wheels fitted with an enclosed body. Mopeds are excluded from the motor vehicles.",
+        "waarom": "The law sorts vehicles by how they are built and how fast they go, and a brommobiel is built as a moped with a roof around it.",
+        "valkuil": "Brommobielen follow the rules for motor vehicles, so you assume they are motor vehicles. They follow the rules, but they belong with the mopeds.",
+        "onthoud": "Brommobiel: a moped with a roof."
+      }
+    },
+    "U01-Q005": {
+      "stam": "By which number plate at the rear do you recognise a light moped (snorfiets)?",
+      "opties": {
+        "a": { "tekst": "A yellow number plate.", "feedback": "Wrong, a yellow plate belongs to a moped, a brommobiel or a fast e-bike, not to a light moped." },
+        "b": { "tekst": "A blue number plate.", "feedback": "Correct, a light moped is a moped that cannot go faster than 25 km/u and carries a blue number plate at the rear." },
+        "c": { "tekst": "A light blue number plate.", "feedback": "Wrong, light blue looks like blue, but the light blue plate belongs to a special moped such as a Segway." }
+      },
+      "uitleg": {
+        "regel": "A light moped (snorfiets) is a moped whose construction prevents it from going faster than 25 km/u, fitted at the rear with a blue number plate.",
+        "waarom": "The colour of the plate tells you at a glance what speed to expect from the vehicle in front of you.",
+        "valkuil": "Yellow and blue often get swapped: yellow is the faster moped, blue the slower light moped.",
+        "onthoud": "Blue is snor, yellow is brom."
+      }
+    },
+    "U01-Q006": {
+      "stam": "The law excludes a number of motorised vehicles from the notion of a motor vehicle. Which of these are not motor vehicles under the law?",
+      "opties": {
+        "a": { "tekst": "A tram.", "feedback": "Correct, the tram runs on rails and is expressly excluded from the motor vehicles." },
+        "b": { "tekst": "A bicycle with pedal assistance.", "feedback": "Correct, a bicycle with pedal assistance is excluded, even though it has a motor in it." },
+        "c": { "tekst": "A moped.", "feedback": "Correct, mopeds are powered vehicles (motorrijtuigen) but not motor vehicles (motorvoertuigen)." },
+        "d": { "tekst": "A disability vehicle.", "feedback": "Correct, disability vehicles are excluded from the motor vehicles, with or without a motor." },
+        "e": { "tekst": "A motorcycle with a sidecar.", "feedback": "Wrong, a motorcycle is a motor vehicle on two wheels, with or without a sidecar, and therefore is a motor vehicle." },
+        "f": { "tekst": "A lorry.", "feedback": "Wrong, a lorry is simply a motor vehicle, only one that is not fitted out for carrying people." }
+      },
+      "uitleg": {
+        "regel": "Motor vehicles are all vehicles driven by a motor, except trams, bicycles with pedal assistance, mopeds and disability vehicles.",
+        "waarom": "These four groups have their own rules and their own place on the road, which is why the law puts them outside the motor vehicles.",
+        "valkuil": "A motor in it does not yet make it a motor vehicle; remember the four exceptions.",
+        "onthoud": "Four exceptions: tram, e-bike, moped, disability vehicle."
+      }
+    },
+    "U01-Q007": {
+      "stam": "You are driving on the motorway and pull into a filling station beside the road to refuel. Does the filling station site form part of the motorway (autosnelweg)?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, you got there via the motorway, but car parks, filling stations and bus stops along motorways form no part of it." },
+        "nee": { "tekst": "No", "feedback": "Correct, the car parks, filling stations and bus stops situated along motorways form no part of the motorway." }
+      },
+      "uitleg": {
+        "regel": "A motorway is a road indicated by sign [G1]. The car parks, filling stations and bus stops situated along motorways form no part of the motorway.",
+        "waarom": "On such a site people stop, park and walk about, and that does not fit the rules that apply on the motorway itself.",
+        "valkuil": "You assume everything after sign [G1] is motorway until you see sign [G2]. The sites beside it do not belong to it.",
+        "onthoud": "Filling station and car park: beside the motorway, not on it."
+      }
+    },
+    "U01-Q008": {
+      "stam": "To the right of your lane is a red area on the carriageway with the word BUS in white letters. Who may use this part of the carriageway?",
+      "opties": {
+        "a": { "tekst": "Scheduled buses only.", "feedback": "Wrong, scheduled buses only would be right if it said LIJNBUS; where the word is BUS, other buses may use it as well." },
+        "b": { "tekst": "Buses and scheduled buses.", "feedback": "Correct, the word BUS means that both coaches and scheduled buses may use it." },
+        "c": { "tekst": "Every driver who wants to turn right.", "feedback": "Wrong, a bus lane is not an ordinary lane; only buses may use it, and sometimes taxis with a special exemption." }
+      },
+      "uitleg": {
+        "regel": "The word BUS means that both coaches and scheduled buses may use it. The word LIJNBUS means that only scheduled buses may.",
+        "waarom": "The wording on the road surface tells you exactly which group may use the lane, so you do not have to guess.",
+        "valkuil": "BUS and LIJNBUS look the same, but LIJNBUS shuts out coaches and other buses.",
+        "onthoud": "BUS: all buses. LIJNBUS: the scheduled service only."
+      }
+    },
+    "U01-Q009": {
+      "stam": "Besides the ordinary lanes, a road has other parts. Which of these parts belong to the carriageway (rijbaan) under the law?",
+      "opties": {
+        "a": { "tekst": "A traffic lane.", "feedback": "Correct, a traffic lane is a part of the carriageway marked out by lines." },
+        "b": { "tekst": "A cycle strip.", "feedback": "Correct, a cycle strip (fietsstrook) is part of the carriageway, marked with lines and bicycle symbols." },
+        "c": { "tekst": "A cycle path.", "feedback": "Wrong, a cycle path (fietspad) lies apart from the carriageway; the carriageway is every part of the road meant for moving vehicles with the exception of cycle paths." },
+        "d": { "tekst": "A bus strip.", "feedback": "Correct, a bus strip (busstrook) is a marked part of the carriageway, unlike a bus lane (busbaan) which lies apart." },
+        "e": { "tekst": "A cycle and moped path.", "feedback": "Wrong, the cycle and moped path is expressly excluded from the carriageway just as the cycle path is." }
+      },
+      "uitleg": {
+        "regel": "The carriageway is every part of the road intended for moving vehicles, with the exception of cycle paths and cycle and moped paths.",
+        "waarom": "Cycle paths lie apart from the rest of the traffic, while a cycle strip and a bus strip are only marked out with lines on that same carriageway.",
+        "valkuil": "Strip and path sound alike: a cycle strip or bus strip lies on the carriageway, a cycle path lies beside it.",
+        "onthoud": "Strip on the carriageway, path beside it."
+      }
+    },
+    "U01-Q010": {
+      "stam": "Your girlfriend is still in the shop. You pull up at the kerb and wait behind the wheel with the engine running until she comes out. Under the law, is this parking?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Correct, waiting for someone to come out is not immediate boarding; you leave the car standing longer than that requires, and that is parking, even with you behind the wheel." },
+        "nee": { "tekst": "No", "feedback": "Wrong, you are behind the wheel with the engine running, but the exception only covers the time needed for passengers to get in or out immediately; waiting falls outside it and is therefore parking." }
+      },
+      "uitleg": {
+        "regel": "Parking is leaving a vehicle standing other than for the time needed and used for passengers to get in or out immediately, or for goods to be loaded or unloaded immediately.",
+        "waarom": "The exception exists only for the moment of getting in or out itself; anyone who waits is using the standstill for something else and is therefore parked, whether the engine runs or not.",
+        "valkuil": "You think: I am sitting in it and the engine is running, so I am not parked. The definition looks only at what the standstill is used for, not at whether you are in the car.",
+        "onthoud": "Waiting is not immediate boarding: parking."
+      }
+    },
+    "U01-Q011": {
+      "stam": "You are driving on a quiet road inside the built-up area, with no cycle strip. How do you keep to the right correctly under the law?",
+      "opties": {
+        "a": { "tekst": "As close to the kerb as possible, because you have to keep as far right as you can.", "feedback": "Wrong, you do have to keep as far right as possible, but as safely as possible too; riding tight along the kerb is not safe, so you hold a reasonable distance." },
+        "b": { "tekst": "As far right as possible, but a reasonable distance from the kerb.", "feedback": "Correct, you are required to keep as far right as possible, but as safely as possible, which is why you drive a reasonable distance from kerb or verge." },
+        "c": { "tekst": "In the middle of the carriageway, so that you keep room on both sides.", "feedback": "Wrong, you are required to keep as far right as possible, and the middle of the carriageway is not that; only the distance to the kerb may be a little wider for safety." }
+      },
+      "uitleg": {
+        "regel": "You are required to keep as far right as possible, but as safely as possible. So drive a reasonable distance from kerb or verge.",
+        "waarom": "Keeping right leaves room for oncoming traffic and overtakers, but anyone driving tight along the kerb or verge has no room left to swerve themselves; that is why a reasonable distance belongs to the rule.",
+        "valkuil": "You read as far right as possible as as far to the right as you can get. The law adds: as safely as possible.",
+        "onthoud": "Keep right, at a reasonable distance from kerb or verge."
+      }
+    },
+    "U01-Q012": {
+      "stam": "There are people you must always give way to in traffic. Who does that apply to?",
+      "opties": {
+        "a": { "tekst": "Blind people with a white cane.", "feedback": "Correct, blind people with a white cane must always be given way to in traffic." },
+        "b": { "tekst": "People who have difficulty moving about.", "feedback": "Correct, people who have difficulty moving about must always be given way to in traffic." },
+        "c": { "tekst": "Anyone in a wheelchair.", "feedback": "Wrong, someone in a wheelchair is not by definition a person who has difficulty moving about, so the rule does not apply automatically." },
+        "d": { "tekst": "Children walking to school.", "feedback": "Wrong, children deserve your attention, but the law names only blind people with a cane and people who have difficulty moving about." }
+      },
+      "uitleg": {
+        "regel": "These people must always be given way to in traffic: blind people with a white cane and people who have difficulty moving about.",
+        "waarom": "These people cannot react or swerve quickly, which is why the law puts the duty to wait entirely on you.",
+        "valkuil": "You assume a wheelchair always means someone has difficulty moving about. Look at the person, not at the aid.",
+        "onthoud": "Cane and difficulty walking: always let them go first."
+      }
+    },
+    "U01-Q013": {
+      "stam": "You are driving a mobility scooter slowly along the pavement, among the shoppers. Do the rules for pedestrians now apply to you?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Correct, the driver of a disability vehicle on the footway or the pavement falls under the rules for pedestrians, and may not go faster than 6 km/u there." },
+        "nee": { "tekst": "No", "feedback": "Wrong, you are in a vehicle, but on the pavement the rules for pedestrians apply to a disability vehicle." }
+      },
+      "uitleg": {
+        "regel": "The rules for pedestrians also apply to drivers of a disability vehicle (gehandicaptenvoertuig) on the footway or the pavement, and when they cross from or to a footway or pavement. They may then go no faster than 6 km/u.",
+        "waarom": "On the pavement you move among pedestrians, and then it is safer if the same rules and the same pace apply to everyone there.",
+        "valkuil": "You think: a vehicle with a driver, so the rules for drivers. On the pavement the law looks at the place, not at the vehicle.",
+        "onthoud": "Mobility scooter on the pavement: pedestrian, 6 km/u at most."
+      }
+    },
+    "U01-Q014": {
+      "stam": "A residential street is closed to motor vehicles by a prohibition sign, with a plate underneath reading uitgezonderd bestemmingsverkeer. Who may enter the street with a motor vehicle?",
+      "opties": {
+        "a": { "tekst": "Residents of this street only.", "feedback": "Wrong, the law does not speak of residents but of drivers who can only reach their destination by this road; that goes just as much for anyone visiting, and scheduled buses always fall under it." },
+        "b": { "tekst": "Drivers who can only reach their destination by this street, and scheduled buses.", "feedback": "Correct, destination traffic means drivers who can only reach their destination via the closed road, and scheduled buses fall under it too." },
+        "c": { "tekst": "Anyone using the street as a shortcut to their destination.", "feedback": "Wrong, a shortcut is exactly the rat running this exception aims to prevent; you must be able to reach your destination only by this road." }
+      },
+      "uitleg": {
+        "regel": "Destination traffic (bestemmingsverkeer) means drivers who can only reach their destination via a road closed by a prohibition sign to certain categories of driver. Scheduled buses also fall under destination traffic.",
+        "waarom": "Such a closure with an exception is often used to keep out rat running, while anyone who really has to be there can still get in.",
+        "valkuil": "You read destination traffic as residents. It is about everyone who has to be there, plus the scheduled bus.",
+        "onthoud": "Destination traffic: has to be there and cannot go round it."
+      }
+    },
+    "U01-Q015": {
+      "stam": "On a country road you meet various road users. Which of them are drivers (bestuurders) under the law?",
+      "opties": {
+        "a": { "tekst": "A rider on horseback.", "feedback": "Correct, riders are road users and not pedestrians, and therefore drivers." },
+        "b": { "tekst": "Someone pushing a pram.", "feedback": "Wrong, anyone on foot wheeling a small conveyance such as a pram simply stays a pedestrian." },
+        "c": { "tekst": "A farmer leading his cows along the road.", "feedback": "Correct, people leading cattle are not pedestrians under traffic law but drivers." },
+        "d": { "tekst": "A skateboarder.", "feedback": "Wrong, the rules for pedestrians apply to roller skaters and skateboarders, even though they are on wheels." },
+        "e": { "tekst": "The driver of a horse-drawn cart.", "feedback": "Correct, drivers of a drawn or undrawn cart are listed among the road users in the law and are drivers." }
+      },
+      "uitleg": {
+        "regel": "Drivers are all road users except pedestrians. Riders, people leading riding animals, draught animals or cattle and drivers of a drawn or undrawn cart are road users, and not pedestrians.",
+        "waarom": "Anyone handling an animal or a cart takes up space and moves like a vehicle, and therefore belongs with the drivers.",
+        "valkuil": "Walking does not automatically mean pedestrian: with a pram it does, with a cow it does not.",
+        "onthoud": "Pedestrian: on foot, with a small conveyance or a bicycle by hand. Anything with an animal or a cart: driver."
+      }
+    },
+    "U01-Q016": {
+      "stam": "A colleague comes to work every day on a fast electric bicycle, assisted up to 45 km/u. Under the law, does this vehicle count as a moped (bromfiets)?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Correct, a fast electric bicycle is regarded as a moped, with a yellow number plate, a helmet and an AM licence." },
+        "nee": { "tekst": "No", "feedback": "Wrong, it is indeed a bicycle with pedals, but the assistance up to 45 km/u makes it count as a moped and not as a bicycle." }
+      },
+      "uitleg": {
+        "regel": "A cargo moped and a fast electric bicycle are regarded as mopeds too. The same rules apply to this fast e-bike as to a moped.",
+        "waarom": "With assistance up to 45 km/u such a bicycle goes as fast as a moped, and then the duties of a moped come with it.",
+        "valkuil": "Pedals and a saddle do not make it a bicycle; the speed decides the category. An ordinary e-bike with pedal assistance does stay a bicycle.",
+        "onthoud": "Fast e-bike: a moped with pedals."
+      }
+    },
+    "U01-Q017": {
+      "stam": "An elderly neighbour rides a mobility scooter along the carriageway to the supermarket. Which category does her mobility scooter fall under?",
+      "opties": {
+        "a": { "tekst": "Moped.", "feedback": "Wrong, a mobility scooter does have a motor, but a disability vehicle is not regarded as a moped." },
+        "b": { "tekst": "Disability vehicle.", "feedback": "Correct, a mobility scooter is a disability vehicle: fitted out for carrying a disabled person and no wider than 1,10 meter." },
+        "c": { "tekst": "Motor vehicle.", "feedback": "Wrong, disability vehicles are excluded from the motor vehicles, even though this one is on the carriageway." },
+        "d": { "tekst": "Special moped.", "feedback": "Wrong, special mopeds are vehicles with an RDW type approval such as the Segway; a mobility scooter does not belong there." }
+      },
+      "uitleg": {
+        "regel": "A disability vehicle is a vehicle with or without a motor fitted out for carrying a disabled person, no wider than 1,10 meter and, with a motor, capable of no more than 45 km/u. A mobility scooter is a disability vehicle.",
+        "waarom": "A mobility scooter has a motor and therefore looks like a moped, but the law sets vehicles for disabled people apart so that their own rules can apply, such as the pedestrian rules on the pavement.",
+        "valkuil": "You see a motor and think moped or motor vehicle. The use by a disabled person makes it a category of its own.",
+        "onthoud": "Mobility scooter: disability vehicle, not a moped."
+      }
+    },
+    "U01-Q018": {
+      "stam": "You are learning the definition of a moped (bromfiets). Which features belong to a moped under the law?",
+      "opties": {
+        "a": { "tekst": "Built for a speed of no more than 45 km/u.", "feedback": "Correct, a moped is built for a speed of no more than 45 km/u." },
+        "b": { "tekst": "A combustion engine of at most 50 cm³ or an electric motor of at most 4 kW.", "feedback": "Correct, the drive is a combustion engine of at most 50 cm³ or an electric motor of at most 4 kW." },
+        "c": { "tekst": "A yellow number plate at the rear.", "feedback": "Correct, you recognise mopeds by the yellow number plate at the rear." },
+        "d": { "tekst": "A blue number plate at the rear.", "feedback": "Wrong, blue is the colour of the light moped; the moped has a yellow plate." },
+        "e": { "tekst": "Always exactly two wheels.", "feedback": "Wrong, a moped can have two, three or four wheels; a brommobiel, for instance, is a moped on more than two wheels." }
+      },
+      "uitleg": {
+        "regel": "A moped is a vehicle on two, three or four wheels built for a speed of no more than 45 km/u and driven by a combustion engine of at most 50 cm³ or an electric motor of at most 4 kW.",
+        "waarom": "Speed, engine capacity and power can all be measured, and with those the law can draw a sharp line around what is and is not a moped.",
+        "valkuil": "You picture the classic two-wheeled moped, but the cargo moped, the fast e-bike and the brommobiel are mopeds too.",
+        "onthoud": "Moped: 45, yellow, two to four wheels."
+      }
+    },
+    "U01-Q019": {
+      "stam": "On a road inside the built-up area you see a part of the carriageway ahead marked with diagonal white stripes. A wide lorry is coming the other way. May you drive over those stripes to give him more room?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, giving room sounds safe, but this is a hatched area and you may not drive on it; only on a rush-hour lane, or lawfully on a bus lane or bus strip, is there an exception." },
+        "nee": { "tekst": "No", "feedback": "Correct, a part of the carriageway with diagonal stripes is a hatched area (verdrijvingsvlak), and you may not drive on it." }
+      },
+      "uitleg": {
+        "regel": "A hatched area is a part of the carriageway marked with diagonal stripes. You may not drive on it, except when you are on a rush-hour lane or lawfully following a bus lane or bus strip.",
+        "waarom": "The stripes are there precisely to keep traffic off that piece of road, for instance at a narrowing or a fork, so that everyone follows the same line.",
+        "valkuil": "You see plain asphalt with stripes and assume you may cross it in an emergency. Apart from a rush-hour lane or lawfully following a bus lane or bus strip there are no exceptions.",
+        "onthoud": "Diagonal stripes: do not drive on them."
+      }
+    },
+    "U01-Q020": {
+      "stam": "You are on the through carriageway of a motorway. To your right is a strip separated by block markings, with a car on it heading for the exit. What is that strip called?",
+      "opties": {
+        "a": { "tekst": "An acceleration lane.", "feedback": "Wrong, an acceleration lane is also separated by block markings, but it is meant for drivers who want to join the through carriageway, not leave it." },
+        "b": { "tekst": "A deceleration lane.", "feedback": "Correct, a deceleration lane (uitrijstrook) is separated by block markings and meant for drivers who want to leave the through carriageway." },
+        "c": { "tekst": "A hard shoulder.", "feedback": "Wrong, a hard shoulder is separated by a continuous line and meant for emergencies only, not for leaving the road." },
+        "d": { "tekst": "A rush-hour lane.", "feedback": "Wrong, a rush-hour lane is the hard shoulder used as an extra traffic lane during the rush hour; that is not a strip leading to an exit." }
+      },
+      "uitleg": {
+        "regel": "A deceleration lane is separated by block markings and is meant for drivers who want to leave the through carriageway.",
+        "waarom": "The block markings show you from a distance that you can leave the carriageway here without disturbing the through traffic.",
+        "valkuil": "Acceleration lane and deceleration lane look the same; watch the direction: onto it is joining, off it is leaving.",
+        "onthoud": "Block markings: onto it to join, off it to leave."
+      }
+    },
+    "U01-Q021": {
+      "stam": "In the rush hour you are on a motorway where a narrow extra lane has been opened on the left, a plusstrook. Does the hard shoulder on the right stay available for emergencies?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Correct, with a plusstrook on the left the hard shoulder on the right stays available for breakdowns and emergencies; that is exactly its advantage." },
+        "nee": { "tekst": "No", "feedback": "Wrong, you are confusing the plusstrook with the rush-hour lane on the right: only with a rush-hour lane on the right is the hard shoulder in use as a traffic lane." }
+      },
+      "uitleg": {
+        "regel": "When an extra lane is laid on the left for better flow at busy times, that is called a plusstrook. The drawback is that it is narrower than the normal lanes, the advantage that the hard shoulder on the right stays available.",
+        "waarom": "A rush-hour lane on the right takes over the hard shoulder, a plusstrook on the left does not, which is why only with a plusstrook do you still have a safe place if you break down.",
+        "valkuil": "Rush-hour lane and plusstrook get mixed up. Right: hard shoulder gone. Left: hard shoulder stays.",
+        "onthoud": "Plusstrook on the left, hard shoulder stays."
+      }
+    },
+    "U01-Q022": {
+      "stam": "At a T junction a scheduled bus approaches from the left along the priority road. You brake so late that the driver has to swerve, though you do come to a stop before the shark's teeth. Have you given way?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, you did stop, but giving way means letting the other continue on their way unhindered; the bus had to swerve, so you hindered it." },
+        "nee": { "tekst": "No", "feedback": "Correct, giving way means the driver concerned can continue on their way unhindered, and that did not happen here." }
+      },
+      "uitleg": {
+        "regel": "Giving way (voorrang verlenen) means letting the driver concerned continue on their way unhindered. So make sure you brake in time and stop in the right place.",
+        "waarom": "A bus driver who has to swerve or gets a fright has been hindered, and whether you end up standing still makes no difference to that any more.",
+        "valkuil": "You assume that stopping before the shark's teeth is enough. It is about what the other notices of you, and that starts the moment you brake.",
+        "onthoud": "Braking too late is not giving way."
+      }
+    },
+    "U01-Q023": {
+      "stam": "Your car will not start and a friend tows you to the garage with a tow rope. Which rule applies when towing?",
+      "opties": {
+        "a": { "tekst": "The distance between the rear of the towing car and the front of your car may be no more than 5 meter.", "feedback": "Correct, it is forbidden to tow another motor vehicle if the distance between the two vehicles is more than 5 meter." },
+        "b": { "tekst": "A red flag must hang from the tow rope.", "feedback": "Wrong, many people hang a flag from the rope, but a red flag is not compulsory." },
+        "c": { "tekst": "You need no driving licence behind the wheel of the towed car.", "feedback": "Wrong, a towed motor vehicle counts as a trailer, but its driver must still hold a valid driving licence." }
+      },
+      "uitleg": {
+        "regel": "It is forbidden to tow another motor vehicle if the distance from the rear of the towing vehicle to the front of the towed vehicle is more than 5 meter.",
+        "waarom": "With a longer rope other traffic can dart in between the two cars and nobody can see any more that the two belong together.",
+        "valkuil": "You assume a flag is compulsory and the distance is free. It is exactly the other way round.",
+        "onthoud": "Towing: 5 meter at most, flag optional."
+      }
+    },
+    "U01-Q024": {
+      "stam": "On a cold morning you get into your car to drive to work. Which of these situations are forbidden while driving?",
+      "opties": {
+        "a": { "tekst": "You hold your mobile phone to read a message.", "feedback": "Correct, holding a mobile electronic device while driving is forbidden for drivers." },
+        "b": { "tekst": "You make a hands-free call.", "feedback": "Wrong, hands-free calling is allowed, although it distracts you too and you are better off not doing it." },
+        "c": { "tekst": "Your windscreen is still misted up.", "feedback": "Correct, driving with misted or frozen windows, the windscreen and the front side windows, is forbidden." },
+        "d": { "tekst": "Boxes on the back seat block your view through the mirrors.", "feedback": "Correct, you must have a good view forwards, sideways and through your mirrors; a load that blocks that is forbidden." },
+        "e": { "tekst": "There is a crack in the field of vision of your windscreen.", "feedback": "Correct, you may not set off if there is a crack in the field of vision of your windscreen or in your mirrors." }
+      },
+      "uitleg": {
+        "regel": "You may not take part in traffic if you are hindered while steering by a load or another circumstance, and you must have a good view forwards, sideways and through your mirrors. Holding a mobile electronic device while driving is forbidden.",
+        "waarom": "What you cannot see or cannot operate in time, you also cannot avoid, which is why the law sets demands on vision and controls before you set off.",
+        "valkuil": "You assume only phoning with the handset at your ear is forbidden, or that a small misted patch is no great matter.",
+        "onthoud": "View clear, hands free, then drive."
+      }
+    },
+    "U01-Q025": {
+      "stam": "Two friends go roller skating around the neighbourhood. Along this road there is a cycle path and a footway. Which part of the road must they use?",
+      "opties": {
+        "a": { "tekst": "The carriageway, because they move faster than walkers.", "feedback": "Wrong, the carriageway is only their turn when the cycle path, the cycle and moped path, the footway and the pavement are all missing." },
+        "b": { "tekst": "The cycle path or the footway, and the carriageway only if those parts are missing.", "feedback": "Correct, roller skaters count as pedestrians and may choose between the cycle path, the cycle and moped path, the footway and the pavement." },
+        "c": { "tekst": "The footway only, because they count as pedestrians.", "feedback": "Wrong, they are pedestrians, but alongside the footway and the pavement the law also names the cycle path and the cycle and moped path." }
+      },
+      "uitleg": {
+        "regel": "The rules for pedestrians also apply to roller skaters and skateboarders. These pedestrians must use the cycle path, the cycle and moped path, the footway or the pavement. Only if those parts are missing may they go on the carriageway.",
+        "waarom": "On roller skates you are faster than someone walking and far slower than the traffic on the carriageway, so a place between cyclists and pedestrians suits that pace best.",
+        "valkuil": "You pick the footway because they are pedestrians, but the cycle path is just as allowed.",
+        "onthoud": "Roller skaters belong with the pedestrians, but may also use the cycle path."
+      }
+    },
+    "U01-Q026": {
+      "stam": "In a disability vehicle you leave the pavement and cross the carriageway to the footway on the other side. Do the rules for pedestrians keep applying during that crossing?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Correct, the pedestrian rules also apply when a disability vehicle crosses from or to a footway or pavement, and then you may go no faster than 6 km/u." },
+        "nee": { "tekst": "No", "feedback": "Wrong, the law expressly names crossing from or to a footway or pavement among the rules for pedestrians." }
+      },
+      "uitleg": {
+        "regel": "The rules for pedestrians apply to drivers of a disability vehicle on the footway or the pavement, and also when they cross from or to a footway or pavement. They may then go no faster than 6 km/u.",
+        "waarom": "Without this exception you would change category halfway across, and then nobody would know which rules applied to you at that moment.",
+        "valkuil": "You assume you become a driver the moment you are on the carriageway. Crossing from or to a footway still belongs to the pedestrian rules.",
+        "onthoud": "From pavement to pavement you stay a pedestrian, including the asphalt in between."
+      }
+    },
+    "U01-Q027": {
+      "stam": "The notion of a road (weg) is wider in the law than the asphalt the cars drive on. Which parts belong to it under that description?",
+      "opties": {
+        "a": { "tekst": "The verge beside the carriageway.", "feedback": "Correct, the description of roads names verges and edges expressly." },
+        "b": { "tekst": "A bridge in the road.", "feedback": "Correct, bridges belong to the road under the description." },
+        "c": { "tekst": "A culvert under the road.", "feedback": "Correct, culverts are named in the description of roads as well." },
+        "d": { "tekst": "A path not open to public traffic.", "feedback": "Wrong, the description covers roads and paths open to public traffic, and that is precisely not the case here." }
+      },
+      "uitleg": {
+        "regel": "Roads are all roads or paths open to public traffic, including bridges, culverts, verges or edges.",
+        "waarom": "If the verge did not belong to it, no traffic rule would apply at all the moment someone stepped half a metre off the asphalt.",
+        "valkuil": "You read road as carriageway. The carriageway is only one of the parts a road is made of.",
+        "onthoud": "The road runs from edge to edge; the carriageway is part of it."
+      }
+    },
+    "U01-Q028": {
+      "stam": "A strip on the carriageway is marked out with broken lines. When is such a marked part a traffic lane (rijstrook) under the law?",
+      "opties": {
+        "a": { "tekst": "As soon as there are lines around it, however narrow the part is.", "feedback": "Wrong, the lines are only half the description; the width belongs to it just as much." },
+        "b": { "tekst": "If it is wide enough for motor vehicles on more than two wheels to drive on.", "feedback": "Correct, besides the marking with lines the law demands that width before you speak of a traffic lane." },
+        "c": { "tekst": "If there are also arrows on the road surface showing the direction.", "feedback": "Wrong, arrows on the road surface do not appear in the description of a traffic lane at all." }
+      },
+      "uitleg": {
+        "regel": "A traffic lane is a part of the carriageway marked out by continuous or broken lines and wide enough for motor vehicles on more than two wheels to drive on.",
+        "waarom": "Without the demand of width every marked piece of carriageway would count as a traffic lane, including a strip no car would fit on.",
+        "valkuil": "You look only at the lines and forget that a car has to fit on it.",
+        "onthoud": "A traffic lane is lines plus enough width for a car."
+      }
+    },
+    "U01-Q029": {
+      "stam": "Along a narrow road outside the built-up area is a separate lane with sign [F11] beside it. Who is that lane meant for?",
+      "opties": {
+        "a": { "tekst": "For all drivers who want to let others overtake them.", "feedback": "Wrong, the lane does exist so that others can overtake, but it is meant solely for a few kinds of slow traffic." },
+        "b": { "tekst": "For agricultural and forestry tractors, motor vehicles of limited speed and mobile machinery.", "feedback": "Correct, this is a passing lane, and for those vehicles using it is even compulsory." },
+        "c": { "tekst": "For scheduled buses and for taxis with an exemption.", "feedback": "Wrong, that belongs to a bus lane or bus strip; the sign with the tractor marks a passing lane." }
+      },
+      "uitleg": {
+        "regel": "A passing lane or passing strip is a carriageway or strip allowing others to overtake, meant solely and compulsorily for agricultural and forestry tractors, motor vehicles of limited speed and mobile machinery. Sign [F11] indicates this.",
+        "waarom": "Slow traffic moves aside for a moment so the queue behind can pass, and on a narrow road that is safer than a row of drivers each looking for their own gap.",
+        "valkuil": "You read a blue sign as a suggestion. Blue with a tractor here means those vehicles must use the lane.",
+        "onthoud": "Sign with the tractor: passing lane, for slow working traffic only."
+      }
+    },
+    "U01-Q030": {
+      "stam": "Someone from your street rides a Segway, a special moped (bijzondere bromfiets). Which rules apply to him on the public road?",
+      "opties": {
+        "a": { "tekst": "His maximum speed on the cycle path or the carriageway is 25 km/u.", "feedback": "Correct, on the compulsory cycle path, the cycle and moped path or the carriageway 25 km/u is his maximum." },
+        "b": { "tekst": "He must be at least 16 years old.", "feedback": "Correct, the age limit is 16 years; for the BSO bus it is 18 years and disabled people may ride one at a younger age too." },
+        "c": { "tekst": "A registration document and a light blue number plate are compulsory.", "feedback": "Correct, it is by that light blue plate that you recognise a special moped." },
+        "d": { "tekst": "He needs a moped licence.", "feedback": "Wrong, for a special moped you need no driving licence, even though the word moped is in the name." },
+        "e": { "tekst": "He must wear a helmet.", "feedback": "Wrong, there is no helmet requirement for a special moped; the vehicle does have to be insured." }
+      },
+      "uitleg": {
+        "regel": "A special moped is a vehicle with a type approval issued by the RDW, such as the Segway and the Trikke. You ride on the compulsory cycle path or the cycle and moped path and otherwise on the carriageway, at a maximum speed of 25 km/u. You must be at least 16 years old, a registration document and a light blue number plate are compulsory, a driving licence and a helmet are not.",
+        "waarom": "The vehicle is light and barely goes above cycling speed, so the demands stay lighter than for a moped, while the registration and the insurance remain necessary because it does ride among the rest of the traffic.",
+        "valkuil": "The name contains the word moped, so you expect a helmet and a licence. Those two are exactly what is not needed.",
+        "onthoud": "Light blue plate, 25 km/u, from 16 years, no licence and no helmet."
+      }
+    },
+    "U01-Q031": {
+      "stam": "A colleague comes to work on a speed-pedelec. On the way there is a compulsory cycle path with no plate underneath. Where should he ride?",
+      "opties": {
+        "a": { "tekst": "On the cycle path, because it stays a bicycle with pedals.", "feedback": "Wrong, the rules for a moped apply to the speed-pedelec, and a moped may not use the cycle path here." },
+        "b": { "tekst": "On the carriageway or on the cycle and moped path.", "feedback": "Correct, those are exactly the two places the course names for the speed-pedelec." },
+        "c": { "tekst": "On the carriageway only, because a moped never belongs on a path.", "feedback": "Wrong, the cycle and moped path is just as allowed for him as the carriageway." }
+      },
+      "uitleg": {
+        "regel": "The same rules apply to the speed-pedelec as to a moped. You may not ride on the cycle path, you must use the carriageway or the cycle and moped path. Sometimes the speed-pedelec may use the cycle path after all, namely on the strength of a plate underneath that allows it.",
+        "waarom": "It is assisted up to moped speed, and that difference from the cyclists around him is too great to ride in among them.",
+        "valkuil": "It has pedals and looks like a bicycle, so you send him to the cycle path.",
+        "onthoud": "Speed-pedelec is a moped: carriageway or cycle and moped path, the cycle path only with a plate."
+      }
+    },
+    "U01-Q032": {
+      "stam": "Ahead of you a brommobiel is driving among the cars on the carriageway. Which rules must that driver follow there?",
+      "opties": {
+        "a": { "tekst": "The rules for mopeds, because the law calls a brommobiel a moped.", "feedback": "Wrong, the description is right, but on the road a brommobiel follows the rules for motor vehicles." },
+        "b": { "tekst": "The rules for motor vehicles.", "feedback": "Correct, brommobielen look like small passenger cars and on the road follow the rules for motor vehicles." },
+        "c": { "tekst": "The rules for disability vehicles, because he drives slowly.", "feedback": "Wrong, a disability vehicle is fitted out for carrying a disabled person and is precisely not regarded as a moped." }
+      },
+      "uitleg": {
+        "regel": "A brommobiel is a moped on more than two wheels fitted with an enclosed body. Brommobielen look like small passenger cars and follow the rules for motor vehicles.",
+        "waarom": "On the road it takes up the space of a small passenger car, and at those dimensions it cannot go where a two-wheeled moped can.",
+        "valkuil": "The description says moped, so you apply the rules for a moped as well.",
+        "onthoud": "Brommobiel: moped in the description, motor vehicle in the rules on the road."
+      }
+    },
+    "U01-Q033": {
+      "stam": "You are going to the beach with a group and everyone wants to come in the same car. Which ways of carrying passengers are allowed?",
+      "opties": {
+        "a": { "tekst": "On a proper seat built for use by adults.", "feedback": "Correct, that is the main rule for carrying passengers." },
+        "b": { "tekst": "A child under 18 years and shorter than 1,35 meter on a special fixed child seat with a belt.", "feedback": "Correct, that is one of the two exceptions the law names." },
+        "c": { "tekst": "A passenger in a wheelchair secured in the vehicle.", "feedback": "Correct, that too is an exception to the demand of a proper seat." },
+        "d": { "tekst": "On a cushion in the load space at the back.", "feedback": "Wrong, that is an improvised seat, and you may carry nobody on one." },
+        "e": { "tekst": "On the bench of a camper van meant for use while the vehicle is standing still.", "feedback": "Wrong, a seat meant for use while standing still does not count as a proper seat." }
+      },
+      "uitleg": {
+        "regel": "You may carry passengers only on a proper seat built for use by adults, so not on an improvised seat or a seat meant for use while the vehicle is standing still. The exceptions are a child under 18 years and shorter than 1,35 meter on a special fixed child seat with a belt, and a passenger in a secured wheelchair.",
+        "waarom": "A place without a belt and without a fixed connection to the car holds nobody back in a collision, however calmly you drive.",
+        "valkuil": "You think: if there is room left, one more can come. The law looks at the seat, not at the room.",
+        "onthoud": "A proper seat, or else a fixed child seat or a secured wheelchair."
+      }
+    },
+    "U01-Q034": {
+      "stam": "Your passenger finds the diagonal part of the belt annoying and tucks it behind his back, so that only the lap part still runs across him. Is that allowed?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, the belt is fastened, but it is routed wrongly and therefore no longer works properly." },
+        "nee": { "tekst": "No", "feedback": "Correct, it is forbidden to route the diagonal part under the arm, behind the back or behind the backrest." }
+      },
+      "uitleg": {
+        "regel": "The belt must always be used the right way. It is forbidden to route the diagonal part of the belt under the arm, behind the back or behind the backrest, because the belt then no longer works properly.",
+        "waarom": "The diagonal part holds the upper body back in a collision; tucked behind the back, he pitches forward over the lap part with his chest.",
+        "valkuil": "The belt is fastened and the warning light goes out, so it looks in order.",
+        "onthoud": "Diagonal part across the chest, never under the arm or behind the back."
+      }
+    },
+    "U01-Q035": {
+      "stam": "Your right leg is in plaster and because of it you cannot press the brake pedal properly. May you drive a short distance anyway?",
+      "opties": {
+        "ja": { "tekst": "Yes", "feedback": "Wrong, the rule draws no line between a short distance and a long trip; what matters is whether you can operate the car." },
+        "nee": { "tekst": "No", "feedback": "Correct, you may only set off if you can operate the car properly, and with that leg you cannot." }
+      },
+      "uitleg": {
+        "regel": "You may only set off if you can operate the car properly. Driving while you are not able to operate your car properly is forbidden.",
+        "waarom": "Braking is the first thing you have to do in an emergency and it cannot wait a second, so a leg that does not reach the brake pedal makes every trip too dangerous.",
+        "valkuil": "It is only a short distance, you think. The law looks not at the distance but at whether you can operate the car.",
+        "onthoud": "Not being able to operate it is as good a reason to stay put as a misted window."
+      }
+    },
+    "U01-Q036": {
+      "stam": "On a country road you come up behind a tractor with a wide implement attached. What do you take into account with this agricultural traffic?",
+      "opties": {
+        "a": { "tekst": "The driver is often young and inexperienced.", "feedback": "Correct, the book names that as one of the points to watch with agricultural traffic." },
+        "b": { "tekst": "The lights, indicators and brake lights do not always work.", "feedback": "Correct, so you cannot count on seeing a turning tractor indicate." },
+        "c": { "tekst": "The attached implement is often wider than the tractor itself.", "feedback": "Correct, so you need more room than the tractor itself suggests." },
+        "d": { "tekst": "Mud and falling load can make the road surface slippery.", "feedback": "Correct, behind agricultural traffic the road surface can be in a different state than you are used to." },
+        "e": { "tekst": "A tractor always goes 25 km/u at most, so you are past it in no time.", "feedback": "Wrong, certain tractors may go 25 km/u at most and others 40 km/u, so the speed difference is often smaller than you think." }
+      },
+      "uitleg": {
+        "regel": "Certain tractors may go 25 km/u at most and others 40 km/u. With agricultural traffic also bear in mind that the driver is often young and inexperienced, that the lights, indicators and brake lights do not always work, that attached implements are often wider than the tractor and that mud and falling load can make the road surface slippery.",
+        "waarom": "Each of those points costs you room or time that you would not need with an ordinary car, so you decide earlier and stay further back until you really have a clear view.",
+        "valkuil": "You judge only the speed difference and forget the width of the implement and the indicator that may not be there.",
+        "onthoud": "Behind a tractor: expect no signal, extra width and a slippery surface."
+      }
+    }
+  }
+}
