@@ -28,16 +28,35 @@ De feiten: `content/facts/registry.json` heeft 233 getallen, elk met een letterl
 | 3 | Voorrang op kruispunten | 5 pagina's, 36 vragen, 29 tekeningen, gecheckt en live |
 | 4 | Voor laten gaan en afslaan | 6 pagina's, 36 vragen, 36 tekeningen waarvan 35 in gebruik, gecheckt en live |
 | 5 | Rotondes, uitritten, erf en 30-zone | 4 pagina's, 36 vragen, 30 tekeningen, gecheckt en live |
+| 6 | Snelheid, afstand en remmen | 6 pagina's, 38 geschreven plus 2 gegenereerd, 7 tekeningen, gecheckt en live |
+| 7 | Plaats op de weg en inhalen | 7 pagina's, 36 geschreven plus 24 gegenereerd, 16 tekeningen, gecheckt en live |
+| 8 | Autoweg en autosnelweg | 6 pagina's, 38 geschreven plus 24 gegenereerd, 1 tekening, gecheckt en live |
+| 9 | Overwegen, haltes, bruggen en tunnels | 6 pagina's, 36 geschreven plus 12 gegenereerd, 8 tekeningen, gecheckt en live |
 
 ## Het eerste wat moet gebeuren
 
-**Blok 6 schrijven.** Blok 4 is op 11 september door de checkerronde gegaan en staat in de bank; de blokken 0 tot en met 5 zijn allemaal gecheckt en live. Fase 2 begint dus bij blok 6, met de deadline van zondag 4 oktober uit het bouwplan. Wat de volgende schrijver moet weten staat onder "Hoe de inhoud gemaakt wordt".
+**Blok 10 tot en met 14 schrijven.** Op 11 september zijn de blokken 6 tot en met 9 in een middag geschreven en gecheckt, vier schrijvers en vier checkers naast elkaar. De bank staat op 418 vragen en tien van de zestien blokken zijn speelbaar. Wat er nog moet:
 
-Wat de checkerronde van blok 4 opleverde, en wat nog open staat:
+- blok 10 stilstaan en parkeren (boek 10.1 t/m 10.4, 9.1, 9.2; slides 158, 159, 181 t/m 185)
+- blok 11 licht, signalen en weer (boek 11.1 t/m 11.5; slides 197 t/m 208)
+- blok 12 file, pech en ongeval (boek 10.5 t/m 10.8; slides 186 t/m 194)
+- blok 13 de bestuurder en de wet (boek 1.1 t/m 1.4, 2.1, 2.6 t/m 2.8)
+- blok 14 voertuig, lading, aanhanger en milieu (boek 13.1 t/m 13.8, 12.1 t/m 12.4)
+- blok 15 bordenconsolidatie, grotendeels gegenereerd uit het manifest
+- derde batches voor blok 1 en 2, die nog op 24 staan, en blok 3 naar 60
 
-- De renderer kent nu `fietsstrook-doorgetrokken` naast `fietsstrook`. De gewone `fietsstrook` tekent een onderbroken streep, en een vraag over een doorgetrokken streep kreeg dus het verkeerde plaatje.
-- De renderer kan geen verkeerslichten, geen voorsorteerstroken en geen pijlen op het wegdek tekenen, en ook geen geparkeerde auto's of bomen. Vragen die daarop leunden zijn herschreven naar wat de tekening wel toont. U04-Q026 staat daarom zonder tekening; `S-U04-026` ligt er nog maar wordt nergens meer gebruikt. Dat is werk voor fase 2, waar de renderer toch uitgebreid wordt.
-- Een `colonne` wordt als een enkel lang groen voertuig getekend, dus vlaggen en volgvoertuigen staan alleen in de tekst. Voor blok 4 was dat te dragen, maar als er meer colonnevragen komen is een echte rij voertuigen beter.
+Daarnaast staat uit fase 2 nog open: het oefenexamen met 52 vragen in 30 minuten en het examenklaar-lampje, de bordencatalogus met detailvenster, de weekweergave op Route, de getalvraag met varianten, en de renderer uitbreiden.
+
+### Hoe die middag werkte, voor wie het overdoet
+
+Vier schrijvers tegelijk, elk op een eigen blok, elk met exacte regelnummers in de twee transcripties en een schrijversbrief die de valkuilen opsomt. Daarna vier checkers, ook parallel, ook elk op een eigen blok. Dat is ongeveer drie tot vier keer sneller dan blok voor blok, en de kwaliteit blijft staan omdat de checker een ander is dan de schrijver.
+
+Twee dingen die daarbij misgaan als je niet oplet:
+
+- **Bouw niet in dezelfde map terwijl er schrijvers draaien.** Hun halve bestanden belanden dan in de precache. Zet er een worktree naast met `git worktree add --detach <pad> HEAD`, bouw daar, en kopieer `content/index.json`, `sw.js` en `sw-assets.js` terug.
+- **Merge pas als alle blokken van de ronde klaar zijn.** Een unit-bestand zonder gemergede vragen komt wel in `content/index.json` terecht, dus de app zou een blok tonen met leespagina's en nul vragen.
+
+Alle vier de schrijvers meldden onafhankelijk dat de paginanummers uit hun opdracht net naast de werkelijkheid zaten: een sectie begint vaak in het paginablok ervoor. Geef een schrijver dus regelnummers, die kloppen wel, en laat hem de pagina zelf opzoeken.
 
 ## Wat een nieuwe computer nodig heeft
 
