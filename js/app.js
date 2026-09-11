@@ -36,6 +36,7 @@ const I = {
   terug: '<svg class="ico" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>',
   sluit: '<svg class="ico" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>',
   pijl: '<svg class="ico" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>',
+  instellingen: '<svg class="ico" viewBox="0 0 24 24"><path d="M4 8h8M17 8h3M4 16h3M12 16h8"/><circle cx="14.5" cy="8" r="2.5"/><circle cx="9.5" cy="16" r="2.5"/></svg>',
   route: '<svg class="ico" viewBox="0 0 24 24"><path d="M12 21V9M12 9h6l2-2.5L18 4h-6M12 13H7l-2 2 2 2h5"/></svg>',
   leren: '<svg class="ico" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M8 7h7"/></svg>',
   borden: '<svg class="ico" viewBox="0 0 24 24"><path d="M12 4l9 15H3z"/></svg>',
@@ -175,9 +176,13 @@ function taalknop() {
   return `<div class="taalknop" role="group" aria-label="${esc(t("Taal"))}">${["nl", "en"].map(x => `<button type="button" class="${x === nu ? "actief" : ""}" data-actie="taal" data-waarde="${x}" aria-pressed="${x === nu}" aria-label="${esc(x === "en" ? t("Schakel naar het Engels") : t("Schakel naar het Nederlands"))}">${x.toUpperCase()}</button>`).join("")}</div>`;
 }
 function header(v) {
-  const nav = ["route", "leren", "borden", "fouten"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", borden: "Borden", fouten: "Fouten" }[n]))}</a>`).join("");
+  const nav = ["route", "leren", "borden", "fouten", "instellingen"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", borden: "Borden", fouten: "Fouten", instellingen: "Instellingen" }[n]))}</a>`).join("");
   const links = v.terug ? `<a class="ikoonknop" href="${esc(v.terug)}" aria-label="${esc(t(v.sluit ? "Sluiten" : "Terug"))}">${v.sluit ? I.sluit : I.terug}</a>` : `<a class="merk" href="#/route">44 van de 50</a>`;
-  return `<header class="kopbalk">${links}<nav class="nav">${nav}</nav><div class="midden">${v.midden || ""}</div>${v.taal === false ? "" : taalknop()}${v.chip === false ? "" : countdownChip()}</header>`;
+  /* Het tandwiel is de enige weg naar Instellingen, en daar staat de
+     koppelcode. Tijdens een quiz of een examen blijft hij weg: daar zou hij je
+     ronde afbreken, en in een examen loopt ook nog de klok. */
+  const instel = S.run || S.route.name === "instellingen" ? "" : `<a class="ikoonknop tandwiel" href="#/instellingen" aria-label="${esc(t("Instellingen"))}">${I.instellingen}</a>`;
+  return `<header class="kopbalk">${links}<nav class="nav">${nav}</nav><div class="midden">${v.midden || ""}</div>${instel}${v.taal === false ? "" : taalknop()}${v.chip === false ? "" : countdownChip()}</header>`;
 }
 function lane() {
   const cur = currentUnit();
