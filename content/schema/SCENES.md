@@ -91,5 +91,5 @@ Rotonde met fietser in de voorrang:
 - Precies een `ego`. Elke `arm` van een actor of bord staat in `armen` (of is `rotonde`, `uitrit`, `fietspad`).
 - Bordcodes bestaan in `content/signs/manifest.json`.
 - Geen streepjes, geen uitroeptekens in `alt`.
-- Een reeks (dynamisch beeld) is 2 of 3 scenes met dezelfde `armen` en actor-ids, waarin alleen `afstand`, `hoek` of `richting` verandert: `S-U04-007-a`, `-b`, `-c`. De vraag verwijst ernaar met `"media": {"reeks": ["S-U04-007-a", "S-U04-007-b", "S-U04-007-c"]}`.
+- Een reeks (dynamisch beeld) is 2 of 3 scenes met dezelfde `armen` en actor-ids, waarin alleen verandert wat in een paar seconden kan veranderen: `afstand`, `hoek`, `richting` of `signaal`. Een nieuwe actor introduceren mag niet, want dan kijkt de leerling naar twee verschillende situaties in plaats van naar twee momenten: `S-U04-007-a`, `-b`, `-c`. De vraag verwijst ernaar met `"media": {"reeks": ["S-U04-007-a", "S-U04-007-b", "S-U04-007-c"]}`.
 - Een volgorde-vraag verwijst naar een scene met `volgorde` en `toonVolgorde: false`; de `opties` van de vraag zijn de actor-ids met hun `label` als tekst en `correct` is de volgorde.

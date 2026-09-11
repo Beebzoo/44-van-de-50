@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "gegenereerd": "2026-09-10",
+  "gegenereerd": "2026-09-11",
   "categorieen": [
     {
       "id": "examen",
@@ -5288,6 +5288,53 @@
       "tags": [
         "tram",
         "voorrang"
+      ]
+    },
+    {
+      "id": "F234",
+      "categorie": "snelheid",
+      "onderwerp": "Afwijkende maximumsnelheid autoweg binnen de bebouwde kom",
+      "waarde": 70,
+      "eenheid": "km/u",
+      "tekst": "Een autoweg binnen de bebouwde kom kan een afwijkende maximumsnelheid van 70 km/u hebben, aangegeven met een bord.",
+      "bronnen": [
+        {
+          "boek": 117,
+          "sectie": "7.1",
+          "anker": "Autoweg binnen de bebouwde kom met een afwijkende maximumsnelheid van 70"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autoweg",
+        "bebouwde-kom",
+        "bord"
+      ]
+    },
+    {
+      "id": "F235",
+      "categorie": "snelheid",
+      "onderwerp": "Maximumsnelheid autosnelweg in de avond en de nacht",
+      "waarde": 120,
+      "eenheid": "km/u",
+      "tekst": "Op de autosnelweg geldt 's avonds en 's nachts 100, 120 of 130 km/u, afhankelijk van het bord. Een zwart bord 120 met onderbord 19-6h geeft aan dat er tussen 19 en 6 uur 120 km/u gereden mag worden.",
+      "bronnen": [
+        {
+          "boek": 71,
+          "sectie": "4.7",
+          "anker": "s avonds en s nachts 100 120 of 130 km u"
+        },
+        {
+          "boek": 119,
+          "sectie": "7.1",
+          "anker": "een zwart bord 120 met 19-6h"
+        }
+      ],
+      "tags": [
+        "snelheid",
+        "autosnelweg",
+        "nacht",
+        "personenauto"
       ]
     }
   ]

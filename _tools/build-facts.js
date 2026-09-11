@@ -11,7 +11,17 @@ const fs = require("fs");
 const path = require("path");
 
 const REPO = path.join(__dirname, "..");
-const OUT = process.argv[2] || "/home/alardus/Admin/09 Voertuig/Rijbewijs/feiten-en-cijfers.md";
+/* Without an argument the sheet goes next to the transcriptions: sources.json
+   knows where those live on this computer, and the sheet belongs in the folder
+   above the bronnen map. */
+function standaardUit() {
+  const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, "sources.json"), "utf8"));
+  const kies = v => (Array.isArray(v) ? v : [v]).find(f => f && fs.existsSync(f));
+  const boek = kies(cfg.boek);
+  if (!boek) throw new Error("geen transcriptie gevonden, geef het pad mee: node _tools/build-facts.js <pad>");
+  return path.join(path.dirname(path.dirname(boek)), "feiten-en-cijfers.md");
+}
+const OUT = process.argv[2] || standaardUit();
 const reg = JSON.parse(fs.readFileSync(path.join(REPO, "content", "facts", "registry.json"), "utf8"));
 
 const ref = b => b.boek !== undefined ? "boek p. " + b.boek : "slide " + b.slide;
