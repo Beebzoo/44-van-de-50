@@ -596,7 +596,12 @@
                 "tweeseconden",
                 "bakens",
                 "lading",
-                "aanhanger"
+                "aanhanger",
+                "belijning",
+                "invoegen",
+                "autotewater",
+                "rijstrookkeuze",
+                "ruimtemaken"
               ]
             },
             "tekst": {
@@ -642,7 +647,12 @@
                 "tweeseconden",
                 "bakens",
                 "lading",
-                "aanhanger"
+                "aanhanger",
+                "belijning",
+                "invoegen",
+                "autotewater",
+                "rijstrookkeuze",
+                "ruimtemaken"
               ]
             },
             "knop": {

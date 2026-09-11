@@ -169,6 +169,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "ruimtemaken",
+          "tekst": "Links naar links, rechts naar rechts, en in het midden ontstaat de doorgang.",
+          "bron": {
+            "boek": 167,
+            "sectie": "10.5",
+            "anker": "Schakel ze weer uit als je ziet dat je achterliggers afremmen"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "De staart van een file is de gevaarlijkste plek van de hele weg: daar komt snel verkeer aan op stilstaand verkeer. Jouw alarmlichten zijn het enige signaal dat de bestuurder achter je op tijd bereikt. Zodra je in je spiegel ziet dat hij afremt heeft hij het begrepen, en dan worden knipperende lichten juist verwarrend voor wie daar weer achter rijdt.",
           "bron": {
@@ -1047,6 +1057,16 @@
               "anker": "Als je zelf het water in gaat doe dat dan aangelijnd aan een touw"
             }
           ]
+        },
+        {
+          "type": "visueel",
+          "naam": "autotewater",
+          "tekst": "De volgorde is hier het hele antwoord.",
+          "bron": {
+            "boek": 178,
+            "sectie": "10.8",
+            "anker": "Hierdoor kun je je beter orienteren en blijft de auto voor hulpdiensten beter zichtbaar"
+          }
         },
         {
           "type": "waarom",

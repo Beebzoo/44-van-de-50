@@ -615,6 +615,111 @@ function bordvormenHtml() {
   </svg>`;
 }
 
+
+/* ==== 24 wat de belijning zegt ====
+   De tekenmachine kan geen belijning sturen, en juist daar hangt de stof van
+   blok 6, 7 en 8 aan. Als los diagram kan het wel, en dan zie je de drie
+   wegbeelden onder elkaar in plaats van in een tabel. */
+function belijningHtml() {
+  const weg = (y, midden, kant, snelheid, wat) => {
+    let h = `<rect x="10" y="${y}" width="250" height="40" fill="${ASFALT}"/>`;
+    /* kantstrepen */
+    if (kant === "door") h += `<path d="M14 ${y + 3} H256 M14 ${y + 37} H256" stroke="${MARK}" stroke-width="2.5"/>`;
+    else h += `<path d="M14 ${y + 3} H256 M14 ${y + 37} H256" stroke="${MARK}" stroke-width="2.5" stroke-dasharray="10 8"/>`;
+    /* middenstreep */
+    if (midden === "groen") h += `<rect x="10" y="${y + 16}" width="250" height="8" fill="rgba(30,127,79,.55)"/><path d="M10 ${y + 16} H260 M10 ${y + 24} H260" stroke="${MARK}" stroke-width="2"/>`;
+    else if (midden === "dubbel") h += `<path d="M10 ${y + 17} H260 M10 ${y + 23} H260" stroke="${MARK}" stroke-width="2"/>`;
+    return h
+      + `<text x="272" y="${y + 18}" font-size="15" font-weight="700" fill="${INKT}">${esc(snelheid)}</text>`
+      + `<text x="272" y="${y + 33} " font-size="9" fill="${GRIJS}">km/u</text>`
+      + `<text x="14" y="${y - 5}" font-size="10" fill="${GRIJS}">${esc(wat)}</text>`;
+  };
+  return `<svg class="schema" viewBox="0 0 340 232" role="img" aria-label="${esc(t("Wat de belijning zegt"))}">
+    ${label(170, 14, t("De strepen verraden meestal de snelheid"), { grootte: 11, gewicht: 600 })}
+    ${weg(36, "groen", "door", "100", t("groene baan tussen twee strepen, doorgetrokken kant"))}
+    ${weg(102, "dubbel", "onder", "80", t("dubbele middenstreep, onderbroken kant"))}
+    ${weg(168, "geen", "onder", "60", t("geen middenstreep, onderbroken kant"))}
+    ${label(170, 226, t("Het blijft een aanwijzing: het bord is de zekerheid"), { grootte: 9, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 25 invoegen, stap voor stap ==== */
+function invoegenHtml() {
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("Invoegen op de snelweg"))}">
+    <rect x="0" y="30" width="340" height="34" fill="${ASFALT}"/>
+    <path d="M0 47 H340" stroke="${MARK}" stroke-width="2" stroke-dasharray="14 12" opacity=".5"/>
+    ${label(40, 24, t("doorgaande rijbaan"), { grootte: 9, kleur: GRIJS, midden: false })}
+    <path d="M20 104 L120 104 L230 70 L340 70" fill="none" stroke="${ASFALT}" stroke-width="30" stroke-linejoin="round"/>
+    <path d="M120 90 L230 56" stroke="${MARK}" stroke-width="3" stroke-dasharray="12 10"/>
+    ${label(20, 136, t("invoegstrook"), { grootte: 10, gewicht: 700, midden: false })}
+    <rect x="26" y="96" width="30" height="16" rx="4" fill="${MARK}" stroke="${INKT}" stroke-width="1.5"/>
+    <path d="M118 128 V104" stroke="${GEEL}" stroke-width="2" stroke-dasharray="3 3"/>
+    ${label(150, 136, t("tweederde: hier heb je snelheid"), { grootte: 9, gewicht: 700, kleur: AMBER })}
+    
+    ${doos(10, 158, 320, 38, GRIJS, "rgba(138,144,53,.06)")}
+    ${label(170, 174, t("Snelheid maken, kijken, pas laat richting aangeven"), { grootte: 10, gewicht: 600 })}
+    ${label(170, 189, t("en het doorgaande verkeer gaat voor"), { grootte: 9, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 26 auto te water ==== */
+function autotewaterHtml() {
+  const stap = (i, woord, uitleg) => {
+    const y = 26 + i * 40;
+    return `<circle cx="26" cy="${y + 16}" r="13" fill="${BLAUW}"/>
+      <text x="26" y="${y + 21}" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">${i + 1}</text>
+      <text x="48" y="${y + 13}" font-size="12" font-weight="700" fill="${INKT}">${esc(woord)}</text>
+      <text x="48" y="${y + 28}" font-size="10" fill="${GRIJS}">${esc(uitleg)}</text>
+      ${i < 3 ? `<path d="M26 ${y + 30} V${y + 42}" stroke="${GRIJS}" stroke-width="2"/>` : ""}`;
+  };
+  return `<svg class="schema" viewBox="0 0 340 230" role="img" aria-label="${esc(t("Auto te water"))}">
+    ${label(170, 16, t("In deze volgorde, en geen andere"), { grootte: 11, gewicht: 600 })}
+    ${stap(0, t("Licht aan"), t("binnen en buiten, sleutels in het contact"))}
+    ${stap(1, t("Gordel los"), t("lukt dat niet, snij hem door naar je toe"))}
+    ${stap(2, t("Zijruit open of stuk"), t("sla in de hoek bij de spiegel, nooit de voorruit"))}
+    ${stap(3, t("Eruit en wegzwemmen"), t("eerst met je gezicht naar de auto toe"))}
+    ${doos(10, 190, 320, 34, FIETSPAD, "rgba(184,74,58,.10)")}
+    ${label(170, 211, t("Lukt de ruit niet: wacht tot hij vol is, dan kan het portier open"), { grootte: 9, gewicht: 600 })}
+  </svg>`;
+}
+
+/* ==== 27 welke rijstrook kies je ==== */
+function rijstrookkeuzeHtml() {
+  const baan = (y, kleur, vul, tekst, sub) =>
+    `<rect x="10" y="${y}" width="320" height="40" fill="${ASFALT}"/>` +
+    `<rect x="10" y="${y}" width="320" height="40" fill="${vul}"/>` +
+    `<text x="22" y="${y + 18}" font-size="11" font-weight="700" fill="#fff">${esc(tekst)}</text>` +
+    `<text x="22" y="${y + 32}" font-size="9" fill="rgba(255,255,255,.75)">${esc(sub)}</text>`;
+  return `<svg class="schema" viewBox="0 0 340 190" role="img" aria-label="${esc(t("Welke rijstrook kies je"))}">
+    ${label(170, 14, t("Drie rijstroken, van boven naar beneden"), { grootte: 11, gewicht: 600 })}
+    ${baan(22, BLAUW, "rgba(11,92,173,.55)", t("links: alleen om in te halen"), t("onnodig links rijden mag niet"))}
+    ${baan(66, GRIJS, "rgba(138,144,153,.45)", t("midden: ook alleen om in te halen"), t("of om voor te sorteren"))}
+    ${baan(110, GROEN, "rgba(30,127,79,.55)", t("rechts: hier hoor je"), t("vrachtauto's en lange combinaties altijd"))}
+    ${doos(10, 158, 320, 28, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 176, t("In de file schuif je op om invoegers erin te laten"), { grootte: 10, gewicht: 600 })}
+  </svg>`;
+}
+
+/* ==== 28 ruimte maken voor een voorrangsvoertuig ==== */
+function ruimtemakenHtml() {
+  const auto = (x, y, kleur) => `<rect x="${x}" y="${y}" width="38" height="20" rx="5" fill="${kleur}" stroke="${INKT}" stroke-width="1.5"/>`;
+  return `<svg class="schema" viewBox="0 0 340 190" role="img" aria-label="${esc(t("Ruimte maken in de file"))}">
+    ${label(170, 16, t("File, en er komt een ambulance aan"), { grootte: 11, gewicht: 600 })}
+    <rect x="10" y="28" width="320" height="96" fill="${ASFALT}"/>
+    <path d="M170 28 V124" stroke="${MARK}" stroke-width="2" stroke-dasharray="10 8" opacity=".4"/>
+    ${auto(16, 34, MARK)}${auto(16, 62, MARK)}${auto(16, 90, MARK)}
+    ${auto(276, 34, GRIJS)}${auto(276, 62, GRIJS)}${auto(276, 90, GRIJS)}
+    <rect x="150" y="36" width="40" height="22" rx="5" fill="${GEEL}" stroke="${INKT}" stroke-width="1.5"/>
+    <circle cx="170" cy="32" r="4" fill="${BLAUW}"/>
+    <path d="M170 70 V116" stroke="${BLAUW}" stroke-width="2" stroke-dasharray="5 5"/>
+    <path d="M170 116 l-5 -8 h10 z" fill="${BLAUW}"/>
+    ${label(86, 142, t("links: naar links"), { grootte: 9, kleur: GRIJS })}
+    ${label(254, 142, t("rechts: naar rechts"), { grootte: 9, kleur: GRIJS })}
+    ${doos(10, 152, 320, 34, GROEN, "rgba(30,127,79,.10)")}
+    ${label(170, 173, t("Zo ontstaat er in het midden een vrije doorgang"), { grootte: 11, gewicht: 700, kleur: GROEN })}
+  </svg>`;
+}
+
 const DIAGRAMMEN = {
   remweg: { html: remwegHtml, titel: () => t("Reactieafstand, remweg en stopafstand") },
   dodehoek: { html: dodehoekHtml, titel: () => t("De dode hoek") },
@@ -639,6 +744,11 @@ const DIAGRAMMEN = {
   lading: { html: ladingHtml, titel: () => t("De maten van je lading") },
   aanhanger: { html: aanhangerHtml, titel: () => t("Welke aanhanger met welk rijbewijs") },
   bordvormen: { html: bordvormenHtml, titel: () => t("De vorm van een bord") },
+  belijning: { html: belijningHtml, titel: () => t("Wat de belijning zegt") },
+  invoegen: { html: invoegenHtml, titel: () => t("Invoegen op de snelweg") },
+  autotewater: { html: autotewaterHtml, titel: () => t("Auto te water") },
+  rijstrookkeuze: { html: rijstrookkeuzeHtml, titel: () => t("Welke rijstrook kies je") },
+  ruimtemaken: { html: ruimtemakenHtml, titel: () => t("Ruimte maken in de file") },
 };
 export const kentDiagram = naam => Object.prototype.hasOwnProperty.call(DIAGRAMMEN, naam);
 export const diagramNamen = () => Object.keys(DIAGRAMMEN);

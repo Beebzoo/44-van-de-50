@@ -398,6 +398,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "belijning",
+          "tekst": "De drie wegbeelden onder elkaar. Het blijft een aanwijzing, het bord is de zekerheid.",
+          "bron": {
+            "boek": 118,
+            "sectie": "7.1",
+            "anker": "Bijzondere weggedeelten binnen de bebouwde kom zijn de 30 km-zone"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Strepen zie je eerder dan een bord: ze lopen mee met de hele weg en ze zijn er ook als je net een bord hebt gemist. Daarom is de belijning een prima eerste inschatting van wat voor weg dit is. Maar een wegbeheerder mag van de standaard afwijken, en dat doet hij met een bord. Wie alleen op de strepen afgaat, rijdt vroeg of laat te hard zonder het te merken.",
           "bron": {

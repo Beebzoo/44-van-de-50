@@ -1743,6 +1743,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "invoegen",
+          "tekst": "Tweederde van de strook gebruiken om snelheid te maken, en pas laat richting aangeven.",
+          "bron": {
+            "boek": 148,
+            "sectie": "9.7",
+            "anker": "Bij het oprijden van een autoweg of autosnelweg moet je gebruikmaken van de invoegstrook"
+          }
+        },
+        {
           "type": "voorbeeld",
           "tekst": "Bij het achteruit in file parkeren heb je aan een vrij vak genoeg, bij het vooruit in file parkeren heb je meer ruimte nodig. En parkeer je vooruit een vak in, dan moet je er achteruit weer uit, en dat is lastig als er veel verkeer is.",
           "bron": [

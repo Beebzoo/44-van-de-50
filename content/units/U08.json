@@ -611,6 +611,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "rijstrookkeuze",
+          "tekst": "Rechts is je plek. De rest is om in te halen of om voor te sorteren.",
+          "bron": {
+            "boek": 72,
+            "sectie": "4.7",
+            "anker": "Je mag op een autoweg en autosnelweg niet"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Alles op deze lijst komt op hetzelfde neer: op een snelle weg rekent iedereen erop dat het verkeer een kant op gaat en blijft rijden. Wie keert, achteruitrijdt of stilstaat, zet iets dwars in een stroom die daar met 100 km/u op af komt. En wie onnodig links blijft hangen, perst alle anderen door de rechterstroken heen, wat files en riskant inhalen oplevert.",
           "bron": [
