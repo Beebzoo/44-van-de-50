@@ -26,7 +26,7 @@
       "arm": "zuid",
       "richting": "rechtdoor",
       "afstand": 2,
-      "label": "de rode auto"
+      "label": "de auto achter je"
     },
     {
       "id": "fietser",
@@ -44,7 +44,7 @@
     "fietser"
   ],
   "toonVolgorde": false,
-  "alt": "Je rijdt over de afrit van een rotonde buiten de bebouwde kom en achter je volgt een rode auto. Verderop kruist een fietser van rechts de weg over het fietspad.",
+  "alt": "Je rijdt over de afrit van een rotonde buiten de bebouwde kom en achter je volgt een tweede auto. Verderop kruist een fietser van rechts de weg over het fietspad.",
   "inspiratie": {
     "boek": 86
   }

@@ -47,7 +47,7 @@
       "hoek": 210,
       "richting": "rechts",
       "uitgang": "oost",
-      "label": "de rode auto"
+      "label": "de auto achter je"
     },
     {
       "id": "fietser",
@@ -65,7 +65,7 @@
     "rood"
   ],
   "toonVolgorde": false,
-  "alt": "Je verlaat de rotonde bij de arm rechts van je en achter je volgt een rode auto dezelfde afrit. Op het fietspad direct om de rotonde nadert een fietser die oversteek.",
+  "alt": "Je verlaat de rotonde bij de arm rechts van je en achter je volgt een tweede auto dezelfde afrit. Op het fietspad direct om de rotonde nadert een fietser die oversteekt.",
   "inspiratie": {
     "boek": 85,
     "slide": 85

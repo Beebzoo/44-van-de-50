@@ -32,7 +32,8 @@
       "tags": ["rotonde", "richting-aangeven", "rechtsaf"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "blijf je op de toeleidende weg rechts rijden en geef je richting aan naar rechts", "bron": "boek p. 84"}
     },
     {
       "id": "U05-Q026",
@@ -50,7 +51,7 @@
       "uitleg": {
         "regel": "Bij elke oversteek van het fietspad staan witte haaientanden op de rijbaan voor het autoverkeer dat de rotonde verlaat of oprijdt.",
         "waarom": "Het fietspad om de rotonde is een deel van de ring; wie oprijdt kruist het net zo goed als wie afrijdt en wacht daarom.",
-        "valkuil": "Je let bij het oprijden alleen op auto's van links; de fietser komt van rechts of van links over de oversteek vóór de ring.",
+        "valkuil": "Je let bij het oprijden vooral op de auto's op de ring, maar de fietser kruist je toerit al daarvoor, hier van links.",
         "onthoud": "Fietsers op de ring gaan voor, bij oprijden en bij afrijden."
       },
       "bronnen": [
@@ -63,7 +64,8 @@
       "tags": ["rotonde", "fietser", "oprijden"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Bij elke oversteek van het fietspad staan witte haaientanden op de rijbaan voor het autoverkeer dat de rotonde verlaat of oprijdt", "bron": "boek p. 85", "gewijzigd": "valkuil zei van rechts of van links; op de tekening komt de fietser van links"}
     },
     {
       "id": "U05-Q027",
@@ -94,7 +96,8 @@
       "tags": ["inrit", "rechtsaf", "richting-aangeven"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Je achterligger verwacht waarschijnlijk niet dat je plotseling een inrit wilt inrijden", "bron": "boek p. 89"}
     },
     {
       "id": "U05-Q028",
@@ -125,7 +128,8 @@
       "tags": ["erf", "parkeren", "passagiers"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Het laten in- of uitstappen van passagiers is wél toegestaan", "bron": "slide 89"}
     },
     {
       "id": "U05-Q029",
@@ -134,9 +138,9 @@
       "type": "meerkeuze",
       "soort": "inzicht",
       "stam": "De toeleidende weg naar een rotonde heeft twee rijstroken met pijlen op het wegdek. Je wilt de rotonde bij de derde arm verlaten, driekwart rond. Welke rijstrook kies je op de toeleidende weg?",
-      "media": {"scene": "S-U05-021"},
+      "media": null,
       "opties": [
-        {"id": "a", "tekst": "De linkerrijstrook, met richting naar links.", "feedback": "Goed. Voor driekwart rond volg je op de toeleidende weg de linkerstrook en geef je richting aan naar links.", "fouttype": null},
+        {"id": "a", "tekst": "De linkerrijstrook, want de pijlen wijzen die strook aan.", "feedback": "Goed. Voor driekwart rond volg je op de toeleidende weg de linkerstrook; de pijlen op het wegdek wijzen dat aan.", "fouttype": null},
         {"id": "b", "tekst": "De rechterrijstrook, want op een rotonde rijd je rechts.", "feedback": "Fout. De rechterstrook is voor rechtsaf en rechtdoor; wie driekwart rond gaat, sorteert links voor.", "fouttype": "verkeerd_toegepast"},
         {"id": "c", "tekst": "Het maakt niet uit, je mag op een rotonde toch links en rechts rijden.", "feedback": "Fout. Links en rechts rijden mag, maar de pijlen op het wegdek geven aan hoe je moet voorsorteren, en voor driekwart rond is dat links.", "fouttype": "niet_geweten"}
       ],
@@ -144,7 +148,7 @@
       "uitleg": {
         "regel": "Als je bij de derde zijweg de rotonde wilt verlaten, dan volg je op de toeleidende weg de linkerstrook en geef je richting aan naar links. De pijlen op de rijstroken geven aan hoe je moet voorsorteren.",
         "waarom": "Op de linkerstrook blijf je op de ring buiten het pad van wie bij de eerste of tweede arm afslaat, zodat jullie elkaar niet kruisen.",
-        "valkuil": "De richting naar links op de toeleidende weg is niet verplicht, maar wel een goede gewoonte; de strookkeuze volgt de pijlen.",
+        "valkuil": "Links voorsorteren is iets anders dan links afslaan: op de rotonde rijd je gewoon rechtsom. Je richtingaanwijzer naar links op de toeleidende weg is een goede gewoonte, geen verplichting.",
         "onthoud": "Driekwart rond: links voorsorteren."
       },
       "bronnen": [
@@ -158,7 +162,8 @@
       "tags": ["rotonde", "voorsorteren", "linksaf"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "volg je op de toeleidende weg de linkerstrook en geef je richting aan naar links", "bron": "boek p. 84", "gewijzigd": "optie a claimde dat richting naar links erbij hoort, terwijl slide 87 dat niet verplicht noemt; de optie gaat nu alleen over de strook en de tekening is eruit omdat de renderer geen twee rijstroken met pijlen kan tekenen"}
     },
     {
       "id": "U05-Q030",
@@ -190,7 +195,8 @@
       "tags": ["zone", "uitrit", "voorrang"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Je moet dan alle weggebruikers voor laten gaan als je een zone in of uit rijdt", "bron": "boek p. 90"}
     },
     {
       "id": "U05-Q031",
@@ -203,7 +209,7 @@
       "opties": [
         {"id": "a", "tekst": "Om te voorkomen dat bestuurders op de rotonde van rijstrook wisselen.", "feedback": "Goed. Door de betonnen rand kun je op de turborotonde niet meer van rijstrook wisselen; dat houdt de rotonde veilig en vlot.", "fouttype": null},
         {"id": "b", "tekst": "Om fietsers een eigen strook op de rotonde te geven.", "feedback": "Fout. Fietsers krijgen een fietspad om de rotonde of een fietsstrook, niet een strook achter een betonnen rand.", "fouttype": "niet_geweten"},
-        {"id": "c", "tekst": "Om de snelheid van het verkeer op de rotonde te verlagen.", "feedback": "Fout. De rand remt niet, hij scheidt; het gaat om de strookkeuze, niet om de snelheid.", "fouttype": "verkeerd_gelezen"},
+        {"id": "c", "tekst": "Om de snelheid van het verkeer op de rotonde te verlagen.", "feedback": "Fout. De rand remt niet, hij scheidt; het gaat om de strookkeuze, niet om de snelheid.", "fouttype": "niet_geweten"},
         {"id": "d", "tekst": "Om het verkeer op de rotonde altijd voorrang te geven.", "feedback": "Fout. Voorrang regel je met borden en haaientanden, niet met een betonnen rand.", "fouttype": "niet_geweten"}
       ],
       "correct": ["a"],
@@ -224,7 +230,8 @@
       "tags": ["rotonde", "turborotonde", "rijstrook"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Door de betonnen rand kun je op de turborotonde niet meer van rijstrook wisselen", "bron": "boek p. 83", "gewijzigd": "fouttype van optie c naar niet_geweten"}
     },
     {
       "id": "U05-Q032",
@@ -239,7 +246,7 @@
         {"id": "b", "tekst": "Een voetganger op het voetpad die de rotonde blijft volgen.", "feedback": "Goed. Ook voetgangers op een voetpad dat de rotonde volgt, laat je bij het verlaten voor.", "fouttype": null},
         {"id": "c", "tekst": "Een bromfietser op het fiets-/bromfietspad die de rotonde blijft volgen.", "feedback": "Goed. De regel noemt (snor)fietsers, bromfietsers en voetgangers die de rotonde blijven volgen; allemaal gaan ze voor.", "fouttype": null},
         {"id": "d", "tekst": "Een auto die bij de arm waar jij afrijdt de rotonde wil oprijden.", "feedback": "Fout. Wie de rotonde wil oprijden, wacht zelf voor [B6] en de haaientanden; jij hoeft niet op hem te wachten.", "fouttype": "verkeerd_toegepast"},
-        {"id": "e", "tekst": "Een fietser op een fietspad dat ver van de rotonde ligt, met haaientanden op het fietspad.", "feedback": "Fout. Zo'n pad hoort niet bij de rotonde en de haaientanden op het pad laten de fietser op jou wachten.", "fouttype": "niet_geweten"}
+        {"id": "e", "tekst": "Een fietser op een fietspad dat ver van de rotonde ligt, met haaientanden op het fietspad.", "feedback": "Fout. Zo'n pad hoort niet bij de rotonde en de haaientanden op het pad laten de fietser op jou wachten.", "fouttype": "verkeerd_gelezen"}
       ],
       "correct": ["a", "b", "c"],
       "uitleg": {
@@ -259,7 +266,8 @@
       "tags": ["rotonde", "verlaten", "fietser", "voetganger"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "die op een fietsstrook, fietspad, een fiets-/bromfietspad of een voetpad de rotonde blijven volgen", "bron": "boek p. 85", "gewijzigd": "fouttype van optie e naar verkeerd_gelezen"}
     },
     {
       "id": "U05-Q033",
@@ -293,7 +301,8 @@
       "tags": ["inrit", "linksaf", "buiten-bebouwde-kom"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Stop eventueel rechts in de berm of rij door en probeer de inrit van de andere zijde te naderen", "bron": "boek p. 89"}
     },
     {
       "id": "U05-Q034",
@@ -301,18 +310,18 @@
       "pagina": "U05-P01",
       "type": "volgorde",
       "soort": "inzicht",
-      "stam": "Buiten de bebouwde kom verlaat je een rotonde bij de arm rechts van je. Het fiets-/bromfietspad ligt een stuk van de rotonde af en kruist de afrit verderop; op het pad liggen haaientanden voor de fietser die die oversteek nadert. Achter je op de rotonde rijdt een rode auto die dezelfde afrit neemt. In welke volgorde gaan jullie?",
+      "stam": "Buiten de bebouwde kom rijd je een rotonde af. Het fiets-/bromfietspad ligt een stuk van de rotonde af en kruist de afrit verderop; op het pad liggen haaientanden voor de fietser die die oversteek nadert. Vlak achter je rijdt een tweede auto die dezelfde afrit afrijdt. In welke volgorde gaan jullie?",
       "media": {"scene": "S-U05-023"},
       "opties": [
-        {"id": "ego", "tekst": "jij", "feedback": "Jij verlaat de rotonde als eerste; het fietspad hoort niet bij de rotonde en de fietser ziet haaientanden op zijn pad.", "fouttype": null},
-        {"id": "rood", "tekst": "de rode auto", "feedback": "De rode auto rijdt achter je, volgt je de afrit af en hoeft ook niet op de fietser te wachten.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Jij rijdt als eerste over de oversteek; het fietspad hoort niet bij de rotonde en de fietser ziet haaientanden op zijn pad.", "fouttype": null},
+        {"id": "rood", "tekst": "de auto achter je", "feedback": "Die auto rijdt achter je, volgt je de afrit af en hoeft ook niet op de fietser te wachten.", "fouttype": null},
         {"id": "fietser", "tekst": "de fietser", "feedback": "De fietser staat voor de haaientanden op het fietspad en laat beide auto's voor voordat hij oversteekt.", "fouttype": null}
       ],
       "correct": ["ego", "rood", "fietser"],
       "uitleg": {
         "regel": "Hier is het fiets-/bromfietspad zo ver van de rotonde afgelegd, dat het geen onderdeel van de rotonde uitmaakt. Je hoeft bij het verlaten van de rotonde geen voorrang te verlenen aan (brom)fietsers op het pad.",
         "waarom": "Op afstand van de ring is de oversteek een gewone kruising van fietspad en weg, en daar leggen de haaientanden de wachtplicht bij de fietser.",
-        "valkuil": "Dezelfde tekening met het fietspad direct om de rotonde geeft precies de omgekeerde volgorde; kijk naar de afstand en naar wie de haaientanden voor zich heeft.",
+        "valkuil": "Op deze tekening zie je de rotonde niet meer: de oversteek ligt een eind verderop op de afrit en de haaientanden liggen op het fietspad. Loopt het fietspad wel direct om de ring, dan gaat de fietser juist voor.",
         "onthoud": "Pad op afstand met haaientanden: auto's eerst, fietser wacht."
       },
       "bronnen": [
@@ -325,7 +334,8 @@
       "tags": ["rotonde", "fietser", "uit-de-voorrang", "volgorde"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Je hoeft bij het verlaten van de rotonde geen voorrang te verlenen aan (brom)fietsers op het pad", "bron": "boek p. 86", "gewijzigd": "stam sprak van achter je op de rotonde terwijl de tekening een rechte afrit is, de rode auto heet nu de auto achter je en de valkuil beschrijft wat je ziet"}
     },
     {
       "id": "U05-Q035",
@@ -333,18 +343,18 @@
       "pagina": "U05-P03",
       "type": "volgorde",
       "soort": "inzicht",
-      "stam": "Je verlaat een erf via een uitrit met verlaagde stoeprand en wilt linksaf de straat op. Over de stoep loopt een voetganger die vlak voor je langs de uitrit gaat. Op de straat nadert van rechts een rode auto. In welke volgorde gaan jullie?",
+      "stam": "Je verlaat een erf via een uitrit met verlaagde stoeprand en wilt linksaf de straat op. Over de stoep loopt een voetganger die vlak voor je langs de uitrit oversteekt. Op de straat nadert van rechts een andere auto. In welke volgorde gaan jullie?",
       "media": {"scene": "S-U05-024"},
       "opties": [
         {"id": "voetganger", "tekst": "de voetganger", "feedback": "De voetganger loopt over de stoep, hoeft nergens op te wachten en steekt de uitrit als eerste over.", "fouttype": null},
-        {"id": "rood", "tekst": "de rode auto", "feedback": "De rode auto rijdt op de straat en gaat vóór jou, omdat jij een uitrit verlaat.", "fouttype": null},
-        {"id": "ego", "tekst": "jij", "feedback": "Jij verlaat een uitrit en laat alle weggebruikers voor: eerst de voetganger, dan de rode auto, en dan pas jij.", "fouttype": null}
+        {"id": "rood", "tekst": "de auto van rechts", "feedback": "Die auto rijdt gewoon op de straat en gaat voor jou, omdat jij een uitrit verlaat.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Jij verlaat een uitrit en laat alle weggebruikers voor: eerst de voetganger, dan de auto op de straat, en dan pas jij.", "fouttype": null}
       ],
       "correct": ["voetganger", "rood", "ego"],
       "uitleg": {
         "regel": "Hier verlaat je het erf via een uitrit. Je moet alle weggebruikers voor laten gaan. Je moet dus ook de voetganger voor laten gaan.",
         "waarom": "Wie uit een erf komt, komt uit een verblijfsgebied de openbare straat op; iedereen die daar al is, mag ongestoord doorgaan.",
-        "valkuil": "De voetganger op de stoep vergeet je snel omdat je naar de straat kijkt; hij is de eerste die voorbij moet.",
+        "valkuil": "De voetganger op de stoep vergeet je snel omdat je naar de straat kijkt; hij steekt de uitrit als eerste over.",
         "onthoud": "Erf uit: stoep, straat, en dan pas jij."
       },
       "bronnen": [
@@ -357,7 +367,8 @@
       "tags": ["erf", "uitrit", "voetganger", "volgorde"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Hier verlaat je het erf via een uitrit. Je moet alle weggebruikers voor laten gaan.", "bron": "boek p. 90", "gewijzigd": "de rode auto heet nu de auto van rechts, want de renderer tekent hem grijs"}
     },
     {
       "id": "U05-Q036",
@@ -390,7 +401,8 @@
       "tags": ["erf", "borden-g", "hotspot"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Het onderste toont hetzelfde beeld met een rode diagonale streep (bord G6, einde erf)", "bron": "slide 89"}
     }
   ]
 }

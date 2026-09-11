@@ -6,7 +6,7 @@
   "week": 2,
   "tier": "must",
   "vereist": ["U04"],
-  "borden": ["D1", "G5", "G6"],
+  "borden": ["D1", "J9", "G5", "G6"],
   "quiz": {"gate": true, "lengte": 12, "minimaalPool": 36, "inzichtMinimum": 0.5, "soort": "regels"},
   "bronnen": {
     "boek": {"secties": ["5.1", "5.2", "5.3", "5.4"], "paginas": [82, 83, 84, 85, 86, 87, 88, 89, 90]},
@@ -30,7 +30,7 @@
         {
           "type": "regel",
           "id": "U05-r02",
-          "tekst": "Op bijna alle rotondes wordt met borden geregeld dat bestuurders op de rotonde voorrang hebben. Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen. Alleen als er geen borden staan, hebben bestuurders die de rotonde oprijden voorrang.",
+          "tekst": "Op bijna alle rotondes wordt met borden geregeld dat bestuurders op de rotonde voorrang hebben. Als je op de toeleidende weg rijdt, moet je hen voorrang verlenen. Staan er geen borden bij een rotonde, dan hebben bestuurders die de rotonde oprijden voorrang; die situatie kom je niet vaak meer tegen.",
           "bron": [
             {"boek": 84, "sectie": "5.1", "anker": "met borden geregeld dat bestuurders op de rotonde voorrang hebben"},
             {"boek": 84, "sectie": "5.1", "anker": "Als er geen borden bij een rotonde staan, hebben bestuurders die de rotonde oprijden voorrang"},
@@ -50,7 +50,7 @@
         {
           "type": "regel",
           "id": "U05-r04",
-          "tekst": "Als je de rotonde wilt verlaten, moet je het verkeer dat de rotonde blijft volgen voor laten gaan. Dat geldt ook voor (snor)fietsers, bromfietsers en voetgangers die op een fietspad of voetpad de rotonde blijven volgen, behalve als borden of tekens iets anders voorschrijven.",
+          "tekst": "Als je de rotonde wilt verlaten, moet je het verkeer dat de rotonde blijft volgen voor laten gaan. Dat geldt ook voor (snor)fietsers, bromfietsers en voetgangers die op een fietsstrook, fietspad, een fiets-/bromfietspad of een voetpad de rotonde blijven volgen, behalve als borden of tekens iets anders voorschrijven.",
           "bron": [
             {"boek": 85, "sectie": "5.1", "anker": "moet je het verkeer dat de rotonde blijft volgen voor laten gaan"},
             {"boek": 87, "sectie": "5.1", "anker": "Behalve als verkeersborden of -tekens iets anders voorschrijven"},
@@ -83,7 +83,7 @@
           "rijen": [
             ["Rechtsaf, eerste zijweg", "Rechts rijden, richting naar rechts", "Richting aan laten tot je eraf bent"],
             ["Rechtdoor, tweede zijweg", "Rechterstrook (middelste bij drie stroken), geen richting", "Bij de eerste zijweg richting naar rechts en rechts gaan rijden"],
-            ["Linksaf, derde zijweg", "Linkerstrook, richting naar links", "Grote rotonde: richtingaanwijzer uit; minirotonde: links laten aanstaan. Bij de tweede zijweg richting naar rechts en rechts gaan rijden"],
+            ["Linksaf, derde zijweg", "Linkerstrook, richting naar links (niet verplicht, wel een goede gewoonte)", "Grote rotonde: richtingaanwijzer uit; minirotonde: links laten aanstaan. Bij de tweede zijweg richting naar rechts en rechts gaan rijden"],
             ["Turborotonde", "Voorwegwijzer en pijlen bepalen je strook: tijdig voorsorteren", "Betonnen rand: wisselen kan niet meer, toch richting aangeven bij het afslaan"]
           ],
           "bron": [
@@ -92,13 +92,14 @@
             {"boek": 84, "sectie": "5.1", "anker": "volg je op de toeleidende weg de linkerstrook en geef je richting aan naar links"},
             {"boek": 85, "sectie": "5.1", "anker": "op een minirotonde laat je je richtingaanwijzer naar links aanstaan"},
             {"boek": 83, "sectie": "5.1", "anker": "Door de betonnen rand kun je op de turborotonde niet meer van rijstrook wisselen"},
-            {"slide": 87, "anker": "geef richting aan naar rechts ter hoogte van de tweede zijweg"}
+            {"slide": 87, "anker": "geef richting aan naar rechts ter hoogte van de tweede zijweg"},
+            {"slide": 87, "anker": "dit is niet verplicht, maar wel een goede gewoonte"}
           ]
         },
         {
           "type": "scene",
           "ref": "S-U05-102",
-          "tekst": "Je verlaat de rotonde bij de noordelijke arm. Het fietspad ligt direct om de rotonde en de fietser blijft de rotonde volgen. Voor jou liggen haaientanden: je laat de fietser voor.",
+          "tekst": "Je verlaat de rotonde bij de noordelijke arm. Het fietspad ligt direct om de rotonde en de fietser blijft de rotonde volgen: je laat hem voor.",
           "bron": {"boek": 86, "sectie": "5.1", "anker": "Hier moet je de fietser die de rotonde blijft volgen voor laten gaan"}
         },
         {
@@ -109,12 +110,12 @@
         },
         {
           "type": "borden",
-          "codes": ["D1"],
+          "codes": ["D1", "J9"],
           "tekst": "[D1] staat op het middeneiland en verplicht de rijrichting; [J9] op de toeleidende weg waarschuwt voor de rotonde."
         },
         {
           "type": "valkuil",
-          "tekst": "Ga je rechtdoor, dan geef je op de toeleidende weg geen richting aan; rechts gaat pas aan bij de zijweg vóór je afrit. En de haaientanden bij het verlaten liggen er voor jou, niet voor de fietser."
+          "tekst": "Ga je rechtdoor, dan geef je op de toeleidende weg geen richting aan; rechts gaat pas aan bij de zijweg vóór je afrit. Liggen er bij het verlaten haaientanden op de rijbaan, dan liggen die er voor jou; liggen ze op het fietspad, dan wacht de fietser."
         },
         {
           "type": "onthoud",
@@ -276,7 +277,7 @@
         },
         {
           "type": "voorbeeld",
-          "tekst": "Je rijdt een klinkerstraat in met rechts het erfbord. Er staat geen P-bord en het is niet je eigen terrein: hier mag je niet parkeren. Verderop staat een auto wel netjes op eigen terrein.",
+          "tekst": "Je rijdt een klinkerstraat in met rechts het erfbord. Er staat geen P-bord en het is niet je eigen terrein: hier mag je niet parkeren. Even verderop, op een plek waar parkeren wel mag, staat een auto keurig geparkeerd.",
           "bron": {"boek": 89, "sectie": "5.3", "anker": "op plaatsen die met een P zijn aangeduid, op eigen terrein"}
         },
         {
@@ -296,7 +297,7 @@
           "rijen": [
             ["Snelheid", "Maximaal 15 km/u, stapvoets"],
             ["Voetgangers", "Mogen de weg over de volle breedte gebruiken"],
-            ["Parkeren", "Alleen op plaatsen met een P of op eigen terrein; in- en uitstappen mag overal"],
+            ["Parkeren", "Alleen op plaatsen met een P of op eigen terrein; passagiers laten in- of uitstappen mag wel"],
             ["In- en uitgang", "Meestal een inrit of uitrit: iedereen gaat voor"]
           ],
           "bron": [
@@ -371,7 +372,7 @@
         },
         {
           "type": "waarom",
-          "tekst": "Rond scholen en in woonwijken steken kinderen en fietsers zomaar over. Bij 30 km/u is je stopafstand een fractie van die bij 50, en de inrit bij de ingang dwingt je om al bij het binnenrijden te vertragen en te kijken.",
+          "tekst": "Rond scholen en in woonwijken steken kinderen en fietsers zomaar over. Bij 30 km/u is je stopafstand veel korter dan bij 50, en de inrit bij de ingang dwingt je om al bij het binnenrijden te vertragen en te kijken.",
           "bron": {"afgeleid": true}
         },
         {

@@ -32,7 +32,7 @@
       "arm": "noord",
       "richting": "rechtdoor",
       "afstand": 1,
-      "label": "de rode auto"
+      "label": "de auto van rechts"
     }
   ],
   "volgorde": [
@@ -41,7 +41,7 @@
     "ego"
   ],
   "toonVolgorde": false,
-  "alt": "Je verlaat een erf via een uitrit en wilt linksaf de straat op. Over de stoep loopt een voetganger vlak voor je langs en op de straat nadert van rechts een rode auto.",
+  "alt": "Je verlaat een erf via een uitrit en wilt linksaf de straat op. Over de stoep loopt een voetganger vlak voor je langs en op de straat nadert van rechts een andere auto.",
   "inspiratie": {
     "boek": 90,
     "slide": 89

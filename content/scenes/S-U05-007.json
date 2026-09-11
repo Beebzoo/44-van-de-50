@@ -54,7 +54,7 @@
       "soort": "auto",
       "arm": "oost",
       "richting": "stil",
-      "label": "de rode auto"
+      "label": "de auto rechts van je"
     }
   ],
   "volgorde": [
@@ -63,7 +63,7 @@
     "rood"
   ],
   "toonVolgorde": false,
-  "alt": "Jij staat voor de haaientanden op de onderste toerit en rechts van je staat een rode auto voor de haaientanden op de volgende toerit. Op de rotonde nadert van links een grijze auto.",
+  "alt": "Jij staat voor de haaientanden op de onderste toerit en rechts van je staat een tweede auto voor de haaientanden op de volgende toerit. Op de rotonde nadert van links een grijze auto.",
   "inspiratie": {
     "boek": 84
   }

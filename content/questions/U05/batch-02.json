@@ -32,7 +32,8 @@
       "tags": ["rotonde", "fietser", "uit-de-voorrang"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Bij het verlaten van de rotonde hoef je de (brom)fietsers geen voorrang te geven", "bron": "boek p. 86"}
     },
     {
       "id": "U05-Q014",
@@ -62,7 +63,8 @@
       "tags": ["rotonde", "voorrang", "zonder-borden"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Als er geen borden bij een rotonde staan, hebben bestuurders die de rotonde oprijden voorrang", "bron": "boek p. 84"}
     },
     {
       "id": "U05-Q015",
@@ -80,7 +82,7 @@
       "uitleg": {
         "regel": "De toegang tot / uitgang van een erf is meestal een inrit / uitrit. Hier verlaat je het erf via een uitrit. Je moet alle weggebruikers voor laten gaan.",
         "waarom": "De stoep is het domein van de voetganger; jij kruist die stoep vanuit het erf en moet dus wachten tot hij vrij is.",
-        "valkuil": "Het einde-bord [G6] maakt het erf niet tot een gewone zijweg; de verlaagde stoeprand zegt dat het een uitrit is.",
+        "valkuil": "Dat je uit een erf komt verandert niets: de verlaagde stoeprand maakt de uitgang een uitrit, dus ook de voetganger op de stoep gaat voor.",
         "onthoud": "Erf uit via een uitrit: ook de voetganger gaat voor."
       },
       "bronnen": [
@@ -94,7 +96,8 @@
       "tags": ["erf", "uitrit", "voetganger"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Hier verlaat je het erf via een uitrit. Je moet alle weggebruikers voor laten gaan.", "bron": "boek p. 90", "gewijzigd": "valkuil noemde bord G6, dat niet op de tekening staat"}
     },
     {
       "id": "U05-Q016",
@@ -102,16 +105,16 @@
       "pagina": "U05-P04",
       "type": "ja_nee",
       "soort": "inzicht",
-      "stam": "Je wilt rechtsaf een 30 km-zone inrijden. De ingang heeft een verlaagde stoeprand en daarnaast staat het zonebord. Langs de straat ligt een fietspad; daarop rijdt een fietser dezelfde kant op als jij, schuin achter je. Moet je de fietser voor laten gaan?",
+      "stam": "Je wilt rechtsaf een 30 km-zone inrijden. De ingang is een inrit met een verlaagde stoeprand. Rechts naast je rijdt een fietser die dezelfde kant op gaat en rechtdoor over die ingang heen rijdt. Moet je de fietser voor laten gaan?",
       "media": {"scene": "S-U05-012"},
       "opties": [
-        {"id": "ja", "tekst": "Ja", "feedback": "Goed. De ingang van de zone is een inrit; bij het inrijden laat je alle weggebruikers voor, en de fietser op het fietspad hoort daarbij.", "fouttype": null},
+        {"id": "ja", "tekst": "Ja", "feedback": "Goed. De ingang van de zone is een inrit; bij het inrijden laat je alle weggebruikers voor, en de fietser naast je hoort daarbij.", "fouttype": null},
         {"id": "nee", "tekst": "Nee", "feedback": "Fout. Bij het inrijden van een inrit laat je iedereen voor; dat de fietser achter je zit, verandert daar niets aan.", "fouttype": "verkeerd_toegepast"}
       ],
       "correct": ["ja"],
       "uitleg": {
         "regel": "De toegang tot een 30 km-zone is vaak een inrit/uitrit. Je moet dan alle weggebruikers voor laten gaan als je een zone in of uit rijdt.",
-        "waarom": "Je kruist het fietspad om de inrit in te rijden; de fietser rijdt rechtdoor en verwacht niet dat een auto over zijn pad afslaat.",
+        "waarom": "Je kruist zijn spoor om de inrit in te rijden; de fietser rijdt rechtdoor en verwacht niet dat een auto vlak voor hem langs afslaat.",
         "valkuil": "Rechtsaf slaan lijkt onschuldig, maar juist dan zit de fietser in je dode hoek; kijk over je schouder.",
         "onthoud": "Zone in via een inrit: eerst iedereen laten gaan."
       },
@@ -125,7 +128,8 @@
       "tags": ["zone", "inrit", "fietser"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "De toegang tot een 30 km-zone is vaak een inrit/uitrit. Je moet dan alle weggebruikers voor laten gaan", "bron": "boek p. 90", "gewijzigd": "de fietser rijdt op de tekening naast je en er is geen apart fietspad getekend; stam, feedback en waarom bijgesteld"}
     },
     {
       "id": "U05-Q017",
@@ -158,7 +162,8 @@
       "tags": ["rotonde", "minirotonde", "richting-aangeven", "linksaf"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "op een minirotonde laat je je richtingaanwijzer naar links aanstaan", "bron": "boek p. 85"}
     },
     {
       "id": "U05-Q018",
@@ -191,7 +196,8 @@
       "tags": ["inrit", "linksaf", "voorsorteren"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "sorteer dan binnen de bebouwde kom gewoon tegen de wegas voor", "bron": "boek p. 88"}
     },
     {
       "id": "U05-Q019",
@@ -223,7 +229,8 @@
       "tags": ["rotonde", "verkeerslichten", "rangorde"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Deze gaan boven de voorrangsborden en tekens op het wegdek", "bron": "boek p. 84"}
     },
     {
       "id": "U05-Q020",
@@ -258,7 +265,8 @@
       "tags": ["uitrit", "inritblokken", "beperkte-bestemming"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Meestal kun je in- en uitritten herkennen aan hun constructie, zoals de verlaagde stoepranden of de inritblokken", "bron": "boek p. 88"}
     },
     {
       "id": "U05-Q021",
@@ -293,7 +301,8 @@
       "tags": ["zone", "snelheid", "inrit"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "de maximumsnelheid is 30 km/u. Dit geldt in de hele zone", "bron": "slide 90"}
     },
     {
       "id": "U05-Q022",
@@ -301,23 +310,23 @@
       "pagina": "U05-P01",
       "type": "volgorde",
       "soort": "inzicht",
-      "stam": "Je verlaat een rotonde bij de arm rechts van je. Om de rotonde loopt een fietspad direct langs de ring; een fietser volgt de rotonde en nadert de oversteek van jouw afrit, waar haaientanden voor de auto's liggen. Achter je op de rotonde rijdt een rode auto die dezelfde afrit neemt. In welke volgorde gaan jullie?",
+      "stam": "Je verlaat een rotonde bij de arm rechts van je. Om de rotonde loopt een fietspad direct langs de ring; een fietser volgt de rotonde en nadert de oversteek van jouw afrit. Achter je op de rotonde rijdt een tweede auto die dezelfde afrit neemt. In welke volgorde gaan jullie?",
       "media": {"scene": "S-U05-015"},
       "opties": [
-        {"id": "fietser", "tekst": "de fietser", "feedback": "De fietser blijft de rotonde volgen en wordt bij het verlaten door beide auto's voor gelaten; de haaientanden liggen voor de auto's.", "fouttype": null},
-        {"id": "ego", "tekst": "jij", "feedback": "Zodra de fietser de oversteek vrij heeft gemaakt, verlaat jij de rotonde; je rijdt vóór de rode auto.", "fouttype": null},
-        {"id": "rood", "tekst": "de rode auto", "feedback": "De rode auto rijdt achter je en kan pas de afrit op als jij weg bent, en ook hij wacht op de fietser.", "fouttype": null}
+        {"id": "fietser", "tekst": "de fietser", "feedback": "De fietser blijft de rotonde volgen, en wie de rotonde verlaat laat hem voor, dus allebei de auto's wachten.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Zodra de fietser de oversteek vrij heeft gemaakt, verlaat jij de rotonde, nog voor de auto achter je.", "fouttype": null},
+        {"id": "rood", "tekst": "de auto achter je", "feedback": "Die auto rijdt achter je en kan pas de afrit op als jij weg bent, en ook hij wacht op de fietser.", "fouttype": null}
       ],
       "correct": ["fietser", "ego", "rood"],
       "uitleg": {
         "regel": "De basisregel is: bij het verlaten van de rotonde moet je voetgangers, (snor)fietsers en bromfietsers die de rotonde blijven volgen voor laten gaan.",
         "waarom": "De ring, met het fietspad eromheen, heeft voorrang op alles wat de ring verlaat; de auto's staan daarna gewoon in de rij achter elkaar.",
-        "valkuil": "Kijk bij het afrijden ook naar achteren en opzij: de fietser komt vaak van rechtsachter, waar je hem niet verwacht.",
+        "valkuil": "Kijk bij het afrijden goed naar rechts: de fietser komt met de ring mee en zit precies in de bocht die je wilt nemen.",
         "onthoud": "Afrijden: eerst de fietser op de ring, dan de auto's in volgorde."
       },
       "bronnen": [
         {"boek": 85, "sectie": "5.1", "anker": "voetgangers, (snor)fietsers en bromfietsers die de rotonde blijven volgen voor laten gaan"},
-        {"boek": 86, "sectie": "5.1", "anker": "haaientanden als extra waarschuwing dat je het verkeer dat de rotonde volgt"},
+        {"boek": 86, "sectie": "5.1", "anker": "Hier moet je de fietser die de rotonde blijft volgen voor laten gaan"},
         {"slide": 85, "anker": "moet je fietsers en voetgangers voor laten gaan, tenzij tekens iets anders aangeven"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan",
@@ -326,7 +335,8 @@
       "tags": ["rotonde", "fietser", "verlaten", "volgorde"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "bij het verlaten van de rotonde moet je voetgangers, (snor)fietsers en bromfietsers die de rotonde blijven volgen voor laten gaan", "bron": "boek p. 85", "gewijzigd": "haaientanden op de afrit uit de stam, de rode auto heet nu de auto achter je, valkuil past nu bij de tekening"}
     },
     {
       "id": "U05-Q023",
@@ -334,12 +344,12 @@
       "pagina": "U05-P04",
       "type": "volgorde",
       "soort": "inzicht",
-      "stam": "Je rijdt een 30 km-zone uit. Bij het bord einde zone kom je op een gewone gelijkwaardige kruising zonder verlaagde stoeprand of inritblokken. Van links nadert een grijze auto, van rechts een rode auto; iedereen gaat rechtdoor. Wie gaat wanneer?",
+      "stam": "Je rijdt een 30 km-zone uit. Bij het bord einde zone kom je op een gewone gelijkwaardige kruising zonder verlaagde stoeprand of inritblokken. Van links nadert een auto en van rechts nadert er ook een; iedereen gaat rechtdoor. Wie gaat wanneer?",
       "media": {"scene": "S-U05-016"},
       "opties": [
-        {"id": "rood", "tekst": "de rode auto", "feedback": "De rode auto komt voor jou van rechts en hoeft op niemand te wachten, dus hij gaat als eerste.", "fouttype": null},
-        {"id": "ego", "tekst": "jij", "feedback": "Jij laat de rode auto van rechts voor en gaat daarna; de grijze auto van links wacht op jou.", "fouttype": null},
-        {"id": "grijs", "tekst": "de grijze auto", "feedback": "De grijze auto heeft jou van rechts en laat je daarom voor; hij gaat als laatste.", "fouttype": null}
+        {"id": "rood", "tekst": "de auto van rechts", "feedback": "Die auto komt voor jou van rechts en hoeft zelf op niemand te wachten, dus hij gaat als eerste.", "fouttype": null},
+        {"id": "ego", "tekst": "jij", "feedback": "Jij laat de auto van rechts voor en gaat daarna; de auto van links wacht op jou.", "fouttype": null},
+        {"id": "grijs", "tekst": "de auto van links", "feedback": "Die auto heeft jou van rechts en laat je daarom voor; hij gaat als laatste.", "fouttype": null}
       ],
       "correct": ["rood", "ego", "grijs"],
       "uitleg": {
@@ -358,7 +368,8 @@
       "tags": ["zone", "gelijkwaardig-kruispunt", "volgorde"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "gewijzigd", "bewijs": "Hier is het een gewone gelijkwaardige kruising. Jij komt van rechts en mag dus eerst.", "bron": "boek p. 90", "gewijzigd": "de twee auto's worden allebei grijs getekend, dus ze heten nu de auto van links en de auto van rechts"}
     },
     {
       "id": "U05-Q024",
@@ -393,7 +404,8 @@
       "tags": ["rotonde", "borden-d", "hotspot"],
       "reserve": false,
       "versie": 1,
-      "status": "concept"
+      "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Op het middeneiland staat bord 'rotonde' (D1)", "bron": "boek p. 82"}
     }
   ]
 }
