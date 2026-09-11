@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-040-a",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "obstakel",
+      "soort": "bestelauto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "het obstakel"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Een rechte weg met verkeer in twee richtingen. Op jouw weghelft staat een grijze bestelauto stil. Jij nadert van onderen en uit de andere richting komt in de verte een grijze auto aan.",
+  "inspiratie": {
+    "boek": 61,
+    "slide": 169
+  }
+}

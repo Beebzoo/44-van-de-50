@@ -45,6 +45,11 @@
       "id": "S-VB-003",
       "soort": "wees",
       "reden": "De drie uitgewerkte voorbeelden uit content/schema/SCENES.md. Ze horen bij geen enkele vraag en staan er zodat preview.html laat zien hoe de taal werkt."
+    },
+    {
+      "id": "S-U04-026",
+      "soort": "alt",
+      "reden": "Deze tekening wordt nergens meer gebruikt en blijft liggen voor fase 2, waarin de renderer voorsorteerstroken en verkeerslichten krijgt. Zolang dat niet zo is, beschrijft de alt terecht wat de tekening zou moeten tonen en niet wat hij toont."
     }
   ]
 }

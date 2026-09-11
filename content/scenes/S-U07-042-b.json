@@ -1,0 +1,40 @@
+{
+  "id": "S-U07-042-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "traag",
+      "soort": "vrachtauto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de vrachtauto"
+    },
+    {
+      "id": "achter",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "signaal": "links",
+      "label": "de achterligger"
+    }
+  ],
+  "alt": "Dezelfde weg een tel later. De grijze auto achter jou geeft nu richting naar links aan en gaat jou dus inhalen.",
+  "inspiratie": {
+    "boek": 145,
+    "slide": 168
+  }
+}

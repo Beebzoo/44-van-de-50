@@ -103,7 +103,9 @@
             102,
             103,
             104,
-            105
+            105,
+            109,
+            110
           ]
         },
         "cursus": {
@@ -235,6 +237,55 @@
           ]
         },
         {
+          "type": "regel",
+          "tekst": "Stel bij het naderen ook vast hoe druk het is, waar je te maken kunt krijgen met fietsers en voetgangers, hoe goed of hoe slecht je de situatie kunt overzien, en waar je je moet opstellen als je moet stoppen om ander verkeer voor te laten gaan.",
+          "bron": {
+            "boek": 102,
+            "sectie": "6.1",
+            "anker": "waar je te maken kunt krijgen met fietsers en voetgangers"
+          }
+        },
+        {
+          "type": "regel",
+          "tekst": "Naderen meerdere bestuurders tegelijk uit verschillende richtingen een gelijkwaardig kruispunt, dan zijn er vaak meerdere oplossingen mogelijk voor de voorrang. Kies dan samen met de andere bestuurders voor de meest praktische oplossing.",
+          "bron": {
+            "boek": 105,
+            "sectie": "6.2",
+            "anker": "Kies dan samen met de andere bestuurders voor de meest praktische oplossing"
+          }
+        },
+        {
+          "type": "regel",
+          "tekst": "Zijn de verkeerslichten in werking, dan regelen zij de voorrang. Zijn ze buiten werking, dan knippert meestal het gele licht: nader het kruispunt voorzichtig, want meestal geven borden aan hoe de voorrang geregeld is.",
+          "bron": [
+            {
+              "boek": 110,
+              "sectie": "6.2",
+              "anker": "als de verkeerslichten in werking zijn, regelen zij de voorrang"
+            },
+            {
+              "boek": 110,
+              "sectie": "6.2",
+              "anker": "Meestal geven borden aan hoe de voorrang geregeld is"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "tekst": "Op onoverzichtelijke plaatsen kunnen verkeersspiegels staan. Het glas is vaak bol en geeft daardoor een vertekend beeld: het verkeer lijkt verder weg dan het in werkelijkheid is.",
+          "bron": [
+            {
+              "slide": 107,
+              "anker": "het glas van de spiegel is vaak bol en geeft dus een vertekend beeld"
+            },
+            {
+              "boek": 109,
+              "sectie": "6.2",
+              "anker": "Hou er rekening mee dat het glas van de spiegel bol is"
+            }
+          ]
+        },
+        {
           "type": "onthoud",
           "tekst": "Kruispunt vrij houden. Op het kruispunt wachten mag op een voorrangsweg bij linksaf, en om een voorrangsvoertuig voor te laten gaan."
         },
@@ -284,6 +335,7 @@
             112,
             123,
             124,
+            128,
             133
           ]
         }
@@ -449,6 +501,28 @@
               "boek": 109,
               "sectie": "6.2",
               "anker": "bestuurders op een onverharde weg verlenen voorrang aan bestuurders op een kruisende verharde weg"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Van rechts komt een bestelauto die een kapotte auto sleept. Je laat de combinatie gewoon voorgaan, want het feit dat er sprake is van slepen doet niets af aan de voorrangsregels.",
+          "bron": {
+            "slide": 133,
+            "anker": "Het feit dat er sprake is van slepen, doet niets af aan de voorrangsregels"
+          }
+        },
+        {
+          "type": "regel",
+          "tekst": "Ga jij rechtdoor, dan is een voetganger die de kruisende weg oversteekt voor jou geen rechtdoorgaand verkeer op dezelfde weg. Voor een bestuurder die afslaat en die weg juist verlaat, is diezelfde voetganger dat wel, en hij moet hem dus voor laten gaan.",
+          "bron": [
+            {
+              "slide": 128,
+              "anker": "de voetgangers zijn voor de witte auto geen rechtdoorgaand verkeer op dezelfde weg"
+            },
+            {
+              "slide": 128,
+              "anker": "rechtdoorgaand verkeer op dezelfde weg en hij moet hen dus voor laten gaan"
             }
           ]
         },
@@ -698,6 +772,39 @@
             "sectie": "6.2",
             "anker": "Kijk daarom ook altijd naar rechts als je rechtsaf een weg opdraait"
           }
+        },
+        {
+          "type": "regel",
+          "tekst": "Nader het kruispunt met gematigde snelheid en rijd op tijd langzamer als je voorrang moet verlenen. Je mag bestuurders op de kruisende weg niet de indruk geven dat je door zult rijden.",
+          "bron": [
+            {
+              "boek": 107,
+              "sectie": "6.2",
+              "anker": "Nader het kruispunt met gematigde snelheid zodat je niet op het laatste moment"
+            },
+            {
+              "slide": 106,
+              "anker": "Rijd op tijd langzamer als je voorrang moet verlenen"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "tekst": "De borden regelen de voorrang tussen de wegen. Tussen jou en je tegenligger op dezelfde weg blijft er daarna nog een volgorde over: wie rechtdoor gaat op dezelfde weg mag eerst, ook als dat een voetganger is, en wie rechts afslaat gaat voor wie op dezelfde weg links afslaat. Ligt er een zebrapad, dan mag de voetganger daar eerst.",
+          "bron": [
+            {
+              "slide": 126,
+              "anker": "de voetganger mag eerst, volgens de regel 'rechtdoor op dezelfde weg gaat voor'"
+            },
+            {
+              "slide": 126,
+              "anker": "een bestuurder die rechts afslaat gaat voor een bestuurder die op dezelfde weg links afslaat"
+            },
+            {
+              "slide": 127,
+              "anker": "de voetganger mag eerst, vanwege de voetgangersoversteekplaats"
+            }
+          ]
         },
         {
           "type": "onthoud",

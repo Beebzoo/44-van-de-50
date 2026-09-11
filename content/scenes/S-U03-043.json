@@ -1,0 +1,32 @@
+{
+  "id": "S-U03-043",
+  "vorm": "uitrit",
+  "voorrang": "uitrit",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "uitrit",
+      "richting": "rechts",
+      "afstand": 1,
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Jij rijdt van onderen rechtdoor over de straat. Rechts van je komt een grijze auto uit een uitrit; de stoep loopt over die uitrit door.",
+  "inspiratie": {
+    "boek": 109,
+    "beeld": "foto linksonder"
+  }
+}

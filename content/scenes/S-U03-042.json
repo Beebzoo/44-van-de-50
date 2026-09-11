@@ -1,0 +1,79 @@
+{
+  "id": "S-U03-042",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "noord"
+    },
+    {
+      "code": "B6",
+      "arm": "west"
+    },
+    {
+      "code": "B6",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "west"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links",
+      "label": "jij"
+    },
+    {
+      "id": "vracht",
+      "soort": "vrachtauto",
+      "arm": "noord",
+      "richting": "rechts",
+      "signaal": "rechts",
+      "label": "de vrachtauto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "vracht",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en wilt linksaf de zijweg links in. Van voren komt over dezelfde voorrangsweg een vrachtauto die rechtsaf diezelfde zijweg in wil. Over die zijweg steekt een voetganger over, die langs de voorrangsweg rechtdoor loopt.",
+  "inspiratie": {
+    "slide": 126
+  }
+}

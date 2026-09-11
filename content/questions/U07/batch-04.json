@@ -1,0 +1,846 @@
+{
+  "unit": "U07",
+  "vragen": [
+    {
+      "id": "U07-Q037",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "In welke van deze gevallen spreken we van inhalen en niet van voorbijgaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je gaat links om een fietser heen die voor je uit op de rijbaan rijdt.",
+          "feedback": "Goed. De fietser rijdt en gaat dezelfde kant op als jij, en dan heet het inhalen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je gaat links om een bestelauto heen die stil staat om te lossen.",
+          "feedback": "Fout. De bestelauto staat stil en doet niet mee aan het verkeer, dus dit is voorbijgaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je passeert een trekker die langzaam voor je uit rijdt.",
+          "feedback": "Goed. Hoe traag hij ook gaat, hij rijdt, en dus haal je hem in.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je gaat om een voetganger heen die langs de kant van de weg loopt.",
+          "feedback": "Fout. Het boek zet voetgangers bij voorbijgaan, ook al lopen ze.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Je stuurt om een obstakel heen dat op de rijbaan staat.",
+          "feedback": "Fout. Een obstakel beweegt niet, dus je gaat het voorbij en je haalt het niet in.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "We spreken van inhalen bij rijdende bestuurders onderling in dezelfde richting, en van voorbijgaan bij het passeren van stilstaande voertuigen, stilstaande obstakels en voetgangers.",
+        "waarom": "Het onderscheid zit in de beweging, niet in de grootte van het voertuig. Wie rijdt kan zelf nog van snelheid of richting veranderen, en daar moet jij tijdens de manoeuvre rekening mee houden.",
+        "valkuil": "De voetganger is de verrassing in dit rijtje: hij beweegt wel, maar het boek rekent hem bij voorbijgaan.",
+        "onthoud": "Rijdt het voertuig, dan haal je in. Staat het stil, dan ga je voorbij."
+      },
+      "bronnen": [
+        {
+          "boek": 140,
+          "sectie": "9.6",
+          "anker": "'inhalen' als we het hebben over rijdende bestuurders onderling in dezelfde richting"
+        },
+        {
+          "boek": 140,
+          "sectie": "9.6",
+          "anker": "'voorbijgaan' bij het passeren van (buiten het verkeer) stilstaande voertuigen, stilstaande obstakels en voetgangers"
+        },
+        {
+          "slide": 165,
+          "anker": "bij het passeren van rijdende bestuurders onderling"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "voorbijgaan",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "'inhalen' als we het hebben over rijdende bestuurders onderling in dezelfde richting",
+        "bron": "boek p. 140"
+      }
+    },
+    {
+      "id": "U07-Q038",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Voor je rijdt een fietser op de rijbaan en je wilt er links langs. Hoeveel zijdelingse afstand houd je volgens het boek minimaal aan?",
+      "media": {
+        "scene": "S-U07-041"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een halve meter is genoeg, zolang je maar rustig rijdt.",
+          "feedback": "Fout. Zo dicht langs een fietser laat je hem geen ruimte om te slingeren of uit te wijken.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "Minimaal 1,5 meter.",
+          "feedback": "Goed. Dat is de zijdelingse afstand die het boek noemt voor voetgangers en fietsers.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Ongeveer een meter, want dan kun je er nog net langs zonder de andere weghelft te gebruiken.",
+          "feedback": "Fout. Het boek koppelt de afstand niet aan de ruimte die jij nodig hebt, maar noemt een vaste maat.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Er staat geen maat in het boek, dus je schat het zelf in.",
+          "feedback": "Fout. Er staat wel degelijk een minimum genoemd voor kwetsbare verkeersdeelnemers.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand, minimaal 1,5 meter.",
+        "waarom": "Een fietser maakt zo een slinger om een kuil of door een windvlaag, en die ruimte moet er dan al zijn. Achteraf opzij sturen kan niet meer.",
+        "valkuil": "Past die ruimte er niet, dan is het antwoord niet krapper passeren maar erachter blijven tot het wel kan.",
+        "onthoud": "Anderhalve meter opzij voor wie geen plaatwerk om zich heen heeft."
+      },
+      "bronnen": [
+        {
+          "boek": 145,
+          "sectie": "9.6",
+          "anker": "houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand (minimaal 1,5 meter)"
+        },
+        {
+          "slide": 168,
+          "anker": "passeer niet 'te krap'; houd bij kwetsbare verkeersdeelnemers minimaal 1,5 meter afstand"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "afstand",
+        "kwetsbare-weggebruikers",
+        "fietser"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "houd bij het inhalen van voetgangers en fietsers voldoende zijdelingse afstand (minimaal 1,5 meter)",
+        "bron": "boek p. 145",
+        "gewijzigd": "afleider c noemde een autobreedte ongeveer een meter, wat feitelijk niet klopt; nu een afleider zonder die bewering"
+      }
+    },
+    {
+      "id": "U07-Q039",
+      "unit": "U07",
+      "pagina": "U07-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je besluit de auto voor je in te halen. Op welk moment zet je je richtingaanwijzer aan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Pas als je daadwerkelijk aan de manoeuvre begint.",
+          "feedback": "Goed. De pijl hoort bij het moment dat je gaat, niet bij het moment dat je het plan maakt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Zodra je het besluit neemt, ook al rijd je nog een tijd achter hem.",
+          "feedback": "Fout. Een knipperlicht dat lang van tevoren aangaat zegt niemand meer iets over wat je nu doet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Pas als je al naast hem rijdt.",
+          "feedback": "Fout. Dan is de zijdelingse verplaatsing al gemaakt en heeft niemand er nog iets aan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen als er verkeer achter je rijdt dat er last van kan hebben.",
+          "feedback": "Fout. Richting aangeven bij een belangrijke zijdelingse verplaatsing is verplicht, ook als je niemand ziet.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Geef pas richting aan als je daadwerkelijk met de inhaalmanoeuvre begint.",
+        "waarom": "De bestuurder voor je en de bestuurder achter je lezen aan je pijl af wat er nu gaat gebeuren. Staat hij al een halve minuut aan, dan raden ze maar wat.",
+        "valkuil": "Snelheid maken doe je wel al eerder, terwijl je nog achter het andere voertuig rijdt. Dat is iets anders dan richting aangeven.",
+        "onthoud": "De pijl hoort bij de beweging, niet bij het plan."
+      },
+      "bronnen": [
+        {
+          "boek": 141,
+          "sectie": "9.6",
+          "anker": "geef pas richting aan als je daadwerkelijk met de inhaalmanoeuvre begint"
+        },
+        {
+          "slide": 168,
+          "anker": "geef tijdig richting aan (vlak voor je daadwerkelijk gaat inhalen)"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "richting-aangeven"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "geef pas richting aan als je daadwerkelijk met de inhaalmanoeuvre begint",
+        "bron": "boek p. 141"
+      }
+    },
+    {
+      "id": "U07-Q040",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Het obstakel staat op de helft van de bestuurder die jou tegemoetkomt, dus volgens de regels moet hij wachten. Houd je er toch rekening mee dat hij doorrijdt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Het boek waarschuwt er letterlijk voor dat tegenliggers in zo'n geval gewoon doorrijden.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je hebt gelijk, maar gelijk hebben levert geen ruimte op als de ander niet stopt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Houd rekening met tegenliggers die doorrijden, ook als het obstakel op hun weghelft staat en zij dus eigenlijk moeten stoppen.",
+        "waarom": "Je kunt de ander niet dwingen. Gaan jullie er allebei van uit dat de tegenpartij wacht, dan komen jullie elkaar precies in de smalle doorgang tegen.",
+        "valkuil": "Het boek gaat nog een stap verder en noemt het inzicht als je in zo'n geval zelf stopt, ook al hoeft het niet.",
+        "onthoud": "Reken op de tegenligger die niet stopt."
+      },
+      "bronnen": [
+        {
+          "slide": 169,
+          "anker": "houd rekening met tegenliggers die doorrijden, ook als het obstakel op hún weghelft staat"
+        },
+        {
+          "boek": 141,
+          "sectie": "9.6",
+          "anker": "wees erop voorbereid dat tegenliggers door zullen rijden"
+        },
+        {
+          "boek": 61,
+          "sectie": "4.1",
+          "anker": "De fietser had moeten wachten, maar nu toon je inzicht door zelf te stoppen."
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voorbijgaan",
+        "obstakel",
+        "tegenligger"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "houd rekening met tegenliggers die doorrijden, ook als het obstakel op hún weghelft staat",
+        "bron": "slide 169",
+        "gewijzigd": "de valkuil leunde op het boekonderschrift over zelf stoppen zonder dat die bron erbij stond; boek p. 61 toegevoegd"
+      }
+    },
+    {
+      "id": "U07-Q041",
+      "unit": "U07",
+      "pagina": "U07-P01",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "Voor je staat een bestelauto stil op jouw weghelft. Uit de andere richting komt een auto aan, eerst nog ver weg en even later vlakbij, en er is te weinig ruimte om er samen langs te gaan. Waar breng je je auto tot stilstand?",
+      "media": {
+        "reeks": [
+          "S-U07-040-a",
+          "S-U07-040-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Ruim erachter, zodat je langs de bestelauto heen kunt kijken en straks vlot weg kunt rijden.",
+          "feedback": "Goed. Op afstand stoppen levert je zicht op de vrije weg op en een rechte lijn om weer op te trekken.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Vlak erachter, want dan houd je de weg achter je zo lang mogelijk vrij.",
+          "feedback": "Fout. Daarmee neem je jezelf het zicht af en moet je vanuit een scherpe hoek om de bestelauto heen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Met je neus al naast de bestelauto, zodat de tegenligger ziet dat jij eerst wilt.",
+          "feedback": "Fout. Zo sta je al op de andere weghelft en blokkeer je juist de bestuurder die voor mag gaan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je stopt niet, want de tegenligger ziet je heus wel aankomen.",
+          "feedback": "Fout. Het obstakel staat op jouw weghelft, dus jij bent degene die wacht.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Stop op tijd voor een obstakel op jouw weghelft als je een tegenligger voor moet laten gaan. Zo houd je overzicht en is het wegrijden makkelijker.",
+        "waarom": "Vanaf een paar autolengtes zie je langs het obstakel wanneer de weg echt vrij is, en je kunt bijna recht optrekken in plaats van vanuit een schuine stand.",
+        "valkuil": "Zo ver mogelijk doorkruipen voelt netjes tegenover het verkeer achter je, maar het kost je precies het zicht dat je nodig hebt.",
+        "onthoud": "Op afstand wachten geeft zicht en een vlotte start."
+      },
+      "bronnen": [
+        {
+          "slide": 169,
+          "anker": "stop op tijd voor een obstakel op jouw weghelft"
+        },
+        {
+          "slide": 169,
+          "anker": "Zo houd je overzicht en is het wegrijden makkelijker"
+        },
+        {
+          "boek": 61,
+          "sectie": "4.1",
+          "anker": "moet jij stoppen als het obstakel op jouw weghelft staat"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voorbijgaan",
+        "obstakel",
+        "tegenligger"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "stop op tijd voor een obstakel op jouw weghelft als je een tegenligger voor moet laten gaan",
+        "bron": "slide 169",
+        "gewijzigd": "de stam noemde niet wat er tussen de twee beelden verandert, terwijl dat de tegenligger is die dichterbij komt; nu staat het erin"
+      }
+    },
+    {
+      "id": "U07-Q042",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je wilt een langzame voorligger inhalen. In welke volgorde kijk je vlak voordat je naar links stuurt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Binnenspiegel, dan de linkerbuitenspiegel, dan over je linkerschouder.",
+          "feedback": "Goed. Eerst het brede beeld, daarna de zijkant en als laatste de plek die geen spiegel laat zien.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Alleen de linkerbuitenspiegel, want daarin zie je alles wat links van je rijdt.",
+          "feedback": "Fout. Juist die spiegel heeft een gat, en daar zit de auto die op het punt staat jou in te halen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Eerst over je linkerschouder, dan de binnenspiegel, dan de linkerbuitenspiegel.",
+          "feedback": "Fout. De schouderblik hoort als laatste, anders kijk je er weer van weg voordat je stuurt.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "De rechterbuitenspiegel en daarna de binnenspiegel.",
+          "feedback": "Fout. Je gaat naar links, dus de linkerkant is de kant waar het gevaar vandaan komt.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Voor je gaat inhalen kijk je eerst in de binnenspiegel, daarna in de linkerbuitenspiegel en vervolgens over je linkerschouder.",
+        "waarom": "De twee spiegels vertellen je wat er aankomt, de schouderblik vertelt je wat er al naast je zit. Sla je die laatste over, dan kun je een auto links van je gewoon missen.",
+        "valkuil": "De schouderblik valt als eerste weg zodra je haast hebt, en dat is precies het moment waarop hij nodig is.",
+        "onthoud": "Binnenspiegel, buitenspiegel, schouder, en dan pas sturen."
+      },
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "eerst in de binnenspiegel, daarna in de linkerbuitenspiegel, en vervolgens over je linkerschouder"
+        },
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "kun je een auto links van je gewoon 'missen'"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "dode-hoek",
+        "spiegels"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "eerst in de binnenspiegel, daarna in de linkerbuitenspiegel, en vervolgens over je linkerschouder",
+        "bron": "boek p. 143"
+      }
+    },
+    {
+      "id": "U07-Q043",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "Je stelt je spiegels zo zorgvuldig mogelijk af. Is de dode hoek daarmee helemaal verdwenen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Goed afstellen helpt wel, maar er blijft altijd een stuk naast je auto dat geen spiegel laat zien.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. De cursus zegt het letterlijk: verkleinen lukt, helemaal wegnemen niet.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Door je spiegels juist af te stellen verklein je de dode hoeken, maar helemaal wegnemen lukt niet.",
+        "waarom": "Een spiegel vangt maar een deel van de ruimte naast je op. Tussen wat de buitenspiegel toont en wat je door het zijraam ziet blijft een gebied over dat je alleen met je hoofd kunt bekijken.",
+        "valkuil": "Perfect afgestelde spiegels geven een vals gevoel van zekerheid, en dan verdwijnt de schouderblik uit je routine.",
+        "onthoud": "Spiegels maken de dode hoek kleiner, niet leeg."
+      },
+      "bronnen": [
+        {
+          "slide": 171,
+          "anker": "Dode hoeken zijn de gebieden rond het voertuig die je als bestuurder niet kunt waarnemen."
+        },
+        {
+          "slide": 171,
+          "anker": "Door je spiegels juist af te stellen verklein je de dode hoeken"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "dode-hoek",
+        "spiegels"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Door je spiegels juist af te stellen verklein je de dode hoeken, maar helemaal wegnemen lukt dus niet.",
+        "bron": "slide 171"
+      }
+    },
+    {
+      "id": "U07-Q044",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In je auto zit een dode hoek detectie systeem dat een lampje laat oplichten als er iemand naast je rijdt. Mag je het kijken over je schouder daarom overslaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het boek zegt uitdrukkelijk dat je voor de zekerheid altijd ook zelf opzij blijft kijken.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Het systeem wijst je ergens op, maar het neemt de schouderblik niet over.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Veel moderne auto's hebben een dode hoek detectie systeem, maar blijf voor de zekerheid altijd ook zelf opzij kijken.",
+        "waarom": "Het systeem is een extra paar ogen en geen vervanging. Het kan een snel naderende bestuurder net te laat melden, en de keuze om te sturen blijft van jou.",
+        "valkuil": "Hulpmiddelen in de auto verleiden je om een stap over te slaan. De regel over kijken verandert er niet door.",
+        "onthoud": "Het lampje helpt, je schouder beslist."
+      },
+      "bronnen": [
+        {
+          "boek": 144,
+          "sectie": "9.6",
+          "anker": "Maar blijf voor de zekerheid altijd ook zélf opzij kijken."
+        },
+        {
+          "slide": 171,
+          "anker": "op een voertuig in de dode hoek hebben veel moderne"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "dode-hoek",
+        "spiegels"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Maar blijf voor de zekerheid altijd ook zélf opzij kijken.",
+        "bron": "boek p. 144"
+      }
+    },
+    {
+      "id": "U07-Q045",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "reeks",
+      "soort": "inzicht",
+      "stam": "Je zit achter een langzame vrachtauto en wilt hem passeren. De auto achter je reed eerst zonder richtingaanwijzer en geeft nu richting naar links aan. Wat doe je?",
+      "media": {
+        "reeks": [
+          "S-U07-042-a",
+          "S-U07-042-b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je blijft rechts en laat hem eerst voorbij, daarna kijk je opnieuw of jij kunt.",
+          "feedback": "Goed. Hij is al bezig met zijn manoeuvre en heeft die ruimte links nodig.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je stuurt snel als eerste naar links, want jij zat er het langst achter.",
+          "feedback": "Fout. Wie er het langst achter zat telt niet, en jullie sturen dan allebei naar dezelfde plek.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je stuurt naar links en rekent erop dat hij zich wel aanpast.",
+          "feedback": "Fout. Hij is al naar links aan het gaan, en zodra hij naast je komt zie je hem in geen enkele spiegel meer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je remt af, zodat hij er zeker langs kan.",
+          "feedback": "Fout. Onverwacht remmen maakt het voor hem juist lastiger, en rechts blijven is genoeg.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Houd er rekening mee dat achterliggers jou inhalen terwijl je zelf wilt gaan inhalen.",
+        "waarom": "Twee bestuurders die tegelijk naar dezelfde ruimte links sturen, komen elkaar daar tegen. Degene die al bezig is, kan niet meer terug zonder de rest te verrassen.",
+        "valkuil": "Wie lang achter een traag voertuig hangt, kijkt vooral vooruit naar het gaatje. De auto die jou op dat moment inhaalt zit precies in je dode hoek.",
+        "onthoud": "Kijk eerst of je zelf niet wordt ingehaald."
+      },
+      "bronnen": [
+        {
+          "slide": 168,
+          "anker": "houd rekening met achterliggers die joú inhalen terwijl je zélf wilt gaan inhalen"
+        },
+        {
+          "boek": 145,
+          "sectie": "9.6",
+          "anker": "controleer of je niet zélf juist wordt ingehaald"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "dode-hoek",
+        "spiegels"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "houd rekening met achterliggers die joú inhalen terwijl je zélf wilt gaan inhalen",
+        "bron": "slide 168",
+        "gewijzigd": "de stam noemde het verschil tussen de twee beelden niet, en afleider c zette de achterligger in je dode hoek terwijl hij in beide beelden gewoon achter je rijdt"
+      }
+    },
+    {
+      "id": "U07-Q046",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Met welke som reken je volgens het boek de inhaalafstand uit?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "60 keer je eigen snelheid, gedeeld door het snelheidsverschil tussen de voertuigen.",
+          "feedback": "Goed. Dat is precies de som die op het schoolbord in het boek staat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "60 keer het snelheidsverschil, gedeeld door je eigen snelheid.",
+          "feedback": "Fout. Zo draai je de som om en komt er bij een klein verschil juist een kleine uitkomst uit.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "Je eigen snelheid gedeeld door 60, maal het snelheidsverschil.",
+          "feedback": "Fout. Hier staan de delen door elkaar en de uitkomst klopt niet met de voorbeelden in het boek.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "60 keer de snelheid van je voorligger, gedeeld door je eigen snelheid.",
+          "feedback": "Fout. Boven de streep staat jouw snelheid, niet die van de bestuurder die je inhaalt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De inhaalafstand reken je uit met 60 keer je eigen snelheid, gedeeld door het snelheidsverschil tussen de voertuigen.",
+        "waarom": "Het snelheidsverschil staat onder de streep, dus hoe kleiner dat verschil, hoe groter de uitkomst. Dat is precies wat je merkt als je maar net iets harder rijdt dan de ander.",
+        "valkuil": "Boven de streep staat jouw eigen snelheid en niet die van je voorligger.",
+        "onthoud": "60 keer jouw snelheid, gedeeld door het verschil."
+      },
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "Die inhaalafstand kun je uitrekenen met deze formule"
+        },
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "60 x je eigen snelheid : snelheidsverschil tussen de voertuigen"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": [
+        "inhalen",
+        "afstand",
+        "formule"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "60 x je eigen snelheid : snelheidsverschil tussen de voertuigen",
+        "bron": "boek p. 143"
+      }
+    },
+    {
+      "id": "U07-Q047",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Jij rijdt 80 km/u en de bestuurder voor je rijdt 25 km/u. Welke inhaalafstand hoort daarbij volgens de som uit het boek?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "87 meter.",
+          "feedback": "Goed. 60 maal 80, gedeeld door het verschil, komt precies op dit getal uit.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "55 meter.",
+          "feedback": "Fout. Dat is het snelheidsverschil zelf en niet de uitkomst van de som.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "c",
+          "tekst": "120 meter.",
+          "feedback": "Fout. Deze uitkomst hoort niet bij de som die het boek geeft.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "240 meter.",
+          "feedback": "Fout. Dat is de uitkomst van het andere voorbeeld, waarin de voorligger veel harder rijdt.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Rijd jij 80 km/u en je voorligger 25 km/u, dan is de inhaalafstand 87 meter.",
+        "waarom": "Het verschil tussen jullie is hier groot, dus je bent er vlot langs en heb je relatief weinig ruimte nodig. Bij een klein verschil loopt diezelfde som hard op.",
+        "valkuil": "Het lijkt weinig asfalt, maar het is wel de ruimte die vrij moet zijn voordat je begint, en niet pas onderweg.",
+        "onthoud": "Groot verschil, korte inhaalafstand."
+      },
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "als jij 80 km/u rijdt en je voorligger rijdt 25 km/u"
+        },
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "dan is de inhaalafstand dus 60 x 80 : (80 - 25) = 87 meter"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": [
+        "inhalen",
+        "afstand",
+        "rekenvoorbeeld"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als jij 80 km/u rijdt en je voorligger rijdt 25 km/u, dan is de inhaalafstand dus 60 x 80 : (80 - 25) = 87 meter",
+        "bron": "boek p. 143"
+      }
+    },
+    {
+      "id": "U07-Q048",
+      "unit": "U07",
+      "pagina": "U07-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De bestuurder voor je rijdt maar een klein beetje langzamer dan jij. Heb je dan minder ruimte nodig om er langs te komen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het is precies andersom, want hoe kleiner het verschil, hoe langer je ernaast rijdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een klein verschil maakt de manoeuvre langer en dus de benodigde afstand groter.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Hoe kleiner het snelheidsverschil, hoe langer de inhaalmanoeuvre duurt en hoe meer afstand je nodig hebt.",
+        "waarom": "Je moet met je neus helemaal voorbij het andere voertuig komen. Schuif je maar langzaam op, dan duurt dat lang, en al die tijd zit je op de weghelft van het tegemoetkomende verkeer.",
+        "valkuil": "Een klein verschil voelt ongevaarlijk, terwijl je er dan juist het langst voor aan de verkeerde kant van de weg rijdt.",
+        "onthoud": "Klein verschil, lange manoeuvre, veel ruimte nodig."
+      },
+      "bronnen": [
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "Hoe kleiner het snelheidsverschil tussen jouw voertuig en het voertuig dat je inhaalt"
+        },
+        {
+          "boek": 143,
+          "sectie": "9.6",
+          "anker": "En hoe meer afstand je nodig hebt om de inhaalmanoeuvre uit te voeren."
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "inhalen",
+        "afstand"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Hoe kleiner het snelheidsverschil tussen jouw voertuig en het voertuig dat je inhaalt, hoe langer de inhaalmanoeuvre zal duren.",
+        "bron": "boek p. 143"
+      }
+    }
+  ]
+}

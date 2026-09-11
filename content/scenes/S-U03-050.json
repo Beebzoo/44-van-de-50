@@ -1,0 +1,47 @@
+{
+  "id": "S-U03-050",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "rails",
+      "arm": "zuid"
+    },
+    {
+      "soort": "rails",
+      "arm": "noord"
+    },
+    {
+      "soort": "rails",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "noord",
+      "richting": "links",
+      "label": "de tram"
+    }
+  ],
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Over jouw weg lopen tramrails, die op het kruispunt naar rechts afbuigen. Jij komt van onderen en gaat rechtdoor. Van voren nadert een tram die de rails naar rechts volgt en daarbij voor je langs buigt.",
+  "inspiratie": {
+    "boek": 113,
+    "beeld": "3D-afbeelding boven",
+    "slide": 116
+  }
+}

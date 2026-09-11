@@ -1,0 +1,40 @@
+{
+  "id": "S-U07-042-a",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "traag",
+      "soort": "vrachtauto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de vrachtauto"
+    },
+    {
+      "id": "achter",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "signaal": "geen",
+      "label": "de achterligger"
+    }
+  ],
+  "alt": "Je rijdt achter een langzame vrachtauto op een rechte weg. Achter jou rijdt een grijze auto die nog geen richting aangeeft.",
+  "inspiratie": {
+    "boek": 145,
+    "slide": 168
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "S-U03-047",
+  "vorm": "plus",
+  "voorrang": "afbuigend",
+  "hoofdweg": [
+    "west",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B1",
+      "arm": "west",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "zuid",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "noord",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "oost",
+      "onderbord": "verloop voorrangsweg"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    },
+    {
+      "soort": "zebrapad",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "motor",
+      "soort": "motorfiets",
+      "arm": "west",
+      "richting": "rechts",
+      "label": "de motorfiets"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "voetganger",
+    "motor",
+    "ego"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij komt van boven bij bord B6 met haaientanden en gaat rechtdoor naar beneden. De voorrangsweg is de bredere weg die van de linkerarm naar de onderarm loopt; op die twee armen staat bord B1. Over de linkerarm nadert een motorfiets die die weg volgt. Over de onderarm ligt een zebrapad waar een voetganger oversteekt.",
+  "inspiratie": {
+    "slide": 127
+  }
+}

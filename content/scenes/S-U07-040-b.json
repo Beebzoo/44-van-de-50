@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-040-b",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "obstakel",
+      "soort": "bestelauto",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "het obstakel"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Dezelfde weg een paar tellen later. De bestelauto staat nog steeds stil op jouw weghelft en de grijze auto uit de andere richting is nu vlakbij.",
+  "inspiratie": {
+    "boek": 61,
+    "slide": 169
+  }
+}

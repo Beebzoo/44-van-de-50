@@ -1,0 +1,41 @@
+{
+  "id": "S-U03-046",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "markering": [
+    {
+      "soort": "rails",
+      "arm": "west"
+    },
+    {
+      "soort": "rails",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "tram",
+      "soort": "tram",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de tram"
+    }
+  ],
+  "alt": "Een gelijkwaardig kruispunt zonder borden, met tramrails over de weg van links naar rechts. Jij komt van onderen en gaat rechtdoor. Van links nadert een tram die ook rechtdoor gaat.",
+  "inspiratie": {
+    "slide": 115
+  }
+}

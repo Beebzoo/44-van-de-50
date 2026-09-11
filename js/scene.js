@@ -106,7 +106,8 @@ function drawUitrit(s) {
   out += roadRect("noord", ROAD, ASFALT) + roadRect("zuid", ROAD, ASFALT);
   out += `<rect x="${CX - ROAD / 2}" y="${CY - ROAD / 2}" width="${ROAD}" height="${ROAD}" fill="${ASFALT}"/>`;
   out += line(pt("noord", ROAD / 2, 0), pt("noord", CY + 2, 0), MARK, 1.5, "10 8") + line(pt("zuid", ROAD / 2, 0), pt("zuid", CY + 2, 0), MARK, 1.5, "10 8");
-  /* the sidewalk continues across the driveway: a lowered kerb, the uitrit itself lighter */
+  /* the sidewalk runs on across the driveway over a raised kerb, which is how
+     the book draws it on p. 109 and how you recognise an uitrit from a junction */
   out += `<rect x="${CX + ROAD / 2}" y="${CY - 20}" width="${CX + 2}" height="40" fill="#5A606A"/>`;
   out += `<rect x="${CX + ROAD / 2}" y="${CY - 22}" width="20" height="44" fill="${STOEP}" opacity=".6"/>`;
   return out;
@@ -168,6 +169,28 @@ function drawMarkering(s) {
   return out;
 }
 
+/* The little white plate under a sign. So far the language only knows one kind,
+   "verloop voorrangsweg", and that is exactly the one the exam leans on: it is
+   how you tell an afbuigende voorrangsweg from a straight one. The plate draws
+   the same bend the map already shows, by following the hoofdweg arms, which is
+   what the real sign does too.
+
+   It used to be ignored in silence, so five drawings had an alt that promised a
+   plate nobody drew, and three questions leaned on it in their stem. */
+function onderbordPlaatje(s, b, x, yTop) {
+  if (!b.onderbord) return "";
+  const hoofd = (s.hoofdweg || []).filter(a => ARM[a]);
+  const w = 26, h = 16, cy = yTop + h / 2;
+  let uit = `<g class="scene-onderbord"><rect x="${(x - w / 2).toFixed(1)}" y="${yTop.toFixed(1)}" width="${w}" height="${h}" rx="1.5" fill="${MARK}" stroke="#15181C" stroke-width="1"/>`;
+  if (hoofd.length) {
+    for (const arm of hoofd) {
+      const a = ARM[arm];
+      uit += `<line x1="${x.toFixed(1)}" y1="${cy.toFixed(1)}" x2="${(x + a.dx * 9).toFixed(1)}" y2="${(cy + a.dy * 5.5).toFixed(1)}" stroke="#15181C" stroke-width="3" stroke-linecap="round"/>`;
+    }
+  }
+  return uit + "</g>";
+}
+
 /* ==== signs on posts ==== */
 function drawSigns(s) {
   let out = "";
@@ -178,6 +201,7 @@ function drawSigns(s) {
     else { [x, y] = pt(b.arm, edge + 24, LANE + 10); }
     const size = 22;
     out += `<g class="scene-bord"><line x1="${x}" y1="${y}" x2="${x}" y2="${y + 2}" stroke="#555" stroke-width="2"/><rect x="${x - size / 2 - 1.5}" y="${y - size / 2 - 1.5}" width="${size + 3}" height="${size + 3}" rx="2" fill="${MARK}"/><svg x="${x - size / 2}" y="${y - size / 2}" width="${size}" height="${size}" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"><use href="#sign-${esc(b.code)}" width="100" height="100"/></svg></g>`;
+    out += onderbordPlaatje(s, b, x, y + size / 2 + 2);
   }
   return out;
 }

@@ -1,0 +1,68 @@
+{
+  "id": "S-U03-044",
+  "vorm": "plus",
+  "voorrang": "afbuigend",
+  "hoofdweg": [
+    "west",
+    "noord"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B7",
+      "arm": "zuid",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "west",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B1",
+      "arm": "noord",
+      "onderbord": "verloop voorrangsweg"
+    },
+    {
+      "code": "B6",
+      "arm": "oost",
+      "onderbord": "verloop voorrangsweg"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "stopstreep",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "oost"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Jij komt van onderen en gaat rechtdoor. Aan jouw kant staat bord B7 met een stopstreep. De voorrangsweg is de bredere weg die van links naar boven loopt; op die twee armen staat bord B1, op de arm rechts staat bord B6 met haaientanden. Van links volgt een grijze auto die voorrangsweg naar boven.",
+  "inspiratie": {
+    "slide": 114
+  }
+}

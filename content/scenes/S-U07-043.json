@@ -1,0 +1,39 @@
+{
+  "id": "S-U07-043",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "keren",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "tegen",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de tegenligger"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "de fietser"
+    }
+  ],
+  "alt": "Je staat op een rechte weg en je stippellijn draait om naar de andere kant, want je wilt keren. Uit de andere richting nadert een grijze auto en achter jou rijdt een fietser op de rijbaan.",
+  "inspiratie": {
+    "boek": 155,
+    "slide": 176
+  }
+}

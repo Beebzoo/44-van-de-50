@@ -32,7 +32,10 @@
        van rechts" is about you and "de voorrangsweg komt van links" is about
        the road.
      8 an actor the renderer draws outside the 400 by 300 canvas, so the white
-       car and its "jij" mark are simply not there. */
+       car and its "jij" mark are simply not there.
+     9 an alt that promises something the renderer never drew. The alt is held
+       stricter than a stem: a stem may set a scene in words, an alt says this
+       is what you see. */
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -136,7 +139,9 @@ const NIET_TEKENBAAR = [
   [/geparkeerde (?:auto|wagen)/i, "geparkeerde auto's, de renderer tekent die niet"],
   [/\bbomen\b|\bboom\b|\bheg\b|struiken|gebouw(?:en)?|huizen|flat/i, "landschap of bebouwing, de renderer tekent dat niet"],
   [/\bin een file\b|\bde file\b|rij stilstaande|auto's voor je staan stil/i, "een file, de renderer tekent maar een paar voertuigen"],
-  [/matrixbord|vluchtstrook|invoegstrook|uitvoegstrook|spitsstrook|rijstroken|tweede rijstrook/i, "meerdere rijstroken of snelwegonderdelen, de renderer kent die niet"],
+  /* "beide rijstroken" van een gewone weg is prima; het gaat om meer dan een
+     strook per richting, en dat kent de renderer niet */
+  [/matrixbord|vluchtstrook|invoegstrook|uitvoegstrook|spitsstrook|(?:meerdere|twee|drie|extra|tweede|derde)\s+rijstro/i, "meerdere rijstroken of snelwegonderdelen, de renderer kent die niet"],
   [/turborotonde|dubbele rotonde/i, "turborotonde, de renderer kent alleen de enkele rotonde"],
   [/\bmist\b|\bregen\b|\bsneeuw\b|\bnacht\b|in het donker|gladheid/i, "weer of licht, de tekening is altijd droog daglicht"],
 ];
@@ -347,11 +352,31 @@ async function checkBuitenBeeld() {
   }
 }
 
+/* The alt of a drawing is a promise: this is what you see. So it is held to a
+   stricter standard than a question stem, which may set a scene in words. An
+   alt that names a traffic light, an onderbord or a row of parked cars is
+   describing something the renderer never put there. */
+function checkAlt() {
+  for (const [id, s] of Object.entries(SCENES)) {
+    if (arg && !arg.endsWith(".json") && !id.startsWith("S-" + arg)) continue;
+    const alt = s.alt || "";
+    for (const [re, uitleg] of NIET_TEKENBAAR) {
+      const m = alt.match(re);
+      if (!m) continue;
+      const voor = alt.slice(Math.max(0, m.index - 22), m.index).toLowerCase();
+      if (/\b(geen|zonder|niet)\b\s*$/.test(voor)) continue;
+      meld(id, "alt", uitleg + ", maar de alt zegt: " + JSON.stringify(alt.slice(Math.max(0, m.index - 30), m.index + 40).trim()));
+      break;
+    }
+  }
+}
+
 async function main() {
   const vragen = alleVragen();
   const units = listJson(path.join(CONTENT, "units")).map(readJson);
   for (const { q, bestand } of vragen) checkVraag(q, bestand);
   checkWezen(vragen, units);
+  checkAlt();
   await checkBuitenBeeld();
 
   if (!CURSUSBLOKKEN) console.log("  let op: de cursustranscriptie is niet gevonden, de slidecontrole is overgeslagen");
@@ -363,7 +388,7 @@ async function main() {
 
   const perSoort = {};
   for (const m of open) (perSoort[m.soort] = perSoort[m.soort] || []).push(m);
-  const volgorde = ["leesfout", "render", "slide", "volgorde", "reeks", "arm", "kant", "kleur", "tekenbaar", "tekening", "wees"];
+  const volgorde = ["leesfout", "render", "slide", "volgorde", "reeks", "arm", "kant", "kleur", "tekenbaar", "alt", "tekening", "wees"];
   for (const soort of volgorde) {
     if (!perSoort[soort]) continue;
     console.log("\n== " + soort + " (" + perSoort[soort].length + ")");

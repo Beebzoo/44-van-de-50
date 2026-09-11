@@ -1,0 +1,46 @@
+{
+  "id": "S-U03-048",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de grijze auto"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "ego",
+    "voetganger",
+    "grijs"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor naar boven. Van links komt een grijze auto die linksaf wil, de arm naar boven in. Over die arm naar boven steekt een voetganger over, die langs de weg van links naar rechts rechtdoor loopt.",
+  "inspiratie": {
+    "slide": 128
+  }
+}

@@ -24,7 +24,12 @@
     "C9",
     "D2",
     "D4",
-    "D5"
+    "D5",
+    "G11",
+    "G12a",
+    "G12b",
+    "G13",
+    "L51"
   ],
   "quiz": {
     "gate": true,
@@ -72,7 +77,10 @@
         152,
         153,
         154,
-        155
+        155,
+        156,
+        157,
+        158
       ]
     },
     "cursus": {
@@ -667,6 +675,57 @@
               "anker": "Je herkent de fietsstraat aan het bord"
             }
           ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r31",
+          "tekst": "Bij een verplicht fietspad met bord [G11] rijden fietsers en snorfietsers op het pad en bromfietsers op de rijbaan. Bij een fiets-/bromfietspad met bord [G12a] gaan fietsers, snorfietsers en bromfietsers allemaal op het pad. Eindigt dat pad bij bord [G12b], dan moeten de bromfietsers weer op de rijbaan gaan rijden.",
+          "bron": [
+            {
+              "boek": 63,
+              "sectie": "4.2",
+              "anker": "Bord links: fietsers en snorfietsers moeten op het fietspad rijden, bromfietsers op de rijbaan."
+            },
+            {
+              "boek": 63,
+              "sectie": "4.2",
+              "anker": "Als het verplichte fiets-/bromfietspad eindigt, moeten bromfietsers op de rijbaan gaan rijden."
+            },
+            {
+              "slide": 64,
+              "anker": "fietsers, snorfietsers en bromfietsers moeten hierop (gaan) rijden"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r32",
+          "tekst": "Een onverplicht fietspad herken je aan bord [G13]. Daarop mogen fietsen, gehandicaptenvoertuigen en elektrische snorfietsen rijden. Snorfietsen met een verbrandingsmotor mogen er alleen op met een uitgeschakelde motor, en bromfietsen mogen er niet op.",
+          "bron": [
+            {
+              "slide": 64,
+              "anker": "fietsen, gehandicaptenvoertuigen en elektrische snorfietsen mogen erop rijden"
+            },
+            {
+              "slide": 64,
+              "anker": "snorfietsen met een verbrandingsmotor ook, maar alleen met een uitgeschakelde motor"
+            },
+            {
+              "slide": 64,
+              "anker": "bromfietsen (en dus ook speed-pedelecs) mogen hier niet op"
+            }
+          ]
+        },
+        {
+          "type": "borden",
+          "codes": [
+            "G11",
+            "G12a",
+            "G12b",
+            "G13",
+            "L51"
+          ],
+          "tekst": "Alleen een fiets op het bord betekent bromfietsers op de rijbaan. Een fiets en een bromfiets samen betekent allebei op het pad. Bord [L51] hoort bij de fietsstraat."
         },
         {
           "type": "callout",
@@ -1281,6 +1340,33 @@
           ]
         },
         {
+          "type": "regel",
+          "id": "U07-r33",
+          "tekst": "De inhaalafstand reken je uit met 60 keer je eigen snelheid, gedeeld door het snelheidsverschil tussen de voertuigen.",
+          "bron": [
+            {
+              "boek": 143,
+              "sectie": "9.6",
+              "anker": "Die inhaalafstand kun je uitrekenen met deze formule"
+            },
+            {
+              "boek": 143,
+              "sectie": "9.6",
+              "anker": "60 x je eigen snelheid : snelheidsverschil tussen de voertuigen"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "stijl": "letop",
+          "tekst": "Veel moderne auto's hebben een dode hoek detectie systeem. Handig, maar blijf voor de zekerheid altijd ook zelf opzij kijken.",
+          "bron": {
+            "boek": 144,
+            "sectie": "9.6",
+            "anker": "Maar blijf voor de zekerheid altijd ook zélf opzij kijken."
+          }
+        },
+        {
           "type": "voorbeeld",
           "tekst": "Hoe kleiner het snelheidsverschil, hoe langer je bezig bent en hoe meer ruimte je nodig hebt. Rijd jij 80 km/u en je voorligger 25 km/u, dan is de inhaalafstand 87 meter. Rijdt diezelfde voorligger 60 km/u, dan is het 240 meter.",
           "bron": [
@@ -1327,7 +1413,7 @@
     {
       "id": "U07-P07",
       "anker": "p-9.7-invoegen-uitvoegen-weven-ritsen",
-      "titel": "Invoegen, uitvoegen, weven en ritsen",
+      "titel": "Invoegen, ritsen en bijzondere verrichtingen",
       "bronnen": {
         "boek": {
           "secties": [
@@ -1345,7 +1431,10 @@
             152,
             153,
             154,
-            155
+            155,
+            156,
+            157,
+            158
           ]
         },
         "cursus": {
@@ -1440,6 +1529,23 @@
           ]
         },
         {
+          "type": "regel",
+          "id": "U07-r34",
+          "tekst": "Gebruik de groene hectometerpaaltjes als hulpmiddel om te bepalen waar die 300 meter ligt. Zet de richtingaanwijzer weer uit ter hoogte van de plaats waar de strook zich van de doorgaande rijbaan afscheidt, dus aan het einde van de blokmarkering.",
+          "bron": [
+            {
+              "boek": 151,
+              "sectie": "9.8",
+              "anker": "Gebruik hierbij de groene hectometerpaaltjes als hulpmiddel."
+            },
+            {
+              "boek": 151,
+              "sectie": "9.8",
+              "anker": "Zet de richtingaanwijzer weer uit ter hoogte van de plaats"
+            }
+          ]
+        },
+        {
           "type": "tekst",
           "tekst": "Vanaf het punt waar pijlen de rijrichting aangeven mag je niet meer terug naar de hoofdrijbaan. Op de uitrijstrook mag je wel langzaam rijdende bestuurders op de doorgaande rijbaan rechts inhalen, als dat nodig is voor een vlotte doorstroming en je niemand hindert.",
           "bron": [
@@ -1469,6 +1575,28 @@
               "boek": 153,
               "sectie": "9.9",
               "anker": "is het veiliger en daarom vanzelfsprekend dat zij uitvoegers voor laten gaan"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r35",
+          "tekst": "Op een lange gecombineerde invoeg- en uitrijstrook mag je de richtingaanwijzer eerder uitzetten dan bij de laatste blokmarkering, en geef je tussendoor en kort voor het einde nogmaals richting aan. Het verkeer op de doorgaande rijbaan mag je daar rechts inhalen, maar alleen als het veilig kan en goed is voor de doorstroming.",
+          "bron": [
+            {
+              "boek": 154,
+              "sectie": "9.9",
+              "anker": "mag je eerder dan bij de laatste blokmarkering de richtingaanwijzer uitzetten"
+            },
+            {
+              "boek": 154,
+              "sectie": "9.9",
+              "anker": "geef je tussendoor en kort voor het einde van de uitrijstrook nogmaals richting aan"
+            },
+            {
+              "boek": 154,
+              "sectie": "9.9",
+              "anker": "maar doe dat alleen als het veilig kan en goed is voor de verkeersdoorstroming"
             }
           ]
         },
@@ -1544,8 +1672,85 @@
           ]
         },
         {
+          "type": "regel",
+          "id": "U07-r36",
+          "tekst": "Achteruitrijden in rechte lijn: stop op een veilige plaats, 30 cm van de stoeprand, schakel in de achteruitversnelling, kijk door de achterruit of via je spiegels, kijk regelmatig ook naar voren en rijd stapvoets met slippende koppeling ongeveer 20 meter achteruit.",
+          "bron": [
+            {
+              "boek": 156,
+              "sectie": "9.11",
+              "anker": "Stop op een veilige plaats, 30 cm van de stoeprand."
+            },
+            {
+              "boek": 156,
+              "sectie": "9.11",
+              "anker": "Kijk door de achterruit of via je spiegels. Kijk regelmatig ook naar voren."
+            },
+            {
+              "boek": 156,
+              "sectie": "9.11",
+              "anker": "Rijd stapvoets met slippende koppeling ongeveer 20 meter achteruit."
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r37",
+          "tekst": "Bocht achteruitrijden: stop 5 meter van de bocht op 30 cm van de stoeprand, stuur geleidelijk naar rechts in als je achterwiel bij de bocht is en stuur terug als je auto na de bocht bijna evenwijdig aan de wegas staat. Let op de neusuitzwaai door naar voren en links opzij te kijken, en stop als er verkeer nadert.",
+          "bron": [
+            {
+              "boek": 156,
+              "sectie": "9.11",
+              "anker": "Stop 5 meter van de bocht op 30 cm van stoeprand."
+            },
+            {
+              "boek": 156,
+              "sectie": "9.11",
+              "anker": "Let op de neusuitzwaai door naar voren en links opzij te kijken."
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U07-r38",
+          "tekst": "Keren kan op twee manieren: door een halve draai en door te steken. Voor parkeren zijn er vier manieren die je op het examen moet kunnen uitvoeren: vooruit in een vak, achteruit in een vak, vooruit in file en achteruit in file.",
+          "bron": [
+            {
+              "boek": 157,
+              "sectie": "9.11",
+              "anker": "op twee manieren keren: door het uitvoeren van een halve draai"
+            },
+            {
+              "boek": 157,
+              "sectie": "9.11",
+              "anker": "vooruit in een vak parkeren, achteruit in een vak parkeren, vooruit in file parkeren"
+            }
+          ]
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Bij het achteruit in file parkeren heb je aan een vrij vak genoeg, bij het vooruit in file parkeren heb je meer ruimte nodig. En parkeer je vooruit een vak in, dan moet je er achteruit weer uit, en dat is lastig als er veel verkeer is.",
+          "bron": [
+            {
+              "boek": 158,
+              "sectie": "9.11",
+              "anker": "Bij het achteruit in file parkeren heb je aan één vrij vak genoeg"
+            },
+            {
+              "boek": 158,
+              "sectie": "9.11",
+              "anker": "bij het vooruit in file parkeren heb je meer ruimte nodig"
+            },
+            {
+              "boek": 157,
+              "sectie": "9.11",
+              "anker": "Als je vooruit inparkeert, moet je achteruit wegrijden."
+            }
+          ]
+        },
+        {
           "type": "onthoud",
-          "tekst": "Invoegen: jij laat voor. Uitvoegen: richting aan op 300 meter. Weven: de uitvoeger gaat eerst. Ritsen: om en om."
+          "tekst": "Invoegen: jij laat voor. Uitvoegen: richting aan op 300 meter. Weven: de uitvoeger gaat eerst. Ritsen: om en om. Achteruit: eerst kijken, dan pas rijden."
         },
         {
           "type": "zelftest",

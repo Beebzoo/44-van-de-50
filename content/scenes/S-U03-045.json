@@ -1,0 +1,38 @@
+{
+  "id": "S-U03-045",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "wegdek": "onverhard",
+  "onverhard": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "grijs",
+      "soort": "auto",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "label": "de grijze auto"
+    }
+  ],
+  "alt": "Twee onverharde zandwegen kruisen elkaar; er staan geen borden en er liggen geen tekens op het wegdek. Jij komt van onderen en gaat rechtdoor. Van rechts nadert een grijze auto die ook rechtdoor gaat.",
+  "inspiratie": {
+    "boek": 105
+  }
+}

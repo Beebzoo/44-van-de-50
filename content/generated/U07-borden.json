@@ -2042,6 +2042,711 @@
       "gegenereerd": true,
       "versie": 1,
       "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q930",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Verplicht fietspad.",
+      "media": {
+        "borden": [
+          "G8",
+          "G14",
+          "G11",
+          "G13",
+          "G6",
+          "G12"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G8",
+          "tekst": "G8",
+          "feedback": "Fout. Dit is G8: Einde voetpad. Het gevraagde bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G14",
+          "tekst": "G14",
+          "feedback": "Fout. Dit is G14: Einde onverplicht fietspad. Het gevraagde bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G11",
+          "tekst": "G11",
+          "feedback": "Goed. Dit is G11, en dat bord betekent: Verplicht fietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "G13",
+          "tekst": "G13",
+          "feedback": "Fout. Dit is G13: Onverplicht fietspad. Het gevraagde bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12",
+          "tekst": "G12",
+          "feedback": "Fout. Dit is G12: Einde verplicht fietspad. Het gevraagde bord is G11.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G11"
+      ],
+      "uitleg": {
+        "regel": "G11 betekent: Verplicht fietspad.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met een witte fiets.",
+        "valkuil": "Verwar het niet met G12a, G13, G12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Blauwe cirkel met een witte fiets"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g11",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q931",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G11"
+      },
+      "opties": [
+        {
+          "id": "G3",
+          "tekst": "Autoweg.",
+          "feedback": "Fout. Dat is de betekenis van G3, blauw vierkant met een witte auto van voren. Dit bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G1",
+          "tekst": "Autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van G1, blauw vierkant met het witte autosnelwegsymbool. Dit bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12a",
+          "tekst": "Fiets-/bromfietspad.",
+          "feedback": "Fout. Dat is de betekenis van G12a, blauwe cirkel met een witte fiets en bromfiets. Dit bord is G11.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G11",
+          "tekst": "Verplicht fietspad.",
+          "feedback": "Goed. Dit is G11: blauwe cirkel met een witte fiets, en dat betekent Verplicht fietspad.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "G11"
+      ],
+      "uitleg": {
+        "regel": "G11 betekent: Verplicht fietspad.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte fiets.",
+        "valkuil": "De lijkers zijn G12a, G13, G12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Blauwe cirkel met een witte fiets"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g11",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q932",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Fiets-/bromfietspad.",
+      "media": {
+        "borden": [
+          "G4",
+          "G12b",
+          "G11",
+          "G12a",
+          "G7",
+          "G8"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G4",
+          "tekst": "G4",
+          "feedback": "Fout. Dit is G4: Einde autoweg. Het gevraagde bord is G12a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12b",
+          "tekst": "G12b",
+          "feedback": "Fout. Dit is G12b: Einde fiets-/bromfietspad. Het gevraagde bord is G12a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G11",
+          "tekst": "G11",
+          "feedback": "Fout. Dit is G11: Verplicht fietspad. Het gevraagde bord is G12a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12a",
+          "tekst": "G12a",
+          "feedback": "Goed. Dit is G12a, en dat bord betekent: Fiets-/bromfietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "G7",
+          "tekst": "G7",
+          "feedback": "Fout. Dit is G7: Voetpad. Het gevraagde bord is G12a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G8",
+          "tekst": "G8",
+          "feedback": "Fout. Dit is G8: Einde voetpad. Het gevraagde bord is G12a.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G12a"
+      ],
+      "uitleg": {
+        "regel": "G12a betekent: Fiets-/bromfietspad.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauwe cirkel met een witte fiets en bromfiets.",
+        "valkuil": "Verwar het niet met G11, G12b, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Blauwe cirkel met een witte fiets en bromfiets"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g12a",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q933",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G12a"
+      },
+      "opties": [
+        {
+          "id": "G7",
+          "tekst": "Voetpad.",
+          "feedback": "Fout. Dat is de betekenis van G7, blauwe cirkel met een witte volwassene en kind. Dit bord is G12a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12a",
+          "tekst": "Fiets-/bromfietspad.",
+          "feedback": "Goed. Dit is G12a: blauwe cirkel met een witte fiets en bromfiets, en dat betekent Fiets-/bromfietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "G1",
+          "tekst": "Autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van G1, blauw vierkant met het witte autosnelwegsymbool. Dit bord is G12a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12b",
+          "tekst": "Einde fiets-/bromfietspad.",
+          "feedback": "Fout. Dat is de betekenis van G12b, hetzelfde bord met een rode diagonale streep. Dit bord is G12a.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G12a"
+      ],
+      "uitleg": {
+        "regel": "G12a betekent: Fiets-/bromfietspad.",
+        "waarom": "Kijk naar de vorm en de kleur: blauwe cirkel met een witte fiets en bromfiets.",
+        "valkuil": "De lijkers zijn G11, G12b. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Blauwe cirkel met een witte fiets en bromfiets"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g12a",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q934",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Einde fiets-/bromfietspad.",
+      "media": {
+        "borden": [
+          "G10",
+          "G1",
+          "G12a",
+          "G3",
+          "G6",
+          "G12b"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G10",
+          "tekst": "G10",
+          "feedback": "Fout. Dit is G10: Einde ruiterpad. Het gevraagde bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G1",
+          "tekst": "G1",
+          "feedback": "Fout. Dit is G1: Autosnelweg. Het gevraagde bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12a",
+          "tekst": "G12a",
+          "feedback": "Fout. Dit is G12a: Fiets-/bromfietspad. Het gevraagde bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G3",
+          "tekst": "G3",
+          "feedback": "Fout. Dit is G3: Autoweg. Het gevraagde bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G12b",
+          "tekst": "G12b",
+          "feedback": "Goed. Dit is G12b, en dat bord betekent: Einde fiets-/bromfietspad.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "G12b"
+      ],
+      "uitleg": {
+        "regel": "G12b betekent: Einde fiets-/bromfietspad.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: hetzelfde bord met een rode diagonale streep.",
+        "valkuil": "Verwar het niet met G12a, G12, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Hetzelfde bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g12b",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q935",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G12b"
+      },
+      "opties": [
+        {
+          "id": "G12b",
+          "tekst": "Einde fiets-/bromfietspad.",
+          "feedback": "Goed. Dit is G12b: hetzelfde bord met een rode diagonale streep, en dat betekent Einde fiets-/bromfietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "G12a",
+          "tekst": "Fiets-/bromfietspad.",
+          "feedback": "Fout. Dat is de betekenis van G12a, blauwe cirkel met een witte fiets en bromfiets. Dit bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G13",
+          "tekst": "Onverplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G13, blauw rechthoekig bordje met het witte woord fietspad. Dit bord is G12b.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G4",
+          "tekst": "Einde autoweg.",
+          "feedback": "Fout. Dat is de betekenis van G4, hetzelfde bord met een rode diagonale streep. Dit bord is G12b.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G12b"
+      ],
+      "uitleg": {
+        "regel": "G12b betekent: Einde fiets-/bromfietspad.",
+        "waarom": "Kijk naar de vorm en de kleur: hetzelfde bord met een rode diagonale streep.",
+        "valkuil": "De lijkers zijn G12a, G12. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Hetzelfde bord met een rode diagonale streep"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g12b",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q936",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Onverplicht fietspad.",
+      "media": {
+        "borden": [
+          "G13",
+          "G8",
+          "G5",
+          "G9",
+          "G6",
+          "G10"
+        ]
+      },
+      "opties": [
+        {
+          "id": "G13",
+          "tekst": "G13",
+          "feedback": "Goed. Dit is G13, en dat bord betekent: Onverplicht fietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "G8",
+          "tekst": "G8",
+          "feedback": "Fout. Dit is G8: Einde voetpad. Het gevraagde bord is G13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G5",
+          "tekst": "G5",
+          "feedback": "Fout. Dit is G5: Erf. Het gevraagde bord is G13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G9",
+          "tekst": "G9",
+          "feedback": "Fout. Dit is G9: Ruiterpad. Het gevraagde bord is G13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G6",
+          "tekst": "G6",
+          "feedback": "Fout. Dit is G6: Einde erf. Het gevraagde bord is G13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G10",
+          "tekst": "G10",
+          "feedback": "Fout. Dit is G10: Einde ruiterpad. Het gevraagde bord is G13.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G13"
+      ],
+      "uitleg": {
+        "regel": "G13 betekent: Onverplicht fietspad.",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw rechthoekig bordje met het witte woord fietspad.",
+        "valkuil": "Verwar het niet met G14, G11, die er op lijken maar iets anders betekenen."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Blauw rechthoekig bordje met het witte woord fietspad"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g13",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q937",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "G13"
+      },
+      "opties": [
+        {
+          "id": "G14",
+          "tekst": "Einde onverplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G14, hetzelfde bordje met een rode diagonale streep. Dit bord is G13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G11",
+          "tekst": "Verplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G11, blauwe cirkel met een witte fiets. Dit bord is G13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "G13",
+          "tekst": "Onverplicht fietspad.",
+          "feedback": "Goed. Dit is G13: blauw rechthoekig bordje met het witte woord fietspad, en dat betekent Onverplicht fietspad.",
+          "fouttype": null
+        },
+        {
+          "id": "G12",
+          "tekst": "Einde verplicht fietspad.",
+          "feedback": "Fout. Dat is de betekenis van G12, hetzelfde bord met een rode diagonale streep. Dit bord is G13.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "G13"
+      ],
+      "uitleg": {
+        "regel": "G13 betekent: Onverplicht fietspad.",
+        "waarom": "Kijk naar de vorm en de kleur: blauw rechthoekig bordje met het witte woord fietspad.",
+        "valkuil": "De lijkers zijn G14, G11. Zoek het verschil in de tekening."
+      },
+      "bronnen": [
+        {
+          "boek": 244,
+          "anker": "Blauw rechthoekig bordje met het witte woord fietspad"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-g13",
+        "borden-g"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q938",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "hotspot",
+      "soort": "kennis",
+      "stam": "Tik op het bord dat dit betekent: Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+      "media": {
+        "borden": [
+          "L51",
+          "L11",
+          "L18",
+          "L5",
+          "L16",
+          "L8"
+        ]
+      },
+      "opties": [
+        {
+          "id": "L51",
+          "tekst": "L51",
+          "feedback": "Goed. Dit is L51, en dat bord betekent: Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+          "fouttype": null
+        },
+        {
+          "id": "L11",
+          "tekst": "L11",
+          "feedback": "Fout. Dit is L11: Verkeersbord geldt alleen voor de aangegeven rijstrook/rijstroken. Het gevraagde bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L18",
+          "tekst": "L18",
+          "feedback": "Fout. Dit is L18: (verkeerstunnel) Noodtelefoon en brandblusapparaat. Het gevraagde bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L5",
+          "tekst": "L5",
+          "feedback": "Fout. Dit is L5: Einde rijstrook. Het gevraagde bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L16",
+          "tekst": "L16",
+          "feedback": "Fout. Dit is L16: (verkeerstunnel) Noodtelefoon. Het gevraagde bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L8",
+          "tekst": "L8",
+          "feedback": "Fout. Dit is L8: Doodlopende weg. Het gevraagde bord is L51.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "L51"
+      ],
+      "uitleg": {
+        "regel": "L51 betekent: Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+        "waarom": "Het bord is te herkennen aan de vorm en de kleur: blauw bord met fietsstraat, een fietser en een auto, en auto te gast.",
+        "valkuil": "Let op de details van de tekening; de familie L heeft meer borden die er op lijken."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l51",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U07-Q939",
+      "unit": "U07",
+      "pagina": "U07-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat betekent dit bord?",
+      "media": {
+        "bord": "L51"
+      },
+      "opties": [
+        {
+          "id": "L3a",
+          "tekst": "Tram/bushalte.",
+          "feedback": "Fout. Dat is de betekenis van L3a, blauw vierkant met een tram en een bus. Dit bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L20",
+          "tekst": "Uitwijkplaats rechts van de weg.",
+          "feedback": "Fout. Dat is de betekenis van L20, blauw vierkant met een pijl omlaag die links uitbuigt en een pijl omhoog. Dit bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L4",
+          "tekst": "Voorsorteren.",
+          "feedback": "Fout. Dat is de betekenis van L4, blauw vierkant met drie pijlen: links afbuigend, rechtdoor, rechts afbuigend. Dit bord is L51.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L51",
+          "tekst": "Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+          "feedback": "Goed. Dit is L51: blauw bord met fietsstraat, een fietser en een auto, en auto te gast, en dat betekent Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "L51"
+      ],
+      "uitleg": {
+        "regel": "L51 betekent: Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+        "waarom": "Kijk naar de vorm en de kleur: blauw bord met fietsstraat, een fietser en een auto, en auto te gast.",
+        "valkuil": "Meer borden in familie L lijken hierop."
+      },
+      "bronnen": [
+        {
+          "boek": 248,
+          "anker": "Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "bord-l51",
+        "borden-l"
+      ],
+      "gegenereerd": true,
+      "versie": 1,
+      "status": "gecheckt"
     }
   ]
 }

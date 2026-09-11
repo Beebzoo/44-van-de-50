@@ -1,0 +1,31 @@
+{
+  "id": "S-U07-041",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "de fietser"
+    }
+  ],
+  "alt": "Een weg zonder apart fietspad. Voor je rijdt een fietser op de rijbaan in dezelfde richting als jij. Uit de andere richting komt niemand.",
+  "inspiratie": {
+    "boek": 145,
+    "slide": 168
+  }
+}

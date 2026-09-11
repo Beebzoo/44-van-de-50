@@ -1,0 +1,50 @@
+{
+  "id": "S-U03-040",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "wegdek": "verhard",
+  "onverhard": [
+    "noord",
+    "zuid"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "motor",
+      "soort": "motorfiets",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "de motorfiets"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "motor",
+    "ego",
+    "voetganger"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een onverharde zandweg van onder naar boven kruist een verharde weg van links naar rechts; er staan geen borden. Jij komt van onderen over de zandweg en gaat rechtdoor. Van links komt over de verharde weg een motorfiets die rechtdoor gaat. Boven het kruispunt steekt een voetganger de zandweg over.",
+  "inspiratie": {
+    "slide": 112
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "S-U03-049",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "oost",
+      "richting": "rechtdoor",
+      "label": "de fietser"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "zijde": "links",
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "fietser",
+    "ego",
+    "voetganger"
+  ],
+  "toonVolgorde": false,
+  "alt": "Een gelijkwaardig kruispunt zonder borden. Jij komt van onderen en gaat rechtdoor. Van rechts nadert een fietser die rechtdoor gaat. Boven het kruispunt steekt een voetganger de arm naar boven over, vanaf de kant waar ook de fietser vandaan komt.",
+  "inspiratie": {
+    "slide": 109
+  }
+}

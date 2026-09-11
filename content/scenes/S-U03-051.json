@@ -1,0 +1,63 @@
+{
+  "id": "S-U03-051",
+  "vorm": "plus",
+  "voorrang": "voorrangsweg",
+  "hoofdweg": [
+    "west",
+    "oost"
+  ],
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "fietspad": [
+    "noord"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B1",
+      "arm": "west"
+    },
+    {
+      "code": "B1",
+      "arm": "oost"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "fietsoversteek",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "label": "de fietser"
+    }
+  ],
+  "alt": "Jij komt van onderen bij bord B6 met haaientanden en wilt de voorrangsweg rechtdoor oversteken. Direct achter het kruispunt ligt over de arm naar boven een fietsoversteek, waarover een fietser nadert.",
+  "inspiratie": {
+    "boek": 105
+  }
+}

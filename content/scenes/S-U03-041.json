@@ -1,0 +1,67 @@
+{
+  "id": "S-U03-041",
+  "vorm": "plus",
+  "voorrang": "voorrangskruispunt",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "borden": [
+    {
+      "code": "B6",
+      "arm": "zuid"
+    },
+    {
+      "code": "B6",
+      "arm": "noord"
+    }
+  ],
+  "markering": [
+    {
+      "soort": "haaientanden",
+      "arm": "zuid"
+    },
+    {
+      "soort": "haaientanden",
+      "arm": "noord"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "label": "jij"
+    },
+    {
+      "id": "brom",
+      "soort": "bromfiets",
+      "arm": "zuid",
+      "richting": "links",
+      "signaal": "links",
+      "label": "de bromfietser"
+    },
+    {
+      "id": "voetganger",
+      "soort": "voetganger",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "zijde": "rechts",
+      "afstand": 2,
+      "label": "de voetganger"
+    }
+  ],
+  "volgorde": [
+    "ego",
+    "brom",
+    "voetganger"
+  ],
+  "toonVolgorde": false,
+  "alt": "Jij rijdt van links over de doorgaande weg en gaat rechtdoor. Van onderen nadert een bromfietser bij bord B6 met haaientanden; hij wil linksaf de weg in waar jij vandaan komt. Achter jou steekt een voetganger die weg over.",
+  "inspiratie": {
+    "slide": 111
+  }
+}
