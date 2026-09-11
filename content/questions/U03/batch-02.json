@@ -22,7 +22,8 @@
         {"slide": 117, "anker": "De tram moet zich houden aan de verkeerstekens voor afslaan en voorrang"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
-      "tags": ["tram", "voorrangsweg", "b6"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["tram", "voorrangsweg", "b6"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten ten opzichte van bestuurders die op de voorrangsweg rijden", "bron": "boek p. 113"}
     },
     {
       "id": "U03-Q014", "unit": "U03", "pagina": "U03-P03", "type": "ja_nee", "soort": "inzicht",
@@ -43,14 +44,15 @@
         {"slide": 106, "anker": "Op het wegdek staat een stopstreep, je moet dan altijd stoppen"}
       ],
       "cbr_onderwerp": "verkeerstekens_en_aanwijzingen", "moeilijkheid": 1, "tier": "must",
-      "tags": ["b7", "stopstreep", "stoppen"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["b7", "stopstreep", "stoppen"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Je moet dan altijd stoppen (om te kijken), ook als de auto voor je doorrijdt", "bron": "boek p. 107"}
     },
     {
       "id": "U03-Q015", "unit": "U03", "pagina": "U03-P02", "type": "ja_nee", "soort": "inzicht",
-      "stam": "Op een smalle weg buiten de bebouwde kom staat vlak voor het kruispunt bord J8; andere borden zijn er niet. Jij gaat rechtdoor en van links komt een grijze auto die ook rechtdoor gaat. Moet je de grijze auto voorrang verlenen?",
+      "stam": "Op een smalle weg buiten de bebouwde kom staat voor het kruispunt bord J8; andere borden zijn er niet. Jij gaat rechtdoor en van links komt een grijze auto die ook rechtdoor gaat. Moet je de grijze auto voorrang verlenen?",
       "media": {"scene": "S-U03-011"},
       "opties": [
-        {"id": "ja", "tekst": "Ja", "feedback": "Fout. Bord J8 waarschuwt voor een gevaarlijk kruispunt, maar het regelt geen voorrang; het kruispunt blijft gelijkwaardig en de auto van links moet jou voorrang verlenen.", "fouttype": "verkeerd_toegepast"},
+        {"id": "ja", "tekst": "Ja", "feedback": "Fout. Bord J8 waarschuwt voor een gevaarlijk kruispunt, maar het regelt geen voorrang; het kruispunt blijft gelijkwaardig en de auto van links moet jou voorrang verlenen.", "fouttype": "niet_geweten"},
         {"id": "nee", "tekst": "Nee", "feedback": "Goed. J8 is een waarschuwing voor een gevaarlijk gelijkwaardig kruispunt; de gewone regel blijft gelden, dus de auto van links wacht op jou. Nader wel extra voorzichtig.", "fouttype": null}
       ],
       "correct": ["nee"],
@@ -65,14 +67,15 @@
         {"boek": 105, "sectie": "6.2", "anker": "bestuurders moeten voorrang verlenen aan alle bestuurders die van rechts komen"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
-      "tags": ["j8", "gelijkwaardig-kruispunt", "waarschuwingsbord"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["j8", "gelijkwaardig-kruispunt", "waarschuwingsbord"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Als een gelijkwaardig kruispunt extra gevaarlijk is, word je daar vaak voor gewaarschuwd door bord J8", "bron": "boek p. 106", "gewijzigd": "stam zegt niet meer dat J8 vlak voor het kruispunt staat, want dat geldt buiten de bebouwde kom niet; fouttype van ja naar niet_geweten"}
     },
     {
       "id": "U03-Q016", "unit": "U03", "pagina": "U03-P01", "type": "ja_nee", "soort": "inzicht",
       "stam": "Je nadert een gelijkwaardig kruispunt en gaat rechtdoor. Direct achter het kruispunt ligt een zebrapad waar een voetganger oversteekt. Van links nadert in de verte een fietser. Mag je het kruispunt nu oprijden?",
       "media": {"scene": "S-U03-012"},
       "opties": [
-        {"id": "ja", "tekst": "Ja", "feedback": "Fout. De fietser van links moet jou voorrang verlenen, maar als jij op het kruispunt stil komt te staan voor het zebrapad, blokkeer je zijn doorgang. Je wacht vóór het kruispunt tot het zebrapad vrij is.", "fouttype": "verkeerd_toegepast"},
+        {"id": "ja", "tekst": "Ja", "feedback": "Fout. De fietser moet jou voorrang verlenen, maar daarmee mag je het kruispunt nog niet op: kom je voor het zebrapad stil te staan, dan zet je het kruispunt dicht en kan de fietser er ook niet meer langs.", "fouttype": "verkeerd_toegepast"},
         {"id": "nee", "tekst": "Nee", "feedback": "Goed. Je moet zeker weten dat een zebrapad achter het kruispunt vrij is voordat je oprijdt; anders sta je straks op het kruispunt en blokkeer je de fietser.", "fouttype": null}
       ],
       "correct": ["nee"],
@@ -86,7 +89,8 @@
         {"slide": 104, "anker": "Als je moet stoppen, blokkeer dan het kruispunt niet"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
-      "tags": ["kruispunt-oprijden", "zebrapad", "blokkeren"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["kruispunt-oprijden", "zebrapad", "blokkeren"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Anders loop je het risico dat je op het kruispunt moet stoppen en daarmee het kruisende verkeer blokkeert", "bron": "boek p. 105", "gewijzigd": "de voetganger stond in de scene op de westarm en werd daar overstekend getekend, niet op het zebrapad achter het kruispunt; hij staat nu op de noordarm. Feedback bij ja herschreven"}
     },
     {
       "id": "U03-Q017", "unit": "U03", "pagina": "U03-P02", "type": "meerkeuze", "soort": "inzicht",
@@ -109,7 +113,8 @@
         {"boek": 106, "sectie": "6.2", "anker": "het verkeer op de doorgaande weg denkt dat het voorrang heeft"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
-      "tags": ["t-kruising", "gelijkwaardig-kruispunt", "rechts-voor"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["t-kruising", "gelijkwaardig-kruispunt", "rechts-voor"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "moet je natuurlijk ook niet vergeten om bestuurders van rechts voorrang te verlenen", "bron": "boek p. 106"}
     },
     {
       "id": "U03-Q018", "unit": "U03", "pagina": "U03-P05", "type": "meerkeuze", "soort": "inzicht",
@@ -131,7 +136,8 @@
         {"boek": 116, "sectie": "6.6", "anker": "De ambulancechauffeur kiest zelf het beste moment om jou te passeren"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
-      "tags": ["voorrangsvoertuig", "ambulance", "autosnelweg"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["voorrangsvoertuig", "ambulance", "autosnelweg"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Blijf met dezelfde snelheid doorrijden en houd zoveel mogelijk rechts. De ambulancechauffeur kiest zelf het beste moment om jou te passeren", "bron": "boek p. 116"}
     },
     {
       "id": "U03-Q019", "unit": "U03", "pagina": "U03-P01", "type": "meerkeuze", "soort": "inzicht",
@@ -140,7 +146,7 @@
       "opties": [
         {"id": "a", "tekst": "Voor alle zekerheid stoppen, oogcontact zoeken en met een vriendelijk handgebaar afstemmen wie eerst gaat.", "feedback": "Goed. Weet je niet hoe de voorrang is geregeld, stop dan voor alle zekerheid, zoek oogcontact met de andere bestuurders en communiceer met vriendelijke handgebaren.", "fouttype": null},
         {"id": "b", "tekst": "Beslist doorrijden, want wie twijfelt verliest zijn voorrang.", "feedback": "Fout. Beslist gedrag betekent duidelijk zijn, niet je voorrang afdwingen; bij twijfel stop je en stem je het af met de ander.", "fouttype": "verkeerd_toegepast"},
-        {"id": "c", "tekst": "Claxonneren zodat de ander weet dat jij eerst gaat.", "feedback": "Fout. Een claxon dwingt af en verwart; het boek vraagt om stoppen, oogcontact en vriendelijke handgebaren.", "fouttype": "niet_geweten"}
+        {"id": "c", "tekst": "Claxonneren zodat de ander weet dat jij eerst gaat.", "feedback": "Fout. Een claxon dwingt af en verwart; de regel vraagt om stoppen, oogcontact zoeken en vriendelijke handgebaren.", "fouttype": "niet_geweten"}
       ],
       "correct": ["a"],
       "uitleg": {
@@ -153,7 +159,8 @@
         {"boek": 105, "sectie": "6.2", "anker": "Gedraag je altijd 'beslist' en 'duidelijk' als je een kruispunt nadert"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 1, "tier": "must",
-      "tags": ["onduidelijke-voorrang", "oogcontact", "gedrag"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["onduidelijke-voorrang", "oogcontact", "gedrag"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "stop dan voor alle zekerheid, zoek oogcontact met de andere bestuurders", "bron": "boek p. 105", "gewijzigd": "feedback bij c verwees naar het boek in plaats van naar de regel"}
     },
     {
       "id": "U03-Q020", "unit": "U03", "pagina": "U03-P05", "type": "meervoudig", "soort": "inzicht",
@@ -178,7 +185,8 @@
         {"boek": 30, "sectie": "2.3", "anker": "Motorvoertuig dat optische signalen (blauw zwaailicht, flitslicht of knipperlicht) en geluidssignalen (tweetonige hoorn) voert"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 2, "tier": "must",
-      "tags": ["voorrangsvoertuig", "zwaailicht", "sirene"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["voorrangsvoertuig", "zwaailicht", "sirene"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Maar ook andere voertuigen van hulpdiensten en Rijkswaterstaat kunnen als voorrangsvoertuig aan het verkeer deelnemen", "bron": "boek p. 116"}
     },
     {
       "id": "U03-Q021", "unit": "U03", "pagina": "U03-P03", "type": "meervoudig", "soort": "kennis",
@@ -188,7 +196,7 @@
         {"id": "a", "tekst": "Je moet op dit kruispunt voorrang krijgen van het verkeer uit de zijwegen.", "feedback": "Goed. Bord B1 betekent dat je op een voorrangsweg rijdt: op dit kruispunt krijg je voorrang van bestuurders uit de zijwegen.", "fouttype": null},
         {"id": "b", "tekst": "Je moet ook op alle volgende kruispunten voorrang krijgen, totdat bord B2 het einde aangeeft.", "feedback": "Goed. Een voorrangsweg geldt niet voor één kruispunt maar voor alle volgende, totdat bord B2 het eind van de voorrangsweg aangeeft.", "fouttype": null},
         {"id": "c", "tekst": "Na bord B2 is het eerstvolgende kruispunt een gelijkwaardig kruispunt, tenzij borden iets anders aangeven.", "feedback": "Goed. Na B2 is het kruispunt dat je daarna nadert een gelijkwaardig kruispunt, tenzij borden iets anders aangeven.", "fouttype": null},
-        {"id": "d", "tekst": "Bord B1 geldt alleen voor dit ene kruispunt; op het volgende kunnen andere borden staan.", "feedback": "Fout. Dat is de werking van B3, B4 en B5, de voorrangskruispunten; B1 geldt tot bord B2 op alle kruispunten.", "fouttype": "verkeerd_gelezen"},
+        {"id": "d", "tekst": "Bord B1 geldt alleen voor dit ene kruispunt; op het volgende kunnen andere borden staan.", "feedback": "Fout. Dat is de werking van B3, B4 en B5, de voorrangskruispunten; B1 geldt tot bord B2 op alle kruispunten.", "fouttype": "verkeerd_toegepast"},
         {"id": "e", "tekst": "Een tram uit een zijweg mag toch voor je langs, want trams gaan altijd voor.", "feedback": "Fout. Als een tram een voorrangsweg nadert, heeft hij geen bijzondere rechten; hij houdt zich aan het bord en jij gaat voor.", "fouttype": "niet_geweten"}
       ],
       "correct": ["a", "b", "c"],
@@ -203,11 +211,12 @@
         {"slide": 113, "anker": "Als je dit bord ziet, rijd je op een voorrangsweg"}
       ],
       "cbr_onderwerp": "verkeerstekens_en_aanwijzingen", "moeilijkheid": 2, "tier": "must",
-      "tags": ["b1", "b2", "voorrangsweg"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["b1", "b2", "voorrangsweg"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Je moet niet alleen op dít kruispunt voorrang krijgen, maar ook op alle volgende kruispunten, totdat bord B2 het eind van de voorrangsweg aangeeft", "bron": "boek p. 107", "gewijzigd": "fouttype van d naar verkeerd_toegepast: de werking van B3 wordt op B1 geplakt"}
     },
     {
       "id": "U03-Q022", "unit": "U03", "pagina": "U03-P03", "type": "volgorde", "soort": "inzicht",
-      "stam": "Jij rijdt op een voorrangsweg en slaat rechtsaf. Een grijze tegenligger op dezelfde voorrangsweg slaat linksaf dezelfde zijweg in. Op de stoep rechts van je loopt een voetganger rechtdoor de zijweg over, en uit die zijweg, bij bord B6, komt een fietser rechtdoor. Zet de weggebruikers in de juiste volgorde.",
+      "stam": "Jij rijdt op een voorrangsweg en slaat rechtsaf. Een grijze tegenligger op dezelfde voorrangsweg slaat linksaf dezelfde zijweg in. Op de stoep rechts van je loopt een voetganger rechtdoor de zijweg over, en uit de zijweg links, bij bord B6, komt een fietser die rechtdoor gaat. Zet de weggebruikers in de juiste volgorde.",
       "media": {"scene": "S-U03-015"},
       "opties": [
         {"id": "voetganger", "tekst": "de voetganger", "feedback": "De voetganger gaat rechtdoor op dezelfde weg als jij en de grijze auto; wie afslaat laat rechtdoorgaand verkeer voor, dus hij mag eerst.", "fouttype": null},
@@ -223,12 +232,13 @@
         "onthoud": "Rechtdoor, dan rechtsaf, dan linksaf, dan de zijweg."
       },
       "bronnen": [
-        {"slide": 123, "anker": "De witte auto mag eerst, omdat hij rechts afslaat"},
+        {"slide": 131, "anker": "De witte auto mag eerst, omdat hij rechts afslaat"},
         {"boek": 110, "sectie": "6.3", "anker": "dus ook voetgangers op dezelfde weg voor laten gaan"},
         {"boek": 107, "sectie": "6.2", "anker": "staat er bord B6 voor het kruispunt"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 3, "tier": "must",
-      "tags": ["voorrangsweg", "afslaan", "volgorde"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["voorrangsweg", "afslaan", "volgorde"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "De witte auto mag eerst, omdat hij rechts afslaat", "bron": "slide 131", "gewijzigd": "de voetganger stak in de scene jouw eigen weg over in plaats van de zijweg waar jij in draait; hij staat nu op de oostarm. Stam noemt de zijweg links voor de fietser. Bron van slide 123 naar slide 131"}
     },
     {
       "id": "U03-Q023", "unit": "U03", "pagina": "U03-P03", "type": "volgorde", "soort": "inzicht",
@@ -249,17 +259,18 @@
       "bronnen": [
         {"boek": 112, "sectie": "6.3", "anker": "De snorfietser gaat 'rechtdoor' op de afbuigende voorrangsweg en mag eerst"},
         {"boek": 112, "sectie": "6.3", "anker": "de rode auto moet voorrang verlenen aan alle bestuurders op de afbuigende voorrangsweg"},
-        {"slide": 123, "anker": "de snorfietser gaat 'rechtdoor' op de afbuigende voorrangsweg en mag eerst"}
+        {"slide": 132, "anker": "de snorfietser gaat 'rechtdoor' op de afbuigende voorrangsweg en mag eerst"}
       ],
       "cbr_onderwerp": "voorrang_en_voor_laten_gaan", "moeilijkheid": 3, "tier": "must",
-      "tags": ["afbuigende-voorrangsweg", "volgorde", "onderbord"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["afbuigende-voorrangsweg", "volgorde", "onderbord"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "De snorfietser gaat 'rechtdoor' op de afbuigende voorrangsweg en mag eerst", "bron": "boek p. 112", "gewijzigd": "bron van slide 123 naar slide 132"}
     },
     {
       "id": "U03-Q024", "unit": "U03", "pagina": "U03-P03", "type": "hotspot", "soort": "kennis",
       "stam": "Bij een van deze borden moet je altijd stoppen, ook als de auto voor je doorrijdt en er niemand aankomt. Tik op dat bord.",
       "media": {"borden": ["B6", "B7", "J8", "B3"]},
       "opties": [
-        {"id": "B6", "tekst": "B6", "feedback": "Fout. Bij [B6] verleen je voorrang aan bestuurders op de kruisende weg, maar stoppen hoeft alleen als er iemand aankomt.", "fouttype": "verkeerd_gelezen"},
+        {"id": "B6", "tekst": "B6", "feedback": "Fout. Bij [B6] verleen je voorrang aan bestuurders op de kruisende weg, maar stoppen hoeft alleen als er iemand aankomt.", "fouttype": "verkeerd_toegepast"},
         {"id": "B7", "tekst": "B7", "feedback": "Goed. [B7] verplicht je altijd te stoppen bij de stopstreep om te kijken, ook als de auto voor je doorrijdt.", "fouttype": null},
         {"id": "J8", "tekst": "J8", "feedback": "Fout. [J8] waarschuwt voor een gevaarlijk kruispunt; je nadert extra voorzichtig, maar stoppen is niet verplicht.", "fouttype": "niet_geweten"},
         {"id": "B3", "tekst": "B3", "feedback": "Fout. [B3] is een voorrangskruispunt waar jij juist voorrang krijgt van de zijwegen; stoppen hoeft niet.", "fouttype": "niet_geweten"}
@@ -275,7 +286,8 @@
         {"slide": 106, "anker": "Op het wegdek staat een stopstreep, je moet dan altijd stoppen"}
       ],
       "cbr_onderwerp": "verkeerstekens_en_aanwijzingen", "moeilijkheid": 1, "tier": "must",
-      "tags": ["b7", "b6", "hotspot"], "reserve": false, "versie": 1, "status": "concept"
+      "tags": ["b7", "b6", "hotspot"], "reserve": false, "versie": 1, "status": "gecheckt",
+      "checker": {"oordeel": "goed", "bewijs": "Als je verplicht bent om te stoppen staat er niet bord B6 maar bord B7", "bron": "boek p. 107", "gewijzigd": "fouttype van B6 naar verkeerd_toegepast"}
     }
   ]
 }

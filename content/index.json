@@ -1,5 +1,5 @@
 {
-  "versie": "904dc7b08e",
+  "versie": "163a17148a",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -216,9 +216,10 @@
       "tier": "must",
       "bestand": "content/units/U03.json",
       "bank": [
+        "content/bank/U03.json",
         "content/generated/U03-borden.json"
       ],
-      "aantalVragen": 4,
+      "aantalVragen": 40,
       "paginas": [
         {
           "id": "U03-P01",

@@ -24,9 +24,9 @@
     {
       "id": "voetganger",
       "soort": "voetganger",
-      "arm": "west",
+      "arm": "noord",
       "richting": "rechtdoor",
-      "zijde": "links"
+      "zijde": "rechts"
     },
     {
       "id": "fietser",

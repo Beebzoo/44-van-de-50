@@ -50,12 +50,12 @@
     {
       "id": "voetganger",
       "soort": "voetganger",
-      "arm": "west",
+      "arm": "zuid",
       "richting": "rechtdoor",
       "zijde": "rechts"
     }
   ],
-  "alt": "Je nadert van onderen een voorrangsweg: bord B6 en haaientanden. Je wilt rechtdoor. Langs de kruisende weg loopt op de stoep aan jouw kant een voetganger, die vlak voor je de zijweg oversteekt waarop jij rijdt. Ander verkeer is er niet.",
+  "alt": "Je nadert van onderen een voorrangsweg: bord B6 en haaientanden. Je wilt rechtdoor. Vlak voor je, tussen de haaientanden en je auto, steekt een voetganger de weg over waarop jij rijdt. Ander verkeer is er niet.",
   "inspiratie": {
     "boek": 107,
     "beeld": "foto met B6 en voetganger",

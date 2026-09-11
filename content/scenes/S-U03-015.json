@@ -60,9 +60,9 @@
     {
       "id": "voetganger",
       "soort": "voetganger",
-      "arm": "zuid",
+      "arm": "oost",
       "richting": "rechtdoor",
-      "zijde": "rechts",
+      "zijde": "links",
       "label": "de voetganger"
     },
     {
@@ -80,7 +80,7 @@
     "fietser"
   ],
   "toonVolgorde": false,
-  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en wilt rechtsaf. Van voren komt over dezelfde voorrangsweg een grijze auto die linksaf wil, dezelfde zijweg in. Op de stoep rechts van jou loopt een voetganger rechtdoor, die de zijweg oversteekt. Van links komt een fietser over de zijweg, waar bord B6 en haaientanden staan; hij gaat rechtdoor.",
+  "alt": "Jij rijdt van onderen over een voorrangsweg met bord B1 en wilt rechtsaf de zijweg rechts in. Van voren komt over dezelfde voorrangsweg een grijze auto die linksaf wil, dezelfde zijweg in. Een voetganger loopt rechtdoor langs de voorrangsweg en steekt die zijweg over. Van links komt een fietser over de kruisende weg, waar bord B6 en haaientanden staan; hij gaat rechtdoor.",
   "inspiratie": {
     "slide": 131
   }

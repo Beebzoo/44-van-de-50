@@ -41,7 +41,7 @@
     {
       "id": "voetganger",
       "soort": "voetganger",
-      "arm": "zuid",
+      "arm": "oost",
       "richting": "rechtdoor",
       "zijde": "rechts",
       "label": "de voetganger"

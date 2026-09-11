@@ -138,7 +138,7 @@
         {
           "type": "regel",
           "id": "U03-r02",
-          "tekst": "Houd de doorgang voor het kruisende verkeer zoveel mogelijk vrij. Je rijdt een kruispunt alleen op als je meteen kunt doorrijden of het snel weer vrij kunt maken, als je je tussen de kruisende verkeersstromen kunt opstellen, of als de bestuurder aan wie je voorrang moet verlenen zelf niet kan doorrijden omdat hij op zijn beurt voorrang moet verlenen. Dat laatste heet gelegenheidsvoorrang: alleen als je zeker weet dat het veilig kan.",
+          "tekst": "Houd de doorgang voor het kruisende verkeer zoveel mogelijk vrij. Je rijdt een kruispunt alleen op als je meteen kunt doorrijden of het snel weer vrij kunt maken, als je je tussen de kruisende verkeersstromen kunt opstellen, of als de bestuurder aan wie je voorrang moet verlenen zelf niet kan doorrijden omdat hij op zijn beurt aan een rij andere bestuurders voorrang moet verlenen. Dat laatste heet gelegenheidsvoorrang: alleen als je zeker weet dat het veilig kan.",
           "bron": [
             {
               "boek": 103,
@@ -159,7 +159,7 @@
         {
           "type": "regel",
           "id": "U03-r03",
-          "tekst": "Op een kruispunt stoppen mag alleen als je op een voorrangsweg rijdt en links wilt afslaan, of als je een voorrangsvoertuig voor moet laten gaan.",
+          "tekst": "Op een kruispunt stoppen mag in deze gevallen: als je op een voorrangsweg rijdt en links wilt afslaan, en als je een voorrangsvoertuig voor moet laten gaan.",
           "bron": [
             {
               "boek": 104,
@@ -221,15 +221,22 @@
         {
           "type": "valkuil",
           "tekst": "Even op een fietspad of zebrapad stoppen om zicht te krijgen mag alleen als je vanaf een plek vóór het pad onvoldoende zicht hebt. Kijk bij een kruisend fietspad naar beide kanten: fietsers en snorfietsers komen van links én van rechts.",
-          "bron": {
-            "boek": 103,
-            "sectie": "6.1",
-            "anker": "Fietsers en snorfietsers kunnen zowel van links als van rechts naderen"
-          }
+          "bron": [
+            {
+              "boek": 104,
+              "sectie": "6.1",
+              "anker": "als je vanaf een stopplaats vóór het pad onvoldoende zicht op de situatie hebt"
+            },
+            {
+              "boek": 103,
+              "sectie": "6.1",
+              "anker": "Fietsers en snorfietsers kunnen zowel van links als van rechts naderen"
+            }
+          ]
         },
         {
           "type": "onthoud",
-          "tekst": "Kruispunt vrij houden. Op het kruispunt wachten mag alleen op een voorrangsweg bij linksaf, of voor een voorrangsvoertuig."
+          "tekst": "Kruispunt vrij houden. Op het kruispunt wachten mag op een voorrangsweg bij linksaf, en om een voorrangsvoertuig voor te laten gaan."
         },
         {
           "type": "zelftest",
@@ -679,7 +686,7 @@
           "type": "voorbeeld",
           "tekst": "Een bromfietser nadert B6 en jij rijdt op de kruisende weg: hij verleent voorrang aan jou. Een voetganger op de kruisende weg hoeft hij niet voor te laten gaan.",
           "bron": {
-            "slide": 123,
+            "slide": 125,
             "anker": "de bromfietser hoeft voetgangers op de kruisende weg niet voor te laten gaan"
           }
         },
@@ -988,7 +995,7 @@
         {
           "type": "regel",
           "id": "U03-r21",
-          "tekst": "Om een voorrangsvoertuig voor te laten gaan mag je op een kruispunt stoppen; dat is naast linksaf op een voorrangsweg de enige toegestane reden.",
+          "tekst": "Om een voorrangsvoertuig voor te laten gaan mag je op een kruispunt stoppen; dat is het tweede geval, naast linksaf op een voorrangsweg.",
           "bron": [
             {
               "boek": 104,
