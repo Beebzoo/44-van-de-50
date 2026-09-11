@@ -166,8 +166,14 @@ ids.sort();
 const idsFile = path.join(CONTENT, "ids.json");
 const retiredFile = path.join(CONTENT, "retired.json");
 const retired = fs.existsSync(retiredFile) ? readJson(retiredFile) : [];
+/* Generated sign ids used to sit in the ledger too. They are derived and not
+   authored, and they left the ledger when the generator started numbering them
+   after the sign instead of after their place in the row. An id that is no
+   longer tracked cannot go missing, so it does not belong in this comparison.
+   Hand-written questions run from Q001 to Q899, so this never hides one. */
+const GEGENEREERD = /-Q9\d{2,3}$/;
 if (fs.existsSync(idsFile)) {
-  const before = readJson(idsFile);
+  const before = readJson(idsFile).filter(id => !GEGENEREERD.test(id));
   const now = new Set(ids);
   const gone = before.filter(id => !now.has(id) && !retired.some(r => r.id === id));
   if (gone.length) { console.error("build gestopt: deze vraag-ids zijn verdwenen zonder retired-vermelding: " + gone.join(", ")); process.exit(1); }

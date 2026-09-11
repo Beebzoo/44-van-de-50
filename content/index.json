@@ -1,5 +1,5 @@
 {
-  "versie": "f28f70a6fe",
+  "versie": "f516df1449",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -130,6 +130,21 @@
     "S-U09-005-b",
     "S-U09-101",
     "S-U09-102",
+    "S-U10-001",
+    "S-U10-002",
+    "S-U10-003",
+    "S-U10-004",
+    "S-U10-005",
+    "S-U10-006",
+    "S-U10-101",
+    "S-U10-102",
+    "S-U11-001",
+    "S-U12-001-a",
+    "S-U12-001-b",
+    "S-U12-002-a",
+    "S-U12-002-b",
+    "S-U12-101",
+    "S-U12-102",
     "S-VB-001",
     "S-VB-002",
     "S-VB-003"
@@ -210,7 +225,7 @@
         "content/bank/U02.json",
         "content/generated/U02-borden.json"
       ],
-      "aantalVragen": 72,
+      "aantalVragen": 110,
       "paginas": [
         {
           "id": "U02-P01",
@@ -251,7 +266,7 @@
         "content/bank/U03.json",
         "content/generated/U03-borden.json"
       ],
-      "aantalVragen": 40,
+      "aantalVragen": 48,
       "paginas": [
         {
           "id": "U03-P01",
@@ -289,9 +304,10 @@
       "tier": "must",
       "bestand": "content/units/U04.json",
       "bank": [
-        "content/bank/U04.json"
+        "content/bank/U04.json",
+        "content/generated/U04-borden.json"
       ],
-      "aantalVragen": 36,
+      "aantalVragen": 38,
       "paginas": [
         {
           "id": "U04-P01",
@@ -334,9 +350,10 @@
       "tier": "must",
       "bestand": "content/units/U05.json",
       "bank": [
-        "content/bank/U05.json"
+        "content/bank/U05.json",
+        "content/generated/U05-borden.json"
       ],
-      "aantalVragen": 36,
+      "aantalVragen": 42,
       "paginas": [
         {
           "id": "U05-P01",
@@ -372,7 +389,7 @@
         "content/bank/U06.json",
         "content/generated/U06-borden.json"
       ],
-      "aantalVragen": 40,
+      "aantalVragen": 56,
       "paginas": [
         {
           "id": "U06-P01",
@@ -418,7 +435,7 @@
         "content/bank/U07.json",
         "content/generated/U07-borden.json"
       ],
-      "aantalVragen": 60,
+      "aantalVragen": 66,
       "paginas": [
         {
           "id": "U07-P01",
@@ -469,7 +486,7 @@
         "content/bank/U08.json",
         "content/generated/U08-borden.json"
       ],
-      "aantalVragen": 62,
+      "aantalVragen": 70,
       "paginas": [
         {
           "id": "U08-P01",
@@ -515,7 +532,7 @@
         "content/bank/U09.json",
         "content/generated/U09-borden.json"
       ],
-      "aantalVragen": 48,
+      "aantalVragen": 58,
       "paginas": [
         {
           "id": "U09-P01",
@@ -546,6 +563,299 @@
           "id": "U09-P06",
           "anker": "p-5.9-tunnel-noodsituatie",
           "titel": "Pech, file en brand in een tunnel"
+        }
+      ]
+    },
+    {
+      "id": "U10",
+      "slug": "stilstaan-en-parkeren",
+      "titel": "Stilstaan en parkeren",
+      "volgorde": 10,
+      "week": 4,
+      "tier": "must",
+      "bestand": "content/units/U10.json",
+      "bank": [
+        "content/bank/U10.json",
+        "content/generated/U10-borden.json"
+      ],
+      "aantalVragen": 46,
+      "paginas": [
+        {
+          "id": "U10-P01",
+          "anker": "p-10.1-stilstaan-of-parkeren",
+          "titel": "Stilstaan of parkeren: het verschil"
+        },
+        {
+          "id": "U10-P02",
+          "anker": "p-10.2-verboden-door-borden",
+          "titel": "Verboden door borden: E1 en E2"
+        },
+        {
+          "id": "U10-P03",
+          "anker": "p-10.3-stilstaanverboden",
+          "titel": "Waar je niet mag stilstaan"
+        },
+        {
+          "id": "U10-P04",
+          "anker": "p-10.4-parkeerverboden",
+          "titel": "Waar je niet mag parkeren"
+        },
+        {
+          "id": "U10-P05",
+          "anker": "p-10.4-zones-en-parkeerschijf",
+          "titel": "Erf, zones, parkeerschijf en betaald parkeren"
+        },
+        {
+          "id": "U10-P06",
+          "anker": "p-9.1-instappen-en-wegrijden",
+          "titel": "In- en uitstappen en wegrijden"
+        }
+      ]
+    },
+    {
+      "id": "U11",
+      "slug": "licht-signalen-en-weer",
+      "titel": "Licht, signalen en weer",
+      "volgorde": 11,
+      "week": 4,
+      "tier": "must",
+      "bestand": "content/units/U11.json",
+      "bank": [
+        "content/bank/U11.json"
+      ],
+      "aantalVragen": 36,
+      "paginas": [
+        {
+          "id": "U11-P01",
+          "anker": "p-11.1-communicatie",
+          "titel": "Richting aangeven en signalen"
+        },
+        {
+          "id": "U11-P02",
+          "anker": "p-11.2-welk-licht-wanneer",
+          "titel": "Welk licht wanneer"
+        },
+        {
+          "id": "U11-P03",
+          "anker": "p-11.2-groot-licht",
+          "titel": "Groot licht en rijden in het donker"
+        },
+        {
+          "id": "U11-P04",
+          "anker": "p-11.3-regen-en-wind",
+          "titel": "Regen, aquaplaning en zijwind"
+        },
+        {
+          "id": "U11-P05",
+          "anker": "p-11.4-mist",
+          "titel": "Mist en de twee mistlichten"
+        },
+        {
+          "id": "U11-P06",
+          "anker": "p-11.5-sneeuw-en-gladheid",
+          "titel": "Sneeuw, ijzel en gladheid"
+        }
+      ]
+    },
+    {
+      "id": "U12",
+      "slug": "file-pech-en-ongeval",
+      "titel": "File, pech en ongeval",
+      "volgorde": 12,
+      "week": 5,
+      "tier": "must",
+      "bestand": "content/units/U12.json",
+      "bank": [
+        "content/bank/U12.json"
+      ],
+      "aantalVragen": 36,
+      "paginas": [
+        {
+          "id": "U12-P01",
+          "anker": "p-10.5-filerijden",
+          "titel": "Rijden in een file"
+        },
+        {
+          "id": "U12-P02",
+          "anker": "p-10.6-pech",
+          "titel": "Pech onderweg"
+        },
+        {
+          "id": "U12-P03",
+          "anker": "p-10.6-slepen",
+          "titel": "Slepen"
+        },
+        {
+          "id": "U12-P04",
+          "anker": "p-10.7-paman",
+          "titel": "Bij een ongeval: PAMAN"
+        },
+        {
+          "id": "U12-P05",
+          "anker": "p-10.7-schade-en-doorrijden",
+          "titel": "Doorrijden, schade en de politie"
+        },
+        {
+          "id": "U12-P06",
+          "anker": "p-10.8-auto-te-water",
+          "titel": "Auto te water"
+        }
+      ]
+    },
+    {
+      "id": "U13",
+      "slug": "de-bestuurder-en-de-wet",
+      "titel": "De bestuurder en de wet",
+      "volgorde": 13,
+      "week": 5,
+      "tier": "must",
+      "bestand": "content/units/U13.json",
+      "bank": [
+        "content/bank/U13.json"
+      ],
+      "aantalVragen": 36,
+      "paginas": [
+        {
+          "id": "U13-P01",
+          "anker": "p-1.3-fit-achter-het-stuur",
+          "titel": "Fit achter het stuur"
+        },
+        {
+          "id": "U13-P02",
+          "anker": "p-1.3-alcohol",
+          "titel": "Alcohol: twee grenzen en twee klokken"
+        },
+        {
+          "id": "U13-P03",
+          "anker": "p-1.3-drugs-en-medicijnen",
+          "titel": "Drugs en medicijnen"
+        },
+        {
+          "id": "U13-P04",
+          "anker": "p-2.7-controle-en-rijverbod",
+          "titel": "Langs de kant gezet"
+        },
+        {
+          "id": "U13-P05",
+          "anker": "p-2.1-rijbewijs-en-kentekenbewijs",
+          "titel": "Rijbewijs en kentekenbewijs"
+        },
+        {
+          "id": "U13-P06",
+          "anker": "p-2.6-overtreding-misdrijf-maatregel",
+          "titel": "Overtreding, misdrijf en de educatieve maatregel"
+        }
+      ]
+    },
+    {
+      "id": "U14",
+      "slug": "voertuig-lading-aanhanger-en-milieu",
+      "titel": "Voertuig, lading, aanhanger en milieu",
+      "volgorde": 14,
+      "week": 5,
+      "tier": "must",
+      "bestand": "content/units/U14.json",
+      "bank": [
+        "content/bank/U14.json",
+        "content/generated/U14-borden.json"
+      ],
+      "aantalVragen": 40,
+      "paginas": [
+        {
+          "id": "U14-P01",
+          "anker": "p-13.1-voertuigeisen",
+          "titel": "Voertuigeisen: waar je auto aan moet voldoen"
+        },
+        {
+          "id": "U14-P02",
+          "anker": "p-13.2-apk-en-controle",
+          "titel": "De APK en je controle voor de rit"
+        },
+        {
+          "id": "U14-P03",
+          "anker": "p-13.4-dashboard-en-rijhulp",
+          "titel": "Het dashboard en de rijhulpsystemen"
+        },
+        {
+          "id": "U14-P04",
+          "anker": "p-13.7-lading",
+          "titel": "Lading: hoogte, breedte en wat uitsteekt"
+        },
+        {
+          "id": "U14-P05",
+          "anker": "p-13.8-aanhangwagen",
+          "titel": "De aanhangwagen en je rijbewijs"
+        },
+        {
+          "id": "U14-P06",
+          "anker": "p-12.4-milieu",
+          "titel": "Milieu: zuinig rijden, tanken en de milieuzone"
+        }
+      ]
+    },
+    {
+      "id": "U15",
+      "slug": "alle-borden-op-een-rij",
+      "titel": "Alle borden op een rij",
+      "volgorde": 15,
+      "week": 5,
+      "tier": "must",
+      "bestand": "content/units/U15.json",
+      "bank": [
+        "content/bank/U15.json",
+        "content/generated/U15-borden.json"
+      ],
+      "aantalVragen": 308,
+      "paginas": [
+        {
+          "id": "U15-P01",
+          "anker": "p-14-a-snelheid",
+          "titel": "Snelheid en bebouwde kom"
+        },
+        {
+          "id": "U15-P02",
+          "anker": "p-14-b-voorrang",
+          "titel": "Voorrang: ruit, driehoek en achthoek"
+        },
+        {
+          "id": "U15-P03",
+          "anker": "p-14-c-geslotenverklaring",
+          "titel": "Geslotenverklaring: wie mag er niet in"
+        },
+        {
+          "id": "U15-P04",
+          "anker": "p-14-df-gebod-verbod",
+          "titel": "Rijrichting, geboden en verboden"
+        },
+        {
+          "id": "U15-P05",
+          "anker": "p-14-e-parkeren",
+          "titel": "Parkeren en stilstaan"
+        },
+        {
+          "id": "U15-P06",
+          "anker": "p-14-g-verkeersregels",
+          "titel": "Wat voor weg is dit"
+        },
+        {
+          "id": "U15-P07",
+          "anker": "p-14-j-waarschuwing",
+          "titel": "Waarschuwing: de rode driehoek"
+        },
+        {
+          "id": "U15-P08",
+          "anker": "p-14-k-bewegwijzering",
+          "titel": "Bewegwijzering: waar ga je heen"
+        },
+        {
+          "id": "U15-P09",
+          "anker": "p-14-l-informatie",
+          "titel": "Informatieborden"
+        },
+        {
+          "id": "U15-P10",
+          "anker": "p-14-zones-onderborden-aanwijzingen",
+          "titel": "Zones, onderborden en de rangorde"
         }
       ]
     }
