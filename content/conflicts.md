@@ -15,3 +15,8 @@ Formaat: datum, wie het vond, wat de bronnen zeggen, wat we doen.
 ## 2026-09-10, feitenregister
 
 Zie `content/facts/REGISTRY-NOTES.md`, deel (d), voor twaalf getallen waarop boek en cursus verschillen (invordering "meer dan 50" tegenover "50 of meer", LEMG en EMG grenzen, toegang autoweg "minimaal 50" tegenover "harder dan 50", en zo verder). Het register bevat beide lezingen met bron; een vraag over zo'n getal kiest de lezing van het boek en vermijdt de grenswaarde zelf.
+
+## 2026-09-11, checker U08
+
+1. **De autoweg en zijn kruispunten, boek p. 70 tegenover p. 81.** In de lopende tekst van 4.7 staat op p. 70 dat je op een autoweg gelijkvloerse kruispunten en rotondes kunt tegenkomen. Het fotobijschrift bij 4.10 op p. 81 zegt dat de autoweg ongelijkvloerse kruispunten heeft. De lopende tekst is gevolgd, want die legt de regel uit en het bijschrift beschrijft een foto; U08-Q003 en Q004 leren dus dat een gelijkvloers kruispunt op een autoweg voorkomt. Dit raakt ook blok 8 zijn vragen over voorrang op een autoweg.
+2. **De belijning als snelheidsaanwijzing, slide 78 tegenover boek p. 79.** Slide 78 laat je uit de markering van een gebiedsontsluitingsweg afleiden dat er 80 km/u geldt. Het boek zet er in sectie 4.9 op p. 79 een voorbehoud bij: de belijning is wel een indicatie van de maximumsnelheid, maar geen zekerheid. Sectie 4.9 hoort bij blok 6, dus U08-Q032 kon er geen anker naartoe leggen. De vraag klopt, maar het voorbehoud hoort in de valkuil zodra blok 6 en blok 8 allebei in de bank staan.
