@@ -112,8 +112,20 @@ function drawUitrit(s) {
   return out;
 }
 function drawStraight(s) {
-  let out = roadRect("noord", ROAD + 40, BERM) + roadRect("zuid", ROAD + 40, BERM);
+  /* A straight road takes fietspad like a junction arm does. It used to ignore
+     the field, so every question about a cyclist on a separate path next to you
+     had to lose its drawing or move to a junction it did not need. */
+  const fietspad = new Set(s.fietspad || []);
+  let out = "";
+  for (const arm of ["noord", "zuid"]) {
+    out += roadRect(arm, ROAD + (fietspad.has(arm) ? 44 : 40), BERM);
+  }
   out += roadRect("noord", ROAD, ASFALT) + roadRect("zuid", ROAD, ASFALT);
+  for (const arm of ["noord", "zuid"]) {
+    if (!fietspad.has(arm)) continue;
+    out += line(pt(arm, 0, ROAD / 2 + 12), pt(arm, armLength(arm) + 2, ROAD / 2 + 12), FIETSPAD, 10);
+    out += line(pt(arm, 0, -ROAD / 2 - 12), pt(arm, armLength(arm) + 2, -ROAD / 2 - 12), FIETSPAD, 10);
+  }
   out += line(pt("noord", 0, 0), pt("noord", CY + 2, 0), MARK, 1.5, "10 8") + line(pt("zuid", 0, 0), pt("zuid", CY + 2, 0), MARK, 1.5, "10 8");
   return out;
 }

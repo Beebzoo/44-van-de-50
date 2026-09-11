@@ -13,7 +13,7 @@ Je typt geen coördinaten. Je zegt op welke arm iemand staat, hoe ver van het kr
 | `voorrang` | `gelijkwaardig`, `voorrangsweg`, `voorrangskruispunt`, `afbuigend`, `verkeerslichten`, `uitrit`. Alleen informatief; de borden en markering bepalen wat je ziet |
 | `hoofdweg` | bij voorrangsweg of afbuigende voorrang: de armen die de voorrangsweg vormen, bijvoorbeeld `["noord","zuid"]` of `["zuid","oost"]` |
 | `onverhard` | armen die onverhard zijn (getekend als zandweg) |
-| `fietspad` | armen met een vrijliggend fietspad ernaast |
+| `fietspad` | armen met een vrijliggend fietspad ernaast; werkt ook op een `recht`e weg |
 | `borden` | `{"code": "B6", "arm": "zuid"}`: het bord staat rechts van die arm, vlak voor het kruispunt, gericht naar wie op die arm nadert |
 | `markering` | `{"soort": "haaientanden", "arm": "zuid"}`; soorten: `haaientanden`, `stopstreep`, `zebrapad`, `fietsoversteek`, `drempel`, `blokmarkering`, `fietsstrook` (rode strook met een onderbroken streep), `fietsstrook-doorgetrokken` (dezelfde strook met een doorgetrokken streep), `rails` (tramrails over die arm en over het kruispunt), `verdrijvingsvlak` |
 | `actoren` | zie hieronder |

@@ -24,7 +24,15 @@
      5 a reeks whose frames differ in more than a moment in time.
      6 a pedestrian or cyclist on an arm that you never cross, which usually
        means they were put on the arm they come from instead of the one they
-       cross. */
+       cross.
+     7 a question that says "van links" about somebody the drawing puts on your
+       right. Three people found a slip like that by hand, and the last one had
+       the arm right and the zijde wrong. Only fires when there is one other
+       actor and the sentence naming him also names the side, because "kom jij
+       van rechts" is about you and "de voorrangsweg komt van links" is about
+       the road.
+     8 an actor the renderer draws outside the 400 by 300 canvas, so the white
+       car and its "jij" mark are simply not there. */
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -138,6 +146,28 @@ const LINKS_VAN = { noord: "oost", oost: "zuid", zuid: "west", west: "noord" };
 const RECHTS_VAN = { noord: "west", oost: "noord", zuid: "oost", west: "zuid" };
 const TEGENOVER = { noord: "zuid", oost: "west", zuid: "noord", west: "oost" };
 
+const ARMEN = ["noord", "oost", "zuid", "west"];
+
+/* Where does this actor stand, seen from behind your own steering wheel?
+
+   A vehicle on the arm you would leave by when turning left is on your left.
+   Someone crossing your own arm is placed by zijde, where right is the right
+   hand side of traffic approaching the junction on that arm, so on your own arm
+   that is simply your right. */
+function kantVanEgo(ego, a) {
+  if (!ARMEN.includes(a.arm)) return null;
+  const oversteker = a.soort === "voetganger" || (a.zijde && (a.soort === "fiets" || a.soort === "bromfiets"));
+  if (oversteker) {
+    if (a.arm !== ego.arm) return null;            /* op een andere arm zegt links of rechts niets */
+    return a.zijde === "links" ? "links" : "rechts";
+  }
+  if (a.arm === ego.arm) return null;              /* voor of achter je, niet links of rechts */
+  if (a.arm === LINKS_VAN[ego.arm]) return "links";
+  if (a.arm === RECHTS_VAN[ego.arm]) return "rechts";
+  if (a.arm === TEGENOVER[ego.arm]) return "tegemoet";
+  return null;
+}
+
 function uitgangVan(actor) {
   if (!actor || !actor.arm || actor.arm === "rotonde" || actor.arm === "uitrit") return null;
   if (actor.richting === "links") return LINKS_VAN[actor.arm];
@@ -199,6 +229,39 @@ function checkVraag(q, bestand) {
         if (actoren !== opties) meld(waar, "volgorde", "de opties (" + opties + ") zijn niet de actoren van " + sid + " (" + actoren + ")");
       }
       if (s.toonVolgorde !== false) meld(waar, "volgorde", sid + " toont de nummerbollen terwijl de vraag juist om de volgorde vraagt");
+    }
+
+    /* 7: does "van links" in the question agree with where the renderer puts him
+
+       Three people have now found a left-right slip by hand, and the last one
+       was the subtle kind: the arm was right and the zijde was wrong, so the
+       pedestrian crossed from the far side while the explanation said he came
+       from the right. This only speaks up when there is one other actor and the
+       question says plainly which side he is on, because with two of them the
+       words could be about either. */
+    const egoActor = (s.actoren || []).find(a => a.id === "ego");
+    if (egoActor && ARMEN.includes(egoActor.arm) && (s.vorm === "plus" || s.vorm === "T" || s.vorm === "recht")) {
+      const anderen = (s.actoren || []).filter(a => a.id !== "ego");
+      if (anderen.length === 1) {
+        const a = anderen[0];
+        const kant = kantVanEgo(egoActor, a);
+        /* Only a sentence that names this actor says anything about him. "Op een
+           gelijkwaardig kruispunt kom jij van rechts" is about you, and "de
+           voorrangsweg komt van links" is about the road; both used to set this
+           check off. */
+        const woorden = [a.soort, ...String(a.label || "").split(/\s+/)]
+          .map(w => normalise(w)).filter(w => w && w.length > 2 && !["de", "het", "een"].includes(w));
+        for (const zin of q.stam.split(/(?<=[.?!])\s+/)) {
+          const n = " " + normalise(zin) + " ";
+          if (!woorden.some(w => n.includes(" " + w + " "))) continue;
+          const zegt = /\bvan links\b/i.test(zin) ? "links"
+            : /\bvan rechts\b/i.test(zin) ? "rechts"
+              : /\bvan voren\b|\btegemoetkomend|\btegenligger\b/i.test(zin) ? "tegemoet" : null;
+          if (!zegt || !kant || zegt === kant) continue;
+          const woord = { links: "links van je", rechts: "rechts van je", tegemoet: "tegenover je" }[kant] || kant;
+          meld(waar, "kant", sid + ": de zin " + JSON.stringify(zin.trim().slice(0, 60)) + " zet " + a.id + " " + zegt + ", maar de tekening zet hem " + woord);
+        }
+      }
     }
 
     /* 6: a pedestrian or cyclist on an arm you never cross */
@@ -300,7 +363,7 @@ async function main() {
 
   const perSoort = {};
   for (const m of open) (perSoort[m.soort] = perSoort[m.soort] || []).push(m);
-  const volgorde = ["leesfout", "render", "slide", "volgorde", "reeks", "arm", "kleur", "tekenbaar", "tekening", "wees"];
+  const volgorde = ["leesfout", "render", "slide", "volgorde", "reeks", "arm", "kant", "kleur", "tekenbaar", "tekening", "wees"];
   for (const soort of volgorde) {
     if (!perSoort[soort]) continue;
     console.log("\n== " + soort + " (" + perSoort[soort].length + ")");
