@@ -94,28 +94,28 @@
       },
       "opties": [
         {
+          "id": "D3",
+          "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
+          "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D5",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J9",
+          "tekst": "Rotonde.",
+          "feedback": "Fout. Dat is de betekenis van J9, drie pijlen in een kring. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "D1",
           "tekst": "Rotonde; verplichte rijrichting.",
           "feedback": "Goed. Dit is D1: blauwe cirkel met drie witte pijlen in een kring, en dat betekent Rotonde; verplichte rijrichting.",
           "fouttype": null
-        },
-        {
-          "id": "D6",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D1.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D7",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D1.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D2",
-          "tekst": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
-          "feedback": "Fout. Dat is de betekenis van D2, blauwe cirkel met een dikke witte pijl schuin naar rechtsonder. Dit bord is D1.",
-          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -235,9 +235,15 @@
       },
       "opties": [
         {
-          "id": "G13",
-          "tekst": "Onverplicht fietspad.",
-          "feedback": "Fout. Dat is de betekenis van G13, blauw rechthoekig bordje met het witte woord fietspad. Dit bord is G5.",
+          "id": "G5",
+          "tekst": "Erf.",
+          "feedback": "Goed. Dit is G5: blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger, en dat betekent Erf.",
+          "fouttype": null
+        },
+        {
+          "id": "G1",
+          "tekst": "Autosnelweg.",
+          "feedback": "Fout. Dat is de betekenis van G1, blauw vierkant met het witte autosnelwegsymbool. Dit bord is G5.",
           "fouttype": "niet_geweten"
         },
         {
@@ -247,16 +253,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "G10",
-          "tekst": "Einde ruiterpad.",
-          "feedback": "Fout. Dat is de betekenis van G10, hetzelfde bord met een rode diagonale streep. Dit bord is G5.",
+          "id": "G3",
+          "tekst": "Autoweg.",
+          "feedback": "Fout. Dat is de betekenis van G3, blauw vierkant met een witte auto van voren. Dit bord is G5.",
           "fouttype": "niet_geweten"
-        },
-        {
-          "id": "G5",
-          "tekst": "Erf.",
-          "feedback": "Goed. Dit is G5: blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger, en dat betekent Erf.",
-          "fouttype": null
         }
       ],
       "correct": [
@@ -376,9 +376,9 @@
       },
       "opties": [
         {
-          "id": "G8",
-          "tekst": "Einde voetpad.",
-          "feedback": "Fout. Dat is de betekenis van G8, hetzelfde bord met een rode diagonale streep. Dit bord is G6.",
+          "id": "G7",
+          "tekst": "Voetpad.",
+          "feedback": "Fout. Dat is de betekenis van G7, blauwe cirkel met een witte volwassene en kind. Dit bord is G6.",
           "fouttype": "niet_geweten"
         },
         {
@@ -388,15 +388,15 @@
           "fouttype": null
         },
         {
-          "id": "G5",
-          "tekst": "Erf.",
-          "feedback": "Fout. Dat is de betekenis van G5, blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger. Dit bord is G6.",
+          "id": "G3",
+          "tekst": "Autoweg.",
+          "feedback": "Fout. Dat is de betekenis van G3, blauw vierkant met een witte auto van voren. Dit bord is G6.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "G13",
-          "tekst": "Onverplicht fietspad.",
-          "feedback": "Fout. Dat is de betekenis van G13, blauw rechthoekig bordje met het witte woord fietspad. Dit bord is G6.",
+          "id": "G5",
+          "tekst": "Erf.",
+          "feedback": "Fout. Dat is de betekenis van G5, blauw rechthoekig bord met een huis, een auto, een spelend kind en een voetganger. Dit bord is G6.",
           "fouttype": "niet_geweten"
         }
       ],

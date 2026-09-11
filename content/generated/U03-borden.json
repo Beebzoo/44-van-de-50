@@ -94,27 +94,27 @@
       },
       "opties": [
         {
-          "id": "B1",
-          "tekst": "Voorrangsweg.",
-          "feedback": "Fout. Dat is de betekenis van B1, gele ruit met witte rand. Dit bord is B2.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "B2",
           "tekst": "Einde voorrangsweg.",
           "feedback": "Goed. Dit is B2: gele ruit met witte rand en schuine strepen erdoor, en dat betekent Einde voorrangsweg.",
           "fouttype": null
         },
         {
-          "id": "B4",
-          "tekst": "Voorrangskruispunt zijweg links.",
-          "feedback": "Fout. Dat is de betekenis van B4, rode driehoek met een zwarte verticale pijl en een zijtak naar links. Dit bord is B2.",
+          "id": "B5",
+          "tekst": "Voorrangskruispunt zijweg rechts.",
+          "feedback": "Fout. Dat is de betekenis van B5, rode driehoek met een zwarte verticale pijl en een zijtak naar rechts. Dit bord is B2.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B6",
-          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
-          "feedback": "Fout. Dat is de betekenis van B6, rode driehoek met de punt omlaag, wit binnenvlak. Dit bord is B2.",
+          "id": "B1",
+          "tekst": "Voorrangsweg.",
+          "feedback": "Fout. Dat is de betekenis van B1, gele ruit met witte rand. Dit bord is B2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B4",
+          "tekst": "Voorrangskruispunt zijweg links.",
+          "feedback": "Fout. Dat is de betekenis van B4, rode driehoek met een zwarte verticale pijl en een zijtak naar links. Dit bord is B2.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -241,21 +241,21 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B2",
-          "tekst": "Einde voorrangsweg.",
-          "feedback": "Fout. Dat is de betekenis van B2, gele ruit met witte rand en schuine strepen erdoor. Dit bord is B3.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "B3",
           "tekst": "Voorrangskruispunt.",
           "feedback": "Goed. Dit is B3: rode driehoek, punt omhoog, met een zwarte verticale pijl gekruist door een dikke zwarte dwarsbalk, en dat betekent Voorrangskruispunt.",
           "fouttype": null
         },
         {
-          "id": "B4",
-          "tekst": "Voorrangskruispunt zijweg links.",
-          "feedback": "Fout. Dat is de betekenis van B4, rode driehoek met een zwarte verticale pijl en een zijtak naar links. Dit bord is B3.",
+          "id": "B6",
+          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Fout. Dat is de betekenis van B6, rode driehoek met de punt omlaag, wit binnenvlak. Dit bord is B3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B5",
+          "tekst": "Voorrangskruispunt zijweg rechts.",
+          "feedback": "Fout. Dat is de betekenis van B5, rode driehoek met een zwarte verticale pijl en een zijtak naar rechts. Dit bord is B3.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -376,16 +376,16 @@
       },
       "opties": [
         {
-          "id": "B6",
-          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
-          "feedback": "Fout. Dat is de betekenis van B6, rode driehoek met de punt omlaag, wit binnenvlak. Dit bord is B4.",
+          "id": "B7",
+          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Fout. Dat is de betekenis van B7, rode achthoek met het witte woord stop. Dit bord is B4.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B4",
-          "tekst": "Voorrangskruispunt zijweg links.",
-          "feedback": "Goed. Dit is B4: rode driehoek met een zwarte verticale pijl en een zijtak naar links, en dat betekent Voorrangskruispunt zijweg links.",
-          "fouttype": null
+          "id": "B2",
+          "tekst": "Einde voorrangsweg.",
+          "feedback": "Fout. Dat is de betekenis van B2, gele ruit met witte rand en schuine strepen erdoor. Dit bord is B4.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "B1",
@@ -394,10 +394,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B7",
-          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
-          "feedback": "Fout. Dat is de betekenis van B7, rode achthoek met het witte woord stop. Dit bord is B4.",
-          "fouttype": "niet_geweten"
+          "id": "B4",
+          "tekst": "Voorrangskruispunt zijweg links.",
+          "feedback": "Goed. Dit is B4: rode driehoek met een zwarte verticale pijl en een zijtak naar links, en dat betekent Voorrangskruispunt zijweg links.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -517,10 +517,10 @@
       },
       "opties": [
         {
-          "id": "B4",
-          "tekst": "Voorrangskruispunt zijweg links.",
-          "feedback": "Fout. Dat is de betekenis van B4, rode driehoek met een zwarte verticale pijl en een zijtak naar links. Dit bord is B5.",
-          "fouttype": "niet_geweten"
+          "id": "B5",
+          "tekst": "Voorrangskruispunt zijweg rechts.",
+          "feedback": "Goed. Dit is B5: rode driehoek met een zwarte verticale pijl en een zijtak naar rechts, en dat betekent Voorrangskruispunt zijweg rechts.",
+          "fouttype": null
         },
         {
           "id": "B2",
@@ -529,16 +529,16 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B3",
-          "tekst": "Voorrangskruispunt.",
-          "feedback": "Fout. Dat is de betekenis van B3, rode driehoek, punt omhoog, met een zwarte verticale pijl gekruist door een dikke zwarte dwarsbalk. Dit bord is B5.",
+          "id": "B6",
+          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Fout. Dat is de betekenis van B6, rode driehoek met de punt omlaag, wit binnenvlak. Dit bord is B5.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B5",
-          "tekst": "Voorrangskruispunt zijweg rechts.",
-          "feedback": "Goed. Dit is B5: rode driehoek met een zwarte verticale pijl en een zijtak naar rechts, en dat betekent Voorrangskruispunt zijweg rechts.",
-          "fouttype": null
+          "id": "B4",
+          "tekst": "Voorrangskruispunt zijweg links.",
+          "feedback": "Fout. Dat is de betekenis van B4, rode driehoek met een zwarte verticale pijl en een zijtak naar links. Dit bord is B5.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -658,27 +658,27 @@
       },
       "opties": [
         {
-          "id": "B7",
-          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
-          "feedback": "Fout. Dat is de betekenis van B7, rode achthoek met het witte woord stop. Dit bord is B6.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "B5",
-          "tekst": "Voorrangskruispunt zijweg rechts.",
-          "feedback": "Fout. Dat is de betekenis van B5, rode driehoek met een zwarte verticale pijl en een zijtak naar rechts. Dit bord is B6.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "B6",
           "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
           "feedback": "Goed. Dit is B6: rode driehoek met de punt omlaag, wit binnenvlak, en dat betekent Verleen voorrang aan bestuurders op de kruisende weg.",
           "fouttype": null
         },
         {
-          "id": "B1",
-          "tekst": "Voorrangsweg.",
-          "feedback": "Fout. Dat is de betekenis van B1, gele ruit met witte rand. Dit bord is B6.",
+          "id": "B2",
+          "tekst": "Einde voorrangsweg.",
+          "feedback": "Fout. Dat is de betekenis van B2, gele ruit met witte rand en schuine strepen erdoor. Dit bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J8",
+          "tekst": "Gevaarlijk kruispunt.",
+          "feedback": "Fout. Dat is de betekenis van J8, een schuin kruis. Dit bord is B6.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "B3",
+          "tekst": "Voorrangskruispunt.",
+          "feedback": "Fout. Dat is de betekenis van B3, rode driehoek, punt omhoog, met een zwarte verticale pijl gekruist door een dikke zwarte dwarsbalk. Dit bord is B6.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -799,15 +799,15 @@
       },
       "opties": [
         {
-          "id": "B7",
-          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
-          "feedback": "Goed. Dit is B7: rode achthoek met het witte woord stop, en dat betekent Stop; verleen voorrang aan bestuurders op de kruisende weg.",
-          "fouttype": null
+          "id": "B4",
+          "tekst": "Voorrangskruispunt zijweg links.",
+          "feedback": "Fout. Dat is de betekenis van B4, rode driehoek met een zwarte verticale pijl en een zijtak naar links. Dit bord is B7.",
+          "fouttype": "niet_geweten"
         },
         {
-          "id": "B6",
-          "tekst": "Verleen voorrang aan bestuurders op de kruisende weg.",
-          "feedback": "Fout. Dat is de betekenis van B6, rode driehoek met de punt omlaag, wit binnenvlak. Dit bord is B7.",
+          "id": "B2",
+          "tekst": "Einde voorrangsweg.",
+          "feedback": "Fout. Dat is de betekenis van B2, gele ruit met witte rand en schuine strepen erdoor. Dit bord is B7.",
           "fouttype": "niet_geweten"
         },
         {
@@ -817,10 +817,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "B1",
-          "tekst": "Voorrangsweg.",
-          "feedback": "Fout. Dat is de betekenis van B1, gele ruit met witte rand. Dit bord is B7.",
-          "fouttype": "niet_geweten"
+          "id": "B7",
+          "tekst": "Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+          "feedback": "Goed. Dit is B7: rode achthoek met het witte woord stop, en dat betekent Stop; verleen voorrang aan bestuurders op de kruisende weg.",
+          "fouttype": null
         }
       ],
       "correct": [

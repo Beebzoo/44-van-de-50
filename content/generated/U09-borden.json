@@ -94,9 +94,9 @@
       },
       "opties": [
         {
-          "id": "J36",
-          "tekst": "IJzel of sneeuw.",
-          "feedback": "Fout. Dat is de betekenis van J36, een sneeuwvlok / ijskristal. Dit bord is J13.",
+          "id": "J7",
+          "tekst": "Gevaarlijke daling.",
+          "feedback": "Fout. Dat is de betekenis van J7, een helling omlaag met 10%. Dit bord is J13.",
           "fouttype": "niet_geweten"
         },
         {
@@ -106,16 +106,16 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "J38",
-          "tekst": "Verkeersdrempel.",
-          "feedback": "Fout. Dat is de betekenis van J38, een verhoging in het wegdek. Dit bord is J13.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "J13",
           "tekst": "Overweg met twee of meer sporen.",
           "feedback": "Goed. Dit is J13: een dubbel rood-wit andreaskruis, en dat betekent Overweg met twee of meer sporen.",
           "fouttype": null
+        },
+        {
+          "id": "J38",
+          "tekst": "Verkeersdrempel.",
+          "feedback": "Fout. Dat is de betekenis van J38, een verhoging in het wegdek. Dit bord is J13.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -235,18 +235,6 @@
       },
       "opties": [
         {
-          "id": "J7",
-          "tekst": "Gevaarlijke daling.",
-          "feedback": "Fout. Dat is de betekenis van J7, een helling omlaag met 10%. Dit bord is J15.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "J4",
-          "tekst": "S-bocht(en), eerst naar rechts.",
-          "feedback": "Fout. Dat is de betekenis van J4, een s-vormige lijn, eerst naar rechts. Dit bord is J15.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "J14",
           "tekst": "Tram(kruising).",
           "feedback": "Fout. Dat is de betekenis van J14, een tram. Dit bord is J15.",
@@ -257,6 +245,18 @@
           "tekst": "Beweegbare brug.",
           "feedback": "Goed. Dit is J15: een openstaande brug met een schip, en dat betekent Beweegbare brug.",
           "fouttype": null
+        },
+        {
+          "id": "J4",
+          "tekst": "S-bocht(en), eerst naar rechts.",
+          "feedback": "Fout. Dat is de betekenis van J4, een s-vormige lijn, eerst naar rechts. Dit bord is J15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "J16",
+          "tekst": "Werk in uitvoering.",
+          "feedback": "Fout. Dat is de betekenis van J16, een werkman met een schep. Dit bord is J15.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -376,27 +376,27 @@
       },
       "opties": [
         {
-          "id": "C22e",
-          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
-          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C22.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C22",
           "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
           "feedback": "Goed. Dit is C22: rode cirkel met een zwarte tankwagen met rood gevarenbord, en dat betekent Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
           "fouttype": null
         },
         {
-          "id": "C15",
-          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C22.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C23-02",
           "tekst": "Spitsstrook vrijmaken.",
           "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e",
+          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C22.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C4",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C4, blauw vierkant met een witte pijl naar rechts. Dit bord is C22.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -517,18 +517,6 @@
       },
       "opties": [
         {
-          "id": "K10",
-          "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
-          "feedback": "Fout. Dat is de betekenis van K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers. Dit bord is K14.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "K1",
-          "tekst": "Lage beslissingswegwijzer en doelenbord langs autosnelweg voor de doorgaande richting, met interlokale...",
-          "feedback": "Fout. Dat is de betekenis van K1, blauw bord met een witte pijl omhoog, a 44 in een rood vak, en de doelen haarlem 23 en amsterdam 34. Dit bord is K14.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "K14",
           "tekst": "Route voor het vervoer van bepaalde gevaarlijke stoffen.",
           "feedback": "Goed. Dit is K14: geel bord met zwarte rand en een zwarte pijl omhoog met een oranje ruitsymbool, en dat betekent Route voor het vervoer van bepaalde gevaarlijke stoffen.",
@@ -538,6 +526,18 @@
           "id": "K2",
           "tekst": "Voorwegwijzer langs autosnelweg voor de afgaande richting, met afstandaanduiding, interlokale doelen...",
           "feedback": "Fout. Dat is de betekenis van K2, blauw bord 1200 m met een pijl schuin omhoog, arnhem, apeldoorn, een vliegtuigsymbool met terlet, en n 50 in een geel vak. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K12",
+          "tekst": "Wijkwegwijzer binnen de bebouwde kom, met wijknamen (in verkeersgebieden).",
+          "feedback": "Fout. Dat is de betekenis van K12, blauw bord met bomenwijk, vogelwijk, planetenwijk, molenwijk en een pijl omhoog. Dit bord is K14.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "K10",
+          "tekst": "Voorwegwijzer binnen de bebouwde kom met interlokaal doel, lokaal doel, een dagrecreatieterrein, objecten...",
+          "feedback": "Fout. Dat is de betekenis van K10, blauw bord met den haag, centrum, s101, oude maas, dijkzicht en stadsroutenummers. Dit bord is K14.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -658,21 +658,15 @@
       },
       "opties": [
         {
+          "id": "L16",
+          "tekst": "(verkeerstunnel) Noodtelefoon.",
+          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L3a.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "L18",
           "tekst": "(verkeerstunnel) Noodtelefoon en brandblusapparaat.",
           "feedback": "Fout. Dat is de betekenis van L18, blauw vierkant met een brandblusser en een telefoonhoorn en s.o.s.. Dit bord is L3a.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L3c",
-          "tekst": "Tramhalte.",
-          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L3a.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L11",
-          "tekst": "Verkeersbord geldt alleen voor de aangegeven rijstrook/rijstroken.",
-          "feedback": "Fout. Dat is de betekenis van L11, blauw vierkant met drie pijlen omhoog waarvan er twee een rond 2 m-verbodsbord dragen. Dit bord is L3a.",
           "fouttype": "niet_geweten"
         },
         {
@@ -680,6 +674,12 @@
           "tekst": "Tram/bushalte.",
           "feedback": "Goed. Dit is L3a: blauw vierkant met een tram en een bus, en dat betekent Tram/bushalte.",
           "fouttype": null
+        },
+        {
+          "id": "L14",
+          "tekst": "Vluchthaven.",
+          "feedback": "Fout. Dat is de betekenis van L14, blauw vierkant met een uitstulping aan de rechterkant van de weg. Dit bord is L3a.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -799,9 +799,15 @@
       },
       "opties": [
         {
-          "id": "L5",
-          "tekst": "Einde rijstrook.",
-          "feedback": "Fout. Dat is de betekenis van L5, blauw vierkant met een pijl die van rechts naar links samenvoegt. Dit bord is L13.",
+          "id": "L1",
+          "tekst": "Hoogte onderdoorgang.",
+          "feedback": "Fout. Dat is de betekenis van L1, blauw vierkant met 4,2 m tussen twee pijlpunten. Dit bord is L13.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L11",
+          "tekst": "Verkeersbord geldt alleen voor de aangegeven rijstrook/rijstroken.",
+          "feedback": "Fout. Dat is de betekenis van L11, blauw vierkant met drie pijlen omhoog waarvan er twee een rond 2 m-verbodsbord dragen. Dit bord is L13.",
           "fouttype": "niet_geweten"
         },
         {
@@ -811,15 +817,9 @@
           "fouttype": null
         },
         {
-          "id": "L1",
-          "tekst": "Hoogte onderdoorgang.",
-          "feedback": "Fout. Dat is de betekenis van L1, blauw vierkant met 4,2 m tussen twee pijlpunten. Dit bord is L13.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L14",
-          "tekst": "Vluchthaven.",
-          "feedback": "Fout. Dat is de betekenis van L14, blauw vierkant met een uitstulping aan de rechterkant van de weg. Dit bord is L13.",
+          "id": "L7",
+          "tekst": "Aantal doorgaande rijstroken.",
+          "feedback": "Fout. Dat is de betekenis van L7, blauw vierkant met vier pijlen omhoog. Dit bord is L13.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -940,15 +940,15 @@
       },
       "opties": [
         {
-          "id": "L8",
-          "tekst": "Doodlopende weg.",
-          "feedback": "Fout. Dat is de betekenis van L8, blauw vierkant met een witte weg die eindigt op een rode balk. Dit bord is L14.",
+          "id": "L15",
+          "tekst": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+          "feedback": "Fout. Dat is de betekenis van L15, blauw smal bord met s.o.s verticaal. Dit bord is L14.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "L3c",
-          "tekst": "Tramhalte.",
-          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L14.",
+          "id": "L16",
+          "tekst": "(verkeerstunnel) Noodtelefoon.",
+          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L14.",
           "fouttype": "niet_geweten"
         },
         {
@@ -958,9 +958,9 @@
           "fouttype": null
         },
         {
-          "id": "L5",
-          "tekst": "Einde rijstrook.",
-          "feedback": "Fout. Dat is de betekenis van L5, blauw vierkant met een pijl die van rechts naar links samenvoegt. Dit bord is L14.",
+          "id": "L3c",
+          "tekst": "Tramhalte.",
+          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L14.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -1081,9 +1081,21 @@
       },
       "opties": [
         {
-          "id": "L20",
-          "tekst": "Uitwijkplaats rechts van de weg.",
-          "feedback": "Fout. Dat is de betekenis van L20, blauw vierkant met een pijl omlaag die links uitbuigt en een pijl omhoog. Dit bord is L15.",
+          "id": "L18",
+          "tekst": "(verkeerstunnel) Noodtelefoon en brandblusapparaat.",
+          "feedback": "Fout. Dat is de betekenis van L18, blauw vierkant met een brandblusser en een telefoonhoorn en s.o.s.. Dit bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L3a",
+          "tekst": "Tram/bushalte.",
+          "feedback": "Fout. Dat is de betekenis van L3a, blauw vierkant met een tram en een bus. Dit bord is L15.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L3b",
+          "tekst": "Bushalte.",
+          "feedback": "Fout. Dat is de betekenis van L3b, blauw vierkant met een bus. Dit bord is L15.",
           "fouttype": "niet_geweten"
         },
         {
@@ -1091,18 +1103,6 @@
           "tekst": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
           "feedback": "Goed. Dit is L15: blauw smal bord met s.o.s verticaal, en dat betekent (verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
           "fouttype": null
-        },
-        {
-          "id": "L16",
-          "tekst": "(verkeerstunnel) Noodtelefoon.",
-          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L15.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L2",
-          "tekst": "Voetgangersoversteekplaats.",
-          "feedback": "Fout. Dat is de betekenis van L2, blauw vierkant met een voetganger op een zebrapad. Dit bord is L15.",
-          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -1222,27 +1222,27 @@
       },
       "opties": [
         {
-          "id": "L16",
-          "tekst": "(verkeerstunnel) Noodtelefoon.",
-          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L17.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L3c",
-          "tekst": "Tramhalte.",
-          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L17.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "L17",
           "tekst": "(verkeerstunnel) Brandblusapparaat.",
           "feedback": "Goed. Dit is L17: blauw vierkant met een rode brandblusser, en dat betekent (verkeerstunnel) Brandblusapparaat.",
           "fouttype": null
         },
         {
-          "id": "L8",
-          "tekst": "Doodlopende weg.",
-          "feedback": "Fout. Dat is de betekenis van L8, blauw vierkant met een witte weg die eindigt op een rode balk. Dit bord is L17.",
+          "id": "L3a",
+          "tekst": "Tram/bushalte.",
+          "feedback": "Fout. Dat is de betekenis van L3a, blauw vierkant met een tram en een bus. Dit bord is L17.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L51",
+          "tekst": "Aanduiding van een straat die ingericht is als fietsroute en waarop in beperkte mate autoverkeer is...",
+          "feedback": "Fout. Dat is de betekenis van L51, blauw bord met fietsstraat, een fietser en een auto, en auto te gast. Dit bord is L17.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L19",
+          "tekst": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
+          "feedback": "Fout. Dat is de betekenis van L19, groen bord met twee vluchtende figuren en 50 m in beide richtingen. Dit bord is L17.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -1363,16 +1363,16 @@
       },
       "opties": [
         {
-          "id": "L19",
-          "tekst": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
-          "feedback": "Fout. Dat is de betekenis van L19, groen bord met twee vluchtende figuren en 50 m in beide richtingen. Dit bord is L18.",
+          "id": "L8",
+          "tekst": "Doodlopende weg.",
+          "feedback": "Fout. Dat is de betekenis van L8, blauw vierkant met een witte weg die eindigt op een rode balk. Dit bord is L18.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "L18",
-          "tekst": "(verkeerstunnel) Noodtelefoon en brandblusapparaat.",
-          "feedback": "Goed. Dit is L18: blauw vierkant met een brandblusser en een telefoonhoorn en s.o.s., en dat betekent (verkeerstunnel) Noodtelefoon en brandblusapparaat.",
-          "fouttype": null
+          "id": "L16",
+          "tekst": "(verkeerstunnel) Noodtelefoon.",
+          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L18.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "L17",
@@ -1381,10 +1381,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "L16",
-          "tekst": "(verkeerstunnel) Noodtelefoon.",
-          "feedback": "Fout. Dat is de betekenis van L16, blauw vierkant met een telefoonhoorn. Dit bord is L18.",
-          "fouttype": "niet_geweten"
+          "id": "L18",
+          "tekst": "(verkeerstunnel) Noodtelefoon en brandblusapparaat.",
+          "feedback": "Goed. Dit is L18: blauw vierkant met een brandblusser en een telefoonhoorn en s.o.s., en dat betekent (verkeerstunnel) Noodtelefoon en brandblusapparaat.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -1504,21 +1504,21 @@
       },
       "opties": [
         {
-          "id": "L3c",
-          "tekst": "Tramhalte.",
-          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L19.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "L19",
           "tekst": "(verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
           "feedback": "Goed. Dit is L19: groen bord met twee vluchtende figuren en 50 m in beide richtingen, en dat betekent (verkeerstunnel) Dichtstbijzijnde uitgang of twee dichtstbijzijnde uitgangen in de op het bord aangegeven...",
           "fouttype": null
         },
         {
-          "id": "L2",
-          "tekst": "Voetgangersoversteekplaats.",
-          "feedback": "Fout. Dat is de betekenis van L2, blauw vierkant met een voetganger op een zebrapad. Dit bord is L19.",
+          "id": "L15",
+          "tekst": "(verkeerstunnel) Vluchthaven voorzien van een noodtelefoon en brandblusapparaat.",
+          "feedback": "Fout. Dat is de betekenis van L15, blauw smal bord met s.o.s verticaal. Dit bord is L19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L18",
+          "tekst": "(verkeerstunnel) Noodtelefoon en brandblusapparaat.",
+          "feedback": "Fout. Dat is de betekenis van L18, blauw vierkant met een brandblusser en een telefoonhoorn en s.o.s.. Dit bord is L19.",
           "fouttype": "niet_geweten"
         },
         {

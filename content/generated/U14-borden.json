@@ -94,9 +94,15 @@
       },
       "opties": [
         {
-          "id": "C15",
-          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C22e.",
+          "id": "C16",
+          "tekst": "Gesloten voor voetgangers.",
+          "feedback": "Fout. Dat is de betekenis van C16, rode cirkel met een zwarte voetganger. Dit bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C22e.",
           "fouttype": "niet_geweten"
         },
         {
@@ -106,15 +112,9 @@
           "fouttype": null
         },
         {
-          "id": "C22",
-          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
-          "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C22e.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C23-03",
-          "tekst": "Einde spitsstrook.",
-          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C22e.",
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C22e.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -247,15 +247,15 @@
           "fouttype": null
         },
         {
-          "id": "C3",
-          "tekst": "Eenrichtingsweg.",
-          "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C10.",
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C10.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C23-03",
-          "tekst": "Einde spitsstrook.",
-          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C10.",
+          "id": "C12",
+          "tekst": "Gesloten voor alle motorvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C12, rode cirkel met een zwarte auto en motorfiets. Dit bord is C10.",
           "fouttype": "niet_geweten"
         }
       ],

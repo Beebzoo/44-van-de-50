@@ -86,10 +86,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A5",
-          "tekst": "Einde adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A1.",
-          "fouttype": "niet_geweten"
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Goed. Dit is A1: ronde witte plaat met rode rand en zwart 50, en dat betekent Maximumsnelheid.",
+          "fouttype": null
         },
         {
           "id": "A2",
@@ -98,10 +98,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A1",
-          "tekst": "Maximumsnelheid.",
-          "feedback": "Goed. Dit is A1: ronde witte plaat met rode rand en zwart 50, en dat betekent Maximumsnelheid.",
-          "fouttype": null
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A1.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -207,18 +207,6 @@
       },
       "opties": [
         {
-          "id": "A5",
-          "tekst": "Einde adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A2.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "A1",
-          "tekst": "Maximumsnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A2.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "A4",
           "tekst": "Adviessnelheid.",
           "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A2.",
@@ -229,6 +217,18 @@
           "tekst": "Einde maximumsnelheid.",
           "feedback": "Goed. Dit is A2: ronde witte plaat met grijs 50 doorkruist door schuine strepen, en dat betekent Einde maximumsnelheid.",
           "fouttype": null
+        },
+        {
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A2.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -334,27 +334,27 @@
       },
       "opties": [
         {
-          "id": "A4",
-          "tekst": "Adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A3.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "A5",
-          "tekst": "Einde adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A3.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "A3",
           "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
           "feedback": "Goed. Dit is A3: zwart elektronisch paneel met 70 in een rode ring, en dat betekent Maximumsnelheid op een elektronisch signaleringsbord.",
           "fouttype": null
         },
         {
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "A1",
           "tekst": "Maximumsnelheid.",
           "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A3.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -461,15 +461,15 @@
       },
       "opties": [
         {
-          "id": "A1",
-          "tekst": "Maximumsnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A4.",
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A4.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A2",
-          "tekst": "Einde maximumsnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A4.",
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A4.",
           "fouttype": "niet_geweten"
         },
         {
@@ -479,9 +479,9 @@
           "fouttype": null
         },
         {
-          "id": "A3",
-          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
-          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A4.",
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A4.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -594,21 +594,21 @@
           "fouttype": null
         },
         {
-          "id": "A4",
-          "tekst": "Adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A5.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "A2",
           "tekst": "Einde maximumsnelheid.",
           "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A5.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A3",
-          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
-          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A5.",
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A5.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -729,9 +729,15 @@
       },
       "opties": [
         {
-          "id": "F5",
-          "tekst": "Verbod voor bestuurders door te gaan bij nadering van verkeer uit tegengestelde richting.",
-          "feedback": "Fout. Dat is de betekenis van F5, rode cirkel met een rode pijl omlaag en een zwarte pijl omhoog. Dit bord is F9.",
+          "id": "F3",
+          "tekst": "Verbod voor vrachtauto's om motorvoertuigen in te halen.",
+          "feedback": "Fout. Dat is de betekenis van F3, rode cirkel met een rode vrachtauto en een zwarte auto. Dit bord is F9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "F16",
+          "tekst": "Einde trambaan of -strook.",
+          "feedback": "Fout. Dat is de betekenis van F16, hetzelfde bord met een rode diagonale streep. Dit bord is F9.",
           "fouttype": "niet_geweten"
         },
         {
@@ -739,12 +745,6 @@
           "tekst": "Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
           "feedback": "Goed. Dit is F9: zwart elektronisch paneel met een witte cirkel met diagonale streep, en dat betekent Einde van alle op een elektronisch signaleringsbord aangegeven verboden.",
           "fouttype": null
-        },
-        {
-          "id": "F7",
-          "tekst": "Keerverbod.",
-          "feedback": "Fout. Dat is de betekenis van F7, rode cirkel met een zwarte pijl die een u-bocht maakt. Dit bord is F9.",
-          "fouttype": "niet_geweten"
         },
         {
           "id": "F15",
@@ -870,21 +870,21 @@
       },
       "opties": [
         {
-          "id": "C5",
-          "tekst": "Inrijden toegestaan.",
-          "feedback": "Fout. Dat is de betekenis van C5, blauw vierkant met een witte pijl omlaag en een witte pijl omhoog. Dit bord is C23-01.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C15",
-          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C23-01.",
+          "id": "C1",
+          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C23-01.",
           "fouttype": "niet_geweten"
         },
         {
           "id": "C7b",
           "tekst": "Gesloten voor autobussen en vrachtauto's.",
           "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C23-01.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C11",
+          "tekst": "Gesloten voor motoren.",
+          "feedback": "Fout. Dat is de betekenis van C11, rode cirkel met een zwarte motorfiets. Dit bord is C23-01.",
           "fouttype": "niet_geweten"
         },
         {
@@ -1017,21 +1017,21 @@
           "fouttype": null
         },
         {
-          "id": "C23-01",
-          "tekst": "Spitsstrook open.",
-          "feedback": "Fout. Dat is de betekenis van C23-01, blauw vierkant met vier witte pijlen omhoog. Dit bord is C23-02.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C21",
           "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
           "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C23-02.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C7a",
-          "tekst": "Gesloten voor autobussen.",
-          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C23-02.",
+          "id": "C19",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C19, rode cirkel met 3,1 m tussen twee verticale pijlpunten. Dit bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C13",
+          "tekst": "Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
+          "feedback": "Fout. Dat is de betekenis van C13, rode cirkel met een zwarte bromfiets. Dit bord is C23-02.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -1152,16 +1152,16 @@
       },
       "opties": [
         {
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C23-03",
           "tekst": "Einde spitsstrook.",
           "feedback": "Goed. Dit is C23-03: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts, en dat betekent Einde spitsstrook.",
           "fouttype": null
-        },
-        {
-          "id": "C19",
-          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van C19, rode cirkel met 3,1 m tussen twee verticale pijlpunten. Dit bord is C23-03.",
-          "fouttype": "niet_geweten"
         },
         {
           "id": "C7a",
@@ -1170,9 +1170,9 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C21",
-          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
-          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C23-03.",
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C23-03.",
           "fouttype": "niet_geweten"
         }
       ],

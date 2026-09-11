@@ -108,7 +108,19 @@ function signItems(unit) {
       });
     }
     /* reverse meerkeuze: what does this sign mean */
-    const distractors = pick(near.concat(pick(family.filter(c => !near.includes(c)), 6, rnd)), 3, rnd).filter(c => shortMeaning(byCode.get(c)) !== shortMeaning(b));
+    /* Afleiders moeten van elkaar verschillen en van het goede antwoord, in
+       tekst en niet in code: D4 en D5 hebben dezelfde betekenis, en twee keer
+       dezelfde zin in een rijtje van vier is een vraag met twee goede
+       antwoorden. */
+    const gezien = new Set([shortMeaning(b)]);
+    const distractors = [];
+    for (const c of pick(near.concat(pick(family.filter(c => !near.includes(c)), 6, rnd)), 9, rnd)) {
+      const m = shortMeaning(byCode.get(c));
+      if (gezien.has(m)) continue;
+      gezien.add(m);
+      distractors.push(c);
+      if (distractors.length === 3) break;
+    }
     if (distractors.length >= 2) {
       const opts = pick([code].concat(distractors.slice(0, 3)), 4, rnd);
       out.push({

@@ -18,7 +18,7 @@
 <script>
   /* the stored theme goes on before first paint, so the page never flashes */
   try {
-    var t = localStorage.getItem("thema");
+    var t = localStorage.getItem("thema") || "licht";
     if (t === "donker") document.documentElement.dataset.theme = "dark";
     else if (t === "licht") document.documentElement.dataset.theme = "light";
     var l = localStorage.getItem("taal");

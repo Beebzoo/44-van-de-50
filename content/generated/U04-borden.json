@@ -94,21 +94,9 @@
       },
       "opties": [
         {
-          "id": "L3a",
-          "tekst": "Tram/bushalte.",
-          "feedback": "Fout. Dat is de betekenis van L3a, blauw vierkant met een tram en een bus. Dit bord is L2.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L3c",
-          "tekst": "Tramhalte.",
-          "feedback": "Fout. Dat is de betekenis van L3c, blauw vierkant met een tram. Dit bord is L2.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "L13",
-          "tekst": "Verkeerstunnel (lengte van tunnel is aangegeven).",
-          "feedback": "Fout. Dat is de betekenis van L13, blauw vierkant met een tunnelsymbool en 17 km. Dit bord is L2.",
+          "id": "L21",
+          "tekst": "Uitwijkplaats links van de weg.",
+          "feedback": "Fout. Dat is de betekenis van L21, blauw vierkant met een pijl omhoog die naar rechts uitbuigt. Dit bord is L2.",
           "fouttype": "niet_geweten"
         },
         {
@@ -116,6 +104,18 @@
           "tekst": "Voetgangersoversteekplaats.",
           "feedback": "Goed. Dit is L2: blauw vierkant met een voetganger op een zebrapad, en dat betekent Voetgangersoversteekplaats.",
           "fouttype": null
+        },
+        {
+          "id": "L8",
+          "tekst": "Doodlopende weg.",
+          "feedback": "Fout. Dat is de betekenis van L8, blauw vierkant met een witte weg die eindigt op een rode balk. Dit bord is L2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "L3a",
+          "tekst": "Tram/bushalte.",
+          "feedback": "Fout. Dat is de betekenis van L3a, blauw vierkant met een tram en een bus. Dit bord is L2.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [

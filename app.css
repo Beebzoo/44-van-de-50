@@ -26,8 +26,8 @@
 /* ==== tokens ==== */
 :root {
   color-scheme: light;
-  --grond: #F7F8FA; --vlak: #FFFFFF; --vlak-2: #EDEFF3;
-  --lijn: #DFE3E9; --lijn-2: #BFC6D0;
+  --grond: #FFFFFF; --vlak: #FFFFFF; --vlak-2: #F1F5FA;
+  --lijn: #E2E8F0; --lijn-2: #C3CDDA;
   --inkt: #15181C; --inkt-2: #4A5058; --inkt-3: #687079;
   --asfalt: #2A2F36; --asfalt-2: #3A404A; --markering: #F7F7F4;
   --bord-blauw: #0B5CAD; --bord-blauw-zacht: #E3EDF8;
@@ -37,7 +37,7 @@
   --fout: #C1121F; --fout-zacht: #FBE3E4; --fout-inkt: #8C0F19;
   --neutraal: #687079; --neutraal-zacht: #ECEBE6;
   --focus: #0B5CAD;
-  --plaat: #F4F4F2;
+  --plaat: #F7F9FC;
   /* de schil: kleur die nooit een antwoord beoordeelt */
   --schil: linear-gradient(135deg, #0B5CAD 0%, #1478D4 60%, #2E94E8 100%);
   --schil-inkt: #FFFFFF;
@@ -52,45 +52,73 @@
   --beweeg: cubic-bezier(.2,.7,.2,1);
   --t-staat: 120ms; --t-onthul: 200ms; --t-paneel: 320ms; --t-baan: 600ms;
   --kop-h: 3.5rem; --baan-h: 8px; --balk-h: 3.5rem;
+  /* De donkere waarden staan hier, in het licht ongebruikt. De twee blokken
+     hieronder (systeemvoorkeur en de knop in Instellingen) wijzen er allebei
+     naar, zodat ze niet meer uit elkaar kunnen lopen. */
+  --d-grond: #1B2430; --d-vlak: #243040; --d-vlak-2: #2E3C4E;
+  --d-lijn: #3A4A5E; --d-lijn-2: #4E6076;
+  --d-inkt: #F0F3F7; --d-inkt-2: #BFCAD8; --d-inkt-3: #94A2B3;
+  --d-asfalt: #0A0D11; --d-asfalt-2: #1B2027; --d-markering: #E8EAEC;
+  --d-bord-blauw: #6EA8E6; --d-bord-blauw-zacht: #16283D;
+  --d-waarschuwing-rood: #F07B7B;
+  --d-voorrang-geel: #F5C542; --d-voorrang-geel-zacht: #3A2F10;
+  --d-goed: #5FC48F; --d-goed-zacht: #14301F; --d-goed-inkt: #A9E5C3;
+  --d-fout: #F07B7B; --d-fout-zacht: #3B1A1C; --d-fout-inkt: #F6B4B4;
+  --d-neutraal: #858D96; --d-neutraal-zacht: #20262E;
+  --d-focus: #6EA8E6;
+  --d-plaat: #F7F9FC;
+  --d-schil: linear-gradient(135deg, #154C86 0%, #1E6BB8 60%, #2E8BD6 100%);
+  --d-schil-zacht: #23364C;
+  --d-schil-rand: #33506E;
+  --d-tegel: #243040;
+  --d-baan-grond: #16324F;
   --gutter: 16px;
   --lees: 17px;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
     color-scheme: dark;
-    --grond: #1B2430; --vlak: #243040; --vlak-2: #2E3C4E;
-    --lijn: #3A4A5E; --lijn-2: #4E6076;
-    --inkt: #F0F3F7; --inkt-2: #BFCAD8; --inkt-3: #94A2B3;
-    --asfalt: #0A0D11; --asfalt-2: #1B2027; --markering: #E8EAEC;
-    --bord-blauw: #6EA8E6; --bord-blauw-zacht: #16283D;
-    --waarschuwing-rood: #F07B7B;
-    --voorrang-geel: #F5C542; --voorrang-geel-zacht: #3A2F10;
-    --goed: #5FC48F; --goed-zacht: #14301F; --goed-inkt: #A9E5C3;
-    --fout: #F07B7B; --fout-zacht: #3B1A1C; --fout-inkt: #F6B4B4;
-    --neutraal: #858D96; --neutraal-zacht: #20262E;
-    --focus: #6EA8E6;
-    --schil: linear-gradient(135deg, #154C86 0%, #1E6BB8 60%, #2E8BD6 100%);
+    --grond: var(--d-grond); --vlak: var(--d-vlak); --vlak-2: var(--d-vlak-2);
+    --lijn: var(--d-lijn); --lijn-2: var(--d-lijn-2);
+    --inkt: var(--d-inkt); --inkt-2: var(--d-inkt-2); --inkt-3: var(--d-inkt-3);
+    --asfalt: var(--d-asfalt); --asfalt-2: var(--d-asfalt-2); --markering: var(--d-markering);
+    --bord-blauw: var(--d-bord-blauw); --bord-blauw-zacht: var(--d-bord-blauw-zacht);
+    --waarschuwing-rood: var(--d-waarschuwing-rood);
+    --voorrang-geel: var(--d-voorrang-geel); --voorrang-geel-zacht: var(--d-voorrang-geel-zacht);
+    --goed: var(--d-goed); --goed-zacht: var(--d-goed-zacht); --goed-inkt: var(--d-goed-inkt);
+    --fout: var(--d-fout); --fout-zacht: var(--d-fout-zacht); --fout-inkt: var(--d-fout-inkt);
+    --neutraal: var(--d-neutraal); --neutraal-zacht: var(--d-neutraal-zacht);
+    --focus: var(--d-focus);
+    --plaat: var(--d-plaat);
+    --schil: var(--d-schil);
     --schil-inkt: #FFFFFF;
-    --schil-zacht: #23364C;
-    --schil-rand: #33506E;
-    --tegel: #243040;
-    --baan-grond: #16324F;
+    --schil-zacht: var(--d-schil-zacht);
+    --schil-rand: var(--d-schil-rand);
+    --tegel: var(--d-tegel);
+    --baan-grond: var(--d-baan-grond);
     --schaduw-balk: 0 -1px 0 var(--lijn);
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --grond: #10141A; --vlak: #171C23; --vlak-2: #20262E;
-  --lijn: #2C333C; --lijn-2: #3E4750;
-  --inkt: #E8EAEC; --inkt-2: #AEB5BD; --inkt-3: #858D96;
-  --asfalt: #0A0D11; --asfalt-2: #1B2027; --markering: #E8EAEC;
-  --bord-blauw: #6EA8E6; --bord-blauw-zacht: #16283D;
-  --waarschuwing-rood: #F07B7B;
-  --voorrang-geel: #F5C542; --voorrang-geel-zacht: #3A2F10;
-  --goed: #5FC48F; --goed-zacht: #14301F; --goed-inkt: #A9E5C3;
-  --fout: #F07B7B; --fout-zacht: #3B1A1C; --fout-inkt: #F6B4B4;
-  --neutraal: #858D96; --neutraal-zacht: #20262E;
-  --focus: #6EA8E6;
+  --grond: var(--d-grond); --vlak: var(--d-vlak); --vlak-2: var(--d-vlak-2);
+  --lijn: var(--d-lijn); --lijn-2: var(--d-lijn-2);
+  --inkt: var(--d-inkt); --inkt-2: var(--d-inkt-2); --inkt-3: var(--d-inkt-3);
+  --asfalt: var(--d-asfalt); --asfalt-2: var(--d-asfalt-2); --markering: var(--d-markering);
+  --bord-blauw: var(--d-bord-blauw); --bord-blauw-zacht: var(--d-bord-blauw-zacht);
+  --waarschuwing-rood: var(--d-waarschuwing-rood);
+  --voorrang-geel: var(--d-voorrang-geel); --voorrang-geel-zacht: var(--d-voorrang-geel-zacht);
+  --goed: var(--d-goed); --goed-zacht: var(--d-goed-zacht); --goed-inkt: var(--d-goed-inkt);
+  --fout: var(--d-fout); --fout-zacht: var(--d-fout-zacht); --fout-inkt: var(--d-fout-inkt);
+  --neutraal: var(--d-neutraal); --neutraal-zacht: var(--d-neutraal-zacht);
+  --focus: var(--d-focus);
+  --plaat: var(--d-plaat);
+  --schil: var(--d-schil);
+  --schil-inkt: #FFFFFF;
+  --schil-zacht: var(--d-schil-zacht);
+  --schil-rand: var(--d-schil-rand);
+  --tegel: var(--d-tegel);
+  --baan-grond: var(--d-baan-grond);
   --schaduw-balk: 0 -1px 0 var(--lijn);
 }
 :root[data-tekst="groot"] { --lees: 19px; }
@@ -208,24 +236,27 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .kaart.klik:hover { border-color: var(--lijn-2); text-decoration: none; }
 .kaart .rij { display: flex; align-items: center; gap: 12px; }
 .kaart .groei { flex: 1; min-width: 0; }
-.regelbox { border: 1px solid var(--lijn-2); border-left: 4px solid var(--inkt); border-radius: var(--r); padding: 12px 16px; margin: 12px 0; background: var(--vlak); }
-.regelbox .label { display: block; font-weight: 600; font-size: 14px; color: var(--inkt-2); margin-bottom: 4px; }
+.regelbox { border: 1px solid var(--schil-rand); border-left: 4px solid var(--bord-blauw); border-radius: 10px; padding: 12px 16px; margin: 12px 0; background: var(--vlak); }
+.regelbox .label { display: block; font-weight: 700; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--bord-blauw); margin-bottom: 4px; }
 .callout { border-left: 4px solid var(--lijn-2); padding: 8px 0 8px 14px; margin: 12px 0; }
 .callout .label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
 .callout.letop, .callout.valkuil { border-color: var(--voorrang-geel); }
 .callout.tip { border-color: var(--bord-blauw); }
 .callout.weetje, .callout.ezelsbrug { border-color: var(--lijn-2); }
-.callout.waarom { border-color: var(--inkt-3); }
-.onthoud { background: var(--vlak-2); border-radius: var(--r); padding: 12px 16px; margin: 12px 0; font-weight: 500; }
-.onthoud .label { display: block; font-size: 14px; color: var(--inkt-2); font-weight: 600; margin-bottom: 2px; }
+.callout.waarom { border-color: var(--bord-blauw); }
+.callout.waarom .label { color: var(--bord-blauw); }
+.onthoud { background: var(--schil-zacht); border: 1px solid var(--schil-rand); border-radius: 10px; padding: 12px 16px; margin: 12px 0; font-weight: 500; }
+.onthoud .label { display: block; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--bord-blauw); font-weight: 700; margin-bottom: 2px; }
 .haarlijn { border: 0; border-top: 1px solid var(--lijn); margin: 16px 0; }
 .lijst { padding-left: 22px; margin: 8px 0 12px; }
 .lijst li { margin-bottom: 4px; }
 .tabel { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
 .tabel th, .tabel td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--lijn); vertical-align: top; }
-.tabel th { font-weight: 600; font-size: 14px; color: var(--inkt-2); }
+.tabel th { font-weight: 700; font-size: 13px; letter-spacing: .03em; text-transform: uppercase; color: var(--bord-blauw); background: var(--schil-zacht); border-bottom-color: var(--schil-rand); }
+.tabel th:first-child { border-top-left-radius: 8px; border-bottom-left-radius: 0; }
+.tabel th:last-child { border-top-right-radius: 8px; }
 .tabelwrap { overflow-x: auto; }
-.zelftest { border: 1px dashed var(--lijn-2); border-radius: var(--r); padding: 12px 16px; margin: 12px 0; }
+.zelftest { border: 1px dashed var(--lijn-2); border-radius: 10px; padding: 12px 16px; margin: 12px 0; background: var(--vlak-2); }
 .zelftest .antwoord { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--lijn); }
 .bronregel { font-size: 14px; color: var(--inkt-3); margin: 24px 0 0; }
 
@@ -392,7 +423,7 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .paaltje.groot::before { top: 8px; height: 10px; left: 3px; right: 3px; }
 .feiten { display: flex; gap: 16px; margin: 16px 0; }
 .feiten div { flex: 1; text-align: center; }
-.feiten .cijfer { display: block; }
+.feiten .cijfer { display: block; color: var(--bord-blauw); }
 .feiten .meta { display: block; margin-top: 4px; }
 
 /* ==== segmented control and pills ==== */
@@ -472,7 +503,7 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .aftelblok .meta { color: var(--inkt-2); }
 
 /* kaarten krijgen lucht en een zachte schaduw in plaats van alleen een lijn */
-.kaart { border-radius: 14px; box-shadow: 0 1px 2px rgba(21,24,28,.04), 0 6px 16px rgba(21,24,28,.05); }
+.kaart { border-radius: 14px; border-color: var(--lijn); box-shadow: 0 1px 2px rgba(11,92,173,.05), 0 6px 18px rgba(11,92,173,.07); }
 .kaart.klik:hover { border-color: var(--schil-rand); }
 
 /* de actieve tab krijgt een blauwe pil onder zich */

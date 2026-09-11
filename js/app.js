@@ -47,7 +47,7 @@ const I = {
 /* ==== boot ==== */
 async function boot() {
   store.persist(); /* not awaited: a permission prompt must never block the start */
-  S.settings = { thema: "auto", tekst: "normaal", taal: "nl", examenDatum: null, ...(await store.allSettings()) };
+  S.settings = { thema: "licht", tekst: "normaal", taal: "nl", examenDatum: null, ...(await store.allSettings()) };
   zetTaal(S.settings.taal);
   S.koppelcode = await sync.learnerCode();
   S.index = await fetch("content/index.json").then(r => r.json());

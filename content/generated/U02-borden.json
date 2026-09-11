@@ -80,16 +80,16 @@
       },
       "opties": [
         {
-          "id": "A3",
-          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
-          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A1.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "A1",
           "tekst": "Maximumsnelheid.",
           "feedback": "Goed. Dit is A1: ronde witte plaat met rode rand en zwart 50, en dat betekent Maximumsnelheid.",
           "fouttype": null
+        },
+        {
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A1.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "A4",
@@ -98,9 +98,9 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A2",
-          "tekst": "Einde maximumsnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A1.",
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A1.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -207,21 +207,21 @@
       },
       "opties": [
         {
-          "id": "A5",
-          "tekst": "Einde adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A2.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "A4",
           "tekst": "Adviessnelheid.",
           "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A2.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A3",
-          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
-          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A2.",
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A5, hetzelfde blauwe bord met een rode diagonale streep. Dit bord is A2.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A2.",
           "fouttype": "niet_geweten"
         },
         {
@@ -334,10 +334,10 @@
       },
       "opties": [
         {
-          "id": "A3",
-          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
-          "feedback": "Goed. Dit is A3: zwart elektronisch paneel met 70 in een rode ring, en dat betekent Maximumsnelheid op een elektronisch signaleringsbord.",
-          "fouttype": null
+          "id": "A4",
+          "tekst": "Adviessnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A3.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "A2",
@@ -346,15 +346,15 @@
           "fouttype": "niet_geweten"
         },
         {
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Goed. Dit is A3: zwart elektronisch paneel met 70 in een rode ring, en dat betekent Maximumsnelheid op een elektronisch signaleringsbord.",
+          "fouttype": null
+        },
+        {
           "id": "A1",
           "tekst": "Maximumsnelheid.",
           "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A3.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "A4",
-          "tekst": "Adviessnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A4, blauw vierkant bord met wit 50 km/u. Dit bord is A3.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -467,9 +467,9 @@
           "fouttype": null
         },
         {
-          "id": "A2",
-          "tekst": "Einde maximumsnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A4.",
+          "id": "A3",
+          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
+          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A4.",
           "fouttype": "niet_geweten"
         },
         {
@@ -588,10 +588,10 @@
       },
       "opties": [
         {
-          "id": "A5",
-          "tekst": "Einde adviessnelheid.",
-          "feedback": "Goed. Dit is A5: hetzelfde blauwe bord met een rode diagonale streep, en dat betekent Einde adviessnelheid.",
-          "fouttype": null
+          "id": "A2",
+          "tekst": "Einde maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A5.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "A4",
@@ -600,15 +600,15 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "A3",
-          "tekst": "Maximumsnelheid op een elektronisch signaleringsbord.",
-          "feedback": "Fout. Dat is de betekenis van A3, zwart elektronisch paneel met 70 in een rode ring. Dit bord is A5.",
-          "fouttype": "niet_geweten"
+          "id": "A5",
+          "tekst": "Einde adviessnelheid.",
+          "feedback": "Goed. Dit is A5: hetzelfde blauwe bord met een rode diagonale streep, en dat betekent Einde adviessnelheid.",
+          "fouttype": null
         },
         {
-          "id": "A2",
-          "tekst": "Einde maximumsnelheid.",
-          "feedback": "Fout. Dat is de betekenis van A2, ronde witte plaat met grijs 50 doorkruist door schuine strepen. Dit bord is A5.",
+          "id": "A1",
+          "tekst": "Maximumsnelheid.",
+          "feedback": "Fout. Dat is de betekenis van A1, ronde witte plaat met rode rand en zwart 50. Dit bord is A5.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -729,15 +729,9 @@
       },
       "opties": [
         {
-          "id": "C1",
-          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
-          "feedback": "Goed. Dit is C1: rode cirkel, wit binnenvlak, en dat betekent Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
-          "fouttype": null
-        },
-        {
-          "id": "C9",
-          "tekst": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
-          "feedback": "Fout. Dat is de betekenis van C9, rode cirkel met tractor, ruiter, fiets en bromfiets. Dit bord is C1.",
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C1.",
           "fouttype": "niet_geweten"
         },
         {
@@ -751,6 +745,12 @@
           "tekst": "Spitsstrook vrijmaken.",
           "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C1.",
           "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C1",
+          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+          "feedback": "Goed. Dit is C1: rode cirkel, wit binnenvlak, en dat betekent Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -870,21 +870,9 @@
       },
       "opties": [
         {
-          "id": "C14",
-          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
-          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C10.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C20",
           "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
           "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C10.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C13",
-          "tekst": "Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
-          "feedback": "Fout. Dat is de betekenis van C13, rode cirkel met een zwarte bromfiets. Dit bord is C10.",
           "fouttype": "niet_geweten"
         },
         {
@@ -892,6 +880,18 @@
           "tekst": "Gesloten voor motorvoertuigen met aanhangwagen.",
           "feedback": "Goed. Dit is C10: rode cirkel met een zwarte auto met aanhangwagen, en dat betekent Gesloten voor motorvoertuigen met aanhangwagen.",
           "fouttype": null
+        },
+        {
+          "id": "C17",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
+          "feedback": "Fout. Dat is de betekenis van C17, rode cirkel met 10 m tussen twee pijlpunten. Dit bord is C10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C6",
+          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C10.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -1011,9 +1011,9 @@
       },
       "opties": [
         {
-          "id": "C8",
-          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
-          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C11.",
+          "id": "C6",
+          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C11.",
           "fouttype": "niet_geweten"
         },
         {
@@ -1029,9 +1029,9 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C6",
-          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
-          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C11.",
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C11.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -1152,10 +1152,10 @@
       },
       "opties": [
         {
-          "id": "C12",
-          "tekst": "Gesloten voor alle motorvoertuigen.",
-          "feedback": "Goed. Dit is C12: rode cirkel met een zwarte auto en motorfiets, en dat betekent Gesloten voor alle motorvoertuigen.",
-          "fouttype": null
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C12.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "C7a",
@@ -1164,15 +1164,15 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C11",
-          "tekst": "Gesloten voor motoren.",
-          "feedback": "Fout. Dat is de betekenis van C11, rode cirkel met een zwarte motorfiets. Dit bord is C12.",
-          "fouttype": "niet_geweten"
+          "id": "C12",
+          "tekst": "Gesloten voor alle motorvoertuigen.",
+          "feedback": "Goed. Dit is C12: rode cirkel met een zwarte auto en motorfiets, en dat betekent Gesloten voor alle motorvoertuigen.",
+          "fouttype": null
         },
         {
-          "id": "C21",
-          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
-          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C12.",
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C12.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -1293,6 +1293,12 @@
       },
       "opties": [
         {
+          "id": "C3",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C13.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C13",
           "tekst": "Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
           "feedback": "Goed. Dit is C13: rode cirkel met een zwarte bromfiets, en dat betekent Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
@@ -1302,12 +1308,6 @@
           "id": "C22",
           "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
           "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C13.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C7a",
-          "tekst": "Gesloten voor autobussen.",
-          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C13.",
           "fouttype": "niet_geweten"
         },
         {
@@ -1440,15 +1440,9 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C23-03",
-          "tekst": "Einde spitsstrook.",
-          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C14.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C16",
-          "tekst": "Gesloten voor voetgangers.",
-          "feedback": "Fout. Dat is de betekenis van C16, rode cirkel met een zwarte voetganger. Dit bord is C14.",
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C14.",
           "fouttype": "niet_geweten"
         },
         {
@@ -1456,6 +1450,12 @@
           "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
           "feedback": "Goed. Dit is C14: rode cirkel met een zwarte fiets, en dat betekent Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
           "fouttype": null
+        },
+        {
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C14.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -1575,21 +1575,15 @@
       },
       "opties": [
         {
-          "id": "C10",
-          "tekst": "Gesloten voor motorvoertuigen met aanhangwagen.",
-          "feedback": "Fout. Dat is de betekenis van C10, rode cirkel met een zwarte auto met aanhangwagen. Dit bord is C15.",
+          "id": "C22e4",
+          "tekst": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
+          "feedback": "Fout. Dat is de betekenis van C22e4, wit onderbord met het woord diesel, een personenauto en een rij gekleurde emissieklasse-rondjes. Dit bord is C15.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C13",
-          "tekst": "Gesloten voor bromfietsen, snorfietsen en gehandicaptenvoertuigen, met in werking zijnde motor.",
-          "feedback": "Fout. Dat is de betekenis van C13, rode cirkel met een zwarte bromfiets. Dit bord is C15.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C6",
-          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
-          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C15.",
+          "id": "C14",
+          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
+          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C15.",
           "fouttype": "niet_geweten"
         },
         {
@@ -1597,6 +1591,12 @@
           "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
           "feedback": "Goed. Dit is C15: rode cirkel met een zwarte fiets en bromfiets, en dat betekent Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
           "fouttype": null
+        },
+        {
+          "id": "C6",
+          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C15.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -1716,16 +1716,16 @@
       },
       "opties": [
         {
-          "id": "C2",
-          "tekst": "Eenrichtingsweg, in deze richting gesloten voor voertuigen, ruiters en geleiders van rij- of trekdieren of...",
-          "feedback": "Fout. Dat is de betekenis van C2, rode cirkel met een brede witte horizontale balk. Dit bord is C16.",
+          "id": "C23-01",
+          "tekst": "Spitsstrook open.",
+          "feedback": "Fout. Dat is de betekenis van C23-01, blauw vierkant met vier witte pijlen omhoog. Dit bord is C16.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C16",
-          "tekst": "Gesloten voor voetgangers.",
-          "feedback": "Goed. Dit is C16: rode cirkel met een zwarte voetganger, en dat betekent Gesloten voor voetgangers.",
-          "fouttype": null
+          "id": "C22e10",
+          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
+          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C16.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "C9",
@@ -1734,10 +1734,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C1",
-          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
-          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C16.",
-          "fouttype": "niet_geweten"
+          "id": "C16",
+          "tekst": "Gesloten voor voetgangers.",
+          "feedback": "Goed. Dit is C16: rode cirkel met een zwarte voetganger, en dat betekent Gesloten voor voetgangers.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -1863,21 +1863,21 @@
           "fouttype": "niet_geweten"
         },
         {
+          "id": "C18",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C18, rode cirkel met 2,3 m tussen twee pijlpunten. Dit bord is C17.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C17",
           "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
           "feedback": "Goed. Dit is C17: rode cirkel met 10 m tussen twee pijlpunten, en dat betekent Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
           "fouttype": null
         },
         {
-          "id": "C12",
-          "tekst": "Gesloten voor alle motorvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C12, rode cirkel met een zwarte auto en motorfiets. Dit bord is C17.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C14",
-          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
-          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C17.",
+          "id": "C19",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C19, rode cirkel met 3,1 m tussen twee verticale pijlpunten. Dit bord is C17.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -1998,27 +1998,27 @@
       },
       "opties": [
         {
-          "id": "C18",
-          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
-          "feedback": "Goed. Dit is C18: rode cirkel met 2,3 m tussen twee pijlpunten, en dat betekent Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
-          "fouttype": null
-        },
-        {
           "id": "C10",
           "tekst": "Gesloten voor motorvoertuigen met aanhangwagen.",
           "feedback": "Fout. Dat is de betekenis van C10, rode cirkel met een zwarte auto met aanhangwagen. Dit bord is C18.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C7a",
-          "tekst": "Gesloten voor autobussen.",
-          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C18.",
+          "id": "C18",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+          "feedback": "Goed. Dit is C18: rode cirkel met 2,3 m tussen twee pijlpunten, en dat betekent Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+          "fouttype": null
+        },
+        {
+          "id": "C17",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
+          "feedback": "Fout. Dat is de betekenis van C17, rode cirkel met 10 m tussen twee pijlpunten. Dit bord is C18.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C14",
-          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
-          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C18.",
+          "id": "C19",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C19, rode cirkel met 3,1 m tussen twee verticale pijlpunten. Dit bord is C18.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -2139,9 +2139,9 @@
       },
       "opties": [
         {
-          "id": "C21",
-          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
-          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C19.",
+          "id": "C18",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C18, rode cirkel met 2,3 m tussen twee pijlpunten. Dit bord is C19.",
           "fouttype": "niet_geweten"
         },
         {
@@ -2151,15 +2151,15 @@
           "fouttype": null
         },
         {
-          "id": "C18",
-          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van C18, rode cirkel met 2,3 m tussen twee pijlpunten. Dit bord is C19.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C17",
           "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
           "feedback": "Fout. Dat is de betekenis van C17, rode cirkel met 10 m tussen twee pijlpunten. Dit bord is C19.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C21",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
+          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C19.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -2280,6 +2280,12 @@
       },
       "opties": [
         {
+          "id": "C18",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C18, rode cirkel met 2,3 m tussen twee pijlpunten. Dit bord is C2.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "F10",
           "tekst": "Stop. In het bord kan worden aangegeven door wie of waarom het bord wordt toegepast.",
           "feedback": "Fout. Dat is de betekenis van F10, rode cirkel met een witte horizontale balk. Dit bord is C2.",
@@ -2292,15 +2298,9 @@
           "fouttype": null
         },
         {
-          "id": "C22e10",
-          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
-          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C2.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C1",
-          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
-          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C2.",
+          "id": "C14",
+          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
+          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C2.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -2421,27 +2421,27 @@
       },
       "opties": [
         {
+          "id": "C22e10",
+          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
+          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C20.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C20.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C20",
           "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
           "feedback": "Goed. Dit is C20: rode cirkel met 4,8 t boven een assymbool, en dat betekent Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
           "fouttype": null
         },
         {
-          "id": "C21",
-          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen, waarvan de totaalmassa of de som van de aslasten...",
-          "feedback": "Fout. Dat is de betekenis van C21, rode cirkel met 5,4 t. Dit bord is C20.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C7b",
           "tekst": "Gesloten voor autobussen en vrachtauto's.",
           "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C20.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C7",
-          "tekst": "Gesloten voor vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7, rode cirkel met een zwarte vrachtauto. Dit bord is C20.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -2568,21 +2568,21 @@
           "fouttype": null
         },
         {
-          "id": "C20",
-          "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C21.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C23-01",
-          "tekst": "Spitsstrook open.",
-          "feedback": "Fout. Dat is de betekenis van C23-01, blauw vierkant met vier witte pijlen omhoog. Dit bord is C21.",
+          "id": "C19",
+          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, hoger zijn dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C19, rode cirkel met 3,1 m tussen twee verticale pijlpunten. Dit bord is C21.",
           "fouttype": "niet_geweten"
         },
         {
           "id": "C7b",
           "tekst": "Gesloten voor autobussen en vrachtauto's.",
           "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C21.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C21.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -2703,9 +2703,9 @@
       },
       "opties": [
         {
-          "id": "C15",
-          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C22.",
+          "id": "C7a",
+          "tekst": "Gesloten voor autobussen.",
+          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C22.",
           "fouttype": "niet_geweten"
         },
         {
@@ -2715,9 +2715,9 @@
           "fouttype": null
         },
         {
-          "id": "C11",
-          "tekst": "Gesloten voor motoren.",
-          "feedback": "Fout. Dat is de betekenis van C11, rode cirkel met een zwarte motorfiets. Dit bord is C22.",
+          "id": "C6",
+          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C22.",
           "fouttype": "niet_geweten"
         },
         {
@@ -2844,12 +2844,6 @@
       },
       "opties": [
         {
-          "id": "C22",
-          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
-          "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C22e.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C22e",
           "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
           "feedback": "Goed. Dit is C22e: rode cirkel met een zwarte auto en bestelbus met uitlaatgassen, en dat betekent Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
@@ -2862,9 +2856,15 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C22e4",
-          "tekst": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
-          "feedback": "Fout. Dat is de betekenis van C22e4, wit onderbord met het woord diesel, een personenauto en een rij gekleurde emissieklasse-rondjes. Dit bord is C22e.",
+          "id": "C1",
+          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C22e.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22",
+          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C22e.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -2985,27 +2985,27 @@
       },
       "opties": [
         {
-          "id": "C22e10",
-          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
-          "feedback": "Goed. Dit is C22e10: wit onderbord diesel met een vrachtauto en een autobus, en dat betekent Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
-          "fouttype": null
-        },
-        {
-          "id": "C23-01",
-          "tekst": "Spitsstrook open.",
-          "feedback": "Fout. Dat is de betekenis van C23-01, blauw vierkant met vier witte pijlen omhoog. Dit bord is C22e10.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C20",
           "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
           "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C22e10.",
           "fouttype": "niet_geweten"
         },
         {
+          "id": "C22e10",
+          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
+          "feedback": "Goed. Dit is C22e10: wit onderbord diesel met een vrachtauto en een autobus, en dat betekent Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
+          "fouttype": null
+        },
+        {
           "id": "C16",
           "tekst": "Gesloten voor voetgangers.",
           "feedback": "Fout. Dat is de betekenis van C16, rode cirkel met een zwarte voetganger. Dit bord is C22e10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C10",
+          "tekst": "Gesloten voor motorvoertuigen met aanhangwagen.",
+          "feedback": "Fout. Dat is de betekenis van C10, rode cirkel met een zwarte auto met aanhangwagen. Dit bord is C22e10.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -3126,9 +3126,9 @@
       },
       "opties": [
         {
-          "id": "C3",
-          "tekst": "Eenrichtingsweg.",
-          "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C22e4.",
+          "id": "C22e10",
+          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
+          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C22e4.",
           "fouttype": "niet_geweten"
         },
         {
@@ -3138,15 +3138,15 @@
           "fouttype": null
         },
         {
-          "id": "C22e10",
-          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
-          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C22e4.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C11",
           "tekst": "Gesloten voor motoren.",
           "feedback": "Fout. Dat is de betekenis van C11, rode cirkel met een zwarte motorfiets. Dit bord is C22e4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C1",
+          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
+          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C22e4.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -3267,9 +3267,9 @@
       },
       "opties": [
         {
-          "id": "C7a",
-          "tekst": "Gesloten voor autobussen.",
-          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C22e6.",
+          "id": "C7",
+          "tekst": "Gesloten voor vrachtauto's.",
+          "feedback": "Fout. Dat is de betekenis van C7, rode cirkel met een zwarte vrachtauto. Dit bord is C22e6.",
           "fouttype": "niet_geweten"
         },
         {
@@ -3279,9 +3279,9 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C17",
-          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
-          "feedback": "Fout. Dat is de betekenis van C17, rode cirkel met 10 m tussen twee pijlpunten. Dit bord is C22e6.",
+          "id": "C8",
+          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C22e6.",
           "fouttype": "niet_geweten"
         },
         {
@@ -3408,15 +3408,15 @@
       },
       "opties": [
         {
-          "id": "C22e",
-          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
-          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C23-01.",
+          "id": "C7a",
+          "tekst": "Gesloten voor autobussen.",
+          "feedback": "Fout. Dat is de betekenis van C7a, rode cirkel met een zwarte autobus. Dit bord is C23-01.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C23-03",
-          "tekst": "Einde spitsstrook.",
-          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C23-01.",
+          "id": "C20",
+          "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C23-01.",
           "fouttype": "niet_geweten"
         },
         {
@@ -3426,9 +3426,9 @@
           "fouttype": null
         },
         {
-          "id": "C7b",
-          "tekst": "Gesloten voor autobussen en vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C23-01.",
+          "id": "C22e",
+          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C23-01.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -3549,21 +3549,21 @@
       },
       "opties": [
         {
+          "id": "C22e10",
+          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
+          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C23-02.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C23-02",
           "tekst": "Spitsstrook vrijmaken.",
           "feedback": "Goed. Dit is C23-02: blauw vierkant waarvan de rechter pijl naar links afbuigt, en dat betekent Spitsstrook vrijmaken.",
           "fouttype": null
         },
         {
-          "id": "C8",
-          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
-          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C23-02.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C23-03",
-          "tekst": "Einde spitsstrook.",
-          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C23-02.",
+          "id": "C4",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C4, blauw vierkant met een witte pijl naar rechts. Dit bord is C23-02.",
           "fouttype": "niet_geweten"
         },
         {
@@ -3690,27 +3690,27 @@
       },
       "opties": [
         {
-          "id": "C23-03",
-          "tekst": "Einde spitsstrook.",
-          "feedback": "Goed. Dit is C23-03: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts, en dat betekent Einde spitsstrook.",
-          "fouttype": null
-        },
-        {
-          "id": "C7b",
-          "tekst": "Gesloten voor autobussen en vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C23-03.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C20",
           "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
           "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C23-03.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C22e",
-          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
-          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C23-03.",
+          "id": "C17",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
+          "feedback": "Fout. Dat is de betekenis van C17, rode cirkel met 10 m tussen twee pijlpunten. Dit bord is C23-03.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Goed. Dit is C23-03: blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts, en dat betekent Einde spitsstrook.",
+          "fouttype": null
+        },
+        {
+          "id": "C23-01",
+          "tekst": "Spitsstrook open.",
+          "feedback": "Fout. Dat is de betekenis van C23-01, blauw vierkant met vier witte pijlen omhoog. Dit bord is C23-03.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -3817,6 +3817,18 @@
       },
       "opties": [
         {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C5",
+          "tekst": "Inrijden toegestaan.",
+          "feedback": "Fout. Dat is de betekenis van C5, blauw vierkant met een witte pijl omlaag en een witte pijl omhoog. Dit bord is C3.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C22e4",
           "tekst": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
           "feedback": "Fout. Dat is de betekenis van C22e4, wit onderbord met het woord diesel, een personenauto en een rij gekleurde emissieklasse-rondjes. Dit bord is C3.",
@@ -3827,12 +3839,6 @@
           "tekst": "Eenrichtingsweg.",
           "feedback": "Goed. Dit is C3: blauw vierkant met een witte pijl omhoog, en dat betekent Eenrichtingsweg.",
           "fouttype": null
-        },
-        {
-          "id": "C15",
-          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C3.",
-          "fouttype": "niet_geweten"
         }
       ],
       "correct": [
@@ -3952,15 +3958,15 @@
       },
       "opties": [
         {
-          "id": "C5",
-          "tekst": "Inrijden toegestaan.",
-          "feedback": "Fout. Dat is de betekenis van C5, blauw vierkant met een witte pijl omlaag en een witte pijl omhoog. Dit bord is C4.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C8",
           "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
           "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C4.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C15",
+          "tekst": "Gesloten voor fietsen, snorfietsen, bromfietsen en gehandicaptenvoertuigen.",
+          "feedback": "Fout. Dat is de betekenis van C15, rode cirkel met een zwarte fiets en bromfiets. Dit bord is C4.",
           "fouttype": "niet_geweten"
         },
         {
@@ -3970,9 +3976,9 @@
           "fouttype": null
         },
         {
-          "id": "C1",
-          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
-          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C4.",
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C4.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -4099,21 +4105,21 @@
           "fouttype": null
         },
         {
+          "id": "C3",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C22e4",
+          "tekst": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's, toegankelijk voor emissieklasse 4 tot en met 6.",
+          "feedback": "Fout. Dat is de betekenis van C22e4, wit onderbord met het woord diesel, een personenauto en een rij gekleurde emissieklasse-rondjes. Dit bord is C5.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "C22e6",
           "tekst": "Onderbord bij C22e: milieuzone voor dieselpersonenauto's en bedrijfsauto's, toegankelijk voor...",
           "feedback": "Fout. Dat is de betekenis van C22e6, wit onderbord diesel met een personenauto en een bestelbus, met emissieklasse-rondjes. Dit bord is C5.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C22",
-          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
-          "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C5.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C6",
-          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
-          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C5.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -4234,21 +4240,15 @@
       },
       "opties": [
         {
-          "id": "C12",
-          "tekst": "Gesloten voor alle motorvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C12, rode cirkel met een zwarte auto en motorfiets. Dit bord is C6.",
+          "id": "C14",
+          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
+          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C6.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C6",
-          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
-          "feedback": "Goed. Dit is C6: rode cirkel met een zwarte auto, en dat betekent Gesloten voor motorvoertuigen op meer dan twee wielen.",
-          "fouttype": null
-        },
-        {
-          "id": "C7",
-          "tekst": "Gesloten voor vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7, rode cirkel met een zwarte vrachtauto. Dit bord is C6.",
+          "id": "C17",
+          "tekst": "Gesloten voor voertuigen en samenstellen van voertuigen die, met inbegrip van de lading, langer zijn dan...",
+          "feedback": "Fout. Dat is de betekenis van C17, rode cirkel met 10 m tussen twee pijlpunten. Dit bord is C6.",
           "fouttype": "niet_geweten"
         },
         {
@@ -4256,6 +4256,12 @@
           "tekst": "Eenrichtingsweg.",
           "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C6.",
           "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C6",
+          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Goed. Dit is C6: rode cirkel met een zwarte auto, en dat betekent Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -4381,21 +4387,21 @@
           "fouttype": null
         },
         {
-          "id": "C20",
-          "tekst": "Gesloten voor voertuigen waarvan de aslast hoger is dan op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van C20, rode cirkel met 4,8 t boven een assymbool. Dit bord is C7.",
+          "id": "C22",
+          "tekst": "Gesloten voor voertuigen met bepaalde gevaarlijke stoffen.",
+          "feedback": "Fout. Dat is de betekenis van C22, rode cirkel met een zwarte tankwagen met rood gevarenbord. Dit bord is C7.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C7b",
-          "tekst": "Gesloten voor autobussen en vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C7.",
+          "id": "C22e",
+          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C7.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C4",
-          "tekst": "Eenrichtingsweg.",
-          "feedback": "Fout. Dat is de betekenis van C4, blauw vierkant met een witte pijl naar rechts. Dit bord is C7.",
+          "id": "C6",
+          "tekst": "Gesloten voor motorvoertuigen op meer dan twee wielen.",
+          "feedback": "Fout. Dat is de betekenis van C6, rode cirkel met een zwarte auto. Dit bord is C7.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -4516,27 +4522,27 @@
       },
       "opties": [
         {
-          "id": "C4",
-          "tekst": "Eenrichtingsweg.",
-          "feedback": "Fout. Dat is de betekenis van C4, blauw vierkant met een witte pijl naar rechts. Dit bord is C7a.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C7",
-          "tekst": "Gesloten voor vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7, rode cirkel met een zwarte vrachtauto. Dit bord is C7a.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C7a",
           "tekst": "Gesloten voor autobussen.",
           "feedback": "Goed. Dit is C7a: rode cirkel met een zwarte autobus, en dat betekent Gesloten voor autobussen.",
           "fouttype": null
         },
         {
-          "id": "C14",
-          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
-          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C7a.",
+          "id": "C7b",
+          "tekst": "Gesloten voor autobussen en vrachtauto's.",
+          "feedback": "Fout. Dat is de betekenis van C7b, rode cirkel met een zwarte autobus en vrachtauto. Dit bord is C7a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-02",
+          "tekst": "Spitsstrook vrijmaken.",
+          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C7a.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C4",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C4, blauw vierkant met een witte pijl naar rechts. Dit bord is C7a.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -4657,15 +4663,21 @@
       },
       "opties": [
         {
-          "id": "C12",
-          "tekst": "Gesloten voor alle motorvoertuigen.",
-          "feedback": "Fout. Dat is de betekenis van C12, rode cirkel met een zwarte auto en motorfiets. Dit bord is C7b.",
+          "id": "C7b",
+          "tekst": "Gesloten voor autobussen en vrachtauto's.",
+          "feedback": "Goed. Dit is C7b: rode cirkel met een zwarte autobus en vrachtauto, en dat betekent Gesloten voor autobussen en vrachtauto's.",
+          "fouttype": null
+        },
+        {
+          "id": "C22e",
+          "tekst": "Gesloten voor personenauto's, bedrijfsauto's, vrachtauto's of autobussen vanwege emissie-eisen (milieuzone...",
+          "feedback": "Fout. Dat is de betekenis van C22e, rode cirkel met een zwarte auto en bestelbus met uitlaatgassen. Dit bord is C7b.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "C23-02",
-          "tekst": "Spitsstrook vrijmaken.",
-          "feedback": "Fout. Dat is de betekenis van C23-02, blauw vierkant waarvan de rechter pijl naar links afbuigt. Dit bord is C7b.",
+          "id": "C10",
+          "tekst": "Gesloten voor motorvoertuigen met aanhangwagen.",
+          "feedback": "Fout. Dat is de betekenis van C10, rode cirkel met een zwarte auto met aanhangwagen. Dit bord is C7b.",
           "fouttype": "niet_geweten"
         },
         {
@@ -4673,12 +4685,6 @@
           "tekst": "Einde spitsstrook.",
           "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C7b.",
           "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C7b",
-          "tekst": "Gesloten voor autobussen en vrachtauto's.",
-          "feedback": "Goed. Dit is C7b: rode cirkel met een zwarte autobus en vrachtauto, en dat betekent Gesloten voor autobussen en vrachtauto's.",
-          "fouttype": null
         }
       ],
       "correct": [
@@ -4798,9 +4804,15 @@
       },
       "opties": [
         {
-          "id": "C18",
-          "tekst": "Gesloten voor voertuigen die, met inbegrip van de lading, breder zijn dan op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van C18, rode cirkel met 2,3 m tussen twee pijlpunten. Dit bord is C8.",
+          "id": "C5",
+          "tekst": "Inrijden toegestaan.",
+          "feedback": "Fout. Dat is de betekenis van C5, blauw vierkant met een witte pijl omlaag en een witte pijl omhoog. Dit bord is C8.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C14",
+          "tekst": "Gesloten voor fietsen en voor gehandicaptenvoertuigen zonder motor.",
+          "feedback": "Fout. Dat is de betekenis van C14, rode cirkel met een zwarte fiets. Dit bord is C8.",
           "fouttype": "niet_geweten"
         },
         {
@@ -4810,15 +4822,9 @@
           "fouttype": null
         },
         {
-          "id": "C1",
-          "tekst": "Gesloten in beide richtingen voor voertuigen, ruiters en geleiders van rij- of trekdieren of vee.",
-          "feedback": "Fout. Dat is de betekenis van C1, rode cirkel, wit binnenvlak. Dit bord is C8.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "C7",
-          "tekst": "Gesloten voor vrachtauto's.",
-          "feedback": "Fout. Dat is de betekenis van C7, rode cirkel met een zwarte vrachtauto. Dit bord is C8.",
+          "id": "C9",
+          "tekst": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
+          "feedback": "Fout. Dat is de betekenis van C9, rode cirkel met tractor, ruiter, fiets en bromfiets. Dit bord is C8.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -4939,21 +4945,21 @@
       },
       "opties": [
         {
-          "id": "C8",
-          "tekst": "Gesloten voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
-          "feedback": "Fout. Dat is de betekenis van C8, rode cirkel met een zwarte tractor. Dit bord is C9.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "C9",
           "tekst": "Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
           "feedback": "Goed. Dit is C9: rode cirkel met tractor, ruiter, fiets en bromfiets, en dat betekent Gesloten voor ruiters, vee, wagens, landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid...",
           "fouttype": null
         },
         {
-          "id": "C22e10",
-          "tekst": "Onderbord bij C22e: milieuzone voor vrachtauto's en autobussen, toegankelijk voor vrachtauto's en...",
-          "feedback": "Fout. Dat is de betekenis van C22e10, wit onderbord diesel met een vrachtauto en een autobus. Dit bord is C9.",
+          "id": "C3",
+          "tekst": "Eenrichtingsweg.",
+          "feedback": "Fout. Dat is de betekenis van C3, blauw vierkant met een witte pijl omhoog. Dit bord is C9.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "C23-03",
+          "tekst": "Einde spitsstrook.",
+          "feedback": "Fout. Dat is de betekenis van C23-03, blauw vierkant met drie pijlen omhoog en een rode diagonale streep rechts. Dit bord is C9.",
           "fouttype": "niet_geweten"
         },
         {
@@ -5080,9 +5086,15 @@
       },
       "opties": [
         {
-          "id": "D4",
-          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D4, blauwe cirkel met een witte pijl omhoog. Dit bord is D1.",
+          "id": "J9",
+          "tekst": "Rotonde.",
+          "feedback": "Fout. Dat is de betekenis van J9, drie pijlen in een kring. Dit bord is D1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D1.",
           "fouttype": "niet_geweten"
         },
         {
@@ -5092,15 +5104,9 @@
           "fouttype": null
         },
         {
-          "id": "D3",
-          "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
-          "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D1.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D2",
-          "tekst": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
-          "feedback": "Fout. Dat is de betekenis van D2, blauwe cirkel met een dikke witte pijl schuin naar rechtsonder. Dit bord is D1.",
+          "id": "D5",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D1.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -5227,21 +5233,21 @@
           "fouttype": null
         },
         {
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D2.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "D3",
           "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
           "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D2.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "D7",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D2.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D1",
-          "tekst": "Rotonde; verplichte rijrichting.",
-          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D2.",
+          "id": "D5",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D2.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -5362,15 +5368,9 @@
       },
       "opties": [
         {
-          "id": "D4",
+          "id": "D5",
           "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D4, blauwe cirkel met een witte pijl omhoog. Dit bord is D3.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D1",
-          "tekst": "Rotonde; verplichte rijrichting.",
-          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D3.",
+          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D3.",
           "fouttype": "niet_geweten"
         },
         {
@@ -5380,9 +5380,15 @@
           "fouttype": null
         },
         {
-          "id": "D5",
-          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D3.",
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D3.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D1",
+          "tekst": "Rotonde; verplichte rijrichting.",
+          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D3.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -5489,6 +5495,12 @@
       },
       "opties": [
         {
+          "id": "D7",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D4.",
+          "fouttype": "niet_geweten"
+        },
+        {
           "id": "D4",
           "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
           "feedback": "Goed. Dit is D4: blauwe cirkel met een witte pijl omhoog, en dat betekent Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
@@ -5501,15 +5513,9 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "D7",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D4.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D6",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D4.",
+          "id": "D1",
+          "tekst": "Rotonde; verplichte rijrichting.",
+          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D4.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -5616,10 +5622,16 @@
       },
       "opties": [
         {
-          "id": "D5",
-          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
-          "feedback": "Goed. Dit is D5: blauwe cirkel met een witte pijl die naar rechts buigt, en dat betekent Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
-          "fouttype": null
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Fout. Dat is de betekenis van D6, blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts. Dit bord is D5.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D1",
+          "tekst": "Rotonde; verplichte rijrichting.",
+          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D5.",
+          "fouttype": "niet_geweten"
         },
         {
           "id": "D2",
@@ -5628,16 +5640,10 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "D7",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D7, blauwe cirkel met een witte pijl die zich splitst naar links en rechts. Dit bord is D5.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "D1",
-          "tekst": "Rotonde; verplichte rijrichting.",
-          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D5.",
-          "fouttype": "niet_geweten"
+          "id": "D5",
+          "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "feedback": "Goed. Dit is D5: blauwe cirkel met een witte pijl die naar rechts buigt, en dat betekent Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -5749,22 +5755,22 @@
           "fouttype": "niet_geweten"
         },
         {
-          "id": "D6",
-          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "feedback": "Goed. Dit is D6: blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts, en dat betekent Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
-          "fouttype": null
-        },
-        {
           "id": "D3",
           "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
           "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D6.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "D5",
+          "id": "D4",
           "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
-          "feedback": "Fout. Dat is de betekenis van D5, blauwe cirkel met een witte pijl die naar rechts buigt. Dit bord is D6.",
+          "feedback": "Fout. Dat is de betekenis van D4, blauwe cirkel met een witte pijl omhoog. Dit bord is D6.",
           "fouttype": "niet_geweten"
+        },
+        {
+          "id": "D6",
+          "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "feedback": "Goed. Dit is D6: blauwe cirkel met een witte pijl omhoog en een aftakking naar rechts, en dat betekent Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -5870,21 +5876,15 @@
       },
       "opties": [
         {
-          "id": "D2",
-          "tekst": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
-          "feedback": "Fout. Dat is de betekenis van D2, blauwe cirkel met een dikke witte pijl schuin naar rechtsonder. Dit bord is D7.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "D4",
           "tekst": "Gebod tot het volgen van de rijrichting die op het bord is aangegeven.",
           "feedback": "Fout. Dat is de betekenis van D4, blauwe cirkel met een witte pijl omhoog. Dit bord is D7.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "D1",
-          "tekst": "Rotonde; verplichte rijrichting.",
-          "feedback": "Fout. Dat is de betekenis van D1, blauwe cirkel met drie witte pijlen in een kring. Dit bord is D7.",
+          "id": "D2",
+          "tekst": "Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft.",
+          "feedback": "Fout. Dat is de betekenis van D2, blauwe cirkel met een dikke witte pijl schuin naar rechtsonder. Dit bord is D7.",
           "fouttype": "niet_geweten"
         },
         {
@@ -5892,6 +5892,12 @@
           "tekst": "Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
           "feedback": "Goed. Dit is D7: blauwe cirkel met een witte pijl die zich splitst naar links en rechts, en dat betekent Gebod tot het volgen van een van de rijrichtingen die op het bord zijn aangegeven.",
           "fouttype": null
+        },
+        {
+          "id": "D3",
+          "tekst": "Bord mag aan beide zijden worden voorbij gegaan.",
+          "feedback": "Fout. Dat is de betekenis van D3, blauwe cirkel met twee witte pijlen, schuin naar links en schuin naar rechts. Dit bord is D7.",
+          "fouttype": "niet_geweten"
         }
       ],
       "correct": [

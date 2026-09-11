@@ -94,21 +94,21 @@
       },
       "opties": [
         {
-          "id": "E3",
-          "tekst": "Verbod fietsen en bromfietsen te plaatsen.",
-          "feedback": "Fout. Dat is de betekenis van E3, blauwe cirkel met rode rand, rode streep en een fiets en bromfiets. Dit bord is E1.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "E2",
-          "tekst": "Verbod stil te staan.",
-          "feedback": "Fout. Dat is de betekenis van E2, blauwe cirkel met rode rand en een rood kruis. Dit bord is E1.",
-          "fouttype": "niet_geweten"
-        },
-        {
           "id": "E4",
           "tekst": "Parkeergelegenheid.",
           "feedback": "Fout. Dat is de betekenis van E4, blauw vierkant met een witte p. Dit bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E5",
+          "tekst": "Taxistandplaats.",
+          "feedback": "Fout. Dat is de betekenis van E5, blauw vierkant met een witte p en het woord taxi. Dit bord is E1.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E6",
+          "tekst": "Gehandicaptenparkeerplaats.",
+          "feedback": "Fout. Dat is de betekenis van E6, blauw vierkant met p en een rolstoelsymbool. Dit bord is E1.",
           "fouttype": "niet_geweten"
         },
         {
@@ -235,15 +235,15 @@
       },
       "opties": [
         {
-          "id": "E8",
-          "tekst": "Parkeergelegenheid alleen bestemd voor personenauto's.",
-          "feedback": "Fout. Dat is de betekenis van E8, blauw vierkant met p en een personenauto. Dit bord is E2.",
+          "id": "E1",
+          "tekst": "Parkeerverbod.",
+          "feedback": "Fout. Dat is de betekenis van E1, blauwe cirkel met rode rand en één rode diagonale streep. Dit bord is E2.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "E9",
-          "tekst": "Parkeergelegenheid alleen bestemd voor vergunninghouders.",
-          "feedback": "Fout. Dat is de betekenis van E9, blauw vierkant met p en het woord vergunninghouders. Dit bord is E2.",
+          "id": "E6",
+          "tekst": "Gehandicaptenparkeerplaats.",
+          "feedback": "Fout. Dat is de betekenis van E6, blauw vierkant met p en een rolstoelsymbool. Dit bord is E2.",
           "fouttype": "niet_geweten"
         },
         {
@@ -253,9 +253,9 @@
           "fouttype": null
         },
         {
-          "id": "E4",
-          "tekst": "Parkeergelegenheid.",
-          "feedback": "Fout. Dat is de betekenis van E4, blauw vierkant met een witte p. Dit bord is E2.",
+          "id": "E7",
+          "tekst": "Gelegenheid bestemd voor het onmiddellijk laden en lossen van goederen.",
+          "feedback": "Fout. Dat is de betekenis van E7, blauw vierkant met p en een vrachtauto met laadklep. Dit bord is E2.",
           "fouttype": "niet_geweten"
         }
       ],
@@ -382,15 +382,15 @@
           "fouttype": null
         },
         {
-          "id": "E4",
-          "tekst": "Parkeergelegenheid.",
-          "feedback": "Fout. Dat is de betekenis van E4, blauw vierkant met een witte p. Dit bord is E6.",
+          "id": "E12",
+          "tekst": "Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer.",
+          "feedback": "Fout. Dat is de betekenis van E12, blauw vierkant met p+r. Dit bord is E6.",
           "fouttype": "niet_geweten"
         },
         {
-          "id": "E13",
-          "tekst": "Parkeergelegenheid ten behoeve van carpoolers.",
-          "feedback": "Fout. Dat is de betekenis van E13, blauw vierkant met p en het woord carpool. Dit bord is E6.",
+          "id": "E10",
+          "tekst": "Parkeerschijfzone.",
+          "feedback": "Fout. Dat is de betekenis van E10, wit zone-kader met een blauw p-bord en max 2h. Dit bord is E6.",
           "fouttype": "niet_geweten"
         },
         {
@@ -517,21 +517,9 @@
       },
       "opties": [
         {
-          "id": "E7",
-          "tekst": "Gelegenheid bestemd voor het onmiddellijk laden en lossen van goederen.",
-          "feedback": "Fout. Dat is de betekenis van E7, blauw vierkant met p en een vrachtauto met laadklep. Dit bord is E10.",
-          "fouttype": "niet_geweten"
-        },
-        {
-          "id": "E10",
-          "tekst": "Parkeerschijfzone.",
-          "feedback": "Goed. Dit is E10: wit zone-kader met een blauw p-bord en max 2h, en dat betekent Parkeerschijfzone.",
-          "fouttype": null
-        },
-        {
-          "id": "E12",
-          "tekst": "Parkeergelegenheid ten behoeve van overstappers op het openbaar vervoer.",
-          "feedback": "Fout. Dat is de betekenis van E12, blauw vierkant met p+r. Dit bord is E10.",
+          "id": "E6",
+          "tekst": "Gehandicaptenparkeerplaats.",
+          "feedback": "Fout. Dat is de betekenis van E6, blauw vierkant met p en een rolstoelsymbool. Dit bord is E10.",
           "fouttype": "niet_geweten"
         },
         {
@@ -539,6 +527,18 @@
           "tekst": "Taxistandplaats.",
           "feedback": "Fout. Dat is de betekenis van E5, blauw vierkant met een witte p en het woord taxi. Dit bord is E10.",
           "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E8",
+          "tekst": "Parkeergelegenheid alleen bestemd voor personenauto's.",
+          "feedback": "Fout. Dat is de betekenis van E8, blauw vierkant met p en een personenauto. Dit bord is E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "E10",
+          "tekst": "Parkeerschijfzone.",
+          "feedback": "Goed. Dit is E10: wit zone-kader met een blauw p-bord en max 2h, en dat betekent Parkeerschijfzone.",
+          "fouttype": null
         }
       ],
       "correct": [
@@ -658,9 +658,9 @@
       },
       "opties": [
         {
-          "id": "E2",
-          "tekst": "Verbod stil te staan.",
-          "feedback": "Fout. Dat is de betekenis van E2, blauwe cirkel met rode rand en een rood kruis. Dit bord is E11.",
+          "id": "E10",
+          "tekst": "Parkeerschijfzone.",
+          "feedback": "Fout. Dat is de betekenis van E10, wit zone-kader met een blauw p-bord en max 2h. Dit bord is E11.",
           "fouttype": "niet_geweten"
         },
         {
@@ -670,9 +670,9 @@
           "fouttype": null
         },
         {
-          "id": "E13",
-          "tekst": "Parkeergelegenheid ten behoeve van carpoolers.",
-          "feedback": "Fout. Dat is de betekenis van E13, blauw vierkant met p en het woord carpool. Dit bord is E11.",
+          "id": "E9",
+          "tekst": "Parkeergelegenheid alleen bestemd voor vergunninghouders.",
+          "feedback": "Fout. Dat is de betekenis van E9, blauw vierkant met p en het woord vergunninghouders. Dit bord is E11.",
           "fouttype": "niet_geweten"
         },
         {

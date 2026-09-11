@@ -29,6 +29,10 @@ const SINGLE = flags.includes("enkel");
 const VRIJ = flags.includes("vrij");
 /* engels: zet de taalinstelling voordat de schermen langskomen */
 const ENGELS = flags.includes("engels");
+const THEMAZAAI = t => "(async () => { const store = await import('./js/store.js');" +
+  " await store.setSetting('thema', '" + t + "');" +
+  " try { localStorage.setItem('thema', '" + t + "'); } catch (e) {}" +
+  " return '" + t + "'; })()";
 const TAALZAAI = "(async () => { const store = await import('./js/store.js');" +
   " await store.setSetting('taal', 'en');" +
   " try { localStorage.setItem('taal', 'en'); } catch (e) {}" +
@@ -139,8 +143,17 @@ async function cdp() {
     const n = await evalJs(ZAAI);
     console.log("vrijgespeeld: " + n + " blokken gezaaid");
   }
-  if (ENGELS) {
+  if (DARK || LIGHT) {
     if (!VRIJ) {
+      await c.send("Page.navigate", { url: base });
+      let klaar = false;
+      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    }
+    await evalJs(THEMAZAAI(DARK ? "donker" : "licht"));
+    console.log("thema op " + (DARK ? "donker" : "licht") + " gezet");
+  }
+  if (ENGELS) {
+    if (!VRIJ && !DARK && !LIGHT) {
       await c.send("Page.navigate", { url: base });
       let klaar = false;
       for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
