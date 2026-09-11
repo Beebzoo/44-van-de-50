@@ -20,6 +20,7 @@ export function parse(hash) {
   if (a === "quiz" && b) return { name: "quiz", unit: b, soort: c || "quiz" };
   if (a === "borden" && b) return { name: "bord", code: decodeURIComponent(b) };
   if (a === "borden") return { name: "borden", familie: b || null };
+  if (a === "examen") return { name: "examen" };
   if (a === "fouten") return { name: "fouten" };
   if (a === "instellingen") return { name: "instellingen" };
   if (a === "gehaald" && b) return { name: "gehaald", unit: b };

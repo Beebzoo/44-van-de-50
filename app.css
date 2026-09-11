@@ -286,6 +286,25 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .twijfel { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 8px; font-size: 15px; color: var(--inkt-2); }
 .twijfel input { width: 20px; height: 20px; accent-color: var(--bord-blauw); }
 
+/* het oefenexamen: een klok die loopt en een raster om terug te springen */
+.examenbalk { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 12px; }
+.examenbalk.groot { margin-bottom: 20px; }
+.examenbalk .klok { font-family: var(--kop); font-weight: 700; font-size: 22px; font-variant-numeric: tabular-nums; color: var(--inkt); }
+.examenbalk .knop.tekstknop.actief { color: var(--bord-blauw); text-decoration: underline; }
+.vraagraster { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 8px; margin: 12px 0 20px; }
+.vraaghokje { min-height: 44px; border-radius: 10px; border: 2px solid var(--lijn); background: var(--vlak); color: var(--inkt-2); font-family: var(--kop); font-weight: 700; font-size: 15px; }
+.vraaghokje.beantwoord { background: var(--bord-blauw); border-color: var(--bord-blauw); color: #fff; }
+.vraaghokje.gemarkeerd { box-shadow: 0 0 0 3px var(--geel); }
+.tabel td.zwak { color: var(--fout); font-weight: 700; }
+
+/* het examenklaar-lampje */
+.examenklaar .lampen { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.examenklaar .lamp { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--inkt-2); }
+.examenklaar .lamp .bol { flex: none; width: 12px; height: 12px; border-radius: 50%; background: var(--lijn-2); }
+.examenklaar .lamp.aan .bol { background: var(--goed); }
+.examenklaar .lamp.aan { color: var(--inkt); }
+.examenklaar.klaar { border-color: var(--goed); }
+
 /* de invulvraag: een getal typen in plaats van een antwoord aanwijzen */
 .invulveld { display: flex; align-items: center; gap: 10px; margin: 4px 0 12px; }
 .invulveld .getal { flex: 0 1 180px; min-width: 0; min-height: 56px; padding: 0 14px; font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--inkt); background: var(--vlak); border: 2px solid var(--lijn); border-radius: 12px; }

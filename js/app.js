@@ -139,6 +139,122 @@ function render() {
   app.innerHTML = `${header(v)}${v.baan === false ? "" : lane()}<div class="romp"><main class="inhoud ${v.onder ? "" : "geen-balk"}">${v.body}</main>${S.route.name === "route" ? "" : `<aside class="rail">${timeline(true)}</aside>`}</div>${onder}${overlays()}`;
   document.title = (v.titel ? v.titel + " · " : "") + "44 van de 50";
 }
+const q0 = run => Q.current(run).q;
+const klokTekst = sec => Math.floor(sec / 60) + ":" + String(sec % 60).padStart(2, "0");
+const ONDERWERP = {
+  gebruik_van_de_weg: "Gebruik van de weg",
+  voorrang_en_voor_laten_gaan: "Voorrang en voor laten gaan",
+  bijzondere_wegen_weggebruikers_manoeuvres: "Bijzondere wegen en manoeuvres",
+  veilig_rijden_en_noodsituaties: "Veilig rijden en noodsituaties",
+  verkeerstekens_en_aanwijzingen: "Verkeerstekens en aanwijzingen",
+  verantwoorde_deelname_en_milieu: "Verantwoorde deelname en milieu",
+  wetgeving: "Wetgeving",
+  voertuigkennis: "Voertuigkennis",
+};
+
+/* ==== het oefenexamen ====
+
+   De klok loopt door terwijl je kijkt, dus hij tikt in de DOM en niet via een
+   hertekening: die zou je antwoord en je cursor kwijtraken. */
+let examenTik = null;
+function startKlok() {
+  stopKlok();
+  examenTik = setInterval(() => {
+    const run = S.run;
+    if (!run || !run.examen || run.klaar) return stopKlok();
+    const el = document.getElementById("examenklok");
+    if (el) el.textContent = klokTekst(Q.seconden(run));
+    if (Q.tijdOp(run)) leverIn();
+  }, 1000);
+}
+function stopKlok() { if (examenTik) { clearInterval(examenTik); examenTik = null; } }
+
+function startExamen() {
+  const pool = [];
+  for (const u of S.units) {
+    if (!S.states[u.id] || !S.states[u.id].quizOpen) continue;
+    for (const q of S.bank[u.id] || []) pool.push(q);
+  }
+  if (pool.length < Q.EXAMEN.getoond) return;
+  S.run = Q.newExamen(Q.sampleExamen(pool, S.history));
+  startKlok();
+}
+async function leverIn() {
+  const run = S.run;
+  if (!run || !run.examen || run.klaar) return;
+  stopKlok();
+  Q.sluitExamen(run, S.history);
+  await log(Q.toAttempt(run, S.index.versie));
+  render();
+}
+
+function examenIntro() {
+  const open = S.units.filter(u => S.states[u.id] && S.states[u.id].quizOpen);
+  const pool = open.reduce((a, u) => a + (S.bank[u.id] || []).length, 0);
+  const sims = S.attempts.filter(a => a.kind === "examen");
+  const laatste = sims.slice(-5).reverse();
+  const genoeg = pool >= Q.EXAMEN.getoond;
+  const body = `<h1 class="kop1">Oefenexamen</h1>
+    <p class="lees">${Q.EXAMEN.getoond} vragen waarvan er ${Q.EXAMEN.telt} tellen, ${Q.EXAMEN.minuten} minuten, en je haalt het bij ${Q.EXAMEN.halen} goed. Net als bij het CBR krijg je onderweg niets te zien: je antwoordt, je mag terug, en je ziet alles pas als je inlevert.</p>
+    ${genoeg ? "" : `<div class="kaart"><p style="margin:0">Er zijn nog ${Q.EXAMEN.getoond - pool} vragen te weinig vrijgespeeld. Rond eerst wat blokken af.</p></div>`}
+    ${laatste.length ? `<h2 class="kop2">Je vorige simulaties</h2>${laatste.map(a => `<div class="kaart"><div class="rij"><span class="cijfer">${a.score}<span class="meta-3"> van ${a.total}</span></span><div class="groei"><strong>${a.score >= Q.EXAMEN.halen ? "Gehaald" : "Niet gehaald"}</strong><br><span class="meta">${datum(new Date(a.created_at || a.ts))}</span></div></div></div>`).join("")}` : ""}`;
+  const onder = genoeg
+    ? `<button class="knop primair groot" data-actie="start-examen">${sims.length ? "Nog een simulatie" : "Begin het oefenexamen"}<span class="pijl">${I.pijl}</span></button>`
+    : `<a class="knop omlijnd groot" href="#/route">Terug naar Route</a>`;
+  return { titel: "Oefenexamen", terug: "#/route", sluit: true, body, onder };
+}
+
+function examenOverzicht(run) {
+  const n = run.items.length;
+  const beantwoord = run.items.filter(it => (run.antwoorden[it.q.id] || []).length).length;
+  const hokjes = run.items.map((it, i) => {
+    const heeft = (run.antwoorden[it.q.id] || []).length > 0;
+    const vlag = run.gemarkeerd.includes(it.q.id);
+    return `<button type="button" class="vraaghokje ${heeft ? "beantwoord" : ""} ${vlag ? "gemarkeerd" : ""}" data-actie="examen-ga" data-n="${i}">${i + 1}</button>`;
+  }).join("");
+  const body = `<div class="examenbalk groot"><span class="klok" id="examenklok">${klokTekst(Q.seconden(run))}</span><span class="meta">${beantwoord} van ${n} beantwoord</span></div>
+    <h1 class="kop1">Overzicht</h1>
+    <p class="lees">Tik op een nummer om terug te gaan. Een blauw randje betekent dat je hem gemarkeerd hebt.</p>
+    <div class="vraagraster">${hokjes}</div>
+    ${beantwoord < n ? `<p class="meta">Je hebt er nog ${n - beantwoord} niet beantwoord. Onbeantwoord telt als fout.</p>` : ""}`;
+  return { titel: "Oefenexamen", terug: "#/examen", sluit: true, midden: "Oefenexamen", body, onder: `<button class="knop primair groot" data-actie="examen-inleveren">Inleveren en nakijken<span class="pijl">${I.pijl}</span></button>` };
+}
+
+function examenUitslagScherm(run) {
+  const u = Q.examenUitslag(run);
+  const rijen = Object.entries(u.perOnderwerp).sort((a, b) => a[1].goed / a[1].totaal - b[1].goed / b[1].totaal).map(([k, o]) => {
+    const pct = Math.round(o.goed / o.totaal * 100);
+    return `<tr><td>${esc(ONDERWERP[k] || k)}</td><td style="text-align:right">${o.goed} van ${o.totaal}</td><td style="text-align:right" class="${pct < 70 ? "zwak" : ""}">${pct}%</td></tr>`;
+  }).join("");
+  const fouten = u.fouten.map(f => {
+    const q = S.qById[f.q]; if (!q) return "";
+    const uq = S.unitById[q.unit];
+    const pg = uq ? uq.paginas.find(x => x.id === q.pagina) : null;
+    return `<div class="kaart"><p style="margin:0 0 6px"><strong>${esc(q.stam)}</strong></p><p class="lees" style="margin:0">${esc(q.uitleg.regel)}</p><p class="meta-3" style="margin:6px 0 0">${f.gekozen.length ? "" : "Niet beantwoord. "}${pg && uq ? `<a href="#/blok/${uq.id}/lezen/${pg.id}">Lees ${esc(kortePaginanaam(pg))} opnieuw</a>` : ""}</p></div>`;
+  }).join("");
+  const body = `<div style="text-align:center;margin:24px 0"><span class="cijfer cijfer-groot">${u.score} <span class="meta-3">van ${u.totaal}</span></span><h1 class="kop1" style="margin-top:8px">${u.gehaald ? "Gehaald" : "Niet gehaald"}</h1><p class="meta">Je haalt het bij ${u.halen} goed${u.onbeantwoord ? `, en je liet er ${u.onbeantwoord} open` : ""}.</p></div>
+    <h2 class="kop2">Per onderwerp</h2><div class="tabelwrap"><table class="tabel"><thead><tr><th>Onderwerp</th><th style="text-align:right">Goed</th><th style="text-align:right"></th></tr></thead><tbody>${rijen}</tbody></table></div>
+    ${u.fouten.length ? `<h2 class="kop2">${u.fouten.length === 1 ? "Deze ging mis" : "Deze gingen mis"}</h2>${fouten}` : ""}`;
+  return { titel: "Uitslag", terug: "#/examen", sluit: true, midden: "Oefenexamen", body, onder: `<a class="knop primair groot" href="#/examen">Klaar<span class="pijl">${I.pijl}</span></a>` };
+}
+
+/* Het examenklaar-lampje. Drie voorwaarden, en alleen alle drie samen zijn
+   groen. Een enkele goede simulatie zegt niets: je kunt geluk hebben gehad met
+   de onderwerpen, of net die dag scherp zijn geweest. */
+function examenklaarKaart() {
+  const retentie = retentieOverAlles();
+  const k = Q.examenklaar(S.attempts, retentie);
+  const lampen = k.lampen.map(l => `<li class="lamp ${l.ok ? "aan" : ""}"><span class="bol"></span><span>${esc(l.tekst)}</span></li>`).join("");
+  return `<a class="kaart klik examenklaar ${k.klaar ? "klaar" : ""}" href="#/examen">
+    <div class="rij"><span class="groei"><strong>${k.klaar ? "Je bent examenklaar" : "Nog niet examenklaar"}</strong></span>${I.pijl}</div>
+    <ul class="lampen">${lampen}</ul></a>`;
+}
+function retentieOverAlles() {
+  const waarden = S.units.map(u => SRS.health(S.boxes, S.qById, u.id)).filter(x => x !== null);
+  if (!waarden.length) return 0;
+  return waarden.reduce((a, b) => a + b, 0) / waarden.length;
+}
+
 function currentUnit() {
   return S.units.find(u => S.states[u.id].staat !== "beheerst") || S.units[S.units.length - 1];
 }
@@ -202,6 +318,7 @@ const SCREENS = {
         <a class="knop primair groot" style="margin-top:12px" href="${act.href}">${esc(act.knop)}<span class="pijl">${I.pijl}</span></a></div>
       <p class="meta-3">Vandaag ${vd.vragen} vragen, ${vd.minuten} min${streak > 1 ? ` · ${streak} dagen op rij` : ""}</p>
       ${herhalingKaart()}
+      ${examenklaarKaart()}
       ${timeline()}
       <a class="kaart klik" href="#/fouten"><div class="rij"><span class="groei">Fouten om te herhalen</span><span class="cijfer cijfer-klein">${fouten.length}</span>${I.pijl}</div></a>`;
     return { titel: "Route", body, onder: "tab" };
@@ -256,15 +373,24 @@ const SCREENS = {
     else onder = `<div class="rij">${i > 0 ? `<a class="knop omlijnd" href="#/blok/${u.id}/lezen/${u.paginas[i - 1].id}" aria-label="Vorige pagina">${I.terug}</a>` : ""}<a class="knop primair groot" href="#/blok/${u.id}">Terug naar het blok<span class="pijl">${I.pijl}</span></a></div>`;
     return { titel: p.titel, terug: "#/blok/" + u.id, midden: `Blok ${u.volgorde} · ${esc(u.titel)}`, body, onder };
   },
+  examen() {
+    const run = S.run;
+    if (!run || !run.examen) return examenIntro();
+    if (run.klaar) return examenUitslagScherm(run);
+    if (run.overzicht) return examenOverzicht(run);
+    return SCREENS.quiz();
+  },
   quiz() {
     const run = S.run;
-    const u = S.unitById[S.route.unit];
+    const u = S.unitById[run && run.unit ? run.unit : S.route.unit];
     if (!run) return { titel: "Quiz", terug: "#/blok/" + S.route.unit, sluit: true, body: `<h1 class="kop1">Nog geen quiz</h1><p class="lees">De vragen voor dit blok zijn er nog niet, of het blok is nog vergrendeld.</p>`, onder: `<a class="knop primair groot" href="#/blok/${S.route.unit}">Terug naar het blok</a>` };
     if (run.klaar) return quizEinde(run, u);
     const item = Q.current(run);
     const q = item.q;
     const n = run.items.length;
-    const dots = `<div class="stipjes" aria-hidden="true">${run.items.map((it, i) => { const r = run.resultaten[i]; const c = r ? (r.goed && !r.twijfel ? "goed" : "fout") : i === run.i ? "nu" : ""; return `<span class="${c}"></span>`; }).join("")}</div>`;
+    const dots = run.examen
+      ? `<div class="examenbalk"><span class="klok" id="examenklok">${klokTekst(Q.seconden(run))}</span><button type="button" class="knop tekstknop ${run.gemarkeerd.includes(q0(run).id) ? "actief" : ""}" data-actie="examen-markeer">${run.gemarkeerd.includes(q0(run).id) ? "Gemarkeerd" : "Markeer"}</button></div>`
+      : `<div class="stipjes" aria-hidden="true">${run.items.map((it, i) => { const r = run.resultaten[i]; const c = r ? (r.goed && !r.twijfel ? "goed" : "fout") : i === run.i ? "nu" : ""; return `<span class="${c}"></span>`; }).join("")}</div>`;
     const toon = run.fase === "toon";
     const r = toon ? run.resultaten[run.resultaten.length - 1] : null;
     let media = "";
@@ -337,9 +463,11 @@ const SCREENS = {
     const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${uitleg}`;
     const onder = toon
       ? `<button class="knop primair groot" data-actie="volgende">${run.i + 1 >= n ? "Naar de uitslag" : "Volgende"}<span class="pijl">${I.pijl}</span></button>`
-      : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> Twijfel</label><button class="knop primair groot" data-actie="controleer" ${Q.ready(run) ? "" : "disabled"}>Controleer</button></div>`;
-    const naam = run.soort === "quiz" ? "Quiz" : run.soort === "herhaling" ? "Herhaling" : run.ref === "fouten" ? "Fouten oefenen" : "Herstelronde";
-    return { titel: naam, terug: u ? "#/blok/" + u.id : "#/route", sluit: true, midden: `${naam} · vraag ${run.i + 1} van ${n}`, body, onder, baan: true };
+      : run.examen
+        ? `<div class="rij"><button class="knop omlijnd" data-actie="examen-ga" data-n="${run.i - 1}" ${run.i === 0 ? "disabled" : ""} aria-label="Vorige vraag">${I.terug}</button><button class="knop primair groot" data-actie="examen-ga" data-n="${run.i + 1}">${run.i + 1 >= n ? "Naar het overzicht" : "Volgende"}<span class="pijl">${I.pijl}</span></button></div>`
+        : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> Twijfel</label><button class="knop primair groot" data-actie="controleer" ${Q.ready(run) ? "" : "disabled"}>Controleer</button></div>`;
+    const naam = run.examen ? "Oefenexamen" : run.soort === "quiz" ? "Quiz" : run.soort === "herhaling" ? "Herhaling" : run.ref === "fouten" ? "Fouten oefenen" : "Herstelronde";
+    return { titel: naam, terug: run.examen ? "#/examen" : u ? "#/blok/" + u.id : "#/route", sluit: true, midden: `${naam} · vraag ${run.i + 1} van ${n}`, body, onder, baan: true };
   },
   gehaald() {
     const u = S.unitById[S.route.unit];
@@ -492,6 +620,16 @@ async function onClick(e) {
   if (a === "speel" && run) { speelReeks(run); return; }
   if (a === "sluit-viewer") { if (e.target.closest("a")) return; S.viewer = null; render(); return; }
   if (a === "toon-antwoord") { const z = el.closest(".zelftest"); z.querySelector(".antwoord").classList.remove("verborgen"); el.classList.add("verborgen"); return; }
+  if (a === "start-examen") { startExamen(); render(); return; }
+  if (a === "examen-markeer" && run && run.examen) { Q.markeer(run); render(); return; }
+  if (a === "examen-inleveren" && run && run.examen) { await leverIn(); return; }
+  if (a === "examen-ga" && run && run.examen) {
+    const n = parseInt(el.dataset.n, 10);
+    if (n >= run.items.length) { Q.park(run); run.overzicht = true; }
+    else { run.overzicht = false; Q.ga(run, n); }
+    render();
+    return;
+  }
   if (a === "kies" && run) { const t = Q.current(run).q.type; Q.choose(run, el.dataset.id); if (t !== "meervoudig" && t !== "volgorde" && run.gekozen.length === 1 && run.gekozen[0] === el.dataset.id && el.classList.contains("gekozen")) { /* second tap on the selected option confirms */ Q.check(run, S.history); } render(); return; }
   if (a === "controleer" && run) { Q.check(run, S.history); render(); return; }
   if (a === "fouttype" && run) { Q.setFouttype(run, el.dataset.type); render(); return; }

@@ -152,6 +152,7 @@ export function next(run) {
 }
 
 export function score(run) {
+  if (run.examen) { const u = examenUitslag(run); return { score: u.score, total: u.totaal, gehaald: u.gehaald, fouten: u.fouten }; }
   const total = run.resultaten.length;
   const goed = run.resultaten.filter(r => r.goed && !r.twijfel).length;
   return { score: goed, total, gehaald: total > 0 && goed === total, fouten: run.resultaten.filter(r => !r.goed || r.twijfel) };
@@ -160,9 +161,161 @@ export function score(run) {
 export function toAttempt(run, contentVersion) {
   const s = score(run);
   return {
-    kind: run.soort === "quiz" ? "quiz" : run.soort === "herhaling" ? "herhaling" : "herstel", ref: run.ref,
+    kind: run.soort === "examen" ? "examen" : run.soort === "quiz" ? "quiz" : run.soort === "herhaling" ? "herhaling" : "herstel", ref: run.ref,
     score: s.score, total: s.total, duration_ms: Date.now() - run.start,
     content_version: contentVersion,
-    answers: run.resultaten.map(r => ({ q: r.q, unit: r.unit, goed: r.goed, gekozen: r.gekozen, fouttype: r.fouttype, twijfel: r.twijfel, ms: r.ms })),
+    answers: run.resultaten.map(r => ({ q: r.q, unit: r.unit, goed: r.goed, gekozen: r.gekozen, fouttype: r.fouttype, twijfel: r.twijfel, ms: r.ms, ...(r.onderwerp ? { onderwerp: r.onderwerp, telt: r.telt } : {}) })),
   };
+}
+
+/* ==== the exam simulation ====
+
+   The real thing: 50 questions that count, 2 test questions that do not, 30
+   minutes, 44 right to pass. Those five numbers are F001 to F004 and F006 in
+   the fact registry, so they are not invented here.
+
+   What is invented, and worth knowing: the CBR does not publish how many
+   questions it draws per topic, and neither transcription says. So the
+   simulation weighs the topics by how many hand-written questions the bank has
+   per topic, because that follows how much room the book gives each subject.
+   It deliberately does not weigh by the whole bank: the generated sign items
+   are half of everything and all one topic, so a simulation drawn that way is
+   a sign quiz with some traffic rules mixed in. The questions themselves are
+   then drawn from everything, generated ones included.
+
+   An exam run never reveals an answer between questions. You answer, you may
+   flag a question, you may walk back and change it, and you see everything at
+   the end. Anything else would train you on a screen the exam does not have. */
+export const EXAMEN = { getoond: 52, telt: 50, halen: 44, minuten: 30 };
+
+export function sampleExamen(pool, history) {
+  const bruikbaar = pool.filter(q => SUPPORTED.has(q.type));
+  if (bruikbaar.length <= EXAMEN.getoond) return shuffle(bruikbaar);
+
+  const perOnderwerp = {};
+  for (const q of bruikbaar) (perOnderwerp[q.cbr_onderwerp] = perOnderwerp[q.cbr_onderwerp] || []).push(q);
+  const onderwerpen = Object.keys(perOnderwerp);
+
+  /* the weight of a topic is how many hand-written questions it has */
+  const gewicht = {};
+  for (const o of onderwerpen) gewicht[o] = perOnderwerp[o].filter(q => !q.gegenereerd).length || perOnderwerp[o].length;
+  const somGewicht = onderwerpen.reduce((a, o) => a + gewicht[o], 0);
+
+  /* every topic gets two, the rest follows the weight */
+  const quota = {};
+  let over = EXAMEN.getoond;
+  for (const o of onderwerpen) { quota[o] = Math.min(2, perOnderwerp[o].length); over -= quota[o]; }
+  for (const o of onderwerpen) {
+    const extra = Math.min(perOnderwerp[o].length - quota[o], Math.round(over * gewicht[o] / somGewicht));
+    quota[o] += extra;
+  }
+  /* rounding leaves a few over or short, so top up or trim where there is room */
+  let gekozen = [];
+  for (const o of shuffle(onderwerpen)) gekozen = gekozen.concat(ranked(perOnderwerp[o], history).slice(0, quota[o]));
+  if (gekozen.length > EXAMEN.getoond) gekozen = shuffle(gekozen).slice(0, EXAMEN.getoond);
+  if (gekozen.length < EXAMEN.getoond) {
+    const genomen = new Set(gekozen.map(q => q.id));
+    for (const q of ranked(bruikbaar, history)) {
+      if (gekozen.length >= EXAMEN.getoond) break;
+      if (!genomen.has(q.id)) { gekozen.push(q); genomen.add(q.id); }
+    }
+  }
+  return shuffle(gekozen);
+}
+
+export function newExamen(questions) {
+  const run = newRun({ unit: null, soort: "examen", questions, ref: "examen" });
+  run.examen = true;
+  run.gemarkeerd = [];
+  run.antwoorden = {};                 /* vraag-id naar wat je koos, want je mag terug */
+  run.eindigt = Date.now() + EXAMEN.minuten * 60000;
+  /* the two that do not count, drawn now so the result cannot be argued with */
+  run.proef = questions.slice(0, Math.max(0, questions.length - EXAMEN.telt)).map(q => q.id);
+  return run;
+}
+
+export const seconden = run => Math.max(0, Math.round((run.eindigt - Date.now()) / 1000));
+export const tijdOp = run => Date.now() >= run.eindigt;
+
+export function markeer(run) {
+  const id = current(run).q.id;
+  run.gemarkeerd = run.gemarkeerd.includes(id) ? run.gemarkeerd.filter(x => x !== id) : run.gemarkeerd.concat(id);
+}
+
+/* In an exam the answer is parked, not checked: you find out at the end. */
+export function park(run) {
+  const id = current(run).q.id;
+  if (run.gekozen.length) run.antwoorden[id] = run.gekozen.slice();
+  else delete run.antwoorden[id];
+}
+
+export function ga(run, i) {
+  park(run);
+  run.i = Math.max(0, Math.min(run.items.length - 1, i));
+  run.gekozen = (run.antwoorden[current(run).q.id] || []).slice();
+  run.vraagStart = Date.now();
+}
+
+/* Scoring happens once, at the end or when the clock runs out. */
+export function sluitExamen(run, history) {
+  park(run);
+  run.resultaten = run.items.map(item => {
+    const q = item.q;
+    const gekozen = run.antwoorden[q.id] || [];
+    const goed = gekozen.length ? isCorrect(q, gekozen) : false;
+    return {
+      q: q.id, unit: q.unit, pagina: q.pagina, onderwerp: q.cbr_onderwerp,
+      goed, gekozen, twijfel: false, telt: !run.proef.includes(q.id),
+      fouttype: goed ? null : defaultFouttype(q, gekozen, history), ms: 0,
+    };
+  });
+  run.klaar = true;
+  return examenUitslag(run);
+}
+
+export function examenUitslag(run) {
+  const tellen = run.resultaten.filter(r => r.telt);
+  const goed = tellen.filter(r => r.goed).length;
+  const perOnderwerp = {};
+  for (const r of tellen) {
+    const o = perOnderwerp[r.onderwerp] = perOnderwerp[r.onderwerp] || { goed: 0, totaal: 0 };
+    o.totaal += 1; if (r.goed) o.goed += 1;
+  }
+  const onbeantwoord = run.resultaten.filter(r => !r.gekozen.length).length;
+  return {
+    score: goed, totaal: tellen.length, halen: EXAMEN.halen, gehaald: goed >= EXAMEN.halen,
+    perOnderwerp, onbeantwoord, fouten: run.resultaten.filter(r => !r.goed),
+  };
+}
+
+/* ==== is he ready ====
+
+   Three simulations of 44 or higher in the last ten days, no topic under 70
+   percent over those simulations, and the daily revision not in arrears. Three
+   lamps, and only all three together mean green. */
+export const EXAMENKLAAR = { simulaties: 3, drempel: EXAMEN.halen, dagen: 10, onderwerp: 0.7, retentie: 0.8 };
+
+export function examenklaar(attempts, retentie) {
+  const grens = Date.now() - EXAMENKLAAR.dagen * 86400000;
+  const sims = attempts
+    .filter(a => a.kind === "examen" && new Date(a.created_at || a.ts || 0).getTime() >= grens)
+    .sort((a, b) => new Date(b.created_at || b.ts || 0) - new Date(a.created_at || a.ts || 0));
+  const geslaagd = sims.filter(a => a.score >= EXAMENKLAAR.drempel);
+
+  const perOnderwerp = {};
+  for (const a of sims) for (const r of a.answers || []) {
+    if (!r.onderwerp || r.telt === false) continue;
+    const o = perOnderwerp[r.onderwerp] = perOnderwerp[r.onderwerp] || { goed: 0, totaal: 0 };
+    o.totaal += 1; if (r.goed) o.goed += 1;
+  }
+  const zwak = Object.entries(perOnderwerp)
+    .filter(([, o]) => o.totaal >= 4 && o.goed / o.totaal < EXAMENKLAAR.onderwerp)
+    .map(([k]) => k);
+
+  const lampen = [
+    { id: "simulaties", ok: geslaagd.length >= EXAMENKLAAR.simulaties, tekst: geslaagd.length + " van de " + EXAMENKLAAR.simulaties + " simulaties gehaald, in de laatste " + EXAMENKLAAR.dagen + " dagen" },
+    { id: "onderwerpen", ok: sims.length > 0 && zwak.length === 0, tekst: sims.length === 0 ? "nog geen simulatie gedaan" : zwak.length ? zwak.length + " onderwerp" + (zwak.length > 1 ? "en" : "") + " onder de 70 procent" : "elk onderwerp boven de 70 procent" },
+    { id: "retentie", ok: retentie >= EXAMENKLAAR.retentie, tekst: Math.round(retentie * 100) + " procent van de herhaling op tijd" },
+  ];
+  return { lampen, klaar: lampen.every(l => l.ok), sims: sims.length, zwak };
 }

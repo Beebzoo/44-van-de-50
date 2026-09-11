@@ -30,14 +30,36 @@ const ROUTES = [
   { naam: "quiz-vraag", hash: "quiz/{U}" },
   { naam: "quiz-antwoord", hash: "quiz/{U}", script: `(() => { if (document.querySelector('.stempel')) { const n = document.querySelectorAll('.optie').length; for (let i = 0; i < n; i++) { const o = document.querySelectorAll('.optie')[i]; if (o && !o.classList.contains('gekozen')) o.click(); } } else { const o = document.querySelector('.optie, .bordtegel'); if (o) o.click(); } return new Promise(r => setTimeout(() => { const c = document.querySelector('[data-actie="controleer"]'); if (c) c.click(); r(1); }, 200)); })()` },
   { naam: "quiz-volgorde", hash: "quiz/{U}", herlaadTot: ".stempel", script: `(() => { const n = document.querySelectorAll('.optie').length; for (let i = 0; i < n; i++) { const o = document.querySelectorAll('.optie')[i]; if (o && !o.classList.contains('gekozen')) o.click(); } return new Promise(r => setTimeout(() => { const c = document.querySelector('[data-actie="controleer"]'); if (c) c.click(); r(1); }, 200)); })()` },
+  { naam: "examen-intro", hash: "examen" },
+  { naam: "examen-vraag", hash: "examen", script: `(() => { const b = document.querySelector('[data-actie="start-examen"]'); if (b) b.click(); return new Promise(r => setTimeout(r, 400)); })()` },
+  { naam: "examen-overzicht", hash: "examen", script: `(() => { const b = document.querySelector('[data-actie="start-examen"]'); if (b) b.click(); return new Promise(r => setTimeout(() => { const o = document.querySelector('.optie, .bordtegel'); if (o) o.click(); const g = [...document.querySelectorAll('[data-actie="examen-ga"]')].pop(); const run = 1; for (let i = 0; i < 60; i++) { const nx = [...document.querySelectorAll('[data-actie="examen-ga"]')].pop(); if (nx) nx.click(); } r(1); }, 400)); })()` },
   { naam: "borden", hash: "borden" },
   { naam: "fouten", hash: "fouten" },
   { naam: "instellingen", hash: "instellingen" },
 ];
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-const chromeBin = ["google-chrome", "chromium-browser", "chromium"].find(b => { try { require("child_process").execFileSync("which", [b], { stdio: "ignore" }); return true; } catch (e) { return false; } });
-if (!chromeBin) { console.error("geen chrome gevonden"); process.exit(1); }
+/* Windows houdt het chromeprofiel soms nog even vast. Het staat in de tempmap
+   en ruimt vanzelf op, dus daar hoeft dit script niet hard op te vallen. */
+const opruimen = () => { try { fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 300 }); } catch (e) { /* laat maar staan */ } };
+/* Op Linux staat de browser op het pad, op Windows op een vaste plek. Zoek
+   allebei, anders draait dit script maar op een van de twee computers. */
+function vindBrowser() {
+  for (const b of ["google-chrome", "chromium-browser", "chromium", "chrome"]) {
+    try { require("child_process").execFileSync("which", [b], { stdio: "ignore" }); return b; } catch (e) { /* volgende */ }
+  }
+  const pf = process.env["ProgramFiles"] || "C:\\Program Files";
+  const pf86 = process.env["ProgramFiles(x86)"] || "C:\\Program Files (x86)";
+  for (const f of [
+    path.join(pf, "Google", "Chrome", "Application", "chrome.exe"),
+    path.join(pf86, "Google", "Chrome", "Application", "chrome.exe"),
+    path.join(pf86, "Microsoft", "Edge", "Application", "msedge.exe"),
+    path.join(pf, "Microsoft", "Edge", "Application", "msedge.exe"),
+  ]) if (fs.existsSync(f)) return f;
+  return null;
+}
+const chromeBin = vindBrowser();
+if (!chromeBin) { console.error("geen chrome of edge gevonden"); process.exit(1); }
 const profile = fs.mkdtempSync(path.join(require("os").tmpdir(), "vvd50-chrome-"));
 const chrome = spawn(chromeBin, ["--headless=new", "--disable-gpu", "--no-first-run", "--user-data-dir=" + profile, "--remote-debugging-port=" + PORT, "--window-size=" + (WIDE ? "1280,900" : "390,844"), "--hide-scrollbars", "about:blank"], { stdio: "ignore" });
 
@@ -80,7 +102,7 @@ async function cdp() {
     const shot = await c.send("Page.captureScreenshot", { format: "png" });
     fs.writeFileSync(path.join(outDir, "enkel" + (WIDE ? "-breed" : "") + ".png"), Buffer.from(shot.result.data, "base64"));
     console.log((ok ? "ok  " : "LEEG") + " enkel " + base);
-    c.close(); chrome.kill(); fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 300 });
+    c.close(); chrome.kill(); opruimen();
     return;
   }
   /* find a unit and page to use for the unit routes */
@@ -124,5 +146,5 @@ async function cdp() {
   console.log(problems.length + " fouten in de console");
   c.close();
   chrome.kill();
-  fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 300 });
+  opruimen();
 })().catch(e => { console.error(e); chrome.kill(); process.exit(1); });
