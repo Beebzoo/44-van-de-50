@@ -191,6 +191,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "weggebruikers",
+          "tekst": "Lopend met een fiets aan de hand ben je voetganger, lopend met een paard aan de hand bestuurder.",
+          "bron": {
+            "boek": 26,
+            "sectie": "2.2",
+            "anker": "geleiders van rij- en trekdieren en vee zijn in de verkeerswetgeving géén voetgangers"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Elke regel en elk bord geldt voor een bepaalde groep, dus je moet de verkeersdeelnemers goed uit elkaar kunnen houden.",
           "bron": {
@@ -508,6 +518,16 @@
               "anker": "modder en afvallende lading voor een glad wegdek kunnen zorgen"
             }
           ]
+        },
+        {
+          "type": "visueel",
+          "naam": "voertuigen",
+          "tekst": "De dozen zitten in elkaar. Een bromfiets is wel motorrijtuig en geen motorvoertuig, en een brommobiel heet bromfiets maar rijdt naar de regels van een motorvoertuig.",
+          "bron": {
+            "boek": 29,
+            "sectie": "2.3",
+            "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
+          }
         },
         {
           "type": "waarom",

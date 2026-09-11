@@ -192,11 +192,95 @@ function handsignalenHtml() {
 }
 
 /* ==== de deur naar buiten ==== */
+
+/* ==== 5 de voertuigen en waar ze onder vallen ====
+
+   De wet werkt met dozen in dozen, en het examen vraagt bijna altijd naar de
+   randen: een bromfiets is wel een motorrijtuig maar geen motorvoertuig, een
+   brommobiel heet bromfiets maar rijdt naar de regels van een motorvoertuig.
+   In een zin lees je daar overheen; in een tekening zie je de doos. */
+function doos(x, y, w, h, kleur, vulling) {
+  return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="${vulling}" stroke="${kleur}" stroke-width="2"/>`;
+}
+function label(x, y, tekst, opties = {}) {
+  const { grootte = 13, gewicht = 500, kleur = INKT, midden = true } = opties;
+  return `<text x="${x}" y="${y}" font-size="${grootte}" font-weight="${gewicht}" fill="${kleur}" text-anchor="${midden ? "middle" : "start"}">${esc(tekst)}</text>`;
+}
+
+function voertuigenHtml() {
+  const rij = (y, naam, sub) => label(0, y, naam, { grootte: 12, midden: false }) + (sub ? label(0, y + 15, sub, { grootte: 11, kleur: GRIJS, midden: false }) : "");
+  return `<svg class="schema" viewBox="0 0 340 300" role="img" aria-label="${esc(t("Voertuigen en waar ze onder vallen"))}">
+    ${doos(6, 6, 328, 288, GRIJS, "none")}
+    ${label(170, 24, t("Voertuig"), { grootte: 14, gewicht: 700 })}
+    ${label(170, 40, t("fiets, bromfiets, gehandicaptenvoertuig, motorvoertuig, tram, wagen"), { grootte: 10, kleur: GRIJS })}
+
+    ${doos(16, 52, 308, 170, BLAUW, "rgba(11,92,173,.06)")}
+    ${label(170, 70, t("Motorrijtuig"), { grootte: 13, gewicht: 700, kleur: BLAUW })}
+    ${label(170, 84, t("alles met een motor, behalve tram en e-bike"), { grootte: 10, kleur: GRIJS })}
+
+    ${doos(26, 96, 288, 74, GROEN, "rgba(30,127,79,.07)")}
+    ${label(170, 114, t("Motorvoertuig"), { grootte: 13, gewicht: 700, kleur: GROEN })}
+    ${label(170, 132, t("auto, motor, vrachtauto, bus, brommobiel*"), { grootte: 11 })}
+    ${label(170, 150, t("* heet bromfiets, rijdt naar de regels hiervan"), { grootte: 10, kleur: GRIJS })}
+
+    ${doos(26, 178, 288, 34, GEEL, "rgba(242,183,5,.10)")}
+    ${label(170, 199, t("Bromfiets, snorfiets, speed-pedelec"), { grootte: 12, gewicht: 600 })}
+
+    ${doos(16, 232, 308, 54, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 250, t("Wel voertuig, geen motorrijtuig"), { grootte: 12, gewicht: 600, kleur: GRIJS })}
+    ${label(170, 268, t("tram, fiets met trapondersteuning, gehandicaptenvoertuig"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 6 voetganger of bestuurder ====
+
+   Twee hoofdgroepen en een handvol gevallen die net de andere kant op vallen
+   dan je denkt. Het boek zet ze in een opsomming; naast elkaar zie je meteen
+   waar de grens loopt. */
+function weggebruikersHtml() {
+  const kolom = (x, items, kleur) => items.map((s, i) => label(x, 108 + i * 20, s, { grootte: 11, midden: false, kleur })).join("");
+  return `<svg class="schema" viewBox="0 0 340 290" role="img" aria-label="${esc(t("Voetganger of bestuurder"))}">
+    ${label(170, 22, t("Weggebruiker"), { grootte: 14, gewicht: 700 })}
+    <path d="M170 30 V46 M60 46 H280 M60 46 V60 M280 46 V60" stroke="${GRIJS}" stroke-width="2" fill="none"/>
+
+    ${doos(10, 60, 150, 212, GROEN, "rgba(30,127,79,.07)")}
+    ${label(85, 80, t("Voetganger"), { grootte: 13, gewicht: 700, kleur: GROEN })}
+    ${label(85, 95, t("te voet"), { grootte: 10, kleur: GRIJS })}
+    ${kolom(20, [t("lopend"), t("kinderwagen"), t("rollator"), t("fiets aan de hand"), t("rolschaatser"), t("skateboarder"), t("scootmobiel op"), t("de stoep")], INKT)}
+
+    ${doos(180, 60, 150, 212, BLAUW, "rgba(11,92,173,.06)")}
+    ${label(255, 80, t("Bestuurder"), { grootte: 13, gewicht: 700, kleur: BLAUW })}
+    ${label(255, 95, t("al het andere"), { grootte: 10, kleur: GRIJS })}
+    ${kolom(190, [t("automobilist"), t("fietser"), t("bromfietser"), t("trambestuurder"), t("ruiter te paard"), t("paard aan de hand"), t("vee drijven"), t("koetsier")], INKT)}
+  </svg>`;
+}
+
+/* ==== 7 de rangorde ====
+
+   Vier treden, en het examen vraagt vooral wie de ander overstemt. Een ladder
+   van boven naar beneden is hier de hele uitleg. */
+function rangordeHtml() {
+  const trap = (y, h, kleur, vul, titel, sub) =>
+    doos(30, y, 280, h, kleur, vul) + label(170, y + 22, titel, { grootte: 13, gewicht: 700, kleur }) + label(170, y + 38, sub, { grootte: 10, kleur: GRIJS });
+  return `<svg class="schema" viewBox="0 0 340 280" role="img" aria-label="${esc(t("De rangorde"))}">
+    ${trap(8, 50, GROEN, "rgba(30,127,79,.10)", t("1. Aanwijzing"), t("agent, verkeersregelaar, brigadier"))}
+    ${trap(70, 50, BLAUW, "rgba(11,92,173,.10)", t("2. Verkeerslicht"), t("gaat voor borden die voorrang regelen"))}
+    ${trap(132, 50, GEEL, "rgba(242,183,5,.14)", t("3. Bord of teken"), t("borden en tekens op het wegdek"))}
+    ${trap(194, 50, GRIJS, "rgba(138,144,153,.10)", t("4. Verkeersregel"), t("de gewone regels, zoals rechts gaat voor"))}
+    <path d="M16 20 V236" stroke="${GRIJS}" stroke-width="2" fill="none"/>
+    <path d="M16 236 l-5 -8 h10 z" fill="${GRIJS}"/>
+    ${label(170, 268, t("Hoger op de ladder overstemt alles eronder"), { grootte: 11, kleur: GRIJS })}
+  </svg>`;
+}
+
 const DIAGRAMMEN = {
   remweg: { html: remwegHtml, titel: () => t("Reactieafstand, remweg en stopafstand") },
   dodehoek: { html: dodehoekHtml, titel: () => t("De dode hoek") },
   andreaskruis: { html: andreaskruisHtml, titel: () => t("Een kruis of twee kruisen") },
   handsignalen: { html: handsignalenHtml, titel: () => t("De hand van de verkeersregelaar") },
+  voertuigen: { html: voertuigenHtml, titel: () => t("Voertuigen en waar ze onder vallen") },
+  weggebruikers: { html: weggebruikersHtml, titel: () => t("Voetganger of bestuurder") },
+  rangorde: { html: rangordeHtml, titel: () => t("De rangorde: wie overstemt wie") },
 };
 export const kentDiagram = naam => Object.prototype.hasOwnProperty.call(DIAGRAMMEN, naam);
 export const diagramNamen = () => Object.keys(DIAGRAMMEN);

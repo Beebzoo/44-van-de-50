@@ -577,8 +577,44 @@
                 "remweg",
                 "dodehoek",
                 "andreaskruis",
-                "handsignalen"
+                "handsignalen",
+                "voertuigen",
+                "weggebruikers",
+                "rangorde"
               ]
+            },
+            "tekst": {
+              "type": "string"
+            },
+            "bron": {
+              "$ref": "#/$defs/bronOfLijst"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "naam"
+          ],
+          "properties": {
+            "type": {
+              "const": "visueel"
+            },
+            "naam": {
+              "enum": [
+                "remweg",
+                "dodehoek",
+                "andreaskruis",
+                "handsignalen",
+                "voertuigen",
+                "weggebruikers",
+                "rangorde"
+              ]
+            },
+            "knop": {
+              "type": "string"
             },
             "tekst": {
               "type": "string"

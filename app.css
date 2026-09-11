@@ -366,6 +366,14 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .tabel td.zwak { color: var(--fout); font-weight: 700; }
 .begrip { display: inline; padding: 0; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; border-bottom: 1.5px dotted var(--bord-blauw); }
 .begrip:hover { color: var(--bord-blauw); }
+.visueel { margin: 16px 0; border: 1px solid var(--lijn-2); border-radius: var(--r-klein); background: var(--vlak-2); }
+.visueel > summary { cursor: pointer; padding: 12px 14px; font-weight: 600; color: var(--bord-blauw); list-style: none; display: flex; align-items: center; gap: 8px; min-height: 44px; box-sizing: border-box; }
+.visueel > summary::-webkit-details-marker { display: none; }
+.visueel > summary::before { content: ""; width: 0; height: 0; border-left: 7px solid currentColor; border-top: 5px solid transparent; border-bottom: 5px solid transparent; flex: none; transition: transform var(--t-staat, .15s) ease; }
+.visueel[open] > summary::before { transform: rotate(90deg); }
+.visueel > summary:hover { background: var(--vlak); border-radius: var(--r-klein); }
+.visueel .diagram { margin: 0 0 12px; padding: 0 12px; }
+.schema { width: 100%; height: auto; display: block; }
 .notitierij { margin-top: 16px; }
 .notitieknop { gap: 8px; }
 .notitiesheet { display: flex; flex-direction: column; gap: 12px; }

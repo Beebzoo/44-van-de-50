@@ -1053,6 +1053,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "rangorde",
+          "tekst": "Hoger op de ladder overstemt alles wat eronder staat.",
+          "bron": {
+            "boek": 57,
+            "sectie": "3.4",
+            "anker": "Borden en tekens gaan voor verkeersregels"
+          }
+        },
+        {
           "type": "diagram",
           "naam": "handsignalen",
           "tekst": "Kijk naar de arm en naar de kant waar jij vandaan komt."
