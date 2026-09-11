@@ -83,6 +83,24 @@ function fromServer(row) {
   return { ...rest, ...(extra || {}), synced: true };
 }
 
+/* Alles van deze leerling van de server halen.
+
+   Zonder dit haalt "Wis alles" niets uit: de koppelcode blijft in localStorage
+   staan, laatstePull valt terug op nul, en de eerstvolgende flush trekt je hele
+   logboek weer binnen. Je wist dan tien seconden lang.
+
+   De policy staat delete toe voor precies de rijen die bij je koppelcode horen,
+   dus dit raakt niemand anders. Staat een tweede apparaat nog vol met dezelfde
+   pogingen, dan duwt dat ze bij zijn volgende flush gewoon weer omhoog; daar
+   moet je dus ook wissen. */
+export async function wipeServer() {
+  if (!configured()) return false;
+  const learner = await learnerCode();
+  await api("attempts?learner=eq." + encodeURIComponent(learner), { method: "DELETE", learner, prefer: "return=minimal" });
+  await api("settings?learner=eq." + encodeURIComponent(learner), { method: "DELETE", learner, prefer: "return=minimal" });
+  return true;
+}
+
 /* push the outbox, pull what is new, merge settings; returns the number of rows merged from the server */
 export async function flush() {
   if (!configured() || busy || !navigator.onLine) return 0;

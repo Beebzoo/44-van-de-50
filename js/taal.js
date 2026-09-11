@@ -328,6 +328,9 @@ const EN = {
   "Voertuigkennis": "Vehicle knowledge",
 
   /* ==== instellingen ==== */
+  "Alles wissen en opnieuw beginnen? Dit haalt je pogingen ook van de server, dus je voortgang komt niet terug. Staat er nog een ander apparaat aan de koppelcode, wis daar dan ook.": "Wipe everything and start over? This also removes your attempts from the server, so your progress will not come back. If another device is still on the link code, wipe it there too.",
+  "Alles gewist. Je begint weer bij blok 1.": "Everything wiped. You start again at block 1.",
+  "Dit apparaat is leeg, maar de server gaf: {fout}": "This device is empty, but the server said: {fout}",
   "Instellingen": "Settings",
   "Thema": "Theme",
   "Automatisch": "Automatic",

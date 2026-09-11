@@ -837,7 +837,21 @@ async function onClick(e) {
   if (a === "kopieer-code") { try { await navigator.clipboard.writeText(S.koppelcode); toast(t("Gekopieerd")); } catch (e) { toast(t("Kopieren lukt niet, typ de code over")); } return; }
   if (a === "koppel") { const inp = document.getElementById("koppelcode"); try { S.koppelcode = await sync.setLearnerCode(inp.value); toast(t("Gekoppeld, gegevens worden opgehaald")); const n = await sync.flush(); await refresh(); toast(n ? t("{n} pogingen opgehaald", { n }) : t("Gekoppeld")); render(); } catch (e) { toast(e.message); } return; }
   if (a === "sync-nu") { toast(t("Synchroniseren")); const n = await sync.flush(); await refresh(); toast(sync.state().fout ? t("Mislukt: {fout}", { fout: sync.state().fout }) : n ? t("{n} nieuwe pogingen", { n }) : t("Alles is gelijk")); render(); return; }
-  if (a === "wis") { if (confirm(t("Alle pogingen en instellingen op dit apparaat wissen?"))) { await store.wipe(); await refresh(); toast(t("Gewist")); render(); } return; }
+  if (a === "wis") {
+    if (!confirm(t("Alles wissen en opnieuw beginnen? Dit haalt je pogingen ook van de server, dus je voortgang komt niet terug. Staat er nog een ander apparaat aan de koppelcode, wis daar dan ook."))) return;
+    let serverFout = null;
+    try { await sync.wipeServer(); } catch (e) { serverFout = e.message; }
+    await store.wipe();
+    /* de koppelcode zit ook in localStorage en zou de oude rijen zo weer
+       binnenhalen, dus die gaat eruit en de app maakt bij de volgende start
+       een nieuwe aan */
+    for (const k of ["koppelcode", "laatstePull"]) { try { localStorage.removeItem(k); } catch (e) { /* private mode */ } }
+    S.koppelcode = await sync.learnerCode();
+    await refresh();
+    toast(serverFout ? t("Dit apparaat is leeg, maar de server gaf: {fout}", { fout: serverFout }) : t("Alles gewist. Je begint weer bij blok 1."));
+    render();
+    return;
+  }
   if (a === "exporteer") { const blob = new Blob([JSON.stringify({ attempts: S.attempts, settings: S.settings }, null, 1)], { type: "application/json" }); const url = URL.createObjectURL(blob); const link = document.createElement("a"); link.href = url; link.download = "44-van-de-50-" + new Date().toISOString().slice(0, 10) + ".json"; link.click(); setTimeout(() => URL.revokeObjectURL(url), 5000); return; }
   if (a === "update") { const reg = await navigator.serviceWorker?.getRegistration(); if (reg) { await reg.update(); toast(t("Gecontroleerd. Een nieuwe versie laadt bij de volgende start.")); } render(); return; }
   if (a === "herlaad") { location.reload(); return; }
