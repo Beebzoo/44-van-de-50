@@ -406,7 +406,7 @@
         {
           "type": "regel",
           "id": "U01-r26",
-          "tekst": "Een bijzondere bromfiets is een voertuig met een door de RDW afgegeven typegoedkeuring, zoals de Segway en de Trikke. Je rijdt op het verplichte fietspad of het fiets/bromfietspad en anders op de rijbaan, met maximaal 25 km/u. Alleen een gehandicapte mag op de stoep rijden, en dan met maximaal 6 km/u. Je moet minimaal 16 jaar zijn, een kentekenbewijs en een lichtblauwe kentekenplaat zijn verplicht, en er geldt geen helmplicht maar wel verzekeringsplicht. Een rijbewijs heb je niet nodig.",
+          "tekst": "Een bijzondere bromfiets is een voertuig met een door de RDW afgegeven typegoedkeuring, zoals de Segway, de BSO-bus en de Trikke. Je rijdt op het verplichte fietspad of het fiets/bromfietspad en anders op de rijbaan, met maximaal 25 km/u. Alleen een gehandicapte mag op de stoep rijden, en dan met maximaal 6 km/u. Je moet minimaal 16 jaar zijn, voor de BSO-bus 18 jaar, en gehandicapten mogen er ook op jongere leeftijd op rijden. Een kentekenbewijs en een lichtblauwe kentekenplaat zijn verplicht, en er geldt geen helmplicht maar wel verzekeringsplicht. Een rijbewijs heb je niet nodig.",
           "bron": [
             {
               "boek": 28,
@@ -431,6 +431,11 @@
             {
               "boek": 28,
               "sectie": "2.3",
+              "anker": "Gehandicapten mogen ook op jongere leeftijd op een bijzondere bromfiets rijden"
+            },
+            {
+              "boek": 28,
+              "sectie": "2.3",
               "anker": "een kentekenbewijs en een lichtblauwe kentekenplaat zijn verplicht"
             }
           ]
@@ -438,11 +443,11 @@
         {
           "type": "regel",
           "id": "U01-r27",
-          "tekst": "Voor de speed-pedelec gelden dezelfde regels als voor een bromfiets: een bromfietsrijbewijs, een gele kentekenplaat, een WA-verzekering en een helm zijn verplicht. Je mag niet op het fietspad rijden, je moet op de rijbaan of op het fiets/bromfietspad. Soms mag de speed-pedelec wel op het fietspad rijden, namelijk bij bord [G11] met een onderbord dat speed-pedelecs toestaat.",
+          "tekst": "Voor de speed-pedelec gelden dezelfde regels als voor een bromfiets: de minimumleeftijd is 16 jaar en een bromfietsrijbewijs, een gele kentekenplaat, een WA-verzekering en een helm zijn verplicht. Je mag niet op het fietspad rijden, je moet op de rijbaan of op het fiets/bromfietspad. Soms mag de speed-pedelec wel op het fietspad rijden, namelijk bij bord [G11] met een onderbord dat speed-pedelecs toestaat.",
           "bron": [
             {
               "slide": 27,
-              "anker": "Voor de speed-pedelec gelden dezelfde regels als voor een bromfiets"
+              "anker": "gelden dezelfde regels als voor een bromfiets: de minimumleeftijd is 16 jaar"
             },
             {
               "slide": 27,
@@ -465,12 +470,17 @@
         {
           "type": "regel",
           "id": "U01-r28",
-          "tekst": "Laat je niet verrassen door traag landbouwverkeer. Houd er rekening mee dat de bestuurder vaak jong en onervaren is, dat de verlichting, richtingaanwijzers en remlichten lang niet altijd werken, dat aangekoppelde werktuigen vaak breder zijn dan de tractor en dat modder en afvallende lading voor een glad wegdek kunnen zorgen.",
+          "tekst": "Laat je niet verrassen door traag landbouwverkeer. Bepaalde tractoren mogen maximaal 25 km/u rijden en andere maximaal 40 km/u. Houd er verder rekening mee dat de bestuurder vaak jong en onervaren is, dat de verlichting, richtingaanwijzers en remlichten lang niet altijd werken, dat aangekoppelde werktuigen vaak breder zijn dan de tractor en dat modder en afvallende lading voor een glad wegdek kunnen zorgen.",
           "bron": [
             {
               "boek": 131,
               "sectie": "8.2",
               "anker": "Laat je niet verrassen door (traag) landbouwverkeer"
+            },
+            {
+              "boek": 131,
+              "sectie": "8.2",
+              "anker": "bepaalde tractoren maximaal 25 km/u mogen rijden en andere maximaal 40 km/u"
             },
             {
               "boek": 132,
@@ -1000,7 +1010,7 @@
         {
           "type": "regel",
           "id": "U01-r30",
-          "tekst": "Je mag passagiers alleen vervoeren op een echte zitplaats die gemaakt is voor gebruik door volwassenen, dus niet op een geïmproviseerde zitplaats of een zitplaats die bedoeld is voor gebruik als het voertuig stilstaat, zoals een zitbank in een camper. Uitzonderingen zijn een kind korter dan 1,35 meter op een speciale vaste kinderzitplaats met een gordel en een passagier in een rolstoel die in het voertuig wordt vastgezet.",
+          "tekst": "Je mag passagiers alleen vervoeren op een echte zitplaats die gemaakt is voor gebruik door volwassenen, dus niet op een geïmproviseerde zitplaats of een zitplaats die bedoeld is voor gebruik als het voertuig stilstaat, zoals een zitbank in een camper. Uitzonderingen zijn een kind tot 18 jaar en korter dan 1,35 meter op een speciale vaste kinderzitplaats met een gordel en een passagier in een rolstoel die in het voertuig wordt vastgezet.",
           "bron": [
             {
               "boek": 38,

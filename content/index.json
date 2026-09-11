@@ -1,5 +1,5 @@
 {
-  "versie": "70dec9bdf8",
+  "versie": "5cd5bd4be4",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -207,7 +207,7 @@
       "bank": [
         "content/bank/U01.json"
       ],
-      "aantalVragen": 24,
+      "aantalVragen": 36,
       "paginas": [
         {
           "id": "U01-P01",
@@ -243,7 +243,7 @@
         "content/bank/U02.json",
         "content/generated/U02-borden.json"
       ],
-      "aantalVragen": 110,
+      "aantalVragen": 122,
       "paginas": [
         {
           "id": "U02-P01",

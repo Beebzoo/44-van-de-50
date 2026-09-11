@@ -1,0 +1,856 @@
+{
+  "unit": "U02",
+  "batch": 3,
+  "vragen": [
+    {
+      "id": "U02-Q025",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je nadert een plek waar trams de rijbaan kruisen. Daar hangen tweekleurige verkeerslichten met alleen geel en rood. Op dit moment brandt er geen enkel lampje. Mag je doorrijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Bij deze lichten is uit de normale stand, dus er is nu niets dat je tegenhoudt en je rijdt door.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Een donker licht is hier geen kapot licht. Moet je stoppen, dan gaat eerst het gele en daarna het rode lampje branden.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Tweekleurige verkeerslichten met geel en rood staan onder meer op plaatsen waar trams de rijbaan kruisen. In normale omstandigheden is het licht uit; als je moet stoppen gaat eerst het gele licht branden en daarna het rode.",
+        "waarom": "Deze lichten houden je alleen tegen op het moment dat er iets aankomt. Zolang ze donker blijven regelen ze niets en rijd je volgens de gewone regels verder.",
+        "valkuil": "Uit betekent hier niet dat het licht stuk is; het is juist de stand waarin je door mag rijden.",
+        "onthoud": "Donker is doorrijden, eerst geel en dan rood als je moet stoppen."
+      },
+      "bronnen": [
+        {
+          "boek": 55,
+          "sectie": "3.3",
+          "anker": "In normale omstandigheden is het licht uit"
+        },
+        {
+          "boek": 55,
+          "sectie": "3.3",
+          "anker": "op plaatsen waar trams de rijbaan kruisen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "tram",
+        "stoppen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "In normale omstandigheden is het licht uit; als je moet stoppen gaat eerst het gele licht branden en daarna het rode",
+        "bron": "boek p. 55"
+      }
+    },
+    {
+      "id": "U02-Q026",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Je nadert een overweg met lichten. Het witte knipperlicht brandt. Wat betekent dat voor jou?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Er komt geen trein aan, dus je kunt doorrijden.",
+          "feedback": "Goed. Het witte knipperlicht bij een overweg zegt dat er geen trein aankomt en dat je dus door kunt rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Er nadert een trein, dus je moet stoppen.",
+          "feedback": "Fout. Stoppen hoort bij het rode knipperlicht; het witte knipperlicht zegt juist dat er geen trein aankomt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "De overweg is buiten werking, dus je kijkt zelf of er een trein aankomt.",
+          "feedback": "Fout. Een wit knipperlicht is een gewone melding van deze lichten en geen teken dat ze het niet doen.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Je moet wachten tot het witte licht ophoudt met knipperen.",
+          "feedback": "Fout. Je hoeft niet te wachten tot het licht uitgaat; zolang het wit knippert, komt er geen trein aan.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als het witte knipperlicht brandt, komt er geen trein aan en kun je dus doorrijden. Bij rood knipperlicht moet je stoppen.",
+        "waarom": "Bij een overweg zit het hele verschil in de kleur: het rode licht houdt je tegen, het witte laat juist zien dat de weg vrij is.",
+        "valkuil": "Knipperen betekent niet vanzelf gevaar; bij een overweg telt de kleur van het knipperlicht, niet het knipperen zelf.",
+        "onthoud": "Wit knipperlicht doorrijden, rood knipperlicht stoppen."
+      },
+      "bronnen": [
+        {
+          "boek": 56,
+          "sectie": "3.3",
+          "anker": "Als het witte knipperlicht brandt, komt er geen trein aan"
+        },
+        {
+          "boek": 56,
+          "sectie": "3.3",
+          "anker": "Bij rood knipperlicht moet je stoppen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "overweg",
+        "knipperlicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Als het witte knipperlicht brandt, komt er geen trein aan en kun je dus doorrijden",
+        "bron": "boek p. 56"
+      }
+    },
+    {
+      "id": "U02-Q027",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Bij een kruispunt met verkeerslichten wil jij rechtsaf. Jouw licht is groen, een rond licht zonder pijl. Rechts naast je ligt een fietspad waarop een fietser rechtdoor gaat. Wat doe je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je laat de fietser voorgaan en slaat daarna pas rechtsaf.",
+          "feedback": "Goed. Bij een rond groen licht heeft de fietser naast je meestal ook groen, en rechtdoor gaat voor jouw bocht.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je slaat meteen rechtsaf, want met groen licht heb jij voorrang op de fietser.",
+          "feedback": "Fout. Groen zegt alleen dat jij mag rijden; het zegt niet dat de fietser naast je stilstaat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je slaat meteen rechtsaf, want een fietser op een fietspad hoort bij een andere weg.",
+          "feedback": "Fout. Het fietspad naast je hoort bij hetzelfde kruispunt, en die fietser heeft meestal tegelijk met jou groen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je wacht tot jouw licht een groene pijl naar rechts toont.",
+          "feedback": "Fout. Met een rond groen licht mag je gewoon rijden; je hoeft niet op een pijl te wachten, maar je laat de fietser wel voorgaan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Als je een groen verkeerslicht zonder pijl ziet, heeft kruisend verkeer meestal ook groen licht. Dat geldt voor tegenliggers als je linksaf slaat en voor rechtdoorgaande fietsers op het fietspad naast je als je rechtsaf slaat.",
+        "waarom": "Een rond groen licht regelt alleen jouw richting. De fietser naast je heeft op dat moment meestal ook groen, dus jullie lijnen snijden elkaar in de bocht.",
+        "valkuil": "Groen voelt als vrije doorgang, maar het zegt alleen iets over jou en niets over wie er naast je rijdt.",
+        "onthoud": "Groen zonder pijl betekent dat er kruisend verkeer kan zijn."
+      },
+      "bronnen": [
+        {
+          "slide": 55,
+          "anker": "rechtdoorgaande fietsers op het fietspad naast je als je rechtsaf slaat"
+        },
+        {
+          "slide": 55,
+          "anker": "Ook rechtdoorgaande voetgangers moet je voor laten"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "groen-licht",
+        "rechtsaf",
+        "fietser"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Dat geldt voor tegenliggers als je linksaf slaat en voor bijvoorbeeld rechtdoorgaande fietsers op het fietspad naast je als je rechtsaf slaat",
+        "bron": "slide 55",
+        "gewijzigd": "de slide zegt dat kruisend verkeer meestal ook groen heeft; afleider c en de waarom-tekst maakten daar zonder voorbehoud \"tegelijk groen\" van, dus het voorbehoud staat er nu weer in"
+      }
+    },
+    {
+      "id": "U02-Q028",
+      "unit": "U02",
+      "pagina": "U02-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je slaat linksaf bij een kruispunt met verkeerslichten. Aan de overkant staan fietsers en bromfietsers voor een rood licht. Moet je er rekening mee houden dat zij toch jouw weg op kunnen draaien?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Je kunt hun onderborden niet lezen, dus houd er altijd rekening mee dat zij jouw weg op kunnen draaien.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Fietsers, snorfietsers en bromfietsers kunnen onder hun rode licht een onderbord hebben waardoor zij wel rechtsaf mogen slaan.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Als jij uit de tegemoetkomende richting links afslaat, houd dan altijd rekening met de mogelijkheid dat fietsers, snorfietsers en bromfietsers jouw weg op kunnen draaien. Je kunt tenslotte hun onderborden niet lezen.",
+        "waarom": "Onder hun rode licht kan een onderbord hangen dat hen toch rechtsaf laat gaan. Dat bord wijst naar hen toe, dus vanaf jouw plek zie je niet eens of het er staat en kun je er alleen op rekenen dat het er kan zijn.",
+        "valkuil": "Een rood licht aan de overkant betekent niet dat daar iedereen blijft staan.",
+        "onthoud": "Hun onderbord kun jij niet lezen, dus reken erop dat ze komen."
+      },
+      "bronnen": [
+        {
+          "boek": 56,
+          "sectie": "3.3",
+          "anker": "houd dan altijd rekening met de mogelijkheid dat"
+        },
+        {
+          "boek": 56,
+          "sectie": "3.3",
+          "anker": "Je kunt tenslotte hun onderborden niet lezen"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "verkeerslichten",
+        "rechtsaf-door-rood",
+        "linksaf",
+        "fietser"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "houd dan altijd rekening met de mogelijkheid dat (brom/snor)fietsers jouw weg op kunnen draaien",
+        "bron": "boek p. 56",
+        "gewijzigd": "de stam noemde zelf al dat er een onderbord kan hangen waardoor zij rechtsaf mogen, dus het antwoord stond er in; die zin is eruit en de vraag toetst nu of je de uitzondering zelf kent"
+      }
+    },
+    {
+      "id": "U02-Q029",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Bevoegde en herkenbare ambtenaren kunnen je op verschillende manieren een aanwijzing geven. Welke manieren noemt het boek? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Mondeling of met hand- of armgebaren.",
+          "feedback": "Goed. Gesproken aanwijzingen en hand- of armgebaren zijn de manieren die het boek als eerste noemt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Met een rode lamp.",
+          "feedback": "Goed. Een rode lamp is een van de manieren waarop zij je een aanwijzing kunnen geven.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Met de tekst STOP POLITIE op een display.",
+          "feedback": "Goed. De tekst op een display hoort er ook bij en werkt net zo goed als hand- of armgebaren.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Door een paar keer kort te toeteren.",
+          "feedback": "Fout. Een geluidssignaal staat niet in de rij manieren die het boek noemt om een aanwijzing te geven.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Door de koplampen te laten knipperen.",
+          "feedback": "Fout. Knipperen met de koplampen noemt het boek niet als manier om een aanwijzing te geven.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Aanwijzingen van bevoegde en als zodanig herkenbare ambtenaren moet je opvolgen. Zij kunnen aanwijzingen geven mondeling of met hand- of armgebaren, met een rode lamp, of met de tekst STOP, STOP POLITIE of DOUANE op een display.",
+        "waarom": "Een aanwijzing moet zonder twijfel bij jou aankomen en zichtbaar van die ambtenaren komen. Een toeter of een lichtsignaal kan van iedereen zijn en zegt dus niets.",
+        "valkuil": "Denk niet alleen aan de arm die omhoog gaat; ook de rode lamp en de tekst op een display zijn aanwijzingen.",
+        "onthoud": "Armgebaren, een rode lamp of een tekst op een display."
+      },
+      "bronnen": [
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Aanwijzingen van 'bevoegde en als zodanig herkenbare ambtenaren' moet je opvolgen"
+        },
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "met de tekst STOP, STOP POLITIE / DOUANE op een display"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "aanwijzingen",
+        "politie",
+        "stopteken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "met de tekst STOP, STOP POLITIE / DOUANE op een display",
+        "bron": "boek p. 58",
+        "gewijzigd": "moeilijkheid 2 naar 1: dit is het opsommen van een rijtje uit het boek, net als U02-Q010 en U02-Q021, en die staan allebei op 1"
+      }
+    },
+    {
+      "id": "U02-Q030",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Welke uitspraken over de voertuigen van politie, marechaussee en douane zijn juist? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zij mogen sneller rijden dan de maximumsnelheid als dat noodzakelijk is.",
+          "feedback": "Goed. Sneller rijden dan is toegestaan valt onder de vrijstelling, zolang het voor het werk noodzakelijk is.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Zij mogen een weg inrijden die voor ander verkeer is gesloten.",
+          "feedback": "Goed. Een geslotenverklaring houdt deze voertuigen niet tegen als het nodig is om er toch in te rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Zij mogen parkeren waar een parkeerverbod geldt.",
+          "feedback": "Goed. Ook een parkeerverbod hoort bij de verkeerstekens waarvoor deze voertuigen een vrijstelling hebben.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Die vrijstelling geldt alleen als zij met zwaailichten en sirene rijden.",
+          "feedback": "Fout. Het boek zegt juist dat de vrijstelling ook geldt als ze niet met zwaailichten en sirene rijden.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "e",
+          "tekst": "Zij mogen die vrijstelling ook gebruiken als daar geen noodzaak voor is.",
+          "feedback": "Fout. Het boek zet die voorbeelden achter de woorden als het noodzakelijk is, dus zomaar mag het niet.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Voertuigen van deze beambten hebben een vrijstelling van veel verkeersregels en verkeerstekens. Als het noodzakelijk is mogen zij bijvoorbeeld sneller rijden dan de maximumsnelheid, een weg inrijden die voor ander verkeer is gesloten en parkeren waar een parkeerverbod geldt. Deze vrijstelling geldt ook als ze niet met zwaailichten en sirene rijden.",
+        "waarom": "Hun werk vraagt soms om iets wat voor jou verboden is, en dat werk stopt niet zodra de zwaailichten uit blijven. Wat telt is de noodzaak van het moment.",
+        "valkuil": "Een vrijstelling is iets anders dan voorrang: deze voertuigen mogen zelf van de regels afwijken, maar daarmee zijn het nog geen voorrangsvoertuigen die jij voor moet laten gaan.",
+        "onthoud": "De vrijstelling hangt aan de noodzaak, niet aan de zwaailichten."
+      },
+      "bronnen": [
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Voertuigen van deze beambten hebben een vrijstelling van veel verkeersregels"
+        },
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Deze vrijstelling geldt ook als ze niet met zwaailichten en sirene rijden"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aanwijzingen",
+        "politie",
+        "vrijstelling"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Deze vrijstelling geldt ook als ze niet met zwaailichten en sirene rijden",
+        "bron": "boek p. 58",
+        "gewijzigd": "de valkuil herhaalde alleen het antwoord op afleider d; hij scheidt nu vrijstelling van voorrang, want een politieauto zonder zwaailicht en sirene is geen voorrangsvoertuig (boek p. 30 en sectie 6.6)"
+      }
+    },
+    {
+      "id": "U02-Q031",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Midden in het land, ver van alle grensovergangen, houden douanebeambten een controle langs de weg. Zij geven jou een stopteken. Moet je dat opvolgen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Aanwijzingen van de douane gelden overal in het land, dus ook ver van een grens.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. De bevoegdheid van de douane houdt niet op bij de grens; ook midden in het land volg je hun aanwijzing op.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Aanwijzingen van douanebeambten moet je overal in het land opvolgen, niet alleen bij grensovergangen. Zij horen bij de bevoegde en herkenbare ambtenaren van wie je een aanwijzing moet opvolgen.",
+        "waarom": "De douane kijkt naar wat er vervoerd wordt, en dat rijdt het hele land door. Een bevoegdheid die alleen bij de grens zou werken, zou dat controleren onmogelijk maken.",
+        "valkuil": "De douane hoort in je hoofd bij de grens, maar hun stopteken telt in het hele land.",
+        "onthoud": "De douane mag je overal in het land laten stoppen."
+      },
+      "bronnen": [
+        {
+          "slide": 56,
+          "anker": "Aanwijzingen van douanebeambten moet je overal in het land opvolgen"
+        },
+        {
+          "boek": 58,
+          "sectie": "3.4",
+          "anker": "Dit zijn vooral politieagenten, marechaussees of douanebeambten"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "aanwijzingen",
+        "douane",
+        "stopteken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Aanwijzingen van douanebeambten moet je overal in het land opvolgen, niet alleen bij grensovergangen",
+        "bron": "slide 56"
+      }
+    },
+    {
+      "id": "U02-Q032",
+      "unit": "U02",
+      "pagina": "U02-P05",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je komt uit een zijweg en wilt een voorrangsweg op. Voor je liggen haaientanden en rechts staat dit bord. Boven het kruispunt hangt een verkeerslicht dat voor jou op groen staat. Wat doe je?",
+      "media": {
+        "bord": "B6"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je rijdt door, want het verkeerslicht gaat boven het bord en de haaientanden.",
+          "feedback": "Goed. Verkeerslichten gaan voor borden en tekens die de voorrang regelen, dus met groen mag je het kruispunt op.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Je stopt en verleent eerst voorrang aan het verkeer op de voorrangsweg.",
+          "feedback": "Fout. Zolang de lichten werken bepalen zij wie er gaat; het bord en de haaientanden staan een stap lager.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Je rijdt alleen door als er niemand op de voorrangsweg aankomt.",
+          "feedback": "Fout. Dat zou gelden als de lichten niets zeggen. Nu heb jij groen en heeft de kruisende richting rood.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Je wacht, want tekens op het wegdek gaan boven verkeerslichten.",
+          "feedback": "Fout. De rangorde is andersom: verkeerslichten staan boven de borden en de tekens op het wegdek.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Verkeerslichten gaan voor borden en tekens die de voorrang regelen. Daarboven staan alleen de aanwijzingen; daaronder komen de verkeersregels.",
+        "waarom": "Een licht geeft elke richting om de beurt de ruimte, dus wie groen krijgt heeft op dat moment geen conflict meer. Een bord kan dat niet, want dat staat er de hele dag hetzelfde bij.",
+        "valkuil": "De haaientanden blijven ook liggen als er lichten staan; ze tellen pas weer als de lichten niets zeggen.",
+        "onthoud": "Aanwijzing boven licht, licht boven bord, bord boven regel."
+      },
+      "bronnen": [
+        {
+          "boek": 57,
+          "sectie": "3.4",
+          "anker": "Verkeerslichten gaan namelijk voor borden en tekens die de voorrang regelen"
+        },
+        {
+          "slide": 57,
+          "anker": "Deze gaan boven de verkeersborden en de verkeerstekens op het wegdek"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rangorde",
+        "verkeerslichten",
+        "voorrangsweg",
+        "haaientanden"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Verkeerslichten gaan namelijk voor borden en tekens die de voorrang regelen",
+        "bron": "boek p. 57"
+      }
+    },
+    {
+      "id": "U02-Q033",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Op het wegdek liggen vlakken met schuine strepen: een verdrijvingsvlak, en bij een splitsing een puntstuk. Wanneer mag je daar wel overheen rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Als je op een spitsstrook rijdt die het verdrijvingsvlak of het puntstuk kruist.",
+          "feedback": "Goed. Dat is de uitzondering die de cursus noemt: op een geopende spitsstrook rijd je er wel overheen.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Als er geen ander verkeer is en je dus niemand hindert.",
+          "feedback": "Fout. Rustig verkeer maakt geen verschil; het vlak is er juist voor het moment dat het wel druk wordt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Als je de afrit anders niet meer kunt halen.",
+          "feedback": "Fout. Te laat zijn voor je afrit geeft je geen recht op het vlak; dan rijd je gewoon door naar de volgende.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Nooit, er is geen enkele uitzondering.",
+          "feedback": "Fout. Er is wel een uitzondering, namelijk een spitsstrook die het vlak of het puntstuk kruist.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Op een verdrijvingsvlak en op een puntstuk mag je niet rijden. Het mag wel als je op een spitsstrook rijdt die een verdrijvingsvlak of puntstuk kruist.",
+        "waarom": "Die vlakken houden het verkeer uit elkaar op de plek waar rijstroken splitsen of samenkomen. Rijd je er toch op, dan zit je precies waar een ander je niet verwacht.",
+        "valkuil": "Een verdrijvingsvlak ziet er leeg en vrij uit, maar het is geen rijstrook.",
+        "onthoud": "Schuine strepen zijn geen rijstrook, behalve op een geopende spitsstrook."
+      },
+      "bronnen": [
+        {
+          "slide": 53,
+          "anker": "als je op een spitsstrook rijdt die een verdrijvingsvlak of puntstuk kruist"
+        },
+        {
+          "boek": 53,
+          "sectie": "3.2",
+          "anker": "Op een puntstuk mag je niet rijden, behalve als het puntstuk"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "verdrijvingsvlak",
+        "puntstuk",
+        "spitsstrook",
+        "wegdek"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "als je op een spitsstrook rijdt die een verdrijvingsvlak of puntstuk kruist",
+        "bron": "slide 53"
+      }
+    },
+    {
+      "id": "U02-Q034",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Op het wegdek kom je meer tegen dan de gewone witte strepen. Welke uitspraken daarover zijn juist? Kies alle juiste antwoorden.",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op een kruis op het wegdek mag je niet stoppen en niet stilstaan.",
+          "feedback": "Goed. Het kruis houdt die plek vrij, dus daar mag je niet stoppen en niet stilstaan.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een zigzagteken waarschuwt voor een gevaarlijke oversteekplaats of situatie.",
+          "feedback": "Goed. Het zigzagteken is een waarschuwing en vraagt je om extra alert te zijn op die plek.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Oranje of gele strepen zijn tijdelijk en die moet je volgen.",
+          "feedback": "Goed. Tijdelijke strepen liggen over de gewone heen en gaan daar dus boven.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Op een kruis op het wegdek moet je voorrang verlenen.",
+          "feedback": "Fout. Voorrang verlenen hoort bij haaientanden en bij een bord, niet bij het kruis op het wegdek.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "e",
+          "tekst": "Gele strepen gelden pas zodra de witte strepen weg zijn.",
+          "feedback": "Fout. Zolang er gele strepen liggen, gelden de normale witte strepen niet, ook al liggen ze er nog.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Op een kruis op het wegdek mag je niet stoppen en stilstaan. Het zigzagteken waarschuwt voor een gevaarlijke oversteekplaats. Bij werkzaamheden worden vaak tijdelijke, gele strepen aangebracht en de normale witte strepen gelden dan niet.",
+        "waarom": "Een teken op het wegdek zegt iets over precies dat stuk asfalt waar het ligt. Tijdelijke strepen liggen er juist overheen, dus die hebben het laatste woord zolang het werk duurt.",
+        "valkuil": "De witte strepen blijven gewoon zichtbaar als er gele overheen liggen, maar ze doen dan niet meer mee.",
+        "onthoud": "Kruis niet stoppen, zigzagteken opletten, geel gaat boven wit."
+      },
+      "bronnen": [
+        {
+          "boek": 53,
+          "sectie": "3.2",
+          "anker": "Op dit kruis mag je niet stoppen en stilstaan"
+        },
+        {
+          "boek": 54,
+          "sectie": "3.2",
+          "anker": "Het zigzagteken op het wegdek waarschuwt voor een gevaarlijke oversteekplaats"
+        },
+        {
+          "boek": 52,
+          "sectie": "3.2",
+          "anker": "De normale, permanente witte strepen gelden dan niet"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "wegdek",
+        "kruis",
+        "zigzagteken",
+        "tijdelijke-strepen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Bij werkzaamheden worden vaak tijdelijke, gele strepen aangebracht. De normale, permanente witte strepen gelden dan niet",
+        "bron": "boek p. 52",
+        "gewijzigd": "de stam zei \"behalve strepen\" terwijl optie c en e juist over gele strepen gaan; de stam vraagt nu naar alles wat er naast de gewone witte strepen op het wegdek ligt"
+      }
+    },
+    {
+      "id": "U02-Q035",
+      "unit": "U02",
+      "pagina": "U02-P03",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je wilt rechtsaf een inrit in rijden. Tussen jou en die inrit ligt een strook met het woord BUS op het wegdek, aangegeven met dit bord. Mag je die strook kruisen om de inrit te bereiken?",
+      "media": {
+        "bord": "F13"
+      },
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Erop rijden en erop voorsorteren mag niet, maar kruisen om af te slaan of een inrit in te rijden mag wel.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Je mag een busstrook niet gebruiken om op te rijden, maar hem wel kruisen om af te slaan of een inrit in te rijden.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Op een busbaan of busstrook is het niet toegestaan te rijden en je mag er ook niet op voorsorteren. Wel mag je ze kruisen om af te slaan of een inrit in te rijden.",
+        "waarom": "Zo'n strook is er om de bus vrije doorgang te geven, niet om jou bij je eigen inrit weg te houden. Kruisen duurt kort en laat de strook daarna weer vrij.",
+        "valkuil": "Kruisen is iets anders dan een stukje meerijden of alvast voorsorteren, en dat laatste mag niet.",
+        "onthoud": "Niet op de busstrook rijden, wel er even overheen."
+      },
+      "bronnen": [
+        {
+          "slide": 52,
+          "anker": "mag je ze kruisen om af te slaan of een inrit in te rijden"
+        },
+        {
+          "slide": 52,
+          "anker": "het is niet toegestaan erop te rijden"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "busstrook",
+        "wegdek",
+        "afslaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "mag je ze kruisen om af te slaan of een inrit in te rijden",
+        "bron": "slide 52"
+      }
+    },
+    {
+      "id": "U02-Q036",
+      "unit": "U02",
+      "pagina": "U02-P01",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "In een straat staat een verkeersbord zonder het woord zone erboven en zonder onderbord. Je rijdt het bord voorbij. Tot waar geldt dit bord?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Tot het volgende kruispunt, tenzij een einde-bord de werking eerder opheft.",
+          "feedback": "Goed. Een gewoon verkeersbord werkt tot het volgende kruispunt, tenzij een einde-bord de werking eerder opheft.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Tot je de bebouwde kom verlaat.",
+          "feedback": "Fout. De bebouwde kom is de grens voor de komborden zelf, niet voor ieder ander bord langs de weg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Tot je een einde-bord tegenkomt; zonder zo'n bord blijft het gelden.",
+          "feedback": "Fout. Een einde-bord kan de werking eerder stoppen, maar zonder zo'n bord houdt het bord op bij het volgende kruispunt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Tot de eerstvolgende bocht in de weg.",
+          "feedback": "Fout. Een bocht verandert niets aan de werking van een bord; daarvoor kijk je naar het volgende kruispunt.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Verkeersborden gelden tot het volgende kruispunt, tenzij een einde-bord de werking eerder opheft. Zoneborden en borden van de bebouwde kom gelden tot het einde van de zone of van de bebouwde kom.",
+        "waarom": "Op een kruispunt komt er verkeer bij dat het bord nooit gezien heeft. Daarom begint na zo'n punt een schone lei, tenzij er opnieuw een bord staat.",
+        "valkuil": "Een zonebord werkt juist andersom: dat loopt over kruispunten heen tot het einde van de zone.",
+        "onthoud": "Gewoon bord tot het volgende kruispunt, zonebord tot het einde van de zone."
+      },
+      "bronnen": [
+        {
+          "slide": 45,
+          "anker": "gelden tot het volgende kruispunt (tenzij een 'einde-bord' de werking eerder opheft)"
+        },
+        {
+          "slide": 45,
+          "anker": "zoneborden en bebouwde kom borden gelden tot het einde van de zone"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "werkingsgebied",
+        "verkeersborden",
+        "zone"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Ze gelden tot het volgende kruispunt (tenzij een 'einde-bord' de werking eerder opheft)",
+        "bron": "slide 45"
+      }
+    }
+  ]
+}

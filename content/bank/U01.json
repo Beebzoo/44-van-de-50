@@ -1660,6 +1660,869 @@
         "bewijs": "Rijden terwijl lading je zicht of handelingen belemmert, terwijl je niet in staat bent om je auto goed te bedienen, met beslagen of bevroren ruiten (voorruit en voorste zijruiten) is verboden",
         "bron": "boek p. 35 (onderschrift); mobiel vasthouden en handsfree: boek p. 36 en slide 31"
       }
+    },
+    {
+      "id": "U01-Q025",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Twee vrienden gaan op rolschaatsen door de buurt. Langs deze weg liggen een fietspad en een voetpad. Welk weggedeelte moeten zij gebruiken?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De rijbaan, want zij verplaatsen zich sneller dan wandelaars.",
+          "feedback": "Fout, de rijbaan is voor hen pas aan de beurt als het fietspad, het fiets-/bromfietspad, het voetpad en de stoep allemaal ontbreken.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "Het fietspad of het voetpad, en de rijbaan alleen als die weggedeelten ontbreken.",
+          "feedback": "Goed, rolschaatsers gelden als voetganger en mogen kiezen tussen het fietspad, het fiets-/bromfietspad, het voetpad en de stoep.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen het voetpad, want zij gelden als voetganger.",
+          "feedback": "Fout, zij zijn wel voetganger, maar de wet noemt naast het voetpad en de stoep ook het fietspad en het fiets-/bromfietspad.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "De regels voor voetgangers gelden ook voor rolschaatsers en skateboarders. Deze voetgangers moeten het fietspad, het fiets-/bromfietspad, het voetpad of de stoep gebruiken. Alleen als deze weggedeelten ontbreken, mogen zij op de rijbaan rijden.",
+        "waarom": "Op rolschaatsen ben je sneller dan iemand die loopt en veel langzamer dan het verkeer op de rijbaan, dus de plek tussen fietsers en voetgangers past het best bij dat tempo.",
+        "valkuil": "Je kiest het voetpad omdat het voetgangers zijn, maar het fietspad mag net zo goed.",
+        "onthoud": "Rolschaatsers horen bij de voetgangers, maar mogen ook op het fietspad."
+      },
+      "bronnen": [
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "Deze voetgangers moeten het fietspad, het fiets-/bromfietspad, het voetpad of de stoep gebruiken"
+        },
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "Alleen als deze weggedeelten ontbreken, mogen zij op de rijbaan rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "voetganger",
+        "fietspad",
+        "rijbaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Deze voetgangers moeten het fietspad, het fiets-/bromfietspad, het voetpad of de stoep gebruiken. Alleen als deze weggedeelten ontbreken, mogen zij op de rijbaan rijden",
+        "bron": "boek p. 26",
+        "opmerking": "Het onderschrift hoort bij de foto van twee inlineskaters, dus het slaat op de rolschaatsers en skateboarders uit de opsomming erboven."
+      }
+    },
+    {
+      "id": "U01-Q026",
+      "unit": "U01",
+      "pagina": "U01-P01",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Met een gehandicaptenvoertuig verlaat je de stoep en steek je de rijbaan over naar het voetpad aan de overkant. Blijven tijdens dat oversteken de regels voor voetgangers gelden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed, de voetgangersregels gelden ook als een gehandicaptenvoertuig van of naar een voetpad of stoep oversteekt, en dan mag je niet sneller dan 6 km/u.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout, de wet noemt het oversteken van of naar een voetpad of stoep uitdrukkelijk bij de regels voor voetgangers.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "De regels voor voetgangers gelden voor bestuurders van een gehandicaptenvoertuig op het voetpad of de stoep, en ook als zij van of naar een voetpad of stoep oversteken. Zij mogen dan niet sneller rijden dan 6 km/u.",
+        "waarom": "Zonder deze uitzondering zou je halverwege de oversteek van groep wisselen, en dan weet niemand meer welke regels er op dat moment voor je gelden.",
+        "valkuil": "Je denkt dat je op de rijbaan meteen bestuurder wordt. Het oversteken van of naar een voetpad hoort nog bij de voetgangersregels.",
+        "onthoud": "Van stoep naar stoep blijf je voetganger, ook over het asfalt ertussen."
+      },
+      "bronnen": [
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "als zij van / naar een voetpad of stoep oversteken"
+        },
+        {
+          "boek": 26,
+          "sectie": "2.2",
+          "anker": "Zij mogen dan niet sneller rijden dan 6 km/u"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "gehandicaptenvoertuig",
+        "voetganger",
+        "oversteken"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "bestuurders van een gehandicaptenvoertuig: op het voetpad of de stoep, als zij van / naar een voetpad of stoep oversteken",
+        "bron": "boek p. 26",
+        "opmerking": "De 6 km/u staat in het boek tussen haakjes onder allebei de subpunten, dus hij geldt ook tijdens het oversteken. Dezelfde lezing staat al in U01-r03 en U01-Q013."
+      }
+    },
+    {
+      "id": "U01-Q027",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Het begrip weg is in de wet ruimer dan het asfalt waarover de auto's rijden. Welke delen horen er volgens die omschrijving bij?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De berm naast de rijbaan.",
+          "feedback": "Goed, de omschrijving van wegen noemt bermen en zijkanten uitdrukkelijk.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een brug in de weg.",
+          "feedback": "Goed, bruggen horen volgens de omschrijving bij de weg.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een duiker onder de weg.",
+          "feedback": "Goed, ook duikers worden in de omschrijving van wegen genoemd.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een pad dat niet voor het openbaar verkeer openstaat.",
+          "feedback": "Fout, de omschrijving gaat over wegen en paden die voor het openbaar verkeer openstaan, en dat is hier juist niet zo.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Wegen zijn alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten.",
+        "waarom": "Zou de berm er niet bij horen, dan zou geen enkele verkeersregel meer gelden zodra iemand een halve meter naast het asfalt gaat staan.",
+        "valkuil": "Je leest weg als rijbaan. De rijbaan is maar een van de weggedeelten waaruit een weg bestaat.",
+        "onthoud": "De weg loopt van zijkant tot zijkant; de rijbaan is er een deel van."
+      },
+      "bronnen": [
+        {
+          "boek": 35,
+          "sectie": "2.4",
+          "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
+        },
+        {
+          "slide": 28,
+          "anker": "wegen = alle openstaande wegen of paden, inclusief bermen of zijkanten"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "weg",
+        "berm",
+        "rijbaan"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten",
+        "bron": "boek p. 35"
+      }
+    },
+    {
+      "id": "U01-Q028",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Op de rijbaan is met onderbroken strepen een strook afgebakend. Wanneer heet zo'n afgebakend gedeelte volgens de wet een rijstrook?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zodra er strepen omheen liggen, hoe smal het gedeelte ook is.",
+          "feedback": "Fout, de strepen zijn maar de helft van de omschrijving; de breedte hoort er net zo goed bij.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "b",
+          "tekst": "Als het zo breed is dat motorvoertuigen op meer dan twee wielen erop kunnen rijden.",
+          "feedback": "Goed, naast de markering met strepen eist de wet die breedte voordat je van een rijstrook spreekt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Als er ook pijlen op het wegdek staan die de richting aangeven.",
+          "feedback": "Fout, pijlen op het wegdek komen in de omschrijving van een rijstrook helemaal niet voor.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een rijstrook is een gedeelte van de rijbaan dat door doorgetrokken of onderbroken strepen is gemarkeerd en zo breed is dat daar motorvoertuigen op meer dan twee wielen kunnen rijden.",
+        "waarom": "Zonder de eis van breedte zou elk gemarkeerd stuk rijbaan meetellen als rijstrook, ook een strook waar helemaal geen auto op past.",
+        "valkuil": "Je let alleen op de strepen en vergeet dat er een auto op moet passen.",
+        "onthoud": "Rijstrook is strepen plus breedte genoeg voor een auto."
+      },
+      "bronnen": [
+        {
+          "boek": 33,
+          "sectie": "2.4",
+          "anker": "zo breed is dat daar motorvoertuigen op meer dan twee wielen kunnen rijden"
+        },
+        {
+          "slide": 28,
+          "anker": "rijstrook = met strepen gemarkeerd weggedeelte geschikt voor motorvoertuigen op meer dan twee wielen"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "rijstrook",
+        "rijbaan",
+        "definitie"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Een gedeelte van de rijbaan dat door doorgetrokken of onderbroken strepen is gemarkeerd en zo breed is dat daar motorvoertuigen op meer dan twee wielen kunnen rijden",
+        "bron": "boek p. 33"
+      }
+    },
+    {
+      "id": "U01-Q029",
+      "unit": "U01",
+      "pagina": "U01-P03",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Langs een smalle weg buiten de bebouwde kom ligt een aparte baan waar bord [F11] bij staat. Voor wie is die baan bestemd?",
+      "media": {
+        "bord": "F11"
+      },
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Voor alle bestuurders die zich willen laten inhalen.",
+          "feedback": "Fout, de baan is er wel om ingehaald te kunnen worden, maar hij is uitsluitend bestemd voor een paar soorten traag verkeer.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "Voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines.",
+          "feedback": "Goed, dit is een passeerbaan of passeerstrook, en voor die voertuigen is het gebruik ervan zelfs verplicht.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Voor lijnbussen en voor taxi's met een ontheffing.",
+          "feedback": "Fout, dat hoort bij een busbaan of busstrook; het bord met de trekker wijst een passeerbaan aan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een passeerbaan of passeerstrook is een rijbaan of strook om ingehaald te kunnen worden, uitsluitend bestemd en verplicht voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines. Bord [F11] geeft dat aan.",
+        "waarom": "Traag verkeer gaat even opzij zodat de rij achter hem voorbij kan, en dat is op een smalle weg veiliger dan een rij bestuurders die allemaal zelf een gaatje zoeken.",
+        "valkuil": "Je leest een blauw bord als een tip. Blauw met een trekker betekent hier dat die voertuigen de baan moeten gebruiken.",
+        "onthoud": "Bord met de trekker: passeerbaan, alleen voor traag werkverkeer."
+      },
+      "bronnen": [
+        {
+          "boek": 33,
+          "sectie": "2.4",
+          "anker": "Rijbaan of -strook om ingehaald te kunnen worden"
+        },
+        {
+          "boek": 33,
+          "sectie": "2.4",
+          "anker": "voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines"
+        }
+      ],
+      "cbr_onderwerp": "verkeerstekens_en_aanwijzingen",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "passeerbaan",
+        "landbouwverkeer",
+        "bord"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Rijbaan of -strook om ingehaald te kunnen worden, uitsluitend bestemd (en verplicht) voor landbouw- en bosbouwtrekkers, motorrijtuigen met beperkte snelheid en mobiele machines",
+        "bron": "boek p. 33",
+        "opmerking": "F11 staat in signs/manifest.json als verplicht gebruik passeerbaan of passeerstrook, met dezelfde drie voertuigsoorten, en de tekening staat in assets/borden/F11.svg."
+      }
+    },
+    {
+      "id": "U01-Q030",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Iemand uit je straat rijdt op een Segway, een bijzondere bromfiets. Welke regels gelden voor hem op de openbare weg?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Zijn maximumsnelheid op het fietspad of de rijbaan is 25 km/u.",
+          "feedback": "Goed, op het verplichte fietspad, het fiets/bromfietspad of de rijbaan is 25 km/u zijn maximum.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij moet minimaal 16 jaar zijn.",
+          "feedback": "Goed, de leeftijdsgrens is 16 jaar; voor de BSO-bus is dat 18 jaar en gehandicapten mogen er ook op jongere leeftijd op rijden.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een kentekenbewijs en een lichtblauwe kentekenplaat zijn verplicht.",
+          "feedback": "Goed, aan die lichtblauwe plaat herken je een bijzondere bromfiets.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Hij heeft een bromfietsrijbewijs nodig.",
+          "feedback": "Fout, voor een bijzondere bromfiets heb je geen rijbewijs nodig, ook al staat het woord bromfiets in de naam.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Hij moet een helm dragen.",
+          "feedback": "Fout, er geldt geen helmplicht voor een bijzondere bromfiets; wel moet het voertuig verzekerd zijn.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Een bijzondere bromfiets is een voertuig met een door de RDW afgegeven typegoedkeuring, zoals de Segway en de Trikke. Je rijdt op het verplichte fietspad of het fiets/bromfietspad en anders op de rijbaan, met een maximumsnelheid van 25 km/u. Je moet minimaal 16 jaar zijn, een kentekenbewijs en een lichtblauwe kentekenplaat zijn verplicht, een rijbewijs en een helm niet.",
+        "waarom": "Het voertuig is licht en komt niet ver boven fietssnelheid uit, dus de eisen blijven lichter dan bij een bromfiets, terwijl het kenteken en de verzekering nodig blijven omdat hij wel tussen het overige verkeer rijdt.",
+        "valkuil": "De naam bevat het woord bromfiets, dus je verwacht een helm en een rijbewijs. Juist die twee hoeven niet.",
+        "onthoud": "Lichtblauwe plaat, 25 km/u, vanaf 16 jaar, geen rijbewijs en geen helm."
+      },
+      "bronnen": [
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "Dit is een voertuig met een door de RDW afgegeven typegoedkeuring"
+        },
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "op de rijbaan. Je maximumsnelheid is 25 km/u"
+        },
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "je moet minimaal 16 jaar zijn (BSO-bus: 18 jaar)"
+        },
+        {
+          "boek": 28,
+          "sectie": "2.3",
+          "anker": "een kentekenbewijs en een lichtblauwe kentekenplaat zijn verplicht"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "bijzondere-bromfiets",
+        "bromfiets",
+        "kentekenplaat"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "je moet minimaal 16 jaar zijn (BSO-bus: 18 jaar). Gehandicapten mogen ook op jongere leeftijd op een bijzondere bromfiets rijden",
+        "bron": "boek p. 28",
+        "gewijzigd": "De feedback bij b noemde een hogere grens voor de BSO-bus; dat is nu het getal 18 jaar uit het boek, met de uitzondering voor gehandicapten erbij."
+      }
+    },
+    {
+      "id": "U01-Q031",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Een collega komt op een speed-pedelec naar het werk. Onderweg ligt een verplicht fietspad zonder onderbord. Waar hoort hij te rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op het fietspad, want het blijft een fiets met trappers.",
+          "feedback": "Fout, voor de speed-pedelec gelden de regels van een bromfiets, en die mag hier niet op het fietspad.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "Op de rijbaan of op het fiets/bromfietspad.",
+          "feedback": "Goed, dat zijn precies de twee plaatsen die de cursus noemt voor de speed-pedelec.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen op de rijbaan, want een bromfiets hoort nooit op een pad.",
+          "feedback": "Fout, het fiets/bromfietspad is voor hem net zo goed toegestaan als de rijbaan.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Voor de speed-pedelec gelden dezelfde regels als voor een bromfiets. Je mag niet op het fietspad rijden, je moet op de rijbaan of op het fiets/bromfietspad. Soms mag de speed-pedelec wel op het fietspad rijden, namelijk op basis van een onderbord dat dat toestaat.",
+        "waarom": "Hij wordt ondersteund tot bromfietssnelheid, en dat verschil met de fietsers om hem heen is te groot om er tussendoor te rijden.",
+        "valkuil": "Hij heeft trappers en ziet eruit als een fiets, dus je stuurt hem naar het fietspad.",
+        "onthoud": "Speed-pedelec is bromfiets: rijbaan of fiets/bromfietspad, het fietspad alleen met onderbord."
+      },
+      "bronnen": [
+        {
+          "slide": 27,
+          "anker": "je moet op de rijbaan of op het fiets/bromfietspad"
+        },
+        {
+          "slide": 27,
+          "anker": "Soms mag de speed-pedelec wél op het fietspad rijden"
+        }
+      ],
+      "cbr_onderwerp": "gebruik_van_de_weg",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "speed-pedelec",
+        "bromfiets",
+        "fietspad"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Je mag niet op het fietspad rijden; je moet op de rijbaan of op het fiets/bromfietspad",
+        "bron": "slide 27"
+      }
+    },
+    {
+      "id": "U01-Q032",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Voor je rijdt een brommobiel tussen de auto's op de rijbaan. Welke regels moet die bestuurder daar volgen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De regels voor bromfietsen, want de wet noemt een brommobiel een bromfiets.",
+          "feedback": "Fout, de omschrijving klopt, maar op de weg volgt een brommobiel de regels van motorvoertuigen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "b",
+          "tekst": "De regels voor motorvoertuigen.",
+          "feedback": "Goed, brommobielen zien eruit als kleine personenauto's en volgen op de weg de regels van motorvoertuigen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De regels voor gehandicaptenvoertuigen, want hij rijdt langzaam.",
+          "feedback": "Fout, een gehandicaptenvoertuig is ingericht voor het vervoer van een gehandicapte en wordt juist niet als bromfiets beschouwd.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "uitleg": {
+        "regel": "Een brommobiel is een bromfiets op meer dan twee wielen die voorzien is van een gesloten carrosserie. Brommobielen zien eruit als kleine personenauto's en volgen de regels van motorvoertuigen.",
+        "waarom": "Hij neemt op de weg de ruimte van een kleine personenauto in, en met die maten kan hij niet op de plaatsen rijden waar een tweewielige bromfiets terechtkan.",
+        "valkuil": "In de omschrijving staat bromfiets, dus je past ook de regels van een bromfiets toe.",
+        "onthoud": "Brommobiel: bromfiets in de omschrijving, motorvoertuig in de regels op de weg."
+      },
+      "bronnen": [
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "Bromfiets op meer dan twee wielen, die voorzien is van een gesloten carrosserie"
+        },
+        {
+          "boek": 27,
+          "sectie": "2.3",
+          "anker": "Brommobielen zien eruit als kleine personenauto's en volgen de regels van motorvoertuigen"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 3,
+      "tier": "must",
+      "tags": [
+        "brommobiel",
+        "bromfiets",
+        "motorvoertuig"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Brommobielen zien eruit als kleine personenauto's en volgen de regels van motorvoertuigen",
+        "bron": "boek p. 27",
+        "opmerking": "Naast U01-Q004 gelegd: die vraag gaat over de indeling (bromfiets, dus geen motorvoertuig), deze over de regels op de weg. Afleider a en de valkuil van deze vraag herhalen de indeling uit Q004, dus ze spreken elkaar niet tegen."
+      }
+    },
+    {
+      "id": "U01-Q033",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "meervoudig",
+      "soort": "kennis",
+      "stam": "Je gaat met een groep naar het strand en iedereen wil mee in dezelfde auto. Welke manieren om passagiers te vervoeren zijn toegestaan?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Op een echte zitplaats die gemaakt is voor gebruik door volwassenen.",
+          "feedback": "Goed, dat is de hoofdregel voor het vervoeren van passagiers.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Een kind tot 18 jaar en korter dan 1,35 meter op een speciale vaste kinderzitplaats met een gordel.",
+          "feedback": "Goed, dat is een van de twee uitzonderingen die de wet noemt.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Een passagier in een rolstoel die in het voertuig wordt vastgezet.",
+          "feedback": "Goed, ook dat is een uitzondering op de eis van een echte zitplaats.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Op een kussen in de laadruimte achterin.",
+          "feedback": "Fout, dat is een geïmproviseerde zitplaats, en daarop mag je niemand vervoeren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Op de zitbank van een camper, die bedoeld is voor gebruik als het voertuig stilstaat.",
+          "feedback": "Fout, een zitplaats die bedoeld is voor gebruik tijdens stilstand telt niet als echte zitplaats.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Je mag passagiers alleen vervoeren op een echte zitplaats die gemaakt is voor gebruik door volwassenen, dus niet op een geïmproviseerde zitplaats of een zitplaats die bedoeld is voor gebruik als het voertuig stilstaat. Uitzonderingen zijn een kind tot 18 jaar en korter dan 1,35 meter op een speciale vaste kinderzitplaats met een gordel en een passagier in een vastgezette rolstoel.",
+        "waarom": "Een plek zonder gordel en zonder vaste verbinding met de auto houdt iemand bij een botsing nergens tegen, hoe rustig je ook rijdt.",
+        "valkuil": "Je denkt: als er nog ruimte is, mag er nog iemand bij. De wet kijkt naar de zitplaats, niet naar de ruimte.",
+        "onthoud": "Echte zitplaats, of anders een vast kinderzitje of een vastgezette rolstoel."
+      },
+      "bronnen": [
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "Je mag passagiers alleen vervoeren op een echte zitplaats"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "zoals een zitbank in een camper"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "korter dan 1,35 meter op een speciale vaste kinderzitplaats met een gordel"
+        },
+        {
+          "boek": 38,
+          "sectie": "2.5",
+          "anker": "passagiers die gebruik maken van een rolstoel die in het voertuig wordt vastgezet"
+        }
+      ],
+      "cbr_onderwerp": "wetgeving",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "passagiers",
+        "gordel",
+        "kinderzitje"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "kinderen tot 18 jaar en korter dan 1,35 meter op een speciale vaste kinderzitplaats met een gordel",
+        "bron": "boek p. 38",
+        "gewijzigd": "Optie b en de regel noemden alleen korter dan 1,35 meter; tot 18 jaar staat er nu bij, zoals het boek de uitzondering stelt. Dezelfde aanvulling in U01-r30."
+      }
+    },
+    {
+      "id": "U01-Q034",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je passagier vindt het schuine deel van de gordel vervelend en legt het achter zijn rug, zodat alleen het heupgedeelte nog over hem loopt. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, de gordel zit dan wel vast, maar hij is verkeerd geleid en werkt daardoor niet meer goed.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, het is verboden om het schuine deel onder de arm, achter de rug of achter de rugleuning langs te leiden.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De gordel moet altijd op de juiste manier worden gebruikt. Het is verboden om het diagonale gedeelte van de gordel onder de arm, achter de rug of achter de rugleuning langs te leiden, want de gordel werkt dan niet meer goed.",
+        "waarom": "Het schuine deel houdt bij een botsing het bovenlichaam tegen; ligt het achter de rug, dan slaat hij met zijn borst voorover over het heupgedeelte heen.",
+        "valkuil": "De gordel zit vast en het waarschuwingslampje gaat uit, dus het lijkt in orde.",
+        "onthoud": "Schuine deel over de borst, nooit onder de arm of achter de rug."
+      },
+      "bronnen": [
+        {
+          "boek": 39,
+          "sectie": "2.5",
+          "anker": "onder de arm, achter de rug of achter de rugleuning langs te leiden"
+        },
+        {
+          "boek": 39,
+          "sectie": "2.5",
+          "anker": "De gordel werkt dan niet meer goed"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "gordel",
+        "passagiers"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "Het is verboden om het diagonale (schuinlopende) gedeelte van de gordel onder de arm, achter de rug of achter de rugleuning langs te leiden",
+        "bron": "boek p. 39"
+      }
+    },
+    {
+      "id": "U01-Q035",
+      "unit": "U01",
+      "pagina": "U01-P04",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rechterbeen zit in het gips en daardoor kun je het rempedaal niet goed indrukken. Mag je toch een klein stukje rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout, de regel maakt geen onderscheid tussen een klein stukje en een lange rit; het gaat erom of je de auto kunt bedienen.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed, je mag alleen gaan rijden als je de auto goed kunt bedienen, en met dat been lukt dat niet.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Je mag alleen gaan rijden als je de auto goed kunt bedienen. Rijden terwijl je niet in staat bent om je auto goed te bedienen, is verboden.",
+        "waarom": "Remmen is in een noodgeval het eerste dat je moet doen en het kan geen seconde wachten, dus een been dat het rempedaal niet haalt maakt elke rit te gevaarlijk.",
+        "valkuil": "Het is maar een klein stukje, denk je. De wet kijkt niet naar de afstand maar naar of je de auto kunt bedienen.",
+        "onthoud": "Niet goed kunnen bedienen is net zo goed een reden om te blijven staan als een beslagen ruit."
+      },
+      "bronnen": [
+        {
+          "slide": 31,
+          "anker": "je mag alleen gaan rijden als je de auto goed kunt bedienen"
+        },
+        {
+          "boek": 35,
+          "sectie": "2.5",
+          "anker": "terwijl je niet in staat bent om je auto goed te bedienen"
+        }
+      ],
+      "cbr_onderwerp": "veilig_rijden_en_noodsituaties",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "bediening",
+        "uitzicht"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "goed",
+        "bewijs": "terwijl je niet in staat bent om je auto goed te bedienen, met beslagen of bevroren ruiten (voorruit en voorste zijruiten) is verboden",
+        "bron": "boek p. 35",
+        "opmerking": "Het gips komt van de afbeelding linksonder op slide 31: een man met zijn been in het gips naast een auto, met een rood kruis erbij. De stam noemt er zelf bij dat het rempedaal niet lukt, dus hij leert niet aan dat gips altijd verboden is."
+      }
+    },
+    {
+      "id": "U01-Q036",
+      "unit": "U01",
+      "pagina": "U01-P02",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Op een landweg nader je een tractor met een breed werktuig eraan. Waar houd je bij dit landbouwverkeer rekening mee?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De bestuurder is vaak jong en onervaren.",
+          "feedback": "Goed, het boek noemt dat als een van de punten waarop je bij landbouwverkeer moet letten.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De verlichting, richtingaanwijzers en remlichten werken lang niet altijd.",
+          "feedback": "Goed, je kunt er dus niet op rekenen dat je een afslaande tractor ziet knipperen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Het aangekoppelde werktuig is vaak breder dan de tractor zelf.",
+          "feedback": "Goed, je hebt daardoor meer ruimte nodig dan de tractor zelf doet vermoeden.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Modder en afvallende lading kunnen het wegdek glad maken.",
+          "feedback": "Goed, achter landbouwverkeer kan het wegdek er anders bij liggen dan je gewend bent.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Een tractor rijdt altijd maximaal 25 km/u, dus je bent er zo voorbij.",
+          "feedback": "Fout, bepaalde tractoren mogen maximaal 25 km/u rijden en andere maximaal 40 km/u, dus het snelheidsverschil valt lang niet altijd mee.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Bepaalde tractoren mogen maximaal 25 km/u rijden en andere maximaal 40 km/u. Houd er bij landbouwverkeer verder rekening mee dat de bestuurder vaak jong en onervaren is, dat de verlichting, richtingaanwijzers en remlichten lang niet altijd werken, dat aangekoppelde werktuigen vaak breder zijn dan de tractor en dat modder en afvallende lading voor een glad wegdek kunnen zorgen.",
+        "waarom": "Elk van die punten kost je ruimte of tijd die je bij een gewone auto niet nodig hebt, dus je beslist eerder en blijft verder achter tot je echt vrij zicht hebt.",
+        "valkuil": "Je schat alleen het snelheidsverschil in en vergeet de breedte van het werktuig en de richtingaanwijzer die er misschien niet is.",
+        "onthoud": "Achter een tractor: reken op geen signaal, extra breedte en een glad wegdek."
+      },
+      "bronnen": [
+        {
+          "boek": 132,
+          "sectie": "8.2",
+          "anker": "de bestuurder vaak jong en onervaren is"
+        },
+        {
+          "boek": 132,
+          "sectie": "8.2",
+          "anker": "de verlichting, richtingaanwijzers en remlichten lang niet altijd werken"
+        },
+        {
+          "boek": 132,
+          "sectie": "8.2",
+          "anker": "aangekoppelde werktuigen vaak breder zijn dan de tractor"
+        },
+        {
+          "boek": 132,
+          "sectie": "8.2",
+          "anker": "modder en afvallende lading voor een glad wegdek kunnen zorgen"
+        },
+        {
+          "boek": 131,
+          "sectie": "8.2",
+          "anker": "bepaalde tractoren maximaal 25 km/u mogen rijden en andere maximaal 40 km/u"
+        }
+      ],
+      "cbr_onderwerp": "bijzondere_wegen_weggebruikers_manoeuvres",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "landbouwverkeer",
+        "tractor",
+        "inhalen"
+      ],
+      "reserve": false,
+      "versie": 1,
+      "status": "gecheckt",
+      "checker": {
+        "oordeel": "gewijzigd",
+        "bewijs": "Houd er rekening mee dat bepaalde tractoren maximaal 25 km/u mogen rijden en andere maximaal 40 km/u",
+        "bron": "boek p. 131",
+        "gewijzigd": "De 25 en 40 km/u stonden alleen in de feedback bij het foute antwoord. De regel opent er nu mee, en leespagina U01-r28 noemt ze ook, zodat het getal ook buiten een afleider geleerd wordt."
+      }
     }
   ]
 }

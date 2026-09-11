@@ -590,6 +590,21 @@
           ]
         },
         {
+          "type": "regel",
+          "id": "U02-r20",
+          "tekst": "Een busbaan of busstrook herken je aan het woord bus of lijnbus op het wegdek. Erop rijden mag niet en voorsorteren mag er ook niet. Kruisen mag wel, om af te slaan of een inrit in te rijden.",
+          "bron": [
+            {
+              "slide": 52,
+              "anker": "je kunt ze herkennen aan het woord 'bus' of 'lijnbus' op het wegdek"
+            },
+            {
+              "slide": 52,
+              "anker": "mag je ze kruisen om af te slaan of een inrit in te rijden"
+            }
+          ]
+        },
+        {
           "type": "waarom",
           "tekst": "Een doorgetrokken streep ligt waar de wegbeheerder weet dat wisselen of inhalen gevaarlijk is, bijvoorbeeld door slecht zicht. De streep verbiedt precies daar waar je het zelf niet kunt inschatten.",
           "bron": {
@@ -652,6 +667,10 @@
             [
               "Zigzaglijn",
               "Waarschuwt voor een gevaarlijke oversteekplaats"
+            ],
+            [
+              "Busbaan of busstrook",
+              "Niet op rijden en niet voorsorteren; kruisen om af te slaan of een inrit in te rijden mag wel"
             ]
           ],
           "bron": [
@@ -664,6 +683,10 @@
               "boek": 54,
               "sectie": "3.2",
               "anker": "Het zigzagteken op het wegdek waarschuwt voor een gevaarlijke oversteekplaats"
+            },
+            {
+              "slide": 52,
+              "anker": "het is niet toegestaan erop te rijden"
             }
           ]
         },
@@ -789,6 +812,55 @@
           ]
         },
         {
+          "type": "regel",
+          "id": "U02-r21",
+          "tekst": "Tweekleurige verkeerslichten hebben alleen geel en rood. Ze staan vaak bij spoorwegovergangen, bij bruggen, bij voetgangersoversteekplaatsen en op plaatsen waar trams de rijbaan kruisen. In normale omstandigheden is het licht uit; als je moet stoppen gaat eerst het gele licht branden en daarna het rode.",
+          "bron": [
+            {
+              "boek": 55,
+              "sectie": "3.3",
+              "anker": "In normale omstandigheden is het licht uit"
+            },
+            {
+              "boek": 55,
+              "sectie": "3.3",
+              "anker": "bij spoorwegovergangen om te voorkomen dat bij een file de overweg wordt geblokkeerd"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r22",
+          "tekst": "Een groen licht zonder pijl telt ook als je rechtsaf slaat: de rechtdoorgaande fietsers op het fietspad naast je hebben dan meestal ook groen en die laat je voorgaan. Ook rechtdoorgaande voetgangers moet je voor laten.",
+          "bron": [
+            {
+              "slide": 55,
+              "anker": "rechtdoorgaande fietsers op het fietspad naast je als je rechtsaf slaat"
+            },
+            {
+              "slide": 55,
+              "anker": "Ook rechtdoorgaande voetgangers moet je voor laten"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U02-r23",
+          "tekst": "Sla jij linksaf, houd dan altijd rekening met fietsers, snorfietsers en bromfietsers uit de tegemoetkomende richting die jouw weg op kunnen draaien, ook al is hun licht rood. Je kunt tenslotte hun onderborden niet lezen.",
+          "bron": [
+            {
+              "boek": 56,
+              "sectie": "3.3",
+              "anker": "houd dan altijd rekening met de mogelijkheid dat"
+            },
+            {
+              "boek": 56,
+              "sectie": "3.3",
+              "anker": "Je kunt tenslotte hun onderborden niet lezen"
+            }
+          ]
+        },
+        {
           "type": "waarom",
           "tekst": "Een rond groen licht regelt alleen jouw richting; de tegenligger kan tegelijk groen hebben. Bij een groene pijl staat het licht voor het conflicterende verkeer juist op rood.",
           "bron": {
@@ -844,6 +916,10 @@
             [
               "Rood knipperlicht bij overweg of brug",
               "Stoppen"
+            ],
+            [
+              "Tweekleurig licht met geel en rood dat uit is",
+              "Normale stand: doorrijden"
             ]
           ],
           "bron": [
@@ -855,6 +931,11 @@
             {
               "slide": 54,
               "anker": "verkeerslichten zorgen voor een vlotte en veilige doorstroming op drukke kruispunten"
+            },
+            {
+              "boek": 55,
+              "sectie": "3.3",
+              "anker": "In normale omstandigheden is het licht uit"
             }
           ]
         },
