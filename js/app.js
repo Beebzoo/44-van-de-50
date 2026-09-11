@@ -264,7 +264,7 @@ function countdownBlock() {
   const d = dagenTot(S.settings.examenDatum);
   const dt = new Date(S.settings.examenDatum + "T00:00:00");
   const tekst = d > 1 ? `dagen tot je examen, ${datum(dt)}` : d === 1 ? `dag tot je examen, morgen` : d === 0 ? "vandaag is je examen" : "je examen is geweest";
-  return `<div class="aftel"><span class="cijfer" aria-hidden="true">${Math.max(d, 0)}</span><span class="meta">${tekst}</span></div>`;
+  return `<div class="aftel aftelblok"><span class="cijfer cijfer-groot" aria-hidden="true">${Math.max(d, 0)}</span><span class="meta">${tekst}</span></div>`;
 }
 function timeline(compact) {
   const cur = currentUnit();
@@ -314,7 +314,7 @@ const SCREENS = {
     const streak = V.streak(S.attempts);
     const body = `${countdownBlock()}
       <p class="meta">Verder waar je was</p>
-      <div class="kaart"><div class="rij"><div class="groei"><strong>Blok ${u.volgorde}</strong> ${esc(u.titel)}<br><span class="meta">${esc(act.tekst)}</span></div></div>
+      <div class="kaart"><div class="rij"><div class="groei"><span class="bloknr">${u.volgorde}</span><strong>${esc(u.titel)}</strong><br><span class="meta">${esc(act.tekst)}</span></div></div>
         <a class="knop primair groot" style="margin-top:12px" href="${act.href}">${esc(act.knop)}<span class="pijl">${I.pijl}</span></a></div>
       <p class="meta-3">Vandaag ${vd.vragen} vragen, ${vd.minuten} min${streak > 1 ? ` · ${streak} dagen op rij` : ""}</p>
       ${herhalingKaart()}
@@ -328,7 +328,7 @@ const SCREENS = {
       const st = S.states[u.id];
       const n = (S.bank[u.id] || []).length;
       const label = st.staat === "beheerst" ? `<span class="staatlabel goed">Gehaald</span>` : st.staat === "voorlopig" ? `<span class="staatlabel geel">Voorlopig gehaald</span>` : st.staat === "vergrendeld" ? `<span class="staatlabel">Vergrendeld</span>` : (st.staat === "lezen" || !u.quiz.gate) ? `<span class="staatlabel blauw">Lezen</span>` : `<span class="staatlabel blauw">Oefenen</span>`;
-      return `<a class="kaart klik" href="#/blok/${u.id}"><div class="rij"><span class="paaltje ${st.staat === "beheerst" ? "groen" : st.staat === "voorlopig" ? "half" : ""}"></span><div class="groei"><strong>Blok ${u.volgorde}</strong> ${esc(u.titel)}<br><span class="meta">${n ? n + " vragen · " : ""}week ${u.week}</span></div>${label}</div></a>`;
+      return `<a class="kaart klik" href="#/blok/${u.id}"><div class="rij"><span class="paaltje ${st.staat === "beheerst" ? "groen" : st.staat === "voorlopig" ? "half" : ""}"></span><div class="groei"><span class="bloknr">${u.volgorde}</span><strong>${esc(u.titel)}</strong><br><span class="meta">${n ? n + " vragen · " : ""}week ${u.week}</span></div>${label}</div></a>`;
     }).join("");
     return { titel: "Leren", body, onder: "tab" };
   },

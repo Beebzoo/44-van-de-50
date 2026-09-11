@@ -16,11 +16,23 @@ const { spawn } = require("child_process");
 const [base, outDir, ...flags] = process.argv.slice(2);
 if (!base || !outDir) { console.error("gebruik: node _tools/schermen.js http://127.0.0.1:8765/ schermen [donker]"); process.exit(1); }
 fs.mkdirSync(outDir, { recursive: true });
-const PORT = 9333;
+/* een eigen poort per run, anders vecht een tweede run om dezelfde browser */
+const PORT = 9300 + Math.floor(Math.random() * 400);
 const DARK = flags.includes("donker");
+const LIGHT = flags.includes("licht");
 const WIDE = flags.includes("breed");
 /* enkel: screenshot the base url as one page once a .scene or main.inhoud exists */
 const SINGLE = flags.includes("enkel");
+/* vrij: seed one perfect run per unit first, so the quiz and exam screens
+   are the real thing instead of "nog geen quiz". Nothing is written to the
+   repo; it lives in the throwaway profile this script starts Chrome with. */
+const VRIJ = flags.includes("vrij");
+const ZAAI = "(async () => { const store = await import('./js/store.js');" +
+  " const idx = await (await fetch('content/index.json')).json();" +
+  " for (const u of idx.units) {" +
+  "   if (u.paginas && u.paginas[0]) await store.addAttempt({ kind: 'lezen', ref: u.paginas[0].id, unit: u.id, duration_ms: 120000, klaar: true, content_version: idx.versie, answers: [], synced: true });" +
+  "   if (u.aantalVragen > 0) await store.addAttempt({ kind: 'quiz', ref: u.id, unit: u.id, duration_ms: 300000, total: 1, score: 1, answers: [], synced: true });" +
+  " } return idx.units.length; })()";
 
 const ROUTES = [
   { naam: "route", hash: "route" },
@@ -89,7 +101,7 @@ async function cdp() {
   const c = await cdp();
   await c.send("Page.enable"); await c.send("Runtime.enable"); await c.send("Log.enable");
   await c.send("Emulation.setDeviceMetricsOverride", WIDE ? { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false } : { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
-  if (DARK) await c.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: "dark" }] });
+  if (DARK || LIGHT) await c.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: DARK ? "dark" : "light" }] });
   const evalJs = async expr => { const r = await c.send("Runtime.evaluate", { expression: expr, awaitPromise: true, returnByValue: true }); return r.result && r.result.result ? r.result.result.value : undefined; };
 
   if (SINGLE) {
@@ -113,6 +125,14 @@ async function cdp() {
   const idx = JSON.parse(idxText);
   const U = idx.units[0].id, P = idx.units[0].paginas[0].id;
   const withQuiz = idx.units.slice().reverse().find(u => u.aantalVragen > 0) || idx.units[0];
+
+  if (VRIJ) {
+    await c.send("Page.navigate", { url: base });
+    let klaar = false;
+    for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    const n = await evalJs(ZAAI);
+    console.log("vrijgespeeld: " + n + " blokken gezaaid");
+  }
 
   for (const r of ROUTES) {
     const hash = r.hash.replace("{U}", r.naam.startsWith("quiz") ? withQuiz.id : U).replace("{P}", P);

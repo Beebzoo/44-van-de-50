@@ -1,10 +1,16 @@
 /* 44 van de 50: the Belijning stylesheet.
 
-   Colour is semantic only. Blue is yours (selected, links, primary), red is
-   wrong or a warning, green is mastered, yellow is let op. Everything else
-   is ground, ink, line, asphalt and road-marking white. Tokens come from
-   app-plan/rapporten/03 verbatim. Both dark mechanisms are wired: the
-   system preference, and data-theme set from Instellingen. */
+   Colour carries meaning wherever an answer is at stake. Blue is yours
+   (selected, links, primary), red is wrong or a warning, green is mastered,
+   yellow is let op. Inside a quiz that rule is absolute: green never appears
+   unless something is right.
+
+   The shell around it may be cheerful. The header, the countdown, the cards
+   and the tab bar wear the blue of the app itself, because none of them ever
+   says whether you got something right. Tokens come from app-plan/rapporten/03;
+   the schil- ones were added on 11 September when the app turned out to be
+   handsome but gloomy. Both dark mechanisms are wired: the system preference,
+   and data-theme set from Instellingen. */
 
 @font-face{font-family:'Barlow';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/barlow-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
 @font-face{font-family:'Barlow';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/barlow-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
@@ -20,8 +26,8 @@
 /* ==== tokens ==== */
 :root {
   color-scheme: light;
-  --grond: #F2F1EC; --vlak: #FFFFFF; --vlak-2: #E8E7E1;
-  --lijn: #D6D5CE; --lijn-2: #B9B8B0;
+  --grond: #F7F8FA; --vlak: #FFFFFF; --vlak-2: #EDEFF3;
+  --lijn: #DFE3E9; --lijn-2: #BFC6D0;
   --inkt: #15181C; --inkt-2: #4A5058; --inkt-3: #687079;
   --asfalt: #2A2F36; --asfalt-2: #3A404A; --markering: #F7F7F4;
   --bord-blauw: #0B5CAD; --bord-blauw-zacht: #E3EDF8;
@@ -32,6 +38,13 @@
   --neutraal: #687079; --neutraal-zacht: #ECEBE6;
   --focus: #0B5CAD;
   --plaat: #F4F4F2;
+  /* de schil: kleur die nooit een antwoord beoordeelt */
+  --schil: linear-gradient(135deg, #0B5CAD 0%, #1478D4 60%, #2E94E8 100%);
+  --schil-inkt: #FFFFFF;
+  --schil-zacht: #E8F1FB;
+  --schil-rand: #CBDFF4;
+  --tegel: #FFFFFF;
+  --baan-grond: #1B4A7A;
   --schaduw-balk: 0 -1px 0 var(--lijn), 0 8px 24px rgba(21,24,28,.08);
   --tekst: "Barlow", "Helvetica Neue", Arial, sans-serif;
   --kop: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
@@ -45,9 +58,9 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --grond: #10141A; --vlak: #171C23; --vlak-2: #20262E;
-    --lijn: #2C333C; --lijn-2: #3E4750;
-    --inkt: #E8EAEC; --inkt-2: #AEB5BD; --inkt-3: #858D96;
+    --grond: #1B2430; --vlak: #243040; --vlak-2: #2E3C4E;
+    --lijn: #3A4A5E; --lijn-2: #4E6076;
+    --inkt: #F0F3F7; --inkt-2: #BFCAD8; --inkt-3: #94A2B3;
     --asfalt: #0A0D11; --asfalt-2: #1B2027; --markering: #E8EAEC;
     --bord-blauw: #6EA8E6; --bord-blauw-zacht: #16283D;
     --waarschuwing-rood: #F07B7B;
@@ -56,6 +69,12 @@
     --fout: #F07B7B; --fout-zacht: #3B1A1C; --fout-inkt: #F6B4B4;
     --neutraal: #858D96; --neutraal-zacht: #20262E;
     --focus: #6EA8E6;
+    --schil: linear-gradient(135deg, #154C86 0%, #1E6BB8 60%, #2E8BD6 100%);
+    --schil-inkt: #FFFFFF;
+    --schil-zacht: #23364C;
+    --schil-rand: #33506E;
+    --tegel: #243040;
+    --baan-grond: #16324F;
     --schaduw-balk: 0 -1px 0 var(--lijn);
   }
 }
@@ -118,11 +137,13 @@ strong { font-weight: 600; }
   position: sticky; top: 0; z-index: 20;
   display: flex; align-items: center; gap: 8px;
   height: var(--kop-h); padding: 0 8px 0 4px;
-  background: var(--grond); box-shadow: 0 1px 0 var(--lijn);
+  background: var(--schil); color: var(--schil-inkt); box-shadow: none;
   padding-top: env(safe-area-inset-top);
 }
+.kopbalk a, .kopbalk button { color: var(--schil-inkt); }
+.kopbalk svg { stroke: currentColor; }
 .kopbalk .midden { flex: 1; min-width: 0; font-weight: 500; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.kopbalk .merk { font-family: var(--kop); font-weight: 700; font-size: 20px; letter-spacing: -0.01em; padding-left: 8px; color: var(--inkt); }
+.kopbalk .merk { font-family: var(--kop); font-weight: 700; font-size: 20px; letter-spacing: -0.01em; padding-left: 8px; color: var(--schil-inkt); }
 .kopbalk .merk:hover { text-decoration: none; }
 .ikoonknop { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: var(--r); color: var(--inkt); }
 .ikoonknop:hover { background: var(--vlak-2); }
@@ -137,8 +158,8 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .chip.voorbij { background: var(--vlak-2); }
 
 /* the lane: asphalt strip, one dash per block */
-.baan { display: flex; gap: 3px; height: var(--baan-h); padding: 2px 6px; background: var(--asfalt); }
-.baan .streep { flex: 1; background: var(--asfalt-2); border-radius: 1px; position: relative; overflow: hidden; }
+.baan { display: flex; gap: 3px; height: var(--baan-h); padding: 2px 6px; background: var(--baan-grond); }
+.baan .streep { flex: 1; background: rgba(255, 255, 255, 0.22); border-radius: 2px; position: relative; overflow: hidden; }
 .baan .streep::after { content: ""; position: absolute; inset: 0; width: 0; background: var(--markering); transition: width var(--t-baan) var(--beweeg); }
 .baan .streep.half::after { width: 50%; }
 .baan .streep.vol::after { width: 100%; }
@@ -438,3 +459,29 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 }
 .verborgen { display: none !important; }
 .vis-verborgen { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* ==== de schil: kleur die nooit een antwoord beoordeelt ==== */
+
+/* de chip in de kopbalk staat nu op blauw, dus hij wordt doorschijnend wit */
+.kopbalk .chip { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.38); color: var(--schil-inkt); }
+.kopbalk .chip.dringend { background: var(--voorrang-geel); border-color: var(--voorrang-geel); color: #15181C; }
+
+/* de aftelling op Route krijgt een eigen paneel in plaats van kale grond */
+.aftelblok { background: var(--schil-zacht); border: 1px solid var(--schil-rand); border-radius: 14px; padding: 18px 18px 14px; margin: 0 0 20px; }
+.aftelblok .cijfer-groot { color: var(--bord-blauw); }
+.aftelblok .meta { color: var(--inkt-2); }
+
+/* kaarten krijgen lucht en een zachte schaduw in plaats van alleen een lijn */
+.kaart { border-radius: 14px; box-shadow: 0 1px 2px rgba(21,24,28,.04), 0 6px 16px rgba(21,24,28,.05); }
+.kaart.klik:hover { border-color: var(--schil-rand); }
+
+/* de actieve tab krijgt een blauwe pil onder zich */
+.tabbalk a.actief svg { background: var(--schil-zacht); border: 1px solid var(--schil-rand); border-radius: 999px; padding: 3px 15px; box-sizing: content-box; }
+
+/* de tijdlijn op Route: wat je gehad hebt zakt een toon terug */
+.tijdlijn li.gehad .titel { color: var(--inkt-2); }
+
+/* het bloknummer als badge: structuur, geen oordeel */
+.bloknr { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; margin-right: 8px; border-radius: 8px;
+  background: var(--schil-zacht); color: var(--bord-blauw); border: 1px solid var(--schil-rand);
+  font-family: var(--kop); font-weight: 700; font-size: 15px; vertical-align: -5px; }

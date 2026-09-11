@@ -81,6 +81,11 @@ Wat je verder moet weten over de staat van het gereedschap:
 - `_tools/schermen.js` fotografeert elk scherm en vindt de browser zelf op
   Windows en Linux. Gebruik hem om te kijken of iets echt werkt in plaats van
   erop te hopen. Start er een lokale server bij, bijvoorbeeld op poort 8765.
+  Vlaggen: `licht` of `donker` (zonder een van beide kiest de headless browser
+  zelf, en dat is donker), `breed`, `enkel`, en `vrij`. Die laatste zaait eerst
+  een foutloze ronde per blok in het wegwerpprofiel, zodat de quiz- en
+  examenschermen echt iets tonen in plaats van "nog geen quiz". Draai twee
+  rondes niet tegelijk in dezelfde map, want ze schrijven in elkaars uitvoer.
 - Het oefenexamen trekt zijn 52 vragen alleen uit vrijgespeelde blokken, dus op
   een leeg profiel kun je er geen doen. Dat is met opzet.
 
