@@ -601,7 +601,8 @@
                 "invoegen",
                 "autotewater",
                 "rijstrookkeuze",
-                "ruimtemaken"
+                "ruimtemaken",
+                "bordfamilies"
               ]
             },
             "tekst": {
@@ -652,7 +653,8 @@
                 "invoegen",
                 "autotewater",
                 "rijstrookkeuze",
-                "ruimtemaken"
+                "ruimtemaken",
+                "bordfamilies"
               ]
             },
             "knop": {

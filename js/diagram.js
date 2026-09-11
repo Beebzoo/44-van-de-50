@@ -15,6 +15,7 @@
    (F085 en F090), zodat een vraag en een tekening nooit iets anders kunnen
    beweren. */
 import { t } from "./taal.js";
+import { bordHtml, families, familyName } from "./signs.js";
 
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const ASFALT = "#2A2F36", MARK = "#F7F7F4", BERM = "#B9C3A8", FIETSPAD = "#B84A3A";
@@ -720,6 +721,39 @@ function ruimtemakenHtml() {
   </svg>`;
 }
 
+
+/* ==== 29 de elf bordfamilies op een kaart ==== */
+const FAMILIEVOORBEELD = { A: "A1", B: "B1", C: "C1", D: "D1", E: "E1", F: "F1", G: "G1", H: "H1", J: "J1", K: "K1", L: "L1" };
+const FAMILIEWAT = {
+  A: () => t("hoe hard je mag"),
+  B: () => t("wie er voorgaat"),
+  C: () => t("wie er niet in mag"),
+  D: () => t("welke kant je op moet"),
+  E: () => t("waar je mag staan"),
+  F: () => t("wat er verder moet en niet mag"),
+  G: () => t("wat voor weg dit is"),
+  H: () => t("begin en einde bebouwde kom"),
+  J: () => t("pas op, er komt iets aan"),
+  K: () => t("waar gaat deze weg heen"),
+  L: () => t("goed om te weten"),
+};
+
+function bordfamiliesHtml() {
+  const rijen = families().map(f => {
+    const code = FAMILIEVOORBEELD[f.letter];
+    const wat = FAMILIEWAT[f.letter] ? FAMILIEWAT[f.letter]() : "";
+    return `<li class="familierij">
+      <span class="familieletter">${esc(f.letter)}</span>
+      ${code ? bordHtml(code, 40) : ""}
+      <span class="familietekst"><strong>${esc(f.naam)}</strong><br><span class="meta">${esc(wat)}</span></span>
+    </li>`;
+  }).join("");
+  return `<div class="familiekaart">
+    <p class="meta-3">${esc(t("De letter voor het nummer vertelt je meteen waar een bord over gaat."))}</p>
+    <ul class="familielijst">${rijen}</ul>
+  </div>`;
+}
+
 const DIAGRAMMEN = {
   remweg: { html: remwegHtml, titel: () => t("Reactieafstand, remweg en stopafstand") },
   dodehoek: { html: dodehoekHtml, titel: () => t("De dode hoek") },
@@ -749,6 +783,7 @@ const DIAGRAMMEN = {
   autotewater: { html: autotewaterHtml, titel: () => t("Auto te water") },
   rijstrookkeuze: { html: rijstrookkeuzeHtml, titel: () => t("Welke rijstrook kies je") },
   ruimtemaken: { html: ruimtemakenHtml, titel: () => t("Ruimte maken in de file") },
+  bordfamilies: { html: bordfamiliesHtml, titel: () => t("De elf bordfamilies") },
 };
 export const kentDiagram = naam => Object.prototype.hasOwnProperty.call(DIAGRAMMEN, naam);
 export const diagramNamen = () => Object.keys(DIAGRAMMEN);

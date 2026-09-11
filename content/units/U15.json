@@ -338,6 +338,17 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "bordfamilies",
+          "knop": "Laat alle bordfamilies zien",
+          "tekst": "De letter voor het nummer zegt al waar het bord over gaat.",
+          "bron": {
+            "boek": 47,
+            "sectie": "3.1",
+            "anker": "Deze borden geven een maximumsnelheid of adviessnelheid aan"
+          }
+        },
+        {
           "type": "borden",
           "codes": [
             "H1",

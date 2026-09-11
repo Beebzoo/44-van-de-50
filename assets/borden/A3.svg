@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 570"><g style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#2a2d2f;stroke-width:.97477633;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path stroke="none" d="M429.25 492.75h-281v-227h281z" style="fill:#2a2d2f;fill-rule:nonzero;stroke-width:0" transform="matrix(2.4911 0 0 -2.51102 -369.306 1237.304)"/><path d="m402.25 272.75 1.01.06.99.11.98.16.97.2.94.25.93.29.91.33.89.37.87.41.84.45.83.49.79.52.78.56.74.59.72.63.69.66.65.68.63.72.59.75.56.77.53.8.49.82.45.85.41.87.38.9.33.91.3.93.25.95.2.97.17.99.11 1 .07 1.01v174a20.2 20.2 0 0 1-20 19h-227a20.2 20.2 0 0 1-20-19v-174a20.9 20.9 0 0 1 20-20z" style="stroke:#f7fbf5;stroke-width:.34117174;stroke-dasharray:.97477633,.97477633" transform="matrix(2.4911 0 0 -2.51102 -369.306 1237.304)"/></g></svg>
+<?xml version="1.0" standalone="no"?>
+<svg id="Nederlands_verkeersbord_A3" width="375" height="300" viewBox="0 0 375 300"
+xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<rect id="zwart_vlak" width="375" height="300" fill="#2a2d2f" />
+
+<path id="witte_bies" style="fill:none;stroke:#f7fbf5;stroke-width:1.01770544"
+     d="M 350.01845,295.26371 C 361.12859,295.26371 370.09653,286.19796 370.09653,275.00816 L 370.09653,24.991862 C 370.09653,13.802081 361.12859,4.7363305 350.01845,4.7363305 L 24.973391,4.7363305 C 13.903973,4.7363305 4.895306,13.802081 4.895306,24.991862 L 4.895306,275.00816 C 4.895306,286.19796 13.903973,295.26371 24.973391,295.26371 L 350.01845,295.26371 z" />
+
+<path id="cijfer_7_helemaal_bovenaan"
+     d="M 34.902472,40.600594 L 158.1648,40.600594"
+style="fill:none;stroke:#f7fbf5;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:5, 10;stroke-dashoffset:0" />
+
+<path id="cijfer_7_een_na_bovenste"
+     d="M 46.004472,58.683276 L 153.48128,58.683276"
+style="fill:none;fill-opacity:1;stroke:#f7fbf5;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:5, 10;stroke-dashoffset:0" />
+
+<path id="cijfer_7_onder"
+     d="M 147.63298,75.602218 L 147.63298,75.602218 L 100.31711,258.82977 M 131.27728,75.602218 L 131.27728,75.602218 L 83.961421,258.82977"
+style="fill:none;stroke:#f7fbf5;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:5, 10;stroke-dashoffset:0" />
+
+<path id="cijfer_0_buiten"
+     d="M 249.85609,261.18166 C 171.01805,261.18166 178.01483,163.42774 178.01483,146.80991 C 178.01483,128.78419 171.01805,36.783854 249.88867,36.783854 C 328.13211,36.783854 321.12718,122.51791 321.12718,146.80991 C 321.12718,169.69402 328.13211,261.18166 249.85609,261.18166 z "
+style="fill:none;stroke:#f7fbf5;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:5, 10;stroke-dashoffset:0" />
+
+<path id="cijfer_0_binnen"
+     d="M 251.60732,54.581716 C 312.94934,54.581716 305.91998,132.7881 305.91998,146.80991 C 305.91998,161.97104 309.45502,244.27085 249.85609,244.27085 C 189.69514,244.27085 194.37052,167.21193 194.37052,146.80991 C 194.37052,127.53907 191.43822,54.581716 251.60732,54.581716 z "
+style="fill:none;stroke:#f7fbf5;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:5, 10;stroke-dashoffset:0;stroke-opacity:1" />
+
+</svg>

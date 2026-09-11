@@ -4,6 +4,11 @@ De meeste borden komen uit de MIT-gelicentieerde set van NDW (github.com/ndwnu/q
 
 | Code | Bestand op Commons | Licentie | Maker |
 |---|---|---|---|
+| A1 | Nederlands verkeersbord A1.svg | Publiek domein (PD Dutch traffic signs) | Wikimedia Commons |
+| A2 | Nederlands verkeersbord A2.svg | Publiek domein (PD Dutch traffic signs) | Wikimedia Commons |
+| A3 | Nederlands verkeersbord A3.svg | Publiek domein (PD Dutch traffic signs) | Wikimedia Commons |
+| A4 | Nederlands verkeersbord A4.svg | Publiek domein (PD Dutch traffic signs) | Wikimedia Commons |
+| A5 | Nederlands verkeersbord A5.svg | Publiek domein (PD Dutch traffic signs) | Wikimedia Commons |
 | C22e | Nederlands verkeersbord C22e 2026.svg | Public domain | LxH526 |
 | C22e1 | NL-C22e1.svg | Public domain | LxH526 |
 | C22e10 | NL-C22e10.svg | CC BY 4.0 | LxH526 |
