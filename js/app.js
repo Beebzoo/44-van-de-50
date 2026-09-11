@@ -219,6 +219,7 @@ function startExamen() {
   if (pool.length < Q.EXAMEN.getoond) return;
   S.run = Q.newExamen(Q.sampleExamen(pool, S.history));
   startKlok();
+  autoSpeel(S.run);
 }
 async function leverIn() {
   const run = S.run;
@@ -441,7 +442,15 @@ const SCREENS = {
     else if (q.media && q.media.reeks) {
       const frames = q.media.reeks.map(id => S.scenes[id]).filter(Boolean);
       const f = Math.min(item.frame, frames.length - 1);
-      media = frames.length ? `<div class="reeks">${scenePlate(frames[f], toon)}<div class="stapper"><button type="button" data-actie="frame" data-n="-1" ${f === 0 ? "disabled" : ""} aria-label="${esc(t("Vorig beeld"))}">${I.terug}</button><span class="stipjes" aria-hidden="true">${frames.map((x, i) => `<span class="${i === f ? "nu" : ""}"></span>`).join("")}</span><button type="button" data-actie="frame" data-n="1" ${f >= frames.length - 1 ? "disabled" : ""} aria-label="${esc(t("Volgend beeld"))}">${I.pijl}</button><button type="button" data-actie="speel">${esc(t("Speel af"))}</button></div></div>` : "";
+      /* In een examen krijg je het beeld net als bij het CBR: het speelt zichzelf
+         af en je kunt niet beeldje voor beeldje terug. Zodra het antwoord op
+         tafel ligt mag je wel terugbladeren, want dan ben je aan het leren. */
+      const stappen = !(run.examen && !toon);
+      const stipjes = `<span class="stipjes" aria-hidden="true">${frames.map((x, i) => `<span class="${i === f ? "nu" : ""}"></span>`).join("")}</span>`;
+      const stapper = stappen
+        ? `<div class="stapper"><button type="button" data-actie="frame" data-n="-1" ${f === 0 ? "disabled" : ""} aria-label="${esc(t("Vorig beeld"))}">${I.terug}</button>${stipjes}<button type="button" data-actie="frame" data-n="1" ${f >= frames.length - 1 ? "disabled" : ""} aria-label="${esc(t("Volgend beeld"))}">${I.pijl}</button><button type="button" data-actie="speel">${esc(t("Speel af"))}</button></div>`
+        : `<div class="stapper alleen-stipjes">${stipjes}</div>`;
+      media = frames.length ? `<div class="reeks">${scenePlate(frames[f], toon)}${stapper}</div>` : "";
     }
     let opties;
     if (q.type === "hotspot" && q.media && q.media.lampen) {
@@ -678,12 +687,13 @@ async function onClick(e) {
     if (n >= run.items.length) { Q.park(run); run.overzicht = true; }
     else { run.overzicht = false; Q.ga(run, n); }
     render();
+    autoSpeel(run);
     return;
   }
   if (a === "kies" && run) { const t = Q.current(run).q.type; Q.choose(run, el.dataset.id); if (t !== "meervoudig" && t !== "volgorde" && run.gekozen.length === 1 && run.gekozen[0] === el.dataset.id && el.classList.contains("gekozen")) { /* second tap on the selected option confirms */ Q.check(run, S.history); } render(); return; }
   if (a === "controleer" && run) { Q.check(run, S.history); render(); return; }
   if (a === "fouttype" && run) { Q.setFouttype(run, el.dataset.type); render(); return; }
-  if (a === "volgende" && run) { if (Q.next(run)) await afronden(); else render(); return; }
+  if (a === "volgende" && run) { if (Q.next(run)) await afronden(); else { render(); autoSpeel(run); } return; }
   if (a === "herstel" && run) { herstelronde(run); render(); return; }
   if (a === "opnieuw" && run) { S.run = null; startRunIfNeeded(); render(); return; }
   if (a === "oefen-fouten") { S.run = null; go("quiz/fouten/fouten"); return; }
@@ -762,7 +772,16 @@ async function setSetting(naam, waarde) {
   if (naam === "tekst") { try { localStorage.setItem("tekst", waarde); } catch (e) { /* private mode */ } if (waarde === "groot") document.documentElement.dataset.tekst = "groot"; else delete document.documentElement.dataset.tekst; }
   if (naam === "taal") { try { localStorage.setItem("taal", waarde); } catch (e) { /* private mode */ } zetTaal(waarde); await laadVertalingen(); pasTaalToe(); await refresh(); }
 }
-/* a reeks plays its frames once, 1500 ms apart, like the CBR clip; the stepper stays for replays */
+/* In een examen heeft de vraag geen afspeelknop, dus start het beeld zelf zodra
+   je bij zo'n vraag aankomt. Buiten het examen blijft het jouw keuze. */
+function autoSpeel(run) {
+  if (!run || !run.examen || run.fase === "toon") return;
+  const it = Q.current(run);
+  if (!it || !it.q.media || !it.q.media.reeks) return;
+  speelReeks(run);
+}
+
+/* a reeks plays its frames once, 1500 ms apart, like the CBR clip; outside an exam the stepper stays for replays */
 function speelReeks(run) {
   const it = Q.current(run);
   const n = (it.q.media.reeks || []).length;

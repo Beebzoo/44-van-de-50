@@ -41,7 +41,7 @@ vraagt; blok 15 staat op 18 van de 60 en dat blijft een keuze, want het heeft
 | 11 | Licht, signalen en weer | 36 geschreven |
 | 12 | File, pech en ongeval | 36 geschreven, 6 tekeningen |
 | 13 | De bestuurder en de wet | 36 geschreven |
-| 14 | Voertuig, lading, aanhanger en milieu | 39 geschreven plus 4 gegenereerd |
+| 14 | Voertuig, lading, aanhanger en milieu | 63 geschreven plus 4 gegenereerd |
 | 15 | Alle borden op een rij | 18 geschreven plus 290 gegenereerd |
 
 Blok 3, 4 en 5 zijn twee keer door een checker gegaan. De tweede ronde vond in
@@ -53,9 +53,10 @@ inzien gewoon waar waren.
 De inhoud is klaar. Wat er nog ligt is app-werk en aankleding, in de volgorde
 waarin het de meeste waarde heeft:
 
-1. **De vier losse diagrammen** uit het bouwplan: remweg en stopafstand met een
-   snelheidsschuif, de dode hoek, andreaskruisen en de handsignalen. Geen van
-   vier bestaat, en het zijn precies de dingen die je niet uit tekst leert.
+1. De vier losse diagrammen **staan er sinds 11 september**: remweg en
+   stopafstand met een snelheidsschuif, de dode hoek, andreaskruisen en de
+   handsignalen, alle vier in `js/diagram.js` en in gebruik op leespagina's van
+   blok 2, 6, 7 en 9.
 2. **De renderer uitbreiden.** Verkeerslichten zijn er sinds 11 september
    (drie lampen voor verkeer en fietsers, twee voor voetgangers). Acht
    tekenaars liepen daarna in een ronde langs de kale leespagina's, en dit is
@@ -149,6 +150,47 @@ Het is geen poort in de bouw, want de terugval op Nederlands is veilig; het is
 de checklist voor wie vertaalt. De vertaalbrief die de vertalers kregen staat
 in de scratchpad van die ronde en is het waard om opnieuw te schrijven als er
 ooit een tweede taal bij komt.
+
+### Milieu, rijhulpsystemen en het beeld in het examen (11 september, late middag)
+
+Drie dingen erbij, na een leesronde die de inhoud tegen de bronnen legde in
+plaats van tegen zichzelf.
+
+**Twee gaten in de dekking gedicht.** Van de 255 boekpagina's werden er 233
+ergens aangehaald. De drie gaten van meer dan twee pagina's op rij waren p. 172
+tot 176 (eerste hulp, met opzet niet gebruikt want het CBR toetst het
+nauwelijks), p. 197 tot 199 (milieu) en p. 220 tot 223 (rijhulpsystemen). Die
+laatste twee zijn nu geschreven:
+
+- **Leespagina U14-P06** kreeg er tien blokken bij: de brandstofsymbolen met
+  hun vormen en codes, waarom de verkeerde brandstof schade geeft, hoe je de
+  katalysator sloopt en dat hij heet wordt, het roetfilter, AdBlue, en de drie
+  signalen waarmee je meteen naar de garage gaat.
+- **Leespagina U14-P07 is nieuw** en staat achter het dashboard: de vier
+  factoren voor in- en uitschakelen, de twaalf verplichte systemen en de acht
+  extra systemen, elk met wat ze doen.
+- **Batch 05 en 06**, samen 24 vragen, U14-Q040 tot en met U14-Q063. Blok 14
+  staat daarmee op 63 geschreven vragen en het onderwerp
+  verantwoorde_deelname_en_milieu ging van 19 naar 31 vragen, waarmee het niet
+  langer het dunste onderwerp van de bank is.
+
+**Het examen laat het bewegende beeld niet meer terugspoelen.** Een reeksvraag
+had ook in het oefenexamen zijn stapper en zijn knop Speel af, dus je kon
+beeldje voor beeldje heen en weer, en dat krijg je bij het CBR niet. In een
+examen speelt de reeks zichzelf nu af zodra je bij de vraag aankomt, en de
+knoppen zijn weg; de stipjes blijven staan zodat je ziet hoeveel beelden er
+zijn. Zodra het antwoord op tafel ligt mag je wel weer bladeren, want dan ben
+je aan het leren. Getest in een echte browser: twee reeksvragen in een
+oefenexamen, geen van beide met een knop, en de stip loopt vanzelf door.
+
+Twee dingen om te weten. Blader je in het examen terug naar een reeksvraag, dan
+speelt het beeld opnieuw af. Dat is met opzet, want anders is de vraag niet meer
+te beantwoorden, maar het is net iets soepeler dan het CBR. En de schrijver en
+de checker waren deze ronde dezelfde sessie, anders dan bij de blokken hiervoor.
+De ankers zijn machinaal geverifieerd en de vragen zijn een tweede keer tegen de
+bron gelezen, maar een onafhankelijke checker over batch 05 en 06 is nog de
+moeite waard.
+
 
 ### Hoe de parallelle rondes werkten
 

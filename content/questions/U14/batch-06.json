@@ -1,0 +1,385 @@
+{
+  "unit": "U14",
+  "batch": 6,
+  "vragen": [
+    {
+      "id": "U14-Q052",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je wisselt op de snelweg netjes met richtingaanwijzer van rijstrook. Gaat de rijstrookassistentie dan tegensturen om je in je eigen strook te houden?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. Het systeem ziet aan je richtingaanwijzer dat je bewust wisselt en laat je dan met rust.", "fouttype": "verkeerd_toegepast" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. Geef je richting aan, dan grijpt de rijstrookassistentie niet in, want je verlaat de strook met opzet.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "De rijstrookassistentie stuurt bij als je auto de rijstrook dreigt te verlaten, maar niet als je richting hebt aangegeven.",
+        "waarom": "De richtingaanwijzer is voor het systeem het teken dat de strook verlaten jouw bedoeling is.",
+        "valkuil": "Zonder richting aangeven stuurt hij wel bij, ook als jij met opzet uitwijkt.",
+        "onthoud": "Richting aan betekent assistentie uit."
+      },
+      "bronnen": [
+        { "boek": 222, "sectie": "13.5", "anker": "grijpt actief in op de stuurinrichting wanneer je auto de rijstrook dreigt" },
+        { "slide": 245, "anker": "Helpt bijsturen bij dreigend rijstrookverlaten; met richtingaanwijzer niet" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["adas", "rijstrookassistentie"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q053",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De snelheidsondersteuning in je auto piept je voortdurend toe en je zet hem daarom uit. Wat is er de volgende ochtend aan de hand als je weer instapt?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Hij staat automatisch weer aan", "feedback": "Goed. Je mag hem uitzetten, maar bij elke nieuwe rit begint het systeem weer ingeschakeld.", "fouttype": null },
+        { "id": "b", "tekst": "Hij blijft uit tot je hem zelf weer aanzet", "feedback": "Fout. Je keuze geldt alleen voor die rit; de volgende rit staat hij weer aan.", "fouttype": "niet_geweten" },
+        { "id": "c", "tekst": "Hij blijft uit, maar er komt een melding op je dashboard", "feedback": "Fout. Er is geen melding nodig, want het systeem heeft zichzelf gewoon weer ingeschakeld.", "fouttype": "niet_geweten" },
+        { "id": "d", "tekst": "Hij kan helemaal niet worden uitgezet", "feedback": "Fout. Uitzetten mag wel, alleen niet blijvend: de volgende rit staat hij weer aan.", "fouttype": "verkeerd_gelezen" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "De snelheidsondersteuning herkent snelheidslimieten en waarschuwt of remt; je mag hem uitschakelen, maar bij elke nieuwe rit staat hij automatisch weer aan.",
+        "waarom": "Zo kan niemand het systeem eenmalig uitzetten en er daarna nooit meer iets van merken.",
+        "valkuil": "Uitzetten mag dus wel. De vraag is alleen hoe lang het uit blijft.",
+        "onthoud": "Uitzetten geldt voor een rit, niet voor altijd."
+      },
+      "bronnen": [
+        { "boek": 221, "sectie": "13.5", "anker": "Dit systeem herkent snelheidslimieten en waarschuwt of remt als je te hard rijdt" },
+        { "boek": 221, "sectie": "13.5", "anker": "maar bij elke nieuwe rit staat het automatisch weer aan" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["adas", "isa", "snelheid"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q054",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Op welke factoren let je volgens het boek als je beslist om een rijhulpsysteem in of uit te schakelen?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "De weg waarop je rijdt", "feedback": "Goed. De weg is een van de vier factoren die het boek bij deze keuze noemt.", "fouttype": null },
+        { "id": "b", "tekst": "Het weer", "feedback": "Goed. Regen, sneeuw en mist veranderen wat een systeem kan waarnemen.", "fouttype": null },
+        { "id": "c", "tekst": "Het verkeer om je heen", "feedback": "Goed. Drukte en het soort verkeer horen bij de vier factoren.", "fouttype": null },
+        { "id": "d", "tekst": "Je eigen conditie als bestuurder", "feedback": "Goed. Hoe fit je bent telt mee, want jij blijft degene die rijdt.", "fouttype": null },
+        { "id": "e", "tekst": "Het tijdstip waarop je vertrekt", "feedback": "Fout. Het tijdstip staat niet in het rijtje van vier; het weer en het verkeer wel.", "fouttype": "verkeerd_toegepast" },
+        { "id": "f", "tekst": "De leeftijd van je auto", "feedback": "Fout. Hoe oud je auto is verandert niets aan deze afweging.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a", "b", "c", "d"],
+      "uitleg": {
+        "regel": "Schakel een rijhulpsysteem in of uit wanneer de situatie daarom vraagt, en let daarbij op de weg, het weer, het verkeer en je eigen conditie.",
+        "waarom": "Die vier bepalen samen of een systeem je in deze situatie echt helpt of juist in de weg zit.",
+        "valkuil": "Het is een bewuste keuze per situatie, niet iets wat je een keer instelt en vergeet.",
+        "onthoud": "Weg, weer, verkeer en jezelf."
+      },
+      "bronnen": [
+        { "boek": 220, "sectie": "13.5", "anker": "Schakel een rijhulpsysteem in of uit wanneer de situatie dat vraagt" },
+        { "boek": 220, "sectie": "13.5", "anker": "Daarbij let je op vier factoren: de weg, het weer, het verkeer" },
+        { "slide": 243, "anker": "let daarbij op 4 factoren: de weg, het weer, het verkeer" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["adas", "rijhulpsystemen"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q055",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat legt de gegevensrecorder voor incidenten vast?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Je rijgedrag vlak voor, tijdens en na een botsing", "feedback": "Goed. Die gegevens kunnen achteraf gebruikt worden door bijvoorbeeld de politie.", "fouttype": null },
+        { "id": "b", "tekst": "Elke kilometer die je rijdt, je hele autoleven lang", "feedback": "Fout. Het gaat om de momenten rond een botsing, niet om een doorlopend logboek.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "Beeld uit een camera die naar de weg kijkt", "feedback": "Fout. Het systeem registreert rijgegevens, geen beeldopnamen van de weg.", "fouttype": "niet_geweten" },
+        { "id": "d", "tekst": "Alleen je snelheid op het moment van de botsing", "feedback": "Fout. Het gaat verder dan dat: ook het gedrag voor en na de botsing wordt vastgelegd.", "fouttype": "verkeerd_gelezen" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "De gegevensrecorder voor incidenten registreert je rijgedrag voor, tijdens en na een botsing.",
+        "waarom": "Achteraf is anders nauwelijks vast te stellen wat er in die paar seconden precies gebeurde.",
+        "valkuil": "Het is een verplicht systeem op nieuwe auto's, dus ook zonder dashcam liggen die gegevens er.",
+        "onthoud": "Voor, tijdens en na de botsing."
+      },
+      "bronnen": [
+        { "boek": 221, "sectie": "13.5", "anker": "Dit systeem registreert je rijgedrag voor, tijdens en na een botsing" },
+        { "boek": 221, "sectie": "13.5", "anker": "Deze gegevens kunnen achteraf gebruikt worden door bijvoorbeeld de politie" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": ["adas", "edr"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q056",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In de auto van een kennis zit een alcoholslot. Moet hij eerst blazen voordat de auto wil starten?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Goed. Met zo'n slot start de auto pas nadat de bestuurder een blaastest heeft gedaan zonder alcohol.", "fouttype": null },
+        { "id": "nee", "tekst": "Nee", "feedback": "Fout. Dat is juist waar een alcoholslot voor is: zonder negatieve blaastest slaat de motor niet aan.", "fouttype": "niet_geweten" }
+      ],
+      "correct": ["ja"],
+      "uitleg": {
+        "regel": "Een auto met een alcoholslot kan pas gestart worden nadat de bestuurder een blaastest heeft gedaan die geen alcohol aantoont.",
+        "waarom": "Het slot zet de drempel op het moment dat starten nog te voorkomen is, in plaats van achteraf te beboeten.",
+        "valkuil": "Op nieuwe auto's zit niet het slot zelf, maar wel de aansluiting waarmee het eenvoudig te installeren is.",
+        "onthoud": "Eerst blazen, dan pas starten."
+      },
+      "bronnen": [
+        { "boek": 221, "sectie": "13.5", "anker": "kunnen alleen worden gestart nadat de bestuurder een (negatieve) blaastest heeft gedaan" },
+        { "slide": 245, "anker": "Maakt installatie van een alcoholslot mogelijk; starten kan pas na een negatieve blaastest" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": ["adas", "alcoholslot"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q057",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je moet op de snelweg heel hard remmen voor een plotselinge file. Wat doet het noodstopsignaal op dat moment voor je?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Het laat je achterlichten knipperen om je achterliggers te waarschuwen", "feedback": "Goed. Een knipperend achterlicht valt veel eerder op dan een remlicht dat gewoon aangaat.", "fouttype": null },
+        { "id": "b", "tekst": "Het remt zelfstandig nog wat harder mee", "feedback": "Fout. Zelf meeremmen doet het noodremsysteem; dit systeem waarschuwt alleen naar achteren.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "Het zet je alarmlichten aan tot je weer optrekt", "feedback": "Fout. Het gaat om knipperende achterlichten tijdens het harde remmen, niet om je alarmlichten.", "fouttype": "verkeerd_gelezen" },
+        { "id": "d", "tekst": "Het waarschuwt je zelf met een geluidssignaal", "feedback": "Fout. De waarschuwing is voor het verkeer achter je bedoeld, niet voor jou.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "Het noodstopsignaal laat je achterlichten knipperen om achterliggers te waarschuwen als je hard remt.",
+        "waarom": "Een knipperlicht trekt sneller de aandacht dan een remlicht, en bij een noodstop telt elke tiende seconde.",
+        "valkuil": "Verwar het niet met het noodremsysteem, dat juist jouw auto afremt.",
+        "onthoud": "Noodstopsignaal waarschuwt naar achteren."
+      },
+      "bronnen": [
+        { "boek": 221, "sectie": "13.5", "anker": "Dit systeem activeert knipperende achterlichten om achterliggers te waarschuwen als je hard remt" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["adas", "ess", "remmen"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q058",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt achteruit een parkeervak uit met aan weerszijden een hoge bestelbus, zodat je pas laat de weg achter je kunt zien. Welk systeem is hiervoor bedoeld?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "De dwarsverkeerwaarschuwing achter", "feedback": "Goed. Die waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert.", "fouttype": null },
+        { "id": "b", "tekst": "De dodehoekassistent bij afslaan", "feedback": "Fout. Die let op fietsers en voetgangers als je afslaat, niet als je achteruit een vak uitrijdt.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "De kruispuntassistent", "feedback": "Fout. Die waarschuwt voor tegemoetkomend verkeer als je op een kruispunt links afslaat.", "fouttype": "verkeerd_toegepast" },
+        { "id": "d", "tekst": "De stilstandassistent", "feedback": "Fout. Die houdt je auto stil in een file of voor een stoplicht en kijkt nergens naar.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "De dwarsverkeerwaarschuwing achter waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert.",
+        "waarom": "Tussen twee hoge voertuigen zie je zelf pas iets als je er al half tussenuit bent.",
+        "valkuil": "Achteruitrijdetectie kijkt recht achter je; het kruisende verkeer van opzij is een ander systeem.",
+        "onthoud": "Van opzij bij achteruitrijden is dwarsverkeer."
+      },
+      "bronnen": [
+        { "boek": 223, "sectie": "13.5", "anker": "Waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert" },
+        { "boek": 223, "sectie": "13.5", "anker": "Waarschuwt bij het afslaan voor fietsers of voetgangers die vanuit de dode hoek naderen" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "nice",
+      "tags": ["adas", "achteruitrijden"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q059",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Waar laat het informatiesysteem voor de dode hoek zijn waarschuwing zien?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Met een oplichtend icoon in een van je buitenspiegels", "feedback": "Goed. Daar kijk je toch al als je van strook wilt wisselen, dus daar valt het op.", "fouttype": null },
+        { "id": "b", "tekst": "Met een pijl in je binnenspiegel", "feedback": "Fout. Het systeem meldt zich in de buitenspiegel aan de kant waar iets rijdt.", "fouttype": "niet_geweten" },
+        { "id": "c", "tekst": "Alleen met een geluidssignaal", "feedback": "Fout. Het gaat juist om een zichtbaar icoon op de plek waar je naar kijkt.", "fouttype": "niet_geweten" },
+        { "id": "d", "tekst": "Op de middelste meter van je dashboard", "feedback": "Fout. Daar kijk je niet als je van rijstrook wilt wisselen, dus daar staat het niet.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "Het informatiesysteem dode hoek waarschuwt je via een oplichtend icoon in je buitenspiegel voor voertuigen of objecten in de dode hoek naast en achter je.",
+        "waarom": "De waarschuwing staat precies daar waar je al kijkt voordat je van strook wisselt.",
+        "valkuil": "Het systeem haalt de dode hoek niet weg, het meldt alleen dat er iets in zit.",
+        "onthoud": "Dode hoek meldt zich in de buitenspiegel."
+      },
+      "bronnen": [
+        { "boek": 221, "sectie": "13.5", "anker": "voor voertuigen of objecten in de dode hoek naast en achter je" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": ["adas", "dode-hoek"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q060",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke van deze systemen zitten tegenwoordig verplicht op een nieuwe auto?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Bandenspanningscontrole", "feedback": "Goed. Die monitort de spanning in je banden en waarschuwt op je dashboard als die te laag wordt.", "fouttype": null },
+        { "id": "b", "tekst": "Noodremsysteem", "feedback": "Goed. Die hoort bij de verplichte systemen en remt zelf als jij niet op de waarschuwing reageert.", "fouttype": null },
+        { "id": "c", "tekst": "Achteruitrijdetectie", "feedback": "Goed. Die detecteert mensen en objecten achter het voertuig bij achteruitrijden.", "fouttype": null },
+        { "id": "d", "tekst": "Adaptieve cruise control", "feedback": "Fout. Handig, maar het hoort bij de systemen die er los bij kunnen zitten.", "fouttype": "verkeerd_toegepast" },
+        { "id": "e", "tekst": "Automatische parkeerassistent", "feedback": "Fout. Ook dat is een extra systeem en geen verplichting op een nieuwe auto.", "fouttype": "verkeerd_toegepast" },
+        { "id": "f", "tekst": "Nachtvisiesysteem", "feedback": "Fout. Dat komt op weinig auto's voor en staat niet in de verplichte rij.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a", "b", "c"],
+      "uitleg": {
+        "regel": "Op nieuwe auto's zitten verplicht onder meer de achteruitrijdetectie, de bandenspanningscontrole, de botswaarschuwing, het noodremsysteem en de snelheidsondersteuning.",
+        "waarom": "Dit zijn de systemen die ongelukken helpen voorkomen, en niet de systemen die vooral comfort geven.",
+        "valkuil": "Cruise control en parkeerhulp voelen moderner, maar juist die zijn niet verplicht.",
+        "onthoud": "Verplicht is veiligheid, niet comfort."
+      },
+      "bronnen": [
+        { "boek": 220, "sectie": "13.5", "anker": "In de loop van de jaren zijn steeds meer rijhulpsystemen verplicht geworden" },
+        { "boek": 220, "sectie": "13.5", "anker": "Dit systeem monitort de spanning in je banden en geeft een waarschuwing" },
+        { "boek": 220, "sectie": "13.5", "anker": "Dit systeem detecteert mensen en objecten achter het voertuig bij achteruitrijden" },
+        { "boek": 222, "sectie": "13.5", "anker": "Handhaaft automatisch een instelbare volgafstand tot het voertuig voor je" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": ["adas", "rijhulpsystemen"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q061",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De vermoeidheidswaarschuwing merkt aan je rijgedrag en je stuurbewegingen dat je slaperig wordt. Neemt dat systeem daarna het sturen van je over?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. Het systeem detecteert en waarschuwt. Rijden en pauze nemen blijft jouw taak.", "fouttype": "verkeerd_toegepast" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. Het analyseert je rijgedrag en stuurpatronen en waarschuwt je, meer niet.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "De vermoeidheidswaarschuwing analyseert je rijgedrag en stuurpatronen om slaperigheid of verminderde aandacht te detecteren.",
+        "waarom": "Een systeem kan zien dat je aandacht wegzakt, maar uitgerust raken kan alleen jijzelf.",
+        "valkuil": "Geen enkel rijhulpsysteem neemt de rijtaak over; ze ondersteunen je alleen.",
+        "onthoud": "Het systeem waarschuwt, jij neemt de pauze."
+      },
+      "bronnen": [
+        { "boek": 222, "sectie": "13.5", "anker": "Dit systeem analyseert je rijgedrag en stuurpatronen om slaperigheid of verminderde aandacht te detecteren" },
+        { "boek": 219, "sectie": "13.5", "anker": "de systemen hebben grenzen en kunnen niet in elke situatie ingrijpen" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["adas", "vermoeidheid"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q062",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je zet op een rustige snelweg de adaptieve cruise control aan. Wat neemt die voor je waar?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Hij houdt de volgafstand aan die jij hebt ingesteld en past je snelheid aan het verkeer aan", "feedback": "Goed. Dat is het verschil met een gewone cruise control, die alleen een vaste snelheid vasthoudt.", "fouttype": null },
+        { "id": "b", "tekst": "Hij houdt je auto in het midden van je rijstrook", "feedback": "Fout. Dat is de rijstrookcentrering; de cruise control regelt afstand en snelheid.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "Hij remt alleen in als een botsing dreigt", "feedback": "Fout. Dat is het noodremsysteem. De cruise control regelt je snelheid doorlopend.", "fouttype": "verkeerd_toegepast" },
+        { "id": "d", "tekst": "Hij neemt de hele rijtaak over zolang je op de snelweg blijft", "feedback": "Fout. Geen enkel rijhulpsysteem neemt de rijtaak over; jij blijft verantwoordelijk.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "De adaptieve cruise control handhaaft automatisch een instelbare volgafstand tot het voertuig voor je en past je snelheid aan het verkeer aan.",
+        "waarom": "Hij kijkt naar de auto voor je in plaats van alleen naar de snelheidsmeter.",
+        "valkuil": "Je kunt de volgafstand zelf kiezen, dus een korte stand ontslaat je niet van meekijken.",
+        "onthoud": "Adaptief betekent kijkend naar je voorligger."
+      },
+      "bronnen": [
+        { "boek": 222, "sectie": "13.5", "anker": "Handhaaft automatisch een instelbare volgafstand tot het voertuig voor je" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["adas", "cruise-control", "volgafstand"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q063",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto waarschuwt je opeens dat je aandacht van de weg af is, terwijl je net even naar je bijrijder keek. Kan een camera aan je oogrichting en je hoofdhouding zien dat je afgeleid bent?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Goed. De afleidingsdetectie bewaakt met camera's je oogrichting en de houding van je hoofd.", "fouttype": null },
+        { "id": "nee", "tekst": "Nee", "feedback": "Fout. Dat is precies wat de afleidingsdetectie doet, en die zit verplicht op nieuwe auto's.", "fouttype": "niet_geweten" }
+      ],
+      "correct": ["ja"],
+      "uitleg": {
+        "regel": "De afleidingsdetectie bewaakt met een of meer camera's je oogrichting en de positie van je hoofd, en waarschuwt je als je afgeleid bent.",
+        "waarom": "Waar je ogen naartoe wijzen zegt meer over je aandacht dan wat je handen doen.",
+        "valkuil": "Even naar je bijrijder kijken kan genoeg zijn om de waarschuwing te laten afgaan.",
+        "onthoud": "De camera kijkt naar jou, niet naar de weg."
+      },
+      "bronnen": [
+        { "boek": 221, "sectie": "13.5", "anker": "bewaakt met een of meer camera's je oogrichting" }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["adas", "afleiding"],
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

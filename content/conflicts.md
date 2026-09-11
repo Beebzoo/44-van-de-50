@@ -46,3 +46,8 @@ Zie `content/facts/REGISTRY-NOTES.md`, deel (d), voor twaalf getallen waarop boe
 ## 2026-09-11, tweede ronde U05
 
 1. **Erfborden, boek p. 89 en 90 tegenover hoofdstuk 14 (p. 243 en 244).** De fotobijschriften bij sectie 5.3 noemen het erfbord G7 en het bord einde erf G8. Hoofdstuk 14, de cursus op slide 89 en het bordenmanifest geven G5 voor erf en G6 voor einde erf. Hoofdstuk 14 is leidend. Blok 5 gebruikt overal G5 en G6, ook in U05-Q012, U05-Q036 en op leespagina U05-P03. HANDOFF.md verwees al naar dit conflict terwijl het hier nog niet stond; vandaar deze regel.
+
+## 2026-09-11, batches U14-05 en U14-06
+
+1. **De afkorting LCA staat twee keer in het boek.** Op p. 222 hoort LCA bij "Adaptieve rijstrookcentrering", op p. 223 bij "Rijstrookwisselassistent". De transcriptie merkt dat zelf al op. Er is geen manier om te kiezen welke het examen bedoelt, dus leespagina U14-P07 laat allebei die rijen weg en geen enkele vraag gebruikt LCA. De andere afkortingen op die twee pagina's zijn wel eenduidig.
+2. **Het boek noemt bij het nachtvisiesysteem "Dicteert via infraroodcamera voetgangers en dieren".** Dat is een zetfout voor "Detecteert". Het systeem staat niet op de leespagina en er is geen vraag over, dus er hoefde niets gekozen te worden.

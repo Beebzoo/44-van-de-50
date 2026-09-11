@@ -1,0 +1,380 @@
+{
+  "unit": "U14",
+  "batch": 5,
+  "vragen": [
+    {
+      "id": "U14-Q040",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto rijdt op benzine. Bij een onbekend tankstation pak je het vulpistool met een vierkant symbool waarin B7 staat. Is dat de goede pomp voor jou?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. Het vierkante symbool hoort bij diesel, en B7 is diesel met biobrandstof erin. Voor benzine moet je bij het ronde symbool zijn.", "fouttype": "verkeerd_toegepast" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. Een vierkant symbool betekent diesel. Benzine staat altijd in een rond symbool, bijvoorbeeld E10.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "Op het vulpistool staat een codesymbool: rond is benzine, vierkant is diesel en een ruit is gas.",
+        "waarom": "De vorm werkt als een snelle controle, ook op een station waar je de woorden op de pomp niet leest.",
+        "valkuil": "De codes lijken op elkaar. Kijk eerst naar de vorm en pas daarna naar de letters.",
+        "onthoud": "Rond is benzine, vierkant is diesel, ruit is gas."
+      },
+      "bronnen": [
+        { "boek": 199, "sectie": "12.1", "anker": "Benzine herken je aan het ronde, diesel aan het vierkante en gas" },
+        { "slide": 217, "anker": "Op het vulpistool van de brandstofpomp staat met een code het type brandstof aangegeven" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["milieu", "tanken", "brandstof"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q041",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Welke vorm heeft het brandstofsymbool voor gas op het vulpistool?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Een cirkel", "feedback": "Fout. De cirkel is voorbehouden aan benzine, bijvoorbeeld de code E10.", "fouttype": "niet_geweten" },
+        { "id": "b", "tekst": "Een vierkant", "feedback": "Fout. Het vierkant hoort bij diesel en bij synthetische brandstof.", "fouttype": "niet_geweten" },
+        { "id": "c", "tekst": "Een ruit", "feedback": "Goed. De ruit is de vorm voor gas, dus voor LPG en ook voor waterstof.", "fouttype": null },
+        { "id": "d", "tekst": "Een driehoek", "feedback": "Fout. Een driehoek komt in deze rij brandstofsymbolen helemaal niet voor.", "fouttype": "niet_geweten" }
+      ],
+      "correct": ["c"],
+      "uitleg": {
+        "regel": "Gas herken je op de pomp aan het ruitvormige symbool, benzine aan het ronde en diesel aan het vierkante.",
+        "waarom": "Drie vormen voor drie soorten brandstof is minder te onthouden dan alle losse codes.",
+        "valkuil": "Waterstof draagt ook een ruit, want dat valt in dezelfde groep als gas.",
+        "onthoud": "Ruit is gas."
+      },
+      "bronnen": [
+        { "boek": 199, "sectie": "12.1", "anker": "Benzine herken je aan het ronde, diesel aan het vierkante en gas" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": ["milieu", "tanken", "brandstof"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q042",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je merkt bij de pomp dat je de verkeerde brandstof hebt getankt. De auto staat nog stil en er staat iemand achter je te wachten. Mag je hem nog even een stukje wegrijden?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. Zodra je start gaat de verkeerde brandstof door je systeem, en juist dat richt de schade aan.", "fouttype": "verkeerd_toegepast" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. Je start de motor niet meer. Roep deskundige hulp in om je brandstofsysteem leeg te laten maken.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "Heb je verkeerd getankt, start de motor dan niet en laat je brandstofsysteem door een deskundige leeghalen.",
+        "waarom": "Zolang de motor uit blijft, zit de verkeerde brandstof alleen nog in de tank en niet in de leidingen en de pomp.",
+        "valkuil": "Een klein stukje rijden voelt onschuldig, maar het is precies de handeling die de schade veroorzaakt.",
+        "onthoud": "Verkeerd getankt betekent motor uit laten."
+      },
+      "bronnen": [
+        { "slide": 218, "anker": "Onderdelen van je motor en brandstofsysteem kunnen ernstig beschadigd raken" },
+        { "slide": 218, "anker": "Roep deskundige hulp in om je brandstofsysteem leeg te laten maken" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["milieu", "tanken", "brandstof"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q043",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "In je moderne dieselauto is per ongeluk benzine gegaan en je bent toch doorgereden. Wat is daarvan het gevolg?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Er ontstaat schade aan het brandstofsysteem, want benzine is minder vet dan diesel", "feedback": "Goed. Het boek noemt precies dit: tijdens het rijden loopt het brandstofsysteem schade op.", "fouttype": null },
+        { "id": "b", "tekst": "De motor loopt tijdelijk zuiniger en verder gebeurt er niets", "feedback": "Fout. Zuiniger wordt hij zeker niet, en de schade aan het brandstofsysteem gaat gewoon door.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "Er gebeurt niets zolang de tank nog halfvol diesel zit", "feedback": "Fout. Ook verdund blijft benzine minder smeren, dus het brandstofsysteem loopt schade op.", "fouttype": "verkeerd_toegepast" },
+        { "id": "d", "tekst": "Alleen de katalysator raakt beschadigd, de rest niet", "feedback": "Fout. Het boek wijst hier juist op schade aan het brandstofsysteem tijdens het rijden.", "fouttype": "verkeerd_gelezen" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "Benzine in een moderne dieselauto beschadigt tijdens het rijden het brandstofsysteem, omdat benzine minder vet is dan diesel.",
+        "waarom": "De dieselpomp rekent op de smering van de brandstof zelf, en die valt met benzine weg.",
+        "valkuil": "Andersom is het ook mis: diesel in een benzinemotor ontbrandt veel slechter, waardoor de motor niet lekker loopt.",
+        "onthoud": "Verkeerde brandstof plus rijden is schade."
+      },
+      "bronnen": [
+        { "boek": 200, "sectie": "12.1", "anker": "bij een moderne dieselauto benzine tankt, ontstaat er tijdens het rijden schade" },
+        { "boek": 200, "sectie": "12.1", "anker": "Diesel ontbrandt namelijk veel slechter dan benzine, waardoor de motor niet lekker zal lopen" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["milieu", "tanken", "brandstof"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q044",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke van deze gewoontes kunnen je katalysator beschadigen?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Steeds lang doorstarten als de motor niet meteen aanslaat", "feedback": "Goed. Bij langdurige startpogingen komt er onverbrande brandstof in de katalysator terecht.", "fouttype": null },
+        { "id": "b", "tekst": "Het contact uitschakelen terwijl de auto nog rijdt", "feedback": "Goed. Ook dan komt er onverbrande brandstof in de katalysator, en daar kan hij van kapotgaan.", "fouttype": null },
+        { "id": "c", "tekst": "De brandstoftank helemaal leeg rijden", "feedback": "Goed. Het boek noemt dit met zoveel woorden als iets wat je moet vermijden voor je katalysator.", "fouttype": null },
+        { "id": "d", "tekst": "Na het starten direct rustig wegrijden", "feedback": "Fout. Dat is juist het advies voor zuinig rijden en het schaadt de katalysator niet.", "fouttype": "verkeerd_toegepast" },
+        { "id": "e", "tekst": "De auto laten uitrollen in de versnelling als je moet stoppen", "feedback": "Fout. Dat hoort bij zuinig rijden en heeft niets met schade aan de katalysator te maken.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a", "b", "c"],
+      "uitleg": {
+        "regel": "De katalysator raakt beschadigd als er onverbrande brandstof in komt, dus vermijd lange startpogingen, het contact uitzetten tijdens het rijden en de tank leeg rijden.",
+        "waarom": "Onverbrande brandstof ontsteekt in de hete katalysator en dat sloopt het binnenwerk.",
+        "valkuil": "Aanduwen of slepen met een warme motor hoort in dit rijtje thuis.",
+        "onthoud": "Onverbrande brandstof is de vijand van de katalysator."
+      },
+      "bronnen": [
+        { "boek": 200, "sectie": "12.1", "anker": "kan beschadigd raken als er onverbrande brandstof in terecht komt" },
+        { "boek": 200, "sectie": "12.1", "anker": "langdurige startpogingen te vermijden, de auto niet aan te duwen" },
+        { "boek": 200, "sectie": "12.1", "anker": "bij een rijdende auto nooit het contact uit te schakelen" },
+        { "boek": 200, "sectie": "12.1", "anker": "de brandstoftank nooit helemaal leeg te rijden" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": ["milieu", "katalysator", "onderhoud"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q045",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Na een lange rit zet je je auto in de berm, boven een dikke laag droge bladeren. Is dat een verstandige plek?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. De uitlaat en de katalysator zijn na een rit gloeiend heet en droge bladeren vatten daar vlam van.", "fouttype": "niet_geweten" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. Parkeer niet boven brandbaar materiaal als droge bladeren of verdord gras, want de katalysator wordt erg heet.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "De katalysator wordt net als de rest van de uitlaat erg heet, dus parkeer je auto niet boven brandbare materialen.",
+        "waarom": "Onder de auto blijft de hitte hangen en droog blad heeft weinig nodig om te gaan smeulen.",
+        "valkuil": "Verdord gras in een berm telt net zo goed mee als een hoop bladeren.",
+        "onthoud": "Hete uitlaat hoort niet boven droog blad."
+      },
+      "bronnen": [
+        { "boek": 200, "sectie": "12.1", "anker": "parkeer je auto dus niet boven brandbare materialen als droge bladeren" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["milieu", "katalysator", "parkeren"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q046",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat doet het roetfilter in het uitlaatsysteem van een dieselauto?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Het filtert kleine roetdeeltjes uit de uitlaatgassen, want die zijn kankerverwekkend", "feedback": "Goed. Dat is precies waarvoor een dieselauto naast de katalysator ook nog een roetfilter heeft.", "fouttype": null },
+        { "id": "b", "tekst": "Het zet schadelijke uitlaatgassen om in niet-schadelijke stoffen", "feedback": "Fout. Dat is het werk van de katalysator, die er bij een diesel apart naast zit.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "Het dempt het geluid van de uitlaat", "feedback": "Fout. Dempen doet de geluiddemper; het roetfilter vangt deeltjes af.", "fouttype": "verkeerd_toegepast" },
+        { "id": "d", "tekst": "Het meet hoeveel je auto uitstoot voor de milieuzone", "feedback": "Fout. Je emissieklasse staat in het kentekenregister, daar meet het roetfilter niets voor.", "fouttype": "niet_geweten" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "Een dieselauto heeft naast de katalysator een roetfilter, dat de kleine en kankerverwekkende roetdeeltjes uit de uitlaatgassen haalt.",
+        "waarom": "De katalysator pakt de gassen aan, maar de vaste deeltjes vraagt om een filter.",
+        "valkuil": "Katalysator en roetfilter zijn twee verschillende dingen en doen elk iets anders.",
+        "onthoud": "Katalysator pakt gassen, roetfilter pakt deeltjes."
+      },
+      "bronnen": [
+        { "boek": 200, "sectie": "12.1", "anker": "Dieselauto's hebben ook nog een roetfilter in het uitlaatsysteem" },
+        { "boek": 200, "sectie": "12.1", "anker": "Daarin worden kleine roetdeeltjes uitgefilterd, die kankerverwekkend zijn" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["milieu", "roetfilter", "diesel"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q047",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "In een dieselauto kan de katalysator een hulpvloeistof gebruiken om de uitlaatgassen te reinigen. Zit die vloeistof in een apart reservoir met een blauwe dop?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Goed. Die hulpvloeistof heet AdBlue en zit in een eigen reservoir met een blauwe dop.", "fouttype": null },
+        { "id": "nee", "tekst": "Nee", "feedback": "Fout. Er is wel degelijk een apart reservoir met een blauwe dop, en een lampje zegt wanneer je moet bijvullen.", "fouttype": "niet_geweten" }
+      ],
+      "correct": ["ja"],
+      "uitleg": {
+        "regel": "Bij een dieselmotor reinigt de katalysator de uitlaatgassen soms met AdBlue, uit een apart reservoir met een blauwe dop.",
+        "waarom": "Het is geen brandstof, dus het krijgt een eigen vulopening die je niet met de tank verwart.",
+        "valkuil": "Een lampje op je dashboard geeft aan wanneer het bijgevuld moet worden.",
+        "onthoud": "Blauwe dop betekent AdBlue."
+      },
+      "bronnen": [
+        { "boek": 200, "sectie": "12.1", "anker": "wordt in de katalysator soms een hulpvloeistof (AdBlue) gebruikt om de uitlaatgassen te reinigen" },
+        { "boek": 200, "sectie": "12.1", "anker": "Je auto heeft dan een apart reservoir (met blauwe dop) voor deze vloeistof" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "nice",
+      "tags": ["milieu", "adblue", "onderhoud"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q048",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Bij welke van deze verschijnselen ga je meteen naar de garage voor een technische controle?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Je brandstofverbruik loopt zonder aanwijsbare reden op", "feedback": "Goed. Meer verbruik zonder reden wijst op een technisch probleem, en dat belast ook het milieu.", "fouttype": null },
+        { "id": "b", "tekst": "De motor loopt onregelmatig", "feedback": "Goed. Een onregelmatig lopende motor staat in het boek in hetzelfde rijtje als meer verbruik.", "fouttype": null },
+        { "id": "c", "tekst": "Er komt donkere walm uit de uitlaat", "feedback": "Goed. Donkere walm betekent onvolledige verbranding en hoort meteen nagekeken te worden.", "fouttype": null },
+        { "id": "d", "tekst": "De ruitenwissers piepen over de voorruit", "feedback": "Fout. Vervelend en slecht voor je zicht, maar het is geen signaal van een vervuilende storing.", "fouttype": "verkeerd_toegepast" },
+        { "id": "e", "tekst": "De radio valt af en toe weg", "feedback": "Fout. Dat zegt niets over de motor of over de uitstoot van je auto.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a", "b", "c"],
+      "uitleg": {
+        "regel": "Laat onmiddellijk een technische controle doen als je brandstofverbruik toeneemt, de motor onregelmatig loopt of er donkere walm uit de uitlaat komt.",
+        "waarom": "Alle drie wijzen ze op verbranding die niet klopt, en die kost brandstof en vervuilt extra.",
+        "valkuil": "Het gaat hier om de motor, niet om comfortdingen die stuk zijn.",
+        "onthoud": "Meer verbruik, onregelmatig lopen of walm betekent garage."
+      },
+      "bronnen": [
+        { "boek": 199, "sectie": "12.1", "anker": "laat onmiddellijk een technische controle uitvoeren als je merkt dat" },
+        { "boek": 199, "sectie": "12.1", "anker": "het brandstofverbruik toeneemt, de motor onregelmatig loopt" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": ["milieu", "onderhoud", "storing"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q049",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De katalysator werkt pas goed als de motor op temperatuur is, na 10 tot 15 minuten rijden. Wat betekent dat voor het korte ritje naar de supermarkt om de hoek?",
+      "media": null,
+      "opties": [
+        { "id": "a", "tekst": "Dat ritje is per kilometer juist relatief vervuilend", "feedback": "Goed. De katalysator is nog koud, dus hij zet de schadelijke gassen nog nauwelijks om.", "fouttype": null },
+        { "id": "b", "tekst": "Dat ritje is juist het schoonst, want de motor draait kort", "feedback": "Fout. Kort draaien betekent hier koud draaien, en koud is precies wanneer de katalysator niet werkt.", "fouttype": "verkeerd_toegepast" },
+        { "id": "c", "tekst": "Het maakt niets uit, de katalysator werkt altijd hetzelfde", "feedback": "Fout. Het boek zegt uitdrukkelijk dat hij pas goed werkt als de motor op temperatuur is.", "fouttype": "verkeerd_gelezen" },
+        { "id": "d", "tekst": "De katalysator raakt van korte ritjes beschadigd", "feedback": "Fout. Hij werkt alleen nog niet goed. Schade komt van onverbrande brandstof, niet van een korte rit.", "fouttype": "verkeerd_toegepast" }
+      ],
+      "correct": ["a"],
+      "uitleg": {
+        "regel": "De katalysator zet de schadelijke uitlaatgassen pas voor het grootste deel om als de motor op temperatuur is.",
+        "waarom": "De chemische reactie erin heeft hitte nodig, en die is er op de eerste kilometers nog niet.",
+        "valkuil": "Korte ritten voelen onschuldig, maar per kilometer zijn ze het vuilst.",
+        "onthoud": "Koude katalysator betekent weinig reiniging."
+      },
+      "bronnen": [
+        { "boek": 200, "sectie": "12.1", "anker": "werkt pas goed als de automotor op temperatuur is, na 10 tot 15 minuten rijden" },
+        { "boek": 200, "sectie": "12.1", "anker": "worden de schadelijke uitlaatgassen voor 90% omgezet in niet-schadelijke stoffen" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": ["milieu", "katalysator", "zuinig-rijden"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q050",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt een automaat en trapt het gaspedaal helemaal in om vlot in te halen, zodat de automaat terugschakelt. Is dat een zuinige manier van rijden?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. Dit is de kickdown, en die kost juist veel meer brandstof dan normaal optrekken.", "fouttype": "verkeerd_toegepast" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. De kickdown is handig als je snel wilt inhalen, maar het verbruik ligt er fors hoger door.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "Ook met een automaat rijd je zuinig door met gevoel gas te geven; gebruik de kickdown zo min mogelijk.",
+        "waarom": "Bij een kickdown schakelt de automaat terug en jaagt de motor omhoog in de toeren, en dat kost brandstof.",
+        "valkuil": "Zuinig rijden met een automaat kan wel degelijk, alleen stuur je met je voet in plaats van met de pook.",
+        "onthoud": "Kickdown is snel, niet zuinig."
+      },
+      "bronnen": [
+        { "boek": 199, "sectie": "12.1", "anker": "Gebruik de zogenaamde 'kickdown-inrichting' daarom zo min mogelijk" },
+        { "boek": 199, "sectie": "12.1", "anker": "maar het brandstofverbruik is wel veel hoger" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": ["milieu", "zuinig-rijden", "automaat"],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q051",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een rustige avond je straat uit en geeft onderweg een paar keer flink gas, gewoon omdat je de motor graag hoort. Mag dat?",
+      "media": null,
+      "opties": [
+        { "id": "ja", "tekst": "Ja", "feedback": "Fout. Spelen met het gaspedaal valt onder onnodig geluid, en dat is een vorm van milieuvervuiling.", "fouttype": "verkeerd_toegepast" },
+        { "id": "nee", "tekst": "Nee", "feedback": "Goed. Spelen met het gaspedaal is verboden, net als wegrijden met piepende banden en onnodig toeteren.", "fouttype": null }
+      ],
+      "correct": ["nee"],
+      "uitleg": {
+        "regel": "Onnodig geluid maken is een vorm van milieuvervuiling: spelen met het gaspedaal, wegrijden met piepende banden en onnodig toeteren zijn verboden.",
+        "waarom": "Geluid belast je omgeving net zo goed als uitstoot, alleen merk je het op een andere manier.",
+        "valkuil": "Een lawaaiige sportuitlaat monteren mag om dezelfde reden niet.",
+        "onthoud": "Geluid is ook vervuiling."
+      },
+      "bronnen": [
+        { "boek": 201, "sectie": "12.2", "anker": "Ook spelen met het gaspedaal, wegrijden met piepende banden en onnodig toeteren zijn verboden" },
+        { "boek": 201, "sectie": "12.2", "anker": "Je mag daarom geen lawaaimakende 'sportuitlaten', et cetera monteren" }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": ["milieu", "geluid"],
+      "versie": 1,
+      "status": "gecheckt"
+    }
+  ]
+}

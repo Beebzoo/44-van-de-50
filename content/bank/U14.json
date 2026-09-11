@@ -2695,6 +2695,1494 @@
         "bewijs": "Bij een geel waarschuwingslampje hoef je niet onmiddellijk te stoppen",
         "bron": "boek p. 216"
       }
+    },
+    {
+      "id": "U14-Q040",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto rijdt op benzine. Bij een onbekend tankstation pak je het vulpistool met een vierkant symbool waarin B7 staat. Is dat de goede pomp voor jou?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het vierkante symbool hoort bij diesel, en B7 is diesel met biobrandstof erin. Voor benzine moet je bij het ronde symbool zijn.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Een vierkant symbool betekent diesel. Benzine staat altijd in een rond symbool, bijvoorbeeld E10.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Op het vulpistool staat een codesymbool: rond is benzine, vierkant is diesel en een ruit is gas.",
+        "waarom": "De vorm werkt als een snelle controle, ook op een station waar je de woorden op de pomp niet leest.",
+        "valkuil": "De codes lijken op elkaar. Kijk eerst naar de vorm en pas daarna naar de letters.",
+        "onthoud": "Rond is benzine, vierkant is diesel, ruit is gas."
+      },
+      "bronnen": [
+        {
+          "boek": 199,
+          "sectie": "12.1",
+          "anker": "Benzine herken je aan het ronde, diesel aan het vierkante en gas"
+        },
+        {
+          "slide": 217,
+          "anker": "Op het vulpistool van de brandstofpomp staat met een code het type brandstof aangegeven"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "tanken",
+        "brandstof"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q041",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Welke vorm heeft het brandstofsymbool voor gas op het vulpistool?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een cirkel",
+          "feedback": "Fout. De cirkel is voorbehouden aan benzine, bijvoorbeeld de code E10.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "b",
+          "tekst": "Een vierkant",
+          "feedback": "Fout. Het vierkant hoort bij diesel en bij synthetische brandstof.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Een ruit",
+          "feedback": "Goed. De ruit is de vorm voor gas, dus voor LPG en ook voor waterstof.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Een driehoek",
+          "feedback": "Fout. Een driehoek komt in deze rij brandstofsymbolen helemaal niet voor.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Gas herken je op de pomp aan het ruitvormige symbool, benzine aan het ronde en diesel aan het vierkante.",
+        "waarom": "Drie vormen voor drie soorten brandstof is minder te onthouden dan alle losse codes.",
+        "valkuil": "Waterstof draagt ook een ruit, want dat valt in dezelfde groep als gas.",
+        "onthoud": "Ruit is gas."
+      },
+      "bronnen": [
+        {
+          "boek": 199,
+          "sectie": "12.1",
+          "anker": "Benzine herken je aan het ronde, diesel aan het vierkante en gas"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "tanken",
+        "brandstof"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q042",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je merkt bij de pomp dat je de verkeerde brandstof hebt getankt. De auto staat nog stil en er staat iemand achter je te wachten. Mag je hem nog even een stukje wegrijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Zodra je start gaat de verkeerde brandstof door je systeem, en juist dat richt de schade aan.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Je start de motor niet meer. Roep deskundige hulp in om je brandstofsysteem leeg te laten maken.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Heb je verkeerd getankt, start de motor dan niet en laat je brandstofsysteem door een deskundige leeghalen.",
+        "waarom": "Zolang de motor uit blijft, zit de verkeerde brandstof alleen nog in de tank en niet in de leidingen en de pomp.",
+        "valkuil": "Een klein stukje rijden voelt onschuldig, maar het is precies de handeling die de schade veroorzaakt.",
+        "onthoud": "Verkeerd getankt betekent motor uit laten."
+      },
+      "bronnen": [
+        {
+          "slide": 218,
+          "anker": "Onderdelen van je motor en brandstofsysteem kunnen ernstig beschadigd raken"
+        },
+        {
+          "slide": 218,
+          "anker": "Roep deskundige hulp in om je brandstofsysteem leeg te laten maken"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "tanken",
+        "brandstof"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q043",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "In je moderne dieselauto is per ongeluk benzine gegaan en je bent toch doorgereden. Wat is daarvan het gevolg?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Er ontstaat schade aan het brandstofsysteem, want benzine is minder vet dan diesel",
+          "feedback": "Goed. Het boek noemt precies dit: tijdens het rijden loopt het brandstofsysteem schade op.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De motor loopt tijdelijk zuiniger en verder gebeurt er niets",
+          "feedback": "Fout. Zuiniger wordt hij zeker niet, en de schade aan het brandstofsysteem gaat gewoon door.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Er gebeurt niets zolang de tank nog halfvol diesel zit",
+          "feedback": "Fout. Ook verdund blijft benzine minder smeren, dus het brandstofsysteem loopt schade op.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen de katalysator raakt beschadigd, de rest niet",
+          "feedback": "Fout. Het boek wijst hier juist op schade aan het brandstofsysteem tijdens het rijden.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Benzine in een moderne dieselauto beschadigt tijdens het rijden het brandstofsysteem, omdat benzine minder vet is dan diesel.",
+        "waarom": "De dieselpomp rekent op de smering van de brandstof zelf, en die valt met benzine weg.",
+        "valkuil": "Andersom is het ook mis: diesel in een benzinemotor ontbrandt veel slechter, waardoor de motor niet lekker loopt.",
+        "onthoud": "Verkeerde brandstof plus rijden is schade."
+      },
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "bij een moderne dieselauto benzine tankt, ontstaat er tijdens het rijden schade"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "Diesel ontbrandt namelijk veel slechter dan benzine, waardoor de motor niet lekker zal lopen"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "tanken",
+        "brandstof"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q044",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke van deze gewoontes kunnen je katalysator beschadigen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Steeds lang doorstarten als de motor niet meteen aanslaat",
+          "feedback": "Goed. Bij langdurige startpogingen komt er onverbrande brandstof in de katalysator terecht.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het contact uitschakelen terwijl de auto nog rijdt",
+          "feedback": "Goed. Ook dan komt er onverbrande brandstof in de katalysator, en daar kan hij van kapotgaan.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "De brandstoftank helemaal leeg rijden",
+          "feedback": "Goed. Het boek noemt dit met zoveel woorden als iets wat je moet vermijden voor je katalysator.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Na het starten direct rustig wegrijden",
+          "feedback": "Fout. Dat is juist het advies voor zuinig rijden en het schaadt de katalysator niet.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "De auto laten uitrollen in de versnelling als je moet stoppen",
+          "feedback": "Fout. Dat hoort bij zuinig rijden en heeft niets met schade aan de katalysator te maken.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "De katalysator raakt beschadigd als er onverbrande brandstof in komt, dus vermijd lange startpogingen, het contact uitzetten tijdens het rijden en de tank leeg rijden.",
+        "waarom": "Onverbrande brandstof ontsteekt in de hete katalysator en dat sloopt het binnenwerk.",
+        "valkuil": "Aanduwen of slepen met een warme motor hoort in dit rijtje thuis.",
+        "onthoud": "Onverbrande brandstof is de vijand van de katalysator."
+      },
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "kan beschadigd raken als er onverbrande brandstof in terecht komt"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "langdurige startpogingen te vermijden, de auto niet aan te duwen"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "bij een rijdende auto nooit het contact uit te schakelen"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "de brandstoftank nooit helemaal leeg te rijden"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "katalysator",
+        "onderhoud"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q045",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Na een lange rit zet je je auto in de berm, boven een dikke laag droge bladeren. Is dat een verstandige plek?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. De uitlaat en de katalysator zijn na een rit gloeiend heet en droge bladeren vatten daar vlam van.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Parkeer niet boven brandbaar materiaal als droge bladeren of verdord gras, want de katalysator wordt erg heet.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De katalysator wordt net als de rest van de uitlaat erg heet, dus parkeer je auto niet boven brandbare materialen.",
+        "waarom": "Onder de auto blijft de hitte hangen en droog blad heeft weinig nodig om te gaan smeulen.",
+        "valkuil": "Verdord gras in een berm telt net zo goed mee als een hoop bladeren.",
+        "onthoud": "Hete uitlaat hoort niet boven droog blad."
+      },
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "parkeer je auto dus niet boven brandbare materialen als droge bladeren"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "katalysator",
+        "parkeren"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q046",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat doet het roetfilter in het uitlaatsysteem van een dieselauto?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het filtert kleine roetdeeltjes uit de uitlaatgassen, want die zijn kankerverwekkend",
+          "feedback": "Goed. Dat is precies waarvoor een dieselauto naast de katalysator ook nog een roetfilter heeft.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het zet schadelijke uitlaatgassen om in niet-schadelijke stoffen",
+          "feedback": "Fout. Dat is het werk van de katalysator, die er bij een diesel apart naast zit.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Het dempt het geluid van de uitlaat",
+          "feedback": "Fout. Dempen doet de geluiddemper; het roetfilter vangt deeltjes af.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Het meet hoeveel je auto uitstoot voor de milieuzone",
+          "feedback": "Fout. Je emissieklasse staat in het kentekenregister, daar meet het roetfilter niets voor.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Een dieselauto heeft naast de katalysator een roetfilter, dat de kleine en kankerverwekkende roetdeeltjes uit de uitlaatgassen haalt.",
+        "waarom": "De katalysator pakt de gassen aan, maar de vaste deeltjes vraagt om een filter.",
+        "valkuil": "Katalysator en roetfilter zijn twee verschillende dingen en doen elk iets anders.",
+        "onthoud": "Katalysator pakt gassen, roetfilter pakt deeltjes."
+      },
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "Dieselauto's hebben ook nog een roetfilter in het uitlaatsysteem"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "Daarin worden kleine roetdeeltjes uitgefilterd, die kankerverwekkend zijn"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "roetfilter",
+        "diesel"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q047",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "kennis",
+      "stam": "In een dieselauto kan de katalysator een hulpvloeistof gebruiken om de uitlaatgassen te reinigen. Zit die vloeistof in een apart reservoir met een blauwe dop?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Die hulpvloeistof heet AdBlue en zit in een eigen reservoir met een blauwe dop.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Er is wel degelijk een apart reservoir met een blauwe dop, en een lampje zegt wanneer je moet bijvullen.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Bij een dieselmotor reinigt de katalysator de uitlaatgassen soms met AdBlue, uit een apart reservoir met een blauwe dop.",
+        "waarom": "Het is geen brandstof, dus het krijgt een eigen vulopening die je niet met de tank verwart.",
+        "valkuil": "Een lampje op je dashboard geeft aan wanneer het bijgevuld moet worden.",
+        "onthoud": "Blauwe dop betekent AdBlue."
+      },
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "wordt in de katalysator soms een hulpvloeistof (AdBlue) gebruikt om de uitlaatgassen te reinigen"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "Je auto heeft dan een apart reservoir (met blauwe dop) voor deze vloeistof"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "nice",
+      "tags": [
+        "milieu",
+        "adblue",
+        "onderhoud"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q048",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Bij welke van deze verschijnselen ga je meteen naar de garage voor een technische controle?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je brandstofverbruik loopt zonder aanwijsbare reden op",
+          "feedback": "Goed. Meer verbruik zonder reden wijst op een technisch probleem, en dat belast ook het milieu.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De motor loopt onregelmatig",
+          "feedback": "Goed. Een onregelmatig lopende motor staat in het boek in hetzelfde rijtje als meer verbruik.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Er komt donkere walm uit de uitlaat",
+          "feedback": "Goed. Donkere walm betekent onvolledige verbranding en hoort meteen nagekeken te worden.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "De ruitenwissers piepen over de voorruit",
+          "feedback": "Fout. Vervelend en slecht voor je zicht, maar het is geen signaal van een vervuilende storing.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "De radio valt af en toe weg",
+          "feedback": "Fout. Dat zegt niets over de motor of over de uitstoot van je auto.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Laat onmiddellijk een technische controle doen als je brandstofverbruik toeneemt, de motor onregelmatig loopt of er donkere walm uit de uitlaat komt.",
+        "waarom": "Alle drie wijzen ze op verbranding die niet klopt, en die kost brandstof en vervuilt extra.",
+        "valkuil": "Het gaat hier om de motor, niet om comfortdingen die stuk zijn.",
+        "onthoud": "Meer verbruik, onregelmatig lopen of walm betekent garage."
+      },
+      "bronnen": [
+        {
+          "boek": 199,
+          "sectie": "12.1",
+          "anker": "laat onmiddellijk een technische controle uitvoeren als je merkt dat"
+        },
+        {
+          "boek": 199,
+          "sectie": "12.1",
+          "anker": "het brandstofverbruik toeneemt, de motor onregelmatig loopt"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "onderhoud",
+        "storing"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q049",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De katalysator werkt pas goed als de motor op temperatuur is, na 10 tot 15 minuten rijden. Wat betekent dat voor het korte ritje naar de supermarkt om de hoek?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Dat ritje is per kilometer juist relatief vervuilend",
+          "feedback": "Goed. De katalysator is nog koud, dus hij zet de schadelijke gassen nog nauwelijks om.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Dat ritje is juist het schoonst, want de motor draait kort",
+          "feedback": "Fout. Kort draaien betekent hier koud draaien, en koud is precies wanneer de katalysator niet werkt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Het maakt niets uit, de katalysator werkt altijd hetzelfde",
+          "feedback": "Fout. Het boek zegt uitdrukkelijk dat hij pas goed werkt als de motor op temperatuur is.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "De katalysator raakt van korte ritjes beschadigd",
+          "feedback": "Fout. Hij werkt alleen nog niet goed. Schade komt van onverbrande brandstof, niet van een korte rit.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De katalysator zet de schadelijke uitlaatgassen pas voor het grootste deel om als de motor op temperatuur is.",
+        "waarom": "De chemische reactie erin heeft hitte nodig, en die is er op de eerste kilometers nog niet.",
+        "valkuil": "Korte ritten voelen onschuldig, maar per kilometer zijn ze het vuilst.",
+        "onthoud": "Koude katalysator betekent weinig reiniging."
+      },
+      "bronnen": [
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "werkt pas goed als de automotor op temperatuur is, na 10 tot 15 minuten rijden"
+        },
+        {
+          "boek": 200,
+          "sectie": "12.1",
+          "anker": "worden de schadelijke uitlaatgassen voor 90% omgezet in niet-schadelijke stoffen"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "katalysator",
+        "zuinig-rijden"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q050",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt een automaat en trapt het gaspedaal helemaal in om vlot in te halen, zodat de automaat terugschakelt. Is dat een zuinige manier van rijden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Dit is de kickdown, en die kost juist veel meer brandstof dan normaal optrekken.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. De kickdown is handig als je snel wilt inhalen, maar het verbruik ligt er fors hoger door.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Ook met een automaat rijd je zuinig door met gevoel gas te geven; gebruik de kickdown zo min mogelijk.",
+        "waarom": "Bij een kickdown schakelt de automaat terug en jaagt de motor omhoog in de toeren, en dat kost brandstof.",
+        "valkuil": "Zuinig rijden met een automaat kan wel degelijk, alleen stuur je met je voet in plaats van met de pook.",
+        "onthoud": "Kickdown is snel, niet zuinig."
+      },
+      "bronnen": [
+        {
+          "boek": 199,
+          "sectie": "12.1",
+          "anker": "Gebruik de zogenaamde 'kickdown-inrichting' daarom zo min mogelijk"
+        },
+        {
+          "boek": 199,
+          "sectie": "12.1",
+          "anker": "maar het brandstofverbruik is wel veel hoger"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "milieu",
+        "zuinig-rijden",
+        "automaat"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q051",
+      "unit": "U14",
+      "pagina": "U14-P06",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je rijdt op een rustige avond je straat uit en geeft onderweg een paar keer flink gas, gewoon omdat je de motor graag hoort. Mag dat?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Spelen met het gaspedaal valt onder onnodig geluid, en dat is een vorm van milieuvervuiling.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Spelen met het gaspedaal is verboden, net als wegrijden met piepende banden en onnodig toeteren.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "Onnodig geluid maken is een vorm van milieuvervuiling: spelen met het gaspedaal, wegrijden met piepende banden en onnodig toeteren zijn verboden.",
+        "waarom": "Geluid belast je omgeving net zo goed als uitstoot, alleen merk je het op een andere manier.",
+        "valkuil": "Een lawaaiige sportuitlaat monteren mag om dezelfde reden niet.",
+        "onthoud": "Geluid is ook vervuiling."
+      },
+      "bronnen": [
+        {
+          "boek": 201,
+          "sectie": "12.2",
+          "anker": "Ook spelen met het gaspedaal, wegrijden met piepende banden en onnodig toeteren zijn verboden"
+        },
+        {
+          "boek": 201,
+          "sectie": "12.2",
+          "anker": "Je mag daarom geen lawaaimakende 'sportuitlaten', et cetera monteren"
+        }
+      ],
+      "cbr_onderwerp": "verantwoorde_deelname_en_milieu",
+      "moeilijkheid": 1,
+      "tier": "must",
+      "tags": [
+        "milieu",
+        "geluid"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q052",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je wisselt op de snelweg netjes met richtingaanwijzer van rijstrook. Gaat de rijstrookassistentie dan tegensturen om je in je eigen strook te houden?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het systeem ziet aan je richtingaanwijzer dat je bewust wisselt en laat je dan met rust.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Geef je richting aan, dan grijpt de rijstrookassistentie niet in, want je verlaat de strook met opzet.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De rijstrookassistentie stuurt bij als je auto de rijstrook dreigt te verlaten, maar niet als je richting hebt aangegeven.",
+        "waarom": "De richtingaanwijzer is voor het systeem het teken dat de strook verlaten jouw bedoeling is.",
+        "valkuil": "Zonder richting aangeven stuurt hij wel bij, ook als jij met opzet uitwijkt.",
+        "onthoud": "Richting aan betekent assistentie uit."
+      },
+      "bronnen": [
+        {
+          "boek": 222,
+          "sectie": "13.5",
+          "anker": "grijpt actief in op de stuurinrichting wanneer je auto de rijstrook dreigt"
+        },
+        {
+          "slide": 245,
+          "anker": "Helpt bijsturen bij dreigend rijstrookverlaten; met richtingaanwijzer niet"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "adas",
+        "rijstrookassistentie"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q053",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "De snelheidsondersteuning in je auto piept je voortdurend toe en je zet hem daarom uit. Wat is er de volgende ochtend aan de hand als je weer instapt?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Hij staat automatisch weer aan",
+          "feedback": "Goed. Je mag hem uitzetten, maar bij elke nieuwe rit begint het systeem weer ingeschakeld.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij blijft uit tot je hem zelf weer aanzet",
+          "feedback": "Fout. Je keuze geldt alleen voor die rit; de volgende rit staat hij weer aan.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Hij blijft uit, maar er komt een melding op je dashboard",
+          "feedback": "Fout. Er is geen melding nodig, want het systeem heeft zichzelf gewoon weer ingeschakeld.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Hij kan helemaal niet worden uitgezet",
+          "feedback": "Fout. Uitzetten mag wel, alleen niet blijvend: de volgende rit staat hij weer aan.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De snelheidsondersteuning herkent snelheidslimieten en waarschuwt of remt; je mag hem uitschakelen, maar bij elke nieuwe rit staat hij automatisch weer aan.",
+        "waarom": "Zo kan niemand het systeem eenmalig uitzetten en er daarna nooit meer iets van merken.",
+        "valkuil": "Uitzetten mag dus wel. De vraag is alleen hoe lang het uit blijft.",
+        "onthoud": "Uitzetten geldt voor een rit, niet voor altijd."
+      },
+      "bronnen": [
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "Dit systeem herkent snelheidslimieten en waarschuwt of remt als je te hard rijdt"
+        },
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "maar bij elke nieuwe rit staat het automatisch weer aan"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "adas",
+        "isa",
+        "snelheid"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q054",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Op welke factoren let je volgens het boek als je beslist om een rijhulpsysteem in of uit te schakelen?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De weg waarop je rijdt",
+          "feedback": "Goed. De weg is een van de vier factoren die het boek bij deze keuze noemt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het weer",
+          "feedback": "Goed. Regen, sneeuw en mist veranderen wat een systeem kan waarnemen.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Het verkeer om je heen",
+          "feedback": "Goed. Drukte en het soort verkeer horen bij de vier factoren.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Je eigen conditie als bestuurder",
+          "feedback": "Goed. Hoe fit je bent telt mee, want jij blijft degene die rijdt.",
+          "fouttype": null
+        },
+        {
+          "id": "e",
+          "tekst": "Het tijdstip waarop je vertrekt",
+          "feedback": "Fout. Het tijdstip staat niet in het rijtje van vier; het weer en het verkeer wel.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "De leeftijd van je auto",
+          "feedback": "Fout. Hoe oud je auto is verandert niets aan deze afweging.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "uitleg": {
+        "regel": "Schakel een rijhulpsysteem in of uit wanneer de situatie daarom vraagt, en let daarbij op de weg, het weer, het verkeer en je eigen conditie.",
+        "waarom": "Die vier bepalen samen of een systeem je in deze situatie echt helpt of juist in de weg zit.",
+        "valkuil": "Het is een bewuste keuze per situatie, niet iets wat je een keer instelt en vergeet.",
+        "onthoud": "Weg, weer, verkeer en jezelf."
+      },
+      "bronnen": [
+        {
+          "boek": 220,
+          "sectie": "13.5",
+          "anker": "Schakel een rijhulpsysteem in of uit wanneer de situatie dat vraagt"
+        },
+        {
+          "boek": 220,
+          "sectie": "13.5",
+          "anker": "Daarbij let je op vier factoren: de weg, het weer, het verkeer"
+        },
+        {
+          "slide": 243,
+          "anker": "let daarbij op 4 factoren: de weg, het weer, het verkeer"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "adas",
+        "rijhulpsystemen"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q055",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Wat legt de gegevensrecorder voor incidenten vast?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Je rijgedrag vlak voor, tijdens en na een botsing",
+          "feedback": "Goed. Die gegevens kunnen achteraf gebruikt worden door bijvoorbeeld de politie.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Elke kilometer die je rijdt, je hele autoleven lang",
+          "feedback": "Fout. Het gaat om de momenten rond een botsing, niet om een doorlopend logboek.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Beeld uit een camera die naar de weg kijkt",
+          "feedback": "Fout. Het systeem registreert rijgegevens, geen beeldopnamen van de weg.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Alleen je snelheid op het moment van de botsing",
+          "feedback": "Fout. Het gaat verder dan dat: ook het gedrag voor en na de botsing wordt vastgelegd.",
+          "fouttype": "verkeerd_gelezen"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De gegevensrecorder voor incidenten registreert je rijgedrag voor, tijdens en na een botsing.",
+        "waarom": "Achteraf is anders nauwelijks vast te stellen wat er in die paar seconden precies gebeurde.",
+        "valkuil": "Het is een verplicht systeem op nieuwe auto's, dus ook zonder dashcam liggen die gegevens er.",
+        "onthoud": "Voor, tijdens en na de botsing."
+      },
+      "bronnen": [
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "Dit systeem registreert je rijgedrag voor, tijdens en na een botsing"
+        },
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "Deze gegevens kunnen achteraf gebruikt worden door bijvoorbeeld de politie"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "edr"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q056",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "In de auto van een kennis zit een alcoholslot. Moet hij eerst blazen voordat de auto wil starten?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. Met zo'n slot start de auto pas nadat de bestuurder een blaastest heeft gedaan zonder alcohol.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Dat is juist waar een alcoholslot voor is: zonder negatieve blaastest slaat de motor niet aan.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "Een auto met een alcoholslot kan pas gestart worden nadat de bestuurder een blaastest heeft gedaan die geen alcohol aantoont.",
+        "waarom": "Het slot zet de drempel op het moment dat starten nog te voorkomen is, in plaats van achteraf te beboeten.",
+        "valkuil": "Op nieuwe auto's zit niet het slot zelf, maar wel de aansluiting waarmee het eenvoudig te installeren is.",
+        "onthoud": "Eerst blazen, dan pas starten."
+      },
+      "bronnen": [
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "kunnen alleen worden gestart nadat de bestuurder een (negatieve) blaastest heeft gedaan"
+        },
+        {
+          "slide": 245,
+          "anker": "Maakt installatie van een alcoholslot mogelijk; starten kan pas na een negatieve blaastest"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "alcoholslot"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q057",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je moet op de snelweg heel hard remmen voor een plotselinge file. Wat doet het noodstopsignaal op dat moment voor je?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Het laat je achterlichten knipperen om je achterliggers te waarschuwen",
+          "feedback": "Goed. Een knipperend achterlicht valt veel eerder op dan een remlicht dat gewoon aangaat.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Het remt zelfstandig nog wat harder mee",
+          "feedback": "Fout. Zelf meeremmen doet het noodremsysteem; dit systeem waarschuwt alleen naar achteren.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Het zet je alarmlichten aan tot je weer optrekt",
+          "feedback": "Fout. Het gaat om knipperende achterlichten tijdens het harde remmen, niet om je alarmlichten.",
+          "fouttype": "verkeerd_gelezen"
+        },
+        {
+          "id": "d",
+          "tekst": "Het waarschuwt je zelf met een geluidssignaal",
+          "feedback": "Fout. De waarschuwing is voor het verkeer achter je bedoeld, niet voor jou.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Het noodstopsignaal laat je achterlichten knipperen om achterliggers te waarschuwen als je hard remt.",
+        "waarom": "Een knipperlicht trekt sneller de aandacht dan een remlicht, en bij een noodstop telt elke tiende seconde.",
+        "valkuil": "Verwar het niet met het noodremsysteem, dat juist jouw auto afremt.",
+        "onthoud": "Noodstopsignaal waarschuwt naar achteren."
+      },
+      "bronnen": [
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "Dit systeem activeert knipperende achterlichten om achterliggers te waarschuwen als je hard remt"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "ess",
+        "remmen"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q058",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je rijdt achteruit een parkeervak uit met aan weerszijden een hoge bestelbus, zodat je pas laat de weg achter je kunt zien. Welk systeem is hiervoor bedoeld?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "De dwarsverkeerwaarschuwing achter",
+          "feedback": "Goed. Die waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "De dodehoekassistent bij afslaan",
+          "feedback": "Fout. Die let op fietsers en voetgangers als je afslaat, niet als je achteruit een vak uitrijdt.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "De kruispuntassistent",
+          "feedback": "Fout. Die waarschuwt voor tegemoetkomend verkeer als je op een kruispunt links afslaat.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "De stilstandassistent",
+          "feedback": "Fout. Die houdt je auto stil in een file of voor een stoplicht en kijkt nergens naar.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De dwarsverkeerwaarschuwing achter waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert.",
+        "waarom": "Tussen twee hoge voertuigen zie je zelf pas iets als je er al half tussenuit bent.",
+        "valkuil": "Achteruitrijdetectie kijkt recht achter je; het kruisende verkeer van opzij is een ander systeem.",
+        "onthoud": "Van opzij bij achteruitrijden is dwarsverkeer."
+      },
+      "bronnen": [
+        {
+          "boek": 223,
+          "sectie": "13.5",
+          "anker": "Waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert"
+        },
+        {
+          "boek": 223,
+          "sectie": "13.5",
+          "anker": "Waarschuwt bij het afslaan voor fietsers of voetgangers die vanuit de dode hoek naderen"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "nice",
+      "tags": [
+        "adas",
+        "achteruitrijden"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q059",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "kennis",
+      "stam": "Waar laat het informatiesysteem voor de dode hoek zijn waarschuwing zien?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Met een oplichtend icoon in een van je buitenspiegels",
+          "feedback": "Goed. Daar kijk je toch al als je van strook wilt wisselen, dus daar valt het op.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Met een pijl in je binnenspiegel",
+          "feedback": "Fout. Het systeem meldt zich in de buitenspiegel aan de kant waar iets rijdt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "c",
+          "tekst": "Alleen met een geluidssignaal",
+          "feedback": "Fout. Het gaat juist om een zichtbaar icoon op de plek waar je naar kijkt.",
+          "fouttype": "niet_geweten"
+        },
+        {
+          "id": "d",
+          "tekst": "Op de middelste meter van je dashboard",
+          "feedback": "Fout. Daar kijk je niet als je van rijstrook wilt wisselen, dus daar staat het niet.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "Het informatiesysteem dode hoek waarschuwt je via een oplichtend icoon in je buitenspiegel voor voertuigen of objecten in de dode hoek naast en achter je.",
+        "waarom": "De waarschuwing staat precies daar waar je al kijkt voordat je van strook wisselt.",
+        "valkuil": "Het systeem haalt de dode hoek niet weg, het meldt alleen dat er iets in zit.",
+        "onthoud": "Dode hoek meldt zich in de buitenspiegel."
+      },
+      "bronnen": [
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "voor voertuigen of objecten in de dode hoek naast en achter je"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 1,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "dode-hoek"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q060",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meervoudig",
+      "soort": "inzicht",
+      "stam": "Welke van deze systemen zitten tegenwoordig verplicht op een nieuwe auto?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bandenspanningscontrole",
+          "feedback": "Goed. Die monitort de spanning in je banden en waarschuwt op je dashboard als die te laag wordt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Noodremsysteem",
+          "feedback": "Goed. Die hoort bij de verplichte systemen en remt zelf als jij niet op de waarschuwing reageert.",
+          "fouttype": null
+        },
+        {
+          "id": "c",
+          "tekst": "Achteruitrijdetectie",
+          "feedback": "Goed. Die detecteert mensen en objecten achter het voertuig bij achteruitrijden.",
+          "fouttype": null
+        },
+        {
+          "id": "d",
+          "tekst": "Adaptieve cruise control",
+          "feedback": "Fout. Handig, maar het hoort bij de systemen die er los bij kunnen zitten.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "e",
+          "tekst": "Automatische parkeerassistent",
+          "feedback": "Fout. Ook dat is een extra systeem en geen verplichting op een nieuwe auto.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "f",
+          "tekst": "Nachtvisiesysteem",
+          "feedback": "Fout. Dat komt op weinig auto's voor en staat niet in de verplichte rij.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ],
+      "uitleg": {
+        "regel": "Op nieuwe auto's zitten verplicht onder meer de achteruitrijdetectie, de bandenspanningscontrole, de botswaarschuwing, het noodremsysteem en de snelheidsondersteuning.",
+        "waarom": "Dit zijn de systemen die ongelukken helpen voorkomen, en niet de systemen die vooral comfort geven.",
+        "valkuil": "Cruise control en parkeerhulp voelen moderner, maar juist die zijn niet verplicht.",
+        "onthoud": "Verplicht is veiligheid, niet comfort."
+      },
+      "bronnen": [
+        {
+          "boek": 220,
+          "sectie": "13.5",
+          "anker": "In de loop van de jaren zijn steeds meer rijhulpsystemen verplicht geworden"
+        },
+        {
+          "boek": 220,
+          "sectie": "13.5",
+          "anker": "Dit systeem monitort de spanning in je banden en geeft een waarschuwing"
+        },
+        {
+          "boek": 220,
+          "sectie": "13.5",
+          "anker": "Dit systeem detecteert mensen en objecten achter het voertuig bij achteruitrijden"
+        },
+        {
+          "boek": 222,
+          "sectie": "13.5",
+          "anker": "Handhaaft automatisch een instelbare volgafstand tot het voertuig voor je"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 3,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "rijhulpsystemen"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q061",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "De vermoeidheidswaarschuwing merkt aan je rijgedrag en je stuurbewegingen dat je slaperig wordt. Neemt dat systeem daarna het sturen van je over?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Fout. Het systeem detecteert en waarschuwt. Rijden en pauze nemen blijft jouw taak.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Goed. Het analyseert je rijgedrag en stuurpatronen en waarschuwt je, meer niet.",
+          "fouttype": null
+        }
+      ],
+      "correct": [
+        "nee"
+      ],
+      "uitleg": {
+        "regel": "De vermoeidheidswaarschuwing analyseert je rijgedrag en stuurpatronen om slaperigheid of verminderde aandacht te detecteren.",
+        "waarom": "Een systeem kan zien dat je aandacht wegzakt, maar uitgerust raken kan alleen jijzelf.",
+        "valkuil": "Geen enkel rijhulpsysteem neemt de rijtaak over; ze ondersteunen je alleen.",
+        "onthoud": "Het systeem waarschuwt, jij neemt de pauze."
+      },
+      "bronnen": [
+        {
+          "boek": 222,
+          "sectie": "13.5",
+          "anker": "Dit systeem analyseert je rijgedrag en stuurpatronen om slaperigheid of verminderde aandacht te detecteren"
+        },
+        {
+          "boek": 219,
+          "sectie": "13.5",
+          "anker": "de systemen hebben grenzen en kunnen niet in elke situatie ingrijpen"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "must",
+      "tags": [
+        "adas",
+        "vermoeidheid"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q062",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "meerkeuze",
+      "soort": "inzicht",
+      "stam": "Je zet op een rustige snelweg de adaptieve cruise control aan. Wat neemt die voor je waar?",
+      "media": null,
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Hij houdt de volgafstand aan die jij hebt ingesteld en past je snelheid aan het verkeer aan",
+          "feedback": "Goed. Dat is het verschil met een gewone cruise control, die alleen een vaste snelheid vasthoudt.",
+          "fouttype": null
+        },
+        {
+          "id": "b",
+          "tekst": "Hij houdt je auto in het midden van je rijstrook",
+          "feedback": "Fout. Dat is de rijstrookcentrering; de cruise control regelt afstand en snelheid.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "c",
+          "tekst": "Hij remt alleen in als een botsing dreigt",
+          "feedback": "Fout. Dat is het noodremsysteem. De cruise control regelt je snelheid doorlopend.",
+          "fouttype": "verkeerd_toegepast"
+        },
+        {
+          "id": "d",
+          "tekst": "Hij neemt de hele rijtaak over zolang je op de snelweg blijft",
+          "feedback": "Fout. Geen enkel rijhulpsysteem neemt de rijtaak over; jij blijft verantwoordelijk.",
+          "fouttype": "verkeerd_toegepast"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "uitleg": {
+        "regel": "De adaptieve cruise control handhaaft automatisch een instelbare volgafstand tot het voertuig voor je en past je snelheid aan het verkeer aan.",
+        "waarom": "Hij kijkt naar de auto voor je in plaats van alleen naar de snelheidsmeter.",
+        "valkuil": "Je kunt de volgafstand zelf kiezen, dus een korte stand ontslaat je niet van meekijken.",
+        "onthoud": "Adaptief betekent kijkend naar je voorligger."
+      },
+      "bronnen": [
+        {
+          "boek": 222,
+          "sectie": "13.5",
+          "anker": "Handhaaft automatisch een instelbare volgafstand tot het voertuig voor je"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "cruise-control",
+        "volgafstand"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
+    },
+    {
+      "id": "U14-Q063",
+      "unit": "U14",
+      "pagina": "U14-P07",
+      "type": "ja_nee",
+      "soort": "inzicht",
+      "stam": "Je auto waarschuwt je opeens dat je aandacht van de weg af is, terwijl je net even naar je bijrijder keek. Kan een camera aan je oogrichting en je hoofdhouding zien dat je afgeleid bent?",
+      "media": null,
+      "opties": [
+        {
+          "id": "ja",
+          "tekst": "Ja",
+          "feedback": "Goed. De afleidingsdetectie bewaakt met camera's je oogrichting en de houding van je hoofd.",
+          "fouttype": null
+        },
+        {
+          "id": "nee",
+          "tekst": "Nee",
+          "feedback": "Fout. Dat is precies wat de afleidingsdetectie doet, en die zit verplicht op nieuwe auto's.",
+          "fouttype": "niet_geweten"
+        }
+      ],
+      "correct": [
+        "ja"
+      ],
+      "uitleg": {
+        "regel": "De afleidingsdetectie bewaakt met een of meer camera's je oogrichting en de positie van je hoofd, en waarschuwt je als je afgeleid bent.",
+        "waarom": "Waar je ogen naartoe wijzen zegt meer over je aandacht dan wat je handen doen.",
+        "valkuil": "Even naar je bijrijder kijken kan genoeg zijn om de waarschuwing te laten afgaan.",
+        "onthoud": "De camera kijkt naar jou, niet naar de weg."
+      },
+      "bronnen": [
+        {
+          "boek": 221,
+          "sectie": "13.5",
+          "anker": "bewaakt met een of meer camera's je oogrichting"
+        }
+      ],
+      "cbr_onderwerp": "voertuigkennis",
+      "moeilijkheid": 2,
+      "tier": "should",
+      "tags": [
+        "adas",
+        "afleiding"
+      ],
+      "versie": 1,
+      "status": "gecheckt"
     }
   ]
 }

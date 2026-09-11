@@ -37,6 +37,9 @@
         "13.8"
       ],
       "paginas": [
+        197,
+        198,
+        199,
         200,
         201,
         202,
@@ -54,6 +57,10 @@
         216,
         218,
         219,
+        220,
+        221,
+        222,
+        223,
         224,
         225,
         226,
@@ -92,8 +99,10 @@
         237,
         239,
         240,
+        243,
         244,
         245,
+        246,
         248,
         249,
         250,
@@ -791,6 +800,296 @@
       ]
     },
     {
+      "id": "U14-P07",
+      "anker": "p-13.5-rijhulpsystemen",
+      "titel": "Rijhulpsystemen: wat er verplicht op zit",
+      "bronnen": {
+        "boek": {
+          "secties": [
+            "13.5"
+          ],
+          "paginas": [
+            219,
+            220,
+            221,
+            222,
+            223
+          ]
+        },
+        "cursus": {
+          "slides": [
+            240,
+            243,
+            244,
+            245,
+            246
+          ]
+        }
+      },
+      "body": [
+        {
+          "type": "tekst",
+          "tekst": "Rijhulpsystemen heten samen ADAS. Op de vorige pagina las je de hoofdregel: ze ondersteunen je en nemen het rijden niet over. Hier staat welke systemen er tegenwoordig op een nieuwe auto zitten en wat ze doen.",
+          "bron": {
+            "slide": 244,
+            "anker": "Op nieuwe auto's zitten (verplicht) minimaal deze systemen"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U14-r38",
+          "tekst": "Schakel een rijhulpsysteem in of uit wanneer de situatie daarom vraagt. Je let daarbij op vier factoren: de weg, het weer, het verkeer en je eigen conditie als bestuurder.",
+          "bron": [
+            {
+              "boek": 220,
+              "sectie": "13.5",
+              "anker": "Schakel een rijhulpsysteem in of uit wanneer de situatie dat vraagt"
+            },
+            {
+              "boek": 220,
+              "sectie": "13.5",
+              "anker": "Daarbij let je op vier factoren: de weg, het weer, het verkeer"
+            },
+            {
+              "slide": 243,
+              "anker": "let daarbij op 4 factoren: de weg, het weer, het verkeer"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Wat er verplicht op een nieuwe auto zit"
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Systeem",
+            "Afkorting",
+            "Wat het doet"
+          ],
+          "rijen": [
+            [
+              "Achteruitrijdetectie",
+              "",
+              "Detecteert mensen en objecten achter de auto en waarschuwt met een geluidssignaal"
+            ],
+            [
+              "Bandenspanningscontrole",
+              "TPMS",
+              "Waarschuwt op je dashboard als de spanning in een of meer banden te laag is"
+            ],
+            [
+              "Botswaarschuwing",
+              "",
+              "Waarschuwt als een aanrijding dreigt met voetgangers of fietsers voor je auto"
+            ],
+            [
+              "Afleidingsdetectie",
+              "ADDW",
+              "Bewaakt met camera's je oogrichting en hoofdhouding en waarschuwt als je afgeleid bent"
+            ],
+            [
+              "Noodremsysteem",
+              "AEB",
+              "Waarschuwt bij te weinig volgafstand en remt zelf als jij niet ingrijpt"
+            ],
+            [
+              "Gegevensrecorder",
+              "EDR",
+              "Registreert je rijgedrag voor, tijdens en na een botsing"
+            ],
+            [
+              "Informatie dode hoek",
+              "BSM",
+              "Waarschuwt via je buitenspiegel voor voertuigen in de dode hoek naast en achter je"
+            ],
+            [
+              "Snelheidsondersteuning",
+              "ISA",
+              "Herkent snelheidslimieten en waarschuwt of remt als je te hard rijdt"
+            ],
+            [
+              "Noodstopsignaal",
+              "ESS",
+              "Laat je achterlichten knipperen om achterliggers te waarschuwen als je hard remt"
+            ],
+            [
+              "Alcoholslot-interface",
+              "",
+              "Maakt het installeren van een alcoholslot eenvoudig"
+            ],
+            [
+              "Rijstrookassistentie",
+              "ELKS",
+              "Stuurt bij als je auto de rijstrook dreigt te verlaten"
+            ],
+            [
+              "Vermoeidheidswaarschuwing",
+              "DDAW",
+              "Herkent slaperigheid of minder aandacht aan je rijgedrag en stuurpatroon"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 220,
+              "sectie": "13.5",
+              "anker": "In de loop van de jaren zijn steeds meer rijhulpsystemen verplicht geworden"
+            },
+            {
+              "slide": 244,
+              "anker": "Detecteert mensen en objecten achter de auto en waarschuwt met een geluidssignaal"
+            },
+            {
+              "slide": 244,
+              "anker": "Monitort de bandenspanning en waarschuwt op het dashboard als deze te laag is"
+            },
+            {
+              "slide": 244,
+              "anker": "Registreert rijgegevens voor, tijdens en na een botsing"
+            },
+            {
+              "slide": 245,
+              "anker": "Laat de achterlichten knipperen om achterliggers te waarschuwen bij hard remmen"
+            },
+            {
+              "slide": 245,
+              "anker": "Herkent vermoeidheid of minder aandacht via rijgedrag en stuurbewegingen"
+            },
+            {
+              "boek": 221,
+              "sectie": "13.5",
+              "anker": "bewaakt met een of meer camera's je oogrichting"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "Twee dingen die het examen graag vraagt. De rijstrookassistentie grijpt niet in als je richting aangeeft, want dan verlaat je de strook met opzet. En de snelheidsondersteuning mag je uitzetten, maar bij elke nieuwe rit staat hij automatisch weer aan.",
+          "bron": [
+            {
+              "boek": 222,
+              "sectie": "13.5",
+              "anker": "Als je richting aangeeft, grijpt het systeem (natuurlijk) niet in"
+            },
+            {
+              "boek": 221,
+              "sectie": "13.5",
+              "anker": "maar bij elke nieuwe rit staat het automatisch weer aan"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Systemen die er los bij kunnen zitten"
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Systeem",
+            "Afkorting",
+            "Wat het doet"
+          ],
+          "rijen": [
+            [
+              "Adaptieve cruise control",
+              "ACC",
+              "Houdt zelf de volgafstand aan die jij instelt en past je snelheid aan het verkeer aan"
+            ],
+            [
+              "Automatisch grootlichtbeheer",
+              "AHB",
+              "Wisselt zelf tussen groot en dimlicht op basis van ander verkeer"
+            ],
+            [
+              "Parkeerassistent",
+              "APA",
+              "Stuurt mee bij het inparkeren, terwijl jij gas en rem bedient"
+            ],
+            [
+              "Bestuurder-exitwaarschuwing",
+              "DEW",
+              "Waarschuwt bij het openen van een deur als er een fietser of voertuig nadert"
+            ],
+            [
+              "Dwarsverkeerwaarschuwing achter",
+              "RCTA",
+              "Waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij komt"
+            ],
+            [
+              "Kruispuntassistent",
+              "IJA",
+              "Waarschuwt voor tegemoetkomend verkeer als je links afslaat"
+            ],
+            [
+              "Stilstandassistent",
+              "AVH",
+              "Houdt de auto stil in de file of voor een stoplicht zonder dat jij de rem vasthoudt"
+            ],
+            [
+              "Verkeersbordenherkenning",
+              "TSR",
+              "Herkent verkeersborden en toont ze op je dashboard, vaak samen met ISA"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 222,
+              "sectie": "13.5",
+              "anker": "Handhaaft automatisch een instelbare volgafstand tot het voertuig voor je"
+            },
+            {
+              "boek": 222,
+              "sectie": "13.5",
+              "anker": "Schakelt automatisch tussen groot- en dimlicht op basis van tegemoetkomend of vooruitrijdend verkeer"
+            },
+            {
+              "boek": 222,
+              "sectie": "13.5",
+              "anker": "Neemt het sturen bij het inparkeren gedeeltelijk of volledig over"
+            },
+            {
+              "boek": 223,
+              "sectie": "13.5",
+              "anker": "Waarschuwt bestuurder en passagiers bij het openen van een deur"
+            },
+            {
+              "boek": 223,
+              "sectie": "13.5",
+              "anker": "Waarschuwt bij achteruitrijden voor kruisend verkeer dat van opzij nadert"
+            },
+            {
+              "boek": 223,
+              "sectie": "13.5",
+              "anker": "Waarschuwt voor tegemoetkomend verkeer bij het links afslaan op een kruispunt"
+            },
+            {
+              "boek": 223,
+              "sectie": "13.5",
+              "anker": "Houdt het voertuig automatisch stil in een file of voor een stoplicht"
+            },
+            {
+              "boek": 223,
+              "sectie": "13.5",
+              "anker": "Herkent en toont verkeersborden op het dashboard; werkt vaak samen met ISA"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "Je hoeft de afkortingen niet stuk voor stuk uit je hoofd te kennen, maar wel wat een systeem doet en waar het ophoudt. Elk systeem heeft grenzen en kan niet in elke situatie ingrijpen.",
+          "bron": {
+            "boek": 219,
+            "sectie": "13.5",
+            "anker": "de systemen hebben grenzen en kunnen niet in elke situatie ingrijpen"
+          }
+        },
+        {
+          "type": "onthoud",
+          "tekst": "Een rijhulpsysteem waarschuwt of helpt, jij blijft rijden. In of uit hangt af van de weg, het weer, het verkeer en jezelf."
+        }
+      ]
+    },
+    {
       "id": "U14-P04",
       "anker": "p-13.7-lading",
       "titel": "Lading: hoogte, breedte en wat uitsteekt",
@@ -1221,6 +1520,9 @@
             "12.4"
           ],
           "paginas": [
+            197,
+            198,
+            199,
             200,
             201,
             202
@@ -1408,6 +1710,180 @@
               "boek": 201,
               "sectie": "12.3",
               "anker": "In veel gemeenten is het wassen van je auto op de openbare weg"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "Welke brandstof hoort bij jouw auto"
+        },
+        {
+          "type": "tabel",
+          "kop": [
+            "Vorm",
+            "Code",
+            "Wat er in de pomp zit"
+          ],
+          "rijen": [
+            [
+              "Rond",
+              "E10",
+              "Benzine met 10 procent biobrandstof"
+            ],
+            [
+              "Vierkant",
+              "B7",
+              "Diesel met 7 procent biobrandstof"
+            ],
+            [
+              "Vierkant",
+              "XTL",
+              "Synthetische brandstof"
+            ],
+            [
+              "Ruit",
+              "H2",
+              "Waterstof"
+            ],
+            [
+              "Ruit",
+              "LPG",
+              "Gas"
+            ]
+          ],
+          "bron": [
+            {
+              "boek": 199,
+              "sectie": "12.1",
+              "anker": "Sinds 2018 zijn in heel Europa standaard brandstofsymbolen ingevoerd"
+            },
+            {
+              "boek": 199,
+              "sectie": "12.1",
+              "anker": "Benzine herken je aan het ronde, diesel aan het vierkante en gas"
+            },
+            {
+              "slide": 217,
+              "anker": "Op het vulpistool van de brandstofpomp staat met een code het type brandstof aangegeven"
+            }
+          ]
+        },
+        {
+          "type": "waarom",
+          "tekst": "De vorm zegt je in een keer om welke soort het gaat, ook in een land waar je de woorden op de pomp niet leest. Rond is benzine, vierkant is diesel en een ruit is gas.",
+          "bron": {
+            "boek": 199,
+            "sectie": "12.1",
+            "anker": "Benzine herken je aan het ronde, diesel aan het vierkante en gas"
+          }
+        },
+        {
+          "type": "voorbeeld",
+          "tekst": "Benzine in een moderne dieselauto geeft tijdens het rijden schade aan het brandstofsysteem, want benzine is minder vet dan diesel. Diesel in een benzinemotor ontbrandt juist veel slechter, waardoor de motor niet lekker loopt of beschadigd raakt.",
+          "bron": [
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "bij een moderne dieselauto benzine tankt, ontstaat er tijdens het rijden schade"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "Diesel ontbrandt namelijk veel slechter dan benzine, waardoor de motor niet lekker zal lopen"
+            }
+          ]
+        },
+        {
+          "type": "kop",
+          "tekst": "De katalysator en het roetfilter"
+        },
+        {
+          "type": "lijst",
+          "items": [
+            "Vermijd langdurige startpogingen",
+            "Duw of sleep de auto niet aan als de motor nog warm is",
+            "Schakel bij een rijdende auto nooit het contact uit",
+            "Rijd de brandstoftank nooit helemaal leeg"
+          ],
+          "bron": [
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "kan beschadigd raken als er onverbrande brandstof in terecht komt"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "langdurige startpogingen te vermijden, de auto niet aan te duwen"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "bij een rijdende auto nooit het contact uit te schakelen"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "de brandstoftank nooit helemaal leeg te rijden"
+            }
+          ]
+        },
+        {
+          "type": "valkuil",
+          "tekst": "De katalysator wordt net als de rest van de uitlaat erg heet. Parkeer je auto dus niet boven droge bladeren of verdord gras.",
+          "bron": {
+            "boek": 200,
+            "sectie": "12.1",
+            "anker": "parkeer je auto dus niet boven brandbare materialen als droge bladeren"
+          }
+        },
+        {
+          "type": "regel",
+          "id": "U14-r36",
+          "tekst": "Een dieselauto heeft naast de katalysator ook een roetfilter in het uitlaatsysteem. Dat filtert de kleine roetdeeltjes eruit, want die zijn kankerverwekkend.",
+          "bron": [
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "Dieselauto's hebben ook nog een roetfilter in het uitlaatsysteem"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "Daarin worden kleine roetdeeltjes uitgefilterd, die kankerverwekkend zijn"
+            }
+          ]
+        },
+        {
+          "type": "tekst",
+          "tekst": "Bij een dieselmotor gebruikt de katalysator soms de hulpvloeistof AdBlue om de uitlaatgassen te reinigen. Je auto heeft er dan een apart reservoir voor met een blauwe dop, en een lampje op het dashboard zegt wanneer je moet bijvullen.",
+          "bron": [
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "wordt in de katalysator soms een hulpvloeistof (AdBlue) gebruikt om de uitlaatgassen te reinigen"
+            },
+            {
+              "boek": 200,
+              "sectie": "12.1",
+              "anker": "Je auto heeft dan een apart reservoir (met blauwe dop) voor deze vloeistof"
+            }
+          ]
+        },
+        {
+          "type": "regel",
+          "id": "U14-r37",
+          "tekst": "Ga meteen naar de garage voor een technische controle als je brandstofverbruik toeneemt, als de motor onregelmatig loopt, of als er donkere walm uit de uitlaat komt.",
+          "bron": [
+            {
+              "boek": 199,
+              "sectie": "12.1",
+              "anker": "laat onmiddellijk een technische controle uitvoeren als je merkt dat"
+            },
+            {
+              "boek": 199,
+              "sectie": "12.1",
+              "anker": "het brandstofverbruik toeneemt, de motor onregelmatig loopt"
             }
           ]
         },

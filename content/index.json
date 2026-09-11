@@ -1,5 +1,5 @@
 {
-  "versie": "fc609c7681",
+  "versie": "3099c8a0d1",
   "gegenereerd": "2026-09-11",
   "examenDatum": "2026-10-28",
   "scenes": [
@@ -788,7 +788,7 @@
         "content/bank/U14.json",
         "content/generated/U14-borden.json"
       ],
-      "aantalVragen": 43,
+      "aantalVragen": 67,
       "paginas": [
         {
           "id": "U14-P01",
@@ -804,6 +804,11 @@
           "id": "U14-P03",
           "anker": "p-13.4-dashboard-en-rijhulp",
           "titel": "Het dashboard en de rijhulpsystemen"
+        },
+        {
+          "id": "U14-P07",
+          "anker": "p-13.5-rijhulpsystemen",
+          "titel": "Rijhulpsystemen: wat er verplicht op zit"
         },
         {
           "id": "U14-P04",

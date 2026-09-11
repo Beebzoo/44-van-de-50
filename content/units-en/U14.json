@@ -367,7 +367,217 @@
           "tekst": "Think about cleaning and maintenance too. Make sure no polluting or dangerous substances end up in the soil or the drains, and take old parts, batteries and tyres to the right collection point. In many municipalities washing your car on the public road is forbidden, by the way."
         },
         {
+          "tekst": "Which fuel belongs in your car"
+        },
+        {
+          "kop": [
+            "Shape",
+            "Code",
+            "What is in the pump"
+          ],
+          "rijen": [
+            [
+              "Round",
+              "E10",
+              "Petrol with 10 percent biofuel"
+            ],
+            [
+              "Square",
+              "B7",
+              "Diesel with 7 percent biofuel"
+            ],
+            [
+              "Square",
+              "XTL",
+              "Synthetic fuel"
+            ],
+            [
+              "Diamond",
+              "H2",
+              "Hydrogen"
+            ],
+            [
+              "Diamond",
+              "LPG",
+              "Gas"
+            ]
+          ]
+        },
+        {
+          "tekst": "The shape tells you in one look which sort you are dealing with, even in a country where you cannot read the words on the pump. Round is petrol, square is diesel and a diamond is gas."
+        },
+        {
+          "tekst": "Petrol in a modern diesel car damages the fuel system while you drive, because petrol is less greasy than diesel. Diesel in a petrol engine burns far less well, so the engine runs badly or is damaged."
+        },
+        {
+          "tekst": "The catalytic converter and the soot filter"
+        },
+        {
+          "items": [
+            "Avoid long attempts at starting",
+            "Do not push or tow the car while the engine is still warm",
+            "Never switch off the ignition while the car is moving",
+            "Never run the fuel tank completely empty"
+          ]
+        },
+        {
+          "tekst": "Like the rest of the exhaust, the catalytic converter gets very hot. So do not park your car above dry leaves or withered grass."
+        },
+        {
+          "tekst": "Besides the catalytic converter, a diesel car also has a soot filter (roetfilter) in the exhaust system. It filters out the small soot particles, because those cause cancer."
+        },
+        {
+          "tekst": "With a diesel engine the catalytic converter sometimes uses the additive AdBlue to clean the exhaust gases. The car then has a separate tank for it with a blue cap, and a light on the dashboard tells you when to top it up."
+        },
+        {
+          "tekst": "Go to the garage for a technical check straight away if your fuel consumption goes up, if the engine runs unevenly, or if dark smoke comes out of the exhaust."
+        },
+        {
           "tekst": "A low-emission zone looks at diesel and emission class, a zero-emission zone only lets zero-emission vehicles in."
+        }
+      ]
+    },
+    "U14-P07": {
+      "titel": "Driver assistance: what a new car must have",
+      "body": [
+        {
+          "tekst": "Driver assistance systems are known together as ADAS. On the previous page you read the main rule: they support you and do not take over the driving. Here is which systems a new car carries these days and what they do."
+        },
+        {
+          "tekst": "Switch a driver assistance system on or off when the situation calls for it. In doing so you look at four factors: the road, the weather, the traffic and your own condition as a driver."
+        },
+        {
+          "tekst": "What a new car must have"
+        },
+        {
+          "kop": [
+            "System",
+            "Short",
+            "What it does"
+          ],
+          "rijen": [
+            [
+              "Reversing detection",
+              "",
+              "Detects people and objects behind the car and warns you with a sound"
+            ],
+            [
+              "Tyre pressure monitoring",
+              "TPMS",
+              "Warns you on the dashboard if the pressure in one or more tyres is too low"
+            ],
+            [
+              "Collision warning",
+              "",
+              "Warns you if a collision threatens with pedestrians or cyclists in front of your car"
+            ],
+            [
+              "Distraction detection",
+              "ADDW",
+              "Watches your eye direction and head position with cameras and warns you if you are distracted"
+            ],
+            [
+              "Emergency braking",
+              "AEB",
+              "Warns you if you keep too little distance and brakes by itself if you do not act"
+            ],
+            [
+              "Event data recorder",
+              "EDR",
+              "Records your driving behaviour before, during and after a collision"
+            ],
+            [
+              "Blind spot information",
+              "BSM",
+              "Warns you through your door mirror about vehicles in the blind spot beside and behind you"
+            ],
+            [
+              "Speed assistance",
+              "ISA",
+              "Recognises speed limits and warns or brakes if you go too fast"
+            ],
+            [
+              "Emergency stop signal",
+              "ESS",
+              "Makes your rear lights flash to warn the cars behind you when you brake hard"
+            ],
+            [
+              "Alcohol interlock fitting",
+              "",
+              "Makes an alcohol interlock simple to install"
+            ],
+            [
+              "Lane keeping assistance",
+              "ELKS",
+              "Steers back if your car is about to leave its lane"
+            ],
+            [
+              "Drowsiness warning",
+              "DDAW",
+              "Spots sleepiness or slipping attention from your driving and steering pattern"
+            ]
+          ]
+        },
+        {
+          "tekst": "Two things the exam likes to ask. Lane keeping assistance does not step in when you have indicated, because then you are leaving the lane on purpose. And you may switch speed assistance off, but it is automatically back on at the start of every new trip."
+        },
+        {
+          "tekst": "Systems that can come on top"
+        },
+        {
+          "kop": [
+            "System",
+            "Short",
+            "What it does"
+          ],
+          "rijen": [
+            [
+              "Adaptive cruise control",
+              "ACC",
+              "Keeps the following distance you set and adjusts your speed to the traffic"
+            ],
+            [
+              "Automatic high beam",
+              "AHB",
+              "Switches between main beam and dipped beam by itself, based on other traffic"
+            ],
+            [
+              "Parking assistant",
+              "APA",
+              "Steers for you while parking, while you work the accelerator and the brake"
+            ],
+            [
+              "Exit warning",
+              "DEW",
+              "Warns you when a door is opened if a cyclist or vehicle is coming"
+            ],
+            [
+              "Rear cross traffic alert",
+              "RCTA",
+              "Warns you when reversing about crossing traffic coming from the side"
+            ],
+            [
+              "Junction assistant",
+              "IJA",
+              "Warns you about oncoming traffic when you turn left"
+            ],
+            [
+              "Auto hold",
+              "AVH",
+              "Holds the car still in a queue or at a traffic light without you holding the brake"
+            ],
+            [
+              "Sign recognition",
+              "TSR",
+              "Recognises road signs and shows them on your dashboard, often together with ISA"
+            ]
+          ]
+        },
+        {
+          "tekst": "You do not have to know every abbreviation by heart, but you do have to know what a system does and where it stops. Every system has limits and cannot step in in every situation."
+        },
+        {
+          "tekst": "A driver assistance system warns or helps, you keep driving. On or off depends on the road, the weather, the traffic and yourself."
         }
       ]
     }

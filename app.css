@@ -296,6 +296,7 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .reeks .stapper { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 6px 0 0; }
 .reeks .stapper .stipjes { padding: 0; }
 .reeks .stapper button { min-height: 40px; min-width: 44px; padding: 0 10px; border-radius: var(--r-klein); border: 1px solid var(--lijn-2); font-size: 14px; font-weight: 500; }
+.reeks .stapper.alleen-stipjes { min-height: 40px; }
 .optie .stempel { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--lijn-2); font-family: var(--kop); font-weight: 700; font-size: 15px; color: var(--inkt-2); }
 .optie.gekozen .stempel { border-color: var(--bord-blauw); background: var(--bord-blauw); color: #fff; }
 .optie .stempel.goedcijfer { border-color: var(--goed); background: var(--goed); color: #fff; }
