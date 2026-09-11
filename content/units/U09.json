@@ -345,6 +345,11 @@
           ]
         },
         {
+          "type": "diagram",
+          "naam": "andreaskruis",
+          "tekst": "Tel de balken van het kruis, dan weet je hoeveel sporen je oversteekt."
+        },
+        {
           "type": "borden",
           "codes": [
             "J12",

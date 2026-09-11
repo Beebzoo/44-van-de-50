@@ -14,6 +14,7 @@ import { sceneSvg, scenePlate } from "./scene.js";
 import * as SRS from "./srs.js";
 import * as sync from "./sync.js";
 import { t, taal, zetTaal, isEngels, DAGEN as TDAGEN, MAANDEN as TMAANDEN } from "./taal.js";
+import { remwegSvg } from "./diagram.js";
 
 const app = document.getElementById("app");
 const S = {
@@ -708,7 +709,21 @@ async function onClick(e) {
 /* een invulvraag verzamelt zijn antwoord terwijl je typt, niet pas bij een klik */
 function onInput(e) {
   const el = e.target.closest("[data-actie]");
-  if (!el || el.dataset.actie !== "invul" || !S.run) return;
+  if (!el) return;
+  /* de snelheidsschuif tekent alleen zijn eigen vlak opnieuw: een hertekening
+     van het scherm zou de schuif onder je vinger vandaan halen */
+  if (el.dataset.actie === "remweg") {
+    const v = parseInt(el.value, 10);
+    const fig = el.closest(".diagram");
+    if (fig) {
+      const vel = fig.querySelector(".diagramvel");
+      if (vel) vel.innerHTML = remwegSvg(v);
+      const uit = fig.querySelector("[data-remweg-uit]");
+      if (uit) uit.textContent = v + " km/u";
+    }
+    return;
+  }
+  if (el.dataset.actie !== "invul" || !S.run) return;
   S.run.gekozen = el.value.trim() ? [el.value.trim()] : [];
   const knop = document.querySelector('[data-actie="controleer"]');
   if (knop) knop.disabled = !Q.ready(S.run);

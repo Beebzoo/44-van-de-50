@@ -523,3 +523,13 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .taalknop button.actief { background: var(--schil-inkt); color: var(--bord-blauw); opacity: 1; }
 .taalknop button:hover { opacity: 1; }
 @media (max-width: 359px) { .taalknop { display: none; } }
+
+/* de vier losse diagrammen: een eigen vel, net als een tekening */
+.diagram { margin: 16px 0; padding: 12px; background: var(--vlak); border: 1px solid var(--lijn); border-radius: 12px; }
+.diagram .diagramkop { font-family: var(--kop); font-weight: 700; font-size: 15px; color: var(--bord-blauw); margin: 0 0 8px; }
+.diagram .diagramvlak { display: block; width: 100%; height: auto; background: var(--plaat); border-radius: 8px; }
+.diagram figcaption.meta { margin-top: 8px; }
+.diagram .schuif { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+.diagram .schuif label { font-size: 14px; color: var(--inkt-2); }
+.diagram .schuif input[type=range] { flex: 1; min-width: 0; accent-color: var(--bord-blauw); height: 36px; }
+.diagram .schuif output { min-width: 84px; text-align: right; color: var(--bord-blauw); }

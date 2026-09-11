@@ -343,6 +343,9 @@
           "tekst": "The total distance you need to come to a stop is what we call the stopping distance (stopafstand). The stopping distance is the reaction distance (reactieafstand) plus the braking distance (remweg)."
         },
         {
+          "tekst": "Drag the speed and watch the bar. The reaction distance grows in step with the speed, the braking distance grows with its square."
+        },
+        {
           "tekst": "Between noticing that you have to brake and the moment you really hit the brake, an average of one second goes by. We call that second the reaction second, and the distance you cover during it is the reaction distance."
         },
         {

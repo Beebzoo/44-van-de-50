@@ -560,6 +560,33 @@
               "$ref": "#/$defs/bronOfLijst"
             }
           }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "naam"
+          ],
+          "properties": {
+            "type": {
+              "const": "diagram"
+            },
+            "naam": {
+              "enum": [
+                "remweg",
+                "dodehoek",
+                "andreaskruis",
+                "handsignalen"
+              ]
+            },
+            "tekst": {
+              "type": "string"
+            },
+            "bron": {
+              "$ref": "#/$defs/bronOfLijst"
+            }
+          }
         }
       ]
     }

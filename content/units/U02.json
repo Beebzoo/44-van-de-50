@@ -1043,6 +1043,11 @@
           ]
         },
         {
+          "type": "diagram",
+          "naam": "handsignalen",
+          "tekst": "Kijk naar de arm en naar de kant waar jij vandaan komt."
+        },
+        {
           "type": "waarom",
           "tekst": "Een agent of verkeersregelaar staat ter plekke en ziet wat een bord of licht niet kan zien: een ongeval, een afzetting, een file. Zijn aanwijzing past bij de situatie van dat moment, daarom wint die van alles wat vast staat.",
           "bron": {

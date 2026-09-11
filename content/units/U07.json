@@ -1316,6 +1316,11 @@
           ]
         },
         {
+          "type": "diagram",
+          "naam": "dodehoek",
+          "tekst": "De gearceerde punten zijn wat je spiegels je niet geven. Daar past een auto in, en een fietser."
+        },
+        {
           "type": "waarom",
           "tekst": "Spiegels laten een deel van de ruimte naast je niet zien, en juist daar zit de auto die op het punt staat jou in te halen. Door je spiegels goed af te stellen maak je die gaten kleiner, maar weg krijg je ze niet.",
           "bron": {

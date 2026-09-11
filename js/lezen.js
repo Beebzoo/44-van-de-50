@@ -6,6 +6,7 @@
    codes in [B6] brackets become inline chips. */
 import { inlineSigns, bordRij, lampRij } from "./signs.js";
 import { t } from "./taal.js";
+import { diagramHtml } from "./diagram.js";
 import { scenePlate } from "./scene.js";
 
 let SCENES = {};
@@ -31,6 +32,7 @@ export function blockHtml(b, i) {
     case "borden": return (b.tekst ? `<p class="lees">${tekst(b.tekst)}</p>` : "") + bordRij(b.codes);
     case "lampen": return (b.tekst ? `<p class="lees">${tekst(b.tekst)}</p>` : "") + lampRij(b.lampen);
     case "scene": return (SCENES[b.ref] ? scenePlate(SCENES[b.ref]) : `<div class="plaat scene-placeholder">${esc(t("{ref} ontbreekt", { ref: b.ref }))}</div>`) + (b.tekst ? `<p class="meta" style="margin:-4px 0 12px">${tekst(b.tekst)}</p>` : "");
+    case "diagram": return diagramHtml(b.naam, b.tekst);
     case "zelftest": return `<div class="zelftest lees" data-zelftest="${i}"><span class="meta">${esc(t("Zelftest"))}</span><p style="margin:4px 0 8px">${tekst(b.vraag)}</p><button class="knop omlijnd" type="button" data-actie="toon-antwoord">${esc(t("Toon antwoord"))}</button><div class="antwoord verborgen"><strong>${tekst(b.antwoord)}</strong>${b.uitleg ? `<p style="margin:6px 0 0">${tekst(b.uitleg)}</p>` : ""}</div></div>`;
     default: return "";
   }

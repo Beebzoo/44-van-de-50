@@ -1139,6 +1139,11 @@
           ]
         },
         {
+          "type": "diagram",
+          "naam": "remweg",
+          "tekst": "Schuif de snelheid op en kijk wat er met de balk gebeurt. De reactieafstand groeit gelijk op met de snelheid, de remweg met het kwadraat ervan."
+        },
+        {
           "type": "regel",
           "id": "U06-r28",
           "tekst": "Tussen je waarneming dat je moet remmen en het moment dat je echt op de rem trapt verstrijkt gemiddeld een seconde. Die seconde noemen we de reactieseconde, en de afstand die je er in aflegt is de reactieafstand.",
