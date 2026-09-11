@@ -495,6 +495,126 @@ function strokenHtml() {
   </svg>`;
 }
 
+
+/* ==== 18 het examen in cijfers ====
+   Vijftig vragen, vierenveertig goed, dus zes fout mag. Als balk zie je hoe
+   smal die marge is, en dat is precies het punt. */
+function examencijfersHtml() {
+  const x0 = 20, breed = 300, per = breed / 50;
+  return `<svg class="schema" viewBox="0 0 340 170" role="img" aria-label="${esc(t("Het examen in cijfers"))}">
+    <rect x="${x0}" y="34" width="${(44 * per).toFixed(1)}" height="26" rx="4" fill="rgba(30,127,79,.85)"/>
+    <rect x="${(x0 + 44 * per).toFixed(1)}" y="34" width="${(6 * per).toFixed(1)}" height="26" rx="4" fill="rgba(184,74,58,.75)"/>
+    ${label(x0 + 22 * per, 52, t("44 goed"), { grootte: 13, gewicht: 700, kleur: "#fff" })}
+    <path d="M${(x0 + 44 * per).toFixed(1)} 28 V66" stroke="${INKT}" stroke-width="2"/>
+    ${label(x0 + 47 * per, 80, t("6 fout"), { grootte: 11, gewicht: 600, kleur: FIETSPAD })}
+    ${label(170, 24, t("50 vragen, en dit is je hele marge"), { grootte: 12, gewicht: 700 })}
+    ${doos(10, 92, 320, 66, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 112, t("30 minuten, dus 36 seconden per vraag"), { grootte: 11, gewicht: 600 })}
+    ${label(170, 130, t("2 vragen tellen niet mee, en je weet niet welke"), { grootte: 10, kleur: GRIJS })}
+    ${label(170, 148, t("Ongeveer 2 van de 3 vragen zijn inzichtvragen"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 19 de twee secondenregel ==== */
+function tweesecondenHtml() {
+  const auto = (x, kleur) => `<rect x="${x}" y="46" width="44" height="24" rx="5" fill="${kleur}" stroke="${INKT}" stroke-width="1.5"/>`;
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("De twee secondenregel"))}">
+    <rect x="0" y="36" width="340" height="44" fill="${ASFALT}"/>
+    <path d="M0 58 H340" stroke="${MARK}" stroke-width="2" stroke-dasharray="14 12" opacity=".5"/>
+    ${auto(30, MARK)}
+    ${auto(250, GRIJS)}
+    <path d="M78 84 H248" stroke="${BLAUW}" stroke-width="2"/>
+    <path d="M78 84 l8 -5 v10 z M248 84 l-8 -5 v10 z" fill="${BLAUW}"/>
+    ${label(163, 104, t("2 seconden"), { grootte: 13, gewicht: 700, kleur: BLAUW })}
+    ${label(163, 120, t("bij 80 km/u is dat ongeveer 44 meter"), { grootte: 10, kleur: GRIJS })}
+    ${label(52, 28, t("jij"), { grootte: 10, kleur: GRIJS })}
+    ${label(272, 28, t("je voorligger"), { grootte: 10, kleur: GRIJS })}
+    ${doos(10, 134, 320, 58, GEEL, "rgba(242,183,5,.12)")}
+    ${label(170, 154, t("3 seconden bij regen, sneeuw of mist"), { grootte: 12, gewicht: 700, kleur: AMBER })}
+    ${label(170, 172, t("en ook met een zware lading of een aanhangwagen"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 20 de bakens voor een overweg ==== */
+function bakensHtml() {
+  const baken = (x, strepen, meters) => {
+    let h = `<rect x="${x - 11}" y="58" width="22" height="40" rx="3" fill="#fff" stroke="${INKT}" stroke-width="1.5"/>`;
+    for (let i = 0; i < strepen; i++) h += `<path d="M${x - 8} ${90 - i * 12} l16 -10" stroke="${FIETSPAD}" stroke-width="4" stroke-linecap="round"/>`;
+    return h + `<text x="${x}" y="114" font-size="11" font-weight="700" fill="${INKT}" text-anchor="middle">${esc(meters)}</text>`;
+  };
+  return `<svg class="schema" viewBox="0 0 340 170" role="img" aria-label="${esc(t("De bakens voor een overweg"))}">
+    <rect x="0" y="118" width="340" height="30" fill="${ASFALT}"/>
+    <path d="M0 133 H300" stroke="${MARK}" stroke-width="2" stroke-dasharray="14 12" opacity=".5"/>
+    ${label(170, 20, t("Elke schuine streep is 80 meter"), { grootte: 12, gewicht: 700 })}
+    ${label(170, 36, t("Je rijdt van links naar rechts"), { grootte: 10, kleur: GRIJS })}
+    ${baken(40, 3, "240 m")}
+    ${baken(120, 2, "160 m")}
+    ${baken(200, 1, "80 m")}
+    <path d="M300 52 V148" stroke="${INKT}" stroke-width="3"/>
+    <path d="M288 60 l24 24 M312 60 l-24 24" stroke="${FIETSPAD}" stroke-width="3"/>
+    ${label(300, 40, t("overweg"), { grootte: 10, gewicht: 700, kleur: FIETSPAD })}
+    ${label(300, 164, t("andreaskruis"), { grootte: 9, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 21 lading: de maten ==== */
+function ladingHtml() {
+  return `<svg class="schema" viewBox="0 0 340 210" role="img" aria-label="${esc(t("De maten van je lading"))}">
+    ${label(170, 18, t("Van opzij: auto plus lading"), { grootte: 12, gewicht: 700 })}
+    <rect x="90" y="70" width="130" height="34" rx="6" fill="rgba(138,144,153,.25)" stroke="${INKT}" stroke-width="1.5"/>
+    <rect x="112" y="56" width="86" height="16" rx="3" fill="rgba(242,183,5,.35)" stroke="${GEEL}" stroke-width="1.5"/>
+    <circle cx="118" cy="106" r="8" fill="${INKT}"/><circle cx="192" cy="106" r="8" fill="${INKT}"/>
+    <path d="M60 50 V112" stroke="${BLAUW}" stroke-width="2"/>
+    <path d="M60 50 l-4 7 h8 z M60 112 l-4 -7 h8 z" fill="${BLAUW}"/>
+    ${label(38, 84, "4 m", { grootte: 11, gewicht: 700, kleur: BLAUW })}
+    <path d="M220 120 H262" stroke="${GROEN}" stroke-width="2"/>
+    <path d="M220 120 l7 -4 v8 z M262 120 l-7 -4 v8 z" fill="${GROEN}"/>
+    ${label(241, 136, "1 m", { grootte: 10, gewicht: 700, kleur: GROEN })}
+    ${label(241, 150, t("achter"), { grootte: 9, kleur: GRIJS })}
+    <path d="M48 120 H90" stroke="${GROEN}" stroke-width="2"/>
+    <path d="M48 120 l7 -4 v8 z M90 120 l-7 -4 v8 z" fill="${GROEN}"/>
+    ${label(69, 136, "1 m", { grootte: 10, gewicht: 700, kleur: GROEN })}
+    ${label(69, 150, t("alleen ondeelbaar"), { grootte: 8, kleur: GRIJS })}
+    ${doos(10, 160, 320, 44, GRIJS, "rgba(138,144,153,.08)")}
+    ${label(170, 178, t("Breed mag 2,55 m, lang 12 m, met aanhanger samen 18 m"), { grootte: 10, gewicht: 600 })}
+    ${label(170, 194, t("Op de imperiaal steekt lading hoogstens 20 cm opzij uit"), { grootte: 10, kleur: GRIJS })}
+  </svg>`;
+}
+
+/* ==== 22 welke aanhanger mag je met rijbewijs B ==== */
+function aanhangerHtml() {
+  const trede = (y, h, kleur, vul, links, rechts) =>
+    doos(10, y, 320, h, kleur, vul) +
+    `<text x="24" y="${y + h / 2 + 4}" font-size="11" fill="${INKT}">${esc(links)}</text>` +
+    `<text x="316" y="${y + h / 2 + 4}" font-size="13" font-weight="700" fill="${kleur === GEEL ? AMBER : kleur}" text-anchor="end">${esc(rechts)}</text>`;
+  return `<svg class="schema" viewBox="0 0 340 200" role="img" aria-label="${esc(t("Welke aanhanger met welk rijbewijs"))}">
+    ${label(170, 16, t("Aanhanger en auto samen, en wat je daarvoor nodig hebt"), { grootte: 11, gewicht: 600 })}
+    ${trede(26, 38, GROEN, "rgba(30,127,79,.10)", t("aanhanger tot en met 750 kg"), "B")}
+    ${trede(70, 38, GROEN, "rgba(30,127,79,.10)", t("zwaarder, samen tot 3.500 kg"), "B")}
+    ${trede(114, 38, GEEL, "rgba(242,183,5,.14)", t("samen 3.500 tot 4.250 kg"), "B96 / BE")}
+    ${trede(158, 38, FIETSPAD, "rgba(184,74,58,.12)", t("samen boven 4.250 kg"), "BE")}
+  </svg>`;
+}
+
+/* ==== 23 de vorm van een bord zegt wat het doet ==== */
+function bordvormenHtml() {
+  const kaart = (x, y, vorm, naam, wat) =>
+    vorm + label(x, y + 46, naam, { grootte: 11, gewicht: 700 }) + label(x, y + 60, wat, { grootte: 9, kleur: GRIJS });
+  const rond = (x, y, rand, vul) => `<circle cx="${x}" cy="${y + 18}" r="17" fill="${vul}" stroke="${rand}" stroke-width="4"/>`;
+  const driehoek = (x, y) => `<path d="M${x} ${y + 2} l19 32 h-38 z" fill="#fff" stroke="${FIETSPAD}" stroke-width="4" stroke-linejoin="round"/>`;
+  const ruit = (x, y) => `<path d="M${x} ${y} l17 18 l-17 18 l-17 -18 z" fill="${GEEL}" stroke="#fff" stroke-width="3"/>`;
+  const rechthoek = (x, y) => `<rect x="${x - 20}" y="${y + 4}" width="40" height="28" rx="3" fill="${BLAUW}" stroke="#fff" stroke-width="2"/>`;
+  return `<svg class="schema" viewBox="0 0 340 220" role="img" aria-label="${esc(t("De vorm van een bord"))}">
+    ${label(170, 16, t("Aan de vorm en de kleur zie je al wat een bord doet"), { grootte: 11, gewicht: 600 })}
+    ${kaart(55, 26, rond(55, 26, FIETSPAD, "#fff"), t("Rond, rode rand"), t("verbod of maximum"))}
+    ${kaart(170, 26, rond(170, 26, BLAUW, BLAUW), t("Rond, blauw"), t("gebod: zo moet het"))}
+    ${kaart(285, 26, driehoek(285, 26), t("Driehoek"), t("waarschuwing"))}
+    ${kaart(55, 130, ruit(55, 130), t("Gele ruit"), t("voorrangsweg"))}
+    ${kaart(170, 130, rechthoek(170, 130), t("Blauw vlak"), t("informatie"))}
+    ${kaart(285, 130, rond(285, 130, GRIJS, "#fff"), t("Grijze rand"), t("einde van iets"))}
+  </svg>`;
+}
+
 const DIAGRAMMEN = {
   remweg: { html: remwegHtml, titel: () => t("Reactieafstand, remweg en stopafstand") },
   dodehoek: { html: dodehoekHtml, titel: () => t("De dode hoek") },
@@ -513,6 +633,12 @@ const DIAGRAMMEN = {
   strafbaar: { html: strafbaarHtml, titel: () => t("Overtreding of misdrijf") },
   weggedeelten: { html: weggedeeltenHtml, titel: () => t("Weg, rijbaan en rijstrook") },
   stroken: { html: strokenHtml, titel: () => t("De stroken op de snelweg") },
+  examencijfers: { html: examencijfersHtml, titel: () => t("Het examen in cijfers") },
+  tweeseconden: { html: tweesecondenHtml, titel: () => t("De twee secondenregel") },
+  bakens: { html: bakensHtml, titel: () => t("De bakens voor een overweg") },
+  lading: { html: ladingHtml, titel: () => t("De maten van je lading") },
+  aanhanger: { html: aanhangerHtml, titel: () => t("Welke aanhanger met welk rijbewijs") },
+  bordvormen: { html: bordvormenHtml, titel: () => t("De vorm van een bord") },
 };
 export const kentDiagram = naam => Object.prototype.hasOwnProperty.call(DIAGRAMMEN, naam);
 export const diagramNamen = () => Object.keys(DIAGRAMMEN);

@@ -13,20 +13,46 @@
           "tekst": "The theory exam has 50 questions. You need at least 44 of them right to pass."
         },
         {
-          "kop": ["Item", "Number"],
+          "tekst": "Six wrong is all you get, and two questions do not even count."
+        },
+        {
+          "kop": [
+            "Item",
+            "Number"
+          ],
           "rijen": [
-            ["Questions", "50"],
-            ["Test questions that do not count", "2, and you do not know which"],
-            ["Minimum right to pass", "44"],
-            ["Time", "30 minutes for all the questions together"],
-            ["Insight questions (inzichtvragen)", "about 2/3 of the exam"],
-            ["Result", "straight after you finish, then valid for 1.5 years"]
+            [
+              "Questions",
+              "50"
+            ],
+            [
+              "Test questions that do not count",
+              "2, and you do not know which"
+            ],
+            [
+              "Minimum right to pass",
+              "44"
+            ],
+            [
+              "Time",
+              "30 minutes for all the questions together"
+            ],
+            [
+              "Insight questions (inzichtvragen)",
+              "about 2/3 of the exam"
+            ],
+            [
+              "Result",
+              "straight after you finish, then valid for 1.5 years"
+            ]
           ]
         },
         {
           "tekst": "Six mistakes is your whole margin, and because you do not know which two questions are the test questions, you have to treat every question as if it counts."
         },
-        {"tekst": "The question types you will come across"},
+        {
+          "tekst": "The question types you will come across"
+        },
         {
           "tekst": "The CBR mixes up the question types. The book lists among others:"
         },
@@ -42,7 +68,9 @@
             "moving image questions (dynamisch beeld), with about 5 seconds of footage"
           ]
         },
-        {"tekst": "The eight topics"},
+        {
+          "tekst": "The eight topics"
+        },
         {
           "items": [
             "Use of the road",
@@ -58,7 +86,9 @@
         {
           "tekst": "A knowledge question sounds like: what does this sign mean? An insight question sounds like: should you expect the car in front of you to brake? With the first one you recite a rule. With the second one you look at the situation and choose how to behave."
         },
-        {"tekst": "What to bring"},
+        {
+          "tekst": "What to bring"
+        },
         {
           "tekst": "Be there about fifteen minutes early, with valid ID and your booking number. You check in at the self-service kiosk (aanmeldzuil) and put your things in a locker."
         },
@@ -92,15 +122,35 @@
         {
           "tekst": "When you answer a question, you always picture yourself as the driver of the white car."
         },
-        {"tekst": "The five steps as a reading strategy"},
         {
-          "kop": ["Step", "What you ask yourself"],
+          "tekst": "The five steps as a reading strategy"
+        },
+        {
+          "kop": [
+            "Step",
+            "What you ask yourself"
+          ],
           "rijen": [
-            ["Observing", "What do you see, what do you hear and which information matters?"],
-            ["Predicting", "How is the other person going to behave and how will the situation develop?"],
-            ["Evaluating", "What effect does your choice have on safety, the environment and the flow of traffic?"],
-            ["Deciding", "Brake, steer around it or come off the accelerator? Weighing that up decides your choice."],
-            ["Acting", "Carry out your decision. If you cannot work it out, start again at observing."]
+            [
+              "Observing",
+              "What do you see, what do you hear and which information matters?"
+            ],
+            [
+              "Predicting",
+              "How is the other person going to behave and how will the situation develop?"
+            ],
+            [
+              "Evaluating",
+              "What effect does your choice have on safety, the environment and the flow of traffic?"
+            ],
+            [
+              "Deciding",
+              "Brake, steer around it or come off the accelerator? Weighing that up decides your choice."
+            ],
+            [
+              "Acting",
+              "Carry out your decision. If you cannot work it out, start again at observing."
+            ]
           ]
         },
         {
@@ -142,13 +192,27 @@
         {
           "tekst": "You drive decisively when you drive with confidence and purpose. Do not give way (voorrang verlenen) when you do not have to, and do not wait longer than the situation asks for."
         },
-        {"tekst": "Why the exam watches for this"},
         {
-          "kop": ["Fact from the course", "Number"],
+          "tekst": "Why the exam watches for this"
+        },
+        {
+          "kop": [
+            "Fact from the course",
+            "Number"
+          ],
           "rijen": [
-            ["Accidents caused by human error", "90%"],
-            ["Accidents where tiredness is a deciding factor", "15%"],
-            ["Biggest causes of accidents", "excessive speed, alcohol and drugs, distraction"]
+            [
+              "Accidents caused by human error",
+              "90%"
+            ],
+            [
+              "Accidents where tiredness is a deciding factor",
+              "15%"
+            ],
+            [
+              "Biggest causes of accidents",
+              "excessive speed, alcohol and drugs, distraction"
+            ]
           ]
         },
         {
@@ -160,7 +224,9 @@
         {
           "tekst": "Defensive does not always mean waiting. If you give way when you do not have to, or wait longer than you need to, you drive hesitantly, and as soon as you hesitate other road users no longer know what you are going to do. The exam counts that as unsafe."
         },
-        {"tekst": "How this app scores you"},
+        {
+          "tekst": "How this app scores you"
+        },
         {
           "tekst": "In this app a guess counts as wrong. Tick 'Twijfel' (unsure) on a practice question when you are not certain. A right answer with unsure ticked does not count as right, and you only pass a quiz when everything is right without unsure. That way you only practise what you really know."
         },

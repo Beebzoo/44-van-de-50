@@ -1274,6 +1274,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "lading",
+          "tekst": "De maten van opzij, met wat er voor en achter mag uitsteken.",
+          "bron": {
+            "boek": 226,
+            "sectie": "13.7",
+            "anker": "maximaal 12 meter lang zijn, maximaal 2,55 meter breed zijn (inclusief lading)"
+          }
+        },
+        {
           "type": "valkuil",
           "tekst": "Verdeel je lading goed. Hangt je auto achterover, dan stralen je koplampen omhoog en verblind je tegenliggers. Zet de lading ook vast, zodat die bij remmen of uitwijken op zijn plaats blijft.",
           "bron": [
@@ -1476,6 +1486,16 @@
             "boek": 235,
             "sectie": "13.8",
             "anker": "Elke aanhangwagen en oplegger moet aan de achterzijde twee driehoekige retroreflectoren hebben"
+          }
+        },
+        {
+          "type": "visueel",
+          "naam": "aanhanger",
+          "tekst": "Het gaat om auto en aanhanger samen, niet om de aanhanger alleen.",
+          "bron": {
+            "boek": 229,
+            "sectie": "13.8",
+            "anker": "een voertuig dat kennelijk is bestemd om te worden voortbewogen door een motorrijtuig"
           }
         },
         {

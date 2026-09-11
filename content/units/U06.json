@@ -1021,6 +1021,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "tweeseconden",
+          "tekst": "Twee seconden bij goed weer, drie zodra het tegenzit.",
+          "bron": {
+            "boek": 123,
+            "sectie": "7.2",
+            "anker": "de bestuurder moet in staat zijn zijn voertuig tot stilstand te brengen binnen de afstand"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Twee seconden is precies de tijd die je nodig hebt om te zien dat er iets gebeurt en om daar iets aan te doen. In de eerste seconde reageer je nog niet, in de tweede sta je op de rem. Rijd je korter, dan raak je je voorligger voordat je remmen ook maar iets hebben kunnen doen. Seconden tellen werkt daarbij beter dan meters schatten, omdat het gat vanzelf meegroeit met je snelheid.",
           "bron": {

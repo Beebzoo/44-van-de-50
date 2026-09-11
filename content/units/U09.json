@@ -374,6 +374,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "bakens",
+          "tekst": "Tel de strepen: elke streep is tachtig meter tot de overweg.",
+          "bron": {
+            "boek": 94,
+            "sectie": "5.7",
+            "anker": "Overwegen zijn gelijkvloerse kruisingen tussen een weg en een spoorweg"
+          }
+        },
+        {
           "type": "tabel",
           "kop": [
             "Wat je ziet",

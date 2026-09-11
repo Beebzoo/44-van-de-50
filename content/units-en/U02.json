@@ -19,6 +19,9 @@
           "tekst": "If an ordinary road sign and a matrix sign (matrixbord) both give a maximum speed, the sign with the lowest speed applies. The speed on a matrix sign is always a maximum speed, even without a red ring. A temporary sign takes precedence over the fixed sign."
         },
         {
+          "tekst": "The shape and the colour already tell you half of what a sign does, before you read the symbol."
+        },
+        {
           "tekst": "A matrix sign and a temporary sign respond to what is happening right now: a tailback, roadworks, an icy surface. The fixed sign does not know about that situation, so the lowest speed wins."
         },
         {

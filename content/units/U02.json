@@ -200,6 +200,16 @@
           ]
         },
         {
+          "type": "visueel",
+          "naam": "bordvormen",
+          "tekst": "De vorm en de kleur vertellen je al half wat het bord doet, voordat je het symbool leest.",
+          "bron": {
+            "boek": 46,
+            "sectie": "3.1",
+            "anker": "Meestal gelden verkeersborden voor de hele breedte van de weg"
+          }
+        },
+        {
           "type": "waarom",
           "tekst": "Een matrixbord en een tijdelijk bord reageren op wat er nu gebeurt: file, werkzaamheden, gladheid. Het vaste bord kent die situatie niet, dus wint de laagste snelheid.",
           "bron": {
