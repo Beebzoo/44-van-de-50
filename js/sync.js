@@ -114,8 +114,21 @@ export async function flush() {
       await api("attempts", { method: "POST", body: slice.map(r => toServer(r, learner)), prefer: "resolution=ignore-duplicates,return=minimal", learner });
       await store.markSynced(slice.map(r => r.id));
     }
+    /* De watermerk is de tijd van de poging zelf, niet de tijd dat de server
+       hem kreeg, en dat laat een gat vallen zodra je op een van de twee
+       apparaten offline werkt. Doe je 's ochtends op de telefoon in de bus een
+       quiz en 's avonds op de laptop nog een, dan staat het watermerk van de
+       laptop al op vanavond. Komt de telefoon morgen online en duwt hij zijn
+       poging van vanochtend omhoog, dan valt die buiten "nieuwer dan
+       vanavond" en ziet de laptop hem nooit.
+
+       Vandaar een marge van veertien dagen terug. Rijen die je al hebt worden
+       eruit gefilterd op id, dus het kost alleen wat overbodige regels op de
+       lijn en het dicht het gat voor elke vertraging korter dan twee weken. */
+    const MARGE = 14 * 86400000;
     const since = await store.getSetting("laatstePull", 0);
-    const rows = await api("attempts?select=*&ts=gt." + since + "&order=ts.asc&limit=2000", { learner });
+    const vanaf = Math.max(0, since - MARGE);
+    const rows = await api("attempts?select=*&ts=gt." + vanaf + "&order=ts.asc&limit=2000", { learner });
     let maxTs = since;
     for (const row of rows || []) {
       if (row.ts > maxTs) maxTs = row.ts;
