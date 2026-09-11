@@ -529,7 +529,13 @@ const SCREENS = {
     return { titel: t("Route"), body, onder: "tab" };
   },
   leren() {
-    const body = `<h1 class="kop1">${esc(t("Leren"))}</h1><p class="meta" style="margin-bottom:16px">${esc(t("Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen."))}</p>` + S.units.map(u => {
+    /* De gemengde quiz staat bovenaan Leren en niet bij een blok, want hij
+       hoort juist bij geen enkel blok. Onder de twee vrijgespeelde blokken
+       heeft door elkaar oefenen nog niets om door elkaar te halen. */
+    const open = S.units.filter(u => S.states[u.id] && S.states[u.id].quizOpen);
+    const gedaan = S.attempts.filter(a => a.kind === "gemengd").length;
+    const gemengd = open.length < 2 ? "" : `<a class="kaart klik gemengdkaart" href="#/quiz/gemengd/gemengd"><div class="rij"><span class="groei"><strong>${esc(t("Door elkaar oefenen"))}</strong><br><span class="meta">${esc(t("12 vragen uit je {n} vrijgespeelde blokken door elkaar", { n: open.length }))}${gedaan ? esc(t(" · {n} keer gedaan", { n: gedaan })) : ""}</span></span>${I.pijl}</div></a>`;
+    const body = `<h1 class="kop1">${esc(t("Leren"))}</h1><p class="meta" style="margin-bottom:16px">${esc(t("Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen."))}</p>${gemengd}` + S.units.map(u => {
       const st = S.states[u.id];
       const n = (S.bank[u.id] || []).length;
       const label = st.staat === "beheerst" ? `<span class="staatlabel goed">${esc(t("Gehaald"))}</span>` : st.staat === "voorlopig" ? `<span class="staatlabel geel">${esc(t("Voorlopig gehaald"))}</span>` : st.staat === "vergrendeld" ? `<span class="staatlabel">${esc(t("Vergrendeld"))}</span>` : (st.staat === "lezen" || !u.quiz.gate) ? `<span class="staatlabel blauw">${esc(t("Lezen"))}</span>` : `<span class="staatlabel blauw">${esc(t("Oefenen"))}</span>`;
@@ -669,26 +675,35 @@ const SCREENS = {
     if (toon) {
       const goedOptie = q.opties.find(o => q.correct.includes(o.id));
       const u2 = q.uitleg;
-      const pagina = u.paginas.find(p => p.id === q.pagina);
+      /* In een gemengde ronde komt elke vraag uit een ander blok, dus de
+       leespagina hangt aan de vraag en niet aan de ronde. */
+    const uv = S.unitById[q.unit] || u;
+    const pagina = uv ? uv.paginas.find(p => p.id === q.pagina) : null;
       const bron = q.bronnen.filter(b => !b.afgeleid).map(b => b.boek ? t("Boek p. {p}", { p: b.boek }) + (b.sectie ? " (§" + b.sectie + ")" : "") : t("SpeedTheorie slide {n}", { n: b.slide })).join(" · ");
       const ft = r.goed && !r.twijfel ? "" : `<div class="blokje"><span class="label">${esc(t("Wat ging er mis?"))}</span><div class="fouttypes">${[["niet_geweten", "Niet geweten"], ["verkeerd_gelezen", "Verkeerd gelezen"], ["verkeerd_toegepast", "Verkeerd toegepast"], ["gegokt", "Gegokt"]].map(([k, l]) => `<button type="button" class="${run.fouttype === k ? "actief" : ""}" data-actie="fouttype" data-type="${k}">${esc(t(l))}</button>`).join("")}</div><span class="meta-3">${esc(t("Komt terug aan het eind."))}</span></div>`;
       uitleg = B.markeer(`<section class="uitleg" aria-live="polite"><span class="staat ${r.goed && !r.twijfel ? "goed" : ""}">${esc(r.goed ? (r.twijfel ? t("Goed, maar getwijfeld") : t("Goed")) : t("Nog niet"))}</span>
         <h2 class="kop2">${esc(t("Waarom"))}</h2><p class="lees">${esc(u2.waarom)}</p>
-        <div class="blokje lees"><span class="label">${esc(t("Regel"))}</span>${esc(u2.regel)}</div>
+        ${r && r.redenering ? `<div class="blokje lees jouwwoorden"><span class="label">${esc(t("Wat jij zei"))}</span>${esc(r.redenering)}</div>` : ""}<div class="blokje lees"><span class="label">${esc(t("Regel"))}</span>${esc(u2.regel)}</div>
         ${q.type === "volgorde" ? `<div class="blokje lees"><span class="label">${esc(t("De juiste volgorde"))}</span><ol class="lijst" style="margin:4px 0 0">${q.correct.map(id => { const o = q.opties.find(x => x.id === id); return `<li><strong>${esc(o ? o.tekst : id)}</strong>${o && o.feedback ? `<span class="meta" style="display:block">${esc(o.feedback.replace(VOORVOEGSEL, ""))}</span>` : ""}</li>`; }).join("")}</ol></div>` : q.type === "invul" ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(String(q.correct.getal).replace(".", ","))} ${esc(q.correct.eenheid)}</div>` : q.type !== "hotspot" && goedOptie ? `<div class="blokje lees"><span class="label">${esc(t("Het goede antwoord"))}</span>${esc(goedOptie.feedback.replace(VOORVOEGSEL, ""))}</div>` : ""}
         <div class="blokje lees"><span class="label">${esc(t("Valkuil"))}</span>${esc(u2.valkuil)}</div>
         ${u2.onthoud ? `<div class="onthoud"><span class="label">${esc(t("Onthoud"))}</span>${esc(u2.onthoud)}</div>` : ""}
         ${ft}
-        <p class="meta-3" style="margin:8px 0 0">${esc(bron)}${pagina ? ` · <a href="#/blok/${u.id}/lezen/${pagina.id}">${esc(t("Lees {pagina} opnieuw", { pagina: kortePaginanaam(pagina) }))}</a>` : ""}</p>
+        <p class="meta-3" style="margin:8px 0 0">${esc(bron)}${pagina && uv ? ` · <a href="#/blok/${uv.id}/lezen/${pagina.id}">${esc(t("Lees {pagina} opnieuw", { pagina: kortePaginanaam(pagina) }))}</a>` : ""}</p>
         <button class="knop tekstknop" style="min-height:36px;padding:0" data-actie="meld-fout" data-q="${esc(q.id)}">${esc(S.gemeld.has(q.id) ? t("Gemeld") : t("Klopt deze vraag niet?"))}</button><div class="rij notitierij">${notitieKnop(q.id, q.stam)}</div></section>`, new Set());
     }
-    const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${uitleg}`;
+    /* Zelf de regel benoemen voordat je hem leest werkt, maar het kost ook een
+       handeling per vraag. Daarom alleen waar je toch al weet dat je zwak staat:
+       bij het oefenen van je fouten en bij de gemengde ronde. */
+    const redeneer = (!toon && (run.ref === "fouten" || run.soort === "gemengd"))
+      ? `<label class="redeneer"><span class="meta-3">${esc(t("Welke regel geldt hier? Zeg het eerst zelf."))}</span><input id="redeneerveld" type="text" autocomplete="off" placeholder="${esc(t("In je eigen woorden, mag kort"))}" value="${esc(run.redenering || "")}" data-actie="redeneer"></label>`
+      : "";
+    const body = `${dots}${media}<p class="vraagtekst">${esc(q.stam)}</p>${hint}${opties}${redeneer}${uitleg}`;
     const onder = toon
       ? `<button class="knop primair groot" data-actie="volgende">${esc(run.i + 1 >= n ? t("Naar de uitslag") : t("Volgende"))}<span class="pijl">${I.pijl}</span></button>`
       : run.examen
         ? `<div class="rij"><button class="knop omlijnd" data-actie="examen-ga" data-n="${run.i - 1}" ${run.i === 0 ? "disabled" : ""} aria-label="${esc(t("Vorige vraag"))}">${I.terug}</button><button class="knop primair groot" data-actie="examen-ga" data-n="${run.i + 1}">${esc(run.i + 1 >= n ? t("Naar het overzicht") : t("Volgende"))}<span class="pijl">${I.pijl}</span></button></div>`
         : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> ${esc(t("Twijfel"))}</label><button class="knop primair groot" data-actie="controleer" ${Q.ready(run) ? "" : "disabled"}>${esc(t("Controleer"))}</button></div>`;
-    const naam = run.examen ? t("Oefenexamen") : run.soort === "quiz" ? t("Quiz") : run.soort === "herhaling" ? t("Herhaling") : run.ref === "fouten" ? t("Fouten oefenen") : t("Herstelronde");
+    const naam = run.examen ? t("Oefenexamen") : run.soort === "quiz" ? t("Quiz") : run.soort === "herhaling" ? t("Herhaling") : run.soort === "gemengd" ? t("Door elkaar") : run.ref === "fouten" ? t("Fouten oefenen") : t("Herstelronde");
     /* In een quiz mag je van taal wisselen, want dat is alleen een ander woord
        voor dezelfde vraag. In een examen niet: daar loopt een klok, en de
        eerste keer overschakelen haalt nog bestanden op. */
@@ -739,7 +754,19 @@ const SCREENS = {
     for (const a of S.attempts) for (const x of a.answers || []) if ((!x.goed || x.twijfel) && x.fouttype && types[x.fouttype] !== undefined) types[x.fouttype] += 1;
     const totaal = Object.values(types).reduce((a, b) => a + b, 0);
     const taxonomie = totaal ? `<div class="feiten" style="margin:8px 0 16px">${[["niet_geweten", "niet geweten"], ["verkeerd_gelezen", "verkeerd gelezen"], ["verkeerd_toegepast", "verkeerd toegepast"], ["gegokt", "gegokt"]].map(([k, l]) => `<div><span class="cijfer cijfer-klein">${types[k]}</span><span class="meta">${esc(t(l))}</span></div>`).join("")}</div>` : "";
-    const body = `<h1 class="kop1">${esc(t("Fouten"))} <span class="cijfer cijfer-klein" style="float:right">${rows.length}</span></h1>${taxonomie}
+    /* Hoe goed schat je jezelf in. Je vinkte "Twijfel" al aan, de app deed er
+       alleen nog niets mee behalve het meewegen in een foutloze ronde. */
+    const k = V.kalibratie(S.attempts);
+    const vak = (n, van, l, sub, cls) => `<div class="kalvak ${cls}"><span class="cijfer cijfer-klein">${n}</span><span class="meta">${esc(l)}</span><span class="meta-3">${esc(sub)}</span></div>`;
+    const kalibratie = k.totaal < 20 ? "" : `<h2 class="kop2">${esc(t("Hoe goed schat je jezelf in"))}</h2>
+      <div class="kalraster">
+        ${vak(k.zekerGoed, k.totaal, t("zeker en goed"), t("zo hoort het"), "goed")}
+        ${vak(k.zekerFout, k.totaal, t("zeker en fout"), t("hier let je niet op"), "gevaar")}
+        ${vak(k.twijfelGoed, k.totaal, t("getwijfeld en goed"), t("je wist het wel"), "")}
+        ${vak(k.twijfelFout, k.totaal, t("getwijfeld en fout"), t("terecht getwijfeld"), "")}
+      </div>
+      <p class="meta-3" style="margin:6px 0 16px">${esc(k.zekerFout === 0 ? t("Je twijfel klopt: als je zeker was, had je het ook goed.") : t("{n} van de {van} keer dat je zeker was, was het toch fout. Dat is het vakje dat je niet ziet aankomen.", { n: k.zekerFout, van: k.zekerGoed + k.zekerFout }))}</p>`;
+    const body = `<h1 class="kop1">${esc(t("Fouten"))} <span class="cijfer cijfer-klein" style="float:right">${rows.length}</span></h1>${taxonomie}${kalibratie}
       ${rows.length ? `<button class="knop primair groot" data-actie="oefen-fouten" style="margin-bottom:16px">${esc(t("Oefen deze {n}", { n: Math.min(rows.length, 20) }))}<span class="pijl">${I.pijl}</span></button>${groups}<p class="meta-3">${esc(t("Een vraag verdwijnt hier na twee keer achter elkaar goed."))}</p>` : `<p class="lees">${esc(t("Nog geen fouten om te herhalen. Alles wat je fout doet komt hier terecht, met de uitleg erbij."))}</p>`}`;
     return { titel: t("Fouten"), body, onder: "tab" };
   },
@@ -787,12 +814,25 @@ const SCREENS = {
 function startRunIfNeeded() {
   const uid = S.route.unit;
   const u = S.unitById[uid];
-  if (S.run && S.run.unit === uid && !S.run.klaar) return;
+  /* een gemengde ronde heeft geen unit, dus die vergelijking gaat daar nooit
+     op: herken hem aan zijn soort, anders begint hij bij elke hertekening opnieuw */
+  if (S.run && !S.run.klaar && (S.run.unit === uid || (S.route.soort === "gemengd" && S.run.soort === "gemengd"))) return;
   S.run = null;
   if (S.route.soort === "herhaling") {
     const set = SRS.dailySet(S.boxes, S.qById);
     const qs = set.vragen.map(id => S.qById[id]).filter(q => q && Q.SUPPORTED.has(q.type));
     if (qs.length) S.run = Q.newRun({ unit: uid, soort: "herhaling", ref: "herhaling", questions: qs });
+    return;
+  }
+  if (S.route.soort === "gemengd") {
+    /* Door elkaar oefenen: hoogstens twee vragen per blok, uit alles wat open
+       staat. Dit telt niet mee voor het halen van een blok, want daarvoor moet
+       je twee foutloze ronden binnen dat ene blok doen. De antwoorden tellen
+       wel mee voor je geschiedenis, en dus voor de dekking van de pool. */
+    const perUnit = {};
+    for (const u of S.units) if (S.states[u.id] && S.states[u.id].quizOpen) perUnit[u.id] = S.bank[u.id] || [];
+    const qs = Q.sampleGemengd(perUnit, S.history, 12);
+    if (qs.length >= 4) S.run = Q.newRun({ unit: null, soort: "gemengd", ref: "gemengd", questions: qs });
     return;
   }
   if (S.route.soort === "fouten") {
@@ -819,7 +859,9 @@ function herstelronde(run) {
     const sib = Q.sibling(q, S.bank[q.unit] || [], inRun.concat(qs.map(x => x.id)), S.history);
     if (sib) qs.push(sib);
   }
-  S.run = Q.newRun({ unit: run.unit, soort: "herstel", questions: qs });
+  /* een herstelronde na een gemengde ronde heeft ook geen blok, dus erft hij
+     de ref van de ronde waar hij uit voortkomt */
+  S.run = Q.newRun({ unit: run.unit, soort: "herstel", questions: qs, ref: run.ref || run.unit });
 }
 /* Een regel over je tempo, gemeten tegen de 36 seconden die het examen je per
    vraag geeft. Onder de acht antwoorden zegt een mediaan nog niets, dus dan
@@ -845,8 +887,8 @@ function quizEinde(run, u) {
     ? `<button class="knop primair groot" data-actie="herstel">${esc(t("Alleen de fouten opnieuw"))}<span class="pijl">${I.pijl}</span></button><div class="knopnaast"><button class="knop omlijnd" data-actie="opnieuw">${esc(t("Hele quiz opnieuw"))}</button><a class="knop omlijnd" href="#/blok/${u.id}">${esc(t("Terug naar blok"))}</a></div>`
     : run.soort === "quiz"
       ? `<a class="knop primair groot" href="${st.staat === "beheerst" ? "#/gehaald/" + u.id : "#/blok/" + u.id}">${esc(st.staat === "beheerst" ? t("Blok gehaald") : t("Terug naar blok"))}<span class="pijl">${I.pijl}</span></a>`
-      : `<a class="knop primair groot" href="${run.ref === "fouten" ? "#/fouten" : run.soort === "herhaling" ? "#/route" : "#/blok/" + u.id}">${esc(t("Klaar"))}<span class="pijl">${I.pijl}</span></a>${s.fouten.length && u ? `<button class="knop tekstknop" data-actie="herstel">${esc(t("Nog een herstelronde"))}</button>` : ""}`;
-  return { titel: t("Uitslag"), terug: u ? "#/blok/" + u.id : "#/route", sluit: true, midden: esc(run.soort === "quiz" ? t("Quiz-einde") : run.soort === "herhaling" ? t("Herhaling") : t("Herstelronde")), body, onder };
+      : `<a class="knop primair groot" href="${run.ref === "fouten" ? "#/fouten" : run.soort === "herhaling" ? "#/route" : (run.soort === "gemengd" || !u) ? "#/leren" : "#/blok/" + u.id}">${esc(t("Klaar"))}<span class="pijl">${I.pijl}</span></a>${s.fouten.length && u ? `<button class="knop tekstknop" data-actie="herstel">${esc(t("Nog een herstelronde"))}</button>` : ""}`;
+  return { titel: t("Uitslag"), terug: u ? "#/blok/" + u.id : run.soort === "gemengd" ? "#/leren" : "#/route", sluit: true, midden: esc(run.soort === "quiz" ? t("Quiz-einde") : run.soort === "herhaling" ? t("Herhaling") : run.soort === "gemengd" ? t("Door elkaar") : t("Herstelronde")), body, onder };
 }
 async function afronden() {
   const run = S.run;
@@ -891,6 +933,7 @@ async function onClick(e) {
   if (a === "kies" && run) { const t = Q.current(run).q.type; Q.choose(run, el.dataset.id); if (t !== "meervoudig" && t !== "volgorde" && run.gekozen.length === 1 && run.gekozen[0] === el.dataset.id && el.classList.contains("gekozen")) { /* second tap on the selected option confirms */ Q.check(run, S.history); } render(); return; }
   if (a === "controleer" && run) { Q.check(run, S.history); render(); return; }
   if (a === "fouttype" && run) { Q.setFouttype(run, el.dataset.type); render(); return; }
+  if (a === "redeneer" && run) { run.redenering = el.value; return; }
   if (a === "volgende" && run) { if (Q.next(run)) await afronden(); else { render(); autoSpeel(run); } return; }
   if (a === "herstel" && run) { herstelronde(run); render(); return; }
   if (a === "opnieuw" && run) { S.run = null; startRunIfNeeded(); render(); return; }
@@ -932,6 +975,9 @@ async function onClick(e) {
 function onInput(e) {
   const el = e.target.closest("[data-actie]");
   if (!el) return;
+  /* meteen bij het typen onthouden, niet pas bij het verlaten van het veld:
+     anders is wat je schreef weg als je het scherm kantelt of wegklikt */
+  if (el.dataset.actie === "redeneer" && S.run) { S.run.redenering = el.value; return; }
   /* de snelheidsschuif tekent alleen zijn eigen vlak opnieuw: een hertekening
      van het scherm zou de schuif onder je vinger vandaan halen */
   if (el.dataset.actie === "remweg") {
@@ -954,6 +1000,7 @@ function onChange(e) {
   const el = e.target.closest("[data-actie]");
   if (!el) return;
   if (el.dataset.actie === "twijfel" && S.run) { S.run.twijfel = el.checked; return; }
+  if (el.dataset.actie === "redeneer" && S.run) { S.run.redenering = el.value; return; }
   if (el.dataset.actie === "examendatum" && /^\d{4}-\d{2}-\d{2}$/.test(el.value)) { setSetting("examenDatum", el.value).then(render); }
 }
 function onKey(e) {

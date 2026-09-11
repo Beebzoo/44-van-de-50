@@ -381,6 +381,16 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .familieletter { flex: none; width: 26px; height: 26px; border-radius: 6px; background: var(--bord-blauw); color: #fff; font-family: var(--kop); font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; }
 .familietekst { line-height: 1.35; }
 
+.kalraster { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0 0; }
+.kalvak { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: var(--r-klein); border: 1px solid var(--lijn-2); background: var(--vlak-2); }
+.kalvak.goed { border-color: var(--goed); }
+.kalvak.gevaar { border-color: var(--fout); background: rgba(184,74,58,.07); }
+.kalvak .cijfer { line-height: 1.1; }
+.redeneer { display: block; margin: 14px 0 0; }
+.redeneer input { width: 100%; box-sizing: border-box; margin-top: 4px; padding: 10px 12px; border-radius: var(--r-klein); border: 1px solid var(--lijn-2); background: var(--vlak); color: var(--inkt); font: inherit; }
+.redeneer input:focus { outline: 2px solid var(--bord-blauw); outline-offset: 1px; }
+.jouwwoorden { border-left: 3px solid var(--bord-blauw); }
+.gemengdkaart { border-color: var(--bord-blauw); }
 .notitierij { margin-top: 16px; }
 .notitieknop { gap: 8px; }
 .notitiesheet { display: flex; flex-direction: column; gap: 12px; }

@@ -64,6 +64,41 @@ export function sample({ pool, history, lengte, avoid = [] }) {
   return shuffle(chosen);
 }
 
+/* ==== de gemengde quiz ====
+
+   De gewone quiz trekt uit een blok. Dat is blokgewijs oefenen, en daarvan weet
+   je na afloop vooral dat je in blok 3 zat: de vraag "welke regel geldt hier
+   eigenlijk" heb je dan al half beantwoord gekregen. Door elkaar oefenen dwingt
+   je die vraag wel te stellen, en dat is precies wat het examen van je vraagt.
+
+   Daarom hoogstens twee vragen per blok en zoveel mogelijk verschillende
+   blokken, en binnen een blok nog steeds gewogen naar wat je het minst hebt
+   gezien of eerder fout had. */
+export function sampleGemengd(perUnit, history, lengte) {
+  const units = Object.keys(perUnit).filter(u => (perUnit[u] || []).length);
+  const gekozen = [];
+  const genomen = new Set();
+  /* eerst een ronde van een per blok, dan pas een tweede */
+  for (const beurt of [1, 2]) {
+    for (const u of shuffle(units)) {
+      if (gekozen.length >= lengte) break;
+      const kandidaten = perUnit[u].filter(q => !q.reserve && SUPPORTED.has(q.type) && !genomen.has(q.id));
+      if (kandidaten.length < beurt) continue;
+      const pick = ranked(kandidaten, history)[0];
+      if (pick) { gekozen.push(pick); genomen.add(pick.id); }
+    }
+  }
+  /* nog te kort, bijvoorbeeld omdat er pas twee blokken open zijn: aanvullen */
+  if (gekozen.length < lengte) {
+    const alles = units.flatMap(u => perUnit[u]).filter(q => !q.reserve && SUPPORTED.has(q.type) && !genomen.has(q.id));
+    for (const q of ranked(alles, history)) {
+      if (gekozen.length >= lengte) break;
+      gekozen.push(q); genomen.add(q.id);
+    }
+  }
+  return shuffle(gekozen.slice(0, lengte));
+}
+
 /* the sibling for a herstelronde: same page, not in the run, least seen */
 export function sibling(q, pool, exclude, history) {
   const ex = new Set(exclude);
@@ -112,7 +147,7 @@ export function newRun({ unit, soort, questions, ref }) {
   return {
     unit, soort, ref: ref || unit,
     items: questions.map(prepare),
-    i: 0, gekozen: [], fase: "kies", twijfel: false, fouttype: null,
+    i: 0, gekozen: [], fase: "kies", twijfel: false, fouttype: null, redenering: "",
     resultaten: [], start: Date.now(), vraagStart: Date.now(), klaar: false,
   };
 }
@@ -136,7 +171,7 @@ export function check(run, history) {
   const goed = isCorrect(q, run.gekozen);
   run.fase = "toon";
   run.fouttype = goed ? (run.twijfel ? "gegokt" : null) : defaultFouttype(q, run.gekozen, history);
-  run.resultaten.push({ q: q.id, unit: q.unit, pagina: q.pagina, goed, gekozen: run.gekozen.slice(), twijfel: run.twijfel, fouttype: run.fouttype, ms: Date.now() - run.vraagStart });
+  run.resultaten.push({ q: q.id, unit: q.unit, pagina: q.pagina, goed, gekozen: run.gekozen.slice(), twijfel: run.twijfel, fouttype: run.fouttype, redenering: run.redenering || "", ms: Date.now() - run.vraagStart });
   return goed;
 }
 
@@ -148,7 +183,7 @@ export function setFouttype(run, t) {
 
 export function next(run) {
   if (run.fase !== "toon") return false;
-  run.i += 1; run.gekozen = []; run.fase = "kies"; run.twijfel = false; run.fouttype = null; run.vraagStart = Date.now();
+  run.i += 1; run.gekozen = []; run.fase = "kies"; run.twijfel = false; run.fouttype = null; run.redenering = ""; run.vraagStart = Date.now();
   if (run.i >= run.items.length) { run.klaar = true; run.i = run.items.length - 1; }
   return run.klaar;
 }
@@ -163,7 +198,7 @@ export function score(run) {
 export function toAttempt(run, contentVersion) {
   const s = score(run);
   return {
-    kind: run.soort === "examen" ? "examen" : run.soort === "quiz" ? "quiz" : run.soort === "herhaling" ? "herhaling" : "herstel", ref: run.ref,
+    kind: run.soort === "examen" ? "examen" : run.soort === "quiz" ? "quiz" : run.soort === "herhaling" ? "herhaling" : run.soort === "gemengd" ? "gemengd" : "herstel", ref: run.ref,
     score: s.score, total: s.total, duration_ms: run.duur || (Date.now() - run.start),
     content_version: contentVersion,
     answers: run.resultaten.map(r => ({ q: r.q, unit: r.unit, goed: r.goed, gekozen: r.gekozen, fouttype: r.fouttype, twijfel: r.twijfel, ms: r.ms, ...(r.onderwerp ? { onderwerp: r.onderwerp, telt: r.telt } : {}) })),

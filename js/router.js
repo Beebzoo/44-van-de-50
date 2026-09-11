@@ -5,7 +5,7 @@
      #/leren                 all units
      #/blok/U01              unit overview
      #/blok/U01/lezen/U01-P02  a reading page
-     #/quiz/U01              a quiz for the unit (or herstel, fouten)
+     #/quiz/U01              a quiz for the unit (or herstel, fouten, gemengd)
      #/borden                catalogue
      #/borden/B6             one sign
      #/fouten                error log

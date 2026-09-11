@@ -116,6 +116,34 @@ export function unitStats(attempts, unitId) {
   return { vragen, minuten: Math.round(ms / 60000), pogingen, tempo: unitTempo(attempts, unitId) };
 }
 
+/* ==== kalibratie ====
+
+   Je vinkt al "Twijfel" aan, en de app gebruikte dat alleen om te bepalen of een
+   ronde foutloos was. Maar erin zit ook het antwoord op een nuttiger vraag: hoe
+   goed schat je jezelf in. Het gevaarlijke vakje is zeker en toch fout, want
+   daar ga je niets aan doen; je weet immers niet dat je het niet weet.
+
+   Alleen antwoorden waar je een fouttype bij kon zetten of die goed waren
+   tellen mee, dus alles wat je echt beantwoord hebt. */
+export function kalibratie(attempts) {
+  const t = { zekerGoed: 0, zekerFout: 0, twijfelGoed: 0, twijfelFout: 0 };
+  for (const a of attempts) for (const x of a.answers || []) {
+    if (typeof x.goed !== "boolean") continue;
+    if (x.twijfel) { if (x.goed) t.twijfelGoed++; else t.twijfelFout++; }
+    else { if (x.goed) t.zekerGoed++; else t.zekerFout++; }
+  }
+  const totaal = t.zekerGoed + t.zekerFout + t.twijfelGoed + t.twijfelFout;
+  const zeker = t.zekerGoed + t.zekerFout;
+  const twijfel = t.twijfelGoed + t.twijfelFout;
+  return {
+    ...t, totaal,
+    /* hoe vaak zat je ernaast terwijl je zeker was */
+    blindeVlek: zeker ? t.zekerFout / zeker : 0,
+    /* en hoe vaak had je het toch goed terwijl je twijfelde */
+    onderschat: twijfel ? t.twijfelGoed / twijfel : 0,
+  };
+}
+
 /* ==== tempo ====
 
    Het examen geeft je 30 minuten voor 50 vragen, dus 36 seconden per vraag.
