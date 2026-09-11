@@ -100,7 +100,14 @@ waarin het de meeste waarde heeft:
 5. **27 bordcodes hebben geen tekening** in `assets/borden`, waaronder alle
    C22e-onderborden voor milieuzones en de hele E8-reeks. Die kunnen in geen
    enkele gegenereerde bordvraag terecht. `node _tools/build.js` noemt ze bij
-   naam onder "zonder tekening".
+   naam onder "zonder tekening". **Commons heeft ze niet**, en dat is op
+   11 september nagekeken in plaats van aangenomen: vijftien codes stonden al in
+   de lijst van `fetch-commons.js` en kwamen daar nooit uit, en de twaalf die er
+   nog niet in stonden (C22a10, E8g, E8m, E8n, H1-02, H2-02, L101, L202, L205,
+   L213, L215-100, L401) bestaan niet onder de vier prefixen en komen ook niet
+   boven met een gewone zoekopdracht. Deze 27 moeten dus met de hand getekend
+   worden of uit een andere bron komen; het script nog een keer draaien helpt
+   niet.
 
 Wat je verder moet weten over de staat van het gereedschap:
 
@@ -190,6 +197,38 @@ de checker waren deze ronde dezelfde sessie, anders dan bij de blokken hiervoor.
 De ankers zijn machinaal geverifieerd en de vragen zijn een tweede keer tegen de
 bron gelezen, maar een onafhankelijke checker over batch 05 en 06 is nog de
 moeite waard.
+
+
+### Tempo, zes vaste examens en de laatste week (11 september, avond)
+
+**Tempo.** Het examen geeft je 36 seconden per vraag en de app zei daar nooit
+iets over, terwijl elke poging de tijd per vraag al bewaarde. Er staat nu een
+regel op het uitslagscherm van een quiz, op het uitslagscherm van een
+oefenexamen en op de blokpagina: de mediaan in seconden, rood zodra hij boven de
+36 uitkomt. De mediaan en niet het gemiddelde, want een keer koffie halen midden
+in een quiz maakt een gemiddelde onbruikbaar, en antwoorden boven de vijf minuten
+tellen helemaal niet mee. Onder de acht antwoorden blijft de regel weg.
+
+Daarbij kwam een echt gat boven water: `sluitExamen` zette `ms` van elke vraag op
+nul, dus van een oefenexamen werd de tijd per vraag weggegooid. Het examen telt
+nu per vraag op in `run.tijdPer`, ook als je heen en weer bladert, en `run.duur`
+bewaart hoe lang je over het geheel deed.
+
+**Zes vaste oefenexamens.** Naast de verse trekking staan er nu zes vaste sets
+op het examenscherm, elk met je beste score erbij. Ze worden niet opgeslagen maar
+uit hun nummer opnieuw getrokken met een eigen toevalsgenerator, dus ze kosten
+niets in de precache en overleven een herinstallatie. Nagerekend: alle zes zijn
+stabiel, 52 vragen, alle acht onderwerpen vertegenwoordigd, hoogstens 6 vragen
+overlap tussen twee sets, en samen bestrijken ze 259 verschillende vragen. Komt
+er nog inhoud bij, dan verschuiven de sets; dat is de prijs voor het niet
+opslaan.
+
+**De laatste week.** Binnen zeven dagen voor het examen wisselt Route zijn
+bovenste kaart om. In plaats van "verder waar je was" wijst hij dan naar een
+simulatie op de klok, naar het zwakste onderwerp of naar je foutenlijst, met
+daaronder een regeltje met je zwakste onderwerpen, het aantal openstaande fouten
+en de blokken waar je te traag bent. In een browser nagekeken met de examendatum
+op drie dagen vooruit.
 
 
 ### Hoe de parallelle rondes werkten

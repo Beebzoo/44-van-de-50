@@ -364,6 +364,11 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .vraaghokje.beantwoord { background: var(--bord-blauw); border-color: var(--bord-blauw); color: #fff; }
 .vraaghokje.gemarkeerd { box-shadow: 0 0 0 3px var(--geel); }
 .tabel td.zwak { color: var(--fout); font-weight: 700; }
+.tempo { margin: 6px 0 0; }
+.tempo.traag { color: var(--fout); }
+.kaart.laatsteweek { border-color: var(--bord-blauw); }
+.kaart.laatsteweek .lijst { padding-left: 18px; }
+
 
 /* het examenklaar-lampje */
 .examenklaar .lampen { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }

@@ -164,7 +164,7 @@ export function toAttempt(run, contentVersion) {
   const s = score(run);
   return {
     kind: run.soort === "examen" ? "examen" : run.soort === "quiz" ? "quiz" : run.soort === "herhaling" ? "herhaling" : "herstel", ref: run.ref,
-    score: s.score, total: s.total, duration_ms: Date.now() - run.start,
+    score: s.score, total: s.total, duration_ms: run.duur || (Date.now() - run.start),
     content_version: contentVersion,
     answers: run.resultaten.map(r => ({ q: r.q, unit: r.unit, goed: r.goed, gekozen: r.gekozen, fouttype: r.fouttype, twijfel: r.twijfel, ms: r.ms, ...(r.onderwerp ? { onderwerp: r.onderwerp, telt: r.telt } : {}) })),
   };
@@ -225,11 +225,58 @@ export function sampleExamen(pool, history) {
   return shuffle(gekozen);
 }
 
-export function newExamen(questions) {
-  const run = newRun({ unit: null, soort: "examen", questions, ref: "examen" });
+/* ==== de zes vaste oefenexamens ====
+
+   Een verse trekking is elke keer een ander examen, en daardoor zegt het
+   verschil tussen 41 en 46 net zo goed iets over de trekking als over jou. Zes
+   vaste sets lossen dat op: examen 3 bevat altijd dezelfde 52 vragen, dus twee
+   keer examen 3 doen meet wat je geleerd hebt.
+
+   De sets staan nergens opgeslagen. Ze worden uit hetzelfde nummer opnieuw
+   getrokken met een eigen toevalsgenerator, dus ze overleven een herinstallatie
+   en ze kosten geen byte in de precache. Komt er inhoud bij, dan verschuiven ze
+   wel: dat is de prijs voor het niet opslaan, en tot het examen verandert er
+   niets meer aan de bank. */
+export const VASTE_EXAMENS = 6;
+
+/* mulberry32: klein, deterministisch, en goed genoeg om vragen te schudden */
+function zaad(n) {
+  let a = (n * 0x9e3779b1) >>> 0;
+  return () => { a = (a + 0x6d2b79f5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+}
+const schudMet = (arr, rnd) => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i -= 1) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+export function sampleExamenVast(pool, nr) {
+  const rnd = zaad(nr * 7919 + 13);
+  const bruikbaar = schudMet(pool.filter(q => SUPPORTED.has(q.type)).slice().sort((a, b) => a.id.localeCompare(b.id)), rnd);
+  if (bruikbaar.length <= EXAMEN.getoond) return bruikbaar;
+
+  const perOnderwerp = {};
+  for (const q of bruikbaar) (perOnderwerp[q.cbr_onderwerp] = perOnderwerp[q.cbr_onderwerp] || []).push(q);
+  const onderwerpen = Object.keys(perOnderwerp).sort();
+  const gewicht = {};
+  for (const o of onderwerpen) gewicht[o] = perOnderwerp[o].filter(q => !q.gegenereerd).length || perOnderwerp[o].length;
+  const somGewicht = onderwerpen.reduce((a, o) => a + gewicht[o], 0);
+
+  const quota = {};
+  let over = EXAMEN.getoond;
+  for (const o of onderwerpen) { quota[o] = Math.min(2, perOnderwerp[o].length); over -= quota[o]; }
+  for (const o of onderwerpen) quota[o] += Math.min(perOnderwerp[o].length - quota[o], Math.round(over * gewicht[o] / somGewicht));
+
+  let gekozen = [];
+  for (const o of onderwerpen) gekozen = gekozen.concat(perOnderwerp[o].slice(0, quota[o]));
+  const genomen = new Set(gekozen.map(q => q.id));
+  for (const q of bruikbaar) { if (gekozen.length >= EXAMEN.getoond) break; if (!genomen.has(q.id)) { gekozen.push(q); genomen.add(q.id); } }
+  return schudMet(gekozen.slice(0, EXAMEN.getoond), zaad(nr * 104729 + 7));
+}
+
+export function newExamen(questions, nr) {
+  const run = newRun({ unit: null, soort: "examen", questions, ref: nr ? "examen-" + nr : "examen" });
   run.examen = true;
+  run.examenNr = nr || null;
   run.gemarkeerd = [];
   run.antwoorden = {};                 /* vraag-id naar wat je koos, want je mag terug */
+  run.tijdPer = {};                    /* vraag-id naar opgetelde milliseconden, want je mag terug */
   run.eindigt = Date.now() + EXAMEN.minuten * 60000;
   /* the two that do not count, drawn now so the result cannot be argued with */
   run.proef = questions.slice(0, Math.max(0, questions.length - EXAMEN.telt)).map(q => q.id);
@@ -244,11 +291,17 @@ export function markeer(run) {
   run.gemarkeerd = run.gemarkeerd.includes(id) ? run.gemarkeerd.filter(x => x !== id) : run.gemarkeerd.concat(id);
 }
 
-/* In an exam the answer is parked, not checked: you find out at the end. */
+/* In an exam the answer is parked, not checked: you find out at the end.
+   The time spent adds up per question, because you may walk back to one and
+   the clock you are racing is the one over all 52 together. */
 export function park(run) {
   const id = current(run).q.id;
   if (run.gekozen.length) run.antwoorden[id] = run.gekozen.slice();
   else delete run.antwoorden[id];
+  if (run.tijdPer) {
+    run.tijdPer[id] = (run.tijdPer[id] || 0) + Math.max(0, Date.now() - run.vraagStart);
+    run.vraagStart = Date.now();
+  }
 }
 
 export function ga(run, i) {
@@ -268,10 +321,11 @@ export function sluitExamen(run, history) {
     return {
       q: q.id, unit: q.unit, pagina: q.pagina, onderwerp: q.cbr_onderwerp,
       goed, gekozen, twijfel: false, telt: !run.proef.includes(q.id),
-      fouttype: goed ? null : defaultFouttype(q, gekozen, history), ms: 0,
+      fouttype: goed ? null : defaultFouttype(q, gekozen, history), ms: (run.tijdPer && run.tijdPer[q.id]) || 0,
     };
   });
   run.klaar = true;
+  run.duur = Date.now() - run.start;
   return examenUitslag(run);
 }
 

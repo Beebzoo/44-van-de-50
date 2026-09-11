@@ -113,7 +113,45 @@ export function unitStats(attempts, unitId) {
   const vragen = mine.reduce((n, a) => n + (a.answers ? a.answers.filter(x => !x.unit || x.unit === unitId).length : 0), 0);
   const ms = mine.reduce((n, a) => n + (a.duration_ms || 0), 0);
   const pogingen = mine.filter(a => a.kind === "quiz").length;
-  return { vragen, minuten: Math.round(ms / 60000), pogingen };
+  return { vragen, minuten: Math.round(ms / 60000), pogingen, tempo: unitTempo(attempts, unitId) };
+}
+
+/* ==== tempo ====
+
+   Het examen geeft je 30 minuten voor 50 vragen, dus 36 seconden per vraag.
+   Elke poging bewaarde die tijd al per vraag, maar de app zei er nooit iets
+   over, en je kunt de regels perfect kennen en alsnog op de klok zakken.
+
+   De mediaan en niet het gemiddelde: een keer koffie halen midden in een quiz
+   maakt een gemiddelde onbruikbaar. Een antwoord dat langer dan vijf minuten
+   duurde telt helemaal niet mee, want dat was geen nadenken maar weglopen. */
+export const EXAMENTEMPO = 36;
+const TEMPO_PLAFOND = 5 * 60 * 1000;
+
+export function tempo(rijen) {
+  const ms = (rijen || []).map(r => r && r.ms).filter(v => typeof v === "number" && v > 0 && v <= TEMPO_PLAFOND).sort((a, b) => a - b);
+  if (!ms.length) return null;
+  const mid = Math.floor(ms.length / 2);
+  const mediaan = ms.length % 2 ? ms[mid] : (ms[mid - 1] + ms[mid]) / 2;
+  /* onder de seconde afronden naar nul leest als een kapotte teller, en een
+     mens haalt die tijd toch niet: houd een seconde als bodem */
+  return { seconden: Math.max(1, Math.round(mediaan / 1000)), n: ms.length };
+}
+
+/* het tempo over alles wat je ooit in dit blok beantwoordde */
+export function unitTempo(attempts, unitId) {
+  const rijen = [];
+  for (const a of attempts) for (const x of a.answers || []) if (x.unit === unitId) rijen.push(x);
+  return tempo(rijen);
+}
+
+/* de blokken waar je het traagst bent, voor de laatste week */
+export function traagsteUnits(attempts, units, n = 3) {
+  return units
+    .map(u => ({ unit: u, tempo: unitTempo(attempts, u.id) }))
+    .filter(x => x.tempo && x.tempo.n >= 8 && x.tempo.seconden > EXAMENTEMPO)
+    .sort((a, b) => b.tempo.seconden - a.tempo.seconden)
+    .slice(0, n);
 }
 
 export function streak(attempts) {

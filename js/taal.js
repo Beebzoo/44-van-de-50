@@ -44,6 +44,22 @@ const EN = {
   "Schakel naar het Nederlands": "Switch to Dutch",
 
   /* ==== route ==== */
+  /* de laatste week voor het examen */
+  "Laatste week": "Final week",
+  "Doe een oefenexamen op de klok. Dat is nu meer waard dan nieuwe stof.": "Do a mock exam against the clock. That is worth more now than new material.",
+  "Naar het oefenexamen": "To the mock exam",
+  "{onderwerp} staat onder de 70 procent. Pak dat blok er nog een keer bij.": "{onderwerp} is under 70 percent. Go through that block once more.",
+  "{onderwerp} staat onder de 70 procent.": "{onderwerp} is under 70 percent.",
+  "Oefen blok {n}": "Practise block {n}",
+  "Naar je fouten": "To your mistakes",
+  "Je hebt nog {n} vragen openstaan in je foutenlijst.": "You still have {n} questions open in your mistake list.",
+  "Oefen je fouten": "Practise your mistakes",
+  "Je staat er goed voor. Houd het warm met een simulatie op de klok.": "You are in good shape. Keep it warm with a timed mock exam.",
+  "Maak eerst genoeg blokken af om een oefenexamen te kunnen doen.": "Finish enough blocks first so that a mock exam is possible.",
+  "Naar Leren": "To Learn",
+  "zwakste onderwerpen: {lijst}": "weakest topics: {lijst}",
+  "{n} vragen in je foutenlijst": "{n} questions in your mistake list",
+  "te traag in blok {lijst}": "too slow in block {lijst}",
   "dagen tot je examen, {datum}": "days until your exam, {datum}",
   "dag tot je examen, morgen": "day until your exam, tomorrow",
   "vandaag is je examen": "your exam is today",
@@ -219,6 +235,10 @@ const EN = {
 
   /* ==== uitslag ==== */
   "Uitslag": "Result",
+  "{s} seconden per vraag": "{s} seconds per question",
+  "binnen de {n} seconden die het examen je geeft": "within the {n} seconds the exam gives you",
+  "het examen geeft je er {n}": "the exam gives you {n}",
+  "Je deed er {min} minuten over van de {max}": "You took {min} minutes of the {max}",
   "van {n}": "of {n}",
   "Deze ging mis": "This one went wrong",
   "Deze gingen mis": "These went wrong",
@@ -272,6 +292,14 @@ const EN = {
 
   /* ==== oefenexamen ==== */
   "Oefenexamen": "Mock exam",
+  "De zes vaste examens": "The six fixed exams",
+  "Elk vast examen bevat altijd dezelfde vragen, dus je kunt je score met die van vorige keer vergelijken. De knop onderaan trekt juist elke keer een nieuwe set.": "Every fixed exam always holds the same questions, so you can compare your score with last time. The button at the bottom draws a new set every time instead.",
+  "Examen {n}": "Exam {n}",
+  "beste {score} van {n}": "best {score} of {n}",
+  "nog niet gedaan": "not done yet",
+  "Opnieuw": "Again",
+  "Start": "Start",
+  "Verse trekking": "Fresh draw",
   "{getoond} vragen waarvan er {telt} tellen, {minuten} minuten, en je haalt het bij {halen} goed. Net als bij het CBR krijg je onderweg niets te zien: je antwoordt, je mag terug, en je ziet alles pas als je inlevert.": "{getoond} questions of which {telt} count, {minuten} minutes, and you pass at {halen} correct. Just like at the CBR you are shown nothing along the way: you answer, you may go back, and you see everything only when you hand in.",
   "Er zijn nog {n} vragen te weinig vrijgespeeld. Rond eerst wat blokken af.": "There are {n} questions too few unlocked. Finish a few blocks first.",
   "Je vorige simulaties": "Your previous mock exams",
