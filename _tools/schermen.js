@@ -94,6 +94,8 @@ const ROUTES = [
   { naam: "examen-vraag", hash: "examen", script: `(() => { const b = document.querySelector('[data-actie="start-examen"]'); if (b) b.click(); return new Promise(r => setTimeout(r, 400)); })()` },
   { naam: "examen-overzicht", hash: "examen", script: `(() => { const b = document.querySelector('[data-actie="start-examen"]'); if (b) b.click(); return new Promise(r => setTimeout(() => { const o = document.querySelector('.optie, .bordtegel'); if (o) o.click(); const g = [...document.querySelectorAll('[data-actie="examen-ga"]')].pop(); const run = 1; for (let i = 0; i < 60; i++) { const nx = [...document.querySelectorAll('[data-actie="examen-ga"]')].pop(); if (nx) nx.click(); } r(1); }, 400)); })()` },
   { naam: "lampen", hash: "blok/U14/lezen/U14-P03" },
+  { naam: "begrippen", hash: "begrippen" },
+  { naam: "herhaling", hash: "herhaling" },
   { naam: "borden", hash: "borden" },
   { naam: "fouten", hash: "fouten" },
   { naam: "instellingen", hash: "instellingen" },

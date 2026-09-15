@@ -48,6 +48,7 @@ const I = {
   fouten: '<svg class="ico" viewBox="0 0 24 24"><path d="M5 7h14M5 12h14M5 17h9"/></svg>',
   vink: '<svg class="ico" viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>',
   kruis: '<svg class="ico" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  beeld: '<svg class="ico" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 16l5-5 4 4 3-3 6 6"/></svg>',
   vergroot: '<svg class="ico" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg>',
 };
 
@@ -184,7 +185,7 @@ function taalknop() {
   return `<div class="taalknop" role="group" aria-label="${esc(t("Taal"))}">${["nl", "en"].map(x => `<button type="button" class="${x === nu ? "actief" : ""}" data-actie="taal" data-waarde="${x}" aria-pressed="${x === nu}" aria-label="${esc(x === "en" ? t("Schakel naar het Engels") : t("Schakel naar het Nederlands"))}">${x.toUpperCase()}</button>`).join("")}</div>`;
 }
 function header(v) {
-  const nav = ["route", "leren", "examen", "borden", "herhaling", "fouten", "notities"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", examen: "Oefenexamen", borden: "Borden", herhaling: "Herhaling", fouten: "Fouten", notities: "Notities" }[n]))}</a>`).join("");
+  const nav = ["route", "leren", "examen", "borden", "begrippen", "herhaling", "fouten"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", examen: "Oefenexamen", borden: "Borden", begrippen: "Begrippen", herhaling: "Herhaling", fouten: "Fouten" }[n]))}</a>`).join("");
   const links = v.terug
     ? `<a class="ikoonknop" href="${esc(v.terug)}" aria-label="${esc(t(v.sluit ? "Sluiten" : "Terug"))}">${v.sluit ? I.sluit : I.terug}</a>`
     : `<a class="merk" href="#/route">44 van de 50<span class="datum">${esc(langeDatum(new Date()))}</span></a>`;
@@ -750,7 +751,8 @@ const SCREENS = {
     const open = S.units.filter(u => S.states[u.id] && S.states[u.id].quizOpen);
     const gedaan = S.attempts.filter(a => a.kind === "gemengd").length;
     const gemengd = open.length < 2 ? "" : `<a class="kaart klik gemengdkaart" href="#/quiz/gemengd/gemengd"><div class="rij"><span class="groei"><strong>${esc(t("Door elkaar oefenen"))}</strong><br><span class="meta">${esc(t("12 vragen uit je {n} vrijgespeelde blokken door elkaar", { n: open.length }))}${gedaan ? esc(t(" · {n} keer gedaan", { n: gedaan })) : ""}</span></span>${I.pijl}</div></a>`;
-    const body = `<h1 class="kop1">${esc(t("Leren"))}</h1><p class="meta" style="margin-bottom:16px">${esc(t("Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen."))}</p>${gemengd}` + S.units.map(u => {
+    const woorden = `<a class="kaart klik" href="#/begrippen"><div class="rij"><div class="groei"><strong>${esc(t("Begrippen"))}</strong><br><span class="meta">${esc(t("Alle woorden uit het boek, met beeld"))}</span></div>${I.pijl}</div></a>`;
+    const body = `<h1 class="kop1">${esc(t("Leren"))}</h1>${woorden}<p class="meta" style="margin-bottom:16px">${esc(t("Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen."))}</p>${gemengd}` + S.units.map(u => {
       const st = S.states[u.id];
       const n = (S.bank[u.id] || []).length;
       const label = st.staat === "beheerst" ? `<span class="staatlabel goed">${esc(t("Gehaald"))}</span>` : st.staat === "voorlopig" ? `<span class="staatlabel geel">${esc(t("Voorlopig gehaald"))}</span>` : st.staat === "vergrendeld" ? `<span class="staatlabel">${esc(t("Vergrendeld"))}</span>` : (st.staat === "lezen" || !u.quiz.gate) ? `<span class="staatlabel blauw">${esc(t("Lezen"))}</span>` : `<span class="staatlabel blauw">${esc(t("Oefenen"))}</span>`;
@@ -1018,6 +1020,27 @@ const SCREENS = {
       ${bx.size ? `<p class="warmenoot">${esc(t("Er staan er {n} in de bakken. Je ziet er nooit meer dan {max} op een dag.", { n: bx.size, max: 20 }))}</p>` : ""}`;
     const onder = set.vragen.length ? `<a class="knop primair groot" href="#/quiz/herhaling/herhaling">${esc(t("Begin herhaling"))}<span class="pijl">${I.pijl}</span></a>` : "tab";
     return { titel: t("Herhaling"), body, onder, baan: false };
+  },
+  /* Alle begrippen op alfabet. Wie iets zoekt typt; wie bladert scrolt. */
+  begrippen() {
+    const zoek = (S.begripzoek || "").trim().toLowerCase();
+    const alle = B.alle().slice().sort((a, b) => a.term.localeCompare(b.term, "nl"));
+    const lijst = zoek
+      ? alle.filter(b => (b.term + " " + (b.varianten || []).join(" ") + " " + b.uitleg + " " + (b.uitleg_en || "")).toLowerCase().includes(zoek))
+      : alle;
+    const veld = `<input class="zoekveld" type="search" inputmode="search" autocomplete="off" value="${esc(S.begripzoek || "")}"
+      data-actie="begripzoek" placeholder="${esc(t("Zoek een woord"))}" aria-label="${esc(t("Zoek een woord"))}">`;
+    const metBeeld = b => b.borden || b.bord || b.scene || b.diagram;
+    const rijen = lijst.map(b => `<button type="button" class="begriprij" data-actie="begrip" data-term="${esc(b.term)}">
+      <span class="tekst"><span class="term">${esc(hoofdletter(b.term))}</span><span class="uit">${esc(isEngels() && b.uitleg_en ? b.uitleg_en : b.uitleg)}</span></span>
+      ${metBeeld(b) ? `<span class="beeldje" aria-hidden="true">${b.borden || b.bord ? bordHtml((b.borden || [b.bord])[0], 40) : I.beeld}</span>` : ""}
+    </button>`).join("");
+    const body = `<h1 class="kop1">${esc(t("Begrippen"))}</h1>
+      <p class="meta" style="margin-bottom:12px">${esc(t("Alle woorden die het boek gebruikt, met een tekening of een bord waar dat helpt."))}</p>
+      ${veld}
+      <p class="meta-3">${esc(zoek ? t("{n} van de {van} woorden", { n: lijst.length, van: alle.length }) : t("{n} woorden, {beeld} met een beeld", { n: alle.length, beeld: alle.filter(metBeeld).length }))}</p>
+      <div class="begriplijst">${rijen}</div>`;
+    return { titel: t("Begrippen"), body, onder: "tab" };
   },
   fouten() {
     const rows = V.foutenlog(S.attempts, S.history, S.qById);
@@ -1287,6 +1310,14 @@ function onInput(e) {
   if (el.dataset.actie === "redeneer" && S.run) { S.run.redenering = el.value; return; }
   /* de snelheidsschuif tekent alleen zijn eigen vlak opnieuw: een hertekening
      van het scherm zou de schuif onder je vinger vandaan halen */
+  if (el.dataset.actie === "begripzoek") {
+    S.begripzoek = el.value;
+    const plek = el.selectionStart;
+    render();
+    const nieuw = document.querySelector('[data-actie="begripzoek"]');
+    if (nieuw) { nieuw.focus(); try { nieuw.setSelectionRange(plek, plek); } catch (e) { /* type search */ } }
+    return;
+  }
   if (el.dataset.actie === "bordzoek") {
     S.bordzoek = el.value;
     const plek = el.selectionStart;

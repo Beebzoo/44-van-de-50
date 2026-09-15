@@ -14,7 +14,8 @@
         "sectie": "13.8",
         "anker": "toegestane maximummassa t/m 1.500 kilogram moeten een losbreekreminrichting of hulpkoppeling hebben"
       },
-      "uitleg_en": "Anything you tow behind your car that has no motor of its own, from a luggage trailer to a caravan."
+      "uitleg_en": "Anything you tow behind your car that has no motor of its own, from a luggage trailer to a caravan.",
+      "diagram": "aanhanger"
     },
     {
       "term": "achterligger",
@@ -41,7 +42,8 @@
         "sectie": "10.6",
         "anker": "laat de alarmlichten van beide auto's in principe uit"
       },
-      "uitleg_en": "All four indicators at once, to warn others that something is wrong."
+      "uitleg_en": "All four indicators at once, to warn others that something is wrong.",
+      "diagram": "lichten"
     },
     {
       "term": "andreaskruis",
@@ -108,7 +110,8 @@
         "sectie": "1.3",
         "anker": "dan is het 7 jaar vanaf het behalen van het AM- of T-rijbewijs"
       },
-      "uitleg_en": "Your first years with a licence. A stricter alcohol limit applies to you: 0,2 instead of 0,5 per mille."
+      "uitleg_en": "Your first years with a licence. A stricter alcohol limit applies to you: 0,2 instead of 0,5 per mille.",
+      "diagram": "alcohol"
     },
     {
       "term": "bestemmingsverkeer",
@@ -144,7 +147,8 @@
         "sectie": "4.8",
         "anker": "Op autosnelwegen vind je boven de weg vaak beslissingsborden met pijlen"
       },
-      "uitleg_en": "The big blue and green signs telling you which way to go for which place."
+      "uitleg_en": "The big blue and green signs telling you which way to go for which place.",
+      "diagram": "bordfamilies"
     },
     {
       "term": "bijzondere bromfiets",
@@ -157,7 +161,8 @@
         "sectie": "2.3",
         "anker": "Dit is een voertuig met een door de RDW afgegeven typegoedkeuring"
       },
-      "uitleg_en": "Special moped: a vehicle with RDW type approval, such as a Segway. Light blue plate, 25 km/u at most, from 16 years, no licence and no helmet."
+      "uitleg_en": "Special moped: a vehicle with RDW type approval, such as a Segway. Light blue plate, 25 km/u at most, from 16 years, no licence and no helmet.",
+      "diagram": "voertuigen"
     },
     {
       "term": "blokmarkering",
@@ -182,7 +187,8 @@
         "sectie": "2.3",
         "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
       },
-      "uitleg_en": "A cargo bike with a motor. Counts as a moped."
+      "uitleg_en": "A cargo bike with a motor. Counts as a moped.",
+      "diagram": "voertuigen"
     },
     {
       "term": "bromfiets",
@@ -195,7 +201,8 @@
         "sectie": "2.3",
         "anker": "gemaakt voor een snelheid van ten hoogste 45 km/u"
       },
-      "uitleg_en": "Moped. Two, three or four wheels, built for at most 45 km/u, with a yellow number plate at the back."
+      "uitleg_en": "Moped. Two, three or four wheels, built for at most 45 km/u, with a yellow number plate at the back.",
+      "diagram": "voertuigen"
     },
     {
       "term": "brommobiel",
@@ -208,7 +215,8 @@
         "sectie": "2.3",
         "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
       },
-      "uitleg_en": "A moped on more than two wheels with an enclosed body. Looks like a tiny car and follows the rules for motor vehicles on the road."
+      "uitleg_en": "A moped on more than two wheels with an enclosed body. Looks like a tiny car and follows the rules for motor vehicles on the road.",
+      "diagram": "voertuigen"
     },
     {
       "term": "busbaan",
@@ -254,7 +262,8 @@
         "sectie": "11.2",
         "anker": "Nieuwe auto's moeten aan de voorzijde voorzien zijn van zogenoemde dagrijlichten"
       },
-      "uitleg_en": "Lights that come on by themselves when you start, so others see you in daylight. They do not light the road."
+      "uitleg_en": "Lights that come on by themselves when you start, so others see you in daylight. They do not light the road.",
+      "diagram": "lichten"
     },
     {
       "term": "dimlicht",
@@ -265,7 +274,8 @@
         "sectie": "5.9",
         "anker": "als je het licht pas in de tunnel inschakelt, denken achterliggers misschien dat je remt"
       },
-      "uitleg_en": "Your ordinary headlights. They aim low enough not to dazzle anyone."
+      "uitleg_en": "Your ordinary headlights. They aim low enough not to dazzle anyone.",
+      "diagram": "lichten"
     },
     {
       "term": "dode hoek",
@@ -292,7 +302,8 @@
         "sectie": "4.7",
         "anker": "Vooral op autosnelwegen worden soms speciale stroken voor vrachtauto en/of bussen aangelegd"
       },
-      "uitleg_en": "An extra lane reserved for one kind of vehicle, for instance lorries or buses."
+      "uitleg_en": "An extra lane reserved for one kind of vehicle, for instance lorries or buses.",
+      "diagram": "stroken"
     },
     {
       "term": "eenrichtingsweg",
@@ -353,7 +364,8 @@
         "sectie": "2.3",
         "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
       },
-      "uitleg_en": "Disability vehicle. Fitted out for carrying a disabled person, no wider than 1,10 meter, and with a motor no faster than 45 km/u. Not regarded as a moped."
+      "uitleg_en": "Disability vehicle. Fitted out for carrying a disabled person, no wider than 1,10 meter, and with a motor no faster than 45 km/u. Not regarded as a moped.",
+      "diagram": "voertuigen"
     },
     {
       "term": "gelijkwaardig kruispunt",
@@ -398,7 +410,8 @@
         "sectie": "11.2",
         "anker": "Schakel het groot licht in als je met dimlicht de wegsituatie niet goed kunt overzien"
       },
-      "uitleg_en": "The bright setting of your headlights, for dark roads with nobody about. Switch it off as soon as someone comes."
+      "uitleg_en": "The bright setting of your headlights, for dark roads with nobody about. Switch it off as soon as someone comes.",
+      "diagram": "lichten"
     },
     {
       "term": "haaientanden",
@@ -441,7 +454,8 @@
         "sectie": "2.4",
         "anker": "bestemd is voor bestuurders die de doorgaande rijbaan willen oprijden"
       },
-      "uitleg_en": "Acceleration lane. The lane you use to join the through carriageway, separated from it by block markings."
+      "uitleg_en": "Acceleration lane. The lane you use to join the through carriageway, separated from it by block markings.",
+      "diagram": "invoegen"
     },
     {
       "term": "katalysator",
@@ -535,7 +549,8 @@
         "sectie": "11.3",
         "anker": "Het mistachterlicht mag je niet inschakelen bij regen, ook niet tijdens hevige regenbuien"
       },
-      "uitleg_en": "An extra bright red rear light. Only in fog or snow with visibility under 50 metres, never in rain."
+      "uitleg_en": "An extra bright red rear light. Only in fog or snow with visibility under 50 metres, never in rain.",
+      "diagram": "mistlichten"
     },
     {
       "term": "motorrijtuig",
@@ -548,7 +563,8 @@
         "sectie": "2.3",
         "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
       },
-      "uitleg_en": "Wider than motorvoertuig: only the tram and the pedal-assisted bicycle fall outside it. So a moped is a motorrijtuig but not a motorvoertuig."
+      "uitleg_en": "Wider than motorvoertuig: only the tram and the pedal-assisted bicycle fall outside it. So a moped is a motorrijtuig but not a motorvoertuig.",
+      "diagram": "voertuigen"
     },
     {
       "term": "motorvoertuig",
@@ -561,7 +577,8 @@
         "sectie": "2.3",
         "anker": "behalve trams, fietsen met trapondersteuning (elektrische fietsen), bromfietsen en gehandicaptenvoertuigen"
       },
-      "uitleg_en": "Anything with a motor, except four exceptions: the tram, the bicycle with pedal assistance, the moped and the disability vehicle."
+      "uitleg_en": "Anything with a motor, except four exceptions: the tram, the bicycle with pedal assistance, the moped and the disability vehicle.",
+      "diagram": "voertuigen"
     },
     {
       "term": "onderbord",
@@ -574,7 +591,8 @@
         "sectie": "3.1",
         "anker": "wanneer het verkeersbord geldt, voor wie het verkeersbord geldt"
       },
-      "uitleg_en": "The small white plate under a sign. It tells you when the sign applies, to whom, or over what distance."
+      "uitleg_en": "The small white plate under a sign. It tells you when the sign applies, to whom, or over what distance.",
+      "diagram": "bordvormen"
     },
     {
       "term": "ontzegging van de rijbevoegdheid",
@@ -588,7 +606,8 @@
         "sectie": "2.6",
         "anker": "Misdrijven zijn ernstige strafbare feiten. Je krijgt van de rechter"
       },
-      "uitleg_en": "You may not drive for a period, imposed by a judge. Your licence is worthless for that time."
+      "uitleg_en": "You may not drive for a period, imposed by a judge. Your licence is worthless for that time.",
+      "diagram": "strafbaar"
     },
     {
       "term": "oplegger",
@@ -601,7 +620,8 @@
         "sectie": "13.8",
         "anker": "Elke aanhangwagen en oplegger moet aan de achterzijde twee driehoekige retroreflectoren hebben"
       },
-      "uitleg_en": "A trailer with no front wheels, resting its nose on the tractor unit."
+      "uitleg_en": "A trailer with no front wheels, resting its nose on the tractor unit.",
+      "diagram": "aanhanger"
     },
     {
       "term": "overweg",
@@ -633,7 +653,8 @@
         "sectie": "2.4",
         "anker": "Rijbaan of -strook om ingehaald te kunnen worden"
       },
-      "uitleg_en": "A hardened strip along the carriageway meant for stationary or parked vehicles."
+      "uitleg_en": "A hardened strip along the carriageway meant for stationary or parked vehicles.",
+      "diagram": "stilstaan"
     },
     {
       "term": "parkeren",
@@ -679,7 +700,8 @@
         "sectie": "2.4",
         "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
       },
-      "uitleg_en": "An extra lane on the left, narrower than normal. The advantage is that the hard shoulder on the right stays free for breakdowns."
+      "uitleg_en": "An extra lane on the left, narrower than normal. The advantage is that the hard shoulder on the right stays free for breakdowns.",
+      "diagram": "stroken"
     },
     {
       "term": "proces-verbaal",
@@ -690,7 +712,8 @@
         "sectie": "2.6",
         "anker": "Bij zwaardere overtredingen maakt de politie een proces-verbaal op"
       },
-      "uitleg_en": "The official report the police write up and send to the public prosecutor."
+      "uitleg_en": "The official report the police write up and send to the public prosecutor.",
+      "diagram": "strafbaar"
     },
     {
       "term": "puntstuk",
@@ -703,7 +726,8 @@
         "sectie": "2.4",
         "anker": "Op puntstukken mag je niet rijden, behalve als je op een spitsstrook rijdt"
       },
-      "uitleg_en": "The multi-sided area where roads split or come together. You may not drive on it."
+      "uitleg_en": "The multi-sided area where roads split or come together. You may not drive on it.",
+      "diagram": "stroken"
     },
     {
       "term": "reactieafstand",
@@ -742,7 +766,8 @@
         "sectie": "9.9",
         "anker": "mag je eerder dan bij de laatste blokmarkering de richtingaanwijzer uitzetten"
       },
-      "uitleg_en": "Your indicator, showing which way you want to go."
+      "uitleg_en": "Your indicator, showing which way you want to go.",
+      "diagram": "lichten"
     },
     {
       "term": "rijbaan",
@@ -781,7 +806,8 @@
         "sectie": "9.10",
         "anker": "Ritsen is het op een ordelijke manier wisselen van rijstrook op punten"
       },
-      "uitleg_en": "Merging in turn where two lanes become one: one of yours, one of theirs."
+      "uitleg_en": "Merging in turn where two lanes become one: one of yours, one of theirs.",
+      "diagram": "invoegen"
     },
     {
       "term": "roetfilter",
@@ -807,7 +833,8 @@
         "sectie": "2.3",
         "anker": "Een gehandicaptenvoertuig wordt niet als bromfiets beschouwd"
       },
-      "uitleg_en": "Mobility scooter, the best known disability vehicle. On the pavement the rules for pedestrians apply and 6 km/u is the limit."
+      "uitleg_en": "Mobility scooter, the best known disability vehicle. On the pavement the rules for pedestrians apply and 6 km/u is the limit.",
+      "diagram": "voertuigen"
     },
     {
       "term": "snorfiets",
@@ -820,7 +847,8 @@
         "sectie": "2.3",
         "anker": "Bromfiets die door zijn constructie niet sneller kan rijden dan 25 km/u"
       },
-      "uitleg_en": "Light moped. A moped whose construction limits it to 25 km/u. You recognise it by the blue number plate."
+      "uitleg_en": "Light moped. A moped whose construction limits it to 25 km/u. You recognise it by the blue number plate.",
+      "diagram": "voertuigen"
     },
     {
       "term": "speed-pedelec",
@@ -832,7 +860,8 @@
         "slide": 27,
         "anker": "gelden dezelfde regels als voor een bromfiets: de minimumleeftijd is 16 jaar"
       },
-      "uitleg_en": "A bicycle with pedal assistance up to 45 km/u. Counts as a moped: yellow plate, helmet, moped licence, and not on the cycle path."
+      "uitleg_en": "A bicycle with pedal assistance up to 45 km/u. Counts as a moped: yellow plate, helmet, moped licence, and not on the cycle path.",
+      "diagram": "voertuigen"
     },
     {
       "term": "spitsstrook",
@@ -845,7 +874,8 @@
         "sectie": "2.4",
         "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
       },
-      "uitleg_en": "Rush-hour lane: the hard shoulder on the right, opened as an extra lane at busy times. The hard shoulder is then occupied."
+      "uitleg_en": "Rush-hour lane: the hard shoulder on the right, opened as an extra lane at busy times. The hard shoulder is then occupied.",
+      "diagram": "stroken"
     },
     {
       "term": "stadslicht",
@@ -858,7 +888,8 @@
         "sectie": "11.2",
         "anker": "Je moet je stadslicht (en achterlicht) laten branden"
       },
-      "uitleg_en": "Small lights for when you are standing still in the dark. You may not drive with them."
+      "uitleg_en": "Small lights for when you are standing still in the dark. You may not drive with them.",
+      "diagram": "lichten"
     },
     {
       "term": "stapvoets",
@@ -869,7 +900,8 @@
         "sectie": "11.5",
         "anker": "nader een kruispunt stapvoets en steek in één beweging over"
       },
-      "uitleg_en": "As slow as a person walks, so about 5 km/u."
+      "uitleg_en": "As slow as a person walks, so about 5 km/u.",
+      "diagram": "snelheden"
     },
     {
       "term": "stopafstand",
@@ -895,7 +927,8 @@
         "sectie": "2.4",
         "anker": "waarop afbeeldingen van een fiets zijn aangebracht"
       },
-      "uitleg_en": "Looks like a cycle strip but has no white bicycle on it. Then it is not a cycle strip and those rules do not apply."
+      "uitleg_en": "Looks like a cycle strip but has no white bicycle on it. Then it is not a cycle strip and those rules do not apply.",
+      "diagram": "belijning"
     },
     {
       "term": "tegenligger",
@@ -934,7 +967,8 @@
         "sectie": "2.4",
         "anker": "bestemd is voor bestuurders die de doorgaande rijbaan willen oprijden"
       },
-      "uitleg_en": "Deceleration lane. The same block markings, the other way round: this is how you leave the through carriageway."
+      "uitleg_en": "Deceleration lane. The same block markings, the other way round: this is how you leave the through carriageway.",
+      "diagram": "stroken"
     },
     {
       "term": "uitrit",
@@ -990,7 +1024,8 @@
         "sectie": "4.7",
         "anker": "gebruikmaken van de vluchtstrook, de vluchthaven of de berm (behalve in een noodgeval)"
       },
-      "uitleg_en": "A bay beside the road where you can stop in a breakdown when there is no hard shoulder."
+      "uitleg_en": "A bay beside the road where you can stop in a breakdown when there is no hard shoulder.",
+      "diagram": "stroken"
     },
     {
       "term": "vluchtstrook",
@@ -1003,7 +1038,8 @@
         "sectie": "2.4",
         "anker": "de vluchtstrook rechts wordt gebruikt als extra rijstrook tijdens de spits, heet dat een spitsstrook"
       },
-      "uitleg_en": "Hard shoulder. The strip on the right for breakdowns and emergencies, separated by a continuous line."
+      "uitleg_en": "Hard shoulder. The strip on the right for breakdowns and emergencies, separated by a continuous line.",
+      "diagram": "stroken"
     },
     {
       "term": "voertuig",
@@ -1016,7 +1052,8 @@
         "sectie": "2.3",
         "anker": "Fietsen, bromfietsen, gehandicaptenvoertuigen, motorvoertuigen, trams en wagens"
       },
-      "uitleg_en": "Bicycles, mopeds, disability vehicles, motor vehicles, trams and carts."
+      "uitleg_en": "Bicycles, mopeds, disability vehicles, motor vehicles, trams and carts.",
+      "diagram": "voertuigen"
     },
     {
       "term": "voetganger",
@@ -1053,7 +1090,8 @@
         "sectie": "2.5",
         "anker": "blinden met blindenstok, personen die zich moeilijk voortbewegen"
       },
-      "uitleg_en": "Blind people with a white cane and people who have difficulty moving about always go first. A wheelchair on its own does not mean that."
+      "uitleg_en": "Blind people with a white cane and people who have difficulty moving about always go first. A wheelchair on its own does not mean that.",
+      "diagram": "rangorde"
     },
     {
       "term": "voorbijgaan",
@@ -1066,7 +1104,8 @@
         "sectie": "9.6",
         "anker": "Bij het inhalen en voorbijgaan mag je geen gevaar of hinder veroorzaken"
       },
-      "uitleg_en": "Passing something that is stationary, or a pedestrian. So that is not overtaking."
+      "uitleg_en": "Passing something that is stationary, or a pedestrian. So that is not overtaking.",
+      "diagram": "invoegen"
     },
     {
       "term": "voorligger",
@@ -1141,7 +1180,8 @@
         "sectie": "9.3",
         "anker": "mag je daarop voorsorteren maar alleen als je daarbij geen"
       },
-      "uitleg_en": "Moving over in good time to the side or lane you want, so others can see where you are going."
+      "uitleg_en": "Moving over in good time to the side or lane you want, so others can see where you are going.",
+      "diagram": "rijstrookkeuze"
     },
     {
       "term": "weefvak",
@@ -1154,7 +1194,8 @@
         "sectie": "9.9",
         "anker": "Wettelijk is het zo geregeld dat invoegers en uitvoegers elkaar voor moeten laten gaan"
       },
-      "uitleg_en": "A stretch of motorway where those joining and those leaving cross each other."
+      "uitleg_en": "A stretch of motorway where those joining and those leaving cross each other.",
+      "diagram": "stroken"
     },
     {
       "term": "weg",
@@ -1193,7 +1234,8 @@
         "sectie": "10.7",
         "anker": "Stilstaande voertuigen met zwaailicht van politie of Rijkswaterstaat waarschuwen je voor een ongeval"
       },
-      "uitleg_en": "The blue rotating light on a police car, fire engine or ambulance."
+      "uitleg_en": "The blue rotating light on a police car, fire engine or ambulance.",
+      "diagram": "lichten"
     }
   ]
 }
