@@ -1,0 +1,34 @@
+{
+  "id": "S-BEGRIP-voorrangsvoertuig",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "hulpdienst",
+      "soort": "hulpdienst",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "het voorrangsvoertuig"
+    }
+  ],
+  "alt": "Een kruispunt waar jij van onderen nadert en van links een voorrangsvoertuig komt aanrijden.",
+  "inspiratie": {
+    "boek": 33,
+    "beeld": "sectie 2.4 over weggedeelten"
+  }
+}

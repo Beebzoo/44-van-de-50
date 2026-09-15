@@ -1,0 +1,39 @@
+{
+  "id": "S-BEGRIP-voorligger",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "actoren": [
+    {
+      "id": "voorligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "je voorligger"
+    },
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "achterligger",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "je achterligger"
+    }
+  ],
+  "alt": "Drie auto's achter elkaar op dezelfde weghelft. De middelste ben jij, de auto voor je is je voorligger en de auto achter je je achterligger.",
+  "inspiratie": {
+    "boek": 33,
+    "beeld": "sectie 2.4 over weggedeelten"
+  }
+}

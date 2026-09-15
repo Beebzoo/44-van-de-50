@@ -1,0 +1,37 @@
+{
+  "id": "S-BEGRIP-blokmarkering",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "blokmarkering",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 3,
+      "label": "jij"
+    },
+    {
+      "id": "bus",
+      "soort": "bus",
+      "arm": "zuid",
+      "richting": "stil",
+      "afstand": 1,
+      "label": "de bus"
+    }
+  ],
+  "alt": "Een rechte weg met langs de rechterkant een rij witte blokken op het wegdek. Er staat een bus stil bij die blokken en jij nadert van achteren.",
+  "inspiratie": {
+    "boek": 33,
+    "beeld": "sectie 2.4 over weggedeelten"
+  }
+}

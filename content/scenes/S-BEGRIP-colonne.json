@@ -1,0 +1,34 @@
+{
+  "id": "S-BEGRIP-colonne",
+  "vorm": "plus",
+  "voorrang": "gelijkwaardig",
+  "armen": [
+    "noord",
+    "oost",
+    "zuid",
+    "west"
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "colonne",
+      "soort": "colonne",
+      "arm": "west",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de colonne"
+    }
+  ],
+  "alt": "Een kruispunt waar jij van onderen nadert en van links een militaire colonne het kruispunt oprijdt.",
+  "inspiratie": {
+    "boek": 33,
+    "beeld": "sectie 2.4 over weggedeelten"
+  }
+}

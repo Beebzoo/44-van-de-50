@@ -27,7 +27,8 @@
         "sectie": "11.1",
         "anker": "je remlichten gebruiken om aan achterliggers duidelijk te maken dat je wilt"
       },
-      "uitleg_en": "The driver behind you."
+      "uitleg_en": "The driver behind you.",
+      "scene": "S-BEGRIP-voorligger"
     },
     {
       "term": "alarmlichten",
@@ -167,7 +168,8 @@
         "sectie": "2.4",
         "anker": "bestemd is voor bestuurders die de doorgaande rijbaan willen oprijden"
       },
-      "uitleg_en": "Thick blocks on the road separating an acceleration or deceleration lane from the ordinary carriageway."
+      "uitleg_en": "Thick blocks on the road separating an acceleration or deceleration lane from the ordinary carriageway.",
+      "scene": "S-BEGRIP-blokmarkering"
     },
     {
       "term": "brombakfiets",
@@ -337,7 +339,8 @@
         "sectie": "2.4",
         "anker": "waarop afbeeldingen van een fiets zijn aangebracht"
       },
-      "uitleg_en": "Cycle strip. Part of the carriageway, marked with lines and bicycle symbols. It lies on the carriageway, unlike a cycle path."
+      "uitleg_en": "Cycle strip. Part of the carriageway, marked with lines and bicycle symbols. It lies on the carriageway, unlike a cycle path.",
+      "scene": "S-BEGRIP-fietsstrook"
     },
     {
       "term": "gehandicaptenvoertuig",
@@ -488,7 +491,8 @@
         "sectie": "2.4",
         "anker": "Een kruispunt is een kruising of splitsing van wegen"
       },
-      "uitleg_en": "Junction. A crossing or a fork in the road, so a fork counts as well."
+      "uitleg_en": "Junction. A crossing or a fork in the road, so a fork counts as well.",
+      "scene": "S-U03-001"
     },
     {
       "term": "matrixbord",
@@ -517,7 +521,8 @@
         "sectie": "2.2",
         "anker": "Achter elkaar rijdende militaire motorvoertuigen of motorvoertuigen van een rampenbestrijdingsorganisatie"
       },
-      "uitleg_en": "A military convoy: military vehicles driving in line under one commander, carrying the prescribed markings."
+      "uitleg_en": "A military convoy: military vehicles driving in line under one commander, carrying the prescribed markings.",
+      "scene": "S-BEGRIP-colonne"
     },
     {
       "term": "mistachterlicht",
@@ -903,7 +908,8 @@
         "sectie": "11.2",
         "anker": "Dim tijdig, dus vóórdat de tegenligger in je stralenbundel komt"
       },
-      "uitleg_en": "Someone coming towards you from the other direction."
+      "uitleg_en": "Someone coming towards you from the other direction.",
+      "scene": "S-U07-L01"
     },
     {
       "term": "trapondersteuning",
@@ -970,7 +976,8 @@
         "sectie": "2.4",
         "anker": "Op puntstukken mag je niet rijden, behalve als je op een spitsstrook rijdt"
       },
-      "uitleg_en": "Hatched area: a part of the carriageway with diagonal stripes. No driving on it, not even to give someone room."
+      "uitleg_en": "Hatched area: a part of the carriageway with diagonal stripes. No driving on it, not even to give someone room.",
+      "scene": "S-BEGRIP-verdrijvingsvlak"
     },
     {
       "term": "vluchthaven",
@@ -1034,7 +1041,8 @@
         "sectie": "7.2",
         "anker": "Houd een grotere volgafstand aan (3 seconden) in moeilijke omstandigheden"
       },
-      "uitleg_en": "The space between you and the car in front. Count two seconds, and three in bad weather."
+      "uitleg_en": "The space between you and the car in front. Count two seconds, and three in bad weather.",
+      "scene": "S-BEGRIP-voorligger"
     },
     {
       "term": "voor laten gaan",
@@ -1071,7 +1079,8 @@
         "sectie": "10.5",
         "anker": "Gedrag in een file Dit is het beste voor de veiligheid en doorstroming"
       },
-      "uitleg_en": "The driver in front of you, going the same way."
+      "uitleg_en": "The driver in front of you, going the same way.",
+      "scene": "S-BEGRIP-voorligger"
     },
     {
       "term": "voorrang verlenen",
@@ -1101,7 +1110,8 @@
         "sectie": "2.3",
         "anker": "Motorvoertuig dat optische signalen (blauw zwaailicht, flitslicht of knipperlicht) en geluidssignalen (tweetonige hoorn) voert"
       },
-      "uitleg_en": "Priority vehicle: a motor vehicle showing blue flashing lights and sounding a two-tone horn. Both at once, otherwise it is not one."
+      "uitleg_en": "Priority vehicle: a motor vehicle showing blue flashing lights and sounding a two-tone horn. Both at once, otherwise it is not one.",
+      "scene": "S-BEGRIP-voorrangsvoertuig"
     },
     {
       "term": "voorrangsweg",

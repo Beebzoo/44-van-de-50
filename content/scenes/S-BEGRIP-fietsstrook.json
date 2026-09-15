@@ -1,0 +1,37 @@
+{
+  "id": "S-BEGRIP-fietsstrook",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "fietsstrook",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "fietser",
+      "soort": "fiets",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de fietser"
+    }
+  ],
+  "alt": "Een rechte weg met aan de rechterkant van de rijbaan een rode strook. Jij rijdt van onderen en vlak voor je rijdt een fietser op de rijbaan.",
+  "inspiratie": {
+    "boek": 33,
+    "beeld": "sectie 2.4 over weggedeelten"
+  }
+}

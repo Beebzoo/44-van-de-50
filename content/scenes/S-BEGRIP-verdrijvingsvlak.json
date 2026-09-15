@@ -1,0 +1,37 @@
+{
+  "id": "S-BEGRIP-verdrijvingsvlak",
+  "vorm": "recht",
+  "armen": [
+    "noord",
+    "zuid"
+  ],
+  "markering": [
+    {
+      "soort": "verdrijvingsvlak",
+      "arm": "zuid"
+    }
+  ],
+  "actoren": [
+    {
+      "id": "ego",
+      "soort": "auto",
+      "arm": "zuid",
+      "richting": "rechtdoor",
+      "afstand": 2,
+      "label": "jij"
+    },
+    {
+      "id": "tegenligger",
+      "soort": "auto",
+      "arm": "noord",
+      "richting": "rechtdoor",
+      "afstand": 1,
+      "label": "de tegenligger"
+    }
+  ],
+  "alt": "Een rechte weg waarop langs de linkerkant van jouw rijstrook een reeks schuine witte strepen op het wegdek ligt. Jij rijdt van onderen en op de andere weghelft komt een auto tegemoet.",
+  "inspiratie": {
+    "boek": 33,
+    "beeld": "sectie 2.4 over weggedeelten"
+  }
+}

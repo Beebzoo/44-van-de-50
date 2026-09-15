@@ -1,8 +1,14 @@
 {
-  "versie": "151e25e8c1",
+  "versie": "1eed532666",
   "gegenereerd": "2026-09-15",
   "examenDatum": "2026-10-13",
   "scenes": [
+    "S-BEGRIP-blokmarkering",
+    "S-BEGRIP-colonne",
+    "S-BEGRIP-fietsstrook",
+    "S-BEGRIP-verdrijvingsvlak",
+    "S-BEGRIP-voorligger",
+    "S-BEGRIP-voorrangsvoertuig",
     "S-U01-L01",
     "S-U01-L02",
     "S-U02-L01",

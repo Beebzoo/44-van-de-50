@@ -311,9 +311,16 @@ function checkWezen(vragen, units) {
     if (q.media && q.media.reeks) for (const s of q.media.reeks) gebruikt.add(s);
   }
   for (const u of units) for (const p of u.paginas || []) for (const b of p.body || []) if (b.type === "scene" && b.ref) gebruikt.add(b.ref);
+  /* een tekening kan ook aan een begrip hangen: die opent als je in een tekst
+     op het woord tikt, en is dan net zo goed in gebruik */
+  const begrippenBestand = path.join(CONTENT, "begrippen.json");
+  if (exists(begrippenBestand)) {
+    const doc = readJson(begrippenBestand);
+    for (const b of doc.begrippen || []) if (b.scene) gebruikt.add(b.scene);
+  }
   for (const id of Object.keys(SCENES)) {
     if (arg && !arg.endsWith(".json") && !id.startsWith("S-" + arg)) continue;
-    if (!gebruikt.has(id)) meld(id, "wees", "deze tekening wordt door geen enkele vraag of leespagina gebruikt");
+    if (!gebruikt.has(id)) meld(id, "wees", "deze tekening wordt door geen enkele vraag, leespagina of begrip gebruikt");
   }
 }
 
