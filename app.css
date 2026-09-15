@@ -704,3 +704,51 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .baan .streep { background: var(--lijn); border-radius: 999px; }
 .baan .streep::after { background: var(--bord-blauw); }
 .baan .streep.nu { outline: 0; background: var(--blauw-licht); }
+
+/* ==== Dagelijks: het oefenexamen ==== */
+
+/* Een examen heeft zijn eigen wereld: donker, geen tabbalk, geen kleur die
+   iets zegt over je antwoord. */
+.examenkop { background: var(--inkt); color: #fff; padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 12px;
+  padding-top: calc(16px + env(safe-area-inset-top)); }
+.examenkop .sluit { position: absolute; right: 12px; top: calc(10px + env(safe-area-inset-top)); color: #fff; padding: 8px; }
+.examenkop .wenkbrauw { font-family: var(--kop); font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--inkt-op-donker, #9AA3AA); }
+.examenkop h1 { margin: 0; font-weight: 700; font-size: 27px; color: #fff; }
+.examentegels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.examentegels > div { background: #232F3B; border-radius: 10px; padding: 11px; }
+.examentegels .cijfer { display: block; font-family: var(--kop); font-weight: 700; font-size: 19px; color: #fff; line-height: 1.1; }
+.examentegels .bij { display: block; font-size: 11px; color: #9AA3AA; }
+.examenlijf { padding: 16px 0 0; }
+
+.examenkop.onderweg { padding: 12px 20px 14px; gap: 10px; padding-top: calc(12px + env(safe-area-inset-top)); }
+.examenkop.onderweg .rij { display: flex; align-items: baseline; justify-content: space-between; }
+.examenkop.onderweg .klok { font-family: var(--kop); font-weight: 700; font-size: 25px; color: #fff; line-height: 1; }
+.examenkop.onderweg .rechts { display: flex; align-items: baseline; gap: 10px; }
+.examenkop.onderweg .gevlagd { font-size: 13px; color: #9AA3AA; }
+.examenkop.onderweg .teller { font-family: var(--kop); font-weight: 700; font-size: 15px; color: #fff; }
+.examenbaan { display: flex; gap: 2px; height: 4px; }
+.examenbaan span { border-radius: 999px; }
+.examenbaan .gedaan { background: var(--blauw-licht); }
+.examenbaan .nu { background: #fff; }
+.examenbaan .rest { background: #3A4450; }
+.examenkop.onderweg .tempo { margin: 0; font-size: 12px; color: #9AA3AA; }
+
+/* de zes vaste sets als kaarten naast elkaar */
+.setkiezer { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0 12px; }
+.setkaart { display: flex; flex-direction: column; gap: 2px; align-items: flex-start; text-align: left;
+  padding: 12px; border-radius: 11px; border: 1px solid var(--lijn); background: var(--vlak); }
+.setkaart .naam { font-weight: 700; font-size: 15px; color: var(--inkt); }
+.setkaart .meta, .setkaart .staatlabel { font-size: 12px; }
+.setkaart.gedaan { border-color: var(--lijn-2); }
+.setkaart:active { transform: scale(.98); }
+.wenkbrauw.donker { font-family: var(--kop); font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--inkt-2); margin: 4px 0 0; }
+.regelskaart p { margin: 0 0 9px; font-size: 14px; line-height: 1.4; }
+.regelskaart p:last-child { margin-bottom: 0; }
+
+/* de vlag: oker, want vlaggen zegt niets over goed of fout */
+.vlagrij { display: flex; align-items: center; gap: 10px; width: 100%; margin-bottom: 8px; padding: 13px 14px;
+  border: 1.5px solid var(--lijn-2); border-radius: 12px; background: var(--vlak); font-weight: 600; font-size: 15px; color: var(--inkt); }
+.vlagrij .wimpel { width: 15px; height: 18px; flex: none; background: var(--oker);
+  clip-path: polygon(0 0, 100% 0, 100% 72%, 50% 100%, 0 72%); opacity: .35; }
+.vlagrij.aan { border-color: var(--oker); }
+.vlagrij.aan .wimpel { opacity: 1; }

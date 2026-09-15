@@ -238,7 +238,7 @@ function render() {
   const screen = SCREENS[S.route.name] || SCREENS.route;
   const v = screen();
   const onder = v.onder === "tab" ? tabbar() : v.onder ? actionbar(v.onder) : "";
-  app.innerHTML = `${header(v)}${v.baan === false ? "" : lane()}<div class="romp"><main class="inhoud ${v.onder ? "" : "geen-balk"}">${v.body}</main>${S.route.name === "route" ? "" : `<aside class="rail">${timeline(true)}</aside>`}</div>${onder}${overlays()}`;
+  app.innerHTML = `${v.kop === false ? "" : header(v)}${v.baan === false ? "" : lane()}<div class="romp"><main class="inhoud ${v.onder ? "" : "geen-balk"}">${v.body}</main>${S.route.name === "route" ? "" : `<aside class="rail">${timeline(true)}</aside>`}</div>${onder}${overlays()}`;
   document.title = (v.titel ? v.titel + " · " : "") + "44 van de 50";
   document.documentElement.lang = taal();
 }
@@ -306,6 +306,17 @@ async function leverIn() {
 /* De zes vaste examens, met per set je beste poging. Twee keer hetzelfde
    examen doen meet wat je geleerd hebt; twee verse trekkingen meten ook het
    geluk van de trekking. */
+/* De donkere kop van het examen: drie getallen die de verwachting zetten
+   voordat de klok gaat lopen. */
+function examenKop(extra) {
+  return `<header class="examenkop">
+    <a class="sluit" href="#/route" aria-label="${esc(t("Sluiten"))}">${I.sluit}</a>
+    <span class="wenkbrauw">${esc(t("OEFENEXAMEN"))}</span>
+    <h1>44 van de 50</h1>
+    ${extra}
+  </header>`;
+}
+
 function vasteExamens(sims) {
   const beste = {};
   for (const a of sims) {
@@ -318,11 +329,12 @@ function vasteExamens(sims) {
     const staat = b
       ? `<span class="staatlabel ${b.score >= Q.EXAMEN.halen ? "goed" : ""}">${esc(t("beste {score} van {n}", { score: b.score, n: b.total }))}</span>`
       : `<span class="meta">${esc(t("nog niet gedaan"))}</span>`;
-    return `<div class="kaart"><div class="rij"><span class="bloknr">${nr}</span><div class="groei"><strong>${esc(t("Examen {n}", { n: nr }))}</strong><br>${staat}</div>
-      <button class="knop omlijnd" data-actie="start-examen" data-nr="${nr}">${esc(b ? t("Opnieuw") : t("Start"))}</button></div></div>`;
+    return `<button type="button" class="setkaart ${b ? "gedaan" : ""}" data-actie="start-examen" data-nr="${nr}">
+      <span class="naam">${esc(t("Set {n}", { n: nr }))}</span>${staat}</button>`;
   }).join("");
-  return `<h2 class="kop2">${esc(t("De zes vaste examens"))}</h2>
-    <p class="meta-3">${esc(t("Elk vast examen bevat altijd dezelfde vragen, dus je kunt je score met die van vorige keer vergelijken. De knop onderaan trekt juist elke keer een nieuwe set."))}</p>${rijen}`;
+  return `<p class="wenkbrauw donker">${esc(t("KIES EEN SET"))}</p>
+    <div class="setkiezer">${rijen}</div>
+    <p class="meta-3">${esc(t("Elk vast examen bevat altijd dezelfde vragen, dus je kunt je score met die van vorige keer vergelijken. De verse trekking onderaan kiest elke keer nieuwe vragen."))}</p>`;
 }
 
 function examenIntro() {
@@ -331,15 +343,57 @@ function examenIntro() {
   const sims = S.attempts.filter(a => a.kind === "examen");
   const laatste = sims.slice(-5).reverse();
   const genoeg = pool >= Q.EXAMEN.getoond;
-  const body = `<h1 class="kop1">${esc(t("Oefenexamen"))}</h1>
-    <p class="lees">${esc(t("{getoond} vragen waarvan er {telt} tellen, {minuten} minuten, en je haalt het bij {halen} goed. Net als bij het CBR krijg je onderweg niets te zien: je antwoordt, je mag terug, en je ziet alles pas als je inlevert.", { getoond: Q.EXAMEN.getoond, telt: Q.EXAMEN.telt, minuten: Q.EXAMEN.minuten, halen: Q.EXAMEN.halen }))}</p>
+  const tegels = `<div class="examentegels">
+      <div><span class="cijfer">${Q.EXAMEN.getoond}</span><span class="bij">${esc(t("vragen, {n} tellen", { n: Q.EXAMEN.telt }))}</span></div>
+      <div><span class="cijfer">${Q.EXAMEN.minuten}:00</span><span class="bij">${esc(t("{n} sec per vraag", { n: Math.round(Q.EXAMEN.minuten * 60 / Q.EXAMEN.getoond) }))}</span></div>
+      <div><span class="cijfer">${Q.EXAMEN.halen}</span><span class="bij">${esc(t("om te halen"))}</span></div>
+    </div>`;
+  const regels = `<div class="kaart regelskaart">
+      <p>${esc(t("Geen uitleg tussendoor. Je hoort pas aan het eind wat goed was."))}</p>
+      <p>${esc(t("Twijfel je, vlag de vraag en loop aan het eind terug."))}</p>
+      <p>${esc(t("De klok loopt door, ook als je de app dichtklapt."))}</p>
+    </div>`;
+  const body = `${examenKop(tegels)}
+    <div class="examenlijf">
     ${genoeg ? "" : `<div class="kaart"><p style="margin:0">${esc(t("Er zijn nog {n} vragen te weinig vrijgespeeld. Rond eerst wat blokken af.", { n: Q.EXAMEN.getoond - pool }))}</p></div>`}
     ${genoeg ? vasteExamens(sims) : ""}
-    ${laatste.length ? `<h2 class="kop2">${esc(t("Je vorige simulaties"))}</h2>${laatste.map(a => `<div class="kaart"><div class="rij"><span class="cijfer">${a.score}<span class="meta-3"> ${esc(t("van {n}", { n: a.total }))}</span></span><div class="groei"><strong>${esc(a.score >= Q.EXAMEN.halen ? t("Gehaald") : t("Niet gehaald"))}</strong><br><span class="meta">${esc(a.ref && a.ref.startsWith("examen-") ? t("Examen {n}", { n: a.ref.slice(7) }) : t("Verse trekking"))} · ${datum(new Date(a.created_at || a.ts))}</span></div></div></div>`).join("")}` : ""}`;
+    ${genoeg ? regels : ""}
+    ${laatste.length ? `<h2 class="kop2">${esc(t("Je vorige simulaties"))}</h2>${laatste.map(a => `<div class="kaart"><div class="rij"><span class="cijfer">${a.score}<span class="meta-3"> ${esc(t("van {n}", { n: a.total }))}</span></span><div class="groei"><strong>${esc(a.score >= Q.EXAMEN.halen ? t("Gehaald") : t("Niet gehaald"))}</strong><br><span class="meta">${esc(a.ref && a.ref.startsWith("examen-") ? t("Examen {n}", { n: a.ref.slice(7) }) : t("Verse trekking"))} · ${datum(new Date(a.created_at || a.ts))}</span></div></div></div>`).join("")}` : ""}
+    </div>`;
   const onder = genoeg
     ? `<button class="knop primair groot" data-actie="start-examen">${esc(t("Verse trekking"))}<span class="pijl">${I.pijl}</span></button>`
     : `<a class="knop omlijnd groot" href="#/route">${esc(t("Terug naar Route"))}</a>`;
-  return { titel: t("Oefenexamen"), terug: "#/route", sluit: true, body, onder };
+  return { titel: t("Oefenexamen"), terug: "#/route", sluit: true, kop: false, baan: false, body, onder };
+}
+
+/* De kop tijdens het examen. De voortgangsbalk is drie stukken: wat je
+   beantwoord hebt, waar je nu bent, en wat er nog ligt. De tempozin zegt of je
+   voor of achter ligt, want dat is het enige dat je onderweg over jezelf mag
+   weten; over goed of fout hoor je niets. */
+function examenBalk(run) {
+  const n = run.items.length;
+  const beantwoord = run.items.filter(it => (run.antwoorden[it.q.id] || []).length).length;
+  const resterend = Q.seconden(run);
+  const verstreken = Q.EXAMEN.minuten * 60 - resterend;
+  const perVraag = Q.EXAMEN.minuten * 60 / Q.EXAMEN.getoond;
+  const voor = Math.round(beantwoord * perVraag - verstreken);
+  const mmss = sec => Math.floor(Math.abs(sec) / 60) + ":" + String(Math.abs(sec) % 60).padStart(2, "0");
+  const tempo = beantwoord < 2 ? ""
+    : voor >= 0 ? t("Je zit {tijd} voor op het tempo", { tijd: mmss(voor) })
+      : t("Je zit {tijd} achter op het tempo", { tijd: mmss(voor) });
+  const gevlagd = run.gemarkeerd.length;
+  return `<header class="examenkop onderweg">
+    <div class="rij">
+      <span class="klok" id="examenklok">${klokTekst(resterend)}</span>
+      <span class="rechts">${gevlagd ? `<span class="gevlagd">${esc(t("{n} gevlagd", { n: gevlagd }))}</span>` : ""}<span class="teller">${run.i + 1} / ${n}</span></span>
+    </div>
+    <div class="examenbaan" aria-hidden="true">
+      <span class="gedaan" style="flex:${Math.max(beantwoord, 0.001)}"></span>
+      <span class="nu" style="flex:1"></span>
+      <span class="rest" style="flex:${Math.max(n - beantwoord - 1, 0.001)}"></span>
+    </div>
+    ${tempo ? `<p class="tempo">${esc(tempo)}</p>` : ""}
+  </header>`;
 }
 
 function examenOverzicht(run) {
@@ -350,12 +404,14 @@ function examenOverzicht(run) {
     const vlag = run.gemarkeerd.includes(it.q.id);
     return `<button type="button" class="vraaghokje ${heeft ? "beantwoord" : ""} ${vlag ? "gemarkeerd" : ""}" data-actie="examen-ga" data-n="${i}">${i + 1}</button>`;
   }).join("");
-  const body = `<div class="examenbalk groot"><span class="klok" id="examenklok">${klokTekst(Q.seconden(run))}</span><span class="meta">${esc(t("{beantwoord} van {n} beantwoord", { beantwoord, n }))}</span></div>
+  const body = `${examenBalk(run)}
+    <div class="examenlijf">
     <h1 class="kop1">${esc(t("Overzicht"))}</h1>
     <p class="lees">${esc(t("Tik op een nummer om terug te gaan. Een blauw randje betekent dat je hem gemarkeerd hebt."))}</p>
     <div class="vraagraster">${hokjes}</div>
-    ${beantwoord < n ? `<p class="meta">${esc(t("Je hebt er nog {n} niet beantwoord. Onbeantwoord telt als fout.", { n: n - beantwoord }))}</p>` : ""}`;
-  return { titel: t("Oefenexamen"), terug: "#/examen", sluit: true, midden: esc(t("Oefenexamen")), taal: false, body, onder: `<button class="knop primair groot" data-actie="examen-inleveren">${esc(t("Inleveren en nakijken"))}<span class="pijl">${I.pijl}</span></button>` };
+    ${beantwoord < n ? `<p class="meta">${esc(t("Je hebt er nog {n} niet beantwoord. Onbeantwoord telt als fout.", { n: n - beantwoord }))}</p>` : ""}
+    </div>`;
+  return { titel: t("Oefenexamen"), terug: "#/examen", sluit: true, midden: esc(t("Oefenexamen")), taal: false, kop: false, baan: false, body, onder: `<button class="knop primair groot" data-actie="examen-inleveren">${esc(t("Inleveren en nakijken"))}<span class="pijl">${I.pijl}</span></button>` };
 }
 
 function examenUitslagScherm(run) {
@@ -693,7 +749,7 @@ const SCREENS = {
     const q = item.q;
     const n = run.items.length;
     const dots = run.examen
-      ? `<div class="examenbalk"><span class="klok" id="examenklok">${klokTekst(Q.seconden(run))}</span><button type="button" class="knop tekstknop ${run.gemarkeerd.includes(q0(run).id) ? "actief" : ""}" data-actie="examen-markeer">${esc(run.gemarkeerd.includes(q0(run).id) ? t("Gemarkeerd") : t("Markeer"))}</button></div>`
+      ? examenBalk(run)
       : `<div class="stipjes" aria-hidden="true">${run.items.map((it, i) => { const r = run.resultaten[i]; const c = r ? (r.goed && !r.twijfel ? "goed" : "fout") : i === run.i ? "nu" : ""; return `<span class="${c}"></span>`; }).join("")}</div>`;
     const toon = run.fase === "toon";
     const r = toon ? run.resultaten[run.resultaten.length - 1] : null;
@@ -793,13 +849,14 @@ const SCREENS = {
     const onder = toon
       ? `<button class="knop primair groot" data-actie="volgende">${esc(run.i + 1 >= n ? t("Naar de uitslag") : t("Volgende"))}<span class="pijl">${I.pijl}</span></button>`
       : run.examen
-        ? `<div class="rij"><button class="knop omlijnd" data-actie="examen-ga" data-n="${run.i - 1}" ${run.i === 0 ? "disabled" : ""} aria-label="${esc(t("Vorige vraag"))}">${I.terug}</button><button class="knop primair groot" data-actie="examen-ga" data-n="${run.i + 1}">${esc(run.i + 1 >= n ? t("Naar het overzicht") : t("Volgende"))}<span class="pijl">${I.pijl}</span></button></div>`
+        ? `<button type="button" class="vlagrij ${run.gemarkeerd.includes(q0(run).id) ? "aan" : ""}" data-actie="examen-markeer"><span class="wimpel" aria-hidden="true"></span>${esc(run.gemarkeerd.includes(q0(run).id) ? t("Gevlagd, tik om weg te halen") : t("Vlag deze vraag"))}</button>
+          <div class="rij"><button class="knop omlijnd" data-actie="examen-ga" data-n="${run.i - 1}" ${run.i === 0 ? "disabled" : ""} aria-label="${esc(t("Vorige vraag"))}">${I.terug}</button><button class="knop primair groot" data-actie="examen-ga" data-n="${run.i + 1}">${esc(run.i + 1 >= n ? t("Naar het overzicht") : t("Volgende"))}<span class="pijl">${I.pijl}</span></button></div>`
         : `<div class="rij"><label class="twijfel"><input type="checkbox" data-actie="twijfel" ${run.twijfel ? "checked" : ""}> ${esc(t("Twijfel"))}</label><button class="knop primair groot" data-actie="controleer" ${Q.ready(run) ? "" : "disabled"}>${esc(t("Controleer"))}</button></div>`;
     const naam = run.examen ? t("Oefenexamen") : run.soort === "quiz" ? t("Quiz") : run.soort === "herhaling" ? t("Herhaling") : run.soort === "gemengd" ? t("Door elkaar") : run.ref === "fouten" ? t("Fouten oefenen") : t("Herstelronde");
     /* In een quiz mag je van taal wisselen, want dat is alleen een ander woord
        voor dezelfde vraag. In een examen niet: daar loopt een klok, en de
        eerste keer overschakelen haalt nog bestanden op. */
-    return { titel: naam, terug: run.examen ? "#/examen" : u ? "#/blok/" + u.id : "#/route", sluit: true, midden: esc(t("{naam} · vraag {i} van {n}", { naam, i: run.i + 1, n })), body, onder, baan: true, taal: run.examen ? false : undefined };
+    return { titel: naam, terug: run.examen ? "#/examen" : u ? "#/blok/" + u.id : "#/route", sluit: true, midden: esc(t("{naam} · vraag {i} van {n}", { naam, i: run.i + 1, n })), body, onder, baan: !run.examen, kop: !run.examen, taal: false };
   },
   gehaald() {
     const u = S.unitById[S.route.unit];
