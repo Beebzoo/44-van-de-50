@@ -534,23 +534,10 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 
 /* ==== desktop ==== */
 .rail { display: none; }
-@media (min-width: 1024px) {
-  :root { --kop-h: 4rem; --baan-h: 10px; --gutter: 32px; }
-  .kopbalk { padding: 0 24px; }
-  .kopbalk .nav { display: flex; gap: 4px; margin-left: 24px; }
-  .kopbalk .nav a { padding: 8px 12px; border-radius: var(--r-klein); font-weight: 500; color: var(--inkt-2); }
-  .kopbalk .nav a.actief { color: var(--bord-blauw); background: var(--bord-blauw-zacht); }
-  .kopbalk .nav a:hover { text-decoration: none; background: var(--vlak-2); }
-  .romp { display: grid; grid-template-columns: minmax(0, 720px) 280px; gap: 32px; justify-content: center; padding: 0 32px; }
-  .romp:not(:has(.rail)) { grid-template-columns: minmax(0, 720px); }
-  .inhoud { padding-bottom: 32px; margin: 0; }
-  .rail { display: block; position: sticky; top: calc(var(--kop-h) + var(--baan-h) + 16px); align-self: start; padding: 16px 0; }
-  .onderbalk { position: static; box-shadow: none; background: none; }
-  .onderbalk.tab { display: none; }
-  .actiebalk { padding: 8px 0 32px; }
-  .beeldplaat { max-height: 420px; }
-}
-@media (max-width: 1023px) { .kopbalk .nav { display: none; } }
+/* Het oude brede blok van 1024 is vervangen door het blok van 900 onderaan:
+   het ontwerp kent twee breekpunten en dit was het derde. */
+
+
 
 /* ==== motion ==== */
 @media (prefers-reduced-motion: reduce) {
@@ -818,3 +805,54 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .verwarkaart .paar:last-child { margin-bottom: 0; }
 .verwarkaart .vs { font-family: var(--kop); font-weight: 700; font-size: 15px; color: var(--oker-tekst); }
 .verwarkaart .verschil { flex: 1; min-width: 0; font-size: 13px; line-height: 1.35; color: var(--oker-tekst-zacht); }
+
+/* ==== Dagelijks: de laptop ==== */
+
+/* Op de telefoon is dit gewoon een kolom, in de volgorde van het ontwerp:
+   week, sessie, tellers, examenklaar, blokken. */
+.routeraster { display: flex; flex-direction: column; }
+.routeraster .zij { display: contents; }
+.routeraster .hoofd { display: contents; }
+.routeraster .weekketen { order: 1; }
+.routeraster .sessie, .routeraster .laatsteweek { order: 2; }
+.routeraster .tellers { order: 3; }
+.routeraster .examenklaar { order: 4; }
+.routeraster .blokstrip { order: 5; }
+.routeraster .vandaagregel { order: 6; }
+.routeraster .zij > a.kaart { order: 7; }
+
+@media (min-width: 900px) {
+  /* de tabbalk wordt de balk bovenaan, en die draagt het blauw */
+  .kopbalk { background: var(--bord-blauw); color: #fff; padding: 14px 28px; gap: 28px; }
+  .kopbalk a, .kopbalk button, .kopbalk .ikoonknop { color: #fff; }
+  .kopbalk .merk { color: #fff; }
+  .kopbalk .merk .datum { color: var(--blauw-tekst); }
+  .kopbalk .nav { display: flex; gap: 22px; margin-left: 4px; }
+  .kopbalk .nav a { padding: 0 0 2px; border-radius: 0; font-size: 15px; font-weight: 500; color: var(--blauw-tekst); }
+  .kopbalk .nav a.actief { color: #fff; font-weight: 700; background: none; border-bottom: 2px solid #fff; }
+  .kopbalk .nav a:hover { text-decoration: none; background: none; color: #fff; }
+  .kopbalk .aftelpil { background: var(--blauw-diep); }
+  .onderbalk.tab { display: none; }
+  .romp { display: grid; grid-template-columns: minmax(0, 1240px); justify-content: center; padding: 0 28px; }
+  /* de kolom van 720 is de leesbreedte van de telefoon; op Route staat de
+     inhoud in twee kolommen en mag hij de hele balk gebruiken */
+  .inhoud { padding-bottom: 32px; padding-left: 0; padding-right: 0; }
+  .inhoud:has(.routeraster) { max-width: none; }
+  .rail { display: none; }
+
+  /* taak links, context rechts */
+  .routeraster { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+  .routeraster .hoofd, .routeraster .zij { display: flex; flex-direction: column; gap: 18px; }
+  .routeraster .sessie { margin: 0; padding: 26px; }
+  .routeraster .sessie .titel { font-size: 31px; }
+  .routeraster .tellers, .routeraster .blokstrip { margin: 0; }
+  .routeraster .weekketen { margin: 0; }
+  .routeraster .weekketen .dag { height: 44px; border-radius: 7px; font-size: 12px; }
+  .routeraster .examenklaar { margin: 0; }
+}
+@media (max-width: 899px) { .kopbalk .nav { display: none; } }
+@media (min-width: 900px) {
+  /* de blokjes blijven blokjes: in een brede kolom zou aspect-ratio 1 er
+     tegels van tachtig pixels van maken */
+  .blokstrip .raster { grid-template-columns: repeat(8, minmax(0, 56px)); }
+}

@@ -184,7 +184,7 @@ function taalknop() {
   return `<div class="taalknop" role="group" aria-label="${esc(t("Taal"))}">${["nl", "en"].map(x => `<button type="button" class="${x === nu ? "actief" : ""}" data-actie="taal" data-waarde="${x}" aria-pressed="${x === nu}" aria-label="${esc(x === "en" ? t("Schakel naar het Engels") : t("Schakel naar het Nederlands"))}">${x.toUpperCase()}</button>`).join("")}</div>`;
 }
 function header(v) {
-  const nav = ["route", "leren", "borden", "fouten", "instellingen"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", borden: "Borden", fouten: "Fouten", instellingen: "Instellingen" }[n]))}</a>`).join("");
+  const nav = ["route", "leren", "examen", "borden", "herhaling", "fouten", "notities"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", examen: "Oefenexamen", borden: "Borden", herhaling: "Herhaling", fouten: "Fouten", notities: "Notities" }[n]))}</a>`).join("");
   const links = v.terug
     ? `<a class="ikoonknop" href="${esc(v.terug)}" aria-label="${esc(t(v.sluit ? "Sluiten" : "Terug"))}">${v.sluit ? I.sluit : I.terug}</a>`
     : `<a class="merk" href="#/route">44 van de 50<span class="datum">${esc(langeDatum(new Date()))}</span></a>`;
@@ -720,13 +720,19 @@ const SCREENS = {
       : `<p class="meta">${esc(t("Verder waar je was"))}</p>
       <div class="kaart"><div class="rij"><div class="groei"><span class="bloknr">${u.volgorde}</span><strong>${esc(u.titel)}</strong><br><span class="meta">${esc(act.tekst)}</span></div></div>
         <a class="knop primair groot" style="margin-top:12px" href="${act.href}">${esc(act.knop)}<span class="pijl">${I.pijl}</span></a></div>`;
-    const body = `${weekketenHtml()}
-      ${laatsteWeek() ? laatsteWeekKaart() : sessieKaart()}
-      ${tellerKaarten()}
-      ${examenklaarKaart()}
-      ${blokkenStrip()}
-      <p class="meta-3 vandaagregel">${esc(t("Vandaag {vragen} vragen, {minuten} min", { vragen: vd.vragen, minuten: vd.minuten }))}</p>
-      <a class="kaart klik" href="#/notities"><div class="rij"><span class="groei">${esc(t("Notities"))}</span><span class="cijfer cijfer-klein">${Object.keys(notities()).length}</span>${I.pijl}</div></a>`;
+    const body = `<div class="routeraster">
+      <div class="hoofd">
+        ${laatsteWeek() ? laatsteWeekKaart() : sessieKaart()}
+        ${tellerKaarten()}
+        ${blokkenStrip()}
+      </div>
+      <aside class="zij">
+        ${weekketenHtml()}
+        ${examenklaarKaart()}
+        <p class="meta-3 vandaagregel">${esc(t("Vandaag {vragen} vragen, {minuten} min", { vragen: vd.vragen, minuten: vd.minuten }))}</p>
+        <a class="kaart klik" href="#/notities"><div class="rij"><span class="groei">${esc(t("Notities"))}</span><span class="cijfer cijfer-klein">${Object.keys(notities()).length}</span>${I.pijl}</div></a>
+      </aside>
+    </div>`;
     return { titel: t("Route"), body, onder: "tab", baan: false };
   },
   leren() {
