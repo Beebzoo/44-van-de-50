@@ -24,6 +24,8 @@ export function zetTaal(v) {
 
 /* the day and month names for the short dates in the shell */
 export const DAGEN = { nl: ["zo", "ma", "di", "wo", "do", "vr", "za"], en: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"] };
+export const LANGEDAG = { nl: ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"], en: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] };
+export const LANGEMAAND = { nl: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"], en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] };
 export const MAANDEN = { nl: ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"], en: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] };
 
 const EN = {
@@ -36,6 +38,8 @@ const EN = {
   "Sluiten": "Close",
   "{d} dagen tot je examen": "{d} days until your exam",
   "{d} d": "{d} d",
+  "dagen": "days",
+  "tot je examen": "until your exam",
   "examen geweest": "exam done",
   "Nederlands": "Dutch",
   "Engels": "English",

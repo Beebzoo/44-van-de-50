@@ -1,4 +1,4 @@
-/* 44 van de 50: the Belijning stylesheet.
+/* 44 van de 50: the Belijning stylesheet, in its "Dagelijks" dress.
 
    Colour carries meaning wherever an answer is at stake. Blue is yours
    (selected, links, primary), red is wrong or a warning, green is mastered,
@@ -26,18 +26,27 @@
 /* ==== tokens ==== */
 :root {
   color-scheme: light;
-  --grond: #FFFFFF; --vlak: #FFFFFF; --vlak-2: #F1F5FA;
-  --lijn: #E2E8F0; --lijn-2: #C3CDDA;
-  --inkt: #15181C; --inkt-2: #4A5058; --inkt-3: #687079;
+  --grond: #F7F2E9; --vlak: #FFFFFF; --vlak-2: #F1EBDF;
+  --lijn: #E6DFD1; --lijn-2: #D8D0C0;
+  --inkt: #16202A; --inkt-2: #6B6F73; --inkt-3: #8A8D91;
   --asfalt: #2A2F36; --asfalt-2: #3A404A; --markering: #F7F7F4;
-  --bord-blauw: #0B5CAD; --bord-blauw-zacht: #E3EDF8;
-  --waarschuwing-rood: #C1121F;
+  --bord-blauw: #0B5CAD; --bord-blauw-zacht: #E7EFF8;
+  --waarschuwing-rood: #C0392B;
   --voorrang-geel: #F2B705; --voorrang-geel-zacht: #FBF1CC;
-  --goed: #1E7F4F; --goed-zacht: #DFF1E6; --goed-inkt: #135A37;
-  --fout: #C1121F; --fout-zacht: #FBE3E4; --fout-inkt: #8C0F19;
-  --neutraal: #687079; --neutraal-zacht: #ECEBE6;
+  --goed: #1E7A4C; --goed-zacht: #EAF5EE; --goed-inkt: #145635;
+  --fout: #C0392B; --fout-zacht: #FBEFED; --fout-inkt: #8C2A20;
+  --neutraal: #6B6F73; --neutraal-zacht: #EFE6D4;
   --focus: #0B5CAD;
   --plaat: #F7F9FC;
+  /* het blauw van de schil, in vier tinten voor tekst en randen erop */
+  --blauw-diep: #08447F; --blauw-licht: #6EA3D6; --blauw-zacht: #9CC4EA; --blauw-tekst: #CFE1F4;
+  /* oker: de dagketen, de staat oefenen, de vlag. Oker beoordeelt niets, dus
+     hij kan nooit voor goed of fout worden aangezien */
+  --oker: #D9922B; --oker-vlak: #FBF3E3; --oker-rand: #EBDCBE;
+  --oker-tekst: #8A6A20; --oker-tekst-zacht: #6B5528; --oker-op-vlak: #3A2708;
+  /* dicht: wat op slot zit of gemist is */
+  --dicht: #EFE6D4; --dicht-tekst: #A99C82;
+  --rand-knop: #C9C0AE;
   /* de schil: kleur die nooit een antwoord beoordeelt */
   --schil: linear-gradient(135deg, #0B5CAD 0%, #1478D4 60%, #2E94E8 100%);
   --schil-inkt: #FFFFFF;
@@ -67,6 +76,11 @@
   --d-neutraal: #858D96; --d-neutraal-zacht: #20262E;
   --d-focus: #6EA8E6;
   --d-plaat: #F7F9FC;
+  --d-blauw-diep: #0A3A6B; --d-blauw-licht: #4E7FB0; --d-blauw-zacht: #9CC4EA; --d-blauw-tekst: #CFE1F4;
+  --d-oker: #E0A64F; --d-oker-vlak: #2F2513; --d-oker-rand: #4A3B1D;
+  --d-oker-tekst: #E7BE79; --d-oker-tekst-zacht: #D9B675; --d-oker-op-vlak: #2A1D06;
+  --d-dicht: #2A3442; --d-dicht-tekst: #7C8794;
+  --d-rand-knop: #4E6076;
   --d-schil: linear-gradient(135deg, #154C86 0%, #1E6BB8 60%, #2E8BD6 100%);
   --d-schil-zacht: #23364C;
   --d-schil-rand: #33506E;
@@ -96,6 +110,11 @@
     --schil-rand: var(--d-schil-rand);
     --tegel: var(--d-tegel);
     --baan-grond: var(--d-baan-grond);
+    --blauw-diep: var(--d-blauw-diep); --blauw-licht: var(--d-blauw-licht); --blauw-zacht: var(--d-blauw-zacht); --blauw-tekst: var(--d-blauw-tekst);
+    --oker: var(--d-oker); --oker-vlak: var(--d-oker-vlak); --oker-rand: var(--d-oker-rand);
+    --oker-tekst: var(--d-oker-tekst); --oker-tekst-zacht: var(--d-oker-tekst-zacht); --oker-op-vlak: var(--d-oker-op-vlak);
+    --dicht: var(--d-dicht); --dicht-tekst: var(--d-dicht-tekst);
+    --rand-knop: var(--d-rand-knop);
     --schaduw-balk: 0 -1px 0 var(--lijn);
   }
 }
@@ -119,7 +138,12 @@
   --schil-rand: var(--d-schil-rand);
   --tegel: var(--d-tegel);
   --baan-grond: var(--d-baan-grond);
-  --schaduw-balk: 0 -1px 0 var(--lijn);
+  --blauw-diep: var(--d-blauw-diep); --blauw-licht: var(--d-blauw-licht); --blauw-zacht: var(--d-blauw-zacht); --blauw-tekst: var(--d-blauw-tekst);
+    --oker: var(--d-oker); --oker-vlak: var(--d-oker-vlak); --oker-rand: var(--d-oker-rand);
+    --oker-tekst: var(--d-oker-tekst); --oker-tekst-zacht: var(--d-oker-tekst-zacht); --oker-op-vlak: var(--d-oker-op-vlak);
+    --dicht: var(--d-dicht); --dicht-tekst: var(--d-dicht-tekst);
+    --rand-knop: var(--d-rand-knop);
+    --schaduw-balk: 0 -1px 0 var(--lijn);
 }
 :root[data-tekst="groot"] { --lees: 19px; }
 
@@ -579,3 +603,104 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .diagram .schuif label { font-size: 14px; color: var(--inkt-2); }
 .diagram .schuif input[type=range] { flex: 1; min-width: 0; accent-color: var(--bord-blauw); height: 36px; }
 .diagram .schuif output { min-width: 84px; text-align: right; color: var(--bord-blauw); }
+
+/* ==== Dagelijks: de schil ==== */
+
+/* De kopbalk is papier, niet blauw. Het blauw zit in de aftelpil en in de
+   tabbalk onderaan, waar je duim toch al is. */
+.kopbalk { background: var(--grond); color: var(--inkt); box-shadow: none; height: auto; min-height: var(--kop-h); padding: 10px 16px 8px; align-items: center; }
+.kopbalk a, .kopbalk button { color: var(--inkt); }
+.kopbalk .merk { display: flex; flex-direction: column; gap: 1px; color: var(--bord-blauw); font-size: 20px; line-height: 1.05; padding-left: 4px; }
+.kopbalk .merk .datum { font-family: var(--tekst); font-weight: 400; font-size: 12px; color: var(--inkt-2); letter-spacing: 0; }
+.kopbalk .midden { font-weight: 600; font-size: 15px; color: var(--inkt); }
+.kopbalk .ikoonknop { color: var(--inkt); }
+
+/* de aftelling: een blauwe pil met het getal groot en het waarom klein */
+.aftelpil { display: inline-flex; align-items: center; gap: 7px; flex: none; padding: 6px 12px 6px 10px; border: 0; border-radius: 999px;
+  background: var(--bord-blauw); color: #fff; text-align: left; }
+.aftelpil .cijfer { font-family: var(--kop); font-weight: 700; font-size: 20px; line-height: 1; color: #fff; }
+.aftelpil .label { font-weight: 500; font-size: 11px; line-height: 1.15; color: var(--blauw-tekst); }
+.aftelpil.dringend { background: var(--oker); }
+.aftelpil.dringend .label { color: var(--oker-op-vlak); }
+.aftelpil.voorbij { background: var(--vlak-2); color: var(--inkt-2); font-size: 13px; padding: 8px 12px; }
+
+/* de tabbalk draagt het blauw */
+.onderbalk.tab { background: var(--bord-blauw); box-shadow: none; }
+.tabbalk { height: auto; padding: 8px 4px 10px; }
+.tabbalk a { gap: 4px; color: var(--blauw-tekst); font-size: 11px; font-weight: 500; }
+.tabbalk a .vak { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 26px; border-radius: 7px; border: 2px solid var(--blauw-licht); }
+.tabbalk a svg { width: 18px; height: 18px; background: none; border: 0; padding: 0; }
+.tabbalk a.actief { color: #fff; font-weight: 700; }
+.tabbalk a.actief .vak { background: #fff; border-color: #fff; color: var(--bord-blauw); }
+.tabbalk a.actief svg { background: none; border: 0; padding: 0; }
+
+/* kaarten op papier: wit met een haarlijn, geen schaduw */
+.kaart { border-radius: 12px; border: 1px solid var(--lijn); box-shadow: none; }
+.kaart.klik:hover { border-color: var(--lijn-2); }
+.kaart.klik:active { transform: scale(.98); }
+.knop:active { transform: scale(.98); }
+
+/* ==== Dagelijks: Route ==== */
+
+/* de dagketen: oker voor een dag die telt, want oker beoordeelt niets */
+.weekketen { display: flex; align-items: center; gap: 10px; margin: 4px 0 0; }
+.weekketen .dagen { display: flex; flex: 1; gap: 5px; }
+.weekketen .dag { flex: 1; display: flex; align-items: center; justify-content: center; height: 32px; border-radius: 6px;
+  font-family: var(--tekst); font-weight: 700; font-size: 11px; }
+.weekketen .dag.gedaan { background: var(--oker); color: var(--oker-op-vlak); }
+.weekketen .dag.gemist { background: var(--dicht); color: var(--dicht-tekst); }
+.weekketen .dag.nu { border: 2px dashed var(--oker); color: var(--oker-tekst); }
+.weekketen .opril { font-family: var(--kop); font-weight: 700; font-size: 13px; color: var(--oker-tekst); white-space: nowrap; }
+
+/* de sessiekaart: het enige blauwe vlak op dit scherm, en de enige knop die telt */
+.sessie { display: flex; flex-direction: column; gap: 14px; margin: 16px 0 0; padding: 20px; border-radius: 16px; background: var(--bord-blauw); }
+.sessie .rij { display: flex; align-items: center; justify-content: space-between; }
+.sessie .wenkbrauw { font-family: var(--kop); font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--blauw-zacht); }
+.sessie .duur { font-weight: 600; font-size: 12px; color: var(--blauw-tekst); }
+.sessie .titel { margin: 0; font-family: var(--tekst); font-weight: 700; font-size: 25px; line-height: 1.15; color: #fff; text-wrap: pretty; }
+.sessie .sub { margin: 0; font-size: 15px; color: var(--blauw-tekst); }
+.sessie .startknop { display: block; padding: 14px; border-radius: 10px; background: #fff; color: var(--bord-blauw);
+  font-weight: 700; font-size: 17px; text-align: center; }
+.sessie .startknop:hover { text-decoration: none; }
+.sessie .startknop:active { transform: scale(.98); }
+.sessie .uitweg { margin: -4px 0 0; text-align: center; font-size: 13px; color: var(--blauw-zacht); }
+.sessie .uitweg a { color: #fff; font-weight: 700; border-bottom: 1px solid var(--blauw-licht); }
+.sessie .uitweg a:hover { text-decoration: none; }
+
+/* twee tellers naast elkaar: wat er klaarstaat en wat er nog openstaat */
+.tellers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0 0; }
+.teller { display: block; padding: 14px; color: inherit; }
+.teller .cijfer { display: block; font-family: var(--kop); font-weight: 700; font-size: 27px; line-height: 1; color: var(--inkt); }
+.teller .naam { display: block; margin-top: 4px; font-weight: 600; font-size: 13px; color: var(--inkt); }
+.teller .hint { display: block; font-size: 12px; color: var(--inkt-2); }
+.teller:hover { text-decoration: none; }
+
+/* de zestien blokken als raster */
+.blokstrip { margin: 16px 0 24px; display: flex; flex-direction: column; gap: 10px; }
+.blokstrip .rij { display: flex; align-items: center; justify-content: space-between; }
+.blokstrip .wenkbrauw { font-family: var(--kop); font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--inkt-2); }
+.blokstrip .raster { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; }
+.bloktegel { display: flex; align-items: center; justify-content: center; aspect-ratio: 1; border-radius: 6px;
+  font-family: var(--kop); font-weight: 700; font-size: 12px; }
+.bloktegel:hover { text-decoration: none; }
+.bloktegel.beheerst { background: var(--bord-blauw); color: #fff; }
+.bloktegel.oefenen { background: var(--vlak); border: 2px solid var(--oker); color: var(--oker-tekst); }
+.bloktegel.lezen { background: var(--vlak); border: 1px solid var(--lijn-2); color: var(--inkt); }
+.bloktegel.dicht { background: var(--dicht); color: var(--dicht-tekst); }
+.vandaagregel { margin-top: 0; }
+
+/* examenklaar in de vorm van het ontwerp: drie bolletjes, gevuld of open */
+.examenklaar .lampen { gap: 7px; }
+.examenklaar .lamp .bol { width: 16px; height: 16px; border: 2px solid var(--rand-knop); background: none; }
+.examenklaar .lamp.aan .bol { background: var(--bord-blauw); border-color: var(--bord-blauw); }
+.examenklaar .lamp.aan span:last-child { color: var(--inkt); }
+.kopbalk .merk { white-space: nowrap; }
+.kopbalk .merk .datum { white-space: nowrap; }
+.kopbalk .ikoonknop.tandwiel { width: 36px; height: 36px; }
+
+/* de voortgangsbaan hoorde bij de blauwe kopbalk die er niet meer is: op
+   papier is hij een dunne streep die blauw wordt waar je geweest bent */
+.baan { background: none; height: 4px; padding: 0 16px 6px; gap: 3px; }
+.baan .streep { background: var(--lijn); border-radius: 999px; }
+.baan .streep::after { background: var(--bord-blauw); }
+.baan .streep.nu { outline: 0; background: var(--blauw-licht); }

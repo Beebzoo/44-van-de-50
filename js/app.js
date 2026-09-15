@@ -14,7 +14,7 @@ import { sceneSvg, scenePlate } from "./scene.js";
 import * as SRS from "./srs.js";
 import * as sync from "./sync.js";
 import * as B from "./begrippen.js";
-import { t, taal, zetTaal, isEngels, DAGEN as TDAGEN, MAANDEN as TMAANDEN } from "./taal.js";
+import { t, taal, zetTaal, isEngels, DAGEN as TDAGEN, MAANDEN as TMAANDEN, LANGEDAG, LANGEMAAND } from "./taal.js";
 import { remwegSvg } from "./diagram.js";
 
 const app = document.getElementById("app");
@@ -24,6 +24,9 @@ const S = {
   run: null, sheet: null, viewer: null, schrijf: null, toast: null, gemeld: new Set(), familie: null, lezenStart: null, zojuistGehaald: null,
 };
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const langeDatum = d => isEngels()
+  ? LANGEDAG.en[d.getDay()] + " " + d.getDate() + " " + LANGEMAAND.en[d.getMonth()]
+  : LANGEDAG.nl[d.getDay()] + " " + d.getDate() + " " + LANGEMAAND.nl[d.getMonth()];
 const datum = d => isEngels()
   ? TDAGEN.en[d.getDay()] + " " + d.getDate() + " " + TMAANDEN.en[d.getMonth()]
   : TDAGEN.nl[d.getDay()] + " " + d.getDate() + " " + TMAANDEN.nl[d.getMonth()];
@@ -172,7 +175,9 @@ function leavePage() {
 function countdownChip() {
   const d = dagenTot(S.settings.examenDatum);
   const cls = d < 0 ? "voorbij" : d <= 14 ? "dringend" : "";
-  return `<button class="chip ${cls}" data-actie="open-route" aria-label="${esc(t("{d} dagen tot je examen", { d }))}">${esc(d < 0 ? t("examen geweest") : t("{d} d", { d }))}</button>`;
+  if (d < 0) return `<button class="aftelpil ${cls}" data-actie="open-route">${esc(t("examen geweest"))}</button>`;
+  return `<button class="aftelpil ${cls}" data-actie="open-route" aria-label="${esc(t("{d} dagen tot je examen", { d }))}">
+    <span class="cijfer">${d}</span><span class="label">${esc(t("dagen"))}<br>${esc(t("tot je examen"))}</span></button>`;
 }
 function taalknop() {
   const nu = taal();
@@ -180,12 +185,16 @@ function taalknop() {
 }
 function header(v) {
   const nav = ["route", "leren", "borden", "fouten", "instellingen"].map(n => `<a href="#/${n}" class="${S.route.name === n || (n === "leren" && ["blok", "lezen"].includes(S.route.name)) ? "actief" : ""}">${esc(t({ route: "Route", leren: "Leren", borden: "Borden", fouten: "Fouten", instellingen: "Instellingen" }[n]))}</a>`).join("");
-  const links = v.terug ? `<a class="ikoonknop" href="${esc(v.terug)}" aria-label="${esc(t(v.sluit ? "Sluiten" : "Terug"))}">${v.sluit ? I.sluit : I.terug}</a>` : `<a class="merk" href="#/route">44 van de 50</a>`;
+  const links = v.terug
+    ? `<a class="ikoonknop" href="${esc(v.terug)}" aria-label="${esc(t(v.sluit ? "Sluiten" : "Terug"))}">${v.sluit ? I.sluit : I.terug}</a>`
+    : `<a class="merk" href="#/route">44 van de 50<span class="datum">${esc(langeDatum(new Date()))}</span></a>`;
   /* Het tandwiel is de enige weg naar Instellingen, en daar staat de
      koppelcode. Tijdens een quiz of een examen blijft hij weg: daar zou hij je
      ronde afbreken, en in een examen loopt ook nog de klok. */
   const instel = S.run || S.route.name === "instellingen" ? "" : `<a class="ikoonknop tandwiel" href="#/instellingen" aria-label="${esc(t("Instellingen"))}">${I.instellingen}</a>`;
-  return `<header class="kopbalk">${links}<nav class="nav">${nav}</nav><div class="midden">${v.midden || ""}</div>${instel}${v.taal === false ? "" : taalknop()}${v.chip === false ? "" : countdownChip()}</header>`;
+  /* De taalknop stond in de kopbalk en duwde daar het woordmerk kapot. Hij
+     staat ook bovenaan Instellingen, en dat is de plek waar je hem zoekt. */
+  return `<header class="kopbalk">${links}<nav class="nav">${nav}</nav><div class="midden">${v.midden || ""}</div>${instel}${v.chip === false ? "" : countdownChip()}</header>`;
 }
 function lane() {
   const cur = currentUnit();
@@ -194,7 +203,7 @@ function lane() {
 function tabbar() {
   const tabs = [["route", t("Route"), I.route], ["leren", t("Leren"), I.leren], ["borden", t("Borden"), I.borden], ["fouten", t("Fouten"), I.fouten]];
   const act = n => S.route.name === n || (n === "leren" && ["blok", "lezen", "gehaald"].includes(S.route.name)) || (n === "borden" && S.route.name === "bord");
-  return `<nav class="onderbalk tab"><div class="tabbalk">${tabs.map(([n, l, ic]) => `<a href="#/${n}" class="${act(n) ? "actief" : ""}">${ic}<span>${l}</span></a>`).join("")}</div></nav>`;
+  return `<nav class="onderbalk tab"><div class="tabbalk">${tabs.map(([n, l, ic]) => `<a href="#/${n}" class="${act(n) ? "actief" : ""}"><span class="vak">${ic}</span><span>${l}</span></a>`).join("")}</div></nav>`;
 }
 const hoofdletter = s => String(s || "").charAt(0).toUpperCase() + String(s || "").slice(1);
 function actionbar(html) { return `<div class="onderbalk"><div class="actiebalk">${html}</div></div>`; }
@@ -505,6 +514,90 @@ function notitieKnop(ref, titel) {
   return `<button class="knop omlijnd notitieknop" data-actie="notitie-open" data-ref="${esc(ref)}" data-titel="${esc(titel || "")}">${I.notitie}${esc(n ? t("Notitie bewerken") : t("Notitie maken"))}</button>`;
 }
 
+/* ==== Dagelijks: de bouwstenen van Route ==== */
+
+/* De dagketen van de laatste zeven dagen. Een dag telt als hij minstens een
+   afgeronde sessie bevat, en de grens ligt op middernacht hier, niet in UTC.
+   Afgeleid uit het logboek en nergens bewaard, net als alle voortgang. */
+function weekKeten() {
+  const soorten = new Set(["quiz", "herstel", "herhaling", "gemengd", "examen", "lezen"]);
+  const dagen = new Set(S.attempts.filter(a => soorten.has(a.kind)).map(a => new Date(a.ts).toDateString()));
+  const uit = [];
+  for (let i = 6; i >= 0; i -= 1) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    uit.push({ d, gedaan: dagen.has(d.toDateString()), vandaag: i === 0 });
+  }
+  return uit;
+}
+
+/* Hoe lang een sessie ongeveer duurt: het eigen tempo als dat bekend is, en
+   anders het tempo van het examen. Liever een eerlijke schatting dan geen. */
+function geschatteMinuten(aantal) {
+  const eigen = V.tempo(S.attempts.flatMap(a => a.answers || []));
+  const sec = eigen && eigen.seconden ? eigen.seconden : V.EXAMENTEMPO;
+  return Math.max(1, Math.round(aantal * sec / 60));
+}
+
+function weekketenHtml() {
+  const keten = weekKeten();
+  const streak = V.streak(S.attempts);
+  const tegels = keten.map(k => {
+    const kort = (isEngels() ? TDAGEN.en : TDAGEN.nl)[k.d.getDay()];
+    const cls = k.gedaan ? "gedaan" : k.vandaag ? "nu" : "gemist";
+    return `<span class="dag ${cls}">${esc(kort)}</span>`;
+  }).join("");
+  return `<div class="weekketen" aria-label="${esc(t("De laatste zeven dagen"))}">
+    <div class="dagen">${tegels}</div>
+    ${streak > 1 ? `<span class="opril">${esc(t("{n} op rij", { n: streak }))}</span>` : ""}</div>`;
+}
+
+/* De hoofdkaart: een blok, een knop, en een uitweg voor wie weinig tijd heeft. */
+function sessieKaart() {
+  const u = currentUnit();
+  const act = volgendeActie(u);
+  const pool = (S.pools[u.id] || []).length;
+  const quiz = act.href.startsWith("#/quiz/");
+  const aantal = quiz ? Math.min(u.quiz.lengte, pool) : u.paginas.length;
+  const pogingen = S.states[u.id] ? S.states[u.id].pogingen : 0;
+  const ronde = [t("eerste ronde"), t("tweede ronde"), t("derde ronde")][Math.min(pogingen, 2)];
+  const sub = quiz
+    ? t("{n} vragen · blok {b} van 16 · {ronde}", { n: aantal, b: u.volgorde, ronde })
+    : t("{n} pagina's · blok {b} van 16", { n: aantal, b: u.volgorde });
+  return `<section class="sessie">
+    <div class="rij"><span class="wenkbrauw">${esc(t("VANDAAG"))}</span><span class="duur">${esc(quiz ? t("± {n} min", { n: geschatteMinuten(aantal) }) : t("lezen"))}</span></div>
+    <h2 class="titel">${esc(u.titel)}</h2>
+    <p class="sub">${esc(sub)}</p>
+    <a class="startknop" href="${act.href}">${esc(quiz ? t("Begin") : act.knop)} <span aria-hidden="true">→</span></a>
+    ${quiz && aantal > 5 ? `<p class="uitweg">${esc(t("Weinig tijd?"))} <a href="${act.href}?kort=5">${esc(t("Doe 5 vragen"))}</a></p>` : ""}
+  </section>`;
+}
+
+function tellerKaarten() {
+  const set = S.boxes.size ? SRS.dailySet(S.boxes, S.qById) : { vragen: [], aantalDue: 0 };
+  const fouten = V.foutenlog(S.attempts, S.history, S.qById);
+  const kaart = (n, titel, hint, href) => `<a class="teller kaart klik" href="${href}"><span class="cijfer">${n}</span><span class="naam">${esc(titel)}</span><span class="hint">${esc(hint)}</span></a>`;
+  return `<div class="tellers">
+    ${kaart(set.vragen.length, t("Herhaling"), t("vandaag aan de beurt"), "#/quiz/herhaling/herhaling")}
+    ${kaart(fouten.length, t("Fouten"), t("nog niet rechtgezet"), "#/fouten")}
+  </div>`;
+}
+
+/* De zestien blokken als raster: een blik op waar je staat, en elke tegel is
+   een deur naar dat blok. */
+function blokkenStrip() {
+  const beheerst = S.units.filter(u => S.states[u.id] && S.states[u.id].staat === "beheerst").length;
+  const tegels = S.units.map(u => {
+    const st = S.states[u.id] ? S.states[u.id].staat : "vergrendeld";
+    const cls = st === "beheerst" ? "beheerst" : st === "voorlopig" || st === "oefenen" ? "oefenen" : st === "vergrendeld" ? "dicht" : "lezen";
+    return `<a class="bloktegel ${cls}" href="#/blok/${u.id}" aria-label="${esc(t("Blok {n} · {titel}", { n: u.volgorde, titel: u.titel }))}">${String(u.volgorde).padStart(2, "0")}</a>`;
+  }).join("");
+  return `<section class="blokstrip">
+    <div class="rij"><span class="wenkbrauw donker">${esc(t("16 BLOKKEN"))}</span><span class="meta">${esc(t("{n} beheerst", { n: beheerst }))}</span></div>
+    <div class="raster">${tegels}</div>
+  </section>`;
+}
+
 const SCREENS = {
   route() {
     const u = currentUnit();
@@ -518,15 +611,14 @@ const SCREENS = {
       : `<p class="meta">${esc(t("Verder waar je was"))}</p>
       <div class="kaart"><div class="rij"><div class="groei"><span class="bloknr">${u.volgorde}</span><strong>${esc(u.titel)}</strong><br><span class="meta">${esc(act.tekst)}</span></div></div>
         <a class="knop primair groot" style="margin-top:12px" href="${act.href}">${esc(act.knop)}<span class="pijl">${I.pijl}</span></a></div>`;
-    const body = `${countdownBlock()}
-      ${kop}
-      <p class="meta-3">${esc(t("Vandaag {vragen} vragen, {minuten} min", { vragen: vd.vragen, minuten: vd.minuten }))}${streak > 1 ? esc(t(" · {n} dagen op rij", { n: streak })) : ""}</p>
-      ${herhalingKaart()}
+    const body = `${weekketenHtml()}
+      ${laatsteWeek() ? laatsteWeekKaart() : sessieKaart()}
+      ${tellerKaarten()}
       ${examenklaarKaart()}
-      ${timeline()}
-      <a class="kaart klik" href="#/fouten"><div class="rij"><span class="groei">${esc(t("Fouten om te herhalen"))}</span><span class="cijfer cijfer-klein">${fouten.length}</span>${I.pijl}</div></a>
+      ${blokkenStrip()}
+      <p class="meta-3 vandaagregel">${esc(t("Vandaag {vragen} vragen, {minuten} min", { vragen: vd.vragen, minuten: vd.minuten }))}</p>
       <a class="kaart klik" href="#/notities"><div class="rij"><span class="groei">${esc(t("Notities"))}</span><span class="cijfer cijfer-klein">${Object.keys(notities()).length}</span>${I.pijl}</div></a>`;
-    return { titel: t("Route"), body, onder: "tab" };
+    return { titel: t("Route"), body, onder: "tab", baan: false };
   },
   leren() {
     /* De gemengde quiz staat bovenaan Leren en niet bij een blok, want hij
