@@ -856,3 +856,8 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
      tegels van tachtig pixels van maken */
   .blokstrip .raster { grid-template-columns: repeat(8, minmax(0, 56px)); }
 }
+
+/* twee borden naast elkaar in een begripkaart: begin en einde horen samen */
+.begripborden { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.begripborden figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.begripborden figcaption { font-family: var(--kop); font-weight: 700; font-size: 12px; color: var(--bord-blauw); }

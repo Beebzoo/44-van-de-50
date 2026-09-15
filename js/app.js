@@ -15,7 +15,7 @@ import * as SRS from "./srs.js";
 import * as sync from "./sync.js";
 import * as B from "./begrippen.js";
 import { t, taal, zetTaal, isEngels, DAGEN as TDAGEN, MAANDEN as TMAANDEN, LANGEDAG, LANGEMAAND } from "./taal.js";
-import { remwegSvg } from "./diagram.js";
+import { remwegSvg, diagramHtml, kentDiagram } from "./diagram.js";
 
 const app = document.getElementById("app");
 const S = {
@@ -224,7 +224,15 @@ function overlays() {
     h += `<div class="viewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(code)}">${bordHtml(code, 176)}<div class="naam"><span class="bordcode">${esc(code)}</span><br>${b ? esc(b.betekenis) : ""}</div><a class="knop tekstknop" href="#/borden/${encodeURIComponent(code)}">${esc(t("Bekijk in Borden"))}</a></div>`;
   } else if (S.viewer && S.viewer.begrip) {
     const b = S.viewer.begrip;
-    const beeld = b.bord && hasSymbol(b.bord) ? bordHtml(b.bord, 140) : b.scene && S.scenes[b.scene] ? sceneSvg(S.scenes[b.scene]) : "";
+    /* een bord, of twee die elkaar afmaken (begin en einde), of een tekening,
+       of een van de vier diagrammen: wat dit begrip het beste laat zien */
+    const codes = (b.borden || (b.bord ? [b.bord] : [])).filter(hasSymbol);
+    const beeld = codes.length > 1
+      ? `<div class="begripborden">${codes.slice(0, 3).map(c => `<figure>${bordHtml(c, 64)}<figcaption>${esc(c)}</figcaption></figure>`).join("")}</div>`
+      : codes.length ? bordHtml(codes[0], 140)
+        : b.scene && S.scenes[b.scene] ? sceneSvg(S.scenes[b.scene])
+          : b.diagram && kentDiagram(b.diagram) ? diagramHtml(b.diagram, "")
+            : "";
     const bron = b.bron.boek ? t("Boek p. {p}", { p: b.bron.boek }) + (b.bron.sectie ? " (\u00a7" + b.bron.sectie + ")" : "") : t("SpeedTheorie slide {n}", { n: b.bron.slide });
     h += `<div class="viewer begripviewer" data-actie="sluit-viewer" role="dialog" aria-label="${esc(b.term)}"><div class="begripkaart">${beeld}<h2 class="kop2">${esc(hoofdletter(b.term))}</h2><p class="lees">${esc(isEngels() && b.uitleg_en ? b.uitleg_en : b.uitleg)}</p><p class="meta-3">${esc(bron)}</p></div></div>`;
   } else if (S.viewer && S.viewer.scene && S.scenes[S.viewer.scene]) {

@@ -23,6 +23,9 @@ const LIGHT = flags.includes("licht");
 const WIDE = flags.includes("breed");
 /* enkel: screenshot the base url as one page once a .scene or main.inhoud exists */
 const SINGLE = flags.includes("enkel");
+/* klik=<selector>: tik bij een enkele opname eerst iets aan, bijvoorbeeld een
+   begrip in een leestekst, zodat je de kaart erachter kunt zien */
+const KLIK = (flags.find(f => f.startsWith("klik=")) || "").slice(5);
 /* vrij: seed one perfect run per unit first, so the quiz and exam screens
    are the real thing instead of "nog geen quiz". Nothing is written to the
    repo; it lives in the throwaway profile this script starts Chrome with. */
@@ -204,6 +207,11 @@ async function cdp() {
     let ok = false;
     for (let i = 0; i < 60 && !ok; i++) { await sleep(250); ok = await evalJs("!!document.querySelector('main.inhoud, .scene, .klaar')"); }
     await sleep(800);
+    if (KLIK) {
+      const geraakt = await evalJs("(() => { const el = document.querySelector(" + JSON.stringify(KLIK) + "); if (!el) return false; el.click(); return true; })()");
+      console.log(geraakt ? "aangetikt: " + KLIK : "niets gevonden voor " + KLIK);
+      await sleep(500);
+    }
     const full = await evalJs("Math.min(document.documentElement.scrollHeight, 6000)");
     await c.send("Emulation.setDeviceMetricsOverride", WIDE ? { width: 1280, height: full, deviceScaleFactor: 1, mobile: false } : { width: 390, height: full, deviceScaleFactor: 2, mobile: true });
     await sleep(300);

@@ -53,7 +53,8 @@
         "sectie": "5.7",
         "anker": "Eén kruis wil zeggen dat de overweg maar één spoor heeft"
       },
-      "uitleg_en": "The white cross at a level crossing. One cross means one track, two crosses mean two or more."
+      "uitleg_en": "The white cross at a level crossing. One cross means one track, two crosses mean two or more.",
+      "diagram": "andreaskruis"
     },
     {
       "term": "autosnelweg",
@@ -130,7 +131,8 @@
         "sectie": "2.2",
         "anker": "Alle weggebruikers behalve voetgangers. Bestuurders van motorvoertuigen"
       },
-      "uitleg_en": "All road users except pedestrians. Whoever gives a driving lesson or conducts a test also counts as the driver of that motor vehicle."
+      "uitleg_en": "All road users except pedestrians. Whoever gives a driving lesson or conducts a test also counts as the driver of that motor vehicle.",
+      "scene": "S-U01-L01"
     },
     {
       "term": "bewegwijzering",
@@ -217,7 +219,11 @@
         "sectie": "2.4",
         "anker": "Een busbaan is een los liggende rijbaan"
       },
-      "uitleg_en": "Bus lane lying separately from the carriageway, unlike a bus strip."
+      "uitleg_en": "Bus lane lying separately from the carriageway, unlike a bus strip.",
+      "borden": [
+        "F13",
+        "F14"
+      ]
     },
     {
       "term": "busstrook",
@@ -230,7 +236,10 @@
         "sectie": "2.4",
         "anker": "Een busbaan is een los liggende rijbaan"
       },
-      "uitleg_en": "Bus strip: a marked part of the carriageway. BUS means all buses may use it, LIJNBUS only the scheduled service."
+      "uitleg_en": "Bus strip: a marked part of the carriageway. BUS means all buses may use it, LIJNBUS only the scheduled service.",
+      "borden": [
+        "F13"
+      ]
     },
     {
       "term": "dagrijlicht",
@@ -267,7 +276,8 @@
         "sectie": "9.6",
         "anker": "kun je een auto links van je gewoon 'missen'"
       },
-      "uitleg_en": "The area beside and behind your car that no mirror shows. A glance over your shoulder is the only fix."
+      "uitleg_en": "The area beside and behind your car that no mirror shows. A glance over your shoulder is the only fix.",
+      "diagram": "dodehoek"
     },
     {
       "term": "doelgroepstrook",
@@ -293,7 +303,11 @@
         "sectie": "4.1",
         "anker": "De eenrichtingsweg mag je maar van een kant inrijden"
       },
-      "uitleg_en": "A street where traffic may only go one way."
+      "uitleg_en": "A street where traffic may only go one way.",
+      "borden": [
+        "C2",
+        "C3"
+      ]
     },
     {
       "term": "erf",
@@ -306,7 +320,11 @@
         "sectie": "4.10",
         "anker": "Dit zijn wegen met gemengd langzaam verkeer en gemotoriseerd verkeer"
       },
-      "uitleg_en": "A residential zone where you drive at walking pace and pedestrians may use the whole street."
+      "uitleg_en": "A residential zone where you drive at walking pace and pedestrians may use the whole street.",
+      "borden": [
+        "G5",
+        "G6"
+      ]
     },
     {
       "term": "fietsstrook",
@@ -346,7 +364,8 @@
         "sectie": "6.2",
         "anker": "word je daar vaak voor gewaarschuwd door bord J8"
       },
-      "uitleg_en": "A junction with no signs or markings governing priority. Then the rule is: the one on the right goes first."
+      "uitleg_en": "A junction with no signs or markings governing priority. Then the rule is: the one on the right goes first.",
+      "scene": "S-U03-001"
     },
     {
       "term": "geslotenverklaring",
@@ -359,7 +378,11 @@
         "sectie": "2.2",
         "anker": "Bestuurders die hun reisdoel alleen kunnen bereiken via een weg die met een geslotenverklaring"
       },
-      "uitleg_en": "A sign closing a road to certain groups of drivers. A plate underneath can add exceptions, such as destination traffic."
+      "uitleg_en": "A sign closing a road to certain groups of drivers. A plate underneath can add exceptions, such as destination traffic.",
+      "borden": [
+        "C1",
+        "C12"
+      ]
     },
     {
       "term": "groot licht",
@@ -383,7 +406,8 @@
         "sectie": "6.2",
         "anker": "staat er bord B6 voor het kruispunt"
       },
-      "uitleg_en": "A row of white triangles on the road pointing at you. They say: you must give way."
+      "uitleg_en": "A row of white triangles on the road pointing at you. They say: you must give way.",
+      "scene": "S-U03-002"
     },
     {
       "term": "inhalen",
@@ -396,7 +420,11 @@
         "sectie": "9.6",
         "anker": "Bij het inhalen en voorbijgaan mag je geen gevaar of hinder veroorzaken"
       },
-      "uitleg_en": "Passing someone who is also moving. On the left is the rule."
+      "uitleg_en": "Passing someone who is also moving. On the left is the rule.",
+      "borden": [
+        "F1",
+        "F3"
+      ]
     },
     {
       "term": "invoegstrook",
@@ -473,7 +501,10 @@
         "sectie": "3.1",
         "anker": "dan geldt het bord met de laagste snelheid"
       },
-      "uitleg_en": "The electronic sign above the motorway. What it says overrules the ordinary signs at the roadside."
+      "uitleg_en": "The electronic sign above the motorway. What it says overrules the ordinary signs at the roadside.",
+      "borden": [
+        "A3"
+      ]
     },
     {
       "term": "militaire colonne",
@@ -578,7 +609,11 @@
         "sectie": "5.7",
         "anker": "Overwegen zijn gelijkvloerse kruisingen tussen een weg en een spoorweg"
       },
-      "uitleg_en": "The place where the road and the railway cross."
+      "uitleg_en": "The place where the road and the railway cross.",
+      "borden": [
+        "J10",
+        "J11"
+      ]
     },
     {
       "term": "parkeerhaven",
@@ -606,7 +641,11 @@
         "sectie": "2.5",
         "anker": "Parkeren is het laten stilstaan van een voertuig anders dan gedurende de tijd"
       },
-      "uitleg_en": "Parking: leaving a vehicle standing longer than the immediate getting in and out or loading needs. Waiting for someone is parking, engine running or not."
+      "uitleg_en": "Parking: leaving a vehicle standing longer than the immediate getting in and out or loading needs. Waiting for someone is parking, engine running or not.",
+      "borden": [
+        "E1",
+        "E4"
+      ]
     },
     {
       "term": "passeerstrook",
@@ -670,7 +709,8 @@
         "sectie": "7.3",
         "anker": "Voor het bepalen van de reactieafstand kun je de volgende vuistregel gebruiken"
       },
-      "uitleg_en": "The metres you still travel between spotting a danger and hitting the brake."
+      "uitleg_en": "The metres you still travel between spotting a danger and hitting the brake.",
+      "diagram": "remweg"
     },
     {
       "term": "remweg",
@@ -683,7 +723,8 @@
         "sectie": "7.3",
         "anker": "is de afstand die je aflegt vanaf het moment dat je begint met remmen"
       },
-      "uitleg_en": "The metres you still cover from the brakes biting until you stop."
+      "uitleg_en": "The metres you still cover from the brakes biting until you stop.",
+      "diagram": "remweg"
     },
     {
       "term": "richtingaanwijzer",
@@ -709,7 +750,8 @@
         "sectie": "2.4",
         "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
       },
-      "uitleg_en": "Carriageway. Every part of the road meant for moving vehicles, except cycle paths and cycle and moped paths."
+      "uitleg_en": "Carriageway. Every part of the road meant for moving vehicles, except cycle paths and cycle and moped paths.",
+      "scene": "S-U01-L02"
     },
     {
       "term": "rijstrook",
@@ -722,7 +764,8 @@
         "sectie": "2.4",
         "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
       },
-      "uitleg_en": "Traffic lane. A part of the carriageway marked out by lines and wide enough for a motor vehicle on more than two wheels. Lines alone are not enough."
+      "uitleg_en": "Traffic lane. A part of the carriageway marked out by lines and wide enough for a motor vehicle on more than two wheels. Lines alone are not enough.",
+      "scene": "S-U01-L02"
     },
     {
       "term": "ritsen",
@@ -832,7 +875,8 @@
         "sectie": "7.3",
         "anker": "De totale afstand die je nodig hebt om tot stilstand te komen noemen we stopafstand"
       },
-      "uitleg_en": "Reaction distance plus braking distance: everything you need to actually come to a stop."
+      "uitleg_en": "Reaction distance plus braking distance: everything you need to actually come to a stop.",
+      "diagram": "remweg"
     },
     {
       "term": "suggestiestrook",
@@ -899,7 +943,8 @@
         "sectie": "5.2",
         "anker": "zoals de verlaagde stoepranden of de inritblokken"
       },
-      "uitleg_en": "The entrance to a yard, garage or car park. Coming out of one, you let everybody go first."
+      "uitleg_en": "The entrance to a yard, garage or car park. Coming out of one, you let everybody go first.",
+      "scene": "S-U05-002"
     },
     {
       "term": "ventweg",
@@ -977,7 +1022,8 @@
         "sectie": "2.2",
         "anker": "Personen die te voet aan het verkeer deelnemen"
       },
-      "uitleg_en": "Anyone taking part in traffic on foot, including with a pram or wheeling a bicycle by hand. Roller skaters and skateboarders count too."
+      "uitleg_en": "Anyone taking part in traffic on foot, including with a pram or wheeling a bicycle by hand. Roller skaters and skateboarders count too.",
+      "scene": "S-U01-L01"
     },
     {
       "term": "volgafstand",
@@ -1039,7 +1085,10 @@
         "sectie": "2.5",
         "anker": "Voorrang verlenen houdt in: de betrokken bestuurder ongehinderd zijn weg laten vervolgen"
       },
-      "uitleg_en": "Giving way: letting the other continue unhindered. If they have to brake or swerve you did not give way, even if you stopped."
+      "uitleg_en": "Giving way: letting the other continue unhindered. If they have to brake or swerve you did not give way, even if you stopped.",
+      "borden": [
+        "B6"
+      ]
     },
     {
       "term": "voorrangsvoertuig",
@@ -1065,7 +1114,11 @@
         "sectie": "6.4",
         "anker": "Als de tram een voorrangsweg nadert, heeft hij geen bijzondere rechten"
       },
-      "uitleg_en": "A road where you have priority over everything joining from the side. You know it by the yellow diamond sign."
+      "uitleg_en": "A road where you have priority over everything joining from the side. You know it by the yellow diamond sign.",
+      "borden": [
+        "B1",
+        "B2"
+      ]
     },
     {
       "term": "voorsorteren",
@@ -1102,7 +1155,8 @@
         "sectie": "2.4",
         "anker": "Alle voor het openbaar verkeer openstaande wegen of paden, inclusief bruggen, duikers, bermen of zijkanten"
       },
-      "uitleg_en": "Road. Everything open to public traffic, including bridges, culverts, verges and edges. The carriageway is only part of it."
+      "uitleg_en": "Road. Everything open to public traffic, including bridges, culverts, verges and edges. The carriageway is only part of it.",
+      "scene": "S-U01-L02"
     },
     {
       "term": "weggebruiker",
@@ -1115,7 +1169,8 @@
         "sectie": "2.2",
         "anker": "Iedereen die van de weg gebruik maakt"
       },
-      "uitleg_en": "Anyone using the road, from a pedestrian to a tram driver. There are two main groups: pedestrians and drivers."
+      "uitleg_en": "Anyone using the road, from a pedestrian to a tram driver. There are two main groups: pedestrians and drivers.",
+      "scene": "S-U01-L01"
     },
     {
       "term": "zwaailicht",
