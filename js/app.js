@@ -671,6 +671,42 @@ const OORZAKEN = [
   { id: "gegokt", naam: "Gegokt", hint: "geraden en misgegokt" },
 ];
 
+/* De borden die jij verwisselt: een paar uit de nearMiss-lijst waarvan er
+   minstens een in je foutenlijst staat. Staat er niets in je foutenlijst, dan
+   toont hij het paar dat het vaakst door iedereen verwisseld wordt, en dat is
+   gewoon het eerste paar van het manifest. */
+function verwarparen() {
+  const fout = new Set(V.foutenlog(S.attempts, S.history, S.qById)
+    .map(r => S.qById[r.id])
+    .filter(Boolean)
+    .flatMap(q => [q.media && q.media.bord, ...(q.tags || []).filter(x => x.startsWith("bord-")).map(x => x.slice(5).toUpperCase())])
+    .filter(Boolean));
+  const paren = [];
+  for (const b of allSigns()) {
+    if (!hasSymbol(b.code)) continue;
+    for (const c of b.nearMiss || []) {
+      if (!hasSymbol(c) || b.code > c) continue;
+      const raak = fout.has(b.code) || fout.has(c);
+      paren.push({ a: b, b: sign(c), raak });
+    }
+  }
+  const mijn = paren.filter(p => p.raak && p.b);
+  return (mijn.length ? mijn : paren.filter(p => p.b)).slice(0, 2);
+}
+function verwarkaart() {
+  const paren = verwarparen();
+  if (!paren.length) return "";
+  return `<div class="verwarkaart">
+    <p class="wenkbrauw">${esc(t("DEZE HAAL JE DOOR ELKAAR"))}</p>
+    ${paren.map(p => `<div class="paar">
+      <button type="button" data-actie="bekijk-bord" data-code="${esc(p.a.code)}">${bordHtml(p.a.code, 40)}</button>
+      <span class="vs">vs</span>
+      <button type="button" data-actie="bekijk-bord" data-code="${esc(p.b.code)}">${bordHtml(p.b.code, 40)}</button>
+      <span class="verschil">${esc(p.a.code)}: ${esc(p.a.betekenis)}<br>${esc(p.b.code)}: ${esc(p.b.betekenis)}</span>
+    </div>`).join("")}
+  </div>`;
+}
+
 const SCREENS = {
   route() {
     const u = currentUnit();
@@ -893,12 +929,31 @@ const SCREENS = {
   },
   borden() {
     const fams = families();
-    const fam = S.route.familie || S.familie || fams[0].letter;
-    S.familie = fam;
-    const list = allSigns().filter(b => b.familie === fam && !b.zonderCode && hasSymbol(b.code));
-    const chips = `<div class="chips">${fams.map(f => `<a href="#/borden/${f.letter}" style="text-decoration:none"><button type="button" class="${f.letter === fam ? "actief" : ""}">${f.letter} ${esc(t(f.naam))}</button></a>`).join("")}</div>`;
-    const grid = `<div class="bordraster">${list.map(b => `<button type="button" class="bordtegel" data-actie="bekijk-bord" data-code="${esc(b.code)}">${bordHtml(b.code, 112)}<span class="bordcode">${esc(b.code)}</span><span class="naam">${esc(b.betekenis.length > 60 ? b.betekenis.slice(0, 57) + "..." : b.betekenis)}</span></button>`).join("")}</div>`;
-    return { titel: t("Borden"), body: `<h1 class="kop1">${esc(t("Borden"))}</h1>${chips}<h2 class="kop2" style="margin-top:8px">${fam} ${esc(t(familyName(fam)))}</h2>${grid}`, onder: "tab" };
+    const zoek = (S.bordzoek || "").trim().toLowerCase();
+    /* Zoeken gaat door alle families heen: wie "haaientanden" typt weet niet
+       in welke familie dat bord zit, en dat hoeft ook niet. */
+    const alle = allSigns().filter(b => !b.zonderCode && hasSymbol(b.code));
+    const fam = zoek ? null : (S.route.familie || S.familie || fams[0].letter);
+    if (fam) S.familie = fam;
+    const list = zoek
+      ? alle.filter(b => (b.code + " " + b.betekenis + " " + (b.omschrijving || "")).toLowerCase().includes(zoek))
+      : alle.filter(b => b.familie === fam);
+
+    const chips = `<div class="chips bordchips">${fams.map(f => `<a href="#/borden/${f.letter}" class="${f.letter === fam ? "actief" : ""}">${f.letter} ${esc(t(f.naam))}</a>`).join("")}</div>`;
+    const veld = `<input class="zoekveld" type="search" inputmode="search" autocomplete="off" value="${esc(S.bordzoek || "")}"
+      data-actie="bordzoek" placeholder="${esc(t("Zoek op code of betekenis"))}" aria-label="${esc(t("Zoek op code of betekenis"))}">`;
+
+    const rijen = list.map(b => `<button type="button" class="bordrij2" data-actie="bekijk-bord" data-code="${esc(b.code)}">
+      ${bordHtml(b.code, 40)}
+      <span class="tekst"><span class="code">${esc(b.code)}</span><span class="betekenis">${esc(b.betekenis)}</span></span></button>`).join("");
+
+    const body = `<h1 class="kop1">${esc(t("Borden"))}</h1>
+      ${veld}
+      ${zoek ? "" : chips}
+      ${zoek ? `<p class="meta">${esc(t("{n} borden gevonden", { n: list.length }))}</p>` : verwarkaart()}
+      ${zoek || !fam ? "" : `<h2 class="kop2" style="margin-top:8px">${fam} ${esc(t(familyName(fam)))}</h2>`}
+      <div class="bordlijst">${rijen}</div>`;
+    return { titel: t("Borden"), body, onder: "tab" };
   },
   bord() {
     const code = S.route.code;
@@ -1218,6 +1273,14 @@ function onInput(e) {
   if (el.dataset.actie === "redeneer" && S.run) { S.run.redenering = el.value; return; }
   /* de snelheidsschuif tekent alleen zijn eigen vlak opnieuw: een hertekening
      van het scherm zou de schuif onder je vinger vandaan halen */
+  if (el.dataset.actie === "bordzoek") {
+    S.bordzoek = el.value;
+    const plek = el.selectionStart;
+    render();
+    const nieuw = document.querySelector('[data-actie="bordzoek"]');
+    if (nieuw) { nieuw.focus(); try { nieuw.setSelectionRange(plek, plek); } catch (e) { /* type search */ } }
+    return;
+  }
   if (el.dataset.actie === "remweg") {
     const v = parseInt(el.value, 10);
     const fig = el.closest(".diagram");

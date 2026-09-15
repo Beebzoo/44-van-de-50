@@ -792,3 +792,29 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 /* een warme noot: iets om te weten, niets om je zorgen over te maken */
 .warmenoot { background: var(--oker-vlak); border: 1px solid var(--oker-rand); border-radius: 12px;
   padding: 13px 14px; font-size: 13px; color: var(--oker-tekst-zacht); margin: 12px 0; }
+
+/* ==== Dagelijks: Borden ==== */
+.zoekveld { width: 100%; padding: 12px 14px; margin: 0 0 10px; border: 1px solid var(--lijn); border-radius: 10px;
+  background: var(--vlak); font-family: var(--tekst); font-size: 15px; color: var(--inkt); }
+.zoekveld::placeholder { color: #9A9384; }
+.bordchips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.bordchips a { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--lijn-2); background: var(--vlak);
+  font-size: 13px; font-weight: 600; color: var(--inkt); }
+.bordchips a:hover { text-decoration: none; }
+.bordchips a.actief { background: var(--bord-blauw); border-color: var(--bord-blauw); color: #fff; }
+.bordlijst { display: flex; flex-direction: column; gap: 8px; }
+.bordrij2 { display: flex; align-items: center; gap: 14px; width: 100%; text-align: left; padding: 12px 14px;
+  background: var(--vlak); border: 1px solid var(--lijn); border-radius: 11px; }
+.bordrij2 .tekst { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.bordrij2 .code { font-family: var(--kop); font-weight: 700; font-size: 13px; color: var(--bord-blauw); }
+.bordrij2 .betekenis { font-size: 14px; line-height: 1.3; color: var(--inkt); }
+.bordrij2:active { transform: scale(.98); }
+
+/* de paren die je verwisselt: een warme noot, geen waarschuwing */
+.verwarkaart { background: var(--oker-vlak); border: 1px solid var(--oker-rand); border-radius: 12px; padding: 14px; margin: 0 0 12px; }
+.verwarkaart .wenkbrauw { display: block; font-family: var(--kop); font-weight: 700; font-size: 12px;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--oker-tekst); margin: 0 0 8px; }
+.verwarkaart .paar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.verwarkaart .paar:last-child { margin-bottom: 0; }
+.verwarkaart .vs { font-family: var(--kop); font-weight: 700; font-size: 15px; color: var(--oker-tekst); }
+.verwarkaart .verschil { flex: 1; min-width: 0; font-size: 13px; line-height: 1.35; color: var(--oker-tekst-zacht); }
