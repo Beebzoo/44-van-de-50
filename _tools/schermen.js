@@ -29,6 +29,41 @@ const SINGLE = flags.includes("enkel");
 const VRIJ = flags.includes("vrij");
 /* engels: zet de taalinstelling voordat de schermen langskomen */
 const ENGELS = flags.includes("engels");
+/* fouten: zaai een handvol foute antwoorden met een oorzaak, anders is het
+   foutenscherm leeg en valt er niets te zien */
+const FOUTEN = flags.includes("fouten");
+/* beheerst: maak de eerste blokken echt af, met twee foutloze rondes op
+   twaalf uur afstand en elke vraag uit de pool een keer goed. Pas dan vullen
+   de bakken van de herhaling zich en kleuren de blokjes op Route blauw. */
+const BEHEERST = flags.includes("beheerst");
+const BEHEERSTZAAI = "(async () => { const store = await import('./js/store.js');" +
+  " const idx = await (await fetch('content/index.json')).json();" +
+  " const dag = 86400000; let n = 0;" +
+  " for (const u of idx.units.slice(0, 5)) {" +
+  "   if (!u.aantalVragen) continue;" +
+  "   const vragen = [];" +
+  "   for (const f of u.bank) { const b = await (await fetch(f)).json(); vragen.push(...(b.vragen || []).filter(q => !q.reserve)); }" +
+  "   if (!vragen.length) continue;" +
+  "   const alles = vragen.map(q => ({ q: q.id, unit: u.id, pagina: q.pagina, goed: true, twijfel: false, gekozen: [], ms: 18000, onderwerp: q.cbr_onderwerp }));" +
+  "   const nu = Date.now();" +
+  "   await store.addAttempt({ kind: 'quiz', ref: u.id, unit: u.id, ts: nu - 3 * dag, duration_ms: 600000, total: alles.length, score: alles.length, answers: alles, synced: true });" +
+  "   const helft = Math.max(1, Math.floor(alles.length / 2));" +
+  "   await store.addAttempt({ kind: 'quiz', ref: u.id, unit: u.id, ts: nu - 2 * dag, duration_ms: 300000, total: helft, score: helft, answers: alles.slice(0, helft), synced: true });" +
+  "   await store.addAttempt({ kind: 'quiz', ref: u.id, unit: u.id, ts: nu - dag, duration_ms: 300000, total: helft, score: helft, answers: alles.slice(-helft), synced: true });" +
+  "   n += 1;" +
+  " } return n; })()";
+const FOUTZAAI = "(async () => { const store = await import('./js/store.js');" +
+  " const idx = await (await fetch('content/index.json')).json();" +
+  " const oorzaken = ['verkeerd_gelezen', 'verkeerd_gelezen', 'verkeerd_toegepast', 'niet_geweten', 'gegokt', 'verkeerd_gelezen'];" +
+  " let n = 0;" +
+  " for (const u of idx.units.slice(1, 7)) {" +
+  "   const bank = await (await fetch(u.bank[0])).json();" +
+  "   const vragen = (bank.vragen || []).slice(0, 2);" +
+  "   const answers = vragen.map((q, i) => ({ q: q.id, unit: u.id, pagina: q.pagina, goed: false, gekozen: [], fouttype: oorzaken[(n + i) % oorzaken.length], twijfel: false, ms: 21000, onderwerp: q.cbr_onderwerp }));" +
+  "   if (!answers.length) continue;" +
+  "   n += answers.length;" +
+  "   await store.addAttempt({ kind: 'quiz', ref: u.id, unit: u.id, duration_ms: 240000, total: answers.length, score: 0, answers, synced: true });" +
+  " } return n; })()";
 const THEMAZAAI = t => "(async () => { const store = await import('./js/store.js');" +
   " await store.setSetting('thema', '" + t + "');" +
   " try { localStorage.setItem('thema', '" + t + "'); } catch (e) {}" +
@@ -114,7 +149,57 @@ async function cdp() {
   if (DARK || LIGHT) await c.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: DARK ? "dark" : "light" }] });
   const evalJs = async expr => { const r = await c.send("Runtime.evaluate", { expression: expr, awaitPromise: true, returnByValue: true }); return r.result && r.result.result ? r.result.result.value : undefined; };
 
+  /* eerst zaaien, dan pas fotograferen: ook een enkele opname wil een
+     profiel dat ergens op lijkt */
+  if (VRIJ) {
+    await c.send("Page.navigate", { url: base });
+    let klaar = false;
+    for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    const n = await evalJs(ZAAI);
+    console.log("vrijgespeeld: " + n + " blokken gezaaid");
+  }
+  if (DARK || LIGHT) {
+    if (!VRIJ) {
+      await c.send("Page.navigate", { url: base });
+      let klaar = false;
+      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    }
+    await evalJs(THEMAZAAI(DARK ? "donker" : "licht"));
+    console.log("thema op " + (DARK ? "donker" : "licht") + " gezet");
+  }
+  if (BEHEERST) {
+    if (!VRIJ && !DARK && !LIGHT) {
+      await c.send("Page.navigate", { url: base });
+      let klaar = false;
+      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    }
+    const n = await evalJs(BEHEERSTZAAI);
+    console.log("beheerst gezaaid: " + n + " blokken");
+  }
+  if (FOUTEN) {
+    if (!VRIJ && !DARK && !LIGHT) {
+      await c.send("Page.navigate", { url: base });
+      let klaar = false;
+      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    }
+    const n = await evalJs(FOUTZAAI);
+    console.log("fouten gezaaid: " + n);
+  }
+  if (ENGELS) {
+    if (!VRIJ && !DARK && !LIGHT) {
+      await c.send("Page.navigate", { url: base });
+      let klaar = false;
+      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
+    }
+    await evalJs(TAALZAAI);
+    console.log("taal op Engels gezet");
+  }
+
   if (SINGLE) {
+    /* eerst about:blank, anders is een navigatie naar dezelfde url met een
+       andere hash geen herlading en leest de app het gezaaide profiel nooit */
+    await c.send("Page.navigate", { url: "about:blank" });
+    await sleep(150);
     await c.send("Page.navigate", { url: base });
     let ok = false;
     for (let i = 0; i < 60 && !ok; i++) { await sleep(250); ok = await evalJs("!!document.querySelector('main.inhoud, .scene, .klaar')"); }
@@ -136,31 +221,6 @@ async function cdp() {
   const U = idx.units[0].id, P = idx.units[0].paginas[0].id;
   const withQuiz = idx.units.slice().reverse().find(u => u.aantalVragen > 0) || idx.units[0];
 
-  if (VRIJ) {
-    await c.send("Page.navigate", { url: base });
-    let klaar = false;
-    for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
-    const n = await evalJs(ZAAI);
-    console.log("vrijgespeeld: " + n + " blokken gezaaid");
-  }
-  if (DARK || LIGHT) {
-    if (!VRIJ) {
-      await c.send("Page.navigate", { url: base });
-      let klaar = false;
-      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
-    }
-    await evalJs(THEMAZAAI(DARK ? "donker" : "licht"));
-    console.log("thema op " + (DARK ? "donker" : "licht") + " gezet");
-  }
-  if (ENGELS) {
-    if (!VRIJ && !DARK && !LIGHT) {
-      await c.send("Page.navigate", { url: base });
-      let klaar = false;
-      for (let i = 0; i < 40 && !klaar; i++) { await sleep(250); klaar = await evalJs("!!document.querySelector('main.inhoud')"); }
-    }
-    await evalJs(TAALZAAI);
-    console.log("taal op Engels gezet");
-  }
 
   for (const r of ROUTES) {
     const hash = r.hash.replace("{U}", r.naam.startsWith("quiz") ? withQuiz.id : U).replace("{P}", P);

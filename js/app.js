@@ -634,7 +634,7 @@ function tellerKaarten() {
   const fouten = V.foutenlog(S.attempts, S.history, S.qById);
   const kaart = (n, titel, hint, href) => `<a class="teller kaart klik" href="${href}"><span class="cijfer">${n}</span><span class="naam">${esc(titel)}</span><span class="hint">${esc(hint)}</span></a>`;
   return `<div class="tellers">
-    ${kaart(set.vragen.length, t("Herhaling"), t("vandaag aan de beurt"), "#/quiz/herhaling/herhaling")}
+    ${kaart(set.vragen.length, t("Herhaling"), t("vandaag aan de beurt"), "#/herhaling")}
     ${kaart(fouten.length, t("Fouten"), t("nog niet rechtgezet"), "#/fouten")}
   </div>`;
 }
@@ -653,6 +653,23 @@ function blokkenStrip() {
     <div class="raster">${tegels}</div>
   </section>`;
 }
+
+/* De oorzaak die je het laatst bij deze vraag koos. Een fout uit een examen
+   heeft er geen, want daar wordt niets gevraagd zolang de klok loopt. */
+function laatsteOorzaak(qid) {
+  for (let i = S.attempts.length - 1; i >= 0; i -= 1) {
+    for (const x of S.attempts[i].answers || []) {
+      if (x.q === qid && (!x.goed || x.twijfel) && x.fouttype) return x.fouttype;
+    }
+  }
+  return null;
+}
+const OORZAKEN = [
+  { id: "verkeerd_gelezen", naam: "Verkeerd gelezen", hint: "je wist het, je las het mis" },
+  { id: "verkeerd_toegepast", naam: "Verkeerd toegepast", hint: "de regel klopte, de situatie niet" },
+  { id: "niet_geweten", naam: "Niet geweten", hint: "hier moet de pagina weer open" },
+  { id: "gegokt", naam: "Gegokt", hint: "geraden en misgegokt" },
+];
 
 const SCREENS = {
   route() {
@@ -894,6 +911,45 @@ const SCREENS = {
       <p class="bronregel">${esc(t("Boek p. {p}", { p: b.bron ? b.bron.boek : "" }))}</p>`;
     return { titel: code, terug: "#/borden/" + b.familie, midden: esc(t("Bord")), body, onder: "tab" };
   },
+  /* 2e uit het ontwerp: de bakken zichtbaar maken, en laten zien dat de
+     stapel altijd te doen is. */
+  herhaling() {
+    const bx = S.boxes;
+    const set = bx.size ? SRS.dailySet(bx, S.qById) : { vragen: [], aantalDue: 0 };
+    const nu = Date.now();
+    const bakken = [1, 2, 3, 4, 5].map(b => {
+      const alle = [...bx.entries()].filter(([, v]) => v.box === b);
+      return { b, dagen: SRS.INTERVAL[b], n: alle.length, due: alle.filter(([, v]) => v.due <= nu).length };
+    });
+    const hoogste = Math.max(1, ...bakken.map(x => x.n));
+    const staven = bakken.map(x => `<div class="bak">
+      <span class="cijfer">${x.n}</span>
+      <span class="staaf ${x.due ? "due" : ""}" style="height:${Math.round(28 + 76 * x.n / hoogste)}px"></span>
+      <span class="bij">${esc(x.dagen === 1 ? t("1 dag") : t("{n} dagen", { n: x.dagen }))}</span>
+    </div>`).join("");
+
+    /* wat er vandaag uit komt, gegroepeerd op blok */
+    const perUnit = {};
+    for (const id of set.vragen) { const q = S.qById[id]; if (!q) continue; (perUnit[q.unit] = perUnit[q.unit] || []).push(id); }
+    const rijen = S.units.filter(u => perUnit[u.id]).map(u => `<div class="kaart herhaalrij"><div class="rij">
+      <span class="code">${String(u.volgorde).padStart(2, "0")}</span>
+      <span class="groei">${esc(u.titel)}</span>
+      <span class="cijfer cijfer-klein">${perUnit[u.id].length}</span></div></div>`).join("");
+
+    const blokken = S.units.filter(u => perUnit[u.id]).map(u => String(u.volgorde).padStart(2, "0"));
+    const body = `<p class="wenkbrauw donker">${esc(t("HERHALING"))}</p>
+      <h1 class="kop1">${esc(t("{n} vragen aan de beurt", { n: set.vragen.length }))}</h1>
+      <p class="meta" style="margin-bottom:16px">${blokken.length ? esc(t("Uit blok {lijst} · ± {min} min", { lijst: blokken.join(", "), min: geschatteMinuten(set.vragen.length) })) : esc(t("Er staat nog niets klaar. Een blok komt in de bakken zodra je het gehaald hebt."))}</p>
+      ${bx.size ? `<div class="kaart bakkenkaart">
+        <p class="wenkbrauw donker">${esc(t("DE BAKKEN"))}</p>
+        <div class="bakken">${staven}</div>
+        <p class="meta-3">${esc(t("Goed antwoord schuift een vraag naar de volgende bak. Fout zet hem terug naar een dag."))}</p>
+      </div>` : ""}
+      ${rijen ? `<p class="wenkbrauw donker">${esc(t("VANDAAG UIT"))}</p>${rijen}` : ""}
+      ${bx.size ? `<p class="warmenoot">${esc(t("Er staan er {n} in de bakken. Je ziet er nooit meer dan {max} op een dag.", { n: bx.size, max: 20 }))}</p>` : ""}`;
+    const onder = set.vragen.length ? `<a class="knop primair groot" href="#/quiz/herhaling/herhaling">${esc(t("Begin herhaling"))}<span class="pijl">${I.pijl}</span></a>` : "tab";
+    return { titel: t("Herhaling"), body, onder, baan: false };
+  },
   fouten() {
     const rows = V.foutenlog(S.attempts, S.history, S.qById);
     const byUnit = {};
@@ -915,9 +971,41 @@ const SCREENS = {
         ${vak(k.twijfelFout, k.totaal, t("getwijfeld en fout"), t("terecht getwijfeld"), "")}
       </div>
       <p class="meta-3" style="margin:6px 0 16px">${esc(k.zekerFout === 0 ? t("Je twijfel klopt: als je zeker was, had je het ook goed.") : t("{n} van de {van} keer dat je zeker was, was het toch fout. Dat is het vakje dat je niet ziet aankomen.", { n: k.zekerFout, van: k.zekerGoed + k.zekerFout }))}</p>`;
-    const body = `<h1 class="kop1">${esc(t("Fouten"))} <span class="cijfer cijfer-klein" style="float:right">${rows.length}</span></h1>${taxonomie}${kalibratie}
-      ${rows.length ? `<button class="knop primair groot" data-actie="oefen-fouten" style="margin-bottom:16px">${esc(t("Oefen deze {n}", { n: Math.min(rows.length, 20) }))}<span class="pijl">${I.pijl}</span></button>${groups}<p class="meta-3">${esc(t("Een vraag verdwijnt hier na twee keer achter elkaar goed."))}</p>` : `<p class="lees">${esc(t("Nog geen fouten om te herhalen. Alles wat je fout doet komt hier terecht, met de uitleg erbij."))}</p>`}`;
-    return { titel: t("Fouten"), body, onder: "tab" };
+    /* rechtgezet: vragen die ooit fout gingen en nu twee keer achter elkaar
+       goed zijn, dus uit deze lijst verdwenen */
+    let ooitFout = 0;
+    for (const [, h] of S.history) if (h.fout > 0) ooitFout += 1;
+    const rechtgezet = Math.max(0, ooitFout - rows.length);
+
+    const metOorzaak = rows.map(r => ({ ...r, oorzaak: laatsteOorzaak(r.id) }));
+    const zonder = metOorzaak.filter(r => !r.oorzaak).length;
+    const open = S.foutgroep || (OORZAKEN.map(o => ({ o, n: metOorzaak.filter(r => r.oorzaak === o.id).length })).sort((a, b) => b.n - a.n)[0] || {}).o?.id;
+
+    const oorzaakrijen = OORZAKEN.map(o => {
+      const n = metOorzaak.filter(r => r.oorzaak === o.id).length;
+      return `<button type="button" class="oorzaakrij ${o.id} ${n ? "" : "leeg"} ${open === o.id && n ? "open" : ""}" data-actie="foutgroep" data-oorzaak="${o.id}">
+        <span class="groei"><strong>${esc(t(o.naam))}</strong><br><span class="meta-3">${esc(t(o.hint))}</span></span>
+        <span class="cijfer cijfer-klein">${n}</span></button>`;
+    }).join("");
+
+    const groep = metOorzaak.filter(r => r.oorzaak === open);
+    const gekozen = OORZAKEN.find(o => o.id === open);
+    const uitgeklapt = !groep.length ? "" : `<p class="wenkbrauw donker">${esc(t(gekozen.naam).toUpperCase())} · ${groep.length}</p>` + groep.slice(0, 12).map(r => {
+      const u = S.unitById[r.unit];
+      const pg = u ? u.paginas.find(x => x.id === r.pagina) : null;
+      return `<a class="kaart klik foutkaart" href="#/blok/${r.unit}/lezen/${r.pagina}">
+        <p class="stam">${esc(r.stam.length > 120 ? r.stam.slice(0, 117) + "..." : r.stam)}</p>
+        <p class="meta-3">${esc(t("Blok {n}", { n: u ? u.volgorde : "" }))} · ${esc(t("{n} keer fout", { n: r.fout }))}${pg ? " · " + esc(pg.titel) : ""}</p></a>`;
+    }).join("");
+
+    const body = `<h1 class="kop1">${esc(t("{open} open, {recht} rechtgezet", { open: rows.length, recht: rechtgezet }))}</h1>
+      <p class="meta" style="margin-bottom:16px">${esc(t("Een fout is rechtgezet als je hem daarna twee keer goed had"))}</p>
+      ${rows.length ? `<div class="oorzaken">${oorzaakrijen}</div>
+      ${zonder ? `<p class="meta-3">${esc(t("{n} fouten hebben geen oorzaak, die komen uit een examen", { n: zonder }))}</p>` : ""}
+      ${uitgeklapt}
+      <p class="meta-3">${esc(t("Een vraag verdwijnt hier na twee keer achter elkaar goed."))}</p>${kalibratie}` : `<p class="lees">${esc(t("Nog geen fouten om te herhalen. Alles wat je fout doet komt hier terecht, met de uitleg erbij."))}</p>${kalibratie}`}`;
+    const onder = rows.length ? `<button class="knop primair groot" data-actie="oefen-fouten">${esc(t("Zet {n} fouten recht", { n: Math.min(rows.length, 20) }))}<span class="pijl">${I.pijl}</span></button>` : "";
+    return { titel: t("Fouten"), body, onder: onder || "tab" };
   },
   notities() {
     const alles = notities();
@@ -1086,6 +1174,7 @@ async function onClick(e) {
   if (a === "volgende" && run) { if (Q.next(run)) await afronden(); else { render(); autoSpeel(run); } return; }
   if (a === "herstel" && run) { herstelronde(run); render(); return; }
   if (a === "opnieuw" && run) { S.run = null; startRunIfNeeded(); render(); return; }
+  if (a === "foutgroep") { S.foutgroep = S.foutgroep === el.dataset.oorzaak ? null : el.dataset.oorzaak; render(); return; }
   if (a === "oefen-fouten") { S.run = null; go("quiz/fouten/fouten"); return; }
   if (a === "klaar-lezen") { const u = S.unitById[el.dataset.unit]; S.lezenStart = null; await log({ kind: "lezen", ref: u.id, unit: u.id, klaar: true, duration_ms: 0, content_version: S.index.versie, answers: [] }); go("gehaald/" + u.id); return; }
   if (a === "instelling") { await setSetting(el.dataset.naam, el.dataset.waarde); render(); return; }

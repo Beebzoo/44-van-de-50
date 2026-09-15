@@ -8,6 +8,7 @@
      #/quiz/U01              a quiz for the unit (or herstel, fouten, gemengd)
      #/borden                catalogue
      #/borden/B6             one sign
+     #/herhaling             the daily review set
      #/fouten                error log
      #/notities              your notes
      #/instellingen          settings */
@@ -22,6 +23,7 @@ export function parse(hash) {
   if (a === "borden" && b) return { name: "bord", code: decodeURIComponent(b) };
   if (a === "borden") return { name: "borden", familie: b || null };
   if (a === "examen") return { name: "examen" };
+  if (a === "herhaling") return { name: "herhaling" };
   if (a === "fouten") return { name: "fouten" };
   if (a === "notities") return { name: "notities" };
   if (a === "instellingen") return { name: "instellingen" };

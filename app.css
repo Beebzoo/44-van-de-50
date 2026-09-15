@@ -752,3 +752,43 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
   clip-path: polygon(0 0, 100% 0, 100% 72%, 50% 100%, 0 72%); opacity: .35; }
 .vlagrij.aan { border-color: var(--oker); }
 .vlagrij.aan .wimpel { opacity: 1; }
+
+/* ==== Dagelijks: Fouten op oorzaak ==== */
+
+/* De enige plek in Belijning waar een gekleurde linkerrand mag: hij benoemt
+   een oorzaak, niet een oordeel over dit antwoord. */
+.oorzaken { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.oorzaakrij { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left;
+  padding: 13px 14px; background: var(--vlak); border: 1px solid var(--lijn); border-left: 4px solid var(--neutraal);
+  border-radius: 11px; color: var(--inkt); }
+.oorzaakrij strong { font-weight: 700; font-size: 15px; }
+.oorzaakrij .cijfer { font-family: var(--kop); font-weight: 700; font-size: 21px; }
+.oorzaakrij.verkeerd_gelezen { border-left-color: var(--fout); }
+.oorzaakrij.verkeerd_toegepast { border-left-color: var(--oker); }
+.oorzaakrij.niet_geweten { border-left-color: var(--inkt-2); }
+.oorzaakrij.gegokt { border-left-color: var(--rand-knop); }
+.oorzaakrij.leeg { opacity: .6; }
+/* border-color zou ook de gekleurde linkerrand overschrijven, dus alleen de
+   drie andere kanten */
+.oorzaakrij.open { border-top-color: var(--lijn-2); border-right-color: var(--lijn-2); border-bottom-color: var(--lijn-2); background: var(--vlak-2); }
+.oorzaakrij .groei { flex: 1; min-width: 0; }
+.oorzaakrij:active { transform: scale(.98); }
+.foutkaart { padding: 13px 14px; }
+.foutkaart .stam { margin: 0 0 6px; font-size: 14px; line-height: 1.4; }
+.foutkaart .meta-3 { margin: 0; }
+
+/* ==== Dagelijks: Herhaling ==== */
+.bakkenkaart { padding: 16px; }
+.bakken { display: flex; align-items: flex-end; gap: 8px; margin: 12px 0; }
+.bakken .bak { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.bakken .cijfer { font-family: var(--kop); font-weight: 700; font-size: 15px; color: var(--inkt); }
+.bakken .staaf { width: 100%; border-radius: 6px 6px 0 0; background: var(--blauw-licht); }
+.bakken .staaf.due { background: var(--bord-blauw); }
+.bakken .bij { font-size: 11px; color: var(--inkt-2); }
+.herhaalrij { padding: 12px 14px; margin-bottom: 8px; }
+.herhaalrij .code { width: 46px; font-family: var(--kop); font-weight: 700; font-size: 12px; color: var(--bord-blauw); }
+.herhaalrij .groei { flex: 1; min-width: 0; font-size: 14px; }
+
+/* een warme noot: iets om te weten, niets om je zorgen over te maken */
+.warmenoot { background: var(--oker-vlak); border: 1px solid var(--oker-rand); border-radius: 12px;
+  padding: 13px 14px; font-size: 13px; color: var(--oker-tekst-zacht); margin: 12px 0; }
