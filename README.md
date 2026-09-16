@@ -6,7 +6,7 @@ Live: https://beebzoo.github.io/44-van-de-50/
 
 ## Hoe het werkt
 
-Zestien blokken in leervolgorde. Elk blok heeft leespagina's en een pool vragen. Een quiz is een steekproef van 12 uit die pool, gewogen naar wat je het minst gezien of eerder fout hebt gehad. Een blok is gehaald na twee foutloze quizzen met minstens 12 uur ertussen en hooguit 4 dezelfde vragen, en als elke vraag uit de pool minstens een keer goed is beantwoord. Twijfel telt als fout.
+Zestien blokken in leervolgorde. Elk blok heeft leespagina's en een pool vragen. Een quiz is een steekproef van 12 uit die pool, gewogen naar wat je het minst gezien of eerder fout hebt gehad. Een blok is gehaald na twee foutloze quizzen met minstens 12 uur ertussen en hooguit 4 dezelfde vragen, en als elke geschreven vraag minstens een keer goed is beantwoord. Twijfel telt als fout. De gegenereerde bordvragen tellen niet mee voor die laatste eis: blok 15 heeft er 290 en dat maakte van een stempel een marathon. Ze zitten wel gewoon in de quizzen en in de herhaling. De quiz van een blok opent zodra het vorige blok een keer foutloos is afgerond, dus gehaald is een stempel en geen hek.
 
 Vraagsoorten: ja of nee, meerkeuze, meer dan een goed antwoord, klik op het bord, zet in de juiste volgorde, en een reeks van twee of drie beelden voor de animatievragen van het examen. Situatievragen krijgen een tekening van bovenaf: jij bent altijd de witte auto, andere auto's zijn grijs, de tram is geel en fietsers zijn groen. Die tekeningen staan als JSON in `content/scenes/` en worden op het apparaat getekend; `preview.html` laat ze allemaal naast elkaar zien.
 

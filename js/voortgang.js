@@ -3,13 +3,20 @@
    a bug fix in a rule changes nothing on disk.
 
    Unit states, from BOUWPLAN section 2:
-     vergrendeld   the prerequisite is not far enough
-     lezen         reading open, quiz not yet (prerequisite voorlopig beheerst)
+     vergrendeld   the prerequisite has not had one faultless run yet
+     lezen         reading open, quiz not yet. Since 16 September no unit
+                   lands here any more: one faultless run on the previous
+                   unit opens the next quiz. The state is kept because old
+                   attempt logs and the block screen still speak of it
      oefenen       quiz open, no perfect run yet
      voorlopig     one perfect run
      beheerst      two perfect runs, the second 12 hours or more after the
                    first and sharing at most 4 questions, plus every
-                   non-reserve question answered correctly at least once */
+                   hand-written question answered correctly at least once.
+                   The generated sign items do not count towards that last
+                   condition: block 15 has 290 of them, and demanding all of
+                   them turned a badge into a marathon. They are still asked
+                   in quizzes and still come back in the review. */
 const TWAALF_UUR = 12 * 60 * 60 * 1000;
 
 export function questionHistory(attempts) {
@@ -71,7 +78,6 @@ export function unitStates(attempts, units, pools, history) {
        stays passed even if a prerequisite is somehow not marked done */
     if (m.staat === "beheerst" || m.staat === "voorlopig") staat = m.staat;
     else if (minPre < rank("voorlopig")) staat = "vergrendeld";
-    else if (minPre < rank("beheerst")) staat = "lezen";
     else staat = "oefenen";
     const quizAttempts = attempts.filter(a => a.kind === "quiz" && a.ref === u.id);
     const laatste = quizAttempts.length ? quizAttempts[quizAttempts.length - 1] : null;

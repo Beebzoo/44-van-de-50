@@ -19,7 +19,7 @@ import { remwegSvg, diagramHtml, kentDiagram } from "./diagram.js";
 
 const app = document.getElementById("app");
 const S = {
-  route: { name: "route" }, index: null, units: [], unitsNl: [], vertalingen: null, vragenEn: null, unitById: {}, bankNl: {}, bank: {}, qById: {}, pools: {}, scenes: {},
+  route: { name: "route" }, index: null, units: [], unitsNl: [], vertalingen: null, vragenEn: null, unitById: {}, bankNl: {}, bank: {}, qById: {}, pools: {}, kern: {}, scenes: {},
   attempts: [], history: new Map(), states: {}, settings: {}, boxes: new Map(),
   run: null, sheet: null, viewer: null, schrijf: null, toast: null, gemeld: new Set(), familie: null, lezenStart: null, zojuistGehaald: null,
 };
@@ -73,6 +73,15 @@ async function boot() {
   await Promise.all((S.index.scenes || []).map(async id => { S.scenes[id] = await fetch("content/scenes/" + id + ".json").then(r => r.json()); }));
   setScenes(S.scenes);
   for (const u of S.units) S.pools[u.id] = (S.bankNl[u.id] || []).filter(q => !q.reserve && Q.SUPPORTED.has(q.type)).map(q => q.id);
+  /* De kern van een blok zijn de geschreven vragen. Die telt mee voor de vraag
+     of je het blok beheerst; de gegenereerde bordvragen zitten wel in je
+     quizzen en in de herhaling, maar zijn er te veel om er een eis van te
+     maken. Heeft een blok alleen gegenereerde vragen, dan blijft de hele pool
+     staan, anders zou het nooit gehaald kunnen worden. */
+  for (const u of S.units) {
+    const kern = (S.bankNl[u.id] || []).filter(q => !q.reserve && !q.gegenereerd && Q.SUPPORTED.has(q.type)).map(q => q.id);
+    S.kern[u.id] = kern.length ? kern : S.pools[u.id];
+  }
   await refresh();
   registerSw();
   /* the sync never blocks: it runs after the first paint, on reconnect, and after every attempt */
@@ -150,7 +159,7 @@ function pasTaalToe() {
 async function refresh() {
   S.attempts = await store.allAttempts();
   S.history = V.questionHistory(S.attempts);
-  S.states = V.unitStates(S.attempts, S.units, S.pools, S.history);
+  S.states = V.unitStates(S.attempts, S.units, S.kern, S.history);
   S.boxes = SRS.boxes(S.attempts, S.qById, S.states);
   S.gemeld = new Set(S.attempts.filter(a => a.kind === "flag").map(a => a.ref));
 }
@@ -720,9 +729,9 @@ function verwarkaart() {
    Geeft een lege tekst terug als er niets te melden valt. */
 function watOntbreekt(u, st) {
   if (!st || st.staat !== "voorlopig") return "";
-  const pool = (S.pools[u.id] || []).length;
+  const kern = (S.kern[u.id] || []).length;
   const mist = (st.ontbreekt || []).length;
-  if (mist) return t("nog {n} van de {van} vragen een keer goed", { n: mist, van: pool });
+  if (mist) return t("nog {n} van de {van} vragen een keer goed", { n: mist, van: kern });
   /* alle vragen zijn een keer goed geweest, dus het wachten is op de tweede
      foutloze ronde, en die mag pas twaalf uur na de eerste */
   const perfect = S.attempts.filter(a => a.kind === "quiz" && a.ref === u.id && a.total > 0 && a.score === a.total);
@@ -789,11 +798,11 @@ const SCREENS = {
     const bordenRij = u.borden.length ? `<h2 class="kop2">${esc(t("Borden in dit blok"))}</h2><div class="bordrij">${u.borden.filter(hasSymbol).slice(0, 24).map(c => `<figure><button type="button" data-actie="bekijk-bord" data-code="${esc(c)}">${bordHtml(c, 64)}</button><figcaption>${esc(c)}</figcaption></figure>`).join("")}</div>` : "";
     let quizTekst;
     if (!u.quiz.gate) quizTekst = t("Dit blok heeft geen quiz. Lees de pagina en rond af.");
-    else if (st.staat === "vergrendeld") quizTekst = t("De quiz opent als het vorige blok gehaald is.");
-    else if (st.staat === "lezen") quizTekst = t("Je kunt alvast lezen. De quiz opent als het vorige blok gehaald is.");
+    else if (st.staat === "vergrendeld") quizTekst = t("De quiz opent zodra je het vorige blok een keer foutloos hebt afgerond.");
+    else if (st.staat === "lezen") quizTekst = t("Je kunt alvast lezen. De quiz opent zodra je het vorige blok een keer foutloos hebt afgerond.");
     else if (pool.length < u.quiz.lengte) quizTekst = t("De vragen voor dit blok worden nog geschreven ({n} van {van}).", { n: pool.length, van: u.quiz.lengte });
     /* voorlopig gehaald zonder te zeggen wat er nog moet gebeuren laat je raden */
-    else if (st.staat === "voorlopig") quizTekst = t("Voorlopig gehaald: {wat}.", { wat: watOntbreekt(u, st) }) + " " + t("Een blok is gehaald na twee foutloze quizzen op ten minste twaalf uur afstand, en als elke vraag uit de pool een keer goed is geweest.");
+    else if (st.staat === "voorlopig") quizTekst = t("Voorlopig gehaald: {wat}.", { wat: watOntbreekt(u, st) }) + " " + t("Een blok is gehaald na twee foutloze quizzen op ten minste twaalf uur afstand, en als elke geschreven vraag een keer goed is geweest.");
     else quizTekst = t("{lengte} vragen per quiz uit een pool van {pool}.", { lengte: u.quiz.lengte, pool: pool.length }) + (st.pogingen ? t(" {n} pogingen tot nu toe.", { n: st.pogingen }) : "");
     const body = `<p class="meta">${esc(t("Blok {n} · week {week}", { n: u.volgorde, week: u.week }))}</p><h1 class="kop1">${esc(u.titel)}</h1>
       <p class="lees">${esc(u.intro)}</p>
