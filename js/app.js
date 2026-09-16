@@ -716,6 +716,22 @@ function verwarkaart() {
   </div>`;
 }
 
+/* Wat er nog ontbreekt voordat een blok van voorlopig naar gehaald gaat.
+   Geeft een lege tekst terug als er niets te melden valt. */
+function watOntbreekt(u, st) {
+  if (!st || st.staat !== "voorlopig") return "";
+  const pool = (S.pools[u.id] || []).length;
+  const mist = (st.ontbreekt || []).length;
+  if (mist) return t("nog {n} van de {van} vragen een keer goed", { n: mist, van: pool });
+  /* alle vragen zijn een keer goed geweest, dus het wachten is op de tweede
+     foutloze ronde, en die mag pas twaalf uur na de eerste */
+  const perfect = S.attempts.filter(a => a.kind === "quiz" && a.ref === u.id && a.total > 0 && a.score === a.total);
+  const laatste = perfect.length ? perfect[perfect.length - 1] : null;
+  const uren = laatste ? Math.ceil((laatste.ts + 12 * 3600000 - Date.now()) / 3600000) : 0;
+  if (uren > 0) return t("bevestigen kan over {n} uur", { n: uren });
+  return t("nog een foutloze quiz, met andere vragen");
+}
+
 const SCREENS = {
   route() {
     const u = currentUnit();
@@ -755,8 +771,9 @@ const SCREENS = {
     const body = `<h1 class="kop1">${esc(t("Leren"))}</h1>${woorden}<p class="meta" style="margin-bottom:16px">${esc(t("Zestien blokken in leervolgorde. Een blok is gehaald na twee foutloze quizzen."))}</p>${gemengd}` + S.units.map(u => {
       const st = S.states[u.id];
       const n = (S.bank[u.id] || []).length;
+      const ontbreekt = watOntbreekt(u, st);
       const label = st.staat === "beheerst" ? `<span class="staatlabel goed">${esc(t("Gehaald"))}</span>` : st.staat === "voorlopig" ? `<span class="staatlabel geel">${esc(t("Voorlopig gehaald"))}</span>` : st.staat === "vergrendeld" ? `<span class="staatlabel">${esc(t("Vergrendeld"))}</span>` : (st.staat === "lezen" || !u.quiz.gate) ? `<span class="staatlabel blauw">${esc(t("Lezen"))}</span>` : `<span class="staatlabel blauw">${esc(t("Oefenen"))}</span>`;
-      return `<a class="kaart klik" href="#/blok/${u.id}"><div class="rij"><span class="paaltje ${st.staat === "beheerst" ? "groen" : st.staat === "voorlopig" ? "half" : ""}"></span><div class="groei"><span class="bloknr">${u.volgorde}</span><strong>${esc(u.titel)}</strong><br><span class="meta">${n ? esc(t("{n} vragen · ", { n })) : ""}${esc(t("week {n}", { n: u.week }))}</span></div>${label}</div></a>`;
+      return `<a class="kaart klik" href="#/blok/${u.id}"><div class="rij"><span class="paaltje ${st.staat === "beheerst" ? "groen" : st.staat === "voorlopig" ? "half" : ""}"></span><div class="groei"><span class="bloknr">${u.volgorde}</span><strong>${esc(u.titel)}</strong><br><span class="meta">${n ? esc(t("{n} vragen · ", { n })) : ""}${esc(t("week {n}", { n: u.week }))}${ontbreekt ? " · " + esc(ontbreekt) : ""}</span></div>${label}</div></a>`;
     }).join("");
     return { titel: t("Leren"), body, onder: "tab" };
   },
@@ -775,6 +792,8 @@ const SCREENS = {
     else if (st.staat === "vergrendeld") quizTekst = t("De quiz opent als het vorige blok gehaald is.");
     else if (st.staat === "lezen") quizTekst = t("Je kunt alvast lezen. De quiz opent als het vorige blok gehaald is.");
     else if (pool.length < u.quiz.lengte) quizTekst = t("De vragen voor dit blok worden nog geschreven ({n} van {van}).", { n: pool.length, van: u.quiz.lengte });
+    /* voorlopig gehaald zonder te zeggen wat er nog moet gebeuren laat je raden */
+    else if (st.staat === "voorlopig") quizTekst = t("Voorlopig gehaald: {wat}.", { wat: watOntbreekt(u, st) }) + " " + t("Een blok is gehaald na twee foutloze quizzen op ten minste twaalf uur afstand, en als elke vraag uit de pool een keer goed is geweest.");
     else quizTekst = t("{lengte} vragen per quiz uit een pool van {pool}.", { lengte: u.quiz.lengte, pool: pool.length }) + (st.pogingen ? t(" {n} pogingen tot nu toe.", { n: st.pogingen }) : "");
     const body = `<p class="meta">${esc(t("Blok {n} · week {week}", { n: u.volgorde, week: u.week }))}</p><h1 class="kop1">${esc(u.titel)}</h1>
       <p class="lees">${esc(u.intro)}</p>
