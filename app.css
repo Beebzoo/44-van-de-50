@@ -871,3 +871,6 @@ svg.ico { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: non
 .begriprij .uit { font-size: 13px; line-height: 1.35; color: var(--inkt-2); }
 .begriprij .beeldje { flex: none; display: flex; align-items: center; color: var(--inkt-3); }
 .begriprij:active { transform: scale(.98); }
+
+/* de oefenkaart boven een naslagscherm */
+.oefenkaart { margin-bottom: 12px; }

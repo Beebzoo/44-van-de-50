@@ -209,9 +209,11 @@ async function cdp() {
     let ok = false;
     for (let i = 0; i < 60 && !ok; i++) { await sleep(250); ok = await evalJs("!!document.querySelector('main.inhoud, .scene, .klaar')"); }
     await sleep(800);
-    if (KLIK) {
-      const geraakt = await evalJs("(() => { const el = document.querySelector(" + JSON.stringify(KLIK) + "); if (!el) return false; el.click(); return true; })()");
-      console.log(geraakt ? "aangetikt: " + KLIK : "niets gevonden voor " + KLIK);
+    /* meerdere selectors achter elkaar met een puntkomma: kies een antwoord
+       en tik daarna op Controleer */
+    for (const sel of KLIK ? KLIK.split(";") : []) {
+      const geraakt = await evalJs("(() => { const el = document.querySelector(" + JSON.stringify(sel) + "); if (!el) return false; el.click(); return true; })()");
+      console.log(geraakt ? "aangetikt: " + sel : "niets gevonden voor " + sel);
       await sleep(500);
     }
     const full = await evalJs("Math.min(document.documentElement.scrollHeight, 6000)");
